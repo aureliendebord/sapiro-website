@@ -1,0 +1,122 @@
+---
+import type { Lang } from '../i18n';
+import { getLocalePath, localeFlags } from '../i18n';
+
+interface Props {
+  lang: Lang;
+  t: any;
+}
+
+const { lang, t } = Astro.props;
+const languages: Lang[] = ['fr', 'en', 'es'];
+---
+
+<header class="header">
+  <div class="container header-content">
+    <a href={getLocalePath('/', lang)} class="logo">
+      <img src="/images/icon-180.png" alt="SAPIRO" width="48" height="48" />
+      <span class="logo-text">SAPIRO</span>
+    </a>
+
+    <nav class="nav">
+      <a href={`${getLocalePath('/', lang)}#features`} class="nav-link">{t.header.features}</a>
+      <a href={`${getLocalePath('/', lang)}#download`} class="nav-link">{t.header.download}</a>
+    </nav>
+
+    <div class="lang-switcher">
+      {languages.map((l) => (
+        <a
+          href={getLocalePath('/', l)}
+          class={`lang-btn ${l === lang ? 'active' : ''}`}
+          aria-label={l === 'fr' ? 'Francais' : l === 'en' ? 'English' : 'Espanol'}
+        >
+          {localeFlags[l]}
+        </a>
+      ))}
+    </div>
+  </div>
+</header>
+
+<style>
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    z-index: 100;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  }
+
+  .header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 72px;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .logo img {
+    border-radius: 12px;
+  }
+
+  .logo-text {
+    font-weight: 800;
+    font-size: 1.5rem;
+    color: var(--orange);
+  }
+
+  .nav {
+    display: flex;
+    gap: 32px;
+  }
+
+  .nav-link {
+    font-weight: 500;
+    color: var(--noir);
+    transition: color 0.2s;
+  }
+
+  .nav-link:hover {
+    color: var(--orange);
+  }
+
+  .lang-switcher {
+    display: flex;
+    gap: 4px;
+    background: var(--gris-clair);
+    padding: 4px;
+    border-radius: 8px;
+  }
+
+  .lang-btn {
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--gris);
+    transition: all 0.2s;
+  }
+
+  .lang-btn:hover {
+    color: var(--noir);
+  }
+
+  .lang-btn.active {
+    background: var(--blanc);
+    color: var(--orange);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+
+  @media (max-width: 768px) {
+    .nav {
+      display: none;
+    }
+  }
+</style>

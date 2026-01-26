@@ -1,0 +1,191 @@
+{
+  "lang": "fr",
+  "meta": {
+    "title": "SAPIRO - Quiz Culture Generale",
+    "description": "Apprends les drapeaux, capitales et personnages historiques en t'amusant ! Application educative pour enfants et adultes."
+  },
+  "header": {
+    "home": "Accueil",
+    "features": "Fonctionnalites",
+    "download": "Telecharger"
+  },
+  "hero": {
+    "title": "Apprends en t'amusant !",
+    "subtitle": "Decouvre les drapeaux du monde, les capitales et les personnages historiques grace a des quiz ludiques et educatifs.",
+    "downloadIos": "Telecharger sur l'App Store",
+    "comingAndroid": "Bientot sur Android"
+  },
+  "features": {
+    "title": "Des quiz pour tous",
+    "subtitle": "Une experience d'apprentissage complete et divertissante",
+    "items": [
+      {
+        "icon": "flag",
+        "title": "Quiz Drapeaux",
+        "description": "Identifie les pays a partir de leurs drapeaux. 195 pays a decouvrir !",
+        "color": "orange"
+      },
+      {
+        "icon": "building",
+        "title": "Quiz Capitales",
+        "description": "Retrouve la capitale de chaque pays. Teste tes connaissances en geographie !",
+        "color": "violet"
+      },
+      {
+        "icon": "user",
+        "title": "Personnages historiques",
+        "description": "Reconnais les grands personnages de l'Histoire a partir de leurs portraits.",
+        "color": "vert"
+      },
+      {
+        "icon": "globe",
+        "title": "Parcours par continent",
+        "description": "Explore le monde region par region : Europe, Asie, Afrique, Ameriques, Oceanie.",
+        "color": "jaune"
+      },
+      {
+        "icon": "zap",
+        "title": "Mode Survie",
+        "description": "3 vies, zero erreur permise ! Jusqu'ou iras-tu ?",
+        "color": "coral"
+      },
+      {
+        "icon": "trophy",
+        "title": "Badges & Succes",
+        "description": "Debloque des badges en progressant. Collectionne-les tous !",
+        "color": "teal"
+      }
+    ]
+  },
+  "screenshots": {
+    "title": "Decouvre SAPIRO",
+    "subtitle": "Une interface coloree et intuitive"
+  },
+  "download": {
+    "title": "Pret a apprendre ?",
+    "subtitle": "Telecharge SAPIRO gratuitement et commence ton aventure !",
+    "downloadIos": "Telecharger sur l'App Store",
+    "comingAndroid": "Bientot sur Android"
+  },
+  "contact": {
+    "title": "Une question ?",
+    "subtitle": "N'hesite pas a nous contacter",
+    "name": "Nom",
+    "email": "Email",
+    "message": "Message",
+    "send": "Envoyer",
+    "namePlaceholder": "Ton nom",
+    "emailPlaceholder": "ton@email.com",
+    "messagePlaceholder": "Ton message...",
+    "success": "Message envoye avec succes !",
+    "error": "Une erreur est survenue. Reessaie plus tard."
+  },
+  "footer": {
+    "copyright": "SAPIRO. Tous droits reserves.",
+    "privacy": "Politique de confidentialite",
+    "terms": "Conditions d'utilisation",
+    "legal": "Mentions legales"
+  },
+  "privacy": {
+    "title": "Politique de confidentialite",
+    "lastUpdate": "Derniere mise a jour",
+    "intro": "Chez SAPIRO, nous respectons votre vie privee. Cette politique explique comment nous traitons vos donnees.",
+    "sections": [
+      {
+        "title": "Collecte de donnees",
+        "content": "SAPIRO ne collecte aucune donnee personnelle. Toutes vos donnees de progression (scores, badges, statistiques) sont stockees localement sur votre appareil."
+      },
+      {
+        "title": "Cookies et tracking",
+        "content": "Nous n'utilisons aucun cookie de tracking, aucun outil d'analytics, et aucun service tiers de collecte de donnees. Votre experience reste 100% privee."
+      },
+      {
+        "title": "Partage de donnees",
+        "content": "Puisque nous ne collectons aucune donnee, nous n'avons rien a partager avec des tiers. Vos informations restent sur votre appareil."
+      },
+      {
+        "title": "Donnees des enfants",
+        "content": "SAPIRO est une application educative adaptee aux enfants. Nous ne collectons aucune information sur les utilisateurs, quel que soit leur age."
+      },
+      {
+        "title": "Modifications",
+        "content": "Cette politique peut etre mise a jour. Les modifications seront publiees sur cette page avec une nouvelle date de mise a jour."
+      },
+      {
+        "title": "Contact",
+        "content": "Pour toute question concernant cette politique, contactez-nous via le formulaire de contact sur notre site."
+      }
+    ]
+  },
+  "terms": {
+    "title": "Conditions d'utilisation",
+    "lastUpdate": "Derniere mise a jour",
+    "intro": "Ce contrat de licence utilisateur final (CLUF) constitue un accord juridique entre vous et SAPIRO pour l'utilisation de l'application SAPIRO.",
+    "sections": [
+      {
+        "title": "1. Acceptation des conditions",
+        "content": "En telechargeant, installant ou utilisant l'application SAPIRO, vous acceptez d'etre lie par les presentes conditions d'utilisation. Si vous n'acceptez pas ces conditions, n'utilisez pas l'application."
+      },
+      {
+        "title": "2. Licence d'utilisation",
+        "content": "SAPIRO vous accorde une licence limitee, non exclusive, non transferable et revocable pour utiliser l'application sur vos appareils Apple, conformement aux regles d'utilisation de l'App Store. Cette licence ne vous autorise pas a copier, modifier, distribuer, vendre ou louer l'application."
+      },
+      {
+        "title": "3. Restrictions",
+        "content": "Vous vous engagez a ne pas : (a) copier ou modifier l'application ; (b) tenter de decompiler ou de proceder a une ingenierie inverse de l'application ; (c) supprimer les mentions de droits d'auteur ou de propriete ; (d) transferer l'application a une autre personne ; (e) utiliser l'application de maniere illegale ou non autorisee."
+      },
+      {
+        "title": "4. Propriete intellectuelle",
+        "content": "L'application, y compris tous les droits de propriete intellectuelle qui s'y rapportent, est et reste la propriete de SAPIRO. Ces conditions ne vous conferent aucun droit de propriete intellectuelle sur l'application."
+      },
+      {
+        "title": "5. Contenu de l'application",
+        "content": "SAPIRO est une application educative proposant des quiz de culture generale. Le contenu est fourni a titre informatif et educatif. Nous nous efforccons d'assurer l'exactitude des informations, mais ne garantissons pas qu'elles soient exemptes d'erreurs."
+      },
+      {
+        "title": "6. Mises a jour",
+        "content": "SAPIRO peut publier des mises a jour de l'application. Ces mises a jour peuvent etre necessaires pour continuer a utiliser l'application et sont soumises aux presentes conditions."
+      },
+      {
+        "title": "7. Limitation de responsabilite",
+        "content": "Dans les limites autorisees par la loi, SAPIRO ne sera pas responsable des dommages indirects, accessoires, speciaux ou consecutifs decoulant de l'utilisation ou de l'impossibilite d'utiliser l'application."
+      },
+      {
+        "title": "8. Resiliation",
+        "content": "Cette licence est effective jusqu'a sa resiliation. Vos droits en vertu de cette licence prendront fin automatiquement si vous ne respectez pas l'une de ses conditions. A la resiliation, vous devez cesser toute utilisation de l'application."
+      },
+      {
+        "title": "9. Droit applicable",
+        "content": "Ces conditions sont regies par le droit francais. Tout litige sera soumis a la competence exclusive des tribunaux de Paris, France."
+      },
+      {
+        "title": "10. Contact",
+        "content": "Pour toute question concernant ces conditions d'utilisation, contactez-nous via le formulaire de contact sur notre site web."
+      }
+    ]
+  },
+  "legal": {
+    "title": "Mentions legales",
+    "editor": "Editeur du site",
+    "editorName": "AGENCE DEBORD EURL",
+    "editorType": "Societe a responsabilite limitee unipersonnelle",
+    "capital": "Capital social : 100 000 euros",
+    "address": "9 rue des Colonnes, 75002 Paris",
+    "siren": "SIREN : 801 339 151",
+    "siret": "SIRET : 801 339 151 00038",
+    "ape": "Code APE : 6201Z",
+    "tva": "TVA intracommunautaire : FR20801339151",
+    "director": "Directeur de publication",
+    "directorName": "Aurelien Debord",
+    "host": "Hebergeur",
+    "hostName": "OVH SAS",
+    "hostAddress": "2 rue Kellermann, 59100 Roubaix, France",
+    "hostPhone": "Telephone : 1007",
+    "hostWebsite": "www.ovh.com",
+    "intellectualProperty": "Propriete intellectuelle",
+    "intellectualPropertyText": "L'ensemble du contenu de ce site (textes, images, videos, logos, graphismes, icones, etc.) est la propriete exclusive de l'Agence Debord ou de ses partenaires et est protege par les lois francaises et internationales relatives a la propriete intellectuelle. Toute reproduction, representation, modification, publication ou adaptation de tout ou partie des elements du site est interdite sans autorisation ecrite prealable de l'Agence Debord.",
+    "personalData": "Donnees personnelles",
+    "personalDataText": "Ce site ne collecte aucune donnee personnelle et n'utilise pas de cookies.",
+    "close": "Fermer"
+  }
+}

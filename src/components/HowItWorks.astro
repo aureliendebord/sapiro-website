@@ -1,0 +1,260 @@
+---
+import type { Lang } from '../i18n';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+
+const content = {
+  fr: {
+    title: "Comment ca marche ?",
+    subtitle: "3 etapes pour devenir incollable",
+    steps: [
+      {
+        number: "1",
+        title: "Choisis ton quiz",
+        description: "Drapeaux, capitales ou personnages historiques. A toi de choisir !",
+        emoji: "🎯"
+      },
+      {
+        number: "2",
+        title: "Reponds aux questions",
+        description: "10 questions par quiz. Chaque bonne reponse te rapporte des points !",
+        emoji: "🧠"
+      },
+      {
+        number: "3",
+        title: "Progresse et debloque",
+        description: "Gagne des badges, ameliore ton score et deviens un expert !",
+        emoji: "🏆"
+      }
+    ]
+  },
+  en: {
+    title: "How does it work?",
+    subtitle: "3 steps to become an expert",
+    steps: [
+      {
+        number: "1",
+        title: "Choose your quiz",
+        description: "Flags, capitals or historical figures. You choose!",
+        emoji: "🎯"
+      },
+      {
+        number: "2",
+        title: "Answer questions",
+        description: "10 questions per quiz. Each correct answer earns you points!",
+        emoji: "🧠"
+      },
+      {
+        number: "3",
+        title: "Progress and unlock",
+        description: "Earn badges, improve your score and become an expert!",
+        emoji: "🏆"
+      }
+    ]
+  },
+  es: {
+    title: "Como funciona?",
+    subtitle: "3 pasos para convertirte en experto",
+    steps: [
+      {
+        number: "1",
+        title: "Elige tu quiz",
+        description: "Banderas, capitales o personajes historicos. Tu eliges!",
+        emoji: "🎯"
+      },
+      {
+        number: "2",
+        title: "Responde preguntas",
+        description: "10 preguntas por quiz. Cada respuesta correcta te da puntos!",
+        emoji: "🧠"
+      },
+      {
+        number: "3",
+        title: "Progresa y desbloquea",
+        description: "Gana insignias, mejora tu puntuacion y conviertete en experto!",
+        emoji: "🏆"
+      }
+    ]
+  }
+};
+
+const t = content[lang];
+---
+
+<section class="how-it-works section">
+  <div class="container">
+    <div class="section-header">
+      <h2>{t.title}</h2>
+      <p class="section-subtitle">{t.subtitle}</p>
+    </div>
+
+    <div class="steps-container">
+      {t.steps.map((step, index) => (
+        <div class="step" style={`--step-delay: ${index * 0.1}s`}>
+          <div class="step-number">{step.number}</div>
+          <div class="step-emoji">{step.emoji}</div>
+          <h3>{step.title}</h3>
+          <p>{step.description}</p>
+          {index < t.steps.length - 1 && <div class="step-connector" />}
+        </div>
+      ))}
+    </div>
+
+    <!-- Mascotte -->
+    <div class="mascot-container">
+      <img src="/images/icon-180.png" alt="SAPIRO Mascot" class="mascot" />
+      <div class="mascot-speech">
+        <span>{lang === 'fr' ? 'Pret a jouer ?' : lang === 'en' ? 'Ready to play?' : 'Listo para jugar?'}</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .how-it-works {
+    background: var(--gris-clair);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .section-header {
+    text-align: center;
+    margin-bottom: 64px;
+  }
+
+  .section-header h2 {
+    margin-bottom: 16px;
+  }
+
+  .section-subtitle {
+    font-size: 1.25rem;
+    color: var(--gris);
+  }
+
+  .steps-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 48px;
+    position: relative;
+  }
+
+  .step {
+    text-align: center;
+    position: relative;
+    padding: 32px 24px;
+    background: var(--blanc);
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+
+  .step:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--shadow-lg);
+  }
+
+  .step-number {
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40px;
+    height: 40px;
+    background: var(--orange);
+    color: var(--blanc);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 1.25rem;
+    box-shadow: 0 4px 12px rgba(255, 107, 53, 0.3);
+  }
+
+  .step-emoji {
+    font-size: 3rem;
+    margin: 16px 0;
+  }
+
+  .step h3 {
+    margin-bottom: 12px;
+    color: var(--noir);
+  }
+
+  .step p {
+    color: var(--gris);
+    line-height: 1.6;
+  }
+
+  .step-connector {
+    display: none;
+  }
+
+  /* Mascotte */
+  .mascot-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 64px;
+    position: relative;
+  }
+
+  .mascot {
+    width: 120px;
+    height: 120px;
+    border-radius: 28px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    animation: mascotBounce 2s ease-in-out infinite;
+  }
+
+  @keyframes mascotBounce {
+    0%, 100% { transform: translateY(0) rotate(-3deg); }
+    50% { transform: translateY(-10px) rotate(3deg); }
+  }
+
+  .mascot-speech {
+    margin-top: 16px;
+    background: var(--orange);
+    color: var(--blanc);
+    padding: 12px 24px;
+    border-radius: 20px;
+    font-weight: 600;
+    position: relative;
+    animation: fadeInUp 0.5s ease-out;
+  }
+
+  .mascot-speech::before {
+    content: '';
+    position: absolute;
+    top: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid var(--orange);
+  }
+
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @media (max-width: 968px) {
+    .steps-container {
+      grid-template-columns: 1fr;
+      gap: 48px;
+      max-width: 400px;
+      margin: 0 auto;
+    }
+  }
+</style>

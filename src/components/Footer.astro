@@ -1,0 +1,334 @@
+---
+import type { Lang } from '../i18n';
+import { getLocalePath, localeFlags } from '../i18n';
+
+interface Props {
+  lang: Lang;
+  t: any;
+}
+
+const { lang, t } = Astro.props;
+const languages: Lang[] = ['fr', 'en', 'es'];
+const currentYear = new Date().getFullYear();
+---
+
+<footer class="footer">
+  <div class="container footer-content">
+    <div class="footer-brand">
+      <a href={getLocalePath('/', lang)} class="footer-logo">
+        <img src="/images/icon-180.png" alt="SAPIRO" width="40" height="40" />
+        <span>SAPIRO</span>
+      </a>
+      <p class="footer-tagline">Quiz Culture Generale</p>
+    </div>
+
+    <div class="footer-links">
+      <a href={getLocalePath('/privacy', lang)} class="footer-link">{t.footer.privacy}</a>
+      <a href={getLocalePath('/terms', lang)} class="footer-link">{t.footer.terms}</a>
+      <button type="button" class="footer-link" id="open-legal-modal">{t.footer.legal}</button>
+    </div>
+
+    <div class="footer-lang">
+      {languages.map((l) => (
+        <a
+          href={getLocalePath('/', l)}
+          class={`lang-link ${l === lang ? 'active' : ''}`}
+        >
+          {localeFlags[l]}
+        </a>
+      ))}
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="container">
+      <p>&copy; {currentYear} {t.footer.copyright}</p>
+    </div>
+  </div>
+</footer>
+
+<!-- Legal Modal -->
+<div class="modal-overlay" id="legal-modal" aria-hidden="true">
+  <div class="modal" role="dialog" aria-labelledby="legal-title">
+    <button type="button" class="modal-close" id="close-legal-modal" aria-label={t.legal.close}>
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <line x1="18" y1="6" x2="6" y2="18"/>
+        <line x1="6" y1="6" x2="18" y2="18"/>
+      </svg>
+    </button>
+
+    <h2 id="legal-title">{t.legal.title}</h2>
+
+    <div class="modal-content">
+      <div class="legal-section">
+        <h3>{t.legal.editor}</h3>
+        <p><strong>{t.legal.editorName}</strong></p>
+        <p>{t.legal.editorType}</p>
+        <p>{t.legal.capital}</p>
+        <p>{t.legal.address}</p>
+        <p>{t.legal.siren}</p>
+        <p>{t.legal.siret}</p>
+        <p>{t.legal.ape}</p>
+        <p>{t.legal.tva}</p>
+      </div>
+
+      <div class="legal-section">
+        <h3>{t.legal.director}</h3>
+        <p>{t.legal.directorName}</p>
+      </div>
+
+      <div class="legal-section">
+        <h3>{t.legal.host}</h3>
+        <p><strong>{t.legal.hostName}</strong></p>
+        <p>{t.legal.hostAddress}</p>
+        <p>{t.legal.hostPhone}</p>
+        <p>{t.legal.hostWebsite}</p>
+      </div>
+
+      <div class="legal-section">
+        <h3>{t.legal.intellectualProperty}</h3>
+        <p>{t.legal.intellectualPropertyText}</p>
+      </div>
+
+      <div class="legal-section">
+        <h3>{t.legal.personalData}</h3>
+        <p>{t.legal.personalDataText}</p>
+      </div>
+    </div>
+
+    <button type="button" class="btn btn-orange modal-close-btn" id="close-legal-btn">
+      {t.legal.close}
+    </button>
+  </div>
+</div>
+
+<script>
+  const modal = document.getElementById('legal-modal');
+  const openBtn = document.getElementById('open-legal-modal');
+  const closeBtn = document.getElementById('close-legal-modal');
+  const closeBtnBottom = document.getElementById('close-legal-btn');
+
+  function openModal() {
+    modal?.setAttribute('aria-hidden', 'false');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeModal() {
+    modal?.setAttribute('aria-hidden', 'true');
+    document.body.style.overflow = '';
+  }
+
+  openBtn?.addEventListener('click', openModal);
+  closeBtn?.addEventListener('click', closeModal);
+  closeBtnBottom?.addEventListener('click', closeModal);
+
+  modal?.addEventListener('click', (e) => {
+    if (e.target === modal) closeModal();
+  });
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && modal?.getAttribute('aria-hidden') === 'false') {
+      closeModal();
+    }
+  });
+</script>
+
+<style>
+  .footer {
+    background: var(--noir);
+    color: var(--blanc);
+  }
+
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 24px;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+
+  .footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-weight: 700;
+    font-size: 1.25rem;
+  }
+
+  .footer-logo img {
+    border-radius: 8px;
+  }
+
+  .footer-tagline {
+    margin-top: 8px;
+    opacity: 0.7;
+    font-size: 14px;
+  }
+
+  .footer-links {
+    display: flex;
+    gap: 32px;
+  }
+
+  .footer-link {
+    color: var(--blanc);
+    opacity: 0.8;
+    transition: opacity 0.2s;
+    background: none;
+    border: none;
+    font-size: inherit;
+    cursor: pointer;
+  }
+
+  .footer-link:hover {
+    opacity: 1;
+  }
+
+  .footer-lang {
+    display: flex;
+    gap: 8px;
+  }
+
+  .lang-link {
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    opacity: 0.6;
+    transition: opacity 0.2s, background 0.2s;
+  }
+
+  .lang-link:hover {
+    opacity: 1;
+  }
+
+  .lang-link.active {
+    opacity: 1;
+    background: rgba(255, 255, 255, 0.1);
+  }
+
+  .footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 20px 24px;
+    text-align: center;
+    font-size: 14px;
+    opacity: 0.7;
+  }
+
+  .footer-bottom .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .made-with {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+
+  /* Modal Styles */
+  .modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(4px);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+  }
+
+  .modal-overlay[aria-hidden="false"] {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .modal {
+    background: var(--blanc);
+    color: var(--noir);
+    border-radius: var(--border-radius);
+    max-width: 500px;
+    width: 100%;
+    max-height: 90vh;
+    overflow-y: auto;
+    padding: 32px;
+    position: relative;
+    transform: scale(0.95);
+    transition: transform 0.3s;
+  }
+
+  .modal-overlay[aria-hidden="false"] .modal {
+    transform: scale(1);
+  }
+
+  .modal-close {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    padding: 8px;
+    border-radius: 8px;
+    color: var(--gris);
+    transition: background 0.2s, color 0.2s;
+  }
+
+  .modal-close:hover {
+    background: var(--gris-clair);
+    color: var(--noir);
+  }
+
+  .modal h2 {
+    margin-bottom: 24px;
+    font-size: 1.5rem;
+  }
+
+  .modal-content {
+    margin-bottom: 24px;
+  }
+
+  .legal-section {
+    margin-bottom: 24px;
+  }
+
+  .legal-section:last-child {
+    margin-bottom: 0;
+  }
+
+  .legal-section h3 {
+    font-size: 1rem;
+    color: var(--orange);
+    margin-bottom: 8px;
+  }
+
+  .legal-section p {
+    color: var(--gris);
+    line-height: 1.6;
+  }
+
+  .modal-close-btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  @media (max-width: 768px) {
+    .footer-content {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .footer-links {
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .footer-bottom .container {
+      flex-direction: column;
+    }
+  }
+</style>

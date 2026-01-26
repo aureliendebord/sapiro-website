@@ -1,0 +1,244 @@
+---
+import type { Lang } from '../i18n';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+
+const content = {
+  fr: {
+    title: "Pour qui ?",
+    subtitle: "Une app pour toute la famille",
+    audiences: [
+      {
+        emoji: "👧",
+        title: "Les enfants",
+        description: "Apprendre en s'amusant, c'est plus facile ! Parfait des 6 ans.",
+        color: "violet"
+      },
+      {
+        emoji: "🧑‍🎓",
+        title: "Les etudiants",
+        description: "Revise ta geographie et ton histoire de maniere ludique.",
+        color: "teal"
+      },
+      {
+        emoji: "👨‍👩‍👧‍👦",
+        title: "Les familles",
+        description: "Defie tes proches et decouvrez ensemble le monde !",
+        color: "orange"
+      },
+      {
+        emoji: "🧠",
+        title: "Les curieux",
+        description: "Entraine ta memoire et enrichis ta culture generale.",
+        color: "jaune"
+      }
+    ]
+  },
+  en: {
+    title: "Who is it for?",
+    subtitle: "An app for the whole family",
+    audiences: [
+      {
+        emoji: "👧",
+        title: "Children",
+        description: "Learning while having fun is easier! Perfect from age 6.",
+        color: "violet"
+      },
+      {
+        emoji: "🧑‍🎓",
+        title: "Students",
+        description: "Review your geography and history in a fun way.",
+        color: "teal"
+      },
+      {
+        emoji: "👨‍👩‍👧‍👦",
+        title: "Families",
+        description: "Challenge your loved ones and discover the world together!",
+        color: "orange"
+      },
+      {
+        emoji: "🧠",
+        title: "Curious minds",
+        description: "Train your memory and enrich your general knowledge.",
+        color: "jaune"
+      }
+    ]
+  },
+  es: {
+    title: "Para quien?",
+    subtitle: "Una app para toda la familia",
+    audiences: [
+      {
+        emoji: "👧",
+        title: "Los ninos",
+        description: "Aprender divirtiendose es mas facil! Perfecto desde los 6 anos.",
+        color: "violet"
+      },
+      {
+        emoji: "🧑‍🎓",
+        title: "Los estudiantes",
+        description: "Repasa tu geografia e historia de forma ludica.",
+        color: "teal"
+      },
+      {
+        emoji: "👨‍👩‍👧‍👦",
+        title: "Las familias",
+        description: "Desafia a tus seres queridos y descubran el mundo juntos!",
+        color: "orange"
+      },
+      {
+        emoji: "🧠",
+        title: "Los curiosos",
+        description: "Entrena tu memoria y enriquece tu cultura general.",
+        color: "jaune"
+      }
+    ]
+  }
+};
+
+const t = content[lang];
+
+const colorMap: Record<string, string> = {
+  orange: 'var(--orange)',
+  violet: 'var(--violet)',
+  teal: 'var(--teal)',
+  jaune: 'var(--jaune)'
+};
+---
+
+<section class="for-who section">
+  <div class="container">
+    <div class="section-header">
+      <h2>{t.title}</h2>
+      <p class="section-subtitle">{t.subtitle}</p>
+    </div>
+
+    <div class="audiences-grid">
+      {t.audiences.map((audience) => (
+        <div class="audience-card" style={`--card-color: ${colorMap[audience.color]}`}>
+          <div class="audience-emoji">{audience.emoji}</div>
+          <h3>{audience.title}</h3>
+          <p>{audience.description}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+
+  <!-- Éléments décoratifs -->
+  <div class="deco-blob deco-blob-1"></div>
+  <div class="deco-blob deco-blob-2"></div>
+</section>
+
+<style>
+  .for-who {
+    background: linear-gradient(180deg, var(--gris-clair) 0%, var(--blanc) 100%);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .section-header {
+    text-align: center;
+    margin-bottom: 64px;
+  }
+
+  .section-header h2 {
+    margin-bottom: 16px;
+  }
+
+  .section-subtitle {
+    font-size: 1.25rem;
+    color: var(--gris);
+  }
+
+  .audiences-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+  }
+
+  .audience-card {
+    background: var(--blanc);
+    padding: 32px 24px;
+    border-radius: var(--border-radius);
+    text-align: center;
+    box-shadow: var(--shadow);
+    transition: transform 0.3s, box-shadow 0.3s;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .audience-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: var(--card-color);
+  }
+
+  .audience-card:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--shadow-lg);
+  }
+
+  .audience-emoji {
+    font-size: 3.5rem;
+    margin-bottom: 16px;
+    display: block;
+  }
+
+  .audience-card h3 {
+    margin-bottom: 12px;
+    color: var(--noir);
+    font-size: 1.25rem;
+  }
+
+  .audience-card p {
+    color: var(--gris);
+    line-height: 1.6;
+    font-size: 0.95rem;
+  }
+
+  /* Blobs décoratifs */
+  .deco-blob {
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.1;
+    pointer-events: none;
+  }
+
+  .deco-blob-1 {
+    width: 400px;
+    height: 400px;
+    background: var(--violet);
+    top: -100px;
+    right: -100px;
+  }
+
+  .deco-blob-2 {
+    width: 300px;
+    height: 300px;
+    background: var(--orange);
+    bottom: -50px;
+    left: -50px;
+  }
+
+  @media (max-width: 1024px) {
+    .audiences-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 640px) {
+    .audiences-grid {
+      grid-template-columns: 1fr;
+      max-width: 400px;
+      margin: 0 auto;
+    }
+  }
+</style>

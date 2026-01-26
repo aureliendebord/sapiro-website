@@ -1,0 +1,469 @@
+---
+import type { Lang } from '../i18n';
+
+interface Props {
+  lang: Lang;
+  t: any;
+}
+
+const { lang, t } = Astro.props;
+
+// Drapeaux emoji pour l'animation
+const flags = [
+  '🇫🇷', '🇯🇵', '🇧🇷', '🇬🇧', '🇮🇹', '🇪🇸', '🇩🇪', '🇨🇦',
+  '🇦🇺', '🇲🇽', '🇰🇷', '🇮🇳', '🇿🇦', '🇸🇪', '🇳🇴', '🇵🇹',
+  '🇳🇱', '🇧🇪', '🇨🇭', '🇦🇷', '🇪🇬', '🇲🇦', '🇹🇷', '🇬🇷'
+];
+---
+
+<section class="hero">
+  <!-- Drapeaux flottants en arrière-plan -->
+  <div class="flags-container" aria-hidden="true">
+    {flags.map((flag, i) => (
+      <span
+        class="floating-flag"
+        style={`--delay: ${i * 0.3}s; --x: ${5 + (i % 8) * 12}%; --y: ${10 + Math.floor(i / 8) * 30}%; --duration: ${3 + (i % 3)}s;`}
+      >
+        {flag}
+      </span>
+    ))}
+  </div>
+
+  <div class="container hero-content">
+    <div class="hero-text">
+      <div class="hero-badge">
+        <span class="badge-icon">🎓</span>
+        <span class="badge-text">{lang === 'fr' ? 'App educative' : lang === 'en' ? 'Educational App' : 'App educativa'}</span>
+      </div>
+
+      <h1 class="hero-title">{t.hero.title}</h1>
+      <p class="hero-subtitle">{t.hero.subtitle}</p>
+
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-number">195</span>
+          <span class="stat-label">{lang === 'fr' ? 'Pays' : lang === 'en' ? 'Countries' : 'Países'}</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number">500+</span>
+          <span class="stat-label">{lang === 'fr' ? 'Personnages' : lang === 'en' ? 'Figures' : 'Personajes'}</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number">3</span>
+          <span class="stat-label">{lang === 'fr' ? 'Modes de jeu' : lang === 'en' ? 'Game modes' : 'Modos de juego'}</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number">∞</span>
+          <span class="stat-label">{lang === 'fr' ? 'Quiz' : 'Quizzes'}</span>
+        </div>
+      </div>
+
+      <div class="hero-buttons">
+        <a href="#" class="btn btn-primary store-btn">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M18.71 19.5C17.88 20.74 17 21.95 15.66 21.97C14.32 22 13.89 21.18 12.37 21.18C10.84 21.18 10.37 21.95 9.09997 22C7.78997 22.05 6.79997 20.68 5.95997 19.47C4.24997 17 2.93997 12.45 4.69997 9.39C5.56997 7.87 7.12997 6.91 8.81997 6.88C10.1 6.86 11.32 7.75 12.11 7.75C12.89 7.75 14.37 6.68 15.92 6.84C16.57 6.87 18.39 7.1 19.56 8.82C19.47 8.88 17.39 10.1 17.41 12.63C17.44 15.65 20.06 16.66 20.09 16.67C20.06 16.74 19.67 18.11 18.71 19.5ZM13 3.5C13.73 2.67 14.94 2.04 15.94 2C16.07 3.17 15.6 4.35 14.9 5.19C14.21 6.04 13.07 6.7 11.95 6.61C11.8 5.46 12.36 4.26 13 3.5Z"/>
+          </svg>
+          <span>{t.hero.downloadIos}</span>
+        </a>
+
+        <span class="btn btn-secondary coming-soon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M17.523 2H6.477C5.768 2 5.143 2.447 4.896 3.105L2.105 10.895C2.036 11.079 2 11.273 2 11.469V20C2 21.103 2.897 22 4 22H20C21.103 22 22 21.103 22 20V11.469C22 11.273 21.964 11.079 21.895 10.895L19.104 3.105C18.857 2.447 18.232 2 17.523 2ZM12 17C10.346 17 9 15.654 9 14C9 12.346 10.346 11 12 11C13.654 11 15 12.346 15 14C15 15.654 13.654 17 12 17ZM4.619 10L6.477 4H17.523L19.381 10H4.619Z"/>
+          </svg>
+          <span>{t.hero.comingAndroid}</span>
+        </span>
+      </div>
+    </div>
+
+    <div class="hero-mockup">
+      <div class="phone-wrapper">
+        <!-- Cercles décoratifs -->
+        <div class="deco-circle deco-circle-1"></div>
+        <div class="deco-circle deco-circle-2"></div>
+        <div class="deco-circle deco-circle-3"></div>
+
+        <div class="phone-frame animate-float">
+          <div class="phone-slideshow">
+            <img
+              src={`/images/screenshots/${lang}/01.png`}
+              alt="Quiz Drapeaux"
+              class="phone-screen slide"
+              loading="eager"
+            />
+            <img
+              src={`/images/screenshots/${lang}/02.png`}
+              alt="Quiz Capitales"
+              class="phone-screen slide"
+              loading="eager"
+            />
+            <img
+              src={`/images/screenshots/${lang}/05.png`}
+              alt="Personnages Historiques"
+              class="phone-screen slide"
+              loading="eager"
+            />
+          </div>
+        </div>
+
+        <!-- Petits drapeaux autour du téléphone -->
+        <span class="phone-flag flag-1">🇫🇷</span>
+        <span class="phone-flag flag-2">🇯🇵</span>
+        <span class="phone-flag flag-3">🇧🇷</span>
+        <span class="phone-flag flag-4">🇬🇧</span>
+        <span class="phone-flag flag-5">🇮🇹</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Vague décorative en bas -->
+  <div class="hero-wave">
+    <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+      <path d="M0 120L60 105C120 90 240 60 360 45C480 30 600 30 720 37.5C840 45 960 60 1080 67.5C1200 75 1320 75 1380 75L1440 75V120H1380C1320 120 1200 120 1080 120C960 120 840 120 720 120C600 120 480 120 360 120C240 120 120 120 60 120H0Z" fill="#F3F4F6"/>
+    </svg>
+  </div>
+</section>
+
+<style>
+  .hero {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-top: 72px;
+    overflow: hidden;
+    background: linear-gradient(135deg, var(--orange) 0%, #FF8F5C 50%, var(--jaune) 100%);
+  }
+
+  /* Drapeaux flottants */
+  .flags-container {
+    position: absolute;
+    inset: 0;
+    overflow: hidden;
+    pointer-events: none;
+  }
+
+  .floating-flag {
+    position: absolute;
+    font-size: clamp(1.5rem, 3vw, 2.5rem);
+    left: var(--x);
+    top: var(--y);
+    opacity: 0.15;
+    animation: floatFlag var(--duration) ease-in-out infinite;
+    animation-delay: var(--delay);
+    filter: grayscale(20%);
+  }
+
+  @keyframes floatFlag {
+    0%, 100% {
+      transform: translateY(0) rotate(-5deg);
+    }
+    50% {
+      transform: translateY(-20px) rotate(5deg);
+    }
+  }
+
+  .hero-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 48px;
+    align-items: center;
+    padding: 48px 24px;
+    position: relative;
+    z-index: 10;
+  }
+
+  .hero-text {
+    color: var(--blanc);
+  }
+
+  /* Badge */
+  .hero-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    padding: 8px 16px;
+    border-radius: 50px;
+    margin-bottom: 24px;
+    font-weight: 500;
+    font-size: 14px;
+  }
+
+  .badge-icon {
+    font-size: 18px;
+  }
+
+  .hero-title {
+    font-size: clamp(2.5rem, 5vw, 4rem);
+    margin-bottom: 24px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    line-height: 1.1;
+  }
+
+  .hero-subtitle {
+    font-size: 1.25rem;
+    opacity: 0.95;
+    margin-bottom: 32px;
+    line-height: 1.7;
+  }
+
+  /* Stats */
+  .hero-stats {
+    display: inline-flex;
+    gap: 32px;
+    margin-bottom: 40px;
+    padding: 20px 28px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  .stat {
+    text-align: center;
+  }
+
+  .stat-number {
+    display: block;
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 1;
+    margin-bottom: 4px;
+  }
+
+  .stat-label {
+    font-size: 14px;
+    opacity: 0.9;
+  }
+
+  .hero-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+
+  .store-btn {
+    background: var(--noir);
+    color: var(--blanc);
+  }
+
+  .coming-soon {
+    background: rgba(255, 255, 255, 0.2);
+    color: var(--blanc);
+    cursor: default;
+  }
+
+  .coming-soon:hover {
+    transform: none;
+    box-shadow: none;
+  }
+
+  /* Mockup */
+  .hero-mockup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .phone-wrapper {
+    position: relative;
+  }
+
+  /* Cercles décoratifs */
+  .deco-circle {
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+  }
+
+  .deco-circle-1 {
+    width: 400px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: pulse 4s ease-in-out infinite;
+  }
+
+  .deco-circle-2 {
+    width: 500px;
+    height: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: pulse 4s ease-in-out infinite 0.5s;
+    opacity: 0.5;
+  }
+
+  .deco-circle-3 {
+    width: 600px;
+    height: 600px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: pulse 4s ease-in-out infinite 1s;
+    opacity: 0.3;
+  }
+
+  @keyframes pulse {
+    0%, 100% { transform: translate(-50%, -50%) scale(1); opacity: 0.3; }
+    50% { transform: translate(-50%, -50%) scale(1.05); opacity: 0.5; }
+  }
+
+  .phone-frame {
+    position: relative;
+    width: 280px;
+    background: #1a1a1a;
+    border-radius: 40px;
+    padding: 12px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.4);
+    z-index: 10;
+  }
+
+  .phone-slideshow {
+    position: relative;
+    width: 100%;
+    border-radius: 32px;
+    overflow: hidden;
+  }
+
+  .phone-screen {
+    border-radius: 32px;
+    width: 100%;
+    height: auto;
+  }
+
+  .phone-screen.slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    animation: slideshow 18s ease-in-out infinite;
+  }
+
+  .phone-screen.slide:nth-child(1) {
+    position: relative;
+    animation-delay: 0s;
+  }
+
+  .phone-screen.slide:nth-child(2) {
+    animation-delay: 6s;
+  }
+
+  .phone-screen.slide:nth-child(3) {
+    animation-delay: 12s;
+  }
+
+  @keyframes slideshow {
+    0% {
+      opacity: 0;
+      transform: scale(0.95);
+    }
+    6% {
+      opacity: 1;
+      transform: scale(1);
+    }
+    28% {
+      opacity: 1;
+      transform: scale(1);
+    }
+    34% {
+      opacity: 0;
+      transform: scale(0.95);
+    }
+    100% {
+      opacity: 0;
+      transform: scale(0.95);
+    }
+  }
+
+  /* Drapeaux autour du téléphone */
+  .phone-flag {
+    position: absolute;
+    font-size: 2rem;
+    animation: bounce 2s ease-in-out infinite;
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
+    z-index: 20;
+  }
+
+  .flag-1 { top: 10%; left: -20%; animation-delay: 0s; }
+  .flag-2 { top: 5%; right: -15%; animation-delay: 0.3s; }
+  .flag-3 { top: 50%; left: -25%; animation-delay: 0.6s; }
+  .flag-4 { top: 45%; right: -20%; animation-delay: 0.9s; }
+  .flag-5 { bottom: 15%; left: -15%; animation-delay: 1.2s; }
+
+  @keyframes bounce {
+    0%, 100% { transform: translateY(0) scale(1); }
+    50% { transform: translateY(-10px) scale(1.1); }
+  }
+
+  /* Vague */
+  .hero-wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    line-height: 0;
+  }
+
+  .hero-wave svg {
+    width: 100%;
+    height: 80px;
+  }
+
+  @media (max-width: 968px) {
+    .hero-content {
+      grid-template-columns: 1fr;
+      text-align: center;
+    }
+
+    .hero-stats {
+      justify-content: center;
+    }
+
+    .hero-buttons {
+      justify-content: center;
+    }
+
+    .hero-mockup {
+      order: -1;
+    }
+
+    .phone-frame {
+      width: 220px;
+    }
+
+    .deco-circle-1 { width: 300px; height: 300px; }
+    .deco-circle-2 { width: 380px; height: 380px; }
+    .deco-circle-3 { width: 460px; height: 460px; }
+
+    .phone-flag {
+      font-size: 1.5rem;
+    }
+
+    .floating-flag {
+      opacity: 0.1;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .hero-stats {
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .hero-buttons {
+      flex-direction: column;
+      align-items: stretch;
+    }
+
+    .btn {
+      justify-content: center;
+    }
+
+    .phone-flag {
+      display: none;
+    }
+  }
+</style>

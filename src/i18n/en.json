@@ -1,0 +1,191 @@
+{
+  "lang": "en",
+  "meta": {
+    "title": "SAPIRO - General Knowledge Quiz",
+    "description": "Learn flags, capitals and historical figures while having fun! Educational app for children and adults."
+  },
+  "header": {
+    "home": "Home",
+    "features": "Features",
+    "download": "Download"
+  },
+  "hero": {
+    "title": "Learn while having fun!",
+    "subtitle": "Discover world flags, capitals and historical figures through fun and educational quizzes.",
+    "downloadIos": "Download on the App Store",
+    "comingAndroid": "Coming soon on Android"
+  },
+  "features": {
+    "title": "Quizzes for everyone",
+    "subtitle": "A complete and entertaining learning experience",
+    "items": [
+      {
+        "icon": "flag",
+        "title": "Flag Quiz",
+        "description": "Identify countries from their flags. 195 countries to discover!",
+        "color": "orange"
+      },
+      {
+        "icon": "building",
+        "title": "Capital Quiz",
+        "description": "Find the capital of each country. Test your geography knowledge!",
+        "color": "violet"
+      },
+      {
+        "icon": "user",
+        "title": "Historical Figures",
+        "description": "Recognize great historical figures from their portraits.",
+        "color": "vert"
+      },
+      {
+        "icon": "globe",
+        "title": "Explore by Continent",
+        "description": "Explore the world region by region: Europe, Asia, Africa, Americas, Oceania.",
+        "color": "jaune"
+      },
+      {
+        "icon": "zap",
+        "title": "Survival Mode",
+        "description": "3 lives, no mistakes allowed! How far will you go?",
+        "color": "coral"
+      },
+      {
+        "icon": "trophy",
+        "title": "Badges & Achievements",
+        "description": "Unlock badges as you progress. Collect them all!",
+        "color": "teal"
+      }
+    ]
+  },
+  "screenshots": {
+    "title": "Discover SAPIRO",
+    "subtitle": "A colorful and intuitive interface"
+  },
+  "download": {
+    "title": "Ready to learn?",
+    "subtitle": "Download SAPIRO for free and start your adventure!",
+    "downloadIos": "Download on the App Store",
+    "comingAndroid": "Coming soon on Android"
+  },
+  "contact": {
+    "title": "Got a question?",
+    "subtitle": "Feel free to contact us",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send",
+    "namePlaceholder": "Your name",
+    "emailPlaceholder": "your@email.com",
+    "messagePlaceholder": "Your message...",
+    "success": "Message sent successfully!",
+    "error": "An error occurred. Please try again later."
+  },
+  "footer": {
+    "copyright": "SAPIRO. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "legal": "Legal Notice"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdate": "Last updated",
+    "intro": "At SAPIRO, we respect your privacy. This policy explains how we handle your data.",
+    "sections": [
+      {
+        "title": "Data Collection",
+        "content": "SAPIRO does not collect any personal data. All your progress data (scores, badges, statistics) are stored locally on your device."
+      },
+      {
+        "title": "Cookies and Tracking",
+        "content": "We do not use any tracking cookies, analytics tools, or third-party data collection services. Your experience remains 100% private."
+      },
+      {
+        "title": "Data Sharing",
+        "content": "Since we do not collect any data, we have nothing to share with third parties. Your information stays on your device."
+      },
+      {
+        "title": "Children's Data",
+        "content": "SAPIRO is an educational application suitable for children. We do not collect any information about users, regardless of their age."
+      },
+      {
+        "title": "Changes",
+        "content": "This policy may be updated. Changes will be posted on this page with a new update date."
+      },
+      {
+        "title": "Contact",
+        "content": "For any questions about this policy, contact us via the contact form on our website."
+      }
+    ]
+  },
+  "terms": {
+    "title": "Terms of Use",
+    "lastUpdate": "Last updated",
+    "intro": "This End User License Agreement (EULA) is a legal agreement between you and SAPIRO for the use of the SAPIRO application.",
+    "sections": [
+      {
+        "title": "1. Acceptance of Terms",
+        "content": "By downloading, installing, or using the SAPIRO application, you agree to be bound by these terms of use. If you do not agree to these terms, do not use the application."
+      },
+      {
+        "title": "2. License Grant",
+        "content": "SAPIRO grants you a limited, non-exclusive, non-transferable, revocable license to use the application on your Apple devices in accordance with the App Store usage rules. This license does not allow you to copy, modify, distribute, sell, or rent the application."
+      },
+      {
+        "title": "3. Restrictions",
+        "content": "You agree not to: (a) copy or modify the application; (b) attempt to decompile or reverse engineer the application; (c) remove any copyright or proprietary notices; (d) transfer the application to another person; (e) use the application in any unlawful or unauthorized manner."
+      },
+      {
+        "title": "4. Intellectual Property",
+        "content": "The application, including all intellectual property rights therein, is and remains the property of SAPIRO. These terms do not grant you any intellectual property rights in the application."
+      },
+      {
+        "title": "5. Application Content",
+        "content": "SAPIRO is an educational application offering general knowledge quizzes. The content is provided for informational and educational purposes. We strive to ensure the accuracy of the information but do not guarantee that it is error-free."
+      },
+      {
+        "title": "6. Updates",
+        "content": "SAPIRO may release updates to the application. These updates may be required to continue using the application and are subject to these terms."
+      },
+      {
+        "title": "7. Limitation of Liability",
+        "content": "To the extent permitted by law, SAPIRO shall not be liable for any indirect, incidental, special, or consequential damages arising from the use or inability to use the application."
+      },
+      {
+        "title": "8. Termination",
+        "content": "This license is effective until terminated. Your rights under this license will terminate automatically if you fail to comply with any of its terms. Upon termination, you must cease all use of the application."
+      },
+      {
+        "title": "9. Governing Law",
+        "content": "These terms are governed by French law. Any disputes shall be subject to the exclusive jurisdiction of the courts of Paris, France."
+      },
+      {
+        "title": "10. Contact",
+        "content": "For any questions regarding these terms of use, contact us via the contact form on our website."
+      }
+    ]
+  },
+  "legal": {
+    "title": "Legal Notice",
+    "editor": "Website Publisher",
+    "editorName": "AGENCE DEBORD EURL",
+    "editorType": "Single-member limited liability company",
+    "capital": "Share capital: 100,000 euros",
+    "address": "9 rue des Colonnes, 75002 Paris, France",
+    "siren": "SIREN: 801 339 151",
+    "siret": "SIRET: 801 339 151 00038",
+    "ape": "APE Code: 6201Z",
+    "tva": "VAT Number: FR20801339151",
+    "director": "Publication Director",
+    "directorName": "Aurelien Debord",
+    "host": "Web Host",
+    "hostName": "OVH SAS",
+    "hostAddress": "2 rue Kellermann, 59100 Roubaix, France",
+    "hostPhone": "Phone: 1007",
+    "hostWebsite": "www.ovh.com",
+    "intellectualProperty": "Intellectual Property",
+    "intellectualPropertyText": "All content on this website (texts, images, videos, logos, graphics, icons, etc.) is the exclusive property of Agence Debord or its partners and is protected by French and international intellectual property laws. Any reproduction, representation, modification, publication or adaptation of all or part of the website elements is prohibited without prior written authorization from Agence Debord.",
+    "personalData": "Personal Data",
+    "personalDataText": "This website does not collect any personal data and does not use cookies.",
+    "close": "Close"
+  }
+}
