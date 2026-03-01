@@ -9,8 +9,6 @@ author: "SAPIRO"
 readingTime: 7
 ---
 
-# Los 12 errores de geografia mas comunes (y como evitarlos)
-
 Preguntale a cualquier persona cual es la capital de Australia. Nueve de cada diez te dira Sydney. Y estara equivocada. Lo curioso es que estos errores de geografia comunes no se limitan a estudiantes despistados: periodistas, profesores, adultos con carrera universitaria... todos caemos en las mismas trampas. La geografia es asi: creemos dominarla hasta que alguien nos pilla con una pregunta concreta. Aqui van los 12 clasicos, y como dejar de meter la pata.
 
 ## 1. Confundir la capital de Australia

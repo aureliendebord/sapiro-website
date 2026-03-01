@@ -9,8 +9,6 @@ author: "SAPIRO"
 readingTime: 8
 ---
 
-# Apprendre la geographie aux enfants : 10 methodes ludiques
-
 Un enfant de 8 ans peut reciter les 150 Pokemon avec leurs types et leurs evolutions, mais seche sur les pays d'Europe. Ce n'est pas un probleme de memoire. C'est un probleme de methode. Apprendre la geographie aux enfants, telle qu'elle est souvent enseignee — listes de capitales, fleuves a memoriser, cartes muettes a remplir — ennuie beaucoup d'entre eux. Pourtant, c'est une matiere qui parle du monde reel, des gens, des paysages, des cultures. Selon une etude de l'Universite de Chicago publiee en 2019, les enfants qui apprennent par le jeu retiennent 40 % d'informations de plus que ceux qui suivent un enseignement classique. Tout l'enjeu est de la rendre vivante. Voici 10 methodes qui marchent, testees par des parents et des enseignants, pour les enfants de 5 a 12 ans.
 
 ## 1. Les puzzles de cartes et globes interactifs

@@ -9,8 +9,6 @@ author: "SAPIRO"
 readingTime: 8
 ---
 
-# Ensenar geografia a los ninos: 10 metodos divertidos
-
 Un nino de 7 anos no quiere memorizar una lista de capitales. Punto. Pero ese mismo nino puede pasarse una hora montando un puzzle de Europa, preguntando por que Italia tiene forma de bota y pidiendo que le cuentes algo sobre cada pais. Aprender geografia para ninos no es cuestion de materia, sino de como se la presentas. Aqui van diez formas que funcionan de verdad con ninos de 5 a 12 anos, probadas y con resultados.
 
 ## 1. Mapas interactivos y puzzles geograficos

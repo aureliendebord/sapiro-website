@@ -9,8 +9,6 @@ author: "SAPIRO"
 readingTime: 9
 ---
 
-# Quiz de capitales del mundo: cuantas puedes nombrar?
-
 Cual es la capital de Australia? Si has respondido Sidney, acabas de caer en la trampa mas clasica de cualquier quiz capitales del mundo. La respuesta es Canberra, una ciudad que practicamente nadie fuera de Australia podria senalar en un mapa. Y aqui esta el problema: creemos que sabemos las capitales del mundo, pero la mayoria de la gente se queda atascada despues de las primeras 40 o 50. A partir de ahi, todo son dudas, confusiones y paises que ni sabiamos que existian. Vamos a recorrer las trampas, las sorpresas y los trucos para dominarlas todas.
 
 ## Cuales son las capitales que mas se confunden?

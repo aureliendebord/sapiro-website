@@ -9,8 +9,6 @@ author: "SAPIRO"
 readingTime: 10
 ---
 
-# 20 personnages historiques que tout le monde devrait connaitre
-
 On peut traverser l'ecole sans vraiment comprendre qui a faconne le monde dans lequel on vit. Un quiz personnages historiques revele vite les trous : les manuels accumulent les dates, les noms, les batailles, et on finit par tout melanger. Pourtant, derriere chaque grande transformation — un empire qui s'ecroule, une idee qui se repand, une societe qui bascule — il y a des individus. Des gens qui ont pris des decisions, fait des decouvertes, mene des combats. Voici vingt d'entre eux. Vingt figures qui traversent les epoques et les cinq continents, et dont l'influence se fait encore sentir aujourd'hui.
 
 ## L'Antiquite : les fondateurs de civilisations

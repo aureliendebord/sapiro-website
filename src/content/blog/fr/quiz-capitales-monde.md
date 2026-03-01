@@ -9,8 +9,6 @@ author: "SAPIRO"
 readingTime: 9
 ---
 
-# Quiz capitales du monde : combien peux-tu en nommer ?
-
 Quelle est la capitale de l'Australie ? Si vous avez repondu Sydney, bienvenue dans le club. La majorite des gens se trompent. C'est Canberra. Ce quiz capitales du monde vous reserve bien d'autres surprises : il existe des dizaines de capitales qui prennent a contre-pied meme les joueurs les plus aguerris. Les plus surprenantes, les erreurs les plus courantes, les meilleures techniques pour tout retenir — on fait le tour.
 
 ## Quelles sont les capitales que personne ne devine ?

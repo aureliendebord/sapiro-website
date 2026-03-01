@@ -9,8 +9,6 @@ author: "SAPIRO"
 readingTime: 9
 ---
 
-# El significado oculto de las banderas: colores, simbolos e historia
-
 La bandera de Mozambique tiene un fusil AK-47. La de Nepal no es rectangular. La de Paraguay tiene un diseno diferente en cada cara. Cuando empiezas a descubrir el significado de las banderas del mundo, te das cuenta de que son cualquier cosa menos "simples telas de colores". Cada una condensa siglos de historia, conflictos, alianzas y valores en un rectangulo (o no). Los colores se eligieron por razones concretas, los simbolos cuentan historias y los cambios reflejan las sacudidas politicas de los pueblos. Esto es lo que esconden las banderas mas interesantes del mundo.
 
 ## La ciencia detras de las banderas: la vexilologia

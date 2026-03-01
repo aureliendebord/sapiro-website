@@ -9,8 +9,6 @@ author: "SAPIRO"
 readingTime: 8
 ---
 
-# Les 15 drapeaux les plus difficiles a reconnaitre au monde
-
 Le Tchad a depose une plainte officielle aupres des Nations Unies en 2004. La raison ? La Roumanie avait, selon lui, un drapeau trop ressemblant au sien. Pas un conflit territorial. Pas une dispute economique. Un drapeau. Parmi les drapeaux les plus difficiles a reconnaitre au monde, cette paire est devenue un cas d'ecole. Avec 195 pays reconnus et autant de drapeaux, la confusion est presque inevitable. Certaines paires sont si proches que meme les specialistes de vexillologie (la science des drapeaux) s'y perdent. D'autres sont si charges de details qu'on ne sait plus ou donner de la tete. Voici les 15 qui posent le plus de problemes, avec des astuces pour enfin les differencier.
 
 ## Pourquoi certains drapeaux se ressemblent-ils ?

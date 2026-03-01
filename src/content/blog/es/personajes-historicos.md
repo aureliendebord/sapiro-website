@@ -9,8 +9,6 @@ author: "SAPIRO"
 readingTime: 10
 ---
 
-# 20 personajes historicos que todos deberian conocer
-
 Cuantas personas han cambiado realmente el rumbo de la historia? Cualquier quiz personajes historicos te obliga a enfrentarte a esa pregunta. Si tuvieras que hacer una lista de las 20 figuras que mas huella dejaron en la humanidad, a quienes incluirias? La lista que sigue no pretende ser definitiva (cualquier seleccion es discutible), pero recoge a 20 individuos cuyas decisiones, ideas o descubrimientos configuraron el mundo tal como lo conocemos. De la Antiguedad al siglo XX, repasamos quienes fueron, que hicieron y por que todavia importan.
 
 ## Figuras de la Antiguedad: los cimientos de la civilizacion

@@ -9,8 +9,6 @@ author: "SAPIRO"
 readingTime: 7
 ---
 
-# Noche de quiz en familia: como organizar una velada de geografia inolvidable
-
 El abuelo dice Estambul. Tu hijo de diez anos grita Ankara. El abuelo protesta. Tu hijo tiene razon. Y toda la mesa se rie. Eso es un quiz geografia en familia: el momento en que un nino le gana a un adulto con un dato que aprendio en una app, y el adulto descubre que lleva treinta anos equivocado. Risas, debates, algun "no me lo creo" y, de paso, todo el mundo aprende algo. Aqui tienes todo lo que necesitas para montar una.
 
 ## Por que la geografia funciona tan bien en un quiz familiar?

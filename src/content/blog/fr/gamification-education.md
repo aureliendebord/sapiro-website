@@ -9,8 +9,6 @@ author: "SAPIRO"
 readingTime: 7
 ---
 
-# La gamification dans l'education : pourquoi les quiz fonctionnent
-
 Un enfant retient les noms de 150 Pokemon, leurs types, leurs evolutions, leurs faiblesses. Le meme enfant seche sur les 50 pays d'Europe. Un adulte maitrise les regles complexes de son jeu video prefere mais oublie le contenu de son cours du soir. Ce n'est pas un probleme d'intelligence ou de memoire. C'est un probleme de design. La gamification dans l'education repose sur un constat simple : les jeux sont concus pour capter l'attention et ancrer les informations. Les cours, souvent, non. Et parmi les outils de la gamification, les quiz sont l'un des plus redoutables. J'ai vu un collegien incapable de citer cinq capitales africaines debloquer le badge "Expert Afrique" en trois semaines sur une appli de quiz. Meme cerveau, meme memoire — methode differente. Voici pourquoi ca marche, science a l'appui.
 
 ## Qu'est-ce que la gamification en education ?

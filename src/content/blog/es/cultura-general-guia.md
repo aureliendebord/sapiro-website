@@ -9,8 +9,6 @@ author: "SAPIRO"
 readingTime: 9
 ---
 
-# Cultura general: la guia definitiva para saber (casi) todo
-
 Todos conocemos a esa persona que parece saber un poco de todo. Sale el tema de la guerra fria, tiene algo que decir. Alguien menciona un cuadro de Velazquez, suelta un dato que no conocias. Cambia la conversacion a fisica cuantica, y tambien se defiende. No es magia ni un cerebro privilegiado. Mejorar cultura general es cuestion de habito, metodo y curiosidad. Y es algo que se puede construir. Esta guia te explica como.
 
 ## Que es exactamente la cultura general

@@ -1,6 +1,7 @@
 ---
 import { getCollection, render } from 'astro:content';
 import BlogPost from '../../../layouts/BlogPost.astro';
+import { extractFaqFromMarkdown } from '../../../utils/faq';
 
 export async function getStaticPaths() {
   const posts = await getCollection('blog', ({ data }) => data.lang === 'es');
@@ -12,6 +13,7 @@ export async function getStaticPaths() {
 
 const { post } = Astro.props;
 const { Content } = await render(post);
+const faqItems = extractFaqFromMarkdown(post.body || '');
 ---
 
 <BlogPost
@@ -23,6 +25,7 @@ const { Content } = await render(post);
   category={post.data.category}
   author={post.data.author}
   readingTime={post.data.readingTime}
+  faqItems={faqItems}
 >
   <Content />
 </BlogPost>

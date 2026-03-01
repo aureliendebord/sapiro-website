@@ -9,8 +9,6 @@ author: "SAPIRO"
 readingTime: 8
 ---
 
-# Las 15 banderas mas dificiles de reconocer del mundo
-
 Monaco e Indonesia tienen exactamente la misma bandera. Rojo arriba, blanco abajo. Punto. La unica diferencia es la proporcion del rectangulo, y te aseguro que no vas a notarla a simple vista. Bienvenido al caos de la vexilologia mundial, donde las banderas mas dificiles de reconocer se esconden entre casi 200 paises que se reparten un punado limitado de colores y formas. Las confusiones son inevitables. Aqui van las 15 que mas dolores de cabeza causan, con trucos para que dejes de confundirlas.
 
 ## Por que tantas banderas tienen los mismos colores?

@@ -5,6 +5,7 @@ import Footer from '../components/Footer.astro';
 import BlogCta from '../components/BlogCta.astro';
 import type { Lang } from '../i18n';
 import { getTranslations, getLocalePath } from '../i18n';
+import type { FaqItem } from '../utils/faq';
 
 interface Props {
   title: string;
@@ -15,9 +16,10 @@ interface Props {
   category: string;
   author: string;
   readingTime?: number;
+  faqItems?: FaqItem[];
 }
 
-const { title, description, date, lang, slug, category, author, readingTime } = Astro.props;
+const { title, description, date, lang, slug, category, author, readingTime, faqItems = [] } = Astro.props;
 const t = getTranslations(lang);
 
 const formattedDate = date.toLocaleDateString(lang === 'fr' ? 'fr-FR' : lang === 'en' ? 'en-US' : 'es-ES', {
@@ -64,6 +66,20 @@ const schemaArticle = {
   inLanguage: lang
 };
 
+// Schema.org FAQPage (si l'article contient une FAQ)
+const schemaFaq = faqItems.length > 0 ? {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqItems.map(item => ({
+    '@type': 'Question',
+    name: item.question,
+    acceptedAnswer: {
+      '@type': 'Answer',
+      text: item.answer
+    }
+  }))
+} : null;
+
 // Schema.org BreadcrumbList
 const breadcrumbSchema = {
   '@context': 'https://schema.org',
@@ -106,6 +122,7 @@ const breadcrumbSchema = {
     <!-- Schema.org -->
     <script type="application/ld+json" set:html={JSON.stringify(schemaArticle)} />
     <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+    {schemaFaq && <script type="application/ld+json" set:html={JSON.stringify(schemaFaq)} />}
   </Fragment>
 
   <Header lang={lang} t={t} />
@@ -135,10 +152,36 @@ const breadcrumbSchema = {
       </header>
 
       <!-- Article Content -->
-      <div class="article-content">
+      <div class="article-content" id="article-content">
         <slot />
         <BlogCta lang={lang} />
       </div>
+
+      <script>
+        // Wrap FAQ section in a styled container
+        const content = document.getElementById('article-content');
+        if (content) {
+          const headings = content.querySelectorAll('h2');
+          headings.forEach(h2 => {
+            const text = h2.textContent?.toLowerCase() || '';
+            if (text.includes('frequentes') || text.includes('asked questions') || text.includes('frecuentes') || text.includes('faq')) {
+              const wrapper = document.createElement('div');
+              wrapper.className = 'faq-section';
+              h2.parentNode?.insertBefore(wrapper, h2);
+              wrapper.appendChild(h2);
+              // Move all siblings until next H2 or end
+              let next = wrapper.nextSibling;
+              while (next) {
+                const el = next as Element;
+                if (el.tagName === 'H2') break;
+                const move = next;
+                next = next.nextSibling;
+                wrapper.appendChild(move);
+              }
+            }
+          });
+        }
+      </script>
 
       <!-- Back to blog -->
       <div class="article-back">
@@ -283,6 +326,33 @@ const breadcrumbSchema = {
     background: var(--gris-clair);
     border-radius: 0 var(--border-radius-sm) var(--border-radius-sm) 0;
     font-style: italic;
+  }
+
+  /* FAQ section styling */
+  .article-content :global(.faq-section) {
+    background: var(--gris-clair);
+    border-radius: 12px;
+    padding: 32px;
+    margin: 40px 0 24px;
+  }
+
+  .article-content :global(.faq-section h2) {
+    margin-top: 0;
+    font-size: 1.5rem;
+  }
+
+  .article-content :global(.faq-section h3) {
+    background: var(--blanc);
+    padding: 14px 18px;
+    border-radius: 8px;
+    margin: 20px 0 8px;
+    font-size: 1.05rem;
+    border-left: 3px solid var(--orange);
+  }
+
+  .article-content :global(.faq-section p) {
+    padding-left: 18px;
+    margin-bottom: 12px;
   }
 
   .article-back {

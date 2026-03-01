@@ -9,8 +9,6 @@ author: "SAPIRO"
 readingTime: 7
 ---
 
-# La gamificacion en la educacion: por que funcionan los quiz
-
 Responde rapido: cual es la capital de Mongolia? Si no lo sabes, no pasa nada. Pero el hecho de que tu cerebro acabe de buscar la respuesta, aunque no la haya encontrado, ya ha reforzado la conexion neuronal que te ayudara a recordarla la proxima vez. (Es Ulan Bator, por cierto.) Eso, en pocas palabras, es la ciencia detras de los quiz. Y la gamificacion en la educacion lleva esa mecanica mucho mas lejos, anandiendo puntos, niveles, rachas y recompensas que convierten el aprendizaje en algo que la gente quiere hacer, no que tiene que hacer.
 
 ## Que es la gamificacion y por que funciona en el aula?
