@@ -1,6 +1,6 @@
 ---
 title: "20 personnages historiques que tout le monde devrait connaitre"
-description: "De Cleopatre a Nelson Mandela, decouvrez les figures qui ont marque l'Histoire et testez vos connaissances."
+description: "Quiz personnages historiques : de Cleopatre a Turing, 20 figures incontournables qui ont faconne le monde. Combien pouvez-vous replacer dans leur epoque ?"
 date: 2025-11-28
 lang: "fr"
 urlSlug: "personnages-historiques"
@@ -11,106 +11,120 @@ readingTime: 10
 
 # 20 personnages historiques que tout le monde devrait connaitre
 
-L'Histoire est faite par des individus dont les decisions, les decouvertes et les combats ont faconne le monde dans lequel nous vivons. Certains ont bati des empires, d'autres ont change notre facon de penser, et quelques-uns ont transforme la societe par la seule force de leurs convictions. Voici 20 personnages historiques essentiels, des figures qui traversent les epoques et les continents, et que tout citoyen du monde devrait connaitre.
+On peut traverser l'ecole sans vraiment comprendre qui a faconne le monde dans lequel on vit. Un quiz personnages historiques revele vite les trous : les manuels accumulent les dates, les noms, les batailles, et on finit par tout melanger. Pourtant, derriere chaque grande transformation — un empire qui s'ecroule, une idee qui se repand, une societe qui bascule — il y a des individus. Des gens qui ont pris des decisions, fait des decouvertes, mene des combats. Voici vingt d'entre eux. Vingt figures qui traversent les epoques et les cinq continents, et dont l'influence se fait encore sentir aujourd'hui.
 
 ## L'Antiquite : les fondateurs de civilisations
 
 ### 1. Cleopatre (69-30 av. J.-C.)
 
-Derniere reine de la dynastie des Ptolemees en Egypte, Cleopatre VII est bien plus que la seductrice depeinte par Hollywood. Polyglotte parlant neuf langues, diplomate redoutable et administratrice efficace, elle a maintenu l'independance de l'Egypte face a la puissance romaine grandissante pendant plus de vingt ans. Ses alliances avec Jules Cesar puis Marc Antoine etaient des coups politiques calcules pour preserver la souverainete de son royaume. Sa mort en 30 av. J.-C. marque la fin de l'Egypte pharaonique et le debut de la domination romaine sur la Mediterranee orientale.
+Oubliez l'image d'Hollywood. Cleopatre VII, derniere reine de la dynastie des Ptolemees en Egypte, etait polyglotte — neuf langues — diplomate redoutable et administratrice habile. Pendant plus de vingt ans, elle a maintenu l'independance de l'Egypte face a Rome, la superpuissance de l'epoque. Ses alliances avec Jules Cesar puis Marc Antoine n'etaient pas des romances de cinema : c'etaient des coups politiques calcules pour preserver la souverainete de son royaume. Sa mort en 30 av. J.-C. signe la fin de l'Egypte pharaonique et le debut de la domination romaine sur la Mediterranee orientale.
 
 ### 2. Jules Cesar (100-44 av. J.-C.)
 
-General, homme d'Etat et ecrivain romain, Jules Cesar a conquis la Gaule, franchi le Rubicon et transforme la Republique romaine en empire. Ses reformes du calendrier (le calendrier julien), de la citoyennete romaine et de l'administration provinciale ont eu des consequences durables sur l'ensemble du monde occidental. Son assassinat aux ides de mars 44 av. J.-C. est l'un des evenements les plus dramatiques de l'Histoire et a paradoxalement precipite l'avenement de l'Empire qu'il preparait.
+General, homme d'Etat et ecrivain. Cesar a conquis la Gaule, franchi le Rubicon et fait basculer la Republique romaine vers l'Empire. Ses reformes ont eu une portee immense : le calendrier julien (qui reste la base du notre), l'extension de la citoyennete romaine, la reorganisation de l'administration provinciale. Son assassinat aux ides de mars 44 av. J.-C. est l'un des moments les plus dramatiques de l'Histoire. Et le paradoxe, c'est que ce meurtre a precipite exactement ce que les conjures voulaient empecher : l'avenement de l'Empire.
 
 ### 3. Alexandre le Grand (356-323 av. J.-C.)
 
-Roi de Macedoine a vingt ans, Alexandre a conquis un empire s'etendant de la Grece a l'Inde en seulement treize ans. Au-dela de ses exploits militaires, il a favorise un brassage culturel sans precedent entre les mondes grec, perse et indien, donnant naissance a la civilisation hellenistique. Les villes qu'il a fondees, dont Alexandrie en Egypte, sont devenues des centres de savoir et de commerce qui ont prospere pendant des siecles.
+Roi de Macedoine a vingt ans. En treize ans, il batit un empire de plus de 5 millions de km carre, allant de la Grece a l'Inde. Mais au-dela des conquetes militaires, c'est le brassage culturel qu'il a provoque qui marque. Monde grec, monde perse, monde indien : ces civilisations se sont rencontrees, melangees, et de cette rencontre est nee la culture hellenistique. Les villes qu'il a fondees — plus de 70, dont Alexandrie en tete — sont devenues des centres de savoir et de commerce pour des siecles.
 
 ### 4. Confucius (551-479 av. J.-C.)
 
-Philosophe chinois dont les enseignements ont faconne la culture d'une grande partie de l'Asie orientale. Sa pensee, centree sur l'ethique, la famille, la justice sociale et la bonne gouvernance, a influence la Chine, la Coree, le Japon et le Vietnam pendant plus de deux millenaires. Le confucianisme n'est pas seulement une philosophie : c'est un systeme de valeurs qui continue de structurer les societes asiatiques contemporaines.
+Philosophe chinois dont la pensee a impregne l'Asie orientale pendant plus de deux millenaires. Ethique, famille, justice sociale, bonne gouvernance : ses enseignements ont faconne la Chine, la Coree, le Japon, le Vietnam. Le confucianisme n'est pas seulement une philosophie de salon. C'est un systeme de valeurs qui structure encore les societes asiatiques contemporaines. Difficile de comprendre l'Asie d'aujourd'hui sans connaitre Confucius.
 
-## Le Moyen Age : batisseurs et conquerants
+## Quels personnages du Moyen Age ont change le monde ?
 
 ### 5. Jeanne d'Arc (1412-1431)
 
-Paysanne francaise illetree qui, a dix-sept ans, a renverse le cours de la guerre de Cent Ans. Affirmant etre guidee par des voix divines, elle a convaincu le dauphin Charles VII de lui confier une armee, a leve le siege d'Orleans et a conduit Charles a son couronnement a Reims. Capturee par les Bourguignons, vendue aux Anglais et brulee vive a Rouen a dix-neuf ans, elle est devenue un symbole universel de courage et de resistance. Si la France et ses frontieres vous interessent, decouvrez notre [quiz sur les capitales du monde](/blog/quiz-capitales-monde) pour tester vos connaissances.
+Paysanne illetree. Dix-sept ans. Elle affirme entendre des voix divines, convainc le dauphin Charles VII de lui confier une armee, leve le siege d'Orleans et conduit Charles a son couronnement a Reims. Capturee par les Bourguignons, vendue aux Anglais, brulee vive a Rouen a dix-neuf ans. En deux ans, elle a renverse le cours de la guerre de Cent Ans. Si les frontieres et la geographie de la France vous interessent, testez vos connaissances avec notre [quiz sur les capitales du monde](/blog/quiz-capitales-monde).
 
 ### 6. Gengis Khan (1162-1227)
 
-Ne Temujin dans les steppes mongoles, il a unifie les tribus nomades et fonde le plus vaste empire contigu de l'Histoire, s'etendant de la Chine a l'Europe de l'Est. Souvent reduit a l'image d'un conquerant brutal, Gengis Khan etait aussi un legislateur visionnaire : le Yassa, son code de lois, garantissait la liberte religieuse, le merite plutot que la naissance comme critere de promotion, et un systeme postal efficace reliant tout l'empire. Son heritage genetique est egalement remarquable : on estime qu'environ 16 millions d'hommes vivants aujourd'hui descendent de lui.
+Ne Temujin dans les steppes mongoles, il a unifie des tribus nomades et bati le plus vaste empire contigu de l'Histoire — de la Chine a l'Europe de l'Est. On retient souvent l'image du conquerant brutal. C'est incomplet. Gengis Khan etait aussi legislateur : le Yassa, son code de lois, garantissait la liberte religieuse, favorisait le merite sur la naissance et etablissait un systeme postal reliant tout l'empire. Detail supplementaire assez vertigineux : on estime qu'environ 16 millions d'hommes vivants aujourd'hui descendent de lui.
 
 ### 7. Mansa Moussa (1280-1337)
 
-Empereur du Mali, Mansa Moussa est considere comme l'homme le plus riche de tous les temps. Son pelerinage a La Mecque en 1324 est legendaire : il a distribue tellement d'or sur son passage que le cours du metal precieux s'est effondre en Egypte pendant des annees. Son empire etait un centre de commerce, de culture et de savoir, avec l'universite de Tombouctou attirant des erudits de tout le monde musulman. Son histoire rappelle que l'Afrique medievale etait loin de l'image de continent isole qu'on lui prete parfois.
+Empereur du Mali et probablement l'homme le plus riche de tous les temps. Son pelerinage a La Mecque en 1324 est reste dans les annales : il a distribue tellement d'or sur son passage que le cours du metal s'est effondre en Egypte pendant des annees. Son empire etait un foyer de commerce, de culture et de savoir. L'universite de Tombouctou attirait des erudits de tout le monde musulman. Son histoire rappelle une verite souvent ignoree : l'Afrique medievale etait tout sauf isolee.
 
 ### 8. Leonard de Vinci (1452-1519)
 
-Incarnation du genie de la Renaissance, Leonard de Vinci etait a la fois peintre, sculpteur, architecte, musicien, mathematicien, ingenieur, inventeur, anatomiste, geologue et botaniste. La Joconde et La Cene comptent parmi les oeuvres d'art les plus celebres au monde, mais ses carnets de notes revelent un esprit encore plus vaste : il a concu des machines volantes, des sous-marins et des robots des siecles avant leur invention. Sa curiosite insatiable pour tous les domaines du savoir en fait l'archetype du polymathe.
+Le mot "polymathe" semble avoir ete invente pour lui. Peintre, sculpteur, architecte, musicien, mathematicien, ingenieur, inventeur, anatomiste, geologue, botaniste. La Joconde et La Cene sont parmi les oeuvres les plus celebres au monde, mais ses carnets de notes revelent un esprit encore plus vaste. Il a concu des machines volantes, des sous-marins et des automates des siecles avant que la technologie ne permette de les construire. Sa curiosite ne connaissait aucune frontiere disciplinaire.
 
 ## L'Epoque moderne : revolutionnaires et visionnaires
 
 ### 9. Napoleon Bonaparte (1769-1821)
 
-General corse devenu empereur des Francais, Napoleon a redessine la carte de l'Europe et laisse un heritage juridique, administratif et educatif qui perdure encore aujourd'hui. Le Code civil (Code Napoleon), adopte en 1804, a influence le droit de dizaines de pays. Le systeme metrique, le baccalaureat, les prefets, la Banque de France : autant d'institutions napoleoniennes encore en vigueur. Ses campagnes militaires, de l'Egypte a la Russie, ont fait de lui l'un des strateges les plus etudies de l'Histoire.
+General corse devenu empereur des Francais. Napoleon a redessine la carte de l'Europe et laisse un heritage juridique et administratif qui tient encore debout. Le Code civil, adopte en 1804, a influence le droit de dizaines de pays. Le systeme metrique, le baccalaureat, les prefets, la Banque de France : autant d'institutions napoleoniennes toujours en vigueur. On peut discuter de l'homme. On ne peut pas nier l'empreinte.
 
 ### 10. Toussaint Louverture (1743-1803)
 
-Ne esclave a Saint-Domingue (actuel Haiti), Toussaint Louverture est devenu le leader de la seule revolution d'esclaves reussie de l'Histoire. Il a transforme une revolte en mouvement politique structure, negocie avec les puissances europeennes et jete les bases de la premiere republique noire du monde. Capture par les troupes de Napoleon et emprisonne au Fort de Joux dans le Jura, il est mort en captivite en 1803, mais Haiti a proclame son independance l'annee suivante.
+Ne esclave a Saint-Domingue (actuel Haiti). Il a mene la seule revolution d'esclaves reussie de l'Histoire. Pas une revolte desordonnee : un mouvement politique structure. Il a negocie avec les puissances europeennes et pose les fondations de la premiere republique noire du monde. Capture par les troupes de Napoleon, emprisonne au Fort de Joux dans le Jura, il meurt en captivite en 1803. Haiti proclame son independance l'annee suivante.
 
 ### 11. Marie Curie (1867-1934)
 
-Physicienne et chimiste d'origine polonaise, Marie Curie est la premiere femme a avoir recu un prix Nobel et la seule personne a en avoir obtenu deux dans deux disciplines scientifiques differentes (physique en 1903 et chimie en 1911). Ses travaux sur la radioactivite ont ouvert la voie a la medecine nucleaire et a la radiotherapie. Elle a brise les barrieres de genre dans le monde scientifique a une epoque ou les femmes n'avaient meme pas le droit de vote dans la plupart des pays.
+Premiere femme a recevoir un prix Nobel. Seule personne a en avoir obtenu deux dans deux disciplines differentes : physique en 1903, chimie en 1911. Ses travaux sur la radioactivite ont ouvert la voie a la medecine nucleaire et a la radiotherapie. Elle a fait tout cela a une epoque ou les femmes n'avaient meme pas le droit de vote dans la plupart des pays. Le mot "pionniere" est use, mais il lui va parfaitement.
 
 ### 12. Charles Darwin (1809-1882)
 
-Naturaliste britannique dont la theorie de l'evolution par la selection naturelle a revolutionne notre comprehension du vivant. Son ouvrage "De l'origine des especes" (1859) est l'un des livres les plus influents jamais ecrits. Son voyage a bord du Beagle, qui l'a mene aux iles Galapagos et autour du monde, est une aventure geographique autant que scientifique. Pour les passionnes de geographie, les [drapeaux des pays](/blog/drapeaux-difficiles) visites par Darwin sont un excellent point d'entree.
+Sa theorie de l'evolution par la selection naturelle a change notre comprehension du vivant. "De l'origine des especes", publie en 1859, est l'un des livres les plus influents jamais ecrits. Mais avant le livre, il y a eu le voyage. Le Beagle l'a mene aux iles Galapagos et autour du monde. Une aventure geographique autant que scientifique. Pour ceux que ca interesse, les [drapeaux des pays](/blog/drapeaux-difficiles) traverses par Darwin sont un bon pretexte pour reviser sa geographie.
 
 ## Le XXe siecle : combattants de la liberte
 
 ### 13. Mahatma Gandhi (1869-1948)
 
-Leader du mouvement independantiste indien, Gandhi a developpe la philosophie de la non-violence (ahimsa) et de la resistance passive (satyagraha) comme armes de liberation. Sa marche du sel en 1930, la campagne "Quit India" et ses jeunes prolonges sont devenus des modeles pour tous les mouvements de liberation pacifiques ulterieurs. Assassine en 1948 par un extremiste hindou, Gandhi reste le symbole universel de la resistance non violente.
+Leader du mouvement independantiste indien. Gandhi a fait de la non-violence — l'ahimsa — et de la resistance passive — le satyagraha — des armes de liberation. La marche du sel en 1930, la campagne "Quit India", les jeunes prolonges : autant de gestes qui sont devenus des modeles pour tous les mouvements pacifiques qui ont suivi. Assassine en 1948 par un extremiste hindou.
 
 ### 14. Nelson Mandela (1918-2013)
 
-Emprisonne pendant vingt-sept ans pour sa lutte contre l'apartheid en Afrique du Sud, Nelson Mandela est devenu, a sa liberation en 1990, l'architecte de la reconciliation nationale. Elu premier president noir d'Afrique du Sud en 1994, il a choisi le pardon plutot que la vengeance, creant la Commission Verite et Reconciliation pour panser les plaies du pays. Son parcours, de prisonnier a president, est l'une des plus belles histoires de resilience du XXe siecle.
+Vingt-sept ans de prison pour avoir lutte contre l'apartheid en Afrique du Sud. A sa liberation en 1990, il aurait pu choisir la vengeance. Il a choisi le pardon. Elu premier president noir d'Afrique du Sud en 1994, il a cree la Commission Verite et Reconciliation pour panser les plaies d'un pays dechire. De prisonnier a president : c'est l'une des trajectoires les plus saisissantes du XXe siecle.
 
 ### 15. Martin Luther King Jr. (1929-1968)
 
-Pasteur baptiste et leader du mouvement des droits civiques aux Etats-Unis, Martin Luther King Jr. a prononce le celebre discours "I Have a Dream" lors de la marche sur Washington en 1963. Inspire par Gandhi, il a mene un combat non violent pour l'egalite raciale qui a abouti au Civil Rights Act de 1964 et au Voting Rights Act de 1965. Assassine a Memphis en 1968, il est aujourd'hui commemore par un jour ferie federal aux Etats-Unis.
+Pasteur baptiste, leader du mouvement des droits civiques aux Etats-Unis. Son discours "I Have a Dream" lors de la marche sur Washington en 1963 reste l'un des moments les plus forts de l'histoire americaine. Inspire par Gandhi, il a mene un combat non violent pour l'egalite raciale. Le Civil Rights Act de 1964 et le Voting Rights Act de 1965 lui doivent beaucoup. Assassine a Memphis en 1968, a trente-neuf ans.
 
 ### 16. Simone de Beauvoir (1908-1986)
 
-Philosophe, romanciere et feministe francaise, Simone de Beauvoir a profondement influence la pensee feministe avec son essai "Le Deuxieme Sexe" (1949). Sa celebre phrase "On ne nait pas femme, on le devient" a pose les bases du feminisme moderne en distinguant le sexe biologique du genre social. Compagne de Jean-Paul Sartre et figure de l'existentialisme, elle a aussi ecrit des romans et des memoires qui temoignent de la vie intellectuelle parisienne du XXe siecle.
+Philosophe, romanciere, feministe. "Le Deuxieme Sexe", publie en 1949, a pose les fondations du feminisme moderne. Sa phrase celebre — "On ne nait pas femme, on le devient" — a ouvert la distinction entre sexe biologique et genre social, un debat qui reste vivace aujourd'hui. Compagne de Sartre, figure de l'existentialisme, elle a aussi laisse des romans et des memoires qui temoignent de la vie intellectuelle parisienne du XXe siecle.
 
 ### 17. Albert Einstein (1879-1955)
 
-Physicien d'origine allemande dont la theorie de la relativite a transforme notre comprehension de l'espace, du temps et de l'univers. Son equation E=mc2 est probablement la formule scientifique la plus celebre au monde. Prix Nobel de physique en 1921, il a fui l'Allemagne nazie pour s'installer aux Etats-Unis, ou il a milite pour la paix et contre les armes nucleaires jusqu'a sa mort.
+La theorie de la relativite. E=mc2, probablement la formule scientifique la plus connue au monde. Prix Nobel de physique en 1921. Il a fui l'Allemagne nazie pour les Etats-Unis, ou il a milite pour la paix et contre les armes nucleaires jusqu'a la fin. Un esprit qui a reconfigure notre comprehension de l'espace, du temps et de l'univers.
 
 ## Les figures contemporaines
 
 ### 18. Rosa Parks (1913-2005)
 
-Le 1er decembre 1955, a Montgomery (Alabama), Rosa Parks a refuse de ceder sa place a un passager blanc dans un bus. Ce geste apparemment simple a declenche le boycott des bus de Montgomery pendant 381 jours et a lance le mouvement des droits civiques a l'echelle nationale. Rosa Parks n'etait pas une simple passagere fatiguee : elle etait une militante formee et determinee dont l'acte de desobeissance civile a change l'Histoire.
+Le 1er decembre 1955, a Montgomery, Alabama. Rosa Parks refuse de ceder sa place a un passager blanc dans un bus. Un geste en apparence simple. Il declenche le boycott des bus de Montgomery pendant 381 jours et lance le mouvement des droits civiques a l'echelle nationale. Rosa Parks n'etait pas une passagere fatiguee qui a dit non sur un coup de tete : c'etait une militante formee et determinee. Son acte de desobeissance civile etait delibere.
 
 ### 19. Wangari Maathai (1940-2011)
 
-Biologiste et militante ecologiste kenyane, Wangari Maathai a fonde le Mouvement de la Ceinture Verte en 1977, un programme de plantation d'arbres qui a mobilise des milliers de femmes a travers l'Afrique. Prix Nobel de la paix en 2004, elle a montre le lien entre ecologie, droits des femmes et democratie. Plus de 51 millions d'arbres ont ete plantes grace a son mouvement.
+Biologiste et militante ecologiste kenyane. En 1977, elle fonde le Mouvement de la Ceinture Verte, un programme de plantation d'arbres qui a mobilise des milliers de femmes a travers l'Afrique. Prix Nobel de la paix en 2004. Elle a montre que l'ecologie, les droits des femmes et la democratie sont lies. Plus de 51 millions d'arbres plantes grace a son mouvement. Cinquante et un millions.
 
 ### 20. Alan Turing (1912-1954)
 
-Mathematicien et cryptanalyste britannique considere comme le pere de l'informatique. Son travail pour dechiffrer le code Enigma pendant la Seconde Guerre mondiale a contribue a raccourcir le conflit de plusieurs annees, sauvant potentiellement des millions de vies. Sa "machine de Turing" est le fondement theorique de tous les ordinateurs modernes. Persecute pour son homosexualite, il a ete contraint a une castration chimique et s'est suicide en 1954. Il a ete gracue a titre posthume par la reine Elizabeth II en 2013.
+Mathematicien, cryptanalyste, pere de l'informatique. Son travail pour dechiffrer le code Enigma pendant la Seconde Guerre mondiale a contribue a raccourcir le conflit de plusieurs annees, sauvant potentiellement des millions de vies. Sa "machine de Turing" est le fondement theorique de tous les ordinateurs modernes. Persecute pour son homosexualite, condamne a une castration chimique, il se suicide en 1954. Gracie a titre posthume par la reine Elizabeth II en 2013. Soixante ans trop tard.
 
-## Pourquoi connaitre ces personnages ?
+## Pourquoi connaitre les personnages historiques est-il si utile ?
 
-Connaitre l'Histoire, ce n'est pas seulement memoriser des dates et des noms. C'est comprendre comment le monde est devenu ce qu'il est. Chaque personnage de cette liste a pris des decisions qui ont eu des consequences sur des millions de personnes et dont nous ressentons encore les effets aujourd'hui. Le Code civil de Napoleon structure notre droit. La theorie de Darwin fonde notre biologie. La non-violence de Gandhi inspire les mouvements sociaux contemporains.
+Ce n'est pas une question de [culture generale](/blog/culture-generale-guide) pour briller en soiree. Connaitre ces vies, c'est comprendre comment le monde est devenu ce qu'il est. Le Code civil de Napoleon structure notre droit dans plus de 40 pays. La theorie de Darwin fonde notre biologie. La non-violence de Gandhi inspire les mouvements sociaux contemporains. Ce ne sont pas des figures du passe. Leur influence est au present.
 
-Pour les enfants et les adolescents, decouvrir ces personnages est aussi un moyen de developper leur esprit critique et leur empathie. La methode ludique, a travers les [quiz et les jeux educatifs](/blog/geographie-enfants), permet de rendre ces figures vivantes et accessibles plutot que de les reduire a des paragraphes dans un manuel scolaire.
+Pour les enfants et les adolescents, decouvrir ces personnages developpe l'esprit critique et l'empathie. Et la methode ludique — [quiz et jeux educatifs](/blog/geographie-enfants) — rend ces figures vivantes et accessibles, loin des paragraphes ternes d'un manuel scolaire. Les [principes de la gamification](/blog/gamification-education) expliquent pourquoi le format quiz ancre si bien ces connaissances, et les [meilleures applications de geographie](/blog/meilleures-apps-geographie) etendent le jeu aux cartes et aux drapeaux.
+
+## Questions frequentes
+
+### Quels sont les personnages historiques les plus importants a connaitre ?
+
+Cleopatre, Jules Cesar, Gengis Khan, Napoleon, Marie Curie, Gandhi, Mandela et Turing figurent parmi les incontournables. Ils couvrent toutes les epoques et tous les continents, et leur influence se fait encore sentir dans nos lois, nos sciences et nos societes.
+
+### Comment retenir les dates des personnages historiques ?
+
+Plutot que de memoriser des dates isolees, reliez chaque personnage a une epoque et a d'autres figures contemporaines. Les frises chronologiques visuelles et les quiz de rappel actif sont les outils les plus efficaces selon les sciences cognitives.
+
+### Quels personnages historiques sont les plus demandes en quiz de culture generale ?
+
+Napoleon, Marie Curie, Cleopatre et Leonard de Vinci reviennent le plus souvent dans les quiz et les concours. Les personnages du XXe siecle comme Gandhi, Mandela et Einstein sont aussi tres frequents.
 
 ## Testez vos connaissances avec SAPIRO
 
-SAPIRO propose un mode de quiz dedie a la culture generale et a l'Histoire, ou vous pourrez tester vos connaissances sur ces personnages et bien d'autres. Chaque question est accompagnee d'une fiche explicative qui replace le personnage dans son contexte historique et geographique.
+Cleopatre, Mansa Moussa, Turing — combien de ces personnages pourriez-vous replacer dans leur epoque et leur pays ? Le mode culture generale de SAPIRO couvre toutes les periodes, de l'Antiquite a nos jours, avec des fiches explicatives qui replacent chaque figure dans son contexte historique et geographique.
 
-L'application couvre toutes les epoques et tous les continents, de l'Antiquite a nos jours. Que vous soyez un passione d'histoire ancienne ou contemporaine, SAPIRO vous propose des defis adaptes a votre niveau. Debloquez des badges, grimpez dans le classement et decouvrez les figures qui ont ecrit l'Histoire. Telechargez SAPIRO et voyagez a travers le temps !
+L'appli s'adapte a votre niveau. Que l'histoire ancienne soit votre terrain de jeu ou que le XXe siecle vous parle davantage, les defis suivent. Badges, classement, progression : l'Histoire prend vie question apres question.

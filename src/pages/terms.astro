@@ -6,7 +6,7 @@ import { getTranslations, getLocalePath } from '../i18n';
 
 const lang = 'fr';
 const t = getTranslations(lang);
-const lastUpdate = '26 janvier 2025';
+const lastUpdate = '28 janvier 2025';
 ---
 
 <Layout title={`${t.terms.title} - SAPIRO`} description={t.meta.description} lang={lang}>
@@ -30,7 +30,7 @@ const lastUpdate = '26 janvier 2025';
         {t.terms.sections.map((section: any) => (
           <section class="terms-section">
             <h2>{section.title}</h2>
-            <p>{section.content}</p>
+            <div class="section-content" set:html={section.content} />
           </section>
         ))}
       </article>
@@ -92,8 +92,33 @@ const lastUpdate = '26 janvier 2025';
     margin-bottom: 12px;
   }
 
-  .terms-section p {
+  .terms-section p,
+  .section-content {
     color: var(--gris);
     line-height: 1.7;
+  }
+
+  .section-content h3 {
+    font-size: 1.1rem;
+    color: var(--noir);
+    margin-top: 20px;
+    margin-bottom: 8px;
+  }
+
+  .section-content ul {
+    margin: 12px 0;
+    padding-left: 24px;
+  }
+
+  .section-content li {
+    margin-bottom: 8px;
+  }
+
+  .section-content p {
+    margin-bottom: 12px;
+  }
+
+  .section-content strong {
+    color: var(--noir);
   }
 </style>
