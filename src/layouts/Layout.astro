@@ -46,6 +46,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
   <link rel="alternate" hreflang="x-default" href="https://sapiro.app/" />
 
   <title>{title}</title>
+  <slot name="head" />
 </head>
 <body>
   <slot />

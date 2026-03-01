@@ -7,6 +7,7 @@
   "header": {
     "home": "Home",
     "features": "Features",
+    "blog": "Blog",
     "download": "Download"
   },
   "hero": {
@@ -86,6 +87,22 @@
     "terms": "Terms of Use",
     "legal": "Legal Notice"
   },
+  "blog": {
+    "title": "SAPIRO Blog",
+    "subtitle": "Tips, general knowledge and geography to learn while having fun",
+    "readMore": "Read more",
+    "backToBlog": "Back to blog",
+    "publishedOn": "Published on",
+    "readingTime": "min read",
+    "allArticles": "All articles",
+    "categories": {
+      "geographie": "Geography",
+      "culture-generale": "General Knowledge",
+      "education": "Education",
+      "drapeaux": "Flags",
+      "apps": "Apps"
+    }
+  },
   "privacy": {
     "title": "Privacy Policy",
     "lastUpdate": "Last updated",
@@ -161,6 +178,10 @@
       {
         "title": "10. Contact",
         "content": "For any questions regarding these terms of use, contact us via the contact form on our website."
+      },
+      {
+        "title": "11. Subscriptions and In-App Purchases",
+        "content": "<p>SAPIRO offers optional premium subscriptions that unlock additional features.</p><h3>Available Plans</h3><ul><li><strong>Monthly Subscription</strong>: $1.99 per month</li><li><strong>Annual Subscription</strong>: $19.99 per year</li><li><strong>Lifetime Purchase</strong>: $39.99 (one-time payment)</li></ul><h3>Billing Terms</h3><p>Payment will be charged to your Apple ID account (for iOS) or Google Play account (for Android) upon confirmation of purchase.</p><h3>Automatic Renewal</h3><p>Monthly and annual subscriptions automatically renew. Your account will be charged for renewal within 24 hours prior to the end of the current period, at the current subscription rate.</p><h3>Cancellation</h3><p>You can cancel automatic renewal at any time, at least 24 hours before the end of the current period:</p><ul><li><strong>On iOS</strong>: Settings > [your name] > Subscriptions</li><li><strong>On Android</strong>: Google Play Store > Menu > Subscriptions</li></ul><p>Cancellation takes effect at the end of the current period. You will retain access to premium features until that date.</p><h3>Lifetime Purchase</h3><p>The \"Lifetime\" option is a one-time purchase (not a subscription) that provides permanent access to all premium features, with no renewal or additional fees.</p><h3>Free Trial</h3><p>Any unused portion of a free trial period (if offered) will be forfeited when purchasing a subscription.</p>"
       }
     ]
   },

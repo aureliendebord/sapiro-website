@@ -20,6 +20,7 @@ const languages: Lang[] = ['fr', 'en', 'es'];
 
     <nav class="nav">
       <a href={`${getLocalePath('/', lang)}#features`} class="nav-link">{t.header.features}</a>
+      <a href={getLocalePath('/blog', lang)} class="nav-link">{t.header.blog}</a>
       <a href={`${getLocalePath('/', lang)}#download`} class="nav-link">{t.header.download}</a>
     </nav>
 

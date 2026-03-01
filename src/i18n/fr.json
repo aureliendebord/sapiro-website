@@ -7,6 +7,7 @@
   "header": {
     "home": "Accueil",
     "features": "Fonctionnalites",
+    "blog": "Blog",
     "download": "Telecharger"
   },
   "hero": {
@@ -86,6 +87,22 @@
     "terms": "Conditions d'utilisation",
     "legal": "Mentions legales"
   },
+  "blog": {
+    "title": "Blog SAPIRO",
+    "subtitle": "Astuces, culture generale et geographie pour apprendre en s'amusant",
+    "readMore": "Lire la suite",
+    "backToBlog": "Retour au blog",
+    "publishedOn": "Publie le",
+    "readingTime": "min de lecture",
+    "allArticles": "Tous les articles",
+    "categories": {
+      "geographie": "Geographie",
+      "culture-generale": "Culture generale",
+      "education": "Education",
+      "drapeaux": "Drapeaux",
+      "apps": "Applications"
+    }
+  },
   "privacy": {
     "title": "Politique de confidentialite",
     "lastUpdate": "Derniere mise a jour",
@@ -161,6 +178,10 @@
       {
         "title": "10. Contact",
         "content": "Pour toute question concernant ces conditions d'utilisation, contactez-nous via le formulaire de contact sur notre site web."
+      },
+      {
+        "title": "11. Abonnements et Achats In-App",
+        "content": "<p>SAPIRO propose des abonnements premium optionnels qui debloquent des fonctionnalites supplementaires.</p><h3>Offres disponibles</h3><ul><li><strong>Abonnement Mensuel</strong> : 1,99 € par mois</li><li><strong>Abonnement Annuel</strong> : 19,99 € par an</li><li><strong>Achat A Vie</strong> : 39,99 € (paiement unique)</li></ul><h3>Conditions de facturation</h3><p>Le paiement sera debite de votre compte Apple ID (pour iOS) ou Google Play (pour Android) lors de la confirmation de l'achat.</p><h3>Renouvellement automatique</h3><p>Les abonnements mensuels et annuels se renouvellent automatiquement. Votre compte sera debite pour le renouvellement dans les 24 heures precedant la fin de la periode en cours, au tarif de l'abonnement en vigueur.</p><h3>Annulation</h3><p>Vous pouvez annuler le renouvellement automatique a tout moment, au moins 24 heures avant la fin de la periode en cours :</p><ul><li><strong>Sur iOS</strong> : Reglages > [votre nom] > Abonnements</li><li><strong>Sur Android</strong> : Google Play Store > Menu > Abonnements</li></ul><p>L'annulation prend effet a la fin de la periode en cours. Vous conservez l'acces aux fonctionnalites premium jusqu'a cette date.</p><h3>Achat A Vie</h3><p>L'option \"A Vie\" est un achat unique (non un abonnement) qui donne acces permanent a toutes les fonctionnalites premium, sans renouvellement ni frais supplementaires.</p><h3>Periode d'essai</h3><p>Toute portion non utilisee d'une periode d'essai gratuite (si proposee) sera perdue lors de l'achat d'un abonnement.</p>"
       }
     ]
   },

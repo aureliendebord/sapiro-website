@@ -1,0 +1,86 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../../../layouts/Layout.astro';
+import Header from '../../../components/Header.astro';
+import Footer from '../../../components/Footer.astro';
+import BlogCard from '../../../components/BlogCard.astro';
+import { getTranslations } from '../../../i18n';
+
+const lang = 'en';
+const t = getTranslations(lang);
+
+const posts = (await getCollection('blog', ({ data }) => data.lang === 'en'))
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+---
+
+<Layout title={`${t.blog.title} | SAPIRO`} description={t.blog.subtitle} lang={lang}>
+  <Header lang={lang} t={t} />
+
+  <main class="blog-listing">
+    <section class="container">
+      <div class="blog-header">
+        <h1>{t.blog.title}</h1>
+        <p>{t.blog.subtitle}</p>
+      </div>
+
+      <div class="blog-grid">
+        {posts.map((post) => (
+          <BlogCard
+            title={post.data.title}
+            description={post.data.description}
+            date={post.data.date}
+            slug={post.data.urlSlug}
+            category={post.data.category}
+            readingTime={post.data.readingTime}
+            lang={lang}
+          />
+        ))}
+      </div>
+    </section>
+  </main>
+
+  <Footer lang={lang} t={t} />
+</Layout>
+
+<style>
+  .blog-listing {
+    padding-top: 72px;
+  }
+
+  .blog-header {
+    text-align: center;
+    padding: 48px 0 40px;
+  }
+
+  .blog-header h1 {
+    font-size: clamp(2rem, 4vw, 3rem);
+    margin-bottom: 12px;
+    color: var(--noir);
+  }
+
+  .blog-header p {
+    font-size: 1.1rem;
+    color: var(--gris);
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .blog-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    padding-bottom: 64px;
+  }
+
+  @media (max-width: 1024px) {
+    .blog-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 640px) {
+    .blog-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

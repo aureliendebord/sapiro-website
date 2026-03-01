@@ -7,6 +7,7 @@
   "header": {
     "home": "Inicio",
     "features": "Funciones",
+    "blog": "Blog",
     "download": "Descargar"
   },
   "hero": {
@@ -86,6 +87,22 @@
     "terms": "Condiciones de uso",
     "legal": "Aviso legal"
   },
+  "blog": {
+    "title": "Blog SAPIRO",
+    "subtitle": "Consejos, cultura general y geografia para aprender divirtiendote",
+    "readMore": "Leer mas",
+    "backToBlog": "Volver al blog",
+    "publishedOn": "Publicado el",
+    "readingTime": "min de lectura",
+    "allArticles": "Todos los articulos",
+    "categories": {
+      "geographie": "Geografia",
+      "culture-generale": "Cultura general",
+      "education": "Educacion",
+      "drapeaux": "Banderas",
+      "apps": "Aplicaciones"
+    }
+  },
   "privacy": {
     "title": "Politica de privacidad",
     "lastUpdate": "Ultima actualizacion",
@@ -161,6 +178,10 @@
       {
         "title": "10. Contacto",
         "content": "Para cualquier pregunta sobre estas condiciones de uso, contactenos a traves del formulario de contacto en nuestro sitio web."
+      },
+      {
+        "title": "11. Suscripciones y Compras In-App",
+        "content": "<p>SAPIRO ofrece suscripciones premium opcionales que desbloquean funciones adicionales.</p><h3>Planes disponibles</h3><ul><li><strong>Suscripcion Mensual</strong>: 1,99 € por mes</li><li><strong>Suscripcion Anual</strong>: 19,99 € por ano</li><li><strong>Compra de por Vida</strong>: 39,99 € (pago unico)</li></ul><h3>Condiciones de facturacion</h3><p>El pago se cargara a su cuenta de Apple ID (para iOS) o Google Play (para Android) en el momento de confirmar la compra.</p><h3>Renovacion automatica</h3><p>Las suscripciones mensuales y anuales se renuevan automaticamente. Su cuenta sera cargada por la renovacion dentro de las 24 horas anteriores al final del periodo actual, a la tarifa de suscripcion vigente.</p><h3>Cancelacion</h3><p>Puede cancelar la renovacion automatica en cualquier momento, al menos 24 horas antes del final del periodo actual:</p><ul><li><strong>En iOS</strong>: Ajustes > [su nombre] > Suscripciones</li><li><strong>En Android</strong>: Google Play Store > Menu > Suscripciones</li></ul><p>La cancelacion entra en vigor al final del periodo actual. Conservara el acceso a las funciones premium hasta esa fecha.</p><h3>Compra de por Vida</h3><p>La opcion \"de por Vida\" es una compra unica (no una suscripcion) que proporciona acceso permanente a todas las funciones premium, sin renovacion ni cargos adicionales.</p><h3>Periodo de prueba</h3><p>Cualquier porcion no utilizada de un periodo de prueba gratuito (si se ofrece) se perdera al comprar una suscripcion.</p>"
       }
     ]
   },

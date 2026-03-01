@@ -1,0 +1,83 @@
+---
+import type { Lang } from '../i18n';
+import { getTranslations, getLocalePath } from '../i18n';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+const t = getTranslations(lang);
+
+const ctaText: Record<string, { title: string; subtitle: string; button: string }> = {
+  fr: {
+    title: 'Teste tes connaissances avec SAPIRO !',
+    subtitle: 'Drapeaux, capitales, personnages historiques... Apprends en t\'amusant avec des quiz ludiques et educatifs.',
+    button: 'Telecharger SAPIRO gratuitement'
+  },
+  en: {
+    title: 'Test your knowledge with SAPIRO!',
+    subtitle: 'Flags, capitals, historical figures... Learn while having fun with engaging educational quizzes.',
+    button: 'Download SAPIRO for free'
+  },
+  es: {
+    title: 'Pon a prueba tus conocimientos con SAPIRO!',
+    subtitle: 'Banderas, capitales, personajes historicos... Aprende divirtiendote con quizzes ludicos y educativos.',
+    button: 'Descarga SAPIRO gratis'
+  }
+};
+
+const cta = ctaText[lang];
+---
+
+<aside class="blog-cta">
+  <div class="blog-cta-icon">
+    <img src="/images/icon-180.png" alt="SAPIRO" width="64" height="64" />
+  </div>
+  <h3 class="blog-cta-title">{cta.title}</h3>
+  <p class="blog-cta-text">{cta.subtitle}</p>
+  <a href={`${getLocalePath('/', lang)}#download`} class="btn btn-orange blog-cta-button">
+    {cta.button}
+  </a>
+</aside>
+
+<style>
+  .blog-cta {
+    margin: 48px 0 32px;
+    padding: 32px;
+    background: linear-gradient(135deg, #FFF7ED, #FEF3C7);
+    border-radius: var(--border-radius);
+    text-align: center;
+    border: 2px solid rgba(255, 107, 53, 0.2);
+  }
+
+  .blog-cta-icon {
+    margin-bottom: 16px;
+  }
+
+  .blog-cta-icon img {
+    margin: 0 auto;
+    border-radius: 16px;
+    box-shadow: var(--shadow);
+  }
+
+  .blog-cta-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--noir);
+    margin-bottom: 8px;
+  }
+
+  .blog-cta-text {
+    color: var(--gris);
+    margin-bottom: 20px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+  }
+
+  .blog-cta-button {
+    display: inline-flex;
+  }
+</style>
