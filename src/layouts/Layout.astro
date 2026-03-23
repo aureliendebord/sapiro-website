@@ -5,11 +5,38 @@ interface Props {
   title: string;
   description: string;
   lang?: string;
+  noDefaultHreflang?: boolean;
 }
 
-const { title, description, lang = 'fr' } = Astro.props;
+const { title, description, lang = 'fr', noDefaultHreflang = false } = Astro.props;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const ogImageURL = new URL('/images/icon-1024.png', Astro.site);
+
+// Build dynamic hreflang URLs based on current path
+const pathname = Astro.url.pathname;
+let frPath: string;
+let enPath: string;
+let esPath: string;
+
+if (pathname.startsWith('/en/')) {
+  const basePath = pathname.replace(/^\/en/, '');
+  frPath = basePath;
+  enPath = `/en${basePath}`;
+  esPath = `/es${basePath}`;
+} else if (pathname.startsWith('/es/')) {
+  const basePath = pathname.replace(/^\/es/, '');
+  frPath = basePath;
+  enPath = `/en${basePath}`;
+  esPath = `/es${basePath}`;
+} else {
+  frPath = pathname;
+  enPath = `/en${pathname}`;
+  esPath = `/es${pathname}`;
+}
+
+const hrefFr = `https://sapiro.app${frPath}`;
+const hrefEn = `https://sapiro.app${enPath}`;
+const hrefEs = `https://sapiro.app${esPath}`;
 ---
 
 <!DOCTYPE html>
@@ -40,11 +67,15 @@ const ogImageURL = new URL('/images/icon-1024.png', Astro.site);
   <!-- Canonical -->
   <link rel="canonical" href={canonicalURL} />
 
-  <!-- Alternate languages -->
-  <link rel="alternate" hreflang="fr" href="https://sapiro.app/" />
-  <link rel="alternate" hreflang="en" href="https://sapiro.app/en/" />
-  <link rel="alternate" hreflang="es" href="https://sapiro.app/es/" />
-  <link rel="alternate" hreflang="x-default" href="https://sapiro.app/" />
+  <!-- Alternate languages (dynamic per page) -->
+  {!noDefaultHreflang && (
+    <>
+      <link rel="alternate" hreflang="fr" href={hrefFr} />
+      <link rel="alternate" hreflang="en" href={hrefEn} />
+      <link rel="alternate" hreflang="es" href={hrefEs} />
+      <link rel="alternate" hreflang="x-default" href={hrefFr} />
+    </>
+  )}
 
   <title>{title}</title>
   <slot name="head" />

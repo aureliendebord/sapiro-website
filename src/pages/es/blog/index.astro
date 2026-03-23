@@ -14,12 +14,6 @@ const posts = (await getCollection('blog', ({ data }) => data.lang === 'es'))
 ---
 
 <Layout title={`${t.blog.title} | SAPIRO`} description={t.blog.subtitle} lang={lang}>
-  <Fragment slot="head">
-    <link rel="alternate" hreflang="fr" href="https://sapiro.app/blog/" />
-    <link rel="alternate" hreflang="en" href="https://sapiro.app/en/blog/" />
-    <link rel="alternate" hreflang="es" href="https://sapiro.app/es/blog/" />
-    <link rel="alternate" hreflang="x-default" href="https://sapiro.app/blog/" />
-  </Fragment>
   <Header lang={lang} t={t} />
 
   <main class="blog-listing">

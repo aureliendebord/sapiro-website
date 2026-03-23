@@ -21,8 +21,10 @@ export function getTranslations(lang: Lang) {
 }
 
 export function getLocalePath(path: string, lang: Lang): string {
-  if (lang === 'fr') return path;
-  return `/${lang}${path}`;
+  // Ensure trailing slash for all paths (SEO: avoid 308 redirects)
+  const normalizedPath = path.endsWith('/') || path.includes('#') || path === '/' ? path : `${path}/`;
+  if (lang === 'fr') return normalizedPath;
+  return `/${lang}${normalizedPath}`;
 }
 
 export const localeNames: Record<Lang, string> = {
