@@ -3,7 +3,8 @@ title: "20 Historical Figures Everyone Should Know"
 description: "From Cleopatra to Mandela, 20 essential historical figures spanning every continent and 5,000 years. How many can you name in a historical figures quiz?"
 date: 2025-11-28
 lang: "en"
-urlSlug: "personnages-historiques"
+urlSlug: "historical-figures"
+translationKey: "personnages-historiques"
 category: "culture-generale"
 author: "SAPIRO"
 readingTime: 10
@@ -25,7 +26,7 @@ By the age of 30, Alexander of Macedon had created one of the largest empires in
 
 ### 3. Confucius (551-479 BCE)
 
-The Chinese philosopher whose teachings have influenced East Asian thought and governance for over 2,500 years -- a depth of cultural impact you can explore further in our [guide to improving general knowledge](/en/blog/culture-generale-guide). Confucius emphasized moral integrity, respect for elders, education, and social harmony. His ideas, compiled in the Analects, became the foundation of the Chinese imperial examination system and continue to shape values across China, Korea, Japan, and Vietnam. You cannot understand East Asian civilization without understanding Confucius. Full stop.
+The Chinese philosopher whose teachings have influenced East Asian thought and governance for over 2,500 years. Confucius emphasized moral integrity, respect for elders, education, and social harmony. His ideas, compiled in the Analects, became the foundation of the Chinese imperial examination system and continue to shape values across China, Korea, Japan, and Vietnam. You cannot understand East Asian civilization without understanding Confucius. Full stop.
 
 ## The Medieval Period
 
@@ -63,7 +64,7 @@ Newton's Principia Mathematica laid the foundations of classical mechanics, and 
 
 ### 11. Napoleon Bonaparte (1769-1821)
 
-A military commander who rose from modest Corsican origins to become Emperor of France and dominate European politics for nearly two decades. Napoleon's legal reforms -- the Napoleonic Code -- remain the foundation of civil law in many countries today. His military campaigns redrew the map of Europe -- contributing to many of the [common geography mistakes](/en/blog/erreurs-geographie) people make today about European borders -- and accelerated the spread of nationalist ideas that would reshape the continent throughout the 19th century. His defeat at Waterloo in 1815 ended an era, but his influence on law and governance outlasted his armies.
+A military commander who rose from modest Corsican origins to become Emperor of France and dominate European politics for nearly two decades. Napoleon's legal reforms -- the Napoleonic Code -- remain the foundation of civil law in many countries today. His military campaigns redrew the map of Europe and accelerated the spread of nationalist ideas that would reshape the continent throughout the 19th century. His defeat at Waterloo in 1815 ended an era, but his influence on law and governance outlasted his armies.
 
 ### 12. Toussaint Louverture (1743-1803)
 
@@ -81,7 +82,7 @@ The 16th President of the United States, who led the country through its bloodie
 
 ### 15. Marie Curie (1867-1934)
 
-The first woman to win a Nobel Prize, the only person to win Nobel Prizes in two different sciences (Physics and Chemistry), and a pioneer of research on radioactivity. Curie's discoveries of polonium and radium opened entirely new fields of science and medicine. She conducted her groundbreaking work in an era when women were largely excluded from scientific institutions. The radioactivity that she studied ultimately killed her -- her personal belongings are still too radioactive to handle without protection.
+The first woman to win a Nobel Prize and the only person to win Nobel Prizes in two different sciences (Physics and Chemistry). Curie's discoveries of polonium and radium opened entirely new fields of science and medicine. She conducted this work in an era when women were largely excluded from scientific institutions. The radioactivity that she studied ultimately killed her -- her personal belongings are still too radioactive to handle without protection.
 
 ## The 20th Century
 
@@ -141,6 +142,6 @@ A solid foundation of 50-100 key figures spanning all major eras and continents 
 
 Group them by era or theme (revolutionaries, scientists, leaders), use narrative rather than dates to anchor your memory, and test yourself regularly through active recall. A timeline visualization also helps you see how figures overlapped and influenced each other.
 
-## Explore History with SAPIRO
+## Test Your History Knowledge on SAPIRO
 
-Twenty figures, five thousand years of history, every continent represented -- and this is just a starting point. SAPIRO's history quizzes cover these figures and hundreds more, adapting to what you know and what you do not. The questions you get wrong come back. The ones you nail move to the back of the queue. Over time, what felt like an overwhelming list becomes knowledge you can retrieve under pressure, on demand. That is the difference between reading about history and actually knowing it.
+Can you match each of these 20 figures to their era and contribution without looking back? SAPIRO's history quizzes cover these profiles and hundreds more. The app tracks which figures you confuse or forget and brings them back at the right intervals. A few weeks of short sessions and Toussaint Louverture, Mansa Musa, and Confucius stop being names you vaguely recognize -- they become people whose stories you can actually tell.

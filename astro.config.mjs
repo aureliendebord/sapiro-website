@@ -3,7 +3,9 @@ import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
   site: 'https://sapiro.app',
-  integrations: [sitemap()],
+  integrations: [sitemap({
+    lastmod: new Date(),
+  })],
   i18n: {
     defaultLocale: 'fr',
     locales: ['fr', 'en', 'es'],

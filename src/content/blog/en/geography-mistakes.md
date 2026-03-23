@@ -1,21 +1,22 @@
 ---
-title: "The 12 Most Common Geography Mistakes (And How to Avoid Them)"
+title: "12 Common Geography Mistakes (And How to Fix Them)"
 description: "Sydney is not Australia's capital and Africa is 14 times larger than Greenland. How many of these 12 common geography mistakes are you still making today?"
 date: 2025-11-15
 lang: "en"
-urlSlug: "erreurs-geographie"
+urlSlug: "geography-mistakes"
+translationKey: "erreurs-geographie"
 category: "geographie"
 author: "SAPIRO"
 readingTime: 7
 ---
 
-Quick -- what is the capital of Australia? If you said Sydney, you just joined a very large club. And that is only the beginning. Our collective mental maps are riddled with errors, passed down through pop culture, flawed map projections, and years of unchecked assumptions. Some of these common geography mistakes are harmless. Others have caused diplomatic incidents.
+The capital of Australia is not Sydney. The biggest country in Africa is not Nigeria. And South America is not directly below North America. Our collective mental maps are riddled with errors, passed down through pop culture, flawed map projections, and years of unchecked assumptions. Some of these mistakes are harmless. Others have caused diplomatic incidents.
 
-Here are the 12 geography mistakes nearly everyone makes, why they stick, and the memory tricks that will finally shake them loose.
+Here are 12 geography mistakes nearly everyone makes, why they stick, and the memory tricks that will finally shake them loose.
 
 ## 1. Thinking Sydney Is the Capital of Australia
 
-Ask ten people to name Australia's capital and at least half will confidently answer "Sydney." The real capital is Canberra, a planned inland city built in the early 20th century specifically to end the rivalry between Sydney and Melbourne. Sydney dominates our mental associations because it is Australia's largest city and by far its most famous internationally. But the biggest city in a country is not always its capital -- a rule that applies to many nations around the world.
+Ask ten people to name Australia's capital and at least half will confidently answer "Sydney." The real capital is Canberra, a planned inland city built in the early 20th century specifically to end the rivalry between Sydney and Melbourne. For the full story behind this and other tricky capitals, see our [world capitals quiz](/en/blog/quiz-capitales-monde) article.
 
 Memory trick: "Can-berra Can-pital." Both start with "Can."
 
@@ -93,7 +94,7 @@ Then there is the sheer bad luck of language. Nobody designed "Slovakia" and "Sl
 
 And finally, educational gaps. Many school curricula rush through world geography, leaving students with a shaky mental map that hardens into false certainty over time. This is one reason why [teaching geography to kids](/en/blog/geographie-enfants) through hands-on methods is so valuable -- it builds accurate mental maps from the start.
 
-The good news? Once you spot a mistake, fixing it is easy. A simple mnemonic, a few rounds of quiz practice, and a little curiosity go a long way.
+Once you spot a mistake, fixing it is straightforward. A simple mnemonic, a few rounds of quiz practice, and a little curiosity go a long way.
 
 ## How to Fix Your Mental Map for Good
 
@@ -119,6 +120,6 @@ Regular quiz practice is the most effective method. Even five minutes a day usin
 
 ## Test Yourself With SAPIRO
 
-If reading this list made you wince at a few of your own blind spots, good. That awareness is where learning starts. SAPIRO is a geography and culture quiz app that covers capitals, flags, country outlines, cultural trivia, and more. Its adaptive difficulty zeros in on the topics that trip you up most, and detailed explanations after each question turn every wrong answer into a lesson.
+SAPIRO covers these 12 pitfalls -- and dozens more -- through adaptive quizzes on capitals, flags, country outlines, and cultural trivia. The app tracks which topics trip you up and serves more questions in those areas until the gap closes. Explanations after each answer provide the context that makes facts stick.
 
-Pick it up, run through a few rounds, and see how many of these 12 traps you can dodge. You might surprise yourself -- or uncover a 13th mistake you did not know you were making.
+Download it, run through a few rounds, and find out which of these 12 traps still catch you.

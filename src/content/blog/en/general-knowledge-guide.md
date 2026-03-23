@@ -1,9 +1,10 @@
 ---
-title: "General Knowledge: The Ultimate Guide to Knowing (Almost) Everything"
+title: "General Knowledge: The Guide to Know It All"
 description: "Want to improve general knowledge without cramming? Five daily habits, proven retention strategies, and the overlooked domains that make all the difference."
 date: 2025-10-28
 lang: "en"
-urlSlug: "culture-generale-guide"
+urlSlug: "general-knowledge-guide"
+translationKey: "culture-generale-guide"
 category: "culture-generale"
 author: "SAPIRO"
 readingTime: 9
@@ -11,9 +12,9 @@ readingTime: 9
 
 You know that person at trivia night who seems to know something about everything? The one who nails the geography round, holds their own in science, then casually drops a fact about Renaissance art that clinches the win? We all assume they are just wired differently. Naturally curious. Born with a better brain.
 
-They are not. They just practiced. And you can too.
+Usually, they just practiced. And you can too.
 
-General knowledge is a skill, not a gift. Decades of research on learning and memory bear this out. You can improve general knowledge deliberately, and the right habits, applied consistently, will make you that person at the table. This guide breaks down what general knowledge actually covers, why it matters far beyond trivia nights, and -- most importantly -- how to start building yours today.
+General knowledge is a skill you build, like any other. Decades of research on learning and memory bear this out. The right habits, applied consistently, will make you that person at the table. This guide breaks down what general knowledge actually covers, why it matters far beyond trivia nights, and how to start building yours today.
 
 ## What Exactly Is General Knowledge?
 
@@ -138,8 +139,6 @@ Absolutely. Quiz apps leverage the testing effect, which research consistently s
 
 ## Build Your General Knowledge With SAPIRO
 
-General knowledge is not a talent. It is a practice. And the best practices are the ones you actually enjoy enough to keep doing. SAPIRO turns daily knowledge-building into something that feels like a game rather than homework, with quizzes spanning geography, flags, capitals, cultural trivia, and more -- all in short sessions designed to fit into a real schedule.
+SAPIRO covers geography, flags, capitals, landmarks, and cultural trivia in short quiz sessions -- five minutes is enough for a full round. The adaptive system identifies the topics where you hesitate and serves more questions in those areas until the gap closes. Explanations after each answer add the context that turns an isolated fact into lasting knowledge.
 
-The adaptive learning system spots your weak areas and steers questions toward them, so you are always growing instead of coasting. Explanations after each question turn wrong answers into mini-lessons. And with support for multiple languages, you can build knowledge across cultural and linguistic boundaries at the same time.
-
-One quiz a day. That is the commitment. In a few months, you will be the one at the table who always seems to know the answer -- not because you are gifted, but because you showed up every day and practiced.
+Available in English, French, and Spanish, free to download, and fully functional offline. One round a day adds up faster than you would expect.

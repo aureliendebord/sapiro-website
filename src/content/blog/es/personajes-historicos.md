@@ -3,128 +3,127 @@ title: "20 personajes historicos que todos deberian conocer"
 description: "El quiz personajes historicos definitivo: de Cleopatra a Mandela, 20 figuras que cambiaron el rumbo de la humanidad. Cuantos serias capaz de reconocer?"
 date: 2025-11-28
 lang: "es"
-urlSlug: "personnages-historiques"
+urlSlug: "personajes-historicos"
+translationKey: "personnages-historiques"
 category: "culture-generale"
 author: "SAPIRO"
 readingTime: 10
 ---
 
-Cuantas personas han cambiado realmente el rumbo de la historia? Cualquier quiz personajes historicos te obliga a enfrentarte a esa pregunta. Si tuvieras que hacer una lista de las 20 figuras que mas huella dejaron en la humanidad, a quienes incluirias? La lista que sigue no pretende ser definitiva (cualquier seleccion es discutible), pero recoge a 20 individuos cuyas decisiones, ideas o descubrimientos configuraron el mundo tal como lo conocemos. De la Antiguedad al siglo XX, repasamos quienes fueron, que hicieron y por que todavia importan.
+Se puede pasar por la escuela sin entender realmente quien forjo el mundo en el que vivimos. Un quiz personajes historicos revela rapido las lagunas: los manuales acumulan fechas, nombres, batallas, y uno acaba mezclando todo. Sin embargo, detras de cada gran transformacion — un imperio que se derrumba, una idea que se propaga, una sociedad que cambia — hay individuos. Gente que tomo decisiones y asumio sus consecuencias. Aqui van veinte de ellos. Veinte figuras que cruzan las epocas y los cinco continentes, y cuya influencia se sigue notando hoy.
 
-## Figuras de la Antiguedad: los cimientos de la civilizacion
+## La Antiguedad: los fundadores de civilizaciones
 
-### 1. Cleopatra VII (69-30 a.C.)
+### 1. Cleopatra (69-30 a.C.)
 
-Olvida la imagen romantica del cine. Cleopatra fue, ante todo, una politica excepcional. Hablaba nueve idiomas. Goberno Egipto durante dos decadas manteniendo la independencia frente a Roma, que se estaba tragando todo el Mediterraneo. Sus alianzas con Julio Cesar y Marco Antonio no fueron romances de pelicula, sino maniobras diplomaticas calculadas para preservar su reino. Fue la ultima reina del Egipto ptolemaico, y lo fue con una habilidad que pocos gobernantes de su epoca igualaron.
+Olvida la imagen de Hollywood. Cleopatra VII, ultima reina de la dinastia de los Ptolomeos en Egipto, era poliglota — nueve lenguas —, diplomatica temible y administradora habil. Durante mas de veinte anos, mantuvo la independencia de Egipto frente a Roma, la superpotencia de la epoca. Sus alianzas con Julio Cesar y despues con Marco Antonio no eran romances de cine: eran golpes politicos calculados para preservar la soberania de su reino. Su muerte en 30 a.C. marca el fin del Egipto faraonico y el comienzo de la dominacion romana sobre el Mediterraneo oriental.
 
-### 2. Alejandro Magno (356-323 a.C.)
+### 2. Julio Cesar (100-44 a.C.)
 
-En 13 anos creo uno de los imperios mas grandes de la Antiguedad, abarcando unos 5,2 millones de kilometros cuadrados desde Grecia hasta el norte de la India. Murio a los 32. Pero su legado va mas alla de las conquistas militares: la difusion de la cultura griega por Asia y Africa dio origen al periodo helenistico, una era de intercambio cultural que sento bases para la civilizacion occidental. Cuando murio, la geografia politica del mundo conocido habia cambiado por completo.
+General, hombre de Estado y escritor. Cesar conquisto la Galia, cruzo el Rubicon e hizo bascular la Republica Romana hacia el Imperio. Sus reformas tuvieron un alcance inmenso: el calendario juliano (que sigue siendo la base del nuestro), la extension de la ciudadania romana, la reorganizacion de la administracion provincial. Su asesinato en los idus de marzo del 44 a.C. trastorno el equilibrio politico de Roma. Y la paradoja es que ese asesinato precipito exactamente lo que los conjurados querian impedir: el advenimiento del Imperio.
 
-### 3. Julio Cesar (100-44 a.C.)
+### 3. Alejandro Magno (356-323 a.C.)
 
-Militar brillante, politico astuto, escritor con talento. Conquisto la Galia, cruzo el Rubicon, reformo el calendario. Transformo la Republica Romana en los cimientos de lo que seria el Imperio. Su asesinato en los idus de marzo de 44 a.C. es uno de los momentos mas dramaticos de la historia antigua, y desencadeno una serie de eventos que terminarian creando el Imperio Romano.
+Rey de Macedonia a los veinte anos. En trece anos, construyo un imperio de mas de 5 millones de km2, desde Grecia hasta la India. Pero mas alla de las conquistas militares, es la mezcla cultural que provoco lo que deja huella. Mundo griego, mundo persa, mundo indio: estas civilizaciones se encontraron, se mezclaron, y de ese encuentro nacio la cultura helenistica. Las ciudades que fundo — mas de 70, con Alejandria a la cabeza — se convirtieron en centros de saber y comercio durante siglos.
 
 ### 4. Confucio (551-479 a.C.)
 
-Pocas personas han influido en tanta gente durante tanto tiempo. Las ensenanzas de Confucio llevan mas de 2.500 anos moldeando la cultura, la etica y la organizacion social de China y gran parte de Asia Oriental. Armonia social, respeto a los mayores, valor de la educacion, virtud moral. Estos principios siguen siendo pilares de las sociedades asiaticas contemporaneas.
+Filosofo chino cuyo pensamiento ha impregnado Asia Oriental durante mas de dos milenios. Etica, familia, justicia social, buen gobierno: sus ensenanzas han moldeado China, Corea, Japon, Vietnam. El confucianismo no es solo una filosofia de salon. Es un sistema de valores que todavia estructura las sociedades asiaticas contemporaneas. Dificil entender el Asia de hoy sin conocer a Confucio.
 
-## Que cientificos y exploradores cambiaron el mundo?
+## Que personajes de la Edad Media cambiaron el mundo?
 
-### 5. Marco Polo (1254-1324)
+### 5. Juana de Arco (1412-1431)
 
-Paso 24 anos recorriendo Asia. Su libro, "El Millon", abrio los ojos de Europa a un mundo que desconocia: la corte de Kublai Kan, las riquezas de China, las rutas comerciales asiaticas. Inspiro a generaciones de exploradores, incluido Cristobal Colon. Entender sus rutas es entender la [geografia historica del mundo](/es/blog/quiz-capitales-monde).
+Campesina analfabeta. Diecisiete anos. Afirma oir voces divinas, convence al delfin Carlos VII de confiarle un ejercito, levanta el sitio de Orleans y conduce a Carlos a su coronacion en Reims. Capturada por los borgoñones, vendida a los ingleses, quemada viva en Ruan a los diecinueve anos. En dos anos, invirtio el curso de la Guerra de los Cien Anos.
 
-### 6. Leonardo da Vinci (1452-1519)
+### 6. Gengis Kan (1162-1227)
 
-Pintor, escultor, arquitecto, ingeniero, anatomista, botanico, musico, escritor. La lista parece excesiva, pero es real. La Mona Lisa y La Ultima Cena son dos de las obras mas reconocidas de la historia del arte. Pero lo que revelan sus cuadernos es casi mas impresionante: diseno helicopteros, tanques, calculadoras y robots siglos antes de que la tecnologia pudiera darles vida. Leonardo no estaba adelantado a su tiempo. Su tiempo simplemente no podia seguirle el ritmo.
+Nacido Temujin en las estepas mongolas, unifico tribus nomadas y construyo el imperio contiguo mas vasto de la Historia — desde China hasta Europa del Este. Se recuerda a menudo la imagen del conquistador brutal. Es incompleta. Gengis Kan fue tambien legislador: el Yasa, su codigo de leyes, garantizaba la libertad religiosa, favorecia el merito sobre el nacimiento y establecio un sistema postal que conectaba todo el imperio. Dato adicional bastante vertiginoso: se estima que unos 16 millones de hombres vivos hoy descienden de el.
 
-### 7. Galileo Galilei (1564-1642)
+### 7. Mansa Musa (1280-1337)
 
-Perfecciono el telescopio, lo apunto al cielo y descubrio las lunas de Jupiter, las fases de Venus, los crateres de la Luna. Defendio el heliocentrismo y se enfrento a la Inquisicion por ello. Su metodo, basado en observar y experimentar en vez de aceptar dogmas, cambio la forma en que entendemos el mundo. Se le llama el padre de la ciencia moderna. No es una exageracion.
+Emperador de Mali y probablemente el hombre mas rico de todos los tiempos. Su peregrinacion a La Meca en 1324 quedo en los anales: distribuyo tanto oro a su paso que el precio del metal se hundio en Egipto durante anos. Su imperio fue un foco de comercio, cultura y saber. La universidad de Tombuctu atraia a eruditos de todo el mundo musulman. Su historia recuerda una verdad a menudo ignorada: el Africa medieval estaba lejos de estar aislada.
 
-### 8. Isaac Newton (1643-1727)
+### 8. Leonardo da Vinci (1452-1519)
 
-Las leyes del movimiento y la gravitacion universal de Newton unificaron la fisica terrestre y celeste. De repente, la misma ley explicaba la caida de una manzana y las orbitas de los planetas. Su obra "Principia Mathematica" esta entre los libros mas influyentes jamas escritos. Ademas de la fisica, hizo contribuciones decisivas a las matematicas (el calculo infinitesimal) y la optica.
+La palabra "polimata" parece haberse inventado para el. Pintor, escultor, arquitecto, musico, matematico, ingeniero, inventor, anatomista, geologo, botanico. La Gioconda y La Ultima Cena estan entre las obras mas celebres del mundo, pero sus cuadernos de notas revelan un espiritu aun mas vasto. Diseno maquinas voladoras, submarinos y automatas siglos antes de que la tecnologia permitiera construirlos. Pasaba de un campo a otro sin encerrarse jamas en una especialidad.
 
-## Lideres que cambiaron naciones
+## La Epoca moderna: revolucionarios y visionarios
 
 ### 9. Napoleon Bonaparte (1769-1821)
 
-De oficial corso sin conexiones a emperador de Francia y dominador de Europa. Su codigo civil sigue siendo la base del sistema legal de decenas de paises. Sus campanas redibujaron el mapa europeo. Sus reformas administrativas modernizaron las instituciones de los paises que conquisto. Una figura fascinante y llena de contradicciones, cuyo legado, para bien y para mal, sigue pesando.
+General corso convertido en emperador de los franceses. Napoleon redibujó el mapa de Europa y dejo un legado juridico y administrativo que aun se mantiene en pie. El Codigo Civil, adoptado en 1804, ha influido en el derecho de decenas de paises. El sistema metrico, el bachillerato, los prefectos, el Banco de Francia: otras tantas instituciones napoleonicas aun vigentes. Se puede discutir al hombre. No se puede negar la huella.
 
-### 10. Simon Bolivar (1783-1830)
+### 10. Toussaint Louverture (1743-1803)
 
-El Libertador. Lideo las guerras de independencia contra Espana y fue clave en la creacion de Bolivia, Colombia, Ecuador, Panama, Peru y Venezuela. Su sueno de una America Latina unida nunca se materializo del todo, pero sigue siendo una aspiracion para muchos. Fue un genio militar comparable a Napoleon y un pensador politico cuyas ideas sobre libertad y justicia no han perdido vigencia.
+Nacido esclavo en Saint-Domingue (actual Haiti). Dirigio la unica revolucion de esclavos exitosa de la Historia. No una revuelta desordenada: un movimiento politico estructurado. Negocio con las potencias europeas y puso los cimientos de la primera republica negra del mundo. Capturado por las tropas de Napoleon, encarcelado en el Fuerte de Joux en el Jura, murio en cautividad en 1803. Haiti proclamo su independencia al ano siguiente.
 
-### 11. Abraham Lincoln (1809-1865)
+### 11. Marie Curie (1867-1934)
 
-Presidio Estados Unidos durante su crisis mas profunda, la Guerra Civil, y abolio la esclavitud con la Proclamacion de Emancipacion. Su liderazgo en un momento de division extrema y su compromiso con la union y la igualdad le convirtieron en uno de los presidentes mas admirados. Su asesinato en 1865 lo elevo a la categoria de martir, pero su legado va mucho mas alla del mito.
+Primera mujer en recibir un Premio Nobel. Unica persona en haber obtenido dos en dos disciplinas diferentes: Fisica en 1903, Quimica en 1911. Sus trabajos sobre la radiactividad abrieron el camino a la medicina nuclear y la radioterapia. Hizo todo eso en una epoca en la que las mujeres ni siquiera tenian derecho a voto en la mayoria de los paises. Tuvo que crear su propio laboratorio al no ser admitida en los de sus colegas masculinos.
 
-### 12. Mahatma Gandhi (1869-1948)
+### 12. Charles Darwin (1809-1882)
 
-Demostro que era posible enfrentarse a un imperio sin armas. Su filosofia de resistencia pacifica, el satyagraha, inspiro movimientos de liberacion en todo el mundo. La independencia de la India en 1947 fue un triunfo no solo para los indios, sino para todos los pueblos colonizados. Su legado de no violencia sigue siendo una referencia moral, aunque su figura tambien genera debate y revision critica, como toda figura historica deberia.
+Su teoria de la evolucion por seleccion natural cambio nuestra comprension de lo vivo. "El origen de las especies", publicado en 1859, es uno de los libros mas influyentes jamas escritos. Pero antes del libro, hubo el viaje. El Beagle lo llevo a las islas Galapagos y alrededor del mundo. Una aventura geografica tanto como cientifica.
 
-## Visionarios de la era moderna
+## El siglo XX: combatientes de la libertad
 
-### 13. Marie Curie (1867-1934)
+### 13. Mahatma Gandhi (1869-1948)
 
-Primera mujer en ganar un Premio Nobel. Unica persona en ganarlo en dos disciplinas cientificas diferentes: Fisica y Quimica. Descubrio la radiactividad, el polonio y el radio. Su trabajo abrio campos enteros de la ciencia y la medicina. Y lo hizo enfrentandose a una discriminacion de genero brutal en el mundo academico de su epoca. Su vida es un argumento irrebatible contra la exclusion.
+Lider del movimiento independentista indio. Gandhi hizo de la no violencia — el ahimsa — y de la resistencia pasiva — el satyagraha — armas de liberacion. La marcha de la sal en 1930, la campana "Quit India", las huelgas de hambre prolongadas: gestos que se convirtieron en modelos para todos los movimientos pacificos posteriores. Asesinado en 1948 por un extremista hindu.
 
-### 14. Albert Einstein (1879-1955)
+### 14. Nelson Mandela (1918-2013)
 
-La teoria de la relatividad cambio nuestra comprension del espacio, el tiempo, la materia y la energia. E=mc2 es probablemente la formula mas famosa de la historia y la base teorica de la energia nuclear. Mas alla de la fisica, Einstein fue un humanista que abogo por la paz, los derechos civiles y la cooperacion internacional. El cientifico y la persona son inseparables.
+Veintisiete anos de prision por luchar contra el apartheid en Sudafrica. A su liberacion en 1990, podria haber elegido la venganza. Eligio el perdon. Elegido primer presidente negro de Sudafrica en 1994, creo la Comision de la Verdad y la Reconciliacion para sanar las heridas de un pais desgarrado. De preso a presidente: un recorrido que resume por si solo las contradicciones de Sudafrica.
 
-### 15. Winston Churchill (1874-1965)
+### 15. Martin Luther King Jr. (1929-1968)
 
-Primer ministro britanico durante la Segunda Guerra Mundial. Sus discursos galvanizaron a un pais al borde del colapso. "No tengo nada que ofrecer sino sangre, esfuerzo, lagrimas y sudor." Esas palabras no eran retorica vacia: eran un pacto con su pueblo. Su liderazgo fue decisivo para la victoria aliada, aunque su legado colonial tambien merece una mirada critica.
+Pastor bautista, lider del movimiento por los derechos civiles en Estados Unidos. Su discurso "I Have a Dream" en la marcha sobre Washington en 1963 sigue siendo uno de los momentos mas intensos de la historia estadounidense. Inspirado por Gandhi, dirigio un combate no violento por la igualdad racial. La Ley de Derechos Civiles de 1964 y la Ley del Derecho al Voto de 1965 le deben mucho. Asesinado en Memphis en 1968, a los treinta y nueve anos.
 
-### 16. Martin Luther King Jr. (1929-1968)
+### 16. Simone de Beauvoir (1908-1986)
 
-Combatio la segregacion racial en Estados Unidos usando la no violencia y la desobediencia civil. Su discurso "I Have a Dream", pronunciado ante unas 250.000 personas en el Lincoln Memorial de Washington el 28 de agosto de 1963, sigue siendo uno de los momentos mas conmovedores del siglo XX. Su lucha llevo directamente a la Ley de Derechos Civiles de 1964 y la Ley de Derecho al Voto de 1965. Fue asesinado a los 39 anos.
+Filosofa, novelista, feminista. "El segundo sexo", publicado en 1949, sento las bases del feminismo moderno. Su celebre frase — "No se nace mujer, se llega a serlo" — abrio la distincion entre sexo biologico y genero social, un debate que sigue vivo hoy. Companera de Sartre, figura del existencialismo, dejo tambien novelas y memorias que atestiguan la vida intelectual parisina del siglo XX.
 
-## Figuras contemporaneas que definieron el siglo XX
+### 17. Albert Einstein (1879-1955)
 
-### 17. Nelson Mandela (1918-2013)
+La teoria de la relatividad. E=mc2, probablemente la formula cientifica mas conocida del mundo. Premio Nobel de Fisica en 1921. Huyo de la Alemania nazi hacia Estados Unidos, donde milito por la paz y contra las armas nucleares hasta el final. Un espiritu que reconfiguro nuestra comprension del espacio, del tiempo y del universo.
 
-27 anos en prision. Salio sin amargura. Lidero la transicion pacifica de Sudafrica hacia la democracia, evitando una guerra civil que parecia inevitable. Como primer presidente negro del pais, demostro que la justicia y la reconciliacion podian ganar. Hay pocos ejemplos en la historia de un liderazgo moral tan claro.
+## Las figuras contemporaneas
 
-### 18. Frida Kahlo (1907-1954)
+### 18. Rosa Parks (1913-2005)
 
-Sus autorretratos, cargados de dolor, pasion y simbolismo mexicano, la convirtieron en un icono global. Pero Frida fue mucho mas que una imagen en una camiseta. Su arte transformo el sufrimiento fisico y emocional en algo visceral y universal. Se ha convertido en simbolo de resiliencia, feminismo y autenticidad, y su influencia en el arte del siglo XX es innegable.
+El 1 de diciembre de 1955, en Montgomery, Alabama. Rosa Parks se niega a ceder su asiento a un pasajero blanco en un autobus. Un gesto en apariencia simple. Desencadena el boicot de los autobuses de Montgomery durante 381 dias y lanza el movimiento por los derechos civiles a escala nacional. Rosa Parks no era una pasajera cansada que dijo no por impulso: era una militante formada y decidida. Su acto de desobediencia civil fue deliberado.
 
-### 19. Nikola Tesla (1856-1943)
+### 19. Wangari Maathai (1940-2011)
 
-La corriente alterna. La radio. El radar. Cientos de inventos que hicieron posible el mundo moderno. Tesla imagino la transmision inalambrica de energia, la comunicacion global y los vehiculos autonomos decadas antes de que fueran tecnicamente viables. Murio en la oscuridad, casi olvidado. Su reconocimiento ha vuelto con fuerza en las ultimas decadas, y con razon.
+Biologa y activista ecologista keniata. En 1977, fundo el Movimiento del Cinturon Verde, un programa de plantacion de arboles que movilizo a miles de mujeres por toda Africa. Premio Nobel de la Paz en 2004. Demostro que la ecologia, los derechos de las mujeres y la democracia estan vinculados. Mas de 51 millones de arboles plantados gracias a su movimiento. Cincuenta y un millones.
 
-### 20. Ada Lovelace (1815-1852)
+### 20. Alan Turing (1912-1954)
 
-Escribio lo que se considera el primer algoritmo destinado a ser procesado por una maquina: el Motor Analitico de Charles Babbage. Pero su vision iba mucho mas lejos: imagino que las maquinas podrian crear musica, arte, ciencia. No solo fue la primera programadora de la historia, fue la primera persona que entendio que un ordenador podia ser mas que una calculadora. En 1843.
+Matematico, criptoanalista, padre de la informatica. Su trabajo para descifrar el codigo Enigma durante la Segunda Guerra Mundial contribuyo a acortar el conflicto varios anos, salvando potencialmente millones de vidas. Su "maquina de Turing" es el fundamento teorico de todos los ordenadores modernos. Perseguido por su homosexualidad, condenado a castracion quimica, se suicido en 1954. Indultado a titulo postumo por la reina Isabel II en 2013, casi sesenta anos despues de su muerte.
 
-## Por que es util conocer la historia?
+## Por que es util conocer a los personajes historicos?
 
-Esto no es memorizacion por memorizacion. Cada uno de estos 20 personajes encarna una leccion sobre liderazgo, creatividad, perseverancia o justicia que sigue siendo relevante. Conocerlos es entender mejor de donde venimos.
+El interes va mas alla de la [cultura general](/es/blog/culture-generale-guide/) de sobremesa. Conocer estas vidas es entender como el mundo llego a ser lo que es. El Codigo Civil de Napoleon estructura el derecho de mas de 40 paises. La teoria de Darwin fundamenta nuestra biologia. La no violencia de Gandhi inspira los movimientos sociales contemporaneos. No son figuras del pasado. Su influencia esta en el presente.
 
-Ademas, historia y geografia estan profundamente conectadas. Las campanas de Napoleon no se entienden sin conocer la geografia de Europa. El viaje de Marco Polo exige familiaridad con la Ruta de la Seda. Las guerras de Bolivar cobran vida cuando visualizas la cordillera de los Andes que sus ejercitos cruzaron. Si quieres profundizar en la dimension geografica, echa un vistazo a nuestros articulos sobre [capitales del mundo](/es/blog/quiz-capitales-monde) y [banderas dificiles](/es/blog/drapeaux-difficiles).
-
-Los metodos de [gamificacion aplicados a la educacion](/es/blog/gamification-education) han mostrado que aprender historia y geografia con quiz y juegos interactivos tiene mas impacto que los metodos tradicionales. La practica activa, combinada con la repeticion espaciada, consolida estos conocimientos a largo plazo.
-
-Para los mas jovenes, mezclar historia y geografia de forma ludica es especialmente provechoso. Descubre como en nuestro articulo sobre [ensenar geografia a los ninos](/es/blog/geographie-enfants). Y si quieres profundizar en los simbolos nacionales que estas figuras ayudaron a forjar, nuestro articulo sobre el [significado de las banderas del mundo](/es/blog/signification-drapeaux) te dara otra perspectiva.
+Para ninos y adolescentes, descubrir a estos personajes desarrolla el espiritu critico y la empatia. Y el metodo ludico — [quiz y juegos educativos](/es/blog/geographie-enfants/) — vuelve estas figuras vivas y accesibles, lejos de los parrafos grises de un manual escolar. Los [principios de la gamificacion](/es/blog/gamification-education/) explican por que el formato quiz ancla tan bien estos conocimientos, y las [mejores aplicaciones de geografia](/es/blog/meilleures-apps-geographie/) extienden el juego a mapas y banderas.
 
 ## Preguntas frecuentes
 
 ### Cuales son los personajes historicos mas importantes?
 
-No hay una lista definitiva, pero Alejandro Magno, Julio Cesar, Leonardo da Vinci, Isaac Newton, Napoleon, Gandhi y Marie Curie suelen aparecer en cualquier seleccion por la magnitud de su impacto en la civilizacion.
+Cleopatra, Julio Cesar, Gengis Kan, Napoleon, Marie Curie, Gandhi, Mandela y Turing figuran entre los imprescindibles. Cubren todas las epocas y todos los continentes, y su influencia se sigue notando en nuestras leyes, nuestras ciencias y nuestras sociedades.
 
-### Que personaje historico hablo mas idiomas?
+### Como recordar las fechas de los personajes historicos?
 
-Cleopatra VII es una de las poligotas mas notables de la Antiguedad: hablaba nueve idiomas, incluyendo egipcio, griego, arameo, etiope y medo, algo excepcional incluso para los gobernantes de su epoca.
+En vez de memorizar fechas aisladas, vincula cada personaje a una epoca y a otras figuras contemporaneas. Las lineas de tiempo visuales y los quiz de recuerdo activo son las herramientas mas eficaces segun las ciencias cognitivas.
 
-### Por que es util aprender sobre personajes historicos?
+### Que personajes historicos aparecen mas en los quiz de cultura general?
 
-Porque historia y geografia estan profundamente conectadas. Las campanas de Napoleon no se entienden sin conocer el mapa de Europa. Los viajes de Marco Polo exigen familiaridad con la Ruta de la Seda. Conocer a estas figuras da contexto al mundo actual.
+Napoleon, Marie Curie, Cleopatra y Leonardo da Vinci son los que mas aparecen en quiz y concursos. Los personajes del siglo XX como Gandhi, Mandela y Einstein son tambien muy frecuentes.
 
-## Explora la historia con SAPIRO
+## Pon a prueba tus conocimientos con SAPIRO
 
-Te atreves a responder preguntas sobre estos 20 personajes sin mirar? SAPIRO incluye una seccion de cultura general e historia con preguntas desde la Antiguedad hasta la era contemporanea. Su sistema de aprendizaje adaptativo detecta tus lagunas y las trabaja hasta que las llenas. Es como tener un profesor particular que sabe exactamente donde fallas y no te deja escaquear.
+De estas veinte figuras, cuantas sabrias situar en su siglo y su pais? SAPIRO propone quiz de historia que cubren desde la Antiguedad hasta nuestros dias, con fichas explicativas para cada personaje.
+
+La app ajusta la dificultad a medida que progresas. Si la Antiguedad te resulta familiar pero el siglo XX sigue borroso, las preguntas se adaptan. Una forma concreta de transformar la lectura de este articulo en conocimientos duraderos.

@@ -1,0 +1,10 @@
+# Assurer le bon Content-Type pour les sitemaps XML
+/sitemap-index.xml
+  Content-Type: application/xml; charset=utf-8
+
+/sitemap-0.xml
+  Content-Type: application/xml; charset=utf-8
+
+# Assurer le bon Content-Type pour robots.txt
+/robots.txt
+  Content-Type: text/plain; charset=utf-8

@@ -4,14 +4,29 @@ import BlogPost from '../../../layouts/BlogPost.astro';
 import { extractFaqFromMarkdown } from '../../../utils/faq';
 
 export async function getStaticPaths() {
-  const posts = await getCollection('blog', ({ data }) => data.lang === 'en');
-  return posts.map((post) => ({
-    params: { slug: post.data.urlSlug },
-    props: { post },
-  }));
+  const allPosts = await getCollection('blog');
+  const enPosts = allPosts.filter(p => p.data.lang === 'en');
+
+  return enPosts.map((post) => {
+    const key = post.data.translationKey;
+    const frPost = allPosts.find(p => p.data.lang === 'fr' && p.data.translationKey === key);
+    const esPost = allPosts.find(p => p.data.lang === 'es' && p.data.translationKey === key);
+
+    return {
+      params: { slug: post.data.urlSlug },
+      props: {
+        post,
+        translationSlugs: {
+          fr: frPost?.data.urlSlug || post.data.urlSlug,
+          en: post.data.urlSlug,
+          es: esPost?.data.urlSlug || post.data.urlSlug,
+        },
+      },
+    };
+  });
 }
 
-const { post } = Astro.props;
+const { post, translationSlugs } = Astro.props;
 const { Content } = await render(post);
 const faqItems = extractFaqFromMarkdown(post.body || '');
 ---
@@ -26,6 +41,7 @@ const faqItems = extractFaqFromMarkdown(post.body || '');
   author={post.data.author}
   readingTime={post.data.readingTime}
   faqItems={faqItems}
+  translationSlugs={translationSlugs}
 >
   <Content />
 </BlogPost>

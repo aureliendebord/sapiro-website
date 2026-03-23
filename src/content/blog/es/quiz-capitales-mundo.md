@@ -3,117 +3,125 @@ title: "Quiz de capitales del mundo: cuantas puedes nombrar?"
 description: "Acepta el quiz capitales del mundo: trampas clasicas, capitales sorprendentes y trucos para memorizar las 195. Cuantas eres capaz de nombrar sin mirar?"
 date: 2025-12-10
 lang: "es"
-urlSlug: "quiz-capitales-monde"
+urlSlug: "quiz-capitales-mundo"
+translationKey: "quiz-capitales-monde"
 category: "geographie"
 author: "SAPIRO"
 readingTime: 9
 ---
 
-Cual es la capital de Australia? Si has respondido Sidney, acabas de caer en la trampa mas clasica de cualquier quiz capitales del mundo. La respuesta es Canberra, una ciudad que practicamente nadie fuera de Australia podria senalar en un mapa. Y aqui esta el problema: creemos que sabemos las capitales del mundo, pero la mayoria de la gente se queda atascada despues de las primeras 40 o 50. A partir de ahi, todo son dudas, confusiones y paises que ni sabiamos que existian. Vamos a recorrer las trampas, las sorpresas y los trucos para dominarlas todas.
+Cual es la capital de Australia? Si has respondido Sidney, bienvenido al club. La mayoria de la gente se equivoca. Es Canberra. Este quiz capitales del mundo te reserva mas sorpresas: existen decenas de capitales que pillan desprevenidos incluso a los jugadores mas curtidos. Aqui hemos reunido las capitales mas enganosas, los errores recurrentes y algunas tecnicas para no volver a caer.
 
-## Cuales son las capitales que mas se confunden?
+## Cuales son las capitales que nadie adivina?
 
-Las trampas clasicas son casi siempre las mismas. Y casi todo el mundo cae.
+Algunas capitales son tan contraintuitivas que pillarian a los mejores concursantes de television. Por que? Casi siempre la misma razon: la ciudad mas conocida, la mas poblada o la mas rica no es la capital.
 
-La capital de Turquia no es Estambul, sino **Ankara**. La de Brasil no es Rio de Janeiro ni Sao Paulo, sino **Brasilia**, una ciudad construida desde cero en los anos 60 especificamente para ser capital. La de Myanmar no es Rangon, sino **Naipyido**, trasladada en 2006 en una decision que pillo desprevenido a medio mundo.
+Myanmar: **Naipyido**, no Rangon. En 2006, el gobierno militar birmano traslado la capital a esta ciudad construida de cero en medio del pais. El resultado es surrealista: bulevares de veinte carriles practicamente desiertos, edificios administrativos colosales, un millon de habitantes en un espacio previsto para muchos mas. Rangon sigue siendo con diferencia la ciudad mas grande del pais. Pero la capital es Naipyido.
 
-En Africa, la cosa se complica. La capital de Nigeria no es Lagos, sino **Abuya**. Y Sudafrica tiene tres capitales oficiales, que ya es complicarse la vida: **Pretoria** (ejecutiva), **Ciudad del Cabo** (legislativa) y **Bloemfontein** (judicial). En un quiz, Pretoria suele ser la respuesta que se da por buena, pero tecnicamente las tres son correctas.
+Turquia: **Ankara**, no Estambul. Estambul concentra la poblacion, el turismo, la fama. Sin embargo, la capital es Ankara desde 1923, elegida por Mustafa Kemal Ataturk para anclar la joven republica lejos de la herencia otomana.
 
-El patron se repite: la ciudad mas grande o mas famosa no siempre es la capital. Es un error de logica que cometemos todos. Si quieres profundizar en como mejorar tu cultura general mas alla de capitales, tenemos un articulo sobre [personajes historicos que vale la pena conocer](/es/blog/personnages-historiques). Estos [errores de geografia comunes](/es/blog/erreurs-geographie) tambien te resultaran familiares.
+Brasil: **Brasilia**, ni Rio de Janeiro ni Sao Paulo. Inaugurada en 1960, enteramente planificada por el urbanista Lucio Costa y el arquitecto Oscar Niemeyer. Vista desde el cielo, su plano se parece a un avion. Uno de los ejemplos mas llamativos de capital construida de la nada.
 
-## Capitales sorprendentes que pocos conocen
+India: **Nueva Delhi**, ni Bombay ni Calcuta. Bombay es el motor economico, Calcuta la antigua capital britanica, pero Nueva Delhi alberga el gobierno desde 1931, disenada por los arquitectos britanicos Edwin Lutyens y Herbert Baker.
 
-Ahora vamos a lo raro de verdad.
+Estados Unidos: **Washington D.C.**, no Nueva York. Puede parecer obvio, pero segun una encuesta de National Geographic en 2006, cerca del 50% de los jovenes estadounidenses de 18-24 anos no podian localizar Nueva York en un mapa, asi que imagina la capital. Washington fue elegida en 1790 justamente para no depender de ningun estado existente.
 
-**Sri Jayawardenepura Kotte** es la capital legislativa de Sri Lanka. 24 letras. Intenta decirla tres veces rapido. Colombo funciona como capital comercial, pero oficialmente la sede legislativa esta en Kotte.
+## Las capitales que han cambiado recientemente
 
-**Nauru**, uno de los paises mas diminutos del planeta, ni siquiera tiene una capital formal. El distrito de **Yaren** hace las funciones de sede del gobierno, pero tecnicamente no es una ciudad.
+El mundo se mueve. Las capitales tambien. Y eso complica seriamente los quiz.
 
-Bolivia tiene una dualidad permanente: **Sucre** es la capital constitucional, pero el gobierno opera desde La Paz. Lo mismo ocurre con Costa de Marfil, donde **Yamoussoukro** es la capital oficial desde 1983, pero todo el mundo sigue mirando hacia Abidjan.
+Kazajistan: **Astana** paso a llamarse Nur-Sultan en 2019, en homenaje al expresidente Nazarbayev. Luego volvio a ser Astana en 2022. Antes de todo eso, la capital era Almaty. Dos cambios de nombre en tres anos: para perderse cualquiera.
 
-En Europa, las sorpresas son mas discretas pero igual de curiosas. La capital de Liechtenstein es **Vaduz**, un pueblo de 5.000 habitantes. La de Malta, **La Valeta**, tiene unos 6.000. Son capitales en miniatura.
+Birmania (Myanmar): el traslado a **Naipyido** en 2006, ya mencionado, sigue siendo uno de los desplazamientos de capital mas recientes e inesperados.
 
-## Capitales de Asia: el continente de las sorpresas
+Malasia: **Kuala Lumpur** es oficialmente la capital. Pero el centro administrativo federal se traslado a **Putrajaya** en 1999. Asi que las dos respuestas son medio correctas. O medio incorrectas. Segun se mire.
 
-Asia es donde los quiz se ponen serios. Tokio, Pekin, Nueva Delhi... esas las sabe todo el mundo. Pero las capitales del Asia Central?
+## Las capitales por continente: vuelta al mundo express
 
-Las cinco republicas centroasiaticas son un quebradero de cabeza: **Astana** (Kazajistan), **Biskek** (Kirguistan), **Dusanbe** (Tayikistan), **Asjabad** (Turkmenistan) y **Taskent** (Uzbekistan). Cinco paises que terminan igual, con capitales que suenan vagamente parecidas. Un truco: intenta asociar la primera letra del pais con algun rasgo de la capital. No es perfecto, pero ayuda.
+Un repaso rapido, continente por continente, de las capitales que conviene conocer. Si los [personajes historicos](/es/blog/personnages-historiques/) te apasionan, notaras que muchas de estas ciudades han estado en el centro de grandes acontecimientos.
 
-En el Sudeste Asiatico, **Bandar Seri Begawan** (Brunei) es la que mas se escapa. Tiene un nombre que parece inventado. **Dili** (Timor-Leste) y **Vientian** (Laos) tambien suelen quedar en el olvido, eclipsadas por Bangkok y Singapur.
+### Europa
 
-Oriente Medio tiene sus propias trampas. La capital de Emiratos Arabes Unidos no es Dubai, sino **Abu Dabi**. Y la cuestion de la capital de Israel es un tema politicamente cargado que no tiene respuesta simple en un quiz.
+Europa y sus 44 paises parece familiar, pero reserva sorpresas. Suiza no tiene tecnicamente capital: Berna es la "ciudad federal", no la capital en sentido juridico. Montenegro, independiente desde 2006, tiene por capital Podgorica, un nombre que poca gente cita espontaneamente. Y Vaduz, capital de Liechtenstein, acoge a menos de 6.000 habitantes. Bastantes [errores de geografia comunes](/es/blog/erreurs-geographie/) vienen precisamente de Europa, que creemos conocer de memoria.
 
-## Las capitales africanas: el gran desafio
+### Africa
 
-Con 54 paises reconocidos por la ONU y una superficie de 30,3 millones de kilometros cuadrados, Africa es el continente que mas respuestas en blanco genera en cualquier quiz de capitales.
+Africa y sus 54 paises es el continente que mas pilla desprevenidos. Sudafrica tiene tres capitales: Pretoria para lo administrativo, Ciudad del Cabo para lo legislativo, Bloemfontein para lo judicial. Nigeria tiene por capital Abuya, no Lagos, una ciudad de mas de 15 millones de habitantes que sin embargo no es la capital. Tanzania reconoce oficialmente Dodoma, aunque Dar es Salaam concentra aun la mayoria de las instituciones. Marruecos? Rabat, no Casablanca.
 
-Las conocidas son pocas: **El Cairo**, **Nairobi**, **Rabat**, **Addis Abeba**. A partir de ahi, la dificultad sube rapido.
+### Asia
 
-La capital de Burkina Faso? **Uagadugu**. La de Yibuti? Facil trampa: **Yibuti**, igual que el pais. La de Comoras? **Moroni**. Lesoto? **Maseru**. Esuatini (antes Suazilandia)? **Mbabane**.
+Mas alla de Turquia y Myanmar ya mencionados, otras sorpresas. Pakistan tiene por capital Islamabad, ni Karachi ni Lahore. Sri Lanka tiene dos capitales: Sri Jayawardenepura Kotte (legislativa) y Colombo (comercial). Solo el primer nombre ya es un desafio. Filipinas tiene por capital Manila, pero Ciudad Quezon la supera en poblacion.
 
-Las capitales insulares africanas anaden otra capa de complejidad. **Antananarivo** (Madagascar), **Port Louis** (Mauricio), **Victoria** (Seychelles), **Praia** (Cabo Verde). Rara vez aparecen en conversaciones cotidianas, y por eso se olvidan.
+### Americas
 
-Un dato util: varios paises africanos comparten nombre con su capital. Ademas de Yibuti, ocurre con **Tunez**. Conocer las [banderas de estos paises](/es/blog/drapeaux-difficiles) puede ayudarte a crear asociaciones mentales: cuando recuerdas la bandera, la capital viene detras.
+Brasil no es la unica trampa sudamericana. Bolivia tiene dos capitales: Sucre (constitucional) y La Paz (sede del gobierno). Canada tiene por capital Ottawa, no Toronto, ni Montreal, ni Vancouver. Belice? Belmopan. No Ciudad de Belice. Si, es enrevesado.
 
-## Capitales de America: no todo es tan facil como parece
+### Oceania
 
-Para los hispanohablantes, America Latina parece territorio facil. Y en parte lo es. Pero hay trampas.
+Nueva Zelanda tiene por capital Wellington, no Auckland. Y los pequenos estados insulares del Pacifico? Funafuti para Tuvalu. Yaren (de facto) para Nauru. Palikir para los Estados Federados de Micronesia. Nombres que no aparecen a menudo.
 
-La capital de Ecuador no es Guayaquil (la ciudad mas grande), sino **Quito**. La de Belice no es la Ciudad de Belice, sino **Belmopan**. Y en cuanto entras al Caribe, todo se complica.
+## Cuales son las trampas clasicas de los quiz de capitales?
 
-La capital de San Cristobal y Nieves? **Basseterre**. La de Antigua y Barbuda? **Saint John's**. La de Dominica (ojo, no Republica Dominicana)? **Roseau**. Son naciones pequenas, pero en un quiz exhaustivo aparecen, y son las que marcan la diferencia entre un buen resultado y un resultado perfecto.
+A fuerza de analizar los errores recurrentes en los quiz de geografia, aparecen patrones claros. Detectarlos ya es evitarlos.
 
-En America del Norte, la trampa clasica es Canada: no es Toronto ni Montreal, sino **Ottawa**. Estados Unidos con **Washington D.C.** es mas conocido, pero siempre hay alguien que dice Nueva York.
+La trampa de la ciudad mas grande: Sidney, Estambul, Rio, Lagos. El cerebro asocia "gran ciudad conocida" a "capital". Es un reflejo. Y a menudo es falso.
 
-## Capitales de Oceania: terra incognita
+La trampa del cambio de nombre: Birmania paso a ser Myanmar, Saigon paso a ser Ho Chi Minh, Bombay paso a ser Mumbai. Los quiz modernos usan las denominaciones actuales, lo que desconcierta a quienes tienen la geografia del instituto.
 
-Si Africa es dificil, Oceania es directamente territorio desconocido para la inmensa mayoria.
+La trampa de los microestados: Vaduz, La Valeta, Banjul. Quien conoce estas capitales sin haberlas aprendido especificamente? Practicamente nadie.
 
-Fuera de **Canberra** (Australia) y **Wellington** (Nueva Zelanda), casi todo es terra incognita. **Suva** (Fiyi), **Nuku'alofa** (Tonga), **Apia** (Samoa), **Honiara** (Islas Salomon), **Port Vila** (Vanuatu), **Tarawa** (Kiribati), **Majuro** (Islas Marshall), **Palikir** (Micronesia), **Ngerulmud** (Palau) y **Funafuti** (Tuvalu).
+La trampa de los nombres identicos: Ciudad de Guatemala es la capital de Guatemala. Luxemburgo es la capital de Luxemburgo. Panama es la capital de Panama. Es tan obvio que se duda.
 
-**Ngerulmud** merece mencion aparte. Es la capital de Palau desde 2006, tiene apenas unos cientos de habitantes y fue construida como sede del gobierno siguiendo el modelo de Canberra o Brasilia, pero a escala minuscula. Probablemente sea la capital mas desconocida del mundo.
+## Tecnicas de memorizacion
 
-Para los ninos que empiezan a explorar la geografia, estas capitales pueden introducirse poco a poco a traves de [metodos ludicos adaptados a su edad](/es/blog/geographie-enfants).
+Se pueden retener estas capitales. Hace falta metodo, no talento innato. Los principios son los mismos que los de la [gamificacion en el aprendizaje](/es/blog/gamification-education/), y funcionan igual para [ensenar geografia a los ninos](/es/blog/geographie-enfants/).
 
-## Como memorizar las 195 capitales del mundo?
+Los recursos mnemotecnicos: inventa asociaciones absurdas. Para recordar Canberra, piensa en "Can Bear a", un canguro que puede cargar con algo. Cuanto mas ridiculo, mejor se queda en la memoria.
 
-195 capitales es mucho. Pero no tanto si usas las tecnicas adecuadas. Los expertos en [gamificacion y aprendizaje](/es/blog/gamification-education) llevan anos estudiando que funciona y que no.
+El metodo del palacio de la memoria: imagina un recorrido familiar, tu casa, tu camino al trabajo, y coloca cada capital en un punto concreto. Al recorrer mentalmente el camino, las informaciones vuelven.
 
-El mapa mental: recorre el mundo region por region en tu cabeza. Empieza por tu zona y ve ampliando. La memoria espacial es una de las mas potentes que tenemos.
+La repeticion espaciada: repasar las capitales a intervalos crecientes, una hora, un dia, tres dias, una semana. Es la tecnica mas solida para anclar los conocimientos a largo plazo. Las [mejores aplicaciones de geografia](/es/blog/meilleures-apps-geographie/) como SAPIRO la integran automaticamente.
 
-Las asociaciones foneticas ayudan mas de lo que parece. "Burkina Faso" y "Uagadugu" comparten una sonoridad que puedes conectar mentalmente. No tiene que tener logica. Solo tiene que pegarse.
+El aprendizaje por contexto: en lugar de una lista arida, vincula cada capital a una imagen o una anecdota. Brasilia vista desde el cielo, con forma de avion. Naipyido y sus autopistas vacias. Canberra elegida como compromiso entre Sidney y Melbourne. Las historias se quedan. Las listas se evaporan.
 
-Agrupa por temas. Las capitales que comparten nombre con su pais (Yibuti, Tunez, Mexico, Panama, Guatemala, Singapur). Las que fueron construidas expresamente como capitales nuevas (Brasilia, Canberra, Naipyido). Las que son puertos. Los patrones ayudan.
+## Records y anecdotas sobre capitales
 
-La repeticion espaciada funciona. Repasa un grupo hoy, otro manana, vuelve al primero en tres dias. En lugar de atiborrarte de 195 nombres en una tarde, ve despacio durante semanas. Tu memoria a largo plazo te lo agradecera.
+Algunos datos para dar relieve a todo esto. Y si las capitales te apasionan, las [banderas de los paises](/es/blog/drapeaux-difficiles/) correspondientes son un excelente complemento para entrenar la memoria geografica.
 
-Y sobre todo: haz quiz. La practica activa gana siempre a la lectura pasiva. Cada vez que intentas recordar una capital y fallas, tu cerebro refuerza esa conexion para la proxima vez.
+La capital habitada en uso continuo mas antigua? El debate sigue abierto. Damasco, Atenas, Pekin: cada una reivindica milenios de historia.
 
-## El desafio final: pon a prueba tu nivel
+La capital mas alta es La Paz (Bolivia), a unos 3.640 metros de altitud. Algunos arguyen que la capital oficial es Sucre, a 2.810 metros. En ambos casos, falta el oxigeno.
 
-Cuantas capitales puedes nombrar ahora mismo, sin mirar nada? Aqui va una escala orientativa:
+La mas pequena en terminos de poblacion es Ngerulmud (Palau): unos 400 habitantes. Entre los paises mas conocidos, La Valeta (Malta) con sus 5.700 almas es a menudo citada.
 
-- 0 a 50: conoces las principales de Europa, America y Asia. Nivel principiante, pero es un buen punto de partida.
-- 50 a 100: dominas la mayoria de esos tres continentes y conoces las capitales africanas mas famosas. Vas bien.
-- 100 a 150: solo se te escapan las mas oscuras de Oceania y alguna africana. Nivel avanzado.
-- 150 a 195: puedes nombrar practicamente todo, incluidas las micronaciones. Nivel experto.
+La capital mas reciente es Naipyido, inaugurada en 2006. Antes, Astana habia sido designada capital de Kazajistan en 1997.
 
-Sea cual sea tu punto de partida, la clave es practicar con regularidad y disfrutar del proceso. Una [noche de quiz en familia](/es/blog/geographie-famille) puede ser el empujon perfecto para empezar.
+## Cuantas capitales puedes nombrar?
+
+De 195 paises reconocidos, cuantas capitales puedes soltar de memoria? La mayoria de la gente se estanca entre 40 y 60. Los apasionados de la geografia suben a 120-150. Los verdaderos fanaticos reivindican la totalidad.
+
+Sea cual sea la puntuacion de partida, progresa rapido en cuanto uno se pone a ello con regularidad. Las capitales se enganchan mejor cuando se asocian a anecdotas en vez de a una lista seca.
 
 ## Preguntas frecuentes
 
-### Cuantas capitales del mundo hay?
-
-Hay 195 capitales correspondientes a los 195 paises reconocidos por las Naciones Unidas. Algunos paises como Sudafrica tienen varias capitales oficiales (tres en su caso), lo que eleva ligeramente la cifra real.
-
 ### Cual es la capital mas dificil de recordar?
 
-Depende de la persona, pero **Ngerulmud** (Palau) y **Sri Jayawardenepura Kotte** (Sri Lanka) suelen encabezar las listas. Ngerulmud apenas tiene unos cientos de habitantes y es probablemente la capital mas desconocida del planeta.
+Sri Jayawardenepura Kotte, la capital legislativa de Sri Lanka, es a menudo citada como la mas dificil de recordar y pronunciar. Naipyido (Myanmar) y Uagadugu (Burkina Faso) completan el podio.
 
-### Que paises tienen mas de una capital?
+### Cuantos paises tienen varias capitales?
 
-Sudafrica tiene tres: Pretoria (ejecutiva), Ciudad del Cabo (legislativa) y Bloemfontein (judicial). Bolivia tiene dos: Sucre (constitucional) y La Paz (sede del gobierno). Malasia tambien distingue entre Kuala Lumpur y Putrajaya.
+Al menos cinco paises tienen oficialmente varias capitales: Sudafrica (tres), Bolivia, Sri Lanka, Malasia e Israel/Palestina (cuyo estatus de capital es disputado). Otros, como Tanzania, estan en transicion.
 
-## Entrena tus conocimientos con SAPIRO
+### Que pais ha cambiado mas veces de capital?
 
-SAPIRO tiene un modo especifico de capitales donde puedes filtrar por region, por nivel de dificultad o lanzarte al quiz completo de 195 paises. Lo interesante es que su algoritmo detecta las capitales que mas te cuestan y te las repite con mayor frecuencia hasta que las claves. Asi que si Ngerulmud te suena a nombre de planeta de ciencia ficcion, dale unas semanas con SAPIRO y te saldra sola.
+Kazajistan ha conocido dos cambios de nombre de su capital en tres anos (Astana, luego Nur-Sultan en 2019, luego de nuevo Astana en 2022). Afganistan tambien ha conocido numerosos cambios a lo largo de su agitada historia.
+
+### Como retener todas las capitales del mundo?
+
+El metodo mas eficaz combina repeticion espaciada y recursos mnemotecnicos. Aprender por continente, asociar cada capital a una anecdota o una imagen, y ponerse a prueba regularmente con quiz permite retener las 195 capitales en unos meses.
+
+## Pon a prueba tus capitales en SAPIRO
+
+SAPIRO propone un modo dedicado a las capitales del mundo. Empieza por las mas clasicas, y luego desliza hacia Naipyido, Belmopan o Sri Jayawardenepura Kotte a medida que progresas.
+
+Cuando te equivocas, la app muestra una ficha con el contexto del pais para anclar la respuesta. Las capitales falladas vuelven a intervalos espaciados hasta que se fijan. Un buen test para saber donde estas con las 195.

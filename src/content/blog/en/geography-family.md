@@ -1,9 +1,10 @@
 ---
-title: "Family Quiz Night: How to Organize an Unforgettable Geography Evening"
+title: "Family Quiz Night: Plan a Geography Evening"
 description: "Plan the perfect family geography quiz night with our complete guide: 3 proven formats, team-balancing tips, 20 ready-made questions, and visual round ideas."
 date: 2025-10-20
 lang: "en"
-urlSlug: "geographie-famille"
+urlSlug: "geography-family"
+translationKey: "geographie-famille"
 category: "education"
 author: "SAPIRO"
 readingTime: 7
@@ -92,7 +93,7 @@ For inspiration on which flags to include and the stories behind them, our artic
 
 ### Blind Map Challenge
 
-Print a blank world map (or blank continent map) and have teams label as many countries as they can in five minutes. According to a National Geographic survey, only about 37% of young Americans could locate Iraq on a map, so this is surprisingly difficult even for adults -- most people can name the big countries but struggle with smaller ones, especially in Central Asia, West Africa, or the Caribbean.
+Print a blank world map (or blank continent map) and have teams label as many countries as they can in five minutes. This is surprisingly difficult even for adults -- most people can name the big countries but struggle with smaller ones, especially in Central Asia, West Africa, or the Caribbean.
 
 ### Sound Round
 
@@ -169,12 +170,8 @@ The Team Challenge format works best because it pairs children with adults, so y
 
 Balance teams by mixing ages deliberately -- at least one adult and one child per team. Include easy, medium, and hard questions in every round so that everyone has moments of triumph. And enforce the no-phones rule strictly to keep it about what people actually know.
 
-## Make It a Tradition With SAPIRO
+## Use SAPIRO as Your Question Bank
 
-The best family quiz nights become traditions -- monthly or seasonal events that everyone actually looks forward to. But preparing questions from scratch every time gets exhausting. That is where SAPIRO earns its keep.
+Preparing fresh questions every time gets exhausting. SAPIRO solves that: project it on a screen and run rounds directly through the app's timed challenge mode, or use it as a question source while you play quiz master. Between quiz nights, family members can practice on the app individually -- the adaptive difficulty adjusts to each player's level, so a ten-year-old and a grandparent both get questions that challenge them.
 
-SAPIRO's geography and culture quizzes work as both a question source and a training ground between quiz nights. Family members can practice on the app during the week, sharpening up for the next showdown. The adaptive system makes sure everyone is challenged at their own level, so younger players improve right alongside adults.
-
-You can even project SAPIRO on a screen during quiz night itself and run rounds through the app's timed challenge mode for extra intensity.
-
-Grab it before your next family evening and turn the living room into a world tour -- no passport, no packing, no jet lag.
+Download it free before your next family evening and skip the question-writing homework.

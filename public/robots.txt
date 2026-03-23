@@ -1,4 +1,31 @@
+# Sapiro - robots.txt
+# Note: Si Cloudflare ecrase ce fichier, configurer dans le dashboard Cloudflare :
+# Settings > Scrape Shield > desactiver "Managed robots.txt"
+# Ou utiliser Cloudflare Rules pour servir ce fichier directement.
+
 User-agent: *
+Allow: /
+
+# Autoriser les crawlers IA pour la visibilite
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: PerplexityBot
 Allow: /
 
 Sitemap: https://sapiro.app/sitemap-index.xml

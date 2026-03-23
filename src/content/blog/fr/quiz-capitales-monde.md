@@ -4,12 +4,13 @@ description: "Quiz capitales du monde : de Canberra a Naypyidaw, les capitales l
 date: 2025-12-10
 lang: "fr"
 urlSlug: "quiz-capitales-monde"
+translationKey: "quiz-capitales-monde"
 category: "geographie"
 author: "SAPIRO"
 readingTime: 9
 ---
 
-Quelle est la capitale de l'Australie ? Si vous avez repondu Sydney, bienvenue dans le club. La majorite des gens se trompent. C'est Canberra. Ce quiz capitales du monde vous reserve bien d'autres surprises : il existe des dizaines de capitales qui prennent a contre-pied meme les joueurs les plus aguerris. Les plus surprenantes, les erreurs les plus courantes, les meilleures techniques pour tout retenir — on fait le tour.
+Quelle est la capitale de l'Australie ? Si vous avez repondu Sydney, bienvenue dans le club. La majorite des gens se trompent. C'est Canberra. Ce quiz capitales du monde vous reserve bien d'autres surprises : il existe des dizaines de capitales qui prennent a contre-pied meme les joueurs les plus aguerris. On a rassemble ici les capitales les plus trompeuses, les erreurs recurrentes et quelques techniques pour ne plus se faire avoir.
 
 ## Quelles sont les capitales que personne ne devine ?
 
@@ -37,11 +38,11 @@ Malaisie : Kuala Lumpur est officiellement la capitale. Mais le centre administr
 
 ## Les capitales par continent : tour du monde express
 
-Un survol rapide, continent par continent, des capitales a connaitre. Si les [personnages historiques](/blog/personnages-historiques) vous passionnent, vous noterez que beaucoup de ces villes ont ete au coeur de grands evenements.
+Un survol rapide, continent par continent, des capitales a connaitre. Si les [personnages historiques](/blog/personnages-historiques/) vous passionnent, vous noterez que beaucoup de ces villes ont ete au coeur de grands evenements.
 
 ### Europe
 
-L'Europe et ses 44 pays parait familiere, mais elle reserve des surprises. La Suisse n'a techniquement pas de capitale : Berne est la "ville federale", pas la capitale au sens juridique. Le Montenegro, independant depuis 2006, a pour capitale Podgorica — un nom que peu de gens citent spontanement. Et Vaduz, capitale du Liechtenstein, accueille moins de 6 000 habitants. Pas mal d'[erreurs de geographie courantes](/blog/erreurs-geographie) viennent justement de l'Europe, qu'on croit connaitre par coeur.
+L'Europe et ses 44 pays parait familiere, mais elle reserve des surprises. La Suisse n'a techniquement pas de capitale : Berne est la "ville federale", pas la capitale au sens juridique. Le Montenegro, independant depuis 2006, a pour capitale Podgorica — un nom que peu de gens citent spontanement. Et Vaduz, capitale du Liechtenstein, accueille moins de 6 000 habitants. Pas mal d'[erreurs de geographie courantes](/blog/erreurs-geographie/) viennent justement de l'Europe, qu'on croit connaitre par coeur.
 
 ### Afrique
 
@@ -73,19 +74,19 @@ Le piege des noms identiques : Guatemala City est la capitale du Guatemala. Luxe
 
 ## Techniques de memorisation infaillibles
 
-La bonne nouvelle : on peut retenir ces capitales. Ca demande de la methode, pas du talent inne. Les principes sont les memes que ceux de la [gamification dans l'apprentissage](/blog/gamification-education), et fonctionnent aussi bien pour [enseigner la geographie aux enfants](/blog/geographie-enfants).
+On peut retenir ces capitales. Ca demande de la methode, pas du talent inne. Les principes sont les memes que ceux de la [gamification dans l'apprentissage](/blog/gamification-education/), et fonctionnent aussi bien pour [enseigner la geographie aux enfants](/blog/geographie-enfants/).
 
 Les moyens mnemotechniques : inventez des associations absurdes. Pour retenir Canberra, pensez a "Can Bear a" — un kangourou qui peut porter quelque chose. Plus c'est ridicule, plus ca colle en memoire.
 
 La methode des palais de memoire : imaginez un parcours familier — votre maison, votre trajet du matin — et placez chaque capitale a un endroit precis. En refaisant le parcours mentalement, les informations reviennent.
 
-La repetition espacee : revoir les capitales a intervalles croissants — une heure, un jour, trois jours, une semaine. C'est la technique la plus solide pour ancrer les connaissances a long terme. Les [meilleures applications de geographie](/blog/meilleures-apps-geographie) comme SAPIRO l'integrent automatiquement.
+La repetition espacee : revoir les capitales a intervalles croissants — une heure, un jour, trois jours, une semaine. C'est la technique la plus solide pour ancrer les connaissances a long terme. Les [meilleures applications de geographie](/blog/meilleures-apps-geographie/) comme SAPIRO l'integrent automatiquement.
 
 L'apprentissage par contexte : au lieu d'une liste aride, attachez chaque capitale a une image ou une anecdote. Brasilia vue du ciel, en forme d'avion. Naypyidaw et ses autoroutes vides. Canberra choisie comme compromis entre Sydney et Melbourne. Les histoires restent. Les listes s'evaporent.
 
 ## Les records et anecdotes sur les capitales
 
-Quelques faits pour donner du relief a tout ca. Et si les capitales vous passionnent, les [drapeaux des pays](/blog/drapeaux-difficiles) correspondants sont un excellent complement pour muscler sa memoire geographique.
+Quelques faits pour donner du relief a tout ca. Et si les capitales vous passionnent, les [drapeaux des pays](/blog/drapeaux-difficiles/) correspondants sont un excellent complement pour muscler sa memoire geographique.
 
 La plus ancienne capitale du monde en usage continu ? Le debat reste ouvert. Damas, Athenes, Beijing : chacune revendique des millenaires d'histoire.
 
@@ -99,7 +100,7 @@ La capitale la plus recente est Naypyidaw, inauguree en 2006. Avant elle, Astana
 
 Sur 195 pays reconnus, combien de capitales pouvez-vous sortir de tete ? La plupart des gens plafonnent entre 40 et 60. Les passionnes de geographie montent a 120-150. Les vrais mordus revendiquent la totalite.
 
-Quel que soit le score de depart, chaque nouvelle capitale apprise est une porte d'entree vers un pays, une culture, une histoire. Et la progression passe par la pratique.
+Quel que soit le score de depart, il progresse vite des qu'on s'y met regulierement. Les capitales s'accrochent mieux quand on les associe a des anecdotes plutot qu'a une liste seche.
 
 ## Questions frequentes
 
@@ -119,8 +120,8 @@ Le Kazakhstan a connu deux changements de nom de sa capitale en trois ans (Astan
 
 La methode la plus efficace combine repetition espacee et moyens mnemotechniques. Apprendre par continent, associer chaque capitale a une anecdote ou une image, et se tester regulierement via des quiz permet de retenir les 195 capitales en quelques mois.
 
-## Relevez le defi avec SAPIRO
+## Testez vos capitales sur SAPIRO
 
-Le mode capitales de SAPIRO demarre avec les reponses les plus connues, puis corse progressivement la difficulte au fil de votre progression. Pas de palier artificiel : l'appli s'adapte a votre niveau reel.
+SAPIRO propose un mode dedie aux capitales du monde. Il commence par les plus classiques, puis glisse vers Naypyidaw, Belmopan ou Sri Jayawardenepura Kotte au fur et a mesure que vous progressez.
 
-Chaque bonne reponse fait monter le score et ouvre de nouveaux defis. Chaque erreur declenche une fiche explicative — parce qu'on retient mieux quand on comprend pourquoi on s'est trompe. La repetition espacee fait le reste : les capitales qui vous echappent reviennent au bon moment, jusqu'a ce qu'elles tiennent pour de bon. Alors, 40, 100, 195 ? A vous de jouer.
+Quand vous vous trompez, l'appli affiche une fiche avec le contexte du pays pour ancrer la reponse. Les capitales ratees reviennent a intervalles espaces jusqu'a ce qu'elles tiennent. Un bon test pour savoir ou vous en etes sur les 195.

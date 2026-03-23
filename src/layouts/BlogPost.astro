@@ -7,6 +7,12 @@ import type { Lang } from '../i18n';
 import { getTranslations, getLocalePath } from '../i18n';
 import type { FaqItem } from '../utils/faq';
 
+interface TranslationSlugs {
+  fr: string;
+  en: string;
+  es: string;
+}
+
 interface Props {
   title: string;
   description: string;
@@ -17,9 +23,10 @@ interface Props {
   author: string;
   readingTime?: number;
   faqItems?: FaqItem[];
+  translationSlugs?: TranslationSlugs;
 }
 
-const { title, description, date, lang, slug, category, author, readingTime, faqItems = [] } = Astro.props;
+const { title, description, date, lang, slug, category, author, readingTime, faqItems = [], translationSlugs } = Astro.props;
 const t = getTranslations(lang);
 
 const formattedDate = date.toLocaleDateString(lang === 'fr' ? 'fr-FR' : lang === 'en' ? 'en-US' : 'es-ES', {
@@ -31,11 +38,15 @@ const formattedDate = date.toLocaleDateString(lang === 'fr' ? 'fr-FR' : lang ===
 const categoryLabel = t.blog.categories[category] || category;
 const blogUrl = getLocalePath('/blog', lang);
 
-// Hreflang pour cet article
+// Hreflang pour cet article (avec trailing slash et slugs par langue)
+const frSlug = translationSlugs?.fr || slug;
+const enSlug = translationSlugs?.en || slug;
+const esSlug = translationSlugs?.es || slug;
+
 const hreflangs = [
-  { lang: 'fr', href: `https://sapiro.app/blog/${slug}` },
-  { lang: 'en', href: `https://sapiro.app/en/blog/${slug}` },
-  { lang: 'es', href: `https://sapiro.app/es/blog/${slug}` },
+  { lang: 'fr', href: `https://sapiro.app/blog/${frSlug}/` },
+  { lang: 'en', href: `https://sapiro.app/en/blog/${enSlug}/` },
+  { lang: 'es', href: `https://sapiro.app/es/blog/${esSlug}/` },
 ];
 
 // Schema.org Article
@@ -106,7 +117,7 @@ const breadcrumbSchema = {
 };
 ---
 
-<Layout title={`${title} | SAPIRO Blog`} description={description} lang={lang}>
+<Layout title={`${title} | SAPIRO`} description={description} lang={lang} noDefaultHreflang={true}>
   <Fragment slot="head">
     <!-- Hreflang spécifique à l'article -->
     {hreflangs.map(h => (

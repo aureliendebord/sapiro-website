@@ -3,15 +3,16 @@ title: "World Capitals Quiz: How Many Can You Name?"
 description: "Think you can ace a world capitals quiz? From Canberra to Naypyidaw, discover the trickiest capitals and proven strategies to remember all 195 of them."
 date: 2025-12-10
 lang: "en"
-urlSlug: "quiz-capitales-monde"
+urlSlug: "world-capitals-quiz"
+translationKey: "quiz-capitales-monde"
 category: "geographie"
 author: "SAPIRO"
 readingTime: 9
 ---
 
-Quick -- what is the capital of Australia? If you said Sydney, you are in good company, but you are wrong. The answer is Canberra, and that single question has tripped up millions of quiz-takers around the world. World capitals are one of those knowledge categories that feel straightforward until you actually sit down and try to list them all. There are 195 recognized sovereign states, each with a capital, and the surprises lurk in every corner of the globe.
+Quick -- what is the capital of Australia? If you said Sydney, you are in good company, but you are wrong. The answer is Canberra, and that single question has tripped up millions of quiz-takers around the world. World capitals feel straightforward until you actually sit down and try to list them all. The surprises lurk in every corner of the globe.
 
-This article covers the most commonly missed answers, the most surprising facts, and battle-tested memorization strategies to help you ace any geography challenge. If you love testing your knowledge, you might also enjoy our list of the [15 hardest flags to recognize](/en/blog/drapeaux-difficiles).
+This article covers the most commonly missed answers, the most surprising facts, and memorization strategies that actually work. If you love testing your knowledge, you might also enjoy our list of the [15 hardest flags to recognize](/en/blog/drapeaux-difficiles).
 
 ## The Classic Traps: Capitals That Aren't What You Think
 
@@ -75,7 +76,7 @@ Phonetic difficulty plays a role too. Capitals with unfamiliar pronunciations or
 
 ## How can you memorize all 195 world capitals?
 
-The good news is that memorizing all 195 capitals is entirely achievable with the right approach. Here are techniques supported by cognitive science research, many of which connect to the principles of [gamification in education](/en/blog/gamification-education).
+Memorizing all 195 capitals is entirely achievable with the right approach. Here are techniques supported by cognitive science research, several of which connect to the principles of [gamification in education](/en/blog/gamification-education).
 
 ### Spaced Repetition
 
@@ -119,6 +120,6 @@ There are 195 recognized sovereign states, each with at least one capital city. 
 
 Spaced repetition combined with active recall is the most effective approach, according to cognitive science research. Study capitals in regional groups, use mnemonic associations, and test yourself regularly with quiz apps rather than passively re-reading lists.
 
-## Challenge Yourself with SAPIRO
+## Quiz Yourself on SAPIRO
 
-Reading about capitals is a good start, but the real test is retrieval under pressure. Can you name the capital of Burkina Faso right now, without scrolling up? SAPIRO is built around that principle -- it asks you questions, tracks what you struggle with, and resurfaces those questions until Naypyidaw and Ngerulmud stick for good. Flags, [historical figures](/en/blog/personnages-historiques), geography -- it is all in there. See how many of the 195 you can actually name.
+Can you name the capital of Burkina Faso right now, without scrolling up? SAPIRO uses spaced repetition to resurface the capitals you miss most often -- Naypyidaw, Ngerulmud, Ouagadougou -- until they stick. Flags, [historical figures](/en/blog/personnages-historiques), and geography are all included. See how many of the 195 you can get right in a row.
