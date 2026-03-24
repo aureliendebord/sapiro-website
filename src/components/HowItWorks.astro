@@ -9,25 +9,25 @@ const { lang } = Astro.props;
 
 const content = {
   fr: {
-    title: "Comment ca marche ?",
-    subtitle: "3 etapes pour devenir incollable",
+    title: "Comment ça marche ?",
+    subtitle: "3 étapes pour devenir incollable",
     steps: [
       {
         number: "1",
         title: "Choisis ton quiz",
-        description: "Drapeaux, capitales ou personnages historiques. A toi de choisir !",
+        description: "Géographie, histoire, art ou nature. À toi de choisir !",
         emoji: "🎯"
       },
       {
         number: "2",
-        title: "Reponds aux questions",
-        description: "10 questions par quiz. Chaque bonne reponse te rapporte des points !",
+        title: "Réponds aux questions",
+        description: "10 questions par quiz. Chaque bonne réponse te rapporte des points !",
         emoji: "🧠"
       },
       {
         number: "3",
-        title: "Progresse et debloque",
-        description: "Gagne des badges, ameliore ton score et deviens un expert !",
+        title: "Progresse et débloque",
+        description: "Gagne des badges, améliore ton score et deviens un expert !",
         emoji: "🏆"
       }
     ]
@@ -39,7 +39,7 @@ const content = {
       {
         number: "1",
         title: "Choose your quiz",
-        description: "Flags, capitals or historical figures. You choose!",
+        description: "Geography, history, art or nature. You choose!",
         emoji: "🎯"
       },
       {
@@ -57,25 +57,25 @@ const content = {
     ]
   },
   es: {
-    title: "Como funciona?",
+    title: "¿Cómo funciona?",
     subtitle: "3 pasos para convertirte en experto",
     steps: [
       {
         number: "1",
         title: "Elige tu quiz",
-        description: "Banderas, capitales o personajes historicos. Tu eliges!",
+        description: "Geografía, historia, arte o naturaleza. ¡Tú eliges!",
         emoji: "🎯"
       },
       {
         number: "2",
         title: "Responde preguntas",
-        description: "10 preguntas por quiz. Cada respuesta correcta te da puntos!",
+        description: "10 preguntas por quiz. ¡Cada respuesta correcta te da puntos!",
         emoji: "🧠"
       },
       {
         number: "3",
         title: "Progresa y desbloquea",
-        description: "Gana insignias, mejora tu puntuacion y conviertete en experto!",
+        description: "Gana insignias, mejora tu puntuación y ¡conviértete en experto!",
         emoji: "🏆"
       }
     ]
@@ -108,7 +108,7 @@ const t = content[lang];
     <div class="mascot-container">
       <img src="/images/icon-180.png" alt="SAPIRO Mascot" class="mascot" />
       <div class="mascot-speech">
-        <span>{lang === 'fr' ? 'Pret a jouer ?' : lang === 'en' ? 'Ready to play?' : 'Listo para jugar?'}</span>
+        <span>{lang === 'fr' ? 'Prêt à jouer ?' : lang === 'en' ? 'Ready to play?' : '¿Listo para jugar?'}</span>
       </div>
     </div>
   </div>

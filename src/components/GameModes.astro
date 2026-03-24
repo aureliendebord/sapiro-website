@@ -1,0 +1,189 @@
+---
+import type { Lang } from '../i18n';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+
+const content = {
+  fr: {
+    title: "Joue comme tu veux",
+    subtitle: "3 modes de jeu pour chaque envie",
+    modes: [
+      {
+        emoji: "📝",
+        title: "Mode Classique",
+        description: "10 questions pour apprendre à ton rythme. Le mode idéal pour découvrir et progresser.",
+        color: "orange"
+      },
+      {
+        emoji: "⚡",
+        title: "Mode Survie",
+        description: "3 vies, zéro erreur permise. Jusqu'où iras-tu ? Compare-toi au classement mondial.",
+        color: "coral"
+      },
+      {
+        emoji: "📅",
+        title: "Défi quotidien",
+        description: "Un nouveau thème chaque jour, un seul essai. Maintiens ta série !",
+        color: "violet"
+      }
+    ]
+  },
+  en: {
+    title: "Play your way",
+    subtitle: "3 game modes for every mood",
+    modes: [
+      {
+        emoji: "📝",
+        title: "Classic Mode",
+        description: "10 questions to learn at your own pace. The perfect mode to discover and progress.",
+        color: "orange"
+      },
+      {
+        emoji: "⚡",
+        title: "Survival Mode",
+        description: "3 lives, no mistakes allowed. How far can you go? Compare yourself on the world leaderboard.",
+        color: "coral"
+      },
+      {
+        emoji: "📅",
+        title: "Daily Challenge",
+        description: "A new theme every day, one try only. Keep your streak going!",
+        color: "violet"
+      }
+    ]
+  },
+  es: {
+    title: "Juega a tu manera",
+    subtitle: "3 modos de juego para cada momento",
+    modes: [
+      {
+        emoji: "📝",
+        title: "Modo Clásico",
+        description: "10 preguntas para aprender a tu ritmo. El modo ideal para descubrir y progresar.",
+        color: "orange"
+      },
+      {
+        emoji: "⚡",
+        title: "Modo Supervivencia",
+        description: "3 vidas, cero errores permitidos. ¿Hasta dónde llegarás? Compárate en el ranking mundial.",
+        color: "coral"
+      },
+      {
+        emoji: "📅",
+        title: "Desafío diario",
+        description: "Un nuevo tema cada día, un solo intento. ¡Mantén tu racha!",
+        color: "violet"
+      }
+    ]
+  }
+};
+
+const t = content[lang];
+
+const colorMap: Record<string, string> = {
+  orange: 'var(--orange)',
+  coral: 'var(--coral)',
+  violet: 'var(--violet)'
+};
+---
+
+<section class="game-modes section">
+  <div class="container">
+    <div class="section-header">
+      <h2>{t.title}</h2>
+      <p class="section-subtitle">{t.subtitle}</p>
+    </div>
+
+    <div class="modes-grid">
+      {t.modes.map((mode) => (
+        <div class="mode-card" style={`--card-color: ${colorMap[mode.color]}`}>
+          <div class="mode-emoji">{mode.emoji}</div>
+          <h3>{mode.title}</h3>
+          <p>{mode.description}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+<style>
+  .game-modes {
+    background: var(--gris-clair);
+  }
+
+  .section-header {
+    text-align: center;
+    margin-bottom: 64px;
+  }
+
+  .section-header h2 {
+    margin-bottom: 16px;
+  }
+
+  .section-subtitle {
+    font-size: 1.25rem;
+    color: var(--gris);
+  }
+
+  .modes-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+  }
+
+  .mode-card {
+    background: var(--blanc);
+    padding: 32px 24px;
+    border-radius: var(--border-radius);
+    text-align: center;
+    box-shadow: var(--shadow);
+    transition: transform 0.3s, box-shadow 0.3s;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .mode-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: var(--card-color);
+  }
+
+  .mode-card:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--shadow-lg);
+  }
+
+  .mode-emoji {
+    font-size: 3rem;
+    margin-bottom: 16px;
+    display: block;
+  }
+
+  .mode-card h3 {
+    margin-bottom: 12px;
+    color: var(--noir);
+    font-size: 1.25rem;
+  }
+
+  .mode-card p {
+    color: var(--gris);
+    line-height: 1.6;
+    font-size: 0.95rem;
+  }
+
+  @media (max-width: 968px) {
+    .modes-grid {
+      grid-template-columns: 1fr;
+      max-width: 400px;
+      margin: 0 auto;
+    }
+  }
+</style>
