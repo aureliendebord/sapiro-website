@@ -1,0 +1,59 @@
+# SAPIRO
+
+> SAPIRO is a free, ad-free educational quiz app for iOS and Android. It covers geography (197 countries), history (500+ figures), art (553 artworks), and nature (600 animal species) with over 2,000 verified questions. Every answer includes an explanation. No data collection, no tracking.
+
+## About
+
+SAPIRO is built for curious minds of all ages. The app uses gamification (Classic mode, Survival mode, Daily Challenges, XP, badges) to make learning geography, history, art, and nature engaging. Over 50 thematic paths guide users through topics like world museums, animal families, historical empires, and art movements.
+
+Key facts:
+- 2,000+ verified questions with explanations
+- 4 domains: geography, history, art, nature
+- Zero ads, zero data collection, zero tracking
+- Works fully offline
+- Available on iOS and Android
+- 5/5 rating on Google Play (Teacher Approved)
+- Free version is generous; Sapiro+ from €1.99/month
+
+## Website structure
+
+- Homepage: https://sapiro.app/
+- Pricing: https://sapiro.app/pricing/
+- FAQ: https://sapiro.app/faq/
+- Blog: https://sapiro.app/blog/
+- Privacy Policy: https://sapiro.app/privacy/
+- Terms of Use: https://sapiro.app/terms/
+
+## Languages
+
+The website and app are available in French (default), English (/en/), and Spanish (/es/).
+
+## Blog articles
+
+- [Best quiz apps for general knowledge](https://sapiro.app/blog/meilleures-apps-quiz-culture-generale/)
+- [SAPIRO vs Trivia Crack](https://sapiro.app/blog/sapiro-vs-trivia-crack/)
+- [SAPIRO vs GeoGuessr](https://sapiro.app/blog/sapiro-vs-geoguessr/)
+- [Best geography apps](https://sapiro.app/blog/meilleures-apps-geographie/)
+- [Gamification in education](https://sapiro.app/blog/gamification-education/)
+- [General knowledge guide](https://sapiro.app/blog/culture-generale-guide/)
+- [Geography for kids](https://sapiro.app/blog/geographie-enfants/)
+- [Family geography quiz](https://sapiro.app/blog/geographie-famille/)
+- [Hardest flags to recognize](https://sapiro.app/blog/drapeaux-difficiles/)
+- [Flag meanings and symbolism](https://sapiro.app/blog/signification-drapeaux/)
+- [World capitals quiz](https://sapiro.app/blog/quiz-capitales-monde/)
+- [Common geography mistakes](https://sapiro.app/blog/erreurs-geographie/)
+- [Historical figures](https://sapiro.app/blog/personnages-historiques/)
+
+## Download
+
+- App Store: https://apps.apple.com/app/sapiro/id6757706883
+- Google Play: https://play.google.com/store/apps/details?id=com.sapiro.app
+
+## Contact
+
+Contact form available at https://sapiro.app/#contact
+
+## Publisher
+
+AGENCE DEBORD EURL
+9 rue des Colonnes, 75002 Paris, France

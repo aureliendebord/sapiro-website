@@ -29,3 +29,6 @@ User-agent: PerplexityBot
 Allow: /
 
 Sitemap: https://sapiro.app/sitemap-index.xml
+
+# LLMs
+# See https://sapiro.app/llms.txt for structured information about this site
