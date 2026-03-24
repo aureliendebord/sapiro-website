@@ -144,3 +144,5 @@ Dix à quinze minutes quotidiennes suffisent. La régularité compte bien plus q
 La plupart des applications de géographie couvrent un seul angle : les cartes, les drapeaux ou les quiz. SAPIRO combine les trois et ajoute une couche de culture générale. Quand vous répondez que Ouagadougou est la capitale du Burkina Faso, l'application vous explique pourquoi c'est utile à savoir et replace l'information dans un contexte plus large. On peut creuser le sujet via notre [guide de culture générale](/blog/culture-generale-guide/).
 
 L'application s'adapte au niveau, l'interface est sobre, et quelques minutes par jour suffisent pour progresser. Le genre d'application qu'on ouvre machinalement dans le métro -- et dont on ressort un peu moins ignorant à chaque fois.
+
+Si vous hésitez entre SAPIRO et GeoGuessr, notre [comparatif détaillé SAPIRO vs GeoGuessr](/blog/sapiro-vs-geoguessr/) vous aidera à trancher. Et pour un tour d'horizon plus large, consultez notre guide des [meilleures apps de quiz de culture générale](/blog/meilleures-apps-quiz-culture-generale/).

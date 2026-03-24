@@ -71,4 +71,4 @@ SAPIRO est le choix logique pour les familles, les étudiants et ceux qui veulen
 
 Le choix dépend de ce qu'on cherche : divertissement social ou apprentissage réel. Mais quand on met les deux applications côte à côte sur les publicités, la vie privée et la valeur éducative, le constat est clair.
 
-Pour aller plus loin, consultez notre guide des [meilleures applications de quiz de culture générale](/blog/meilleures-apps-quiz-culture-generale/) et notre article sur la [gamification dans l'éducation](/blog/gamification-education/).
+Pour aller plus loin, consultez notre guide des [meilleures applications de quiz de culture générale](/blog/meilleures-apps-quiz-culture-generale/), notre [comparatif SAPIRO vs GeoGuessr](/blog/sapiro-vs-geoguessr/) et notre article sur la [gamification dans l'éducation](/blog/gamification-education/).

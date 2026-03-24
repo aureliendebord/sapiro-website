@@ -163,4 +163,6 @@ La question de la vie privée compte, surtout pour les familles. La plupart des 
 
 On peut confier l'app à ses enfants sans craindre les publicités inappropriées ni le tracking. Et avec la géographie, l'histoire, l'art et la nature, le terrain d'apprentissage est bien plus large que ce que proposent les apps spécialisées.
 
+Pour aller plus loin, consultez nos comparatifs détaillés [SAPIRO vs Trivia Crack](/blog/sapiro-vs-trivia-crack/) et [SAPIRO vs GeoGuessr](/blog/sapiro-vs-geoguessr/), ou notre guide des [meilleures apps de géographie](/blog/meilleures-apps-geographie/).
+
 Envie d'en savoir plus sur la culture générale et comment la développer ? Consultez notre [guide complet de la culture générale](/blog/culture-generale-guide/). Et pour comprendre pourquoi les quiz fonctionnent aussi bien pour apprendre, notre article sur [la gamification dans l'éducation](/blog/gamification-education/) explore le sujet en détail.
