@@ -2,7 +2,7 @@
   "lang": "en",
   "meta": {
     "title": "SAPIRO - General Knowledge Quiz",
-    "description": "Quizzes on geography, history, art and nature. 2000+ questions to learn while having fun! Educational app for children and adults."
+    "description": "SAPIRO: free quiz app on geography, history, art and nature. 2000+ questions to learn while having fun. No ads, no data collection. For kids and adults."
   },
   "header": {
     "home": "Home",
@@ -101,6 +101,7 @@
   },
   "privacy": {
     "title": "Privacy Policy",
+    "metaDescription": "SAPIRO privacy policy: no personal data collected, no cookies, no tracking. All your progress stays on your device. Safe for kids and adults.",
     "lastUpdate": "Last updated",
     "intro": "At SAPIRO, we respect your privacy. This policy explains how we handle your data.",
     "sections": [
@@ -132,6 +133,7 @@
   },
   "terms": {
     "title": "Terms of Use",
+    "metaDescription": "SAPIRO terms of use: license, intellectual property, Sapiro+ subscriptions and cancellation policy. Governed by French law.",
     "lastUpdate": "Last updated",
     "intro": "This End User License Agreement (EULA) is a legal agreement between you and SAPIRO for the use of the SAPIRO application.",
     "sections": [
@@ -258,7 +260,7 @@
   "pricing": {
     "title": "Our plans",
     "subtitle": "Free to start, Sapiro+ to go further",
-    "metaDescription": "SAPIRO is free with no ads. Discover Sapiro+ from $1.99/month: 50+ exclusive paths, museums, animals, empires. Cancel anytime.",
+    "metaDescription": "SAPIRO is free with no ads. Try Sapiro+ from $1.99/month: 50+ exclusive paths on museums, animals, and empires. Cancel anytime.",
     "intro": "SAPIRO is free and ad-free. Unlock Sapiro+ to access over 50 exclusive thematic paths.",
     "free": {
       "title": "Free",
@@ -309,7 +311,7 @@
   },
   "faq": {
     "title": "Frequently asked questions",
-    "metaDescription": "Answers to common questions about SAPIRO: free plan, privacy, content, offline mode, Sapiro+ subscription.",
+    "metaDescription": "Answers to common questions about SAPIRO: is it really free? Does it work offline? Is it safe for kids? Privacy, content, and Sapiro+ details.",
     "subtitle": "Everything you need to know about SAPIRO",
     "items": [
       {

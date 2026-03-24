@@ -2,7 +2,7 @@
   "lang": "es",
   "meta": {
     "title": "SAPIRO - Quiz de Cultura General",
-    "description": "Quizzes sobre geografía, historia, arte y naturaleza. 2000+ preguntas para aprender divirtiéndote! Aplicación educativa para niños y adultos."
+    "description": "SAPIRO: app de quiz gratis sobre geografía, historia, arte y naturaleza. 2000+ preguntas para aprender divirtiéndote. Sin publicidad ni recogida de datos."
   },
   "header": {
     "home": "Inicio",
@@ -101,6 +101,7 @@
   },
   "privacy": {
     "title": "Política de privacidad",
+    "metaDescription": "Política de privacidad de SAPIRO: sin datos personales, sin cookies, sin tracking. Tu progreso se queda en tu dispositivo. Seguro para niños y adultos.",
     "lastUpdate": "Última actualización",
     "intro": "En SAPIRO, respetamos tu privacidad. Esta política explica cómo tratamos tus datos.",
     "sections": [
@@ -132,6 +133,7 @@
   },
   "terms": {
     "title": "Condiciones de uso",
+    "metaDescription": "Condiciones de uso de SAPIRO: licencia, propiedad intelectual, suscripciones Sapiro+ y política de cancelación. Legislación francesa aplicable.",
     "lastUpdate": "Última actualización",
     "intro": "Este Acuerdo de Licencia de Usuario Final (EULA) es un acuerdo legal entre usted y SAPIRO para el uso de la aplicación SAPIRO.",
     "sections": [
@@ -258,7 +260,7 @@
   "pricing": {
     "title": "Nuestros planes",
     "subtitle": "Gratis para empezar, Sapiro+ para ir más lejos",
-    "metaDescription": "SAPIRO es gratis y sin publicidad. Descubre Sapiro+ desde 1,99 €/mes: 50+ recorridos exclusivos, museos, animales, imperios. Cancela en cualquier momento.",
+    "metaDescription": "SAPIRO es gratis y sin publicidad. Prueba Sapiro+ desde 1,99 €/mes: 50+ recorridos exclusivos sobre museos, animales e imperios. Cancela cuando quieras.",
     "intro": "SAPIRO es gratis y sin publicidad. Desbloquea Sapiro+ para acceder a más de 50 recorridos temáticos exclusivos.",
     "free": {
       "title": "Gratis",

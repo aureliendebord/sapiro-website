@@ -2,7 +2,7 @@
   "lang": "fr",
   "meta": {
     "title": "SAPIRO - Quiz Culture Générale",
-    "description": "Quiz sur la géographie, l'histoire, l'art et la nature. 2000+ questions pour apprendre en s'amusant ! Application éducative pour enfants et adultes."
+    "description": "SAPIRO : quiz de culture générale sur la géographie, l'histoire, l'art et la nature. 2000+ questions pour apprendre en s'amusant. Gratuit et sans pub."
   },
   "header": {
     "home": "Accueil",
@@ -85,7 +85,7 @@
   },
   "blog": {
     "title": "Blog SAPIRO",
-    "subtitle": "Astuces, quiz et articles sur la culture générale, la géographie et les drapeaux du monde. Apprenez en vous amusant avec SAPIRO, l'application éducative pour tous.",
+    "subtitle": "Articles et quiz sur la culture générale, la géographie et les drapeaux du monde. Apprenez en vous amusant avec SAPIRO, l'app éducative.",
     "readMore": "Lire la suite",
     "backToBlog": "Retour au blog",
     "publishedOn": "Publié le",
@@ -101,6 +101,7 @@
   },
   "privacy": {
     "title": "Politique de confidentialité",
+    "metaDescription": "Politique de confidentialité de SAPIRO : aucune donnée personnelle collectée, pas de cookies, pas de tracking. Vos données restent sur votre appareil.",
     "lastUpdate": "Dernière mise à jour",
     "intro": "Chez SAPIRO, nous respectons votre vie privée. Cette politique explique comment nous traitons vos données.",
     "sections": [
@@ -132,6 +133,7 @@
   },
   "terms": {
     "title": "Conditions d'utilisation",
+    "metaDescription": "Conditions d'utilisation de SAPIRO : licence, propriété intellectuelle, abonnements Sapiro+ et politique d'annulation. Droit français applicable.",
     "lastUpdate": "Dernière mise à jour",
     "intro": "Ce contrat de licence utilisateur final (CLUF) constitue un accord juridique entre vous et SAPIRO pour l'utilisation de l'application SAPIRO.",
     "sections": [
@@ -258,7 +260,7 @@
   "pricing": {
     "title": "Nos offres",
     "subtitle": "Gratuit pour commencer, Sapiro+ pour aller plus loin",
-    "metaDescription": "SAPIRO est gratuit et sans pub. Découvrez Sapiro+ dès 1,99 €/mois : 50+ parcours exclusifs, musées, animaux, empires. Annulation à tout moment.",
+    "metaDescription": "SAPIRO est gratuit et sans pub. Passez à Sapiro+ dès 1,99 €/mois : 50+ parcours exclusifs sur les musées, animaux et empires. Annulation à tout moment.",
     "intro": "SAPIRO est gratuit et sans publicité. Débloquez Sapiro+ pour accéder à plus de 50 parcours thématiques exclusifs.",
     "free": {
       "title": "Gratuit",
