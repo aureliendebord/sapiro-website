@@ -1,6 +1,6 @@
 ---
 title: "12 œuvres d'art que tout le monde devrait connaître"
-description: "De la Joconde à Guernica, les œuvres d'art incontournables à connaître, avec des anecdotes surprenantes sur chacune. Un parcours à travers 5 siècles de création."
+description: "De la Joconde à Guernica, les œuvres d'art incontournables avec des anecdotes surprenantes sur chacune. Un parcours à travers 5 siècles de création."
 date: 2026-03-16
 lang: "fr"
 urlSlug: "oeuvres-art-incontournables"
@@ -84,3 +84,5 @@ Pour aller plus loin sur les méthodes d'apprentissage efficaces, consultez notr
 Chaque méthode a ses forces. Les musées offrent l'émotion de voir l'œuvre en vrai -- aucune reproduction ne rend la taille de Guernica ni la texture des empâtements de Van Gogh. Les livres permettent de creuser un sujet en profondeur. Les documentaires montrent le contexte historique de façon immersive. Et les quiz comme SAPIRO ancrent les connaissances grâce à la répétition active, le tout sans publicité et sans collecte de données.
 
 Le plus efficace, c'est de combiner. Visitez un musée après avoir révisé ses collections sur SAPIRO, et vous verrez que l'expérience change du tout au tout.
+
+Pour aller plus loin, consultez notre guide pour [apprendre l'histoire en s'amusant](/blog/apprendre-histoire-en-samusant/) et notre article sur les [personnages historiques incontournables](/blog/personnages-historiques/) qui ont créé certaines de ces œuvres.

@@ -42,7 +42,7 @@ Celle-là, les enfants l'adorent. On choisit un pays, et on cuisine un plat typi
 
 Avant de mettre les mains dans la pâte, on localise le pays sur la carte. On parle du climat — qui conditionne les ingrédients disponibles. On évoque les traditions culinaires, un bout d'histoire. L'enfant associe ensuite le pays à une expérience concrète : un goût, une odeur, le plaisir d'avoir cuisiné ensemble. C'est une mémoire sensorielle, beaucoup plus tenace qu'une leçon abstraite.
 
-Tenez un "carnet de voyage culinaire" où l'enfant colle la recette, dessine le drapeau du pays et note ce qu'il a découvert. Au fil des mois, ce carnet devient un vrai trésor. On peut aussi y ajouter les [personnages historiques](/blog/personnages-historiques/) du pays étudié pour enrichir le tableau.
+Tenez un "carnet de voyage culinaire" où l'enfant colle la recette, dessine le drapeau du pays et note ce qu'il a découvert. Au fil des mois, ce carnet devient un vrai trésor. On peut aussi y ajouter les [personnages historiques](/blog/personnages-historiques/) du pays étudié pour enrichir le tableau, ou explorer les [méthodes ludiques pour apprendre l'histoire](/blog/apprendre-histoire-en-samusant/) qui fonctionnent si bien avec les enfants.
 
 ## 5. Les voyages virtuels avec Google Earth
 

@@ -1,6 +1,6 @@
 ---
 title: "Signification des drapeaux : couleurs et symboles"
-description: "La signification des drapeaux du monde décryptée : couleurs, symboles, croissants et étoiles. Savez-vous pourquoi le Népal a le seul drapeau non rectangulaire ?"
+description: "Signification des drapeaux du monde : couleurs, symboles, croissants et étoiles. Savez-vous pourquoi le Népal a le seul drapeau non rectangulaire ?"
 date: 2025-11-05
 lang: "fr"
 urlSlug: "signification-drapeaux"

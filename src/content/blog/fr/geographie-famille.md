@@ -1,6 +1,6 @@
 ---
 title: "Quiz géographie en famille : la soirée idéale"
-description: "Comment organiser un quiz géographie en famille ? Règles, questions adaptées par âge et variantes de jeu pour une soirée inoubliable. Prêt à jouer ce soir ?"
+description: "Organisez un quiz géographie en famille : règles, questions adaptées par âge et variantes de jeu pour une soirée réussie. Prêt à jouer ce soir ?"
 date: 2025-10-20
 lang: "fr"
 urlSlug: "geographie-famille"
@@ -117,6 +117,8 @@ Pour les gagnants : le choix du film ou du jeu de société pour la prochaine so
 Pour tout le monde : un dessert spécial pour célébrer la soirée et un fait amusant ou une anecdote géographique à raconter le lendemain à l'école ou au bureau.
 
 L'essentiel, c'est que chacun reparte avec le sourire et l'envie de recommencer. Le but premier reste l'apprentissage dans la bonne humeur, pas la compétition acharnée.
+
+Et pourquoi ne pas ajouter une manche d'histoire à votre soirée ? Notre guide pour [apprendre l'histoire en s'amusant](/blog/apprendre-histoire-en-samusant/) regorge d'idées qui fonctionnent aussi en famille.
 
 ## Questions fréquentes
 

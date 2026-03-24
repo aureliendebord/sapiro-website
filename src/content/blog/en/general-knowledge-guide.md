@@ -24,7 +24,7 @@ Geography -- countries, capitals, physical features, climate, demographics. Hist
 
 A person with strong general knowledge does not know everything about any one of these areas. They know enough about all of them to make connections, hold informed conversations, and learn new things faster -- because new information always has somewhere to "stick."
 
-For a focused deep dive into one of the most testable domains, see our article on [the 12 most common geography mistakes](/en/blog/erreurs-geographie).
+For a focused deep dive into one of the most testable domains, see our article on [the 12 most common geography mistakes](/en/blog/erreurs-geographie). And if you want to make history stick, our guide on [learning history the fun way](/en/blog/learning-history-fun/) explores methods that actually work.
 
 ## Why is general knowledge still important in the age of Google?
 
@@ -93,7 +93,7 @@ Certain areas of general knowledge are overrepresented in most people's heads --
 
 World geography beyond your own continent deserves real effort. Most people can rattle off European capitals but freeze on African or Asian ones. Our article on [the hidden meaning of flags](/en/blog/signification-drapeaux) is a great entry point into understanding nations you might have overlooked.
 
-Art history and classical music are worth at least basic familiarity. Knowing the broad strokes of the Renaissance, Impressionism, and Baroque music, and recognizing names like Beethoven, Picasso, or Shakespeare, sets you apart in more conversations than you might expect.
+Art history and classical music are worth at least basic familiarity. Knowing the broad strokes of the Renaissance, Impressionism, and Baroque music, and recognizing [essential artworks](/en/blog/essential-artworks-to-know/) like the Mona Lisa, Guernica, or The Great Wave, sets you apart in more conversations than you might expect.
 
 Basic science and technology matter too. Understanding evolution, plate tectonics, or how the internet actually works is both practically useful and intellectually satisfying.
 

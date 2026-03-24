@@ -110,4 +110,4 @@ Despues de probar estas ocho aplicaciones durante semanas, la que mejor equilibr
 
 Ninguna app sola lo cubre todo. Complementa con GeoGuessr cuando quieras explorar y con Google Earth cuando un tema te pique la curiosidad. Entre las tres, tienes un kit bastante completo para cubrir paises, capitales, banderas y cultura del mundo.
 
-Si dudas entre SAPIRO y GeoGuessr, nuestro [comparativo detallado SAPIRO vs GeoGuessr](/es/blog/sapiro-vs-geoguessr/) te ayudará a decidir. Para un panorama más amplio, consulta nuestra guía de las [mejores apps de quiz de cultura general](/es/blog/mejores-apps-quiz-cultura-general/).
+Si dudas entre SAPIRO y GeoGuessr, nuestro [comparativo detallado SAPIRO vs GeoGuessr](/es/blog/sapiro-vs-geoguessr/) te ayudará a decidir. Para comparar con una herramienta de aula, consulta nuestro [comparativo SAPIRO vs Kahoot](/es/blog/sapiro-vs-kahoot/). Y para un panorama más amplio, consulta nuestra guía de las [mejores apps de quiz de cultura general](/es/blog/mejores-apps-quiz-cultura-general/).

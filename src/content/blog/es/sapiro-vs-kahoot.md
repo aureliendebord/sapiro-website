@@ -65,4 +65,4 @@ SAPIRO está hecho para otro momento. El de cuando un niño llega a casa y quier
 
 La elección no es una u otra. Depende del contexto. En el aula, Kahoot. En casa, SAPIRO.
 
-Para más comparativas, consulta [SAPIRO vs Trivia Crack](/es/blog/sapiro-vs-trivia-crack/) y nuestro artículo sobre [la gamificación en la educación](/es/blog/gamificacion-educacion/).
+Para más comparativas, consulta [SAPIRO vs Trivia Crack](/es/blog/sapiro-vs-trivia-crack/), [SAPIRO vs GeoGuessr](/es/blog/sapiro-vs-geoguessr/) y nuestro artículo sobre [la gamificación en la educación](/es/blog/gamificacion-educacion/).

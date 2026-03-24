@@ -84,3 +84,5 @@ Para profundizar en métodos de aprendizaje efectivos, consulta nuestra [guía d
 Cada método tiene sus ventajas. Los museos ofrecen la emoción de ver la obra en persona: ninguna reproducción transmite el tamaño de Guernica ni la textura de las pinceladas de Van Gogh. Los libros permiten profundizar en un tema concreto. Los documentales muestran el contexto histórico de forma inmersiva. Y los quiz como SAPIRO fijan el conocimiento mediante la recuperación activa, todo sin publicidad y sin recoger datos personales.
 
 Lo más efectivo es combinar. Visita un museo después de repasar su colección en SAPIRO y verás que la experiencia cambia por completo.
+
+Para conocer a los creadores detrás de estas obras, consulta nuestra guía de [personajes históricos imprescindibles](/es/blog/personnages-historiques/). Y si quieres que la historia se quede grabada, nuestro artículo sobre [aprender historia divirtiéndose](/es/blog/aprender-historia-divirtiendose/) explica los métodos que funcionan.

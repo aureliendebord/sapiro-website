@@ -69,4 +69,4 @@ SAPIRO is the more complete choice if your goal is actual learning. Four domains
 
 Some people will use both, and that is probably the ideal setup: GeoGuessr for immersive exploration, SAPIRO for structured learning.
 
-For more geography app recommendations, check out our guide to the [best geography apps](/en/blog/best-geography-apps/) and our roundup of the [best quiz apps for general knowledge](/en/blog/best-quiz-apps-general-knowledge/).
+For more geography app recommendations, check out our guide to the [best geography apps](/en/blog/best-geography-apps/), our [SAPIRO vs Kahoot comparison](/en/blog/sapiro-vs-kahoot/), and our roundup of the [best quiz apps for general knowledge](/en/blog/best-quiz-apps-general-knowledge/).

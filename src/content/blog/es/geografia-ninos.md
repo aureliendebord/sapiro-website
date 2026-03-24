@@ -42,7 +42,7 @@ A los ninos les encanta esta. Se elige un pais y se cocina juntos un plato tipic
 
 Antes de meter las manos en la masa, se localiza el pais en el mapa. Se habla del clima, que condiciona los ingredientes disponibles. Se evocan las tradiciones culinarias, un trozo de historia. El nino asocia despues el pais a una experiencia concreta: un sabor, un olor, el placer de haber cocinado juntos. Es una memoria sensorial, mucho mas tenaz que una leccion abstracta.
 
-Lleva un "cuaderno de viaje culinario" donde el nino pegue la receta, dibuje la bandera del pais y apunte lo que ha descubierto. Con los meses, ese cuaderno se convierte en un tesoro. Se pueden anadir tambien los [personajes historicos](/es/blog/personnages-historiques/) del pais estudiado para enriquecer el cuadro.
+Lleva un "cuaderno de viaje culinario" donde el nino pegue la receta, dibuje la bandera del pais y apunte lo que ha descubierto. Con los meses, ese cuaderno se convierte en un tesoro. Se pueden anadir tambien los [personajes historicos](/es/blog/personnages-historiques/) del pais estudiado para enriquecer el cuadro, o explorar las [formas divertidas de aprender historia](/es/blog/aprender-historia-divirtiendose/) que funcionan igual de bien con ninos.
 
 ## 5. Viajes virtuales con Google Earth
 

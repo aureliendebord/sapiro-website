@@ -1,6 +1,6 @@
 ---
 title: "Teaching Geography to Kids: 10 Fun and Effective Methods"
-description: "Discover 10 proven, parent-tested methods to teach geography to kids aged 5-12 through games, quizzes, cooking, and hands-on activities. Which work best?"
+description: "10 proven, parent-tested methods to teach geography to kids aged 5-12 through games, quizzes, cooking, and hands-on activities. Which work best?"
 date: 2025-12-05
 lang: "en"
 urlSlug: "geography-for-kids"
@@ -91,7 +91,7 @@ Music sticks in memory like few other things, and every culture has rich musical
 
 Listen to traditional instruments: the sitar from India, the kora from West Africa, the didgeridoo from Australia, the pan flute from the Andes. Learn a simple song in another language: "Frere Jacques" (French), "De Colores" (Spanish), "Sakura" (Japanese). Watch age-appropriate music videos that showcase landscapes and cultural practices from different countries.
 
-Music activates emotional and auditory memory pathways that reinforce geographic associations. A child who has heard the kora will have a much easier time remembering that Mali is in West Africa, and they might also become curious about [famous historical figures](/en/blog/personnages-historiques) from the region. Sound has a way of making places feel real before you have ever been there.
+Music activates emotional and auditory memory pathways that reinforce geographic associations. A child who has heard the kora will have a much easier time remembering that Mali is in West Africa, and they might also become curious about [famous historical figures](/en/blog/personnages-historiques) from the region. For older kids, the [fun methods for learning history](/en/blog/learning-history-fun/) work just as well as they do for geography. Sound has a way of making places feel real before you have ever been there.
 
 ## 10. Nature Walks with a Geographic Lens
 

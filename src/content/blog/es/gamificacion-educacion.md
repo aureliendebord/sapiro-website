@@ -109,3 +109,5 @@ Todo lo que acabamos de describir — recuerdo activo, repeticion espaciada, fee
 En cuanto a motivacion, las mecanicas estan ahi sin ser invasivas: niveles por desbloquear, insignias tematicas, retos diarios y clasificacion entre amigos. Y cada error se acompana de una explicacion, porque entender por que te has equivocado vale tanto como la respuesta correcta en si.
 
 Capitales del mundo, banderas, cultura general: sea cual sea el terreno, SAPIRO se apoya en la ciencia del aprendizaje para transformar la curiosidad en conocimientos duraderos.
+
+Para ver como estos principios se comparan con una herramienta de aula, lee nuestro [comparativo SAPIRO vs Kahoot](/es/blog/sapiro-vs-kahoot/). Y para un ejemplo concreto de gamificacion aplicada, nuestra guia para [aprender historia divirtiendose](/es/blog/aprender-historia-divirtiendose/) muestra como los quiz y la narrativa fijan los conocimientos historicos.

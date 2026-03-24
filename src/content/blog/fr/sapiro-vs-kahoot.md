@@ -65,4 +65,4 @@ SAPIRO est fait pour un autre moment. Celui où l'enfant rentre à la maison et 
 
 Le choix ne se fait pas entre l'un ou l'autre. Il se fait en fonction du contexte. En classe, Kahoot. À la maison, SAPIRO.
 
-Pour approfondir, consultez notre [comparatif SAPIRO vs Trivia Crack](/blog/sapiro-vs-trivia-crack/) et notre article sur la [gamification dans l'éducation](/blog/gamification-education/).
+Pour approfondir, consultez notre [comparatif SAPIRO vs Trivia Crack](/blog/sapiro-vs-trivia-crack/), notre [comparatif SAPIRO vs GeoGuessr](/blog/sapiro-vs-geoguessr/) et notre article sur la [gamification dans l'éducation](/blog/gamification-education/).

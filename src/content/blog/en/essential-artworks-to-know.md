@@ -84,3 +84,5 @@ For more on effective learning methods, see our [general knowledge guide](/en/bl
 Each method has its strengths. Museums give you the emotion of seeing the real thing -- no reproduction conveys the scale of Guernica or the texture of Van Gogh's brushstrokes. Books let you go deep on a single topic. Documentaries show historical context in an immersive way. And quiz apps like SAPIRO lock in knowledge through active recall, with no ads and no data collection.
 
 The most effective approach is combining them. Visit a museum after reviewing its collection on SAPIRO, and the experience changes completely.
+
+For more context on the creators behind these works, explore our guide to [20 historical figures everyone should know](/en/blog/historical-figures/). And if you want to make history stick through play, our article on [learning history the fun way](/en/blog/learning-history-fun/) shows how.

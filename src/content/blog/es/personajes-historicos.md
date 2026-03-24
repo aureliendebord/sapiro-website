@@ -46,7 +46,7 @@ Emperador de Mali y probablemente el hombre mas rico de todos los tiempos. Su pe
 
 ### 8. Leonardo da Vinci (1452-1519)
 
-La palabra "polimata" parece haberse inventado para el. Pintor, escultor, arquitecto, musico, matematico, ingeniero, inventor, anatomista, geologo, botanico. La Gioconda y La Ultima Cena estan entre las obras mas celebres del mundo, pero sus cuadernos de notas revelan un espiritu aun mas vasto. Diseno maquinas voladoras, submarinos y automatas siglos antes de que la tecnologia permitiera construirlos. Pasaba de un campo a otro sin encerrarse jamas en una especialidad.
+La palabra "polimata" parece haberse inventado para el. Pintor, escultor, arquitecto, musico, matematico, ingeniero, inventor, anatomista, geologo, botanico. La Gioconda y La Ultima Cena estan entre las [obras de arte mas celebres del mundo](/es/blog/obras-arte-imprescindibles/), pero sus cuadernos de notas revelan un espiritu aun mas vasto. Diseno maquinas voladoras, submarinos y automatas siglos antes de que la tecnologia permitiera construirlos. Pasaba de un campo a otro sin encerrarse jamas en una especialidad.
 
 ## La Epoca moderna: revolucionarios y visionarios
 
@@ -116,7 +116,7 @@ Cleopatra, Julio Cesar, Gengis Kan, Napoleon, Marie Curie, Gandhi, Mandela y Tur
 
 ### Como recordar las fechas de los personajes historicos?
 
-En vez de memorizar fechas aisladas, vincula cada personaje a una epoca y a otras figuras contemporaneas. Las lineas de tiempo visuales y los quiz de recuerdo activo son las herramientas mas eficaces segun las ciencias cognitivas.
+En vez de memorizar fechas aisladas, vincula cada personaje a una epoca y a otras figuras contemporaneas. Las lineas de tiempo visuales y los quiz de recuerdo activo son las herramientas mas eficaces segun las ciencias cognitivas. Nuestra guia para [aprender historia divirtiendose](/es/blog/aprender-historia-divirtiendose/) profundiza en estos metodos.
 
 ### Que personajes historicos aparecen mas en los quiz de cultura general?
 

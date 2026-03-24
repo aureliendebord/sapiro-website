@@ -46,7 +46,7 @@ Empereur du Mali et probablement l'homme le plus riche de tous les temps. Son p�
 
 ### 8. Léonard de Vinci (1452-1519)
 
-Le mot "polymathe" semble avoir été inventé pour lui. Peintre, sculpteur, architecte, musicien, mathématicien, ingénieur, inventeur, anatomiste, géologue, botaniste. La Joconde et La Cène sont parmi les œuvres les plus célèbres au monde, mais ses carnets de notes révèlent un esprit encore plus vaste. Il a conçu des machines volantes, des sous-marins et des automates des siècles avant que la technologie ne permette de les construire. Il passait d'un domaine à l'autre sans jamais s'enfermer dans une spécialité.
+Le mot "polymathe" semble avoir été inventé pour lui. Peintre, sculpteur, architecte, musicien, mathématicien, ingénieur, inventeur, anatomiste, géologue, botaniste. La Joconde et La Cène figurent parmi les [œuvres d'art incontournables](/blog/oeuvres-art-incontournables/), mais ses carnets de notes révèlent un esprit encore plus vaste. Il a conçu des machines volantes, des sous-marins et des automates des siècles avant que la technologie ne permette de les construire. Il passait d'un domaine à l'autre sans jamais s'enfermer dans une spécialité.
 
 ## L'Époque moderne : révolutionnaires et visionnaires
 
@@ -106,7 +106,7 @@ Mathématicien, cryptanalyste, père de l'informatique. Son travail pour déchif
 
 L'intérêt dépasse la [culture générale](/blog/culture-generale-guide/) de soirée. Connaître ces vies, c'est comprendre comment le monde est devenu ce qu'il est. Le Code civil de Napoléon structure notre droit dans plus de 40 pays. La théorie de Darwin fonde notre biologie. La non-violence de Gandhi inspire les mouvements sociaux contemporains. Ce ne sont pas des figures du passé. Leur influence est au présent.
 
-Pour les enfants et les adolescents, découvrir ces personnages développe l'esprit critique et l'empathie. Et la méthode ludique — [quiz et jeux éducatifs](/blog/geographie-enfants/) — rend ces figures vivantes et accessibles, loin des paragraphes ternes d'un manuel scolaire. Les [principes de la gamification](/blog/gamification-education/) expliquent pourquoi le format quiz ancre si bien ces connaissances, et les [meilleures applications de géographie](/blog/meilleures-apps-geographie/) étendent le jeu aux cartes et aux drapeaux.
+Pour les enfants et les adolescents, découvrir ces personnages développe l'esprit critique et l'empathie. Et la méthode ludique — [quiz et jeux éducatifs](/blog/geographie-enfants/) — rend ces figures vivantes et accessibles, loin des paragraphes ternes d'un manuel scolaire. Pour aller plus loin, notre guide sur [comment apprendre l'histoire en s'amusant](/blog/apprendre-histoire-en-samusant/) détaille les techniques qui ancrent vraiment les connaissances historiques. Les [principes de la gamification](/blog/gamification-education/) expliquent pourquoi le format quiz ancre si bien ces connaissances, et les [meilleures applications de géographie](/blog/meilleures-apps-geographie/) étendent le jeu aux cartes et aux drapeaux.
 
 ## Questions fréquentes
 

@@ -65,4 +65,4 @@ SAPIRO is built for a different moment. The one where a child comes home and wan
 
 The choice is not either/or. It depends on the context. In the classroom, Kahoot. At home, SAPIRO.
 
-For more comparisons, check out [SAPIRO vs Trivia Crack](/en/blog/sapiro-vs-trivia-crack/) and our article on [gamification in education](/en/blog/gamification-education/).
+For more comparisons, check out [SAPIRO vs Trivia Crack](/en/blog/sapiro-vs-trivia-crack/), [SAPIRO vs GeoGuessr](/en/blog/sapiro-vs-geoguessr/), and our article on [gamification in education](/en/blog/gamification-education/).

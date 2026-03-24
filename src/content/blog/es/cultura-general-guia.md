@@ -24,11 +24,11 @@ Organizarla en grandes areas te ayuda a detectar donde vas bien y donde tienes h
 
 La geografia es la base. Conocer los paises, sus capitales, sus ubicaciones, sus banderas. Saber por que las fronteras estan donde estan. Evitar los [errores clasicos](/es/blog/erreurs-geographie/) ya te coloca por encima de la media. Y entender como la geografia condiciona la economia y la politica le da profundidad a todo lo demas.
 
-La historia no es una lista de fechas. Es la narrativa que explica como hemos llegado hasta aqui. Los [20 personajes historicos imprescindibles](/es/blog/personnages-historiques/) son un buen punto de partida. Desde las civilizaciones antiguas (Mesopotamia, Egipto, Grecia, Roma, China, Mesoamerica) hasta el siglo XXI, pasando por la Edad Media, el Renacimiento, las revoluciones y las guerras mundiales. Cada periodo abre puertas al siguiente.
+La historia no es una lista de fechas. Es la narrativa que explica como hemos llegado hasta aqui. Los [20 personajes historicos imprescindibles](/es/blog/personnages-historiques/) son un buen punto de partida, y nuestra guia para [aprender historia divirtiendose](/es/blog/aprender-historia-divirtiendose/) muestra metodos que funcionan de verdad. Desde las civilizaciones antiguas (Mesopotamia, Egipto, Grecia, Roma, China, Mesoamerica) hasta el siglo XXI, pasando por la Edad Media, el Renacimiento, las revoluciones y las guerras mundiales. Cada periodo abre puertas al siguiente.
 
 Las ciencias no requieren ser cientifico. Entender los principios de la gravedad, la evolucion, la estructura del atomo o el ADN enriquece tu forma de mirar el universo. Son cosas que se explican en pocas frases y que cambian tu perspectiva para siempre.
 
-Artes y literatura son otro pilar. Las grandes corrientes (Renacimiento, Barroco, Impresionismo, Surrealismo), los autores que hay que conocer (Shakespeare, Cervantes, Tolstoi, Garcia Marquez), los compositores clasicos (Bach, Mozart, Beethoven). No hace falta haberlo leido o escuchado todo, pero si saber de que se habla cuando salen en una conversacion.
+Artes y literatura son otro pilar. Las grandes corrientes (Renacimiento, Barroco, Impresionismo, Surrealismo), las [obras de arte imprescindibles](/es/blog/obras-arte-imprescindibles/) y los autores que hay que conocer (Shakespeare, Cervantes, Tolstoi, Garcia Marquez), los compositores clasicos (Bach, Mozart, Beethoven). No hace falta haberlo leido o escuchado todo, pero si saber de que se habla cuando salen en una conversacion.
 
 Politica y economia cierran el cuadro. Democracia, monarquia, republica. ONU, Union Europea, OTAN. Oferta y demanda, inflacion, PIB. Los debates contemporaneos que moldean el mundo en que vives.
 

@@ -30,11 +30,11 @@ La culture générale est un vaste territoire. Pour l'aborder sans se noyer, mie
 
 La géographie est le socle. Connaître les pays, les capitales, les drapeaux, les océans et les continents, c'est pouvoir situer les événements et comprendre les enjeux géopolitiques. C'est aussi l'un des domaines les plus simples à travailler au quotidien. Si vous partez de zéro, commencez par corriger les [erreurs de géographie les plus répandues](/blog/erreurs-geographie/).
 
-L'histoire donne du sens au présent. Les grandes périodes -- Antiquité, Moyen Âge, Renaissance, ère industrielle, guerres mondiales, décolonisation -- expliquent pourquoi le monde est tel qu'il est. Connaître les [personnages historiques majeurs](/blog/personnages-historiques/), de Cléopâtre à Turing, c'est comprendre les enchaînements et les causalités, bien plus utile que de retenir des dates isolées.
+L'histoire donne du sens au présent. Les grandes périodes -- Antiquité, Moyen Âge, Renaissance, ère industrielle, guerres mondiales, décolonisation -- expliquent pourquoi le monde est tel qu'il est. Connaître les [personnages historiques majeurs](/blog/personnages-historiques/), de Cléopâtre à Turing, c'est comprendre les enchaînements et les causalités, bien plus utile que de retenir des dates isolées. Et pour ancrer ces connaissances, les [méthodes ludiques pour apprendre l'histoire](/blog/apprendre-histoire-en-samusant/) fonctionnent bien mieux que la mémorisation brute.
 
 Les sciences englobent la physique, la chimie, la biologie, les mathématiques et l'informatique. Comprendre les principes de base -- la gravité, l'évolution, le fonctionnement de l'ADN, le changement climatique -- est devenu indispensable. On ne peut plus se permettre d'être analphabète scientifique en 2025.
 
-Les arts et la littérature couvrent la peinture, la musique, le cinéma, l'architecture et les grands textes. Connaître les mouvements artistiques (Renaissance, Impressionnisme, Art déco) et les œuvres majeures, ça change le regard qu'on porte sur le monde. On ne visite pas Florence de la même façon quand on connaît les Médicis.
+Les arts et la littérature couvrent la peinture, la musique, le cinéma, l'architecture et les grands textes. Connaître les mouvements artistiques (Renaissance, Impressionnisme, Art déco) et les [œuvres d'art incontournables](/blog/oeuvres-art-incontournables/), ça change le regard qu'on porte sur le monde. On ne visite pas Florence de la même façon quand on connaît les Médicis.
 
 La politique et l'économie sont les clés de lecture de l'actualité. Systèmes politiques, grandes institutions internationales (ONU, Union européenne, OTAN), principes économiques de base (inflation, PIB, dette publique) -- sans ça, les infos du soir restent du bruit de fond.
 

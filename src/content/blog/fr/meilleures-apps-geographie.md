@@ -145,4 +145,4 @@ La plupart des applications de géographie couvrent un seul angle : les cartes, 
 
 L'application s'adapte au niveau, l'interface est sobre, et quelques minutes par jour suffisent pour progresser. Le genre d'application qu'on ouvre machinalement dans le métro -- et dont on ressort un peu moins ignorant à chaque fois.
 
-Si vous hésitez entre SAPIRO et GeoGuessr, notre [comparatif détaillé SAPIRO vs GeoGuessr](/blog/sapiro-vs-geoguessr/) vous aidera à trancher. Et pour un tour d'horizon plus large, consultez notre guide des [meilleures apps de quiz de culture générale](/blog/meilleures-apps-quiz-culture-generale/).
+Si vous hésitez entre SAPIRO et GeoGuessr, notre [comparatif détaillé SAPIRO vs GeoGuessr](/blog/sapiro-vs-geoguessr/) vous aidera à trancher. Pour voir comment SAPIRO se compare à un outil de classe, consultez notre [comparatif SAPIRO vs Kahoot](/blog/sapiro-vs-kahoot/). Et pour un tour d'horizon plus large, consultez notre guide des [meilleures apps de quiz de culture générale](/blog/meilleures-apps-quiz-culture-generale/).

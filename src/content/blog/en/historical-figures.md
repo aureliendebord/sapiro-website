@@ -46,7 +46,7 @@ A teenage peasant girl who claimed divine guidance and led the French army to se
 
 ### 7. Leonardo da Vinci (1452-1519)
 
-The archetype of the "Renaissance man," Leonardo was a painter, sculptor, architect, engineer, scientist, and inventor whose breadth of talent has arguably never been matched. The Mona Lisa and The Last Supper are among the most recognized artworks in human history. But Leonardo's notebooks -- filled with anatomical studies, flying machine designs, and hydraulic engineering plans -- reveal a mind centuries ahead of its time. He saw the future and sketched it.
+The archetype of the "Renaissance man," Leonardo was a painter, sculptor, architect, engineer, scientist, and inventor whose breadth of talent has arguably never been matched. The Mona Lisa and The Last Supper are among the most recognized [artworks in human history](/en/blog/essential-artworks-to-know/). But Leonardo's notebooks -- filled with anatomical studies, flying machine designs, and hydraulic engineering plans -- reveal a mind centuries ahead of its time. He saw the future and sketched it.
 
 ### 8. Christopher Columbus (1451-1506)
 
@@ -122,7 +122,7 @@ If you are preparing for a quiz on [general culture or geography](/en/blog/quiz-
 
 Create a timeline. Place each figure on a visual timeline to understand who overlapped with whom. It is fascinating to realize that Newton and Louis XIV were contemporaries, or that Einstein was alive during both World Wars.
 
-Use the story, not the date. Our brains remember narratives far better than isolated facts. Instead of memorizing "Toussaint Louverture, 1743-1803," remember the story of the enslaved man who led the only successful slave revolution in history. The story carries the dates with it.
+Use the story, not the date. Our brains remember narratives far better than isolated facts -- our guide on [learning history the fun way](/en/blog/learning-history-fun/) explores this principle in depth. Instead of memorizing "Toussaint Louverture, 1743-1803," remember the story of the enslaved man who led the only successful slave revolution in history. The story carries the dates with it.
 
 Group by theme. Revolutionaries (Toussaint, Napoleon, Gandhi, Mandela), scientists (Newton, Curie, Einstein), cultural icons (Leonardo, Confucius, de Beauvoir). Thematic grouping aids recall because your brain can walk through categories instead of scrolling through a random list.
 

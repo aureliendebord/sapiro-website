@@ -66,7 +66,7 @@ Quelques plateformes ont prouvé l'efficacité de cette approche à grande éche
 
 Duolingo est sans doute l'exemple le plus frappant. Leçons courtes, cœurs (vies), séries quotidiennes, classements : l'application d'apprentissage des langues dépasse les 500 millions d'utilisateurs. Une étude menée par la City University of New York a montré que 34 heures de Duolingo équivalaient à un semestre universitaire de cours de langue. Trente-quatre heures. Soit l'équivalent de quelques semaines à raison de dix minutes par jour dans le métro.
 
-Kahoot! a transformé les salles de classe. Les élèves répondent en temps réel sur leurs téléphones à des questions projetées au tableau, avec un classement actualisé après chaque question. Le résultat ? Des enseignants qui voient des élèves habituellement silencieux lever la main et participer. L'outil est utilisé dans 200 pays et a généré plus de 9 milliards de participations cumulées.
+Kahoot! a transformé les salles de classe. Les élèves répondent en temps réel sur leurs téléphones à des questions projetées au tableau, avec un classement actualisé après chaque question. Le résultat ? Des enseignants qui voient des élèves habituellement silencieux lever la main et participer. L'outil est utilisé dans 200 pays et a généré plus de 9 milliards de participations cumulées. Pour comprendre les différences entre Kahoot! et une application de quiz individuel, notre [comparatif SAPIRO vs Kahoot](/blog/sapiro-vs-kahoot/) détaille les deux approches.
 
 Khan Academy a joué une autre carte : la démocratisation. Badges, points d'énergie et avatars personnalisables motivent les élèves en maths, sciences et Histoire. Sa plateforme gratuite a rendu l'éducation de qualité accessible dans le monde entier — plus de 150 millions d'utilisateurs enregistrés.
 
@@ -82,7 +82,7 @@ Il y a aussi le problème de la profondeur. "Quelle est la capitale du Burkina F
 
 Enfin, les mécanismes qui rendent les jeux motivants peuvent aussi créer une forme d'excès. Tout parent le sait. Un bon système gamifié fixe des limites de temps claires et encourage les pauses, au lieu de tirer sur la corde dopaminergique sans frein.
 
-L'équilibre tient à ça : la gamification comme un outil parmi d'autres, au service d'objectifs pédagogiques clairs. Les quiz sur les [personnages historiques](/blog/personnages-historiques/), par exemple, gagnent à être complétés par des lectures, des documentaires, des discussions en [famille autour d'un quiz](/blog/geographie-famille/).
+L'équilibre tient à ça : la gamification comme un outil parmi d'autres, au service d'objectifs pédagogiques clairs. Les quiz sur les [personnages historiques](/blog/personnages-historiques/), par exemple, gagnent à être complétés par des lectures, des documentaires, des discussions en [famille autour d'un quiz](/blog/geographie-famille/). Notre article sur [comment apprendre l'histoire en s'amusant](/blog/apprendre-histoire-en-samusant/) explore ces approches en détail.
 
 ## Questions fréquentes
 

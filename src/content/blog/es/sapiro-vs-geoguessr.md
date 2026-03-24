@@ -69,4 +69,4 @@ SAPIRO es la opción más completa si tu objetivo es aprender de verdad. Cuatro 
 
 Hay quien usará las dos, y probablemente sea la mejor combinación: GeoGuessr para la exploración inmersiva, SAPIRO para el aprendizaje estructurado.
 
-Para descubrir más apps de geografía, consulta nuestra guía de las [mejores apps de geografía](/es/blog/mejores-apps-geografia/) y nuestra selección de las [mejores apps de quiz de cultura general](/es/blog/mejores-apps-quiz-cultura-general/).
+Para descubrir más apps de geografía, consulta nuestra guía de las [mejores apps de geografía](/es/blog/mejores-apps-geografia/), nuestro [comparativo SAPIRO vs Kahoot](/es/blog/sapiro-vs-kahoot/) y nuestra selección de las [mejores apps de quiz de cultura general](/es/blog/mejores-apps-quiz-cultura-general/).

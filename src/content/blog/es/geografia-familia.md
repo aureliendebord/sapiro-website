@@ -114,6 +114,8 @@ Mezcla las edades dentro de cada equipo. Un equipo de 3-4 personas con al menos 
 
 Una vez al mes funciona bien para mantener el interes sin que se convierta en rutina. Entre sesiones, una app de quiz en la tablet de casa mantiene el entusiasmo con un mini-desafio semanal.
 
+Y para anadir una ronda de historia a tu noche de quiz, nuestra guia para [aprender historia divirtiendose](/es/blog/aprender-historia-divirtiendose/) tiene ideas que funcionan en familia.
+
 ## Usa SAPIRO como banco de preguntas
 
 Montar una noche de quiz de geografia en familia requiere poca preparacion y da mucho: aprendizaje, risas y tiempo juntos sin pantallas individuales de por medio.

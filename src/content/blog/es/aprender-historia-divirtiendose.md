@@ -62,7 +62,7 @@ SAPIRO propone más de 500 preguntas sobre personajes históricos, organizadas p
 
 Cada pregunta va seguida de una explicación detallada. Esto importa mucho: el feedback tras cada respuesta convierte cada error en un momento de aprendizaje. La app no se limita a decir "respuesta incorrecta". Explica por qué es Leonardo da Vinci y no Miguel Ángel, por qué es el Imperio otomano y no el Imperio persa.
 
-Con más de 50 recorridos temáticos y tres modos de juego (Clásico, Supervivencia, Desafío del día), la aplicación permite variar los ángulos de aproximación. Y la historia no está aislada del resto: se cruza con la geografía (197 países), el arte (553 obras) y la naturaleza (600 animales). Porque la historia no se entiende aislada de todo lo demás.
+Con más de 50 recorridos temáticos y tres modos de juego (Clásico, Supervivencia, Desafío del día), la aplicación permite variar los ángulos de aproximación. Y la historia no está aislada del resto: se cruza con la geografía (197 países), el arte ([553 obras imprescindibles](/es/blog/obras-arte-imprescindibles/)) y la naturaleza (600 animales). Porque la historia no se entiende aislada de todo lo demás.
 
 Sin publicidad, sin recopilación de datos. La aplicación funciona sin conexión. Gratuita con opción Sapiro+ desde 1,99 €/mes.
 
