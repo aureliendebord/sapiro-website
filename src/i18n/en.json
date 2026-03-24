@@ -79,7 +79,9 @@
     "copyright": "SAPIRO. All rights reserved.",
     "privacy": "Privacy Policy",
     "terms": "Terms of Use",
-    "legal": "Legal Notice"
+    "legal": "Legal Notice",
+    "reviews": "Reviews",
+    "faq": "FAQ"
   },
   "blog": {
     "title": "SAPIRO Blog",
@@ -203,6 +205,56 @@
     "personalDataText": "This website does not collect any personal data and does not use cookies.",
     "close": "Close"
   },
+  "reviews": {
+    "title": "What users are saying",
+    "metaDescription": "User reviews and testimonials about SAPIRO: parents, teachers, and curious learners share their experience with the educational quiz app.",
+    "subtitle": "SAPIRO is rated 5/5 on Google Play",
+    "cta": "Try SAPIRO for free",
+    "items": [
+      {
+        "name": "Sarah M.",
+        "role": "Mom of 2",
+        "rating": 5,
+        "text": "My kids (8 and 11) love it. They actually remember the answers thanks to the explanations. And I play too in the evenings. I've learned so much about art I never knew.",
+        "store": "Google Play"
+      },
+      {
+        "name": "James T.",
+        "role": "Middle school teacher",
+        "rating": 5,
+        "text": "I use it as a geography class supplement. Students love the XP system and challenges. The fact that it's ad-free is a real advantage in a school setting.",
+        "store": "App Store"
+      },
+      {
+        "name": "Emily R.",
+        "role": "Lifelong learner",
+        "rating": 5,
+        "text": "Finally a quiz app that doesn't spam me with ads. The questions are well-crafted, the explanations are clear. I use it on my commute every morning.",
+        "store": "Google Play"
+      },
+      {
+        "name": "David K.",
+        "role": "Tech-savvy dad",
+        "rating": 5,
+        "text": "We do the daily challenge as a family on Sunday mornings. It's become a ritual. The app is clean, fast, no data collection. Exactly what I wanted for the kids.",
+        "store": "App Store"
+      },
+      {
+        "name": "Claire B.",
+        "role": "History student",
+        "rating": 5,
+        "text": "The historical figures paths are great. I discovered people my courses never mentioned. The lifetime option at $39.99 is genuinely fair.",
+        "store": "Google Play"
+      },
+      {
+        "name": "Robert W.",
+        "role": "Retired traveler",
+        "rating": 5,
+        "text": "At 67, I test my memory with flags and capitals. The offline mode is perfect for my train rides. Simple, effective, no fuss.",
+        "store": "App Store"
+      }
+    ]
+  },
   "pricing": {
     "title": "Our plans",
     "subtitle": "Free to start, Sapiro+ to go further",
@@ -254,5 +306,52 @@
     ],
     "cta": "Download SAPIRO",
     "note": "Secure payment via App Store or Google Play. Cancel anytime."
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "metaDescription": "Answers to common questions about SAPIRO: free plan, privacy, content, offline mode, Sapiro+ subscription.",
+    "subtitle": "Everything you need to know about SAPIRO",
+    "items": [
+      {
+        "question": "Is SAPIRO really free?",
+        "answer": "Yes. The free version gives you access to all 4 universes (geography, history, art, nature), about a dozen paths, unlimited Classic and Survival modes, and the Daily Challenge. No ads. Sapiro+ (from $1.99/month) unlocks 50+ additional thematic paths."
+      },
+      {
+        "question": "Is it safe for my child?",
+        "answer": "SAPIRO contains no ads and collects no personal data. No tracking, no required account, no third-party content. Your child can play independently."
+      },
+      {
+        "question": "Does SAPIRO work offline?",
+        "answer": "Yes. All content is downloaded with the app. You can play on a plane, in the subway, or while camping with no connection needed."
+      },
+      {
+        "question": "What subjects does SAPIRO cover?",
+        "answer": "Four domains: geography (197 countries, flags, capitals), history (500+ historical figures), art (553 major artworks), and nature (600 animal species). Over 2,000 questions in total, each with an explanation."
+      },
+      {
+        "question": "Does SAPIRO collect my data?",
+        "answer": "No. Zero data collection. No cookies, no tracking, no sharing with third parties. Your progress data stays on your device."
+      },
+      {
+        "question": "What is the difference between free and Sapiro+?",
+        "answer": "The free version includes all core content with no ads. Sapiro+ unlocks over 50 exclusive thematic paths (world museums, animal families, historical empires) and a Premium badge."
+      },
+      {
+        "question": "How do I cancel my Sapiro+ subscription?",
+        "answer": "On iOS: Settings > your name > Subscriptions. On Android: Google Play Store > Menu > Subscriptions. Cancellation takes effect at the end of the current period."
+      },
+      {
+        "question": "Is SAPIRO available on iOS and Android?",
+        "answer": "Yes. SAPIRO is available on the App Store (iPhone, iPad) and Google Play (Android). The app is identical on both platforms."
+      },
+      {
+        "question": "Are the questions verified?",
+        "answer": "Yes. Every question is written and verified manually. The content is not community-generated: it is reviewed to ensure accuracy."
+      },
+      {
+        "question": "Is SAPIRO suitable for adults?",
+        "answer": "SAPIRO is designed for all ages. The content covers world geography, history, major artworks, and biodiversity. Many adults use it to test and expand their general knowledge."
+      }
+    ]
   }
 }

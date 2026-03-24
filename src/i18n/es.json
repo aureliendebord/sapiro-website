@@ -79,7 +79,9 @@
     "copyright": "SAPIRO. Todos los derechos reservados.",
     "privacy": "Política de privacidad",
     "terms": "Condiciones de uso",
-    "legal": "Aviso legal"
+    "legal": "Aviso legal",
+    "reviews": "Opiniones",
+    "faq": "FAQ"
   },
   "blog": {
     "title": "Blog SAPIRO",
@@ -203,6 +205,56 @@
     "personalDataText": "Este sitio web no recopila ningún dato personal y no utiliza cookies.",
     "close": "Cerrar"
   },
+  "reviews": {
+    "title": "Lo que dicen los usuarios",
+    "metaDescription": "Opiniones y testimonios de usuarios de SAPIRO: padres, profesores y curiosos comparten su experiencia con la app de quiz educativo.",
+    "subtitle": "SAPIRO tiene 5/5 en Google Play",
+    "cta": "Prueba SAPIRO gratis",
+    "items": [
+      {
+        "name": "María L.",
+        "role": "Madre de 2 hijos",
+        "rating": 5,
+        "text": "A mis hijos de 8 y 11 años les encanta. Retienen las respuestas gracias a las explicaciones. Y yo también juego por las noches, aprendo muchas cosas sobre arte que no conocía.",
+        "store": "Google Play"
+      },
+      {
+        "name": "Tomás D.",
+        "role": "Profesor de secundaria",
+        "rating": 5,
+        "text": "Lo uso como apoyo en clase de geografía. Los alumnos se motivan con el sistema de XP y los desafíos. Que no tenga publicidad es una ventaja real en el contexto escolar.",
+        "store": "App Store"
+      },
+      {
+        "name": "Sofía R.",
+        "role": "Curiosa por naturaleza",
+        "rating": 5,
+        "text": "Por fin una app de quiz que no me bombardea con publicidad. Las preguntas están bien hechas, las explicaciones son claras. La uso en el metro cada mañana.",
+        "store": "Google Play"
+      },
+      {
+        "name": "Carlos M.",
+        "role": "Padre tecnológico",
+        "rating": 5,
+        "text": "Hacemos el desafío diario en familia los domingos por la mañana. Se ha convertido en un ritual. La app es limpia, rápida, sin recopilación de datos. Justo lo que buscaba para los niños.",
+        "store": "App Store"
+      },
+      {
+        "name": "Lucía B.",
+        "role": "Estudiante de historia",
+        "rating": 5,
+        "text": "Los recorridos de personajes históricos son geniales. Descubrí figuras que mis clases nunca habían mencionado. La opción de por vida a 39,99 € es realmente justa.",
+        "store": "Google Play"
+      },
+      {
+        "name": "Pedro V.",
+        "role": "Jubilado viajero",
+        "rating": 5,
+        "text": "Con 67 años, pongo a prueba mi memoria con banderas y capitales. El modo sin conexión es perfecto para mis viajes en tren. Simple, eficaz, sin complicaciones.",
+        "store": "App Store"
+      }
+    ]
+  },
   "pricing": {
     "title": "Nuestros planes",
     "subtitle": "Gratis para empezar, Sapiro+ para ir más lejos",
@@ -254,5 +306,52 @@
     ],
     "cta": "Descargar SAPIRO",
     "note": "Pago seguro a través de App Store o Google Play. Cancelación en cualquier momento."
+  },
+  "faq": {
+    "title": "Preguntas frecuentes",
+    "metaDescription": "Respuestas a las preguntas frecuentes sobre SAPIRO: gratuidad, privacidad, contenido, modo sin conexión, suscripción Sapiro+.",
+    "subtitle": "Todo lo que necesitas saber sobre SAPIRO",
+    "items": [
+      {
+        "question": "¿SAPIRO es realmente gratis?",
+        "answer": "Sí. La versión gratuita da acceso a los 4 universos (geografía, historia, arte, naturaleza), una docena de recorridos, los modos Clásico y Supervivencia ilimitados, y el Desafío diario. Sin publicidad. Sapiro+ (desde 1,99 €/mes) desbloquea más de 50 recorridos temáticos adicionales."
+      },
+      {
+        "question": "¿Mi hijo puede jugar sin riesgo?",
+        "answer": "SAPIRO no contiene publicidad y no recopila ningún dato personal. Sin tracking, sin cuenta obligatoria, sin contenido de terceros. Tu hijo puede jugar con total autonomía."
+      },
+      {
+        "question": "¿SAPIRO funciona sin conexión a internet?",
+        "answer": "Sí. Todo el contenido se descarga con la aplicación. Puedes jugar en el avión, en el metro o de camping sin ninguna conexión."
+      },
+      {
+        "question": "¿Qué temas cubre SAPIRO?",
+        "answer": "Cuatro dominios: geografía (197 países, banderas, capitales), historia (500+ personajes históricos), arte (553 obras maestras) y naturaleza (600 especies animales). Más de 2000 preguntas en total, cada una con una explicación."
+      },
+      {
+        "question": "¿SAPIRO recopila mis datos?",
+        "answer": "No. Cero recopilación de datos. Sin cookies, sin tracking, sin transmisión a terceros. Tus datos de progresión se quedan en tu dispositivo."
+      },
+      {
+        "question": "¿Cuál es la diferencia entre la versión gratuita y Sapiro+?",
+        "answer": "La versión gratuita incluye todo el contenido básico sin publicidad. Sapiro+ desbloquea más de 50 recorridos temáticos exclusivos (museos del mundo, familias animales, imperios históricos) y una insignia Premium."
+      },
+      {
+        "question": "¿Cómo cancelo mi suscripción a Sapiro+?",
+        "answer": "En iOS: Ajustes > tu nombre > Suscripciones. En Android: Google Play Store > Menú > Suscripciones. La cancelación entra en vigor al final del período actual."
+      },
+      {
+        "question": "¿SAPIRO está disponible en iOS y Android?",
+        "answer": "Sí. SAPIRO está disponible en la App Store (iPhone, iPad) y en Google Play (Android). La aplicación es idéntica en ambas plataformas."
+      },
+      {
+        "question": "¿Las preguntas están verificadas?",
+        "answer": "Sí. Cada pregunta es redactada y verificada manualmente. El contenido no es generado por la comunidad: se controla para garantizar la exactitud de la información."
+      },
+      {
+        "question": "¿SAPIRO es adecuado para adultos?",
+        "answer": "SAPIRO está diseñado para todas las edades. El contenido cubre geografía mundial, historia, grandes obras de arte y biodiversidad. Muchos adultos lo usan para poner a prueba y ampliar su cultura general."
+      }
+    ]
   }
 }

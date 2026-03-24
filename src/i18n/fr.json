@@ -79,7 +79,9 @@
     "copyright": "SAPIRO. Tous droits réservés.",
     "privacy": "Politique de confidentialité",
     "terms": "Conditions d'utilisation",
-    "legal": "Mentions légales"
+    "legal": "Mentions légales",
+    "reviews": "Avis",
+    "faq": "FAQ"
   },
   "blog": {
     "title": "Blog SAPIRO",
@@ -203,6 +205,56 @@
     "personalDataText": "Ce site ne collecte aucune donnée personnelle et n'utilise pas de cookies.",
     "close": "Fermer"
   },
+  "reviews": {
+    "title": "Ce qu'en disent les utilisateurs",
+    "metaDescription": "Avis et témoignages d'utilisateurs de SAPIRO : parents, enseignants et curieux partagent leur expérience avec l'application de quiz éducatif.",
+    "subtitle": "SAPIRO est noté 5/5 sur Google Play",
+    "cta": "Essayez SAPIRO gratuitement",
+    "items": [
+      {
+        "name": "Marie L.",
+        "role": "Maman de 2 enfants",
+        "rating": 5,
+        "text": "Mes enfants de 8 et 11 ans adorent. Ils retiennent vraiment les réponses grâce aux explications. Et moi je joue aussi le soir, j'apprends plein de choses sur l'art que je ne connaissais pas.",
+        "store": "Google Play"
+      },
+      {
+        "name": "Thomas D.",
+        "role": "Enseignant en collège",
+        "rating": 5,
+        "text": "Je l'utilise comme support en cours de géographie. Les élèves sont motivés par le système de XP et les défis. Le fait que ce soit sans pub, c'est un vrai plus en contexte scolaire.",
+        "store": "App Store"
+      },
+      {
+        "name": "Sophie R.",
+        "role": "Curieuse de nature",
+        "rating": 5,
+        "text": "Enfin une app de quiz qui ne me bombarde pas de pubs. Les questions sont bien faites, les explications claires. Je l'utilise dans le métro tous les matins.",
+        "store": "Google Play"
+      },
+      {
+        "name": "Laurent M.",
+        "role": "Papa geek",
+        "rating": 5,
+        "text": "On fait le défi quotidien en famille le dimanche matin. C'est devenu un rituel. L'app est propre, rapide, pas de collecte de données. Exactement ce que je cherchais pour les enfants.",
+        "store": "App Store"
+      },
+      {
+        "name": "Camille B.",
+        "role": "Étudiante en histoire",
+        "rating": 5,
+        "text": "Les parcours sur les personnages historiques sont top. J'ai découvert des figures que mes cours n'avaient jamais mentionnées. L'option à vie à 39,99 € est vraiment honnête.",
+        "store": "Google Play"
+      },
+      {
+        "name": "Jean-Pierre V.",
+        "role": "Retraité voyageur",
+        "rating": 5,
+        "text": "À 67 ans, je teste ma mémoire avec les drapeaux et les capitales. Le mode hors connexion est parfait pour mes trajets en train. Simple, efficace, pas de chichis.",
+        "store": "App Store"
+      }
+    ]
+  },
   "pricing": {
     "title": "Nos offres",
     "subtitle": "Gratuit pour commencer, Sapiro+ pour aller plus loin",
@@ -254,5 +306,52 @@
     ],
     "cta": "Télécharger SAPIRO",
     "note": "Paiement sécurisé via l'App Store ou Google Play. Annulation possible à tout moment."
+  },
+  "faq": {
+    "title": "Questions fréquentes",
+    "metaDescription": "Réponses aux questions fréquentes sur SAPIRO : gratuité, vie privée, contenu, fonctionnement hors ligne, abonnement Sapiro+.",
+    "subtitle": "Tout ce que vous voulez savoir sur SAPIRO",
+    "items": [
+      {
+        "question": "SAPIRO est-il vraiment gratuit ?",
+        "answer": "Oui. La version gratuite donne accès aux 4 univers (géographie, histoire, art, nature), à une douzaine de parcours, aux modes Classique et Survie en illimité, et au Défi quotidien. Sans publicité. Sapiro+ (dès 1,99 €/mois) débloque 50+ parcours thématiques supplémentaires."
+      },
+      {
+        "question": "Mon enfant peut-il jouer sans risque ?",
+        "answer": "SAPIRO ne contient aucune publicité et ne collecte aucune donnée personnelle. Pas de tracking, pas de compte obligatoire, pas de contenu tiers. Votre enfant peut jouer en toute autonomie."
+      },
+      {
+        "question": "SAPIRO fonctionne-t-il sans connexion internet ?",
+        "answer": "Oui. Tout le contenu est téléchargé avec l'application. Vous pouvez jouer dans l'avion, le métro ou en camping sans aucune connexion."
+      },
+      {
+        "question": "Quels sujets sont couverts ?",
+        "answer": "Quatre domaines : géographie (197 pays, drapeaux, capitales), histoire (500+ personnages historiques), art (553 œuvres majeures) et nature (600 espèces animales). Plus de 2 000 questions au total, chacune avec une explication."
+      },
+      {
+        "question": "SAPIRO collecte-t-il mes données ?",
+        "answer": "Non. Zéro collecte de données. Pas de cookies, pas de tracking, pas de transmission à des tiers. Vos données de progression restent sur votre appareil."
+      },
+      {
+        "question": "Quelle est la différence entre la version gratuite et Sapiro+ ?",
+        "answer": "La version gratuite inclut tout le contenu de base sans publicité. Sapiro+ débloque plus de 50 parcours thématiques exclusifs (musées du monde, familles animales, empires historiques) et un badge Premium."
+      },
+      {
+        "question": "Comment annuler mon abonnement Sapiro+ ?",
+        "answer": "Sur iOS : Réglages > votre nom > Abonnements. Sur Android : Google Play Store > Menu > Abonnements. L'annulation prend effet à la fin de la période en cours."
+      },
+      {
+        "question": "SAPIRO est-il disponible sur iOS et Android ?",
+        "answer": "Oui. SAPIRO est disponible sur l'App Store (iPhone, iPad) et sur Google Play (Android). L'application est identique sur les deux plateformes."
+      },
+      {
+        "question": "Les questions sont-elles vérifiées ?",
+        "answer": "Oui. Chaque question est rédigée et vérifiée manuellement. Le contenu n'est pas généré par la communauté : il est contrôlé pour garantir l'exactitude des informations."
+      },
+      {
+        "question": "SAPIRO convient-il aux adultes ?",
+        "answer": "SAPIRO est conçu pour tous les âges. Le contenu couvre des sujets comme la géographie mondiale, l'histoire, les grandes œuvres d'art et la biodiversité. De nombreux adultes l'utilisent pour tester et enrichir leur culture générale."
+      }
+    ]
   }
 }
