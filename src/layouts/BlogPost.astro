@@ -342,31 +342,43 @@ const breadcrumbSchema = {
   /* Tables */
   .article-content :global(table) {
     width: 100%;
-    border-collapse: collapse;
-    margin: 24px 0 32px;
-    font-size: 0.9rem;
-    line-height: 1.5;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: 32px 0 40px;
+    font-size: 0.88rem;
+    line-height: 1.6;
     overflow-x: auto;
     display: block;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 107, 53, 0.15);
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
   }
 
   .article-content :global(thead) {
-    background: var(--noir);
-    color: var(--blanc);
+    background: linear-gradient(135deg, rgba(255, 107, 53, 0.08) 0%, rgba(255, 107, 53, 0.04) 100%);
   }
 
   .article-content :global(th) {
-    padding: 12px 16px;
+    padding: 14px 18px;
     text-align: left;
-    font-weight: 600;
+    font-weight: 700;
+    color: var(--orange);
+    font-size: 0.82rem;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    border-bottom: 2px solid var(--orange);
     white-space: nowrap;
   }
 
   .article-content :global(td) {
-    padding: 12px 16px;
-    border-bottom: 1px solid var(--gris-clair);
+    padding: 14px 18px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
     color: var(--noir);
     vertical-align: top;
+  }
+
+  .article-content :global(tbody tr:last-child td) {
+    border-bottom: none;
   }
 
   .article-content :global(tbody tr:hover) {
@@ -374,11 +386,16 @@ const breadcrumbSchema = {
   }
 
   .article-content :global(tbody tr:nth-child(even)) {
-    background: var(--gris-clair);
+    background: rgba(0, 0, 0, 0.015);
   }
 
   .article-content :global(tbody tr:nth-child(even):hover) {
     background: rgba(255, 107, 53, 0.06);
+  }
+
+  .article-content :global(td:first-child) {
+    font-weight: 600;
+    color: var(--noir);
   }
 
   /* Images dans les articles */
@@ -386,7 +403,7 @@ const breadcrumbSchema = {
     max-width: 100%;
     height: auto;
     border-radius: 12px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
     margin: 24px 0;
     display: block;
   }
@@ -403,15 +420,20 @@ const breadcrumbSchema = {
     font-style: italic;
   }
 
-  /* Responsive table scroll indicator */
+  /* Responsive table */
   @media (max-width: 768px) {
     .article-content :global(table) {
-      font-size: 0.8rem;
+      font-size: 0.78rem;
+      border-radius: 8px;
     }
 
     .article-content :global(th),
     .article-content :global(td) {
-      padding: 8px 12px;
+      padding: 10px 12px;
+    }
+
+    .article-content :global(th) {
+      font-size: 0.72rem;
     }
   }
 
