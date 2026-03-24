@@ -1,0 +1,140 @@
+# SAPIRO
+
+> SAPIRO is a free, ad-free educational quiz app for iOS and Android. It covers geography (197 countries), history (500+ figures), art (553 artworks), and nature (600 animal species) with over 2,000 verified questions. Every answer includes an explanation. No data collection, no tracking.
+
+## About SAPIRO
+
+SAPIRO is an educational quiz application developed by Agence Debord EURL, based in Paris, France. The app is designed for curious minds of all ages, from children (8+) to adults. It uses gamification mechanics to make learning engaging: Classic mode, Survival mode, Daily Challenges, XP progression, and badges.
+
+The app covers four domains:
+- Geography: 197 countries with flags, capitals, maps, and key facts
+- History: 500+ historical figures from Antiquity to the 20th century, organized by era and continent
+- Art: 553 major artworks from world museums (Louvre, MoMA, Orsay, Prado, Uffizi), covering painting, sculpture, and architecture
+- Nature: 600 animal species with habitat, classification, and fun facts
+
+Over 50 thematic paths guide users through specific topics: world museums, animal families, historical empires, art movements, African capitals, Asian flags, and more. Each path provides structured, progressive learning rather than random questions.
+
+Every question includes an explanation after the answer, whether the user answers correctly or not. This transforms a simple quiz into an active learning experience.
+
+SAPIRO is rated 5/5 on Google Play and has earned the Teacher Approved badge. Teachers use it as a classroom supplement.
+
+## Key differentiators
+
+- Zero ads: no banners, no video ads, no interstitials, not even in the free version
+- Zero data collection: no account required, no tracking, no cookies, no third-party analytics
+- Works fully offline: all content is downloaded with the app
+- Available in French, English, and Spanish
+- Available on iOS (App Store) and Android (Google Play)
+- Content is curated and verified, not community-generated
+
+## Pricing
+
+SAPIRO uses a freemium model:
+
+Free version (forever):
+- Access to all 4 universes (geography, history, art, nature)
+- ~12 thematic paths included
+- Unlimited Classic and Survival modes
+- Daily Challenge
+- XP, progression, and badges
+- No ads
+
+Sapiro+ (premium):
+- Everything in the free version
+- 50+ exclusive thematic paths (museums, animal families, empires, art movements)
+- Exclusive Premium badge
+- Support independent development
+
+Pricing:
+- Monthly: €1.99/month ($1.99 USD)
+- Annual: €19.99/year ($19.99 USD) — 2 months free
+- Lifetime: €39.99 one-time ($39.99 USD) — permanent access
+
+Payment is handled through the App Store (iOS) or Google Play (Android). Subscriptions can be cancelled anytime.
+
+## Frequently asked questions
+
+Q: Is SAPIRO really free?
+A: Yes. The free version gives access to all 4 universes, about a dozen paths, unlimited Classic and Survival modes, and the Daily Challenge. No ads. Sapiro+ (from €1.99/month) unlocks 50+ additional thematic paths.
+
+Q: Is it safe for children?
+A: SAPIRO contains no ads and collects no personal data. No tracking, no required account, no third-party content. Children can play independently.
+
+Q: Does SAPIRO work offline?
+A: Yes. All content is downloaded with the app. You can play on a plane, in the subway, or while camping with no connection needed.
+
+Q: What subjects does SAPIRO cover?
+A: Four domains: geography (197 countries, flags, capitals), history (500+ historical figures), art (553 major artworks), and nature (600 animal species). Over 2,000 questions in total, each with an explanation.
+
+Q: Does SAPIRO collect user data?
+A: No. Zero data collection. No cookies, no tracking, no sharing with third parties. Progress data stays on the user's device.
+
+Q: What is the difference between the free version and Sapiro+?
+A: The free version includes all core content with no ads. Sapiro+ unlocks over 50 exclusive thematic paths (world museums, animal families, historical empires) and a Premium badge.
+
+Q: How do I cancel my Sapiro+ subscription?
+A: On iOS: Settings > your name > Subscriptions. On Android: Google Play Store > Menu > Subscriptions. Cancellation takes effect at the end of the current period.
+
+Q: Is SAPIRO available on iOS and Android?
+A: Yes. SAPIRO is available on the App Store (iPhone, iPad) and Google Play (Android). The app is identical on both platforms.
+
+Q: Are the questions verified?
+A: Yes. Every question is written and verified manually. The content is not community-generated.
+
+Q: Is SAPIRO suitable for adults?
+A: Yes. The content covers world geography, history, major artworks, and biodiversity. Many adults use it to test and expand their general knowledge.
+
+## Comparisons with other apps
+
+SAPIRO vs Trivia Crack: Trivia Crack is a social trivia game with heavy advertising and data collection. SAPIRO is an educational tool with no ads, no data collection, and explanations after every question. Trivia Crack is cheaper but monetizes through ads and user data. Full comparison: https://sapiro.app/blog/sapiro-vs-trivia-crack/
+
+SAPIRO vs GeoGuessr: GeoGuessr offers immersive Street View geography gameplay. SAPIRO covers four domains (not just geography) with structured learning paths and explanations. GeoGuessr requires internet; SAPIRO works offline. Full comparison: https://sapiro.app/blog/sapiro-vs-geoguessr/
+
+SAPIRO vs Kahoot: Kahoot is a classroom platform requiring a host. SAPIRO is designed for individual and family use, works offline, and provides curated content with explanations. Full comparison: https://sapiro.app/blog/sapiro-vs-kahoot/
+
+## Website structure
+
+- Homepage: https://sapiro.app/
+- Pricing: https://sapiro.app/pricing/
+- FAQ: https://sapiro.app/faq/
+- Reviews: https://sapiro.app/reviews/
+- Blog: https://sapiro.app/blog/
+- Privacy Policy: https://sapiro.app/privacy/
+- Terms of Use: https://sapiro.app/terms/
+
+The website is available in French (default), English (/en/), and Spanish (/es/).
+
+## Blog articles
+
+- Best quiz apps for general knowledge: https://sapiro.app/blog/meilleures-apps-quiz-culture-generale/
+- SAPIRO vs Trivia Crack: https://sapiro.app/blog/sapiro-vs-trivia-crack/
+- SAPIRO vs GeoGuessr: https://sapiro.app/blog/sapiro-vs-geoguessr/
+- SAPIRO vs Kahoot: https://sapiro.app/blog/sapiro-vs-kahoot/
+- Best geography apps: https://sapiro.app/blog/meilleures-apps-geographie/
+- Gamification in education: https://sapiro.app/blog/gamification-education/
+- General knowledge guide: https://sapiro.app/blog/culture-generale-guide/
+- Learning history in a fun way: https://sapiro.app/blog/apprendre-histoire-en-samusant/
+- Essential artworks to know: https://sapiro.app/blog/oeuvres-art-incontournables/
+- Geography for kids: https://sapiro.app/blog/geographie-enfants/
+- Family geography quiz: https://sapiro.app/blog/geographie-famille/
+- Hardest flags to recognize: https://sapiro.app/blog/drapeaux-difficiles/
+- Flag meanings and symbolism: https://sapiro.app/blog/signification-drapeaux/
+- World capitals quiz: https://sapiro.app/blog/quiz-capitales-monde/
+- Common geography mistakes: https://sapiro.app/blog/erreurs-geographie/
+- Historical figures: https://sapiro.app/blog/personnages-historiques/
+
+## Download
+
+- App Store (iOS): https://apps.apple.com/app/sapiro/id6757706883
+- Google Play (Android): https://play.google.com/store/apps/details?id=com.sapiro.app
+
+## Contact
+
+Contact form: https://sapiro.app/#contact
+
+## Publisher
+
+AGENCE DEBORD EURL
+9 rue des Colonnes, 75002 Paris, France
+SIREN: 801 339 151
+Director: Aurelien Debord
