@@ -19,6 +19,42 @@ const t = getTranslations(lang);
 ---
 
 <Layout title={t.meta.title} description={t.meta.description} lang={lang}>
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "SAPIRO",
+      "applicationCategory": "EducationalApplication",
+      "operatingSystem": "iOS, Android",
+      "description": "SAPIRO is a free, ad-free educational quiz app covering geography (197 countries), history (500+ figures), art (553 artworks), and nature (600 animal species). Over 2,000 verified questions, each with an explanation. Zero data collection.",
+      "url": "https://sapiro.app/en/",
+      "inLanguage": ["fr", "en", "es"],
+      "offers": [
+        { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Free version" },
+        { "@type": "Offer", "price": "1.99", "priceCurrency": "USD", "description": "Sapiro+ Monthly" },
+        { "@type": "Offer", "price": "19.99", "priceCurrency": "USD", "description": "Sapiro+ Annual" },
+        { "@type": "Offer", "price": "39.99", "priceCurrency": "USD", "description": "Sapiro+ Lifetime" }
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "50",
+        "bestRating": "5"
+      },
+      "screenshot": "https://sapiro.app/images/icon-1024.png"
+    })} />
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "SAPIRO",
+      "url": "https://sapiro.app",
+      "logo": "https://sapiro.app/images/icon-1024.png",
+      "sameAs": [
+        "https://apps.apple.com/app/sapiro/id6757706883",
+        "https://play.google.com/store/apps/details?id=com.sapiro.app"
+      ]
+    })} />
+  </Fragment>
   <Header lang={lang} t={t} />
   <main>
     <Hero lang={lang} t={t} />

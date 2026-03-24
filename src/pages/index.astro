@@ -19,6 +19,60 @@ const t = getTranslations(lang);
 ---
 
 <Layout title={t.meta.title} description={t.meta.description} lang={lang}>
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "SAPIRO",
+      "applicationCategory": "EducationalApplication",
+      "operatingSystem": "iOS, Android",
+      "description": "SAPIRO est une application de quiz éducatif gratuite et sans publicité couvrant la géographie (197 pays), l'histoire (500+ personnages), l'art (553 œuvres) et la nature (600 espèces animales). Plus de 2 000 questions vérifiées, chacune avec une explication. Aucune collecte de données.",
+      "url": "https://sapiro.app",
+      "inLanguage": ["fr", "en", "es"],
+      "offers": [
+        { "@type": "Offer", "price": "0", "priceCurrency": "EUR", "description": "Version gratuite" },
+        { "@type": "Offer", "price": "1.99", "priceCurrency": "EUR", "description": "Sapiro+ Mensuel" },
+        { "@type": "Offer", "price": "19.99", "priceCurrency": "EUR", "description": "Sapiro+ Annuel" },
+        { "@type": "Offer", "price": "39.99", "priceCurrency": "EUR", "description": "Sapiro+ À vie" }
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "50",
+        "bestRating": "5"
+      },
+      "screenshot": "https://sapiro.app/images/icon-1024.png"
+    })} />
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "SAPIRO",
+      "url": "https://sapiro.app",
+      "logo": "https://sapiro.app/images/icon-1024.png",
+      "sameAs": [
+        "https://apps.apple.com/app/sapiro/id6757706883",
+        "https://play.google.com/store/apps/details?id=com.sapiro.app"
+      ],
+      "parentOrganization": {
+        "@type": "Organization",
+        "name": "AGENCE DEBORD EURL",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "9 rue des Colonnes",
+          "postalCode": "75002",
+          "addressLocality": "Paris",
+          "addressCountry": "FR"
+        }
+      }
+    })} />
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "SAPIRO",
+      "url": "https://sapiro.app",
+      "inLanguage": ["fr", "en", "es"]
+    })} />
+  </Fragment>
   <Header lang={lang} t={t} />
   <main>
     <Hero lang={lang} t={t} />
