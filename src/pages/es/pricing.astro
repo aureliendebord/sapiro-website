@@ -8,7 +8,54 @@ const lang = 'es';
 const t = getTranslations(lang);
 ---
 
-<Layout title={`${t.pricing.title} - SAPIRO`} description={t.pricing.intro} lang={lang}>
+<Layout title={`${t.pricing.title} - SAPIRO`} description={t.pricing.metaDescription} lang={lang}>
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "SAPIRO",
+      "applicationCategory": "EducationalApplication",
+      "operatingSystem": "iOS, Android",
+      "offers": [
+        {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "EUR",
+          "description": "Versión gratuita"
+        },
+        {
+          "@type": "Offer",
+          "price": "1.99",
+          "priceCurrency": "EUR",
+          "description": "Sapiro+ Mensual",
+          "priceValidUntil": "2027-12-31"
+        },
+        {
+          "@type": "Offer",
+          "price": "19.99",
+          "priceCurrency": "EUR",
+          "description": "Sapiro+ Anual",
+          "priceValidUntil": "2027-12-31"
+        },
+        {
+          "@type": "Offer",
+          "price": "39.99",
+          "priceCurrency": "EUR",
+          "description": "Sapiro+ De por vida",
+          "priceValidUntil": "2027-12-31"
+        }
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "50",
+        "bestRating": "5"
+      },
+      "description": "Quiz de cultura general: geografía, historia, arte y naturaleza. 2000+ preguntas para aprender divirtiéndote.",
+      "screenshot": "https://sapiro.app/images/icon-1024.png",
+      "url": "https://sapiro.app/es/pricing/"
+    })} />
+  </Fragment>
   <Header lang={lang} t={t} />
 
   <main class="pricing-page">
