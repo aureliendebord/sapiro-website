@@ -9,6 +9,7 @@ import TrustBadges from '../../components/TrustBadges.astro';
 import PricingTeaser from '../../components/PricingTeaser.astro';
 import ForWho from '../../components/ForWho.astro';
 import Screenshots from '../../components/Screenshots.astro';
+import About from '../../components/About.astro';
 import Download from '../../components/Download.astro';
 import Contact from '../../components/Contact.astro';
 import Footer from '../../components/Footer.astro';
@@ -65,6 +66,7 @@ const t = getTranslations(lang);
     <TrustBadges lang={lang} />
     <PricingTeaser lang={lang} />
     <Screenshots lang={lang} t={t} />
+    <About t={t} />
     <Download t={t} />
     <Contact t={t} />
   </main>

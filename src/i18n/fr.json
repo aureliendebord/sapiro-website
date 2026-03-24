@@ -353,5 +353,16 @@
         "answer": "SAPIRO est conçu pour tous les âges. Le contenu couvre des sujets comme la géographie mondiale, l'histoire, les grandes œuvres d'art et la biodiversité. De nombreux adultes l'utilisent pour tester et enrichir leur culture générale."
       }
     ]
+  },
+  "about": {
+    "title": "À propos de SAPIRO",
+    "text": "SAPIRO est une application de quiz éducatif gratuite et sans publicité, disponible sur iOS et Android. Développée par Agence Debord EURL (Paris, France), elle couvre quatre domaines : géographie (197 pays), histoire (500+ personnages historiques), art (553 œuvres majeures) et nature (600 espèces animales). L'application propose plus de 2 000 questions vérifiées manuellement, chacune accompagnée d'une explication. Aucune donnée personnelle n'est collectée. L'application fonctionne entièrement hors ligne et est disponible en français, anglais et espagnol.",
+    "stats": {
+      "questions": "2 000+ questions",
+      "countries": "197 pays",
+      "artworks": "553 œuvres",
+      "species": "600 espèces",
+      "rating": "5/5 sur Google Play"
+    }
   }
 }

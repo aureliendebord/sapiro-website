@@ -10,7 +10,7 @@ interface Props {
 
 const { title, description, lang = 'fr', noDefaultHreflang = false } = Astro.props;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
-const ogImageURL = new URL('/images/icon-1024.png', Astro.site);
+const ogImageURL = new URL('/images/og/default.png', Astro.site);
 
 // Build dynamic hreflang URLs based on current path
 const pathname = Astro.url.pathname;
