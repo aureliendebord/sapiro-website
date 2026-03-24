@@ -4,16 +4,51 @@ import Layout from '../../layouts/Layout.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
 import BlogCard from '../../components/BlogCard.astro';
-import { getTranslations } from '../../i18n';
+import { getTranslations, getLocalePath } from '../../i18n';
 
 const lang = 'fr';
 const t = getTranslations(lang);
 
 const posts = (await getCollection('blog', ({ data }) => data.lang === 'fr'))
   .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+
+// Categories with counts
+const categories = Object.keys(t.blog.categories);
+const categoryCounts: Record<string, number> = {};
+posts.forEach(p => {
+  categoryCounts[p.data.category] = (categoryCounts[p.data.category] || 0) + 1;
+});
+
+// Schema.org Blog
+const blogSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Blog',
+  name: t.blog.title,
+  description: t.blog.subtitle,
+  url: 'https://sapiro.app/blog/',
+  publisher: {
+    '@type': 'Organization',
+    name: 'SAPIRO',
+    logo: {
+      '@type': 'ImageObject',
+      url: 'https://sapiro.app/images/icon-1024.png'
+    }
+  },
+  blogPost: posts.map(post => ({
+    '@type': 'BlogPosting',
+    headline: post.data.title,
+    description: post.data.description,
+    datePublished: post.data.date.toISOString(),
+    url: `https://sapiro.app/blog/${post.data.urlSlug}/`,
+    author: { '@type': 'Organization', name: post.data.author }
+  }))
+};
 ---
 
 <Layout title={`${t.blog.title} | SAPIRO`} description={t.blog.subtitle} lang={lang}>
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(blogSchema)} />
+  </Fragment>
   <Header lang={lang} t={t} />
 
   <main class="blog-listing">
@@ -23,17 +58,31 @@ const posts = (await getCollection('blog', ({ data }) => data.lang === 'fr'))
         <p>{t.blog.subtitle}</p>
       </div>
 
+      <!-- Category filters -->
+      <div class="blog-filters">
+        <button class="filter-btn active" data-filter="all">{t.blog.allArticles} ({posts.length})</button>
+        {categories.map(cat => (
+          categoryCounts[cat] && (
+            <button class="filter-btn" data-filter={cat}>
+              {t.blog.categories[cat]} ({categoryCounts[cat]})
+            </button>
+          )
+        ))}
+      </div>
+
       <div class="blog-grid">
         {posts.map((post) => (
-          <BlogCard
-            title={post.data.title}
-            description={post.data.description}
-            date={post.data.date}
-            slug={post.data.urlSlug}
-            category={post.data.category}
-            readingTime={post.data.readingTime}
-            lang={lang}
-          />
+          <div class="blog-card-wrapper" data-category={post.data.category}>
+            <BlogCard
+              title={post.data.title}
+              description={post.data.description}
+              date={post.data.date}
+              slug={post.data.urlSlug}
+              category={post.data.category}
+              readingTime={post.data.readingTime}
+              lang={lang}
+            />
+          </div>
         ))}
       </div>
     </section>
@@ -42,6 +91,29 @@ const posts = (await getCollection('blog', ({ data }) => data.lang === 'fr'))
   <Footer lang={lang} t={t} />
 </Layout>
 
+<script>
+  const filterBtns = document.querySelectorAll('.filter-btn');
+  const cards = document.querySelectorAll('.blog-card-wrapper');
+
+  filterBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const filter = btn.getAttribute('data-filter');
+
+      filterBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+
+      cards.forEach(card => {
+        const el = card as HTMLElement;
+        if (filter === 'all' || el.dataset.category === filter) {
+          el.style.display = '';
+        } else {
+          el.style.display = 'none';
+        }
+      });
+    });
+  });
+</script>
+
 <style>
   .blog-listing {
     padding-top: 72px;
@@ -49,7 +121,7 @@ const posts = (await getCollection('blog', ({ data }) => data.lang === 'fr'))
 
   .blog-header {
     text-align: center;
-    padding: 48px 0 40px;
+    padding: 48px 0 32px;
   }
 
   .blog-header h1 {
@@ -65,11 +137,50 @@ const posts = (await getCollection('blog', ({ data }) => data.lang === 'fr'))
     margin: 0 auto;
   }
 
+  .blog-filters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    padding-bottom: 32px;
+  }
+
+  .filter-btn {
+    padding: 8px 20px;
+    border: 1px solid var(--gris-clair);
+    border-radius: 24px;
+    background: var(--blanc);
+    color: var(--gris);
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+  .filter-btn:hover {
+    border-color: var(--orange);
+    color: var(--orange);
+  }
+
+  .filter-btn.active {
+    background: var(--orange);
+    border-color: var(--orange);
+    color: var(--blanc);
+  }
+
   .blog-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 24px;
     padding-bottom: 64px;
+  }
+
+  .blog-card-wrapper {
+    display: flex;
+  }
+
+  .blog-card-wrapper > :global(a) {
+    width: 100%;
   }
 
   @media (max-width: 1024px) {
@@ -81,6 +192,15 @@ const posts = (await getCollection('blog', ({ data }) => data.lang === 'fr'))
   @media (max-width: 640px) {
     .blog-grid {
       grid-template-columns: 1fr;
+    }
+
+    .blog-filters {
+      gap: 6px;
+    }
+
+    .filter-btn {
+      padding: 6px 14px;
+      font-size: 0.82rem;
     }
   }
 </style>
