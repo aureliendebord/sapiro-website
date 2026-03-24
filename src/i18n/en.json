@@ -2,59 +2,53 @@
   "lang": "en",
   "meta": {
     "title": "SAPIRO - General Knowledge Quiz",
-    "description": "Learn flags, capitals and historical figures while having fun! Educational app for children and adults."
+    "description": "Quizzes on geography, history, art and nature. 2000+ questions to learn while having fun! Educational app for children and adults."
   },
   "header": {
     "home": "Home",
     "features": "Features",
     "blog": "Blog",
+    "pricing": "Pricing",
     "download": "Download"
   },
   "hero": {
     "title": "Learn while having fun!",
-    "subtitle": "Discover world flags, capitals and historical figures through fun and educational quizzes.",
+    "subtitle": "Discover the world through quizzes on geography, history, art and nature. Over 2000 questions to become an expert!",
     "downloadIos": "Download on the App Store",
     "downloadAndroid": "Get it on Google Play"
   },
-  "features": {
-    "title": "Quizzes for everyone",
-    "subtitle": "A complete and entertaining learning experience",
+  "universes": {
+    "title": "4 universes to explore",
+    "subtitle": "Over 50 thematic paths to learn at your own pace",
     "items": [
       {
-        "icon": "flag",
-        "title": "Flag Quiz",
-        "description": "Identify countries from their flags. 195 countries to discover!",
+        "emoji": "🌍",
+        "title": "Geography",
+        "description": "Flags, capitals, continents, historical empires and international organizations.",
+        "stat": "197 countries",
         "color": "orange"
       },
       {
-        "icon": "building",
-        "title": "Capital Quiz",
-        "description": "Find the capital of each country. Test your geography knowledge!",
+        "emoji": "👤",
+        "title": "History",
+        "description": "Recognize great figures from Antiquity to the present day, by era or by continent.",
+        "stat": "500+ figures",
         "color": "violet"
       },
       {
-        "icon": "user",
-        "title": "Historical Figures",
-        "description": "Recognize great historical figures from their portraits.",
-        "color": "vert"
-      },
-      {
-        "icon": "globe",
-        "title": "Explore by Continent",
-        "description": "Explore the world region by region: Europe, Asia, Africa, Americas, Oceania.",
-        "color": "jaune"
-      },
-      {
-        "icon": "zap",
-        "title": "Survival Mode",
-        "description": "3 lives, no mistakes allowed! How far will you go?",
-        "color": "coral"
-      },
-      {
-        "icon": "trophy",
-        "title": "Badges & Achievements",
-        "description": "Unlock badges as you progress. Collect them all!",
+        "emoji": "🎨",
+        "title": "Art",
+        "description": "From the Louvre to MoMA, from the Renaissance to Surrealism. Paintings and sculptures to identify.",
+        "stat": "553 artworks",
         "color": "teal"
+      },
+      {
+        "emoji": "🦁",
+        "title": "Nature",
+        "description": "Mammals, birds, reptiles, insects... Discover the diversity of the animal kingdom.",
+        "stat": "600 animals",
+        "color": "vert",
+        "badge": "Coming soon"
       }
     ]
   },
@@ -208,5 +202,56 @@
     "personalData": "Personal Data",
     "personalDataText": "This website does not collect any personal data and does not use cookies.",
     "close": "Close"
+  },
+  "pricing": {
+    "title": "Our plans",
+    "subtitle": "Free to start, Sapiro+ to go further",
+    "intro": "SAPIRO is free and ad-free. Unlock Sapiro+ to access over 50 exclusive thematic paths.",
+    "free": {
+      "title": "Free",
+      "price": "$0",
+      "description": "Forever, no ads",
+      "features": [
+        "4 universes: geography, history, art, nature",
+        "~12 paths included",
+        "Unlimited Classic and Survival modes",
+        "Daily Challenge",
+        "Progression, XP and badges",
+        "No ads"
+      ]
+    },
+    "pro": {
+      "title": "Sapiro+",
+      "description": "For the most curious",
+      "features": [
+        "All free content",
+        "50+ thematic paths",
+        "Museum paths (Louvre, MoMA, Orsay...)",
+        "Animal family paths (felines, raptors...)",
+        "Empires and organizations paths",
+        "Exclusive Premium badge"
+      ]
+    },
+    "plans": [
+      {
+        "name": "Monthly",
+        "price": "$1.99",
+        "period": "/month"
+      },
+      {
+        "name": "Annual",
+        "price": "$19.99",
+        "period": "/year",
+        "badge": "2 months free",
+        "popular": true
+      },
+      {
+        "name": "Lifetime",
+        "price": "$39.99",
+        "period": "one-time payment"
+      }
+    ],
+    "cta": "Download SAPIRO",
+    "note": "Secure payment via App Store or Google Play. Cancel anytime."
   }
 }

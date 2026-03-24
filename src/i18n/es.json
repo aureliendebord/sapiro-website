@@ -2,59 +2,53 @@
   "lang": "es",
   "meta": {
     "title": "SAPIRO - Quiz de Cultura General",
-    "description": "Aprende banderas, capitales y personajes historicos divirtiendote! Aplicacion educativa para ninos y adultos."
+    "description": "Quizzes sobre geografía, historia, arte y naturaleza. 2000+ preguntas para aprender divirtiéndote! Aplicación educativa para niños y adultos."
   },
   "header": {
     "home": "Inicio",
     "features": "Funciones",
     "blog": "Blog",
+    "pricing": "Precios",
     "download": "Descargar"
   },
   "hero": {
-    "title": "Aprende divirtiendote!",
-    "subtitle": "Descubre las banderas del mundo, las capitales y los personajes historicos a traves de quizzes ludicos y educativos.",
+    "title": "¡Aprende divirtiéndote!",
+    "subtitle": "Descubre el mundo a través de quizzes sobre geografía, historia, arte y naturaleza. ¡Más de 2000 preguntas para convertirte en experto!",
     "downloadIos": "Descargar en la App Store",
     "downloadAndroid": "Descargar en Google Play"
   },
-  "features": {
-    "title": "Quizzes para todos",
-    "subtitle": "Una experiencia de aprendizaje completa y entretenida",
+  "universes": {
+    "title": "4 universos por explorar",
+    "subtitle": "Más de 50 recorridos temáticos para aprender a tu ritmo",
     "items": [
       {
-        "icon": "flag",
-        "title": "Quiz de Banderas",
-        "description": "Identifica los paises a partir de sus banderas. 195 paises por descubrir!",
+        "emoji": "🌍",
+        "title": "Geografía",
+        "description": "Banderas, capitales, continentes, imperios históricos y organizaciones internacionales.",
+        "stat": "197 países",
         "color": "orange"
       },
       {
-        "icon": "building",
-        "title": "Quiz de Capitales",
-        "description": "Encuentra la capital de cada pais. Pon a prueba tus conocimientos de geografia!",
+        "emoji": "👤",
+        "title": "Historia",
+        "description": "Reconoce a los grandes personajes desde la Antigüedad hasta hoy, por época o continente.",
+        "stat": "500+ personajes",
         "color": "violet"
       },
       {
-        "icon": "user",
-        "title": "Personajes historicos",
-        "description": "Reconoce a los grandes personajes de la Historia a partir de sus retratos.",
-        "color": "vert"
-      },
-      {
-        "icon": "globe",
-        "title": "Recorrido por continente",
-        "description": "Explora el mundo region por region: Europa, Asia, Africa, Americas, Oceania.",
-        "color": "jaune"
-      },
-      {
-        "icon": "zap",
-        "title": "Modo Supervivencia",
-        "description": "3 vidas, cero errores permitidos! Hasta donde llegaras?",
-        "color": "coral"
-      },
-      {
-        "icon": "trophy",
-        "title": "Insignias y Logros",
-        "description": "Desbloquea insignias mientras progresas. Coleccionalas todas!",
+        "emoji": "🎨",
+        "title": "Arte",
+        "description": "Del Louvre al MoMA, del Renacimiento al Surrealismo. Pinturas y esculturas por identificar.",
+        "stat": "553 obras",
         "color": "teal"
+      },
+      {
+        "emoji": "🦁",
+        "title": "Naturaleza",
+        "description": "Mamíferos, aves, reptiles, insectos... Descubre la diversidad del reino animal.",
+        "stat": "600 animales",
+        "color": "vert",
+        "badge": "Próximamente"
       }
     ]
   },
@@ -63,125 +57,125 @@
     "subtitle": "Una interfaz colorida e intuitiva"
   },
   "download": {
-    "title": "Listo para aprender?",
-    "subtitle": "Descarga SAPIRO gratis y comienza tu aventura!",
+    "title": "¿Listo para aprender?",
+    "subtitle": "¡Descarga SAPIRO gratis y comienza tu aventura!",
     "downloadIos": "Descargar en la App Store",
     "downloadAndroid": "Descargar en Google Play"
   },
   "contact": {
-    "title": "Tienes una pregunta?",
+    "title": "¿Tienes una pregunta?",
     "subtitle": "No dudes en contactarnos",
     "name": "Nombre",
-    "email": "Correo electronico",
+    "email": "Correo electrónico",
     "message": "Mensaje",
     "send": "Enviar",
     "namePlaceholder": "Tu nombre",
     "emailPlaceholder": "tu@email.com",
     "messagePlaceholder": "Tu mensaje...",
-    "success": "Mensaje enviado con exito!",
-    "error": "Ocurrio un error. Intentalo mas tarde."
+    "success": "¡Mensaje enviado con éxito!",
+    "error": "Ocurrió un error. Inténtalo más tarde."
   },
   "footer": {
     "copyright": "SAPIRO. Todos los derechos reservados.",
-    "privacy": "Politica de privacidad",
+    "privacy": "Política de privacidad",
     "terms": "Condiciones de uso",
     "legal": "Aviso legal"
   },
   "blog": {
     "title": "Blog SAPIRO",
-    "subtitle": "Consejos, quizzes y articulos sobre cultura general, geografia mundial y banderas. Aprende divirtiendote con SAPIRO, la app educativa para todos.",
-    "readMore": "Leer mas",
+    "subtitle": "Consejos, quizzes y artículos sobre cultura general, geografía mundial y banderas. Aprende divirtiéndote con SAPIRO, la app educativa para todos.",
+    "readMore": "Leer más",
     "backToBlog": "Volver al blog",
     "publishedOn": "Publicado el",
     "readingTime": "min de lectura",
-    "allArticles": "Todos los articulos",
+    "allArticles": "Todos los artículos",
     "categories": {
-      "geographie": "Geografia",
+      "geographie": "Geografía",
       "culture-generale": "Cultura general",
-      "education": "Educacion",
+      "education": "Educación",
       "drapeaux": "Banderas",
       "apps": "Aplicaciones"
     }
   },
   "privacy": {
-    "title": "Politica de privacidad",
-    "lastUpdate": "Ultima actualizacion",
-    "intro": "En SAPIRO, respetamos tu privacidad. Esta politica explica como tratamos tus datos.",
+    "title": "Política de privacidad",
+    "lastUpdate": "Última actualización",
+    "intro": "En SAPIRO, respetamos tu privacidad. Esta política explica cómo tratamos tus datos.",
     "sections": [
       {
-        "title": "Recopilacion de datos",
-        "content": "SAPIRO no recopila ningun dato personal. Todos tus datos de progreso (puntuaciones, insignias, estadisticas) se almacenan localmente en tu dispositivo."
+        "title": "Recopilación de datos",
+        "content": "SAPIRO no recopila ningún dato personal. Todos tus datos de progreso (puntuaciones, insignias, estadísticas) se almacenan localmente en tu dispositivo."
       },
       {
         "title": "Cookies y seguimiento",
-        "content": "No utilizamos cookies de seguimiento, herramientas de analisis ni servicios de recopilacion de datos de terceros. Tu experiencia es 100% privada."
+        "content": "No utilizamos cookies de seguimiento, herramientas de análisis ni servicios de recopilación de datos de terceros. Tu experiencia es 100% privada."
       },
       {
         "title": "Compartir datos",
-        "content": "Como no recopilamos ningun dato, no tenemos nada que compartir con terceros. Tu informacion permanece en tu dispositivo."
+        "content": "Como no recopilamos ningún dato, no tenemos nada que compartir con terceros. Tu información permanece en tu dispositivo."
       },
       {
         "title": "Datos de menores",
-        "content": "SAPIRO es una aplicacion educativa adecuada para ninos. No recopilamos ninguna informacion sobre los usuarios, independientemente de su edad."
+        "content": "SAPIRO es una aplicación educativa adecuada para niños. No recopilamos ninguna información sobre los usuarios, independientemente de su edad."
       },
       {
         "title": "Cambios",
-        "content": "Esta politica puede actualizarse. Los cambios se publicaran en esta pagina con una nueva fecha de actualizacion."
+        "content": "Esta política puede actualizarse. Los cambios se publicarán en esta página con una nueva fecha de actualización."
       },
       {
         "title": "Contacto",
-        "content": "Para cualquier pregunta sobre esta politica, contactanos a traves del formulario de contacto en nuestro sitio web."
+        "content": "Para cualquier pregunta sobre esta política, contáctanos a través del formulario de contacto en nuestro sitio web."
       }
     ]
   },
   "terms": {
     "title": "Condiciones de uso",
-    "lastUpdate": "Ultima actualizacion",
-    "intro": "Este Acuerdo de Licencia de Usuario Final (EULA) es un acuerdo legal entre usted y SAPIRO para el uso de la aplicacion SAPIRO.",
+    "lastUpdate": "Última actualización",
+    "intro": "Este Acuerdo de Licencia de Usuario Final (EULA) es un acuerdo legal entre usted y SAPIRO para el uso de la aplicación SAPIRO.",
     "sections": [
       {
-        "title": "1. Aceptacion de las condiciones",
-        "content": "Al descargar, instalar o utilizar la aplicacion SAPIRO, acepta quedar vinculado por estas condiciones de uso. Si no acepta estas condiciones, no utilice la aplicacion."
+        "title": "1. Aceptación de las condiciones",
+        "content": "Al descargar, instalar o utilizar la aplicación SAPIRO, acepta quedar vinculado por estas condiciones de uso. Si no acepta estas condiciones, no utilice la aplicación."
       },
       {
         "title": "2. Licencia de uso",
-        "content": "SAPIRO le otorga una licencia limitada, no exclusiva, intransferible y revocable para utilizar la aplicacion en sus dispositivos Apple de acuerdo con las reglas de uso de la App Store. Esta licencia no le autoriza a copiar, modificar, distribuir, vender o alquilar la aplicacion."
+        "content": "SAPIRO le otorga una licencia limitada, no exclusiva, intransferible y revocable para utilizar la aplicación en sus dispositivos Apple de acuerdo con las reglas de uso de la App Store. Esta licencia no le autoriza a copiar, modificar, distribuir, vender o alquilar la aplicación."
       },
       {
         "title": "3. Restricciones",
-        "content": "Usted se compromete a no: (a) copiar o modificar la aplicacion; (b) intentar descompilar o realizar ingenieria inversa de la aplicacion; (c) eliminar las menciones de derechos de autor o propiedad; (d) transferir la aplicacion a otra persona; (e) utilizar la aplicacion de manera ilegal o no autorizada."
+        "content": "Usted se compromete a no: (a) copiar o modificar la aplicación; (b) intentar descompilar o realizar ingeniería inversa de la aplicación; (c) eliminar las menciones de derechos de autor o propiedad; (d) transferir la aplicación a otra persona; (e) utilizar la aplicación de manera ilegal o no autorizada."
       },
       {
         "title": "4. Propiedad intelectual",
-        "content": "La aplicacion, incluidos todos los derechos de propiedad intelectual relacionados, es y sigue siendo propiedad de SAPIRO. Estas condiciones no le otorgan ningun derecho de propiedad intelectual sobre la aplicacion."
+        "content": "La aplicación, incluidos todos los derechos de propiedad intelectual relacionados, es y sigue siendo propiedad de SAPIRO. Estas condiciones no le otorgan ningún derecho de propiedad intelectual sobre la aplicación."
       },
       {
-        "title": "5. Contenido de la aplicacion",
-        "content": "SAPIRO es una aplicacion educativa que ofrece quizzes de cultura general. El contenido se proporciona con fines informativos y educativos. Nos esforzamos por garantizar la exactitud de la informacion, pero no garantizamos que este libre de errores."
+        "title": "5. Contenido de la aplicación",
+        "content": "SAPIRO es una aplicación educativa que ofrece quizzes de cultura general. El contenido se proporciona con fines informativos y educativos. Nos esforzamos por garantizar la exactitud de la información, pero no garantizamos que esté libre de errores."
       },
       {
         "title": "6. Actualizaciones",
-        "content": "SAPIRO puede publicar actualizaciones de la aplicacion. Estas actualizaciones pueden ser necesarias para continuar usando la aplicacion y estan sujetas a estas condiciones."
+        "content": "SAPIRO puede publicar actualizaciones de la aplicación. Estas actualizaciones pueden ser necesarias para continuar usando la aplicación y están sujetas a estas condiciones."
       },
       {
-        "title": "7. Limitacion de responsabilidad",
-        "content": "En la medida permitida por la ley, SAPIRO no sera responsable de ningun dano indirecto, incidental, especial o consecuente que surja del uso o la imposibilidad de usar la aplicacion."
+        "title": "7. Limitación de responsabilidad",
+        "content": "En la medida permitida por la ley, SAPIRO no será responsable de ningún daño indirecto, incidental, especial o consecuente que surja del uso o la imposibilidad de usar la aplicación."
       },
       {
-        "title": "8. Terminacion",
-        "content": "Esta licencia es efectiva hasta su terminacion. Sus derechos bajo esta licencia terminaran automaticamente si no cumple con alguna de sus condiciones. Tras la terminacion, debe cesar todo uso de la aplicacion."
+        "title": "8. Terminación",
+        "content": "Esta licencia es efectiva hasta su terminación. Sus derechos bajo esta licencia terminarán automáticamente si no cumple con alguna de sus condiciones. Tras la terminación, debe cesar todo uso de la aplicación."
       },
       {
         "title": "9. Ley aplicable",
-        "content": "Estas condiciones se rigen por la ley francesa. Cualquier disputa estara sujeta a la jurisdiccion exclusiva de los tribunales de Paris, Francia."
+        "content": "Estas condiciones se rigen por la ley francesa. Cualquier disputa estará sujeta a la jurisdicción exclusiva de los tribunales de París, Francia."
       },
       {
         "title": "10. Contacto",
-        "content": "Para cualquier pregunta sobre estas condiciones de uso, contactenos a traves del formulario de contacto en nuestro sitio web."
+        "content": "Para cualquier pregunta sobre estas condiciones de uso, contáctenos a través del formulario de contacto en nuestro sitio web."
       },
       {
         "title": "11. Suscripciones y Compras In-App",
-        "content": "<p>SAPIRO ofrece suscripciones premium opcionales que desbloquean funciones adicionales.</p><h3>Planes disponibles</h3><ul><li><strong>Suscripcion Mensual</strong>: 1,99 € por mes</li><li><strong>Suscripcion Anual</strong>: 19,99 € por ano</li><li><strong>Compra de por Vida</strong>: 39,99 € (pago unico)</li></ul><h3>Condiciones de facturacion</h3><p>El pago se cargara a su cuenta de Apple ID (para iOS) o Google Play (para Android) en el momento de confirmar la compra.</p><h3>Renovacion automatica</h3><p>Las suscripciones mensuales y anuales se renuevan automaticamente. Su cuenta sera cargada por la renovacion dentro de las 24 horas anteriores al final del periodo actual, a la tarifa de suscripcion vigente.</p><h3>Cancelacion</h3><p>Puede cancelar la renovacion automatica en cualquier momento, al menos 24 horas antes del final del periodo actual:</p><ul><li><strong>En iOS</strong>: Ajustes > [su nombre] > Suscripciones</li><li><strong>En Android</strong>: Google Play Store > Menu > Suscripciones</li></ul><p>La cancelacion entra en vigor al final del periodo actual. Conservara el acceso a las funciones premium hasta esa fecha.</p><h3>Compra de por Vida</h3><p>La opcion \"de por Vida\" es una compra unica (no una suscripcion) que proporciona acceso permanente a todas las funciones premium, sin renovacion ni cargos adicionales.</p><h3>Periodo de prueba</h3><p>Cualquier porcion no utilizada de un periodo de prueba gratuito (si se ofrece) se perdera al comprar una suscripcion.</p>"
+        "content": "<p>SAPIRO ofrece suscripciones premium opcionales que desbloquean funciones adicionales.</p><h3>Planes disponibles</h3><ul><li><strong>Suscripción Mensual</strong>: 1,99 € por mes</li><li><strong>Suscripción Anual</strong>: 19,99 € por año</li><li><strong>Compra de por Vida</strong>: 39,99 € (pago único)</li></ul><h3>Condiciones de facturación</h3><p>El pago se cargará a su cuenta de Apple ID (para iOS) o Google Play (para Android) en el momento de confirmar la compra.</p><h3>Renovación automática</h3><p>Las suscripciones mensuales y anuales se renuevan automáticamente. Su cuenta será cargada por la renovación dentro de las 24 horas anteriores al final del período actual, a la tarifa de suscripción vigente.</p><h3>Cancelación</h3><p>Puede cancelar la renovación automática en cualquier momento, al menos 24 horas antes del final del período actual:</p><ul><li><strong>En iOS</strong>: Ajustes > [su nombre] > Suscripciones</li><li><strong>En Android</strong>: Google Play Store > Menú > Suscripciones</li></ul><p>La cancelación entra en vigor al final del período actual. Conservará el acceso a las funciones premium hasta esa fecha.</p><h3>Compra de por Vida</h3><p>La opción \"de por Vida\" es una compra única (no una suscripción) que proporciona acceso permanente a todas las funciones premium, sin renovación ni cargos adicionales.</p><h3>Período de prueba</h3><p>Cualquier porción no utilizada de un período de prueba gratuito (si se ofrece) se perderá al comprar una suscripción.</p>"
       }
     ]
   },
@@ -191,22 +185,73 @@
     "editorName": "AGENCE DEBORD EURL",
     "editorType": "Sociedad de responsabilidad limitada unipersonal",
     "capital": "Capital social: 100.000 euros",
-    "address": "9 rue des Colonnes, 75002 Paris, Francia",
+    "address": "9 rue des Colonnes, 75002 París, Francia",
     "siren": "SIREN: 801 339 151",
     "siret": "SIRET: 801 339 151 00038",
-    "ape": "Codigo APE: 6201Z",
+    "ape": "Código APE: 6201Z",
     "tva": "NIF-IVA: FR20801339151",
-    "director": "Director de publicacion",
-    "directorName": "Aurelien Debord",
+    "director": "Director de publicación",
+    "directorName": "Aurélien Debord",
     "host": "Alojamiento web",
     "hostName": "OVH SAS",
     "hostAddress": "2 rue Kellermann, 59100 Roubaix, Francia",
-    "hostPhone": "Telefono: 1007",
+    "hostPhone": "Teléfono: 1007",
     "hostWebsite": "www.ovh.com",
     "intellectualProperty": "Propiedad intelectual",
-    "intellectualPropertyText": "Todo el contenido de este sitio web (textos, imagenes, videos, logotipos, graficos, iconos, etc.) es propiedad exclusiva de Agence Debord o de sus socios y esta protegido por las leyes francesas e internacionales de propiedad intelectual. Queda prohibida cualquier reproduccion, representacion, modificacion, publicacion o adaptacion de todo o parte de los elementos del sitio sin autorizacion previa por escrito de Agence Debord.",
+    "intellectualPropertyText": "Todo el contenido de este sitio web (textos, imágenes, vídeos, logotipos, gráficos, iconos, etc.) es propiedad exclusiva de Agence Debord o de sus socios y está protegido por las leyes francesas e internacionales de propiedad intelectual. Queda prohibida cualquier reproducción, representación, modificación, publicación o adaptación de todo o parte de los elementos del sitio sin autorización previa por escrito de Agence Debord.",
     "personalData": "Datos personales",
-    "personalDataText": "Este sitio web no recopila ningun dato personal y no utiliza cookies.",
+    "personalDataText": "Este sitio web no recopila ningún dato personal y no utiliza cookies.",
     "close": "Cerrar"
+  },
+  "pricing": {
+    "title": "Nuestros planes",
+    "subtitle": "Gratis para empezar, Sapiro+ para ir más lejos",
+    "intro": "SAPIRO es gratis y sin publicidad. Desbloquea Sapiro+ para acceder a más de 50 recorridos temáticos exclusivos.",
+    "free": {
+      "title": "Gratis",
+      "price": "0 €",
+      "description": "Para siempre, sin publicidad",
+      "features": [
+        "4 universos: geografía, historia, arte, naturaleza",
+        "~12 recorridos incluidos",
+        "Modo Clásico y Supervivencia ilimitados",
+        "Desafío diario",
+        "Progresión, XP e insignias",
+        "Sin publicidad"
+      ]
+    },
+    "pro": {
+      "title": "Sapiro+",
+      "description": "Para los más curiosos",
+      "features": [
+        "Todo el contenido gratis",
+        "50+ recorridos temáticos",
+        "Recorridos museos (Louvre, MoMA, Orsay...)",
+        "Recorridos familias animales (felinos, rapaces...)",
+        "Recorridos imperios y organizaciones",
+        "Insignia Premium exclusiva"
+      ]
+    },
+    "plans": [
+      {
+        "name": "Mensual",
+        "price": "1,99 €",
+        "period": "/mes"
+      },
+      {
+        "name": "Anual",
+        "price": "19,99 €",
+        "period": "/año",
+        "badge": "2 meses gratis",
+        "popular": true
+      },
+      {
+        "name": "De por vida",
+        "price": "39,99 €",
+        "period": "pago único"
+      }
+    ],
+    "cta": "Descargar SAPIRO",
+    "note": "Pago seguro a través de App Store o Google Play. Cancelación en cualquier momento."
   }
 }

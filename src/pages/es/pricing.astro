@@ -1,0 +1,392 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import { getTranslations, getLocalePath } from '../../i18n';
+
+const lang = 'es';
+const t = getTranslations(lang);
+---
+
+<Layout title={`${t.pricing.title} - SAPIRO`} description={t.pricing.intro} lang={lang}>
+  <Header lang={lang} t={t} />
+
+  <main class="pricing-page">
+    <div class="container">
+      <a href={getLocalePath('/', lang)} class="back-link">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M19 12H5M12 19l-7-7 7-7"/>
+        </svg>
+        {t.header.home}
+      </a>
+
+      <!-- Header -->
+      <div class="pricing-header">
+        <h1>{t.pricing.title}</h1>
+        <p class="pricing-subtitle">{t.pricing.subtitle}</p>
+        <p class="pricing-intro">{t.pricing.intro}</p>
+      </div>
+
+      <!-- Comparaison Gratis vs Sapiro+ -->
+      <div class="comparison">
+        <div class="comparison-card free-card">
+          <div class="card-badge free-badge">{t.pricing.free.title}</div>
+          <div class="card-price">{t.pricing.free.price}</div>
+          <p class="card-description">{t.pricing.free.description}</p>
+          <ul class="feature-list">
+            {t.pricing.free.features.map((feature: string) => (
+              <li>
+                <svg class="check-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                  <path d="M20 6L9 17l-5-5"/>
+                </svg>
+                {feature}
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        <div class="comparison-card pro-card">
+          <div class="card-badge pro-badge">{t.pricing.pro.title}</div>
+          <p class="card-description">{t.pricing.pro.description}</p>
+          <ul class="feature-list">
+            {t.pricing.pro.features.map((feature: string) => (
+              <li>
+                <svg class="check-icon pro-check" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                  <path d="M20 6L9 17l-5-5"/>
+                </svg>
+                {feature}
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+
+      <!-- Tarjetas de precios -->
+      <div class="plans-section">
+        <div class="plans-grid">
+          {t.pricing.plans.map((plan: any) => (
+            <div class={`plan-card ${plan.popular ? 'plan-popular' : ''}`}>
+              {plan.badge && <div class="plan-badge">{plan.badge}</div>}
+              <h3 class="plan-name">{plan.name}</h3>
+              <div class="plan-price">
+                <span class="price">{plan.price}</span>
+                <span class="period">{plan.period}</span>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+    </div>
+
+    <!-- CTA full width -->
+    <section class="pricing-cta">
+      <div class="container cta-content">
+        <div class="cta-icon">
+          <img src="/images/icon-180.png" alt="SAPIRO" width="100" height="100" />
+        </div>
+
+        <div class="cta-buttons">
+          <a href="https://apps.apple.com/app/sapiro/id6757706883" class="btn btn-primary store-btn" target="_blank" rel="noopener noreferrer">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M18.71 19.5C17.88 20.74 17 21.95 15.66 21.97C14.32 22 13.89 21.18 12.37 21.18C10.84 21.18 10.37 21.95 9.09997 22C7.78997 22.05 6.79997 20.68 5.95997 19.47C4.24997 17 2.93997 12.45 4.69997 9.39C5.56997 7.87 7.12997 6.91 8.81997 6.88C10.1 6.86 11.32 7.75 12.11 7.75C12.89 7.75 14.37 6.68 15.92 6.84C16.57 6.87 18.39 7.1 19.56 8.82C19.47 8.88 17.39 10.1 17.41 12.63C17.44 15.65 20.06 16.66 20.09 16.67C20.06 16.74 19.67 18.11 18.71 19.5ZM13 3.5C13.73 2.67 14.94 2.04 15.94 2C16.07 3.17 15.6 4.35 14.9 5.19C14.21 6.04 13.07 6.7 11.95 6.61C11.8 5.46 12.36 4.26 13 3.5Z"/>
+            </svg>
+            <span>{t.pricing.cta} — App Store</span>
+          </a>
+
+          <a href="https://play.google.com/store/apps/details?id=com.sapiro.app" class="btn btn-primary store-btn" target="_blank" rel="noopener noreferrer">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M17.523 2H6.477C5.768 2 5.143 2.447 4.896 3.105L2.105 10.895C2.036 11.079 2 11.273 2 11.469V20C2 21.103 2.897 22 4 22H20C21.103 22 22 21.103 22 20V11.469C22 11.273 21.964 11.079 21.895 10.895L19.104 3.105C18.857 2.447 18.232 2 17.523 2ZM12 17C10.346 17 9 15.654 9 14C9 12.346 10.346 11 12 11C13.654 11 15 12.346 15 14C15 15.654 13.654 17 12 17ZM4.619 10L6.477 4H17.523L19.381 10H4.619Z"/>
+            </svg>
+            <span>{t.pricing.cta} — Google Play</span>
+          </a>
+        </div>
+
+        <p class="cta-note">{t.pricing.note}</p>
+      </div>
+    </section>
+  </main>
+
+  <Footer lang={lang} t={t} />
+</Layout>
+
+<style>
+  .pricing-page {
+    padding-top: 120px;
+    padding-bottom: 80px;
+    min-height: 100vh;
+  }
+
+  .back-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--orange);
+    font-weight: 500;
+    margin-bottom: 32px;
+    transition: gap 0.2s;
+  }
+
+  .back-link:hover {
+    gap: 12px;
+  }
+
+  .pricing-header {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 64px;
+  }
+
+  .pricing-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 16px;
+  }
+
+  .pricing-subtitle {
+    font-size: 1.35rem;
+    color: var(--orange);
+    font-weight: 600;
+    margin-bottom: 16px;
+  }
+
+  .pricing-intro {
+    font-size: 1.1rem;
+    color: var(--gris);
+    line-height: 1.7;
+  }
+
+  .comparison {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    margin-bottom: 64px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .comparison-card {
+    background: var(--blanc);
+    border-radius: var(--border-radius);
+    padding: 40px 32px;
+    box-shadow: var(--shadow);
+    position: relative;
+  }
+
+  .free-card {
+    border-top: 4px solid var(--gris);
+  }
+
+  .pro-card {
+    border-top: 4px solid var(--orange);
+    background: linear-gradient(180deg, rgba(255, 107, 53, 0.03) 0%, var(--blanc) 100%);
+  }
+
+  .card-badge {
+    display: inline-block;
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 0.9rem;
+    margin-bottom: 16px;
+  }
+
+  .free-badge {
+    background: var(--gris-clair);
+    color: var(--noir);
+  }
+
+  .pro-badge {
+    background: var(--orange);
+    color: var(--blanc);
+  }
+
+  .card-price {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--noir);
+    margin-bottom: 8px;
+  }
+
+  .card-description {
+    color: var(--gris);
+    margin-bottom: 24px;
+    font-size: 1rem;
+  }
+
+  .feature-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .feature-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 10px 0;
+    color: var(--noir);
+    font-size: 0.95rem;
+    line-height: 1.5;
+    border-bottom: 1px solid var(--gris-clair);
+  }
+
+  .feature-list li:last-child {
+    border-bottom: none;
+  }
+
+  .check-icon {
+    flex-shrink: 0;
+    color: #22c55e;
+    margin-top: 2px;
+  }
+
+  .pro-check {
+    color: var(--orange);
+  }
+
+  .plans-section {
+    margin-bottom: 64px;
+  }
+
+  .plans-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .plan-card {
+    background: var(--blanc);
+    border-radius: var(--border-radius);
+    padding: 32px 24px;
+    text-align: center;
+    box-shadow: var(--shadow);
+    position: relative;
+    border: 2px solid transparent;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+
+  .plan-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
+  }
+
+  .plan-popular {
+    border-color: var(--orange);
+    transform: scale(1.05);
+    box-shadow: var(--shadow-lg);
+  }
+
+  .plan-popular:hover {
+    transform: scale(1.05) translateY(-4px);
+  }
+
+  .plan-badge {
+    position: absolute;
+    top: -14px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--orange);
+    color: var(--blanc);
+    padding: 4px 16px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    white-space: nowrap;
+  }
+
+  .plan-name {
+    font-size: 1.1rem;
+    color: var(--gris);
+    font-weight: 600;
+    margin-bottom: 16px;
+  }
+
+  .plan-price .price {
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--noir);
+  }
+
+  .plan-price .period {
+    font-size: 1rem;
+    color: var(--gris);
+    font-weight: 400;
+  }
+
+  .pricing-cta {
+    background: linear-gradient(135deg, var(--violet) 0%, var(--violet-light) 100%);
+    color: var(--blanc);
+    padding: 64px 24px;
+    text-align: center;
+  }
+
+  .cta-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+  }
+
+  .cta-icon {
+    margin-bottom: 32px;
+  }
+
+  .cta-icon img {
+    border-radius: 24px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  }
+
+  .cta-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 24px;
+  }
+
+  .store-btn {
+    background: var(--blanc);
+    color: var(--noir);
+  }
+
+  .cta-note {
+    font-size: 0.9rem;
+    opacity: 0.8;
+  }
+
+  @media (max-width: 768px) {
+    .comparison {
+      grid-template-columns: 1fr;
+      gap: 24px;
+    }
+
+    .plans-grid {
+      grid-template-columns: 1fr;
+      max-width: 350px;
+    }
+
+    .plan-popular {
+      transform: none;
+    }
+
+    .plan-popular:hover {
+      transform: translateY(-4px);
+    }
+
+    .pricing-header h1 {
+      font-size: 2rem;
+    }
+
+    .cta-buttons {
+      flex-direction: column;
+      align-items: stretch;
+    }
+
+    .btn {
+      justify-content: center;
+    }
+  }
+</style>
