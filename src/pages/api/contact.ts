@@ -1,5 +1,4 @@
 import type { APIRoute } from "astro";
-import sgMail from "@sendgrid/mail";
 
 export const prerender = false;
 
@@ -25,9 +24,26 @@ function recordSubmission(ip: string) {
   submissions.set(ip, history);
 }
 
-export const POST: APIRoute = async ({ request }) => {
+async function sendEmail(apiKey: string, payload: Record<string, unknown>) {
+  const response = await fetch("https://api.sendgrid.com/v3/mail/send", {
+    method: "POST",
+    headers: {
+      Authorization: `Bearer ${apiKey}`,
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(payload),
+  });
+
+  if (!response.ok) {
+    const text = await response.text();
+    throw new Error(`SendGrid API error ${response.status}: ${text}`);
+  }
+}
+
+export const POST: APIRoute = async ({ request, locals }) => {
   try {
-    sgMail.setApiKey(import.meta.env.SENDGRID_API_KEY);
+    const runtime = (locals as any).runtime;
+    const apiKey = runtime?.env?.SENDGRID_API_KEY || import.meta.env.SENDGRID_API_KEY;
 
     const ip =
       request.headers.get("x-forwarded-for")?.split(",")[0]?.trim() ||
@@ -79,7 +95,7 @@ export const POST: APIRoute = async ({ request }) => {
       );
     }
 
-    // --- SendGrid ---
+    // --- SendGrid via fetch (compatible Cloudflare Workers) ---
     const emailHtml = `
       <h2>Nouvelle demande de contact — Sapiro</h2>
       <table style="border-collapse:collapse;width:100%;max-width:600px;">
@@ -89,12 +105,12 @@ export const POST: APIRoute = async ({ request }) => {
       </table>
     `;
 
-    await sgMail.send({
-      to: RECIPIENT_EMAIL,
+    await sendEmail(apiKey, {
+      personalizations: [{ to: [{ email: RECIPIENT_EMAIL }] }],
       from: { email: SENDER_EMAIL, name: "Sapiro — Formulaire de contact" },
-      replyTo: { email, name },
+      reply_to: { email, name },
       subject: `[Sapiro] Nouveau contact : ${name}`,
-      html: emailHtml,
+      content: [{ type: "text/html", value: emailHtml }],
     });
 
     recordSubmission(ip);
