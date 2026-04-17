@@ -10,63 +10,40 @@ author: "SAPIRO"
 readingTime: 8
 ---
 
-On a passé plusieurs semaines sur les deux applications. SAPIRO est un quiz éducatif couvrant géographie, histoire, art et nature, sans publicités ni collecte de données. GeoGuessr vous largue quelque part dans Google Street View et vous devez deviner où vous êtes. Les deux touchent à la géographie, mais de manières radicalement différentes.
+Il y a deux façons d'apprendre la géographie sur mobile. La première vous largue quelque part dans Google Street View et vous demande où vous êtes. La seconde vous montre un drapeau, une capitale ou une carte, et vous explique pourquoi. GeoGuessr fait la première. SAPIRO fait la seconde.
 
-## Contenu et domaines
+On les oppose souvent, mais ce sont deux expériences qui racontent la géographie de manière très différente. L'une mise sur l'intuition visuelle, l'autre sur la connaissance explicite. Voici ce que ça change quand on s'y met vraiment.
 
-GeoGuessr fait une seule chose, et il la fait très bien. Le concept est simple : vous êtes parachuté dans un panorama Street View, vous pouvez regarder autour de vous, zoomer sur les panneaux, observer la végétation, la langue sur les enseignes, le type de route. Puis vous placez un marqueur sur la carte mondiale. Plus vous êtes proche du point réel, plus vous marquez de points. C'est addictif. On passe facilement une heure à essayer de distinguer le Brésil de l'Argentine à partir d'un bout de route en terre. L'immersion est unique, aucune autre application ne reproduit cette sensation d'exploration.
+## Deviner un lieu, ou comprendre un pays
 
-Mais GeoGuessr ne couvre que la géographie. Pas d'histoire, pas d'art, pas de nature. Et même en géographie, l'apprentissage reste indirect. On développe une intuition géographique (reconnaître une route scandinave, identifier l'Asie du Sud-Est à partir de la végétation), mais il n'y a pas de structure éducative derrière. Pas d'explication après la réponse. Pas de fiche pays. On sait qu'on était en Mongolie, mais on n'apprend rien sur la Mongolie.
+Dans GeoGuessr, on atterrit au bord d'une route, on regarde le sens de conduite, la langue des panneaux, la végétation, le type de poteau électrique. On place un marqueur sur la carte, on compare avec la position réelle, on encaisse un score. Après quelques dizaines de parties, on commence à distinguer un paysage scandinave d'un paysage des Balkans, une route philippine d'une route malaisienne. C'est une compétence réelle, et assez grisante à développer.
 
-SAPIRO couvre quatre domaines : géographie (197 pays avec drapeaux, capitales, cartes), histoire (plus de 500 personnages historiques), art (553 œuvres majeures) et nature (600 espèces animales). Plus de 2 000 questions, chacune accompagnée d'une explication après la réponse. Si vous confondez le drapeau du Tchad et celui de la Roumanie, l'application vous explique la différence et vous donne du contexte sur les deux pays.
+Le revers, c'est qu'on n'apprend rien sur le pays où on vient d'atterrir. Le jeu ne dit pas si on était au Laos ou au Cambodge, pourquoi la végétation ressemble à ça, qui habite ici. On était en Mongolie, on repart en Mongolie. La connaissance reste à la porte du panorama. L'apprentissage est implicite, visuel, et s'arrête à ce que Google a bien voulu filmer, ce qui crée un biais net en faveur de l'Europe et de l'Amérique du Nord.
 
-SAPIRO propose aussi plus de 50 parcours thématiques. Vous pouvez suivre un parcours sur les capitales d'Afrique, les empires historiques, les musées du monde ou les familles animales. GeoGuessr n'a rien de comparable : chaque partie est indépendante, sans progression structurée.
+SAPIRO prend l'angle opposé. Les 197 pays du monde sont traités à égalité, avec drapeaux, capitales, cartes et contexte. Si on confond le drapeau du Tchad avec celui de la Roumanie, l'application explique la différence de nuance de bleu et ajoute un fait sur chaque pays. L'ensemble dépasse 2 000 questions, réparties sur quatre domaines (géographie, histoire, art, nature) et plus de 50 parcours thématiques. On peut suivre les capitales d'Afrique, traverser les empires, visiter les musées du monde. Chaque erreur est suivie d'une explication, pas d'un classement.
 
-## Publicités et vie privée
+Autre différence pratique : SAPIRO fonctionne hors connexion. GeoGuessr dépend de Street View et consomme pas mal de données, donc bloque dès qu'on descend dans le métro ou qu'on quitte la ville.
 
-GeoGuessr ne bombarde pas de publicités comme certaines applications de quiz. La version gratuite est simplement très limitée : une partie par jour, puis c'est terminé. Pour jouer sans restriction, il faut passer à l'abonnement Pro à environ 3,99 €/mois. Côté données, GeoGuessr collecte des informations classiques (compte obligatoire, données d'utilisation) et utilise Google Maps, ce qui implique l'écosystème de données Google.
-
-SAPIRO affiche zéro publicité, y compris dans la version gratuite. Pas de bannière, pas de vidéo, pas d'interstitiel. L'application ne collecte aucune donnée personnelle. Pas de compte obligatoire, pas de tracking, pas de transmission à des tiers. Pour les parents qui cherchent une application éducative sûre pour leurs enfants, cette différence compte. Dans le contexte du RGPD, avoir une application qui ne collecte tout simplement rien simplifie la question.
-
-## Valeur éducative
-
-C'est là que les deux applications divergent le plus.
-
-GeoGuessr développe quelque chose d'intéressant : une sorte d'intelligence géographique visuelle. Après quelques dizaines de parties, on commence à reconnaître des indices : les marquages routiers suédois, les camions philippins colorés, les poteaux électriques en bois d'Amérique du Nord. C'est un apprentissage réel, mais non structuré et implicite. Il n'y a pas de retour pédagogique. Vous avez deviné le Laos ? Bien joué, mais vous n'apprendrez rien sur le Laos. Vous avez confondu le Guatemala et le Honduras ? L'application ne vous dira pas pourquoi.
-
-GeoGuessr a aussi un problème de couverture. Street View est inégal : excellente couverture en Europe et en Amérique du Nord, lacunaire en Afrique et dans certaines parties de l'Asie. On finit par mieux connaître les pays riches, ce qui crée un biais dans l'apprentissage.
-
-SAPIRO prend l'approche inverse. Chaque question est conçue pour enseigner quelque chose, avec une explication qui contextualise la réponse. Les 197 pays sont couverts de manière égale. Les trois modes de jeu (Classique, Survie, Défi quotidien) sollicitent des compétences différentes. Les parcours thématiques permettent un apprentissage progressif et cohérent. La [gamification au service de l'éducation](/blog/gamification-education/) est intégrée dans chaque aspect de l'application.
-
-L'application fonctionne hors connexion. GeoGuessr, qui dépend de Google Street View, nécessite une connexion internet permanente et plutôt rapide (le chargement des panoramas consomme pas mal de données).
-
-SAPIRO est noté 5/5 sur Google Play et recommandé par des enseignants. Ce n'est pas juste une application que les enfants aiment, c'est un outil pédagogique reconnu.
-
-## Prix
+## Ce que vaut chaque modèle économique
 
 | | **SAPIRO** | **GeoGuessr** |
 |---|---|---|
-| **Version gratuite** | Oui, sans publicités | Très limitée (1 partie/jour) |
+| **Version gratuite** | Oui, sans publicités | 1 partie par jour |
 | **Abonnement mensuel** | 1,99 €/mois (Sapiro+) | ~3,99 €/mois (Pro) |
 | **Abonnement annuel** | 19,99 €/an | ~29,99 €/an |
 | **Achat à vie** | 39,99 € | Non disponible |
-| **Publicités** | Aucune | Aucune |
-| **Données collectées** | Aucune | Compte obligatoire, données d'utilisation |
-| **Fonctionne hors connexion** | Oui | Non |
-| **Domaines couverts** | Géographie, histoire, art, nature | Géographie uniquement |
+| **Compte obligatoire** | Non | Oui |
+| **Hors connexion** | Oui | Non |
+| **Domaines couverts** | Géographie, histoire, art, nature | Géographie |
 
-SAPIRO est moins cher dans toutes les formules. La version gratuite est déjà généreuse et sans publicités. L'achat à vie à 39,99 € revient à environ un an de GeoGuessr Pro, mais vous accédez à tout le contenu pour toujours, dans quatre domaines au lieu d'un seul.
+GeoGuessr est construit sur Google Street View, ce qui implique un compte obligatoire et l'écosystème de données qui va avec. La version gratuite se limite à une partie par jour, le reste passe par l'abonnement Pro. SAPIRO n'a pas de compte, pas de tracking, pas de bannière, et l'achat à vie à 39,99 € revient grosso modo à un an d'abonnement Pro chez le concurrent.
 
-## Verdict
+## Alors, lequel choisir
 
-Les deux applications ne font pas la même chose, et il serait malhonnête de prétendre le contraire.
+Les deux valent la peine si on aime la géographie, mais ils ne remplissent pas la même fonction. GeoGuessr est un excellent jeu d'observation, addictif et visuellement unique. Si l'idée de passer une heure à décoder un paysage rural pour deviner qu'on est au Botswana vous amuse, rien d'autre ne reproduit cette sensation. SAPIRO ne prétend pas jouer sur ce terrain.
 
-GeoGuessr offre une expérience immersive que personne d'autre ne propose. Se retrouver au milieu d'une route en terre au Botswana et essayer de deviner sa position, c'est genuinement captivant. Si vous aimez l'exploration virtuelle et les défis visuels, GeoGuessr vaut le détour. La communauté compétitive est active, les cartes communautaires ajoutent de la variété, et le format crée une dépendance agréable.
+En revanche, si l'objectif est d'apprendre, c'est-à-dire de savoir nommer les capitales, reconnaître les drapeaux, situer les pays et retenir quelque chose de précis sur chacun, SAPIRO est mieux calibré. Les explications après chaque question, la couverture équilibrée des 197 pays, la possibilité de jouer hors ligne et l'ouverture vers l'histoire, l'art et la nature en font un outil plus large. L'application est notée 5/5 sur Google Play et sert de complément dans certaines classes.
 
-Mais GeoGuessr ne vous apprendra pas les capitales du monde, l'histoire des empires, les œuvres des grands musées ou les animaux d'Amazonie. Il ne vous expliquera rien après une réponse. Et il nécessite une connexion internet rapide pour fonctionner.
-
-SAPIRO est le choix plus complet pour qui veut réellement apprendre. Quatre domaines au lieu d'un, des explications après chaque question, des parcours structurés, zéro publicité, zéro collecte de données, fonctionnement hors ligne et un prix plus accessible. Pour les familles, les étudiants et les curieux qui veulent enrichir leur culture générale, c'est la meilleure option.
-
-Certains utiliseront les deux, et c'est probablement la meilleure combinaison : GeoGuessr pour l'exploration immersive, SAPIRO pour l'apprentissage structuré.
+Beaucoup de joueurs finissent par garder les deux sur leur téléphone. GeoGuessr pour les soirées où l'on veut explorer le monde à l'aveugle, SAPIRO pour les trajets et les moments calmes où l'on a envie d'apprendre quelque chose de concret. Ce sont des usages compatibles, pas des rivaux.
 
 Pour aller plus loin, consultez notre sélection des [meilleures applications de géographie](/blog/meilleures-apps-geographie/), notre guide des [meilleures applications de quiz de culture générale](/blog/meilleures-apps-quiz-culture-generale/) et notre [comparatif SAPIRO vs Kahoot](/blog/sapiro-vs-kahoot/).

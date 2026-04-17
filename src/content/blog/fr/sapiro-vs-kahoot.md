@@ -10,59 +10,48 @@ author: "SAPIRO"
 readingTime: 8
 ---
 
-Comparer SAPIRO et Kahoot, c'est un peu comme comparer un livre et un tableau blanc. Les deux sont utiles, mais pas dans le même contexte. Kahoot est une plateforme de quiz pour la salle de classe. SAPIRO est une application de quiz éducatif pour apprendre seul ou en famille. Ce ne sont pas des concurrents directs : ce sont des outils conçus pour des situations fondamentalement différentes.
+Scène assez courante. Un parent cherche une appli de quiz pour que son gamin de 10 ans révise un peu en s'amusant. Un ami prof lui a parlé de Kahoot, le gamin adore ça en classe, donc le parent télécharge Kahoot le soir, tend le téléphone à son enfant, et là... rien. L'appli demande un code, demande de créer un quiz, demande un compte. Le gamin regarde son père. Il se passe quoi, exactement ?
 
-## Deux philosophies, deux cas d'usage
+Il se passe que Kahoot n'est pas fait pour ce moment-là. Et c'est la source d'énormément de confusion quand on compare Kahoot à des applis solo comme SAPIRO.
 
-Kahoot a véritablement révolutionné l'engagement en classe. C'est indéniable. Un enseignant projette un quiz sur l'écran, les élèves rejoignent la session avec un code, et toute la classe répond en temps réel sur leurs téléphones. L'ambiance est électrique, les élèves sont motivés, et même les plus timides participent. Pour dynamiser un cours de 50 minutes, Kahoot est redoutable.
+## Pourquoi Kahoot seul à la maison, ça ne marche pas vraiment
 
-Mais Kahoot a besoin d'un animateur. Quelqu'un doit créer le quiz, lancer la session et gérer le rythme. Sans hôte, pas de partie. C'est une plateforme collective par conception. On ne peut pas simplement ouvrir Kahoot le soir chez soi et apprendre la géographie pendant 20 minutes. Ce n'est pas fait pour ça.
+Kahoot est une plateforme pour animer un groupe. Un enseignant projette un quiz au tableau, les élèves rejoignent la session avec un code, tout le monde répond sur son téléphone, le classement s'affiche en direct. C'est redoutable pour dynamiser une classe de 30, et Kahoot a largement gagné ce terrain. Dans ce contexte, l'appli mérite sa réputation.
 
-SAPIRO fonctionne dans l'autre sens. On ouvre l'application, on choisit un domaine (géographie, histoire, art, nature), et on joue. Seul dans le métro, en famille le dimanche, en voiture pendant un long trajet. Pas besoin de code, pas besoin de connexion internet, pas besoin qu'un adulte organise la session. L'application propose trois modes de jeu (Classique, Survie, Défi quotidien) et plus de 50 parcours thématiques à explorer à son rythme. C'est une expérience autonome, conçue pour l'apprentissage individuel.
+Le problème, c'est qu'il faut quelqu'un pour créer et animer le quiz. Sans hôte, sans code, il reste des fonctions solo marginales et peu engageantes. Le contenu est principalement généré par les utilisateurs, ce qui donne une variété énorme mais aussi des quiz bâclés, des fautes, des questions obsolètes. L'appli n'a pas de parcours, pas d'explications après les réponses, pas de progression qu'un enfant peut suivre seul. Le modèle favorise la vitesse : le premier à cliquer marque plus, ce qui en classe crée de l'énergie et à la maison frustre surtout les plus jeunes.
 
-## Contenu : créé par les utilisateurs vs vérifié
+SAPIRO part d'un tout autre postulat. On ouvre l'appli, on choisit un domaine (géographie, histoire, art, nature), on joue. Seul dans le métro, en famille le dimanche, en voiture pour un long trajet. Plus de 2 000 questions vérifiées, chacune avec une explication après la réponse. Les 50+ parcours thématiques (capitales d'Afrique, empires historiques, familles d'animaux, peintres de la Renaissance) structurent l'apprentissage comme un petit cours déguisé en jeu. Trois modes (Classique, Survie, Défi quotidien), fonctionnement hors ligne, aucun compte requis, aucune publicité, aucune collecte de données. La [gamification au service de l'éducation](/blog/gamification-education/) guide la conception depuis le début.
 
-Le contenu de Kahoot est principalement généré par les utilisateurs. Des enseignants, des formateurs, des particuliers créent leurs propres quiz et les partagent. L'avantage, c'est la variété : on trouve des quiz sur absolument tous les sujets, de la photosynthèse aux tables de multiplication en passant par les capitales européennes. L'inconvénient, c'est la qualité. Certains quiz sont excellents. D'autres contiennent des erreurs factuelles, des questions mal formulées ou du contenu obsolète. Il n'y a pas de processus de vérification systématique.
+## Questions fréquentes de parents et d'enseignants
 
-SAPIRO prend le chemin inverse. Plus de 2 000 questions vérifiées, couvrant quatre domaines en profondeur : géographie (197 pays avec drapeaux, capitales, cartes), histoire (500+ personnages historiques), art (553 œuvres majeures) et nature (600 espèces animales). Chaque question est accompagnée d'une explication qui contextualise la réponse. Moins de volume que Kahoot, mais une fiabilité constante. On ne tombe jamais sur une réponse fausse ou une question approximative.
+**Mon enfant veut refaire du Kahoot à la maison, je dois prendre quoi ?**
+Pour retrouver l'aspect quiz rapide avec questions à choix multiples, SAPIRO est plus proche de ce que l'enfant connaît, avec l'avantage des explications après chaque réponse. Kahoot a bien une appli mobile, mais sans enseignant qui anime, l'expérience est pauvre.
 
-Les parcours thématiques de SAPIRO (musées du monde, empires historiques, peintres de la Renaissance, familles d'animaux) permettent d'approfondir un sujet de manière progressive. C'est structuré comme un cours, mais présenté comme un jeu. La [gamification au service de l'éducation](/blog/gamification-education/) est au cœur de la démarche.
+**Je suis enseignant, dois-je remplacer Kahoot par SAPIRO ?**
+Non. Kahoot reste un outil d'animation de classe solide pour vérifier la compréhension en temps réel et mobiliser le groupe. SAPIRO se glisse ailleurs : en travail autonome, en prolongement à la maison, en remplaçant du temps d'écran passif. Les deux cohabitent très bien.
 
-## Publicité, vie privée et données
+**Et la vie privée, c'est important ?**
+Oui, surtout pour les enfants. Kahoot collecte des données à des fins d'analyse éducative : résultats, temps de réponse, taux de réussite. Utile pour un enseignant, mais ces données existent et alimentent un écosystème commercial. SAPIRO ne demande pas de compte et ne collecte aucune donnée personnelle. Dans le contexte du RGPD, c'est une différence concrète. Voir notre guide des [meilleures applications de quiz de culture générale](/blog/meilleures-apps-quiz-culture-generale/) pour comparer sur ce point.
 
-Kahoot est gratuit dans sa version de base pour les enseignants, mais les plans payants pour les écoles coûtent entre 3 et 19 $/mois. La plateforme collecte des données à des fins d'analyse éducative : résultats des élèves, temps de réponse, taux de réussite. C'est utile pour les enseignants qui veulent suivre la progression de leurs classes. Mais ces données existent, elles sont stockées, et elles alimentent un écosystème commercial. La version Kahoot! Kids existe aussi, mais c'est une application séparée avec sa propre politique.
-
-SAPIRO ne collecte aucune donnée personnelle. Pas de compte obligatoire, pas de tracking, pas de transmission à des tiers. L'application affiche zéro publicité, y compris dans la version gratuite. Ce qui se passe dans SAPIRO reste sur votre appareil. Pour les parents qui cherchent une application éducative respectueuse de la vie privée de leurs enfants, c'est un critère qui compte. Notre guide des [meilleures applications de quiz de culture générale](/blog/meilleures-apps-quiz-culture-generale/) détaille ce point pour d'autres applications.
-
-## Valeur pédagogique
-
-Kahoot excelle dans l'engagement collectif. Le format compétitif, la musique, le classement en temps réel : tout est conçu pour capturer l'attention d'une classe entière. C'est puissant. Mais le modèle est fondé sur la vitesse. Le premier à répondre gagne plus de points. Ce mécanisme favorise les réflexes plutôt que la réflexion. Et surtout, il n'y a pas d'explication après les réponses. On sait qu'on a juste ou faux, mais on ne comprend pas forcément pourquoi. Dans un contexte de classe, l'enseignant peut compléter oralement. Mais en dehors de la classe, cette couche manque.
-
-SAPIRO mise sur l'apprentissage durable. Chaque question s'accompagne d'une explication qui aide à comprendre et retenir. Si on confond le drapeau du Tchad avec celui de la Roumanie, l'application explique la différence et ajoute un contexte historique. Les trois modes de jeu sollicitent des compétences cognitives différentes. Les parcours thématiques créent une progression logique, un fait mène au suivant. L'effet cumulatif est réel : après quelques semaines d'utilisation régulière, on constate une vraie amélioration de sa culture générale.
-
-L'application fonctionne hors connexion, ce qui la rend utilisable partout. Kahoot nécessite une connexion internet pour fonctionner, ce qui est logique pour une plateforme collaborative en temps réel, mais qui limite l'usage individuel.
-
-## Prix
+**Combien ça coûte ?**
 
 | | **SAPIRO** | **Kahoot** |
 |---|---|---|
-| **Version gratuite** | Oui, sans publicités | Oui (usage basique en classe) |
+| **Version gratuite** | Oui, sans pub | Oui (usage basique en classe) |
 | **Abonnement mensuel** | 1,99 €/mois (Sapiro+) | 3-19 $/mois (plans éducation) |
-| **Abonnement annuel** | 19,99 €/an | Variable selon le plan |
 | **Achat à vie** | 39,99 € | Non disponible |
-| **Publicités** | Aucune | Non (mais données collectées) |
-| **Fonctionne hors ligne** | Oui | Non |
+| **Hors ligne** | Oui | Non |
 | **Besoin d'un animateur** | Non | Oui |
-| **Explications après réponse** | Oui, systématiquement | Non |
+| **Explications après réponse** | Oui | Non |
 
-## Verdict
+**Kahoot est-il gratuit pour les enseignants ?**
+La version de base, oui. Pour les fonctions pédagogiques avancées (rapports détaillés, modes de jeu étendus), les plans école vont de 3 à 19 $/mois. SAPIRO reste plafonné à 39,99 € en achat à vie, sans abonnement contraint.
 
-Kahoot et SAPIRO ne se substituent pas l'un à l'autre. Ils sont complémentaires.
+**Ça fonctionne sans internet ?**
+SAPIRO oui, Kahoot non. Logique pour une plateforme collaborative en temps réel, mais ça limite Kahoot pour un usage individuel dans les transports ou en voyage.
 
-Kahoot reste un outil formidable pour les enseignants. Animer un cours avec un quiz interactif, vérifier la compréhension d'une leçon en temps réel, mobiliser une classe de 30 élèves : Kahoot fait ça mieux que quiconque. Si vous êtes enseignant, Kahoot mérite sa place dans votre boîte à outils pédagogique.
+## En résumé
 
-SAPIRO est fait pour un autre moment. Celui où l'enfant rentre à la maison et veut continuer à apprendre en s'amusant. Celui où un adulte veut enrichir sa culture générale pendant ses trajets. Celui où toute la famille se lance un défi le week-end. Sans publicité, sans collecte de données, avec des explications à chaque question et un prix accessible. SAPIRO est noté 5/5 sur Google Play et recommandé par des enseignants.
-
-Le choix ne se fait pas entre l'un ou l'autre. Il se fait en fonction du contexte. En classe, Kahoot. À la maison, SAPIRO.
+Kahoot est un outil de classe. SAPIRO est une appli qu'on pose dans la main d'un enfant ou qu'on ouvre seul dans un TGV. Poser la question en ces termes évite la déception de la scène d'ouverture. Si vous êtes enseignant et que vous cherchez à animer vos cours, Kahoot fait le travail. Si vous cherchez de quoi occuper intelligemment un trajet en voiture, un dimanche pluvieux ou une demi-heure avant le dîner, SAPIRO a été construit pour ça.
 
 Pour approfondir, consultez notre [comparatif SAPIRO vs Trivia Crack](/blog/sapiro-vs-trivia-crack/), notre [comparatif SAPIRO vs GeoGuessr](/blog/sapiro-vs-geoguessr/) et notre article sur la [gamification dans l'éducation](/blog/gamification-education/).
