@@ -1,0 +1,105 @@
+---
+interface Props {
+  items: { question: string; answer: string }[];
+}
+
+const { items } = Astro.props;
+---
+
+<section class="faq-full">
+  <div class="container">
+    <div class="list">
+      {items.map((item, i) => (
+        <details class="item" open={i === 0}>
+          <summary>
+            <span>{item.question}</span>
+            <span class="toggle" aria-hidden="true">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+            </span>
+          </summary>
+          <p>{item.answer}</p>
+        </details>
+      ))}
+    </div>
+  </div>
+</section>
+
+<style>
+  .faq-full {
+    background: #F9FAFB;
+    padding: 80px 0;
+  }
+
+  .list {
+    max-width: 820px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .item {
+    background: #fff;
+    border-radius: 16px;
+    border: 1px solid #e5e7eb;
+    overflow: hidden;
+    transition: box-shadow 0.2s, border-color 0.2s;
+  }
+
+  .item:hover {
+    border-color: #d1d5db;
+  }
+
+  .item[open] {
+    border-color: #ff6b35;
+    box-shadow: 0 20px 40px -20px rgba(255, 107, 53, 0.2);
+  }
+
+  summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 22px 26px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 16px;
+    color: #0a0a0f;
+    list-style: none;
+  }
+
+  summary::-webkit-details-marker { display: none; }
+
+  .toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    background: #f3f4f6;
+    border-radius: 50%;
+    color: #6b7280;
+    transition: transform 0.3s, background 0.2s;
+    flex-shrink: 0;
+  }
+
+  .item[open] .toggle {
+    transform: rotate(180deg);
+    background: #ff6b35;
+    color: #fff;
+  }
+
+  .item p {
+    padding: 0 26px 24px;
+    font-size: 15px;
+    color: #4b5563;
+    line-height: 1.65;
+    margin: 0;
+  }
+
+  @media (max-width: 520px) {
+    .faq-full { padding: 56px 0; }
+    summary { padding: 18px 20px; font-size: 15px; }
+    .item p { padding: 0 20px 18px; font-size: 14px; }
+  }
+</style>

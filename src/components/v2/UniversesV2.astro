@@ -1,0 +1,441 @@
+---
+import type { Lang } from '../../i18n';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+
+const copy = {
+  fr: {
+    kicker: 'Quatre univers',
+    title: 'De Tokyo à Van Gogh,\nde César aux félins.',
+    subtitle: 'Un terrain de jeu qui couvre tout ce qu\'il faut savoir du monde réel.',
+    geo: { title: 'Géographie', desc: 'Drapeaux, capitales, continents, empires, organisations internationales.', stat: '197', statLabel: 'pays' },
+    history: { title: 'Histoire', desc: 'Grands personnages, de l\'Antiquité à nos jours.', stat: '500+', statLabel: 'personnages' },
+    art: { title: 'Art', desc: 'Louvre, MoMA, Orsay. Renaissance, impressionnisme, surréalisme.', stat: '553', statLabel: 'œuvres' },
+    nature: { title: 'Nature', desc: 'Mammifères, oiseaux, reptiles, insectes.', stat: '600', statLabel: 'espèces' },
+  },
+  en: {
+    kicker: 'Four universes',
+    title: 'From Tokyo to Van Gogh,\nfrom Caesar to big cats.',
+    subtitle: 'A playground covering everything worth knowing about the real world.',
+    geo: { title: 'Geography', desc: 'Flags, capitals, continents, empires, international organizations.', stat: '197', statLabel: 'countries' },
+    history: { title: 'History', desc: 'Key figures, from Antiquity to today.', stat: '500+', statLabel: 'figures' },
+    art: { title: 'Art', desc: 'Louvre, MoMA, Orsay. Renaissance, impressionism, surrealism.', stat: '553', statLabel: 'artworks' },
+    nature: { title: 'Nature', desc: 'Mammals, birds, reptiles, insects.', stat: '600', statLabel: 'species' },
+  },
+  es: {
+    kicker: 'Cuatro universos',
+    title: 'De Tokio a Van Gogh,\nde Cesar a los felinos.',
+    subtitle: 'Un terreno de juego que cubre todo lo que vale la pena saber del mundo real.',
+    geo: { title: 'Geografia', desc: 'Banderas, capitales, continentes, imperios, organizaciones internacionales.', stat: '197', statLabel: 'paises' },
+    history: { title: 'Historia', desc: 'Grandes personajes, desde la Antiguedad hasta hoy.', stat: '500+', statLabel: 'personajes' },
+    art: { title: 'Arte', desc: 'Louvre, MoMA, Orsay. Renacimiento, impresionismo, surrealismo.', stat: '553', statLabel: 'obras' },
+    nature: { title: 'Naturaleza', desc: 'Mamiferos, aves, reptiles, insectos.', stat: '600', statLabel: 'especies' },
+  },
+};
+
+const t = copy[lang];
+
+// Pre-computed flag positions (CSS calc has no modulo, so we scatter them here)
+const flagEmojis = ['🇫🇷','🇯🇵','🇧🇷','🇬🇧','🇮🇹','🇪🇸','🇩🇪','🇨🇦','🇦🇺','🇲🇽','🇰🇷','🇮🇳','🇿🇦','🇸🇪','🇳🇴','🇵🇹'];
+const flagPositions = [
+  { top: 8, left: 62 },
+  { top: 14, left: 82 },
+  { top: 22, left: 48 },
+  { top: 30, left: 72 },
+  { top: 38, left: 88 },
+  { top: 46, left: 55 },
+  { top: 52, left: 78 },
+  { top: 60, left: 42 },
+  { top: 68, left: 85 },
+  { top: 76, left: 58 },
+  { top: 82, left: 74 },
+  { top: 88, left: 50 },
+  { top: 18, left: 92 },
+  { top: 44, left: 92 },
+  { top: 70, left: 92 },
+  { top: 92, left: 88 },
+];
+---
+
+<section class="universes-v2" id="features">
+  <div class="container">
+    <div class="head">
+      <span class="kicker">✨ {t.kicker}</span>
+      <h2 class="title">{t.title}</h2>
+      <p class="subtitle">{t.subtitle}</p>
+    </div>
+
+    <div class="bento">
+      <!-- Geography: hero card -->
+      <article class="card card-hero card-geo">
+        <div class="card-noise"></div>
+        <div class="flags-swarm" aria-hidden="true">
+          {flagEmojis.map((f, i) => {
+            const pos = flagPositions[i];
+            return (
+              <span
+                class="swarm-flag"
+                style={`top:${pos.top}%; left:${pos.left}%; animation-delay:${(i * 0.27) % 3}s`}
+              >{f}</span>
+            );
+          })}
+        </div>
+        <div class="card-body">
+          <div class="card-tag">🌍 {t.geo.title}</div>
+          <div class="card-stat">
+            <span class="stat-num" data-count={t.geo.stat}>{t.geo.stat}</span>
+            <span class="stat-label">{t.geo.statLabel}</span>
+          </div>
+          <p class="card-desc">{t.geo.desc}</p>
+        </div>
+      </article>
+
+      <!-- History -->
+      <article class="card card-history">
+        <div class="card-body">
+          <div class="card-emoji">👤</div>
+          <div class="card-tag">{t.history.title}</div>
+          <div class="card-stat">
+            <span class="stat-num">{t.history.stat}</span>
+            <span class="stat-label">{t.history.statLabel}</span>
+          </div>
+          <p class="card-desc">{t.history.desc}</p>
+        </div>
+      </article>
+
+      <!-- Art -->
+      <article class="card card-art">
+        <div class="card-body">
+          <div class="card-emoji">🎨</div>
+          <div class="card-tag">{t.art.title}</div>
+          <div class="card-stat">
+            <span class="stat-num">{t.art.stat}</span>
+            <span class="stat-label">{t.art.statLabel}</span>
+          </div>
+          <p class="card-desc">{t.art.desc}</p>
+        </div>
+      </article>
+
+      <!-- Nature -->
+      <article class="card card-nature">
+        <div class="card-body">
+          <div class="nature-deco" aria-hidden="true">
+            <span class="deco-emoji" style="--i:0">🦁</span>
+            <span class="deco-emoji" style="--i:1">🦅</span>
+            <span class="deco-emoji" style="--i:2">🐢</span>
+            <span class="deco-emoji" style="--i:3">🦋</span>
+            <span class="deco-emoji" style="--i:4">🐘</span>
+            <span class="deco-emoji" style="--i:5">🦓</span>
+          </div>
+          <div class="card-tag">{t.nature.title}</div>
+          <div class="card-stat">
+            <span class="stat-num">{t.nature.stat}</span>
+            <span class="stat-label">{t.nature.statLabel}</span>
+          </div>
+          <p class="card-desc">{t.nature.desc}</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<style>
+  .universes-v2 {
+    background: #fff;
+    padding: 96px 0;
+  }
+
+  .head {
+    max-width: 720px;
+    margin: 0 auto 56px;
+    text-align: center;
+  }
+
+  .kicker {
+    display: inline-block;
+    padding: 6px 14px;
+    background: rgba(168, 85, 247, 0.1);
+    color: #a855f7;
+    border-radius: 999px;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+
+  .title {
+    font-size: clamp(2rem, 4.5vw, 3.25rem);
+    font-weight: 800;
+    letter-spacing: -0.025em;
+    line-height: 1.1;
+    color: #0a0a0f;
+    margin-bottom: 16px;
+    white-space: pre-line;
+  }
+
+  .subtitle {
+    font-size: 1.1rem;
+    color: #6b7280;
+    line-height: 1.6;
+  }
+
+  .bento {
+    display: grid;
+    grid-template-columns: 1.7fr 1fr 1fr;
+    grid-template-rows: minmax(260px, auto) minmax(260px, auto);
+    gap: 20px;
+  }
+
+  .card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 24px;
+    padding: 28px;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.4s;
+    min-height: 260px;
+  }
+
+  .card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 30px 60px -20px rgba(0, 0, 0, 0.2);
+  }
+
+  .card-body {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    height: 100%;
+  }
+
+  .card-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    align-self: flex-start;
+    padding: 6px 12px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(8px);
+    border-radius: 999px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: auto;
+  }
+
+  .card-emoji {
+    font-size: 48px;
+    line-height: 1;
+    margin-bottom: 8px;
+    filter: drop-shadow(0 6px 12px rgba(0, 0, 0, 0.15));
+  }
+
+  .card-stat {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin-top: 8px;
+  }
+
+  .stat-num {
+    font-size: clamp(2.2rem, 4vw, 3.5rem);
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    color: #fff;
+    line-height: 1;
+  }
+
+  .stat-label {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.7);
+    text-transform: lowercase;
+  }
+
+  .card-desc {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.55;
+  }
+
+  .badge-soon {
+    padding: 3px 8px;
+    background: #fbbf24;
+    color: #0a0a0f;
+    border-radius: 6px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+
+  /* Hero geo card */
+  .card-hero {
+    grid-column: 1;
+    grid-row: 1 / span 2;
+    background: linear-gradient(135deg, #ff6b35 0%, #fbbf24 100%);
+    min-height: 520px;
+  }
+
+  .card-history { grid-column: 2; grid-row: 1; }
+  .card-art { grid-column: 3; grid-row: 1; }
+
+  .card-hero .card-emoji { display: none; }
+
+  .card-hero .stat-num {
+    font-size: clamp(4rem, 9vw, 8rem);
+  }
+
+  .card-hero .card-desc {
+    font-size: 16px;
+    max-width: 380px;
+  }
+
+  .card-noise {
+    position: absolute;
+    inset: 0;
+    opacity: 0.08;
+    mix-blend-mode: overlay;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='200'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+    z-index: 1;
+    pointer-events: none;
+  }
+
+  .flags-swarm {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    pointer-events: none;
+    overflow: hidden;
+  }
+
+  .swarm-flag {
+    position: absolute;
+    font-size: clamp(22px, 2.4vw, 34px);
+    transform: translate(-50%, -50%);
+    opacity: 0.28;
+    animation: floatFlag 6s ease-in-out infinite;
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
+    line-height: 1;
+  }
+
+  @keyframes floatFlag {
+    0%, 100% { transform: translateY(0) rotate(-4deg) scale(1); }
+    50% { transform: translateY(-12px) rotate(4deg) scale(1.08); }
+  }
+
+  /* Other cards */
+  .card-history {
+    background: linear-gradient(135deg, #a855f7 0%, #c084fc 100%);
+  }
+
+  .card-art {
+    background: linear-gradient(135deg, #14b8a6 0%, #0d9488 100%);
+  }
+
+  .card-nature {
+    background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%);
+    grid-column: 2 / span 2;
+    grid-row: 2;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .nature-deco {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    pointer-events: none;
+  }
+
+  .deco-emoji {
+    position: absolute;
+    font-size: 40px;
+    opacity: 0.22;
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
+    animation: natureBob 5s ease-in-out infinite;
+    animation-delay: calc(var(--i) * 0.4s);
+    top: calc(20% + (var(--i) % 3) * 25%);
+    right: calc(6% + (var(--i) * 14%));
+  }
+
+  @keyframes natureBob {
+    0%, 100% { transform: translateY(0) rotate(-4deg); }
+    50% { transform: translateY(-10px) rotate(4deg); }
+  }
+
+  /* Responsive */
+  @media (max-width: 968px) {
+    .bento {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: auto;
+      grid-auto-flow: row;
+    }
+    .card-hero {
+      grid-column: 1 / span 2;
+      grid-row: auto;
+      min-height: 380px;
+    }
+    .card-history { grid-column: 1; grid-row: auto; }
+    .card-art { grid-column: 2; grid-row: auto; }
+    .card-nature { grid-column: 1 / span 2; grid-row: auto; }
+  }
+
+  @media (max-width: 560px) {
+    .universes-v2 { padding: 64px 0; }
+    .bento { grid-template-columns: 1fr; gap: 14px; }
+    .card-hero,
+    .card-history,
+    .card-art,
+    .card-nature { grid-column: 1; grid-row: auto; }
+    .card-hero { min-height: 340px; }
+    .card { min-height: 220px; padding: 24px; }
+    .deco-emoji { font-size: 32px; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .swarm-flag { animation: none; }
+    .card:hover { transform: none; }
+  }
+</style>
+
+<script is:inline>
+(() => {
+  const counters = document.querySelectorAll('.universes-v2 .stat-num');
+  if (!counters.length || !('IntersectionObserver' in window)) return;
+
+  const animate = (el) => {
+    const text = el.textContent || '';
+    const hasPlus = text.includes('+');
+    const target = parseInt(text.replace(/\D/g, ''), 10);
+    if (!target) return;
+    const duration = 1600;
+    const start = performance.now();
+    const tick = (now) => {
+      const p = Math.min((now - start) / duration, 1);
+      const eased = 1 - Math.pow(1 - p, 3);
+      const val = Math.round(target * eased);
+      el.textContent = val.toString() + (hasPlus && p === 1 ? '+' : '');
+      if (p < 1) requestAnimationFrame(tick);
+    };
+    requestAnimationFrame(tick);
+  };
+
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach((e) => {
+      if (e.isIntersecting) {
+        animate(e.target);
+        io.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.4 });
+
+  counters.forEach((c) => io.observe(c));
+})();
+</script>

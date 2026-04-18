@@ -1,0 +1,198 @@
+---
+import type { Lang } from '../../i18n';
+import { getLocalePath } from '../../i18n';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+
+const copy = {
+  fr: {
+    kicker: 'On répond',
+    title: 'Les questions\nqu\'on nous pose le plus.',
+    items: [
+      { q: 'SAPIRO est-il vraiment gratuit ?', a: 'Oui. La version gratuite donne accès aux 4 univers, à une douzaine de parcours, aux modes Classique et Survie illimités, et au défi quotidien. Zéro publicité. Sapiro+ (dès 1,99 €/mois) débloque 50+ parcours supplémentaires.' },
+      { q: 'Vous collectez mes données ?', a: 'Non. Zéro collecte. Pas de cookies, pas de tracking, pas de partage tiers. Toutes tes données de progression restent sur ton appareil.' },
+      { q: 'L\'app fonctionne hors ligne ?', a: 'Oui, 100%. Tout le contenu est téléchargé avec l\'app. Dans l\'avion, le métro ou en camping, ça marche.' },
+      { q: 'C\'est adapté aux enfants ?', a: 'Parfaitement. Aucune publicité, aucun contenu tiers, aucun compte obligatoire, aucune donnée collectée. Les enfants peuvent jouer seuls en toute autonomie.' },
+      { q: 'Quelle différence entre Gratuit et Sapiro+ ?', a: 'Le Gratuit inclut tout le cœur du jeu sans pub. Sapiro+ débloque 50+ parcours exclusifs (musées, familles animales, empires) et un badge Premium.' },
+    ],
+    more: 'Voir toutes les questions',
+  },
+  en: {
+    kicker: 'We answer',
+    title: 'The questions\nwe get most.',
+    items: [
+      { q: 'Is SAPIRO really free?', a: 'Yes. The free version gives access to all 4 universes, a dozen paths, unlimited Classic and Survival modes, and the daily challenge. Zero ads. Sapiro+ (from €1.99/mo) unlocks 50+ additional paths.' },
+      { q: 'Do you collect my data?', a: 'No. Zero collection. No cookies, no tracking, no third-party sharing. All your progress stays on your device.' },
+      { q: 'Does the app work offline?', a: 'Yes, 100%. All content is bundled with the app. On a plane, subway, or camping — it works.' },
+      { q: 'Is it kid-friendly?', a: 'Perfectly. No ads, no third-party content, no mandatory account, no data collection. Kids can play solo in full autonomy.' },
+      { q: 'Free vs Sapiro+ difference?', a: 'Free includes the full core experience with no ads. Sapiro+ unlocks 50+ exclusive paths (museums, animal families, empires) and a Premium badge.' },
+    ],
+    more: 'See all questions',
+  },
+  es: {
+    kicker: 'Respondemos',
+    title: 'Las preguntas\nque mas nos hacen.',
+    items: [
+      { q: 'SAPIRO es realmente gratis?', a: 'Si. La version gratuita da acceso a los 4 universos, a una docena de recorridos, a los modos Clasico y Supervivencia sin limite, y al desafio diario. Cero anuncios. Sapiro+ (desde 1,99 €/mes) desbloquea 50+ recorridos adicionales.' },
+      { q: 'Recolectan mis datos?', a: 'No. Cero recoleccion. Sin cookies, sin tracking, sin intercambio con terceros. Toda tu progresion se queda en tu dispositivo.' },
+      { q: 'Funciona sin conexion?', a: 'Si, al 100%. Todo el contenido se descarga con la app. En el avion, el metro o en camping, funciona.' },
+      { q: 'Apta para ninos?', a: 'Perfectamente. Sin anuncios, sin contenido de terceros, sin cuenta obligatoria, sin datos recolectados. Los ninos pueden jugar solos con total autonomia.' },
+      { q: 'Diferencia Gratis vs Sapiro+ ?', a: 'El Gratis incluye todo el nucleo del juego sin publicidad. Sapiro+ desbloquea 50+ recorridos exclusivos (museos, familias animales, imperios) y una insignia Premium.' },
+    ],
+    more: 'Ver todas las preguntas',
+  },
+};
+
+const t = copy[lang];
+---
+
+<section class="faq-v2">
+  <div class="container">
+    <div class="head">
+      <span class="kicker">❓ {t.kicker}</span>
+      <h2 class="title">{t.title}</h2>
+    </div>
+
+    <div class="list">
+      {t.items.map((item, i) => (
+        <details class="item" open={i === 0}>
+          <summary>
+            <span>{item.q}</span>
+            <span class="toggle" aria-hidden="true">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+            </span>
+          </summary>
+          <p>{item.a}</p>
+        </details>
+      ))}
+    </div>
+
+    <div class="foot">
+      <a href={getLocalePath('/faq', lang)} class="more-link">{t.more} →</a>
+    </div>
+  </div>
+</section>
+
+<style>
+  .faq-v2 {
+    background: #F9FAFB;
+    padding: 96px 0;
+  }
+
+  .head {
+    max-width: 720px;
+    margin: 0 auto 48px;
+    text-align: center;
+  }
+
+  .kicker {
+    display: inline-block;
+    padding: 6px 14px;
+    background: rgba(168, 85, 247, 0.1);
+    color: #a855f7;
+    border-radius: 999px;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+
+  .title {
+    font-size: clamp(2rem, 4.5vw, 3rem);
+    font-weight: 800;
+    letter-spacing: -0.025em;
+    line-height: 1.1;
+    color: #0a0a0f;
+    white-space: pre-line;
+  }
+
+  .list {
+    max-width: 760px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .item {
+    background: #fff;
+    border-radius: 16px;
+    border: 1px solid #e5e7eb;
+    overflow: hidden;
+    transition: box-shadow 0.2s, border-color 0.2s;
+  }
+
+  .item:hover {
+    border-color: #d1d5db;
+  }
+
+  .item[open] {
+    border-color: #ff6b35;
+    box-shadow: 0 20px 40px -20px rgba(255, 107, 53, 0.2);
+  }
+
+  summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 20px 24px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 16px;
+    color: #0a0a0f;
+    list-style: none;
+  }
+
+  summary::-webkit-details-marker { display: none; }
+
+  .toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    background: #f3f4f6;
+    border-radius: 50%;
+    color: #6b7280;
+    transition: transform 0.3s, background 0.2s;
+    flex-shrink: 0;
+  }
+
+  .item[open] .toggle {
+    transform: rotate(180deg);
+    background: #ff6b35;
+    color: #fff;
+  }
+
+  .item p {
+    padding: 0 24px 22px;
+    font-size: 15px;
+    color: #4b5563;
+    line-height: 1.65;
+    margin: 0;
+  }
+
+  .foot {
+    text-align: center;
+    margin-top: 32px;
+  }
+
+  .more-link {
+    color: #ff6b35;
+    font-weight: 600;
+    font-size: 15px;
+    transition: color 0.2s;
+  }
+
+  .more-link:hover { color: #E55A2B; }
+
+  @media (max-width: 520px) {
+    .faq-v2 { padding: 64px 0; }
+    summary { padding: 18px 18px; font-size: 15px; }
+    .item p { padding: 0 18px 18px; font-size: 14px; }
+  }
+</style>

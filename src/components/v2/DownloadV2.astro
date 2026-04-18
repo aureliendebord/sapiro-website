@@ -1,0 +1,288 @@
+---
+import type { Lang } from '../../i18n';
+import QRCode from 'qrcode';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+
+const qrTarget = 'https://sapiro.app';
+const qrSvg = await QRCode.toString(qrTarget, {
+  type: 'svg',
+  margin: 0,
+  errorCorrectionLevel: 'M',
+  color: { dark: '#0a0a0f', light: '#ffffff' },
+});
+
+const copy = {
+  fr: {
+    kicker: 'Prêt ?',
+    title: 'Télécharge SAPIRO.\nPuis va te coucher plus cultivé.',
+    subtitle: 'Gratuit. Sans pub. Sans data. 2 000+ questions attendent.',
+    ios: 'App Store',
+    android: 'Google Play',
+    iosSub: 'Télécharger sur',
+    androidSub: 'Disponible sur',
+    social: '🔒 Zéro data · 🚫 Zéro pub · 📡 100% hors ligne',
+  },
+  en: {
+    kicker: 'Ready?',
+    title: 'Download SAPIRO.\nGo to bed a little smarter.',
+    subtitle: 'Free. No ads. No data. 2,000+ questions waiting.',
+    ios: 'App Store',
+    android: 'Google Play',
+    iosSub: 'Download on the',
+    androidSub: 'Get it on',
+    social: '🔒 Zero data · 🚫 Zero ads · 📡 100% offline',
+  },
+  es: {
+    kicker: 'Listo?',
+    title: 'Descarga SAPIRO.\nVete a dormir un poco mas culto.',
+    subtitle: 'Gratis. Sin anuncios. Sin datos. 2 000+ preguntas te esperan.',
+    ios: 'App Store',
+    android: 'Google Play',
+    iosSub: 'Descargar en',
+    androidSub: 'Disponible en',
+    social: '🔒 Cero datos · 🚫 Cero anuncios · 📡 100% sin conexion',
+  },
+};
+
+const t = copy[lang];
+---
+
+<section class="download-v2" id="download">
+  <div class="bg-gradient" aria-hidden="true"></div>
+  <div class="bg-orbs" aria-hidden="true">
+    <span class="orb orb-1"></span>
+    <span class="orb orb-2"></span>
+    <span class="orb orb-3"></span>
+  </div>
+
+  <div class="container content">
+    <div class="left">
+      <span class="kicker">🚀 {t.kicker}</span>
+      <h2 class="title">{t.title}</h2>
+      <p class="subtitle">{t.subtitle}</p>
+
+      <div class="stores">
+        <a href="https://apps.apple.com/app/sapiro/id6757706883" class="store store-ios" target="_blank" rel="noopener noreferrer">
+          <svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5C17.88 20.74 17 21.95 15.66 21.97C14.32 22 13.89 21.18 12.37 21.18C10.84 21.18 10.37 21.95 9.09997 22C7.78997 22.05 6.79997 20.68 5.95997 19.47C4.24997 17 2.93997 12.45 4.69997 9.39C5.56997 7.87 7.12997 6.91 8.81997 6.88C10.1 6.86 11.32 7.75 12.11 7.75C12.89 7.75 14.37 6.68 15.92 6.84C16.57 6.87 18.39 7.1 19.56 8.82C19.47 8.88 17.39 10.1 17.41 12.63C17.44 15.65 20.06 16.66 20.09 16.67C20.06 16.74 19.67 18.11 18.71 19.5ZM13 3.5C13.73 2.67 14.94 2.04 15.94 2C16.07 3.17 15.6 4.35 14.9 5.19C14.21 6.04 13.07 6.7 11.95 6.61C11.8 5.46 12.36 4.26 13 3.5Z"/></svg>
+          <div class="store-txt">
+            <small>{t.iosSub}</small>
+            <strong>{t.ios}</strong>
+          </div>
+        </a>
+
+        <a href="https://play.google.com/store/apps/details?id=com.sapiro.app" class="store store-android" target="_blank" rel="noopener noreferrer">
+          <svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor"><path d="M3 20.5V3.5C3 2.91 3.34 2.39 3.84 2.15L13.69 12L3.84 21.85C3.34 21.6 3 21.09 3 20.5ZM16.81 15.12L6.05 21.34L14.54 12.85L16.81 15.12ZM20.16 10.81C20.5 11.08 20.75 11.5 20.75 12C20.75 12.5 20.53 12.9 20.18 13.18L17.89 14.5L15.39 12L17.89 9.5L20.16 10.81ZM6.05 2.66L16.81 8.88L14.54 11.15L6.05 2.66Z"/></svg>
+          <div class="store-txt">
+            <small>{t.androidSub}</small>
+            <strong>{t.android}</strong>
+          </div>
+        </a>
+      </div>
+
+      <p class="social">{t.social}</p>
+    </div>
+
+    <div class="right">
+      <a href={qrTarget} class="qr-card" aria-label="sapiro.app">
+        <div class="qr-head">📱 Scan</div>
+        <div class="qr" set:html={qrSvg}></div>
+        <div class="qr-foot">sapiro.app</div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<style>
+  .download-v2 {
+    position: relative;
+    overflow: hidden;
+    padding: 120px 0;
+    isolation: isolate;
+    color: #fff;
+    background: #0a0a0f;
+  }
+
+  .bg-gradient {
+    position: absolute;
+    inset: 0;
+    z-index: -2;
+    background:
+      radial-gradient(circle at 20% 30%, rgba(255, 107, 53, 0.4), transparent 55%),
+      radial-gradient(circle at 80% 70%, rgba(168, 85, 247, 0.35), transparent 55%),
+      radial-gradient(circle at 50% 50%, rgba(251, 191, 36, 0.15), transparent 60%);
+  }
+
+  .bg-orbs {
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+  }
+
+  .orb {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(60px);
+  }
+
+  .orb-1 { width: 300px; height: 300px; background: rgba(255, 107, 53, 0.35); top: -100px; right: -50px; animation: orbFloat 8s ease-in-out infinite; }
+  .orb-2 { width: 260px; height: 260px; background: rgba(168, 85, 247, 0.3); bottom: -80px; left: -50px; animation: orbFloat 9s ease-in-out infinite 1s; }
+  .orb-3 { width: 200px; height: 200px; background: rgba(251, 191, 36, 0.2); top: 50%; left: 40%; animation: orbFloat 7s ease-in-out infinite 2s; }
+
+  @keyframes orbFloat {
+    0%, 100% { transform: translate(0,0); }
+    50% { transform: translate(20px, -30px); }
+  }
+
+  .content {
+    display: grid;
+    grid-template-columns: 1.3fr 1fr;
+    gap: 48px;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+  }
+
+  .kicker {
+    display: inline-block;
+    padding: 6px 14px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 999px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    margin-bottom: 24px;
+  }
+
+  .title {
+    font-size: clamp(2.2rem, 5vw, 4rem);
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    line-height: 1.05;
+    margin-bottom: 20px;
+    white-space: pre-line;
+  }
+
+  .subtitle {
+    font-size: 1.15rem;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 1.55;
+    margin-bottom: 32px;
+    max-width: 520px;
+  }
+
+  .stores {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin-bottom: 24px;
+  }
+
+  .store {
+    display: inline-flex;
+    align-items: center;
+    gap: 14px;
+    padding: 14px 24px;
+    background: rgba(255, 255, 255, 0.95);
+    color: #0a0a0f;
+    border-radius: 16px;
+    font-weight: 600;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 10px 30px -8px rgba(0, 0, 0, 0.35);
+  }
+
+  .store:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 16px 40px -8px rgba(0, 0, 0, 0.45);
+  }
+
+  .store-txt {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.1;
+  }
+
+  .store-txt small {
+    font-size: 10px;
+    color: #6b7280;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+
+  .store-txt strong {
+    font-size: 18px;
+    letter-spacing: -0.01em;
+  }
+
+  .social {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.5);
+    letter-spacing: 0.02em;
+  }
+
+  /* QR card */
+  .right { display: flex; justify-content: center; }
+
+  .qr-card {
+    padding: 24px;
+    background: rgba(255, 255, 255, 0.98);
+    color: #0a0a0f;
+    border-radius: 24px;
+    width: 260px;
+    text-align: center;
+    box-shadow: 0 40px 80px -20px rgba(0, 0, 0, 0.5);
+    transform: rotate(-3deg);
+    transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  .qr-card:hover { transform: rotate(0deg) scale(1.02); }
+
+  .qr-head {
+    font-size: 13px;
+    font-weight: 600;
+    color: #6b7280;
+    margin-bottom: 14px;
+    letter-spacing: 0.05em;
+  }
+
+  .qr {
+    background: #fff;
+    border-radius: 16px;
+    padding: 16px;
+    margin-bottom: 14px;
+    line-height: 0;
+  }
+
+  .qr svg {
+    display: block;
+    width: 100%;
+    height: auto;
+    shape-rendering: crispEdges;
+  }
+
+  .qr-foot {
+    font-size: 14px;
+    font-weight: 700;
+    color: #0a0a0f;
+  }
+
+  @media (max-width: 840px) {
+    .download-v2 { padding: 80px 0; }
+    .content { grid-template-columns: 1fr; text-align: center; }
+    .subtitle { margin-left: auto; margin-right: auto; }
+    .stores { justify-content: center; }
+    .right { display: none; }
+  }
+
+  @media (max-width: 480px) {
+    .stores { flex-direction: column; }
+    .store { justify-content: center; }
+  }
+</style>

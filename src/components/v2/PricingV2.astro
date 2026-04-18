@@ -1,0 +1,506 @@
+---
+import type { Lang } from '../../i18n';
+import { getLocalePath } from '../../i18n';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+
+const copy = {
+  fr: {
+    kicker: 'Tarifs',
+    title: 'Gratuit pour toujours.\nPremium pour les mordus.',
+    subtitle: 'Zéro pub, zéro data, zéro piège. Choisis la formule qui te va.',
+    freeTitle: 'Gratuit',
+    freeSub: 'Pour toujours',
+    freeFeatures: [
+      '4 univers complets',
+      '~12 parcours inclus',
+      'Classique & Survie illimités',
+      'Défi quotidien',
+      'Aucune publicité',
+      'Hors ligne',
+    ],
+    freeCta: 'Télécharger gratuitement',
+    plusTitle: 'Sapiro+',
+    plusSub: 'Pour les plus curieux',
+    plusFeatures: [
+      'Tout le contenu gratuit',
+      '50+ parcours thématiques',
+      'Musées : Louvre, MoMA, Orsay…',
+      'Familles animales, empires',
+      'Badge Premium',
+      'Mises à jour prioritaires',
+    ],
+    priceMonth: '1,99 €',
+    priceMonthLabel: '/mois',
+    priceYear: '19,99 €',
+    priceYearLabel: '/an',
+    priceLifetime: '39,99 €',
+    priceLifetimeLabel: 'une fois',
+    badgeYear: 'Populaire',
+    badgeLifetime: 'Meilleur deal',
+    seeAll: 'Voir tous les détails',
+    savings: '≈ 2 mois offerts',
+    lifetimeNote: 'Jamais d\'abonnement',
+  },
+  en: {
+    kicker: 'Pricing',
+    title: 'Free forever.\nPremium for super-curious.',
+    subtitle: 'Zero ads, zero data, zero tricks. Pick what fits.',
+    freeTitle: 'Free',
+    freeSub: 'Forever',
+    freeFeatures: [
+      '4 full universes',
+      '~12 paths included',
+      'Classic & Survival unlimited',
+      'Daily challenge',
+      'No ads',
+      'Offline',
+    ],
+    freeCta: 'Download for free',
+    plusTitle: 'Sapiro+',
+    plusSub: 'For the curious ones',
+    plusFeatures: [
+      'Everything in Free',
+      '50+ themed paths',
+      'Museums: Louvre, MoMA, Orsay…',
+      'Animal families, empires',
+      'Premium badge',
+      'Priority updates',
+    ],
+    priceMonth: '€1.99',
+    priceMonthLabel: '/month',
+    priceYear: '€19.99',
+    priceYearLabel: '/year',
+    priceLifetime: '€39.99',
+    priceLifetimeLabel: 'once',
+    badgeYear: 'Popular',
+    badgeLifetime: 'Best deal',
+    seeAll: 'See full pricing',
+    savings: '≈ 2 months free',
+    lifetimeNote: 'No subscription',
+  },
+  es: {
+    kicker: 'Precios',
+    title: 'Gratis para siempre.\nPremium para los mas curiosos.',
+    subtitle: 'Cero anuncios, cero datos, cero trampas. Elige lo que te va.',
+    freeTitle: 'Gratis',
+    freeSub: 'Para siempre',
+    freeFeatures: [
+      '4 universos completos',
+      '~12 recorridos incluidos',
+      'Clasico y Supervivencia sin limite',
+      'Desafio diario',
+      'Sin anuncios',
+      'Sin conexion',
+    ],
+    freeCta: 'Descargar gratis',
+    plusTitle: 'Sapiro+',
+    plusSub: 'Para los mas curiosos',
+    plusFeatures: [
+      'Todo lo gratis',
+      '50+ recorridos tematicos',
+      'Museos: Louvre, MoMA, Orsay…',
+      'Familias animales, imperios',
+      'Insignia Premium',
+      'Actualizaciones prioritarias',
+    ],
+    priceMonth: '1,99 €',
+    priceMonthLabel: '/mes',
+    priceYear: '19,99 €',
+    priceYearLabel: '/ano',
+    priceLifetime: '39,99 €',
+    priceLifetimeLabel: 'una vez',
+    badgeYear: 'Popular',
+    badgeLifetime: 'Mejor oferta',
+    seeAll: 'Ver todos los detalles',
+    savings: '≈ 2 meses gratis',
+    lifetimeNote: 'Sin suscripcion',
+  },
+};
+
+const t = copy[lang];
+---
+
+<section class="pricing-v2">
+  <div class="container">
+    <div class="head">
+      <span class="kicker">💎 {t.kicker}</span>
+      <h2 class="title">{t.title}</h2>
+      <p class="subtitle">{t.subtitle}</p>
+    </div>
+
+    <div class="grid">
+      <!-- FREE -->
+      <article class="plan plan-free">
+        <div class="plan-head">
+          <h3>{t.freeTitle}</h3>
+          <p class="plan-sub">{t.freeSub}</p>
+        </div>
+        <div class="plan-price">
+          <span class="price-big">0 €</span>
+        </div>
+        <ul class="features">
+          {t.freeFeatures.map((f) => (
+            <li><span class="check">✓</span>{f}</li>
+          ))}
+        </ul>
+        <a href="#download" class="plan-cta cta-ghost">{t.freeCta}</a>
+      </article>
+
+      <!-- PLUS -->
+      <article class="plan plan-plus">
+        <div class="plan-ribbon">Sapiro+</div>
+
+        <div class="plan-head">
+          <h3>{t.plusTitle}</h3>
+          <p class="plan-sub">{t.plusSub}</p>
+        </div>
+
+        <div class="price-options">
+          <label class="price-opt">
+            <input type="radio" name="pricing-plan" value="month" />
+            <span class="opt-inner">
+              <span class="opt-head">
+                <span class="opt-title">Mensuel</span>
+              </span>
+              <span class="opt-price">
+                <strong>{t.priceMonth}</strong>
+                <em>{t.priceMonthLabel}</em>
+              </span>
+            </span>
+          </label>
+
+          <label class="price-opt" data-badge={t.badgeYear}>
+            <input type="radio" name="pricing-plan" value="year" checked />
+            <span class="opt-inner">
+              <span class="opt-head">
+                <span class="opt-title">Annuel</span>
+                <span class="opt-save">{t.savings}</span>
+              </span>
+              <span class="opt-price">
+                <strong>{t.priceYear}</strong>
+                <em>{t.priceYearLabel}</em>
+              </span>
+            </span>
+          </label>
+
+          <label class="price-opt price-opt-lifetime" data-badge={t.badgeLifetime}>
+            <input type="radio" name="pricing-plan" value="lifetime" />
+            <span class="opt-inner">
+              <span class="opt-head">
+                <span class="opt-title">À vie</span>
+                <span class="opt-save">{t.lifetimeNote}</span>
+              </span>
+              <span class="opt-price">
+                <strong>{t.priceLifetime}</strong>
+                <em>{t.priceLifetimeLabel}</em>
+              </span>
+            </span>
+          </label>
+        </div>
+
+        <ul class="features">
+          {t.plusFeatures.map((f) => (
+            <li><span class="check check-plus">✓</span>{f}</li>
+          ))}
+        </ul>
+
+        <a href="#download" class="plan-cta cta-primary">{t.freeCta}</a>
+        <a href={getLocalePath('/pricing', lang)} class="plan-link">{t.seeAll} →</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<style>
+  .pricing-v2 {
+    background: #fff;
+    padding: 96px 0;
+  }
+
+  .head {
+    max-width: 720px;
+    margin: 0 auto 56px;
+    text-align: center;
+  }
+
+  .kicker {
+    display: inline-block;
+    padding: 6px 14px;
+    background: rgba(20, 184, 166, 0.12);
+    color: #0d9488;
+    border-radius: 999px;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+
+  .title {
+    font-size: clamp(2rem, 4.5vw, 3.25rem);
+    font-weight: 800;
+    letter-spacing: -0.025em;
+    line-height: 1.1;
+    color: #0a0a0f;
+    margin-bottom: 16px;
+    white-space: pre-line;
+  }
+
+  .subtitle {
+    font-size: 1.1rem;
+    color: #6b7280;
+    line-height: 1.6;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    gap: 24px;
+    max-width: 1000px;
+    margin: 0 auto;
+    align-items: stretch;
+  }
+
+  .plan {
+    position: relative;
+    background: #fff;
+    border-radius: 28px;
+    padding: 36px 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .plan-free {
+    border: 2px solid #e5e7eb;
+  }
+
+  .plan-plus {
+    background: linear-gradient(180deg, #0a0a0f 0%, #1a1a2e 100%);
+    color: #fff;
+    border: 2px solid transparent;
+    box-shadow: 0 40px 80px -30px rgba(255, 107, 53, 0.5), 0 0 0 1px rgba(255, 107, 53, 0.15);
+    overflow: hidden;
+  }
+
+  .plan-plus::before {
+    content: '';
+    position: absolute;
+    top: -100px;
+    right: -100px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(255, 107, 53, 0.4), transparent 70%);
+    pointer-events: none;
+  }
+
+  .plan-ribbon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 6px 14px;
+    background: linear-gradient(135deg, #ff6b35, #fbbf24);
+    color: #fff;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    z-index: 2;
+  }
+
+  .plan-head h3 {
+    font-size: 1.6rem;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    margin-bottom: 4px;
+  }
+
+  .plan-sub {
+    font-size: 14px;
+    color: #6b7280;
+  }
+
+  .plan-plus .plan-sub { color: rgba(255, 255, 255, 0.6); }
+
+  .plan-price {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+  }
+
+  .price-big {
+    font-size: 3.5rem;
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    line-height: 1;
+    color: #0a0a0f;
+  }
+
+  .plan-plus .price-big { color: #fff; }
+
+  /* Price options radio group */
+  .price-options {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .price-opt {
+    position: relative;
+    display: block;
+    cursor: pointer;
+  }
+
+  .price-opt input {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .opt-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 14px 16px;
+    border: 1.5px solid rgba(255, 255, 255, 0.12);
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 0.03);
+    transition: all 0.25s;
+  }
+
+  .price-opt:hover .opt-inner {
+    background: rgba(255, 255, 255, 0.06);
+    border-color: rgba(255, 255, 255, 0.2);
+  }
+
+  .price-opt input:checked + .opt-inner {
+    background: rgba(255, 107, 53, 0.12);
+    border-color: #ff6b35;
+    box-shadow: 0 0 0 3px rgba(255, 107, 53, 0.15);
+  }
+
+  .price-opt[data-badge]::after {
+    content: attr(data-badge);
+    position: absolute;
+    top: -8px;
+    right: 16px;
+    padding: 3px 10px;
+    background: linear-gradient(135deg, #fbbf24, #ff6b35);
+    color: #fff;
+    border-radius: 999px;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+
+  .opt-head { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+  .opt-title { font-size: 15px; font-weight: 600; color: #fff; }
+  .opt-save { font-size: 11px; color: #fbbf24; font-weight: 500; }
+
+  .opt-price {
+    display: flex;
+    align-items: baseline;
+    gap: 4px;
+    color: #fff;
+    white-space: nowrap;
+  }
+
+  .opt-price strong { font-size: 18px; font-weight: 800; letter-spacing: -0.02em; }
+  .opt-price em { font-size: 12px; font-style: normal; color: rgba(255, 255, 255, 0.55); }
+
+  /* Features */
+  .features {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+  }
+
+  .features li {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: 14px;
+    color: #374151;
+  }
+
+  .plan-plus .features li { color: rgba(255, 255, 255, 0.85); }
+
+  .check {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background: #e5e7eb;
+    color: #374151;
+    font-size: 11px;
+    font-weight: 800;
+    margin-top: 1px;
+  }
+
+  .check-plus {
+    background: linear-gradient(135deg, #ff6b35, #fbbf24);
+    color: #fff;
+  }
+
+  .plan-cta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 20px;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 15px;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+
+  .cta-ghost {
+    background: #0a0a0f;
+    color: #fff;
+  }
+
+  .cta-ghost:hover { transform: translateY(-2px); box-shadow: 0 12px 28px -10px rgba(0,0,0,0.35); }
+
+  .cta-primary {
+    background: linear-gradient(135deg, #ff6b35, #ff8f5c);
+    color: #fff;
+    box-shadow: 0 10px 30px -8px rgba(255, 107, 53, 0.5);
+  }
+
+  .cta-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 16px 40px -8px rgba(255, 107, 53, 0.65);
+  }
+
+  .plan-link {
+    text-align: center;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: -10px;
+  }
+
+  .plan-link:hover { color: #fff; }
+
+  @media (max-width: 840px) {
+    .grid { grid-template-columns: 1fr; }
+  }
+
+  @media (max-width: 520px) {
+    .pricing-v2 { padding: 64px 0; }
+    .plan { padding: 28px 22px; border-radius: 22px; }
+  }
+</style>

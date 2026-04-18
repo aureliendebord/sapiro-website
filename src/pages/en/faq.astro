@@ -2,7 +2,11 @@
 import Layout from '../../layouts/Layout.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
-import { getTranslations, getLocalePath } from '../../i18n';
+import PageHeroV2 from '../../components/v2/PageHeroV2.astro';
+import FaqFullV2 from '../../components/v2/FaqFullV2.astro';
+import DownloadV2 from '../../components/v2/DownloadV2.astro';
+import StickyMobileCta from '../../components/v2/StickyMobileCta.astro';
+import { getTranslations } from '../../i18n';
 
 const lang = 'en';
 const t = getTranslations(lang);
@@ -20,244 +24,68 @@ const t = getTranslations(lang);
       "mainEntity": t.faq.items.map((item: any) => ({
         "@type": "Question",
         "name": item.question,
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": item.answer
-        }
+        "acceptedAnswer": { "@type": "Answer", "text": item.answer }
       }))
     })} />
   </Fragment>
   <Header lang={lang} t={t} />
 
-  <main class="faq-page">
-    <div class="container">
-      <a href={getLocalePath('/', lang)} class="back-link">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <path d="M19 12H5M12 19l-7-7 7-7"/>
-        </svg>
-        {t.header.home}
-      </a>
+  <main class="page-main">
+    <PageHeroV2
+      lang={lang}
+      kicker="❓ Frequently asked"
+      title="Everything you"
+      highlight="ask us."
+      subtitle={t.faq.subtitle}
+      backLabel={t.header.home}
+    />
 
-      <div class="faq-header">
-        <h1>{t.faq.title}</h1>
-        <p class="faq-subtitle">{t.faq.subtitle}</p>
-      </div>
+    <FaqFullV2 items={t.faq.items} />
 
-      <div class="faq-list">
-        {t.faq.items.map((item: any) => (
-          <details class="faq-item">
-            <summary class="faq-question">
-              <span>{item.question}</span>
-              <svg class="chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M6 9l6 6 6-6"/>
-              </svg>
-            </summary>
-            <div class="faq-answer">
-              <p>{item.answer}</p>
-            </div>
-          </details>
-        ))}
-      </div>
-    </div>
-
-    <!-- Full-width CTA -->
-    <section class="faq-cta">
-      <div class="container cta-content">
-        <div class="cta-icon">
-          <img src="/images/icon-180.png" alt="SAPIRO" width="100" height="100" />
-        </div>
-
-        <div class="cta-buttons">
-          <a href="https://apps.apple.com/app/sapiro/id6757706883" class="btn btn-primary store-btn" target="_blank" rel="noopener noreferrer">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-              <path d="M18.71 19.5C17.88 20.74 17 21.95 15.66 21.97C14.32 22 13.89 21.18 12.37 21.18C10.84 21.18 10.37 21.95 9.09997 22C7.78997 22.05 6.79997 20.68 5.95997 19.47C4.24997 17 2.93997 12.45 4.69997 9.39C5.56997 7.87 7.12997 6.91 8.81997 6.88C10.1 6.86 11.32 7.75 12.11 7.75C12.89 7.75 14.37 6.68 15.92 6.84C16.57 6.87 18.39 7.1 19.56 8.82C19.47 8.88 17.39 10.1 17.41 12.63C17.44 15.65 20.06 16.66 20.09 16.67C20.06 16.74 19.67 18.11 18.71 19.5ZM13 3.5C13.73 2.67 14.94 2.04 15.94 2C16.07 3.17 15.6 4.35 14.9 5.19C14.21 6.04 13.07 6.7 11.95 6.61C11.8 5.46 12.36 4.26 13 3.5Z"/>
-            </svg>
-            <span>{t.pricing.cta} — App Store</span>
-          </a>
-
-          <a href="https://play.google.com/store/apps/details?id=com.sapiro.app" class="btn btn-primary store-btn" target="_blank" rel="noopener noreferrer">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-              <path d="M17.523 2H6.477C5.768 2 5.143 2.447 4.896 3.105L2.105 10.895C2.036 11.079 2 11.273 2 11.469V20C2 21.103 2.897 22 4 22H20C21.103 22 22 21.103 22 20V11.469C22 11.273 21.964 11.079 21.895 10.895L19.104 3.105C18.857 2.447 18.232 2 17.523 2ZM12 17C10.346 17 9 15.654 9 14C9 12.346 10.346 11 12 11C13.654 11 15 12.346 15 14C15 15.654 13.654 17 12 17ZM4.619 10L6.477 4H17.523L19.381 10H4.619Z"/>
-            </svg>
-            <span>{t.pricing.cta} — Google Play</span>
-          </a>
-        </div>
-
-        <p class="cta-note">{t.pricing.note}</p>
-      </div>
-    </section>
+    <DownloadV2 lang={lang} />
   </main>
 
   <Footer lang={lang} t={t} />
+  <StickyMobileCta lang={lang} />
 </Layout>
 
-<style>
-  .faq-page {
-    padding-top: 120px;
-    padding-bottom: 80px;
-    min-height: 100vh;
+<style is:global>
+  .page-main > section {
+    opacity: 0;
+    transform: translateY(24px);
+    transition: opacity 0.7s cubic-bezier(0.22, 1, 0.36, 1), transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
   }
 
-  .back-link {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    color: var(--orange);
-    font-weight: 500;
-    margin-bottom: 32px;
-    transition: gap 0.2s;
+  .page-main > section.revealed,
+  .page-main > section:first-child {
+    opacity: 1;
+    transform: translateY(0);
   }
 
-  .back-link:hover {
-    gap: 12px;
-  }
-
-  /* Header */
-  .faq-header {
-    text-align: center;
-    max-width: 700px;
-    margin: 0 auto 64px;
-  }
-
-  .faq-header h1 {
-    font-size: 2.5rem;
-    margin-bottom: 16px;
-  }
-
-  .faq-subtitle {
-    font-size: 1.35rem;
-    color: var(--orange);
-    font-weight: 600;
-  }
-
-  /* FAQ List */
-  .faq-list {
-    max-width: 800px;
-    margin: 0 auto 64px;
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-  }
-
-  .faq-item {
-    background: var(--blanc);
-    border-radius: var(--border-radius);
-    box-shadow: var(--shadow);
-    border-left: 4px solid var(--orange);
-    overflow: hidden;
-  }
-
-  .faq-question {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 16px;
-    padding: 24px 28px;
-    cursor: pointer;
-    font-weight: 700;
-    font-size: 1.05rem;
-    color: var(--noir);
-    list-style: none;
-    transition: background 0.2s;
-  }
-
-  .faq-question::-webkit-details-marker {
-    display: none;
-  }
-
-  .faq-question::marker {
-    display: none;
-    content: "";
-  }
-
-  .faq-question:hover {
-    background: rgba(255, 107, 53, 0.04);
-  }
-
-  .chevron {
-    flex-shrink: 0;
-    color: var(--orange);
-    transition: transform 0.3s;
-  }
-
-  .faq-item[open] .chevron {
-    transform: rotate(180deg);
-  }
-
-  .faq-answer {
-    padding: 0 28px 24px;
-  }
-
-  .faq-answer p {
-    color: var(--gris);
-    line-height: 1.7;
-    font-size: 1rem;
-  }
-
-  /* Full-width CTA */
-  .faq-cta {
-    background: linear-gradient(135deg, var(--violet) 0%, var(--violet-light) 100%);
-    color: var(--blanc);
-    padding: 64px 24px;
-    text-align: center;
-  }
-
-  .cta-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 600px;
-  }
-
-  .cta-icon {
-    margin-bottom: 32px;
-  }
-
-  .cta-icon img {
-    border-radius: 24px;
-    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
-  }
-
-  .cta-buttons {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 16px;
-    margin-bottom: 24px;
-  }
-
-  .store-btn {
-    background: var(--blanc);
-    color: var(--noir);
-  }
-
-  .cta-note {
-    font-size: 0.9rem;
-    opacity: 0.8;
-  }
-
-  /* Responsive */
-  @media (max-width: 768px) {
-    .faq-header h1 {
-      font-size: 2rem;
-    }
-
-    .faq-question {
-      padding: 20px 20px;
-      font-size: 0.95rem;
-    }
-
-    .faq-answer {
-      padding: 0 20px 20px;
-    }
-
-    .cta-buttons {
-      flex-direction: column;
-      align-items: stretch;
-    }
-
-    .btn {
-      justify-content: center;
+  @media (prefers-reduced-motion: reduce) {
+    .page-main > section {
+      opacity: 1 !important;
+      transform: none !important;
+      transition: none !important;
     }
   }
 </style>
+
+<script is:inline>
+(() => {
+  const sections = document.querySelectorAll('.page-main > section');
+  if (!('IntersectionObserver' in window)) {
+    sections.forEach((s) => s.classList.add('revealed'));
+    return;
+  }
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach((e) => {
+      if (e.isIntersecting) {
+        e.target.classList.add('revealed');
+        io.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
+  sections.forEach((s) => io.observe(s));
+})();
+</script>

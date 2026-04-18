@@ -1,0 +1,135 @@
+---
+import type { Lang } from '../../i18n';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+
+const copy = {
+  fr: [
+    { icon: '🚫', value: '0 pub', label: 'jamais, promis' },
+    { icon: '🔒', value: '0 donnée', label: 'tout reste chez toi' },
+    { icon: '📡', value: '100%', label: 'hors ligne' },
+    { icon: '✅', value: '2 000+', label: 'questions vérifiées' },
+    { icon: '🌍', value: '197', label: 'pays' },
+    { icon: '🎨', value: '553', label: 'œuvres' },
+  ],
+  en: [
+    { icon: '🚫', value: '0 ads', label: 'ever, promise' },
+    { icon: '🔒', value: '0 data', label: 'stays on your device' },
+    { icon: '📡', value: '100%', label: 'offline' },
+    { icon: '✅', value: '2,000+', label: 'verified questions' },
+    { icon: '🌍', value: '197', label: 'countries' },
+    { icon: '🎨', value: '553', label: 'artworks' },
+  ],
+  es: [
+    { icon: '🚫', value: '0 anuncios', label: 'nunca, promesa' },
+    { icon: '🔒', value: '0 datos', label: 'todo se queda contigo' },
+    { icon: '📡', value: '100%', label: 'sin conexion' },
+    { icon: '✅', value: '2 000+', label: 'preguntas verificadas' },
+    { icon: '🌍', value: '197', label: 'paises' },
+    { icon: '🎨', value: '553', label: 'obras' },
+  ],
+};
+
+const items = copy[lang];
+// duplicate for seamless marquee
+const marqueeItems = [...items, ...items];
+---
+
+<section class="trust-bar">
+  <div class="marquee" aria-hidden="true">
+    <div class="track">
+      {marqueeItems.map((item) => (
+        <div class="item">
+          <span class="icon">{item.icon}</span>
+          <span class="value">{item.value}</span>
+          <span class="label">{item.label}</span>
+        </div>
+      ))}
+    </div>
+  </div>
+
+  <ul class="sr-list sr-only">
+    {items.map((item) => (
+      <li>{item.value} {item.label}</li>
+    ))}
+  </ul>
+</section>
+
+<style>
+  .trust-bar {
+    background: #0a0a0f;
+    color: #fff;
+    padding: 28px 0;
+    overflow: hidden;
+    border-top: 1px solid rgba(255, 255, 255, 0.06);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+    position: relative;
+  }
+
+  .trust-bar::before,
+  .trust-bar::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 120px;
+    z-index: 2;
+    pointer-events: none;
+  }
+
+  .trust-bar::before {
+    left: 0;
+    background: linear-gradient(90deg, #0a0a0f, transparent);
+  }
+
+  .trust-bar::after {
+    right: 0;
+    background: linear-gradient(-90deg, #0a0a0f, transparent);
+  }
+
+  .marquee { width: 100%; }
+
+  .track {
+    display: flex;
+    align-items: center;
+    gap: 56px;
+    width: max-content;
+    animation: marquee 35s linear infinite;
+  }
+
+  .trust-bar:hover .track {
+    animation-play-state: paused;
+  }
+
+  @keyframes marquee {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+
+  .item {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    white-space: nowrap;
+  }
+
+  .icon { font-size: 20px; }
+  .value {
+    font-weight: 800;
+    letter-spacing: -0.01em;
+    background: linear-gradient(135deg, #ff6b35, #fbbf24);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .label { color: rgba(255, 255, 255, 0.55); }
+
+  @media (prefers-reduced-motion: reduce) {
+    .track { animation: none; flex-wrap: wrap; justify-content: center; }
+  }
+</style>

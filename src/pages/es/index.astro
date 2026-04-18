@@ -1,18 +1,21 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import Header from '../../components/Header.astro';
-import Hero from '../../components/Hero.astro';
-import HowItWorks from '../../components/HowItWorks.astro';
-import Universes from '../../components/Universes.astro';
-import GameModes from '../../components/GameModes.astro';
-import TrustBadges from '../../components/TrustBadges.astro';
-import PricingTeaser from '../../components/PricingTeaser.astro';
-import ForWho from '../../components/ForWho.astro';
-import Screenshots from '../../components/Screenshots.astro';
-import About from '../../components/About.astro';
-import Download from '../../components/Download.astro';
-import Contact from '../../components/Contact.astro';
 import Footer from '../../components/Footer.astro';
+
+import HeroV2 from '../../components/v2/HeroV2.astro';
+import TrustBarV2 from '../../components/v2/TrustBarV2.astro';
+import DemoQuizV2 from '../../components/v2/DemoQuizV2.astro';
+import UniversesV2 from '../../components/v2/UniversesV2.astro';
+import PricingV2 from '../../components/v2/PricingV2.astro';
+import FaqCompactV2 from '../../components/v2/FaqCompactV2.astro';
+import DownloadV2 from '../../components/v2/DownloadV2.astro';
+import StickyMobileCta from '../../components/v2/StickyMobileCta.astro';
+
+import HowItWorks from '../../components/HowItWorks.astro';
+import GameModes from '../../components/GameModes.astro';
+import ForWho from '../../components/ForWho.astro';
+
 import { getTranslations } from '../../i18n';
 
 const lang = 'es';
@@ -36,12 +39,6 @@ const t = getTranslations(lang);
         { "@type": "Offer", "price": "19.99", "priceCurrency": "EUR", "description": "Sapiro+ Anual" },
         { "@type": "Offer", "price": "39.99", "priceCurrency": "EUR", "description": "Sapiro+ De por vida" }
       ],
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "5",
-        "ratingCount": "50",
-        "bestRating": "5"
-      },
       "screenshot": "https://sapiro.app/images/icon-1024.png"
     })} />
     <script type="application/ld+json" set:html={JSON.stringify({
@@ -57,18 +54,65 @@ const t = getTranslations(lang);
     })} />
   </Fragment>
   <Header lang={lang} t={t} />
-  <main>
-    <Hero lang={lang} t={t} />
+  <main class="v2-main">
+    <HeroV2 lang={lang} />
+    <TrustBarV2 lang={lang} />
+    <DemoQuizV2 lang={lang} />
+    <UniversesV2 lang={lang} />
     <HowItWorks lang={lang} />
-    <Universes t={t} />
     <GameModes lang={lang} />
     <ForWho lang={lang} />
-    <TrustBadges lang={lang} />
-    <PricingTeaser lang={lang} />
-    <Screenshots lang={lang} t={t} />
-    <About t={t} />
-    <Download t={t} />
-    <Contact t={t} />
+    <PricingV2 lang={lang} />
+    <FaqCompactV2 lang={lang} />
+    <DownloadV2 lang={lang} />
   </main>
   <Footer lang={lang} t={t} />
+  <StickyMobileCta lang={lang} />
 </Layout>
+
+<style is:global>
+  .v2-main .how-it-works,
+  .v2-main .game-modes,
+  .v2-main .for-who {
+    background: #F9FAFB;
+  }
+
+  .v2-main > section {
+    opacity: 0;
+    transform: translateY(24px);
+    transition: opacity 0.7s cubic-bezier(0.22, 1, 0.36, 1), transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  .v2-main > section.revealed,
+  .v2-main > section:first-child {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .v2-main > section {
+      opacity: 1 !important;
+      transform: none !important;
+      transition: none !important;
+    }
+  }
+</style>
+
+<script is:inline>
+(() => {
+  const sections = document.querySelectorAll('.v2-main > section');
+  if (!('IntersectionObserver' in window)) {
+    sections.forEach((s) => s.classList.add('revealed'));
+    return;
+  }
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach((e) => {
+      if (e.isIntersecting) {
+        e.target.classList.add('revealed');
+        io.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
+  sections.forEach((s) => io.observe(s));
+})();
+</script>
