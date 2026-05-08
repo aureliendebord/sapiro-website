@@ -22,9 +22,9 @@ Sirve para varias cosas. Es un medio de cohesion social: compartir referencias c
 
 Organizarla en grandes areas te ayuda a detectar donde vas bien y donde tienes huecos. Porque todos tenemos huecos.
 
-La geografia es la base. Conocer los paises, sus capitales, sus ubicaciones, sus banderas. Saber por que las fronteras estan donde estan. Evitar los [errores clasicos](/es/blog/erreurs-geographie/) ya te coloca por encima de la media. Y entender como la geografia condiciona la economia y la politica le da profundidad a todo lo demas.
+La geografia es la base. Conocer los paises, sus capitales, sus ubicaciones, sus banderas. Saber por que las fronteras estan donde estan. Evitar los [errores clasicos](/es/blog/errores-geografia/) ya te coloca por encima de la media. Y entender como la geografia condiciona la economia y la politica le da profundidad a todo lo demas.
 
-La historia no es una lista de fechas. Es la narrativa que explica como hemos llegado hasta aqui. Los [20 personajes historicos imprescindibles](/es/blog/personnages-historiques/) son un buen punto de partida, y nuestra guia para [aprender historia divirtiendose](/es/blog/aprender-historia-divirtiendose/) muestra metodos que funcionan de verdad. Desde las civilizaciones antiguas (Mesopotamia, Egipto, Grecia, Roma, China, Mesoamerica) hasta el siglo XXI, pasando por la Edad Media, el Renacimiento, las revoluciones y las guerras mundiales. Cada periodo abre puertas al siguiente.
+La historia no es una lista de fechas. Es la narrativa que explica como hemos llegado hasta aqui. Los [20 personajes historicos imprescindibles](/es/blog/personajes-historicos/) son un buen punto de partida, y nuestra guia para [aprender historia divirtiendose](/es/blog/aprender-historia-divirtiendose/) muestra metodos que funcionan de verdad. Desde las civilizaciones antiguas (Mesopotamia, Egipto, Grecia, Roma, China, Mesoamerica) hasta el siglo XXI, pasando por la Edad Media, el Renacimiento, las revoluciones y las guerras mundiales. Cada periodo abre puertas al siguiente.
 
 Las ciencias no requieren ser cientifico. Entender los principios de la gravedad, la evolucion, la estructura del atomo o el ADN enriquece tu forma de mirar el universo. Son cosas que se explican en pocas frases y que cambian tu perspectiva para siempre.
 
@@ -36,7 +36,7 @@ Politica y economia cierran el cuadro. Democracia, monarquia, republica. ONU, Un
 
 Leer y esperar que se te quede no funciona. La ciencia cognitiva ha identificado metodos concretos que multiplican la eficacia del aprendizaje.
 
-La repeticion espaciada es el mas potente para la retencion a largo plazo. Consiste en repasar la informacion a intervalos crecientes: al dia siguiente, a los tres dias, a la semana, al mes. Cada repaso refuerza la conexion neuronal. Las [mejores aplicaciones de geografia](/es/blog/meilleures-apps-geographie/) lo usan como base de su sistema de aprendizaje, y el efecto es notable.
+La repeticion espaciada es el mas potente para la retencion a largo plazo. Consiste en repasar la informacion a intervalos crecientes: al dia siguiente, a los tres dias, a la semana, al mes. Cada repaso refuerza la conexion neuronal. Las [mejores aplicaciones de geografia](/es/blog/mejores-apps-geografia/) lo usan como base de su sistema de aprendizaje, y el efecto es notable.
 
 El aprendizaje activo gana por goleada al pasivo. Hacerte preguntas (quiz, flashcards) es mucho mas eficaz que releer un texto. El esfuerzo de buscar la respuesta en tu propia memoria fortalece el recuerdo. Por eso los quiz funcionan tan bien como herramienta de estudio, no solo como juego.
 
@@ -62,7 +62,7 @@ Los documentales de calidad son otra via. Plataformas como Netflix, YouTube y Ar
 
 La cultura general evoluciona. Ademas de los clasicos de siempre, hay temas que todo ciudadano informado deberia manejar hoy.
 
-La geopolitica contemporanea: tensiones internacionales, bloques economicos, alianzas militares, conflictos en curso. Conocer el [significado de las banderas](/es/blog/signification-drapeaux/) es una puerta de entrada accesible, porque cada bandera condensa la historia de su nacion en un rectangulo.
+La geopolitica contemporanea: tensiones internacionales, bloques economicos, alianzas militares, conflictos en curso. Conocer el [significado de las banderas](/es/blog/significado-banderas/) es una puerta de entrada accesible, porque cada bandera condensa la historia de su nacion en un rectangulo.
 
 Cambio climatico y medio ambiente: mecanismos del calentamiento global, acuerdos internacionales como el Acuerdo de Paris, energias renovables, desafios ecologicos. Este tema cruza geografia, ciencia, politica y economia de golpe.
 
@@ -78,7 +78,7 @@ Especializarse demasiado. Si solo lees sobre historia militar o solo sobre astro
 
 No repasar. Leer algo una vez y no volver a pensarlo es casi como no haberlo leido. La curva del olvido de Hermann Ebbinghaus (1885), un modelo clasico en psicologia cognitiva, sugiere que olvidamos hasta un 70% de la informacion nueva en las primeras 24 horas si no la repasamos. La repeticion espaciada contrarresta ese efecto.
 
-Aprender pasivamente. Solo leer o escuchar, sin ponerte a prueba, es mucho menos eficaz. Incorpora quiz, juegos de preguntas, debates. Organizar una [velada de quiz en familia](/es/blog/geographie-famille/) combina aprendizaje activo con diversion: ganas por los dos lados.
+Aprender pasivamente. Solo leer o escuchar, sin ponerte a prueba, es mucho menos eficaz. Incorpora quiz, juegos de preguntas, debates. Organizar una [velada de quiz en familia](/es/blog/geografia-familia/) combina aprendizaje activo con diversion: ganas por los dos lados.
 
 Buscar la perfeccion. Nadie lo sabe todo. El objetivo es tener una base amplia, no memorizar enciclopedias. Acepta tus lagunas y ve cubriendolas poco a poco. La presion por saberlo todo es contraproducente.
 
@@ -90,7 +90,7 @@ En libros, tres recomendaciones: "Sapiens" de Yuval Noah Harari (publicado en 20
 
 En plataformas online: Wikipedia como punto de partida (siempre verificando fuentes), Khan Academy con cursos gratuitos de ciencia e historia, y TED Talks con charlas cortas que abren ventanas a temas que quiza nunca te habrias planteado.
 
-En aplicaciones: SAPIRO para geografia y cultura del mundo, con su sistema de quiz adaptativos. Nuestra [comparativa de las mejores apps de geografia](/es/blog/meilleures-apps-geographie/) te ayuda a elegir. Complementala con Duolingo para idiomas y Anki si te gustan las flashcards personalizadas.
+En aplicaciones: SAPIRO para geografia y cultura del mundo, con su sistema de quiz adaptativos. Nuestra [comparativa de las mejores apps de geografia](/es/blog/mejores-apps-geografia/) te ayuda a elegir. Complementala con Duolingo para idiomas y Anki si te gustan las flashcards personalizadas.
 
 ## Preguntas frecuentes
 

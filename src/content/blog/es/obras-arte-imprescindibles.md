@@ -85,4 +85,4 @@ Cada método tiene sus ventajas. Los museos ofrecen la emoción de ver la obra e
 
 Lo más efectivo es combinar. Visita un museo después de repasar su colección en SAPIRO y verás que la experiencia cambia por completo.
 
-Para conocer a los creadores detrás de estas obras, consulta nuestra guía de [personajes históricos imprescindibles](/es/blog/personnages-historiques/). Y si quieres que la historia se quede grabada, nuestro artículo sobre [aprender historia divirtiéndose](/es/blog/aprender-historia-divirtiendose/) explica los métodos que funcionan.
+Para conocer a los creadores detrás de estas obras, consulta nuestra guía de [personajes históricos imprescindibles](/es/blog/personajes-historicos/). Y si quieres que la historia se quede grabada, nuestro artículo sobre [aprender historia divirtiéndose](/es/blog/aprender-historia-divirtiendose/) explica los métodos que funcionan.

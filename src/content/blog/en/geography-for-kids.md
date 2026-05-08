@@ -34,7 +34,7 @@ Cooking engages multiple senses -- smell, taste, touch, sight -- creating multi-
 
 Flags are a visual gateway to learning about countries, and children naturally love art projects. Combine the two by having kids create flags using different art techniques: painting, collage, mosaic with colored paper, or even bead art.
 
-Start with flags that have simple, bold designs -- Japan, Bangladesh, France, Nigeria -- and gradually introduce more complex ones. As you create each flag, discuss what the colors and symbols represent -- our article on [the meaning of flag colors and symbols](/en/blog/signification-drapeaux) is a great companion resource. You can even turn it into a [flag recognition challenge](/en/blog/drapeaux-difficiles) where the child tries to identify flags created by other family members.
+Start with flags that have simple, bold designs -- Japan, Bangladesh, France, Nigeria -- and gradually introduce more complex ones. As you create each flag, discuss what the colors and symbols represent -- our article on [the meaning of flag colors and symbols](/en/blog/flags-meaning) is a great companion resource. You can even turn it into a [flag recognition challenge](/en/blog/hardest-flags) where the child tries to identify flags created by other family members.
 
 The act of physically constructing a flag -- choosing the right colors, cutting the shapes, placing the elements -- forces the brain to process the flag's design at a deep level. This is active learning at its best, and far more effective than staring at a chart.
 
@@ -63,7 +63,7 @@ A 2019 meta-analysis in Educational Research Review, covering 46 studies, confir
 
 Nothing makes a faraway country feel real like communicating with someone who lives there. Pen pal programs -- whether through traditional letters or monitored online platforms -- give children a personal connection to another part of the world.
 
-Before writing each letter, research the pen pal's country together: find it on the map, learn about the climate, discuss what daily life might look like there. When the reply arrives, it becomes a mini geography lesson wrapped in the excitement of receiving mail. For a generation raised on instant messaging, a physical letter from another continent can feel almost exotic. You might also consider turning your pen pal research into a [family geography quiz night](/en/blog/geographie-famille) where the whole family learns together.
+Before writing each letter, research the pen pal's country together: find it on the map, learn about the climate, discuss what daily life might look like there. When the reply arrives, it becomes a mini geography lesson wrapped in the excitement of receiving mail. For a generation raised on instant messaging, a physical letter from another continent can feel almost exotic. You might also consider turning your pen pal research into a [family geography quiz night](/en/blog/geography-family) where the whole family learns together.
 
 Modern alternatives include video calls with classrooms in other countries through programs like ePals or PenPal Schools, or collaborative projects where students from different countries work together on a shared presentation.
 
@@ -91,7 +91,7 @@ Music sticks in memory like few other things, and every culture has rich musical
 
 Listen to traditional instruments: the sitar from India, the kora from West Africa, the didgeridoo from Australia, the pan flute from the Andes. Learn a simple song in another language: "Frere Jacques" (French), "De Colores" (Spanish), "Sakura" (Japanese). Watch age-appropriate music videos that showcase landscapes and cultural practices from different countries.
 
-Music activates emotional and auditory memory pathways that reinforce geographic associations. A child who has heard the kora will have a much easier time remembering that Mali is in West Africa, and they might also become curious about [famous historical figures](/en/blog/personnages-historiques) from the region. For older kids, the [fun methods for learning history](/en/blog/learning-history-fun/) work just as well as they do for geography. Sound has a way of making places feel real before you have ever been there.
+Music activates emotional and auditory memory pathways that reinforce geographic associations. A child who has heard the kora will have a much easier time remembering that Mali is in West Africa, and they might also become curious about [famous historical figures](/en/blog/historical-figures) from the region. For older kids, the [fun methods for learning history](/en/blog/learning-history-fun/) work just as well as they do for geography. Sound has a way of making places feel real before you have ever been there.
 
 ## 10. Nature Walks with a Geographic Lens
 
@@ -107,7 +107,7 @@ Connecting abstract geographic concepts to tangible, observable phenomena in the
 
 Children as young as four or five can start grasping basic concepts like continents and oceans, and research from the National Geographic Society suggests that spatial awareness develops rapidly between ages 5 and 8. The most effective approach is not to rely on any single method but to weave geographic learning into everyday life through variety. Cook a dish from Peru on Monday, work on a map puzzle on Tuesday, listen to music from Senegal on Wednesday, and do a quiz session on Thursday.
 
-Children who engage with geography through multiple channels -- physical, visual, auditory, social, and digital -- develop a robust and flexible understanding of the world that goes far beyond memorizing [capitals](/en/blog/quiz-capitales-monde) and country names. They start seeing geography everywhere. And once that happens, you do not have to teach them anymore -- they teach themselves.
+Children who engage with geography through multiple channels -- physical, visual, auditory, social, and digital -- develop a robust and flexible understanding of the world that goes far beyond memorizing [capitals](/en/blog/world-capitals-quiz) and country names. They start seeing geography everywhere. And once that happens, you do not have to teach them anymore -- they teach themselves.
 
 ## Frequently asked questions
 

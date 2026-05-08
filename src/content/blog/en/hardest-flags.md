@@ -12,7 +12,7 @@ readingTime: 8
 
 I once lost a pub quiz because of Chad. Not the country itself -- the flag. Three vertical stripes: blue, yellow, red. Identical to Romania's, except for a shade of blue so subtle that squinting at it on a projector felt like trying to distinguish midnight from 11:58 PM. The hardest flags to recognize in the world share exactly this kind of maddening similarity -- some seem designed to torment anyone who tries to tell them apart. Others are so intricate that recalling them from memory feels like being asked to sketch the Sistine Chapel from a brief glance.
 
-Whether you consider yourself a vexillology enthusiast or just someone who likes quizzes on [world capitals](/en/blog/quiz-capitales-monde) or [historical figures](/en/blog/personnages-historiques), the flags on this list will test you. Here are the 15 hardest flags to recognize in the world -- and the tricks to finally master them.
+Whether you consider yourself a vexillology enthusiast or just someone who likes quizzes on [world capitals](/en/blog/world-capitals-quiz) or [historical figures](/en/blog/historical-figures), the flags on this list will test you. Here are the 15 hardest flags to recognize in the world -- and the tricks to finally master them.
 
 ## Nearly Identical Twins: Chad and Romania
 
@@ -42,13 +42,13 @@ Ireland starts with green, and Ireland is famously green -- the Emerald Isle. Iv
 
 The flags of Luxembourg and the Netherlands both consist of horizontal red, white, and blue stripes. The distinction lies in the shade of blue: the Netherlands uses a darker cobalt, while Luxembourg employs a lighter sky blue. The Luxembourg flag is also slightly longer in proportion.
 
-Luxembourg is a small, bright country in the heart of Europe -- its blue is lighter, more cheerful. The Netherlands, with its maritime heritage, uses a deeper ocean blue. I think of Dutch painters and their moody seascapes. It sticks. Mixing up these two is one of [the most common geography mistakes](/en/blog/erreurs-geographie) people make.
+Luxembourg is a small, bright country in the heart of Europe -- its blue is lighter, more cheerful. The Netherlands, with its maritime heritage, uses a deeper ocean blue. I think of Dutch painters and their moody seascapes. It sticks. Mixing up these two is one of [the most common geography mistakes](/en/blog/geography-mistakes) people make.
 
 ## Bhutan: The Dragon's Complexity
 
 Moving from look-alikes to sheer complexity, Bhutan's flag is one of the most intricate in the world. It features a white dragon -- the Druk, or Thunder Dragon -- clutching jewels in its claws, set diagonally across a field split between yellow and orange. Reproducing this flag from memory requires recalling the dragon's exact posture, the color of the jewels, and the diagonal division of the background.
 
-The symbolism runs deep, and our article on [the meaning of flags, colors, and symbols](/en/blog/signification-drapeaux) covers more of these stories. The yellow represents the secular authority of the king. The orange stands for Buddhist spiritual practice. The dragon symbolizes the country's name in Dzongkha: Druk Yul, "Land of the Thunder Dragon." The jewels in its claws represent national wealth and prosperity. Beautiful flag. Nearly impossible to draw.
+The symbolism runs deep, and our article on [the meaning of flags, colors, and symbols](/en/blog/flags-meaning) covers more of these stories. The yellow represents the secular authority of the king. The orange stands for Buddhist spiritual practice. The dragon symbolizes the country's name in Dzongkha: Druk Yul, "Land of the Thunder Dragon." The jewels in its claws represent national wealth and prosperity. Beautiful flag. Nearly impossible to draw.
 
 ## Turkmenistan: A Carpet Woven Into a Flag
 
@@ -74,7 +74,7 @@ Until the 1936 Berlin Olympics, Haiti and Liechtenstein did not realize their fl
 
 The Nordic nations -- Denmark, Sweden, Norway, Finland, and Iceland -- all use variations of the offset cross design. While the color combinations differ, the structural similarity can trip up beginners. Denmark's white cross on a red background is the most distinctive, but distinguishing Norway (red, white, and blue cross) from Iceland (blue, white, and red cross with inverted color emphasis) requires careful attention.
 
-For children just starting to learn geography, the Nordic flags are a fantastic exercise. If you are looking for ways to make this kind of learning engaging, our guide on [teaching geography to kids](/en/blog/geographie-enfants) has plenty of ideas.
+For children just starting to learn geography, the Nordic flags are a fantastic exercise. If you are looking for ways to make this kind of learning engaging, our guide on [teaching geography to kids](/en/blog/geography-for-kids) has plenty of ideas.
 
 ## Australia and New Zealand
 

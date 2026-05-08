@@ -104,9 +104,9 @@ Matematico, criptoanalista, padre de la informatica. Su trabajo para descifrar e
 
 ## Por que es util conocer a los personajes historicos?
 
-El interes va mas alla de la [cultura general](/es/blog/culture-generale-guide/) de sobremesa. Conocer estas vidas es entender como el mundo llego a ser lo que es. El Codigo Civil de Napoleon estructura el derecho de mas de 40 paises. La teoria de Darwin fundamenta nuestra biologia. La no violencia de Gandhi inspira los movimientos sociales contemporaneos. No son figuras del pasado. Su influencia esta en el presente.
+El interes va mas alla de la [cultura general](/es/blog/cultura-general-guia/) de sobremesa. Conocer estas vidas es entender como el mundo llego a ser lo que es. El Codigo Civil de Napoleon estructura el derecho de mas de 40 paises. La teoria de Darwin fundamenta nuestra biologia. La no violencia de Gandhi inspira los movimientos sociales contemporaneos. No son figuras del pasado. Su influencia esta en el presente.
 
-Para ninos y adolescentes, descubrir a estos personajes desarrolla el espiritu critico y la empatia. Y el metodo ludico — [quiz y juegos educativos](/es/blog/geographie-enfants/) — vuelve estas figuras vivas y accesibles, lejos de los parrafos grises de un manual escolar. Los [principios de la gamificacion](/es/blog/gamification-education/) explican por que el formato quiz ancla tan bien estos conocimientos, y las [mejores aplicaciones de geografia](/es/blog/meilleures-apps-geographie/) extienden el juego a mapas y banderas.
+Para ninos y adolescentes, descubrir a estos personajes desarrolla el espiritu critico y la empatia. Y el metodo ludico — [quiz y juegos educativos](/es/blog/geografia-ninos/) — vuelve estas figuras vivas y accesibles, lejos de los parrafos grises de un manual escolar. Los [principios de la gamificacion](/es/blog/gamificacion-educacion/) explican por que el formato quiz ancla tan bien estos conocimientos, y las [mejores aplicaciones de geografia](/es/blog/mejores-apps-geografia/) extienden el juego a mapas y banderas.
 
 ## Preguntas frecuentes
 

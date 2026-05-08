@@ -24,11 +24,11 @@ Estambul es enorme, milenaria, fascinante. Fue capital del Imperio Otomano duran
 
 ## 3. Ubicar Africa como un pais y no como un continente
 
-Suena absurdo, pero pasa mas de lo que pensamos. Africa es un continente con 54 paises reconocidos por las Naciones Unidas. Solo en Nigeria se hablan mas de 500 lenguas. Y en terminos de superficie, podrias meter dentro Estados Unidos, China, India y buena parte de Europa. Tratar todo eso como "un pais" revela un desconocimiento enorme. Las [aplicaciones de geografia modernas](/es/blog/meilleures-apps-geographie/) ayudan bastante a corregir esas lagunas, porque te obligan a situar cada pais uno por uno.
+Suena absurdo, pero pasa mas de lo que pensamos. Africa es un continente con 54 paises reconocidos por las Naciones Unidas. Solo en Nigeria se hablan mas de 500 lenguas. Y en terminos de superficie, podrias meter dentro Estados Unidos, China, India y buena parte de Europa. Tratar todo eso como "un pais" revela un desconocimiento enorme. Las [aplicaciones de geografia modernas](/es/blog/mejores-apps-geografia/) ayudan bastante a corregir esas lagunas, porque te obligan a situar cada pais uno por uno.
 
 ## 4. Pensar que Brasil es un pais hispanohablante
 
-Brasil esta rodeado de paises que hablan espanol. Pero en Brasil se habla portugues. La explicacion se remonta al Tratado de Tordesillas de 1494, que repartio el Nuevo Mundo entre Espana y Portugal. La linea de division le dio a Portugal la parte oriental de Sudamerica, y ahi nacio lo que hoy es Brasil. Con mas de 210 millones de habitantes, es el pais lusofono mas grande del planeta, muy por encima de Portugal en poblacion. Tener clara esta diferencia linguistica ayuda a entender mejor la [cultura general](/es/blog/culture-generale-guide/) de America Latina. Si quieres profundizar en las historias detras de cada nacion, el [significado de las banderas](/es/blog/signification-drapeaux/) te sorprendera.
+Brasil esta rodeado de paises que hablan espanol. Pero en Brasil se habla portugues. La explicacion se remonta al Tratado de Tordesillas de 1494, que repartio el Nuevo Mundo entre Espana y Portugal. La linea de division le dio a Portugal la parte oriental de Sudamerica, y ahi nacio lo que hoy es Brasil. Con mas de 210 millones de habitantes, es el pais lusofono mas grande del planeta, muy por encima de Portugal en poblacion. Tener clara esta diferencia linguistica ayuda a entender mejor la [cultura general](/es/blog/cultura-general-guia/) de America Latina. Si quieres profundizar en las historias detras de cada nacion, el [significado de las banderas](/es/blog/significado-banderas/) te sorprendera.
 
 ## 5. Confundir Europa del Este: Eslovaquia, Eslovenia y mas
 
@@ -46,7 +46,7 @@ En la calle, todo el mundo dice "Holanda". Pero Holanda es solo una region dentr
 
 ## 8. No saber donde esta exactamente Nueva Zelanda
 
-Nueva Zelanda es el pais fantasma de los mapas mentales. Mucha gente la situa "cerca de Australia", lo cual es verdad a escala planetaria, pero subestima la distancia real: mas de 2.000 kilometros separan ambos paises. Otros la meten directamente como parte de Australia. Esta formada por dos islas principales (la Isla Norte y la Isla Sur) y flota en el Pacifico suroccidental. Existe hasta un subreddit (r/MapsWithoutNZ) dedicado exclusivamente a mapas que se olvidan de incluirla. Conocer las [banderas y simbolos de cada pais](/es/blog/signification-drapeaux/) ayuda tambien a anclar su ubicacion en la memoria.
+Nueva Zelanda es el pais fantasma de los mapas mentales. Mucha gente la situa "cerca de Australia", lo cual es verdad a escala planetaria, pero subestima la distancia real: mas de 2.000 kilometros separan ambos paises. Otros la meten directamente como parte de Australia. Esta formada por dos islas principales (la Isla Norte y la Isla Sur) y flota en el Pacifico suroccidental. Existe hasta un subreddit (r/MapsWithoutNZ) dedicado exclusivamente a mapas que se olvidan de incluirla. Conocer las [banderas y simbolos de cada pais](/es/blog/significado-banderas/) ayuda tambien a anclar su ubicacion en la memoria.
 
 ## 9. Confundir las capitales de paises africanos
 
@@ -58,7 +58,7 @@ La confusion tiene raices geograficas y culturales. Estrictamente hablando, Cent
 
 ## 11. No distinguir entre Reino Unido, Gran Bretana e Inglaterra
 
-Una confusion clasica que incluso muchos europeos cometen. Va por partes: Inglaterra es un pais que ocupa el sureste de la isla de Gran Bretana. Gran Bretana es la isla que incluye Inglaterra, Escocia y Gales. El Reino Unido (nombre completo: Reino Unido de Gran Bretana e Irlanda del Norte) es Gran Bretana mas Irlanda del Norte. Y las Islas Britanicas es un termino geografico que engloba todo eso mas la Republica de Irlanda y otras islas menores. Si la sacas en una [velada de quiz en familia](/es/blog/geographie-famille/), prepara palomitas, porque el debate esta garantizado.
+Una confusion clasica que incluso muchos europeos cometen. Va por partes: Inglaterra es un pais que ocupa el sureste de la isla de Gran Bretana. Gran Bretana es la isla que incluye Inglaterra, Escocia y Gales. El Reino Unido (nombre completo: Reino Unido de Gran Bretana e Irlanda del Norte) es Gran Bretana mas Irlanda del Norte. Y las Islas Britanicas es un termino geografico que engloba todo eso mas la Republica de Irlanda y otras islas menores. Si la sacas en una [velada de quiz en familia](/es/blog/geografia-familia/), prepara palomitas, porque el debate esta garantizado.
 
 ## 12. Pensar que el Sahara es solo arena
 
@@ -68,7 +68,7 @@ Cierra los ojos y piensa en el Sahara. Seguro que ves dunas doradas hasta el hor
 
 La mayoria comparten raices comunes. Nuestro sistema educativo se centra en la geografia local y deja enormes huecos sobre el resto del mundo. Los medios de comunicacion refuerzan estereotipos y simplifican la informacion geografica. La proyeccion de Mercator, usada durante siglos como mapa estandar, distorsiona nuestra percepcion de tamanos y posiciones. Y luego esta lo obvio: sin practica regular, se nos olvida lo que aprendimos en la escuela.
 
-Corregir estos errores tampoco requiere volver a la escuela. Los metodos de [repeticion espaciada](/es/blog/meilleures-apps-geographie/) funcionan especialmente bien para fijar informacion geografica a largo plazo. Y la [gamificacion aplicada a la educacion](/es/blog/gamification-education/) muestra que los quiz mejoran la retencion hasta un 50% frente a la lectura pasiva.
+Corregir estos errores tampoco requiere volver a la escuela. Los metodos de [repeticion espaciada](/es/blog/mejores-apps-geografia/) funcionan especialmente bien para fijar informacion geografica a largo plazo. Y la [gamificacion aplicada a la educacion](/es/blog/gamificacion-educacion/) muestra que los quiz mejoran la retencion hasta un 50% frente a la lectura pasiva.
 
 ## Preguntas frecuentes
 
@@ -86,4 +86,4 @@ Africa es un continente con 54 paises reconocidos por la ONU, mas de 2.000 lengu
 
 ## Pon a prueba tus puntos debiles con SAPIRO
 
-SAPIRO detecta en que temas fallas mas y concentra las preguntas ahi. Si confundes Ankara con Estambul o no ubicas Eslovenia, el sistema de repeticion espaciada insistira en esas lagunas hasta que las llenes. Capitales, paises, [banderas que se te resisten](/es/blog/drapeaux-difficiles/): empieza por los 12 errores de esta lista y comprueba cuantos superas al primer intento.
+SAPIRO detecta en que temas fallas mas y concentra las preguntas ahi. Si confundes Ankara con Estambul o no ubicas Eslovenia, el sistema de repeticion espaciada insistira en esas lagunas hasta que las llenes. Capitales, paises, [banderas que se te resisten](/es/blog/banderas-dificiles/): empieza por los 12 errores de esta lista y comprueba cuantos superas al primer intento.

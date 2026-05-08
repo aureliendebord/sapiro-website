@@ -12,7 +12,7 @@ readingTime: 9
 
 Quick -- what is the capital of Australia? If you said Sydney, you are in good company, but you are wrong. The answer is Canberra, and that single question has tripped up millions of quiz-takers around the world. World capitals feel straightforward until you actually sit down and try to list them all. The surprises lurk in every corner of the globe.
 
-This article covers the most commonly missed answers, the most surprising facts, and memorization strategies that actually work. If you love testing your knowledge, you might also enjoy our list of the [15 hardest flags to recognize](/en/blog/drapeaux-difficiles).
+This article covers the most commonly missed answers, the most surprising facts, and memorization strategies that actually work. If you love testing your knowledge, you might also enjoy our list of the [15 hardest flags to recognize](/en/blog/hardest-flags).
 
 ## The Classic Traps: Capitals That Aren't What You Think
 
@@ -68,7 +68,7 @@ Australia's Canberra aside, Oceania is home to many small island nations with un
 
 Understanding why certain capitals trip us up can actually help us remember them better. There are a few recurring patterns worth examining.
 
-Our brains naturally associate "capital" with "biggest and most important city." This heuristic works in many cases -- Tokyo, London, Paris -- but fails spectacularly when a country has deliberately chosen a different city for political, geographic, or historical reasons. We fall for the largest city fallacy over and over. It is one of [the most common geography mistakes](/en/blog/erreurs-geographie) people make worldwide.
+Our brains naturally associate "capital" with "biggest and most important city." This heuristic works in many cases -- Tokyo, London, Paris -- but fails spectacularly when a country has deliberately chosen a different city for political, geographic, or historical reasons. We fall for the largest city fallacy over and over. It is one of [the most common geography mistakes](/en/blog/geography-mistakes) people make worldwide.
 
 Then there is the media effect. We tend to remember places that appear in the news. Istanbul, Sydney, and Rio de Janeiro feature heavily in global media, sports coverage, and popular culture, while Ankara, Canberra, and Brasilia sit in relative obscurity. Our mental map of the world is shaped more by headlines than by atlases.
 
@@ -96,11 +96,11 @@ Create a vivid mental image or a mini-story for each capital. "The President of 
 
 ### Regular Quiz Practice
 
-Nothing beats active recall. Passively reading a list of capitals is far less effective than actively trying to retrieve them from memory. Every time you take a quiz and successfully recall a capital, you strengthen that neural pathway. Every time you get one wrong, the surprise creates an emotional tag that aids future recall. This is exactly why [teaching geography through quizzes and games](/en/blog/geographie-enfants) is so effective for learners of all ages.
+Nothing beats active recall. Passively reading a list of capitals is far less effective than actively trying to retrieve them from memory. Every time you take a quiz and successfully recall a capital, you strengthen that neural pathway. Every time you get one wrong, the surprise creates an emotional tag that aids future recall. This is exactly why [teaching geography through quizzes and games](/en/blog/geography-for-kids) is so effective for learners of all ages.
 
 ## Fascinating Capital Facts
 
-To round things out, here are a few capital facts that make for excellent trivia -- perfect for your next [family geography quiz night](/en/blog/geographie-famille).
+To round things out, here are a few capital facts that make for excellent trivia -- perfect for your next [family geography quiz night](/en/blog/geography-family).
 
 La Paz, Bolivia sits at approximately 3,640 meters above sea level, making it the highest capital in the world. (Sucre is the constitutional capital, but La Paz is where the government sits -- and where visitors gasp for air.)
 
@@ -122,4 +122,4 @@ Spaced repetition combined with active recall is the most effective approach, ac
 
 ## Quiz Yourself on SAPIRO
 
-Can you name the capital of Burkina Faso right now, without scrolling up? SAPIRO uses spaced repetition to resurface the capitals you miss most often -- Naypyidaw, Ngerulmud, Ouagadougou -- until they stick. Flags, [historical figures](/en/blog/personnages-historiques), and geography are all included. See how many of the 195 you can get right in a row.
+Can you name the capital of Burkina Faso right now, without scrolling up? SAPIRO uses spaced repetition to resurface the capitals you miss most often -- Naypyidaw, Ngerulmud, Ouagadougou -- until they stick. Flags, [historical figures](/en/blog/historical-figures), and geography are all included. See how many of the 195 you can get right in a row.

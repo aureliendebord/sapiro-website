@@ -22,7 +22,7 @@ With 195 countries, over 7,000 languages spoken worldwide, and landscapes rangin
 
 It is also inherently fair. A ten-year-old who just studied continents in school might beat a parent who has not thought about geography since college. That unpredictability is what makes quiz nights exciting.
 
-For a deeper look at how geography knowledge benefits people of all ages, check out our [ultimate guide to general knowledge](/en/blog/culture-generale-guide).
+For a deeper look at how geography knowledge benefits people of all ages, check out our [ultimate guide to general knowledge](/en/blog/general-knowledge-guide).
 
 ## Step 1: Choose Your Format
 
@@ -32,7 +32,7 @@ Before writing a single question, decide on the structure of your evening. Here 
 
 Divide the quiz into themed rounds of 8-10 questions each. Players or teams answer on paper, and scores are tallied after each round. This is the most traditional pub-quiz format and works well for groups of any size.
 
-Suggested rounds for a geography quiz: start with [Capitals of the World](/en/blog/quiz-capitales-monde), then move to Flag Identification (printed or displayed on screen), followed by a "Where in the World?" round where you describe a place and players guess the country. After that, try Rivers, Mountains, and Oceans, then Food and Culture (matching dishes to their countries of origin), and finish with a Bonus Speed Round of rapid-fire true/false questions.
+Suggested rounds for a geography quiz: start with [Capitals of the World](/en/blog/world-capitals-quiz), then move to Flag Identification (printed or displayed on screen), followed by a "Where in the World?" round where you describe a place and players guess the country. After that, try Rivers, Mountains, and Oceans, then Food and Culture (matching dishes to their countries of origin), and finish with a Bonus Speed Round of rapid-fire true/false questions.
 
 ### Buzzer Style
 
@@ -79,7 +79,7 @@ The secret to a great family quiz is layered difficulty. Every round should incl
 - Name the strait that separates Europe from Africa. *(The Strait of Gibraltar)*
 - Which African country was formerly known as Abyssinia? *(Ethiopia)*
 
-For more tricky geography facts that even adults get wrong, see our article on [the 12 most common geography mistakes](/en/blog/erreurs-geographie).
+For more tricky geography facts that even adults get wrong, see our article on [the 12 most common geography mistakes](/en/blog/geography-mistakes).
 
 ## Step 4: Add Visual and Interactive Rounds
 
@@ -87,9 +87,9 @@ Paper-and-pencil questions are the backbone of any quiz, but visual and interact
 
 ### Flag Parade
 
-Print out or display 15-20 flags on a screen. Teams have three minutes to identify as many as possible. Use a mix of easy flags (USA, Japan, Brazil) and trickier ones (Bhutan, Mozambique, Eswatini) -- our list of [the 15 hardest flags to recognize](/en/blog/drapeaux-difficiles) has plenty of challenging options. Award bonus points for spelling country names correctly.
+Print out or display 15-20 flags on a screen. Teams have three minutes to identify as many as possible. Use a mix of easy flags (USA, Japan, Brazil) and trickier ones (Bhutan, Mozambique, Eswatini) -- our list of [the 15 hardest flags to recognize](/en/blog/hardest-flags) has plenty of challenging options. Award bonus points for spelling country names correctly.
 
-For inspiration on which flags to include and the stories behind them, our article on [the hidden meaning of flags](/en/blog/signification-drapeaux) is an excellent resource.
+For inspiration on which flags to include and the stories behind them, our article on [the hidden meaning of flags](/en/blog/flags-meaning) is an excellent resource.
 
 ### Blind Map Challenge
 

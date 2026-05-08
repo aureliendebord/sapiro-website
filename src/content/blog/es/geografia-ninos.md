@@ -22,7 +22,7 @@ Un consejo concreto: cuelga un gran mapa del mundo en la habitacion o el aula. L
 
 ## 2. Como organizar un quiz de geografia para ninos?
 
-El quiz es una de las formas de aprendizaje mas eficaces. Por que? Porque activa el recuerdo activo: en vez de leer una informacion, el nino tiene que encontrarla en su cabeza. Ese esfuerzo de recuperacion ancla los conocimientos con mucha mas solidez que la simple lectura. Los [principios de la gamificacion](/es/blog/gamification-education/) explican en detalle este mecanismo.
+El quiz es una de las formas de aprendizaje mas eficaces. Por que? Porque activa el recuerdo activo: en vez de leer una informacion, el nino tiene que encontrarla en su cabeza. Ese esfuerzo de recuperacion ancla los conocimientos con mucha mas solidez que la simple lectura. Los [principios de la gamificacion](/es/blog/gamificacion-educacion/) explican en detalle este mecanismo.
 
 En concreto: organiza sesiones de quiz despues de cenar o a fin de semana. Se empieza sencillo. "En que continente esta Francia?" "Cual es el oceano mas grande?" Luego se sube. "Cual es la capital de Tailandia?" "Que pais tiene forma de bota?"
 
@@ -34,7 +34,7 @@ Las banderas son un punto de partida excelente para abordar la geografia con los
 
 Imprime modelos de banderas en blanco. El nino debe colorearlas respetando los colores oficiales. Eso desarrolla la motricidad fina y ensena geografia al mismo tiempo. Aprovecha para soltar anecdotas: por que Japon tiene un circulo rojo (el sol naciente), por que Canada tiene una hoja de arce, por que tantos paises africanos usan el verde, el amarillo y el rojo.
 
-Los mas mayores pueden pasar al nivel siguiente: dibujar banderas de memoria, reconocer [banderas dificiles](/es/blog/drapeaux-difficiles/), o crear un album personal. Es una actividad que se combina muy bien con los quiz digitales.
+Los mas mayores pueden pasar al nivel siguiente: dibujar banderas de memoria, reconocer [banderas dificiles](/es/blog/banderas-dificiles/), o crear un album personal. Es una actividad que se combina muy bien con los quiz digitales.
 
 ## 4. Cocina del mundo
 
@@ -42,7 +42,7 @@ A los ninos les encanta esta. Se elige un pais y se cocina juntos un plato tipic
 
 Antes de meter las manos en la masa, se localiza el pais en el mapa. Se habla del clima, que condiciona los ingredientes disponibles. Se evocan las tradiciones culinarias, un trozo de historia. El nino asocia despues el pais a una experiencia concreta: un sabor, un olor, el placer de haber cocinado juntos. Es una memoria sensorial, mucho mas tenaz que una leccion abstracta.
 
-Lleva un "cuaderno de viaje culinario" donde el nino pegue la receta, dibuje la bandera del pais y apunte lo que ha descubierto. Con los meses, ese cuaderno se convierte en un tesoro. Se pueden anadir tambien los [personajes historicos](/es/blog/personnages-historiques/) del pais estudiado para enriquecer el cuadro, o explorar las [formas divertidas de aprender historia](/es/blog/aprender-historia-divirtiendose/) que funcionan igual de bien con ninos.
+Lleva un "cuaderno de viaje culinario" donde el nino pegue la receta, dibuje la bandera del pais y apunte lo que ha descubierto. Con los meses, ese cuaderno se convierte en un tesoro. Se pueden anadir tambien los [personajes historicos](/es/blog/personajes-historicos/) del pais estudiado para enriquecer el cuadro, o explorar las [formas divertidas de aprender historia](/es/blog/aprender-historia-divirtiendose/) que funcionan igual de bien con ninos.
 
 ## 5. Viajes virtuales con Google Earth
 
@@ -90,9 +90,9 @@ Los ninos de hoy crecen con pantallas. Segun el INE, los ninos espanoles de 10 a
 
 Las aplicaciones de quiz geograficos combinan varios de los metodos de este articulo: recuerdo activo, sistema de puntos e insignias, repeticion espaciada, contenidos visuales (banderas, mapas, fotos). Todo reunido en un formato que los ninos dominan intuitivamente.
 
-La ventaja sobre los metodos tradicionales es la personalizacion. El algoritmo adapta la dificultad al nivel del nino, detecta sus lagunas, insiste en lo que no esta adquirido. El [quiz de capitales](/es/blog/quiz-capitales-monde/) es a menudo el punto de entrada ideal antes de pasar a banderas, monumentos, cultura general.
+La ventaja sobre los metodos tradicionales es la personalizacion. El algoritmo adapta la dificultad al nivel del nino, detecta sus lagunas, insiste en lo que no esta adquirido. El [quiz de capitales](/es/blog/quiz-capitales-mundo/) es a menudo el punto de entrada ideal antes de pasar a banderas, monumentos, cultura general.
 
-Elige aplicaciones que privilegien el aprendizaje sobre el puro entretenimiento. Un buen contenido verificado, una progresion pedagogica coherente, un tiempo de pantalla razonable: esos son los criterios. Nuestra [comparativa de las mejores aplicaciones de geografia](/es/blog/meilleures-apps-geographie/) repasa las opciones disponibles, y una [noche de quiz en familia](/es/blog/geographie-famille/) es un excelente modo de prolongar el aprendizaje fuera de la pantalla.
+Elige aplicaciones que privilegien el aprendizaje sobre el puro entretenimiento. Un buen contenido verificado, una progresion pedagogica coherente, un tiempo de pantalla razonable: esos son los criterios. Nuestra [comparativa de las mejores aplicaciones de geografia](/es/blog/mejores-apps-geografia/) repasa las opciones disponibles, y una [noche de quiz en familia](/es/blog/geografia-familia/) es un excelente modo de prolongar el aprendizaje fuera de la pantalla.
 
 ## Combinar los metodos para un aprendizaje optimo
 

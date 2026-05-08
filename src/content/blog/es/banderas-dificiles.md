@@ -24,7 +24,7 @@ Irlanda y Costa de Marfil son mas traicioneras. Tres franjas verticales verde, b
 
 ## Las banderas con disenos complejos
 
-Algunas banderas no se parecen a ninguna otra. Su problema es el contrario: son tan cargadas que resulta imposible memorizarlas. Si el [significado de los simbolos](/es/blog/signification-drapeaux/) te intriga, cada detalle tiene una razon de ser.
+Algunas banderas no se parecen a ninguna otra. Su problema es el contrario: son tan cargadas que resulta imposible memorizarlas. Si el [significado de los simbolos](/es/blog/significado-banderas/) te intriga, cada detalle tiene una razon de ser.
 
 Turkmenistan tiene uno de los disenos mas elaborados del planeta. Fondo verde, media luna, cinco estrellas, y sobre todo una franja vertical roja junto al asta con cinco motivos de alfombras tradicionales, uno por cada gran tribu del pais. Debajo, dos ramas de olivo cruzadas. Se podria pasar diez minutos examinandola sin retener ni la mitad.
 
@@ -44,7 +44,7 @@ Afganistan ha cambiado de bandera un numero incalculable de veces a lo largo de 
 
 ## Los trios de confusion: banderas que se confunden de tres en tres
 
-A veces no se confunden dos banderas. Se confunden tres. Estos trios son verdaderos rompecabezas, incluso para quienes practican regularmente los [quiz de geografia](/es/blog/quiz-capitales-monde/).
+A veces no se confunden dos banderas. Se confunden tres. Estos trios son verdaderos rompecabezas, incluso para quienes practican regularmente los [quiz de geografia](/es/blog/quiz-capitales-mundo/).
 
 Paises Bajos, Luxemburgo y Paraguay: tres franjas horizontales roja, blanca y azul. Los Paises Bajos y Luxemburgo son casi indistinguibles — Luxemburgo simplemente usa un azul mas claro. Paraguay comparte los mismos colores pero se distingue por un emblema central. Y no uno cualquiera: un emblema diferente en cada cara, lo que la convierte en una de las pocas banderas nacionales asimetricas.
 
@@ -68,7 +68,7 @@ Mozambique muestra un arma moderna en su bandera. Es el unico pais en hacerlo. U
 
 ## Trucos para memorizar las banderas dificiles
 
-Quince banderas complicadas son un buen reto. Como orientarse? Hay tecnicas que funcionan, cercanas a las que se usan en la [gamificacion educativa](/es/blog/gamification-education/) y en la [ensenanza de la geografia para ninos](/es/blog/geographie-enfants/).
+Quince banderas complicadas son un buen reto. Como orientarse? Hay tecnicas que funcionan, cercanas a las que se usan en la [gamificacion educativa](/es/blog/gamificacion-educacion/) y en la [ensenanza de la geografia para ninos](/es/blog/geografia-ninos/).
 
 La tecnica de las asociaciones consiste en crear un vinculo mental entre la bandera y el pais. Para Irlanda vs Costa de Marfil, por ejemplo: Irlanda esta al oeste, y el verde (su color emblematico) esta a la izquierda, es decir, al oeste de la bandera. Cabe en una frase y no se olvida.
 
@@ -76,7 +76,7 @@ La repeticion espaciada sigue siendo el metodo mas solido. Se repasan las bander
 
 La agrupacion por regiones ayuda a estructurar el aprendizaje. Las banderas de Africa comparten a menudo los colores panafricanos, las de Oceania la Cruz del Sur, las de los paises musulmanes la media luna. Estas regularidades sirven de puntos de referencia.
 
-Y luego esta el aprendizaje activo mediante quiz. Ponerse a prueba regularmente ancla las banderas mucho mas solidamente que mirarlas de forma pasiva. Para los [errores de geografia comunes](/es/blog/erreurs-geographie/), el principio es el mismo: ponerse a prueba vale mas que releer. Y si quieres poner a prueba tus conocimientos en [familia con un quiz](/es/blog/geographie-famille/), las banderas son un tema perfecto para todas las generaciones.
+Y luego esta el aprendizaje activo mediante quiz. Ponerse a prueba regularmente ancla las banderas mucho mas solidamente que mirarlas de forma pasiva. Para los [errores de geografia comunes](/es/blog/errores-geografia/), el principio es el mismo: ponerse a prueba vale mas que releer. Y si quieres poner a prueba tus conocimientos en [familia con un quiz](/es/blog/geografia-familia/), las banderas son un tema perfecto para todas las generaciones.
 
 ## Preguntas frecuentes
 

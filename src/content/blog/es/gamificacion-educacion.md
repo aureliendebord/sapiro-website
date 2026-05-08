@@ -28,7 +28,7 @@ En 2006, los investigadores Roediger y Karpicke publicaron un estudio en Psychol
 
 A nivel neurologico, la explicacion es nitida. Cuando se busca una informacion en la memoria, se activan y se refuerzan las conexiones neuronales asociadas. Es como un sendero en el bosque: cuanto mas se recorre, mas se ensancha. Un quiz nos obliga a recorrer esos senderos una y otra vez.
 
-Es este mecanismo lo que hace que los quiz de [capitales del mundo](/es/blog/quiz-capitales-monde/) o de [banderas](/es/blog/drapeaux-difficiles/) sean tan eficaces. Cada intento de recuerdo, acertado o no, consolida la memoria a largo plazo.
+Es este mecanismo lo que hace que los quiz de [capitales del mundo](/es/blog/quiz-capitales-mundo/) o de [banderas](/es/blog/banderas-dificiles/) sean tan eficaces. Cada intento de recuerdo, acertado o no, consolida la memoria a largo plazo.
 
 ## Repeticion espaciada: el secreto de la memoria a largo plazo
 
@@ -38,7 +38,7 @@ Ebbinghaus mostro que se olvida alrededor del 70% de una informacion nueva en 24
 
 Las mejores aplicaciones educativas integran un algoritmo de repeticion espaciada. Respuesta correcta? La pregunta vuelve con un plazo mas largo. Error? Vuelve rapido. El sistema se asegura de que se dedique el tiempo de estudio a lo que aun no se sabe, en vez de machacar lo que ya se domina.
 
-Recuerdo activo mas repeticion espaciada: es la combinacion que los investigadores en ciencias cognitivas consideran la mas potente para la memorizacion. Los quiz son el formato ideal para aplicar las dos al mismo tiempo. Los [errores de geografia comunes](/es/blog/erreurs-geographie/) son un ejemplo perfecto: se repiten sin saberlo porque nunca se ha sido puesto a prueba en el momento oportuno.
+Recuerdo activo mas repeticion espaciada: es la combinacion que los investigadores en ciencias cognitivas consideran la mas potente para la memorizacion. Los quiz son el formato ideal para aplicar las dos al mismo tiempo. Los [errores de geografia comunes](/es/blog/errores-geografia/) son un ejemplo perfecto: se repiten sin saberlo porque nunca se ha sido puesto a prueba en el momento oportuno.
 
 ## Dopamina y recompensas: la quimica de la motivacion
 
@@ -56,7 +56,7 @@ Las insignias y trofeos responden a una necesidad humana fundamental: el reconoc
 
 Los niveles dan una direccion. Empezar en el nivel 1 con los paises mas conocidos, progresar hacia niveles donde las preguntas se complican: eso estructura el recorrido y da la sensacion de avanzar. El psicologo Robert Bjork habla de "dificultad deseable": el reto debe ser bastante dificil para estimular, pero no tanto como para desanimar.
 
-Las clasificaciones explotan nuestra naturaleza social. Medirse con los demas — incluso amistosamente — es un motor de motivacion potente. Clasificaciones semanales, retos entre amigos, torneos en linea: el aprendizaje solitario se convierte en una experiencia compartida. Para los ninos, esta dimension es particularmente fuerte, como describe nuestro articulo sobre [los metodos ludicos para ensenar geografia](/es/blog/geographie-enfants/).
+Las clasificaciones explotan nuestra naturaleza social. Medirse con los demas — incluso amistosamente — es un motor de motivacion potente. Clasificaciones semanales, retos entre amigos, torneos en linea: el aprendizaje solitario se convierte en una experiencia compartida. Para los ninos, esta dimension es particularmente fuerte, como describe nuestro articulo sobre [los metodos ludicos para ensenar geografia](/es/blog/geografia-ninos/).
 
 Las rachas (streaks) juegan con el compromiso diario. Mantener una serie de dias consecutivos de practica crea un habito y la motivacion de no "romper la cadena". Un mecanismo simple, pero que funciona.
 
@@ -70,7 +70,7 @@ Kahoot! ha transformado las aulas. Los alumnos responden en tiempo real en sus t
 
 Khan Academy jugo otra carta: la democratizacion. Insignias, puntos de energia y avatares personalizables motivan a los alumnos en matematicas, ciencias e Historia. Su plataforma gratuita ha hecho accesible la educacion de calidad en todo el mundo, con mas de 150 millones de usuarios registrados.
 
-No son gadgets. Son enfoques pedagogicos que producen resultados medibles. Y para la geografia en particular, las [mejores aplicaciones](/es/blog/meilleures-apps-geographie/) del mercado aplican estos mismos principios.
+No son gadgets. Son enfoques pedagogicos que producen resultados medibles. Y para la geografia en particular, las [mejores aplicaciones](/es/blog/mejores-apps-geografia/) del mercado aplican estos mismos principios.
 
 ## Los limites de la gamificacion
 
@@ -82,7 +82,7 @@ Tambien esta el problema de la profundidad. "Cual es la capital de Burkina Faso?
 
 Por ultimo, los mecanismos que hacen los juegos motivantes tambien pueden crear una forma de exceso. Todo padre lo sabe. Un buen sistema gamificado fija limites de tiempo claros y fomenta las pausas, en vez de tirar de la cuerda dopaminergica sin freno.
 
-El equilibrio esta ahi: la gamificacion como herramienta entre otras, al servicio de objetivos pedagogicos claros. Los quiz sobre [personajes historicos](/es/blog/personnages-historiques/), por ejemplo, ganan al complementarse con lecturas, documentales, discusiones en [familia alrededor de un quiz](/es/blog/geographie-famille/).
+El equilibrio esta ahi: la gamificacion como herramienta entre otras, al servicio de objetivos pedagogicos claros. Los quiz sobre [personajes historicos](/es/blog/personajes-historicos/), por ejemplo, ganan al complementarse con lecturas, documentales, discusiones en [familia alrededor de un quiz](/es/blog/geografia-familia/).
 
 ## Preguntas frecuentes
 

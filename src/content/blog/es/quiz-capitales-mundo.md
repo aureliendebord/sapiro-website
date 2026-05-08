@@ -38,11 +38,11 @@ Malasia: **Kuala Lumpur** es oficialmente la capital. Pero el centro administrat
 
 ## Las capitales por continente: vuelta al mundo express
 
-Un repaso rapido, continente por continente, de las capitales que conviene conocer. Si los [personajes historicos](/es/blog/personnages-historiques/) te apasionan, notaras que muchas de estas ciudades han estado en el centro de grandes acontecimientos.
+Un repaso rapido, continente por continente, de las capitales que conviene conocer. Si los [personajes historicos](/es/blog/personajes-historicos/) te apasionan, notaras que muchas de estas ciudades han estado en el centro de grandes acontecimientos.
 
 ### Europa
 
-Europa y sus 44 paises parece familiar, pero reserva sorpresas. Suiza no tiene tecnicamente capital: Berna es la "ciudad federal", no la capital en sentido juridico. Montenegro, independiente desde 2006, tiene por capital Podgorica, un nombre que poca gente cita espontaneamente. Y Vaduz, capital de Liechtenstein, acoge a menos de 6.000 habitantes. Bastantes [errores de geografia comunes](/es/blog/erreurs-geographie/) vienen precisamente de Europa, que creemos conocer de memoria.
+Europa y sus 44 paises parece familiar, pero reserva sorpresas. Suiza no tiene tecnicamente capital: Berna es la "ciudad federal", no la capital en sentido juridico. Montenegro, independiente desde 2006, tiene por capital Podgorica, un nombre que poca gente cita espontaneamente. Y Vaduz, capital de Liechtenstein, acoge a menos de 6.000 habitantes. Bastantes [errores de geografia comunes](/es/blog/errores-geografia/) vienen precisamente de Europa, que creemos conocer de memoria.
 
 ### Africa
 
@@ -74,19 +74,19 @@ La trampa de los nombres identicos: Ciudad de Guatemala es la capital de Guatema
 
 ## Tecnicas de memorizacion
 
-Se pueden retener estas capitales. Hace falta metodo, no talento innato. Los principios son los mismos que los de la [gamificacion en el aprendizaje](/es/blog/gamification-education/), y funcionan igual para [ensenar geografia a los ninos](/es/blog/geographie-enfants/).
+Se pueden retener estas capitales. Hace falta metodo, no talento innato. Los principios son los mismos que los de la [gamificacion en el aprendizaje](/es/blog/gamificacion-educacion/), y funcionan igual para [ensenar geografia a los ninos](/es/blog/geografia-ninos/).
 
 Los recursos mnemotecnicos: inventa asociaciones absurdas. Para recordar Canberra, piensa en "Can Bear a", un canguro que puede cargar con algo. Cuanto mas ridiculo, mejor se queda en la memoria.
 
 El metodo del palacio de la memoria: imagina un recorrido familiar, tu casa, tu camino al trabajo, y coloca cada capital en un punto concreto. Al recorrer mentalmente el camino, las informaciones vuelven.
 
-La repeticion espaciada: repasar las capitales a intervalos crecientes, una hora, un dia, tres dias, una semana. Es la tecnica mas solida para anclar los conocimientos a largo plazo. Las [mejores aplicaciones de geografia](/es/blog/meilleures-apps-geographie/) como SAPIRO la integran automaticamente.
+La repeticion espaciada: repasar las capitales a intervalos crecientes, una hora, un dia, tres dias, una semana. Es la tecnica mas solida para anclar los conocimientos a largo plazo. Las [mejores aplicaciones de geografia](/es/blog/mejores-apps-geografia/) como SAPIRO la integran automaticamente.
 
 El aprendizaje por contexto: en lugar de una lista arida, vincula cada capital a una imagen o una anecdota. Brasilia vista desde el cielo, con forma de avion. Naipyido y sus autopistas vacias. Canberra elegida como compromiso entre Sidney y Melbourne. Las historias se quedan. Las listas se evaporan.
 
 ## Records y anecdotas sobre capitales
 
-Algunos datos para dar relieve a todo esto. Y si las capitales te apasionan, las [banderas de los paises](/es/blog/drapeaux-difficiles/) correspondientes son un excelente complemento para entrenar la memoria geografica.
+Algunos datos para dar relieve a todo esto. Y si las capitales te apasionan, las [banderas de los paises](/es/blog/banderas-dificiles/) correspondientes son un excelente complemento para entrenar la memoria geografica.
 
 La capital habitada en uso continuo mas antigua? El debate sigue abierto. Damasco, Atenas, Pekin: cada una reivindica milenios de historia.
 

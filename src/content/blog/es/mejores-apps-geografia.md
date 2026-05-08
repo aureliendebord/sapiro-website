@@ -16,7 +16,7 @@ Hay un monton de apps de geografia en las tiendas. Demasiadas, probablemente. En
 
 SAPIRO cubre paises, capitales, banderas, monumentos, gastronomia y tradiciones culturales. Disponible en iOS y Android, va bastante mas alla del tipico quiz de capitales.
 
-Lo que la distingue del resto es su sistema de repeticion espaciada. El algoritmo analiza donde fallas (esos [errores clasicos de geografia](/es/blog/erreurs-geographie/) que arrastramos todos) y te propone sesiones que atacan justo tus puntos debiles. No pierdes tiempo repasando Japon si ya lo dominas.
+Lo que la distingue del resto es su sistema de repeticion espaciada. El algoritmo analiza donde fallas (esos [errores clasicos de geografia](/es/blog/errores-geografia/) que arrastramos todos) y te propone sesiones que atacan justo tus puntos debiles. No pierdes tiempo repasando Japon si ya lo dominas.
 
 Tiene varios modos de juego (quiz clasico, contrarreloj, desafios diarios, competiciones con amigos) y el contenido va desde nivel principiante hasta experto. La interfaz esta cuidada: mapas interactivos, fichas por pais, diseno limpio. Es gratuita, con una opcion premium que desbloquea contenido avanzado y estadisticas detalladas. La version gratuita limita las sesiones diarias, que es su principal pega.
 
@@ -66,7 +66,7 @@ Nota: 6,5/10
 
 Google Earth no es una app de quiz, pero merece estar en esta lista como herramienta complementaria. Permite explorar cualquier rincon del planeta en 3D, con imagenes satelitales, Street View e informacion sobre monumentos. Los recorridos Voyager te llevan a descubrir patrimonios de la UNESCO, ecosistemas y fenomenos geograficos con explicaciones detalladas.
 
-Es la herramienta perfecta para complementar lo que aprendes en un quiz con exploracion visual. Quieres entender la [historia y el significado de las banderas](/es/blog/signification-drapeaux/) en su contexto geografico real? Abre Google Earth y viaja a ese pais. Es completamente gratuita, aunque consume bastantes recursos del dispositivo y necesita buena conexion.
+Es la herramienta perfecta para complementar lo que aprendes en un quiz con exploracion visual. Quieres entender la [historia y el significado de las banderas](/es/blog/significado-banderas/) en su contexto geografico real? Abre Google Earth y viaja a ese pais. Es completamente gratuita, aunque consume bastantes recursos del dispositivo y necesita buena conexion.
 
 Nota: 8/10 (como herramienta complementaria)
 
@@ -74,7 +74,7 @@ Nota: 8/10 (como herramienta complementaria)
 
 Disenada para ninos de 6 a 12 anos. El concepto mola: al responder preguntas de geografia correctamente, ganas paises que tienes que apilar (con fisicas de juego reales) hasta alcanzar una linea. Es colorido, divertido y mantiene la atencion de los ninos durante rato.
 
-Las preguntas cubren capitales, banderas, continentes, idiomas y monumentos, todo adaptado a nivel infantil. Ideal para complementar la escuela y para [organizar actividades de geografia en familia](/es/blog/geographie-famille/). La investigacion en psicologia cognitiva confirma que practicar con quiz mejora la retencion frente a releer el material, algo que aplica tanto para ninos como para adultos. Pega importante: solo esta en ingles, solo en iOS, y el contenido resulta demasiado basico para adolescentes y adultos.
+Las preguntas cubren capitales, banderas, continentes, idiomas y monumentos, todo adaptado a nivel infantil. Ideal para complementar la escuela y para [organizar actividades de geografia en familia](/es/blog/geografia-familia/). La investigacion en psicologia cognitiva confirma que practicar con quiz mejora la retencion frente a releer el material, algo que aplica tanto para ninos como para adultos. Pega importante: solo esta en ingles, solo en iOS, y el contenido resulta demasiado basico para adolescentes y adultos.
 
 Nota: 7/10 (para su publico objetivo)
 
@@ -86,9 +86,9 @@ Las apps con repeticion espaciada (como SAPIRO) son las que mejor funcionan para
 
 ## Como elegir la mejor app de geografia para ti?
 
-Depende de lo que busques. Si quieres mejorar tu [cultura general](/es/blog/culture-generale-guide/) de forma sistematica, necesitas repeticion espaciada y contenido bien organizado. Si vas a preparar un examen o un concurso, prioriza apps con muchos quiz especificos. Si lo tuyo es jugar con amigos o en familia, busca modo multijugador.
+Depende de lo que busques. Si quieres mejorar tu [cultura general](/es/blog/cultura-general-guia/) de forma sistematica, necesitas repeticion espaciada y contenido bien organizado. Si vas a preparar un examen o un concurso, prioriza apps con muchos quiz especificos. Si lo tuyo es jugar con amigos o en familia, busca modo multijugador.
 
-Para ninos: graficos atractivos, mecanicas de juego que enganchen y contenido adaptado a su edad. Nuestro articulo sobre [aprender geografia para ninos](/es/blog/geographie-enfants/) profundiza en 10 metodos que funcionan. Para adultos: profundidad, estadisticas de progreso y variedad de temas. Para los frikis de la geografia (sin ningun tono despectivo): combinar varias apps te dara la experiencia mas completa.
+Para ninos: graficos atractivos, mecanicas de juego que enganchen y contenido adaptado a su edad. Nuestro articulo sobre [aprender geografia para ninos](/es/blog/geografia-ninos/) profundiza en 10 metodos que funcionan. Para adultos: profundidad, estadisticas de progreso y variedad de temas. Para los frikis de la geografia (sin ningun tono despectivo): combinar varias apps te dara la experiencia mas completa.
 
 ## Preguntas frecuentes
 
@@ -98,7 +98,7 @@ SAPIRO ofrece una version gratuita bastante completa con quiz de paises, capital
 
 ### Se puede aprender geografia solo con una app?
 
-Una app es una base excelente, pero combinar con otras actividades (documentales, atlas, [noches de quiz en familia](/es/blog/geographie-famille/)) mejora los resultados. La [gamificacion en la educacion](/es/blog/gamification-education/) funciona mejor como cierre de ciclo, no como unico metodo.
+Una app es una base excelente, pero combinar con otras actividades (documentales, atlas, [noches de quiz en familia](/es/blog/geografia-familia/)) mejora los resultados. La [gamificacion en la educacion](/es/blog/gamificacion-educacion/) funciona mejor como cierre de ciclo, no como unico metodo.
 
 ### Que app de geografia es mejor para ninos?
 

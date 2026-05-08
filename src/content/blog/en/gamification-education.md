@@ -30,7 +30,7 @@ A landmark 2006 study by Roediger and Karpicke at Washington University asked st
 
 Why does this work? When you take a quiz, your brain must actively search for and reconstruct the answer. This effortful retrieval process strengthens the neural pathways associated with that piece of information, making it easier to find the next time. Passive reading, by contrast, creates an illusion of familiarity without building the robust retrieval routes that enable true recall. You feel like you know it. You don't.
 
-This is exactly why a quiz on [world capitals](/en/blog/quiz-capitales-monde) is so much more effective than reading a list of capitals. The struggle to recall "What is the capital of Burkina Faso?" -- even if you get it wrong -- does more for your long-term memory than reading "The capital of Burkina Faso is Ouagadougou" ten times.
+This is exactly why a quiz on [world capitals](/en/blog/world-capitals-quiz) is so much more effective than reading a list of capitals. The struggle to recall "What is the capital of Burkina Faso?" -- even if you get it wrong -- does more for your long-term memory than reading "The capital of Burkina Faso is Ouagadougou" ten times.
 
 ## Spaced Repetition: Timing Is Everything
 
@@ -54,7 +54,7 @@ What strikes me about this mechanism is that it is the same one that makes video
 
 One counterintuitive finding from learning science: making learning harder -- within limits -- actually improves long-term retention. Psychologists Robert and Elizabeth Bjork coined the term "desirable difficulty" to describe challenges that slow down initial learning but enhance long-term memory.
 
-In the context of quizzes, desirable difficulties take several forms. Time pressure forces faster retrieval, strengthening memory pathways. Well-designed multiple-choice distractors force you to discriminate between similar options, deepening your understanding -- distinguishing Chad's flag from Romania's flag, for instance, requires you to encode the subtle shade difference rather than just recognizing "blue, yellow, red." And interleaving topics, mixing questions about [flags](/en/blog/drapeaux-difficiles), capitals, and [historical figures](/en/blog/personnages-historiques) in a single session, forces your brain to constantly switch contexts. Harder in the moment. Better for long-term retention and transfer.
+In the context of quizzes, desirable difficulties take several forms. Time pressure forces faster retrieval, strengthening memory pathways. Well-designed multiple-choice distractors force you to discriminate between similar options, deepening your understanding -- distinguishing Chad's flag from Romania's flag, for instance, requires you to encode the subtle shade difference rather than just recognizing "blue, yellow, red." And interleaving topics, mixing questions about [flags](/en/blog/hardest-flags), capitals, and [historical figures](/en/blog/historical-figures) in a single session, forces your brain to constantly switch contexts. Harder in the moment. Better for long-term retention and transfer.
 
 The key word is "desirable." The difficulty must be manageable -- challenging enough to engage the brain's learning mechanisms but not so overwhelming that the learner gives up. Effective gamified quiz apps calibrate difficulty dynamically, ensuring that each learner works in their optimal zone. Too easy and you get bored. Too hard and you quit. The sweet spot is where learning happens.
 
@@ -62,7 +62,7 @@ The key word is "desirable." The difficulty must be manageable -- challenging en
 
 Humans are social creatures, and our motivation is strongly influenced by social context. Gamification leverages this through leaderboards, multiplayer challenges, and shared achievements.
 
-I've seen this play out in ways that still surprise me. A friend of mine -- someone who would never voluntarily open a geography textbook -- spent an entire Saturday afternoon drilling [world capitals](/en/blog/quiz-capitales-monde) because his teenage son challenged him on a leaderboard. He went from not knowing that Myanmar's capital is Naypyidaw to rattling off a dozen African capitals in a single weekend. The leaderboard did not teach him anything. It gave him a reason to teach himself.
+I've seen this play out in ways that still surprise me. A friend of mine -- someone who would never voluntarily open a geography textbook -- spent an entire Saturday afternoon drilling [world capitals](/en/blog/world-capitals-quiz) because his teenage son challenged him on a leaderboard. He went from not knowing that Myanmar's capital is Naypyidaw to rattling off a dozen African capitals in a single weekend. The leaderboard did not teach him anything. It gave him a reason to teach himself.
 
 That is the power of social context. A leaderboard creates a reference point -- seeing that you rank 47th out of 200 gives your learning a concrete goal. Research shows these rankings work best when they display people just above and below you, creating achievable short-term targets rather than a discouraging gap to the top. Multiplayer challenges amplify the effect further. When you are racing against someone in real time, the social pressure makes every question feel urgent, and urgency is the enemy of boredom.
 
@@ -70,7 +70,7 @@ But competition is a tool, not a mandate. Pushed too hard, it creates anxiety an
 
 ## Gamification for Children: Special Considerations
 
-The principles of gamification are particularly powerful for [teaching children](/en/blog/geographie-enfants), but they require careful adaptation.
+The principles of gamification are particularly powerful for [teaching children](/en/blog/geography-for-kids), but they require careful adaptation.
 
 Points and badges work as initial hooks, but what you really want is for the child to keep playing because they want to know the answer, not because they want the badge. I've seen the transition happen -- a kid starts chasing points, then one day asks "Wait, why is Bhutan called the Land of the Thunder Dragon?" and suddenly the badge is forgotten. That curiosity is the real prize, and the best quiz apps are designed to nurture it.
 
@@ -92,7 +92,7 @@ The theoretical case for gamification is strong, but what about real-world resul
 
 A 2019 meta-analysis published in Educational Research Review examined 46 studies involving over 6,500 participants and found a statistically significant positive effect on learning outcomes, engagement, and motivation. The effect was strongest when gamification included elements of challenge, feedback, and progression -- precisely the elements found in well-designed quiz apps.
 
-Teachers who have integrated quiz-based gamification into their classrooms consistently report higher participation rates, improved test scores, and greater student enthusiasm. A geography teacher using a quiz app for weekly [flag](/en/blog/signification-drapeaux) and [capital](/en/blog/quiz-capitales-monde) reviews might find that students voluntarily practice at home -- something that rarely happens with traditional homework. When the homework does not feel like homework, it gets done. For ideas on bringing this approach into your home, our guide to [family geography quiz nights](/en/blog/geographie-famille) offers a practical starting point.
+Teachers who have integrated quiz-based gamification into their classrooms consistently report higher participation rates, improved test scores, and greater student enthusiasm. A geography teacher using a quiz app for weekly [flag](/en/blog/flags-meaning) and [capital](/en/blog/world-capitals-quiz) reviews might find that students voluntarily practice at home -- something that rarely happens with traditional homework. When the homework does not feel like homework, it gets done. For ideas on bringing this approach into your home, our guide to [family geography quiz nights](/en/blog/geography-family) offers a practical starting point.
 
 ## Frequently asked questions
 

@@ -14,7 +14,7 @@ El abuelo dice Estambul. Tu hijo de diez anos grita Ankara. El abuelo protesta. 
 
 ## Por que la geografia funciona tan bien en un quiz familiar?
 
-La geografia tiene algo que otros temas no tienen: cualquiera puede jugar, pero nadie domina todo. Un nino de seis anos reconoce la bandera de Brasil. Un adolescente sabe que la capital de Australia es Canberra y no Sydney (uno de los [errores de geografia mas comunes](/es/blog/erreurs-geographie/)). Un adulto conoce las capitales de Asia Central. Cada uno juega a su nivel, y todos participan.
+La geografia tiene algo que otros temas no tienen: cualquiera puede jugar, pero nadie domina todo. Un nino de seis anos reconoce la bandera de Brasil. Un adolescente sabe que la capital de Australia es Canberra y no Sydney (uno de los [errores de geografia mas comunes](/es/blog/errores-geografia/)). Un adulto conoce las capitales de Asia Central. Cada uno juega a su nivel, y todos participan.
 
 Ademas, es visual. Con 195 paises reconocidos por la ONU y miles de datos curiosos para descubrir, un quiz de geografia no es una sucesion de preguntas leidas en voz alta. Puedes proyectar imagenes en la tele, imprimir fichas con banderas, sacar el globo terraqueo del estante. Los ninos pequenos se mantienen enganchados y los mayores disfrutan mas.
 
@@ -36,13 +36,13 @@ Los premios: no hace falta gastarse dinero. Un trofeo casero, el derecho a elegi
 
 Un buen quiz necesita reglas claras y un ritmo que no decaiga. Esta estructura funciona.
 
-Ronda 1, banderas del mundo (10 preguntas): muestra banderas y los equipos identifican el pais. Empieza facil (Francia, Japon, Brasil) y sube la dificultad. Para las ultimas, mete banderas que se confunden entre si, como esas parejas casi identicas que analizamos en nuestro articulo sobre los [drapeaux mas dificiles del mundo](/es/blog/drapeaux-difficiles/). Un punto por acierto.
+Ronda 1, banderas del mundo (10 preguntas): muestra banderas y los equipos identifican el pais. Empieza facil (Francia, Japon, Brasil) y sube la dificultad. Para las ultimas, mete banderas que se confunden entre si, como esas parejas casi identicas que analizamos en nuestro articulo sobre los [drapeaux mas dificiles del mundo](/es/blog/banderas-dificiles/). Un punto por acierto.
 
 Ronda 2, capitales (10 preguntas): nombras un pais, los equipos escriben la capital. Incluye las trampas clasicas: Australia (Canberra, no Sydney), Turquia (Ankara, no Estambul), Brasil (Brasilia, no Rio). Un punto por acierto.
 
 Ronda 3, ubica en el mapa (10 preguntas): mapa mudo en pantalla o impreso, y los equipos colocan paises, rios o montanas. Es la ronda mas visual y la que mas gritos provoca. Dos puntos por acierto, porque es mas dificil.
 
-Ronda 4, cultura y curiosidades (10 preguntas): tradiciones, gastronomia, monumentos, idiomas, datos raros. Esta ronda va mas alla de la geografia pura y conecta con la [cultura general](/es/blog/culture-generale-guide/). Un punto por acierto.
+Ronda 4, cultura y curiosidades (10 preguntas): tradiciones, gastronomia, monumentos, idiomas, datos raros. Esta ronda va mas alla de la geografia pura y conecta con la [cultura general](/es/blog/cultura-general-guia/). Un punto por acierto.
 
 Ronda final, preguntas rapidas (10 preguntas): preguntas cortas, sin tiempo para deliberar. El primer equipo en levantar la mano y acertar gana 3 puntos. Si falla, los demas pueden responder por 1 punto. Aqui es donde se deciden los quiz renidos.
 
@@ -70,7 +70,7 @@ Para ninos (8-12 anos): capitales de paises conocidos, banderas mas dificiles, u
 
 Para adolescentes (13-17 anos): capitales menos conocidas, geopolitica basica, datos culturales. Responden bien a preguntas que conecten geografia con lo que les interesa: musica, deporte, tecnologia, redes sociales. "En que pais se creo TikTok?" funciona mejor que "Capital de China?".
 
-Para adultos: geopolitica, historia geografica, economia, datos demograficos. Las preguntas trampa que explotan los [errores clasicos de geografia](/es/blog/erreurs-geographie/) generan carcajadas, sobre todo cuando el adulto "experto" cae en la mas obvia. Los [personajes historicos](/es/blog/personnages-historiques/) tambien dan mucho juego en este grupo.
+Para adultos: geopolitica, historia geografica, economia, datos demograficos. Las preguntas trampa que explotan los [errores clasicos de geografia](/es/blog/errores-geografia/) generan carcajadas, sobre todo cuando el adulto "experto" cae en la mas obvia. Los [personajes historicos](/es/blog/personajes-historicos/) tambien dan mucho juego en este grupo.
 
 ## Ideas para hacer el quiz mas dinamico
 
@@ -94,7 +94,7 @@ Pon SAPIRO en una tablet de la casa y crea un mini-desafio semanal: quien saque 
 
 Cuelga un mapa grande en la pared. Cada vez que alguien aprenda algo nuevo sobre un pais, pega una nota adhesiva con el dato. Con el tiempo, el mapa se llena de conocimiento compartido, y se convierte en un punto de conversacion cada vez que alguien pasa por delante.
 
-Establece una frecuencia para las veladas: una vez al mes funciona bien. Rota los temas: una noche geografia, la siguiente historia, la siguiente ciencias. Si quieres preparar un quiz tematico sobre banderas, las historias detras de los colores y simbolos que contamos en nuestro articulo sobre el [significado de las banderas](/es/blog/signification-drapeaux/) te daran material de sobra.
+Establece una frecuencia para las veladas: una vez al mes funciona bien. Rota los temas: una noche geografia, la siguiente historia, la siguiente ciencias. Si quieres preparar un quiz tematico sobre banderas, las historias detras de los colores y simbolos que contamos en nuestro articulo sobre el [significado de las banderas](/es/blog/significado-banderas/) te daran material de sobra.
 
 ## Preguntas frecuentes
 
