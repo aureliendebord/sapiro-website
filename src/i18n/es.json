@@ -366,5 +366,12 @@
       "species": "600 especies",
       "rating": "5/5 en Google Play"
     }
+  },
+  "notFound": {
+    "title": "Página no encontrada | SAPIRO",
+    "heading": "Esta página no existe",
+    "intro": "El enlace está roto o la página se ha movido. No te preocupes, hay mucho más por descubrir.",
+    "backHome": "Volver al inicio",
+    "backBlog": "Ver todos los artículos"
   }
 }

@@ -6,9 +6,10 @@ interface Props {
   description: string;
   lang?: string;
   noDefaultHreflang?: boolean;
+  noCanonical?: boolean;
 }
 
-const { title, description, lang = 'fr', noDefaultHreflang = false } = Astro.props;
+const { title, description, lang = 'fr', noDefaultHreflang = false, noCanonical = false } = Astro.props;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const ogImageURL = new URL(`/images/og/default-${lang}.png`, Astro.site);
 
@@ -65,7 +66,7 @@ const hrefEs = `https://sapiro.app${esPath}`;
   <meta name="twitter:image" content={ogImageURL.toString()} />
 
   <!-- Canonical -->
-  <link rel="canonical" href={canonicalURL} />
+  {!noCanonical && <link rel="canonical" href={canonicalURL} />}
 
   <!-- Alternate languages (dynamic per page) -->
   {!noDefaultHreflang && (

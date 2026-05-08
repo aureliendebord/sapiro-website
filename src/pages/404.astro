@@ -2,52 +2,35 @@
 import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
-import { getTranslations, getLocalePath, type Lang } from '../i18n';
+import { getTranslations, languages } from '../i18n';
 
-const referer = Astro.request.headers.get('referer') || '';
-const acceptLang = Astro.request.headers.get('accept-language') || '';
-const path = Astro.url.pathname;
-
-let lang: Lang = 'fr';
-if (path.startsWith('/en/') || referer.includes('/en/')) lang = 'en';
-else if (path.startsWith('/es/') || referer.includes('/es/')) lang = 'es';
-else if (acceptLang.toLowerCase().startsWith('en')) lang = 'en';
-else if (acceptLang.toLowerCase().startsWith('es')) lang = 'es';
-
+// Le 404.html est pré-généré en FR. La langue affichée est ensuite
+// basculée côté client (script en bas) selon le path /en/ ou /es/.
+// Astro.request.headers est vide au build : pas de détection serveur possible.
+const lang = 'fr';
 const t = getTranslations(lang);
 
-const copy: Record<Lang, { title: string; heading: string; intro: string; backHome: string; backBlog: string }> = {
-  fr: {
-    title: 'Page introuvable | SAPIRO',
-    heading: 'Cette page n’existe pas',
-    intro: 'Le lien que vous avez suivi est cassé ou la page a été déplacée. Pas de panique : il y a sûrement de quoi vous occuper ailleurs.',
-    backHome: 'Retour à l’accueil',
-    backBlog: 'Voir tous les articles',
-  },
-  en: {
-    title: 'Page not found | SAPIRO',
-    heading: 'This page doesn’t exist',
-    intro: 'The link you followed is broken or the page has moved. No worries — plenty more to explore.',
-    backHome: 'Back to homepage',
-    backBlog: 'See all articles',
-  },
-  es: {
-    title: 'Página no encontrada | SAPIRO',
-    heading: 'Esta página no existe',
-    intro: 'El enlace está roto o la página se ha movido. No te preocupes, hay mucho más por descubrir.',
-    backHome: 'Volver al inicio',
-    backBlog: 'Ver todos los artículos',
-  },
+// Embarque les 3 traductions pour le switch côté client.
+const i18nNotFound = {
+  fr: languages.fr.notFound,
+  en: languages.en.notFound,
+  es: languages.es.notFound,
 };
 
-const c = copy[lang];
-
+// Status 404 utile uniquement quand la page est servie via le worker SSR.
+// Pour le 404.html statique, c'est Cloudflare Pages qui force le status.
 Astro.response.status = 404;
 Astro.response.statusText = 'Not Found';
 Astro.response.headers.set('X-Robots-Tag', 'noindex');
 ---
 
-<Layout title={c.title} description={c.intro} lang={lang} noDefaultHreflang={true}>
+<Layout
+  title={t.notFound.title}
+  description={t.notFound.intro}
+  lang={lang}
+  noDefaultHreflang={true}
+  noCanonical={true}
+>
   <Fragment slot="head">
     <meta name="robots" content="noindex,follow" />
   </Fragment>
@@ -57,16 +40,57 @@ Astro.response.headers.set('X-Robots-Tag', 'noindex');
   <main class="not-found">
     <div class="not-found-inner">
       <p class="not-found-code">404</p>
-      <h1 class="not-found-title">{c.heading}</h1>
-      <p class="not-found-intro">{c.intro}</p>
+      <h1 class="not-found-title" data-i18n="heading">{t.notFound.heading}</h1>
+      <p class="not-found-intro" data-i18n="intro">{t.notFound.intro}</p>
       <div class="not-found-actions">
-        <a href={getLocalePath('/', lang)} class="btn btn-primary">{c.backHome}</a>
-        <a href={getLocalePath('/blog', lang)} class="btn btn-secondary">{c.backBlog}</a>
+        <a href="/" class="btn btn-orange" data-i18n="backHome" data-href-prefix="">{t.notFound.backHome}</a>
+        <a href="/blog/" class="btn btn-secondary" data-i18n="backBlog" data-href-prefix="/blog/">{t.notFound.backBlog}</a>
       </div>
     </div>
   </main>
 
   <Footer lang={lang} t={t} />
+
+  <script type="application/json" id="i18n-404" set:html={JSON.stringify(i18nNotFound)} />
+  <script>
+    (function () {
+      const data = document.getElementById('i18n-404');
+      if (!data) return;
+      const dict = JSON.parse(data.textContent || '{}');
+
+      // Détection langue : path > referrer > navigator.language > fr
+      function detectLang() {
+        const path = location.pathname;
+        if (path.startsWith('/en/')) return 'en';
+        if (path.startsWith('/es/')) return 'es';
+        const ref = document.referrer || '';
+        if (ref.includes('/en/')) return 'en';
+        if (ref.includes('/es/')) return 'es';
+        const nav = (navigator.language || '').toLowerCase();
+        if (nav.startsWith('en')) return 'en';
+        if (nav.startsWith('es')) return 'es';
+        return 'fr';
+      }
+
+      const lang = detectLang();
+      if (lang === 'fr' || !dict[lang]) return;
+
+      const t = dict[lang];
+      document.documentElement.lang = lang;
+      if (t.title) document.title = t.title;
+
+      document.querySelectorAll('[data-i18n]').forEach((el) => {
+        const key = el.getAttribute('data-i18n');
+        if (key && t[key]) el.textContent = t[key];
+      });
+
+      // Re-préfixe les liens d'action selon la langue cible
+      document.querySelectorAll('[data-href-prefix]').forEach((el) => {
+        const suffix = el.getAttribute('data-href-prefix') || '';
+        el.setAttribute('href', `/${lang}${suffix || '/'}`);
+      });
+    })();
+  </script>
 </Layout>
 
 <style>
@@ -86,17 +110,18 @@ Astro.response.headers.set('X-Robots-Tag', 'noindex');
     font-weight: 800;
     line-height: 1;
     margin: 0 0 1rem;
-    color: var(--accent, #ff6b00);
+    color: var(--orange);
     letter-spacing: -0.04em;
   }
   .not-found-title {
     font-size: 2rem;
     margin: 0 0 1rem;
+    color: var(--noir);
   }
   .not-found-intro {
     font-size: 1.125rem;
     line-height: 1.6;
-    opacity: 0.85;
+    color: var(--gris);
     margin: 0 0 2rem;
   }
   .not-found-actions {
@@ -104,23 +129,5 @@ Astro.response.headers.set('X-Robots-Tag', 'noindex');
     gap: 0.75rem;
     justify-content: center;
     flex-wrap: wrap;
-  }
-  .btn {
-    display: inline-block;
-    padding: 0.75rem 1.5rem;
-    border-radius: 999px;
-    font-weight: 600;
-    text-decoration: none;
-    transition: transform 0.15s ease, opacity 0.15s ease;
-  }
-  .btn:hover { transform: translateY(-1px); }
-  .btn-primary {
-    background: var(--accent, #ff6b00);
-    color: #fff;
-  }
-  .btn-secondary {
-    background: rgba(255, 255, 255, 0.1);
-    color: inherit;
-    border: 1px solid currentColor;
   }
 </style>

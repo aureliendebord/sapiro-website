@@ -366,5 +366,12 @@
       "species": "600 espèces",
       "rating": "5/5 sur Google Play"
     }
+  },
+  "notFound": {
+    "title": "Page introuvable | SAPIRO",
+    "heading": "Cette page n’existe pas",
+    "intro": "Le lien que vous avez suivi est cassé ou la page a été déplacée. Pas de panique : il y a sûrement de quoi vous occuper ailleurs.",
+    "backHome": "Retour à l’accueil",
+    "backBlog": "Voir tous les articles"
   }
 }
