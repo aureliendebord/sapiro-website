@@ -1,0 +1,7 @@
+# /sitemap.xml (URL conventionnelle) -> vrai sitemap-index
+/sitemap.xml          /sitemap-index.xml      301
+
+# /index.html -> racine (eviter duplicate content)
+/index.html           /                       301
+/en/index.html        /en/                    301
+/es/index.html        /es/                    301

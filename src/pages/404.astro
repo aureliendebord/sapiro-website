@@ -1,0 +1,126 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { getTranslations, getLocalePath, type Lang } from '../i18n';
+
+const referer = Astro.request.headers.get('referer') || '';
+const acceptLang = Astro.request.headers.get('accept-language') || '';
+const path = Astro.url.pathname;
+
+let lang: Lang = 'fr';
+if (path.startsWith('/en/') || referer.includes('/en/')) lang = 'en';
+else if (path.startsWith('/es/') || referer.includes('/es/')) lang = 'es';
+else if (acceptLang.toLowerCase().startsWith('en')) lang = 'en';
+else if (acceptLang.toLowerCase().startsWith('es')) lang = 'es';
+
+const t = getTranslations(lang);
+
+const copy: Record<Lang, { title: string; heading: string; intro: string; backHome: string; backBlog: string }> = {
+  fr: {
+    title: 'Page introuvable | SAPIRO',
+    heading: 'Cette page n’existe pas',
+    intro: 'Le lien que vous avez suivi est cassé ou la page a été déplacée. Pas de panique : il y a sûrement de quoi vous occuper ailleurs.',
+    backHome: 'Retour à l’accueil',
+    backBlog: 'Voir tous les articles',
+  },
+  en: {
+    title: 'Page not found | SAPIRO',
+    heading: 'This page doesn’t exist',
+    intro: 'The link you followed is broken or the page has moved. No worries — plenty more to explore.',
+    backHome: 'Back to homepage',
+    backBlog: 'See all articles',
+  },
+  es: {
+    title: 'Página no encontrada | SAPIRO',
+    heading: 'Esta página no existe',
+    intro: 'El enlace está roto o la página se ha movido. No te preocupes, hay mucho más por descubrir.',
+    backHome: 'Volver al inicio',
+    backBlog: 'Ver todos los artículos',
+  },
+};
+
+const c = copy[lang];
+
+Astro.response.status = 404;
+Astro.response.statusText = 'Not Found';
+Astro.response.headers.set('X-Robots-Tag', 'noindex');
+---
+
+<Layout title={c.title} description={c.intro} lang={lang} noDefaultHreflang={true}>
+  <Fragment slot="head">
+    <meta name="robots" content="noindex,follow" />
+  </Fragment>
+
+  <Header lang={lang} t={t} />
+
+  <main class="not-found">
+    <div class="not-found-inner">
+      <p class="not-found-code">404</p>
+      <h1 class="not-found-title">{c.heading}</h1>
+      <p class="not-found-intro">{c.intro}</p>
+      <div class="not-found-actions">
+        <a href={getLocalePath('/', lang)} class="btn btn-primary">{c.backHome}</a>
+        <a href={getLocalePath('/blog', lang)} class="btn btn-secondary">{c.backBlog}</a>
+      </div>
+    </div>
+  </main>
+
+  <Footer lang={lang} t={t} />
+</Layout>
+
+<style>
+  .not-found {
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6rem 1.5rem;
+  }
+  .not-found-inner {
+    max-width: 640px;
+    text-align: center;
+  }
+  .not-found-code {
+    font-size: 5rem;
+    font-weight: 800;
+    line-height: 1;
+    margin: 0 0 1rem;
+    color: var(--accent, #ff6b00);
+    letter-spacing: -0.04em;
+  }
+  .not-found-title {
+    font-size: 2rem;
+    margin: 0 0 1rem;
+  }
+  .not-found-intro {
+    font-size: 1.125rem;
+    line-height: 1.6;
+    opacity: 0.85;
+    margin: 0 0 2rem;
+  }
+  .not-found-actions {
+    display: flex;
+    gap: 0.75rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    border-radius: 999px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: transform 0.15s ease, opacity 0.15s ease;
+  }
+  .btn:hover { transform: translateY(-1px); }
+  .btn-primary {
+    background: var(--accent, #ff6b00);
+    color: #fff;
+  }
+  .btn-secondary {
+    background: rgba(255, 255, 255, 0.1);
+    color: inherit;
+    border: 1px solid currentColor;
+  }
+</style>
