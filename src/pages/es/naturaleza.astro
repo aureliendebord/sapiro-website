@@ -1,0 +1,129 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import { getTranslations } from '../../i18n';
+
+const lang = 'es';
+const t = getTranslations(lang);
+
+const collectionPageSchema = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Naturaleza y animales: especies del mundo, conservación, biodiversidad",
+  "description": "Naturaleza y fauna mundial: 600 especies animales, animales más peligrosos, especies en peligro, identificación.",
+  "url": "https://sapiro.app/es/naturaleza/",
+  "inLanguage": "es"
+};
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "¿Cuál es el animal más peligroso del mundo?", "acceptedAnswer": { "@type": "Answer", "text": "El mosquito es el animal más peligroso del mundo con unas 725 000 muertes humanas al año, principalmente por malaria y dengue. Es el animal que más seres humanos ha matado en la historia (50 a 70 mil millones de muertes acumuladas)." } },
+    { "@type": "Question", "name": "¿Cuál es la diferencia entre un guepardo y un leopardo?", "acceptedAnswer": { "@type": "Answer", "text": "El guepardo es esbelto con manchas sólidas (nunca rosetas) y 'lágrimas' negras bajo los ojos. El leopardo es más robusto con rosetas (manchas en forma de flor). El guepardo no trepa a los árboles, el leopardo sí." } },
+    { "@type": "Question", "name": "¿Cuántas especies animales existen en el mundo?", "acceptedAnswer": { "@type": "Answer", "text": "Se estima en unos 8 millones el número de especies en la Tierra, de las cuales 1,5 millones ya han sido descritas científicamente. La biodiversidad sigue siendo en gran parte por explorar: el 86% de las especies terrestres y el 91% de las marinas aún no han sido descritas." } },
+    { "@type": "Question", "name": "¿Qué animales están en peligro de extinción?", "acceptedAnswer": { "@type": "Answer", "text": "Más de 47 000 especies están amenazadas según la Lista Roja UICN 2025. Casos críticos: rinoceronte de Java (76 individuos), vaquita marina (10 individuos), pangolín chino, tigre de Sumatra (menos de 400), orangután de Tapanuli (800 individuos)." } }
+  ]
+};
+---
+
+<Layout title="Naturaleza y animales: especies, conservación, biodiversidad | SAPIRO" description="Naturaleza y fauna mundial: 600 especies animales, animales más peligrosos, especies en peligro de extinción." lang={lang}>
+  <Fragment slot="head">
+    <link rel="alternate" hreflang="es" href="https://sapiro.app/es/naturaleza/" />
+    <link rel="alternate" hreflang="fr" href="https://sapiro.app/nature/" />
+    <link rel="alternate" hreflang="en" href="https://sapiro.app/en/nature/" />
+    <script type="application/ld+json" set:html={JSON.stringify(collectionPageSchema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+  </Fragment>
+
+  <Header lang={lang} t={t} />
+
+  <main class="pillar-page">
+    <article class="container">
+      <header class="pillar-header">
+        <h1>Naturaleza y animales</h1>
+        <p class="lede">600 especies animales, de las ballenas azules a los tardígrados. Identificación, conservación, biodiversidad: todo para entender el reino animal.</p>
+      </header>
+
+      <section class="pillar-intro">
+        <p>El reino animal cuenta unos 8 millones de especies, de las cuales 1,5 millones ya están descritas. Nadie las conoce todas. Pero 50 a 100 especies clave permiten entender la biodiversidad, sus dinámicas, sus amenazas. Y dejar de confundir un guepardo con un leopardo.</p>
+        <p>SAPIRO cubre 600 especies animales organizadas por continente, hábitat y familia, con explicación contextualizada para cada pregunta.</p>
+      </section>
+
+      <section class="pillar-stats">
+        <h2>La naturaleza en cifras</h2>
+        <ul>
+          <li><strong>8 millones</strong> de especies estimadas en la Tierra, de las cuales 1,5 millones descritas</li>
+          <li><strong>47 000+</strong> especies amenazadas según la Lista Roja UICN 2025</li>
+          <li><strong>725 000</strong> muertes humanas al año causadas por mosquitos (animal más peligroso)</li>
+          <li><strong>70%</strong> de caída en las poblaciones animales africanas desde 1970 (WWF)</li>
+          <li><strong>600</strong> especies animales en SAPIRO, de las más conocidas a las más extrañas</li>
+        </ul>
+      </section>
+
+      <section class="pillar-sub">
+        <h2>Lo esencial</h2>
+        <ul class="pillar-grid">
+          <li><a href="/es/blog/quiz-animales-especies-mundo/">50 especies animales que reconocer</a></li>
+          <li><a href="/es/blog/animales-parecidos-diferencias/">20 parejas de animales que se parecen</a></li>
+          <li><a href="/es/blog/animales-mas-peligrosos-mundo/">Los 15 animales más peligrosos</a></li>
+          <li><a href="/es/blog/animales-en-peligro-extincion/">Animales en peligro de extinción</a></li>
+          <li><a href="/es/blog/animales-extranos-desconocidos/">20 animales extraños y desconocidos</a></li>
+        </ul>
+      </section>
+
+      <section class="pillar-sub">
+        <h2>Por región y familia</h2>
+        <ul class="pillar-grid">
+          <li><a href="/es/blog/animales-africa/">40 animales emblemáticos de África</a></li>
+          <li><a href="/es/blog/razas-perros-reconocer/">Reconocer 30 razas de perros</a></li>
+        </ul>
+      </section>
+
+      <section class="pillar-sub">
+        <h2>Aprender en familia</h2>
+        <ul class="pillar-grid">
+          <li><a href="/es/blog/quiz-naturaleza-ninos/">Quiz naturaleza para niños</a></li>
+          <li><a href="/es/blog/identificar-animales-ninos/">Identificar animales con los niños</a></li>
+        </ul>
+      </section>
+
+      <section class="pillar-faq">
+        <h2>Preguntas frecuentes sobre animales</h2>
+
+        <h3>¿Cuál es el animal más peligroso del mundo?</h3>
+        <p>El mosquito es el animal más peligroso del mundo con unas 725 000 muertes humanas al año, principalmente por malaria y dengue. Es el animal que más seres humanos ha matado en la historia (50 a 70 mil millones de muertes acumuladas).</p>
+
+        <h3>¿Cuál es la diferencia entre un guepardo y un leopardo?</h3>
+        <p>El guepardo es esbelto con manchas sólidas (nunca rosetas) y "lágrimas" negras bajo los ojos. El leopardo es más robusto con rosetas (manchas en forma de flor). El guepardo no trepa a los árboles, el leopardo sí.</p>
+
+        <h3>¿Cuántas especies animales existen en el mundo?</h3>
+        <p>Se estima en unos 8 millones el número de especies en la Tierra, de las cuales 1,5 millones ya han sido descritas científicamente. La biodiversidad sigue siendo en gran parte por explorar: el 86% de las especies terrestres y el 91% de las marinas aún no han sido descritas.</p>
+
+        <h3>¿Qué animales están en peligro de extinción?</h3>
+        <p>Más de 47 000 especies están amenazadas según la Lista Roja UICN 2025. Casos críticos: rinoceronte de Java (76 individuos), vaquita marina (10 individuos), pangolín chino, tigre de Sumatra (menos de 400), orangután de Tapanuli (800 individuos).</p>
+      </section>
+    </article>
+  </main>
+
+  <Footer lang={lang} t={t} />
+</Layout>
+
+<style>
+  .pillar-page { padding-top: 100px; padding-bottom: 60px; }
+  .pillar-header { text-align: center; padding-bottom: 32px; margin-bottom: 32px; border-bottom: 1px solid var(--gris-clair); }
+  .pillar-header h1 { font-size: clamp(2.25rem, 4.5vw, 3.25rem); margin-bottom: 16px; }
+  .lede { font-size: 1.25rem; color: var(--gris); max-width: 720px; margin: 0 auto; }
+  .pillar-intro, .pillar-stats, .pillar-sub, .pillar-faq { max-width: 800px; margin: 0 auto 48px; }
+  .pillar-intro p { line-height: 1.75; margin-bottom: 16px; font-size: 1.05rem; }
+  .pillar-stats ul { padding-left: 24px; }
+  .pillar-stats li { margin-bottom: 8px; line-height: 1.7; }
+  .pillar-sub h2, .pillar-stats h2, .pillar-faq h2 { font-size: 1.75rem; margin-bottom: 20px; }
+  .pillar-grid { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 12px; }
+  .pillar-grid li { padding: 14px 18px; background: var(--gris-clair); border-radius: 8px; }
+  .pillar-grid a { color: var(--noir); text-decoration: none; font-weight: 500; }
+  .pillar-grid a:hover { color: var(--orange); }
+  .pillar-faq h3 { font-size: 1.1rem; margin-top: 24px; margin-bottom: 8px; }
+  .pillar-faq p { line-height: 1.7; margin-bottom: 16px; }
+</style>

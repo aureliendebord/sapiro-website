@@ -1,0 +1,140 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import { getTranslations } from '../../i18n';
+
+const lang = 'en';
+const t = getTranslations(lang);
+
+const collectionPageSchema = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "World geography: countries, flags, capitals",
+  "description": "Everything on world geography: 197 countries, flags, capitals, borders, cultures.",
+  "url": "https://sapiro.app/en/geography/",
+  "inLanguage": "en"
+};
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "How many countries are there in the world?", "acceptedAnswer": { "@type": "Answer", "text": "There are 197 recognized countries in the world: 193 UN members plus the Vatican, Palestine, Taiwan and Kosovo (depending on recognition)." } },
+    { "@type": "Question", "name": "What is the capital of Australia?", "acceptedAnswer": { "@type": "Answer", "text": "The capital of Australia is Canberra, not Sydney or Melbourne. It is a planned city created in 1913 to resolve the Sydney-Melbourne rivalry." } },
+    { "@type": "Question", "name": "What are the hardest flags to recognize?", "acceptedAnswer": { "@type": "Answer", "text": "The most confused flags are Chad/Romania (nearly identical), Monaco/Indonesia (red and white inverted), Slovakia/Slovenia (similar) and the Nordic flags among themselves." } },
+    { "@type": "Question", "name": "What is the smallest country in the world?", "acceptedAnswer": { "@type": "Answer", "text": "The Vatican is the smallest country in the world at 0.49 km² with about 825 inhabitants. It is followed by Monaco (2.02 km²) and Nauru (21 km²)." } },
+    { "@type": "Question", "name": "How to learn all the countries in the world?", "acceptedAnswer": { "@type": "Answer", "text": "The most effective method is to learn by continent (not alphabetically), starting with 30 key countries and expanding. Fifteen minutes of quizzes a day is enough to memorize 197 countries in 3-6 months." } }
+  ]
+};
+---
+
+<Layout title="World Geography: Countries, Flags, Capitals | SAPIRO" description="World geography: 197 countries, flags, capitals, borders. Guides, quizzes and methods to learn it for good." lang={lang}>
+  <Fragment slot="head">
+    <link rel="alternate" hreflang="en" href="https://sapiro.app/en/geography/" />
+    <link rel="alternate" hreflang="fr" href="https://sapiro.app/geographie/" />
+    <link rel="alternate" hreflang="es" href="https://sapiro.app/es/geografia/" />
+    <script type="application/ld+json" set:html={JSON.stringify(collectionPageSchema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+  </Fragment>
+
+  <Header lang={lang} t={t} />
+
+  <main class="pillar-page">
+    <article class="container">
+      <header class="pillar-header">
+        <h1>World Geography</h1>
+        <p class="lede">197 countries, thousands of flags, confusing capitals. All our guides and quizzes to master world geography.</p>
+      </header>
+
+      <section class="pillar-intro">
+        <p>Geography is probably the most accessible doorway to general knowledge. It is also the field that best suits quizzes: questions are factual and verifiable. A capital, a flag, a border. You know where you stand. You see your progress.</p>
+        <p>SAPIRO covers the 197 recognized countries with flags, capitals and quirks, plus thematic questions (economic geography, climate, demographics).</p>
+      </section>
+
+      <section class="pillar-stats">
+        <h2>World geography in numbers</h2>
+        <ul>
+          <li><strong>197</strong> recognized countries in the world (193 UN members + 4 special cases)</li>
+          <li><strong>7</strong> continents (Africa, North America, South America, Europe, Asia, Oceania, Antarctica)</li>
+          <li><strong>~6,500</strong> languages spoken worldwide</li>
+          <li><strong>54</strong> countries in Africa, a quarter of the planet</li>
+          <li><strong>270,000</strong> islands in Sweden, more than any other country</li>
+        </ul>
+      </section>
+
+      <section class="pillar-sub">
+        <h2>The essentials</h2>
+        <ul class="pillar-grid">
+          <li><a href="/en/blog/world-capitals-quiz/">World capitals quiz</a></li>
+          <li><a href="/en/blog/capitals-quiz-by-continent/">Capitals quiz by continent</a></li>
+          <li><a href="/en/blog/hardest-flags/">The 15 hardest flags to recognize</a></li>
+          <li><a href="/en/blog/flags-meaning/">Flag meanings and symbolism</a></li>
+          <li><a href="/en/blog/geography-mistakes/">Common geography mistakes</a></li>
+          <li><a href="/en/blog/world-flags-quiz-free-online/">Free online flags quiz</a></li>
+        </ul>
+      </section>
+
+      <section class="pillar-sub">
+        <h2>Geographic curiosities</h2>
+        <ul class="pillar-grid">
+          <li><a href="/en/blog/least-visited-countries-world/">The 15 least visited countries</a></li>
+          <li><a href="/en/blog/smallest-countries-world/">The 10 smallest countries</a></li>
+          <li><a href="/en/blog/countries-that-disappeared/">Countries that no longer exist</a></li>
+          <li><a href="/en/blog/strangest-borders-world/">The 10 strangest borders in the world</a></li>
+          <li><a href="/en/blog/origin-country-names/">The origin of country names</a></li>
+          <li><a href="/en/blog/which-country-matches-personality/">Which country matches your personality?</a></li>
+        </ul>
+      </section>
+
+      <section class="pillar-sub">
+        <h2>Learning with family and at school</h2>
+        <ul class="pillar-grid">
+          <li><a href="/en/blog/geography-for-kids/">Geography for kids</a></li>
+          <li><a href="/en/blog/geography-family/">Geography as a family</a></li>
+          <li><a href="/en/blog/teaching-world-countries-kids/">Teaching world countries to kids</a></li>
+          <li><a href="/en/blog/best-geography-apps/">The best geography apps</a></li>
+        </ul>
+      </section>
+
+      <section class="pillar-faq">
+        <h2>Frequently asked questions about geography</h2>
+
+        <h3>How many countries are there in the world?</h3>
+        <p>There are 197 recognized countries in the world: 193 UN members plus the Vatican, Palestine, Taiwan and Kosovo (depending on recognition).</p>
+
+        <h3>What is the capital of Australia?</h3>
+        <p>The capital of Australia is Canberra, not Sydney or Melbourne. It is a planned city created in 1913 to resolve the Sydney-Melbourne rivalry.</p>
+
+        <h3>What are the hardest flags to recognize?</h3>
+        <p>The most confused flags are Chad/Romania (nearly identical), Monaco/Indonesia (red and white inverted), Slovakia/Slovenia (similar) and the Nordic flags among themselves.</p>
+
+        <h3>What is the smallest country in the world?</h3>
+        <p>The Vatican is the smallest country in the world at 0.49 km² with about 825 inhabitants. It is followed by Monaco (2.02 km²) and Nauru (21 km²).</p>
+
+        <h3>How to learn all the countries in the world?</h3>
+        <p>The most effective method is to learn by continent (not alphabetically), starting with 30 key countries and expanding. Fifteen minutes of quizzes a day is enough to memorize 197 countries in 3-6 months.</p>
+      </section>
+    </article>
+  </main>
+
+  <Footer lang={lang} t={t} />
+</Layout>
+
+<style>
+  .pillar-page { padding-top: 100px; padding-bottom: 60px; }
+  .pillar-header { text-align: center; padding-bottom: 32px; margin-bottom: 32px; border-bottom: 1px solid var(--gris-clair); }
+  .pillar-header h1 { font-size: clamp(2.25rem, 4.5vw, 3.25rem); margin-bottom: 16px; }
+  .lede { font-size: 1.25rem; color: var(--gris); max-width: 720px; margin: 0 auto; }
+  .pillar-intro, .pillar-stats, .pillar-sub, .pillar-faq { max-width: 800px; margin: 0 auto 48px; }
+  .pillar-intro p { line-height: 1.75; margin-bottom: 16px; font-size: 1.05rem; }
+  .pillar-stats ul { padding-left: 24px; }
+  .pillar-stats li { margin-bottom: 8px; line-height: 1.7; }
+  .pillar-sub h2, .pillar-stats h2, .pillar-faq h2 { font-size: 1.75rem; margin-bottom: 20px; }
+  .pillar-grid { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 12px; }
+  .pillar-grid li { padding: 14px 18px; background: var(--gris-clair); border-radius: 8px; }
+  .pillar-grid a { color: var(--noir); text-decoration: none; font-weight: 500; }
+  .pillar-grid a:hover { color: var(--orange); }
+  .pillar-faq h3 { font-size: 1.1rem; margin-top: 24px; margin-bottom: 8px; }
+  .pillar-faq p { line-height: 1.7; margin-bottom: 16px; }
+</style>

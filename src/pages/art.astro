@@ -47,6 +47,9 @@ const faqSchema = {
 <Layout title="Histoire de l'art : peintres, mouvements, musées | SAPIRO" description="Histoire de l'art : 553 œuvres, peintres célèbres, mouvements artistiques de la Renaissance au Pop Art, musées du monde." lang={lang}>
   <Fragment slot="head">
     <link rel="alternate" hreflang="fr" href="https://sapiro.app/art/" />
+    <link rel="alternate" hreflang="en" href="https://sapiro.app/en/art/" />
+    <link rel="alternate" hreflang="es" href="https://sapiro.app/es/arte/" />
+    <link rel="alternate" hreflang="x-default" href="https://sapiro.app/art/" />
     <script type="application/ld+json" set:html={JSON.stringify(collectionPageSchema)} />
     <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
   </Fragment>
