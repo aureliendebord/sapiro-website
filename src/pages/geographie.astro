@@ -1,0 +1,170 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { getCollection } from 'astro:content';
+import { getTranslations } from '../i18n';
+
+const lang = 'fr';
+const t = getTranslations(lang);
+
+const allPosts = await getCollection('blog');
+const geoCategories = ['geographie', 'drapeaux', 'voyage', 'culture-generale'];
+const articles = allPosts
+  .filter(p => p.data.lang === 'fr' && geoCategories.includes(p.data.category))
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+
+const collectionPageSchema = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Géographie du monde : pays, drapeaux, capitales",
+  "description": "Tout sur la géographie du monde : 197 pays, drapeaux, capitales, frontières, cultures.",
+  "url": "https://sapiro.app/geographie/",
+  "inLanguage": "fr",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "SAPIRO",
+    "url": "https://sapiro.app"
+  }
+};
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Combien de pays existent dans le monde ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Il y a 197 pays reconnus dans le monde : 193 membres de l'ONU plus le Vatican, la Palestine, Taïwan et le Kosovo (selon les reconnaissances)." }
+    },
+    {
+      "@type": "Question",
+      "name": "Quelle est la capitale de l'Australie ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "La capitale de l'Australie est Canberra, et non Sydney ou Melbourne. C'est une ville artificielle créée en 1913 pour résoudre la rivalité Sydney-Melbourne." }
+    },
+    {
+      "@type": "Question",
+      "name": "Quels sont les drapeaux les plus difficiles à reconnaître ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Les drapeaux les plus confondus sont Tchad/Roumanie (presque identiques), Monaco/Indonésie (rouge et blanc inversés), Slovaquie/Slovénie (similaires) et les drapeaux nordiques entre eux." }
+    },
+    {
+      "@type": "Question",
+      "name": "Quel est le plus petit pays du monde ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Le Vatican est le plus petit pays du monde avec 0,49 km² et environ 825 habitants. Il est suivi par Monaco (2,02 km²) et Nauru (21 km²)." }
+    },
+    {
+      "@type": "Question",
+      "name": "Comment apprendre tous les pays du monde ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "La méthode la plus efficace est d'apprendre par continent (pas par ordre alphabétique), en commençant par 30 pays clés, puis en élargissant. Quinze minutes de quiz par jour suffisent pour mémoriser les 197 pays en 3-6 mois." }
+    }
+  ]
+};
+---
+
+<Layout title="Géographie du monde : pays, drapeaux, capitales | SAPIRO" description="Géographie mondiale : 197 pays, drapeaux, capitales, frontières. Guides, quiz et méthodes pour apprendre durablement." lang={lang}>
+  <Fragment slot="head">
+    <link rel="alternate" hreflang="fr" href="https://sapiro.app/geographie/" />
+    <script type="application/ld+json" set:html={JSON.stringify(collectionPageSchema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+  </Fragment>
+
+  <Header lang={lang} t={t} />
+
+  <main class="pillar-page">
+    <article class="container">
+      <header class="pillar-header">
+        <h1>Géographie du monde</h1>
+        <p class="lede">197 pays, des milliers de drapeaux, des capitales qu'on confond. Voici tous nos guides et quiz pour maîtriser la géographie mondiale.</p>
+      </header>
+
+      <section class="pillar-intro">
+        <p>La géographie est sans doute la porte d'entrée la plus accessible vers la culture générale. C'est aussi le domaine qui se prête le mieux au quiz : les questions sont factuelles et vérifiables. Une capitale, un drapeau, une frontière. On sait où on en est. On voit où on progresse.</p>
+        <p>SAPIRO couvre les 197 pays reconnus avec drapeaux, capitales et particularités, plus des questions thématiques (géographie économique, climat, démographie).</p>
+      </section>
+
+      <section class="pillar-stats">
+        <h2>Géographie du monde : les chiffres clés</h2>
+        <ul>
+          <li><strong>197</strong> pays reconnus dans le monde (193 membres ONU + 4 cas particuliers)</li>
+          <li><strong>7</strong> continents (Afrique, Amérique du Nord, Amérique du Sud, Europe, Asie, Océanie, Antarctique)</li>
+          <li><strong>~6 500</strong> langues parlées dans le monde</li>
+          <li><strong>54</strong> pays en Afrique, soit un quart de la planète</li>
+          <li><strong>270 000</strong> îles environ en Suède, plus que n'importe quel autre pays</li>
+        </ul>
+      </section>
+
+      <section class="pillar-sub">
+        <h2>Les essentiels</h2>
+        <ul class="pillar-grid">
+          <li><a href="/blog/quiz-capitales-monde/">Quiz capitales du monde</a></li>
+          <li><a href="/blog/quiz-capitales-par-continent/">Quiz capitales par continent</a></li>
+          <li><a href="/blog/drapeaux-difficiles/">Les 15 drapeaux les plus difficiles à reconnaître</a></li>
+          <li><a href="/blog/signification-drapeaux/">La signification des drapeaux</a></li>
+          <li><a href="/blog/erreurs-geographie/">Les erreurs de géographie les plus répandues</a></li>
+          <li><a href="/blog/quiz-drapeaux-monde-gratuit-en-ligne/">Quiz drapeaux gratuit en ligne</a></li>
+        </ul>
+      </section>
+
+      <section class="pillar-sub">
+        <h2>Curiosités géographiques</h2>
+        <ul class="pillar-grid">
+          <li><a href="/blog/pays-moins-visites-monde/">Les 15 pays les moins visités du monde</a></li>
+          <li><a href="/blog/plus-petits-pays-monde/">Les 10 plus petits pays du monde</a></li>
+          <li><a href="/blog/pays-disparus/">Les pays qui n'existent plus</a></li>
+          <li><a href="/blog/frontieres-etranges-monde/">Les 10 frontières les plus étranges du monde</a></li>
+          <li><a href="/blog/origine-noms-pays/">L'origine du nom des pays</a></li>
+          <li><a href="/blog/test-pays-personnalite/">Quel pays correspond à votre personnalité ?</a></li>
+        </ul>
+      </section>
+
+      <section class="pillar-sub">
+        <h2>Apprendre en famille et à l'école</h2>
+        <ul class="pillar-grid">
+          <li><a href="/blog/geographie-enfants/">Géographie pour enfants</a></li>
+          <li><a href="/blog/geographie-famille/">Géographie en famille</a></li>
+          <li><a href="/blog/apprendre-pays-monde-enfants/">Apprendre les pays du monde aux enfants</a></li>
+          <li><a href="/blog/meilleures-apps-geographie/">Les meilleures apps de géographie</a></li>
+        </ul>
+      </section>
+
+      <section class="pillar-faq">
+        <h2>Questions fréquentes sur la géographie</h2>
+
+        <h3>Combien de pays existent dans le monde ?</h3>
+        <p>Il y a 197 pays reconnus dans le monde : 193 membres de l'ONU plus le Vatican, la Palestine, Taïwan et le Kosovo (selon les reconnaissances).</p>
+
+        <h3>Quelle est la capitale de l'Australie ?</h3>
+        <p>La capitale de l'Australie est Canberra, et non Sydney ou Melbourne. C'est une ville artificielle créée en 1913 pour résoudre la rivalité Sydney-Melbourne.</p>
+
+        <h3>Quels sont les drapeaux les plus difficiles à reconnaître ?</h3>
+        <p>Les drapeaux les plus confondus sont Tchad/Roumanie (presque identiques), Monaco/Indonésie (rouge et blanc inversés), Slovaquie/Slovénie (similaires) et les drapeaux nordiques entre eux.</p>
+
+        <h3>Quel est le plus petit pays du monde ?</h3>
+        <p>Le Vatican est le plus petit pays du monde avec 0,49 km² et environ 825 habitants. Il est suivi par Monaco (2,02 km²) et Nauru (21 km²).</p>
+
+        <h3>Comment apprendre tous les pays du monde ?</h3>
+        <p>La méthode la plus efficace est d'apprendre par continent (pas par ordre alphabétique), en commençant par 30 pays clés, puis en élargissant. Quinze minutes de quiz par jour suffisent pour mémoriser les 197 pays en 3-6 mois.</p>
+      </section>
+    </article>
+  </main>
+
+  <Footer lang={lang} t={t} />
+</Layout>
+
+<style>
+  .pillar-page { padding-top: 100px; padding-bottom: 60px; }
+  .pillar-header { text-align: center; padding-bottom: 32px; margin-bottom: 32px; border-bottom: 1px solid var(--gris-clair); }
+  .pillar-header h1 { font-size: clamp(2.25rem, 4.5vw, 3.25rem); margin-bottom: 16px; }
+  .lede { font-size: 1.25rem; color: var(--gris); max-width: 720px; margin: 0 auto; }
+  .pillar-intro, .pillar-stats, .pillar-sub, .pillar-faq { max-width: 800px; margin: 0 auto 48px; }
+  .pillar-intro p { line-height: 1.75; margin-bottom: 16px; font-size: 1.05rem; }
+  .pillar-stats ul { padding-left: 24px; }
+  .pillar-stats li { margin-bottom: 8px; line-height: 1.7; }
+  .pillar-sub h2, .pillar-stats h2, .pillar-faq h2 { font-size: 1.75rem; margin-bottom: 20px; }
+  .pillar-grid { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 12px; }
+  .pillar-grid li { padding: 14px 18px; background: var(--gris-clair); border-radius: 8px; }
+  .pillar-grid a { color: var(--noir); text-decoration: none; font-weight: 500; }
+  .pillar-grid a:hover { color: var(--orange); }
+  .pillar-faq h3 { font-size: 1.1rem; margin-top: 24px; margin-bottom: 8px; }
+  .pillar-faq p { line-height: 1.7; margin-bottom: 16px; }
+</style>
