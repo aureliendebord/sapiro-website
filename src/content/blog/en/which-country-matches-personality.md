@@ -6,7 +6,8 @@ lang: "en"
 urlSlug: "which-country-matches-personality"
 translationKey: "test-pays-personnalite"
 category: "voyage"
-author: "SAPIRO"
+author: "Aurélien Debord"
+authorRole: "Founder of SAPIRO"
 readingTime: 6
 ---
 

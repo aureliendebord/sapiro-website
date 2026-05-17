@@ -1,12 +1,13 @@
 ---
 title: "Quiz animaux : reconnaître 50 espèces du monde"
-description: "Sauriez-vous distinguer un guépard d'un léopard, un alpaga d'un lama ? Tour d'horizon des 50 espèces animales à savoir reconnaître, avec leurs traits distinctifs."
+description: "Sauriez-vous distinguer un guépard d'un léopard, un lama d'un alpaga ? 50 espèces animales à reconnaître avec leurs traits clés."
 date: 2026-01-15
 lang: "fr"
 urlSlug: "quiz-animaux-especes-monde"
 translationKey: "quiz-animaux-monde"
 category: "nature"
-author: "SAPIRO"
+author: "Aurélien Debord"
+authorRole: "Fondateur de SAPIRO"
 readingTime: 9
 ---
 

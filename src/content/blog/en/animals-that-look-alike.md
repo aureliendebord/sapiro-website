@@ -6,7 +6,8 @@ lang: "en"
 urlSlug: "animals-that-look-alike"
 translationKey: "animaux-ressemblants"
 category: "nature"
-author: "SAPIRO"
+author: "Aurélien Debord"
+authorRole: "Founder of SAPIRO"
 readingTime: 9
 ---
 

@@ -6,7 +6,8 @@ lang: "en"
 urlSlug: "general-knowledge-quiz-levels"
 translationKey: "quiz-niveau"
 category: "formats-quiz"
-author: "SAPIRO"
+author: "Aurélien Debord"
+authorRole: "Founder of SAPIRO"
 readingTime: 5
 ---
 

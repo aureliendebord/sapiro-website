@@ -6,7 +6,8 @@ lang: "fr"
 urlSlug: "quiz-culture-generale-entreprise-team-building"
 translationKey: "quiz-entreprise"
 category: "formats-quiz"
-author: "SAPIRO"
+author: "Aurélien Debord"
+authorRole: "Fondateur de SAPIRO"
 readingTime: 5
 ---
 

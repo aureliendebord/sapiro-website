@@ -6,7 +6,8 @@ lang: "en"
 urlSlug: "quiz-animals-world-species"
 translationKey: "quiz-animaux-monde"
 category: "nature"
-author: "SAPIRO"
+author: "Aurélien Debord"
+authorRole: "Founder of SAPIRO"
 readingTime: 9
 ---
 

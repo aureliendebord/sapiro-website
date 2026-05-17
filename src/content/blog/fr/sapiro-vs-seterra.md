@@ -6,7 +6,8 @@ lang: "fr"
 urlSlug: "sapiro-vs-seterra"
 translationKey: "sapiro-vs-seterra"
 category: "comparatifs"
-author: "SAPIRO"
+author: "Aurélien Debord"
+authorRole: "Fondateur de SAPIRO"
 readingTime: 5
 ---
 

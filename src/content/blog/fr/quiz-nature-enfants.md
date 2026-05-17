@@ -1,12 +1,13 @@
 ---
-title: "Quiz nature pour enfants : apprendre les animaux en s'amusant"
+title: "Quiz nature pour enfants : apprendre en s'amusant"
 description: "Comment faire decouvrir les animaux aux enfants ? Quiz par age, jeux d'observation et astuces pedagogiques pour eveiller la curiosite naturaliste."
 date: 2026-01-21
 lang: "fr"
 urlSlug: "quiz-nature-enfants"
 translationKey: "quiz-nature-enfants"
 category: "nature"
-author: "SAPIRO"
+author: "Aurélien Debord"
+authorRole: "Fondateur de SAPIRO"
 readingTime: 7
 ---
 

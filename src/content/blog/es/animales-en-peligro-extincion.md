@@ -6,7 +6,8 @@ lang: "es"
 urlSlug: "animales-en-peligro-extincion"
 translationKey: "animaux-disparition"
 category: "nature"
-author: "SAPIRO"
+author: "Aurélien Debord"
+authorRole: "Fundador de SAPIRO"
 readingTime: 9
 ---
 

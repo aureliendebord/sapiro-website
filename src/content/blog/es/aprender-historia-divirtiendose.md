@@ -1,12 +1,13 @@
 ---
-title: "Aprender historia divirtiéndose: métodos que realmente funcionan"
+title: "Aprender historia divirtiéndose: métodos"
 description: "Cómo aprender historia sin memorizar fechas. Quiz, relatos, recorridos temáticos: los métodos que anclan los conocimientos históricos para siempre."
 date: 2026-03-18
 lang: "es"
 urlSlug: "aprender-historia-divirtiendose"
 translationKey: "apprendre-histoire"
 category: "education"
-author: "SAPIRO"
+author: "Aurélien Debord"
+authorRole: "Fundador de SAPIRO"
 readingTime: 9
 ---
 

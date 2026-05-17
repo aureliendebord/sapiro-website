@@ -6,7 +6,8 @@ lang: "es"
 urlSlug: "animales-mas-peligrosos-mundo"
 translationKey: "animaux-dangereux"
 category: "nature"
-author: "SAPIRO"
+author: "Aurélien Debord"
+authorRole: "Fundador de SAPIRO"
 readingTime: 8
 ---
 

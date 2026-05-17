@@ -6,7 +6,8 @@ lang: "en"
 urlSlug: "capitals-quiz-by-continent"
 translationKey: "quiz-capitales-continent"
 category: "formats-quiz"
-author: "SAPIRO"
+author: "Aurélien Debord"
+authorRole: "Founder of SAPIRO"
 readingTime: 6
 ---
 

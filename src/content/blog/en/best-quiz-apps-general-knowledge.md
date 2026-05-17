@@ -6,7 +6,8 @@ lang: "en"
 urlSlug: "best-quiz-apps-general-knowledge"
 translationKey: "best-quiz-apps-comparison"
 category: "apps"
-author: "SAPIRO"
+author: "Aurélien Debord"
+authorRole: "Founder of SAPIRO"
 readingTime: 12
 ---
 

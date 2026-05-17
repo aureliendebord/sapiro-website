@@ -6,7 +6,8 @@ lang: "es"
 urlSlug: "quiz-cumpleanos-fiesta-amigos"
 translationKey: "quiz-anniversaire-amis"
 category: "formats-quiz"
-author: "SAPIRO"
+author: "Aurélien Debord"
+authorRole: "Fundador de SAPIRO"
 readingTime: 5
 ---
 

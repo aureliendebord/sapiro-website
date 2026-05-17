@@ -6,7 +6,8 @@ lang: "es"
 urlSlug: "cuadros-celebres-obras-maestras"
 translationKey: "tableaux-celebres"
 category: "art"
-author: "SAPIRO"
+author: "Aurélien Debord"
+authorRole: "Fundador de SAPIRO"
 readingTime: 9
 ---
 

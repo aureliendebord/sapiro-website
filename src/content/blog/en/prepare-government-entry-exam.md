@@ -6,7 +6,8 @@ lang: "en"
 urlSlug: "prepare-government-entry-exam"
 translationKey: "concours-categorie-bc"
 category: "concours"
-author: "SAPIRO"
+author: "Aurélien Debord"
+authorRole: "Founder of SAPIRO"
 readingTime: 6
 ---
 

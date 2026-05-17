@@ -6,7 +6,8 @@ lang: "es"
 urlSlug: "identificar-animales-ninos"
 translationKey: "identifier-animaux-enfants"
 category: "famille"
-author: "SAPIRO"
+author: "Aurélien Debord"
+authorRole: "Fundador de SAPIRO"
 readingTime: 6
 ---
 

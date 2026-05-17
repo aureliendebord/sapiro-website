@@ -6,7 +6,8 @@ lang: "fr"
 urlSlug: "animaux-en-voie-disparition"
 translationKey: "animaux-disparition"
 category: "nature"
-author: "SAPIRO"
+author: "Aurélien Debord"
+authorRole: "Fondateur de SAPIRO"
 readingTime: 9
 ---
 

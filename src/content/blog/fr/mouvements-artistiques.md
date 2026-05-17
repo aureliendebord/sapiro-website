@@ -6,7 +6,8 @@ lang: "fr"
 urlSlug: "mouvements-artistiques"
 translationKey: "mouvements-artistiques"
 category: "art"
-author: "SAPIRO"
+author: "Aurélien Debord"
+authorRole: "Fondateur de SAPIRO"
 readingTime: 8
 ---
 

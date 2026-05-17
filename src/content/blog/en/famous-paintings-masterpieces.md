@@ -6,7 +6,8 @@ lang: "en"
 urlSlug: "famous-paintings-masterpieces"
 translationKey: "tableaux-celebres"
 category: "art"
-author: "SAPIRO"
+author: "Aurélien Debord"
+authorRole: "Founder of SAPIRO"
 readingTime: 9
 ---
 

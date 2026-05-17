@@ -6,7 +6,8 @@ lang: "fr"
 urlSlug: "meilleures-apps-educatives-sans-publicite"
 translationKey: "apps-educatives-sans-pub"
 category: "comparatifs"
-author: "SAPIRO"
+author: "Aurélien Debord"
+authorRole: "Fondateur de SAPIRO"
 readingTime: 5
 ---
 

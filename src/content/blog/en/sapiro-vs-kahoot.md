@@ -1,12 +1,13 @@
 ---
-title: "SAPIRO vs Kahoot: Two Different Tools for Two Different Goals"
+title: "Sapiro vs Kahoot: Two Tools, Two Different Goals"
 description: "SAPIRO and Kahoot compared: one is built for the classroom, the other for learning at home. Content, privacy, pricing, educational value."
 date: 2026-03-20
 lang: "en"
 urlSlug: "sapiro-vs-kahoot"
 translationKey: "sapiro-vs-kahoot"
 category: "apps"
-author: "SAPIRO"
+author: "Aurélien Debord"
+authorRole: "Founder of SAPIRO"
 readingTime: 8
 ---
 

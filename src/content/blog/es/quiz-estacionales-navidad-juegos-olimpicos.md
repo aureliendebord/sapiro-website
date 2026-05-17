@@ -1,12 +1,13 @@
 ---
-title: "Quizzes estacionales: Navidad, verano, Juegos Olimpicos, elecciones"
+title: "Quizzes estacionales: Navidad, verano, JJOO"
 description: "Quizzes tematicos estacionales: Navidad, verano, Juegos Olimpicos, elecciones. Ideas de preguntas y metodo para animar una velada."
 date: 2026-02-24
 lang: "es"
 urlSlug: "quiz-estacionales-navidad-juegos-olimpicos"
 translationKey: "quiz-saisonnier"
 category: "formats-quiz"
-author: "SAPIRO"
+author: "Aurélien Debord"
+authorRole: "Fundador de SAPIRO"
 readingTime: 5
 ---
 

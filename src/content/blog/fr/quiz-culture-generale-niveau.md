@@ -1,12 +1,13 @@
 ---
-title: "Quiz culture generale niveau facile, moyen, difficile, expert"
+title: "Quiz culture générale : facile à expert"
 description: "Quiz culture generale par niveau : facile, moyen, difficile, expert. Pour evaluer son niveau et progresser etape par etape."
 date: 2026-02-23
 lang: "fr"
 urlSlug: "quiz-culture-generale-niveau"
 translationKey: "quiz-niveau"
 category: "formats-quiz"
-author: "SAPIRO"
+author: "Aurélien Debord"
+authorRole: "Fondateur de SAPIRO"
 readingTime: 5
 ---
 

@@ -6,7 +6,8 @@ lang: "fr"
 urlSlug: "quiz-saisonnier-noel-ete-jo"
 translationKey: "quiz-saisonnier"
 category: "formats-quiz"
-author: "SAPIRO"
+author: "Aurélien Debord"
+authorRole: "Fondateur de SAPIRO"
 readingTime: 5
 ---
 

@@ -6,7 +6,8 @@ lang: "es"
 urlSlug: "razas-perros-reconocer"
 translationKey: "races-chiens"
 category: "nature"
-author: "SAPIRO"
+author: "Aurélien Debord"
+authorRole: "Fundador de SAPIRO"
 readingTime: 8
 ---
 

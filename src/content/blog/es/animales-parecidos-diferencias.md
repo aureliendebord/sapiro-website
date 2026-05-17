@@ -6,7 +6,8 @@ lang: "es"
 urlSlug: "animales-parecidos-diferencias"
 translationKey: "animaux-ressemblants"
 category: "nature"
-author: "SAPIRO"
+author: "Aurélien Debord"
+authorRole: "Fundador de SAPIRO"
 readingTime: 9
 ---
 

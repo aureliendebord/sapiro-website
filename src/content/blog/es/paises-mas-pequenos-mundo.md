@@ -6,7 +6,8 @@ lang: "es"
 urlSlug: "paises-mas-pequenos-mundo"
 translationKey: "plus-petits-pays"
 category: "voyage"
-author: "SAPIRO"
+author: "Aurélien Debord"
+authorRole: "Fundador de SAPIRO"
 readingTime: 5
 ---
 

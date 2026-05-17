@@ -1,12 +1,13 @@
 ---
-title: "History in Elementary and Middle School: Curriculum and Quizzes"
+title: "History in Elementary and Middle School Guide"
 description: "Standard history curriculum for elementary and middle school with themes, key dates and quizzes to help your child review effectively."
 date: 2026-02-15
 lang: "en"
 urlSlug: "history-elementary-middle-school"
 translationKey: "histoire-primaire-college"
 category: "famille"
-author: "SAPIRO"
+author: "Aurélien Debord"
+authorRole: "Founder of SAPIRO"
 readingTime: 6
 ---
 

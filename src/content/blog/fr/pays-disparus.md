@@ -6,7 +6,8 @@ lang: "fr"
 urlSlug: "pays-disparus"
 translationKey: "pays-disparus"
 category: "voyage"
-author: "SAPIRO"
+author: "Aurélien Debord"
+authorRole: "Fondateur de SAPIRO"
 readingTime: 6
 ---
 

@@ -1,12 +1,13 @@
 ---
-title: "Comment reconnaitre un peintre : guide visuel des grands maitres"
+title: "Reconnaitre un peintre : guide visuel des maitres"
 description: "Monet, Van Gogh, Picasso, Vermeer : criteres simples pour reconnaitre les grands peintres d'un seul coup d'oeil. Style, couleurs, themes."
 date: 2026-01-24
 lang: "fr"
 urlSlug: "reconnaitre-peintre-style"
 translationKey: "reconnaitre-peintre"
 category: "art"
-author: "SAPIRO"
+author: "Aurélien Debord"
+authorRole: "Fondateur de SAPIRO"
 readingTime: 8
 ---
 

@@ -6,7 +6,8 @@ lang: "es"
 urlSlug: "preparar-acceso-universidad"
 translationKey: "reviser-sciences-po"
 category: "concours"
-author: "SAPIRO"
+author: "Aurélien Debord"
+authorRole: "Fundador de SAPIRO"
 readingTime: 6
 ---
 

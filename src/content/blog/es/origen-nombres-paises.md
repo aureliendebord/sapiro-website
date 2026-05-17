@@ -1,12 +1,13 @@
 ---
-title: "El origen del nombre de los paises: etimologias sorprendentes"
+title: "Origen del nombre de los paises: etimologias"
 description: "Francia, Argentina, Pakistan, Australia: el origen del nombre de los paises revela su historia y culturas. 20 etimologias sorprendentes."
 date: 2026-03-09
 lang: "es"
 urlSlug: "origen-nombres-paises"
 translationKey: "origine-noms-pays"
 category: "voyage"
-author: "SAPIRO"
+author: "Aurélien Debord"
+authorRole: "Fundador de SAPIRO"
 readingTime: 6
 ---
 

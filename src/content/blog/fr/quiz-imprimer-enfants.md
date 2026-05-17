@@ -6,7 +6,8 @@ lang: "fr"
 urlSlug: "quiz-imprimer-enfants"
 translationKey: "quiz-imprimer"
 category: "famille"
-author: "SAPIRO"
+author: "Aurélien Debord"
+authorRole: "Fondateur de SAPIRO"
 readingTime: 5
 ---
 

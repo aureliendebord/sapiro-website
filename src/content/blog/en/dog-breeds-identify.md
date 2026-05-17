@@ -6,7 +6,8 @@ lang: "en"
 urlSlug: "dog-breeds-identify"
 translationKey: "races-chiens"
 category: "nature"
-author: "SAPIRO"
+author: "Aurélien Debord"
+authorRole: "Founder of SAPIRO"
 readingTime: 8
 ---
 

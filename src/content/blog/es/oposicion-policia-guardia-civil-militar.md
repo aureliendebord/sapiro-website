@@ -6,7 +6,8 @@ lang: "es"
 urlSlug: "oposicion-policia-guardia-civil-militar"
 translationKey: "qcm-gendarmerie"
 category: "concours"
-author: "SAPIRO"
+author: "Aurélien Debord"
+authorRole: "Fundador de SAPIRO"
 readingTime: 6
 ---
 

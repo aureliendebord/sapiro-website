@@ -6,7 +6,8 @@ lang: "en"
 urlSlug: "revise-general-knowledge-30-days"
 translationKey: "reviser-30-jours"
 category: "concours"
-author: "SAPIRO"
+author: "Aurélien Debord"
+authorRole: "Founder of SAPIRO"
 readingTime: 6
 ---
 

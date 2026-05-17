@@ -6,7 +6,8 @@ lang: "es"
 urlSlug: "quiz-historia-examen"
 translationKey: "quiz-histoire-france"
 category: "histoire"
-author: "SAPIRO"
+author: "Aurélien Debord"
+authorRole: "Fundador de SAPIRO"
 readingTime: 7
 ---
 

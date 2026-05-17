@@ -6,7 +6,8 @@ lang: "fr"
 urlSlug: "culture-generale-concours-fonction-publique"
 translationKey: "concours-fonction-publique"
 category: "concours"
-author: "SAPIRO"
+author: "Aurélien Debord"
+authorRole: "Fondateur de SAPIRO"
 readingTime: 7
 ---
 

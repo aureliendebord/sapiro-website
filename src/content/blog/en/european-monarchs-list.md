@@ -6,7 +6,8 @@ lang: "en"
 urlSlug: "european-monarchs-list"
 translationKey: "rois-monarchies-europe"
 category: "histoire"
-author: "SAPIRO"
+author: "Aurélien Debord"
+authorRole: "Founder of SAPIRO"
 readingTime: 8
 ---
 

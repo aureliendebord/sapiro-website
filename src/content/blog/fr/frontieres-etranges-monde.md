@@ -6,7 +6,8 @@ lang: "fr"
 urlSlug: "frontieres-etranges-monde"
 translationKey: "frontieres-etranges"
 category: "voyage"
-author: "SAPIRO"
+author: "Aurélien Debord"
+authorRole: "Fondateur de SAPIRO"
 readingTime: 6
 ---
 

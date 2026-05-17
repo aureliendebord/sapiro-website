@@ -6,7 +6,8 @@ lang: "en"
 urlSlug: "teaching-art-kids"
 translationKey: "apprendre-art-enfants"
 category: "famille"
-author: "SAPIRO"
+author: "Aurélien Debord"
+authorRole: "Founder of SAPIRO"
 readingTime: 6
 ---
 

@@ -6,7 +6,8 @@ lang: "fr"
 urlSlug: "preparer-concours-categorie-bc"
 translationKey: "concours-categorie-bc"
 category: "concours"
-author: "SAPIRO"
+author: "Aurélien Debord"
+authorRole: "Fondateur de SAPIRO"
 readingTime: 6
 ---
 

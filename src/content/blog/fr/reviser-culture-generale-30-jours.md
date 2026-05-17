@@ -6,7 +6,8 @@ lang: "fr"
 urlSlug: "reviser-culture-generale-30-jours"
 translationKey: "reviser-30-jours"
 category: "concours"
-author: "SAPIRO"
+author: "Aurélien Debord"
+authorRole: "Fondateur de SAPIRO"
 readingTime: 6
 ---
 

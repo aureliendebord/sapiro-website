@@ -6,7 +6,8 @@ lang: "fr"
 urlSlug: "reconnaitre-races-chiens"
 translationKey: "races-chiens"
 category: "nature"
-author: "SAPIRO"
+author: "Aurélien Debord"
+authorRole: "Fondateur de SAPIRO"
 readingTime: 8
 ---
 

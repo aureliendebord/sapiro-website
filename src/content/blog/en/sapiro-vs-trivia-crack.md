@@ -6,7 +6,8 @@ lang: "en"
 urlSlug: "sapiro-vs-trivia-crack"
 translationKey: "sapiro-vs-trivia-crack"
 category: "apps"
-author: "SAPIRO"
+author: "Aurélien Debord"
+authorRole: "Founder of SAPIRO"
 readingTime: 8
 ---
 
