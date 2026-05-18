@@ -1,0 +1,39 @@
+---
+import PillarLayout from '../../layouts/PillarLayout.astro';
+import { getCollection } from 'astro:content';
+
+const articles = (await getCollection('blog'))
+  .filter((p) => p.data.lang === 'en' && p.data.category === 'formats-quiz')
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
+  .map((p) => ({ title: p.data.title, url: `/en/blog/${p.data.urlSlug}/` }));
+---
+
+<PillarLayout
+  lang="en"
+  title="General Knowledge Quizzes: All Formats"
+  description="Flag quizzes, capital quizzes, general knowledge by level, workplace or party quizzes: every quiz format to learn and host."
+  hreflang={{ fr: 'https://sapiro.app/quiz/', en: 'https://sapiro.app/en/quiz/', es: 'https://sapiro.app/es/quiz/' }}
+  collectionName="General Knowledge Quizzes: All Formats"
+  h1="Quizzes and Game Formats"
+  lede="Flag quizzes, capital quizzes, level-based quizzes, workplace or party quizzes: the quiz format fits every context."
+  intro={[
+    "The quiz is one of the best learning tools: short, playful, and far more effective than passive reading for memorization. It is also one of the best group activities, because it puts everyone on equal footing.",
+    "This collection gathers every format: thematic quizzes (flags, capitals), difficulty-level quizzes, seasonal quizzes, workplace quizzes and party quizzes. Each format has its own rules and audience.",
+  ]}
+  statsTitle="The quiz as a tool: the markers"
+  stats={[
+    "<strong>+50%</strong> retention with quizzes versus re-reading",
+    "<strong>15 minutes</strong> a day, the right pace to progress",
+    "<strong>15-20 questions</strong> per session, beyond that attention drops",
+    "<strong>2,000+</strong> verified questions in SAPIRO across 4 universes",
+    "<strong>4 domains</strong>: geography, history, art, nature",
+  ]}
+  articlesTitle="All articles in this collection"
+  articles={articles}
+  faqTitle="Frequently asked questions"
+  faq={[
+    { q: "Why do quizzes help memorization?", a: "Active testing, forcing yourself to retrieve an answer, anchors information far better than re-reading. Cognitive science measures a retention gain of about 50%." },
+    { q: "How many questions for a good quiz?", a: "15 to 20 questions per session. Beyond that, attention drops. A short quiz repeated regularly beats a long exhausting one." },
+    { q: "How to host a group quiz?", a: "Mix difficulty levels, give an explanation after each answer, limit the duration, and offer a symbolic reward. Hosting energy (tone, suspense) matters as much as the questions." },
+  ]}
+/>

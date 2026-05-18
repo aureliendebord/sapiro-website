@@ -1,0 +1,39 @@
+---
+import PillarLayout from '../layouts/PillarLayout.astro';
+import { getCollection } from 'astro:content';
+
+const articles = (await getCollection('blog'))
+  .filter((p) => p.data.lang === 'fr' && p.data.category === 'concours')
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
+  .map((p) => ({ title: p.data.title, url: `/blog/${p.data.urlSlug}/` }));
+---
+
+<PillarLayout
+  lang="fr"
+  title="Réviser pour les concours et examens"
+  description="Préparer un concours ou un examen avec la culture générale : méthodes, programmes, annales et quiz pour réviser efficacement."
+  hreflang={{ fr: 'https://sapiro.app/concours/', en: 'https://sapiro.app/en/exams/', es: 'https://sapiro.app/es/oposiciones/' }}
+  collectionName="Réviser pour les concours et examens"
+  h1="Concours et examens"
+  lede="Fonction publique, Sciences Po, brevet, bac, gendarmerie : la culture générale est partout. Voici comment la réviser sans bachoter."
+  intro={[
+    "La culture générale est une épreuve à part entière de la plupart des concours de la fonction publique, et elle traverse le brevet, le bac et les examens d'entrée. Le problème n'est jamais le manque de temps, c'est la méthode.",
+    "Ce dossier rassemble les programmes officiels, les méthodes de révision et les plannings qui fonctionnent. La culture générale s'absorbe par sédimentation quotidienne, quinze minutes à la fois, pas par bachotage de dernière minute.",
+  ]}
+  statsTitle="Réviser un concours : les repères"
+  stats={[
+    "<strong>6 à 12 mois</strong> de préparation pour un concours catégorie A ou B",
+    "<strong>15 minutes</strong> de quiz par jour suffisent pour progresser durablement",
+    "<strong>+50%</strong> de rétention quand on se teste plutôt que de relire (test actif)",
+    "<strong>3 formats</strong> d'épreuve : QCM, composition, oral",
+    "<strong>2 000+</strong> questions de culture générale dans SAPIRO",
+  ]}
+  articlesTitle="Tous les articles du dossier"
+  articles={articles}
+  faqTitle="Questions fréquentes"
+  faq={[
+    { q: "En combien de temps préparer un concours ?", a: "Comptez 6 à 12 mois pour un concours catégorie A ou B, 3 à 6 mois pour la catégorie C. La culture générale s'acquiert par lecture régulière, pas par bachotage." },
+    { q: "Quelle est la meilleure méthode de révision ?", a: "Combiner trois choses : une revue de presse quotidienne, des fiches thématiques relues régulièrement, et des quiz pour se tester. Le test actif fait retenir 50% de plus que la relecture." },
+    { q: "La culture générale est-elle au programme du bac ?", a: "Il n'y a pas d'épreuve formelle de culture générale au bac, mais elle traverse l'histoire-géo, le grand oral, la spécialité HGGSP et le français. Au brevet, l'épreuve d'histoire-géo-EMC la mobilise directement." },
+  ]}
+/>

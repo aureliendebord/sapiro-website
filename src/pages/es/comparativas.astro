@@ -1,0 +1,39 @@
+---
+import PillarLayout from '../../layouts/PillarLayout.astro';
+import { getCollection } from 'astro:content';
+
+const articles = (await getCollection('blog'))
+  .filter((p) => p.data.lang === 'es' && (p.data.category === 'comparatifs' || p.data.category === 'apps'))
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
+  .map((p) => ({ title: p.data.title, url: `/es/blog/${p.data.urlSlug}/` }));
+---
+
+<PillarLayout
+  lang="es"
+  title="Comparativas de aplicaciones de quiz y aprendizaje"
+  description="SAPIRO vs Quizlet, Duolingo, Kahoot, GeoGuessr: comparativas honestas de apps de quiz y aprendizaje para elegir bien."
+  hreflang={{ fr: 'https://sapiro.app/comparatifs/', en: 'https://sapiro.app/en/comparisons/', es: 'https://sapiro.app/es/comparativas/' }}
+  collectionName="Comparativas de aplicaciones de quiz y aprendizaje"
+  h1="Comparativas de aplicaciones"
+  lede="SAPIRO frente a Quizlet, Duolingo, Kahoot, GeoGuessr, Seterra: comparativas honestas para elegir la app que se adapta a tu necesidad."
+  intro={[
+    "El mercado de apps de aprendizaje está saturado, y cada app afirma ser la mejor. La verdad es que no hacen lo mismo: flashcards personalizadas, idiomas, geografía pura, cultura general, quiz competitivo en vivo.",
+    "Este dossier compara SAPIRO con las principales alternativas, sin complacencia. El objetivo no es decir que SAPIRO gana en todo, sino ayudar a elegir la herramienta adaptada a cada necesidad.",
+  ]}
+  statsTitle="Elegir una app de aprendizaje: los criterios"
+  stats={[
+    "<strong>Gratuidad</strong>: ¿versión gratuita completa o limitada por la publicidad?",
+    "<strong>Publicidad</strong>: SAPIRO no muestra ninguna, ni en la versión gratuita",
+    "<strong>Datos</strong>: SAPIRO no recoge ninguno, sin cuenta obligatoria",
+    "<strong>Contenido</strong>: 2 000+ preguntas verificadas sobre 4 universos",
+    "<strong>Pedagogía</strong>: una explicación detrás de cada respuesta",
+  ]}
+  articlesTitle="Todos los artículos del dossier"
+  articles={articles}
+  faqTitle="Preguntas frecuentes"
+  faq={[
+    { q: "¿SAPIRO es realmente gratis?", a: "Sí, SAPIRO es gratis con todas las funcionalidades esenciales, sin publicidad ni recolección de datos. La versión Sapiro+ (desde 1,99 euros/mes) desbloquea funcionalidades extendidas." },
+    { q: "¿Qué app elegir para aprender geografía?", a: "Seterra para la cartografía pura, GeoGuessr para el juego de exploración, SAPIRO para la geografía en contexto cultural amplio (con historia, arte, naturaleza). Estas apps son complementarias." },
+    { q: "¿Qué diferencia hay entre SAPIRO y Quizlet?", a: "Quizlet es una herramienta de flashcards que el usuario rellena para repasar un curso preciso. SAPIRO es un quiz de cultura general pre-construido y verificado, sin publicidad ni recolección de datos." },
+  ]}
+/>

@@ -1,0 +1,39 @@
+---
+import PillarLayout from '../layouts/PillarLayout.astro';
+import { getCollection } from 'astro:content';
+
+const articles = (await getCollection('blog'))
+  .filter((p) => p.data.lang === 'fr' && p.data.category === 'famille')
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
+  .map((p) => ({ title: p.data.title, url: `/blog/${p.data.urlSlug}/` }));
+---
+
+<PillarLayout
+  lang="fr"
+  title="Apprendre en famille : géographie, histoire, art, nature"
+  description="Faire découvrir la culture générale aux enfants : méthodes par âge, activités, quiz et idées de sorties pour apprendre en famille."
+  hreflang={{ fr: 'https://sapiro.app/famille/', en: 'https://sapiro.app/en/family/', es: 'https://sapiro.app/es/familia/' }}
+  collectionName="Apprendre en famille"
+  h1="Apprendre en famille"
+  lede="Géographie, histoire, art, animaux : comment transformer la curiosité naturelle des enfants en savoir solide, sans transformer la maison en école."
+  intro={[
+    "Les enfants sont curieux par défaut. Le rôle d'un parent n'est pas de leur faire réciter des listes, mais d'entretenir cette curiosité et de lui donner de la matière. Quinze minutes par jour, par petites touches, valent mieux qu'une heure forcée le dimanche.",
+    "Ce dossier rassemble les méthodes par tranche d'âge, les activités culturelles, les idées de cadeaux et les formats de quiz adaptés aux enfants. L'objectif : apprendre en jouant, sans pression de notation.",
+  ]}
+  statsTitle="Apprendre en famille : les repères"
+  stats={[
+    "<strong>Dès 3 ans</strong> on peut commencer par les continents et les grands animaux",
+    "<strong>15 minutes</strong> par jour suffisent : la régularité bat l'intensité",
+    "<strong>+50%</strong> de rétention avec les quiz par rapport à la lecture passive",
+    "<strong>4 univers</strong> à explorer : géographie, histoire, art, nature",
+    "<strong>0 publicité</strong> dans SAPIRO, app sûre pour les enfants",
+  ]}
+  articlesTitle="Tous les articles du dossier"
+  articles={articles}
+  faqTitle="Questions fréquentes"
+  faq={[
+    { q: "À partir de quel âge sensibiliser un enfant à la culture générale ?", a: "Dès 3-4 ans pour les continents et les grands animaux, par catégories simples. Vers 6-8 ans, on élargit aux pays et aux civilisations. À 9-12 ans, les classifications et le contexte deviennent accessibles." },
+    { q: "Comment apprendre sans dégoûter l'enfant ?", a: "Ne jamais forcer. Une visite de musée enthousiaste de 30 minutes vaut mieux qu'une longue visite subie. Lier l'apprentissage au jeu, aux sorties et aux histoires plutôt qu'aux listes à mémoriser." },
+    { q: "Les quiz sont-ils adaptés aux enfants ?", a: "Oui, le format quiz convient bien aux enfants : court, ludique, sans pression de note. Une bonne app explique la réponse derrière chaque question, ce qui transforme chaque erreur en apprentissage." },
+  ]}
+/>

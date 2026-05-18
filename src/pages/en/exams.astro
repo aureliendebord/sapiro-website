@@ -1,0 +1,39 @@
+---
+import PillarLayout from '../../layouts/PillarLayout.astro';
+import { getCollection } from 'astro:content';
+
+const articles = (await getCollection('blog'))
+  .filter((p) => p.data.lang === 'en' && p.data.category === 'concours')
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
+  .map((p) => ({ title: p.data.title, url: `/en/blog/${p.data.urlSlug}/` }));
+---
+
+<PillarLayout
+  lang="en"
+  title="Studying for Exams and Competitive Tests"
+  description="Preparing for exams and competitive tests with general knowledge: methods, syllabi, past papers and quizzes to review effectively."
+  hreflang={{ fr: 'https://sapiro.app/concours/', en: 'https://sapiro.app/en/exams/', es: 'https://sapiro.app/es/oposiciones/' }}
+  collectionName="Studying for Exams and Competitive Tests"
+  h1="Exams and Tests"
+  lede="Civil service, university entrance, high school: general knowledge is everywhere. Here is how to review it without cramming."
+  intro={[
+    "General knowledge is a standalone section in most civil service and government exams, and it runs through university entrance tests too. The problem is never lack of time, it is method.",
+    "This collection gathers official syllabi, review methods and study plans that work. General knowledge absorbs through daily sedimentation, fifteen minutes at a time, not through last-minute cramming.",
+  ]}
+  statsTitle="Reviewing for an exam: the markers"
+  stats={[
+    "<strong>6 to 12 months</strong> of preparation for a senior-level exam",
+    "<strong>15 minutes</strong> of quizzes a day is enough for lasting progress",
+    "<strong>+50%</strong> retention when self-testing rather than re-reading",
+    "<strong>3 formats</strong>: multiple choice, essay, oral",
+    "<strong>2,000+</strong> general knowledge questions in SAPIRO",
+  ]}
+  articlesTitle="All articles in this collection"
+  articles={articles}
+  faqTitle="Frequently asked questions"
+  faq={[
+    { q: "How long to prepare for an exam?", a: "Count 6 to 12 months for a senior-level exam, 3 to 6 months for entry level. General knowledge builds through regular reading, not cramming." },
+    { q: "What is the best review method?", a: "Combine three things: a daily news review, thematic notes reread regularly, and quizzes to self-test. Active testing improves retention by 50% over re-reading." },
+    { q: "Is general knowledge tested in school exams?", a: "There is rarely a formal general knowledge paper, but it runs through history, geography, oral presentations and literature. It is also central to civil service and university entrance exams." },
+  ]}
+/>

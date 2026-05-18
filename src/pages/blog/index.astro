@@ -8,18 +8,26 @@ import PageHeroV2 from '../../components/v2/PageHeroV2.astro';
 import DownloadV2 from '../../components/v2/DownloadV2.astro';
 import StickyMobileCta from '../../components/v2/StickyMobileCta.astro';
 import { getTranslations } from '../../i18n';
+import { clusters } from '../../data/clusters';
 
 const lang = 'fr';
 const t = getTranslations(lang);
 
-const posts = (await getCollection('blog', ({ data }) => data.lang === 'fr'))
+const allPosts = (await getCollection('blog', ({ data }) => data.lang === 'fr'))
   .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
 
-const categories = Object.keys(t.blog.categories);
-const categoryCounts: Record<string, number> = {};
-posts.forEach(p => {
-  categoryCounts[p.data.category] = (categoryCounts[p.data.category] || 0) + 1;
-});
+const PER_PAGE = 24;
+const recentPosts = allPosts.slice(0, PER_PAGE);
+const totalPages = Math.ceil(allPosts.length / PER_PAGE);
+
+// Cartes des 8 clusters avec compte d'articles
+const clusterCards = clusters.map((c) => ({
+  label: c.label[lang],
+  tagline: c.tagline[lang],
+  icon: c.icon,
+  href: c.pillarSlug[lang],
+  count: allPosts.filter((p) => c.categories.includes(p.data.category)).length,
+}));
 
 const blogSchema = {
   '@context': 'https://schema.org',
@@ -30,16 +38,16 @@ const blogSchema = {
   publisher: {
     '@type': 'Organization',
     name: 'SAPIRO',
-    logo: { '@type': 'ImageObject', url: 'https://sapiro.app/images/icon-1024.png' }
+    logo: { '@type': 'ImageObject', url: 'https://sapiro.app/images/icon-1024.png' },
   },
-  blogPost: posts.map(post => ({
+  blogPost: allPosts.map((post) => ({
     '@type': 'BlogPosting',
     headline: post.data.title,
     description: post.data.description,
     datePublished: post.data.date.toISOString(),
     url: `https://sapiro.app/blog/${post.data.urlSlug}/`,
-    author: { '@type': 'Organization', name: post.data.author }
-  }))
+    author: { '@type': 'Person', name: post.data.author },
+  })),
 };
 ---
 
@@ -59,36 +67,48 @@ const blogSchema = {
       backLabel={t.header.home}
     />
 
+    <section class="cluster-hub">
+      <div class="container">
+        <h2 class="section-title">{t.blog.exploreByTheme}</h2>
+        <div class="cluster-grid">
+          {clusterCards.map((c) => (
+            <a href={c.href} class="cluster-card">
+              <span class="cluster-icon">{c.icon}</span>
+              <span class="cluster-label">{c.label}</span>
+              <span class="cluster-tagline">{c.tagline}</span>
+              <span class="cluster-count">{c.count} {t.blog.articlesWord}</span>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+
     <section class="blog-listing">
       <div class="container">
-        <div class="filters">
-          <button class="filter-btn active" data-filter="all">
-            {t.blog.allArticles} <span class="count">{posts.length}</span>
-          </button>
-          {categories.map(cat => (
-            categoryCounts[cat] && (
-              <button class="filter-btn" data-filter={cat}>
-                {t.blog.categories[cat]} <span class="count">{categoryCounts[cat]}</span>
-              </button>
-            )
+        <h2 class="section-title">{t.blog.latestArticles}</h2>
+        <div class="grid">
+          {recentPosts.map((post) => (
+            <BlogCard
+              title={post.data.title}
+              description={post.data.description}
+              date={post.data.date}
+              slug={post.data.urlSlug}
+              category={post.data.category}
+              readingTime={post.data.readingTime}
+              lang={lang}
+            />
           ))}
         </div>
 
-        <div class="grid">
-          {posts.map((post) => (
-            <div class="card-wrap" data-category={post.data.category}>
-              <BlogCard
-                title={post.data.title}
-                description={post.data.description}
-                date={post.data.date}
-                slug={post.data.urlSlug}
-                category={post.data.category}
-                readingTime={post.data.readingTime}
-                lang={lang}
-              />
-            </div>
-          ))}
-        </div>
+        {totalPages > 1 && (
+          <nav class="pagination" aria-label="Pagination">
+            <span class="page-current" aria-current="page">1</span>
+            {Array.from({ length: totalPages - 1 }, (_, i) => i + 2).map((n) => (
+              <a href={`/blog/page/${n}/`} class="page-link">{n}</a>
+            ))}
+            <a href="/blog/page/2/" class="page-next">{t.blog.next} &rarr;</a>
+          </nav>
+        )}
       </div>
     </section>
 
@@ -99,82 +119,68 @@ const blogSchema = {
   <StickyMobileCta lang={lang} />
 </Layout>
 
-<script>
-  const filterBtns = document.querySelectorAll('.filter-btn');
-  const cards = document.querySelectorAll('.card-wrap');
-
-  filterBtns.forEach(btn => {
-    btn.addEventListener('click', () => {
-      const filter = btn.getAttribute('data-filter');
-      filterBtns.forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      cards.forEach(card => {
-        const el = card as HTMLElement;
-        el.style.display = (filter === 'all' || el.dataset.category === filter) ? '' : 'none';
-      });
-    });
-  });
-</script>
-
 <style>
-  .blog-listing {
-    padding: 64px 0 80px;
+  .section-title {
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    text-align: center;
+    margin-bottom: 32px;
+  }
+
+  /* Hub clusters */
+  .cluster-hub {
+    padding: 56px 0 16px;
     background: #fff;
   }
 
-  .filters {
+  .cluster-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+  }
+
+  .cluster-card {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
-    margin-bottom: 48px;
-  }
-
-  .filter-btn {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    padding: 10px 18px;
+    flex-direction: column;
+    gap: 6px;
+    padding: 24px 20px;
     border: 1.5px solid #e5e7eb;
-    border-radius: 999px;
+    border-radius: 16px;
     background: #fff;
-    color: #4b5563;
-    font-size: 14px;
-    font-weight: 600;
-    cursor: pointer;
-    transition: all 0.2s;
+    transition: border-color 0.2s, transform 0.2s, box-shadow 0.2s;
   }
 
-  .filter-btn .count {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    min-width: 22px;
-    height: 22px;
-    padding: 0 6px;
-    background: #f3f4f6;
-    border-radius: 999px;
-    font-size: 11px;
+  .cluster-card:hover {
+    border-color: var(--orange);
+    transform: translateY(-3px);
+    box-shadow: 0 12px 28px -10px rgba(255, 107, 53, 0.35);
+  }
+
+  .cluster-icon { font-size: 1.75rem; }
+
+  .cluster-label {
     font-weight: 700;
-    color: #6b7280;
+    font-size: 1.1rem;
+    color: var(--noir);
   }
 
-  .filter-btn:hover {
-    border-color: #ff6b35;
-    color: #ff6b35;
-    transform: translateY(-1px);
+  .cluster-tagline {
+    font-size: 0.85rem;
+    color: var(--gris);
+    line-height: 1.5;
+    flex-grow: 1;
   }
 
-  .filter-btn.active {
-    background: linear-gradient(135deg, #ff6b35, #ff8f5c);
-    border-color: transparent;
-    color: #fff;
-    box-shadow: 0 8px 20px -6px rgba(255, 107, 53, 0.5);
+  .cluster-count {
+    font-size: 0.78rem;
+    font-weight: 700;
+    color: var(--orange);
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
   }
 
-  .filter-btn.active .count {
-    background: rgba(255, 255, 255, 0.25);
-    color: #fff;
+  .blog-listing {
+    padding: 56px 0 80px;
+    background: #fff;
   }
 
   .grid {
@@ -183,17 +189,64 @@ const blogSchema = {
     gap: 24px;
   }
 
-  .card-wrap { display: flex; }
-  .card-wrap > :global(a) { width: 100%; }
+  /* Pagination */
+  .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 48px;
+  }
+
+  .page-link, .page-current, .page-next {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 42px;
+    height: 42px;
+    padding: 0 14px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 15px;
+  }
+
+  .page-link {
+    border: 1.5px solid #e5e7eb;
+    color: var(--noir);
+    transition: border-color 0.2s, color 0.2s;
+  }
+
+  .page-link:hover {
+    border-color: var(--orange);
+    color: var(--orange);
+  }
+
+  .page-current {
+    background: linear-gradient(135deg, #ff6b35, #ff8f5c);
+    color: #fff;
+  }
+
+  .page-next {
+    border: 1.5px solid var(--orange);
+    color: var(--orange);
+    transition: background 0.2s, color 0.2s;
+  }
+
+  .page-next:hover {
+    background: var(--orange);
+    color: #fff;
+  }
 
   @media (max-width: 1024px) {
+    .cluster-grid { grid-template-columns: repeat(2, 1fr); }
     .grid { grid-template-columns: repeat(2, 1fr); }
   }
 
   @media (max-width: 640px) {
-    .blog-listing { padding: 48px 0 64px; }
+    .cluster-grid { grid-template-columns: 1fr; }
     .grid { grid-template-columns: 1fr; }
-    .filter-btn { padding: 8px 14px; font-size: 13px; }
+    .blog-listing { padding: 40px 0 64px; }
+    .cluster-hub { padding: 40px 0 8px; }
   }
 
   .page-main > section {

@@ -1,0 +1,39 @@
+---
+import PillarLayout from '../../layouts/PillarLayout.astro';
+import { getCollection } from 'astro:content';
+
+const articles = (await getCollection('blog'))
+  .filter((p) => p.data.lang === 'en' && p.data.category === 'famille')
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
+  .map((p) => ({ title: p.data.title, url: `/en/blog/${p.data.urlSlug}/` }));
+---
+
+<PillarLayout
+  lang="en"
+  title="Family Learning: Geography, History, Art, Nature"
+  description="Introducing kids to general knowledge: age-by-age methods, activities, quizzes and outing ideas to learn as a family."
+  hreflang={{ fr: 'https://sapiro.app/famille/', en: 'https://sapiro.app/en/family/', es: 'https://sapiro.app/es/familia/' }}
+  collectionName="Family Learning"
+  h1="Family Learning"
+  lede="Geography, history, art, animals: how to turn kids' natural curiosity into solid knowledge, without turning home into a classroom."
+  intro={[
+    "Kids are curious by default. A parent's role is not to make them recite lists, but to sustain that curiosity and feed it. Fifteen minutes a day, in small touches, beats one forced hour on Sunday.",
+    "This collection gathers age-by-age methods, cultural activities, gift ideas and kid-friendly quiz formats. The goal: learning through play, with no grading pressure.",
+  ]}
+  statsTitle="Family learning: the markers"
+  stats={[
+    "<strong>From age 3</strong> you can start with continents and large animals",
+    "<strong>15 minutes</strong> a day is enough: consistency beats intensity",
+    "<strong>+50%</strong> retention with quizzes versus passive reading",
+    "<strong>4 universes</strong> to explore: geography, history, art, nature",
+    "<strong>0 ads</strong> in SAPIRO, a safe app for kids",
+  ]}
+  articlesTitle="All articles in this collection"
+  articles={articles}
+  faqTitle="Frequently asked questions"
+  faq={[
+    { q: "At what age to introduce a child to general knowledge?", a: "From 3-4 years for continents and large animals, in simple categories. Around 6-8, expand to countries and civilizations. At 9-12, classifications and context become accessible." },
+    { q: "How to teach without putting the child off?", a: "Never force it. An enthusiastic 30-minute museum visit beats a long endured one. Tie learning to play, outings and stories rather than lists to memorize." },
+    { q: "Are quizzes suitable for children?", a: "Yes, the quiz format suits kids well: short, playful, no grading pressure. A good app explains the answer behind each question, turning every mistake into learning." },
+  ]}
+/>

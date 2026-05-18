@@ -1,0 +1,39 @@
+---
+import PillarLayout from '../../layouts/PillarLayout.astro';
+import { getCollection } from 'astro:content';
+
+const articles = (await getCollection('blog'))
+  .filter((p) => p.data.lang === 'es' && p.data.category === 'concours')
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
+  .map((p) => ({ title: p.data.title, url: `/es/blog/${p.data.urlSlug}/` }));
+---
+
+<PillarLayout
+  lang="es"
+  title="Estudiar para oposiciones y exámenes"
+  description="Preparar una oposición o un examen con cultura general: métodos, temarios, exámenes anteriores y quizzes para repasar con eficacia."
+  hreflang={{ fr: 'https://sapiro.app/concours/', en: 'https://sapiro.app/en/exams/', es: 'https://sapiro.app/es/oposiciones/' }}
+  collectionName="Estudiar para oposiciones y exámenes"
+  h1="Oposiciones y exámenes"
+  lede="Administración pública, acceso a la universidad, secundaria: la cultura general está en todas partes. Así se repasa sin empollar."
+  intro={[
+    "La cultura general es una prueba en sí misma en la mayoría de oposiciones públicas, y atraviesa los exámenes de acceso a la universidad. El problema nunca es la falta de tiempo, es el método.",
+    "Este dossier reúne los temarios oficiales, los métodos de repaso y los plannings que funcionan. La cultura general se absorbe por sedimentación diaria, quince minutos cada vez, no por atracones de última hora.",
+  ]}
+  statsTitle="Repasar para una oposición: los puntos clave"
+  stats={[
+    "<strong>6 a 12 meses</strong> de preparación para una oposición de grupo superior",
+    "<strong>15 minutos</strong> de quiz al día bastan para progresar de forma duradera",
+    "<strong>+50%</strong> de retención al autoexaminarse en lugar de releer",
+    "<strong>3 formatos</strong> de prueba: test, desarrollo, oral",
+    "<strong>2 000+</strong> preguntas de cultura general en SAPIRO",
+  ]}
+  articlesTitle="Todos los artículos del dossier"
+  articles={articles}
+  faqTitle="Preguntas frecuentes"
+  faq={[
+    { q: "¿En cuánto tiempo preparar una oposición?", a: "Cuenta 6 a 12 meses para una oposición de grupo superior, 3 a 6 meses para grupo de acceso. La cultura general se adquiere con lectura regular, no con atracones." },
+    { q: "¿Cuál es el mejor método de repaso?", a: "Combinar tres cosas: un repaso diario de prensa, fichas temáticas releídas con regularidad, y quizzes para autoexaminarse. El test activo mejora la retención un 50% frente a la relectura." },
+    { q: "¿Se evalúa la cultura general en los exámenes escolares?", a: "Rara vez hay una prueba formal, pero atraviesa la historia, la geografía, la filosofía y la lengua. También es central en oposiciones y exámenes de acceso a la universidad." },
+  ]}
+/>

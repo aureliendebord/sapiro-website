@@ -1,6 +1,7 @@
 ---
 import type { Lang } from '../i18n';
 import { getLocalePath, localeFlags } from '../i18n';
+import { clusters } from '../data/clusters';
 
 interface Props {
   lang: Lang;
@@ -10,18 +11,8 @@ interface Props {
 const { lang, t } = Astro.props;
 const languages: Lang[] = ['fr', 'en', 'es'];
 
-// Pages piliers thematiques (slugs differents par langue)
-const pillarSlugs: Record<Lang, { geography: string; history: string; art: string; nature: string }> = {
-  fr: { geography: '/geographie/', history: '/histoire/', art: '/art/', nature: '/nature/' },
-  en: { geography: '/en/geography/', history: '/en/history/', art: '/en/art/', nature: '/en/nature/' },
-  es: { geography: '/es/geografia/', history: '/es/historia/', art: '/es/arte/', nature: '/es/naturaleza/' },
-};
-const pillars = [
-  { href: pillarSlugs[lang].geography, label: t.header.themeGeography },
-  { href: pillarSlugs[lang].history, label: t.header.themeHistory },
-  { href: pillarSlugs[lang].art, label: t.header.themeArt },
-  { href: pillarSlugs[lang].nature, label: t.header.themeNature },
-];
+// Pages piliers thematiques (les 8 clusters)
+const pillars = clusters.map((c) => ({ href: c.pillarSlug[lang], label: c.label[lang] }));
 ---
 
 <header class="header">

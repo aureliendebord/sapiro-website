@@ -1,0 +1,103 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../../../../layouts/Layout.astro';
+import Header from '../../../../components/Header.astro';
+import Footer from '../../../../components/Footer.astro';
+import BlogCard from '../../../../components/BlogCard.astro';
+import DownloadV2 from '../../../../components/v2/DownloadV2.astro';
+import StickyMobileCta from '../../../../components/v2/StickyMobileCta.astro';
+import { getTranslations } from '../../../../i18n';
+
+export async function getStaticPaths() {
+  const allPosts = (await getCollection('blog', ({ data }) => data.lang === 'es'))
+    .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+  const totalPages = Math.ceil(allPosts.length / 24);
+  const paths = [];
+  for (let p = 2; p <= totalPages; p++) {
+    paths.push({
+      params: { page: String(p) },
+      props: { posts: allPosts.slice((p - 1) * 24, p * 24), currentPage: p, totalPages },
+    });
+  }
+  return paths;
+}
+
+const { posts, currentPage, totalPages } = Astro.props;
+const lang = 'es';
+const t = getTranslations(lang);
+
+const prevHref = currentPage === 2 ? '/es/blog/' : `/es/blog/page/${currentPage - 1}/`;
+const nextHref = currentPage < totalPages ? `/es/blog/page/${currentPage + 1}/` : null;
+---
+
+<Layout title={`${t.blog.title} (página ${currentPage}) | SAPIRO`} description={t.blog.subtitle} lang={lang}>
+  <Fragment slot="head">
+    <link rel="canonical" href={`https://sapiro.app/es/blog/page/${currentPage}/`} />
+    <link rel="prev" href={`https://sapiro.app${prevHref}`} />
+    {nextHref && <link rel="next" href={`https://sapiro.app${nextHref}`} />}
+  </Fragment>
+  <Header lang={lang} t={t} />
+
+  <main class="page-main">
+    <section class="blog-listing">
+      <div class="container">
+        <nav class="breadcrumbs" aria-label="Breadcrumb">
+          <a href="/es/blog/">{t.blog.title}</a>
+          <span class="sep">&gt;</span>
+          <span>Página {currentPage}</span>
+        </nav>
+
+        <h1 class="page-h1">{t.blog.latestArticles} &mdash; {t.blog.pageWord} {currentPage}</h1>
+
+        <div class="grid">
+          {posts.map((post: any) => (
+            <BlogCard
+              title={post.data.title}
+              description={post.data.description}
+              date={post.data.date}
+              slug={post.data.urlSlug}
+              category={post.data.category}
+              readingTime={post.data.readingTime}
+              lang={lang}
+            />
+          ))}
+        </div>
+
+        <nav class="pagination" aria-label="Pagination">
+          <a href={prevHref} class="page-prev">&larr; {t.blog.prev}</a>
+          <a href="/es/blog/" class="page-link">1</a>
+          {Array.from({ length: totalPages - 1 }, (_, i) => i + 2).map((n) => (
+            n === currentPage
+              ? <span class="page-current" aria-current="page">{n}</span>
+              : <a href={`/es/blog/page/${n}/`} class="page-link">{n}</a>
+          ))}
+          {nextHref && <a href={nextHref} class="page-next">{t.blog.next} &rarr;</a>}
+        </nav>
+      </div>
+    </section>
+
+    <DownloadV2 lang={lang} />
+  </main>
+
+  <Footer lang={lang} t={t} />
+  <StickyMobileCta lang={lang} />
+</Layout>
+
+<style>
+  .blog-listing { padding: 96px 0 80px; background: #fff; }
+  .breadcrumbs { font-size: 14px; color: var(--gris); margin-bottom: 16px; }
+  .breadcrumbs a { color: var(--gris); }
+  .breadcrumbs a:hover { color: var(--orange); }
+  .breadcrumbs .sep { margin: 0 8px; opacity: 0.5; }
+  .page-h1 { font-size: clamp(1.5rem, 3vw, 2rem); margin-bottom: 32px; }
+  .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+  .pagination { display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 8px; margin-top: 48px; }
+  .page-link, .page-current, .page-next, .page-prev { display: inline-flex; align-items: center; justify-content: center; min-width: 42px; height: 42px; padding: 0 14px; border-radius: 10px; font-weight: 600; font-size: 15px; }
+  .page-link { border: 1.5px solid #e5e7eb; color: var(--noir); transition: border-color 0.2s, color 0.2s; }
+  .page-link:hover { border-color: var(--orange); color: var(--orange); }
+  .page-current { background: linear-gradient(135deg, #ff6b35, #ff8f5c); color: #fff; }
+  .page-next, .page-prev { border: 1.5px solid var(--orange); color: var(--orange); transition: background 0.2s, color 0.2s; }
+  .page-next:hover, .page-prev:hover { background: var(--orange); color: #fff; }
+  @media (max-width: 1024px) { .grid { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 640px) { .grid { grid-template-columns: 1fr; } }
+</style>
