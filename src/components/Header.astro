@@ -1,7 +1,6 @@
 ---
 import type { Lang } from '../i18n';
 import { getLocalePath, localeFlags } from '../i18n';
-import { clusters } from '../data/clusters';
 
 interface Props {
   lang: Lang;
@@ -10,9 +9,6 @@ interface Props {
 
 const { lang, t } = Astro.props;
 const languages: Lang[] = ['fr', 'en', 'es'];
-
-// Pages piliers thematiques (les 8 clusters)
-const pillars = clusters.map((c) => ({ href: c.pillarSlug[lang], label: c.label[lang] }));
 ---
 
 <header class="header">
@@ -24,14 +20,6 @@ const pillars = clusters.map((c) => ({ href: c.pillarSlug[lang], label: c.label[
 
     <nav class="nav" id="main-nav">
       <a href={`${getLocalePath('/', lang)}#features`} class="nav-link">{t.header.features}</a>
-      <div class="nav-dropdown">
-        <a href={pillars[0].href} class="nav-link nav-dropdown-toggle">{t.header.themes}</a>
-        <div class="nav-dropdown-menu">
-          {pillars.map((p) => (
-            <a href={p.href} class="nav-dropdown-item">{p.label}</a>
-          ))}
-        </div>
-      </div>
       <a href={getLocalePath('/blog', lang)} class="nav-link">{t.header.blog}</a>
       <a href={getLocalePath('/pricing', lang)} class="nav-link">{t.header.pricing}</a>
       <a href={`${getLocalePath('/', lang)}#download`} class="nav-link">{t.header.download}</a>
@@ -58,10 +46,6 @@ const pillars = clusters.map((c) => ({ href: c.pillarSlug[lang], label: c.label[
 
   <nav class="mobile-nav" id="mobile-nav">
     <a href={`${getLocalePath('/', lang)}#features`} class="mobile-nav-link">{t.header.features}</a>
-    <span class="mobile-nav-group-title">{t.header.themes}</span>
-    {pillars.map((p) => (
-      <a href={p.href} class="mobile-nav-link mobile-nav-sublink">{p.label}</a>
-    ))}
     <a href={getLocalePath('/blog', lang)} class="mobile-nav-link">{t.header.blog}</a>
     <a href={getLocalePath('/pricing', lang)} class="mobile-nav-link">{t.header.pricing}</a>
     <a href={`${getLocalePath('/', lang)}#download`} class="mobile-nav-link">{t.header.download}</a>
@@ -135,64 +119,6 @@ const pillars = clusters.map((c) => ({ href: c.pillarSlug[lang], label: c.label[
   }
 
   .nav-link:hover {
-    color: var(--orange);
-  }
-
-  /* Dropdown Themes */
-  .nav-dropdown {
-    position: relative;
-  }
-
-  .nav-dropdown-toggle::after {
-    content: '';
-    display: inline-block;
-    width: 6px;
-    height: 6px;
-    margin-left: 6px;
-    border-right: 2px solid currentColor;
-    border-bottom: 2px solid currentColor;
-    transform: rotate(45deg) translateY(-2px);
-    transition: transform 0.2s;
-  }
-
-  .nav-dropdown:hover .nav-dropdown-toggle::after {
-    transform: rotate(-135deg) translateY(-1px);
-  }
-
-  .nav-dropdown-menu {
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translateX(-50%) translateY(8px);
-    min-width: 180px;
-    background: var(--blanc);
-    border: 1px solid rgba(0, 0, 0, 0.08);
-    border-radius: 12px;
-    box-shadow: 0 12px 32px -8px rgba(0, 0, 0, 0.18);
-    padding: 8px;
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity 0.2s, visibility 0.2s, transform 0.2s;
-  }
-
-  .nav-dropdown:hover .nav-dropdown-menu,
-  .nav-dropdown:focus-within .nav-dropdown-menu {
-    opacity: 1;
-    visibility: visible;
-    transform: translateX(-50%) translateY(4px);
-  }
-
-  .nav-dropdown-item {
-    display: block;
-    padding: 10px 14px;
-    border-radius: 8px;
-    font-weight: 500;
-    color: var(--noir);
-    transition: background 0.15s, color 0.15s;
-  }
-
-  .nav-dropdown-item:hover {
-    background: rgba(255, 107, 53, 0.08);
     color: var(--orange);
   }
 
@@ -280,20 +206,6 @@ const pillars = clusters.map((c) => ({ href: c.pillarSlug[lang], label: c.label[
 
   .mobile-nav-link:hover {
     color: var(--orange);
-  }
-
-  .mobile-nav-group-title {
-    padding: 12px 0 4px;
-    font-size: 12px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    color: var(--gris);
-  }
-
-  .mobile-nav-sublink {
-    padding-left: 16px;
-    font-size: 15px;
   }
 
   @media (max-width: 768px) {

@@ -3,7 +3,6 @@ import { getCollection } from 'astro:content';
 import Layout from '../../layouts/Layout.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
-import BlogCard from '../../components/BlogCard.astro';
 import PageHeroV2 from '../../components/v2/PageHeroV2.astro';
 import DownloadV2 from '../../components/v2/DownloadV2.astro';
 import StickyMobileCta from '../../components/v2/StickyMobileCta.astro';
@@ -15,8 +14,6 @@ const t = getTranslations(lang);
 
 const allPosts = (await getCollection('blog', ({ data }) => data.lang === 'fr'))
   .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
-
-const recentPosts = allPosts.slice(0, 9);
 
 // Cartes des 8 clusters avec compte d'articles
 const clusterCards = clusters.map((c) => ({
@@ -81,25 +78,6 @@ const blogSchema = {
       </div>
     </section>
 
-    <section class="blog-listing">
-      <div class="container">
-        <h2 class="section-title">{t.blog.latestArticles}</h2>
-        <div class="grid">
-          {recentPosts.map((post) => (
-            <BlogCard
-              title={post.data.title}
-              description={post.data.description}
-              date={post.data.date}
-              slug={post.data.urlSlug}
-              category={post.data.category}
-              readingTime={post.data.readingTime}
-              lang={lang}
-            />
-          ))}
-        </div>
-      </div>
-    </section>
-
     <DownloadV2 lang={lang} />
   </main>
 
@@ -116,7 +94,7 @@ const blogSchema = {
 
   /* Hub clusters */
   .cluster-hub {
-    padding: 56px 0 16px;
+    padding: 56px 0 80px;
     background: #fff;
   }
 
@@ -166,27 +144,13 @@ const blogSchema = {
     letter-spacing: 0.03em;
   }
 
-  .blog-listing {
-    padding: 56px 0 80px;
-    background: #fff;
-  }
-
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 24px;
-  }
-
   @media (max-width: 1024px) {
     .cluster-grid { grid-template-columns: repeat(2, 1fr); }
-    .grid { grid-template-columns: repeat(2, 1fr); }
   }
 
   @media (max-width: 640px) {
     .cluster-grid { grid-template-columns: 1fr; }
-    .grid { grid-template-columns: 1fr; }
-    .blog-listing { padding: 40px 0 64px; }
-    .cluster-hub { padding: 40px 0 8px; }
+    .cluster-hub { padding: 40px 0 64px; }
   }
 
   .page-main > section {
