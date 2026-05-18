@@ -10,6 +10,21 @@ interface Props {
 const { lang, t } = Astro.props;
 const languages: Lang[] = ['fr', 'en', 'es'];
 const currentYear = new Date().getFullYear();
+
+// Pages piliers thematiques (slugs differents par langue)
+const pillarSlugs: Record<Lang, { geography: string; history: string; art: string; nature: string }> = {
+  fr: { geography: '/geographie/', history: '/histoire/', art: '/art/', nature: '/nature/' },
+  en: { geography: '/en/geography/', history: '/en/history/', art: '/en/art/', nature: '/en/nature/' },
+  es: { geography: '/es/geografia/', history: '/es/historia/', art: '/es/arte/', nature: '/es/naturaleza/' },
+};
+const pillars = [
+  { href: pillarSlugs[lang].geography, label: t.header.themeGeography },
+  { href: pillarSlugs[lang].history, label: t.header.themeHistory },
+  { href: pillarSlugs[lang].art, label: t.header.themeArt },
+  { href: pillarSlugs[lang].nature, label: t.header.themeNature },
+];
+// Page auteur (FR uniquement pour l'instant)
+const authorHref = '/about/aurelien-debord/';
 ---
 
 <footer class="footer">
@@ -22,11 +37,22 @@ const currentYear = new Date().getFullYear();
       <p class="footer-tagline">Quiz Culture Generale</p>
     </div>
 
-    <div class="footer-links">
+    <div class="footer-col">
+      <span class="footer-col-title">{t.footer.themes}</span>
+      {pillars.map((p) => (
+        <a href={p.href} class="footer-link">{p.label}</a>
+      ))}
+      <a href={getLocalePath('/blog', lang)} class="footer-link">{t.header.blog}</a>
+    </div>
+
+    <div class="footer-col">
+      <span class="footer-col-title">SAPIRO</span>
+      <a href={getLocalePath('/faq', lang)} class="footer-link">{t.footer.faq}</a>
+      <a href={getLocalePath('/pricing', lang)} class="footer-link">{t.header.pricing}</a>
+      <a href={authorHref} class="footer-link">{t.footer.author}</a>
       <a href={getLocalePath('/privacy', lang)} class="footer-link">{t.footer.privacy}</a>
       <a href={getLocalePath('/terms', lang)} class="footer-link">{t.footer.terms}</a>
-      <a href={getLocalePath('/faq', lang)} class="footer-link">{t.footer.faq}</a>
-      <button type="button" class="footer-link" id="open-legal-modal">{t.footer.legal}</button>
+      <button type="button" class="footer-link footer-link-btn" id="open-legal-modal">{t.footer.legal}</button>
     </div>
 
     <div class="footer-lang">
@@ -143,10 +169,25 @@ const currentYear = new Date().getFullYear();
   .footer-content {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 40px 24px;
+    align-items: flex-start;
+    padding: 48px 24px;
     flex-wrap: wrap;
-    gap: 24px;
+    gap: 32px;
+  }
+
+  .footer-col {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .footer-col-title {
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    opacity: 0.5;
+    margin-bottom: 4px;
   }
 
   .footer-logo {
@@ -167,19 +208,20 @@ const currentYear = new Date().getFullYear();
     font-size: 14px;
   }
 
-  .footer-links {
-    display: flex;
-    gap: 32px;
-  }
-
   .footer-link {
     color: var(--blanc);
     opacity: 0.8;
     transition: opacity 0.2s;
+    text-align: left;
+  }
+
+  .footer-link-btn {
     background: none;
     border: none;
     font-size: inherit;
+    font-family: inherit;
     cursor: pointer;
+    padding: 0;
   }
 
   .footer-link:hover {
@@ -320,12 +362,16 @@ const currentYear = new Date().getFullYear();
   @media (max-width: 768px) {
     .footer-content {
       flex-direction: column;
+      align-items: center;
       text-align: center;
     }
 
-    .footer-links {
-      flex-direction: column;
-      gap: 16px;
+    .footer-col {
+      align-items: center;
+    }
+
+    .footer-link {
+      text-align: center;
     }
 
     .footer-bottom .container {
