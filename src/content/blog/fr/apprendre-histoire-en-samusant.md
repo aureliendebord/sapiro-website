@@ -1,12 +1,13 @@
 ---
-title: "Apprendre l'histoire en s'amusant : méthodes qui marchent vraiment"
+title: "Apprendre l'histoire en s'amusant : méthodes"
 description: "Comment apprendre l'histoire sans mémoriser des dates ? Quiz, récits, parcours thématiques : les méthodes qui ancrent les connaissances pour de bon."
 date: 2026-03-18
 lang: "fr"
 urlSlug: "apprendre-histoire-en-samusant"
 translationKey: "apprendre-histoire"
 category: "education"
-author: "SAPIRO"
+author: "Aurélien Debord"
+authorRole: "Fondateur de SAPIRO"
 readingTime: 9
 ---
 

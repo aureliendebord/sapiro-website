@@ -6,7 +6,8 @@ lang: "fr"
 urlSlug: "meilleures-apps-quiz-culture-generale"
 translationKey: "best-quiz-apps-comparison"
 category: "apps"
-author: "SAPIRO"
+author: "Aurélien Debord"
+authorRole: "Fondateur de SAPIRO"
 readingTime: 12
 ---
 

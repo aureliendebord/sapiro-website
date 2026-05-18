@@ -17,17 +17,21 @@ interface Props {
   title: string;
   description: string;
   date: Date;
+  lastModified?: Date;
   lang: Lang;
   slug: string;
   category: string;
   author: string;
+  authorRole?: string;
   readingTime?: number;
   faqItems?: FaqItem[];
   translationSlugs?: TranslationSlugs;
 }
 
-const { title, description, date, lang, slug, category, author, readingTime, faqItems = [], translationSlugs } = Astro.props;
+const { title, description, date, lastModified, lang, slug, category, author, authorRole, readingTime, faqItems = [], translationSlugs } = Astro.props;
 const t = getTranslations(lang);
+const modifiedDate = lastModified || date;
+const authorIsPerson = author !== 'SAPIRO';
 
 const formattedDate = date.toLocaleDateString(lang === 'fr' ? 'fr-FR' : lang === 'en' ? 'en-US' : 'es-ES', {
   year: 'numeric',
@@ -50,16 +54,26 @@ const hreflangs = [
 ];
 
 // Schema.org Article
+const authorSchema = authorIsPerson ? {
+  '@type': 'Person',
+  name: author,
+  ...(authorRole && { jobTitle: authorRole }),
+  url: 'https://sapiro.app/about/aurelien-debord/',
+  sameAs: [
+    'https://www.linkedin.com/in/aureliendebord/',
+  ]
+} : {
+  '@type': 'Organization',
+  name: author,
+  url: 'https://sapiro.app'
+};
+
 const schemaArticle = {
   '@context': 'https://schema.org',
   '@type': 'Article',
   headline: title,
   description: description,
-  author: {
-    '@type': 'Organization',
-    name: author,
-    url: 'https://sapiro.app'
-  },
+  author: authorSchema,
   publisher: {
     '@type': 'Organization',
     name: 'SAPIRO',
@@ -69,10 +83,14 @@ const schemaArticle = {
     }
   },
   datePublished: date.toISOString(),
-  dateModified: date.toISOString(),
+  dateModified: modifiedDate.toISOString(),
   mainEntityOfPage: {
     '@type': 'WebPage',
     '@id': `https://sapiro.app${getLocalePath(`/blog/${slug}`, lang)}`
+  },
+  speakable: {
+    '@type': 'SpeakableSpecification',
+    cssSelector: ['h1', '.article-content > p:first-of-type']
   },
   inLanguage: lang
 };

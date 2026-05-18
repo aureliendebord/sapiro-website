@@ -1,0 +1,129 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import { getTranslations } from '../../i18n';
+
+const lang = 'en';
+const t = getTranslations(lang);
+
+const collectionPageSchema = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Art history: paintings, painters, movements, sculptures",
+  "description": "Discover art history: 553 works, famous painters, art movements, sculptures, world museums.",
+  "url": "https://sapiro.app/en/art/",
+  "inLanguage": "en"
+};
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "What are the most famous paintings in the world?", "acceptedAnswer": { "@type": "Answer", "text": "The 10 most famous paintings: Mona Lisa (Leonardo da Vinci), Starry Night (Van Gogh), The Scream (Munch), Guernica (Picasso), Les Demoiselles d'Avignon (Picasso), Birth of Venus (Botticelli), Las Meninas (Velazquez), The Night Watch (Rembrandt), Liberty Leading the People (Delacroix), Sunflowers (Van Gogh)." } },
+    { "@type": "Question", "name": "Who painted the Mona Lisa?", "acceptedAnswer": { "@type": "Answer", "text": "The Mona Lisa was painted by Leonardo da Vinci between 1503 and 1519. The painting is at the Louvre in Paris. The model is probably Lisa Gherardini, wife of a Florentine merchant." } },
+    { "@type": "Question", "name": "What are the major art movements?", "acceptedAnswer": { "@type": "Answer", "text": "The 15 major movements: Medieval, Renaissance, Mannerism, Baroque, Rococo, Neoclassicism, Romanticism, Realism, Impressionism, Post-Impressionism, Fauvism, Cubism, Surrealism, Abstract Expressionism, Pop Art." } },
+    { "@type": "Question", "name": "What is the most visited museum in the world?", "acceptedAnswer": { "@type": "Answer", "text": "The Louvre in Paris is the most visited museum in the world with 8.7 million visitors in 2024. Followed by the Vatican Museums (6.8 million) and the British Museum (6.4 million)." } }
+  ]
+};
+---
+
+<Layout title="Art History: Painters, Movements, Museums | SAPIRO" description="Art history: 553 works, famous painters, art movements from Renaissance to Pop Art, world museums." lang={lang}>
+  <Fragment slot="head">
+    <link rel="alternate" hreflang="en" href="https://sapiro.app/en/art/" />
+    <link rel="alternate" hreflang="fr" href="https://sapiro.app/art/" />
+    <link rel="alternate" hreflang="es" href="https://sapiro.app/es/arte/" />
+    <script type="application/ld+json" set:html={JSON.stringify(collectionPageSchema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+  </Fragment>
+
+  <Header lang={lang} t={t} />
+
+  <main class="pillar-page">
+    <article class="container">
+      <header class="pillar-header">
+        <h1>Art History</h1>
+        <p class="lede">553 works, from the caves of Lascaux to Banksy. Painters, movements, museums: everything to understand Western art without jargon.</p>
+      </header>
+
+      <section class="pillar-intro">
+        <p>Arts and literature change the way we see the world. You do not visit Florence the same way after reading about the Medicis. The major movements (Renaissance, Impressionism, Art Deco) and the major works form a useful foundation for any curious person.</p>
+        <p>SAPIRO covers 553 art works organized by movement and by era, with a contextualized explanation for each question.</p>
+      </section>
+
+      <section class="pillar-stats">
+        <h2>Art in numbers</h2>
+        <ul>
+          <li><strong>553</strong> art works in SAPIRO</li>
+          <li><strong>15</strong> major art movements, from Medieval to Pop Art</li>
+          <li><strong>8.7 million</strong> visitors at the Louvre in 2024 (most visited museum)</li>
+          <li><strong>$450 million</strong>: record price for da Vinci's Salvator Mundi (2017)</li>
+          <li><strong>40,000 years</strong> ago: the earliest known cave paintings (Chauvet, Lascaux)</li>
+        </ul>
+      </section>
+
+      <section class="pillar-sub">
+        <h2>The essentials</h2>
+        <ul class="pillar-grid">
+          <li><a href="/en/blog/famous-paintings-masterpieces/">30 famous paintings to know</a></li>
+          <li><a href="/en/blog/essential-artworks-to-know/">Essential artworks to know</a></li>
+          <li><a href="/en/blog/famous-sculptures-world/">15 famous sculptures</a></li>
+          <li><a href="/en/blog/art-movements-explained/">15 art movements explained</a></li>
+          <li><a href="/en/blog/recognize-painter-style/">How to recognize a painter</a></li>
+        </ul>
+      </section>
+
+      <section class="pillar-sub">
+        <h2>Museums and places</h2>
+        <ul class="pillar-grid">
+          <li><a href="/en/blog/most-visited-museums-world/">The 15 most visited museums</a></li>
+          <li><a href="/en/blog/art-history-beginners/">Art history for beginners</a></li>
+        </ul>
+      </section>
+
+      <section class="pillar-sub">
+        <h2>Reviewing art</h2>
+        <ul class="pillar-grid">
+          <li><a href="/en/blog/art-history-quiz-exam/">Art history quiz exam level</a></li>
+          <li><a href="/en/blog/teaching-art-kids/">Teaching art to kids</a></li>
+        </ul>
+      </section>
+
+      <section class="pillar-faq">
+        <h2>Frequently asked questions about art</h2>
+
+        <h3>What are the most famous paintings in the world?</h3>
+        <p>The 10 most famous paintings: Mona Lisa (Leonardo da Vinci), Starry Night (Van Gogh), The Scream (Munch), Guernica (Picasso), Les Demoiselles d'Avignon (Picasso), Birth of Venus (Botticelli), Las Meninas (Velazquez), The Night Watch (Rembrandt), Liberty Leading the People (Delacroix), Sunflowers (Van Gogh).</p>
+
+        <h3>Who painted the Mona Lisa?</h3>
+        <p>The Mona Lisa was painted by Leonardo da Vinci between 1503 and 1519. The painting is at the Louvre in Paris. The model is probably Lisa Gherardini, wife of a Florentine merchant.</p>
+
+        <h3>What are the major art movements?</h3>
+        <p>The 15 major movements: Medieval, Renaissance, Mannerism, Baroque, Rococo, Neoclassicism, Romanticism, Realism, Impressionism, Post-Impressionism, Fauvism, Cubism, Surrealism, Abstract Expressionism, Pop Art.</p>
+
+        <h3>What is the most visited museum in the world?</h3>
+        <p>The Louvre in Paris is the most visited museum in the world with 8.7 million visitors in 2024. Followed by the Vatican Museums (6.8 million) and the British Museum (6.4 million).</p>
+      </section>
+    </article>
+  </main>
+
+  <Footer lang={lang} t={t} />
+</Layout>
+
+<style>
+  .pillar-page { padding-top: 100px; padding-bottom: 60px; }
+  .pillar-header { text-align: center; padding-bottom: 32px; margin-bottom: 32px; border-bottom: 1px solid var(--gris-clair); }
+  .pillar-header h1 { font-size: clamp(2.25rem, 4.5vw, 3.25rem); margin-bottom: 16px; }
+  .lede { font-size: 1.25rem; color: var(--gris); max-width: 720px; margin: 0 auto; }
+  .pillar-intro, .pillar-stats, .pillar-sub, .pillar-faq { max-width: 800px; margin: 0 auto 48px; }
+  .pillar-intro p { line-height: 1.75; margin-bottom: 16px; font-size: 1.05rem; }
+  .pillar-stats ul { padding-left: 24px; }
+  .pillar-stats li { margin-bottom: 8px; line-height: 1.7; }
+  .pillar-sub h2, .pillar-stats h2, .pillar-faq h2 { font-size: 1.75rem; margin-bottom: 20px; }
+  .pillar-grid { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 12px; }
+  .pillar-grid li { padding: 14px 18px; background: var(--gris-clair); border-radius: 8px; }
+  .pillar-grid a { color: var(--noir); text-decoration: none; font-weight: 500; }
+  .pillar-grid a:hover { color: var(--orange); }
+  .pillar-faq h3 { font-size: 1.1rem; margin-top: 24px; margin-bottom: 8px; }
+  .pillar-faq p { line-height: 1.7; margin-bottom: 16px; }
+</style>

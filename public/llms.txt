@@ -13,7 +13,7 @@ Key facts:
 - Works fully offline
 - Available on iOS and Android
 - 5/5 rating on Google Play (Teacher Approved)
-- Free version is generous; Sapiro+ from €1.99/month
+- Free version is generous; Sapiro+ from EUR 1.99/month
 
 ## Website structure
 
@@ -28,21 +28,341 @@ Key facts:
 
 The website and app are available in French (default), English (/en/), and Spanish (/es/).
 
-## Blog articles
+## Blog articles (French)
 
-- [Best quiz apps for general knowledge](https://sapiro.app/blog/meilleures-apps-quiz-culture-generale/)
-- [SAPIRO vs Trivia Crack](https://sapiro.app/blog/sapiro-vs-trivia-crack/)
-- [SAPIRO vs GeoGuessr](https://sapiro.app/blog/sapiro-vs-geoguessr/)
-- [Best geography apps](https://sapiro.app/blog/meilleures-apps-geographie/)
-- [Gamification in education](https://sapiro.app/blog/gamification-education/)
-- [General knowledge guide](https://sapiro.app/blog/culture-generale-guide/)
-- [Geography for kids](https://sapiro.app/blog/geographie-enfants/)
-- [Family geography quiz](https://sapiro.app/blog/geographie-famille/)
-- [Hardest flags to recognize](https://sapiro.app/blog/drapeaux-difficiles/)
-- [Flag meanings and symbolism](https://sapiro.app/blog/signification-drapeaux/)
-- [World capitals quiz](https://sapiro.app/blog/quiz-capitales-monde/)
-- [Common geography mistakes](https://sapiro.app/blog/erreurs-geographie/)
-- [Historical figures](https://sapiro.app/blog/personnages-historiques/)
+### Apps
+
+- [Les 10 meilleures apps de quiz culture générale en 2026](https://sapiro.app/blog/meilleures-apps-quiz-culture-generale/): Comparatif des meilleures applications de quiz et culture générale : Trivia Crack, Kahoot, QuizUp, SAPIRO... Laquelle choisir ? Notre analyse complète.
+- [SAPIRO vs GeoGuessr : quelle app pour apprendre la géographie ?](https://sapiro.app/blog/sapiro-vs-geoguessr/): Comparatif entre SAPIRO et GeoGuessr : contenu, vie privée, valeur éducative, prix. Deux approches très différentes de la géographie sur mobile.
+- [SAPIRO vs Kahoot : deux outils, deux usages complètement différents](https://sapiro.app/blog/sapiro-vs-kahoot/): Comparatif entre SAPIRO et Kahoot : l'un est conçu pour la salle de classe, l'autre pour apprendre seul ou en famille. Contenu, vie privée, prix, pédagogie.
+- [SAPIRO vs Trivia Crack : quelle app de quiz choisir ?](https://sapiro.app/blog/sapiro-vs-trivia-crack/): Comparatif SAPIRO vs Trivia Crack : publicités, vie privée, contenu éducatif, prix. Quelle app de quiz est la meilleure pour votre famille ?
+- [Top 8 des apps pour apprendre la géographie](https://sapiro.app/blog/meilleures-apps-geographie/): Comparatif des 8 meilleures applications pour apprendre la géographie en 2025 : quiz, cartes interactives et jeux éducatifs. Laquelle vous correspond ?
+
+### Art & visual culture
+
+- [15 mouvements artistiques expliques simplement](https://sapiro.app/blog/mouvements-artistiques/): Renaissance, Impressionnisme, Cubisme, Pop Art : 15 grands mouvements artistiques expliques avec leurs dates, leurs caracteristiques et leurs figures.
+- [15 sculptures celebres a connaitre dans le monde](https://sapiro.app/blog/sculptures-celebres-monde/): Le David, Le Penseur, la Venus de Milo : 15 sculptures celebres du monde avec leur histoire, leur lieu et ce qui les rend incontournables.
+- [30 tableaux celebres : les chefs-d'oeuvre a connaitre](https://sapiro.app/blog/tableaux-celebres-chefs-oeuvre/): La Joconde, La Nuit etoilee, Les Demoiselles d'Avignon : 30 tableaux celebres avec leur histoire, leur peintre et ce qui les rend incontournables.
+- [Comment reconnaitre un peintre : guide visuel des grands maitres](https://sapiro.app/blog/reconnaitre-peintre-style/): Monet, Van Gogh, Picasso, Vermeer : criteres simples pour reconnaitre les grands peintres d'un seul coup d'oeil. Style, couleurs, themes.
+- [Histoire de l'art pour les nuls : le guide pour debuter](https://sapiro.app/blog/histoire-art-pour-les-nuls/): Vous partez de zero en histoire de l'art ? Guide accessible des grandes periodes, oeuvres et artistes a connaitre pour avoir une vue d'ensemble.
+- [Les 15 musees les plus visites au monde](https://sapiro.app/blog/musees-plus-visites-monde/): Louvre, British Museum, MoMA, Vatican : top 15 des musees les plus visites au monde avec leurs chiffres, oeuvres phares et conseils de visite.
+- [Quiz histoire de l'art niveau bac : entrainez-vous](https://sapiro.app/blog/quiz-histoire-art-bac/): Reviser l'histoire de l'art pour le bac, le brevet ou les concours : programme officiel, oeuvres clefs et quiz de niveau pour s'entrainer.
+
+### App comparisons
+
+- [Apps quiz sans collecte de donnees : comparatif](https://sapiro.app/blog/apps-quiz-sans-collecte-donnees/): Quelles apps de quiz respectent vraiment vos donnees ? Comparatif des applications qui ne collectent pas vos donnees personnelles.
+- [Meilleures apps educatives sans publicite](https://sapiro.app/blog/meilleures-apps-educatives-sans-publicite/): Selection des meilleures applications educatives sans publicite : geographie, langues, histoire, sciences. Apprendre sans interruptions.
+- [Sapiro vs Duolingo : apprendre quoi exactement ?](https://sapiro.app/blog/sapiro-vs-duolingo/): Comparatif Sapiro et Duolingo : culture generale ou langues etrangeres ? Avantages, inconvenients et publics de chaque application.
+- [Sapiro vs QuizUp et HQ Trivia : approches differentes](https://sapiro.app/blog/sapiro-vs-quizup-hq-trivia/): Comparatif Sapiro avec QuizUp et HQ Trivia : quiz competitif live ou apprentissage tranquille ? Avantages et limites de chaque format.
+- [Sapiro vs Quizlet : quelle app choisir ?](https://sapiro.app/blog/sapiro-vs-quizlet/): Comparatif Sapiro et Quizlet : quiz culture generale ou flashcards ? Avantages, inconvenients et public cible de chaque application.
+- [Sapiro vs Seterra : quelle app geographie choisir ?](https://sapiro.app/blog/sapiro-vs-seterra/): Comparatif Sapiro et Seterra : quelle app de geographie est la meilleure ? Avantages, inconvenients et public cible de chaque outil.
+
+### Exams & study guides
+
+- [Annales culture generale et corriges : ou trouver](https://sapiro.app/blog/annales-culture-generale-corriges/): Trouver des annales corrigees de culture generale pour preparer un concours : sources officielles, livres et entrainement aux questions types.
+- [Culture generale aux concours de la fonction publique](https://sapiro.app/blog/culture-generale-concours-fonction-publique/): Reviser la culture generale pour les concours de la fonction publique : programme officiel, themes recurrents et methode pour preparer l'epreuve.
+- [Preparer un concours categorie B ou C : guide complet](https://sapiro.app/blog/preparer-concours-categorie-bc/): Reussir un concours administratif categorie B ou C : programme, methode, planning et entrainement aux quiz de culture generale.
+- [QCM gendarmerie, police, armee : preparation](https://sapiro.app/blog/qcm-gendarmerie-police-armee/): Reussir les QCM des concours gendarmerie, police, armee : programme, exemples de questions et methode d'entrainement.
+- [Quiz culture generale niveau brevet et bac](https://sapiro.app/blog/quiz-culture-generale-brevet-bac/): S'entrainer a la culture generale niveau brevet et bac : themes recurrents, questions types et methode pour reussir l'epreuve.
+- [Reviser la culture generale en 30 jours : programme](https://sapiro.app/blog/reviser-culture-generale-30-jours/): Un planning de 30 jours pour reviser la culture generale efficacement avant un concours ou un examen, jour par jour, theme par theme.
+- [Reviser la culture generale pour Sciences Po](https://sapiro.app/blog/reviser-sciences-po/): Comment preparer l'epreuve de culture generale pour Sciences Po et les IEP : programme, lectures, methode et entrainement aux quiz.
+
+### General knowledge
+
+- [12 œuvres d'art que tout le monde devrait connaître](https://sapiro.app/blog/oeuvres-art-incontournables/): De la Joconde à Guernica, les œuvres d'art incontournables avec des anecdotes surprenantes sur chacune. Un parcours à travers 5 siècles de création.
+- [20 personnages historiques incontournables](https://sapiro.app/blog/personnages-historiques/): Quiz personnages historiques : de Cléopâtre à Turing, 20 figures incontournables qui ont façonné le monde. Combien pouvez-vous replacer dans leur époque ?
+- [Culture générale : le guide pour tout savoir](https://sapiro.app/blog/culture-generale-guide/): Comment améliorer sa culture générale au quotidien ? Méthodes concrètes, ressources choisies et habitudes simples pour progresser en 15 minutes par jour.
+
+### Flags
+
+- [15 drapeaux difficiles à reconnaître au monde](https://sapiro.app/blog/drapeaux-difficiles/): Tchad ou Roumanie, Monaco ou Indonésie : voici les 15 drapeaux les plus difficiles à reconnaître au monde, avec des astuces pour les distinguer enfin.
+- [Signification des drapeaux : couleurs et symboles](https://sapiro.app/blog/signification-drapeaux/): Signification des drapeaux du monde : couleurs, symboles, croissants et étoiles. Savez-vous pourquoi le Népal a le seul drapeau non rectangulaire ?
+
+### Education
+
+- [Apprendre l'histoire en s'amusant : méthodes qui marchent vraiment](https://sapiro.app/blog/apprendre-histoire-en-samusant/): Comment apprendre l'histoire sans mémoriser des dates ? Quiz, récits, parcours thématiques : les méthodes qui ancrent les connaissances pour de bon.
+- [Gamification et éducation : le pouvoir des quiz](https://sapiro.app/blog/gamification-education/): Gamification et éducation : comment les quiz et les mécaniques de jeu boostent la mémorisation de 50 %. La science derrière ce qui fonctionne vraiment.
+- [Géographie pour enfants : 10 méthodes ludiques](https://sapiro.app/blog/geographie-enfants/): Comment apprendre la géographie aux enfants de 5 à 12 ans ? 10 méthodes ludiques testées par des parents et enseignants. Laquelle essayez-vous ce soir ?
+- [Quiz géographie en famille : la soirée idéale](https://sapiro.app/blog/geographie-famille/): Organisez un quiz géographie en famille : règles, questions adaptées par âge et variantes de jeu pour une soirée réussie. Prêt à jouer ce soir ?
+
+### Family & kids learning
+
+- [20 idees cadeaux pour enfant curieux (6, 8, 10 ans)](https://sapiro.app/blog/cadeau-enfant-curieux/): Vingt idees de cadeaux educatifs et ludiques pour enfants curieux de 6 a 12 ans : jeux, livres, apps, instruments d'observation.
+- [Activites culturelles en famille : 30 idees](https://sapiro.app/blog/activites-culturelles-famille/): Trente idees d'activites culturelles en famille pour les week-ends et vacances : musees, sorties, jeux, voyages culturels.
+- [Apprendre l'art aux enfants : guide pratique](https://sapiro.app/blog/apprendre-art-enfants/): Comment faire decouvrir l'art aux enfants ? Musees, livres, methodes par age et ressources pour eveiller la curiosite artistique.
+- [Apprendre les pays du monde aux enfants](https://sapiro.app/blog/apprendre-pays-monde-enfants/): Comment faire decouvrir les pays, drapeaux et capitales aux enfants ? Methodes par age, jeux et ressources pour eveiller la curiosite geographique.
+- [Histoire en CM1, CM2 et 6e : programme et quiz](https://sapiro.app/blog/histoire-cm1-cm2-6e-programme/): Programme officiel d'histoire en CM1, CM2 et 6e avec themes, dates cles et quiz pour aider votre enfant a reviser efficacement.
+- [Identifier les animaux avec ses enfants : guide pratique](https://sapiro.app/blog/identifier-animaux-enfants/): Comment apprendre a votre enfant a identifier les animaux ? Methodes, sorties et ressources pour developper l'oeil naturaliste.
+- [Quiz a imprimer pour enfants : pays, animaux, art](https://sapiro.app/blog/quiz-imprimer-enfants/): Modeles de quiz a imprimer pour les enfants : drapeaux, capitales, animaux, art. Solutions et conseils pour adapter au niveau de l'enfant.
+
+### Quiz formats
+
+- [Quiz anniversaire et soiree entre amis : idees](https://sapiro.app/blog/quiz-anniversaire-soiree-amis/): Organiser un quiz pour un anniversaire ou une soiree entre amis : themes, questions personnalisees et methode d'animation.
+- [Quiz capitales par continent : Europe, Afrique, Asie...](https://sapiro.app/blog/quiz-capitales-par-continent/): Tester votre connaissance des capitales du monde par continent : Europe, Afrique, Asie, Ameriques, Oceanie. Listes completes et quizzes.
+- [Quiz culture generale entreprise et team building](https://sapiro.app/blog/quiz-culture-generale-entreprise-team-building/): Organiser un quiz culture generale en entreprise ou en team building : format, themes, regles et outils pour reussir l'animation.
+- [Quiz culture generale niveau facile, moyen, difficile, expert](https://sapiro.app/blog/quiz-culture-generale-niveau/): Quiz culture generale par niveau : facile, moyen, difficile, expert. Pour evaluer son niveau et progresser etape par etape.
+- [Quiz drapeaux du monde gratuit en ligne](https://sapiro.app/blog/quiz-drapeaux-monde-gratuit-en-ligne/): Tester votre connaissance des drapeaux du monde avec des quiz gratuits en ligne, par continent et par niveau. Apprentissage progressif.
+- [Quiz saisonniers : Noel, ete, JO, elections](https://sapiro.app/blog/quiz-saisonnier-noel-ete-jo/): Quiz a theme saisonnier : Noel, ete, Jeux Olympiques, elections. Idees de questions et methode pour animer une soiree.
+
+### Geography
+
+- [12 erreurs de géographie que tout le monde fait](https://sapiro.app/blog/erreurs-geographie/): Sydney capitale de l'Australie ? Groenland plus grand que l'Afrique ? Les 12 erreurs de géographie courantes que tout le monde fait. Combien en faites-vous ?
+- [Quiz capitales du monde : combien peux-tu en nommer ?](https://sapiro.app/blog/quiz-capitales-monde/): Quiz capitales du monde : de Canberra à Naypyidaw, les capitales les plus surprenantes et les pièges à éviter. Combien pouvez-vous en nommer sur 195 ?
+
+### History
+
+- [20 femmes qui ont marque l'histoire mondiale](https://sapiro.app/blog/femmes-marque-histoire/): Cleopatre, Jeanne d'Arc, Marie Curie, Rosa Parks : 20 femmes qui ont marque l'histoire mondiale avec leur epoque et leur impact.
+- [Antiquite, Moyen Age, Renaissance : reperes essentiels](https://sapiro.app/blog/antiquite-moyen-age-renaissance-reperes/): Trois grandes periodes qui structurent l'histoire occidentale. Dates, civilisations, mouvements et figures pour s'y retrouver simplement.
+- [Frise chronologique mondiale : reperes essentiels](https://sapiro.app/blog/frise-chronologique-mondiale/): Antiquite, Moyen Age, Renaissance, ere industrielle, guerres mondiales : frise chronologique mondiale avec les dates et evenements a retenir.
+- [Les 15 grandes batailles de l'histoire mondiale](https://sapiro.app/blog/grandes-batailles-histoire/): Marathon, Hastings, Waterloo, Stalingrad : 15 batailles qui ont change le cours de l'histoire mondiale avec leurs dates, causes et consequences.
+- [Les dictateurs du XXe siecle expliques aux ados](https://sapiro.app/blog/dictateurs-xxe-siecle/): Hitler, Staline, Mao, Franco, Pol Pot : les grands dictateurs du XXe siecle expliques simplement, avec leurs ideologies et leurs consequences.
+- [Presidents des Etats-Unis : liste complete](https://sapiro.app/blog/presidents-etats-unis/): De George Washington a aujourd'hui : liste complete des presidents des Etats-Unis avec dates, parti et faits marquants de chaque mandat.
+- [Quiz histoire de France niveau brevet et bac](https://sapiro.app/blog/quiz-histoire-france-bac/): Reviser l'histoire de France pour le brevet, le bac ou les concours : programme officiel, dates incontournables et quiz pour s'entrainer.
+- [Rois de France : liste complete et dates](https://sapiro.app/blog/rois-de-france-liste/): De Clovis a Louis-Philippe : liste complete des rois de France avec dates de regne, dynasties et faits majeurs de chaque souverain.
+
+### Nature & wildlife
+
+- [20 animaux etranges et meconnus dans le monde](https://sapiro.app/blog/animaux-etranges-meconnus/): Tardigrade, axolotl, pangolin, calmar vampire : 20 animaux etranges et meconnus qui existent vraiment, avec leurs particularites biologiques.
+- [20 paires d'animaux qui se ressemblent : comment les distinguer](https://sapiro.app/blog/differences-animaux-ressemblants/): Crocodile ou alligator, leopard ou guepard, lama ou alpaga : 20 paires d'animaux confondus avec les criteres pour ne plus jamais se tromper.
+- [Animaux en voie de disparition : liste 2026](https://sapiro.app/blog/animaux-en-voie-disparition/): Quels animaux risquent vraiment de disparaitre dans les prochaines decennies ? Liste actualisee par categorie UICN, avec les chiffres reels de population.
+- [Les 15 animaux les plus dangereux du monde](https://sapiro.app/blog/animaux-plus-dangereux-monde/): Lion, requin, ours blanc ? Les vrais animaux les plus dangereux ne sont pas ceux qu'on imagine. Classement par nombre de morts humaines chaque annee.
+- [Les animaux d'Afrique : 40 especes emblematiques](https://sapiro.app/blog/animaux-afrique/): Lion, gnou, fennec, oryx : 40 animaux emblematiques d'Afrique avec leur habitat, regime et statut de conservation. Guide complet par region.
+- [Quiz animaux : reconnaître 50 espèces du monde](https://sapiro.app/blog/quiz-animaux-especes-monde/): Sauriez-vous distinguer un guépard d'un léopard, un alpaga d'un lama ? Tour d'horizon des 50 espèces animales à savoir reconnaître, avec leurs traits distinctifs.
+- [Quiz nature pour enfants : apprendre les animaux en s'amusant](https://sapiro.app/blog/quiz-nature-enfants/): Comment faire decouvrir les animaux aux enfants ? Quiz par age, jeux d'observation et astuces pedagogiques pour eveiller la curiosite naturaliste.
+- [Reconnaitre 30 races de chiens : guide visuel](https://sapiro.app/blog/reconnaitre-races-chiens/): Berger australien ou border collie, husky ou malamute : 30 races de chiens avec leurs traits distinctifs pour ne plus jamais les confondre.
+
+### Travel & geography curiosity
+
+- [L'origine du nom des pays : etymologies surprenantes](https://sapiro.app/blog/origine-noms-pays/): France, Argentine, Pakistan, Australie : l'origine du nom des pays revele leur histoire et leurs cultures. 20 etymologies surprenantes.
+- [Les 10 frontieres les plus etranges du monde](https://sapiro.app/blog/frontieres-etranges-monde/): Baarle-Nassau, enclave de Cooch Behar, point quadruple : les 10 frontieres les plus etranges du monde, leur histoire et leur originalite.
+- [Les 10 plus petits pays du monde](https://sapiro.app/blog/plus-petits-pays-monde/): Vatican, Monaco, Nauru, Tuvalu : les 10 plus petits pays du monde par superficie, avec leur histoire, leur population et leurs particularites.
+- [Les 15 pays les moins visites du monde](https://sapiro.app/blog/pays-moins-visites-monde/): Decouvrez les 15 pays les moins visites au monde : Tuvalu, Kiribati, Turkmenistan... Pourquoi si peu de touristes et que faut-il y voir ?
+- [Les pays qui n'existent plus : la liste des disparus](https://sapiro.app/blog/pays-disparus/): Yougoslavie, URSS, Tchecoslovaquie, RDA : la liste des pays qui n'existent plus et l'histoire de leur disparition recente.
+- [Quel pays correspond a ta personnalite ? Le test](https://sapiro.app/blog/test-pays-personnalite/): Test ludique : quel pays correspond a ta personnalite ? Un voyage entre culture, geographie et caractere pour decouvrir ton pays-miroir.
+
+## Blog articles (English)
+
+### Apps
+
+- [10 Best General Knowledge Quiz Apps in 2026](https://sapiro.app/en/blog/best-quiz-apps-general-knowledge/): Compare the best quiz and trivia apps: Trivia Crack, Kahoot, SAPIRO, GeoGuessr... Which one should you choose? Our complete analysis.
+- [SAPIRO vs GeoGuessr: Which Geography App Is Worth Your Time?](https://sapiro.app/en/blog/sapiro-vs-geoguessr/): A detailed comparison of SAPIRO and GeoGuessr: content, privacy, educational value, pricing. Two very different approaches to learning geography.
+- [SAPIRO vs Kahoot: Two Different Tools for Two Different Goals](https://sapiro.app/en/blog/sapiro-vs-kahoot/): SAPIRO and Kahoot compared: one is built for the classroom, the other for learning at home. Content, privacy, pricing, educational value.
+- [SAPIRO vs Trivia Crack: Which Quiz App Should You Choose?](https://sapiro.app/en/blog/sapiro-vs-trivia-crack/): Detailed comparison of SAPIRO and Trivia Crack: ads, privacy, educational content, pricing. Which quiz app is best for your family?
+- [The 8 Best Apps to Learn Geography in 2025](https://sapiro.app/en/blog/best-geography-apps/): We tested and ranked the 8 best geography apps for 2025, from adaptive quiz drills to Street View exploration. Find out which one fits your learning style.
+
+### Art & visual culture
+
+- [15 Art Movements Explained Simply](https://sapiro.app/en/blog/art-movements-explained/): Renaissance, Impressionism, Cubism, Pop Art: 15 major art movements explained with dates, traits and key figures.
+- [15 Famous Sculptures to Know in the World](https://sapiro.app/en/blog/famous-sculptures-world/): David, The Thinker, Venus de Milo: 15 famous sculptures from around the world with their story, location, and what makes them essential.
+- [30 Famous Paintings: The Masterpieces to Know](https://sapiro.app/en/blog/famous-paintings-masterpieces/): Mona Lisa, Starry Night, Les Demoiselles d'Avignon: 30 famous paintings with their story, painter, and what makes them essential.
+- [Art History Quiz: Exam-Level Practice](https://sapiro.app/en/blog/art-history-quiz-exam/): Reviewing art history for exams, competitive tests or college: official syllabus, key works and practice quizzes by level.
+- [Art History for Beginners: The Starter Guide](https://sapiro.app/en/blog/art-history-beginners/): Starting from zero in art history? Accessible guide to major periods, works and artists you need to know to get a full overview.
+- [How to Recognize a Painter: Visual Guide to the Old Masters](https://sapiro.app/en/blog/recognize-painter-style/): Monet, Van Gogh, Picasso, Vermeer: simple criteria to identify the great painters at a glance. Style, palette, themes.
+- [The 15 Most Visited Museums in the World](https://sapiro.app/en/blog/most-visited-museums-world/): Louvre, British Museum, MoMA, Vatican: top 15 most visited museums worldwide with attendance numbers, key works and visit tips.
+
+### App comparisons
+
+- [Best Ad-Free Educational Apps](https://sapiro.app/en/blog/best-ad-free-educational-apps/): Selection of the best ad-free educational applications: geography, languages, history, science. Learning without interruptions.
+- [Quiz Apps Without Data Collection: Comparison](https://sapiro.app/en/blog/quiz-apps-no-data-collection/): Which quiz apps truly respect your data? Comparison of applications that do not collect your personal data.
+- [SAPIRO vs Duolingo: Learn What Exactly?](https://sapiro.app/en/blog/sapiro-vs-duolingo/): SAPIRO vs Duolingo comparison: general knowledge or foreign languages? Pros, cons and audiences for each app.
+- [SAPIRO vs QuizUp and HQ Trivia: Different Approaches](https://sapiro.app/en/blog/sapiro-vs-quizup-hq-trivia/): SAPIRO vs QuizUp and HQ Trivia comparison: live competitive quiz or calm learning? Pros and cons of each format.
+- [SAPIRO vs Quizlet: Which App to Choose?](https://sapiro.app/en/blog/sapiro-vs-quizlet/): SAPIRO vs Quizlet comparison: general knowledge quiz or flashcards? Pros, cons and target audience for each app.
+- [SAPIRO vs Seterra: Which Geography App to Choose?](https://sapiro.app/en/blog/sapiro-vs-seterra/): SAPIRO vs Seterra comparison: which geography app is better? Pros, cons and target audience for each tool.
+
+### Exams & study guides
+
+- [General Knowledge Quiz: High School Level](https://sapiro.app/en/blog/general-knowledge-quiz-high-school/): Practice general knowledge at middle and high school level: recurring themes, sample questions and method for exam success.
+- [General Knowledge for Civil Service Exams](https://sapiro.app/en/blog/general-knowledge-civil-service-exams/): Review general knowledge for civil service or government exams: official syllabus, recurring themes and method to prepare the test.
+- [How to Prepare for University Admission Tests](https://sapiro.app/en/blog/prepare-university-admission/): Prepare general knowledge for university admission tests (UCAT, BMAT, SAT, IB, Oxbridge): program, readings, method and quiz practice.
+- [Past Exam Papers and Solutions: Where to Find Them](https://sapiro.app/en/blog/past-exam-papers-general-knowledge/): Find past papers and solutions for general knowledge exams: official sources, books and training on typical questions.
+- [Police, Military and Security Exam Preparation](https://sapiro.app/en/blog/police-military-exam-prep/): Pass police, military and security exams: program, sample questions and training method for general knowledge and aptitude tests.
+- [Preparing a Government Entry-Level Exam: Complete Guide](https://sapiro.app/en/blog/prepare-government-entry-exam/): Succeed at a government or civil service entry-level exam: syllabus, method, planning and general knowledge quiz training.
+- [Revise General Knowledge in 30 Days: Daily Plan](https://sapiro.app/en/blog/revise-general-knowledge-30-days/): A 30-day plan to revise general knowledge efficiently before an exam, day by day, theme by theme.
+
+### General knowledge
+
+- [12 Essential Artworks Everyone Should Recognize](https://sapiro.app/en/blog/essential-artworks-to-know/): From the Mona Lisa to Guernica, the artworks worth knowing and the surprising stories behind each one. A journey across 5 centuries of human creation.
+- [20 Historical Figures Everyone Should Know](https://sapiro.app/en/blog/historical-figures/): From Cleopatra to Mandela, 20 essential historical figures spanning every continent and 5,000 years. How many can you name in a historical figures quiz?
+- [General Knowledge: The Guide to Know It All](https://sapiro.app/en/blog/general-knowledge-guide/): Want to improve general knowledge without cramming? Five daily habits, proven retention strategies, and the overlooked domains that make all the difference.
+
+### Flags
+
+- [Hidden Meaning of Flags: Colors and Symbols](https://sapiro.app/en/blog/flags-meaning/): What do flag colors actually represent? Explore the meaning of flags colors and symbols, from Japan's red sun to Nepal's unique shape and Brazil's sky.
+- [The 15 Hardest Flags to Recognize in the World](https://sapiro.app/en/blog/hardest-flags/): From Chad vs Romania to Indonesia vs Monaco, these are the 15 hardest flags to recognize in the world -- plus the memory tricks to finally master them.
+
+### Education
+
+- [Family Quiz Night: Plan a Geography Evening](https://sapiro.app/en/blog/geography-family/): Plan the perfect family geography quiz night with our complete guide: 3 proven formats, team-balancing tips, 20 ready-made questions, and visual round ideas.
+- [Gamification in Education: Why Quizzes Work So Well](https://sapiro.app/en/blog/gamification-education/): How does gamification in education actually work? The science behind quizzes, spaced repetition, and why game mechanics boost long-term retention so well.
+- [Learning History in a Fun Way: Methods That Actually Work](https://sapiro.app/en/blog/learning-history-fun/): How to learn history without just memorizing dates. Quizzes, storytelling, thematic paths: the methods that make historical knowledge stick for good.
+- [Teaching Geography to Kids: 10 Fun and Effective Methods](https://sapiro.app/en/blog/geography-for-kids/): 10 proven, parent-tested methods to teach geography to kids aged 5-12 through games, quizzes, cooking, and hands-on activities. Which work best?
+
+### Family & kids learning
+
+- [20 Gift Ideas for Curious Kids (Ages 6, 8, 10)](https://sapiro.app/en/blog/gift-ideas-curious-kids/): Twenty educational and fun gift ideas for curious kids 6 to 12: games, books, apps, observation tools.
+- [Family Cultural Activities: 30 Ideas](https://sapiro.app/en/blog/family-cultural-activities/): Thirty cultural activity ideas for family weekends and holidays: museums, outings, games, cultural trips.
+- [History in Elementary and Middle School: Curriculum and Quizzes](https://sapiro.app/en/blog/history-elementary-middle-school/): Standard history curriculum for elementary and middle school with themes, key dates and quizzes to help your child review effectively.
+- [Identifying Animals With Kids: A Practical Guide](https://sapiro.app/en/blog/identifying-animals-with-kids/): How to teach your child to identify animals? Methods, outings and resources to develop a naturalist eye.
+- [Printable Quizzes for Kids: Countries, Animals, Art](https://sapiro.app/en/blog/printable-quiz-kids/): Printable quiz templates for kids: flags, capitals, animals, art. Solutions and tips to adapt to your child's level.
+- [Teaching Art to Kids: A Practical Guide](https://sapiro.app/en/blog/teaching-art-kids/): How to introduce art to kids? Museums, books, age-by-age methods and resources to spark artistic curiosity.
+- [Teaching World Countries to Kids](https://sapiro.app/en/blog/teaching-world-countries-kids/): How to introduce countries, flags and capitals to kids? Age-by-age methods, games and resources to spark geographic curiosity.
+
+### Quiz formats
+
+- [Birthday and Friends Party Quiz: Ideas](https://sapiro.app/en/blog/birthday-party-quiz-friends/): Hosting a quiz for a birthday or friends gathering: themes, personalized questions and hosting method.
+- [Capitals Quiz by Continent: Europe, Africa, Asia...](https://sapiro.app/en/blog/capitals-quiz-by-continent/): Test your knowledge of world capitals by continent: Europe, Africa, Asia, Americas, Oceania. Complete lists and quizzes.
+- [General Knowledge Quiz: Easy, Medium, Hard, Expert](https://sapiro.app/en/blog/general-knowledge-quiz-levels/): General knowledge quizzes by level: easy, medium, hard, expert. To assess your level and progress step by step.
+- [General Knowledge Quiz: Workplace and Team Building](https://sapiro.app/en/blog/general-knowledge-quiz-team-building/): Hosting a general knowledge quiz at work or for team building: format, themes, rules and tools to nail the event.
+- [Seasonal Quizzes: Christmas, Summer, Olympics, Elections](https://sapiro.app/en/blog/seasonal-quiz-christmas-olympics/): Themed seasonal quizzes: Christmas, summer, Olympics, elections. Question ideas and method to host an evening.
+- [World Flags Quiz: Free Online Practice](https://sapiro.app/en/blog/world-flags-quiz-free-online/): Test your knowledge of world flags with free online quizzes, by continent and level. Progressive learning.
+
+### Geography
+
+- [12 Common Geography Mistakes (And How to Fix Them)](https://sapiro.app/en/blog/geography-mistakes/): Sydney is not Australia's capital and Africa is 14 times larger than Greenland. How many of these 12 common geography mistakes are you still making today?
+- [World Capitals Quiz: How Many Can You Name?](https://sapiro.app/en/blog/world-capitals-quiz/): Think you can ace a world capitals quiz? From Canberra to Naypyidaw, discover the trickiest capitals and proven strategies to remember all 195 of them.
+
+### History
+
+- [20 Women Who Shaped World History](https://sapiro.app/en/blog/women-who-shaped-history/): Cleopatra, Joan of Arc, Marie Curie, Rosa Parks: 20 women who shaped world history with their era and impact.
+- [20th Century Dictators Explained for Teens](https://sapiro.app/en/blog/20th-century-dictators/): Hitler, Stalin, Mao, Franco, Pol Pot: the major 20th century dictators explained simply, with their ideologies and consequences.
+- [Antiquity, Middle Ages, Renaissance: Essential Overview](https://sapiro.app/en/blog/antiquity-middle-ages-renaissance-overview/): Three major periods that structure Western history. Dates, civilizations, movements and figures to navigate them simply.
+- [European Monarchs: A Complete List by Country](https://sapiro.app/en/blog/european-monarchs-list/): From Charlemagne to Queen Elizabeth II: the essential European monarchs by country and dynasty, with reign dates and major events.
+- [The 15 Great Battles of World History](https://sapiro.app/en/blog/great-battles-history/): Marathon, Hastings, Waterloo, Stalingrad: 15 battles that changed the course of world history with their dates, causes and consequences.
+- [US Presidents: The Complete List](https://sapiro.app/en/blog/us-presidents-list/): From George Washington to today: complete list of US Presidents with dates, party, and key events of each term.
+- [World History Quiz: Exam-Level Practice](https://sapiro.app/en/blog/history-quiz-exam-level/): Review world history for exams and tests: official syllabus, must-know dates and quizzes to practice.
+- [World History Timeline: The Essential Markers](https://sapiro.app/en/blog/world-timeline-history/): Antiquity, Middle Ages, Renaissance, industrial era, world wars: world timeline with the dates and events to remember.
+
+### Nature & wildlife
+
+- [20 Animal Pairs That Look Alike: How to Tell Them Apart](https://sapiro.app/en/blog/animals-that-look-alike/): Crocodile or alligator, leopard or cheetah, llama or alpaca: 20 commonly confused animal pairs with the criteria to never mix them up again.
+- [20 Strange and Lesser-Known Animals in the World](https://sapiro.app/en/blog/strange-unknown-animals/): Tardigrade, axolotl, pangolin, vampire squid: 20 strange and lesser-known animals that actually exist, with their biological quirks.
+- [African Wildlife: 40 Emblematic Species](https://sapiro.app/en/blog/african-wildlife/): Lion, wildebeest, fennec, oryx: 40 emblematic animals from Africa with their habitat, diet and conservation status. Complete guide by region.
+- [Animal Quiz: Recognize 50 Species From Around the World](https://sapiro.app/en/blog/quiz-animals-world-species/): Could you tell a cheetah from a leopard, a llama from an alpaca? Tour of the 50 animal species worth knowing, with their distinctive traits and habitats.
+- [Endangered Species List: 2026 Update](https://sapiro.app/en/blog/endangered-species-list/): Which animals really risk extinction in the coming decades? Updated list by IUCN category, with actual population numbers and the real causes.
+- [How to Recognize 30 Dog Breeds: Visual Guide](https://sapiro.app/en/blog/dog-breeds-identify/): Australian shepherd or border collie, husky or malamute: 30 dog breeds with their distinctive traits so you never confuse them again.
+- [Nature Quiz for Kids: Learning Animals the Fun Way](https://sapiro.app/en/blog/nature-quiz-kids/): How to introduce kids to animals? Age-by-age quizzes, observation games, and teaching tips that actually spark naturalist curiosity.
+- [The 15 Most Dangerous Animals in the World](https://sapiro.app/en/blog/most-dangerous-animals-world/): Lion, shark, polar bear? The real most dangerous animals are not the ones you think. Ranking by estimated human deaths per year, backed by WHO data.
+
+### Travel & geography curiosity
+
+- [Countries That No Longer Exist: The List of the Vanished](https://sapiro.app/en/blog/countries-that-disappeared/): Yugoslavia, USSR, Czechoslovakia, East Germany: the list of countries that no longer exist and the story of their recent disappearance.
+- [The 10 Smallest Countries in the World](https://sapiro.app/en/blog/smallest-countries-world/): Vatican, Monaco, Nauru, Tuvalu: the 10 smallest countries in the world by area, with their history, population and quirks.
+- [The 10 Strangest Borders in the World](https://sapiro.app/en/blog/strangest-borders-world/): Baarle-Nassau, Cooch Behar enclave, quadripoint: the 10 strangest borders in the world, their history and originality.
+- [The 15 Least Visited Countries in the World](https://sapiro.app/en/blog/least-visited-countries-world/): Discover the 15 least visited countries in the world: Tuvalu, Kiribati, Turkmenistan... Why so few tourists and what to see there?
+- [The Origin of Country Names: Surprising Etymologies](https://sapiro.app/en/blog/origin-country-names/): France, Argentina, Pakistan, Australia: the origin of country names reveals their history and cultures. 20 surprising etymologies.
+- [Which Country Matches Your Personality? The Test](https://sapiro.app/en/blog/which-country-matches-personality/): Playful test: which country matches your personality? A journey through culture, geography and character to discover your mirror country.
+
+## Blog articles (Spanish)
+
+### Apps
+
+- [Las 10 mejores apps de quiz de cultura general en 2026](https://sapiro.app/es/blog/mejores-apps-quiz-cultura-general/): Comparativa de las mejores aplicaciones de quiz y cultura general: Trivia Crack, Kahoot, SAPIRO... ¿Cuál elegir? Nuestro análisis completo.
+- [SAPIRO vs GeoGuessr: ¿qué app de geografía merece tu tiempo?](https://sapiro.app/es/blog/sapiro-vs-geoguessr/): Comparativa detallada entre SAPIRO y GeoGuessr: contenido, privacidad, valor educativo, precios. Dos formas muy distintas de aprender geografía.
+- [SAPIRO vs Kahoot: dos herramientas, dos usos completamente distintos](https://sapiro.app/es/blog/sapiro-vs-kahoot/): Comparativa entre SAPIRO y Kahoot: uno está diseñado para el aula, el otro para aprender solo o en familia. Contenido, privacidad, precios, pedagogía.
+- [SAPIRO vs Trivia Crack: ¿qué app de quiz elegir?](https://sapiro.app/es/blog/sapiro-vs-trivia-crack/): Comparativa detallada entre SAPIRO y Trivia Crack: publicidad, privacidad, contenido educativo, precios. ¿Cuál es la mejor app de quiz para tu familia?
+- [Top 8 apps para aprender geografia en 2025](https://sapiro.app/es/blog/mejores-apps-geografia/): Comparativa de las 8 mejores aplicaciones de geografia en 2025: notas del 1 al 10, pros, contras y para quien va cada una. Cual se adapta mejor a tu nivel?
+
+### Art & visual culture
+
+- [15 esculturas celebres que conocer en el mundo](https://sapiro.app/es/blog/esculturas-celebres-mundo/): El David, El Pensador, la Venus de Milo: 15 esculturas celebres del mundo con su historia, ubicacion y lo que las hace imprescindibles.
+- [15 movimientos artisticos explicados simple](https://sapiro.app/es/blog/movimientos-artisticos/): Renacimiento, Impresionismo, Cubismo, Pop Art: 15 grandes movimientos artisticos explicados con sus fechas, rasgos y figuras.
+- [30 cuadros celebres: las obras maestras que conocer](https://sapiro.app/es/blog/cuadros-celebres-obras-maestras/): La Gioconda, La Noche estrellada, Las Senoritas de Avignon: 30 cuadros celebres con su historia, autor y lo que los hace imprescindibles.
+- [Como reconocer a un pintor: guia visual de los grandes maestros](https://sapiro.app/es/blog/reconocer-pintor-estilo/): Monet, Van Gogh, Picasso, Vermeer: criterios simples para reconocer a los grandes pintores de un vistazo. Estilo, paleta, temas.
+- [Historia del arte para principiantes: guia inicial](https://sapiro.app/es/blog/historia-arte-principiantes/): Partes de cero en historia del arte? Guia accesible de grandes periodos, obras y artistas para tener una vision de conjunto.
+- [Los 15 museos mas visitados del mundo](https://sapiro.app/es/blog/museos-mas-visitados-mundo/): Louvre, British Museum, MoMA, Vaticano: top 15 de museos mas visitados con sus cifras, obras clave y consejos para visitar.
+- [Quiz historia del arte nivel examen: entrenate](https://sapiro.app/es/blog/quiz-historia-arte-examen/): Repasar historia del arte para examenes, oposiciones o universidad: programa oficial, obras clave y quizzes de nivel para entrenarse.
+
+### App comparisons
+
+- [Apps de quiz sin recoleccion de datos: comparativa](https://sapiro.app/es/blog/apps-quiz-sin-recoleccion-datos/): Que apps de quiz respetan de verdad tus datos? Comparativa de aplicaciones que no recogen tus datos personales.
+- [Mejores apps educativas sin publicidad](https://sapiro.app/es/blog/mejores-apps-educativas-sin-publicidad/): Seleccion de las mejores aplicaciones educativas sin publicidad: geografia, idiomas, historia, ciencias. Aprender sin interrupciones.
+- [Sapiro vs Duolingo: aprender que exactamente?](https://sapiro.app/es/blog/sapiro-vs-duolingo/): Comparativa Sapiro y Duolingo: cultura general o idiomas extranjeros? Ventajas, inconvenientes y publicos de cada aplicacion.
+- [Sapiro vs QuizUp y HQ Trivia: enfoques distintos](https://sapiro.app/es/blog/sapiro-vs-quizup-hq-trivia/): Comparativa Sapiro con QuizUp y HQ Trivia: quiz competitivo en vivo o aprendizaje tranquilo? Ventajas y limites de cada formato.
+- [Sapiro vs Quizlet: que app elegir?](https://sapiro.app/es/blog/sapiro-vs-quizlet/): Comparativa Sapiro y Quizlet: quiz cultura general o flashcards? Ventajas, inconvenientes y publico objetivo de cada aplicacion.
+- [Sapiro vs Seterra: que app de geografia elegir?](https://sapiro.app/es/blog/sapiro-vs-seterra/): Comparativa Sapiro y Seterra: que app de geografia es mejor? Ventajas, inconvenientes y publico objetivo de cada herramienta.
+
+### Exams & study guides
+
+- [Como preparar la EvAU y acceso a la universidad](https://sapiro.app/es/blog/preparar-acceso-universidad/): Preparar cultura general para EvAU, Selectividad y otros examenes de acceso a la universidad: temario, lecturas, metodo y entrenamiento con quizzes.
+- [Cultura general en oposiciones publicas](https://sapiro.app/es/blog/cultura-general-oposiciones/): Repasar cultura general para oposiciones: temario, temas recurrentes y metodo para preparar la prueba con eficacia.
+- [Examenes anteriores y correcciones: donde encontrarlos](https://sapiro.app/es/blog/examenes-anteriores-cultura-general/): Encontrar examenes y correcciones de cultura general para preparar una oposicion: fuentes oficiales, libros y entrenamiento con preguntas tipo.
+- [Oposicion policia, guardia civil y militar: preparacion](https://sapiro.app/es/blog/oposicion-policia-guardia-civil-militar/): Sacar oposiciones de policia nacional, guardia civil y fuerzas armadas: temario, ejemplos de preguntas y metodo de entrenamiento.
+- [Preparar una oposicion de acceso a la administracion](https://sapiro.app/es/blog/preparar-oposicion-acceso-administracion/): Sacar una oposicion publica de acceso a la administracion: temario, metodo, planning y entrenamiento con quizzes de cultura general.
+- [Quiz cultura general nivel secundaria y bachillerato](https://sapiro.app/es/blog/quiz-cultura-general-secundaria-bachillerato/): Entrenarse en cultura general a nivel secundaria y bachillerato: temas recurrentes, preguntas tipo y metodo para superar examenes.
+- [Repasar cultura general en 30 dias: plan diario](https://sapiro.app/es/blog/repasar-cultura-general-30-dias/): Un plan de 30 dias para repasar cultura general antes de un examen, dia a dia, tema a tema.
+
+### General knowledge
+
+- [12 obras de arte que todo el mundo debería conocer](https://sapiro.app/es/blog/obras-arte-imprescindibles/): De la Mona Lisa a Guernica, las obras de arte imprescindibles con anécdotas sorprendentes sobre cada una. Un recorrido por 5 siglos de creación.
+- [20 personajes historicos que todos deberian conocer](https://sapiro.app/es/blog/personajes-historicos/): El quiz personajes historicos definitivo: de Cleopatra a Mandela, 20 figuras que cambiaron el rumbo de la humanidad. Cuantos serias capaz de reconocer?
+- [Cultura general: guia para saber (casi) todo](https://sapiro.app/es/blog/cultura-general-guia/): Quieres mejorar cultura general cada dia? Metodos probados por la ciencia, habitos de 15 minutos y recursos para saber un poco de todo. Por donde empezar?
+
+### Flags
+
+- [Las 15 banderas mas dificiles de reconocer del mundo](https://sapiro.app/es/blog/banderas-dificiles/): De Monaco a Indonesia, estas son las 15 banderas mas dificiles de reconocer del mundo. Trucos visuales, datos curiosos y quiz para dejar de confundirlas.
+- [Significado de las banderas: colores y simbolos](https://sapiro.app/es/blog/significado-banderas/): Descubre el significado de las banderas del mundo: por que Japon usa un circulo rojo, que simboliza la medialuna islamica y mas historias sorprendentes.
+
+### Education
+
+- [Aprender historia divirtiéndose: métodos que realmente funcionan](https://sapiro.app/es/blog/aprender-historia-divirtiendose/): Cómo aprender historia sin memorizar fechas. Quiz, relatos, recorridos temáticos: los métodos que anclan los conocimientos históricos para siempre.
+- [Ensenar geografia a los ninos: 10 metodos divertidos](https://sapiro.app/es/blog/geografia-ninos/): 10 metodos probados para aprender geografia para ninos de 5 a 12 anos: quiz, puzzles, cocina del mundo y apps educativas. Cuales funcionan mejor segun la edad?
+- [Gamificacion y educacion: el poder de los quiz](https://sapiro.app/es/blog/gamificacion-educacion/): La gamificacion en la educacion funciona: la ciencia explica por que los quiz mejoran la memoria un 50%. Mecanicas de juego, estudios y consejos practicos.
+- [Quiz geografia en familia: la velada perfecta](https://sapiro.app/es/blog/geografia-familia/): Organiza un quiz geografia en familia inolvidable: 30 preguntas listas para usar, reglas claras, formatos por edad y consejos para que todos disfruten.
+
+### Family & kids learning
+
+- [20 ideas de regalos para ninos curiosos (6, 8, 10 anos)](https://sapiro.app/es/blog/regalos-ninos-curiosos/): Veinte ideas de regalos educativos y ludicos para ninos curiosos de 6 a 12 anos: juegos, libros, apps, instrumentos de observacion.
+- [Actividades culturales en familia: 30 ideas](https://sapiro.app/es/blog/actividades-culturales-familia/): Treinta ideas de actividades culturales en familia para fines de semana y vacaciones: museos, salidas, juegos, viajes culturales.
+- [Como ensenar arte a los ninos: guia practica](https://sapiro.app/es/blog/ensenar-arte-ninos/): Como acercar el arte a los ninos? Museos, libros, metodos por edad y recursos para despertar la curiosidad artistica.
+- [Como ensenar los paises del mundo a los ninos](https://sapiro.app/es/blog/ensenar-paises-mundo-ninos/): Como introducir paises, banderas y capitales a los ninos? Metodos por edad, juegos y recursos para despertar la curiosidad geografica.
+- [Historia en primaria y secundaria: programa y quizzes](https://sapiro.app/es/blog/historia-primaria-secundaria-programa/): Programa de historia en primaria y secundaria con temas, fechas clave y quizzes para ayudar a tu hijo a repasar con eficacia.
+- [Identificar animales con los ninos: guia practica](https://sapiro.app/es/blog/identificar-animales-ninos/): Como ensenar a tu hijo a identificar animales? Metodos, salidas y recursos para desarrollar el ojo naturalista.
+- [Quizzes para imprimir para ninos: paises, animales, arte](https://sapiro.app/es/blog/quiz-imprimir-ninos/): Modelos de quiz para imprimir para ninos: banderas, capitales, animales, arte. Soluciones y consejos para adaptar al nivel del nino.
+
+### Quiz formats
+
+- [Quiz banderas del mundo gratis online](https://sapiro.app/es/blog/quiz-banderas-mundo-gratis-online/): Pon a prueba tu conocimiento de banderas del mundo con quizzes gratis online, por continente y nivel. Aprendizaje progresivo.
+- [Quiz capitales por continente: Europa, Africa, Asia...](https://sapiro.app/es/blog/quiz-capitales-por-continente/): Pon a prueba tu conocimiento de capitales del mundo por continente: Europa, Africa, Asia, Americas, Oceania. Listas completas y quizzes.
+- [Quiz cultura general empresa y team building](https://sapiro.app/es/blog/quiz-cultura-general-empresa-team-building/): Organizar un quiz cultura general en empresa o team building: formato, temas, reglas y herramientas para clavar el evento.
+- [Quiz cultura general nivel facil, medio, dificil, experto](https://sapiro.app/es/blog/quiz-cultura-general-nivel/): Quizzes de cultura general por nivel: facil, medio, dificil, experto. Para evaluar nivel y progresar paso a paso.
+- [Quiz cumpleanos y fiesta entre amigos: ideas](https://sapiro.app/es/blog/quiz-cumpleanos-fiesta-amigos/): Organizar un quiz para un cumpleanos o una fiesta entre amigos: temas, preguntas personalizadas y metodo de animacion.
+- [Quizzes estacionales: Navidad, verano, Juegos Olimpicos, elecciones](https://sapiro.app/es/blog/quiz-estacionales-navidad-juegos-olimpicos/): Quizzes tematicos estacionales: Navidad, verano, Juegos Olimpicos, elecciones. Ideas de preguntas y metodo para animar una velada.
+
+### Geography
+
+- [12 errores de geografia que todos cometemos](https://sapiro.app/es/blog/errores-geografia/): Los 12 errores de geografia comunes que casi todos cometemos: capitales confundidas, paises mal ubicados y mitos del mapa. En cuantos caes tu? Compruebalo.
+- [Quiz de capitales del mundo: cuantas puedes nombrar?](https://sapiro.app/es/blog/quiz-capitales-mundo/): Acepta el quiz capitales del mundo: trampas clasicas, capitales sorprendentes y trucos para memorizar las 195. Cuantas eres capaz de nombrar sin mirar?
+
+### History
+
+- [20 mujeres que marcaron la historia mundial](https://sapiro.app/es/blog/mujeres-marcaron-historia/): Cleopatra, Juana de Arco, Marie Curie, Rosa Parks: 20 mujeres que marcaron la historia mundial con su epoca y su impacto.
+- [Antiguedad, Edad Media, Renacimiento: hitos esenciales](https://sapiro.app/es/blog/antiguedad-edad-media-renacimiento-resumen/): Tres grandes periodos que estructuran la historia occidental. Fechas, civilizaciones, movimientos y figuras para orientarse simple.
+- [Las 15 grandes batallas de la historia mundial](https://sapiro.app/es/blog/grandes-batallas-historia/): Maraton, Hastings, Waterloo, Stalingrado: 15 batallas que cambiaron el curso de la historia mundial con sus fechas, causas y consecuencias.
+- [Linea de tiempo mundial: los hitos esenciales](https://sapiro.app/es/blog/linea-tiempo-historia-mundial/): Antiguedad, Edad Media, Renacimiento, era industrial, guerras mundiales: linea de tiempo mundial con las fechas y eventos que recordar.
+- [Los dictadores del siglo XX explicados a los adolescentes](https://sapiro.app/es/blog/dictadores-siglo-xx/): Hitler, Stalin, Mao, Franco, Pol Pot: los grandes dictadores del siglo XX explicados simple, con sus ideologias y consecuencias.
+- [Presidentes de Estados Unidos: la lista completa](https://sapiro.app/es/blog/presidentes-estados-unidos/): De George Washington a hoy: lista completa de presidentes de EEUU con fechas, partido y eventos clave de cada mandato.
+- [Quiz historia nivel examen: entrenamiento](https://sapiro.app/es/blog/quiz-historia-examen/): Repasar historia para examenes y oposiciones: programa oficial, fechas imprescindibles y quizzes para entrenarse.
+- [Reyes y monarquias de Europa: lista completa por pais](https://sapiro.app/es/blog/reyes-monarquias-europa/): De Carlomagno a Isabel II: los monarcas esenciales de Europa por pais y dinastia, con fechas de reinado y eventos mayores.
+
+### Nature & wildlife
+
+- [20 animales extranos y desconocidos del mundo](https://sapiro.app/es/blog/animales-extranos-desconocidos/): Tardigrado, ajolote, pangolin, calamar vampiro: 20 animales extranos y desconocidos que existen de verdad, con sus particularidades biologicas.
+- [20 parejas de animales que se parecen: como distinguirlos](https://sapiro.app/es/blog/animales-parecidos-diferencias/): Cocodrilo o caiman, leopardo o guepardo, llama o alpaca: 20 parejas de animales confundidos con los criterios para no volver a equivocarse.
+- [Animales de Africa: 40 especies emblematicas](https://sapiro.app/es/blog/animales-africa/): Leon, nu, fenec, orix: 40 animales emblematicos de Africa con su habitat, dieta y estado de conservacion. Guia completa por region.
+- [Animales en peligro de extincion: lista 2026](https://sapiro.app/es/blog/animales-en-peligro-extincion/): Que animales corren riesgo real de desaparecer en las proximas decadas? Lista actualizada por categoria UICN con cifras reales de poblacion.
+- [Los 15 animales mas peligrosos del mundo](https://sapiro.app/es/blog/animales-mas-peligrosos-mundo/): Leon, tiburon, oso polar? Los animales realmente mas peligrosos no son los que imaginas. Ranking por muertes humanas anuales con datos de la OMS.
+- [Quiz animales: reconocer 50 especies del mundo](https://sapiro.app/es/blog/quiz-animales-especies-mundo/): Sabrias distinguir un guepardo de un leopardo, una llama de una alpaca? Recorrido por las 50 especies animales que conviene saber reconocer.
+- [Quiz naturaleza para ninos: aprender animales jugando](https://sapiro.app/es/blog/quiz-naturaleza-ninos/): Como acercar a los ninos al mundo animal? Quiz por edad, juegos de observacion y consejos pedagogicos para despertar la curiosidad naturalista.
+- [Reconocer 30 razas de perros: guia visual](https://sapiro.app/es/blog/razas-perros-reconocer/): Pastor australiano o border collie, husky o malamute: 30 razas de perros con sus rasgos distintivos para no volver a confundirlos.
+
+### Travel & geography curiosity
+
+- [El origen del nombre de los paises: etimologias sorprendentes](https://sapiro.app/es/blog/origen-nombres-paises/): Francia, Argentina, Pakistan, Australia: el origen del nombre de los paises revela su historia y culturas. 20 etimologias sorprendentes.
+- [Las 10 fronteras mas extranas del mundo](https://sapiro.app/es/blog/fronteras-extranas-mundo/): Baarle-Nassau, enclave de Cooch Behar, cuadripuntos: las 10 fronteras mas extranas del mundo, su historia y originalidad.
+- [Los 10 paises mas pequenos del mundo](https://sapiro.app/es/blog/paises-mas-pequenos-mundo/): Vaticano, Monaco, Nauru, Tuvalu: los 10 paises mas pequenos del mundo por superficie, con su historia, poblacion y curiosidades.
+- [Los 15 paises menos visitados del mundo](https://sapiro.app/es/blog/paises-menos-visitados-mundo/): Descubre los 15 paises menos visitados del mundo: Tuvalu, Kiribati, Turkmenistan... Por que tan pocos turistas y que ver alli?
+- [Los paises que ya no existen: lista de los desaparecidos](https://sapiro.app/es/blog/paises-desaparecidos/): Yugoslavia, URSS, Checoslovaquia, RDA: lista de los paises que ya no existen y la historia de su desaparicion reciente.
+- [Que pais corresponde a tu personalidad? El test](https://sapiro.app/es/blog/test-pais-personalidad/): Test ludico: que pais corresponde a tu personalidad? Un viaje entre cultura, geografia y caracter para descubrir tu pais espejo.
 
 ## Download
 

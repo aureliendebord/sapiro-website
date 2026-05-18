@@ -1,0 +1,146 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { getTranslations } from '../i18n';
+
+const lang = 'fr';
+const t = getTranslations(lang);
+
+const collectionPageSchema = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Nature et animaux : espèces du monde, conservation, biodiversité",
+  "description": "Nature et faune mondiale : 600 espèces animales, animaux les plus dangereux, espèces en voie de disparition, identification.",
+  "url": "https://sapiro.app/nature/",
+  "inLanguage": "fr"
+};
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Quel est l'animal le plus dangereux du monde ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Le moustique est l'animal le plus dangereux du monde avec environ 725 000 morts humaines par an, principalement par paludisme et dengue. C'est l'animal qui a tué le plus d'êtres humains dans l'histoire (50 à 70 milliards de morts cumulés)." }
+    },
+    {
+      "@type": "Question",
+      "name": "Quelle est la différence entre un guépard et un léopard ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Le guépard est svelte avec des taches pleines (jamais en rosaces) et des 'larmes' noires sous les yeux. Le léopard est plus trapu avec des rosaces (taches en forme de fleur). Le guépard ne grimpe pas aux arbres, le léopard si." }
+    },
+    {
+      "@type": "Question",
+      "name": "Combien d'espèces animales existent dans le monde ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "On estime à environ 8 millions le nombre d'espèces sur Terre, dont 1,5 million sont déjà décrites scientifiquement. La biodiversité reste largement à explorer : 86% des espèces terrestres et 91% des espèces marines n'ont pas encore été décrites." }
+    },
+    {
+      "@type": "Question",
+      "name": "Quels animaux sont en voie de disparition ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Plus de 47 000 espèces sont menacées selon la liste rouge UICN 2025. Cas critiques : rhinocéros de Java (76 individus), vaquita (10 individus), pangolin chinois, tigre de Sumatra (moins de 400), orang-outan de Tapanuli (800 individus)." }
+    }
+  ]
+};
+---
+
+<Layout title="Nature et animaux : espèces, conservation, biodiversité | SAPIRO" description="Nature et faune mondiale : 600 espèces animales, animaux les plus dangereux, espèces en voie de disparition." lang={lang}>
+  <Fragment slot="head">
+    <link rel="alternate" hreflang="fr" href="https://sapiro.app/nature/" />
+    <link rel="alternate" hreflang="en" href="https://sapiro.app/en/nature/" />
+    <link rel="alternate" hreflang="es" href="https://sapiro.app/es/naturaleza/" />
+    <link rel="alternate" hreflang="x-default" href="https://sapiro.app/nature/" />
+    <script type="application/ld+json" set:html={JSON.stringify(collectionPageSchema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+  </Fragment>
+
+  <Header lang={lang} t={t} />
+
+  <main class="pillar-page">
+    <article class="container">
+      <header class="pillar-header">
+        <h1>Nature et animaux</h1>
+        <p class="lede">600 espèces animales, des baleines bleues aux tardigrades. Identification, conservation, biodiversité : tout pour comprendre le règne animal.</p>
+      </header>
+
+      <section class="pillar-intro">
+        <p>Le règne animal compte environ 8 millions d'espèces, dont 1,5 million déjà décrites. Personne ne les connaît toutes. Mais 50 à 100 espèces clés permettent de comprendre la biodiversité, ses dynamiques, ses menaces. Et de ne plus confondre un guépard avec un léopard.</p>
+        <p>SAPIRO couvre 600 espèces animales organisées par continent, par habitat et par famille, avec une explication contextualisée pour chaque question.</p>
+      </section>
+
+      <section class="pillar-stats">
+        <h2>La nature en chiffres</h2>
+        <ul>
+          <li><strong>8 millions</strong> d'espèces estimées sur Terre, dont 1,5 million décrites</li>
+          <li><strong>47 000+</strong> espèces menacées selon la liste rouge UICN 2025</li>
+          <li><strong>725 000</strong> morts humaines par an causées par les moustiques (animal le plus dangereux)</li>
+          <li><strong>70%</strong> de chute des populations animales africaines depuis 1970 (WWF)</li>
+          <li><strong>600</strong> espèces animales dans SAPIRO, des plus connues aux plus étranges</li>
+        </ul>
+      </section>
+
+      <section class="pillar-sub">
+        <h2>Les essentiels</h2>
+        <ul class="pillar-grid">
+          <li><a href="/blog/quiz-animaux-especes-monde/">50 espèces animales à reconnaître</a></li>
+          <li><a href="/blog/differences-animaux-ressemblants/">20 paires d'animaux qui se ressemblent</a></li>
+          <li><a href="/blog/animaux-plus-dangereux-monde/">Les 15 animaux les plus dangereux</a></li>
+          <li><a href="/blog/animaux-en-voie-disparition/">Animaux en voie de disparition</a></li>
+          <li><a href="/blog/animaux-etranges-meconnus/">20 animaux étranges et méconnus</a></li>
+        </ul>
+      </section>
+
+      <section class="pillar-sub">
+        <h2>Par région et famille</h2>
+        <ul class="pillar-grid">
+          <li><a href="/blog/animaux-afrique/">40 animaux d'Afrique</a></li>
+          <li><a href="/blog/reconnaitre-races-chiens/">Reconnaître 30 races de chiens</a></li>
+        </ul>
+      </section>
+
+      <section class="pillar-sub">
+        <h2>Apprendre en famille</h2>
+        <ul class="pillar-grid">
+          <li><a href="/blog/quiz-nature-enfants/">Quiz nature pour enfants</a></li>
+          <li><a href="/blog/identifier-animaux-enfants/">Identifier les animaux avec ses enfants</a></li>
+        </ul>
+      </section>
+
+      <section class="pillar-faq">
+        <h2>Questions fréquentes sur les animaux</h2>
+
+        <h3>Quel est l'animal le plus dangereux du monde ?</h3>
+        <p>Le moustique est l'animal le plus dangereux du monde avec environ 725 000 morts humaines par an, principalement par paludisme et dengue. C'est l'animal qui a tué le plus d'êtres humains dans l'histoire (50 à 70 milliards de morts cumulés).</p>
+
+        <h3>Quelle est la différence entre un guépard et un léopard ?</h3>
+        <p>Le guépard est svelte avec des taches pleines (jamais en rosaces) et des "larmes" noires sous les yeux. Le léopard est plus trapu avec des rosaces (taches en forme de fleur). Le guépard ne grimpe pas aux arbres, le léopard si.</p>
+
+        <h3>Combien d'espèces animales existent dans le monde ?</h3>
+        <p>On estime à environ 8 millions le nombre d'espèces sur Terre, dont 1,5 million sont déjà décrites scientifiquement. La biodiversité reste largement à explorer : 86% des espèces terrestres et 91% des espèces marines n'ont pas encore été décrites.</p>
+
+        <h3>Quels animaux sont en voie de disparition ?</h3>
+        <p>Plus de 47 000 espèces sont menacées selon la liste rouge UICN 2025. Cas critiques : rhinocéros de Java (76 individus), vaquita (10 individus), pangolin chinois, tigre de Sumatra (moins de 400), orang-outan de Tapanuli (800 individus).</p>
+      </section>
+    </article>
+  </main>
+
+  <Footer lang={lang} t={t} />
+</Layout>
+
+<style>
+  .pillar-page { padding-top: 100px; padding-bottom: 60px; }
+  .pillar-header { text-align: center; padding-bottom: 32px; margin-bottom: 32px; border-bottom: 1px solid var(--gris-clair); }
+  .pillar-header h1 { font-size: clamp(2.25rem, 4.5vw, 3.25rem); margin-bottom: 16px; }
+  .lede { font-size: 1.25rem; color: var(--gris); max-width: 720px; margin: 0 auto; }
+  .pillar-intro, .pillar-stats, .pillar-sub, .pillar-faq { max-width: 800px; margin: 0 auto 48px; }
+  .pillar-intro p { line-height: 1.75; margin-bottom: 16px; font-size: 1.05rem; }
+  .pillar-stats ul { padding-left: 24px; }
+  .pillar-stats li { margin-bottom: 8px; line-height: 1.7; }
+  .pillar-sub h2, .pillar-stats h2, .pillar-faq h2 { font-size: 1.75rem; margin-bottom: 20px; }
+  .pillar-grid { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 12px; }
+  .pillar-grid li { padding: 14px 18px; background: var(--gris-clair); border-radius: 8px; }
+  .pillar-grid a { color: var(--noir); text-decoration: none; font-weight: 500; }
+  .pillar-grid a:hover { color: var(--orange); }
+  .pillar-faq h3 { font-size: 1.1rem; margin-top: 24px; margin-bottom: 8px; }
+  .pillar-faq p { line-height: 1.7; margin-bottom: 16px; }
+</style>

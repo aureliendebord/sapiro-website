@@ -6,7 +6,8 @@ lang: "en"
 urlSlug: "essential-artworks-to-know"
 translationKey: "oeuvres-art-incontournables"
 category: "culture-generale"
-author: "SAPIRO"
+author: "Aurélien Debord"
+authorRole: "Founder of SAPIRO"
 readingTime: 10
 ---
 

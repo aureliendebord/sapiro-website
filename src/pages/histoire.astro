@@ -1,0 +1,148 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { getTranslations } from '../i18n';
+
+const lang = 'fr';
+const t = getTranslations(lang);
+
+const collectionPageSchema = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Histoire mondiale : grandes périodes, personnages, batailles",
+  "description": "Tout sur l'histoire mondiale : Antiquité, Moyen Âge, Renaissance, époque contemporaine. 500+ personnages, grandes batailles, frises chronologiques.",
+  "url": "https://sapiro.app/histoire/",
+  "inLanguage": "fr"
+};
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Quelles sont les grandes périodes de l'histoire ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "L'histoire occidentale se divise traditionnellement en cinq périodes : Préhistoire (jusqu'à -3000), Antiquité (-3000 à 476), Moyen Âge (476-1492), Temps modernes (1492-1789) et Époque contemporaine (1789 à nos jours)." }
+    },
+    {
+      "@type": "Question",
+      "name": "Quelles sont les dates clés à retenir ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Les 10 dates essentielles : -3000 (écriture), 476 (chute de Rome), 1066 (Hastings), 1492 (Colomb), 1789 (Révolution française), 1914-1918 (Première Guerre mondiale), 1929 (Krach), 1939-1945 (Seconde Guerre mondiale), 1969 (Lune), 1989 (Mur de Berlin)." }
+    },
+    {
+      "@type": "Question",
+      "name": "Qui sont les personnages historiques les plus importants ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Selon les classements les plus consensuels : Jules César, Charlemagne, Léonard de Vinci, Christophe Colomb, Napoléon, Abraham Lincoln, Marie Curie, Winston Churchill, Mahatma Gandhi, Nelson Mandela." }
+    },
+    {
+      "@type": "Question",
+      "name": "Quelle a été la bataille la plus meurtrière de l'histoire ?",
+      "acceptedAnswer": { "@type": "Answer", "text": "La bataille de Stalingrad (1942-1943) reste la plus meurtrière, avec près de 2 millions de morts combinés. Verdun (1916) reste le symbole français de l'horreur de la guerre, avec environ 700 000 morts." }
+    }
+  ]
+};
+---
+
+<Layout title="Histoire mondiale : guides et quiz | SAPIRO" description="Histoire mondiale : Antiquité, Moyen Âge, Renaissance, époque contemporaine. 500+ personnages, batailles, frises chronologiques." lang={lang}>
+  <Fragment slot="head">
+    <link rel="alternate" hreflang="fr" href="https://sapiro.app/histoire/" />
+    <link rel="alternate" hreflang="en" href="https://sapiro.app/en/history/" />
+    <link rel="alternate" hreflang="es" href="https://sapiro.app/es/historia/" />
+    <link rel="alternate" hreflang="x-default" href="https://sapiro.app/histoire/" />
+    <script type="application/ld+json" set:html={JSON.stringify(collectionPageSchema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+  </Fragment>
+
+  <Header lang={lang} t={t} />
+
+  <main class="pillar-page">
+    <article class="container">
+      <header class="pillar-header">
+        <h1>Histoire mondiale</h1>
+        <p class="lede">De l'Antiquité à nos jours, 500+ personnages, grandes batailles, frises chronologiques. Tout pour comprendre comment le monde a été fait.</p>
+      </header>
+
+      <section class="pillar-intro">
+        <p>L'histoire donne du sens au présent. Les grandes périodes (Antiquité, Moyen Âge, Renaissance, ère industrielle, guerres mondiales, décolonisation) expliquent pourquoi le monde est ce qu'il est. Connaître les personnages historiques majeurs, de Cléopâtre à Turing, c'est comprendre les enchaînements plutôt que réciter des dates isolées.</p>
+        <p>SAPIRO propose des quiz sur 500+ personnages historiques, classés par époque et par civilisation, avec une explication contextualisée derrière chaque question.</p>
+      </section>
+
+      <section class="pillar-stats">
+        <h2>L'histoire en chiffres</h2>
+        <ul>
+          <li><strong>5 000 ans</strong> d'histoire écrite, depuis l'invention de l'écriture en Mésopotamie (-3000)</li>
+          <li><strong>500+</strong> personnages historiques majeurs dans SAPIRO</li>
+          <li><strong>5</strong> grandes périodes traditionnelles : Préhistoire, Antiquité, Moyen Âge, Modernes, Contemporaine</li>
+          <li><strong>50-70 millions</strong> de morts dans la Seconde Guerre mondiale (déjà la plus meurtrière)</li>
+          <li><strong>1989</strong> : chute du mur de Berlin, fin de la Guerre froide</li>
+        </ul>
+      </section>
+
+      <section class="pillar-sub">
+        <h2>Les grandes périodes</h2>
+        <ul class="pillar-grid">
+          <li><a href="/blog/antiquite-moyen-age-renaissance-reperes/">Antiquité, Moyen Âge, Renaissance : repères essentiels</a></li>
+          <li><a href="/blog/frise-chronologique-mondiale/">Frise chronologique mondiale</a></li>
+          <li><a href="/blog/grandes-batailles-histoire/">Les 15 grandes batailles de l'histoire</a></li>
+        </ul>
+      </section>
+
+      <section class="pillar-sub">
+        <h2>Personnages historiques</h2>
+        <ul class="pillar-grid">
+          <li><a href="/blog/personnages-historiques/">Personnages historiques majeurs</a></li>
+          <li><a href="/blog/rois-de-france-liste/">Liste complète des rois de France</a></li>
+          <li><a href="/blog/presidents-etats-unis/">Liste des présidents des États-Unis</a></li>
+          <li><a href="/blog/femmes-marque-histoire/">20 femmes qui ont marqué l'histoire</a></li>
+          <li><a href="/blog/dictateurs-xxe-siecle/">Les dictateurs du XXe siècle</a></li>
+        </ul>
+      </section>
+
+      <section class="pillar-sub">
+        <h2>Réviser l'histoire</h2>
+        <ul class="pillar-grid">
+          <li><a href="/blog/quiz-histoire-france-bac/">Quiz histoire de France niveau brevet et bac</a></li>
+          <li><a href="/blog/apprendre-histoire-en-samusant/">Apprendre l'histoire en s'amusant</a></li>
+          <li><a href="/blog/histoire-cm1-cm2-6e-programme/">Programme d'histoire CM1, CM2, 6e</a></li>
+        </ul>
+      </section>
+
+      <section class="pillar-faq">
+        <h2>Questions fréquentes sur l'histoire</h2>
+
+        <h3>Quelles sont les grandes périodes de l'histoire ?</h3>
+        <p>L'histoire occidentale se divise traditionnellement en cinq périodes : Préhistoire (jusqu'à -3000), Antiquité (-3000 à 476), Moyen Âge (476-1492), Temps modernes (1492-1789) et Époque contemporaine (1789 à nos jours).</p>
+
+        <h3>Quelles sont les dates clés à retenir ?</h3>
+        <p>Les 10 dates essentielles : -3000 (écriture), 476 (chute de Rome), 1066 (Hastings), 1492 (Colomb), 1789 (Révolution française), 1914-1918 (Première Guerre mondiale), 1929 (Krach), 1939-1945 (Seconde Guerre mondiale), 1969 (Lune), 1989 (Mur de Berlin).</p>
+
+        <h3>Qui sont les personnages historiques les plus importants ?</h3>
+        <p>Selon les classements les plus consensuels : Jules César, Charlemagne, Léonard de Vinci, Christophe Colomb, Napoléon, Abraham Lincoln, Marie Curie, Winston Churchill, Mahatma Gandhi, Nelson Mandela.</p>
+
+        <h3>Quelle a été la bataille la plus meurtrière de l'histoire ?</h3>
+        <p>La bataille de Stalingrad (1942-1943) reste la plus meurtrière, avec près de 2 millions de morts combinés. Verdun (1916) reste le symbole français de l'horreur de la guerre, avec environ 700 000 morts.</p>
+      </section>
+    </article>
+  </main>
+
+  <Footer lang={lang} t={t} />
+</Layout>
+
+<style>
+  .pillar-page { padding-top: 100px; padding-bottom: 60px; }
+  .pillar-header { text-align: center; padding-bottom: 32px; margin-bottom: 32px; border-bottom: 1px solid var(--gris-clair); }
+  .pillar-header h1 { font-size: clamp(2.25rem, 4.5vw, 3.25rem); margin-bottom: 16px; }
+  .lede { font-size: 1.25rem; color: var(--gris); max-width: 720px; margin: 0 auto; }
+  .pillar-intro, .pillar-stats, .pillar-sub, .pillar-faq { max-width: 800px; margin: 0 auto 48px; }
+  .pillar-intro p { line-height: 1.75; margin-bottom: 16px; font-size: 1.05rem; }
+  .pillar-stats ul { padding-left: 24px; }
+  .pillar-stats li { margin-bottom: 8px; line-height: 1.7; }
+  .pillar-sub h2, .pillar-stats h2, .pillar-faq h2 { font-size: 1.75rem; margin-bottom: 20px; }
+  .pillar-grid { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 12px; }
+  .pillar-grid li { padding: 14px 18px; background: var(--gris-clair); border-radius: 8px; }
+  .pillar-grid a { color: var(--noir); text-decoration: none; font-weight: 500; }
+  .pillar-grid a:hover { color: var(--orange); }
+  .pillar-faq h3 { font-size: 1.1rem; margin-top: 24px; margin-bottom: 8px; }
+  .pillar-faq p { line-height: 1.7; margin-bottom: 16px; }
+</style>

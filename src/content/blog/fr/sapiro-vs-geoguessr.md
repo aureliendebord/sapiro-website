@@ -1,12 +1,13 @@
 ---
-title: "SAPIRO vs GeoGuessr : quelle app pour apprendre la géographie ?"
+title: "Sapiro vs GeoGuessr : quelle app de géographie ?"
 description: "Comparatif entre SAPIRO et GeoGuessr : contenu, vie privée, valeur éducative, prix. Deux approches très différentes de la géographie sur mobile."
 date: 2026-03-24
 lang: "fr"
 urlSlug: "sapiro-vs-geoguessr"
 translationKey: "sapiro-vs-geoguessr"
 category: "apps"
-author: "SAPIRO"
+author: "Aurélien Debord"
+authorRole: "Fondateur de SAPIRO"
 readingTime: 8
 ---
 

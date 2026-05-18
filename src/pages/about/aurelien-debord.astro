@@ -1,0 +1,118 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import { getTranslations } from '../../i18n';
+
+const lang = 'fr';
+const t = getTranslations(lang);
+
+const personSchema = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Aurélien Debord",
+  "jobTitle": "Fondateur de SAPIRO",
+  "url": "https://sapiro.app/about/aurelien-debord/",
+  "image": "https://sapiro.app/images/aurelien-debord.jpg",
+  "sameAs": [
+    "https://www.linkedin.com/in/aureliendebord/"
+  ],
+  "worksFor": {
+    "@type": "Organization",
+    "name": "AGENCE DEBORD EURL",
+    "url": "https://sapiro.app"
+  },
+  "knowsAbout": [
+    "Géographie",
+    "Culture générale",
+    "Pédagogie numérique",
+    "Quiz éducatifs",
+    "Histoire mondiale",
+    "Histoire de l'art"
+  ]
+};
+---
+
+<Layout title="Aurélien Debord, fondateur de SAPIRO" description="Aurélien Debord est le fondateur de SAPIRO, application de quiz éducatif gratuite et sans publicité. Biographie, expertise et travaux publiés." lang={lang}>
+  <Fragment slot="head">
+    <link rel="alternate" hreflang="fr" href="https://sapiro.app/about/aurelien-debord/" />
+    <script type="application/ld+json" set:html={JSON.stringify(personSchema)} />
+  </Fragment>
+
+  <Header lang={lang} t={t} />
+
+  <main class="about-page">
+    <article class="container">
+      <header class="about-header">
+        <h1>Aurélien Debord</h1>
+        <p class="role">Fondateur de SAPIRO</p>
+      </header>
+
+      <section class="about-content">
+        <h2>Qui je suis</h2>
+        <p>
+          Je suis le fondateur de SAPIRO, application de quiz éducatif que j'ai lancée pour rendre la culture générale accessible et durable. Mon parcours croise éducation, pédagogie numérique et conception de produits web. J'ai créé SAPIRO parce qu'aucune application existante ne combinait quatre choses qui m'importent : gratuité, absence de publicité, contenu vérifié, et explication derrière chaque question.
+        </p>
+
+        <h2>Mon expertise</h2>
+        <p>
+          Je travaille sur la conception de produits éducatifs depuis plus de dix ans. SAPIRO couvre quatre domaines de culture générale (géographie, histoire, art, nature) avec plus de 2 000 questions vérifiées par des spécialistes de chaque domaine.
+        </p>
+        <p>
+          Mon approche : la culture générale n'est pas un savoir d'élite, c'est un outil d'autonomie. Comprendre le monde demande des connaissances structurées, pas de l'érudition. Je conçois SAPIRO pour qu'on apprenne en quinze minutes par jour, par sessions courtes et régulières, en se trompant souvent au début.
+        </p>
+
+        <h2>Mes domaines de compétence</h2>
+        <ul>
+          <li><strong>Géographie mondiale</strong> : 197 pays, drapeaux, capitales, géographie économique et politique</li>
+          <li><strong>Histoire</strong> : 500+ personnages historiques de l'Antiquité à nos jours</li>
+          <li><strong>Histoire de l'art</strong> : 553 œuvres et leurs contextes, des grottes de Lascaux à Banksy</li>
+          <li><strong>Biodiversité</strong> : 600 espèces animales, conservation, écologie</li>
+          <li><strong>Pédagogie numérique</strong> : gamification, apprentissage par quiz, mémorisation espacée</li>
+        </ul>
+
+        <h2>SAPIRO en chiffres</h2>
+        <ul>
+          <li>2 000+ questions vérifiées</li>
+          <li>4 domaines de culture générale</li>
+          <li>3 langues : français, anglais, espagnol</li>
+          <li>Zéro publicité, zéro collecte de données</li>
+          <li>Note 5/5 sur Google Play, "Teacher Approved"</li>
+        </ul>
+
+        <h2>Articles publiés</h2>
+        <p>
+          Je signe l'ensemble des articles éditoriaux publiés sur le blog SAPIRO, qui couvrent géographie, histoire, art, nature, méthodes de révision pour concours, et activités culturelles en famille.
+        </p>
+        <p>
+          Pour les articles, voir notre <a href="/blog/">blog complet</a>.
+        </p>
+
+        <h2>Contact</h2>
+        <p>
+          Pour toute question, suggestion d'article ou collaboration : passez par le <a href="/#contact">formulaire de contact</a> ou via mon profil <a href="https://www.linkedin.com/in/aureliendebord/" rel="me">LinkedIn</a>.
+        </p>
+
+        <h2>Publication</h2>
+        <p>
+          SAPIRO est édité par AGENCE DEBORD EURL, 9 rue des Colonnes, 75002 Paris.
+        </p>
+      </section>
+    </article>
+  </main>
+
+  <Footer lang={lang} t={t} />
+</Layout>
+
+<style>
+  .about-page { padding-top: 100px; padding-bottom: 60px; }
+  .about-header { text-align: center; padding-bottom: 32px; border-bottom: 1px solid var(--gris-clair); margin-bottom: 32px; }
+  .about-header h1 { font-size: clamp(2rem, 4vw, 2.75rem); margin-bottom: 8px; }
+  .role { color: var(--orange); font-weight: 600; font-size: 1.15rem; }
+  .about-content { max-width: 720px; margin: 0 auto; }
+  .about-content h2 { font-size: 1.5rem; margin: 32px 0 16px; }
+  .about-content p { margin-bottom: 16px; line-height: 1.75; }
+  .about-content ul { margin-bottom: 16px; padding-left: 24px; }
+  .about-content li { margin-bottom: 8px; line-height: 1.7; }
+  .about-content a { color: var(--orange); text-decoration: underline; }
+</style>

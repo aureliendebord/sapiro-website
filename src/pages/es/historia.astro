@@ -1,0 +1,131 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import { getTranslations } from '../../i18n';
+
+const lang = 'es';
+const t = getTranslations(lang);
+
+const collectionPageSchema = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Historia mundial: grandes periodos, personajes, batallas",
+  "description": "Todo sobre historia mundial: Antigüedad, Edad Media, Renacimiento, época contemporánea. 500+ personajes, grandes batallas, líneas de tiempo.",
+  "url": "https://sapiro.app/es/historia/",
+  "inLanguage": "es"
+};
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "¿Cuáles son los grandes periodos de la historia?", "acceptedAnswer": { "@type": "Answer", "text": "La historia occidental se divide tradicionalmente en cinco periodos: Prehistoria (hasta -3000), Antigüedad (-3000 a 476), Edad Media (476-1492), Edad Moderna (1492-1789) y Época contemporánea (1789 a hoy)." } },
+    { "@type": "Question", "name": "¿Cuáles son las fechas clave a recordar?", "acceptedAnswer": { "@type": "Answer", "text": "Las 10 fechas esenciales: -3000 (escritura), 476 (caída de Roma), 1066 (Hastings), 1492 (Colón), 1776 (Independencia EEUU), 1789 (Revolución francesa), 1914-1918 (Primera Guerra Mundial), 1939-1945 (Segunda Guerra Mundial), 1969 (Luna), 1989 (Muro de Berlín)." } },
+    { "@type": "Question", "name": "¿Quiénes son los personajes históricos más importantes?", "acceptedAnswer": { "@type": "Answer", "text": "Los rankings más consensuados incluyen: Julio César, Carlomagno, Leonardo da Vinci, Cristóbal Colón, Napoleón, Abraham Lincoln, Marie Curie, Winston Churchill, Mahatma Gandhi, Nelson Mandela." } },
+    { "@type": "Question", "name": "¿Cuál fue la batalla más mortífera de la historia?", "acceptedAnswer": { "@type": "Answer", "text": "La batalla de Stalingrado (1942-1943) sigue siendo la más mortífera, con cerca de 2 millones de muertos combinados. Verdún (1916) sigue siendo el símbolo francés del horror de la guerra de trincheras, con unos 700 000 muertos." } }
+  ]
+};
+---
+
+<Layout title="Historia mundial: guías y quizzes | SAPIRO" description="Historia mundial: Antigüedad, Edad Media, Renacimiento, época contemporánea. 500+ personajes, batallas, líneas de tiempo." lang={lang}>
+  <Fragment slot="head">
+    <link rel="alternate" hreflang="es" href="https://sapiro.app/es/historia/" />
+    <link rel="alternate" hreflang="fr" href="https://sapiro.app/histoire/" />
+    <link rel="alternate" hreflang="en" href="https://sapiro.app/en/history/" />
+    <script type="application/ld+json" set:html={JSON.stringify(collectionPageSchema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+  </Fragment>
+
+  <Header lang={lang} t={t} />
+
+  <main class="pillar-page">
+    <article class="container">
+      <header class="pillar-header">
+        <h1>Historia mundial</h1>
+        <p class="lede">De la Antigüedad a hoy, 500+ personajes, grandes batallas, líneas de tiempo. Todo para entender cómo se hizo el mundo.</p>
+      </header>
+
+      <section class="pillar-intro">
+        <p>La historia da sentido al presente. Los grandes periodos (Antigüedad, Edad Media, Renacimiento, era industrial, guerras mundiales, descolonización) explican por qué el mundo es como es. Conocer los personajes históricos mayores, de Cleopatra a Turing, es entender encadenamientos en lugar de recitar fechas aisladas.</p>
+        <p>SAPIRO propone quizzes sobre 500+ personajes históricos, clasificados por época y por civilización, con una explicación contextualizada detrás de cada pregunta.</p>
+      </section>
+
+      <section class="pillar-stats">
+        <h2>La historia en cifras</h2>
+        <ul>
+          <li><strong>5 000 años</strong> de historia escrita, desde la invención de la escritura en Mesopotamia (-3000)</li>
+          <li><strong>500+</strong> personajes históricos mayores en SAPIRO</li>
+          <li><strong>5</strong> grandes periodos tradicionales: Prehistoria, Antigüedad, Edad Media, Edad Moderna, Contemporánea</li>
+          <li><strong>50-70 millones</strong> de muertos en la Segunda Guerra Mundial (la más mortífera)</li>
+          <li><strong>1989</strong>: caída del muro de Berlín, fin de la Guerra Fría</li>
+        </ul>
+      </section>
+
+      <section class="pillar-sub">
+        <h2>Los grandes periodos</h2>
+        <ul class="pillar-grid">
+          <li><a href="/es/blog/antiguedad-edad-media-renacimiento-resumen/">Antigüedad, Edad Media, Renacimiento</a></li>
+          <li><a href="/es/blog/linea-tiempo-historia-mundial/">Línea de tiempo mundial</a></li>
+          <li><a href="/es/blog/grandes-batallas-historia/">Las 15 grandes batallas de la historia</a></li>
+        </ul>
+      </section>
+
+      <section class="pillar-sub">
+        <h2>Personajes históricos</h2>
+        <ul class="pillar-grid">
+          <li><a href="/es/blog/personajes-historicos/">Personajes históricos mayores</a></li>
+          <li><a href="/es/blog/reyes-monarquias-europa/">Reyes y monarquías de Europa</a></li>
+          <li><a href="/es/blog/presidentes-estados-unidos/">Presidentes de EEUU</a></li>
+          <li><a href="/es/blog/mujeres-marcaron-historia/">20 mujeres que marcaron la historia</a></li>
+          <li><a href="/es/blog/dictadores-siglo-xx/">Dictadores del siglo XX</a></li>
+        </ul>
+      </section>
+
+      <section class="pillar-sub">
+        <h2>Repasar historia</h2>
+        <ul class="pillar-grid">
+          <li><a href="/es/blog/quiz-historia-examen/">Quiz historia nivel examen</a></li>
+          <li><a href="/es/blog/aprender-historia-divirtiendose/">Aprender historia divirtiéndose</a></li>
+          <li><a href="/es/blog/historia-primaria-secundaria-programa/">Historia primaria y secundaria</a></li>
+        </ul>
+      </section>
+
+      <section class="pillar-faq">
+        <h2>Preguntas frecuentes sobre historia</h2>
+
+        <h3>¿Cuáles son los grandes periodos de la historia?</h3>
+        <p>La historia occidental se divide tradicionalmente en cinco periodos: Prehistoria (hasta -3000), Antigüedad (-3000 a 476), Edad Media (476-1492), Edad Moderna (1492-1789) y Época contemporánea (1789 a hoy).</p>
+
+        <h3>¿Cuáles son las fechas clave a recordar?</h3>
+        <p>Las 10 fechas esenciales: -3000 (escritura), 476 (caída de Roma), 1066 (Hastings), 1492 (Colón), 1776 (Independencia EEUU), 1789 (Revolución francesa), 1914-1918 (Primera Guerra Mundial), 1939-1945 (Segunda Guerra Mundial), 1969 (Luna), 1989 (Muro de Berlín).</p>
+
+        <h3>¿Quiénes son los personajes históricos más importantes?</h3>
+        <p>Los rankings más consensuados incluyen: Julio César, Carlomagno, Leonardo da Vinci, Cristóbal Colón, Napoleón, Abraham Lincoln, Marie Curie, Winston Churchill, Mahatma Gandhi, Nelson Mandela.</p>
+
+        <h3>¿Cuál fue la batalla más mortífera de la historia?</h3>
+        <p>La batalla de Stalingrado (1942-1943) sigue siendo la más mortífera, con cerca de 2 millones de muertos combinados. Verdún (1916) sigue siendo el símbolo francés del horror de la guerra de trincheras, con unos 700 000 muertos.</p>
+      </section>
+    </article>
+  </main>
+
+  <Footer lang={lang} t={t} />
+</Layout>
+
+<style>
+  .pillar-page { padding-top: 100px; padding-bottom: 60px; }
+  .pillar-header { text-align: center; padding-bottom: 32px; margin-bottom: 32px; border-bottom: 1px solid var(--gris-clair); }
+  .pillar-header h1 { font-size: clamp(2.25rem, 4.5vw, 3.25rem); margin-bottom: 16px; }
+  .lede { font-size: 1.25rem; color: var(--gris); max-width: 720px; margin: 0 auto; }
+  .pillar-intro, .pillar-stats, .pillar-sub, .pillar-faq { max-width: 800px; margin: 0 auto 48px; }
+  .pillar-intro p { line-height: 1.75; margin-bottom: 16px; font-size: 1.05rem; }
+  .pillar-stats ul { padding-left: 24px; }
+  .pillar-stats li { margin-bottom: 8px; line-height: 1.7; }
+  .pillar-sub h2, .pillar-stats h2, .pillar-faq h2 { font-size: 1.75rem; margin-bottom: 20px; }
+  .pillar-grid { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 12px; }
+  .pillar-grid li { padding: 14px 18px; background: var(--gris-clair); border-radius: 8px; }
+  .pillar-grid a { color: var(--noir); text-decoration: none; font-weight: 500; }
+  .pillar-grid a:hover { color: var(--orange); }
+  .pillar-faq h3 { font-size: 1.1rem; margin-top: 24px; margin-bottom: 8px; }
+  .pillar-faq p { line-height: 1.7; margin-bottom: 16px; }
+</style>

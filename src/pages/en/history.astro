@@ -1,0 +1,131 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import { getTranslations } from '../../i18n';
+
+const lang = 'en';
+const t = getTranslations(lang);
+
+const collectionPageSchema = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "World history: major periods, figures, battles",
+  "description": "All about world history: Antiquity, Middle Ages, Renaissance, contemporary era. 500+ figures, major battles, timelines.",
+  "url": "https://sapiro.app/en/history/",
+  "inLanguage": "en"
+};
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "What are the major periods of history?", "acceptedAnswer": { "@type": "Answer", "text": "Western history is traditionally divided into five periods: Prehistory (up to -3000), Antiquity (-3000 to 476), Middle Ages (476-1492), Early Modern (1492-1789) and Contemporary era (1789 to today)." } },
+    { "@type": "Question", "name": "What are the key dates to remember?", "acceptedAnswer": { "@type": "Answer", "text": "The 10 essential dates: -3000 (writing), 476 (fall of Rome), 1066 (Hastings), 1492 (Columbus), 1776 (US Independence), 1789 (French Revolution), 1914-1918 (WWI), 1939-1945 (WWII), 1969 (Moon), 1989 (Berlin Wall)." } },
+    { "@type": "Question", "name": "Who are the most important historical figures?", "acceptedAnswer": { "@type": "Answer", "text": "Most consensus rankings include: Julius Caesar, Charlemagne, Leonardo da Vinci, Christopher Columbus, Napoleon, Abraham Lincoln, Marie Curie, Winston Churchill, Mahatma Gandhi, Nelson Mandela." } },
+    { "@type": "Question", "name": "What was the deadliest battle in history?", "acceptedAnswer": { "@type": "Answer", "text": "The Battle of Stalingrad (1942-1943) remains the deadliest, with nearly 2 million combined deaths. Verdun (1916) remains the iconic symbol of WWI trench warfare horror, with about 700,000 deaths." } }
+  ]
+};
+---
+
+<Layout title="World History: Guides and Quizzes | SAPIRO" description="World history: Antiquity, Middle Ages, Renaissance, contemporary era. 500+ figures, major battles, timelines." lang={lang}>
+  <Fragment slot="head">
+    <link rel="alternate" hreflang="en" href="https://sapiro.app/en/history/" />
+    <link rel="alternate" hreflang="fr" href="https://sapiro.app/histoire/" />
+    <link rel="alternate" hreflang="es" href="https://sapiro.app/es/historia/" />
+    <script type="application/ld+json" set:html={JSON.stringify(collectionPageSchema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+  </Fragment>
+
+  <Header lang={lang} t={t} />
+
+  <main class="pillar-page">
+    <article class="container">
+      <header class="pillar-header">
+        <h1>World History</h1>
+        <p class="lede">From Antiquity to today, 500+ figures, major battles, timelines. Everything to understand how the world was made.</p>
+      </header>
+
+      <section class="pillar-intro">
+        <p>History makes sense of the present. The major periods (Antiquity, Middle Ages, Renaissance, industrial era, world wars, decolonization) explain why the world is what it is. Knowing the major historical figures, from Cleopatra to Turing, means understanding sequences rather than reciting isolated dates.</p>
+        <p>SAPIRO offers quizzes on 500+ historical figures, organized by era and by civilization, with contextualized explanations behind each question.</p>
+      </section>
+
+      <section class="pillar-stats">
+        <h2>History in numbers</h2>
+        <ul>
+          <li><strong>5,000 years</strong> of written history, since writing was invented in Mesopotamia (-3000)</li>
+          <li><strong>500+</strong> major historical figures in SAPIRO</li>
+          <li><strong>5</strong> traditional periods: Prehistory, Antiquity, Middle Ages, Early Modern, Contemporary</li>
+          <li><strong>50-70 million</strong> deaths in World War II (the deadliest)</li>
+          <li><strong>1989</strong>: fall of the Berlin Wall, end of the Cold War</li>
+        </ul>
+      </section>
+
+      <section class="pillar-sub">
+        <h2>Major periods</h2>
+        <ul class="pillar-grid">
+          <li><a href="/en/blog/antiquity-middle-ages-renaissance-overview/">Antiquity, Middle Ages, Renaissance overview</a></li>
+          <li><a href="/en/blog/world-timeline-history/">World history timeline</a></li>
+          <li><a href="/en/blog/great-battles-history/">The 15 great battles of history</a></li>
+        </ul>
+      </section>
+
+      <section class="pillar-sub">
+        <h2>Historical figures</h2>
+        <ul class="pillar-grid">
+          <li><a href="/en/blog/historical-figures/">Major historical figures</a></li>
+          <li><a href="/en/blog/european-monarchs-list/">European monarchs list</a></li>
+          <li><a href="/en/blog/us-presidents-list/">US Presidents list</a></li>
+          <li><a href="/en/blog/women-who-shaped-history/">20 women who shaped history</a></li>
+          <li><a href="/en/blog/20th-century-dictators/">20th century dictators</a></li>
+        </ul>
+      </section>
+
+      <section class="pillar-sub">
+        <h2>Reviewing history</h2>
+        <ul class="pillar-grid">
+          <li><a href="/en/blog/history-quiz-exam-level/">History quiz exam level</a></li>
+          <li><a href="/en/blog/learning-history-fun/">Learning history the fun way</a></li>
+          <li><a href="/en/blog/history-elementary-middle-school/">History in elementary and middle school</a></li>
+        </ul>
+      </section>
+
+      <section class="pillar-faq">
+        <h2>Frequently asked questions about history</h2>
+
+        <h3>What are the major periods of history?</h3>
+        <p>Western history is traditionally divided into five periods: Prehistory (up to -3000), Antiquity (-3000 to 476), Middle Ages (476-1492), Early Modern (1492-1789) and Contemporary era (1789 to today).</p>
+
+        <h3>What are the key dates to remember?</h3>
+        <p>The 10 essential dates: -3000 (writing), 476 (fall of Rome), 1066 (Hastings), 1492 (Columbus), 1776 (US Independence), 1789 (French Revolution), 1914-1918 (WWI), 1939-1945 (WWII), 1969 (Moon), 1989 (Berlin Wall).</p>
+
+        <h3>Who are the most important historical figures?</h3>
+        <p>Most consensus rankings include: Julius Caesar, Charlemagne, Leonardo da Vinci, Christopher Columbus, Napoleon, Abraham Lincoln, Marie Curie, Winston Churchill, Mahatma Gandhi, Nelson Mandela.</p>
+
+        <h3>What was the deadliest battle in history?</h3>
+        <p>The Battle of Stalingrad (1942-1943) remains the deadliest, with nearly 2 million combined deaths. Verdun (1916) remains the iconic symbol of WWI trench warfare horror, with about 700,000 deaths.</p>
+      </section>
+    </article>
+  </main>
+
+  <Footer lang={lang} t={t} />
+</Layout>
+
+<style>
+  .pillar-page { padding-top: 100px; padding-bottom: 60px; }
+  .pillar-header { text-align: center; padding-bottom: 32px; margin-bottom: 32px; border-bottom: 1px solid var(--gris-clair); }
+  .pillar-header h1 { font-size: clamp(2.25rem, 4.5vw, 3.25rem); margin-bottom: 16px; }
+  .lede { font-size: 1.25rem; color: var(--gris); max-width: 720px; margin: 0 auto; }
+  .pillar-intro, .pillar-stats, .pillar-sub, .pillar-faq { max-width: 800px; margin: 0 auto 48px; }
+  .pillar-intro p { line-height: 1.75; margin-bottom: 16px; font-size: 1.05rem; }
+  .pillar-stats ul { padding-left: 24px; }
+  .pillar-stats li { margin-bottom: 8px; line-height: 1.7; }
+  .pillar-sub h2, .pillar-stats h2, .pillar-faq h2 { font-size: 1.75rem; margin-bottom: 20px; }
+  .pillar-grid { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 12px; }
+  .pillar-grid li { padding: 14px 18px; background: var(--gris-clair); border-radius: 8px; }
+  .pillar-grid a { color: var(--noir); text-decoration: none; font-weight: 500; }
+  .pillar-grid a:hover { color: var(--orange); }
+  .pillar-faq h3 { font-size: 1.1rem; margin-top: 24px; margin-bottom: 8px; }
+  .pillar-faq p { line-height: 1.7; margin-bottom: 16px; }
+</style>

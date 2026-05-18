@@ -7,6 +7,7 @@ const blog = defineCollection({
     title: z.string(),
     description: z.string(),
     date: z.coerce.date(),
+    lastModified: z.coerce.date().optional(),
     lang: z.enum(['fr', 'en', 'es']),
     urlSlug: z.string(),
     translationKey: z.string(),
@@ -14,7 +15,12 @@ const blog = defineCollection({
     image: z.string().optional(),
     imageAlt: z.string().optional(),
     author: z.string().default('SAPIRO'),
+    authorRole: z.string().optional(),
     readingTime: z.number().optional(),
+    faqItems: z.array(z.object({
+      question: z.string(),
+      answer: z.string(),
+    })).optional(),
   }),
 });
 
