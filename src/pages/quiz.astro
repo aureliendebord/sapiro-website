@@ -1,0 +1,39 @@
+---
+import PillarLayout from '../layouts/PillarLayout.astro';
+import { getCollection } from 'astro:content';
+
+const articles = (await getCollection('blog'))
+  .filter((p) => p.data.lang === 'fr' && p.data.category === 'formats-quiz')
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
+  .map((p) => ({ title: p.data.title, url: `/blog/${p.data.urlSlug}/` }));
+---
+
+<PillarLayout
+  lang="fr"
+  title="Quiz de culture générale : tous les formats"
+  description="Quiz drapeaux, capitales, culture générale par niveau, quiz d'entreprise ou d'anniversaire : tous les formats de quiz pour apprendre et animer."
+  hreflang={{ fr: 'https://sapiro.app/quiz/', en: 'https://sapiro.app/en/quiz/', es: 'https://sapiro.app/es/quiz/' }}
+  collectionName="Quiz de culture générale : tous les formats"
+  h1="Quiz et formats de jeu"
+  lede="Quiz drapeaux, quiz capitales, quiz par niveau, quiz d'entreprise ou de soirée : le format quiz s'adapte à tous les contextes."
+  intro={[
+    "Le quiz est l'un des meilleurs outils d'apprentissage : court, ludique, et bien plus efficace que la lecture passive pour mémoriser. C'est aussi l'une des meilleures animations de groupe, parce qu'il met tout le monde sur un pied d'égalité.",
+    "Ce dossier rassemble tous les formats : quiz thématiques (drapeaux, capitales), quiz par niveau de difficulté, quiz saisonniers, quiz d'entreprise et quiz de soirée. Chaque format a ses règles et son public.",
+  ]}
+  statsTitle="Le quiz comme outil : les repères"
+  stats={[
+    "<strong>+50%</strong> de rétention avec le quiz par rapport à la relecture",
+    "<strong>15 minutes</strong> par jour, le bon rythme pour progresser",
+    "<strong>15-20 questions</strong> par session, au-delà l'attention décroche",
+    "<strong>2 000+</strong> questions vérifiées dans SAPIRO sur 4 univers",
+    "<strong>4 domaines</strong> : géographie, histoire, art, nature",
+  ]}
+  articlesTitle="Tous les articles du dossier"
+  articles={articles}
+  faqTitle="Questions fréquentes"
+  faq={[
+    { q: "Pourquoi les quiz aident-ils à mémoriser ?", a: "Le test actif, c'est-à-dire se forcer à retrouver une réponse, ancre l'information bien mieux que la relecture. Les études en sciences cognitives mesurent un gain de rétention d'environ 50%." },
+    { q: "Combien de questions pour un quiz réussi ?", a: "15 à 20 questions par session. Au-delà, l'attention décroche. Mieux vaut un quiz court répété régulièrement qu'un long quiz épuisant." },
+    { q: "Comment animer un quiz en groupe ?", a: "Mélanger les niveaux de difficulté, donner une explication après chaque réponse, limiter la durée, et prévoir une récompense symbolique. L'animation (ton, suspense) compte autant que les questions." },
+  ]}
+/>

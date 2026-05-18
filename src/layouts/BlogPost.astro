@@ -6,6 +6,7 @@ import BlogCta from '../components/BlogCta.astro';
 import type { Lang } from '../i18n';
 import { getTranslations, getLocalePath } from '../i18n';
 import type { FaqItem } from '../utils/faq';
+import { getClusterForCategory } from '../data/clusters';
 
 interface TranslationSlugs {
   fr: string;
@@ -41,6 +42,11 @@ const formattedDate = date.toLocaleDateString(lang === 'fr' ? 'fr-FR' : lang ===
 
 const categoryLabel = t.blog.categories[category] || category;
 const blogUrl = getLocalePath('/blog', lang);
+
+// Cluster thematique de l'article (tete de silo)
+const cluster = getClusterForCategory(category);
+const clusterLabel = cluster ? cluster.label[lang] : null;
+const clusterUrl = cluster ? cluster.pillarSlug[lang] : null;
 
 // Hreflang pour cet article (avec trailing slash et slugs par langue)
 const frSlug = translationSlugs?.fr || slug;
@@ -109,29 +115,21 @@ const schemaFaq = faqItems.length > 0 ? {
   }))
 } : null;
 
-// Schema.org BreadcrumbList
+// Schema.org BreadcrumbList (avec le niveau cluster si disponible)
+const breadcrumbItems: any[] = [
+  { '@type': 'ListItem', position: 1, name: t.header.home, item: `https://sapiro.app${getLocalePath('/', lang)}` },
+  { '@type': 'ListItem', position: 2, name: 'Blog', item: `https://sapiro.app${getLocalePath('/blog', lang)}` },
+];
+if (cluster && clusterUrl && clusterLabel) {
+  breadcrumbItems.push({ '@type': 'ListItem', position: 3, name: clusterLabel, item: `https://sapiro.app${clusterUrl}` });
+  breadcrumbItems.push({ '@type': 'ListItem', position: 4, name: title });
+} else {
+  breadcrumbItems.push({ '@type': 'ListItem', position: 3, name: title });
+}
 const breadcrumbSchema = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
-  itemListElement: [
-    {
-      '@type': 'ListItem',
-      position: 1,
-      name: t.header.home,
-      item: `https://sapiro.app${getLocalePath('/', lang)}`
-    },
-    {
-      '@type': 'ListItem',
-      position: 2,
-      name: 'Blog',
-      item: `https://sapiro.app${getLocalePath('/blog', lang)}`
-    },
-    {
-      '@type': 'ListItem',
-      position: 3,
-      name: title
-    }
-  ]
+  itemListElement: breadcrumbItems,
 };
 ---
 
@@ -163,6 +161,12 @@ const breadcrumbSchema = {
         <a href={getLocalePath('/', lang)}>{t.header.home}</a>
         <span class="breadcrumb-sep">&gt;</span>
         <a href={blogUrl}>Blog</a>
+        {clusterUrl && clusterLabel && (
+          <Fragment>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href={clusterUrl}>{clusterLabel}</a>
+          </Fragment>
+        )}
         <span class="breadcrumb-sep">&gt;</span>
         <span class="breadcrumb-current">{title}</span>
       </nav>
@@ -183,6 +187,12 @@ const breadcrumbSchema = {
       <!-- Article Content -->
       <div class="article-content" id="article-content">
         <slot />
+        {clusterUrl && clusterLabel && (
+          <aside class="cluster-box">
+            <p>{t.blog.partOfTopic} <strong>{clusterLabel}</strong>.</p>
+            <a href={clusterUrl} class="cluster-box-link">{t.blog.seeAllTopic} &rarr;</a>
+          </aside>
+        )}
         <BlogCta lang={lang} />
       </div>
 
@@ -480,6 +490,42 @@ const breadcrumbSchema = {
   .article-content :global(.faq-section p) {
     padding-left: 18px;
     margin-bottom: 12px;
+  }
+
+  /* Cluster box (lien vers la page pilier) */
+  .article-content :global(.cluster-box) {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    margin: 40px 0 24px;
+    padding: 24px 28px;
+    background: rgba(255, 107, 53, 0.06);
+    border: 1px solid rgba(255, 107, 53, 0.2);
+    border-radius: 12px;
+  }
+
+  .article-content :global(.cluster-box p) {
+    margin: 0;
+    font-size: 1rem;
+  }
+
+  .article-content :global(.cluster-box-link) {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 20px;
+    background: var(--orange);
+    color: #fff !important;
+    border-radius: 8px;
+    font-weight: 600;
+    text-decoration: none !important;
+    white-space: nowrap;
+    transition: background 0.2s;
+  }
+
+  .article-content :global(.cluster-box-link:hover) {
+    background: var(--orange-dark);
   }
 
   .article-back {

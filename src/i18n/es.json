@@ -112,7 +112,15 @@
       "formats-quiz": "Quiz",
       "comparatifs": "Comparativas",
       "voyage": "Viajes"
-    }
+    },
+    "exploreByTheme": "Explora por tema",
+    "articlesWord": "artículos",
+    "latestArticles": "Últimos artículos",
+    "next": "Siguiente",
+    "prev": "Anterior",
+    "pageWord": "página",
+    "partOfTopic": "Este artículo forma parte del tema",
+    "seeAllTopic": "Ver todo el tema"
   },
   "privacy": {
     "title": "Política de privacidad",

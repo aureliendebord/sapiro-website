@@ -28,6 +28,21 @@ Key facts:
 
 The website and app are available in French (default), English (/en/), and Spanish (/es/).
 
+## Topic hubs
+
+Eight thematic hub pages organize the blog content into silos. Each hub lists all related articles and answers common questions.
+
+- Geography: https://sapiro.app/geographie/ (FR), https://sapiro.app/en/geography/ (EN), https://sapiro.app/es/geografia/ (ES)
+- History: https://sapiro.app/histoire/ (FR), https://sapiro.app/en/history/ (EN), https://sapiro.app/es/historia/ (ES)
+- Art: https://sapiro.app/art/ (FR), https://sapiro.app/en/art/ (EN), https://sapiro.app/es/arte/ (ES)
+- Nature: https://sapiro.app/nature/ (FR), https://sapiro.app/en/nature/ (EN), https://sapiro.app/es/naturaleza/ (ES)
+- Exams and study: https://sapiro.app/concours/ (FR), https://sapiro.app/en/exams/ (EN), https://sapiro.app/es/oposiciones/ (ES)
+- Family learning: https://sapiro.app/famille/ (FR), https://sapiro.app/en/family/ (EN), https://sapiro.app/es/familia/ (ES)
+- Quiz formats: https://sapiro.app/quiz/ (FR), https://sapiro.app/en/quiz/ (EN), https://sapiro.app/es/quiz/ (ES)
+- App comparisons: https://sapiro.app/comparatifs/ (FR), https://sapiro.app/en/comparisons/ (EN), https://sapiro.app/es/comparativas/ (ES)
+
+Author page: https://sapiro.app/about/aurelien-debord/
+
 ## Blog articles (French)
 
 ### Apps
