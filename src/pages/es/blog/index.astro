@@ -3,7 +3,6 @@ import { getCollection } from 'astro:content';
 import Layout from '../../../layouts/Layout.astro';
 import Header from '../../../components/Header.astro';
 import Footer from '../../../components/Footer.astro';
-import BlogCard from '../../../components/BlogCard.astro';
 import PageHeroV2 from '../../../components/v2/PageHeroV2.astro';
 import DownloadV2 from '../../../components/v2/DownloadV2.astro';
 import StickyMobileCta from '../../../components/v2/StickyMobileCta.astro';
@@ -15,8 +14,6 @@ const t = getTranslations(lang);
 
 const allPosts = (await getCollection('blog', ({ data }) => data.lang === 'es'))
   .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
-
-const recentPosts = allPosts.slice(0, 9);
 
 const clusterCards = clusters.map((c) => ({
   label: c.label[lang],
@@ -80,25 +77,6 @@ const blogSchema = {
       </div>
     </section>
 
-    <section class="blog-listing">
-      <div class="container">
-        <h2 class="section-title">{t.blog.latestArticles}</h2>
-        <div class="grid">
-          {recentPosts.map((post) => (
-            <BlogCard
-              title={post.data.title}
-              description={post.data.description}
-              date={post.data.date}
-              slug={post.data.urlSlug}
-              category={post.data.category}
-              readingTime={post.data.readingTime}
-              lang={lang}
-            />
-          ))}
-        </div>
-      </div>
-    </section>
-
     <DownloadV2 lang={lang} />
   </main>
 
@@ -108,7 +86,7 @@ const blogSchema = {
 
 <style>
   .section-title { font-size: clamp(1.5rem, 3vw, 2rem); text-align: center; margin-bottom: 32px; }
-  .cluster-hub { padding: 56px 0 16px; background: #fff; }
+  .cluster-hub { padding: 56px 0 80px; background: #fff; }
   .cluster-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
   .cluster-card { display: flex; flex-direction: column; gap: 6px; padding: 24px 20px; border: 1.5px solid #e5e7eb; border-radius: 16px; background: #fff; transition: border-color 0.2s, transform 0.2s, box-shadow 0.2s; }
   .cluster-card:hover { border-color: var(--orange); transform: translateY(-3px); box-shadow: 0 12px 28px -10px rgba(255, 107, 53, 0.35); }
@@ -116,10 +94,8 @@ const blogSchema = {
   .cluster-label { font-weight: 700; font-size: 1.1rem; color: var(--noir); }
   .cluster-tagline { font-size: 0.85rem; color: var(--gris); line-height: 1.5; flex-grow: 1; }
   .cluster-count { font-size: 0.78rem; font-weight: 700; color: var(--orange); text-transform: uppercase; letter-spacing: 0.03em; }
-  .blog-listing { padding: 56px 0 80px; background: #fff; }
-  .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
-  @media (max-width: 1024px) { .cluster-grid { grid-template-columns: repeat(2, 1fr); } .grid { grid-template-columns: repeat(2, 1fr); } }
-  @media (max-width: 640px) { .cluster-grid { grid-template-columns: 1fr; } .grid { grid-template-columns: 1fr; } .blog-listing { padding: 40px 0 64px; } .cluster-hub { padding: 40px 0 8px; } }
+  @media (max-width: 1024px) { .cluster-grid { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 640px) { .cluster-grid { grid-template-columns: 1fr; } .cluster-hub { padding: 40px 0 64px; } }
   .page-main > section { opacity: 0; transform: translateY(24px); transition: opacity 0.7s cubic-bezier(0.22, 1, 0.36, 1), transform 0.7s cubic-bezier(0.22, 1, 0.36, 1); }
   .page-main > section.revealed, .page-main > section:first-child { opacity: 1; transform: translateY(0); }
   @media (prefers-reduced-motion: reduce) { .page-main > section { opacity: 1 !important; transform: none !important; transition: none !important; } }
