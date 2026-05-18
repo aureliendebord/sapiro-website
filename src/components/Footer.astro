@@ -14,8 +14,6 @@ const currentYear = new Date().getFullYear();
 
 // Pages piliers thematiques (les 8 clusters)
 const pillars = clusters.map((c) => ({ href: c.pillarSlug[lang], label: c.label[lang] }));
-// Page auteur
-const authorHref = '/about/aurelien-debord/';
 ---
 
 <footer class="footer">
@@ -40,7 +38,6 @@ const authorHref = '/about/aurelien-debord/';
       <span class="footer-col-title">SAPIRO</span>
       <a href={getLocalePath('/faq', lang)} class="footer-link">{t.footer.faq}</a>
       <a href={getLocalePath('/pricing', lang)} class="footer-link">{t.header.pricing}</a>
-      <a href={authorHref} class="footer-link">{t.footer.author}</a>
       <a href={getLocalePath('/privacy', lang)} class="footer-link">{t.footer.privacy}</a>
       <a href={getLocalePath('/terms', lang)} class="footer-link">{t.footer.terms}</a>
       <button type="button" class="footer-link footer-link-btn" id="open-legal-modal">{t.footer.legal}</button>

@@ -6,8 +6,7 @@ lang: "en"
 urlSlug: "sapiro-vs-quizup-hq-trivia"
 translationKey: "sapiro-vs-quizup"
 category: "comparatifs"
-author: "Aurélien Debord"
-authorRole: "Founder of SAPIRO"
+author: "SAPIRO"
 readingTime: 5
 ---
 

@@ -6,8 +6,7 @@ lang: "es"
 urlSlug: "historia-primaria-secundaria-programa"
 translationKey: "histoire-primaire-college"
 category: "famille"
-author: "Aurélien Debord"
-authorRole: "Fundador de SAPIRO"
+author: "SAPIRO"
 readingTime: 6
 ---
 

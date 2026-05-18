@@ -6,8 +6,7 @@ lang: "en"
 urlSlug: "general-knowledge-quiz-team-building"
 translationKey: "quiz-entreprise"
 category: "formats-quiz"
-author: "Aurélien Debord"
-authorRole: "Founder of SAPIRO"
+author: "SAPIRO"
 readingTime: 5
 ---
 

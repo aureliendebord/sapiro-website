@@ -6,8 +6,7 @@ lang: "fr"
 urlSlug: "grandes-batailles-histoire"
 translationKey: "grandes-batailles"
 category: "histoire"
-author: "Aurélien Debord"
-authorRole: "Fondateur de SAPIRO"
+author: "SAPIRO"
 readingTime: 7
 ---
 

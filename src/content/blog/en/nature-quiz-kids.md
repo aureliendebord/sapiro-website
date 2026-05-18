@@ -6,8 +6,7 @@ lang: "en"
 urlSlug: "nature-quiz-kids"
 translationKey: "quiz-nature-enfants"
 category: "nature"
-author: "Aurélien Debord"
-authorRole: "Founder of SAPIRO"
+author: "SAPIRO"
 readingTime: 7
 ---
 

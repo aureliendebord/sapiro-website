@@ -6,8 +6,7 @@ lang: "en"
 urlSlug: "past-exam-papers-general-knowledge"
 translationKey: "annales-culture-generale"
 category: "concours"
-author: "Aurélien Debord"
-authorRole: "Founder of SAPIRO"
+author: "SAPIRO"
 readingTime: 6
 ---
 

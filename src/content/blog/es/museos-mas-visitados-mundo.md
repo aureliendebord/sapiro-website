@@ -6,8 +6,7 @@ lang: "es"
 urlSlug: "museos-mas-visitados-mundo"
 translationKey: "musees-plus-visites"
 category: "art"
-author: "Aurélien Debord"
-authorRole: "Fundador de SAPIRO"
+author: "SAPIRO"
 readingTime: 7
 ---
 

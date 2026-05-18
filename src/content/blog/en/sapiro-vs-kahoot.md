@@ -6,8 +6,7 @@ lang: "en"
 urlSlug: "sapiro-vs-kahoot"
 translationKey: "sapiro-vs-kahoot"
 category: "apps"
-author: "Aurélien Debord"
-authorRole: "Founder of SAPIRO"
+author: "SAPIRO"
 readingTime: 8
 ---
 

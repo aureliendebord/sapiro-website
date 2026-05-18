@@ -6,8 +6,7 @@ lang: "fr"
 urlSlug: "sapiro-vs-quizlet"
 translationKey: "sapiro-vs-quizlet"
 category: "comparatifs"
-author: "Aurélien Debord"
-authorRole: "Fondateur de SAPIRO"
+author: "SAPIRO"
 readingTime: 5
 ---
 

@@ -9,12 +9,7 @@
     "features": "Fonctionnalités",
     "blog": "Blog",
     "pricing": "Tarifs",
-    "download": "Télécharger",
-    "themes": "Thèmes",
-    "themeGeography": "Géographie",
-    "themeHistory": "Histoire",
-    "themeArt": "Art",
-    "themeNature": "Nature"
+    "download": "Télécharger"
   },
   "hero": {
     "title": "Apprends en t'amusant !",
@@ -87,8 +82,7 @@
     "legal": "Mentions légales",
     "reviews": "Avis",
     "faq": "FAQ",
-    "themes": "Thèmes",
-    "author": "L'auteur"
+    "themes": "Thèmes"
   },
   "blog": {
     "title": "Blog SAPIRO",
@@ -115,10 +109,6 @@
     },
     "exploreByTheme": "Explorez par thème",
     "articlesWord": "articles",
-    "latestArticles": "Derniers articles",
-    "next": "Suivant",
-    "prev": "Précédent",
-    "pageWord": "page",
     "partOfTopic": "Cet article fait partie du dossier",
     "seeAllTopic": "Voir tout le dossier"
   },

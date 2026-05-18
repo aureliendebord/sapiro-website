@@ -6,8 +6,7 @@ lang: "en"
 urlSlug: "us-presidents-list"
 translationKey: "presidents-usa"
 category: "histoire"
-author: "Aurélien Debord"
-authorRole: "Founder of SAPIRO"
+author: "SAPIRO"
 readingTime: 8
 ---
 

@@ -6,8 +6,7 @@ lang: "es"
 urlSlug: "sapiro-vs-duolingo"
 translationKey: "sapiro-vs-duolingo"
 category: "comparatifs"
-author: "Aurélien Debord"
-authorRole: "Fundador de SAPIRO"
+author: "SAPIRO"
 readingTime: 5
 ---
 

@@ -6,8 +6,7 @@ lang: "en"
 urlSlug: "family-cultural-activities"
 translationKey: "activites-culturelles-famille"
 category: "famille"
-author: "Aurélien Debord"
-authorRole: "Founder of SAPIRO"
+author: "SAPIRO"
 readingTime: 6
 ---
 

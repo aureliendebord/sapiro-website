@@ -6,8 +6,7 @@ lang: "fr"
 urlSlug: "apprendre-histoire-en-samusant"
 translationKey: "apprendre-histoire"
 category: "education"
-author: "Aurélien Debord"
-authorRole: "Fondateur de SAPIRO"
+author: "SAPIRO"
 readingTime: 9
 ---
 

@@ -6,8 +6,7 @@ lang: "es"
 urlSlug: "mujeres-marcaron-historia"
 translationKey: "femmes-histoire"
 category: "histoire"
-author: "Aurélien Debord"
-authorRole: "Fundador de SAPIRO"
+author: "SAPIRO"
 readingTime: 7
 ---
 

@@ -6,8 +6,7 @@ lang: "fr"
 urlSlug: "qcm-gendarmerie-police-armee"
 translationKey: "qcm-gendarmerie"
 category: "concours"
-author: "Aurélien Debord"
-authorRole: "Fondateur de SAPIRO"
+author: "SAPIRO"
 readingTime: 6
 ---
 

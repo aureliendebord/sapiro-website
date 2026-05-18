@@ -41,8 +41,6 @@ Eight thematic hub pages organize the blog content into silos. Each hub lists al
 - Quiz formats: https://sapiro.app/quiz/ (FR), https://sapiro.app/en/quiz/ (EN), https://sapiro.app/es/quiz/ (ES)
 - App comparisons: https://sapiro.app/comparatifs/ (FR), https://sapiro.app/en/comparisons/ (EN), https://sapiro.app/es/comparativas/ (ES)
 
-Author page: https://sapiro.app/about/aurelien-debord/
-
 ## Blog articles (French)
 
 ### Apps

@@ -6,8 +6,7 @@ lang: "en"
 urlSlug: "police-military-exam-prep"
 translationKey: "qcm-gendarmerie"
 category: "concours"
-author: "Aurélien Debord"
-authorRole: "Founder of SAPIRO"
+author: "SAPIRO"
 readingTime: 6
 ---
 

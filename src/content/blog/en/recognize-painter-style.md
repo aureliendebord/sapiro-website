@@ -6,8 +6,7 @@ lang: "en"
 urlSlug: "recognize-painter-style"
 translationKey: "reconnaitre-peintre"
 category: "art"
-author: "Aurélien Debord"
-authorRole: "Founder of SAPIRO"
+author: "SAPIRO"
 readingTime: 8
 ---
 

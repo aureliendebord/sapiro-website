@@ -6,8 +6,7 @@ lang: "fr"
 urlSlug: "dictateurs-xxe-siecle"
 translationKey: "dictateurs-xxe-siecle"
 category: "histoire"
-author: "Aurélien Debord"
-authorRole: "Fondateur de SAPIRO"
+author: "SAPIRO"
 readingTime: 8
 ---
 

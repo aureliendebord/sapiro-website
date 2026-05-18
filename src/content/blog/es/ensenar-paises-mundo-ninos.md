@@ -6,8 +6,7 @@ lang: "es"
 urlSlug: "ensenar-paises-mundo-ninos"
 translationKey: "apprendre-pays-enfants"
 category: "famille"
-author: "Aurélien Debord"
-authorRole: "Fundador de SAPIRO"
+author: "SAPIRO"
 readingTime: 6
 ---
 

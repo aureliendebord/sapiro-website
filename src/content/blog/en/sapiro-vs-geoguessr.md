@@ -6,8 +6,7 @@ lang: "en"
 urlSlug: "sapiro-vs-geoguessr"
 translationKey: "sapiro-vs-geoguessr"
 category: "apps"
-author: "Aurélien Debord"
-authorRole: "Founder of SAPIRO"
+author: "SAPIRO"
 readingTime: 8
 ---
 

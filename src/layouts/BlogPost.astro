@@ -23,16 +23,14 @@ interface Props {
   slug: string;
   category: string;
   author: string;
-  authorRole?: string;
   readingTime?: number;
   faqItems?: FaqItem[];
   translationSlugs?: TranslationSlugs;
 }
 
-const { title, description, date, lastModified, lang, slug, category, author, authorRole, readingTime, faqItems = [], translationSlugs } = Astro.props;
+const { title, description, date, lastModified, lang, slug, category, author, readingTime, faqItems = [], translationSlugs } = Astro.props;
 const t = getTranslations(lang);
 const modifiedDate = lastModified || date;
-const authorIsPerson = author !== 'SAPIRO';
 
 const formattedDate = date.toLocaleDateString(lang === 'fr' ? 'fr-FR' : lang === 'en' ? 'en-US' : 'es-ES', {
   year: 'numeric',
@@ -60,26 +58,16 @@ const hreflangs = [
 ];
 
 // Schema.org Article
-const authorSchema = authorIsPerson ? {
-  '@type': 'Person',
-  name: author,
-  ...(authorRole && { jobTitle: authorRole }),
-  url: 'https://sapiro.app/about/aurelien-debord/',
-  sameAs: [
-    'https://www.linkedin.com/in/aureliendebord/',
-  ]
-} : {
-  '@type': 'Organization',
-  name: author,
-  url: 'https://sapiro.app'
-};
-
 const schemaArticle = {
   '@context': 'https://schema.org',
   '@type': 'Article',
   headline: title,
   description: description,
-  author: authorSchema,
+  author: {
+    '@type': 'Organization',
+    name: author,
+    url: 'https://sapiro.app'
+  },
   publisher: {
     '@type': 'Organization',
     name: 'SAPIRO',

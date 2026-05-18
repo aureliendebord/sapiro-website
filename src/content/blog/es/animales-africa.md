@@ -6,8 +6,7 @@ lang: "es"
 urlSlug: "animales-africa"
 translationKey: "animaux-afrique"
 category: "nature"
-author: "Aurélien Debord"
-authorRole: "Fundador de SAPIRO"
+author: "SAPIRO"
 readingTime: 9
 ---
 

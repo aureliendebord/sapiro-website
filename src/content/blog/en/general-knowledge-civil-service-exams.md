@@ -6,8 +6,7 @@ lang: "en"
 urlSlug: "general-knowledge-civil-service-exams"
 translationKey: "concours-fonction-publique"
 category: "concours"
-author: "Aurélien Debord"
-authorRole: "Founder of SAPIRO"
+author: "SAPIRO"
 readingTime: 7
 ---
 

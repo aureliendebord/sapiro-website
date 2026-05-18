@@ -6,8 +6,7 @@ lang: "fr"
 urlSlug: "annales-culture-generale-corriges"
 translationKey: "annales-culture-generale"
 category: "concours"
-author: "Aurélien Debord"
-authorRole: "Fondateur de SAPIRO"
+author: "SAPIRO"
 readingTime: 6
 ---
 

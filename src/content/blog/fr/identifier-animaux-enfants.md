@@ -6,8 +6,7 @@ lang: "fr"
 urlSlug: "identifier-animaux-enfants"
 translationKey: "identifier-animaux-enfants"
 category: "famille"
-author: "Aurélien Debord"
-authorRole: "Fondateur de SAPIRO"
+author: "SAPIRO"
 readingTime: 6
 ---
 

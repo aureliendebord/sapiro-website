@@ -6,8 +6,7 @@ lang: "en"
 urlSlug: "history-elementary-middle-school"
 translationKey: "histoire-primaire-college"
 category: "famille"
-author: "Aurélien Debord"
-authorRole: "Founder of SAPIRO"
+author: "SAPIRO"
 readingTime: 6
 ---
 

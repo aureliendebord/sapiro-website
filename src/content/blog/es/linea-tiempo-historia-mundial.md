@@ -6,8 +6,7 @@ lang: "es"
 urlSlug: "linea-tiempo-historia-mundial"
 translationKey: "frise-chronologique"
 category: "histoire"
-author: "Aurélien Debord"
-authorRole: "Fundador de SAPIRO"
+author: "SAPIRO"
 readingTime: 7
 ---
 

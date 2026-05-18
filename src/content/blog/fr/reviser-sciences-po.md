@@ -6,8 +6,7 @@ lang: "fr"
 urlSlug: "reviser-sciences-po"
 translationKey: "reviser-sciences-po"
 category: "concours"
-author: "Aurélien Debord"
-authorRole: "Fondateur de SAPIRO"
+author: "SAPIRO"
 readingTime: 6
 ---
 

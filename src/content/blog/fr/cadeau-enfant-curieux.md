@@ -6,8 +6,7 @@ lang: "fr"
 urlSlug: "cadeau-enfant-curieux"
 translationKey: "cadeau-enfant-curieux"
 category: "famille"
-author: "Aurélien Debord"
-authorRole: "Fondateur de SAPIRO"
+author: "SAPIRO"
 readingTime: 6
 ---
 

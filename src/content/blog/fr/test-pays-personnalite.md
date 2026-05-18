@@ -6,8 +6,7 @@ lang: "fr"
 urlSlug: "test-pays-personnalite"
 translationKey: "test-pays-personnalite"
 category: "voyage"
-author: "Aurélien Debord"
-authorRole: "Fondateur de SAPIRO"
+author: "SAPIRO"
 readingTime: 6
 ---
 

@@ -6,8 +6,7 @@ lang: "es"
 urlSlug: "ensenar-arte-ninos"
 translationKey: "apprendre-art-enfants"
 category: "famille"
-author: "Aurélien Debord"
-authorRole: "Fundador de SAPIRO"
+author: "SAPIRO"
 readingTime: 6
 ---
 

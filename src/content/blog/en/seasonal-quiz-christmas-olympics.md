@@ -6,8 +6,7 @@ lang: "en"
 urlSlug: "seasonal-quiz-christmas-olympics"
 translationKey: "quiz-saisonnier"
 category: "formats-quiz"
-author: "Aurélien Debord"
-authorRole: "Founder of SAPIRO"
+author: "SAPIRO"
 readingTime: 5
 ---
 

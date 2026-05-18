@@ -6,8 +6,7 @@ lang: "en"
 urlSlug: "world-timeline-history"
 translationKey: "frise-chronologique"
 category: "histoire"
-author: "Aurélien Debord"
-authorRole: "Founder of SAPIRO"
+author: "SAPIRO"
 readingTime: 7
 ---
 

@@ -6,8 +6,7 @@ lang: "fr"
 urlSlug: "histoire-cm1-cm2-6e-programme"
 translationKey: "histoire-primaire-college"
 category: "famille"
-author: "Aurélien Debord"
-authorRole: "Fondateur de SAPIRO"
+author: "SAPIRO"
 readingTime: 6
 ---
 

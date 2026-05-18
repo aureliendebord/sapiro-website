@@ -6,8 +6,7 @@ lang: "es"
 urlSlug: "aprender-historia-divirtiendose"
 translationKey: "apprendre-histoire"
 category: "education"
-author: "Aurélien Debord"
-authorRole: "Fundador de SAPIRO"
+author: "SAPIRO"
 readingTime: 9
 ---
 
