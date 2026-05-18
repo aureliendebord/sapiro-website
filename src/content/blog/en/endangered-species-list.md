@@ -6,8 +6,7 @@ lang: "en"
 urlSlug: "endangered-species-list"
 translationKey: "animaux-disparition"
 category: "nature"
-author: "Aurélien Debord"
-authorRole: "Founder of SAPIRO"
+author: "SAPIRO"
 readingTime: 9
 ---
 

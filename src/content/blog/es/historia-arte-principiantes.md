@@ -6,8 +6,7 @@ lang: "es"
 urlSlug: "historia-arte-principiantes"
 translationKey: "histoire-art-nuls"
 category: "art"
-author: "Aurélien Debord"
-authorRole: "Fundador de SAPIRO"
+author: "SAPIRO"
 readingTime: 8
 ---
 

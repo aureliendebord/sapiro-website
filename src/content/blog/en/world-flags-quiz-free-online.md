@@ -6,8 +6,7 @@ lang: "en"
 urlSlug: "world-flags-quiz-free-online"
 translationKey: "quiz-drapeaux-monde"
 category: "formats-quiz"
-author: "Aurélien Debord"
-authorRole: "Founder of SAPIRO"
+author: "SAPIRO"
 readingTime: 5
 ---
 

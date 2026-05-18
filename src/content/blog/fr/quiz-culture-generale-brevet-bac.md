@@ -6,8 +6,7 @@ lang: "fr"
 urlSlug: "quiz-culture-generale-brevet-bac"
 translationKey: "quiz-brevet-bac"
 category: "concours"
-author: "Aurélien Debord"
-authorRole: "Fondateur de SAPIRO"
+author: "SAPIRO"
 readingTime: 6
 ---
 

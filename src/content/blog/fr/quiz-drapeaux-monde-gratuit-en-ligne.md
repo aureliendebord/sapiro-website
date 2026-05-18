@@ -6,8 +6,7 @@ lang: "fr"
 urlSlug: "quiz-drapeaux-monde-gratuit-en-ligne"
 translationKey: "quiz-drapeaux-monde"
 category: "formats-quiz"
-author: "Aurélien Debord"
-authorRole: "Fondateur de SAPIRO"
+author: "SAPIRO"
 readingTime: 5
 ---
 

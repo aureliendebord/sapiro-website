@@ -6,8 +6,7 @@ lang: "en"
 urlSlug: "art-history-quiz-exam"
 translationKey: "quiz-histoire-art-bac"
 category: "art"
-author: "Aurélien Debord"
-authorRole: "Founder of SAPIRO"
+author: "SAPIRO"
 readingTime: 7
 ---
 

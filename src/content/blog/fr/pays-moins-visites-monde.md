@@ -6,8 +6,7 @@ lang: "fr"
 urlSlug: "pays-moins-visites-monde"
 translationKey: "pays-moins-visites"
 category: "voyage"
-author: "Aurélien Debord"
-authorRole: "Fondateur de SAPIRO"
+author: "SAPIRO"
 readingTime: 6
 ---
 

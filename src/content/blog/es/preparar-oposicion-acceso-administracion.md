@@ -6,8 +6,7 @@ lang: "es"
 urlSlug: "preparar-oposicion-acceso-administracion"
 translationKey: "concours-categorie-bc"
 category: "concours"
-author: "Aurélien Debord"
-authorRole: "Fundador de SAPIRO"
+author: "SAPIRO"
 readingTime: 6
 ---
 

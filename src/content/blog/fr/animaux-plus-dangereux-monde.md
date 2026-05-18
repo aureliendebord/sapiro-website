@@ -6,8 +6,7 @@ lang: "fr"
 urlSlug: "animaux-plus-dangereux-monde"
 translationKey: "animaux-dangereux"
 category: "nature"
-author: "Aurélien Debord"
-authorRole: "Fondateur de SAPIRO"
+author: "SAPIRO"
 readingTime: 8
 ---
 

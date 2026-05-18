@@ -6,8 +6,7 @@ lang: "en"
 urlSlug: "antiquity-middle-ages-renaissance-overview"
 translationKey: "antiquite-moyen-age-renaissance"
 category: "histoire"
-author: "Aurélien Debord"
-authorRole: "Founder of SAPIRO"
+author: "SAPIRO"
 readingTime: 7
 ---
 

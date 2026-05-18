@@ -6,8 +6,7 @@ lang: "fr"
 urlSlug: "quiz-culture-generale-niveau"
 translationKey: "quiz-niveau"
 category: "formats-quiz"
-author: "Aurélien Debord"
-authorRole: "Fondateur de SAPIRO"
+author: "SAPIRO"
 readingTime: 5
 ---
 

@@ -6,8 +6,7 @@ lang: "en"
 urlSlug: "general-knowledge-quiz-high-school"
 translationKey: "quiz-brevet-bac"
 category: "concours"
-author: "Aurélien Debord"
-authorRole: "Founder of SAPIRO"
+author: "SAPIRO"
 readingTime: 6
 ---
 

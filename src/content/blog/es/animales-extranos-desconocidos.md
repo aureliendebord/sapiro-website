@@ -6,8 +6,7 @@ lang: "es"
 urlSlug: "animales-extranos-desconocidos"
 translationKey: "animaux-etranges"
 category: "nature"
-author: "Aurélien Debord"
-authorRole: "Fundador de SAPIRO"
+author: "SAPIRO"
 readingTime: 9
 ---
 

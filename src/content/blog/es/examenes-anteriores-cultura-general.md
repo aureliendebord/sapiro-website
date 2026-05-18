@@ -6,8 +6,7 @@ lang: "es"
 urlSlug: "examenes-anteriores-cultura-general"
 translationKey: "annales-culture-generale"
 category: "concours"
-author: "Aurélien Debord"
-authorRole: "Fundador de SAPIRO"
+author: "SAPIRO"
 readingTime: 6
 ---
 

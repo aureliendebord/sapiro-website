@@ -6,8 +6,7 @@ lang: "en"
 urlSlug: "countries-that-disappeared"
 translationKey: "pays-disparus"
 category: "voyage"
-author: "Aurélien Debord"
-authorRole: "Founder of SAPIRO"
+author: "SAPIRO"
 readingTime: 6
 ---
 

@@ -6,8 +6,7 @@ lang: "es"
 urlSlug: "obras-arte-imprescindibles"
 translationKey: "oeuvres-art-incontournables"
 category: "culture-generale"
-author: "Aurélien Debord"
-authorRole: "Fundador de SAPIRO"
+author: "SAPIRO"
 readingTime: 10
 ---
 

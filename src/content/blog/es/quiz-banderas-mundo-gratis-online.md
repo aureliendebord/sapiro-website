@@ -6,8 +6,7 @@ lang: "es"
 urlSlug: "quiz-banderas-mundo-gratis-online"
 translationKey: "quiz-drapeaux-monde"
 category: "formats-quiz"
-author: "Aurélien Debord"
-authorRole: "Fundador de SAPIRO"
+author: "SAPIRO"
 readingTime: 5
 ---
 

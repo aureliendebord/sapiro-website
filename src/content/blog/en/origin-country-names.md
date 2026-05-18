@@ -6,8 +6,7 @@ lang: "en"
 urlSlug: "origin-country-names"
 translationKey: "origine-noms-pays"
 category: "voyage"
-author: "Aurélien Debord"
-authorRole: "Founder of SAPIRO"
+author: "SAPIRO"
 readingTime: 6
 ---
 

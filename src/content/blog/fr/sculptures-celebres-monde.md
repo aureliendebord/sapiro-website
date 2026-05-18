@@ -6,8 +6,7 @@ lang: "fr"
 urlSlug: "sculptures-celebres-monde"
 translationKey: "sculptures-celebres"
 category: "art"
-author: "Aurélien Debord"
-authorRole: "Fondateur de SAPIRO"
+author: "SAPIRO"
 readingTime: 7
 ---
 

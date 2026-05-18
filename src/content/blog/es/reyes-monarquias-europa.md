@@ -6,8 +6,7 @@ lang: "es"
 urlSlug: "reyes-monarquias-europa"
 translationKey: "rois-monarchies-europe"
 category: "histoire"
-author: "Aurélien Debord"
-authorRole: "Fundador de SAPIRO"
+author: "SAPIRO"
 readingTime: 8
 ---
 

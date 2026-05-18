@@ -6,8 +6,7 @@ lang: "en"
 urlSlug: "prepare-university-admission"
 translationKey: "reviser-sciences-po"
 category: "concours"
-author: "Aurélien Debord"
-authorRole: "Founder of SAPIRO"
+author: "SAPIRO"
 readingTime: 6
 ---
 

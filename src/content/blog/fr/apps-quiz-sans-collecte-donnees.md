@@ -6,8 +6,7 @@ lang: "fr"
 urlSlug: "apps-quiz-sans-collecte-donnees"
 translationKey: "apps-sans-donnees"
 category: "comparatifs"
-author: "Aurélien Debord"
-authorRole: "Fondateur de SAPIRO"
+author: "SAPIRO"
 readingTime: 5
 ---
 
