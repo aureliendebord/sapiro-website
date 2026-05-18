@@ -9,7 +9,12 @@
     "features": "Features",
     "blog": "Blog",
     "pricing": "Pricing",
-    "download": "Download"
+    "download": "Download",
+    "themes": "Topics",
+    "themeGeography": "Geography",
+    "themeHistory": "History",
+    "themeArt": "Art",
+    "themeNature": "Nature"
   },
   "hero": {
     "title": "Learn while having fun!",
@@ -81,7 +86,9 @@
     "terms": "Terms of Use",
     "legal": "Legal Notice",
     "reviews": "Reviews",
-    "faq": "FAQ"
+    "faq": "FAQ",
+    "themes": "Topics",
+    "author": "The author"
   },
   "blog": {
     "title": "SAPIRO Blog",
@@ -96,7 +103,15 @@
       "culture-generale": "General Knowledge",
       "education": "Education",
       "drapeaux": "Flags",
-      "apps": "Apps"
+      "apps": "Apps",
+      "art": "Art",
+      "histoire": "History",
+      "nature": "Nature",
+      "concours": "Exams",
+      "famille": "Family",
+      "formats-quiz": "Quiz",
+      "comparatifs": "Comparisons",
+      "voyage": "Travel"
     }
   },
   "privacy": {

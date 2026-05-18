@@ -9,7 +9,12 @@
     "features": "Fonctionnalités",
     "blog": "Blog",
     "pricing": "Tarifs",
-    "download": "Télécharger"
+    "download": "Télécharger",
+    "themes": "Thèmes",
+    "themeGeography": "Géographie",
+    "themeHistory": "Histoire",
+    "themeArt": "Art",
+    "themeNature": "Nature"
   },
   "hero": {
     "title": "Apprends en t'amusant !",
@@ -81,7 +86,9 @@
     "terms": "Conditions d'utilisation",
     "legal": "Mentions légales",
     "reviews": "Avis",
-    "faq": "FAQ"
+    "faq": "FAQ",
+    "themes": "Thèmes",
+    "author": "L'auteur"
   },
   "blog": {
     "title": "Blog SAPIRO",
@@ -96,7 +103,15 @@
       "culture-generale": "Culture générale",
       "education": "Éducation",
       "drapeaux": "Drapeaux",
-      "apps": "Applications"
+      "apps": "Applications",
+      "art": "Art",
+      "histoire": "Histoire",
+      "nature": "Nature",
+      "concours": "Concours",
+      "famille": "Famille",
+      "formats-quiz": "Quiz",
+      "comparatifs": "Comparatifs",
+      "voyage": "Voyage"
     }
   },
   "privacy": {
