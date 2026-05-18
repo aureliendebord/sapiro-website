@@ -16,9 +16,7 @@ const t = getTranslations(lang);
 const allPosts = (await getCollection('blog', ({ data }) => data.lang === 'en'))
   .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
 
-const PER_PAGE = 24;
-const recentPosts = allPosts.slice(0, PER_PAGE);
-const totalPages = Math.ceil(allPosts.length / PER_PAGE);
+const recentPosts = allPosts.slice(0, 9);
 
 const clusterCards = clusters.map((c) => ({
   label: c.label[lang],
@@ -98,16 +96,6 @@ const blogSchema = {
             />
           ))}
         </div>
-
-        {totalPages > 1 && (
-          <nav class="pagination" aria-label="Pagination">
-            <span class="page-current" aria-current="page">1</span>
-            {Array.from({ length: totalPages - 1 }, (_, i) => i + 2).map((n) => (
-              <a href={`/en/blog/page/${n}/`} class="page-link">{n}</a>
-            ))}
-            <a href="/en/blog/page/2/" class="page-next">{t.blog.next} &rarr;</a>
-          </nav>
-        )}
       </div>
     </section>
 
@@ -130,13 +118,6 @@ const blogSchema = {
   .cluster-count { font-size: 0.78rem; font-weight: 700; color: var(--orange); text-transform: uppercase; letter-spacing: 0.03em; }
   .blog-listing { padding: 56px 0 80px; background: #fff; }
   .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
-  .pagination { display: flex; justify-content: center; align-items: center; gap: 8px; margin-top: 48px; }
-  .page-link, .page-current, .page-next { display: inline-flex; align-items: center; justify-content: center; min-width: 42px; height: 42px; padding: 0 14px; border-radius: 10px; font-weight: 600; font-size: 15px; }
-  .page-link { border: 1.5px solid #e5e7eb; color: var(--noir); transition: border-color 0.2s, color 0.2s; }
-  .page-link:hover { border-color: var(--orange); color: var(--orange); }
-  .page-current { background: linear-gradient(135deg, #ff6b35, #ff8f5c); color: #fff; }
-  .page-next { border: 1.5px solid var(--orange); color: var(--orange); transition: background 0.2s, color 0.2s; }
-  .page-next:hover { background: var(--orange); color: #fff; }
   @media (max-width: 1024px) { .cluster-grid { grid-template-columns: repeat(2, 1fr); } .grid { grid-template-columns: repeat(2, 1fr); } }
   @media (max-width: 640px) { .cluster-grid { grid-template-columns: 1fr; } .grid { grid-template-columns: 1fr; } .blog-listing { padding: 40px 0 64px; } .cluster-hub { padding: 40px 0 8px; } }
   .page-main > section { opacity: 0; transform: translateY(24px); transition: opacity 0.7s cubic-bezier(0.22, 1, 0.36, 1), transform 0.7s cubic-bezier(0.22, 1, 0.36, 1); }
