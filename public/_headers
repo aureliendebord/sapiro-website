@@ -8,3 +8,18 @@
 # Assurer le bon Content-Type pour robots.txt
 /robots.txt
   Content-Type: text/plain; charset=utf-8
+
+# Page d'attribution des images (statique, generee depuis le repo sapiro)
+# Cache 1h : la liste evolue uniquement entre releases de l'app
+# FR a la racine, EN/ES traduits via scripts/translate-credits.mjs
+/credits/*
+  Content-Type: text/html; charset=utf-8
+  Cache-Control: public, max-age=3600
+
+/en/credits/*
+  Content-Type: text/html; charset=utf-8
+  Cache-Control: public, max-age=3600
+
+/es/credits/*
+  Content-Type: text/html; charset=utf-8
+  Cache-Control: public, max-age=3600
