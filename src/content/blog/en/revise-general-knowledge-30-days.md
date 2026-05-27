@@ -1,6 +1,6 @@
 ---
 title: "Revise General Knowledge in 30 Days: Daily Plan"
-description: "A 30-day plan to revise general knowledge efficiently before an exam, day by day, theme by theme."
+description: "A 30-day plan to revise general knowledge efficiently before an exam: day by day, theme by theme, with a daily schedule and the right method to retain it for good."
 date: 2026-02-12
 lang: "en"
 urlSlug: "revise-general-knowledge-30-days"
