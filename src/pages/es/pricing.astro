@@ -16,19 +16,19 @@ const t = getTranslations(lang);
   <Fragment slot="head">
     <script type="application/ld+json" set:html={JSON.stringify({
       "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
+      "@type": "Product",
       "name": "SAPIRO",
-      "applicationCategory": "EducationalApplication",
-      "operatingSystem": "iOS, Android",
-      "offers": [
-        { "@type": "Offer", "price": "0", "priceCurrency": "EUR", "description": "Versión gratuita" },
-        { "@type": "Offer", "price": "1.99", "priceCurrency": "EUR", "description": "Sapiro+ Mensual", "priceValidUntil": "2027-12-31" },
-        { "@type": "Offer", "price": "19.99", "priceCurrency": "EUR", "description": "Sapiro+ Anual", "priceValidUntil": "2027-12-31" },
-        { "@type": "Offer", "price": "39.99", "priceCurrency": "EUR", "description": "Sapiro+ De por vida", "priceValidUntil": "2027-12-31" }
-      ],
+      "image": "https://sapiro.app/images/icon-1024.png",
       "description": "Quiz de cultura general: geografía, historia, arte y naturaleza. 2000+ preguntas para aprender divirtiéndose.",
-      "screenshot": "https://sapiro.app/images/icon-1024.png",
-      "url": "https://sapiro.app/es/pricing/"
+      "brand": { "@type": "Brand", "name": "SAPIRO" },
+      "offers": {
+        "@type": "AggregateOffer",
+        "priceCurrency": "EUR",
+        "lowPrice": "0",
+        "highPrice": "39.99",
+        "offerCount": "4",
+        "url": "https://sapiro.app/es/pricing/"
+      }
     })} />
   </Fragment>
   <Header lang={lang} t={t} />
