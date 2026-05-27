@@ -19,10 +19,13 @@ const translations = {
     htmlLang: 'en',
     title: 'Sapiro — Image credits',
     metaDescription:
-      'Detailed credits and licenses for the images used in the Sapiro app. All images come from Wikimedia Commons and are credited individually.',
+      'Credits and licenses for the images used in Sapiro. All images come from Wikimedia Commons and are credited individually.',
     ogDescription:
       'Full attribution for the Wikimedia Commons images used in the Sapiro app.',
     ogUrl: 'https://sapiro.app/en/credits/',
+    ogImage: 'https://sapiro.app/images/og/default-en.png',
+    ogLocale: 'en_US',
+    canonicalUrl: 'https://sapiro.app/en/credits/',
     h1: 'Image credits',
     lede: `All images used in Sapiro come from <strong>Wikimedia Commons</strong>
         and are released under free licenses (CC-BY, CC-BY-SA, or public domain).
@@ -46,7 +49,7 @@ const translations = {
     unknownAuthor: 'Unknown author',
     undocumentedLicense: 'Undocumented license',
     footerClaim:
-      "Have a concern about an image? Contact us at <a href=\"mailto:bonjour@agencedebord.com\">bonjour@agencedebord.com</a>.",
+      "Have a concern about an image? Contact us at <!--email_off--><a href=\"mailto:bonjour@agencedebord.com\">bonjour@agencedebord.com</a><!--/email_off-->.",
     privacyLabel: 'Privacy',
     termsLabel: 'Terms',
     privacyHref: 'https://sapiro.app/en/privacy/',
@@ -56,10 +59,13 @@ const translations = {
     htmlLang: 'es',
     title: 'Sapiro — Créditos de imágenes',
     metaDescription:
-      'Créditos y licencias detallados de las imágenes utilizadas en la app Sapiro. Todas las imágenes provienen de Wikimedia Commons y están acreditadas individualmente.',
+      'Créditos y licencias de las imágenes utilizadas en Sapiro. Imágenes de Wikimedia Commons, cada una acreditada a su autor original.',
     ogDescription:
       'Atribución completa de las imágenes de Wikimedia Commons utilizadas en la app Sapiro.',
     ogUrl: 'https://sapiro.app/es/credits/',
+    ogImage: 'https://sapiro.app/images/og/default-es.png',
+    ogLocale: 'es_ES',
+    canonicalUrl: 'https://sapiro.app/es/credits/',
     h1: 'Créditos de imágenes',
     lede: `Todas las imágenes utilizadas en Sapiro provienen de <strong>Wikimedia Commons</strong>
         y se publican bajo licencias libres (CC-BY, CC-BY-SA o dominio público).
@@ -83,7 +89,7 @@ const translations = {
     unknownAuthor: 'Autor desconocido',
     undocumentedLicense: 'Licencia no documentada',
     footerClaim:
-      "¿Tienes un reclamo sobre una imagen? Contáctanos en <a href=\"mailto:bonjour@agencedebord.com\">bonjour@agencedebord.com</a>.",
+      "¿Tienes un reclamo sobre una imagen? Contáctanos en <!--email_off--><a href=\"mailto:bonjour@agencedebord.com\">bonjour@agencedebord.com</a><!--/email_off-->.",
     privacyLabel: 'Privacidad',
     termsLabel: 'Términos',
     privacyHref: 'https://sapiro.app/es/privacy/',
@@ -129,6 +135,42 @@ function translate(src, t) {
   out = out.replace(
     /<meta property="og:url" content="https:\/\/sapiro\.app\/credits\/">/,
     `<meta property="og:url" content="${t.ogUrl}">`
+  );
+
+  // canonical
+  out = out.replace(
+    /<link rel="canonical" href="https:\/\/sapiro\.app\/credits\/">/,
+    `<link rel="canonical" href="${t.canonicalUrl}">`
+  );
+
+  // og:image
+  out = out.replace(
+    /<meta property="og:image" content="https:\/\/sapiro\.app\/images\/og\/default-fr\.png">/,
+    `<meta property="og:image" content="${t.ogImage}">`
+  );
+
+  // og:locale
+  out = out.replace(
+    /<meta property="og:locale" content="fr_FR">/,
+    `<meta property="og:locale" content="${t.ogLocale}">`
+  );
+
+  // twitter:title (same as title)
+  out = out.replace(
+    /<meta name="twitter:title" content="Sapiro — Crédits des images">/,
+    `<meta name="twitter:title" content="${t.title}">`
+  );
+
+  // twitter:description (same as og:description)
+  out = out.replace(
+    /<meta name="twitter:description" content="[^"]*">/,
+    `<meta name="twitter:description" content="${t.ogDescription}">`
+  );
+
+  // twitter:image
+  out = out.replace(
+    /<meta name="twitter:image" content="https:\/\/sapiro\.app\/images\/og\/default-fr\.png">/,
+    `<meta name="twitter:image" content="${t.ogImage}">`
   );
 
   // h1
@@ -183,9 +225,9 @@ function translate(src, t) {
   out = out.replaceAll('Auteur inconnu', t.unknownAuthor);
   out = out.replaceAll('Licence non documentée', t.undocumentedLicense);
 
-  // Footer claim paragraph
+  // Footer claim paragraph (email wrapped in <!--email_off--> to disable Cloudflare obfuscation)
   out = out.replace(
-    /<p>\s*Une image fait l'objet d'une réclamation \?\s*Contactez-nous à <a href="mailto:bonjour@agencedebord\.com">bonjour@agencedebord\.com<\/a>\.\s*<\/p>/,
+    /<p>\s*Une image fait l'objet d'une réclamation \?\s*Contactez-nous à <!--email_off--><a href="mailto:bonjour@agencedebord\.com">bonjour@agencedebord\.com<\/a><!--\/email_off-->\.\s*<\/p>/,
     `<p>\n        ${t.footerClaim}\n      </p>`
   );
 
