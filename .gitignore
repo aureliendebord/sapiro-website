@@ -7,6 +7,10 @@ dist/
 # Astro
 .astro/
 
+# Wrangler (Workers state)
+.wrangler/
+workers/*/.wrangler/
+
 # OS files
 .DS_Store
 Thumbs.db

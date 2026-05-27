@@ -1,0 +1,9 @@
+name = "sapiro-www-redirect"
+main = "src/index.js"
+compatibility_date = "2026-05-27"
+
+# La route capte tout le trafic www.sapiro.app, peu importe le DNS (orange cloud).
+# zone_name est requis pour que Cloudflare sache dans quelle zone creer la route.
+routes = [
+  { pattern = "www.sapiro.app/*", zone_name = "sapiro.app" }
+]
