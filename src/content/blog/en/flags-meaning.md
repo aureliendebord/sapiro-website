@@ -40,11 +40,11 @@ Stars are among the most popular flag elements. They can represent states or pro
 
 Crescents appear primarily on the flags of Muslim-majority countries, including Turkey, Pakistan, Tunisia, and Malaysia. The crescent moon has been associated with Islam since the Ottoman Empire adopted it as a symbol, though its roots may reach back even further to pre-Islamic civilizations.
 
-Crosses mark the flags of many nations with Christian heritage. The Scandinavian cross -- off-center, extending to the edges of the flag -- unites Denmark, Sweden, Norway, Finland, and Iceland in a shared design tradition dating back to the 13th century. These flags make a great exercise when [teaching geography to kids](/en/blog/geography-for-kids). Switzerland and Georgia use centered crosses, while the United Kingdom's Union Jack famously overlays the crosses of Saint George, Saint Andrew, and Saint Patrick.
+Crosses mark the flags of many nations with Christian heritage. The Scandinavian cross -- off-center, extending to the edges of the flag -- unites Denmark, Sweden, Norway, Finland, and Iceland in a shared design tradition dating back to the 13th century. These flags make a great exercise when [teaching geography to kids](/en/blog/geography-for-kids/). Switzerland and Georgia use centered crosses, while the United Kingdom's Union Jack famously overlays the crosses of Saint George, Saint Andrew, and Saint Patrick.
 
 The sun features on flags from Japan to Argentina to Malawi. It represents energy, vitality, and a new dawn. Japan's Hinomaru ("circle of the sun") is one of the most recognizable flags on Earth, distilling an entire national identity into a single red disc on white.
 
-If you enjoy discovering these kinds of details, you might also like our article on [the 12 most common geography mistakes](/en/blog/geography-mistakes), which reveals how often we get basic facts about countries wrong.
+If you enjoy discovering these kinds of details, you might also like our article on [the 12 most common geography mistakes](/en/blog/geography-mistakes/), which reveals how often we get basic facts about countries wrong.
 
 ## Japan: The Circle of the Sun
 
@@ -66,7 +66,7 @@ Red represents valor and hardiness. White stands for purity and innocence. Blue 
 
 The French Tricolore is one of the most influential flag designs in history. Its three vertical stripes -- blue, white, and red -- emerged during the French Revolution of 1789. The blue and red are the traditional colors of Paris, while the white represents the monarchy (specifically the Bourbon dynasty). Together, they became the visual shorthand for liberty, equality, and fraternity.
 
-The Tricolore's influence rippled across the globe. The flags of Italy, Ireland, Belgium, Romania, Chad, and many others adopted the vertical triband format directly inspired by France's design. In flag studies (vexillology), the French Revolution marks a turning point -- the moment when flags shifted from representing rulers to representing people. To learn more about the [historical figures](/en/blog/historical-figures) who drove these changes, see our companion article.
+The Tricolore's influence rippled across the globe. The flags of Italy, Ireland, Belgium, Romania, Chad, and many others adopted the vertical triband format directly inspired by France's design. In flag studies (vexillology), the French Revolution marks a turning point -- the moment when flags shifted from representing rulers to representing people. To learn more about the [historical figures](/en/blog/historical-figures/) who drove these changes, see our companion article.
 
 An interesting detail: the proportions of the three stripes were not always equal. Under Napoleon, the blue stripe was wider. The current equal-thirds design was standardized in 1958 under the Fifth Republic, though President Macron quietly reverted to a darker navy blue in 2020, echoing the revolutionary-era shade.
 
@@ -94,7 +94,7 @@ The upper triangle contains a white moon. The lower triangle holds a white sun. 
 
 And then there is the construction problem. Nepal's flag is notoriously difficult to draw following the precise mathematical instructions laid out in the country's constitution, which devotes an entire appendix to the flag's geometric specifications. It is the only national flag whose construction is defined by a step-by-step mathematical algorithm. I once tried to follow those instructions. It took an embarrassingly long time.
 
-For a broader look at how countries are often confused or misunderstood, check out our piece on [the 12 most common geography mistakes everyone makes](/en/blog/geography-mistakes).
+For a broader look at how countries are often confused or misunderstood, check out our piece on [the 12 most common geography mistakes everyone makes](/en/blog/geography-mistakes/).
 
 ## Flags That Look Almost Identical
 
@@ -108,7 +108,7 @@ Ireland and Ivory Coast (Cote d'Ivoire) both use green, white, and orange vertic
 
 Australia and New Zealand both feature the Union Jack in the canton with Southern Cross stars on a blue background. New Zealand uses four red stars with white borders, while Australia uses six white stars plus a large Commonwealth Star below the Union Jack.
 
-These near-twins are a perennial source of embarrassment at international sporting events, where the wrong flag occasionally appears on scoreboards. Sometimes it takes a formal protest to get it corrected. Our deep dive into [the 15 hardest flags to recognize](/en/blog/hardest-flags) covers even more confusing pairs and the tricks to finally tell them apart.
+These near-twins are a perennial source of embarrassment at international sporting events, where the wrong flag occasionally appears on scoreboards. Sometimes it takes a formal protest to get it corrected. Our deep dive into [the 15 hardest flags to recognize](/en/blog/hardest-flags/) covers even more confusing pairs and the tricks to finally tell them apart.
 
 ## Frequently asked questions
 

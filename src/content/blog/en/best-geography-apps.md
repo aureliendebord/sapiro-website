@@ -18,7 +18,7 @@ I downloaded, compared, and ranked eight that are actually worth your time. Here
 
 Available on iOS and Android. Free with an optional premium subscription.
 
-SAPIRO goes well beyond simple [capital-city drills](/en/blog/world-capitals-quiz). It covers flags, country outlines, capitals, cultural trivia, landmarks, and more, all in a clean, modern interface. What makes it stand out is the adaptive difficulty system: the app tracks which topics give you trouble and feeds you more questions in those areas, so you actually improve instead of repeating what you already know.
+SAPIRO goes well beyond simple [capital-city drills](/en/blog/world-capitals-quiz/). It covers flags, country outlines, capitals, cultural trivia, landmarks, and more, all in a clean, modern interface. What makes it stand out is the adaptive difficulty system: the app tracks which topics give you trouble and feeds you more questions in those areas, so you actually improve instead of repeating what you already know.
 
 The content range is wide -- geography, flags, culture, and general knowledge live under one roof. Timed challenge modes add a competitive edge, and detailed explanations after every answer turn mistakes into learning moments. The app is available in French, English, and Spanish, and it works offline, which is a relief if you are studying on a plane or a subway with no signal.
 
@@ -26,7 +26,7 @@ On the downside, some advanced content sits behind the premium subscription, and
 
 Who is it for? Anyone who wants a well-rounded geography and culture education with real quiz depth, from casual learners to serious trivia competitors.
 
-If you are curious about how quiz-based learning boosts retention, our [ultimate guide to general knowledge](/en/blog/general-knowledge-guide) explains the science behind it.
+If you are curious about how quiz-based learning boosts retention, our [ultimate guide to general knowledge](/en/blog/general-knowledge-guide/) explains the science behind it.
 
 ## 2. Seterra -- The Classic Map Quiz
 
@@ -48,7 +48,7 @@ The immersion is unmatched. You develop real-world observation skills that no fl
 
 Who is it for? Curious explorers and armchair travelers who prefer learning through immersion rather than flashcards.
 
-For a look at common geography knowledge gaps that GeoGuessr can help you fix, see our article on [the 12 most common geography mistakes](/en/blog/geography-mistakes).
+For a look at common geography knowledge gaps that GeoGuessr can help you fix, see our article on [the 12 most common geography mistakes](/en/blog/geography-mistakes/).
 
 ## 4. World Geography -- Quiz Game
 
@@ -88,7 +88,7 @@ Developed by Dan Russell-Pinson, these companion apps use a stacking mechanic th
 
 Kids love the game mechanic, and it teaches shape recognition alongside factual knowledge. No ads, no in-app purchases after the initial buy, and the design is colorful and polished. The downside is that the content is limited to countries or U.S. states -- no flags, culture, or deeper material. Adults will likely find it too simple, there are no multiplayer features, and the content does not update often.
 
-Who is it for? Families with children aged 6-12 who want an educational game that does not feel like homework. For more ideas on engaging kids with geography, check out our guide to [organizing a family geography quiz night](/en/blog/geography-family).
+Who is it for? Families with children aged 6-12 who want an educational game that does not feel like homework. For more ideas on engaging kids with geography, check out our guide to [organizing a family geography quiz night](/en/blog/geography-family/).
 
 ## 8. QuizUp (Geography Category)
 
@@ -106,7 +106,7 @@ With eight solid options on the table, here is a quick framework to find your ma
 
 If you want comprehensive learning that blends geography, culture, and quizzes, SAPIRO offers the widest range of content with smart, adaptive difficulty. For pure map skills, Seterra remains the gold standard. If immersive exploration is more your style, GeoGuessr turns geography into a detective game using real Street View imagery. Families with kids should look at Stack the Countries, which combines learning with a game mechanic children actually enjoy. For casual daily practice, World Geography or Geography Quiz provide quick, low-commitment sessions. Visual learners will appreciate StudyGe's map-first approach. And for competitive multiplayer, QuizUp revivals (along with SAPIRO's timed modes) deliver the head-to-head adrenaline.
 
-Consider pairing two apps for the best results: one for structured quiz practice (like SAPIRO) and one for immersive exploration (like GeoGuessr). The variety keeps your brain engaged and covers different types of geographic knowledge. For the science behind why this works, read our piece on [gamification in education](/en/blog/gamification-education).
+Consider pairing two apps for the best results: one for structured quiz practice (like SAPIRO) and one for immersive exploration (like GeoGuessr). The variety keeps your brain engaged and covers different types of geographic knowledge. For the science behind why this works, read our piece on [gamification in education](/en/blog/gamification-education/).
 
 ## How often should you practice geography to see results?
 
@@ -114,7 +114,7 @@ The single biggest factor in learning geography is whether you use an app regula
 
 The best geography apps understand this and are designed for bite-sized sessions. SAPIRO, for example, lets you complete a full quiz round in under five minutes, so it fits into a commute, a lunch break, or those few minutes before bed when you are not quite ready to sleep.
 
-If you want to see why quiz-based apps are so effective for building lasting knowledge, our article on [the hidden meaning of flags](/en/blog/flags-meaning) demonstrates how a single question about a flag can unlock an entire chain of historical and cultural learning.
+If you want to see why quiz-based apps are so effective for building lasting knowledge, our article on [the hidden meaning of flags](/en/blog/flags-meaning/) demonstrates how a single question about a flag can unlock an entire chain of historical and cultural learning.
 
 ## Frequently asked questions
 

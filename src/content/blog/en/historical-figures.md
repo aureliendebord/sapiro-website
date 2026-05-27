@@ -12,7 +12,7 @@ readingTime: 10
 
 Here is a test. Name three people from before the year 1500 who changed the course of history. If you got stuck after two, you are not alone. Most of us carry around a mental shortlist of historical figures that skews heavily toward recent centuries and our own part of the world. But history is not just a sequence of dates and events -- it is the story of individuals whose decisions, ideas, and actions reshaped everything that came after them. Some built empires. Others tore them down. Some advanced science by centuries. Others fought for the basic dignity of their fellow human beings.
 
-This article profiles 20 historical figures spanning from antiquity to the modern era and covering every inhabited continent. Whether you are preparing for a historical figures quiz or simply curious, this is your essential guide. And if you enjoy testing your knowledge, you might also appreciate our articles on [world capitals](/en/blog/world-capitals-quiz) and [the hardest flags to recognize](/en/blog/hardest-flags).
+This article profiles 20 historical figures spanning from antiquity to the modern era and covering every inhabited continent. Whether you are preparing for a historical figures quiz or simply curious, this is your essential guide. And if you enjoy testing your knowledge, you might also appreciate our articles on [world capitals](/en/blog/world-capitals-quiz/) and [the hardest flags to recognize](/en/blog/hardest-flags/).
 
 ## The Ancient World
 
@@ -118,7 +118,7 @@ And each person on this list changed the trajectory of history in ways still fel
 
 ## How do you remember historical figures for a quiz?
 
-If you are preparing for a quiz on [general culture or geography](/en/blog/world-capitals-quiz), here are a few strategies for retaining historical figures and their key contributions.
+If you are preparing for a quiz on [general culture or geography](/en/blog/world-capitals-quiz/), here are a few strategies for retaining historical figures and their key contributions.
 
 Create a timeline. Place each figure on a visual timeline to understand who overlapped with whom. It is fascinating to realize that Newton and Louis XIV were contemporaries, or that Einstein was alive during both World Wars.
 
@@ -126,7 +126,7 @@ Use the story, not the date. Our brains remember narratives far better than isol
 
 Group by theme. Revolutionaries (Toussaint, Napoleon, Gandhi, Mandela), scientists (Newton, Curie, Einstein), cultural icons (Leonardo, Confucius, de Beauvoir). Thematic grouping aids recall because your brain can walk through categories instead of scrolling through a random list.
 
-Test yourself regularly. As research on [gamification in learning](/en/blog/gamification-education) shows, active retrieval practice is far more effective than passive review. Read the name, cover the description, and try to recall what they did. That moment of effort is where learning actually happens.
+Test yourself regularly. As research on [gamification in learning](/en/blog/gamification-education/) shows, active retrieval practice is far more effective than passive review. Read the name, cover the description, and try to recall what they did. That moment of effort is where learning actually happens.
 
 ## Frequently asked questions
 

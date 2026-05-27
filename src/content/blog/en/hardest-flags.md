@@ -12,7 +12,7 @@ readingTime: 8
 
 I once lost a pub quiz because of Chad. Not the country itself -- the flag. Three vertical stripes: blue, yellow, red. Identical to Romania's, except for a shade of blue so subtle that squinting at it on a projector felt like trying to distinguish midnight from 11:58 PM. The hardest flags to recognize in the world share exactly this kind of maddening similarity -- some seem designed to torment anyone who tries to tell them apart. Others are so intricate that recalling them from memory feels like being asked to sketch the Sistine Chapel from a brief glance.
 
-Whether you consider yourself a vexillology enthusiast or just someone who likes quizzes on [world capitals](/en/blog/world-capitals-quiz) or [historical figures](/en/blog/historical-figures), the flags on this list will test you. Here are the 15 hardest flags to recognize in the world -- and the tricks to finally master them.
+Whether you consider yourself a vexillology enthusiast or just someone who likes quizzes on [world capitals](/en/blog/world-capitals-quiz/) or [historical figures](/en/blog/historical-figures/), the flags on this list will test you. Here are the 15 hardest flags to recognize in the world -- and the tricks to finally master them.
 
 ## Nearly Identical Twins: Chad and Romania
 
@@ -42,19 +42,19 @@ Ireland starts with green, and Ireland is famously green -- the Emerald Isle. Iv
 
 The flags of Luxembourg and the Netherlands both consist of horizontal red, white, and blue stripes. The distinction lies in the shade of blue: the Netherlands uses a darker cobalt, while Luxembourg employs a lighter sky blue. The Luxembourg flag is also slightly longer in proportion.
 
-Luxembourg is a small, bright country in the heart of Europe -- its blue is lighter, more cheerful. The Netherlands, with its maritime heritage, uses a deeper ocean blue. I think of Dutch painters and their moody seascapes. It sticks. Mixing up these two is one of [the most common geography mistakes](/en/blog/geography-mistakes) people make.
+Luxembourg is a small, bright country in the heart of Europe -- its blue is lighter, more cheerful. The Netherlands, with its maritime heritage, uses a deeper ocean blue. I think of Dutch painters and their moody seascapes. It sticks. Mixing up these two is one of [the most common geography mistakes](/en/blog/geography-mistakes/) people make.
 
 ## Bhutan: The Dragon's Complexity
 
 Moving from look-alikes to sheer complexity, Bhutan's flag is one of the most intricate in the world. It features a white dragon -- the Druk, or Thunder Dragon -- clutching jewels in its claws, set diagonally across a field split between yellow and orange. Reproducing this flag from memory requires recalling the dragon's exact posture, the color of the jewels, and the diagonal division of the background.
 
-The symbolism runs deep, and our article on [the meaning of flags, colors, and symbols](/en/blog/flags-meaning) covers more of these stories. The yellow represents the secular authority of the king. The orange stands for Buddhist spiritual practice. The dragon symbolizes the country's name in Dzongkha: Druk Yul, "Land of the Thunder Dragon." The jewels in its claws represent national wealth and prosperity. Beautiful flag. Nearly impossible to draw.
+The symbolism runs deep, and our article on [the meaning of flags, colors, and symbols](/en/blog/flags-meaning/) covers more of these stories. The yellow represents the secular authority of the king. The orange stands for Buddhist spiritual practice. The dragon symbolizes the country's name in Dzongkha: Druk Yul, "Land of the Thunder Dragon." The jewels in its claws represent national wealth and prosperity. Beautiful flag. Nearly impossible to draw.
 
 ## Turkmenistan: A Carpet Woven Into a Flag
 
 Turkmenistan's flag might be the single most detailed national flag in existence. Along the left side runs a vertical stripe containing five traditional carpet gul patterns, each representing one of the country's major tribes. The main field is green with a white crescent moon and five stars. Below the carpet stripe sit two olive branches, added in 1997 to signify the country's neutrality.
 
-Accurately recalling every carpet pattern is a feat few can manage, making this flag a recurring stumbling block in any [gamified quiz](/en/blog/gamification-education) setting. Even recognizing it is a challenge -- your brain has to process an unusual amount of visual information before it can match the flag to a country.
+Accurately recalling every carpet pattern is a feat few can manage, making this flag a recurring stumbling block in any [gamified quiz](/en/blog/gamification-education/) setting. Even recognizing it is a challenge -- your brain has to process an unusual amount of visual information before it can match the flag to a country.
 
 ## Belize and Its Coat of Arms
 
@@ -74,7 +74,7 @@ Until the 1936 Berlin Olympics, Haiti and Liechtenstein did not realize their fl
 
 The Nordic nations -- Denmark, Sweden, Norway, Finland, and Iceland -- all use variations of the offset cross design. While the color combinations differ, the structural similarity can trip up beginners. Denmark's white cross on a red background is the most distinctive, but distinguishing Norway (red, white, and blue cross) from Iceland (blue, white, and red cross with inverted color emphasis) requires careful attention.
 
-For children just starting to learn geography, the Nordic flags are a fantastic exercise. If you are looking for ways to make this kind of learning engaging, our guide on [teaching geography to kids](/en/blog/geography-for-kids) has plenty of ideas.
+For children just starting to learn geography, the Nordic flags are a fantastic exercise. If you are looking for ways to make this kind of learning engaging, our guide on [teaching geography to kids](/en/blog/geography-for-kids/) has plenty of ideas.
 
 ## Australia and New Zealand
 
@@ -102,7 +102,7 @@ First, focus on distinguishing details. Instead of trying to memorize every flag
 
 Second, use mnemonic associations. Link a flag's unique feature to something memorable about the country. Bhutan has a dragon because it is the "Land of the Thunder Dragon." Turkmenistan has carpet patterns because it is famous for its rugs. The sillier the mental image, the better it sticks.
 
-Third, practice with spaced repetition. Review tricky flags at increasing intervals -- after one day, then three days, then a week. Each review resets your forgetting curve and strengthens recall. Research on [gamification and learning](/en/blog/gamification-education) confirms that this approach significantly outperforms massed study sessions.
+Third, practice with spaced repetition. Review tricky flags at increasing intervals -- after one day, then three days, then a week. Each review resets your forgetting curve and strengthens recall. Research on [gamification and learning](/en/blog/gamification-education/) confirms that this approach significantly outperforms massed study sessions.
 
 Fourth, group flags by family. Study the Nordic crosses together, the Pan-African tricolors together, the Pan-Arab flags together. Understanding the "family" helps you narrow down options quickly during a quiz.
 

@@ -16,7 +16,7 @@ Here are 12 geography mistakes nearly everyone makes, why they stick, and the me
 
 ## 1. Thinking Sydney Is the Capital of Australia
 
-Ask ten people to name Australia's capital and at least half will confidently answer "Sydney." The real capital is Canberra, a planned inland city built in the early 20th century specifically to end the rivalry between Sydney and Melbourne. For the full story behind this and other tricky capitals, see our [world capitals quiz](/en/blog/world-capitals-quiz) article.
+Ask ten people to name Australia's capital and at least half will confidently answer "Sydney." The real capital is Canberra, a planned inland city built in the early 20th century specifically to end the rivalry between Sydney and Melbourne. For the full story behind this and other tricky capitals, see our [world capitals quiz](/en/blog/world-capitals-quiz/) article.
 
 Memory trick: "Can-berra Can-pital." Both start with "Can."
 
@@ -30,11 +30,11 @@ Memory trick: Slova-K-ia ends in "K" -- think "K for east of ChecK republic." Sl
 
 Most flat world maps use the Mercator projection, which dramatically inflates areas near the poles while shrinking those near the equator. The result? Greenland looks as big as Africa, when in reality Africa is about 14 times larger. Africa's total area is approximately 30.3 million square kilometers -- you could fit the United States, China, India, and most of Europe inside it simultaneously. If you have ever underestimated the continent's scale, blame the map, not your memory.
 
-For a deeper look at how maps distort our understanding of the world, check out our article on [the hidden meaning behind flags and their geography](/en/blog/flags-meaning).
+For a deeper look at how maps distort our understanding of the world, check out our article on [the hidden meaning behind flags and their geography](/en/blog/flags-meaning/).
 
 ## 4. Believing Istanbul Is Turkey's Capital
 
-Istanbul is Turkey's cultural and economic heart, straddling Europe and Asia across the Bosphorus. As we cover in our [world capitals quiz](/en/blog/world-capitals-quiz) article, the capital has been Ankara since 1923, when Mustafa Kemal Ataturk moved the seat of government inland to signal a break from the Ottoman past. Istanbul's fame in tourism and commerce keeps this misconception alive decade after decade.
+Istanbul is Turkey's cultural and economic heart, straddling Europe and Asia across the Bosphorus. As we cover in our [world capitals quiz](/en/blog/world-capitals-quiz/) article, the capital has been Ankara since 1923, when Mustafa Kemal Ataturk moved the seat of government inland to signal a break from the Ottoman past. Istanbul's fame in tourism and commerce keeps this misconception alive decade after decade.
 
 Memory trick: "Ankara anchors Turkey's government."
 
@@ -62,7 +62,7 @@ Getting these wrong can be more than an academic issue -- calling a Scotsman "En
 
 Russia is so vast -- 17.1 million square kilometers, making it the largest country on Earth -- that it stretches from Eastern Europe across all of northern Asia, spanning 11 time zones. Its European portion, west of the Ural Mountains, contains most of the population and the capital Moscow. Its Asian portion, Siberia, makes up roughly 77% of its land area. Many people mentally file Russia as purely European or purely Asian. It is emphatically both.
 
-If you enjoy testing yourself on tricky country facts like these, our [ultimate guide to general knowledge](/en/blog/general-knowledge-guide) covers practical strategies to retain this kind of information.
+If you enjoy testing yourself on tricky country facts like these, our [ultimate guide to general knowledge](/en/blog/general-knowledge-guide/) covers practical strategies to retain this kind of information.
 
 ## 9. Placing South America Directly Below North America
 
@@ -82,7 +82,7 @@ Central America -- the strip of land containing Guatemala, Belize, Honduras, El 
 
 Flags are full of look-alikes. The flags of Chad and Romania are virtually identical -- both feature blue, yellow, and red vertical stripes, differing only in an almost imperceptible shade of blue. Ireland and Ivory Coast both use green, white, and orange vertical bands, but in reverse order. Indonesia and Monaco share the same red-over-white horizontal bicolor. These visual twins have caused embarrassing mix-ups at sporting events and diplomatic summits alike.
 
-For a fascinating deep dive into why flags look the way they do, read our article on [the hidden meaning of flags: colors, symbols, and history](/en/blog/flags-meaning).
+For a fascinating deep dive into why flags look the way they do, read our article on [the hidden meaning of flags: colors, symbols, and history](/en/blog/flags-meaning/).
 
 ## Why are geography mistakes so hard to correct?
 
@@ -92,7 +92,7 @@ Map distortion plays a starring role. Mercator and similar projections warp our 
 
 Then there is the sheer bad luck of language. Nobody designed "Slovakia" and "Slovenia" to be confusing, and yet here we are. The same goes for "Sweden" and "Switzerland," or "Budapest" and "Bucharest." Languages evolve without consulting cartographers.
 
-And finally, educational gaps. Many school curricula rush through world geography, leaving students with a shaky mental map that hardens into false certainty over time. This is one reason why [teaching geography to kids](/en/blog/geography-for-kids) through hands-on methods is so valuable -- it builds accurate mental maps from the start.
+And finally, educational gaps. Many school curricula rush through world geography, leaving students with a shaky mental map that hardens into false certainty over time. This is one reason why [teaching geography to kids](/en/blog/geography-for-kids/) through hands-on methods is so valuable -- it builds accurate mental maps from the start.
 
 Once you spot a mistake, fixing it is straightforward. A simple mnemonic, a few rounds of quiz practice, and a little curiosity go a long way.
 
@@ -102,7 +102,7 @@ A few practical steps will eliminate your geography blind spots faster than you 
 
 First, use a globe instead of relying solely on flat maps. Globes preserve true proportions and eliminate projection distortions. Second, quiz yourself regularly -- repetition is the backbone of long-term memory, and even five minutes a day makes a measurable difference. Third, travel virtually through tools like Google Earth and GeoGuessr, which let you explore streets worldwide and build spatial intuition. Fourth, read widely -- news, travel writing, and history books all reinforce geographic facts without feeling like study. And fifth, play geography games. Turning rote memorization into a game changes everything about how your brain stores the information.
 
-If you are looking for a fun way to organize quiz sessions with friends or family, our guide on [how to host a family geography quiz night](/en/blog/geography-family) is packed with ideas.
+If you are looking for a fun way to organize quiz sessions with friends or family, our guide on [how to host a family geography quiz night](/en/blog/geography-family/) is packed with ideas.
 
 ## Frequently asked questions
 

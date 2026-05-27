@@ -24,7 +24,7 @@ Geography -- countries, capitals, physical features, climate, demographics. Hist
 
 A person with strong general knowledge does not know everything about any one of these areas. They know enough about all of them to make connections, hold informed conversations, and learn new things faster -- because new information always has somewhere to "stick."
 
-For a focused deep dive into one of the most testable domains, see our article on [the 12 most common geography mistakes](/en/blog/geography-mistakes). And if you want to make history stick, our guide on [learning history the fun way](/en/blog/learning-history-fun/) explores methods that actually work.
+For a focused deep dive into one of the most testable domains, see our article on [the 12 most common geography mistakes](/en/blog/geography-mistakes/). And if you want to make history stick, our guide on [learning history the fun way](/en/blog/learning-history-fun/) explores methods that actually work.
 
 ## Why is general knowledge still important in the age of Google?
 
@@ -65,15 +65,15 @@ The key word here is "intention." Passive watching builds almost nothing. Active
 
 Quizzes are not just a way to test knowledge; they are one of the most effective ways to build it. The psychological principle at work is called the "testing effect" -- the act of retrieving information from memory strengthens that memory far more than re-reading the same material ever could.
 
-This is why quiz apps work so well for general knowledge, as we explore in depth in our article on [gamification in education](/en/blog/gamification-education). A well-designed quiz does not just tell you whether you are right or wrong; it provides context, explanations, and connections that deepen your understanding with every question.
+This is why quiz apps work so well for general knowledge, as we explore in depth in our article on [gamification in education](/en/blog/gamification-education/). A well-designed quiz does not just tell you whether you are right or wrong; it provides context, explanations, and connections that deepen your understanding with every question.
 
-For a comparison of the best quiz apps available today, including options for geography, flags, and culture, see our [roundup of the 8 best geography apps in 2025](/en/blog/best-geography-apps).
+For a comparison of the best quiz apps available today, including options for geography, flags, and culture, see our [roundup of the 8 best geography apps in 2025](/en/blog/best-geography-apps/).
 
 ### 4. Engage in Conversations and Debates
 
 Knowledge that stays locked in your head stagnates. Talking about what you learn -- with friends, family, colleagues, or online communities -- forces you to organize your thoughts, fill gaps, and see topics from different angles.
 
-Join a trivia team -- our guide on [world capitals quizzes](/en/blog/world-capitals-quiz) is a great place to start testing yourself. Start a book club. Participate in Reddit threads about topics that interest you. Teaching someone else what you have learned is particularly powerful, because explaining a concept out loud reveals whether you truly understand it or are just parroting facts.
+Join a trivia team -- our guide on [world capitals quizzes](/en/blog/world-capitals-quiz/) is a great place to start testing yourself. Start a book club. Participate in Reddit threads about topics that interest you. Teaching someone else what you have learned is particularly powerful, because explaining a concept out loud reveals whether you truly understand it or are just parroting facts.
 
 ### 5. Travel (Physically or Virtually)
 
@@ -91,7 +91,7 @@ Swap 15 minutes of social media scrolling for 15 minutes with a quality news app
 
 Certain areas of general knowledge are overrepresented in most people's heads -- sports, entertainment, national history. Others are systematically neglected. If you want a well-rounded foundation, pay special attention to these commonly overlooked domains.
 
-World geography beyond your own continent deserves real effort. Most people can rattle off European capitals but freeze on African or Asian ones. Our article on [the hidden meaning of flags](/en/blog/flags-meaning) is a great entry point into understanding nations you might have overlooked.
+World geography beyond your own continent deserves real effort. Most people can rattle off European capitals but freeze on African or Asian ones. Our article on [the hidden meaning of flags](/en/blog/flags-meaning/) is a great entry point into understanding nations you might have overlooked.
 
 Art history and classical music are worth at least basic familiarity. Knowing the broad strokes of the Renaissance, Impressionism, and Baroque music, and recognizing [essential artworks](/en/blog/essential-artworks-to-know/) like the Mona Lisa, Guernica, or The Great Wave, sets you apart in more conversations than you might expect.
 
@@ -117,7 +117,7 @@ And do not underestimate sleep. Memory consolidation happens while you rest. Lea
 
 One of the most enjoyable ways to measure how far you have come is to organize a quiz night with friends or family. It combines social fun with genuine knowledge testing, and the competitive element adds motivation that solo study cannot match.
 
-If this sounds appealing, we have a complete guide to [organizing a family geography quiz night](/en/blog/geography-family) that covers everything from question categories to team formation to scoring systems.
+If this sounds appealing, we have a complete guide to [organizing a family geography quiz night](/en/blog/geography-family/) that covers everything from question categories to team formation to scoring systems.
 
 ## Frequently asked questions
 
