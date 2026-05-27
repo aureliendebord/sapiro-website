@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css';
+import { getHreflangUrls } from '../i18n/routes';
 
 interface Props {
   title: string;
@@ -13,31 +14,42 @@ const { title, description, lang = 'fr', noDefaultHreflang = false, noCanonical 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const ogImageURL = new URL(`/images/og/default-${lang}.png`, Astro.site);
 
-// Build dynamic hreflang URLs based on current path
+// Build hreflang URLs using the centralized route map (handles slug translations)
 const pathname = Astro.url.pathname;
-let frPath: string;
-let enPath: string;
-let esPath: string;
+const routeUrls = getHreflangUrls(pathname);
 
-if (pathname.startsWith('/en/')) {
-  const basePath = pathname.replace(/^\/en/, '');
-  frPath = basePath;
-  enPath = `/en${basePath}`;
-  esPath = `/es${basePath}`;
-} else if (pathname.startsWith('/es/')) {
-  const basePath = pathname.replace(/^\/es/, '');
-  frPath = basePath;
-  enPath = `/en${basePath}`;
-  esPath = `/es${basePath}`;
+let hrefFr: string;
+let hrefEn: string;
+let hrefEs: string;
+
+if (routeUrls) {
+  hrefFr = `https://sapiro.app${routeUrls.fr}`;
+  hrefEn = `https://sapiro.app${routeUrls.en}`;
+  hrefEs = `https://sapiro.app${routeUrls.es}`;
 } else {
-  frPath = pathname;
-  enPath = `/en${pathname}`;
-  esPath = `/es${pathname}`;
+  // Fallback for unmapped pages (e.g., blog posts that pass noDefaultHreflang)
+  let frPath: string;
+  let enPath: string;
+  let esPath: string;
+  if (pathname.startsWith('/en/')) {
+    const basePath = pathname.replace(/^\/en/, '');
+    frPath = basePath;
+    enPath = `/en${basePath}`;
+    esPath = `/es${basePath}`;
+  } else if (pathname.startsWith('/es/')) {
+    const basePath = pathname.replace(/^\/es/, '');
+    frPath = basePath;
+    enPath = `/en${basePath}`;
+    esPath = `/es${basePath}`;
+  } else {
+    frPath = pathname;
+    enPath = `/en${pathname}`;
+    esPath = `/es${pathname}`;
+  }
+  hrefFr = `https://sapiro.app${frPath}`;
+  hrefEn = `https://sapiro.app${enPath}`;
+  hrefEs = `https://sapiro.app${esPath}`;
 }
-
-const hrefFr = `https://sapiro.app${frPath}`;
-const hrefEn = `https://sapiro.app${enPath}`;
-const hrefEs = `https://sapiro.app${esPath}`;
 ---
 
 <!DOCTYPE html>

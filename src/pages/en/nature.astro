@@ -28,11 +28,8 @@ const faqSchema = {
 };
 ---
 
-<Layout title="Nature and Animals: Species, Conservation, Biodiversity | SAPIRO" description="Nature and global wildlife: 600 animal species, most dangerous animals, endangered species." lang={lang}>
+<Layout title="Nature and Animals: Species, Conservation, Biodiversity | SAPIRO" description="Nature and global wildlife in SAPIRO: 600 animal species, most dangerous animals, endangered species, and how to identify them. Guides, quizzes, methods." lang={lang}>
   <Fragment slot="head">
-    <link rel="alternate" hreflang="en" href="https://sapiro.app/en/nature/" />
-    <link rel="alternate" hreflang="fr" href="https://sapiro.app/nature/" />
-    <link rel="alternate" hreflang="es" href="https://sapiro.app/es/naturaleza/" />
     <script type="application/ld+json" set:html={JSON.stringify(collectionPageSchema)} />
     <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
   </Fragment>

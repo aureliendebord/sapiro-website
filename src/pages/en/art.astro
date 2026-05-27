@@ -28,11 +28,8 @@ const faqSchema = {
 };
 ---
 
-<Layout title="Art History: Painters, Movements, Museums | SAPIRO" description="Art history: 553 works, famous painters, art movements from Renaissance to Pop Art, world museums." lang={lang}>
+<Layout title="Art History: Painters, Movements, Museums | SAPIRO" description="Art history in SAPIRO: 553 essential works, famous painters, art movements from Renaissance to Pop Art, and the world's most important museums. Guides and quizzes." lang={lang}>
   <Fragment slot="head">
-    <link rel="alternate" hreflang="en" href="https://sapiro.app/en/art/" />
-    <link rel="alternate" hreflang="fr" href="https://sapiro.app/art/" />
-    <link rel="alternate" hreflang="es" href="https://sapiro.app/es/arte/" />
     <script type="application/ld+json" set:html={JSON.stringify(collectionPageSchema)} />
     <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
   </Fragment>
