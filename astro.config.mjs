@@ -7,6 +7,11 @@ export default defineConfig({
   adapter: cloudflare(),
   integrations: [sitemap({
     lastmod: new Date(),
+    customPages: [
+      'https://sapiro.app/credits/',
+      'https://sapiro.app/en/credits/',
+      'https://sapiro.app/es/credits/',
+    ],
   })],
   i18n: {
     defaultLocale: 'fr',
