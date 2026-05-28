@@ -10,125 +10,581 @@ const { lang } = Astro.props;
 const copy = {
   fr: {
     kicker: 'Essaie, sans installer',
-    title: 'Trois questions. Trois secondes de réflexion.',
-    subtitle: 'Quel est le drapeau, la capitale, ou l\'animal ? C\'est la vraie mécanique de SAPIRO, directement dans ton navigateur.',
+    title: 'Choisis ton univers.\nTrois questions par thème.',
+    subtitle: 'Drapeaux, personnages, œuvres, animaux, monuments. C\'est la vraie mécanique de SAPIRO, directement dans ton navigateur.',
+    pickTheme: 'Choisis une thématique',
     start: 'Commencer',
     next: 'Question suivante',
+    finish: 'Voir mon score',
     restart: 'Rejouer',
+    changeTheme: 'Changer de thème',
     download: 'Installer l\'app pour 2 000+ questions',
     correct: 'Bien joué !',
     wrong: 'Presque…',
     score: 'Ton score',
-    of: 'sur',
     explanation: 'Explication',
     question: 'Question',
+    resultPerfect: 'Score parfait !',
+    resultGood: 'Bien joué !',
+    resultMeh: 'Y\'a de la marge !',
   },
   en: {
     kicker: 'Try it, no install',
-    title: 'Three questions. Three seconds to think.',
-    subtitle: 'Which flag, which capital, which animal? This is the real SAPIRO mechanic, right in your browser.',
+    title: 'Pick your universe.\nThree questions per theme.',
+    subtitle: 'Flags, people, artworks, animals, monuments. This is the real SAPIRO mechanic, right in your browser.',
+    pickTheme: 'Pick a theme',
     start: 'Start',
     next: 'Next question',
+    finish: 'See my score',
     restart: 'Play again',
+    changeTheme: 'Change theme',
     download: 'Install the app for 2,000+ questions',
     correct: 'Nice!',
     wrong: 'Almost…',
     score: 'Your score',
-    of: 'of',
     explanation: 'Explanation',
     question: 'Question',
+    resultPerfect: 'Perfect score!',
+    resultGood: 'Nicely done!',
+    resultMeh: 'Room to grow!',
   },
   es: {
     kicker: 'Prueba, sin instalar',
-    title: 'Tres preguntas. Tres segundos para pensar.',
-    subtitle: 'Que bandera, que capital, que animal? Asi funciona SAPIRO, directamente en tu navegador.',
+    title: 'Elige tu universo.\nTres preguntas por tema.',
+    subtitle: 'Banderas, personajes, obras, animales, monumentos. Asi funciona SAPIRO, directamente en tu navegador.',
+    pickTheme: 'Elige una tematica',
     start: 'Empezar',
     next: 'Siguiente pregunta',
+    finish: 'Ver mi puntuacion',
     restart: 'Jugar otra vez',
+    changeTheme: 'Cambiar de tema',
     download: 'Instalar la app para 2 000+ preguntas',
     correct: 'Bien jugado !',
     wrong: 'Casi…',
     score: 'Tu puntuacion',
-    of: 'de',
     explanation: 'Explicacion',
     question: 'Pregunta',
+    resultPerfect: 'Puntuacion perfecta!',
+    resultGood: 'Bien hecho!',
+    resultMeh: 'A practicar!',
   },
 };
 
-const questions = {
+type ThemeKey = 'geo' | 'history' | 'art' | 'nature' | 'monument';
+
+interface Question {
+  image: string;
+  isFlag?: boolean;
+  isPortrait?: boolean;
+  alt: string;
+  prompt: string;
+  options: string[];
+  answer: number;
+  explanation: string;
+}
+
+interface Theme {
+  key: ThemeKey;
+  emoji: string;
+  label: string;
+  questions: Question[];
+}
+
+const themes: Record<Lang, Theme[]> = {
   fr: [
     {
-      visual: '🇯🇵',
-      prompt: 'À quel pays appartient ce drapeau ?',
-      options: ['Corée du Sud', 'Japon', 'Chine', 'Vietnam'],
-      answer: 1,
-      explanation: 'Le drapeau japonais, appelé Hinomaru, représente le soleil levant sur fond blanc. Adopté officiellement en 1999.',
+      key: 'geo',
+      emoji: '🌍',
+      label: 'Géo',
+      questions: [
+        {
+          image: '/images/quiz/jp.png',
+          isFlag: true,
+          alt: 'Drapeau du Japon',
+          prompt: 'Quel est ce pays ?',
+          options: ['Corée du Sud', 'Japon', 'Chine', 'Vietnam'],
+          answer: 1,
+          explanation: 'Le drapeau japonais, appelé Hinomaru, représente le soleil levant sur fond blanc. Adopté officiellement en 1999.',
+        },
+        {
+          image: '/images/quiz/br.png',
+          isFlag: true,
+          alt: 'Drapeau du Brésil',
+          prompt: 'Quel est ce pays ?',
+          options: ['Argentine', 'Brésil', 'Mexique', 'Australie'],
+          answer: 1,
+          explanation: 'Le drapeau brésilien associe le vert (forêts) et le jaune (richesses minières), avec un globe bleu et la devise « Ordem e Progresso » (Ordre et Progrès).',
+        },
+        {
+          image: '/images/quiz/au.png',
+          isFlag: true,
+          alt: 'Drapeau de l\'Australie',
+          prompt: 'Quelle est la capitale ?',
+          options: ['Wellington', 'Canberra', 'Pretoria', 'Oslo'],
+          answer: 1,
+          explanation: 'Canberra a été choisie comme capitale en 1908 pour résoudre la rivalité entre Sydney et Melbourne.',
+        },
+      ],
     },
     {
-      visual: '🏛️',
-      prompt: 'Quelle est la capitale de l\'Australie ?',
-      options: ['Sydney', 'Melbourne', 'Canberra', 'Perth'],
-      answer: 2,
-      explanation: 'Canberra a été choisie comme capitale en 1908 pour résoudre la rivalité entre Sydney et Melbourne.',
+      key: 'history',
+      emoji: '👤',
+      label: 'Histoire',
+      questions: [
+        {
+          image: '/images/quiz/mandela.jpg',
+          isPortrait: true,
+          alt: 'Portrait',
+          prompt: 'Qui est ce personnage ?',
+          options: ['Martin Luther King', 'Mahatma Gandhi', 'Nelson Mandela', 'Malcolm X'],
+          answer: 2,
+          explanation: 'Emprisonné 27 ans pour son combat contre l\'apartheid, Mandela devient le premier président noir d\'Afrique du Sud en 1994.',
+        },
+        {
+          image: '/images/quiz/curie.jpg',
+          isPortrait: true,
+          alt: 'Portrait',
+          prompt: 'Qui est ce personnage ?',
+          options: ['Simone Veil', 'Marie Curie', 'Rosa Parks', 'Mère Teresa'],
+          answer: 1,
+          explanation: 'Seule personne à avoir reçu deux prix Nobel dans deux disciplines scientifiques différentes (physique 1903, chimie 1911), pionnière de la recherche sur la radioactivité.',
+        },
+        {
+          image: '/images/quiz/einstein.jpg',
+          isPortrait: true,
+          alt: 'Portrait',
+          prompt: 'Qui est ce personnage ?',
+          options: ['Isaac Newton', 'Charles Darwin', 'Albert Einstein', 'Nikola Tesla'],
+          answer: 2,
+          explanation: 'Auteur de la théorie de la relativité, Einstein a reçu le Nobel de physique en 1921 pour ses travaux sur l\'effet photoélectrique.',
+        },
+      ],
     },
     {
-      visual: '🦓',
-      prompt: 'Sur quel continent vit le zèbre à l\'état sauvage ?',
-      options: ['Asie', 'Amérique du Sud', 'Afrique', 'Océanie'],
-      answer: 2,
-      explanation: 'Les trois espèces de zèbres (commun, de Grévy, des montagnes) vivent toutes en Afrique.',
+      key: 'art',
+      emoji: '🎨',
+      label: 'Art',
+      questions: [
+        {
+          image: '/images/quiz/joconde.jpg',
+          alt: 'Œuvre d\'art',
+          prompt: 'Qui a peint cette œuvre ?',
+          options: ['Michel-Ange', 'Raphaël', 'Léonard de Vinci', 'Botticelli'],
+          answer: 2,
+          explanation: 'Peinte entre 1503 et 1519, La Joconde est exposée au Louvre depuis 1797. Léonard l\'a gardée avec lui jusqu\'à sa mort en France.',
+        },
+        {
+          image: '/images/quiz/nuit-etoilee.jpg',
+          alt: 'Œuvre d\'art',
+          prompt: 'Qui a peint cette œuvre ?',
+          options: ['Claude Monet', 'Vincent van Gogh', 'Paul Cézanne', 'Paul Gauguin'],
+          answer: 1,
+          explanation: 'Peinte en 1889 depuis sa chambre à l\'asile de Saint-Rémy-de-Provence, La Nuit étoilée est exposée aujourd\'hui au MoMA à New York.',
+        },
+        {
+          image: '/images/quiz/le-cri.jpg',
+          alt: 'Œuvre d\'art',
+          prompt: 'Qui a peint cette œuvre ?',
+          options: ['Gustav Klimt', 'Salvador Dalí', 'Pablo Picasso', 'Edvard Munch'],
+          answer: 3,
+          explanation: 'Peint en 1893 par le Norvégien Edvard Munch, Le Cri existe en quatre versions et inspire le mouvement expressionniste.',
+        },
+      ],
+    },
+    {
+      key: 'nature',
+      emoji: '🦁',
+      label: 'Nature',
+      questions: [
+        {
+          image: '/images/quiz/guepard.jpg',
+          alt: 'Animal',
+          prompt: 'Quel est cet animal ?',
+          options: ['Léopard', 'Jaguar', 'Guépard', 'Lynx'],
+          answer: 2,
+          explanation: 'Reconnaissable à ses « larmes » noires sous les yeux et ses taches pleines (jamais en rosaces comme le léopard). C\'est l\'animal terrestre le plus rapide : 110 km/h.',
+        },
+        {
+          image: '/images/quiz/okapi.jpg',
+          alt: 'Animal',
+          prompt: 'Quel est cet animal ?',
+          options: ['Zèbre', 'Okapi', 'Tapir', 'Antilope'],
+          answer: 1,
+          explanation: 'L\'okapi vit dans les forêts du Congo. Malgré ses rayures de zèbre, c\'est le seul cousin vivant de la girafe.',
+        },
+        {
+          image: '/images/quiz/orang-outan.jpg',
+          alt: 'Animal',
+          prompt: 'Quel est cet animal ?',
+          options: ['Gorille', 'Chimpanzé', 'Bonobo', 'Orang-outan'],
+          answer: 3,
+          explanation: 'Seul grand singe d\'Asie, l\'orang-outan vit dans les forêts de Bornéo et Sumatra. Son nom signifie « homme de la forêt » en malais.',
+        },
+      ],
+    },
+    {
+      key: 'monument',
+      emoji: '🏛️',
+      label: 'Monument',
+      questions: [
+        {
+          image: '/images/quiz/tour-eiffel.jpg',
+          alt: 'Monument',
+          prompt: 'Quel est ce monument ?',
+          options: ['Tour Eiffel', 'Tokyo Tower', 'Tour de Blackpool', 'Empire State Building'],
+          answer: 0,
+          explanation: 'Construite par Gustave Eiffel pour l\'Exposition universelle de 1889, elle devait être démontée après 20 ans mais a été conservée comme antenne radio.',
+        },
+        {
+          image: '/images/quiz/taj-mahal.jpg',
+          alt: 'Monument',
+          prompt: 'Quel est ce monument ?',
+          options: ['Mosquée bleue', 'Taj Mahal', 'Mosquée Cheikh Zayed', 'Mausolée de Samarcande'],
+          answer: 1,
+          explanation: 'Construit à Agra (Inde) entre 1632 et 1653 par l\'empereur Shah Jahan en mémoire de son épouse Mumtaz Mahal.',
+        },
+        {
+          image: '/images/quiz/machu-picchu.jpg',
+          alt: 'Monument',
+          prompt: 'Quel est ce monument ?',
+          options: ['Angkor Wat', 'Machu Picchu', 'Petra', 'Cité interdite'],
+          answer: 1,
+          explanation: 'Cité inca construite au XVe siècle à 2 430 m d\'altitude au Pérou, redécouverte en 1911 par l\'explorateur Hiram Bingham.',
+        },
+      ],
     },
   ],
   en: [
     {
-      visual: '🇯🇵',
-      prompt: 'Which country does this flag belong to?',
-      options: ['South Korea', 'Japan', 'China', 'Vietnam'],
-      answer: 1,
-      explanation: 'The Japanese flag, called Hinomaru, shows the rising sun on a white background. Officially adopted in 1999.',
+      key: 'geo',
+      emoji: '🌍',
+      label: 'Geo',
+      questions: [
+        {
+          image: '/images/quiz/jp.png',
+          isFlag: true,
+          alt: 'Flag of Japan',
+          prompt: 'Which country is this?',
+          options: ['South Korea', 'Japan', 'China', 'Vietnam'],
+          answer: 1,
+          explanation: 'The Japanese flag, called Hinomaru, shows the rising sun on a white background. Officially adopted in 1999.',
+        },
+        {
+          image: '/images/quiz/br.png',
+          isFlag: true,
+          alt: 'Flag of Brazil',
+          prompt: 'Which country is this?',
+          options: ['Argentina', 'Brazil', 'Mexico', 'Australia'],
+          answer: 1,
+          explanation: 'The Brazilian flag combines green (forests) and yellow (mineral wealth), with a blue globe and the motto "Ordem e Progresso" (Order and Progress).',
+        },
+        {
+          image: '/images/quiz/au.png',
+          isFlag: true,
+          alt: 'Flag of Australia',
+          prompt: 'What is the capital?',
+          options: ['Wellington', 'Canberra', 'Pretoria', 'Oslo'],
+          answer: 1,
+          explanation: 'Canberra was chosen as the capital in 1908 to settle the rivalry between Sydney and Melbourne.',
+        },
+      ],
     },
     {
-      visual: '🏛️',
-      prompt: 'What is the capital of Australia?',
-      options: ['Sydney', 'Melbourne', 'Canberra', 'Perth'],
-      answer: 2,
-      explanation: 'Canberra was chosen as the capital in 1908 to settle the rivalry between Sydney and Melbourne.',
+      key: 'history',
+      emoji: '👤',
+      label: 'History',
+      questions: [
+        {
+          image: '/images/quiz/mandela.jpg',
+          isPortrait: true,
+          alt: 'Portrait',
+          prompt: 'Who is this person?',
+          options: ['Martin Luther King', 'Mahatma Gandhi', 'Nelson Mandela', 'Malcolm X'],
+          answer: 2,
+          explanation: 'Imprisoned for 27 years for fighting apartheid, Mandela became the first black president of South Africa in 1994.',
+        },
+        {
+          image: '/images/quiz/curie.jpg',
+          isPortrait: true,
+          alt: 'Portrait',
+          prompt: 'Who is this person?',
+          options: ['Simone Veil', 'Marie Curie', 'Rosa Parks', 'Mother Teresa'],
+          answer: 1,
+          explanation: 'The only person to receive two Nobel Prizes in two different scientific fields (physics 1903, chemistry 1911), pioneer of radioactivity research.',
+        },
+        {
+          image: '/images/quiz/einstein.jpg',
+          isPortrait: true,
+          alt: 'Portrait',
+          prompt: 'Who is this person?',
+          options: ['Isaac Newton', 'Charles Darwin', 'Albert Einstein', 'Nikola Tesla'],
+          answer: 2,
+          explanation: 'Author of the theory of relativity, Einstein received the 1921 Nobel Prize in Physics for his work on the photoelectric effect.',
+        },
+      ],
     },
     {
-      visual: '🦓',
-      prompt: 'On which continent do zebras live in the wild?',
-      options: ['Asia', 'South America', 'Africa', 'Oceania'],
-      answer: 2,
-      explanation: 'All three zebra species (plains, Grevy\'s, mountain) live in Africa.',
+      key: 'art',
+      emoji: '🎨',
+      label: 'Art',
+      questions: [
+        {
+          image: '/images/quiz/joconde.jpg',
+          alt: 'Artwork',
+          prompt: 'Who painted this artwork?',
+          options: ['Michelangelo', 'Raphael', 'Leonardo da Vinci', 'Botticelli'],
+          answer: 2,
+          explanation: 'Painted between 1503 and 1519, the Mona Lisa has been on display at the Louvre since 1797. Leonardo kept it with him until his death in France.',
+        },
+        {
+          image: '/images/quiz/nuit-etoilee.jpg',
+          alt: 'Artwork',
+          prompt: 'Who painted this artwork?',
+          options: ['Claude Monet', 'Vincent van Gogh', 'Paul Cezanne', 'Paul Gauguin'],
+          answer: 1,
+          explanation: 'Painted in 1889 from his room at the Saint-Remy-de-Provence asylum, The Starry Night is now on display at the MoMA in New York.',
+        },
+        {
+          image: '/images/quiz/le-cri.jpg',
+          alt: 'Artwork',
+          prompt: 'Who painted this artwork?',
+          options: ['Gustav Klimt', 'Salvador Dali', 'Pablo Picasso', 'Edvard Munch'],
+          answer: 3,
+          explanation: 'Painted in 1893 by the Norwegian Edvard Munch, The Scream exists in four versions and inspired the Expressionist movement.',
+        },
+      ],
+    },
+    {
+      key: 'nature',
+      emoji: '🦁',
+      label: 'Nature',
+      questions: [
+        {
+          image: '/images/quiz/guepard.jpg',
+          alt: 'Animal',
+          prompt: 'What is this animal?',
+          options: ['Leopard', 'Jaguar', 'Cheetah', 'Lynx'],
+          answer: 2,
+          explanation: 'Recognizable by its black "tear" marks and solid spots (never rosettes like the leopard). It is the fastest land animal: 110 km/h.',
+        },
+        {
+          image: '/images/quiz/okapi.jpg',
+          alt: 'Animal',
+          prompt: 'What is this animal?',
+          options: ['Zebra', 'Okapi', 'Tapir', 'Antelope'],
+          answer: 1,
+          explanation: 'The okapi lives in the forests of Congo. Despite its zebra-like stripes, it is the only living relative of the giraffe.',
+        },
+        {
+          image: '/images/quiz/orang-outan.jpg',
+          alt: 'Animal',
+          prompt: 'What is this animal?',
+          options: ['Gorilla', 'Chimpanzee', 'Bonobo', 'Orangutan'],
+          answer: 3,
+          explanation: 'The only great ape from Asia, the orangutan lives in the forests of Borneo and Sumatra. Its name means "person of the forest" in Malay.',
+        },
+      ],
+    },
+    {
+      key: 'monument',
+      emoji: '🏛️',
+      label: 'Monument',
+      questions: [
+        {
+          image: '/images/quiz/tour-eiffel.jpg',
+          alt: 'Monument',
+          prompt: 'What is this monument?',
+          options: ['Eiffel Tower', 'Tokyo Tower', 'Blackpool Tower', 'Empire State Building'],
+          answer: 0,
+          explanation: 'Built by Gustave Eiffel for the 1889 World\'s Fair, it was meant to be dismantled after 20 years but was kept as a radio antenna.',
+        },
+        {
+          image: '/images/quiz/taj-mahal.jpg',
+          alt: 'Monument',
+          prompt: 'What is this monument?',
+          options: ['Blue Mosque', 'Taj Mahal', 'Sheikh Zayed Mosque', 'Samarkand Mausoleum'],
+          answer: 1,
+          explanation: 'Built in Agra (India) between 1632 and 1653 by Emperor Shah Jahan in memory of his wife Mumtaz Mahal.',
+        },
+        {
+          image: '/images/quiz/machu-picchu.jpg',
+          alt: 'Monument',
+          prompt: 'What is this monument?',
+          options: ['Angkor Wat', 'Machu Picchu', 'Petra', 'Forbidden City'],
+          answer: 1,
+          explanation: 'Inca citadel built in the 15th century at 2,430 m altitude in Peru, rediscovered in 1911 by explorer Hiram Bingham.',
+        },
+      ],
     },
   ],
   es: [
     {
-      visual: '🇯🇵',
-      prompt: 'A que pais pertenece esta bandera?',
-      options: ['Corea del Sur', 'Japon', 'China', 'Vietnam'],
-      answer: 1,
-      explanation: 'La bandera japonesa, llamada Hinomaru, muestra el sol naciente sobre fondo blanco. Adoptada oficialmente en 1999.',
+      key: 'geo',
+      emoji: '🌍',
+      label: 'Geo',
+      questions: [
+        {
+          image: '/images/quiz/jp.png',
+          isFlag: true,
+          alt: 'Bandera de Japon',
+          prompt: '¿Cual es este pais?',
+          options: ['Corea del Sur', 'Japon', 'China', 'Vietnam'],
+          answer: 1,
+          explanation: 'La bandera japonesa, llamada Hinomaru, muestra el sol naciente sobre fondo blanco. Adoptada oficialmente en 1999.',
+        },
+        {
+          image: '/images/quiz/br.png',
+          isFlag: true,
+          alt: 'Bandera de Brasil',
+          prompt: '¿Cual es este pais?',
+          options: ['Argentina', 'Brasil', 'Mexico', 'Australia'],
+          answer: 1,
+          explanation: 'La bandera brasilena combina el verde (bosques) y el amarillo (riqueza mineral), con un globo azul y el lema « Ordem e Progresso » (Orden y Progreso).',
+        },
+        {
+          image: '/images/quiz/au.png',
+          isFlag: true,
+          alt: 'Bandera de Australia',
+          prompt: '¿Cual es la capital?',
+          options: ['Wellington', 'Canberra', 'Pretoria', 'Oslo'],
+          answer: 1,
+          explanation: 'Canberra fue elegida capital en 1908 para resolver la rivalidad entre Sydney y Melbourne.',
+        },
+      ],
     },
     {
-      visual: '🏛️',
-      prompt: 'Cual es la capital de Australia?',
-      options: ['Sydney', 'Melbourne', 'Canberra', 'Perth'],
-      answer: 2,
-      explanation: 'Canberra fue elegida capital en 1908 para resolver la rivalidad entre Sydney y Melbourne.',
+      key: 'history',
+      emoji: '👤',
+      label: 'Historia',
+      questions: [
+        {
+          image: '/images/quiz/mandela.jpg',
+          isPortrait: true,
+          alt: 'Retrato',
+          prompt: '¿Quien es este personaje?',
+          options: ['Martin Luther King', 'Mahatma Gandhi', 'Nelson Mandela', 'Malcolm X'],
+          answer: 2,
+          explanation: 'Encarcelado 27 anos por su lucha contra el apartheid, Mandela se convierte en el primer presidente negro de Sudafrica en 1994.',
+        },
+        {
+          image: '/images/quiz/curie.jpg',
+          isPortrait: true,
+          alt: 'Retrato',
+          prompt: '¿Quien es este personaje?',
+          options: ['Simone Veil', 'Marie Curie', 'Rosa Parks', 'Madre Teresa'],
+          answer: 1,
+          explanation: 'Unica persona en recibir dos premios Nobel en dos disciplinas cientificas diferentes (fisica 1903, quimica 1911), pionera de la investigacion sobre la radiactividad.',
+        },
+        {
+          image: '/images/quiz/einstein.jpg',
+          isPortrait: true,
+          alt: 'Retrato',
+          prompt: '¿Quien es este personaje?',
+          options: ['Isaac Newton', 'Charles Darwin', 'Albert Einstein', 'Nikola Tesla'],
+          answer: 2,
+          explanation: 'Autor de la teoria de la relatividad, Einstein recibio el Nobel de fisica en 1921 por sus trabajos sobre el efecto fotoelectrico.',
+        },
+      ],
     },
     {
-      visual: '🦓',
-      prompt: 'En que continente vive la cebra en estado salvaje?',
-      options: ['Asia', 'America del Sur', 'Africa', 'Oceania'],
-      answer: 2,
-      explanation: 'Las tres especies de cebras (comun, de Grevy, de montana) viven todas en Africa.',
+      key: 'art',
+      emoji: '🎨',
+      label: 'Arte',
+      questions: [
+        {
+          image: '/images/quiz/joconde.jpg',
+          alt: 'Obra de arte',
+          prompt: '¿Quien pinto esta obra?',
+          options: ['Miguel Angel', 'Rafael', 'Leonardo da Vinci', 'Botticelli'],
+          answer: 2,
+          explanation: 'Pintada entre 1503 y 1519, La Gioconda se exhibe en el Louvre desde 1797. Leonardo la conservo consigo hasta su muerte en Francia.',
+        },
+        {
+          image: '/images/quiz/nuit-etoilee.jpg',
+          alt: 'Obra de arte',
+          prompt: '¿Quien pinto esta obra?',
+          options: ['Claude Monet', 'Vincent van Gogh', 'Paul Cezanne', 'Paul Gauguin'],
+          answer: 1,
+          explanation: 'Pintada en 1889 desde su habitacion en el asilo de Saint-Remy-de-Provence, La Noche Estrellada se exhibe hoy en el MoMA de Nueva York.',
+        },
+        {
+          image: '/images/quiz/le-cri.jpg',
+          alt: 'Obra de arte',
+          prompt: '¿Quien pinto esta obra?',
+          options: ['Gustav Klimt', 'Salvador Dali', 'Pablo Picasso', 'Edvard Munch'],
+          answer: 3,
+          explanation: 'Pintado en 1893 por el noruego Edvard Munch, El Grito existe en cuatro versiones e inspira el movimiento expresionista.',
+        },
+      ],
+    },
+    {
+      key: 'nature',
+      emoji: '🦁',
+      label: 'Naturaleza',
+      questions: [
+        {
+          image: '/images/quiz/guepard.jpg',
+          alt: 'Animal',
+          prompt: '¿Que animal es este?',
+          options: ['Leopardo', 'Jaguar', 'Guepardo', 'Lince'],
+          answer: 2,
+          explanation: 'Reconocible por sus « lagrimas » negras bajo los ojos y sus manchas solidas (nunca en rosetas como el leopardo). Es el animal terrestre mas rapido: 110 km/h.',
+        },
+        {
+          image: '/images/quiz/okapi.jpg',
+          alt: 'Animal',
+          prompt: '¿Que animal es este?',
+          options: ['Cebra', 'Okapi', 'Tapir', 'Antilope'],
+          answer: 1,
+          explanation: 'El okapi vive en los bosques del Congo. A pesar de sus rayas de cebra, es el unico pariente vivo de la jirafa.',
+        },
+        {
+          image: '/images/quiz/orang-outan.jpg',
+          alt: 'Animal',
+          prompt: '¿Que animal es este?',
+          options: ['Gorila', 'Chimpance', 'Bonobo', 'Orangutan'],
+          answer: 3,
+          explanation: 'Unico gran simio de Asia, el orangutan vive en los bosques de Borneo y Sumatra. Su nombre significa « hombre del bosque » en malayo.',
+        },
+      ],
+    },
+    {
+      key: 'monument',
+      emoji: '🏛️',
+      label: 'Monumento',
+      questions: [
+        {
+          image: '/images/quiz/tour-eiffel.jpg',
+          alt: 'Monumento',
+          prompt: '¿Que monumento es este?',
+          options: ['Torre Eiffel', 'Torre de Tokio', 'Torre de Blackpool', 'Empire State Building'],
+          answer: 0,
+          explanation: 'Construida por Gustave Eiffel para la Exposicion Universal de 1889, debia ser desmantelada despues de 20 anos pero se conservo como antena de radio.',
+        },
+        {
+          image: '/images/quiz/taj-mahal.jpg',
+          alt: 'Monumento',
+          prompt: '¿Que monumento es este?',
+          options: ['Mezquita Azul', 'Taj Mahal', 'Mezquita Sheikh Zayed', 'Mausoleo de Samarcanda'],
+          answer: 1,
+          explanation: 'Construido en Agra (India) entre 1632 y 1653 por el emperador Shah Jahan en memoria de su esposa Mumtaz Mahal.',
+        },
+        {
+          image: '/images/quiz/machu-picchu.jpg',
+          alt: 'Monumento',
+          prompt: '¿Que monumento es este?',
+          options: ['Angkor Wat', 'Machu Picchu', 'Petra', 'Ciudad Prohibida'],
+          answer: 1,
+          explanation: 'Ciudadela inca construida en el siglo XV a 2 430 m de altitud en Peru, redescubierta en 1911 por el explorador Hiram Bingham.',
+        },
+      ],
     },
   ],
 };
 
 const t = copy[lang];
-const qs = questions[lang];
+const themesList = themes[lang];
+const totalQuestions = 3;
 ---
 
 <section class="demo-quiz" id="demo-quiz">
@@ -139,36 +595,82 @@ const qs = questions[lang];
       <p class="subtitle">{t.subtitle}</p>
     </div>
 
-    <div class="quiz-card" id="quiz-card" data-lang={lang}>
+    <div
+      class="quiz-card"
+      id="quiz-card"
+      data-lang={lang}
+      data-themes={JSON.stringify(themesList)}
+      data-i18n={JSON.stringify({
+        question: t.question,
+        explanation: t.explanation,
+        next: t.next,
+        finish: t.finish,
+        correct: t.correct,
+        wrong: t.wrong,
+        score: t.score,
+        resultPerfect: t.resultPerfect,
+        resultGood: t.resultGood,
+        resultMeh: t.resultMeh,
+      })}
+    >
       <!-- Progress bar -->
       <div class="progress">
         <div class="progress-fill" id="progress-fill"></div>
       </div>
 
-      <!-- Intro screen -->
-      <div class="screen screen-intro active" data-screen="intro">
-        <div class="intro-visual">🎯</div>
-        <h3 class="screen-title">3 questions, 30 secondes</h3>
-        <p class="screen-sub">{t.subtitle}</p>
-        <button class="btn-quiz btn-quiz-primary" data-action="start">
-          {t.start}
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
-        </button>
+      <!-- Theme selection screen -->
+      <div class="screen screen-theme active" data-screen="theme">
+        <div class="theme-visual">🎯</div>
+        <h3 class="screen-title">{t.pickTheme}</h3>
+        <div class="theme-picker">
+          <div class="theme-dropdown" id="theme-dropdown" data-value={themesList[0].key}>
+            <button
+              type="button"
+              class="theme-trigger"
+              id="theme-trigger"
+              aria-haspopup="listbox"
+              aria-expanded="false"
+              aria-labelledby="theme-trigger-label"
+            >
+              <span class="theme-trigger-emoji" id="theme-trigger-emoji">{themesList[0].emoji}</span>
+              <span class="theme-trigger-label" id="theme-trigger-label">{themesList[0].label}</span>
+              <svg class="theme-trigger-chevron" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <ul class="theme-options" id="theme-options" role="listbox" aria-label={t.pickTheme}>
+              {themesList.map((theme, idx) => (
+                <li
+                  class={`theme-option ${idx === 0 ? 'is-selected' : ''}`}
+                  role="option"
+                  data-value={theme.key}
+                  aria-selected={idx === 0 ? 'true' : 'false'}
+                  tabindex="-1"
+                >
+                  <span class="theme-option-emoji">{theme.emoji}</span>
+                  <span class="theme-option-label">{theme.label}</span>
+                  <svg class="theme-option-check" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
       </div>
 
-      <!-- Question screens -->
-      {qs.map((q, idx) => (
-        <div class="screen screen-question" data-screen={`q-${idx}`} data-answer={q.answer}>
+      <!-- Question template (3 screens, filled dynamically) -->
+      {[0, 1, 2].map((idx) => (
+        <div class="screen screen-question" data-screen={`q-${idx}`}>
           <div class="question-meta">
-            <span class="question-num">{t.question} {idx + 1}/{qs.length}</span>
+            <span class="question-num">{t.question} {idx + 1}/{totalQuestions}</span>
+            <span class="question-theme-tag" data-q-theme-tag={idx}></span>
           </div>
-          <div class="question-visual">{q.visual}</div>
-          <h3 class="screen-title">{q.prompt}</h3>
-          <div class="options">
-            {q.options.map((opt, optIdx) => (
+          <div class="question-visual" data-q-visual={idx}>
+            <img class="q-image" data-q-image={idx} src="" alt="" />
+          </div>
+          <h3 class="screen-title" data-q-prompt={idx}></h3>
+          <div class="options" data-q-options={idx}>
+            {[0, 1, 2, 3].map((optIdx) => (
               <button class="option" data-option={optIdx}>
                 <span class="option-letter">{String.fromCharCode(65 + optIdx)}</span>
-                <span class="option-text">{opt}</span>
+                <span class="option-text" data-q-opt={`${idx}-${optIdx}`}></span>
               </button>
             ))}
           </div>
@@ -177,9 +679,9 @@ const qs = questions[lang];
               <span class="feedback-emoji"></span>
               <span class="feedback-label"></span>
             </div>
-            <p class="feedback-explanation">{t.explanation}: {q.explanation}</p>
+            <p class="feedback-explanation"><strong>{t.explanation} :</strong> <span data-q-explanation={idx}></span></p>
             <button class="btn-quiz btn-quiz-primary" data-action="next" data-next={idx + 1}>
-              {idx === qs.length - 1 ? t.score : t.next}
+              <span data-next-label={idx}>{idx === totalQuestions - 1 ? t.finish : t.next}</span>
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
             </button>
           </div>
@@ -190,14 +692,14 @@ const qs = questions[lang];
       <div class="screen screen-result" data-screen="result">
         <div class="result-visual" id="result-emoji">🏆</div>
         <div class="result-score">
-          <span id="result-value">0</span><span class="result-of">/{qs.length}</span>
+          <span id="result-value">0</span><span class="result-of">/{totalQuestions}</span>
         </div>
         <h3 class="screen-title" id="result-message">{t.score}</h3>
         <p class="screen-sub">{t.subtitle}</p>
         <div class="result-actions">
           <button class="btn-quiz btn-quiz-ghost" data-action="restart">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 4 23 10 17 10"/><path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"/></svg>
-            {t.restart}
+            {t.changeTheme}
           </button>
           <a href="#download" class="btn-quiz btn-quiz-primary">
             {t.download}
@@ -217,18 +719,52 @@ const qs = questions[lang];
   const card = document.getElementById('quiz-card');
   if (!card) return;
 
+  const themesData = JSON.parse(card.dataset.themes || '[]');
+  const i18n = JSON.parse(card.dataset.i18n || '{}');
   const screens = card.querySelectorAll('.screen');
   const progressFill = document.getElementById('progress-fill');
-  const total = card.querySelectorAll('[data-screen^="q-"]').length;
+  const totalQuestions = 3;
+  let currentTheme = null;
   let score = 0;
 
   const showScreen = (name) => {
     screens.forEach((s) => s.classList.toggle('active', s.dataset.screen === name));
     let step = 0;
-    if (name === 'intro') step = 0;
+    if (name === 'theme') step = 0;
     else if (name.startsWith('q-')) step = parseInt(name.split('-')[1]) + 1;
-    else if (name === 'result') step = total + 1;
-    if (progressFill) progressFill.style.width = `${(step / (total + 1)) * 100}%`;
+    else if (name === 'result') step = totalQuestions + 1;
+    if (progressFill) progressFill.style.width = `${(step / (totalQuestions + 1)) * 100}%`;
+  };
+
+  const fillQuestions = (theme) => {
+    theme.questions.forEach((q, idx) => {
+      const img = card.querySelector(`[data-q-image="${idx}"]`);
+      const visual = card.querySelector(`[data-q-visual="${idx}"]`);
+      const promptEl = card.querySelector(`[data-q-prompt="${idx}"]`);
+      const themeTag = card.querySelector(`[data-q-theme-tag="${idx}"]`);
+      const explEl = card.querySelector(`[data-q-explanation="${idx}"]`);
+      const screen = card.querySelector(`[data-screen="q-${idx}"]`);
+      if (img) { img.src = q.image; img.alt = q.alt || ''; }
+      if (visual) {
+        visual.classList.remove('is-flag', 'is-portrait', 'is-media');
+        if (q.isFlag) visual.classList.add('is-flag');
+        else if (q.isPortrait) visual.classList.add('is-portrait');
+        else visual.classList.add('is-media');
+      }
+      if (promptEl) promptEl.textContent = q.prompt;
+      if (themeTag) themeTag.textContent = `${theme.emoji} ${theme.label}`;
+      if (explEl) explEl.textContent = q.explanation;
+      if (screen) screen.setAttribute('data-answer', String(q.answer));
+      q.options.forEach((opt, optIdx) => {
+        const optTextEl = card.querySelector(`[data-q-opt="${idx}-${optIdx}"]`);
+        if (optTextEl) optTextEl.textContent = opt;
+      });
+    });
+  };
+
+  const resetOptions = () => {
+    card.querySelectorAll('.option').forEach((o) => o.classList.remove('correct', 'wrong', 'revealed'));
+    card.querySelectorAll('.feedback').forEach((f) => f.classList.remove('active'));
   };
 
   const boomConfetti = () => {
@@ -249,6 +785,84 @@ const qs = questions[lang];
     setTimeout(() => { host.innerHTML = ''; }, 1600);
   };
 
+  // --- Custom dropdown ---
+  const dropdown = document.getElementById('theme-dropdown');
+  const trigger = document.getElementById('theme-trigger');
+  const optionsList = document.getElementById('theme-options');
+  const triggerEmoji = document.getElementById('theme-trigger-emoji');
+  const triggerLabel = document.getElementById('theme-trigger-label');
+
+  const closeDropdown = () => {
+    if (!dropdown || !trigger) return;
+    dropdown.classList.remove('is-open');
+    trigger.setAttribute('aria-expanded', 'false');
+  };
+
+  const openDropdown = () => {
+    if (!dropdown || !trigger) return;
+    dropdown.classList.add('is-open');
+    trigger.setAttribute('aria-expanded', 'true');
+  };
+
+  const selectOption = (key) => {
+    if (!dropdown || !optionsList) return;
+    const opt = optionsList.querySelector(`[data-value="${key}"]`);
+    if (!opt) return;
+    dropdown.setAttribute('data-value', key);
+    optionsList.querySelectorAll('.theme-option').forEach((o) => {
+      const isSel = o.getAttribute('data-value') === key;
+      o.classList.toggle('is-selected', isSel);
+      o.setAttribute('aria-selected', isSel ? 'true' : 'false');
+    });
+    const emojiEl = opt.querySelector('.theme-option-emoji');
+    const labelEl = opt.querySelector('.theme-option-label');
+    if (triggerEmoji && emojiEl) triggerEmoji.textContent = emojiEl.textContent;
+    if (triggerLabel && labelEl) triggerLabel.textContent = labelEl.textContent;
+  };
+
+  if (trigger) {
+    trigger.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const isOpen = dropdown && dropdown.classList.contains('is-open');
+      if (isOpen) closeDropdown();
+      else openDropdown();
+    });
+  }
+
+  const startTheme = (key) => {
+    const theme = themesData.find((t) => t.key === key);
+    if (!theme) return;
+    currentTheme = theme;
+    score = 0;
+    resetOptions();
+    fillQuestions(theme);
+    showScreen('q-0');
+  };
+
+  if (optionsList) {
+    optionsList.addEventListener('click', (e) => {
+      const opt = e.target instanceof HTMLElement ? e.target.closest('[data-value]') : null;
+      if (!opt) return;
+      e.stopPropagation();
+      const key = opt.getAttribute('data-value');
+      if (!key) return;
+      selectOption(key);
+      closeDropdown();
+      startTheme(key);
+    });
+  }
+
+  // Close on click outside
+  document.addEventListener('click', (e) => {
+    if (!dropdown) return;
+    if (!dropdown.contains(e.target)) closeDropdown();
+  });
+
+  // Close on Escape
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closeDropdown();
+  });
+
   card.addEventListener('click', (e) => {
     const target = e.target;
     if (!(target instanceof HTMLElement)) return;
@@ -256,30 +870,24 @@ const qs = questions[lang];
     const actionEl = target.closest('[data-action]');
     if (actionEl) {
       const action = actionEl.getAttribute('data-action');
-      if (action === 'start') {
-        score = 0;
-        showScreen('q-0');
-        return;
-      }
       if (action === 'next') {
         const nextIdx = parseInt(actionEl.getAttribute('data-next') || '0');
-        if (nextIdx >= total) {
-          // result
+        if (nextIdx >= totalQuestions) {
           const valEl = document.getElementById('result-value');
           const msgEl = document.getElementById('result-message');
           const emojiEl = document.getElementById('result-emoji');
           if (valEl) valEl.textContent = String(score);
           if (emojiEl && msgEl) {
-            if (score === total) {
+            if (score === totalQuestions) {
               emojiEl.textContent = '🏆';
-              msgEl.textContent = card.dataset.lang === 'en' ? 'Perfect score!' : card.dataset.lang === 'es' ? 'Puntuacion perfecta!' : 'Score parfait !';
+              msgEl.textContent = i18n.resultPerfect;
               boomConfetti();
             } else if (score >= 2) {
               emojiEl.textContent = '🎯';
-              msgEl.textContent = card.dataset.lang === 'en' ? 'Nicely done!' : card.dataset.lang === 'es' ? 'Bien hecho!' : 'Bien joué !';
+              msgEl.textContent = i18n.resultGood;
             } else {
               emojiEl.textContent = '💪';
-              msgEl.textContent = card.dataset.lang === 'en' ? 'Room to grow!' : card.dataset.lang === 'es' ? 'A practicar!' : 'Y\'a de la marge !';
+              msgEl.textContent = i18n.resultMeh;
             }
           }
           showScreen('result');
@@ -290,9 +898,9 @@ const qs = questions[lang];
       }
       if (action === 'restart') {
         score = 0;
-        card.querySelectorAll('.option').forEach((o) => o.classList.remove('correct', 'wrong', 'revealed'));
-        card.querySelectorAll('.feedback').forEach((f) => f.classList.remove('active'));
-        showScreen('intro');
+        currentTheme = null;
+        resetOptions();
+        showScreen('theme');
         return;
       }
     }
@@ -317,13 +925,8 @@ const qs = questions[lang];
       if (feedback) {
         const emoji = feedback.querySelector('.feedback-emoji');
         const label = feedback.querySelector('.feedback-label');
-        const lang = card.dataset.lang;
         if (emoji) emoji.textContent = isRight ? '✅' : '❌';
-        if (label) {
-          label.textContent = isRight
-            ? (lang === 'en' ? 'Nice!' : lang === 'es' ? 'Bien jugado !' : 'Bien joué !')
-            : (lang === 'en' ? 'Almost…' : lang === 'es' ? 'Casi…' : 'Presque…');
-        }
+        if (label) label.textContent = isRight ? i18n.correct : i18n.wrong;
         feedback.classList.add('active');
       }
       if (isRight) boomConfetti();
@@ -363,6 +966,7 @@ const qs = questions[lang];
     line-height: 1.1;
     color: #0a0a0f;
     margin-bottom: 16px;
+    white-space: pre-line;
   }
 
   .subtitle {
@@ -379,7 +983,7 @@ const qs = questions[lang];
     border-radius: 28px;
     box-shadow: 0 40px 80px -20px rgba(15, 15, 30, 0.15), 0 0 0 1px rgba(15, 15, 30, 0.04);
     overflow: hidden;
-    min-height: 520px;
+    min-height: 560px;
   }
 
   .progress {
@@ -415,28 +1019,251 @@ const qs = questions[lang];
     to { opacity: 1; transform: translateY(0); }
   }
 
-  .intro-visual, .question-visual, .result-visual {
-    font-size: 72px;
-    margin-bottom: 24px;
+  /* Theme select */
+  .theme-visual {
+    font-size: 64px;
+    margin-bottom: 20px;
     line-height: 1;
     filter: drop-shadow(0 8px 20px rgba(0, 0, 0, 0.1));
   }
 
-  .result-visual { font-size: 84px; }
-
-  .question-meta {
-    margin-bottom: 16px;
+  .theme-picker {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+    width: 100%;
+    max-width: 420px;
+    margin-top: 28px;
   }
 
-  .question-num {
+  /* Custom dropdown */
+  .theme-dropdown {
+    position: relative;
+    width: 100%;
+  }
+
+  .theme-trigger {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    width: 100%;
+    padding: 18px 22px;
+    background: #fff;
+    border: 2px solid #e5e7eb;
+    border-radius: 18px;
+    font-family: inherit;
+    font-size: 17px;
+    font-weight: 600;
+    color: #0a0a0f;
+    cursor: pointer;
+    transition: border-color 0.2s, background 0.2s, box-shadow 0.2s, transform 0.2s;
+    text-align: left;
+    line-height: 1.2;
+  }
+
+  .theme-trigger:hover {
+    border-color: #ff6b35;
+    background: #fff7f3;
+    transform: translateY(-1px);
+    box-shadow: 0 8px 20px -8px rgba(255, 107, 53, 0.25);
+  }
+
+  .theme-trigger:focus-visible {
+    outline: none;
+    border-color: #ff6b35;
+    box-shadow: 0 0 0 4px rgba(255, 107, 53, 0.18);
+  }
+
+  .theme-dropdown.is-open .theme-trigger {
+    border-color: #ff6b35;
+    background: #fff7f3;
+    box-shadow: 0 8px 24px -8px rgba(255, 107, 53, 0.3);
+  }
+
+  .theme-trigger-emoji {
+    font-size: 28px;
+    line-height: 1;
+    flex-shrink: 0;
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.12));
+  }
+
+  .theme-trigger-label {
+    flex: 1;
+    font-size: 17px;
+  }
+
+  .theme-trigger-chevron {
+    color: #ff6b35;
+    flex-shrink: 0;
+    transition: transform 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  .theme-dropdown.is-open .theme-trigger-chevron {
+    transform: rotate(180deg);
+  }
+
+  .theme-options {
+    position: absolute;
+    top: calc(100% + 8px);
+    left: 0;
+    right: 0;
+    list-style: none;
+    margin: 0;
+    padding: 6px;
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 20px 50px -12px rgba(15, 15, 30, 0.22), 0 0 0 1px rgba(15, 15, 30, 0.05);
+    z-index: 10;
+    opacity: 0;
+    transform: translateY(-8px) scale(0.98);
+    transform-origin: top center;
+    pointer-events: none;
+    transition: opacity 0.2s, transform 0.22s cubic-bezier(0.22, 1, 0.36, 1);
+    max-height: 360px;
+    overflow-y: auto;
+  }
+
+  .theme-dropdown.is-open .theme-options {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    pointer-events: auto;
+  }
+
+  .theme-option {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 12px 14px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    color: #0a0a0f;
+    transition: background 0.15s, color 0.15s;
+    user-select: none;
+  }
+
+  .theme-option:hover {
+    background: #fff7f3;
+    color: #ff6b35;
+  }
+
+  .theme-option.is-selected {
+    background: linear-gradient(135deg, rgba(255, 107, 53, 0.1), rgba(251, 191, 36, 0.1));
+    color: #ff6b35;
+  }
+
+  .theme-option-emoji {
+    font-size: 24px;
+    line-height: 1;
+    flex-shrink: 0;
+    filter: drop-shadow(0 3px 6px rgba(0, 0, 0, 0.1));
+  }
+
+  .theme-option-label {
+    flex: 1;
+  }
+
+  .theme-option-check {
+    color: #ff6b35;
+    flex-shrink: 0;
+    opacity: 0;
+    transform: scale(0.6);
+    transition: opacity 0.18s, transform 0.18s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  .theme-option.is-selected .theme-option-check {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  /* Question screens */
+  .question-meta {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .question-num,
+  .question-theme-tag {
     display: inline-block;
     padding: 4px 12px;
-    background: #f3f4f6;
-    color: #6b7280;
     border-radius: 999px;
     font-size: 12px;
     font-weight: 600;
     letter-spacing: 0.05em;
+  }
+
+  .question-num {
+    background: #f3f4f6;
+    color: #6b7280;
+  }
+
+  .question-theme-tag {
+    background: rgba(255, 107, 53, 0.1);
+    color: #ff6b35;
+  }
+
+  .question-visual {
+    margin-bottom: 22px;
+    line-height: 0;
+    border-radius: 16px;
+    overflow: hidden;
+    background: #f9fafb;
+  }
+
+  .question-visual.is-flag {
+    width: 160px;
+    box-shadow: 0 8px 24px -6px rgba(0, 0, 0, 0.18);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+  }
+
+  .question-visual.is-portrait {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    box-shadow: 0 10px 30px -8px rgba(0, 0, 0, 0.25);
+  }
+
+  .question-visual.is-media {
+    width: 280px;
+    height: 220px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #f9fafb 0%, #f3f4f6 100%);
+    box-shadow: 0 12px 32px -10px rgba(0, 0, 0, 0.18);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+  }
+
+  .q-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .question-visual.is-flag .q-image {
+    height: auto;
+    aspect-ratio: 3 / 2;
+    object-fit: cover;
+  }
+
+  .question-visual.is-media .q-image {
+    object-fit: contain;
+    border-radius: 10px;
+  }
+
+  .result-visual {
+    font-size: 84px;
+    margin-bottom: 16px;
+    line-height: 1;
+    filter: drop-shadow(0 8px 20px rgba(0, 0, 0, 0.1));
   }
 
   .screen-title {
@@ -461,7 +1288,7 @@ const qs = questions[lang];
     gap: 12px;
     width: 100%;
     max-width: 560px;
-    margin-top: 24px;
+    margin-top: 20px;
   }
 
   .option {
@@ -476,6 +1303,7 @@ const qs = questions[lang];
     transition: all 0.2s;
     font-size: 15px;
     color: #0a0a0f;
+    cursor: pointer;
   }
 
   .option:not(.revealed):hover {
@@ -556,7 +1384,7 @@ const qs = questions[lang];
 
   .feedback.active {
     opacity: 1;
-    max-height: 300px;
+    max-height: 400px;
     padding: 18px 20px 20px;
   }
 
@@ -589,6 +1417,7 @@ const qs = questions[lang];
     cursor: pointer;
     transition: transform 0.2s, box-shadow 0.2s;
     text-decoration: none;
+    border: none;
   }
 
   .btn-quiz-primary {
@@ -667,9 +1496,18 @@ const qs = questions[lang];
     .demo-quiz { padding: 64px 0; }
     .screen { padding: 40px 24px; }
     .options { grid-template-columns: 1fr; }
-    .intro-visual, .question-visual { font-size: 56px; }
+    .theme-picker { max-width: 100%; }
+    .theme-trigger { padding: 16px 18px; font-size: 16px; }
+    .theme-trigger-emoji { font-size: 24px; }
+    .theme-trigger-label { font-size: 16px; }
+    .theme-option { font-size: 15px; padding: 10px 12px; }
+    .theme-option-emoji { font-size: 22px; }
+    .theme-visual { font-size: 56px; }
     .result-visual { font-size: 64px; }
     .result-score { font-size: 3rem; }
     .quiz-card { border-radius: 20px; }
+    .question-visual.is-flag { width: 130px; }
+    .question-visual.is-portrait { width: 150px; height: 150px; }
+    .question-visual.is-media { width: 240px; height: 190px; }
   }
 </style>
