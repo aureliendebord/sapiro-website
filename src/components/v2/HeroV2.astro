@@ -20,6 +20,17 @@ const copy = {
     proofQuestionsLabel: 'questions vérifiées',
     proofPrice: 'Gratuit',
     proofPriceLabel: 'Zéro pub, zéro data',
+    xpAmount: '+120 XP',
+    xpLabel: 'Série de 5',
+    badgeTitle: 'Badge débloqué',
+    badgeName: 'Explorateur',
+    slideAlts: {
+      flags: 'Quiz Drapeaux SAPIRO',
+      portraits: 'Quiz Personnages SAPIRO',
+      paintings: 'Quiz Tableaux SAPIRO',
+      animals: 'Quiz Animaux SAPIRO',
+      monuments: 'Quiz Monuments SAPIRO',
+    },
   },
   en: {
     badge: 'New • Nature is here 🦁',
@@ -33,6 +44,17 @@ const copy = {
     proofQuestionsLabel: 'verified questions',
     proofPrice: 'Free',
     proofPriceLabel: 'Zero ads, zero data',
+    xpAmount: '+120 XP',
+    xpLabel: '5-streak',
+    badgeTitle: 'Badge unlocked',
+    badgeName: 'Explorer',
+    slideAlts: {
+      flags: 'Flags Quiz SAPIRO',
+      portraits: 'Portraits Quiz SAPIRO',
+      paintings: 'Paintings Quiz SAPIRO',
+      animals: 'Animals Quiz SAPIRO',
+      monuments: 'Monuments Quiz SAPIRO',
+    },
   },
   es: {
     badge: 'Nuevo • Naturaleza ya está aquí 🦁',
@@ -46,6 +68,17 @@ const copy = {
     proofQuestionsLabel: 'preguntas verificadas',
     proofPrice: 'Gratis',
     proofPriceLabel: 'Cero anuncios, cero datos',
+    xpAmount: '+120 XP',
+    xpLabel: 'Racha de 5',
+    badgeTitle: 'Insignia desbloqueada',
+    badgeName: 'Explorador',
+    slideAlts: {
+      flags: 'Quiz Banderas SAPIRO',
+      portraits: 'Quiz Personajes SAPIRO',
+      paintings: 'Quiz Cuadros SAPIRO',
+      animals: 'Quiz Animales SAPIRO',
+      monuments: 'Quiz Monumentos SAPIRO',
+    },
   },
 };
 
@@ -112,21 +145,23 @@ const t = copy[lang];
         <div class="glow glow-2"></div>
 
         <div class="orbit" aria-hidden="true">
-          <span class="orbit-emoji" style="--a:0deg; --r:180px">🇫🇷</span>
-          <span class="orbit-emoji" style="--a:60deg; --r:190px">🗿</span>
-          <span class="orbit-emoji" style="--a:120deg; --r:175px">🎨</span>
-          <span class="orbit-emoji" style="--a:180deg; --r:195px">🦁</span>
-          <span class="orbit-emoji" style="--a:240deg; --r:180px">🇯🇵</span>
-          <span class="orbit-emoji" style="--a:300deg; --r:185px">🏛️</span>
+          <span class="orbit-emoji orbit-emoji-1" style="--a:0deg; --r:180px">🇫🇷</span>
+          <span class="orbit-emoji orbit-emoji-2" style="--a:60deg; --r:190px">🗿</span>
+          <span class="orbit-emoji orbit-emoji-3" style="--a:120deg; --r:175px">🎨</span>
+          <span class="orbit-emoji orbit-emoji-4" style="--a:180deg; --r:195px">🦁</span>
+          <span class="orbit-emoji orbit-emoji-5" style="--a:240deg; --r:180px">🇯🇵</span>
+          <span class="orbit-emoji orbit-emoji-6" style="--a:300deg; --r:185px">🏛️</span>
         </div>
 
         <div class="phone-tilt">
           <div class="phone">
             <div class="phone-notch"></div>
             <div class="phone-screen">
-              <img src={`/images/screenshots/${lang}/01.png`} alt="Quiz SAPIRO" class="slide slide-1" loading="eager" />
-              <img src={`/images/screenshots/${lang}/02.png`} alt="Quiz SAPIRO" class="slide slide-2" loading="eager" />
-              <img src={`/images/screenshots/${lang}/05.png`} alt="Quiz SAPIRO" class="slide slide-3" loading="eager" />
+              <img src={`/images/screenshots/${lang}/quiz/01.png`} alt={t.slideAlts.flags} class="slide slide-1" loading="eager" />
+              <img src={`/images/screenshots/${lang}/quiz/02.png`} alt={t.slideAlts.portraits} class="slide slide-2" loading="eager" />
+              <img src={`/images/screenshots/${lang}/quiz/03.png`} alt={t.slideAlts.paintings} class="slide slide-3" loading="eager" />
+              <img src={`/images/screenshots/${lang}/quiz/04.png`} alt={t.slideAlts.animals} class="slide slide-4" loading="eager" />
+              <img src={`/images/screenshots/${lang}/quiz/05.png`} alt={t.slideAlts.monuments} class="slide slide-5" loading="eager" />
             </div>
           </div>
         </div>
@@ -134,16 +169,16 @@ const t = copy[lang];
         <div class="floating-card card-top">
           <div class="card-emoji">⚡</div>
           <div class="card-content">
-            <div class="card-num">+120 XP</div>
-            <div class="card-label">Série de 5</div>
+            <div class="card-num">{t.xpAmount}</div>
+            <div class="card-label">{t.xpLabel}</div>
           </div>
         </div>
 
         <div class="floating-card card-bottom">
           <div class="card-emoji">🏆</div>
           <div class="card-content">
-            <div class="card-num">Badge débloqué</div>
-            <div class="card-label">Explorateur</div>
+            <div class="card-num">{t.badgeTitle}</div>
+            <div class="card-label">{t.badgeName}</div>
           </div>
         </div>
       </div>
@@ -406,9 +441,16 @@ const t = copy[lang];
     left: 50%;
     font-size: 32px;
     transform: translate(-50%, -50%) rotate(var(--a)) translateY(calc(var(--r) * -1)) rotate(calc(var(--a) * -1));
-    filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.4));
-    animation: orbitBob 3s ease-in-out infinite;
+    filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.4)) brightness(1);
+    animation: orbitBob 3.6s ease-in-out infinite, orbitGlow 4.2s ease-in-out infinite;
   }
+
+  .orbit-emoji-1 { animation-delay: 0s, 0s; }
+  .orbit-emoji-2 { animation-delay: 0.4s, 0.7s; }
+  .orbit-emoji-3 { animation-delay: 0.9s, 1.4s; }
+  .orbit-emoji-4 { animation-delay: 1.3s, 2.1s; }
+  .orbit-emoji-5 { animation-delay: 1.8s, 2.8s; }
+  .orbit-emoji-6 { animation-delay: 2.2s, 3.5s; }
 
   @keyframes orbitRotate {
     from { transform: rotate(0deg); }
@@ -417,7 +459,16 @@ const t = copy[lang];
 
   @keyframes orbitBob {
     0%, 100% { scale: 1; }
-    50% { scale: 1.15; }
+    50% { scale: 1.18; }
+  }
+
+  @keyframes orbitGlow {
+    0%, 100% {
+      filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.4)) drop-shadow(0 0 6px rgba(255, 255, 255, 0.05)) brightness(0.85);
+    }
+    50% {
+      filter: drop-shadow(0 6px 18px rgba(0, 0, 0, 0.5)) drop-shadow(0 0 20px rgba(255, 200, 120, 0.7)) brightness(1.25);
+    }
   }
 
   /* Phone */
@@ -472,17 +523,21 @@ const t = copy[lang];
     height: 100%;
     object-fit: cover;
     opacity: 0;
-    animation: slideShow 12s ease-in-out infinite;
+    animation: slideShow 20s cubic-bezier(0.65, 0, 0.35, 1) infinite;
   }
 
   .slide-1 { opacity: 1; animation-delay: 0s; }
   .slide-2 { animation-delay: 4s; }
   .slide-3 { animation-delay: 8s; }
+  .slide-4 { animation-delay: 12s; }
+  .slide-5 { animation-delay: 16s; }
 
   @keyframes slideShow {
-    0%, 28% { opacity: 1; transform: scale(1); }
-    35%, 95% { opacity: 0; transform: scale(1.02); }
-    100% { opacity: 1; transform: scale(1); }
+    0% { opacity: 0; transform: translateX(8%) scale(1.02); }
+    2% { opacity: 1; transform: translateX(0) scale(1); }
+    18% { opacity: 1; transform: translateX(0) scale(1); }
+    22% { opacity: 0; transform: translateX(-8%) scale(1.02); }
+    100% { opacity: 0; transform: translateX(8%) scale(1.02); }
   }
 
   /* Floating cards */
@@ -502,21 +557,46 @@ const t = copy[lang];
   .card-top {
     top: 12%;
     right: -10px;
-    animation: floatCard 4s ease-in-out infinite;
+    animation: floatCardTop 5s ease-in-out infinite, cardGlow 4s ease-in-out infinite;
   }
 
   .card-bottom {
     bottom: 18%;
     left: -30px;
-    animation: floatCard 4s ease-in-out infinite 2s;
+    animation: floatCardBottom 5.5s ease-in-out infinite 1.2s, cardGlow 4.5s ease-in-out infinite 2s;
   }
 
-  @keyframes floatCard {
-    0%, 100% { transform: translateY(0); }
-    50% { transform: translateY(-8px); }
+  @keyframes floatCardTop {
+    0%, 100% { transform: translateY(0) rotate(-1deg); }
+    50% { transform: translateY(-10px) rotate(1.5deg); }
   }
 
-  .card-emoji { font-size: 22px; }
+  @keyframes floatCardBottom {
+    0%, 100% { transform: translateY(0) rotate(1deg); }
+    50% { transform: translateY(-12px) rotate(-1.5deg); }
+  }
+
+  @keyframes cardGlow {
+    0%, 100% {
+      box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.4), 0 0 0 0 rgba(255, 107, 53, 0);
+    }
+    50% {
+      box-shadow: 0 24px 48px -10px rgba(0, 0, 0, 0.45), 0 0 32px 4px rgba(255, 107, 53, 0.35);
+    }
+  }
+
+  .card-emoji {
+    font-size: 22px;
+    animation: emojiPulse 2.4s ease-in-out infinite;
+  }
+
+  .card-bottom .card-emoji { animation-delay: 1.2s; }
+
+  @keyframes emojiPulse {
+    0%, 100% { transform: scale(1) rotate(0deg); filter: brightness(1); }
+    50% { transform: scale(1.18) rotate(-6deg); filter: brightness(1.2) drop-shadow(0 0 8px rgba(255, 191, 36, 0.6)); }
+  }
+
   .card-num { font-size: 14px; font-weight: 700; }
   .card-label { font-size: 11px; color: #6b7280; }
 
@@ -552,8 +632,8 @@ const t = copy[lang];
   }
 
   @media (prefers-reduced-motion: reduce) {
-    .bg-mesh, .badge-dot, .highlight, .glow-1, .glow-2, .orbit, .orbit-emoji, .slide, .card-top, .card-bottom {
-      animation: none !important;
+    .bg-mesh, .glow-1, .glow-2, .orbit {
+      animation-duration: 60s !important;
     }
   }
 </style>
