@@ -9,31 +9,34 @@ const { lang } = Astro.props;
 
 const copy = {
   fr: {
-    kicker: 'Quatre univers',
+    kicker: 'Cinq univers',
     title: 'De Tokyo à Van Gogh,\nde César aux félins.',
     subtitle: 'Un terrain de jeu qui couvre tout ce qu\'il faut savoir du monde réel.',
     geo: { title: 'Géographie', desc: 'Drapeaux, capitales, continents, empires, organisations internationales.', stat: '197', statLabel: 'pays' },
     history: { title: 'Histoire', desc: 'Grands personnages, de l\'Antiquité à nos jours.', stat: '500+', statLabel: 'personnages' },
     art: { title: 'Art', desc: 'Louvre, MoMA, Orsay. Renaissance, impressionnisme, surréalisme.', stat: '553', statLabel: 'œuvres' },
     nature: { title: 'Nature', desc: 'Mammifères, oiseaux, reptiles, insectes.', stat: '600', statLabel: 'espèces' },
+    monuments: { title: 'Monuments', desc: 'Tour Eiffel, Colisée, Taj Mahal. Châteaux, cathédrales, gratte-ciel des cinq continents.', stat: '500', statLabel: 'monuments' },
   },
   en: {
-    kicker: 'Four universes',
+    kicker: 'Five universes',
     title: 'From Tokyo to Van Gogh,\nfrom Caesar to big cats.',
     subtitle: 'A playground covering everything worth knowing about the real world.',
     geo: { title: 'Geography', desc: 'Flags, capitals, continents, empires, international organizations.', stat: '197', statLabel: 'countries' },
     history: { title: 'History', desc: 'Key figures, from Antiquity to today.', stat: '500+', statLabel: 'figures' },
     art: { title: 'Art', desc: 'Louvre, MoMA, Orsay. Renaissance, impressionism, surrealism.', stat: '553', statLabel: 'artworks' },
     nature: { title: 'Nature', desc: 'Mammals, birds, reptiles, insects.', stat: '600', statLabel: 'species' },
+    monuments: { title: 'Monuments', desc: 'Eiffel Tower, Colosseum, Taj Mahal. Castles, cathedrals and skyscrapers across five continents.', stat: '500', statLabel: 'monuments' },
   },
   es: {
-    kicker: 'Cuatro universos',
+    kicker: 'Cinco universos',
     title: 'De Tokio a Van Gogh,\nde Cesar a los felinos.',
     subtitle: 'Un terreno de juego que cubre todo lo que vale la pena saber del mundo real.',
     geo: { title: 'Geografia', desc: 'Banderas, capitales, continentes, imperios, organizaciones internacionales.', stat: '197', statLabel: 'paises' },
     history: { title: 'Historia', desc: 'Grandes personajes, desde la Antiguedad hasta hoy.', stat: '500+', statLabel: 'personajes' },
     art: { title: 'Arte', desc: 'Louvre, MoMA, Orsay. Renacimiento, impresionismo, surrealismo.', stat: '553', statLabel: 'obras' },
     nature: { title: 'Naturaleza', desc: 'Mamiferos, aves, reptiles, insectos.', stat: '600', statLabel: 'especies' },
+    monuments: { title: 'Monumentos', desc: 'Torre Eiffel, Coliseo, Taj Mahal. Castillos, catedrales y rascacielos de los cinco continentes.', stat: '500', statLabel: 'monumentos' },
   },
 };
 
@@ -139,6 +142,27 @@ const flagPositions = [
           <p class="card-desc">{t.nature.desc}</p>
         </div>
       </article>
+
+      <!-- Monuments -->
+      <article class="card card-monuments">
+        <div class="monuments-deco" aria-hidden="true">
+          <span class="deco-monument" style="--i:0">🗼</span>
+          <span class="deco-monument" style="--i:1">🏛️</span>
+          <span class="deco-monument" style="--i:2">🕌</span>
+          <span class="deco-monument" style="--i:3">⛪</span>
+          <span class="deco-monument" style="--i:4">🏰</span>
+          <span class="deco-monument" style="--i:5">🗽</span>
+          <span class="deco-monument" style="--i:6">🏯</span>
+        </div>
+        <div class="card-body">
+          <div class="card-tag">🏛️ {t.monuments.title}</div>
+          <div class="card-stat">
+            <span class="stat-num">{t.monuments.stat}</span>
+            <span class="stat-label">{t.monuments.statLabel}</span>
+          </div>
+          <p class="card-desc">{t.monuments.desc}</p>
+        </div>
+      </article>
     </div>
   </div>
 </section>
@@ -185,7 +209,7 @@ const flagPositions = [
   .bento {
     display: grid;
     grid-template-columns: 1.7fr 1fr 1fr;
-    grid-template-rows: minmax(260px, auto) minmax(260px, auto);
+    grid-template-rows: minmax(260px, auto) minmax(260px, auto) minmax(220px, auto);
     gap: 20px;
   }
 
@@ -370,6 +394,40 @@ const flagPositions = [
     50% { transform: translateY(-10px) rotate(4deg); }
   }
 
+  /* Monuments — full width row 3 */
+  .card-monuments {
+    background: linear-gradient(135deg, #475569 0%, #1e293b 100%);
+    grid-column: 1 / -1;
+    grid-row: 3;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .monuments-deco {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    pointer-events: none;
+  }
+
+  .deco-monument {
+    position: absolute;
+    font-size: 44px;
+    opacity: 0.22;
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.25));
+    animation: monumentBob 6s ease-in-out infinite;
+    animation-delay: calc(var(--i) * 0.35s);
+    top: calc(15% + (var(--i) % 3) * 25%);
+    right: calc(3% + (var(--i) * 13%));
+  }
+
+  @keyframes monumentBob {
+    0%, 100% { transform: translateY(0) rotate(-3deg); }
+    50% { transform: translateY(-8px) rotate(3deg); }
+  }
+
+  .card-monuments .card-desc { max-width: 540px; }
+
   /* Responsive */
   @media (max-width: 968px) {
     .bento {
@@ -385,6 +443,7 @@ const flagPositions = [
     .card-history { grid-column: 1; grid-row: auto; }
     .card-art { grid-column: 2; grid-row: auto; }
     .card-nature { grid-column: 1 / span 2; grid-row: auto; }
+    .card-monuments { grid-column: 1 / span 2; grid-row: auto; }
   }
 
   @media (max-width: 560px) {
@@ -393,14 +452,18 @@ const flagPositions = [
     .card-hero,
     .card-history,
     .card-art,
-    .card-nature { grid-column: 1; grid-row: auto; }
+    .card-nature,
+    .card-monuments { grid-column: 1; grid-row: auto; }
     .card-hero { min-height: 340px; }
     .card { min-height: 220px; padding: 24px; }
-    .deco-emoji { font-size: 32px; }
+    .deco-emoji,
+    .deco-monument { font-size: 32px; }
   }
 
   @media (prefers-reduced-motion: reduce) {
-    .swarm-flag { animation: none; }
+    .swarm-flag,
+    .deco-emoji,
+    .deco-monument { animation: none; }
     .card:hover { transform: none; }
   }
 </style>
