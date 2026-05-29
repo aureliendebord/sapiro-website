@@ -325,7 +325,7 @@
   },
   "faq": {
     "title": "Questions fréquentes",
-    "metaDescription": "Réponses aux questions fréquentes sur SAPIRO : gratuité, vie privée, contenu, fonctionnement hors ligne, abonnement Sapiro+.",
+    "metaDescription": "Réponses aux questions fréquentes sur SAPIRO : gratuité, vie privée, contenu, abonnement Sapiro+.",
     "subtitle": "Tout ce que vous voulez savoir sur SAPIRO",
     "items": [
       {
@@ -338,7 +338,7 @@
       },
       {
         "question": "SAPIRO fonctionne-t-il sans connexion internet ?",
-        "answer": "Oui. Tout le contenu est téléchargé avec l'application. Vous pouvez jouer dans l'avion, le métro ou en camping sans aucune connexion."
+        "answer": "Les quiz fonctionnent sans connexion : tout le contenu est téléchargé avec l'application. Vous pouvez jouer dans l'avion, le métro ou en camping. Seules les mises à jour de contenu et les classements en ligne nécessitent du réseau."
       },
       {
         "question": "Quels sujets sont couverts ?",
@@ -372,7 +372,7 @@
   },
   "about": {
     "title": "À propos de SAPIRO",
-    "text": "SAPIRO est une application de quiz éducatif gratuite et sans publicité, disponible sur iOS et Android. Développée par Agence Debord EURL (Paris, France), elle couvre quatre domaines : géographie (197 pays), histoire (500+ personnages historiques), art (553 œuvres majeures) et nature (600 espèces animales). L'application propose plus de 2 000 questions vérifiées manuellement, chacune accompagnée d'une explication. Aucune donnée personnelle n'est collectée. L'application fonctionne entièrement hors ligne et est disponible en français, anglais et espagnol.",
+    "text": "SAPIRO est une application de quiz éducatif gratuite et sans publicité, disponible sur iOS et Android. Développée par Agence Debord EURL (Paris, France), elle couvre cinq domaines : géographie (197 pays), histoire (500+ personnages historiques), art (553 œuvres majeures), nature (600 espèces animales) et monuments (500 monuments). L'application propose plus de 2 000 questions vérifiées manuellement, chacune accompagnée d'une explication. Aucune donnée personnelle n'est collectée. L'application est disponible en français, anglais et espagnol.",
     "stats": {
       "questions": "2 000+ questions",
       "countries": "197 pays",

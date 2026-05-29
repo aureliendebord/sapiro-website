@@ -266,7 +266,7 @@
         "name": "Pedro V.",
         "role": "Jubilado viajero",
         "rating": 5,
-        "text": "Con 67 años, pongo a prueba mi memoria con banderas y capitales. El modo sin conexión es perfecto para mis viajes en tren. Simple, eficaz, sin complicaciones.",
+        "text": "Con 67 años, pongo a prueba mi memoria con banderas y capitales. Ligera y rápida de abrir, perfecta para mis viajes en tren. Simple, eficaz, sin complicaciones.",
         "store": "App Store"
       }
     ]
@@ -325,7 +325,7 @@
   },
   "faq": {
     "title": "Preguntas frecuentes",
-    "metaDescription": "Respuestas a las preguntas frecuentes sobre SAPIRO: gratuidad, privacidad, contenido, modo sin conexión, suscripción Sapiro+.",
+    "metaDescription": "Respuestas a las preguntas frecuentes sobre SAPIRO: gratuidad, privacidad, contenido, suscripción Sapiro+.",
     "subtitle": "Todo lo que necesitas saber sobre SAPIRO",
     "items": [
       {
@@ -338,7 +338,7 @@
       },
       {
         "question": "¿SAPIRO funciona sin conexión a internet?",
-        "answer": "Sí. Todo el contenido se descarga con la aplicación. Puedes jugar en el avión, en el metro o de camping sin ninguna conexión."
+        "answer": "Los quizzes funcionan sin conexión: todo el contenido se descarga con la aplicación. Puedes jugar en el avión, en el metro o de camping. Solo las actualizaciones de contenido y las clasificaciones en línea requieren red."
       },
       {
         "question": "¿Qué temas cubre SAPIRO?",
@@ -372,7 +372,7 @@
   },
   "about": {
     "title": "Acerca de SAPIRO",
-    "text": "SAPIRO es una aplicación de quiz educativo gratuita y sin publicidad, disponible en iOS y Android. Desarrollada por Agence Debord EURL (París, Francia), cubre cuatro áreas: geografía (197 países), historia (500+ personajes históricos), arte (553 obras maestras) y naturaleza (600 especies animales). La aplicación incluye más de 2 000 preguntas verificadas manualmente, cada una con una explicación. No se recopilan datos personales. Funciona completamente sin conexión y está disponible en francés, inglés y español.",
+    "text": "SAPIRO es una aplicación de quiz educativo gratuita y sin publicidad, disponible en iOS y Android. Desarrollada por Agence Debord EURL (París, Francia), cubre cinco áreas: geografía (197 países), historia (500+ personajes históricos), arte (553 obras maestras), naturaleza (600 especies animales) y monumentos (500 monumentos). La aplicación incluye más de 2 000 preguntas verificadas manualmente, cada una con una explicación. No se recopilan datos personales. Está disponible en francés, inglés y español.",
     "stats": {
       "questions": "2 000+ preguntas",
       "countries": "197 países",

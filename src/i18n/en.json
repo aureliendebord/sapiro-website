@@ -266,7 +266,7 @@
         "name": "Robert W.",
         "role": "Retired traveler",
         "rating": 5,
-        "text": "At 67, I test my memory with flags and capitals. The offline mode is perfect for my train rides. Simple, effective, no fuss.",
+        "text": "At 67, I test my memory with flags and capitals. Lightweight and quick to launch, perfect for my train rides. Simple, effective, no fuss.",
         "store": "App Store"
       }
     ]
@@ -325,7 +325,7 @@
   },
   "faq": {
     "title": "Frequently asked questions",
-    "metaDescription": "Answers to common questions about SAPIRO: is it really free? Does it work offline? Is it safe for kids? Privacy, content, and Sapiro+ details.",
+    "metaDescription": "Answers to common questions about SAPIRO: is it really free? Is it safe for kids? Privacy, content, and Sapiro+ details.",
     "subtitle": "Everything you need to know about SAPIRO",
     "items": [
       {
@@ -338,7 +338,7 @@
       },
       {
         "question": "Does SAPIRO work offline?",
-        "answer": "Yes. All content is downloaded with the app. You can play on a plane, in the subway, or while camping with no connection needed."
+        "answer": "Quizzes work without a connection: all content is downloaded with the app. You can play on a plane, in the subway, or while camping. Only content updates and online leaderboards require the network."
       },
       {
         "question": "What subjects does SAPIRO cover?",
@@ -372,7 +372,7 @@
   },
   "about": {
     "title": "About SAPIRO",
-    "text": "SAPIRO is a free, ad-free educational quiz app for iOS and Android, developed by Agence Debord EURL (Paris, France). It covers four domains: geography (197 countries), history (500+ historical figures), art (553 major artworks), and nature (600 animal species). The app includes over 2,000 manually verified questions, each with an explanation. No personal data is collected. The app works fully offline and is available in French, English, and Spanish.",
+    "text": "SAPIRO is a free, ad-free educational quiz app for iOS and Android, developed by Agence Debord EURL (Paris, France). It covers five domains: geography (197 countries), history (500+ historical figures), art (553 major artworks), nature (600 animal species), and monuments (500 monuments). The app includes over 2,000 manually verified questions, each with an explanation. No personal data is collected. The app is available in French, English, and Spanish.",
     "stats": {
       "questions": "2,000+ questions",
       "countries": "197 countries",
