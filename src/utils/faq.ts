@@ -3,10 +3,32 @@ export interface FaqItem {
   answer: string;
 }
 
+/** Normalise une chaine : minuscules + suppression des accents (NFD + Diacritic). */
+function deaccent(s: string): string {
+  return s.normalize('NFD').replace(/\p{Diacritic}/gu, '').toLowerCase();
+}
+
+/**
+ * Vrai si la ligne est un titre H2 introduisant une section FAQ.
+ * Comparaison insensible aux accents et basee sur les intitules complets,
+ * pour matcher "Questions frequentes" (accent) sans declencher de faux positifs
+ * ("Errores frecuentes", "Sources de questions", "Ideas de preguntas"...).
+ */
+function isFaqHeading(line: string): boolean {
+  if (!/^##\s+/.test(line)) return false;
+  const h = deaccent(line.replace(/^##\s+/, '').trim());
+  return (
+    h.includes('questions frequentes') ||       // FR
+    h.includes('frequently asked questions') ||  // EN
+    h.includes('preguntas frecuentes') ||        // ES
+    /\bfaq\b/.test(h)                             // intitule court "FAQ"
+  );
+}
+
 /**
  * Extrait les paires question/reponse de la section FAQ d'un contenu Markdown.
- * Cherche un H2 contenant "frequentes", "asked questions" ou "frecuentes",
- * puis parse les H3 suivants comme questions et le texte qui suit comme reponses.
+ * Cherche un H2 de FAQ (multilingue, via isFaqHeading), puis parse les H3 suivants
+ * comme questions et le texte qui suit comme reponses.
  */
 export function extractFaqFromMarkdown(body: string): FaqItem[] {
   const lines = body.split('\n');
@@ -15,7 +37,7 @@ export function extractFaqFromMarkdown(body: string): FaqItem[] {
   // Trouver le debut de la section FAQ
   let faqStart = -1;
   for (let i = 0; i < lines.length; i++) {
-    if (/^## .*(frequentes|asked questions|frecuentes|FAQ)/i.test(lines[i])) {
+    if (isFaqHeading(lines[i])) {
       faqStart = i + 1;
       break;
     }
