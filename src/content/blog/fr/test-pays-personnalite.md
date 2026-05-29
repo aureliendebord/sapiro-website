@@ -1,6 +1,6 @@
 ---
-title: "Quel pays correspond a ta personnalite ? Le test"
-description: "Test ludique : quel pays correspond a ta personnalite ? Un voyage entre culture, geographie et caractere pour decouvrir ton pays-miroir."
+title: "Quel pays correspond à ta personnalité ? Le test"
+description: "Test ludique : quel pays correspond à ta personnalité ? Un voyage entre culture, géographie et caractère pour découvrir ton pays-miroir."
 date: 2026-03-10
 lang: "fr"
 urlSlug: "test-pays-personnalite"

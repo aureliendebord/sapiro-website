@@ -1,6 +1,6 @@
 ---
-title: "Reviser la culture generale en 30 jours : programme"
-description: "Un planning de 30 jours pour reviser la culture generale efficacement avant un concours ou un examen, jour par jour, theme par theme."
+title: "Réviser la culture générale en 30 jours : programme"
+description: "Un planning de 30 jours pour réviser la culture générale efficacement avant un concours ou un examen, jour par jour, thème par thème."
 date: 2026-02-12
 lang: "fr"
 urlSlug: "reviser-culture-generale-30-jours"

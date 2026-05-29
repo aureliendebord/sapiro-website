@@ -1,6 +1,6 @@
 ---
-title: "Rois de France : liste complete et dates"
-description: "De Clovis a Louis-Philippe : liste complete des rois de France avec dates de regne, dynasties et faits majeurs de chaque souverain."
+title: "Rois de France : liste complète et dates"
+description: "De Clovis à Louis-Philippe : liste complète des rois de France avec dates de règne, dynasties et faits majeurs de chaque souverain."
 date: 2026-02-01
 lang: "fr"
 urlSlug: "rois-de-france-liste"

@@ -1,6 +1,6 @@
 ---
-title: "Antiquite, Moyen Age, Renaissance : reperes essentiels"
-description: "Trois grandes periodes qui structurent l'histoire occidentale. Dates, civilisations, mouvements et figures pour s'y retrouver simplement."
+title: "Antiquité, Moyen Âge, Renaissance : repères essentiels"
+description: "Trois grandes périodes qui structurent l'histoire occidentale. Dates, civilisations, mouvements et figures pour s'y retrouver simplement."
 date: 2026-02-04
 lang: "fr"
 urlSlug: "antiquite-moyen-age-renaissance-reperes"

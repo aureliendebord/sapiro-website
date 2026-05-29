@@ -1,6 +1,6 @@
 ---
 title: "Les 15 animaux les plus dangereux du monde"
-description: "Lion, requin, ours blanc ? Les vrais animaux les plus dangereux ne sont pas ceux qu'on imagine. Classement par nombre de morts humaines chaque annee."
+description: "Lion, requin, ours blanc ? Les vrais animaux les plus dangereux ne sont pas ceux qu'on imagine. Classement par nombre de morts humaines chaque année."
 date: 2026-01-16
 lang: "fr"
 urlSlug: "animaux-plus-dangereux-monde"

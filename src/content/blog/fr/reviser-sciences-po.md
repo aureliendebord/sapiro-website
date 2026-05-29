@@ -1,6 +1,6 @@
 ---
-title: "Reviser la culture generale pour Sciences Po"
-description: "Comment preparer l'epreuve de culture generale pour Sciences Po et les IEP : programme, lectures, methode et entrainement aux quiz."
+title: "Réviser la culture générale pour Sciences Po"
+description: "Comment préparer l'épreuve de culture générale pour Sciences Po et les IEP : programme, lectures, méthode et entraînement aux quiz."
 date: 2026-02-08
 lang: "fr"
 urlSlug: "reviser-sciences-po"

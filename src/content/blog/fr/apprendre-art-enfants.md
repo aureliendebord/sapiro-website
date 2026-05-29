@@ -1,6 +1,6 @@
 ---
 title: "Apprendre l'art aux enfants : guide pratique"
-description: "Comment faire decouvrir l'art aux enfants ? Musees, livres, methodes par age et ressources pour eveiller la curiosite artistique."
+description: "Comment faire découvrir l'art aux enfants ? Musées, livres, méthodes par âge et ressources pour éveiller la curiosité artistique."
 date: 2026-02-16
 lang: "fr"
 urlSlug: "apprendre-art-enfants"

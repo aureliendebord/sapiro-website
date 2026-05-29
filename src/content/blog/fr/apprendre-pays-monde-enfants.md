@@ -1,6 +1,6 @@
 ---
 title: "Apprendre les pays du monde aux enfants"
-description: "Comment faire decouvrir les pays, drapeaux et capitales aux enfants ? Methodes par age, jeux et ressources pour eveiller la curiosite geographique."
+description: "Comment faire découvrir les pays, drapeaux et capitales aux enfants ? Méthodes par âge, jeux et ressources pour éveiller la curiosité géographique."
 date: 2026-02-14
 lang: "fr"
 urlSlug: "apprendre-pays-monde-enfants"

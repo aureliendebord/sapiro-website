@@ -1,6 +1,6 @@
 ---
-title: "Histoire de l'art pour les nuls : le guide pour debuter"
-description: "Vous partez de zero en histoire de l'art ? Guide accessible des grandes periodes, oeuvres et artistes a connaitre pour avoir une vue d'ensemble."
+title: "Histoire de l'art pour les nuls : le guide pour débuter"
+description: "Vous partez de zéro en histoire de l'art ? Guide accessible des grandes périodes, œuvres et artistes à connaître pour avoir une vue d'ensemble."
 date: 2026-01-28
 lang: "fr"
 urlSlug: "histoire-art-pour-les-nuls"

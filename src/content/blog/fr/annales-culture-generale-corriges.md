@@ -1,6 +1,6 @@
 ---
-title: "Annales culture generale et corriges : ou trouver"
-description: "Trouver des annales corrigees de culture generale pour preparer un concours : sources officielles, livres et entrainement aux questions types."
+title: "Annales culture générale et corrigés : où trouver"
+description: "Trouver des annales corrigées de culture générale pour préparer un concours : sources officielles, livres et entraînement aux questions types."
 date: 2026-02-11
 lang: "fr"
 urlSlug: "annales-culture-generale-corriges"

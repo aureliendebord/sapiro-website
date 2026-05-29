@@ -1,6 +1,6 @@
 ---
-title: "Preparer un concours categorie B ou C : guide complet"
-description: "Reussir un concours administratif categorie B ou C : programme, methode, planning et entrainement aux quiz de culture generale."
+title: "Préparer un concours catégorie B ou C : guide complet"
+description: "Réussir un concours administratif catégorie B ou C : programme, méthode, planning et entraînement aux quiz de culture générale."
 date: 2026-02-10
 lang: "fr"
 urlSlug: "preparer-concours-categorie-bc"

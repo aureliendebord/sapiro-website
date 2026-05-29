@@ -1,6 +1,6 @@
 ---
-title: "20 animaux etranges et meconnus dans le monde"
-description: "Tardigrade, axolotl, pangolin, calmar vampire : 20 animaux etranges et meconnus qui existent vraiment, avec leurs particularites biologiques."
+title: "20 animaux étranges et méconnus dans le monde"
+description: "Tardigrade, axolotl, pangolin, calmar vampire : 20 animaux étranges et méconnus qui existent vraiment, avec leurs particularités biologiques."
 date: 2026-01-18
 lang: "fr"
 urlSlug: "animaux-etranges-meconnus"

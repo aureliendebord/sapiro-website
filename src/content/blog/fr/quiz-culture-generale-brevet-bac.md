@@ -1,6 +1,6 @@
 ---
-title: "Quiz culture generale niveau brevet et bac"
-description: "S'entrainer a la culture generale niveau brevet et bac : themes recurrents, questions types et methode pour reussir l'epreuve."
+title: "Quiz culture générale niveau brevet et bac"
+description: "S'entraîner à la culture générale niveau brevet et bac : thèmes récurrents, questions types et méthode pour réussir l'épreuve."
 date: 2026-02-09
 lang: "fr"
 urlSlug: "quiz-culture-generale-brevet-bac"

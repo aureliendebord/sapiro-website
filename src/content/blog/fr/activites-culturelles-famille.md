@@ -1,6 +1,6 @@
 ---
-title: "Activites culturelles en famille : 30 idees"
-description: "Trente idees d'activites culturelles en famille pour les week-ends et vacances : musees, sorties, jeux, voyages culturels."
+title: "Activités culturelles en famille : 30 idées"
+description: "Trente idées d'activités culturelles en famille pour les week-ends et vacances : musées, sorties, jeux, voyages culturels."
 date: 2026-02-18
 lang: "fr"
 urlSlug: "activites-culturelles-famille"

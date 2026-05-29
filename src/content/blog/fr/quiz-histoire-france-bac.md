@@ -1,6 +1,6 @@
 ---
 title: "Quiz histoire de France niveau brevet et bac"
-description: "Reviser l'histoire de France pour le brevet, le bac ou les concours : programme officiel, dates incontournables et quiz pour s'entrainer."
+description: "Réviser l'histoire de France pour le brevet, le bac ou les concours : programme officiel, dates incontournables et quiz pour s'entraîner."
 date: 2026-02-05
 lang: "fr"
 urlSlug: "quiz-histoire-france-bac"

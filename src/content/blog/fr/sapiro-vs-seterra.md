@@ -1,6 +1,6 @@
 ---
-title: "Sapiro vs Seterra : quelle app geographie choisir ?"
-description: "Comparatif Sapiro et Seterra : quelle app de geographie est la meilleure ? Avantages, inconvenients et public cible de chaque outil."
+title: "Sapiro vs Seterra : quelle app géographie choisir ?"
+description: "Comparatif Sapiro et Seterra : quelle app de géographie est la meilleure ? Avantages, inconvénients et public cible de chaque outil."
 date: 2026-03-01
 lang: "fr"
 urlSlug: "sapiro-vs-seterra"

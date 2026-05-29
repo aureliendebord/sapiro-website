@@ -1,6 +1,6 @@
 ---
-title: "QCM gendarmerie, police, armee : preparation"
-description: "Reussir les QCM des concours gendarmerie, police, armee : programme, exemples de questions et methode d'entrainement."
+title: "QCM gendarmerie, police, armée : préparation"
+description: "Réussir les QCM des concours gendarmerie, police, armée : programme, exemples de questions et méthode d'entraînement."
 date: 2026-02-13
 lang: "fr"
 urlSlug: "qcm-gendarmerie-police-armee"

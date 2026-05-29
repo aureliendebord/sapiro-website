@@ -1,6 +1,6 @@
 ---
-title: "Culture generale aux concours de la fonction publique"
-description: "Reviser la culture generale pour les concours de la fonction publique : programme officiel, themes recurrents et methode pour preparer l'epreuve."
+title: "Culture générale aux concours de la fonction publique"
+description: "Réviser la culture générale pour les concours de la fonction publique : programme officiel, thèmes récurrents et méthode pour préparer l'épreuve."
 date: 2026-02-07
 lang: "fr"
 urlSlug: "culture-generale-concours-fonction-publique"

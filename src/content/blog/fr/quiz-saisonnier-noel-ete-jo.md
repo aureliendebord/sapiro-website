@@ -1,6 +1,6 @@
 ---
-title: "Quiz saisonniers : Noel, ete, JO, elections"
-description: "Quiz a theme saisonnier : Noel, ete, Jeux Olympiques, elections. Idees de questions et methode pour animer une soiree."
+title: "Quiz saisonniers : Noël, été, JO, élections"
+description: "Quiz à thème saisonnier : Noël, été, Jeux Olympiques, élections. Idées de questions et méthode pour animer une soirée."
 date: 2026-02-24
 lang: "fr"
 urlSlug: "quiz-saisonnier-noel-ete-jo"

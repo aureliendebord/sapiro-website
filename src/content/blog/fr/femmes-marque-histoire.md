@@ -1,6 +1,6 @@
 ---
-title: "20 femmes qui ont marque l'histoire mondiale"
-description: "Cleopatre, Jeanne d'Arc, Marie Curie, Rosa Parks : 20 femmes qui ont marque l'histoire mondiale avec leur epoque et leur impact."
+title: "20 femmes qui ont marqué l'histoire mondiale"
+description: "Cléopâtre, Jeanne d'Arc, Marie Curie, Rosa Parks : 20 femmes qui ont marqué l'histoire mondiale avec leur époque et leur impact."
 date: 2026-02-03
 lang: "fr"
 urlSlug: "femmes-marque-histoire"

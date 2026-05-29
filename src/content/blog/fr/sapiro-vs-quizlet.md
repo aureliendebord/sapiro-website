@@ -1,6 +1,6 @@
 ---
 title: "Sapiro vs Quizlet : quelle app choisir ?"
-description: "Comparatif Sapiro et Quizlet : quiz culture generale ou flashcards ? Avantages, inconvenients et public cible de chaque application."
+description: "Comparatif Sapiro et Quizlet : quiz culture générale ou flashcards ? Avantages, inconvénients et public cible de chaque application."
 date: 2026-02-27
 lang: "fr"
 urlSlug: "sapiro-vs-quizlet"

@@ -1,6 +1,6 @@
 ---
 title: "20 paires d'animaux qui se ressemblent"
-description: "Crocodile ou alligator, leopard ou guepard, lama ou alpaga : 20 paires d'animaux confondus avec les criteres pour ne plus jamais se tromper."
+description: "Crocodile ou alligator, léopard ou guépard, lama ou alpaga : 20 paires d'animaux confondus avec les critères pour ne plus jamais se tromper."
 date: 2026-01-22
 lang: "fr"
 urlSlug: "differences-animaux-ressemblants"

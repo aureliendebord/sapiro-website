@@ -1,6 +1,6 @@
 ---
 title: "Quiz nature pour enfants : apprendre en s'amusant"
-description: "Comment faire decouvrir les animaux aux enfants ? Quiz par age, jeux d'observation et astuces pedagogiques pour eveiller la curiosite naturaliste."
+description: "Comment faire découvrir les animaux aux enfants ? Quiz par âge, jeux d'observation et astuces pédagogiques pour éveiller la curiosité naturaliste."
 date: 2026-01-21
 lang: "fr"
 urlSlug: "quiz-nature-enfants"

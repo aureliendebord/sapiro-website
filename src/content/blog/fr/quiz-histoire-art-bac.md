@@ -1,6 +1,6 @@
 ---
-title: "Quiz histoire de l'art niveau bac : entrainez-vous"
-description: "Reviser l'histoire de l'art pour le bac, le brevet ou les concours : programme officiel, oeuvres clefs et quiz de niveau pour s'entrainer."
+title: "Quiz histoire de l'art niveau bac : entraînez-vous"
+description: "Réviser l'histoire de l'art pour le bac, le brevet ou les concours : programme officiel, œuvres clefs et quiz de niveau pour s'entraîner."
 date: 2026-01-29
 lang: "fr"
 urlSlug: "quiz-histoire-art-bac"

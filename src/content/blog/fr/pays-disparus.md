@@ -1,6 +1,6 @@
 ---
 title: "Les pays qui n'existent plus : la liste des disparus"
-description: "Yougoslavie, URSS, Tchecoslovaquie, RDA : la liste des pays qui n'existent plus et l'histoire de leur disparition recente."
+description: "Yougoslavie, URSS, Tchécoslovaquie, RDA : la liste des pays qui n'existent plus et l'histoire de leur disparition récente."
 date: 2026-03-07
 lang: "fr"
 urlSlug: "pays-disparus"

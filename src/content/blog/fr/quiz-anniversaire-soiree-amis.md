@@ -1,6 +1,6 @@
 ---
-title: "Quiz anniversaire et soiree entre amis : idees"
-description: "Organiser un quiz pour un anniversaire ou une soiree entre amis : themes, questions personnalisees et methode d'animation."
+title: "Quiz anniversaire et soirée entre amis : idées"
+description: "Organiser un quiz pour un anniversaire ou une soirée entre amis : thèmes, questions personnalisées et méthode d'animation."
 date: 2026-02-26
 lang: "fr"
 urlSlug: "quiz-anniversaire-soiree-amis"

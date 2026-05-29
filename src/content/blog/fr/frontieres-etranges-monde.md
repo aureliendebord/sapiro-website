@@ -1,6 +1,6 @@
 ---
-title: "Les 10 frontieres les plus etranges du monde"
-description: "Baarle-Nassau, enclave de Cooch Behar, point quadruple : les 10 frontieres les plus etranges du monde, leur histoire et leur originalite."
+title: "Les 10 frontières les plus étranges du monde"
+description: "Baarle-Nassau, enclave de Cooch Behar, point quadruple : les 10 frontières les plus étranges du monde, leur histoire et leur originalité."
 date: 2026-03-08
 lang: "fr"
 urlSlug: "frontieres-etranges-monde"

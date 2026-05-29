@@ -1,6 +1,6 @@
 ---
-title: "15 sculptures celebres a connaitre dans le monde"
-description: "Le David, Le Penseur, la Venus de Milo : 15 sculptures celebres du monde avec leur histoire, leur lieu et ce qui les rend incontournables."
+title: "15 sculptures célèbres à connaître dans le monde"
+description: "Le David, Le Penseur, la Vénus de Milo : 15 sculptures célèbres du monde avec leur histoire, leur lieu et ce qui les rend incontournables."
 date: 2026-01-26
 lang: "fr"
 urlSlug: "sculptures-celebres-monde"

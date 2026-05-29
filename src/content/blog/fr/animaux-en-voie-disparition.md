@@ -1,6 +1,6 @@
 ---
 title: "Animaux en voie de disparition : liste 2026"
-description: "Quels animaux risquent vraiment de disparaitre dans les prochaines decennies ? Liste actualisee par categorie UICN, avec les chiffres reels de population."
+description: "Quels animaux risquent vraiment de disparaître dans les prochaines décennies ? Liste actualisée par catégorie UICN, avec les chiffres réels de population."
 date: 2026-01-17
 lang: "fr"
 urlSlug: "animaux-en-voie-disparition"

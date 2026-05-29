@@ -1,6 +1,6 @@
 ---
-title: "Quiz culture generale entreprise et team building"
-description: "Organiser un quiz culture generale en entreprise ou en team building : format, themes, regles et outils pour reussir l'animation."
+title: "Quiz culture générale entreprise et team building"
+description: "Organiser un quiz culture générale en entreprise ou en team building : format, thèmes, règles et outils pour réussir l'animation."
 date: 2026-02-25
 lang: "fr"
 urlSlug: "quiz-culture-generale-entreprise-team-building"

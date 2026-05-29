@@ -1,6 +1,6 @@
 ---
 title: "Identifier les animaux avec ses enfants : guide pratique"
-description: "Comment apprendre a votre enfant a identifier les animaux ? Methodes, sorties et ressources pour developper l'oeil naturaliste."
+description: "Comment apprendre à votre enfant à identifier les animaux ? Méthodes, sorties et ressources pour développer l'œil naturaliste."
 date: 2026-02-17
 lang: "fr"
 urlSlug: "identifier-animaux-enfants"

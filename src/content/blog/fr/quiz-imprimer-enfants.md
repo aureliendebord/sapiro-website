@@ -1,6 +1,6 @@
 ---
-title: "Quiz a imprimer pour enfants : pays, animaux, art"
-description: "Modeles de quiz a imprimer pour les enfants : drapeaux, capitales, animaux, art. Solutions et conseils pour adapter au niveau de l'enfant."
+title: "Quiz à imprimer pour enfants : pays, animaux, art"
+description: "Modèles de quiz à imprimer pour les enfants : drapeaux, capitales, animaux, art. Solutions et conseils pour adapter au niveau de l'enfant."
 date: 2026-02-19
 lang: "fr"
 urlSlug: "quiz-imprimer-enfants"

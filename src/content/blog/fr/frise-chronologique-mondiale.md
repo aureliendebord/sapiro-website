@@ -1,6 +1,6 @@
 ---
-title: "Frise chronologique mondiale : reperes essentiels"
-description: "Antiquite, Moyen Age, Renaissance, ere industrielle, guerres mondiales : frise chronologique mondiale avec les dates et evenements a retenir."
+title: "Frise chronologique mondiale : repères essentiels"
+description: "Antiquité, Moyen Âge, Renaissance, ère industrielle, guerres mondiales : frise chronologique mondiale avec les dates et événements à retenir."
 date: 2026-01-30
 lang: "fr"
 urlSlug: "frise-chronologique-mondiale"

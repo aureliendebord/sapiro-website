@@ -1,6 +1,6 @@
 ---
 title: "Quiz capitales par continent : Europe, Afrique, Asie..."
-description: "Tester votre connaissance des capitales du monde par continent : Europe, Afrique, Asie, Ameriques, Oceanie. Listes completes et quizzes."
+description: "Tester votre connaissance des capitales du monde par continent : Europe, Afrique, Asie, Amériques, Océanie. Listes complètes et quizzes."
 date: 2026-02-22
 lang: "fr"
 urlSlug: "quiz-capitales-par-continent"

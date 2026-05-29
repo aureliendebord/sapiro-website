@@ -1,6 +1,6 @@
 ---
-title: "Reconnaitre un peintre : guide visuel des maitres"
-description: "Monet, Van Gogh, Picasso, Vermeer : criteres simples pour reconnaitre les grands peintres d'un seul coup d'oeil. Style, couleurs, themes."
+title: "Reconnaître un peintre : guide visuel des maîtres"
+description: "Monet, Van Gogh, Picasso, Vermeer : critères simples pour reconnaître les grands peintres d'un seul coup d'œil. Style, couleurs, thèmes."
 date: 2026-01-24
 lang: "fr"
 urlSlug: "reconnaitre-peintre-style"

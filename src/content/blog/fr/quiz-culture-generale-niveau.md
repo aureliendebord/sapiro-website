@@ -1,6 +1,6 @@
 ---
 title: "Quiz culture générale : facile à expert"
-description: "Quiz culture generale par niveau : facile, moyen, difficile, expert. Pour evaluer son niveau et progresser etape par etape."
+description: "Quiz culture générale par niveau : facile, moyen, difficile, expert. Pour évaluer son niveau et progresser étape par étape."
 date: 2026-02-23
 lang: "fr"
 urlSlug: "quiz-culture-generale-niveau"

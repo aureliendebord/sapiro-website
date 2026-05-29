@@ -1,6 +1,6 @@
 ---
 title: "Sapiro vs Duolingo : apprendre quoi exactement ?"
-description: "Comparatif Sapiro et Duolingo : culture generale ou langues etrangeres ? Avantages, inconvenients et publics de chaque application."
+description: "Comparatif Sapiro et Duolingo : culture générale ou langues étrangères ? Avantages, inconvénients et publics de chaque application."
 date: 2026-02-28
 lang: "fr"
 urlSlug: "sapiro-vs-duolingo"

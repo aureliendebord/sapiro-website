@@ -1,5 +1,5 @@
 ---
-title: "Reconnaitre 30 races de chiens : guide visuel"
+title: "Reconnaître 30 races de chiens : guide visuel"
 description: "Berger australien ou border collie, husky ou malamute : 30 races de chiens avec leurs traits distinctifs pour ne plus jamais les confondre."
 date: 2026-01-19
 lang: "fr"

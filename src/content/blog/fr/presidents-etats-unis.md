@@ -1,6 +1,6 @@
 ---
-title: "Presidents des Etats-Unis : liste complete"
-description: "De George Washington a aujourd'hui : liste complete des presidents des Etats-Unis avec dates, parti et faits marquants de chaque mandat."
+title: "Présidents des États-Unis : liste complète"
+description: "De George Washington à aujourd'hui : liste complète des présidents des États-Unis avec dates, parti et faits marquants de chaque mandat."
 date: 2026-02-02
 lang: "fr"
 urlSlug: "presidents-etats-unis"

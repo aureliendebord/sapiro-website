@@ -1,6 +1,6 @@
 ---
-title: "Les dictateurs du XXe siecle expliques aux ados"
-description: "Hitler, Staline, Mao, Franco, Pol Pot : les grands dictateurs du XXe siecle expliques simplement, avec leurs ideologies et leurs consequences."
+title: "Les dictateurs du XXe siècle expliqués aux ados"
+description: "Hitler, Staline, Mao, Franco, Pol Pot : les grands dictateurs du XXe siècle expliqués simplement, avec leurs idéologies et leurs conséquences."
 date: 2026-02-06
 lang: "fr"
 urlSlug: "dictateurs-xxe-siecle"

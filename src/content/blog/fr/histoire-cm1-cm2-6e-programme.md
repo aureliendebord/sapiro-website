@@ -1,6 +1,6 @@
 ---
 title: "Histoire en CM1, CM2 et 6e : programme et quiz"
-description: "Programme officiel d'histoire en CM1, CM2 et 6e avec themes, dates cles et quiz pour aider votre enfant a reviser efficacement."
+description: "Programme officiel d'histoire en CM1, CM2 et 6e avec thèmes, dates clés et quiz pour aider votre enfant à réviser efficacement."
 date: 2026-02-15
 lang: "fr"
 urlSlug: "histoire-cm1-cm2-6e-programme"
