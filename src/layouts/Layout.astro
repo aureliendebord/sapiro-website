@@ -8,9 +8,10 @@ interface Props {
   lang?: string;
   noDefaultHreflang?: boolean;
   noCanonical?: boolean;
+  ogType?: string;
 }
 
-const { title, description, lang = 'fr', noDefaultHreflang = false, noCanonical = false } = Astro.props;
+const { title, description, lang = 'fr', noDefaultHreflang = false, noCanonical = false, ogType = 'website' } = Astro.props;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const ogImageURL = new URL(`/images/og/default-${lang}.png`, Astro.site);
 
@@ -69,7 +70,7 @@ if (routeUrls) {
   <meta property="og:description" content={description} />
   <meta property="og:image" content={ogImageURL.toString()} />
   <meta property="og:url" content={canonicalURL} />
-  <meta property="og:type" content="website" />
+  <meta property="og:type" content={ogType} />
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
