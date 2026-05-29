@@ -1,6 +1,6 @@
 ---
-title: "Origen del nombre de los paises: etimologias"
-description: "Francia, Argentina, Pakistan, Australia: el origen del nombre de los paises revela su historia y culturas. 20 etimologias sorprendentes."
+title: "Origen del nombre de los países: etimologías"
+description: "Francia, Argentina, Pakistán, Australia: el origen del nombre de los países revela su historia y culturas. 20 etimologías sorprendentes."
 date: 2026-03-09
 lang: "es"
 urlSlug: "origen-nombres-paises"

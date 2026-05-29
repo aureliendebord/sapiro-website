@@ -1,6 +1,6 @@
 ---
-title: "Examenes anteriores y correcciones: donde encontrarlos"
-description: "Encontrar examenes y correcciones de cultura general para preparar una oposicion: fuentes oficiales, libros y entrenamiento con preguntas tipo."
+title: "Exámenes anteriores y correcciones: ¿dónde encontrarlos?"
+description: "Encontrar exámenes y correcciones de cultura general para preparar una oposición: fuentes oficiales, libros y entrenamiento con preguntas tipo."
 date: 2026-02-11
 lang: "es"
 urlSlug: "examenes-anteriores-cultura-general"

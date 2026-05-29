@@ -1,6 +1,6 @@
 ---
 title: "Quiz cultura general nivel secundaria y bachillerato"
-description: "Entrenarse en cultura general a nivel secundaria y bachillerato: temas recurrentes, preguntas tipo y metodo para superar examenes."
+description: "Entrenarse en cultura general a nivel secundaria y bachillerato: temas recurrentes, preguntas tipo y método para superar exámenes."
 date: 2026-02-09
 lang: "es"
 urlSlug: "quiz-cultura-general-secundaria-bachillerato"

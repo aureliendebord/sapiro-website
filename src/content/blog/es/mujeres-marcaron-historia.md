@@ -1,6 +1,6 @@
 ---
 title: "20 mujeres que marcaron la historia mundial"
-description: "Cleopatra, Juana de Arco, Marie Curie, Rosa Parks: 20 mujeres que marcaron la historia mundial con su epoca y su impacto."
+description: "Cleopatra, Juana de Arco, Marie Curie, Rosa Parks: 20 mujeres que marcaron la historia mundial con su época y su impacto."
 date: 2026-02-03
 lang: "es"
 urlSlug: "mujeres-marcaron-historia"

@@ -1,6 +1,6 @@
 ---
-title: "Las 10 fronteras mas extranas del mundo"
-description: "Baarle-Nassau, enclave de Cooch Behar, cuadripuntos: las 10 fronteras mas extranas del mundo, su historia y originalidad."
+title: "Las 10 fronteras más extrañas del mundo"
+description: "Baarle-Nassau, enclave de Cooch Behar, cuadripuntos: las 10 fronteras más extrañas del mundo, su historia y originalidad."
 date: 2026-03-08
 lang: "es"
 urlSlug: "fronteras-extranas-mundo"

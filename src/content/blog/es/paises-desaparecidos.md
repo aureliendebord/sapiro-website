@@ -1,6 +1,6 @@
 ---
-title: "Los paises que ya no existen: lista de los desaparecidos"
-description: "Yugoslavia, URSS, Checoslovaquia, RDA: lista de los paises que ya no existen y la historia de su desaparicion reciente."
+title: "Los países que ya no existen: lista de los desaparecidos"
+description: "Yugoslavia, URSS, Checoslovaquia, RDA: lista de los países que ya no existen y la historia de su desaparición reciente."
 date: 2026-03-07
 lang: "es"
 urlSlug: "paises-desaparecidos"

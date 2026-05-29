@@ -1,6 +1,6 @@
 ---
-title: "Que pais corresponde a tu personalidad? El test"
-description: "Test ludico: que pais corresponde a tu personalidad? Un viaje entre cultura, geografia y caracter para descubrir tu pais espejo."
+title: "¿Qué país corresponde a tu personalidad? El test"
+description: "Test lúdico: ¿qué país corresponde a tu personalidad? Un viaje entre cultura, geografía y carácter para descubrir tu país espejo."
 date: 2026-03-10
 lang: "es"
 urlSlug: "test-pais-personalidad"

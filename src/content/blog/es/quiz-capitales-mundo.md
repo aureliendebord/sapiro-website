@@ -1,6 +1,6 @@
 ---
-title: "Quiz de capitales del mundo: cuantas puedes nombrar?"
-description: "Acepta el quiz capitales del mundo: trampas clasicas, capitales sorprendentes y trucos para memorizar las 195. Cuantas eres capaz de nombrar sin mirar?"
+title: "Quiz de capitales del mundo: ¿cuántas puedes nombrar?"
+description: "Acepta el quiz capitales del mundo: trampas clásicas, capitales sorprendentes y trucos para memorizar las 195. ¿Cuántas eres capaz de nombrar sin mirar?"
 date: 2025-12-10
 lang: "es"
 urlSlug: "quiz-capitales-mundo"

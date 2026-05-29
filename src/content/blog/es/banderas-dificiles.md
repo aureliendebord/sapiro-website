@@ -1,6 +1,6 @@
 ---
-title: "Las 15 banderas mas dificiles de reconocer del mundo"
-description: "De Monaco a Indonesia, estas son las 15 banderas mas dificiles de reconocer del mundo. Trucos visuales, datos curiosos y quiz para dejar de confundirlas."
+title: "Las 15 banderas más difíciles de reconocer del mundo"
+description: "De Mónaco a Indonesia, estas son las 15 banderas más difíciles de reconocer del mundo. Trucos visuales, datos curiosos y quiz para dejar de confundirlas."
 date: 2025-12-15
 lang: "es"
 urlSlug: "banderas-dificiles"

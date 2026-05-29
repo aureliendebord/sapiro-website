@@ -1,6 +1,6 @@
 ---
-title: "Como preparar la EvAU y acceso a la universidad"
-description: "Preparar cultura general para EvAU, Selectividad y otros examenes de acceso a la universidad: temario, lecturas, metodo y entrenamiento con quizzes."
+title: "Cómo preparar la EvAU y acceso a la universidad"
+description: "Preparar cultura general para EvAU, Selectividad y otros exámenes de acceso a la universidad: temario, lecturas, método y entrenamiento con quizzes."
 date: 2026-02-08
 lang: "es"
 urlSlug: "preparar-acceso-universidad"

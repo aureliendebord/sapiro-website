@@ -1,6 +1,6 @@
 ---
-title: "Identificar animales con los ninos: guia practica"
-description: "Como ensenar a tu hijo a identificar animales? Metodos, salidas y recursos para desarrollar el ojo naturalista."
+title: "Identificar animales con los niños: guía práctica"
+description: "¿Cómo enseñar a tu hijo a identificar animales? Métodos, salidas y recursos para desarrollar el ojo naturalista."
 date: 2026-02-17
 lang: "es"
 urlSlug: "identificar-animales-ninos"

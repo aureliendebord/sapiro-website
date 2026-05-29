@@ -1,6 +1,6 @@
 ---
 title: "Sapiro vs QuizUp y HQ Trivia: enfoques distintos"
-description: "Comparativa Sapiro con QuizUp y HQ Trivia: quiz competitivo en vivo o aprendizaje tranquilo? Ventajas y limites de cada formato."
+description: "Comparativa Sapiro con QuizUp y HQ Trivia: ¿quiz competitivo en vivo o aprendizaje tranquilo? Ventajas y límites de cada formato."
 date: 2026-03-02
 lang: "es"
 urlSlug: "sapiro-vs-quizup-hq-trivia"

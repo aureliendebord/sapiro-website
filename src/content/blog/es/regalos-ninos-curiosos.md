@@ -1,6 +1,6 @@
 ---
-title: "20 ideas de regalos para ninos curiosos (6, 8, 10 anos)"
-description: "Veinte ideas de regalos educativos y ludicos para ninos curiosos de 6 a 12 anos: juegos, libros, apps, instrumentos de observacion."
+title: "20 ideas de regalos para niños curiosos (6, 8, 10 años)"
+description: "Veinte ideas de regalos educativos y lúdicos para niños curiosos de 6 a 12 años: juegos, libros, apps, instrumentos de observación."
 date: 2026-02-20
 lang: "es"
 urlSlug: "regalos-ninos-curiosos"

@@ -1,6 +1,6 @@
 ---
-title: "Historia del arte para principiantes: guia inicial"
-description: "Partes de cero en historia del arte? Guia accesible de grandes periodos, obras y artistas para tener una vision de conjunto."
+title: "Historia del arte para principiantes: guía inicial"
+description: "¿Partes de cero en historia del arte? Guía accesible de grandes períodos, obras y artistas para tener una visión de conjunto."
 date: 2026-01-28
 lang: "es"
 urlSlug: "historia-arte-principiantes"

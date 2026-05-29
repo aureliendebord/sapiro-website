@@ -1,6 +1,6 @@
 ---
-title: "20 parejas de animales que se parecen: como distinguirlos"
-description: "Cocodrilo o caiman, leopardo o guepardo, llama o alpaca: 20 parejas de animales confundidos con los criterios para no volver a equivocarse."
+title: "20 parejas de animales que se parecen: cómo distinguirlos"
+description: "Cocodrilo o caimán, leopardo o guepardo, llama o alpaca: 20 parejas de animales confundidos con los criterios para no volver a equivocarse."
 date: 2026-01-22
 lang: "es"
 urlSlug: "animales-parecidos-diferencias"

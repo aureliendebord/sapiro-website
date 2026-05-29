@@ -1,6 +1,6 @@
 ---
-title: "Apps de quiz sin recoleccion de datos: comparativa"
-description: "Que apps de quiz respetan de verdad tus datos? Comparativa de aplicaciones que no recogen tus datos personales."
+title: "Apps de quiz sin recolección de datos: comparativa"
+description: "¿Qué apps de quiz respetan de verdad tus datos? Comparativa de aplicaciones que no recogen tus datos personales."
 date: 2026-03-04
 lang: "es"
 urlSlug: "apps-quiz-sin-recoleccion-datos"

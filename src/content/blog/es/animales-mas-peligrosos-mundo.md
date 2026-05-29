@@ -1,6 +1,6 @@
 ---
-title: "Los 15 animales mas peligrosos del mundo"
-description: "Leon, tiburon, oso polar? Los animales realmente mas peligrosos no son los que imaginas. Ranking por muertes humanas anuales con datos de la OMS."
+title: "Los 15 animales más peligrosos del mundo"
+description: "¿León, tiburón, oso polar? Los animales realmente más peligrosos no son los que imaginas. Ranking por muertes humanas anuales con datos de la OMS."
 date: 2026-01-16
 lang: "es"
 urlSlug: "animales-mas-peligrosos-mundo"

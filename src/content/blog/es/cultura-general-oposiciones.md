@@ -1,6 +1,6 @@
 ---
 title: "Cultura general en oposiciones publicas"
-description: "Repasar cultura general para oposiciones: temario, temas recurrentes y metodo para preparar la prueba con eficacia."
+description: "Repasar cultura general para oposiciones: temario, temas recurrentes y método para preparar la prueba con eficacia."
 date: 2026-02-07
 lang: "es"
 urlSlug: "cultura-general-oposiciones"

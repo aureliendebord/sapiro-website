@@ -1,6 +1,6 @@
 ---
-title: "12 errores de geografia que todos cometemos"
-description: "Los 12 errores de geografia comunes que casi todos cometemos: capitales confundidas, paises mal ubicados y mitos del mapa. En cuantos caes tu? Compruebalo."
+title: "12 errores de geografía que todos cometemos"
+description: "Los 12 errores de geografía comunes que casi todos cometemos: capitales confundidas, países mal ubicados y mitos del mapa. ¿En cuántos caes tú? Compruébalo."
 date: 2025-11-15
 lang: "es"
 urlSlug: "errores-geografia"

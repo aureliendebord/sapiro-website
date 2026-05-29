@@ -1,6 +1,6 @@
 ---
-title: "Repasar cultura general en 30 dias: plan diario"
-description: "Un plan de 30 dias para repasar cultura general antes de un examen: dia a dia, tema a tema, con un programa diario y el metodo adecuado para que se quede."
+title: "Repasar cultura general en 30 días: plan diario"
+description: "Un plan de 30 días para repasar cultura general antes de un examen: día a día, tema a tema, con un programa diario y el método adecuado para que se quede."
 date: 2026-02-12
 lang: "es"
 urlSlug: "repasar-cultura-general-30-dias"

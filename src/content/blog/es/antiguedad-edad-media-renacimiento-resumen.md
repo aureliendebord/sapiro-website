@@ -1,5 +1,5 @@
 ---
-title: "Antiguedad, Edad Media, Renacimiento: hitos esenciales"
+title: "Antigüedad, Edad Media, Renacimiento: hitos esenciales"
 description: "Tres grandes periodos que estructuran la historia occidental. Fechas, civilizaciones, movimientos y figuras para orientarse simple."
 date: 2026-02-04
 lang: "es"

@@ -1,6 +1,6 @@
 ---
-title: "20 animales extranos y desconocidos del mundo"
-description: "Tardigrado, ajolote, pangolin, calamar vampiro: 20 animales extranos y desconocidos que existen de verdad, con sus particularidades biologicas."
+title: "20 animales extraños y desconocidos del mundo"
+description: "Tardígrado, ajolote, pangolín, calamar vampiro: 20 animales extraños y desconocidos que existen de verdad, con sus particularidades biológicas."
 date: 2026-01-18
 lang: "es"
 urlSlug: "animales-extranos-desconocidos"

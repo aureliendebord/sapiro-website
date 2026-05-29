@@ -1,6 +1,6 @@
 ---
-title: "Significado de las banderas: colores y simbolos"
-description: "Descubre el significado de las banderas del mundo: por que Japon usa un circulo rojo, que simboliza la medialuna islamica y mas historias sorprendentes."
+title: "Significado de las banderas: colores y símbolos"
+description: "Descubre el significado de las banderas del mundo: por qué Japón usa un círculo rojo, qué simboliza la medialuna islámica y más historias sorprendentes."
 date: 2025-11-05
 lang: "es"
 urlSlug: "significado-banderas"

@@ -1,6 +1,6 @@
 ---
-title: "Quiz capitales por continente: Europa, Africa, Asia..."
-description: "Pon a prueba tu conocimiento de capitales del mundo por continente: Europa, Africa, Asia, Americas, Oceania. Listas completas y quizzes."
+title: "Quiz capitales por continente: Europa, África, Asia..."
+description: "Pon a prueba tu conocimiento de capitales del mundo por continente: Europa, África, Asia, Américas, Oceanía. Listas completas y quizzes."
 date: 2026-02-22
 lang: "es"
 urlSlug: "quiz-capitales-por-continente"

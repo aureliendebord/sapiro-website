@@ -1,6 +1,6 @@
 ---
-title: "Quizzes para imprimir para ninos: paises, animales, arte"
-description: "Modelos de quiz para imprimir para ninos: banderas, capitales, animales, arte. Soluciones y consejos para adaptar al nivel del nino."
+title: "Quizzes para imprimir para niños: países, animales, arte"
+description: "Modelos de quiz para imprimir para niños: banderas, capitales, animales, arte. Soluciones y consejos para adaptar al nivel del niño."
 date: 2026-02-19
 lang: "es"
 urlSlug: "quiz-imprimir-ninos"

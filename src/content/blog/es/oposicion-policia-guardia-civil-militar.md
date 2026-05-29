@@ -1,6 +1,6 @@
 ---
-title: "Oposicion policia, guardia civil y militar: preparacion"
-description: "Sacar oposiciones de policia nacional, guardia civil y fuerzas armadas: temario, ejemplos de preguntas y metodo de entrenamiento."
+title: "Oposición policía, guardia civil y militar: preparación"
+description: "Sacar oposiciones de policía nacional, guardia civil y fuerzas armadas: temario, ejemplos de preguntas y método de entrenamiento."
 date: 2026-02-13
 lang: "es"
 urlSlug: "oposicion-policia-guardia-civil-militar"

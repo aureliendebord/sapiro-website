@@ -1,6 +1,6 @@
 ---
-title: "Los 15 paises menos visitados del mundo"
-description: "Descubre los 15 paises menos visitados del mundo: Tuvalu, Kiribati, Turkmenistan... Por que tan pocos turistas y que ver alli?"
+title: "Los 15 países menos visitados del mundo"
+description: "Descubre los 15 países menos visitados del mundo: Tuvalu, Kiribati, Turkmenistán... ¿Por qué tan pocos turistas y qué ver allí?"
 date: 2026-03-05
 lang: "es"
 urlSlug: "paises-menos-visitados-mundo"

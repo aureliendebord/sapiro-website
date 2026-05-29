@@ -1,6 +1,6 @@
 ---
-title: "Animales en peligro de extincion: lista 2026"
-description: "Que animales corren riesgo real de desaparecer en las proximas decadas? Lista actualizada por categoria UICN con cifras reales de poblacion."
+title: "Animales en peligro de extinción: lista 2026"
+description: "¿Qué animales corren riesgo real de desaparecer en las próximas décadas? Lista actualizada por categoría UICN con cifras reales de población."
 date: 2026-01-17
 lang: "es"
 urlSlug: "animales-en-peligro-extincion"

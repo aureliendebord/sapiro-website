@@ -1,6 +1,6 @@
 ---
-title: "Linea de tiempo mundial: los hitos esenciales"
-description: "Antiguedad, Edad Media, Renacimiento, era industrial, guerras mundiales: linea de tiempo mundial con las fechas y eventos que recordar."
+title: "Línea de tiempo mundial: los hitos esenciales"
+description: "Antigüedad, Edad Media, Renacimiento, era industrial, guerras mundiales: línea de tiempo mundial con las fechas y eventos que recordar."
 date: 2026-01-30
 lang: "es"
 urlSlug: "linea-tiempo-historia-mundial"

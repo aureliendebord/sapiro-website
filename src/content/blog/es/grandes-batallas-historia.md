@@ -1,6 +1,6 @@
 ---
 title: "Las 15 grandes batallas de la historia mundial"
-description: "Maraton, Hastings, Waterloo, Stalingrado: 15 batallas que cambiaron el curso de la historia mundial con sus fechas, causas y consecuencias."
+description: "Maratón, Hastings, Waterloo, Stalingrado: 15 batallas que cambiaron el curso de la historia mundial con sus fechas, causas y consecuencias."
 date: 2026-01-31
 lang: "es"
 urlSlug: "grandes-batallas-historia"

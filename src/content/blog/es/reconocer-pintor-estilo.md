@@ -1,5 +1,5 @@
 ---
-title: "Reconocer a un pintor: guia visual"
+title: "Reconocer a un pintor: guía visual"
 description: "Monet, Van Gogh, Picasso, Vermeer: criterios simples para reconocer a los grandes pintores de un vistazo. Estilo, paleta, temas."
 date: 2026-01-24
 lang: "es"

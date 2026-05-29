@@ -1,6 +1,6 @@
 ---
-title: "Quiz historia del arte nivel examen: entrenate"
-description: "Repasar historia del arte para examenes, oposiciones o universidad: programa oficial, obras clave y quizzes de nivel para entrenarse."
+title: "Quiz historia del arte nivel examen: entrénate"
+description: "Repasar historia del arte para exámenes, oposiciones o universidad: programa oficial, obras clave y quizzes de nivel para entrenarse."
 date: 2026-01-29
 lang: "es"
 urlSlug: "quiz-historia-arte-examen"

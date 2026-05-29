@@ -1,6 +1,6 @@
 ---
-title: "Los 15 museos mas visitados del mundo"
-description: "Louvre, British Museum, MoMA, Vaticano: top 15 de museos mas visitados con sus cifras, obras clave y consejos para visitar."
+title: "Los 15 museos más visitados del mundo"
+description: "Louvre, British Museum, MoMA, Vaticano: top 15 de museos más visitados con sus cifras, obras clave y consejos para visitar."
 date: 2026-01-27
 lang: "es"
 urlSlug: "museos-mas-visitados-mundo"

@@ -1,6 +1,6 @@
 ---
-title: "Preparar una oposicion de acceso a la administracion"
-description: "Sacar una oposicion publica de acceso a la administracion: temario, metodo, planning y entrenamiento con quizzes de cultura general."
+title: "Preparar una oposición de acceso a la administración"
+description: "Sacar una oposición pública de acceso a la administración: temario, método, planning y entrenamiento con quizzes de cultura general."
 date: 2026-02-10
 lang: "es"
 urlSlug: "preparar-oposicion-acceso-administracion"

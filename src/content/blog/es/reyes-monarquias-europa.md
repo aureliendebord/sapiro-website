@@ -1,6 +1,6 @@
 ---
-title: "Reyes y monarquias de Europa: lista completa por pais"
-description: "De Carlomagno a Isabel II: los monarcas esenciales de Europa por pais y dinastia, con fechas de reinado y eventos mayores."
+title: "Reyes y monarquías de Europa: lista completa por país"
+description: "De Carlomagno a Isabel II: los monarcas esenciales de Europa por país y dinastía, con fechas de reinado y eventos mayores."
 date: 2026-02-01
 lang: "es"
 urlSlug: "reyes-monarquias-europa"

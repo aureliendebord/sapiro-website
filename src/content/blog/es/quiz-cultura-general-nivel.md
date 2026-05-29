@@ -1,6 +1,6 @@
 ---
-title: "Quiz cultura general nivel facil, medio, dificil, experto"
-description: "Quizzes de cultura general por nivel: facil, medio, dificil, experto. Para evaluar nivel y progresar paso a paso."
+title: "Quiz cultura general nivel fácil, medio, difícil, experto"
+description: "Quizzes de cultura general por nivel: fácil, medio, difícil, experto. Para evaluar nivel y progresar paso a paso."
 date: 2026-02-23
 lang: "es"
 urlSlug: "quiz-cultura-general-nivel"

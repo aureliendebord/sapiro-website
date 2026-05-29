@@ -1,6 +1,6 @@
 ---
-title: "Gamificacion y educacion: el poder de los quiz"
-description: "La gamificacion en la educacion funciona: la ciencia explica por que los quiz mejoran la memoria un 50%. Mecanicas de juego, estudios y consejos practicos."
+title: "Gamificación y educación: el poder de los quiz"
+description: "La gamificación en la educación funciona: la ciencia explica por qué los quiz mejoran la memoria un 50%. Mecánicas de juego, estudios y consejos prácticos."
 date: 2025-11-20
 lang: "es"
 urlSlug: "gamificacion-educacion"

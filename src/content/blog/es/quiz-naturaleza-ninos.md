@@ -1,6 +1,6 @@
 ---
-title: "Quiz naturaleza para ninos: aprender animales jugando"
-description: "Como acercar a los ninos al mundo animal? Quiz por edad, juegos de observacion y consejos pedagogicos para despertar la curiosidad naturalista."
+title: "Quiz naturaleza para niños: aprender animales jugando"
+description: "¿Cómo acercar a los niños al mundo animal? Quiz por edad, juegos de observación y consejos pedagógicos para despertar la curiosidad naturalista."
 date: 2026-01-21
 lang: "es"
 urlSlug: "quiz-naturaleza-ninos"

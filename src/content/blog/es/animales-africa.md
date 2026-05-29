@@ -1,6 +1,6 @@
 ---
-title: "Animales de Africa: 40 especies emblematicas"
-description: "Leon, nu, fenec, orix: 40 animales emblematicos de Africa con su habitat, dieta y estado de conservacion. Guia completa por region."
+title: "Animales de África: 40 especies emblemáticas"
+description: "León, nu, fenec, órix: 40 animales emblemáticos de África con su hábitat, dieta y estado de conservación. Guía completa por región."
 date: 2026-01-20
 lang: "es"
 urlSlug: "animales-africa"

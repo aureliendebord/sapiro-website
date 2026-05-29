@@ -1,6 +1,6 @@
 ---
-title: "Quiz geografia en familia: la velada perfecta"
-description: "Organiza un quiz geografia en familia inolvidable: 30 preguntas listas para usar, reglas claras, formatos por edad y consejos para que todos disfruten."
+title: "Quiz geografía en familia: la velada perfecta"
+description: "Organiza un quiz geografía en familia inolvidable: 30 preguntas listas para usar, reglas claras, formatos por edad y consejos para que todos disfruten."
 date: 2025-10-20
 lang: "es"
 urlSlug: "geografia-familia"

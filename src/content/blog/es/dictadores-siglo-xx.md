@@ -1,6 +1,6 @@
 ---
 title: "Los dictadores del siglo XX explicados a los adolescentes"
-description: "Hitler, Stalin, Mao, Franco, Pol Pot: los grandes dictadores del siglo XX explicados simple, con sus ideologias y consecuencias."
+description: "Hitler, Stalin, Mao, Franco, Pol Pot: los grandes dictadores del siglo XX explicados simple, con sus ideologías y consecuencias."
 date: 2026-02-06
 lang: "es"
 urlSlug: "dictadores-siglo-xx"

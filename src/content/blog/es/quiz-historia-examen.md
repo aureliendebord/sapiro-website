@@ -1,6 +1,6 @@
 ---
 title: "Quiz historia nivel examen: entrenamiento"
-description: "Repasar historia para examenes y oposiciones: programa oficial, fechas imprescindibles y quizzes para entrenarse."
+description: "Repasar historia para exámenes y oposiciones: programa oficial, fechas imprescindibles y quizzes para entrenarse."
 date: 2026-02-05
 lang: "es"
 urlSlug: "quiz-historia-examen"

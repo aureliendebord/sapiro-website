@@ -1,6 +1,6 @@
 ---
-title: "15 movimientos artisticos explicados simple"
-description: "Renacimiento, Impresionismo, Cubismo, Pop Art: 15 grandes movimientos artisticos explicados con sus fechas, rasgos y figuras."
+title: "15 movimientos artísticos explicados simple"
+description: "Renacimiento, Impresionismo, Cubismo, Pop Art: 15 grandes movimientos artísticos explicados con sus fechas, rasgos y figuras."
 date: 2026-01-25
 lang: "es"
 urlSlug: "movimientos-artisticos"

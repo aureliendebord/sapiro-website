@@ -1,6 +1,6 @@
 ---
-title: "Como ensenar los paises del mundo a los ninos"
-description: "Como introducir paises, banderas y capitales a los ninos? Metodos por edad, juegos y recursos para despertar la curiosidad geografica."
+title: "Cómo enseñar los países del mundo a los niños"
+description: "¿Cómo introducir países, banderas y capitales a los niños? Métodos por edad, juegos y recursos para despertar la curiosidad geográfica."
 date: 2026-02-14
 lang: "es"
 urlSlug: "ensenar-paises-mundo-ninos"

@@ -1,6 +1,6 @@
 ---
-title: "Quiz cumpleanos y fiesta entre amigos: ideas"
-description: "Organizar un quiz para un cumpleanos o una fiesta entre amigos: temas, preguntas personalizadas y metodo de animacion."
+title: "Quiz cumpleaños y fiesta entre amigos: ideas"
+description: "Organizar un quiz para un cumpleaños o una fiesta entre amigos: temas, preguntas personalizadas y método de animación."
 date: 2026-02-26
 lang: "es"
 urlSlug: "quiz-cumpleanos-fiesta-amigos"

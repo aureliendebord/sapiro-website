@@ -1,6 +1,6 @@
 ---
-title: "Cultura general: guia para saber (casi) todo"
-description: "Quieres mejorar cultura general cada dia? Metodos probados por la ciencia, habitos de 15 minutos y recursos para saber un poco de todo. Por donde empezar?"
+title: "Cultura general: guía para saber (casi) todo"
+description: "¿Quieres mejorar cultura general cada día? Métodos probados por la ciencia, hábitos de 15 minutos y recursos para saber un poco de todo. ¿Por dónde empezar?"
 date: 2025-10-28
 lang: "es"
 urlSlug: "cultura-general-guia"

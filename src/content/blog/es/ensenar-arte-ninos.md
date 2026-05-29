@@ -1,6 +1,6 @@
 ---
-title: "Como ensenar arte a los ninos: guia practica"
-description: "Como acercar el arte a los ninos? Museos, libros, metodos por edad y recursos para despertar la curiosidad artistica."
+title: "Cómo enseñar arte a los niños: guía práctica"
+description: "¿Cómo acercar el arte a los niños? Museos, libros, métodos por edad y recursos para despertar la curiosidad artística."
 date: 2026-02-16
 lang: "es"
 urlSlug: "ensenar-arte-ninos"

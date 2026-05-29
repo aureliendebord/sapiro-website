@@ -1,6 +1,6 @@
 ---
 title: "Mejores apps educativas sin publicidad"
-description: "Seleccion de las mejores aplicaciones educativas sin publicidad: geografia, idiomas, historia, ciencias. Aprender sin interrupciones."
+description: "Selección de las mejores aplicaciones educativas sin publicidad: geografía, idiomas, historia, ciencias. Aprender sin interrupciones."
 date: 2026-03-03
 lang: "es"
 urlSlug: "mejores-apps-educativas-sin-publicidad"

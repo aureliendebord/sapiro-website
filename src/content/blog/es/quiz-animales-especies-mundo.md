@@ -1,6 +1,6 @@
 ---
 title: "Quiz animales: reconocer 50 especies del mundo"
-description: "Sabrias distinguir un guepardo de un leopardo, una llama de una alpaca? Recorrido por las 50 especies animales que conviene saber reconocer."
+description: "¿Sabrías distinguir un guepardo de un leopardo, una llama de una alpaca? Recorrido por las 50 especies animales que conviene saber reconocer."
 date: 2026-01-15
 lang: "es"
 urlSlug: "quiz-animales-especies-mundo"

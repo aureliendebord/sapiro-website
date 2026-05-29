@@ -1,6 +1,6 @@
 ---
-title: "20 personajes historicos que todos deberian conocer"
-description: "El quiz personajes historicos definitivo: de Cleopatra a Mandela, 20 figuras que cambiaron el rumbo de la humanidad. Cuantos serias capaz de reconocer?"
+title: "20 personajes históricos que todos deberían conocer"
+description: "El quiz personajes históricos definitivo: de Cleopatra a Mandela, 20 figuras que cambiaron el rumbo de la humanidad. ¿Cuántos serías capaz de reconocer?"
 date: 2025-11-28
 lang: "es"
 urlSlug: "personajes-historicos"
