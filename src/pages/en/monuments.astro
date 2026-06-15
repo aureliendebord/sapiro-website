@@ -1,0 +1,137 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import { getTranslations } from '../../i18n';
+
+const lang = 'en';
+const t = getTranslations(lang);
+
+const collectionPageSchema = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Monuments of the world: wonders, UNESCO sites and famous landmarks",
+  "description": "All about the monuments of the world: 7 ancient and modern wonders, UNESCO sites, most-visited monuments, landmarks of Paris and France.",
+  "url": "https://sapiro.app/en/monuments/",
+  "inLanguage": "en"
+};
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "What are the 7 wonders of the world?", "acceptedAnswer": { "@type": "Answer", "text": "The 7 wonders of the ancient world were the Great Pyramid of Giza, the Hanging Gardens of Babylon, the Statue of Zeus at Olympia, the Temple of Artemis at Ephesus, the Mausoleum at Halicarnassus, the Colossus of Rhodes and the Lighthouse of Alexandria. Only the Great Pyramid survives. The 7 new wonders, chosen by global vote in 2007, are the Great Wall of China, Petra, Christ the Redeemer, Machu Picchu, Chichén Itzá, the Colosseum and the Taj Mahal." } },
+    { "@type": "Question", "name": "What is the most visited monument in the world?", "acceptedAnswer": { "@type": "Answer", "text": "The Forbidden City in Beijing is the most visited monument in the world, with around 17 to 19 million visitors per year. Among paid monuments, the Eiffel Tower leads with nearly 6.2 million annual visitors." } },
+    { "@type": "Question", "name": "How many sites are on the UNESCO World Heritage list?", "acceptedAnswer": { "@type": "Answer", "text": "UNESCO lists more than 1,200 World Heritage sites across roughly 170 countries. Italy and China hold the most, with around sixty sites each." } },
+    { "@type": "Question", "name": "What is the most visited monument in France?", "acceptedAnswer": { "@type": "Answer", "text": "Notre-Dame Cathedral in Paris is the most visited monument in France, ahead of the Sacré-Cœur Basilica and the Louvre. The Eiffel Tower remains the most visited paid monument in the country." } }
+  ]
+};
+---
+
+<Layout title="Monuments of the World: Guides and Quizzes | SAPIRO" description="Monuments of the world: 7 wonders, UNESCO sites, most-visited monuments, landmarks of Paris and France. General knowledge guides and quizzes." lang={lang}>
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(collectionPageSchema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+  </Fragment>
+
+  <Header lang={lang} t={t} />
+
+  <main class="pillar-page">
+    <article class="container">
+      <header class="pillar-header">
+        <h1>Monuments of the World</h1>
+        <p class="lede">From the pyramids of Egypt to the Eiffel Tower, monuments tell the story of civilizations. Wonders of the world, UNESCO sites and masterpieces to recognize.</p>
+      </header>
+
+      <section class="pillar-intro">
+        <p>A monument is history that still stands. Behind every famous structure lies an era, a technique and an intention: to impress, to pray, to defend, to commemorate. Recognizing the Colosseum, the Taj Mahal or Machu Picchu, and understanding why they were built, is part of the foundations of general knowledge.</p>
+        <p>SAPIRO offers quizzes on iconic monuments from every continent, with a contextualized explanation behind each question: who built it, when, and what makes it unique.</p>
+      </section>
+
+      <section class="pillar-stats">
+        <h2>Monuments in numbers</h2>
+        <ul>
+          <li><strong>1,200+</strong> sites on the UNESCO World Heritage list</li>
+          <li><strong>Only 1</strong> of the 7 ancient wonders still standing: the Great Pyramid of Giza</li>
+          <li><strong>2007</strong>: the 7 new wonders of the world chosen by global vote</li>
+          <li><strong>17-19 million</strong> visitors a year to the Forbidden City, the most visited monument</li>
+          <li><strong>330 metres</strong>: height of the Eiffel Tower, the most visited paid monument on earth</li>
+        </ul>
+      </section>
+
+      <section class="pillar-sub">
+        <h2>The essentials</h2>
+        <ul class="pillar-grid">
+          <li><a href="/en/blog/seven-wonders-of-the-world/">The 7 wonders of the world (ancient and modern)</a></li>
+          <li><a href="/en/blog/famous-monuments-world/">30 famous monuments of the world to recognize</a></li>
+          <li><a href="/en/blog/most-visited-monuments-world/">The most visited monuments in the world</a></li>
+        </ul>
+      </section>
+
+      <section class="pillar-sub">
+        <h2>Monuments by destination</h2>
+        <ul class="pillar-grid">
+          <li><a href="/en/blog/france-monuments/">The most beautiful monuments of France</a></li>
+          <li><a href="/en/blog/paris-monuments/">The monuments of Paris to know</a></li>
+          <li><a href="/en/blog/italy-monuments/">The monuments of Italy</a></li>
+          <li><a href="/en/blog/egypt-monuments/">The monuments of Egypt</a></li>
+          <li><a href="/en/blog/spain-monuments/">The monuments of Spain</a></li>
+          <li><a href="/en/blog/uk-monuments/">The monuments of the United Kingdom</a></li>
+        </ul>
+      </section>
+
+      <section class="pillar-sub">
+        <h2>Heritage and great eras</h2>
+        <ul class="pillar-grid">
+          <li><a href="/en/blog/unesco-world-heritage-sites/">The UNESCO World Heritage</a></li>
+          <li><a href="/en/blog/ancient-monuments/">Monuments of Antiquity (Egypt, Greece, Rome)</a></li>
+          <li><a href="/en/blog/famous-castles-palaces-world/">Famous castles and palaces of the world</a></li>
+        </ul>
+      </section>
+
+      <section class="pillar-sub">
+        <h2>Revise and play</h2>
+        <ul class="pillar-grid">
+          <li><a href="/en/blog/world-monuments-quiz/">World monuments quiz</a></li>
+          <li><a href="/en/blog/monuments-general-knowledge/">Monuments to know for exams</a></li>
+        </ul>
+      </section>
+
+      <section class="pillar-faq">
+        <h2>Frequently asked questions about monuments</h2>
+
+        <h3>What are the 7 wonders of the world?</h3>
+        <p>The 7 wonders of the ancient world were the Great Pyramid of Giza, the Hanging Gardens of Babylon, the Statue of Zeus at Olympia, the Temple of Artemis at Ephesus, the Mausoleum at Halicarnassus, the Colossus of Rhodes and the Lighthouse of Alexandria. Only the Great Pyramid survives. The 7 new wonders, chosen by global vote in 2007, are the Great Wall of China, Petra, Christ the Redeemer, Machu Picchu, Chichén Itzá, the Colosseum and the Taj Mahal.</p>
+
+        <h3>What is the most visited monument in the world?</h3>
+        <p>The Forbidden City in Beijing is the most visited monument in the world, with around 17 to 19 million visitors per year. Among paid monuments, the Eiffel Tower leads with nearly 6.2 million annual visitors.</p>
+
+        <h3>How many sites are on the UNESCO World Heritage list?</h3>
+        <p>UNESCO lists more than 1,200 World Heritage sites across roughly 170 countries. Italy and China hold the most, with around sixty sites each.</p>
+
+        <h3>What is the most visited monument in France?</h3>
+        <p>Notre-Dame Cathedral in Paris is the most visited monument in France, ahead of the Sacré-Cœur Basilica and the Louvre. The Eiffel Tower remains the most visited paid monument in the country.</p>
+      </section>
+    </article>
+  </main>
+
+  <Footer lang={lang} t={t} />
+</Layout>
+
+<style>
+  .pillar-page { padding-top: 100px; padding-bottom: 60px; }
+  .pillar-header { text-align: center; padding-bottom: 32px; margin-bottom: 32px; border-bottom: 1px solid var(--gris-clair); }
+  .pillar-header h1 { font-size: clamp(2.25rem, 4.5vw, 3.25rem); margin-bottom: 16px; }
+  .lede { font-size: 1.25rem; color: var(--gris); max-width: 720px; margin: 0 auto; }
+  .pillar-intro, .pillar-stats, .pillar-sub, .pillar-faq { max-width: 800px; margin: 0 auto 48px; }
+  .pillar-intro p { line-height: 1.75; margin-bottom: 16px; font-size: 1.05rem; }
+  .pillar-stats ul { padding-left: 24px; }
+  .pillar-stats li { margin-bottom: 8px; line-height: 1.7; }
+  .pillar-sub h2, .pillar-stats h2, .pillar-faq h2 { font-size: 1.75rem; margin-bottom: 20px; }
+  .pillar-grid { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 12px; }
+  .pillar-grid li { padding: 14px 18px; background: var(--gris-clair); border-radius: 8px; }
+  .pillar-grid a { color: var(--noir); text-decoration: none; font-weight: 500; }
+  .pillar-grid a:hover { color: var(--orange); }
+  .pillar-faq h3 { font-size: 1.1rem; margin-top: 24px; margin-bottom: 8px; }
+  .pillar-faq p { line-height: 1.7; margin-bottom: 16px; }
+</style>

@@ -1,0 +1,137 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import { getTranslations } from '../../i18n';
+
+const lang = 'es';
+const t = getTranslations(lang);
+
+const collectionPageSchema = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Monumentos del mundo: maravillas, sitios UNESCO y monumentos famosos",
+  "description": "Todo sobre los monumentos del mundo: 7 maravillas antiguas y modernas, sitios UNESCO, monumentos más visitados, monumentos de París y de Francia.",
+  "url": "https://sapiro.app/es/monumentos/",
+  "inLanguage": "es"
+};
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "¿Cuáles son las 7 maravillas del mundo?", "acceptedAnswer": { "@type": "Answer", "text": "Las 7 maravillas del mundo antiguo eran la Gran Pirámide de Guiza, los jardines colgantes de Babilonia, la estatua de Zeus en Olimpia, el templo de Artemisa en Éfeso, el mausoleo de Halicarnaso, el coloso de Rodas y el faro de Alejandría. Solo la Gran Pirámide sigue en pie. Las 7 nuevas maravillas, elegidas por votación mundial en 2007, son la Gran Muralla China, Petra, el Cristo Redentor, Machu Picchu, Chichén Itzá, el Coliseo y el Taj Mahal." } },
+    { "@type": "Question", "name": "¿Cuál es el monumento más visitado del mundo?", "acceptedAnswer": { "@type": "Answer", "text": "La Ciudad Prohibida de Pekín es el monumento más visitado del mundo, con entre 17 y 19 millones de visitantes al año. Entre los monumentos de pago, la Torre Eiffel encabeza la lista con casi 6,2 millones de visitantes anuales." } },
+    { "@type": "Question", "name": "¿Cuántos sitios figuran en el patrimonio mundial de la UNESCO?", "acceptedAnswer": { "@type": "Answer", "text": "La UNESCO cuenta con más de 1200 sitios inscritos en el patrimonio mundial, repartidos en unos 170 países. Italia y China son los países con más sitios, con una sesentena cada uno." } },
+    { "@type": "Question", "name": "¿Cuál es el monumento más visitado de Francia?", "acceptedAnswer": { "@type": "Answer", "text": "La catedral de Notre-Dame de París es el monumento más visitado de Francia, por delante de la basílica del Sagrado Corazón y el museo del Louvre. La Torre Eiffel sigue siendo el monumento de pago más concurrido del país." } }
+  ]
+};
+---
+
+<Layout title="Monumentos del mundo: guías y quizzes | SAPIRO" description="Monumentos del mundo: 7 maravillas, sitios UNESCO, monumentos más visitados, monumentos de París y de Francia. Guías y quizzes de cultura general." lang={lang}>
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(collectionPageSchema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+  </Fragment>
+
+  <Header lang={lang} t={t} />
+
+  <main class="pillar-page">
+    <article class="container">
+      <header class="pillar-header">
+        <h1>Monumentos del mundo</h1>
+        <p class="lede">De las pirámides de Egipto a la Torre Eiffel, los monumentos cuentan la historia de las civilizaciones. Maravillas del mundo, sitios UNESCO y obras maestras para reconocer.</p>
+      </header>
+
+      <section class="pillar-intro">
+        <p>Un monumento es historia que sigue en pie. Detrás de cada edificio famoso se esconden una época, una técnica y una intención: impresionar, rezar, defender, conmemorar. Saber reconocer el Coliseo, el Taj Mahal o el Machu Picchu, y entender por qué fueron construidos, forma parte de las bases de la cultura general.</p>
+        <p>SAPIRO propone quizzes sobre los monumentos emblemáticos de todos los continentes, con una explicación contextualizada detrás de cada pregunta: quién lo construyó, cuándo y qué lo hace único.</p>
+      </section>
+
+      <section class="pillar-stats">
+        <h2>Los monumentos en cifras</h2>
+        <ul>
+          <li><strong>1200+</strong> sitios inscritos en el patrimonio mundial de la UNESCO</li>
+          <li><strong>Solo 1</strong> de las 7 maravillas antiguas sigue en pie: la Gran Pirámide de Guiza</li>
+          <li><strong>2007</strong>: designación de las 7 nuevas maravillas del mundo por votación mundial</li>
+          <li><strong>17-19 millones</strong> de visitantes al año en la Ciudad Prohibida, el monumento más visitado</li>
+          <li><strong>330 metros</strong>: altura de la Torre Eiffel, el monumento de pago más visitado del mundo</li>
+        </ul>
+      </section>
+
+      <section class="pillar-sub">
+        <h2>Los imprescindibles</h2>
+        <ul class="pillar-grid">
+          <li><a href="/es/blog/maravillas-del-mundo/">Las 7 maravillas del mundo (antiguas y modernas)</a></li>
+          <li><a href="/es/blog/monumentos-famosos-mundo/">30 monumentos famosos del mundo para reconocer</a></li>
+          <li><a href="/es/blog/monumentos-mas-visitados-mundo/">Los monumentos más visitados del mundo</a></li>
+        </ul>
+      </section>
+
+      <section class="pillar-sub">
+        <h2>Monumentos por destino</h2>
+        <ul class="pillar-grid">
+          <li><a href="/es/blog/monumentos-francia/">Los monumentos más bellos de Francia</a></li>
+          <li><a href="/es/blog/monumentos-paris/">Los monumentos de París que hay que conocer</a></li>
+          <li><a href="/es/blog/monumentos-italia/">Los monumentos de Italia</a></li>
+          <li><a href="/es/blog/monumentos-egipto/">Los monumentos de Egipto</a></li>
+          <li><a href="/es/blog/monumentos-espana/">Los monumentos de España</a></li>
+          <li><a href="/es/blog/monumentos-reino-unido/">Los monumentos del Reino Unido</a></li>
+        </ul>
+      </section>
+
+      <section class="pillar-sub">
+        <h2>Patrimonio y grandes épocas</h2>
+        <ul class="pillar-grid">
+          <li><a href="/es/blog/sitios-unesco-patrimonio-mundial/">El patrimonio mundial de la UNESCO</a></li>
+          <li><a href="/es/blog/monumentos-antiguedad/">Los monumentos de la Antigüedad (Egipto, Grecia, Roma)</a></li>
+          <li><a href="/es/blog/castillos-palacios-famosos-mundo/">Castillos y palacios famosos del mundo</a></li>
+        </ul>
+      </section>
+
+      <section class="pillar-sub">
+        <h2>Repasar y jugar</h2>
+        <ul class="pillar-grid">
+          <li><a href="/es/blog/quiz-monumentos-mundo/">Quiz de monumentos del mundo</a></li>
+          <li><a href="/es/blog/monumentos-cultura-general/">Monumentos que hay que conocer para las oposiciones</a></li>
+        </ul>
+      </section>
+
+      <section class="pillar-faq">
+        <h2>Preguntas frecuentes sobre los monumentos</h2>
+
+        <h3>¿Cuáles son las 7 maravillas del mundo?</h3>
+        <p>Las 7 maravillas del mundo antiguo eran la Gran Pirámide de Guiza, los jardines colgantes de Babilonia, la estatua de Zeus en Olimpia, el templo de Artemisa en Éfeso, el mausoleo de Halicarnaso, el coloso de Rodas y el faro de Alejandría. Solo la Gran Pirámide sigue en pie. Las 7 nuevas maravillas, elegidas por votación mundial en 2007, son la Gran Muralla China, Petra, el Cristo Redentor, Machu Picchu, Chichén Itzá, el Coliseo y el Taj Mahal.</p>
+
+        <h3>¿Cuál es el monumento más visitado del mundo?</h3>
+        <p>La Ciudad Prohibida de Pekín es el monumento más visitado del mundo, con entre 17 y 19 millones de visitantes al año. Entre los monumentos de pago, la Torre Eiffel encabeza la lista con casi 6,2 millones de visitantes anuales.</p>
+
+        <h3>¿Cuántos sitios figuran en el patrimonio mundial de la UNESCO?</h3>
+        <p>La UNESCO cuenta con más de 1200 sitios inscritos en el patrimonio mundial, repartidos en unos 170 países. Italia y China son los países con más sitios, con una sesentena cada uno.</p>
+
+        <h3>¿Cuál es el monumento más visitado de Francia?</h3>
+        <p>La catedral de Notre-Dame de París es el monumento más visitado de Francia, por delante de la basílica del Sagrado Corazón y el museo del Louvre. La Torre Eiffel sigue siendo el monumento de pago más concurrido del país.</p>
+      </section>
+    </article>
+  </main>
+
+  <Footer lang={lang} t={t} />
+</Layout>
+
+<style>
+  .pillar-page { padding-top: 100px; padding-bottom: 60px; }
+  .pillar-header { text-align: center; padding-bottom: 32px; margin-bottom: 32px; border-bottom: 1px solid var(--gris-clair); }
+  .pillar-header h1 { font-size: clamp(2.25rem, 4.5vw, 3.25rem); margin-bottom: 16px; }
+  .lede { font-size: 1.25rem; color: var(--gris); max-width: 720px; margin: 0 auto; }
+  .pillar-intro, .pillar-stats, .pillar-sub, .pillar-faq { max-width: 800px; margin: 0 auto 48px; }
+  .pillar-intro p { line-height: 1.75; margin-bottom: 16px; font-size: 1.05rem; }
+  .pillar-stats ul { padding-left: 24px; }
+  .pillar-stats li { margin-bottom: 8px; line-height: 1.7; }
+  .pillar-sub h2, .pillar-stats h2, .pillar-faq h2 { font-size: 1.75rem; margin-bottom: 20px; }
+  .pillar-grid { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 12px; }
+  .pillar-grid li { padding: 14px 18px; background: var(--gris-clair); border-radius: 8px; }
+  .pillar-grid a { color: var(--noir); text-decoration: none; font-weight: 500; }
+  .pillar-grid a:hover { color: var(--orange); }
+  .pillar-faq h3 { font-size: 1.1rem; margin-top: 24px; margin-bottom: 8px; }
+  .pillar-faq p { line-height: 1.7; margin-bottom: 16px; }
+</style>
