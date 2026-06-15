@@ -14,6 +14,7 @@ const blog = defineCollection({
     category: z.string(),
     image: z.string().optional(),
     imageAlt: z.string().optional(),
+    imageCredit: z.string().optional(),
     author: z.string().default('SAPIRO'),
     readingTime: z.number().optional(),
     faqItems: z.array(z.object({

@@ -28,7 +28,8 @@ interface Props {
   translationSlugs?: TranslationSlugs;
 }
 
-const { title, description, date, lastModified, lang, slug, category, author, readingTime, faqItems = [], translationSlugs } = Astro.props;
+const { title, description, date, lastModified, lang, slug, category, author, readingTime, faqItems = [], translationSlugs, image, imageAlt, imageCredit } = Astro.props;
+const heroImageUrl = image ? (image.startsWith('http') ? image : `https://sapiro.app${image}`) : null;
 const t = getTranslations(lang);
 const modifiedDate = lastModified || date;
 
@@ -63,6 +64,7 @@ const schemaArticle = {
   '@type': 'Article',
   headline: title,
   description: description,
+  ...(heroImageUrl ? { image: { '@type': 'ImageObject', url: heroImageUrl } } : {}),
   author: {
     '@type': 'Organization',
     name: author,
@@ -173,6 +175,13 @@ const breadcrumbSchema = {
           <span class="article-author">— {author}</span>
         </div>
       </header>
+
+      {image && (
+        <figure class="article-hero">
+          <img src={image} alt={imageAlt || title} width="1200" height="675" loading="eager" />
+          {imageCredit && <figcaption class="article-hero-credit">{imageCredit}</figcaption>}
+        </figure>
+      )}
 
       <!-- Article Content -->
       <div class="article-content" id="article-content">
@@ -297,10 +306,42 @@ const breadcrumbSchema = {
     font-weight: 500;
   }
 
+  .article-hero {
+    max-width: 800px;
+    margin: 0 auto 40px;
+  }
+  .article-hero img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    display: block;
+  }
+  .article-hero-credit {
+    margin-top: 8px;
+    font-size: 0.8rem;
+    color: var(--gris);
+    text-align: right;
+  }
+
   .article-content {
     max-width: 720px;
     margin: 0 auto;
     padding-bottom: 48px;
+  }
+  .article-content :global(figure) {
+    margin: 28px 0;
+  }
+  .article-content :global(figure img) {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    display: block;
+  }
+  .article-content :global(figure figcaption) {
+    margin-top: 8px;
+    font-size: 0.8rem;
+    color: var(--gris);
+    text-align: center;
   }
 
   .article-content :global(h2) {

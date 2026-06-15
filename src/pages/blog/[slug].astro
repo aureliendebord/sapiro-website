@@ -42,6 +42,9 @@ const faqItems = extractFaqFromMarkdown(post.body || '');
   category={post.data.category}
   author={post.data.author}
   readingTime={post.data.readingTime}
+  image={post.data.image}
+  imageAlt={post.data.imageAlt}
+  imageCredit={post.data.imageCredit}
   faqItems={faqItems}
   translationSlugs={translationSlugs}
 >
