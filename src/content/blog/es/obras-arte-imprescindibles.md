@@ -22,7 +22,7 @@ Esta lista es subjetiva. Doce obras para cubrir milenios de creación es forzosa
 
 ## La Mona Lisa -- Leonardo da Vinci (1503-1519)
 
-Empezamos por lo obvio. La Mona Lisa está en el Louvre, detrás de un cristal blindado, en una sala donde cientos de turistas levantan el móvil cada minuto. Lo que la hizo mundialmente famosa no fue la calidad del cuadro, sino su robo. En 1911, [Vincenzo Peruggia, empleado del Louvre, la escondió bajo su abrigo y se la llevó](https://es.wikipedia.org/wiki/Robo_de_la_Mona_Lisa). La noticia salió en la prensa de todo el mundo. Antes del robo, la Mona Lisa era conocida entre los amantes del arte. Después, se convirtió en una celebridad global. El cuadro mide solo 77 × 53 cm. Muchos visitantes se sorprenden de lo pequeño que es.
+Empezamos por lo obvio. La Mona Lisa está en el Louvre, detrás de un cristal blindado, en una sala donde cientos de turistas levantan el móvil cada minuto. Lo que la hizo mundialmente famosa no fue la calidad del cuadro, sino su robo. En 1911, [Vincenzo Peruggia, empleado del Louvre, la escondió bajo su abrigo y se la llevó](https://es.wikipedia.org/wiki/La_Gioconda). La noticia salió en la prensa de todo el mundo. Antes del robo, la Mona Lisa era conocida entre los amantes del arte. Después, se convirtió en una celebridad global. El cuadro mide solo 77 × 53 cm. Muchos visitantes se sorprenden de lo pequeño que es.
 
 ## La noche estrellada -- Vincent van Gogh (1889)
 

@@ -20,7 +20,7 @@ Cual es la capital de Australia? Si has respondido Sidney, bienvenido al club. L
 
 Algunas capitales son tan contraintuitivas que pillarian a los mejores concursantes de television. Por que? Casi siempre la misma razon: la ciudad mas conocida, la mas poblada o la mas rica no es la capital.
 
-Myanmar: **[Naipyido](https://es.wikipedia.org/wiki/Naipyido)**, no Rangon. En 2006, el gobierno militar birmano traslado la capital a esta ciudad construida de cero en medio del pais. El resultado es surrealista: bulevares de veinte carriles practicamente desiertos, edificios administrativos colosales, un millon de habitantes en un espacio previsto para muchos mas. Rangon sigue siendo con diferencia la ciudad mas grande del pais. Pero la capital es Naipyido.
+Myanmar: **[Naipyido](https://es.wikipedia.org/wiki/Naipyid%C3%B3)**, no Rangon. En 2006, el gobierno militar birmano traslado la capital a esta ciudad construida de cero en medio del pais. El resultado es surrealista: bulevares de veinte carriles practicamente desiertos, edificios administrativos colosales, un millon de habitantes en un espacio previsto para muchos mas. Rangon sigue siendo con diferencia la ciudad mas grande del pais. Pero la capital es Naipyido.
 
 Turquia: **Ankara**, no Estambul. Estambul concentra la poblacion, el turismo, la fama. Sin embargo, la capital es Ankara desde 1923, elegida por Mustafa Kemal Ataturk para anclar la joven republica lejos de la herencia otomana.
 

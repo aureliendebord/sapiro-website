@@ -22,7 +22,7 @@ Le monde a vu des dizaines de pays disparaître en un siècle. Voici les princip
 
 **Yougoslavie (1945-1992, puis 2003).** Six pays issus : Slovénie, Croatie, Bosnie-Herzégovine, Macédoine du Nord, Serbie, Monténégro. Plus tard, le Kosovo s'est séparé de la Serbie.
 
-**Tchécoslovaquie (1918-1993).** [Divorce "de velours"](https://fr.wikipedia.org/wiki/Partition_de_la_Tch%C3%A9coslovaquie) sans guerre. République tchèque et Slovaquie.
+**Tchécoslovaquie (1918-1993).** [Divorce "de velours"](https://fr.wikipedia.org/wiki/Dissolution_de_la_Tch%C3%A9coslovaquie) sans guerre. République tchèque et Slovaquie.
 
 **Allemagne de l'Est (RDA, 1949-1990).** Réunifiée avec la RFA le 3 octobre 1990 après la chute du mur de Berlin.
 
