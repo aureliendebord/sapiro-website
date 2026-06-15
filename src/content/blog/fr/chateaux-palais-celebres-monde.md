@@ -13,7 +13,7 @@ faqItems:
   - question: "Quelle est la différence entre un château fort et un château d'agrément ?"
     answer: "Le château fort est une construction militaire du Moyen Âge, conçue pour la défense : murs épais, tours, fossés, meurtrières. Le château d'agrément, ou château de plaisance, apparaît à la Renaissance et au-delà ; c'est une résidence de prestige, ouverte sur des jardins, pensée pour le confort et la représentation plutôt que pour le combat."
   - question: "Quel est le plus grand palais du monde ?"
-    answer: "La Cité interdite, à Pékin, est généralement présentée comme le plus grand ensemble palatial du monde, avec environ 720 000 m² et près de 1 000 bâtiments répartis sur 72 hectares. Le palais du Parlement à Bucarest est, lui, le plus grand bâtiment administratif au monde, mais ce n'est pas une résidence royale."
+    answer: "La Cité interdite, à Pékin, est généralement présentée comme le plus grand ensemble palatial du monde, avec environ 720 000 m² et environ 980 bâtiments répartis sur 72 hectares. Le palais du Parlement à Bucarest est, lui, le plus grand bâtiment administratif au monde, mais ce n'est pas une résidence royale."
   - question: "Pourquoi le château de Neuschwanstein est-il si connu ?"
     answer: "Construit à partir de 1869 pour le roi Louis II de Bavière, Neuschwanstein est un château néo-médiéval bâti au moment même où les châteaux forts n'avaient plus aucune utilité militaire. Sa silhouette de conte aurait inspiré le château des parcs Disney, ce qui en a fait l'un des monuments les plus photographiés d'Europe."
   - question: "Peut-on encore visiter Buckingham Palace ?"
@@ -46,7 +46,7 @@ L'Europe concentre la plus forte densité de châteaux au monde, héritage de si
 
 Les palais asiatiques répondent à d'autres logiques : axes sacrés, symbolique cosmique, bois plutôt que pierre.
 
-**Cité interdite** — Chine — architecture impériale Ming et Qing, XVe siècle. Au cœur de Pékin, ce fut le palais des empereurs de 1420 à 1912. Près de 1 000 bâtiments sur environ 72 hectares, organisés selon un axe nord-sud strict. Son nom vient de l'interdiction d'y pénétrer sans autorisation impériale.
+**Cité interdite** — Chine — architecture impériale Ming et Qing, XVe siècle. Au cœur de Pékin, ce fut le palais des empereurs de 1420 à 1912. Environ 980 bâtiments sur environ 72 hectares, organisés selon un axe nord-sud strict. Son nom vient de l'interdiction d'y pénétrer sans autorisation impériale.
 
 **Palais du Potala** — Tibet — architecture tibétaine, XVIIe siècle. Dressé sur une colline à Lhassa, à plus de 3 700 mètres d'altitude, il fut la résidence des dalaï-lamas. Treize étages, plus de mille pièces, à la fois palais, monastère et forteresse.
 

@@ -13,7 +13,7 @@ faqItems:
   - question: "What is the difference between a castle and a palace?"
     answer: "A castle is, at its origin, a fortified residence built for defence: thick walls, towers, moats, arrow slits. A palace has no defensive purpose; it is a grand urban or princely residence built for comfort and display. The word palace comes from the Palatine Hill in Rome, where the emperors lived. In English usage the line often blurs, but the root meaning is clear: a castle protects, a palace impresses."
   - question: "What is the largest palace in the world?"
-    answer: "The Forbidden City in Beijing is usually described as the largest palace complex in the world, covering around 720,000 square metres with nearly 1,000 buildings spread across 72 hectares. The Palace of the Parliament in Bucharest is the largest administrative building on earth, but it was never a royal residence."
+    answer: "The Forbidden City in Beijing is usually described as the largest palace complex in the world, covering around 720,000 square metres with roughly 980 buildings spread across 72 hectares. The Palace of the Parliament in Bucharest is the largest administrative building on earth, but it was never a royal residence."
   - question: "Why is Neuschwanstein Castle so famous?"
     answer: "Built from 1869 for King Ludwig II of Bavaria, Neuschwanstein is a neo-medieval castle raised at the very moment when fortified castles had lost all military use. Its fairy-tale silhouette is widely said to have inspired the castle in Disney parks, which helped make it one of the most photographed buildings in Europe."
   - question: "Can you still visit Buckingham Palace?"
@@ -46,7 +46,7 @@ Europe holds the highest density of castles in the world, a legacy of centuries 
 
 Asian palaces follow a different logic: sacred axes, cosmic symbolism, timber rather than stone.
 
-**Forbidden City** — China — Ming and Qing imperial architecture, 15th century. At the heart of Beijing, it served as the emperors' palace from 1420 to 1912. Nearly 1,000 buildings across some 72 hectares, arranged along a strict north-south axis. Its name comes from the ban on entering without imperial permission.
+**Forbidden City** — China — Ming and Qing imperial architecture, 15th century. At the heart of Beijing, it served as the emperors' palace from 1420 to 1912. Roughly 980 buildings across some 72 hectares, arranged along a strict north-south axis. Its name comes from the ban on entering without imperial permission.
 
 **Potala Palace** — Tibet — Tibetan architecture, 17th century. Rising on a hill in Lhasa, at over 3,700 metres above sea level, it was the residence of the Dalai Lamas. Thirteen storeys, more than a thousand rooms, at once palace, monastery and fortress.
 

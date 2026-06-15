@@ -2,6 +2,7 @@
 title: "15 Famous Sculptures to Know in the World"
 description: "David, The Thinker, Venus de Milo: 15 famous sculptures from around the world with their story, location, and what makes them essential."
 date: 2026-01-26
+lastModified: 2026-06-15
 lang: "en"
 urlSlug: "famous-sculptures-world"
 translationKey: "sculptures-celebres"

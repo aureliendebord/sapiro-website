@@ -2,6 +2,7 @@
 title: "15 esculturas célebres que conocer en el mundo"
 description: "El David, El Pensador, la Venus de Milo: 15 esculturas célebres del mundo con su historia, ubicación y lo que las hace imprescindibles."
 date: 2026-01-26
+lastModified: 2026-06-15
 lang: "es"
 urlSlug: "esculturas-celebres-mundo"
 translationKey: "sculptures-celebres"

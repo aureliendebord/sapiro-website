@@ -2,6 +2,7 @@
 title: "15 sculptures célèbres à connaître dans le monde"
 description: "Le David, Le Penseur, la Vénus de Milo : 15 sculptures célèbres du monde avec leur histoire, leur lieu et ce qui les rend incontournables."
 date: 2026-01-26
+lastModified: 2026-06-15
 lang: "fr"
 urlSlug: "sculptures-celebres-monde"
 translationKey: "sculptures-celebres"

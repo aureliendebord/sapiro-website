@@ -13,7 +13,7 @@ faqItems:
   - question: "¿Cuál es la diferencia entre un castillo y un palacio?"
     answer: "El castillo es, en su origen, una residencia fortificada construida para la defensa: muros gruesos, torres, fosos, saeteras. El palacio no tiene función defensiva; es una residencia urbana o principesca de prestigio, pensada para el confort y la representación. La palabra palacio viene del monte Palatino de Roma, donde residían los emperadores. En el uso corriente la frontera se difumina, pero la raíz es clara: un castillo protege, un palacio impresiona."
   - question: "¿Cuál es el palacio más grande del mundo?"
-    answer: "La Ciudad Prohibida, en Pekín, suele presentarse como el mayor conjunto palaciego del mundo, con cerca de 720.000 m² y casi 1.000 edificios repartidos en 72 hectáreas. El Palacio del Parlamento de Bucarest es, en cambio, el mayor edificio administrativo del planeta, pero nunca fue una residencia real."
+    answer: "La Ciudad Prohibida, en Pekín, suele presentarse como el mayor conjunto palaciego del mundo, con cerca de 720.000 m² y unos 980 edificios repartidos en 72 hectáreas. El Palacio del Parlamento de Bucarest es, en cambio, el mayor edificio administrativo del planeta, pero nunca fue una residencia real."
   - question: "¿Por qué es tan famoso el castillo de Neuschwanstein?"
     answer: "Construido a partir de 1869 para el rey Luis II de Baviera, Neuschwanstein es un castillo neomedieval levantado justo cuando los castillos fortificados ya no tenían ninguna utilidad militar. Su silueta de cuento habría inspirado el castillo de los parques Disney, lo que lo convirtió en uno de los monumentos más fotografiados de Europa."
   - question: "¿Se puede visitar todavía el Palacio de Buckingham?"
@@ -46,7 +46,7 @@ Europa concentra la mayor densidad de castillos del mundo, herencia de siglos de
 
 Los palacios asiáticos responden a otras lógicas: ejes sagrados, simbología cósmica, madera en lugar de piedra.
 
-**Ciudad Prohibida** — China — arquitectura imperial Ming y Qing, siglo XV. En el corazón de Pekín, fue el palacio de los emperadores de 1420 a 1912. Casi 1.000 edificios en unas 72 hectáreas, dispuestos según un eje norte-sur estricto. Su nombre viene de la prohibición de entrar sin permiso imperial.
+**Ciudad Prohibida** — China — arquitectura imperial Ming y Qing, siglo XV. En el corazón de Pekín, fue el palacio de los emperadores de 1420 a 1912. Unos 980 edificios en unas 72 hectáreas, dispuestos según un eje norte-sur estricto. Su nombre viene de la prohibición de entrar sin permiso imperial.
 
 **Palacio del Potala** — Tíbet — arquitectura tibetana, siglo XVII. Alzado sobre una colina en Lhasa, a más de 3.700 metros de altitud, fue la residencia de los dalái lamas. Trece pisos, más de mil estancias, a la vez palacio, monasterio y fortaleza.
 

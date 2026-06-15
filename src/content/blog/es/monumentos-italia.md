@@ -7,7 +7,7 @@ lang: es
 urlSlug: monumentos-italia
 translationKey: monuments-italie
 category: "monuments"
-author: SAPIRO
+author: "SAPIRO"
 readingTime: 8
 faqItems:
   - question: "¿Cuál es el monumento más visitado de Italia?"
