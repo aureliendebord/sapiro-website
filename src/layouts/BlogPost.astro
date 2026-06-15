@@ -313,6 +313,9 @@ const breadcrumbSchema = {
   .article-hero img {
     width: 100%;
     height: auto;
+    max-height: 460px;
+    object-fit: cover;
+    object-position: center 30%;
     border-radius: 12px;
     display: block;
   }
@@ -332,8 +335,11 @@ const breadcrumbSchema = {
     margin: 28px 0;
   }
   .article-content :global(figure img) {
-    width: 100%;
+    max-width: 100%;
+    max-height: 520px;
+    width: auto;
     height: auto;
+    margin: 0 auto;
     border-radius: 12px;
     display: block;
   }
