@@ -65,6 +65,18 @@ export const clusters: Cluster[] = [
     icon: '🦁',
   },
   {
+    key: 'monuments',
+    categories: ['monuments'],
+    pillarSlug: { fr: '/monuments/', en: '/en/monuments/', es: '/es/monumentos/' },
+    label: { fr: 'Monuments', en: 'Monuments', es: 'Monumentos' },
+    tagline: {
+      fr: 'Merveilles du monde, sites UNESCO et monuments à reconnaître.',
+      en: 'Wonders of the world, UNESCO sites and monuments to recognise.',
+      es: 'Maravillas del mundo, sitios UNESCO y monumentos para reconocer.',
+    },
+    icon: '🗽',
+  },
+  {
     key: 'concours',
     categories: ['concours', 'education'],
     pillarSlug: { fr: '/concours/', en: '/en/exams/', es: '/es/oposiciones/' },

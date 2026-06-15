@@ -16,6 +16,7 @@ const FIXED_ROUTES = [
   { fr: '/histoire/', en: '/en/history/', es: '/es/historia/' },
   { fr: '/geographie/', en: '/en/geography/', es: '/es/geografia/' },
   { fr: '/nature/', en: '/en/nature/', es: '/es/naturaleza/' },
+  { fr: '/monuments/', en: '/en/monuments/', es: '/es/monumentos/' },
   { fr: '/concours/', en: '/en/exams/', es: '/es/oposiciones/' },
   { fr: '/famille/', en: '/en/family/', es: '/es/familia/' },
   { fr: '/comparatifs/', en: '/en/comparisons/', es: '/es/comparativas/' },

@@ -6,6 +6,7 @@ export type RouteKey =
   | 'history'
   | 'geography'
   | 'nature'
+  | 'monuments'
   | 'exams'
   | 'family'
   | 'comparisons'
@@ -23,6 +24,7 @@ export const routes: Record<RouteKey, Record<Lang, string>> = {
   history: { fr: '/histoire/', en: '/en/history/', es: '/es/historia/' },
   geography: { fr: '/geographie/', en: '/en/geography/', es: '/es/geografia/' },
   nature: { fr: '/nature/', en: '/en/nature/', es: '/es/naturaleza/' },
+  monuments: { fr: '/monuments/', en: '/en/monuments/', es: '/es/monumentos/' },
   exams: { fr: '/concours/', en: '/en/exams/', es: '/es/oposiciones/' },
   family: { fr: '/famille/', en: '/en/family/', es: '/es/familia/' },
   comparisons: { fr: '/comparatifs/', en: '/en/comparisons/', es: '/es/comparativas/' },
