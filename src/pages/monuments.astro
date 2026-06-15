@@ -42,11 +42,21 @@ const faqSchema = {
     }
   ]
 };
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://sapiro.app/" },
+    { "@type": "ListItem", "position": 2, "name": "Monuments" }
+  ]
+};
 ---
 
 <Layout title="Monuments du monde : guides et quiz | SAPIRO" description="Monuments du monde : 7 merveilles, sites UNESCO, monuments les plus visités, monuments de Paris et de France. Guides et quiz de culture générale." lang={lang}>
   <Fragment slot="head">
     <script type="application/ld+json" set:html={JSON.stringify(collectionPageSchema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
     <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
   </Fragment>
 

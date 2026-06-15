@@ -26,11 +26,21 @@ const faqSchema = {
     { "@type": "Question", "name": "What is the most visited monument in France?", "acceptedAnswer": { "@type": "Answer", "text": "Notre-Dame Cathedral in Paris is the most visited monument in France, ahead of the Sacré-Cœur Basilica and the Louvre. The Eiffel Tower remains the most visited paid monument in the country." } }
   ]
 };
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://sapiro.app/en/" },
+    { "@type": "ListItem", "position": 2, "name": "Monuments" }
+  ]
+};
 ---
 
 <Layout title="Monuments of the World: Guides and Quizzes | SAPIRO" description="Monuments of the world: 7 wonders, UNESCO sites, most-visited monuments, landmarks of Paris and France. General knowledge guides and quizzes." lang={lang}>
   <Fragment slot="head">
     <script type="application/ld+json" set:html={JSON.stringify(collectionPageSchema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
     <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
   </Fragment>
 

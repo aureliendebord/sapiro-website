@@ -26,11 +26,21 @@ const faqSchema = {
     { "@type": "Question", "name": "¿Cuál es el monumento más visitado de Francia?", "acceptedAnswer": { "@type": "Answer", "text": "La catedral de Notre-Dame de París es el monumento más visitado de Francia, por delante de la basílica del Sagrado Corazón y el museo del Louvre. La Torre Eiffel sigue siendo el monumento de pago más concurrido del país." } }
   ]
 };
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://sapiro.app/es/" },
+    { "@type": "ListItem", "position": 2, "name": "Monumentos" }
+  ]
+};
 ---
 
 <Layout title="Monumentos del mundo: guías y quizzes | SAPIRO" description="Monumentos del mundo: 7 maravillas, sitios UNESCO, monumentos más visitados, monumentos de París y de Francia. Guías y quizzes de cultura general." lang={lang}>
   <Fragment slot="head">
     <script type="application/ld+json" set:html={JSON.stringify(collectionPageSchema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
     <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
   </Fragment>
 
