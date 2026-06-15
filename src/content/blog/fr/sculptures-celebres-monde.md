@@ -34,7 +34,7 @@ La sculpture est trop souvent oubliée derrière la peinture. Pourtant, c'est l'
 
 ## XIXe siècle
 
-**La Liberté éclairant le monde (Bartholdi, 1886)** — À New York. 46 mètres avec le piédestal. Cadeau de la France aux États-Unis. Sculpteur français Bartholdi, structure interne de Gustave Eiffel.
+**La Liberté éclairant le monde (Bartholdi, 1886)** — À New York. 46 mètres avec le piédestal. Cadeau de la France aux États-Unis. Sculpteur français Bartholdi, structure interne de Gustave Eiffel. Devenue l'un des [monuments célèbres du monde](/blog/monuments-celebres-monde/) à part entière.
 
 **Le Penseur (Rodin, 1880)** — Musée Rodin à Paris. À l'origine pour la Porte de l'Enfer, devenu icône universelle de la réflexion.
 

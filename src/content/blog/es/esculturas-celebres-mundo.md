@@ -34,7 +34,7 @@ La escultura suele quedar olvidada detras de la pintura. Sin embargo es el arte 
 
 ## Siglo XIX
 
-**La Estatua de la Libertad (Bartholdi, 1886)** — En Nueva York. 46 metros con el pedestal. Regalo de Francia a EEUU. Escultor frances Bartholdi, estructura interna de Gustave Eiffel.
+**La Estatua de la Libertad (Bartholdi, 1886)** — En Nueva York. 46 metros con el pedestal. Regalo de Francia a EEUU. Escultor frances Bartholdi, estructura interna de Gustave Eiffel. Convertida en uno de los [monumentos famosos del mundo](/es/blog/monumentos-famosos-mundo/) por derecho propio.
 
 **El Pensador (Rodin, 1880)** — Museo Rodin en Paris. Originalmente para las Puertas del Infierno, vuelto icono universal de la reflexion.
 

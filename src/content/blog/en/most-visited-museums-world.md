@@ -82,4 +82,4 @@ Arrive at opening or late afternoon. Tour buses arrive around 10-11am and leave 
 
 Favor weekdays. A Tuesday morning at the Louvre does not look like a spring Saturday.
 
-Worth reading: [30 famous paintings to know](/en/blog/famous-paintings-masterpieces/) before the visit. SAPIRO lets you review 553 works with their location, perfect before a cultural trip.
+Worth reading: [30 famous paintings to know](/en/blog/famous-paintings-masterpieces/) before the visit, or the ranking of the [most visited monuments](/en/blog/most-visited-monuments-world/) to round out the itinerary. SAPIRO lets you review 553 works with their location, perfect before a cultural trip.

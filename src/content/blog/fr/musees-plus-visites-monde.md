@@ -80,4 +80,4 @@ Arriver à l'ouverture ou en fin de journée. Les bus de groupes arrivent vers 1
 
 Privilégier les jours en semaine. Un mardi matin au Louvre ne ressemble pas à un samedi de printemps.
 
-Pour creuser : [30 tableaux celebres a connaitre](/blog/tableaux-celebres-chefs-oeuvre/) avant la visite. SAPIRO permet de réviser 553 œuvres avec leur localisation, parfait avant un voyage culturel.
+Pour creuser : [30 tableaux celebres a connaitre](/blog/tableaux-celebres-chefs-oeuvre/) avant la visite, ou le classement des [monuments les plus visités](/blog/monuments-plus-visites-monde/) pour compléter l'itinéraire. SAPIRO permet de réviser 553 œuvres avec leur localisation, parfait avant un voyage culturel.

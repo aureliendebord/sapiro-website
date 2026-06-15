@@ -38,7 +38,7 @@ Malasia: **Kuala Lumpur** es oficialmente la capital. Pero el centro administrat
 
 ## Las capitales por continente: vuelta al mundo express
 
-Un repaso rapido, continente por continente, de las capitales que conviene conocer. Si los [personajes historicos](/es/blog/personajes-historicos/) te apasionan, notaras que muchas de estas ciudades han estado en el centro de grandes acontecimientos.
+Un repaso rapido, continente por continente, de las capitales que conviene conocer. Si los [personajes historicos](/es/blog/personajes-historicos/) te apasionan, notaras que muchas de estas ciudades han estado en el centro de grandes acontecimientos. Ademas, muchas albergan [monumentos famosos del mundo](/es/blog/monumentos-famosos-mundo/) que ayudan precisamente a memorizar su capital.
 
 ### Europa
 

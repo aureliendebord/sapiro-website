@@ -88,4 +88,6 @@ Associer chaque roi à un événement-clé. Clovis = baptême. Charlemagne = cou
 
 Croiser avec les guerres. Guerre de Cent Ans = Charles V, Charles VII, Louis XI. Guerres de religion = Charles IX, Henri III, Henri IV. Révolution = Louis XVI.
 
+Croiser avec les lieux de pouvoir. De Versailles au Louvre, les [châteaux et palais célèbres](/blog/chateaux-palais-celebres-monde/) racontent concrètement le règne de ces souverains.
+
 Pour aller plus loin, voir notre [frise chronologique mondiale](/blog/frise-chronologique-mondiale/) et notre article sur les [personnages historiques majeurs](/blog/personnages-historiques/). SAPIRO propose des quiz sur les souverains et l'histoire de France avec explication contextualisée derrière chaque question.

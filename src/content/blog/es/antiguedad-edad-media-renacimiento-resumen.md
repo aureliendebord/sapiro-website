@@ -58,6 +58,6 @@ Retener las fechas bisagra. -3000, -509, 476, 1492. Esas cuatro fechas dan el ar
 
 Asociar cada periodo a una palabra clave. Antiguedad = escritura e imperios. Edad Media = feudalismo y religion. Renacimiento = humanismo y redescubrimiento.
 
-Cruzar con el arte. El arte permite visualizar cada epoca. Antiguedad = escultura griega, frescos de Pompeya. Edad Media = catedrales goticas, iluminaciones. Renacimiento = pinturas de Leonardo, cupula de Florencia.
+Cruzar con el arte. El arte permite visualizar cada epoca. Antiguedad = escultura griega, frescos de Pompeya. Edad Media = catedrales goticas, iluminaciones. Renacimiento = pinturas de Leonardo, cupula de Florencia. Los [monumentos de la Antiguedad](/es/blog/monumentos-antiguedad/) tambien ofrecen referencias concretas para anclar ese primer periodo.
 
 Ver tambien nuestra [linea de tiempo mundial](/es/blog/linea-tiempo-historia-mundial/) y nuestro articulo sobre [movimientos artisticos](/es/blog/movimientos-artisticos/) para estructurar. SAPIRO propone quizzes de historia mundial con explicacion contextualizada.

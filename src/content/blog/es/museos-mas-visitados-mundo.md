@@ -82,4 +82,4 @@ Llegar a la apertura o al final del dia. Los autobuses de grupos llegan hacia la
 
 Preferir dias entre semana. Un martes por la manana en el Louvre no se parece a un sabado de primavera.
 
-Para profundizar: [30 cuadros celebres que conocer](/es/blog/cuadros-celebres-obras-maestras/) antes de la visita. SAPIRO permite repasar 553 obras con su ubicacion, perfecto antes de un viaje cultural.
+Para profundizar: [30 cuadros celebres que conocer](/es/blog/cuadros-celebres-obras-maestras/) antes de la visita, o el ranking de los [monumentos mas visitados](/es/blog/monumentos-mas-visitados-mundo/) para completar el itinerario. SAPIRO permite repasar 553 obras con su ubicacion, perfecto antes de un viaje cultural.

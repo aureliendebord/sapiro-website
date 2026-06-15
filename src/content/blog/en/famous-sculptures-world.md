@@ -34,7 +34,7 @@ Sculpture is too often forgotten behind painting. Yet it is the oldest and most 
 
 ## 19th century
 
-**The Statue of Liberty (Bartholdi, 1886)** — In New York. 46 meters with the pedestal. Gift from France to the US. French sculptor Bartholdi, internal structure by Gustave Eiffel.
+**The Statue of Liberty (Bartholdi, 1886)** — In New York. 46 meters with the pedestal. Gift from France to the US. French sculptor Bartholdi, internal structure by Gustave Eiffel. Now one of the [famous monuments of the world](/en/blog/famous-monuments-world/) in its own right.
 
 **The Thinker (Rodin, 1880)** — Rodin Museum in Paris. Originally for the Gates of Hell, became a universal icon of reflection.
 

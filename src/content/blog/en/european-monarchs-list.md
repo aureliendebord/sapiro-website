@@ -98,4 +98,6 @@ Tie each ruler to a key event. Henry VIII = English Reformation. Elizabeth I = S
 
 Cross-reference with major events. American Revolution = Louis XVI and George III. World War I = Wilhelm II and Nicholas II.
 
+Cross-reference with seats of power. From Versailles to the Escorial, the [famous castles and palaces](/en/blog/famous-castles-palaces-world/) tell the story of these rulers in concrete form.
+
 For more, see our [world history timeline](/en/blog/world-timeline-history/) and our article on [major historical figures](/en/blog/historical-figures/). SAPIRO offers history quizzes with contextualized explanations behind each question.

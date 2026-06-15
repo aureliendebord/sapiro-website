@@ -98,4 +98,6 @@ Asociar cada gobernante a un evento clave. Enrique VIII = Reforma anglicana. Isa
 
 Cruzar con eventos mayores. Revolucion americana = Luis XVI y Jorge III. Primera Guerra Mundial = Guillermo II y Nicolas II.
 
+Cruzar con los lugares de poder. De Versalles a El Escorial, los [castillos y palacios famosos](/es/blog/castillos-palacios-famosos-mundo/) cuentan de forma concreta el reinado de estos gobernantes.
+
 Para profundizar, ver nuestra [linea de tiempo mundial](/es/blog/linea-tiempo-historia-mundial/) y nuestro articulo sobre [personajes historicos mayores](/es/blog/personajes-historicos/). SAPIRO propone quizzes de historia con explicacion contextualizada detras de cada pregunta.

@@ -58,6 +58,6 @@ Retenir les dates-bornes. -3000, -509, 476, 1492. Ces quatre dates donnent l'oss
 
 Associer chaque période à un mot-clé. Antiquité = écriture et empires. Moyen Âge = féodalité et religion. Renaissance = humanisme et redécouverte.
 
-Croiser avec l'art. L'art permet de visualiser chaque époque. Antiquité = sculpture grecque, fresques de Pompéi. Moyen Âge = cathédrales gothiques, enluminures. Renaissance = peintures de Léonard, dôme de Florence.
+Croiser avec l'art. L'art permet de visualiser chaque époque. Antiquité = sculpture grecque, fresques de Pompéi. Moyen Âge = cathédrales gothiques, enluminures. Renaissance = peintures de Léonard, dôme de Florence. Les [monuments de l'Antiquité](/blog/monuments-antiquite/) offrent eux aussi des repères concrets pour ancrer cette première période.
 
 Voir aussi notre [frise chronologique mondiale](/blog/frise-chronologique-mondiale/) et notre article sur les [mouvements artistiques](/blog/mouvements-artistiques/) pour structurer. SAPIRO propose des quiz sur l'histoire mondiale avec explication contextualisée.

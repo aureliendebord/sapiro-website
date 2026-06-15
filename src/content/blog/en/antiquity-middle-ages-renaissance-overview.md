@@ -58,6 +58,6 @@ Remember the boundary dates. -3000, -509, 476, 1492. These four dates give the f
 
 Tie each period to a keyword. Antiquity = writing and empires. Middle Ages = feudalism and religion. Renaissance = humanism and rediscovery.
 
-Cross-reference with art. Art lets you visualize each era. Antiquity = Greek sculpture, Pompeii frescoes. Middle Ages = Gothic cathedrals, illuminations. Renaissance = Leonardo paintings, Florence dome.
+Cross-reference with art. Art lets you visualize each era. Antiquity = Greek sculpture, Pompeii frescoes. Middle Ages = Gothic cathedrals, illuminations. Renaissance = Leonardo paintings, Florence dome. The [monuments of Antiquity](/en/blog/ancient-monuments/) also give concrete landmarks to anchor that first period.
 
 See also our [world history timeline](/en/blog/world-timeline-history/) and our article on [art movements](/en/blog/art-movements-explained/) to structure. SAPIRO offers world history quizzes with contextualized explanations.

@@ -38,7 +38,7 @@ Malaisie : Kuala Lumpur est officiellement la capitale. Mais le centre administr
 
 ## Les capitales par continent : tour du monde express
 
-Un survol rapide, continent par continent, des capitales à connaître. Si les [personnages historiques](/blog/personnages-historiques/) vous passionnent, vous noterez que beaucoup de ces villes ont été au cœur de grands événements.
+Un survol rapide, continent par continent, des capitales à connaître. Si les [personnages historiques](/blog/personnages-historiques/) vous passionnent, vous noterez que beaucoup de ces villes ont été au cœur de grands événements. D'ailleurs, plusieurs abritent des [monuments célèbres du monde](/blog/monuments-celebres-monde/) qui aident justement à mémoriser leur capitale.
 
 ### Europe
 
