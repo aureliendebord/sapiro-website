@@ -3,6 +3,9 @@ title: "The Most Visited Monuments in the World: The Ranking"
 description: "Forbidden City, Great Wall, Eiffel Tower… Which monuments draw the most visitors each year? The ranking, the numbers, and why the counts rarely match."
 date: 2026-02-06
 lastModified: 2026-06-15
+image: "/images/blog/monuments/cite-interdite.jpg"
+imageAlt: "The Forbidden City in Beijing"
+imageCredit: "Photo: Kallgan · CC BY-SA 3.0 · Wikimedia Commons"
 lang: "en"
 urlSlug: "most-visited-monuments-world"
 translationKey: "monuments-plus-visites"
@@ -62,6 +65,11 @@ The defining trend of recent years is no longer growth but **regulation**. Forbi
 Want to test how much of this stuck? SAPIRO's general-knowledge quizzes turn these numbers and places into quick rounds, perfect for checking whether you could locate the Forbidden City or date the Colosseum.
 
 To go further, browse our [full guide to monuments](/en/monuments/), our pick of the [30 famous monuments of the world](/en/blog/famous-monuments-world/), our guide to the [monuments of Paris](/en/blog/paris-monuments/) and our overview of [UNESCO World Heritage sites](/en/blog/unesco-world-heritage-sites/).
+
+<figure>
+  <img src="/images/blog/monuments/grande-muraille.jpg" alt="The Great Wall of China" loading="lazy" />
+  <figcaption>Photo: Velatrix · CC0 · Wikimedia Commons</figcaption>
+</figure>
 
 ## Frequently asked questions
 

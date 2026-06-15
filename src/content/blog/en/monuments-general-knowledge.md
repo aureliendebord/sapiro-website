@@ -3,6 +3,9 @@ title: "Revising Monuments for General Knowledge and Exams"
 description: "Which monuments come up in pub quizzes, general knowledge tests and school exams? The must-know list, the easy mix-ups to dodge, and a revision method that sticks."
 date: 2026-02-23
 lastModified: 2026-06-15
+image: "/images/blog/monuments/notre-dame-paris.jpg"
+imageAlt: "Notre-Dame Cathedral in Paris"
+imageCredit: "Photo: Antonin Subtil · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "en"
 urlSlug: "monuments-general-knowledge"
 translationKey: "monuments-concours"
@@ -75,6 +78,11 @@ Memorising monuments in isolation won't hold. Connect them.
 **Match the angle to your test.** For [school and general exams](/en/exams/), tie monuments to the history and geography topics on your syllabus. For pub quizzes, lean into the odd facts and the close calls examiners love. The same monument is revised differently depending on what you'll be asked.
 
 Done well, the whole thing fits into a few weeks. You'll never again hesitate between a cathedral and a basilica when it counts.
+
+<figure>
+  <img src="/images/blog/monuments/mont-saint-michel.jpg" alt="Mont-Saint-Michel" loading="lazy" />
+  <figcaption>Photo: Lynx1211 · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
+</figure>
 
 ## Frequently asked questions
 

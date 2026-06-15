@@ -3,6 +3,9 @@ title: "Châteaux et palais célèbres du monde"
 description: "Versailles, Neuschwanstein, l'Alhambra, la Cité interdite, le Potala : un tour des plus grands châteaux et palais du monde, avec leur style, leur époque et ce qui les distingue."
 date: 2026-02-18
 lastModified: 2026-06-15
+image: "/images/blog/monuments/neuschwanstein.jpg"
+imageAlt: "Le château de Neuschwanstein en Bavière"
+imageCredit: "Photo : Ximonic, Simo Räsänen & Tauno Räsänen · CC BY-SA 3.0 · Wikimedia Commons"
 lang: "fr"
 urlSlug: "chateaux-palais-celebres-monde"
 translationKey: "chateaux-palais-celebres"
@@ -63,6 +66,11 @@ Le **château d'agrément** apparaît quand la poudre à canon rend les fortific
 Le **palais**, enfin, est par définition une résidence urbaine et princière, sans vocation défensive. Le mot vient du mont Palatin à Rome, où résidaient les empereurs. Buckingham, Schönbrunn ou Topkapi sont des palais, pas des châteaux. En français, l'usage reste flou — on dit « château de Versailles » alors qu'il s'agit techniquement d'un palais —, mais la distinction tient à l'origine : un château protège, un palais représente.
 
 Pour transformer tous ces noms en réflexes, l'application **SAPIRO** propose des quiz sur les monuments du monde qui font travailler la mémoire sans bachotage. Pour prolonger, lisez notre tour des [monuments de France](/blog/monuments-france/), notre balade parmi les [monuments de Paris](/blog/monuments-paris/) et notre sélection de [sites classés au patrimoine mondial de l'UNESCO](/blog/sites-unesco-patrimoine-mondial/). Tout est rangé dans la rubrique [monuments](/monuments/).
+
+<figure>
+  <img src="/images/blog/monuments/chateau-chambord.jpg" alt="Le château de Chambord" loading="lazy" />
+  <figcaption>Photo : Benh Lieu Song · CC BY-SA 3.0 · Wikimedia Commons</figcaption>
+</figure>
 
 ## Questions fréquentes
 

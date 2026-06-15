@@ -3,6 +3,9 @@ title: "Famous Castles and Palaces Around the World"
 description: "Versailles, Neuschwanstein, the Alhambra, the Forbidden City, the Potala: a tour of the world's greatest castles and palaces, with their style, era and what sets them apart."
 date: 2026-02-18
 lastModified: 2026-06-15
+image: "/images/blog/monuments/neuschwanstein.jpg"
+imageAlt: "Neuschwanstein Castle in Bavaria"
+imageCredit: "Photo: Ximonic, Simo Räsänen & Tauno Räsänen · CC BY-SA 3.0 · Wikimedia Commons"
 lang: "en"
 urlSlug: "famous-castles-palaces-world"
 translationKey: "chateaux-palais-celebres"
@@ -63,6 +66,11 @@ The **pleasure castle** appears once gunpowder makes fortifications obsolete. Th
 The **palace**, finally, is by definition an urban and princely residence with no defensive role. The word comes from the Palatine Hill in Rome, where the emperors lived. Buckingham, Schönbrunn and Topkapi are palaces, not castles. English usage stays loose — we still say "Versailles château" even though it is technically a palace — but the root distinction holds: a castle protects, a palace impresses.
 
 To turn all these names into instant recall, the **SAPIRO** app offers quizzes on the world's monuments that train your memory without rote learning. To go further, read our tour of [France's monuments](/en/blog/france-monuments/), our walk through the [monuments of Paris](/en/blog/paris-monuments/) and our selection of [UNESCO World Heritage Sites](/en/blog/unesco-world-heritage-sites/). It all sits in the [monuments](/en/monuments/) section.
+
+<figure>
+  <img src="/images/blog/monuments/chateau-chambord.jpg" alt="The Château de Chambord" loading="lazy" />
+  <figcaption>Photo: Benh Lieu Song · CC BY-SA 3.0 · Wikimedia Commons</figcaption>
+</figure>
 
 ## Frequently Asked Questions
 

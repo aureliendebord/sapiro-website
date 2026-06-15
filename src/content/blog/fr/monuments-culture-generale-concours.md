@@ -3,6 +3,9 @@ title: "Réviser les monuments pour les concours et le bac"
 description: "Quels monuments tombent aux concours de la fonction publique et au bac ? La liste à mémoriser, les confusions à éviter et une méthode de révision qui tient."
 date: 2026-02-23
 lastModified: 2026-06-15
+image: "/images/blog/monuments/notre-dame-paris.jpg"
+imageAlt: "La cathédrale Notre-Dame de Paris"
+imageCredit: "Photo : Antonin Subtil · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "fr"
 urlSlug: "monuments-culture-generale-concours"
 translationKey: "monuments-concours"
@@ -75,6 +78,11 @@ Mémoriser des monuments isolés ne tient pas. Reliez-les.
 **Soignez l'angle de votre concours.** Pour les [concours de la fonction publique](/concours/), reliez les monuments aux institutions et aux grandes périodes du programme. Pour le bac, ancrez-les dans les chapitres d'histoire-géographie et d'histoire des arts. Le même monument se révise différemment selon ce qu'on attend de vous.
 
 Bien menée, cette préparation tient en quelques semaines. Vous n'aurez plus à hésiter entre une cathédrale et une basilique le jour J.
+
+<figure>
+  <img src="/images/blog/monuments/mont-saint-michel.jpg" alt="Le Mont-Saint-Michel" loading="lazy" />
+  <figcaption>Photo : Lynx1211 · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
+</figure>
 
 ## Questions fréquentes
 

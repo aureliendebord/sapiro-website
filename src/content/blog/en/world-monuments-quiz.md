@@ -3,6 +3,9 @@ title: "World monuments quiz: 10 questions from easy to hard"
 description: "A 10-question quiz on the world's monuments, from easy to tricky, with explained answers. Test your memory before you play on SAPIRO."
 date: 2026-02-20
 lastModified: 2026-06-15
+image: "/images/blog/monuments/taj-mahal.jpg"
+imageAlt: "The Taj Mahal in Agra, India"
+imageCredit: "Photo: Yann · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "en"
 urlSlug: "world-monuments-quiz"
 translationKey: "quiz-monuments"
@@ -88,6 +91,11 @@ Go continent by continent. Rather than swallowing a global list in one gulp, tac
 Build short flashcards. For each monument: name, place, rough period, one memorable detail. The detail is the key to recall. "Largest religious monument in the world" sticks to Angkor Wat far better than an overloaded card.
 
 Test yourself often. Passive rereading creates the illusion of knowing; testing reveals the real gaps. This is where a quiz app earns its place. **SAPIRO** offers general-knowledge quizzes, including a category devoted to monuments, with an explanation after each answer — handy for understanding a mistake instead of just suffering it. A few minutes a day anchors the landmarks better than one long cram session before an exam. If you're aiming for a test, our selection of [monuments for exams](/en/blog/monuments-general-knowledge/) targets the most frequently asked sites. And to explore the whole topic, it all starts on our [monuments page](/en/monuments/).
+
+<figure>
+  <img src="/images/blog/monuments/tour-eiffel.jpg" alt="The Eiffel Tower in Paris" loading="lazy" />
+  <figcaption>Photo: Benh Lieu Song · public domain · Wikimedia Commons</figcaption>
+</figure>
 
 ## Frequently asked questions
 

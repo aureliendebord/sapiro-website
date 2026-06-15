@@ -3,6 +3,9 @@ title: "Los monumentos más visitados del mundo: la clasificación"
 description: "Ciudad Prohibida, Gran Muralla, Torre Eiffel… ¿Qué monumentos atraen más visitantes cada año? La clasificación, las cifras y por qué los recuentos no cuadran."
 date: 2026-02-06
 lastModified: 2026-06-15
+image: "/images/blog/monuments/cite-interdite.jpg"
+imageAlt: "La Ciudad Prohibida en Pekín"
+imageCredit: "Foto: Kallgan · CC BY-SA 3.0 · Wikimedia Commons"
 lang: "es"
 urlSlug: "monumentos-mas-visitados-mundo"
 translationKey: "monuments-plus-visites"
@@ -62,6 +65,11 @@ La gran tendencia de los últimos años ya no es el crecimiento, sino la **regul
 ¿Quieres comprobar cuánto de todo esto se te ha quedado? Los cuestionarios de cultura general de SAPIRO convierten estas cifras y lugares en partidas rápidas, ideales para ver si sabrías situar la Ciudad Prohibida o datar el Coliseo.
 
 Para profundizar, recorre nuestro [dosier completo sobre monumentos](/es/monumentos/), nuestra selección de los [30 monumentos famosos del mundo](/es/blog/monumentos-famosos-mundo/), nuestra guía de los [monumentos de París](/es/blog/monumentos-paris/) y nuestro repaso a los [sitios del Patrimonio Mundial de la UNESCO](/es/blog/sitios-unesco-patrimonio-mundial/).
+
+<figure>
+  <img src="/images/blog/monuments/grande-muraille.jpg" alt="La Gran Muralla China" loading="lazy" />
+  <figcaption>Foto: Velatrix · CC0 · Wikimedia Commons</figcaption>
+</figure>
 
 ## Preguntas frecuentes
 

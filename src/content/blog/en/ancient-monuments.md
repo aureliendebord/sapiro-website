@@ -3,6 +3,9 @@ title: "Monuments of Antiquity: The Complete Guide"
 description: "Pyramids, the Parthenon, the Colosseum, Petra, Persepolis: a tour of the great monuments of antiquity, with dates and the key facts to remember about each."
 date: 2026-02-16
 lastModified: 2026-06-15
+image: "/images/blog/monuments/acropole-parthenon.jpg"
+imageAlt: "The Parthenon on the Acropolis of Athens"
+imageCredit: "Photo: A.Savin · CC BY-SA 3.0 · Wikimedia Commons"
 lang: "en"
 urlSlug: "ancient-monuments"
 translationKey: "monuments-antiquite"
@@ -73,6 +76,11 @@ Antiquity does not stop at the Mediterranean. Other civilisations built monument
 - **Mayan temples** — Mesoamerica (Mexico, Guatemala) — Classic period, 3rd-9th century AD — Stepped pyramids topped by shrines, as at Tikal or Palenque, at the heart of rival city-states. They served both worship and astronomical observation.
 
 To fix all these landmarks in mind without burning out, the **SAPIRO** app offers quizzes that turn these names and dates into instinct. To widen the picture, read our feature on the [wonders of the world](/en/blog/seven-wonders-of-the-world/), our pick of [30 famous monuments](/en/blog/famous-monuments-world/), and our guide to [UNESCO World Heritage Sites](/en/blog/unesco-world-heritage-sites/). To place these monuments on a timeline, see our overview of [Antiquity, Middle Ages and Renaissance](/en/blog/antiquity-middle-ages-renaissance-overview/). It is all filed under our [monuments](/en/monuments/) section.
+
+<figure>
+  <img src="/images/blog/monuments/colisee-rome.jpg" alt="The Colosseum in Rome" loading="lazy" />
+  <figcaption>Photo: Wilfredor · CC0 · Wikimedia Commons</figcaption>
+</figure>
 
 ## Frequently Asked Questions
 

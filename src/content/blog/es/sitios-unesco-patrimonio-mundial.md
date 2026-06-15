@@ -3,6 +3,9 @@ title: "Sitios UNESCO: entender el patrimonio mundial"
 description: "Más de 1.200 sitios inscritos, diez criterios, tres categorías: la guía completa del patrimonio mundial de la UNESCO, sus cifras y los lugares que hay que conocer."
 date: 2026-02-13
 lastModified: 2026-06-15
+image: "/images/blog/monuments/machu-picchu.jpg"
+imageAlt: "El Machu Picchu en Perú"
+imageCredit: "Foto: Diego Delso · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "es"
 urlSlug: "sitios-unesco-patrimonio-mundial"
 translationKey: "sites-unesco"
@@ -69,6 +72,11 @@ Algunos sitios aparecen a menudo en los concursos y merecen ubicarse por contine
 Esta selección da una idea de la amplitud de la lista, desde ruinas antiguas hasta maravillas naturales. Para poner a prueba tus referencias sobre estos lugares y muchos otros, la aplicación SAPIRO ofrece concursos de cultura general que abarcan monumentos, geografía e historia.
 
 Para profundizar, recorre nuestro dosier sobre los [monumentos del mundo](/es/monumentos/), o nuestros artículos sobre los [monumentos más visitados del mundo](/es/blog/monumentos-mas-visitados-mundo/), las [maravillas del mundo](/es/blog/maravillas-del-mundo/) y los [grandes monumentos de la Antigüedad](/es/blog/monumentos-antiguedad/).
+
+<figure>
+  <img src="/images/blog/monuments/angkor-vat.jpg" alt="El templo de Angkor Wat en Camboya" loading="lazy" />
+  <figcaption>Foto: Satdeep Gill · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
+</figure>
 
 ## Preguntas frecuentes
 

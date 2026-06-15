@@ -3,6 +3,9 @@ title: "Los monumentos de la Antigüedad: la guía completa"
 description: "Pirámides, el Partenón, el Coliseo, Petra, Persépolis: un recorrido por los grandes monumentos de la Antigüedad, con su datación y lo esencial sobre cada uno."
 date: 2026-02-16
 lastModified: 2026-06-15
+image: "/images/blog/monuments/acropole-parthenon.jpg"
+imageAlt: "El Partenón en la Acrópolis de Atenas"
+imageCredit: "Foto: A.Savin · CC BY-SA 3.0 · Wikimedia Commons"
 lang: "es"
 urlSlug: "monumentos-antiguedad"
 translationKey: "monuments-antiquite"
@@ -73,6 +76,11 @@ La Antigüedad no se detiene en el Mediterráneo. Otras civilizaciones levantaro
 - **Templos mayas** — Mesoamérica (México, Guatemala) — período clásico, siglos III-IX d. C. — Pirámides escalonadas rematadas por santuarios, como en Tikal o Palenque, en el corazón de ciudades-estado rivales. Servían al culto y a la observación astronómica.
 
 Para fijar todos estos referentes sin agotarse, la aplicación **SAPIRO** ofrece cuestionarios que convierten estos nombres y fechas en reflejos. Para ampliar el panorama, lee también nuestro reportaje sobre las [maravillas del mundo](/es/blog/maravillas-del-mundo/), nuestra selección de [30 monumentos famosos](/es/blog/monumentos-famosos-mundo/) y nuestra guía de los [sitios del patrimonio mundial de la UNESCO](/es/blog/sitios-unesco-patrimonio-mundial/). Para situar estos monumentos en el tiempo, consulta nuestro resumen de [Antigüedad, Edad Media y Renacimiento](/es/blog/antiguedad-edad-media-renacimiento-resumen/). Todo está ordenado en nuestra sección de [monumentos](/es/monumentos/).
+
+<figure>
+  <img src="/images/blog/monuments/colisee-rome.jpg" alt="El Coliseo de Roma" loading="lazy" />
+  <figcaption>Foto: Wilfredor · CC0 · Wikimedia Commons</figcaption>
+</figure>
 
 ## Preguntas frecuentes
 

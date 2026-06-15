@@ -3,6 +3,9 @@ title: "Repasar los monumentos para oposiciones y selectividad"
 description: "¿Qué monumentos caen en las oposiciones y en la selectividad? La lista que hay que memorizar, las confusiones que conviene evitar y un método de repaso que funciona."
 date: 2026-02-23
 lastModified: 2026-06-15
+image: "/images/blog/monuments/notre-dame-paris.jpg"
+imageAlt: "La catedral de Notre-Dame de París"
+imageCredit: "Foto: Antonin Subtil · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "es"
 urlSlug: "monumentos-cultura-general"
 translationKey: "monuments-concours"
@@ -75,6 +78,11 @@ Memorizar monumentos sueltos no aguanta. Conéctalos.
 **Ajusta el enfoque a tu prueba.** Para las [oposiciones](/es/oposiciones/), liga los monumentos a las instituciones y a los grandes periodos del temario. Para la selectividad, ánclalos en los temas de historia, geografía e historia del arte. El mismo monumento se repasa de forma distinta según lo que te vayan a pedir.
 
 Bien llevado, todo esto cabe en unas semanas. Ya no tendrás que dudar entre una catedral y una basílica el día clave.
+
+<figure>
+  <img src="/images/blog/monuments/mont-saint-michel.jpg" alt="El Mont-Saint-Michel" loading="lazy" />
+  <figcaption>Foto: Lynx1211 · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
+</figure>
 
 ## Preguntas frecuentes
 

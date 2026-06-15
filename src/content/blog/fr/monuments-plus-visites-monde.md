@@ -3,6 +3,9 @@ title: "Les monuments les plus visités au monde : le classement"
 description: "Cité interdite, Grande Muraille, Tour Eiffel… Quels monuments attirent le plus de visiteurs chaque année ? Classement, chiffres et limites des comptages."
 date: 2026-02-06
 lastModified: 2026-06-15
+image: "/images/blog/monuments/cite-interdite.jpg"
+imageAlt: "La Cité interdite à Pékin"
+imageCredit: "Photo : Kallgan · CC BY-SA 3.0 · Wikimedia Commons"
 lang: "fr"
 urlSlug: "monuments-plus-visites-monde"
 translationKey: "monuments-plus-visites"
@@ -62,6 +65,11 @@ La grande tendance des dernières années n'est plus la croissance, mais la **r�
 Envie de tester ce que vous retenez de tout ça ? Les quiz de culture générale de SAPIRO transforment ces chiffres et ces lieux en parties rapides, parfaites pour vérifier si vous sauriez situer la Cité interdite ou dater le Colisée.
 
 Pour aller plus loin, parcourez notre [dossier complet sur les monuments](/monuments/), notre sélection des [30 monuments célèbres du monde](/blog/monuments-celebres-monde/), notre guide des [monuments de Paris](/blog/monuments-paris/) et notre tour d'horizon des [sites du patrimoine mondial de l'UNESCO](/blog/sites-unesco-patrimoine-mondial/).
+
+<figure>
+  <img src="/images/blog/monuments/grande-muraille.jpg" alt="La Grande Muraille de Chine" loading="lazy" />
+  <figcaption>Photo : Velatrix · CC0 · Wikimedia Commons</figcaption>
+</figure>
 
 ## Questions fréquentes
 

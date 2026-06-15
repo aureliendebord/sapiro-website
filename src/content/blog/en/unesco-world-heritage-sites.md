@@ -3,6 +3,9 @@ title: "UNESCO World Heritage Sites Explained"
 description: "Over 1,200 listed sites, ten criteria, three categories: a clear guide to UNESCO World Heritage, its figures, and the places worth knowing."
 date: 2026-02-13
 lastModified: 2026-06-15
+image: "/images/blog/monuments/machu-picchu.jpg"
+imageAlt: "Machu Picchu in Peru"
+imageCredit: "Photo: Diego Delso · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "en"
 urlSlug: "unesco-world-heritage-sites"
 translationKey: "sites-unesco"
@@ -69,6 +72,11 @@ A few sites come up often in quizzes and deserve to be placed by continent.
 This selection gives a sense of how wide the list runs, from ancient ruins to natural wonders. To test your bearings on these places and many others, the SAPIRO app offers general knowledge quizzes covering monuments, geography, and history.
 
 To go further, browse our guide to [monuments of the world](/en/monuments/), or our articles on the [most visited monuments in the world](/en/blog/most-visited-monuments-world/), the [wonders of the world](/en/blog/seven-wonders-of-the-world/), and the [great monuments of antiquity](/en/blog/ancient-monuments/).
+
+<figure>
+  <img src="/images/blog/monuments/angkor-vat.jpg" alt="Angkor Wat in Cambodia" loading="lazy" />
+  <figcaption>Photo: Satdeep Gill · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
+</figure>
 
 ## Frequently Asked Questions
 

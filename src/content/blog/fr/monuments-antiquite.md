@@ -3,6 +3,9 @@ title: "Les monuments de l'Antiquité : le guide complet"
 description: "Pyramides, Parthénon, Colisée, Pétra, Persépolis : un tour des grands monuments de l'Antiquité, avec leur datation et ce qu'il faut retenir sur chacun."
 date: 2026-02-16
 lastModified: 2026-06-15
+image: "/images/blog/monuments/acropole-parthenon.jpg"
+imageAlt: "Le Parthénon sur l'Acropole d'Athènes"
+imageCredit: "Photo : A.Savin · CC BY-SA 3.0 · Wikimedia Commons"
 lang: "fr"
 urlSlug: "monuments-antiquite"
 translationKey: "monuments-antiquite"
@@ -73,6 +76,11 @@ L'Antiquité ne s'arrête pas à la Méditerranée. D'autres civilisations ont b
 - **Temples mayas** — Mésoamérique (Mexique, Guatemala) — période classique, IIIe-IXe siècle apr. J.-C. — Pyramides à degrés surmontées de sanctuaires, comme à Tikal ou Palenque, au cœur de cités-États rivales. Elles servaient au culte et à l'observation astronomique.
 
 Pour fixer tous ces repères sans s'épuiser, l'application **SAPIRO** propose des quiz qui transforment ces noms et ces dates en réflexes. Pour élargir le tableau, lisez aussi notre dossier sur les [merveilles du monde](/blog/merveilles-du-monde/), notre sélection de [30 monuments célèbres](/blog/monuments-celebres-monde/) et notre guide des [sites UNESCO du patrimoine mondial](/blog/sites-unesco-patrimoine-mondial/). Pour replacer ces monuments dans la chronologie, voyez nos [repères de l'Antiquité](/blog/antiquite-moyen-age-renaissance-reperes/) au Moyen Âge et à la Renaissance. Tout est rangé dans notre rubrique [monuments](/monuments/).
+
+<figure>
+  <img src="/images/blog/monuments/colisee-rome.jpg" alt="Le Colisée de Rome" loading="lazy" />
+  <figcaption>Photo : Wilfredor · CC0 · Wikimedia Commons</figcaption>
+</figure>
 
 ## Questions fréquentes
 
