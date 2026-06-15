@@ -3,6 +3,9 @@ title: "Los monumentos del Reino Unido: guía de imprescindibles"
 description: "Big Ben, Tower Bridge, Stonehenge, el castillo de Edimburgo: un recorrido claro por los grandes monumentos del Reino Unido, con fechas, lugares y mitos aclarados."
 date: 2026-03-04
 lastModified: 2026-06-15
+image: "/images/blog/monuments/westminster-big-ben.jpg"
+imageAlt: "El Big Ben y el Palacio de Westminster en Londres"
+imageCredit: "Foto: Colin · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "es"
 urlSlug: "monumentos-reino-unido"
 translationKey: "monuments-royaume-uni"
@@ -63,6 +66,11 @@ Algunos puntos que se prestan a confusión con frecuencia.
 **El Reino Unido no es lo mismo que Inglaterra.** Agrupa a Inglaterra, Escocia, Gales e Irlanda del Norte. El castillo de Edimburgo es escocés, Caernarfon es galés: clasificarlos como «ingleses» es un error frecuente.
 
 Para fijar todos estos datos, la aplicación **SAPIRO** propone cuestionarios de cultura general que ejercitan los monumentos sin repasar al vacío. Para seguir, recorre nuestros [30 monumentos famosos del mundo](/es/blog/monumentos-famosos-mundo/), nuestra selección de [monumentos de Francia](/es/blog/monumentos-francia/) y nuestro recorrido por los [castillos y palacios célebres](/es/blog/castillos-palacios-famosos-mundo/). Todo está ordenado en la sección [monumentos](/es/monumentos/).
+
+<figure>
+  <img src="/images/blog/monuments/stonehenge.jpg" alt="Stonehenge" loading="lazy" />
+  <figcaption>Foto: DeFacto · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
+</figure>
 
 ## Preguntas frecuentes
 

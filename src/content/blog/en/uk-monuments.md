@@ -3,6 +3,9 @@ title: "Monuments of the United Kingdom: the essential guide"
 description: "Big Ben, Tower Bridge, Stonehenge, Edinburgh Castle: a clear tour of the UK's great monuments, with dates, places and common myths set straight."
 date: 2026-03-04
 lastModified: 2026-06-15
+image: "/images/blog/monuments/westminster-big-ben.jpg"
+imageAlt: "Big Ben and the Palace of Westminster in London"
+imageCredit: "Photo: Colin · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "en"
 urlSlug: "uk-monuments"
 translationKey: "monuments-royaume-uni"
@@ -63,6 +66,11 @@ A few things that regularly cause confusion.
 **The United Kingdom is not the same as England.** It brings together England, Scotland, Wales and Northern Ireland. Edinburgh Castle is Scottish, Caernarfon is Welsh: filing them under "English" is a common mistake.
 
 To lock all this in, the **SAPIRO** app offers general-knowledge quizzes that drill monuments without dry revision. To go further, browse our [30 famous monuments of the world](/en/blog/famous-monuments-world/), our pick of [monuments in France](/en/blog/france-monuments/) and our tour of [famous castles and palaces](/en/blog/famous-castles-palaces-world/). Everything sits in the [monuments](/en/monuments/) section.
+
+<figure>
+  <img src="/images/blog/monuments/stonehenge.jpg" alt="Stonehenge" loading="lazy" />
+  <figcaption>Photo: DeFacto · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
+</figure>
 
 ## Frequently asked questions
 

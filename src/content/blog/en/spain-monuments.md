@@ -3,6 +3,9 @@ title: "Monuments of Spain: 8 Sites You Need to Know"
 description: "From the Sagrada Família to the Alhambra, a tour of Spain's great monuments, with their city, style and Roman, Muslim and Christian heritage."
 date: 2026-03-02
 lastModified: 2026-06-15
+image: "/images/blog/monuments/sagrada-familia.jpg"
+imageAlt: "The Sagrada Família in Barcelona"
+imageCredit: "Photo: Alvesgaspar · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "en"
 urlSlug: "spain-monuments"
 translationKey: "monuments-espagne"
@@ -59,6 +62,11 @@ The greener, wetter northwest was the heart of Christian resistance during the R
 These eight sites make one thing clear: there is no single Spain, only layers. The minaret turned bell tower, the cathedral planted inside the mosque, the Roman aqueduct still towering over a medieval town. If you enjoy testing your knowledge of places like these, the SAPIRO app offers general knowledge quizzes where geography, art and history meet, much as they do in these monuments.
 
 To go further, browse our [complete guide to monuments of the world](/en/monuments/). You can also broaden out with our selection of [30 famous monuments around the world](/en/blog/famous-monuments-world/), a tour of the [monuments of Italy](/en/blog/italy-monuments/) or the [monuments of France](/en/blog/france-monuments/).
+
+<figure>
+  <img src="/images/blog/monuments/alhambra.jpg" alt="The Alhambra in Granada" loading="lazy" />
+  <figcaption>Photo: Jebulon · CC0 · Wikimedia Commons</figcaption>
+</figure>
 
 ## Frequently asked questions
 

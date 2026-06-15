@@ -3,6 +3,9 @@ title: "Los monumentos de París: la guía para no perderse"
 description: "Torre Eiffel, Notre-Dame reabierta a finales de 2024, el Louvre, el Panteón, la Ópera Garnier… Los grandes monumentos de París explicados, con fechas, estilos y datos clave."
 date: 2026-02-09
 lastModified: 2026-06-15
+image: "/images/blog/monuments/tour-eiffel.jpg"
+imageAlt: "La Torre Eiffel en París"
+imageCredit: "Foto: Benh Lieu Song · dominio público · Wikimedia Commons"
 lang: "es"
 urlSlug: "monumentos-paris"
 translationKey: "monuments-paris"
@@ -61,6 +64,11 @@ París no se quedó congelado en el siglo XIX. Tres obras más recientes lo recu
 - **Gran Arco de la Défense** — Inaugurado en 1989 para el bicentenario de la Revolución, este cubo hueco de mármol blanco prolonga el eje histórico que parte del Louvre y atraviesa el Arco de Triunfo. Una ventana monumental abierta hacia el oeste de París.
 
 Para situar estos edificios en un marco más amplio, consulta también nuestro panorama de [monumentos de Francia](/es/blog/monumentos-francia/) y nuestra selección de [30 monumentos famosos del mundo](/es/blog/monumentos-famosos-mundo/). Para la página de referencia, ve al dossier completo sobre [monumentos](/es/monumentos/). Y si quieres comprobar qué has retenido, SAPIRO propone un [quiz de monumentos del mundo](/es/blog/quiz-monumentos-mundo/).
+
+<figure>
+  <img src="/images/blog/monuments/notre-dame-paris.jpg" alt="La catedral de Notre-Dame de París" loading="lazy" />
+  <figcaption>Foto: Antonin Subtil · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
+</figure>
 
 ## Preguntas frecuentes
 

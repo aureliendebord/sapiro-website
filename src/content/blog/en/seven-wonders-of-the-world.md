@@ -3,6 +3,9 @@ title: "The Seven Wonders of the World: Ancient and New"
 description: "The 7 wonders of the ancient world and the 7 new wonders chosen in 2007: what survives, their history, and where to find them today."
 date: 2026-02-02
 lastModified: 2026-06-15
+image: "/images/blog/monuments/pyramides-gizeh.jpg"
+imageAlt: "The pyramids of Giza in Egypt"
+imageCredit: "Photo: Mona Hassan Abo-Abda · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "en"
 urlSlug: "seven-wonders-of-the-world"
 translationKey: "merveilles-du-monde"
@@ -59,6 +62,11 @@ The same foundation later ran a vote for the **seven natural wonders of the worl
 Other rankings have circulated for a long time. People sometimes mention the **wonders of the medieval world**, a late and rather fanciful list that includes the Great Wall, Stonehenge, and the Leaning Tower of Pisa. Engineers, for their part, like to point to the **wonders of modern engineering**: the Panama Canal, the Channel Tunnel, the Hoover Dam. None of these lists carries any authority, but they all say the same thing — every age picks the monuments that fascinate it.
 
 If you want to remember all this without cramming, the **SAPIRO** app has quizzes on the monuments of the world that turn these seven-plus-seven names into instinct. To dig deeper, read our overview of [ancient monuments](/en/blog/ancient-monuments/) and our pick of [30 famous monuments](/en/blog/famous-monuments-world/). And to test yourself, nothing beats a good [monuments quiz](/en/blog/world-monuments-quiz/). It all lives in our [monuments](/en/monuments/) section.
+
+<figure>
+  <img src="/images/blog/monuments/colisee-rome.jpg" alt="The Colosseum in Rome" loading="lazy" />
+  <figcaption>Photo: Wilfredor · CC0 · Wikimedia Commons</figcaption>
+</figure>
 
 ## Frequently asked questions
 

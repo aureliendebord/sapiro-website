@@ -3,6 +3,9 @@ title: "Monumentos de Italia: Roma, Florencia, Venecia y Pompeya"
 description: "De Roma a Venecia, estos son los monumentos de Italia que hay que conocer: Coliseo, San Pedro, Duomo de Florencia, torre de Pisa y Pompeya."
 date: 2026-02-25
 lastModified: 2026-06-15
+image: "/images/blog/monuments/colisee-rome.jpg"
+imageAlt: "El Coliseo de Roma"
+imageCredit: "Foto: Wilfredor · CC0 · Wikimedia Commons"
 lang: es
 urlSlug: monumentos-italia
 translationKey: monuments-italie
@@ -63,6 +66,11 @@ Más allá de las grandes ciudades, Italia conserva yacimientos arqueológicos e
 - **Pompeya** — cerca de Nápoles — La ciudad quedó sepultada bajo las cenizas durante la erupción del Vesubio en el año 79 d. C., lo que congeló calles, casas, frescos y objetos cotidianos. Las excavaciones, iniciadas en el siglo XVIII, ofrecen la imagen más completa de una ciudad romana corriente.
 
 Si te gusta poner a prueba lo que sabes sobre estos lugares, la aplicación [SAPIRO](/es/) propone cuestionarios de cultura general donde la historia y el patrimonio aparecen a menudo. Para profundizar, recorre nuestra [guía de monumentos](/es/monumentos/) o nuestra selección de los [30 monumentos famosos del mundo](/es/blog/monumentos-famosos-mundo/). Y si te interesa Europa, compara con los [monumentos de Francia](/es/blog/monumentos-francia/) y los [monumentos de España](/es/blog/monumentos-espana/).
+
+<figure>
+  <img src="/images/blog/monuments/tour-de-pise.jpg" alt="La torre inclinada de Pisa" loading="lazy" />
+  <figcaption>Foto: MHoser · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
+</figure>
 
 ## Preguntas frecuentes
 

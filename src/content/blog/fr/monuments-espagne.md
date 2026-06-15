@@ -3,6 +3,9 @@ title: "Monuments d'Espagne : 8 sites à connaître absolument"
 description: "De la Sagrada Família à l'Alhambra, un tour des grands monuments d'Espagne, avec leur ville, leur style et l'héritage romain, musulman et chrétien."
 date: 2026-03-02
 lastModified: 2026-06-15
+image: "/images/blog/monuments/sagrada-familia.jpg"
+imageAlt: "La Sagrada Família à Barcelone"
+imageCredit: "Photo : Alvesgaspar · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "fr"
 urlSlug: "monuments-espagne"
 translationKey: "monuments-espagne"
@@ -59,6 +62,11 @@ Le Nord-Ouest, plus vert et plus humide, a été le cœur de la résistance chr�
 Ces huit sites résument une évidence : il n'existe pas une Espagne, mais des strates. Le minaret devenu clocher, la cathédrale plantée dans la mosquée, l'aqueduc romain qui domine encore une ville médiévale. Si vous aimez tester vos connaissances sur ce genre de lieux, l'application SAPIRO propose des quiz de culture générale où géographie, art et histoire se croisent comme dans ces monuments.
 
 Pour aller plus loin, parcourez notre [guide complet des monuments du monde](/monuments/). Vous pouvez aussi élargir avec notre sélection de [30 monuments célèbres dans le monde](/blog/monuments-celebres-monde/), un tour des [monuments d'Italie](/blog/monuments-italie/) ou des [monuments de France](/blog/monuments-france/).
+
+<figure>
+  <img src="/images/blog/monuments/alhambra.jpg" alt="L'Alhambra de Grenade" loading="lazy" />
+  <figcaption>Photo : Jebulon · CC0 · Wikimedia Commons</figcaption>
+</figure>
 
 ## Questions fréquentes
 

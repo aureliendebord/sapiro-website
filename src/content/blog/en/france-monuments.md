@@ -3,6 +3,9 @@ title: "Monuments of France Worth Knowing (Beyond Paris)"
 description: "Mont-Saint-Michel, the Loire châteaux, the Pont du Gard, the Millau Viaduct: a tour of France's essential monuments, region by region, far from the capital."
 date: 2026-02-11
 lastModified: 2026-06-15
+image: "/images/blog/monuments/mont-saint-michel.jpg"
+imageAlt: "Mont-Saint-Michel"
+imageCredit: "Photo: Lynx1211 · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "en"
 urlSlug: "france-monuments"
 translationKey: "monuments-france"
@@ -69,6 +72,11 @@ With more than fifty sites on the [UNESCO World Heritage list](https://whc.unesc
 Want to test your knowledge? The SAPIRO app offers general knowledge quizzes that cover these monuments and many more.
 
 To go further, browse our [complete guide to monuments of the world](/en/monuments/). And depending on your taste, continue with the [monuments of Paris](/en/blog/paris-monuments/), a tour of the [world's famous castles and palaces](/en/blog/famous-castles-palaces-world/), or the list of [UNESCO World Heritage sites](/en/blog/unesco-world-heritage-sites/).
+
+<figure>
+  <img src="/images/blog/monuments/chateau-chambord.jpg" alt="The Château de Chambord" loading="lazy" />
+  <figcaption>Photo: Benh Lieu Song · CC BY-SA 3.0 · Wikimedia Commons</figcaption>
+</figure>
 
 ## Frequently asked questions
 

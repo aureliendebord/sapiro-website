@@ -3,6 +3,9 @@ title: "The Monuments of Egypt: Pyramids, Temples and Nile Treasures"
 description: "Pyramids of Giza, Karnak, the Valley of the Kings, Abu Simbel: a tour of ancient Egypt's great monuments, with their location, dates and key facts."
 date: 2026-02-27
 lastModified: 2026-06-15
+image: "/images/blog/monuments/pyramides-gizeh.jpg"
+imageAlt: "The pyramids of Giza in Egypt"
+imageCredit: "Photo: Mona Hassan Abo-Abda · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "en"
 urlSlug: "egypt-monuments"
 translationKey: "monuments-egypte"
@@ -67,6 +70,11 @@ Egypt is not only its pyramids and great temples. Some of its monuments have bee
 - **Library of Alexandria** — Alexandria — founded in the 3rd century BC — The most famous centre of learning in antiquity, meant to gather every text in the known world. Destroyed gradually over the centuries, it left no physical trace, yet remains a symbol of lost knowledge.
 
 To fix all these names and dates in mind without burning out, the **SAPIRO** app offers quizzes that turn them into instinct. To widen the picture, read our feature on the [wonders of the world](/en/blog/seven-wonders-of-the-world/), our tour of [ancient monuments](/en/blog/ancient-monuments/), and our pick of [30 famous monuments](/en/blog/famous-monuments-world/). It is all filed under our [monuments](/en/monuments/) section.
+
+<figure>
+  <img src="/images/blog/monuments/abou-simbel.jpg" alt="The temples of Abu Simbel" loading="lazy" />
+  <figcaption>Photo: Diego Delso · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
+</figure>
 
 ## Frequently Asked Questions
 

@@ -3,6 +3,9 @@ title: "Les monuments d'Italie : Rome, Florence, Venise et Pompéi"
 description: "De Rome à Venise, voici les monuments d'Italie à connaître : Colisée, Saint-Pierre, Duomo de Florence, tour de Pise et Pompéi."
 date: 2026-02-25
 lastModified: 2026-06-15
+image: "/images/blog/monuments/colisee-rome.jpg"
+imageAlt: "Le Colisée de Rome"
+imageCredit: "Photo : Wilfredor · CC0 · Wikimedia Commons"
 lang: fr
 urlSlug: monuments-italie
 translationKey: monuments-italie
@@ -63,6 +66,11 @@ Au-delà des grandes villes, l'Italie conserve des sites archéologiques excepti
 - **Pompéi** — près de Naples — La cité fut ensevelie sous les cendres lors de l'éruption du Vésuve en 79 après J.-C., ce qui a figé rues, maisons, fresques et objets du quotidien. Les fouilles, débutées au XVIIIe siècle, offrent l'image la plus complète d'une ville romaine ordinaire.
 
 Si vous aimez tester vos connaissances sur ces lieux, l'application [SAPIRO](/) propose des quiz de culture générale où l'histoire et le patrimoine reviennent souvent. Pour aller plus loin, parcourez notre [guide des monuments](/monuments/) ou notre sélection des [30 monuments célèbres du monde](/blog/monuments-celebres-monde/). Et si l'Europe vous intéresse, comparez avec les [monuments de France](/blog/monuments-france/) et les [monuments d'Espagne](/blog/monuments-espagne/).
+
+<figure>
+  <img src="/images/blog/monuments/tour-de-pise.jpg" alt="La tour penchée de Pise" loading="lazy" />
+  <figcaption>Photo : MHoser · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
+</figure>
 
 ## Questions fréquentes
 

@@ -3,6 +3,9 @@ title: "30 monuments célèbres du monde à connaître absolument"
 description: "Tour Eiffel, Taj Mahal, Machu Picchu, pyramides de Gizeh : 30 monuments célèbres du monde groupés par continent, avec ce qu'il faut retenir de chacun."
 date: 2026-02-04
 lastModified: 2026-06-15
+image: "/images/blog/monuments/tour-eiffel.jpg"
+imageAlt: "La tour Eiffel à Paris"
+imageCredit: "Photo : Benh Lieu Song · domaine public · Wikimedia Commons"
 lang: "fr"
 urlSlug: "monuments-celebres-monde"
 translationKey: "monuments-celebres"
@@ -80,6 +83,11 @@ Sydney concentre deux silhouettes devenues le visage de l'Australie.
 - **Harbour Bridge** — Sydney, Australie — pont en arc d'acier surnommé « le cintre », ouvert en 1932.
 
 Pour aller plus loin, explorez notre [guide des monuments du monde](/monuments/), comparez ces sites avec [les sept merveilles du monde](/blog/merveilles-du-monde/) ou consultez le classement des [monuments les plus visités](/blog/monuments-plus-visites-monde/). Pour passer des bâtiments aux œuvres, voyez aussi notre tour des [sculptures célèbres](/blog/sculptures-celebres-monde/) qui ornent souvent ces sites. Et pour vérifier ce que vous avez retenu, lancez-vous dans le [quiz des monuments du monde](/blog/quiz-monuments-monde/).
+
+<figure>
+  <img src="/images/blog/monuments/taj-mahal.jpg" alt="Le Taj Mahal à Agra, en Inde" loading="lazy" />
+  <figcaption>Photo : Yann · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
+</figure>
 
 ## Questions fréquentes
 

@@ -3,6 +3,9 @@ title: "Monumentos de Francia que debes conocer (fuera de París)"
 description: "Mont-Saint-Michel, los castillos del Loira, el Pont du Gard, el viaducto de Millau: un recorrido por los monumentos imprescindibles de Francia, región por región, lejos de la capital."
 date: 2026-02-11
 lastModified: 2026-06-15
+image: "/images/blog/monuments/mont-saint-michel.jpg"
+imageAlt: "El Mont-Saint-Michel"
+imageCredit: "Foto: Lynx1211 · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "es"
 urlSlug: "monumentos-francia"
 translationKey: "monuments-france"
@@ -69,6 +72,11 @@ Con más de cincuenta sitios en la [lista del Patrimonio Mundial de la UNESCO](h
 ¿Quieres poner a prueba tus conocimientos? La aplicación SAPIRO ofrece cuestionarios de cultura general que repasan estos monumentos y muchos más.
 
 Para profundizar, recorre nuestra [guía completa de monumentos del mundo](/es/monumentos/). Y según tus gustos, continúa con los [monumentos de París](/es/blog/monumentos-paris/), un recorrido por los [castillos y palacios famosos del mundo](/es/blog/castillos-palacios-famosos-mundo/), o la lista de [sitios del Patrimonio Mundial de la UNESCO](/es/blog/sitios-unesco-patrimonio-mundial/).
+
+<figure>
+  <img src="/images/blog/monuments/chateau-chambord.jpg" alt="El castillo de Chambord" loading="lazy" />
+  <figcaption>Foto: Benh Lieu Song · CC BY-SA 3.0 · Wikimedia Commons</figcaption>
+</figure>
 
 ## Preguntas frecuentes
 

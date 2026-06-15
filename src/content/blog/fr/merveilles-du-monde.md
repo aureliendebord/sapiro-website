@@ -3,6 +3,9 @@ title: "Les merveilles du monde : antiques et modernes"
 description: "Les 7 merveilles du monde antique et les 7 nouvelles merveilles élues en 2007 : ce qu'il en reste, leur histoire et où les trouver aujourd'hui."
 date: 2026-02-02
 lastModified: 2026-06-15
+image: "/images/blog/monuments/pyramides-gizeh.jpg"
+imageAlt: "Les pyramides de Gizeh en Égypte"
+imageCredit: "Photo : Mona Hassan Abo-Abda · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "fr"
 urlSlug: "merveilles-du-monde"
 translationKey: "merveilles-du-monde"
@@ -59,6 +62,11 @@ La même fondation a ensuite organisé un vote pour les **sept merveilles nature
 D'autres classements circulent depuis longtemps. On parle parfois des **merveilles du monde médiéval**, une liste tardive et fantaisiste où figurent la grande muraille, Stonehenge ou la tour de Pise. Les ingénieurs, eux, citent volontiers des **merveilles de l'ingénierie moderne** : le canal de Panama, le tunnel sous la Manche, le barrage Hoover. Aucune de ces listes ne fait autorité, mais toutes disent la même chose : chaque époque choisit les monuments qui la fascinent.
 
 Si vous voulez retenir tout ça sans bachoter, l'application **SAPIRO** propose des quiz sur les monuments du monde qui transforment ces sept-plus-sept noms en réflexes. Pour aller plus loin, lisez aussi notre tour d'horizon des [monuments de l'Antiquité](/blog/monuments-antiquite/) et notre sélection de [30 monuments célèbres](/blog/monuments-celebres-monde/). Et pour vous tester, rien ne vaut un bon [quiz monuments](/blog/quiz-monuments-monde/). Tout est rangé dans notre rubrique [monuments](/monuments/).
+
+<figure>
+  <img src="/images/blog/monuments/colisee-rome.jpg" alt="Le Colisée de Rome" loading="lazy" />
+  <figcaption>Photo : Wilfredor · CC0 · Wikimedia Commons</figcaption>
+</figure>
 
 ## Questions fréquentes
 

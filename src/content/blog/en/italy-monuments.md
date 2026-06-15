@@ -3,6 +3,9 @@ title: "Monuments of Italy: Rome, Florence, Venice and Pompeii"
 description: "From Rome to Venice, here are the monuments of Italy worth knowing: the Colosseum, St Peter's, Florence's Duomo, the Pisa tower and Pompeii."
 date: 2026-02-25
 lastModified: 2026-06-15
+image: "/images/blog/monuments/colisee-rome.jpg"
+imageAlt: "The Colosseum in Rome"
+imageCredit: "Photo: Wilfredor · CC0 · Wikimedia Commons"
 lang: en
 urlSlug: italy-monuments
 translationKey: monuments-italie
@@ -63,6 +66,11 @@ Beyond the major cities, Italy preserves remarkable archaeological sites.
 - **Pompeii** — near Naples — The city was buried under ash when Vesuvius erupted in AD 79, which froze streets, houses, frescoes and everyday objects in place. The excavations, begun in the 18th century, give the fullest picture we have of an ordinary Roman town.
 
 If you enjoy testing what you know about these places, the [SAPIRO](/en/) app offers general-knowledge quizzes where history and heritage come up often. To dig deeper, browse our [monuments guide](/en/monuments/) or our pick of the [30 famous monuments of the world](/en/blog/famous-monuments-world/). And if Europe is your thing, compare with the [monuments of France](/en/blog/france-monuments/) and the [monuments of Spain](/en/blog/spain-monuments/).
+
+<figure>
+  <img src="/images/blog/monuments/tour-de-pise.jpg" alt="The Leaning Tower of Pisa" loading="lazy" />
+  <figcaption>Photo: MHoser · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
+</figure>
 
 ## Frequently asked questions
 

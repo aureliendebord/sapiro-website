@@ -3,6 +3,9 @@ title: "Les monuments de France à connaître (hors Paris)"
 description: "Mont-Saint-Michel, châteaux de la Loire, pont du Gard, viaduc de Millau : un tour de France des monuments incontournables, région par région, loin de la capitale."
 date: 2026-02-11
 lastModified: 2026-06-15
+image: "/images/blog/monuments/mont-saint-michel.jpg"
+imageAlt: "Le Mont-Saint-Michel"
+imageCredit: "Photo : Lynx1211 · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "fr"
 urlSlug: "monuments-france"
 translationKey: "monuments-france"
@@ -69,6 +72,11 @@ Avec plus de cinquante sites [inscrits au patrimoine mondial de l'UNESCO](https:
 Envie de tester vos connaissances ? L'application SAPIRO propose des quiz de culture générale qui passent en revue ces monuments et bien d'autres.
 
 Pour aller plus loin, parcourez notre [guide complet des monuments du monde](/monuments/). Et selon vos envies, prolongez avec les [monuments de Paris](/blog/monuments-paris/), un tour des [châteaux et palais célèbres du monde](/blog/chateaux-palais-celebres-monde/), ou la liste des [sites du patrimoine mondial de l'UNESCO](/blog/sites-unesco-patrimoine-mondial/).
+
+<figure>
+  <img src="/images/blog/monuments/chateau-chambord.jpg" alt="Le château de Chambord" loading="lazy" />
+  <figcaption>Photo : Benh Lieu Song · CC BY-SA 3.0 · Wikimedia Commons</figcaption>
+</figure>
 
 ## Questions fréquentes
 

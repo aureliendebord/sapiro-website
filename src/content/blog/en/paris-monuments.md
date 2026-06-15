@@ -3,6 +3,9 @@ title: "The Monuments of Paris: A Guide That Actually Helps"
 description: "The Eiffel Tower, Notre-Dame (reopened late 2024), the Louvre, the Panthéon, Garnier… The great monuments of Paris explained, with dates, styles and standout facts."
 date: 2026-02-09
 lastModified: 2026-06-15
+image: "/images/blog/monuments/tour-eiffel.jpg"
+imageAlt: "The Eiffel Tower in Paris"
+imageCredit: "Photo: Benh Lieu Song · public domain · Wikimedia Commons"
 lang: "en"
 urlSlug: "paris-monuments"
 translationKey: "monuments-paris"
@@ -61,6 +64,11 @@ Paris did not freeze in the 19th century. Three more recent works prove it, and 
 - **Grande Arche de la Défense** — Inaugurated in 1989 for the bicentenary of the Revolution, this hollow cube of white marble extends the historic axis that begins at the Louvre and runs through the Arc de Triomphe. A monumental window opening onto western Paris.
 
 To set these buildings in a wider context, see our overview of the [monuments of France](/en/blog/france-monuments/) and our selection of [30 famous monuments around the world](/en/blog/famous-monuments-world/). For the reference page, head to the full [monuments](/en/monuments/) hub. And if you want to test what stuck, SAPIRO offers a [world monuments quiz](/en/blog/world-monuments-quiz/).
+
+<figure>
+  <img src="/images/blog/monuments/notre-dame-paris.jpg" alt="Notre-Dame Cathedral in Paris" loading="lazy" />
+  <figcaption>Photo: Antonin Subtil · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
+</figure>
 
 ## Frequently asked questions
 

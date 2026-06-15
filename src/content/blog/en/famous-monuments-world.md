@@ -3,6 +3,9 @@ title: "30 Famous Monuments Around the World You Should Know"
 description: "Eiffel Tower, Taj Mahal, Machu Picchu, the Giza pyramids: 30 famous monuments around the world, grouped by continent, with the key facts on each one."
 date: 2026-02-04
 lastModified: 2026-06-15
+image: "/images/blog/monuments/tour-eiffel.jpg"
+imageAlt: "The Eiffel Tower in Paris"
+imageCredit: "Photo: Benh Lieu Song · public domain · Wikimedia Commons"
 lang: "en"
 urlSlug: "famous-monuments-world"
 translationKey: "monuments-celebres"
@@ -80,6 +83,11 @@ Sydney holds two silhouettes that have become the face of Australia.
 - **Sydney Harbour Bridge** — Sydney, Australia — a steel arch bridge nicknamed "the Coathanger", opened in 1932.
 
 To go further, browse our [guide to the world's monuments](/en/monuments/), compare these sites with [the Seven Wonders of the World](/en/blog/seven-wonders-of-the-world/), or check the ranking of the [most visited monuments](/en/blog/most-visited-monuments-world/). To move from buildings to artworks, see our tour of the [famous sculptures](/en/blog/famous-sculptures-world/) that often adorn these sites. And to test what you remember, try the [world monuments quiz](/en/blog/world-monuments-quiz/).
+
+<figure>
+  <img src="/images/blog/monuments/taj-mahal.jpg" alt="The Taj Mahal in Agra, India" loading="lazy" />
+  <figcaption>Photo: Yann · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
+</figure>
 
 ## Frequently asked questions
 

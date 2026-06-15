@@ -3,6 +3,9 @@ title: "Monumentos de España: 8 lugares que debes conocer"
 description: "De la Sagrada Família a la Alhambra, un recorrido por los grandes monumentos de España, con su ciudad, su estilo y su herencia romana, musulmana y cristiana."
 date: 2026-03-02
 lastModified: 2026-06-15
+image: "/images/blog/monuments/sagrada-familia.jpg"
+imageAlt: "La Sagrada Família en Barcelona"
+imageCredit: "Foto: Alvesgaspar · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "es"
 urlSlug: "monumentos-espana"
 translationKey: "monuments-espagne"
@@ -59,6 +62,11 @@ El noroeste, más verde y húmedo, fue el corazón de la resistencia cristiana d
 Estos ocho lugares dejan algo claro: no existe una sola España, sino capas. El alminar vuelto campanario, la catedral plantada dentro de la mezquita, el acueducto romano que aún domina una ciudad medieval. Si te gusta poner a prueba tus conocimientos sobre lugares así, la aplicación SAPIRO ofrece cuestionarios de cultura general donde geografía, arte e historia se cruzan, igual que en estos monumentos.
 
 Para profundizar, recorre nuestra [guía completa de monumentos del mundo](/es/monumentos/). También puedes ampliar con nuestra selección de [30 monumentos famosos del mundo](/es/blog/monumentos-famosos-mundo/), un recorrido por los [monumentos de Italia](/es/blog/monumentos-italia/) o los [monumentos de Francia](/es/blog/monumentos-francia/).
+
+<figure>
+  <img src="/images/blog/monuments/alhambra.jpg" alt="La Alhambra de Granada" loading="lazy" />
+  <figcaption>Foto: Jebulon · CC0 · Wikimedia Commons</figcaption>
+</figure>
 
 ## Preguntas frecuentes
 

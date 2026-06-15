@@ -3,6 +3,9 @@ title: "Les monuments d'Égypte : pyramides, temples et trésors du Nil"
 description: "Pyramides de Gizeh, Karnak, vallée des Rois, Abou Simbel : un tour des grands monuments de l'Égypte ancienne, avec leur lieu, leur datation et l'essentiel à retenir."
 date: 2026-02-27
 lastModified: 2026-06-15
+image: "/images/blog/monuments/pyramides-gizeh.jpg"
+imageAlt: "Les pyramides de Gizeh en Égypte"
+imageCredit: "Photo : Mona Hassan Abo-Abda · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "fr"
 urlSlug: "monuments-egypte"
 translationKey: "monuments-egypte"
@@ -67,6 +70,11 @@ L'Égypte ne se résume pas à ses pyramides et à ses grands temples. Certains 
 - **Bibliothèque d'Alexandrie** — Alexandrie — fondée au IIIe siècle av. J.-C. — Centre de savoir le plus célèbre de l'Antiquité, elle visait à rassembler tous les écrits du monde connu. Détruite progressivement au fil des siècles, elle n'a laissé aucune trace matérielle, mais reste un symbole de la connaissance perdue.
 
 Pour ancrer tous ces noms et ces dates sans s'épuiser, l'application **SAPIRO** propose des quiz qui en font un réflexe. Pour élargir le tableau, lisez notre dossier sur les [merveilles du monde](/blog/merveilles-du-monde/), notre tour des [monuments de l'Antiquité](/blog/monuments-antiquite/) et notre sélection de [30 monuments célèbres](/blog/monuments-celebres-monde/). Le tout est rangé dans notre rubrique [monuments](/monuments/).
+
+<figure>
+  <img src="/images/blog/monuments/abou-simbel.jpg" alt="Les temples d'Abou Simbel" loading="lazy" />
+  <figcaption>Photo : Diego Delso · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
+</figure>
 
 ## Questions fréquentes
 

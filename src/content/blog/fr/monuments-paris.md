@@ -3,6 +3,9 @@ title: "Les monuments de Paris : le guide pour s'y retrouver"
 description: "Tour Eiffel, Notre-Dame rouverte fin 2024, Louvre, Panthéon, Garnier… Les grands monuments de Paris expliqués, avec dates, styles et faits marquants."
 date: 2026-02-09
 lastModified: 2026-06-15
+image: "/images/blog/monuments/tour-eiffel.jpg"
+imageAlt: "La tour Eiffel à Paris"
+imageCredit: "Photo : Benh Lieu Song · domaine public · Wikimedia Commons"
 lang: "fr"
 urlSlug: "monuments-paris"
 translationKey: "monuments-paris"
@@ -61,6 +64,11 @@ Paris ne s'est pas figé au XIXe siècle. Trois ouvrages plus récents le rappel
 - **Grande Arche de la Défense** — Inaugurée en 1989 pour le bicentenaire de la Révolution, ce cube évidé de marbre blanc prolonge l'axe historique qui part du Louvre et passe par l'Arc de Triomphe. Une fenêtre monumentale ouverte sur l'ouest parisien.
 
 Pour replacer ces édifices dans un cadre plus large, voyez aussi notre panorama des [monuments de France](/blog/monuments-france/) et notre sélection de [30 monuments célèbres dans le monde](/blog/monuments-celebres-monde/). Et pour la page de référence, le dossier complet sur les [monuments](/monuments/). Si vous voulez tester ce que vous retenez, SAPIRO propose un [quiz sur les monuments du monde](/blog/quiz-monuments-monde/).
+
+<figure>
+  <img src="/images/blog/monuments/notre-dame-paris.jpg" alt="La cathédrale Notre-Dame de Paris" loading="lazy" />
+  <figcaption>Photo : Antonin Subtil · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
+</figure>
 
 ## Questions fréquentes
 
