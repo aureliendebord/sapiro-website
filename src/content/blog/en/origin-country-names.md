@@ -26,7 +26,7 @@ From Latin *argentum*, "silver." The first Spanish explorers hoped to find large
 
 ## Pakistan
 
-Acronym invented in 1933 by Choudhary Rahmat Ali. P for Punjab, A for Afghani (Pashtuns), K for Kashmir, S for Sindh, TAN for Balochistan. And "pakistan" also means "land of the pure" in Urdu.
+Acronym invented in 1933 by [Choudhary Rahmat Ali](https://en.wikipedia.org/wiki/Choudhry_Rahmat_Ali). P for Punjab, A for Afghani (Pashtuns), K for Kashmir, S for Sindh, TAN for Balochistan. And "pakistan" also means "land of the pure" in Urdu.
 
 ## Australia
 
@@ -66,7 +66,7 @@ From Sanskrit *Sindhu*, the Indus, the river. Persians pronounced *Hindu*, Greek
 
 ## United States
 
-"United States of America." America comes from Amerigo Vespucci, Italian navigator who first claimed in 1502 that the New World was not Asia but a new continent.
+"United States of America." America comes from [Amerigo Vespucci](https://en.wikipedia.org/wiki/Amerigo_Vespucci), Italian navigator who first claimed in 1502 that the New World was not Asia but a new continent.
 
 ## Germany
 

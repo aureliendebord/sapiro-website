@@ -18,11 +18,11 @@ El mundo ha visto decenas de paises desaparecer en un siglo. Aqui van los princi
 
 ## Desaparecidos en los 1990-2000
 
-**URSS (1922-1991).** Colapsada el 25 de diciembre de 1991. 15 republicas independientes: Rusia, Ucrania, Bielorrusia, Kazajistan, Uzbekistan, Turkmenistan, Tayikistan, Kirguistan, Georgia, Armenia, Azerbaiyan, Lituania, Letonia, Estonia, Moldavia.
+**URSS (1922-1991).** [Colapsada el 25 de diciembre de 1991](https://es.wikipedia.org/wiki/Disoluci%C3%B3n_de_la_Uni%C3%B3n_Sovi%C3%A9tica). 15 republicas independientes: Rusia, Ucrania, Bielorrusia, Kazajistan, Uzbekistan, Turkmenistan, Tayikistan, Kirguistan, Georgia, Armenia, Azerbaiyan, Lituania, Letonia, Estonia, Moldavia.
 
 **Yugoslavia (1945-1992, luego 2003).** Seis paises surgidos: Eslovenia, Croacia, Bosnia-Herzegovina, Macedonia del Norte, Serbia, Montenegro. Mas tarde, Kosovo se separo de Serbia.
 
-**Checoslovaquia (1918-1993).** "Divorcio de terciopelo" sin guerra. Republica Checa y Eslovaquia.
+**Checoslovaquia (1918-1993).** ["Divorcio de terciopelo"](https://es.wikipedia.org/wiki/Disoluci%C3%B3n_de_Checoslovaquia) sin guerra. Republica Checa y Eslovaquia.
 
 **Alemania del Este (RDA, 1949-1990).** Reunificada con la RFA el 3 de octubre de 1990 tras la caida del muro de Berlin.
 

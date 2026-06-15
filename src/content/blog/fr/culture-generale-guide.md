@@ -34,7 +34,7 @@ L'histoire donne du sens au présent. Les grandes périodes — Antiquité, Moye
 
 Les sciences couvrent physique, chimie, biologie, maths, informatique. Gravité, évolution, ADN, changement climatique : on ne peut plus se permettre d'être analphabète scientifique en 2025.
 
-Les arts et la littérature changent le regard qu'on pose sur le monde. On ne visite pas Florence de la même façon quand on a lu sur les Médicis. Les grands mouvements (Renaissance, Impressionnisme, Art déco) et les [œuvres d'art majeures](/blog/oeuvres-art-incontournables/) forment un socle utile.
+Les arts et la littérature changent le regard qu'on pose sur le monde. On ne visite pas Florence de la même façon quand on a lu sur les [Médicis](https://fr.wikipedia.org/wiki/Maison_de_M%C3%A9dicis). Les grands mouvements (Renaissance, Impressionnisme, Art déco) et les [œuvres d'art majeures](/blog/oeuvres-art-incontournables/) forment un socle utile.
 
 La politique et l'économie sont les clés de l'actualité. Systèmes politiques, institutions internationales, inflation, PIB, dette publique — sans ça, les infos du soir restent du bruit de fond.
 

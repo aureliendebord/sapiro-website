@@ -50,7 +50,7 @@ Neologismo de 1850 formado por "Indo" (Indias) y "nesia" (isla, del griego *neso
 
 ## Rusia
 
-Del pueblo *Rus*, vikingos venidos de Suecia que fundaron Kiev en el siglo IX. Su nombre vendria del fines *Ruotsi* que designa a Suecia (tierra de remeros).
+Del pueblo *Rus*, vikingos venidos de Suecia que fundaron [Kiev](https://es.wikipedia.org/wiki/Rus_de_Kiev) en el siglo IX. Su nombre vendria del fines *Ruotsi* que designa a Suecia (tierra de remeros).
 
 ## Japon
 
@@ -66,7 +66,7 @@ Del sanscrito *Sindhu*, el Indo, el rio. Los persas pronunciaban *Hindu*, los gr
 
 ## Estados Unidos
 
-"Estados Unidos de America". America viene de Amerigo Vespucci, navegante italiano que afirmo primero en 1502 que el Nuevo Mundo no era Asia sino un nuevo continente.
+"Estados Unidos de America". America viene de [Amerigo Vespucci](https://es.wikipedia.org/wiki/Am%C3%A9rico_Vespucio), navegante italiano que afirmo primero en 1502 que el Nuevo Mundo no era Asia sino un nuevo continente.
 
 ## Alemania
 

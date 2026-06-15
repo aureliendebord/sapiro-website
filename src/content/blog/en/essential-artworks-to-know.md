@@ -22,7 +22,7 @@ This list is one person's selection. Twelve works spanning five centuries is obv
 
 ## Mona Lisa -- Leonardo da Vinci (1503-1519)
 
-The obvious starting point. The Mona Lisa hangs in the Louvre in Paris behind bulletproof glass, in a room packed with tourists holding phones above their heads. What made it the most famous painting in the world was not the painting itself -- it was the theft. In 1911, Vincenzo Peruggia, a Louvre employee, hid the painting under his coat and walked out. The story made headlines worldwide. Before the theft, the Mona Lisa was known to art lovers. After it, the painting became a global celebrity. The actual canvas is only 77 by 53 centimeters. Most visitors are shocked by how small it is.
+The obvious starting point. The Mona Lisa hangs in the Louvre in Paris behind bulletproof glass, in a room packed with tourists holding phones above their heads. What made it the most famous painting in the world was not the painting itself -- it was the theft. In 1911, [Vincenzo Peruggia, a Louvre employee, hid the painting under his coat and walked out](https://en.wikipedia.org/wiki/Mona_Lisa#Theft_and_vandalism). The story made headlines worldwide. Before the theft, the Mona Lisa was known to art lovers. After it, the painting became a global celebrity. The actual canvas is only 77 by 53 centimeters. Most visitors are shocked by how small it is.
 
 ## The Starry Night -- Vincent van Gogh (1889)
 
@@ -42,7 +42,7 @@ This is not a painting. It is a woodblock print, produced in thousands of copies
 
 ## Guernica -- Pablo Picasso (1937)
 
-Picasso painted this 3.5 by 7.8 meter canvas in response to the Nazi bombing of the Basque town of Guernica during the Spanish Civil War. He finished it in roughly five weeks for the 1937 Paris International Exposition. What many people do not know: Picasso insisted the painting would not go to Spain until the Franco dictatorship ended. It stayed at MoMA in New York until 1981, six years after Franco's death. It now hangs at the Museo Reina Sofía in Madrid. The entire painting is in black, white, and gray -- a deliberate choice that amplifies the horror.
+Picasso painted this 3.5 by 7.8 meter canvas in response to the [Nazi bombing of the Basque town of Guernica](https://en.wikipedia.org/wiki/Bombing_of_Guernica) during the Spanish Civil War. He finished it in roughly five weeks for the 1937 Paris International Exposition. What many people do not know: Picasso insisted the painting would not go to Spain until the Franco dictatorship ended. It stayed at MoMA in New York until 1981, six years after Franco's death. It now hangs at the Museo Reina Sofía in Madrid. The entire painting is in black, white, and gray -- a deliberate choice that amplifies the horror.
 
 ## The Persistence of Memory -- Salvador Dalí (1931)
 

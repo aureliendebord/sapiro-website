@@ -40,7 +40,7 @@ Sri Lanka destaca por su originalidad. Un leon dorado blandiendo una espada sobr
 
 Mas alla de los disenos complejos en su conjunto, algunos paises han insertado emblemas tan minuciosos que haria falta una lupa para captar todas las sutilezas.
 
-Belize probablemente se lleva el premio. Su emblema central muestra a dos lenadores (uno mestizo y otro criollo) flanqueando un escudo con un barco, una sierra, un hacha y una caoba. Todo rodeado de una corona de cincuenta hojas, con el lema "Sub Umbra Floreo" (Florezco a la sombra). Doce colores diferentes: el record absoluto para una bandera nacional.
+Belize probablemente se lleva el premio. Su emblema central muestra a dos lenadores (uno mestizo y otro criollo) flanqueando un escudo con un barco, una sierra, un hacha y una caoba. Todo rodeado de una corona de cincuenta hojas, con el lema "Sub Umbra Floreo" (Florezco a la sombra). [Doce colores diferentes](https://es.wikipedia.org/wiki/Bandera_de_Belice): el record absoluto para una bandera nacional.
 
 Mexico coloca en su centro un aguila real posada sobre un cactus nopal, devorando una serpiente. La escena proviene de la mitologia azteca. Las plumas del aguila, las espinas del cactus, las escamas de la serpiente: cada detalle esta ahi. Se reconoce la bandera mexicana por esta escena, pero describirla con precision es otra historia.
 
@@ -66,7 +66,7 @@ Rusia, Eslovaquia y Eslovenia: tres franjas horizontales blanca, azul y roja. Ru
 
 Algunas banderas son originales. Francamente originales. Pero como sus paises son menos mediaticos, se olvidan.
 
-Nepal es el unico pais del mundo con una bandera no rectangular. Dos pendones triangulares superpuestos forman una especie de doble gallardete. Una vez que se conoce, no se puede confundir. Pero precisamente: cuantas personas piensan espontaneamente en Nepal en un quiz?
+Nepal es el unico pais del mundo con una [bandera no rectangular](https://es.wikipedia.org/wiki/Bandera_de_Nepal). Dos pendones triangulares superpuestos forman una especie de doble gallardete. Una vez que se conoce, no se puede confundir. Pero precisamente: cuantas personas piensan espontaneamente en Nepal en un quiz?
 
 Mozambique muestra un arma moderna en su bandera. Es el unico pais en hacerlo. Un fusil AK-47 con bayoneta cruzado con una azada sobre un libro abierto, todo colocado sobre una estrella amarilla. Una eleccion que dice mucho sobre la historia turbulenta del pais.
 

@@ -22,7 +22,7 @@ Cette liste est subjective. Douze œuvres sur des millénaires de création, for
 
 ## La Joconde, Léonard de Vinci (1503-1519)
 
-Commençons par l'évidence. La Joconde est au Louvre, derrière une vitre blindée, dans une salle où des centaines de touristes lèvent leur téléphone chaque minute. Ce qui la rend célèbre dépasse largement la qualité du tableau : son vol en 1911 par Vincenzo Peruggia, un employé du Louvre qui l'a caché sous son manteau, a fait la une des journaux du monde entier. Avant ce vol, la Joconde était connue des amateurs d'art. Après, elle est devenue une célébrité mondiale.
+Commençons par l'évidence. La Joconde est au Louvre, derrière une vitre blindée, dans une salle où des centaines de touristes lèvent leur téléphone chaque minute. Ce qui la rend célèbre dépasse largement la qualité du tableau : son [vol en 1911](https://fr.wikipedia.org/wiki/Vol_de_La_Joconde) par Vincenzo Peruggia, un employé du Louvre qui l'a caché sous son manteau, a fait la une des journaux du monde entier. Avant ce vol, la Joconde était connue des amateurs d'art. Après, elle est devenue une célébrité mondiale.
 
 Le tableau mesure 77 × 53 cm. Beaucoup de visiteurs sont surpris par sa petite taille.
 
@@ -48,7 +48,7 @@ Son influence en Europe vient d'un hasard : elle est arrivée en France dans les
 
 ## Guernica, Pablo Picasso (1937)
 
-Picasso a peint cette toile de 3,5 mètres sur 7,8 mètres en réponse au bombardement de la ville basque de Guernica par l'aviation nazie, alliée de Franco. Il l'a réalisée en cinq semaines pour l'Exposition universelle de Paris.
+Picasso a peint cette toile de 3,5 mètres sur 7,8 mètres en réponse au [bombardement de la ville basque de Guernica](https://fr.wikipedia.org/wiki/Bombardement_de_Guernica) par l'aviation nazie, alliée de Franco. Il l'a réalisée en cinq semaines pour l'Exposition universelle de Paris.
 
 Le détail que beaucoup ignorent : Picasso a exigé que le tableau ne retourne en Espagne qu'après la fin de la dictature franquiste. Il est resté au MoMA de New York jusqu'en 1981, six ans après la mort de Franco. Il est aujourd'hui au Museo Reina Sofía à Madrid. Le choix du noir, blanc et gris renforce l'horreur du sujet.
 

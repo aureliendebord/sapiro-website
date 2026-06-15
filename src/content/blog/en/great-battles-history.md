@@ -46,9 +46,9 @@ A few battles changed the course of the world. Here are the 15 most decisive mil
 
 ## Contemporary era
 
-**Verdun (1916).** Deadliest battle of World War I, around 700,000 dead. French symbol of trench warfare.
+**Verdun (1916).** The [Battle of Verdun](https://en.wikipedia.org/wiki/Battle_of_Verdun) was the deadliest battle of World War I, around 700,000 dead. French symbol of trench warfare.
 
-**Stalingrad (1942-1943).** Turning point of World War II in Europe. First major German failure against the USSR. Nearly 2 million dead.
+**Stalingrad (1942-1943).** Turning point of World War II in Europe. First major German failure against the USSR. The [Battle of Stalingrad](https://en.wikipedia.org/wiki/Battle_of_Stalingrad) left nearly 2 million dead.
 
 **Normandy landings (June 6, 1944).** Largest amphibious operation in history. Opens the second front against Nazi Germany.
 

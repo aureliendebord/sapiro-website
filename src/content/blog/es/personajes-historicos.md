@@ -46,7 +46,7 @@ Nacido Temujin en las estepas mongolas, unifico tribus nomadas y construyo el im
 
 ### 7. Mansa Musa (1280-1337)
 
-Emperador de Mali y probablemente el hombre mas rico de todos los tiempos. Su peregrinacion a La Meca en 1324 quedo en los anales: distribuyo tanto oro a su paso que el precio del metal se hundio en Egipto durante anos. Su imperio fue un foco de comercio, cultura y saber. La universidad de Tombuctu atraia a eruditos de todo el mundo musulman. Su historia recuerda una verdad a menudo ignorada: el Africa medieval estaba lejos de estar aislada.
+[Emperador de Mali](https://es.wikipedia.org/wiki/Mansa_Musa) y probablemente el hombre mas rico de todos los tiempos. Su peregrinacion a La Meca en 1324 quedo en los anales: distribuyo tanto oro a su paso que el precio del metal se hundio en Egipto durante anos. Su imperio fue un foco de comercio, cultura y saber. La universidad de Tombuctu atraia a eruditos de todo el mundo musulman. Su historia recuerda una verdad a menudo ignorada: el Africa medieval estaba lejos de estar aislada.
 
 ### 8. Leonardo da Vinci (1452-1519)
 
@@ -64,7 +64,7 @@ Nacido esclavo en Saint-Domingue (actual Haiti). Dirigio la unica revolucion de 
 
 ### 11. Marie Curie (1867-1934)
 
-Primera mujer en recibir un Premio Nobel. Unica persona en haber obtenido dos en dos disciplinas diferentes: Fisica en 1903, Quimica en 1911. Sus trabajos sobre la radiactividad abrieron el camino a la medicina nuclear y la radioterapia. Hizo todo eso en una epoca en la que las mujeres ni siquiera tenian derecho a voto en la mayoria de los paises. Tuvo que crear su propio laboratorio al no ser admitida en los de sus colegas masculinos.
+Primera mujer en recibir un Premio Nobel. [Unica persona en haber obtenido dos en dos disciplinas diferentes](https://es.wikipedia.org/wiki/Marie_Curie): Fisica en 1903, Quimica en 1911. Sus trabajos sobre la radiactividad abrieron el camino a la medicina nuclear y la radioterapia. Hizo todo eso en una epoca en la que las mujeres ni siquiera tenian derecho a voto en la mayoria de los paises. Tuvo que crear su propio laboratorio al no ser admitida en los de sus colegas masculinos.
 
 ### 12. Charles Darwin (1809-1882)
 

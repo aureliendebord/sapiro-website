@@ -20,7 +20,7 @@ Le XXe siècle a produit plus de dictatures que tout autre siècle de l'histoire
 
 **Benito Mussolini (Italie, 1922-1945).** Fondateur du fascisme. Prend le pouvoir avec la marche sur Rome en 1922. Premier modèle de dictature totalitaire moderne. Allié à Hitler dès 1936. Exécuté par des partisans en 1945.
 
-**Adolf Hitler (Allemagne, 1933-1945).** Chancelier en 1933, dictateur total après 1934. Idéologie : nationalisme, racisme antisémite, expansion territoriale (Lebensraum). Responsable de la Seconde Guerre mondiale, de la Shoah (6 millions de Juifs tués), de plus de 50 millions de morts au total. Suicide en 1945.
+**Adolf Hitler (Allemagne, 1933-1945).** Chancelier en 1933, dictateur total après 1934. Idéologie : nationalisme, racisme antisémite, expansion territoriale (Lebensraum). Responsable de la Seconde Guerre mondiale, de la [Shoah](https://fr.wikipedia.org/wiki/Shoah) (6 millions de Juifs tués), de plus de 50 millions de morts au total. Suicide en 1945.
 
 **Francisco Franco (Espagne, 1939-1975).** Prend le pouvoir après la guerre civile espagnole (1936-1939). Régime conservateur, catholique, anti-communiste. Plus longue dictature européenne du XXe siècle (36 ans). Mort naturelle au pouvoir.
 
@@ -28,7 +28,7 @@ Le XXe siècle a produit plus de dictatures que tout autre siècle de l'histoire
 
 ## Les communismes autoritaires
 
-**Joseph Staline (URSS, 1924-1953).** Successeur de Lénine. Industrialisation forcée, collectivisation agricole. Grandes purges des années 1930 : entre 700 000 et 1,5 million d'exécutions politiques. Goulags. Famine en Ukraine (Holodomor) qui fait entre 3 et 5 millions de morts. Au total : entre 20 et 25 millions de morts directement attribués à son régime.
+**Joseph Staline (URSS, 1924-1953).** Successeur de Lénine. Industrialisation forcée, collectivisation agricole. Grandes purges des années 1930 : entre 700 000 et 1,5 million d'exécutions politiques. Goulags. Famine en Ukraine ([Holodomor](https://fr.wikipedia.org/wiki/Holodomor)) qui fait entre 3 et 5 millions de morts. Au total : entre 20 et 25 millions de morts directement attribués à son régime.
 
 **Mao Zedong (Chine, 1949-1976).** Fondateur de la République populaire. Grand Bond en avant (1958-1961) : entre 30 et 45 millions de morts par famine. Révolution culturelle (1966-1976) : centaines de milliers de morts, millions de vies brisées.
 

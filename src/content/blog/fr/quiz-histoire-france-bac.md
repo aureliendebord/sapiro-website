@@ -22,7 +22,7 @@ Quatre grandes périodes attendues : Révolution et XIXe, Première Guerre mondi
 
 **Dates incontournables :**
 
-- 1789 : Révolution française (14 juillet, prise de la Bastille).
+- 1789 : [Révolution française](https://fr.wikipedia.org/wiki/R%C3%A9volution_fran%C3%A7aise) (14 juillet, prise de la Bastille).
 - 1804 : Napoléon empereur.
 - 1815 : Waterloo.
 - 1848 : abolition de l'esclavage en France.
@@ -73,7 +73,7 @@ Confondre Révolution de 1789 et révolution de 1848. La première installe la R
 
 Oublier le contexte mondial. La France n'est pas un cas isolé. La Révolution française influence l'Europe entière. La Première Guerre mondiale dépasse largement le front français.
 
-Confondre De Gaulle 1940 et De Gaulle 1958. En 1940, il appelle à la résistance depuis Londres. En 1958, il revient au pouvoir pour résoudre la crise algérienne et fonde la Cinquième République.
+Confondre De Gaulle 1940 et De Gaulle 1958. En 1940, il appelle à la résistance depuis Londres ([appel du 18 juin](https://fr.wikipedia.org/wiki/Appel_du_18_Juin)). En 1958, il revient au pouvoir pour résoudre la crise algérienne et fonde la Cinquième République.
 
 ## Méthode efficace pour réviser
 

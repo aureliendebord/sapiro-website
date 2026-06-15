@@ -54,7 +54,7 @@ La Tunisie, la Libye, l'Algérie et la Malaisie intègrent également le croissa
 
 Les croix sur les drapeaux ont généralement une origine chrétienne, bien que leur signification ait souvent glissé vers des symboles d'identité nationale.
 
-Les pays nordiques (Danemark, Suède, Norvège, Finlande, Islande) partagent tous un motif de croix décentrée vers la gauche, appelée "croix scandinave". Le drapeau danois, le Dannebrog, est considéré comme le plus ancien drapeau national encore en usage — plus de 800 ans d'histoire. Il daterait du XIIIe siècle. Selon la légende, il serait tombé du ciel lors d'une bataille en Estonie en 1219. Quand même.
+Les pays nordiques (Danemark, Suède, Norvège, Finlande, Islande) partagent tous un motif de croix décentrée vers la gauche, appelée "croix scandinave". Le drapeau danois, le [Dannebrog](https://fr.wikipedia.org/wiki/Drapeau_du_Danemark), est considéré comme le plus ancien drapeau national encore en usage — plus de 800 ans d'histoire. Il daterait du XIIIe siècle. Selon la légende, il serait tombé du ciel lors d'une bataille en Estonie en 1219. Quand même.
 
 La croix de Saint-Georges (rouge sur fond blanc) orne le drapeau de l'Angleterre et se retrouve dans le drapeau du Royaume-Uni (l'Union Jack), qui combine les croix de l'Angleterre, de l'Écosse et de l'Irlande du Nord. La croix blanche sur fond rouge de la Suisse est l'une des plus reconnaissables au monde et a inspiré le symbole inverse de la Croix-Rouge.
 
@@ -72,7 +72,7 @@ Et celui du Bhoutan ? Un dragon blanc tenant des joyaux dans ses griffes. Le dra
 
 ## Pourquoi le drapeau du Népal n'est-il pas rectangulaire ?
 
-Le drapeau du Népal est le seul drapeau national au monde qui n'est ni rectangulaire ni carré. Deux triangles superposés, formant une sorte de fanion à deux pointes. Ce design rappelle les sommets de l'Himalaya et représente les deux principales religions du pays : l'hindouisme et le bouddhisme.
+Le [drapeau du Népal](https://fr.wikipedia.org/wiki/Drapeau_du_N%C3%A9pal) est le seul drapeau national au monde qui n'est ni rectangulaire ni carré. Deux triangles superposés, formant une sorte de fanion à deux pointes. Ce design rappelle les sommets de l'Himalaya et représente les deux principales religions du pays : l'hindouisme et le bouddhisme.
 
 Les symboles du soleil et de la lune expriment l'espoir que le pays perdurera aussi longtemps que ces astres. Détail amusant : jusqu'en 1962, le soleil et la lune avaient des visages humains, simplifiés lors de la modernisation du drapeau.
 

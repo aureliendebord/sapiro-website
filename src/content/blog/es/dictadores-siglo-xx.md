@@ -20,7 +20,7 @@ El siglo XX produjo mas dictaduras que cualquier otro siglo de la historia. Aqui
 
 **Benito Mussolini (Italia, 1922-1945).** Fundador del fascismo. Toma el poder con la marcha sobre Roma en 1922. Primer modelo de dictadura totalitaria moderna. Aliado de Hitler desde 1936. Ejecutado por partisanos en 1945.
 
-**Adolf Hitler (Alemania, 1933-1945).** Canciller en 1933, dictador total tras 1934. Ideologia: nacionalismo, racismo antisemita, expansion territorial (Lebensraum). Responsable de la Segunda Guerra Mundial, del Holocausto (6 millones de judios asesinados), y de mas de 50 millones de muertos en total. Suicidio en 1945.
+**Adolf Hitler (Alemania, 1933-1945).** Canciller en 1933, dictador total tras 1934. Ideologia: nacionalismo, racismo antisemita, expansion territorial (Lebensraum). Responsable de la Segunda Guerra Mundial, del [Holocausto](https://es.wikipedia.org/wiki/Holocausto) (6 millones de judios asesinados), y de mas de 50 millones de muertos en total. Suicidio en 1945.
 
 **Francisco Franco (Espana, 1939-1975).** Toma el poder tras la Guerra Civil espanola (1936-1939). Regimen conservador, catolico, anticomunista. Dictadura europea mas larga del siglo XX (36 anos). Muerte natural en el cargo.
 
@@ -28,7 +28,7 @@ El siglo XX produjo mas dictaduras que cualquier otro siglo de la historia. Aqui
 
 ## Comunismos autoritarios
 
-**Joseph Stalin (URSS, 1924-1953).** Sucesor de Lenin. Industrializacion forzada, colectivizacion agricola. Grandes purgas de los anos 1930: entre 700 000 y 1,5 millones de ejecuciones politicas. Gulags. Hambruna en Ucrania (Holodomor) con 3 a 5 millones de muertes. En total: 20 a 25 millones de muertes directamente atribuidas a su regimen.
+**Joseph Stalin (URSS, 1924-1953).** Sucesor de Lenin. Industrializacion forzada, colectivizacion agricola. Grandes purgas de los anos 1930: entre 700 000 y 1,5 millones de ejecuciones politicas. Gulags. Hambruna en Ucrania ([Holodomor](https://es.wikipedia.org/wiki/Holodomor)) con 3 a 5 millones de muertes. En total: 20 a 25 millones de muertes directamente atribuidas a su regimen.
 
 **Mao Zedong (China, 1949-1976).** Fundador de la Republica Popular. Gran Salto Adelante (1958-1961): 30 a 45 millones de muertes por hambruna. Revolucion Cultural (1966-1976): centenares de miles de muertos, millones de vidas rotas.
 

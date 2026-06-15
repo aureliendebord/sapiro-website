@@ -18,11 +18,11 @@ The world has seen dozens of countries vanish in a century. Here are the main on
 
 ## Disappeared in the 1990s-2000s
 
-**USSR (1922-1991).** Collapsed December 25, 1991. 15 independent republics: Russia, Ukraine, Belarus, Kazakhstan, Uzbekistan, Turkmenistan, Tajikistan, Kyrgyzstan, Georgia, Armenia, Azerbaijan, Lithuania, Latvia, Estonia, Moldova.
+**USSR (1922-1991).** [Collapsed December 25, 1991](https://en.wikipedia.org/wiki/Dissolution_of_the_Soviet_Union). 15 independent republics: Russia, Ukraine, Belarus, Kazakhstan, Uzbekistan, Turkmenistan, Tajikistan, Kyrgyzstan, Georgia, Armenia, Azerbaijan, Lithuania, Latvia, Estonia, Moldova.
 
 **Yugoslavia (1945-1992, then 2003).** Six countries emerged: Slovenia, Croatia, Bosnia-Herzegovina, North Macedonia, Serbia, Montenegro. Later, Kosovo separated from Serbia.
 
-**Czechoslovakia (1918-1993).** "Velvet divorce" without war. Czech Republic and Slovakia.
+**Czechoslovakia (1918-1993).** ["Velvet divorce"](https://en.wikipedia.org/wiki/Dissolution_of_Czechoslovakia) without war. Czech Republic and Slovakia.
 
 **East Germany (GDR, 1949-1990).** Reunified with West Germany on October 3, 1990 after the fall of the Berlin Wall.
 

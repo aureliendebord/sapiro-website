@@ -52,7 +52,7 @@ La estrella que la acompana cambia de significado segun el pais. En Turquia, sus
 
 Muchas banderas arrastran elementos de la heraldica medieval. Cruces, leones, aguilas... simbolos que llevan siglos contando historias de poder, fe y conquista.
 
-Las cruces dominan las banderas europeas. La cruz nordica aparece en Dinamarca, Suecia, Noruega, Finlandia e Islandia. La bandera danesa (Dannebrog) esta considerada la bandera nacional mas antigua en uso continuo, con origenes que se remontan al 15 de junio de 1219, segun la tradicion. La Cruz de San Jorge (roja sobre blanco) es la de Inglaterra. La Cruz de San Andres (aspa blanca sobre azul) es la de Escocia. Las dos se combinan con la Cruz de San Patricio para formar el Union Jack del Reino Unido.
+Las cruces dominan las banderas europeas. La cruz nordica aparece en Dinamarca, Suecia, Noruega, Finlandia e Islandia. La [bandera danesa (Dannebrog)](https://es.wikipedia.org/wiki/Bandera_de_Dinamarca) esta considerada la bandera nacional mas antigua en uso continuo, con origenes que se remontan al 15 de junio de 1219, segun la tradicion. La Cruz de San Jorge (roja sobre blanco) es la de Inglaterra. La Cruz de San Andres (aspa blanca sobre azul) es la de Escocia. Las dos se combinan con la Cruz de San Patricio para formar el Union Jack del Reino Unido.
 
 Los leones aparecen en Sri Lanka (un leon dorado con una espada), en el escudo de Espana y en varios paises africanos. Simbolizan coraje, fuerza y realeza. En Sri Lanka, el leon representa la etnia cingalesa y su espada la soberania.
 
@@ -62,7 +62,7 @@ Las aguilas son simbolos de poder imperial. En Mexico, un aguila devora una serp
 
 Algunas banderas guardan historias que, una vez que las conoces, no se olvidan.
 
-Nepal tiene la unica bandera nacional que no es rectangular. Su forma de doble pendon triangular evoca las montanas del Himalaya, y los dos triangulos representaban originalmente las dos ramas de la familia real. El sol y la medialuna expresan el deseo de que Nepal dure tanto como esos astros.
+Nepal tiene la unica [bandera nacional que no es rectangular](https://es.wikipedia.org/wiki/Bandera_de_Nepal). Su forma de doble pendon triangular evoca las montanas del Himalaya, y los dos triangulos representaban originalmente las dos ramas de la familia real. El sol y la medialuna expresan el deseo de que Nepal dure tanto como esos astros.
 
 Mozambique incluye un fusil AK-47 cruzado con una azada sobre un libro abierto. El fusil representa la defensa, la azada la agricultura, el libro la educacion. Se ha propuesto cambiarla varias veces, pero sigue ahi como simbolo de la lucha por la independencia. Es la unica bandera del mundo con un arma de fuego moderna.
 

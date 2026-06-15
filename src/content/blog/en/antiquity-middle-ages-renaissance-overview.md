@@ -36,7 +36,7 @@ Western history holds together in three major periods before the modern era. Ant
 
 **Civilizations.** Byzantine Empire, Muslim world (peak 8th-13th century, Arab sciences), Christian Europe, Mongol world.
 
-**Inventions.** Printing (1450, Gutenberg), compass, paper (brought from China), gunpowder, eyeglasses, mechanical clocks, Gothic cathedrals (flying buttresses, stained glass).
+**Inventions.** [Printing](https://en.wikipedia.org/wiki/Printing_press) (1450, Gutenberg), compass, paper (brought from China), gunpowder, eyeglasses, mechanical clocks, Gothic cathedrals (flying buttresses, stained glass).
 
 **Figures.** Charlemagne, Muhammad, Avicenna, Saint Louis, Joan of Arc, Marco Polo, Genghis Khan.
 
@@ -44,7 +44,7 @@ Western history holds together in three major periods before the modern era. Ant
 
 ## Renaissance (around 1400-1600)
 
-**Definition.** Cultural and artistic movement that rediscovers Antiquity. Born in Italy in the 14th-15th century, spreads to all of Europe in the 16th.
+**Definition.** [Cultural and artistic movement](https://en.wikipedia.org/wiki/Renaissance) that rediscovers Antiquity. Born in Italy in the 14th-15th century, spreads to all of Europe in the 16th.
 
 **Traits.** Humanism (man at the center, no longer only God), perspective in painting, realistic anatomy, return to ancient texts, art patronage.
 

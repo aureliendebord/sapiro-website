@@ -18,7 +18,7 @@ Les pays les moins visités du monde reçoivent parfois moins de 5 000 touristes
 
 ## 1. Tuvalu (3 700 touristes par an)
 
-Le pays le moins visité au monde. Quatrième plus petit pays par la superficie (26 km²). Neuf atolls dans le Pacifique. Population : 11 000 habitants.
+Le pays le moins visité au monde. [Quatrième plus petit pays](https://fr.wikipedia.org/wiki/Tuvalu) par la superficie (26 km²). Neuf atolls dans le Pacifique. Population : 11 000 habitants.
 
 **Pourquoi si peu de visiteurs ?** Accès très difficile (un seul vol depuis Fidji deux fois par semaine), peu d'infrastructures touristiques, prix élevés.
 
@@ -58,7 +58,7 @@ République d'Asie centrale, ex-URSS. Régime fermé.
 
 **Pourquoi si peu ?** Visa très difficile à obtenir. Pays extrêmement contrôlé politiquement.
 
-**À voir.** Achgabat avec ses bâtiments en marbre blanc, le "Cratère de Darvaza" (puits de gaz en feu depuis 50 ans).
+**À voir.** Achgabat avec ses bâtiments en marbre blanc, le ["Cratère de Darvaza"](https://fr.wikipedia.org/wiki/Cratère_de_Darvaza) (puits de gaz en feu depuis 50 ans).
 
 ## 7. Bhoutan (270 000 touristes par an avant Covid, beaucoup moins après)
 

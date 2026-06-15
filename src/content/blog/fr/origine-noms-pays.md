@@ -26,7 +26,7 @@ Du latin *argentum*, "argent". Les premiers explorateurs espagnols espéraient y
 
 ## Pakistan
 
-Acronyme inventé en 1933 par Choudhary Rahmat Ali. P pour Pendjab, A pour Afghani (Pachtounes), K pour Cachemire, S pour Sind, TAN pour Baloutchistan. Et "pakistan" signifie aussi "terre des purs" en ourdou.
+Acronyme inventé en 1933 par [Choudhary Rahmat Ali](https://fr.wikipedia.org/wiki/Choudhary_Rahmat_Ali). P pour Pendjab, A pour Afghani (Pachtounes), K pour Cachemire, S pour Sind, TAN pour Baloutchistan. Et "pakistan" signifie aussi "terre des purs" en ourdou.
 
 ## Australie
 
@@ -66,7 +66,7 @@ Du sanscrit *Sindhu*, l'Indus, le fleuve. Les Perses prononçaient *Hindu*, les 
 
 ## États-Unis
 
-"États-Unis d'Amérique". Amérique vient d'Amerigo Vespucci, navigateur italien qui a affirmé le premier en 1502 que le Nouveau Monde n'était pas l'Asie mais un nouveau continent.
+"États-Unis d'Amérique". Amérique vient d'[Amerigo Vespucci](https://fr.wikipedia.org/wiki/Amerigo_Vespucci), navigateur italien qui a affirmé le premier en 1502 que le Nouveau Monde n'était pas l'Asie mais un nouveau continent.
 
 ## Allemagne
 

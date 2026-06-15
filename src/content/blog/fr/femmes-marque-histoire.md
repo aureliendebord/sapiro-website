@@ -52,11 +52,11 @@ L'histoire telle qu'on l'enseigne reste largement masculine. Pourtant, des dizai
 
 ## XXe siècle
 
-**Marie Curie (1867-1934).** Seule personne à avoir reçu le prix Nobel dans deux disciplines scientifiques différentes (physique et chimie).
+**Marie Curie (1867-1934).** Seule personne à avoir reçu le [prix Nobel](https://fr.wikipedia.org/wiki/Marie_Curie) dans deux disciplines scientifiques différentes (physique et chimie).
 
 **Coco Chanel (1883-1971).** Révolutionne la mode féminine du XXe siècle.
 
-**Rosa Parks (1913-2005).** Refuse de céder son siège à un Blanc dans un bus à Montgomery en 1955. Déclenche le mouvement des droits civiques.
+**Rosa Parks (1913-2005).** Refuse de céder son siège à un Blanc dans un bus à Montgomery en 1955. Déclenche le [mouvement des droits civiques](https://fr.wikipedia.org/wiki/Mouvement_des_droits_civiques).
 
 **Indira Gandhi (1917-1984).** Première femme Premier ministre de l'Inde. Modernisation du pays. Assassinée.
 

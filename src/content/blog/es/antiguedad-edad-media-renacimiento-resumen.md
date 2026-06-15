@@ -36,7 +36,7 @@ La historia occidental cabe en tres grandes periodos antes de la epoca moderna. 
 
 **Civilizaciones.** Imperio bizantino, mundo musulman (apogeo siglos VIII-XIII, ciencias arabes), Europa cristiana, mundo mongol.
 
-**Inventos.** Imprenta (1450, Gutenberg), brujula, papel (traido de China), polvora, gafas, relojes mecanicos, catedrales goticas (arbotantes, vidrieras).
+**Inventos.** [Imprenta](https://es.wikipedia.org/wiki/Imprenta) (1450, Gutenberg), brujula, papel (traido de China), polvora, gafas, relojes mecanicos, catedrales goticas (arbotantes, vidrieras).
 
 **Figuras.** Carlomagno, Mahoma, Avicena, San Luis, Juana de Arco, Marco Polo, Genghis Khan.
 
@@ -44,7 +44,7 @@ La historia occidental cabe en tres grandes periodos antes de la epoca moderna. 
 
 ## Renacimiento (hacia 1400-1600)
 
-**Definicion.** Movimiento cultural y artistico que redescubre la Antiguedad. Nacido en Italia en los siglos XIV-XV, se extiende a toda Europa en el XVI.
+**Definicion.** [Movimiento cultural y artistico](https://es.wikipedia.org/wiki/Renacimiento) que redescubre la Antiguedad. Nacido en Italia en los siglos XIV-XV, se extiende a toda Europa en el XVI.
 
 **Caracteristicas.** Humanismo (el hombre en el centro, ya no solo Dios), perspectiva en pintura, anatomia realista, vuelta a los textos antiguos, mecenazgo de las artes.
 

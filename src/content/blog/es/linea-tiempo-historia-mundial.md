@@ -44,7 +44,7 @@ Una linea de tiempo mental es la herramienta mas potente para no perderse en la 
 
 **0**: nacimiento presumido de Jesus.
 
-**476**: caida del Imperio Romano de Occidente.
+**476**: [caida del Imperio Romano de Occidente](https://es.wikipedia.org/wiki/Ca%C3%ADda_del_Imperio_romano_de_Occidente).
 
 ## Edad Media (476-1492)
 
@@ -60,7 +60,7 @@ Una linea de tiempo mental es la herramienta mas potente para no perderse en la 
 
 **1337-1453**: Guerra de los Cien Anos.
 
-**1348**: peste negra, hasta el 50% de la poblacion europea muerta.
+**1348**: [peste negra](https://es.wikipedia.org/wiki/Peste_negra), hasta el 50% de la poblacion europea muerta.
 
 **1453**: caida de Constantinopla, fin del Imperio bizantino.
 

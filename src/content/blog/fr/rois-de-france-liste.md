@@ -62,11 +62,11 @@ Quinze siècles, plus de 70 rois, cinq dynasties. La liste des rois de France st
 
 ## Bourbons (1589-1792, 1814-1830)
 
-**Henri IV (1589-1610).** Premier Bourbon. Édit de Nantes en 1598 (tolérance religieuse). Assassiné par Ravaillac.
+**Henri IV (1589-1610).** Premier Bourbon. [Édit de Nantes](https://fr.wikipedia.org/wiki/%C3%89dit_de_Nantes) en 1598 (tolérance religieuse). Assassiné par Ravaillac.
 
 **Louis XIII (1610-1643).** Règne avec Richelieu.
 
-**Louis XIV (1643-1715).** Le Roi-Soleil. Règne le plus long de l'histoire de France (72 ans). Construit Versailles. Apogée de la monarchie absolue.
+**Louis XIV (1643-1715).** Le Roi-Soleil. Règne le plus long de l'histoire de France (72 ans). Construit le [château de Versailles](https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Versailles). Apogée de la monarchie absolue.
 
 **Louis XV (1715-1774).** Le Bien-Aimé. Règne marqué par des défaites (guerre de Sept Ans).
 

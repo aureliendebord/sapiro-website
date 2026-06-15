@@ -46,9 +46,9 @@ Quelques batailles ont changé le cours du monde. Voici les 15 affrontements mil
 
 ## Époque contemporaine
 
-**Verdun (1916).** Bataille la plus meurtrière de la Première Guerre mondiale, environ 700 000 morts. Symbole français de la guerre des tranchées.
+**Verdun (1916).** La [bataille de Verdun](https://fr.wikipedia.org/wiki/Bataille_de_Verdun) est la plus meurtrière de la Première Guerre mondiale, environ 700 000 morts. Symbole français de la guerre des tranchées.
 
-**Stalingrad (1942-1943).** Tournant de la Seconde Guerre mondiale en Europe. Premier grand échec allemand contre l'URSS. Près de 2 millions de morts.
+**Stalingrad (1942-1943).** Tournant de la Seconde Guerre mondiale en Europe. Premier grand échec allemand contre l'URSS. La [bataille de Stalingrad](https://fr.wikipedia.org/wiki/Bataille_de_Stalingrad) fait près de 2 millions de morts.
 
 **Débarquement en Normandie (6 juin 1944).** Plus grande opération amphibie de l'histoire. Ouvre le second front contre l'Allemagne nazie.
 

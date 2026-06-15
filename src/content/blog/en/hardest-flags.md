@@ -56,7 +56,7 @@ The symbolism runs deep, and our article on [the meaning of flags, colors, and s
 
 ## Turkmenistan: A Carpet Woven Into a Flag
 
-Turkmenistan's flag might be the single most detailed national flag in existence. Along the left side runs a vertical stripe containing five traditional carpet gul patterns, each representing one of the country's major tribes. The main field is green with a white crescent moon and five stars. Below the carpet stripe sit two olive branches, added in 1997 to signify the country's neutrality.
+[Turkmenistan's flag](https://en.wikipedia.org/wiki/Flag_of_Turkmenistan) might be the single most detailed national flag in existence. Along the left side runs a vertical stripe containing five traditional carpet gul patterns, each representing one of the country's major tribes. The main field is green with a white crescent moon and five stars. Below the carpet stripe sit two olive branches, added in 1997 to signify the country's neutrality.
 
 Accurately recalling every carpet pattern is a feat few can manage, making this flag a recurring stumbling block in any [gamified quiz](/en/blog/gamification-education/) setting. Even recognizing it is a challenge -- your brain has to process an unusual amount of visual information before it can match the flag to a country.
 
@@ -72,7 +72,7 @@ Afghanistan's flag has changed more times than almost any other nation's, making
 
 ## How did Haiti and Liechtenstein discover they had the same flag?
 
-Until the 1936 Berlin Olympics, Haiti and Liechtenstein did not realize their flags were essentially identical -- both used horizontal blue and red stripes. The embarrassing discovery at the Games prompted Liechtenstein to add a gold crown to the upper-left corner of its flag the following year. I love this story. Two countries show up to the world's biggest sporting event wearing the same outfit, and one of them has to go home and change.
+Until the 1936 Berlin Olympics, Haiti and [Liechtenstein](https://en.wikipedia.org/wiki/Flag_of_Liechtenstein) did not realize their flags were essentially identical -- both used horizontal blue and red stripes. The embarrassing discovery at the Games prompted Liechtenstein to add a gold crown to the upper-left corner of its flag the following year. I love this story. Two countries show up to the world's biggest sporting event wearing the same outfit, and one of them has to go home and change.
 
 ## Flags of the Nordic Cross
 

@@ -28,7 +28,7 @@ Brazil's capital is Brasilia, not Rio de Janeiro or Sao Paulo. In the late 1950s
 
 Turkey's capital is Ankara, not Istanbul. Istanbul is Turkey's largest city, its cultural hub, and the former capital of the Ottoman Empire. But when the Republic of Turkey was founded in 1923, Mustafa Kemal Ataturk chose Ankara to signal a break from the imperial past and to position the seat of government closer to the geographic center of the country.
 
-Myanmar's capital is Naypyidaw, not Yangon. Myanmar relocated its capital in 2006 to a purpose-built city in the center of the country. Yangon remains the largest city and economic center, but the administrative capital is now a sprawling, often eerily quiet planned city that most people have never heard of.
+Myanmar's capital is [Naypyidaw](https://en.wikipedia.org/wiki/Naypyidaw), not Yangon. Myanmar relocated its capital in 2006 to a purpose-built city in the center of the country. Yangon remains the largest city and economic center, but the administrative capital is now a sprawling, often eerily quiet planned city that most people have never heard of.
 
 And then there is South Africa, which has three capitals. Pretoria serves as the executive capital, Cape Town as the legislative capital, and Bloemfontein as the judicial capital. In a quiz, the "correct" answer depends on context, though Pretoria is the most commonly accepted. South Africa apparently could not pick just one.
 

@@ -34,7 +34,7 @@ For a focused deep dive into one of the most testable domains, see our article o
 
 In an age of instant search engines, some people argue that memorizing facts is pointless. Why bother knowing that Canberra is Australia's capital when you can Google it in two seconds? This argument misses the point in several ways.
 
-Start with speed of thought. In conversations, negotiations, debates, and creative brainstorming, there is no time to Google. Knowledge stored in your head is immediately available for real-time thinking. The person who already knows that the Suez Canal connects the Mediterranean to the Red Sea can instantly grasp the implications of a news story about it -- while others are still reaching for their phones.
+Start with speed of thought. In conversations, negotiations, debates, and creative brainstorming, there is no time to Google. Knowledge stored in your head is immediately available for real-time thinking. The person who already knows that the [Suez Canal](https://en.wikipedia.org/wiki/Suez_Canal) connects the Mediterranean to the Red Sea can instantly grasp the implications of a news story about it -- while others are still reaching for their phones.
 
 Then there is pattern recognition. General knowledge is not a collection of isolated facts; it is a web of connections. Knowing that the French Revolution influenced flag design across the world links history to vexillology to geopolitics. These cross-domain connections are where insight and creativity live.
 

@@ -18,7 +18,7 @@ The least visited countries in the world sometimes receive fewer than 5,000 tour
 
 ## 1. Tuvalu (3,700 tourists per year)
 
-The least visited country in the world. Fourth smallest country by area (26 km²). Nine atolls in the Pacific. Population: 11,000.
+The least visited country in the world. [Fourth smallest country by area](https://en.wikipedia.org/wiki/Tuvalu) (26 km²). Nine atolls in the Pacific. Population: 11,000.
 
 **Why so few visitors?** Very difficult access (one flight from Fiji twice a week), limited tourism infrastructure, high prices.
 
@@ -58,7 +58,7 @@ Central Asian republic, former USSR. Closed regime.
 
 **Why so few?** Very hard to get a visa. Heavily controlled country politically.
 
-**What to see.** Ashgabat with its white marble buildings, the "Darvaza Crater" (gas pit burning for 50 years).
+**What to see.** Ashgabat with its white marble buildings, the ["Darvaza Crater"](https://en.wikipedia.org/wiki/Darvaza_gas_crater) (gas pit burning for 50 years).
 
 ## 7. Bhutan (270,000 tourists per year before Covid, much less after)
 

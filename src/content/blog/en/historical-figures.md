@@ -58,7 +58,7 @@ Columbus's 1492 voyage across the Atlantic initiated sustained contact between E
 
 ### 9. Mansa Musa (c. 1280-1337)
 
-The ruler of the Mali Empire and quite possibly the wealthiest person in history. Mansa Musa's 1324 pilgrimage to Mecca, during which he distributed so much gold that he destabilized economies across North Africa and the Middle East, brought international attention to the wealth and sophistication of West African civilization. Under his rule, Timbuktu became a global center of learning, with its university attracting scholars from across the Islamic world. When people say the richest person who ever lived, they usually think of modern billionaires. They are wrong.
+The ruler of the Mali Empire and quite possibly the wealthiest person in history. [Mansa Musa](https://en.wikipedia.org/wiki/Mansa_Musa)'s 1324 pilgrimage to Mecca, during which he distributed so much gold that he destabilized economies across North Africa and the Middle East, brought international attention to the wealth and sophistication of West African civilization. Under his rule, Timbuktu became a global center of learning, with its university attracting scholars from across the Islamic world. When people say the richest person who ever lived, they usually think of modern billionaires. They are wrong.
 
 ## The Age of Revolution
 
@@ -86,7 +86,7 @@ The 16th President of the United States, who led the country through its bloodie
 
 ### 15. Marie Curie (1867-1934)
 
-The first woman to win a Nobel Prize and the only person to win Nobel Prizes in two different sciences (Physics and Chemistry). Curie's discoveries of polonium and radium opened entirely new fields of science and medicine. She conducted this work in an era when women were largely excluded from scientific institutions. The radioactivity that she studied ultimately killed her -- her personal belongings are still too radioactive to handle without protection.
+The first woman to win a Nobel Prize and the only person to win [Nobel Prizes in two different sciences](https://en.wikipedia.org/wiki/Marie_Curie) (Physics and Chemistry). Curie's discoveries of polonium and radium opened entirely new fields of science and medicine. She conducted this work in an era when women were largely excluded from scientific institutions. The radioactivity that she studied ultimately killed her -- her personal belongings are still too radioactive to handle without protection.
 
 ## The 20th Century
 

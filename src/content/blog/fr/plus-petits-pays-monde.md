@@ -18,7 +18,7 @@ Les plus petits pays du monde font moins de 1 000 km², soit moins que la superf
 
 ## 1. Vatican (0,49 km²)
 
-Le plus petit pays au monde. 825 habitants. Théocratie élective dirigée par le Pape. Enclavé dans Rome.
+[Le plus petit pays au monde](https://fr.wikipedia.org/wiki/Vatican). 825 habitants. Théocratie élective dirigée par le Pape. Enclavé dans Rome.
 
 **Particularités.** Pays le plus petit, mais aussi le plus dense (1 700 hab/km²). Garde suisse pontificale comme armée.
 
@@ -42,7 +42,7 @@ Neuf atolls dans le Pacifique. 11 000 habitants.
 
 ## 5. Saint-Marin (61 km²)
 
-Enclavé dans l'Italie. 33 000 habitants. Une des plus anciennes républiques du monde, fondée en 301.
+Enclavé dans l'Italie. 33 000 habitants. Une des plus anciennes républiques du monde, [fondée en 301](https://fr.wikipedia.org/wiki/Saint-Marin).
 
 **Particularités.** Trois forteresses médiévales accessibles à pied.
 

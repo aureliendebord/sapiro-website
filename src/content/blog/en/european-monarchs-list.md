@@ -32,7 +32,7 @@ Europe's monarchs structure a large part of world history. Here are the rulers t
 
 **Henry IV (1589-1610).** First Bourbon. Edict of Nantes (1598).
 
-**Louis XIV (1643-1715).** The Sun King. Longest reign in French history (72 years). Builds Versailles.
+**Louis XIV (1643-1715).** The Sun King. Longest reign in French history (72 years). Builds the [Palace of Versailles](https://en.wikipedia.org/wiki/Palace_of_Versailles).
 
 **Louis XVI (1774-1792).** Guillotined in 1793.
 
@@ -50,7 +50,7 @@ Europe's monarchs structure a large part of world history. Here are the rulers t
 
 **Edward I (1272-1307).** Conquers Wales.
 
-**Henry VIII (1509-1547).** Breaks with Rome. Six wives. Founds the Anglican Church.
+**Henry VIII (1509-1547).** Breaks with Rome. Six wives. Founds the [Church of England](https://en.wikipedia.org/wiki/Church_of_England).
 
 **Elizabeth I (1558-1603).** Elizabethan Age. Defeats the Spanish Armada (1588).
 

@@ -23,7 +23,7 @@ Four major periods generally expected: Revolutions and 19th century, World War I
 **Must-know dates:**
 
 - 1776: American Declaration of Independence.
-- 1789: French Revolution.
+- 1789: [French Revolution](https://en.wikipedia.org/wiki/French_Revolution).
 - 1804: Napoleon becomes emperor.
 - 1815: Waterloo.
 - 1848: Springtime of Nations.
@@ -72,7 +72,7 @@ See also our dedicated articles.
 
 Mixing up dates and centuries. The 18th century is 1701-1800, not 1800-1899. Easy to confuse.
 
-Confusing the two world wars. Trenches and the Great War = 1914-1918. Nazi Germany and Holocaust = 1939-1945. Different in nature.
+Confusing the two world wars. Trenches and the Great War = 1914-1918. Nazi Germany and the [Holocaust](https://en.wikipedia.org/wiki/The_Holocaust) = 1939-1945. Different in nature.
 
 Forgetting non-European history. Programs increasingly expect awareness of African, Asian, Latin American history. Do not stay only in Europe and the US.
 

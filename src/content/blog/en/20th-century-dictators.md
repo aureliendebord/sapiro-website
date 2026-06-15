@@ -20,7 +20,7 @@ The 20th century produced more dictatorships than any other century in history. 
 
 **Benito Mussolini (Italy, 1922-1945).** Founder of fascism. Takes power with the March on Rome in 1922. First model of modern totalitarian dictatorship. Allied with Hitler from 1936. Executed by partisans in 1945.
 
-**Adolf Hitler (Germany, 1933-1945).** Chancellor in 1933, total dictator after 1934. Ideology: nationalism, antisemitic racism, territorial expansion (Lebensraum). Responsible for World War II, the Holocaust (6 million Jews killed), and over 50 million deaths total. Suicide in 1945.
+**Adolf Hitler (Germany, 1933-1945).** Chancellor in 1933, total dictator after 1934. Ideology: nationalism, antisemitic racism, territorial expansion (Lebensraum). Responsible for World War II, the [Holocaust](https://en.wikipedia.org/wiki/The_Holocaust) (6 million Jews killed), and over 50 million deaths total. Suicide in 1945.
 
 **Francisco Franco (Spain, 1939-1975).** Takes power after the Spanish Civil War (1936-1939). Conservative, Catholic, anti-communist regime. Longest European dictatorship of the 20th century (36 years). Dies of natural causes in office.
 
@@ -28,7 +28,7 @@ The 20th century produced more dictatorships than any other century in history. 
 
 ## Authoritarian communisms
 
-**Joseph Stalin (USSR, 1924-1953).** Lenin's successor. Forced industrialization, agricultural collectivization. Great Purges of the 1930s: between 700,000 and 1.5 million political executions. Gulags. Famine in Ukraine (Holodomor) killing 3 to 5 million. Total: 20 to 25 million deaths directly attributed to his regime.
+**Joseph Stalin (USSR, 1924-1953).** Lenin's successor. Forced industrialization, agricultural collectivization. Great Purges of the 1930s: between 700,000 and 1.5 million political executions. Gulags. Famine in Ukraine ([Holodomor](https://en.wikipedia.org/wiki/Holodomor)) killing 3 to 5 million. Total: 20 to 25 million deaths directly attributed to his regime.
 
 **Mao Zedong (China, 1949-1976).** Founder of the People's Republic. Great Leap Forward (1958-1961): 30 to 45 million famine deaths. Cultural Revolution (1966-1976): hundreds of thousands of deaths, millions of lives broken.
 

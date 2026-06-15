@@ -40,7 +40,7 @@ Le Sri Lanka frappe par son originalité. Un lion doré brandissant une épée s
 
 Au-delà des designs complexes dans leur ensemble, certains pays ont inséré des emblèmes si minutieux qu'il faudrait une loupe pour en saisir toutes les subtilités.
 
-Le Belize bat probablement tout le monde sur ce terrain. Son emblème central montre deux bûcherons (un métis et un créole) encadrant un écusson où figurent un navire, une scie, une hache et un acajou. Le tout ceint d'une couronne de cinquante feuilles, avec la devise "Sub Umbra Floreo" (Je fleuris à l'ombre). Douze couleurs différentes — le record absolu pour un drapeau national. Qui peut honnêtement prétendre le reproduire de tête ?
+Le Belize bat probablement tout le monde sur ce terrain. Son emblème central montre deux bûcherons (un métis et un créole) encadrant un écusson où figurent un navire, une scie, une hache et un acajou. Le tout ceint d'une couronne de cinquante feuilles, avec la devise "Sub Umbra Floreo" (Je fleuris à l'ombre). [Douze couleurs différentes](https://fr.wikipedia.org/wiki/Drapeau_du_Belize) — le record absolu pour un drapeau national. Qui peut honnêtement prétendre le reproduire de tête ?
 
 Le Mexique place en son centre un aigle royal perché sur un cactus nopal, en train de dévorer un serpent. La scène vient de la mythologie aztèque. Les plumes de l'aigle, les épines du cactus, les écailles du serpent — chaque détail est là. On reconnaît le drapeau mexicain à cette scène, mais la décrire précisément est une autre affaire.
 
@@ -66,7 +66,7 @@ Russie, Slovaquie et Slovénie : trois bandes horizontales blanche, bleue et rou
 
 Certains drapeaux sont originaux. Franchement originaux. Mais comme leurs pays sont moins médiatisés, on les oublie.
 
-Le Népal est le seul pays au monde avec un drapeau non rectangulaire. Deux pennons triangulaires superposés forment une sorte de double fanion. Une fois qu'on le connaît, on ne peut plus le confondre. Mais justement : combien de personnes pensent spontanément au Népal dans un quiz ?
+Le Népal est le seul pays au monde avec un [drapeau non rectangulaire](https://fr.wikipedia.org/wiki/Drapeau_du_N%C3%A9pal). Deux pennons triangulaires superposés forment une sorte de double fanion. Une fois qu'on le connaît, on ne peut plus le confondre. Mais justement : combien de personnes pensent spontanément au Népal dans un quiz ?
 
 Le Mozambique affiche une arme moderne sur son drapeau. C'est le seul pays à le faire. Un fusil AK-47 avec baïonnette croisé une houe sur un livre ouvert, le tout posé sur une étoile jaune. Un choix qui en dit long sur l'histoire tourmentée du pays et qui ne laisse personne indifférent.
 

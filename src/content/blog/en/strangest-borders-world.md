@@ -28,7 +28,7 @@ Resolved in 2015 by a massive territory exchange.
 
 ## 3. Llivia (France-Spain)
 
-Spanish enclave in France, in the Pyrenees. 13 km², completely surrounded by French territory. Dates back to the 1659 Treaty of the Pyrenees which exempted "towns" (and Llivia had that status).
+Spanish enclave in France, in the Pyrenees. 13 km², completely surrounded by French territory. Dates back to the 1659 [Treaty of the Pyrenees](https://en.wikipedia.org/wiki/Treaty_of_the_Pyrenees) which exempted "towns" (and Llivia had that status).
 
 ## 4. The US-Canada border at 49°N
 
@@ -36,7 +36,7 @@ Spanish enclave in France, in the Pyrenees. 13 km², completely surrounded by Fr
 
 ## 5. The "Y Point" Bir Tawil (Egypt-Sudan)
 
-A 2,060 km² region claimed by no one. Neither Egypt nor Sudan wants it, due to a dispute over where to place the border. Probably the only territory in the world with no recognized owner.
+A [2,060 km² region](https://en.wikipedia.org/wiki/Bir_Tawil) claimed by no one. Neither Egypt nor Sudan wants it, due to a dispute over where to place the border. Probably the only territory in the world with no recognized owner.
 
 ## 6. Sealand (North Sea)
 

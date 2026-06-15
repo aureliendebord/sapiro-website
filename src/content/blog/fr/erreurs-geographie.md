@@ -20,7 +20,7 @@ Voici les 12 erreurs qui reviennent le plus souvent -- et surtout, de quoi les c
 
 ## 1. Croire que Sydney est la capitale de l'Australie
 
-Sydney, avec son célèbre Opera House et son Harbour Bridge, est la ville la plus connue d'Australie. Pourtant, la capitale du pays est **Canberra**, choisie en 1913 pour mettre fin à la rivalité entre Sydney et Melbourne. On en parle en détail dans [notre article sur les capitales](/blog/quiz-capitales-monde/), où l'on découvre que ce type de confusion (Brésil/Rio, Turquie/Istanbul, Maroc/Casablanca) est extrêmement courant.
+Sydney, avec son célèbre Opera House et son Harbour Bridge, est la ville la plus connue d'Australie. Pourtant, la capitale du pays est **[Canberra](https://fr.wikipedia.org/wiki/Canberra)**, choisie en 1913 pour mettre fin à la rivalité entre Sydney et Melbourne. On en parle en détail dans [notre article sur les capitales](/blog/quiz-capitales-monde/), où l'on découvre que ce type de confusion (Brésil/Rio, Turquie/Istanbul, Maroc/Casablanca) est extrêmement courant.
 
 ## 2. Confondre la Slovaquie et la Slovénie
 
@@ -121,7 +121,7 @@ Sur 195 drapeaux nationaux, une trentaine de paires sont visuellement très proc
 
 ### La projection de Mercator déforme-t-elle vraiment les cartes ?
 
-Oui, considérablement. La projection de Mercator, créée en 1569, agrandit les zones proches des pôles et réduit celles proches de l'équateur. Le Groenland y paraît aussi grand que l'Afrique, alors qu'il est 14 fois plus petit. Le site thetruesize.com permet de comparer les tailles réelles.
+Oui, considérablement. La [projection de Mercator](https://fr.wikipedia.org/wiki/Projection_de_Mercator), créée en 1569, agrandit les zones proches des pôles et réduit celles proches de l'équateur. Le Groenland y paraît aussi grand que l'Afrique, alors qu'il est 14 fois plus petit. Le site thetruesize.com permet de comparer les tailles réelles.
 
 ## Testez vos connaissances avec SAPIRO
 

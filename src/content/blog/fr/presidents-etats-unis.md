@@ -32,7 +32,7 @@ Les États-Unis ont eu 47 présidents depuis 1789. Connaître leur succession, c
 
 **7. Andrew Jackson (1829-1837).** Populiste. Élargit la démocratie blanche. Politique brutale envers les Amérindiens (Trail of Tears).
 
-**16. Abraham Lincoln (1861-1865).** Guerre de Sécession. Proclamation d'émancipation des esclaves en 1863. Assassiné.
+**16. Abraham Lincoln (1861-1865).** [Guerre de Sécession](https://fr.wikipedia.org/wiki/Guerre_de_S%C3%A9cession). Proclamation d'émancipation des esclaves en 1863. Assassiné.
 
 ## Reconstruction et industrie (1865-1901)
 
@@ -54,7 +54,7 @@ Les États-Unis ont eu 47 présidents depuis 1789. Connaître leur succession, c
 
 **36. Lyndon B. Johnson (1963-1969).** Loi sur les droits civiques (1964). Guerre du Vietnam.
 
-**37. Richard Nixon (1969-1974).** Ouverture à la Chine. Scandale du Watergate. Seul président démissionnaire.
+**37. Richard Nixon (1969-1974).** Ouverture à la Chine. Scandale du [Watergate](https://fr.wikipedia.org/wiki/Scandale_du_Watergate). Seul président démissionnaire.
 
 **40. Ronald Reagan (1981-1989).** Conservateur. Confrontation avec l'URSS qui contribuera à sa chute.
 

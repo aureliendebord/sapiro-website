@@ -36,7 +36,7 @@ L'histoire occidentale tient en trois grandes périodes avant l'époque moderne.
 
 **Civilisations.** Empire byzantin, monde musulman (apogée VIIIe-XIIIe siècle, sciences arabes), Europe chrétienne, monde mongol.
 
-**Inventions.** Imprimerie (1450, Gutenberg), boussole, papier (rapporté de Chine), poudre à canon, lunettes, horloges mécaniques, cathédrales gothiques (arc-boutants, vitraux).
+**Inventions.** [Imprimerie](https://fr.wikipedia.org/wiki/Imprimerie) (1450, Gutenberg), boussole, papier (rapporté de Chine), poudre à canon, lunettes, horloges mécaniques, cathédrales gothiques (arc-boutants, vitraux).
 
 **Figures.** Charlemagne, Mahomet, Avicenne, Saint Louis, Jeanne d'Arc, Marco Polo, Genghis Khan.
 
@@ -44,7 +44,7 @@ L'histoire occidentale tient en trois grandes périodes avant l'époque moderne.
 
 ## Renaissance (1400-1600 environ)
 
-**Définition.** Mouvement culturel et artistique qui redécouvre l'Antiquité. Né en Italie au XIVe-XVe siècle, s'étend à toute l'Europe au XVIe.
+**Définition.** [Mouvement culturel et artistique](https://fr.wikipedia.org/wiki/Renaissance) qui redécouvre l'Antiquité. Né en Italie au XIVe-XVe siècle, s'étend à toute l'Europe au XVIe.
 
 **Caractéristiques.** Humanisme (l'homme au centre, plus seulement Dieu), perspective en peinture, anatomie réaliste, retour aux textes antiques, mécénat des arts.
 

@@ -18,7 +18,7 @@ Los paises mas pequenos del mundo tienen menos de 1 000 km², menos que la super
 
 ## 1. Vaticano (0,49 km²)
 
-El pais mas pequeno del mundo. 825 habitantes. Teocracia electiva dirigida por el Papa. Enclavado en Roma.
+[El pais mas pequeno del mundo](https://es.wikipedia.org/wiki/Ciudad_del_Vaticano). 825 habitantes. Teocracia electiva dirigida por el Papa. Enclavado en Roma.
 
 **Curiosidades.** Pais mas pequeno pero tambien el mas denso (1 700 hab/km²). Guardia Suiza Pontificia como ejercito.
 
@@ -42,7 +42,7 @@ Nueve atolones en el Pacifico. 11 000 habitantes.
 
 ## 5. San Marino (61 km²)
 
-Enclavado en Italia. 33 000 habitantes. Una de las republicas mas antiguas del mundo, fundada en 301.
+Enclavado en Italia. 33 000 habitantes. Una de las republicas mas antiguas del mundo, [fundada en 301](https://es.wikipedia.org/wiki/San_Marino).
 
 **Curiosidades.** Tres fortalezas medievales accesibles a pie.
 

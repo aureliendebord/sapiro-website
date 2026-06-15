@@ -18,7 +18,7 @@ The smallest countries in the world are under 1,000 km², smaller than the size 
 
 ## 1. Vatican (0.49 km²)
 
-The smallest country in the world. 825 inhabitants. Elective theocracy ruled by the Pope. Enclaved within Rome.
+[The smallest country in the world](https://en.wikipedia.org/wiki/Vatican_City). 825 inhabitants. Elective theocracy ruled by the Pope. Enclaved within Rome.
 
 **Quirks.** Smallest country but also densest (1,700 inhabitants/km²). Pontifical Swiss Guard as army.
 
@@ -42,7 +42,7 @@ Nine atolls in the Pacific. 11,000 inhabitants.
 
 ## 5. San Marino (61 km²)
 
-Enclaved in Italy. 33,000 inhabitants. One of the oldest republics in the world, founded in 301.
+Enclaved in Italy. 33,000 inhabitants. One of the oldest republics in the world, [founded in 301](https://en.wikipedia.org/wiki/San_Marino).
 
 **Quirks.** Three medieval fortresses accessible on foot.
 

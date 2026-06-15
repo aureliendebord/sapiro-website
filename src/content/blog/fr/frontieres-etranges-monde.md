@@ -28,7 +28,7 @@ Résolu en 2015 par un échange massif de territoires.
 
 ## 3. Llívia (France-Espagne)
 
-Enclave espagnole en France, dans les Pyrénées. 13 km², complètement entourée de territoire français. Date du traité des Pyrénées de 1659 qui exemptait les "villes" (et Llívia avait ce statut).
+Enclave espagnole en France, dans les Pyrénées. 13 km², complètement entourée de territoire français. Date du [traité des Pyrénées](https://fr.wikipedia.org/wiki/Trait%C3%A9_des_Pyr%C3%A9n%C3%A9es) de 1659 qui exemptait les "villes" (et Llívia avait ce statut).
 
 ## 4. La frontière USA-Canada à 49°N
 
@@ -36,7 +36,7 @@ Enclave espagnole en France, dans les Pyrénées. 13 km², complètement entour�
 
 ## 5. La "Pointe en Y" Bir Tawil (Égypte-Soudan)
 
-Région de 2 060 km² réclamée par personne. Ni l'Égypte ni le Soudan ne la veulent, à cause d'un litige sur où placer la frontière. Probablement le seul territoire au monde sans propriétaire reconnu.
+Région de [2 060 km²](https://fr.wikipedia.org/wiki/Bir_Tawil) réclamée par personne. Ni l'Égypte ni le Soudan ne la veulent, à cause d'un litige sur où placer la frontière. Probablement le seul territoire au monde sans propriétaire reconnu.
 
 ## 6. Sealand (Mer du Nord)
 

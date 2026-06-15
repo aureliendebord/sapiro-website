@@ -68,7 +68,7 @@ La cultura general evoluciona. Ademas de los clasicos de siempre, hay temas que 
 
 La geopolitica contemporanea: tensiones internacionales, bloques economicos, alianzas militares, conflictos en curso. Conocer el [significado de las banderas](/es/blog/significado-banderas/) es una puerta de entrada accesible, porque cada bandera condensa la historia de su nacion en un rectangulo.
 
-Cambio climatico y medio ambiente: mecanismos del calentamiento global, acuerdos internacionales como el Acuerdo de Paris, energias renovables, desafios ecologicos. Este tema cruza geografia, ciencia, politica y economia de golpe.
+Cambio climatico y medio ambiente: mecanismos del calentamiento global, acuerdos internacionales como el [Acuerdo de Paris](https://es.wikipedia.org/wiki/Acuerdo_de_Par%C3%ADs), energias renovables, desafios ecologicos. Este tema cruza geografia, ciencia, politica y economia de golpe.
 
 Inteligencia artificial y tecnologia: los principios basicos, las aplicaciones practicas, las implicaciones eticas. Te guste o no, la IA esta cambiando la sociedad y entender lo basico ya no es opcional.
 

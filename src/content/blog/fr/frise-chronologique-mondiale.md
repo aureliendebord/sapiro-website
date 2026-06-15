@@ -60,7 +60,7 @@ Une frise mentale est l'outil le plus puissant pour ne plus se perdre dans l'his
 
 **1337-1453** : guerre de Cent Ans.
 
-**1348** : peste noire, jusqu'à 50% de la population européenne morte.
+**1348** : [peste noire](https://fr.wikipedia.org/wiki/Peste_noire), jusqu'à 50% de la population européenne morte.
 
 **1453** : chute de Constantinople, fin de l'Empire byzantin.
 
@@ -131,7 +131,7 @@ L'histoire occidentale se divise en cinq grandes périodes : Préhistoire (jusqu
 
 ### En quelle année est tombé l'Empire romain d'Occident ?
 
-L'Empire romain d'Occident est tombé en 476, avec la déposition de Romulus Augustule par le chef barbare Odoacre. Cette date marque le passage de l'Antiquité au Moyen Âge dans l'historiographie traditionnelle.
+L'Empire romain d'Occident est tombé en 476, avec la déposition de [Romulus Augustule](https://fr.wikipedia.org/wiki/Romulus_Augustule) par le chef barbare Odoacre. Cette date marque le passage de l'Antiquité au Moyen Âge dans l'historiographie traditionnelle.
 
 ### Quelle est la date la plus importante de l'histoire récente ?
 

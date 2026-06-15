@@ -30,7 +30,7 @@ Cuatro grandes periodos generalmente esperados: Revoluciones y siglo XIX, Primer
 - 1898: perdida de Cuba, Puerto Rico, Filipinas.
 - 1914-1918: Primera Guerra Mundial.
 - 1929: crack bursatil.
-- 1936-1939: Guerra Civil espanola.
+- 1936-1939: [Guerra Civil espanola](https://es.wikipedia.org/wiki/Guerra_civil_espa%C3%B1ola).
 - 1939-1945: Segunda Guerra Mundial.
 - 1975: muerte de Franco, transicion espanola.
 - 1989: caida del muro de Berlin.
@@ -73,7 +73,7 @@ Ver tambien nuestros articulos dedicados.
 
 Confundir fechas y siglos. El siglo XVIII es 1701-1800, no 1800-1899. Facil de confundir.
 
-Confundir las dos guerras mundiales. Trincheras y Gran Guerra = 1914-1918. Alemania nazi y Holocausto = 1939-1945. Distintas en naturaleza.
+Confundir las dos guerras mundiales. Trincheras y Gran Guerra = 1914-1918. Alemania nazi y [Holocausto](https://es.wikipedia.org/wiki/Holocausto) = 1939-1945. Distintas en naturaleza.
 
 Olvidar la historia no europea. Los programas piden cada vez mas conocer la historia africana, asiatica, latinoamericana. No quedarse solo en Europa y EEUU.
 

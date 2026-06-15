@@ -46,7 +46,7 @@ Los monarcas europeos estructuran gran parte de la historia mundial. Aqui van lo
 
 **Enrique IV (1589-1610).** Primer Borbon. Edicto de Nantes (1598).
 
-**Luis XIV (1643-1715).** El Rey Sol. Reinado mas largo de la historia de Francia (72 anos). Construye Versalles.
+**Luis XIV (1643-1715).** El Rey Sol. Reinado mas largo de la historia de Francia (72 anos). Construye el [Palacio de Versalles](https://es.wikipedia.org/wiki/Palacio_de_Versalles).
 
 **Luis XVI (1774-1792).** Guillotinado en 1793.
 
@@ -62,7 +62,7 @@ Los monarcas europeos estructuran gran parte de la historia mundial. Aqui van lo
 
 **Juan sin Tierra (1199-1216).** Firma la Carta Magna en 1215.
 
-**Enrique VIII (1509-1547).** Ruptura con Roma. Seis esposas. Funda la Iglesia anglicana.
+**Enrique VIII (1509-1547).** Ruptura con Roma. Seis esposas. Funda la [Iglesia anglicana](https://es.wikipedia.org/wiki/Iglesia_de_Inglaterra).
 
 **Isabel I (1558-1603).** Era isabelina. Derrota a la Armada Invencible (1588).
 

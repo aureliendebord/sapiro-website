@@ -28,7 +28,7 @@ Resuelto en 2015 por un intercambio masivo de territorios.
 
 ## 3. Llivia (Francia-Espana)
 
-Enclave espanol en Francia, en los Pirineos. 13 km², totalmente rodeado de territorio frances. Data del Tratado de los Pirineos de 1659 que eximia a las "villas" (y Llivia tenia ese estatus).
+Enclave espanol en Francia, en los Pirineos. 13 km², totalmente rodeado de territorio frances. Data del [Tratado de los Pirineos](https://es.wikipedia.org/wiki/Tratado_de_los_Pirineos) de 1659 que eximia a las "villas" (y Llivia tenia ese estatus).
 
 ## 4. La frontera EEUU-Canada en 49°N
 
@@ -36,7 +36,7 @@ Enclave espanol en Francia, en los Pirineos. 13 km², totalmente rodeado de terr
 
 ## 5. El "Punto en Y" Bir Tawil (Egipto-Sudan)
 
-Region de 2 060 km² reclamada por nadie. Ni Egipto ni Sudan la quieren, debido a un litigio sobre donde colocar la frontera. Probablemente el unico territorio del mundo sin dueno reconocido.
+Region de [2 060 km²](https://es.wikipedia.org/wiki/Bir_Tawil) reclamada por nadie. Ni Egipto ni Sudan la quieren, debido a un litigio sobre donde colocar la frontera. Probablemente el unico territorio del mundo sin dueno reconocido.
 
 ## 6. Sealand (Mar del Norte)
 

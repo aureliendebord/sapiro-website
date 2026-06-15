@@ -94,7 +94,7 @@ Comptez vos A, B, C, D dominants.
 
 **Profil "Brésil" :** chaleur humaine, musique, danse, plage, sourire, famille élargie.
 
-**Profil "Argentine" :** tango, viande, mélancolie, fierté, gauchos, esprit de groupe.
+**Profil "Argentine" :** [tango](https://fr.wikipedia.org/wiki/Tango), viande, mélancolie, fierté, gauchos, esprit de groupe.
 
 **Profil "Maroc" :** hospitalité, gastronomie épicée, traditions familiales, art de vivre, marchandage.
 

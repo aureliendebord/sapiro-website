@@ -32,7 +32,7 @@ Estados Unidos ha tenido 47 presidentes desde 1789. Conocer la sucesion es tener
 
 **7. Andrew Jackson (1829-1837).** Populista. Amplia la democracia blanca. Politica brutal hacia los amerindios (Trail of Tears).
 
-**16. Abraham Lincoln (1861-1865).** Guerra de Secesion. Proclamacion de Emancipacion en 1863. Asesinado.
+**16. Abraham Lincoln (1861-1865).** [Guerra de Secesion](https://es.wikipedia.org/wiki/Guerra_de_Secesi%C3%B3n). Proclamacion de Emancipacion en 1863. Asesinado.
 
 ## Reconstruccion e industria (1865-1901)
 
@@ -54,7 +54,7 @@ Estados Unidos ha tenido 47 presidentes desde 1789. Conocer la sucesion es tener
 
 **36. Lyndon B. Johnson (1963-1969).** Ley de Derechos Civiles (1964). Guerra de Vietnam.
 
-**37. Richard Nixon (1969-1974).** Apertura a China. Escandalo Watergate. Unico presidente que dimitio.
+**37. Richard Nixon (1969-1974).** Apertura a China. [Escandalo Watergate](https://es.wikipedia.org/wiki/Caso_Watergate). Unico presidente que dimitio.
 
 **40. Ronald Reagan (1981-1989).** Conservador. Confrontacion con la URSS que contribuyo a su caida.
 

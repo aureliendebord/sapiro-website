@@ -52,11 +52,11 @@ History as taught remains largely male. Yet dozens of women bent the course of t
 
 ## 20th century
 
-**Marie Curie (1867-1934).** Only person to have received the Nobel Prize in two different scientific disciplines (physics and chemistry).
+**Marie Curie (1867-1934).** Only person to have received the [Nobel Prize](https://en.wikipedia.org/wiki/Marie_Curie) in two different scientific disciplines (physics and chemistry).
 
 **Coco Chanel (1883-1971).** Revolutionizes women's fashion in the 20th century.
 
-**Rosa Parks (1913-2005).** Refuses to give up her seat to a white man on a Montgomery bus in 1955. Triggers the civil rights movement.
+**Rosa Parks (1913-2005).** Refuses to give up her seat to a white man on a Montgomery bus in 1955. Triggers the [civil rights movement](https://en.wikipedia.org/wiki/Civil_rights_movement).
 
 **Indira Gandhi (1917-1984).** First female Prime Minister of India. Modernization of the country. Assassinated.
 

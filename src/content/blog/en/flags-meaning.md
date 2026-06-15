@@ -92,7 +92,7 @@ When it was first raised in 1994, the flag was intended as an interim design. It
 
 ## Why is Nepal the only country with a non-rectangular flag?
 
-Every other flag on this list follows the standard rectangular format. Nepal's does not. The Nepali flag consists of two stacked triangular pennants, making it the only national flag in the world that is not rectangular. The crimson red represents bravery (and is also the color of the national flower, the rhododendron), while the blue border signifies peace and harmony.
+Every other flag on this list follows the standard rectangular format. Nepal's does not. The [Nepali flag](https://en.wikipedia.org/wiki/Flag_of_Nepal) consists of two stacked triangular pennants, making it the only national flag in the world that is not rectangular. The crimson red represents bravery (and is also the color of the national flower, the rhododendron), while the blue border signifies peace and harmony.
 
 The upper triangle contains a white moon. The lower triangle holds a white sun. Together, they express the hope that Nepal will last as long as these celestial bodies. The shapes also echo the peaks of the Himalayas, which define Nepal's landscape and identity.
 
@@ -127,7 +127,7 @@ Red is the most common, appearing on roughly 74% of the world's 195 national fla
 
 ### Which country has the oldest flag in the world?
 
-Denmark's flag, the Dannebrog, is the oldest continuously used national flag, dating back to 1219 according to Danish tradition. It features a white Scandinavian cross on a red background.
+Denmark's flag, the [Dannebrog](https://en.wikipedia.org/wiki/Flag_of_Denmark), is the oldest continuously used national flag, dating back to 1219 according to Danish tradition. It features a white Scandinavian cross on a red background.
 
 ### Why do so many flags have stars on them?
 

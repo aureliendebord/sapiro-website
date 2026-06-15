@@ -20,7 +20,7 @@ Quelle est la capitale de l'Australie ? Si vous avez répondu Sydney, bienvenue 
 
 Certaines capitales sont si contre-intuitives qu'elles piégeraient les meilleurs candidats d'un jeu télévisé. Pourquoi ? Presque toujours la même raison : la ville la plus connue, la plus peuplée ou la plus riche n'est pas la capitale.
 
-Myanmar : Naypyidaw, pas Yangon. En 2006, le gouvernement militaire birman a déplacé la capitale vers cette ville construite de toutes pièces au milieu du pays. Le résultat est surréal : des boulevards de vingt voies quasiment déserts, des bâtiments administratifs colossaux, un million d'habitants dans un espace prévu pour en accueillir bien plus. Yangon reste de loin la plus grande ville du pays. Mais la capitale, c'est Naypyidaw.
+Myanmar : [Naypyidaw](https://fr.wikipedia.org/wiki/Naypyidaw), pas Yangon. En 2006, le gouvernement militaire birman a déplacé la capitale vers cette ville construite de toutes pièces au milieu du pays. Le résultat est surréal : des boulevards de vingt voies quasiment déserts, des bâtiments administratifs colossaux, un million d'habitants dans un espace prévu pour en accueillir bien plus. Yangon reste de loin la plus grande ville du pays. Mais la capitale, c'est Naypyidaw.
 
 Turquie : Ankara, pas Istanbul. Istanbul concentre la population, le tourisme, la célébrité. Pourtant la capitale est Ankara depuis 1923, choisie par Mustafa Kemal Atatürk pour ancrer la jeune république loin de l'héritage ottoman.
 

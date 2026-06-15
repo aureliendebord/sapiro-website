@@ -46,9 +46,9 @@ Algunas batallas cambiaron el rumbo del mundo. Aqui van los 15 enfrentamientos m
 
 ## Edad Contemporanea
 
-**Verdun (1916).** Batalla mas mortifera de la Primera Guerra Mundial, unos 700 000 muertos. Simbolo frances de la guerra de trincheras.
+**Verdun (1916).** La [batalla de Verdun](https://es.wikipedia.org/wiki/Batalla_de_Verd%C3%BAn) fue la mas mortifera de la Primera Guerra Mundial, unos 700 000 muertos. Simbolo frances de la guerra de trincheras.
 
-**Stalingrado (1942-1943).** Punto de inflexion de la Segunda Guerra Mundial en Europa. Primer gran fracaso aleman contra la URSS. Cerca de 2 millones de muertos.
+**Stalingrado (1942-1943).** Punto de inflexion de la Segunda Guerra Mundial en Europa. Primer gran fracaso aleman contra la URSS. La [batalla de Stalingrado](https://es.wikipedia.org/wiki/Batalla_de_Stalingrado) dejo cerca de 2 millones de muertos.
 
 **Desembarco de Normandia (6 de junio de 1944).** Mayor operacion anfibia de la historia. Abre el segundo frente contra la Alemania nazi.
 

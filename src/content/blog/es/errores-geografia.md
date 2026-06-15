@@ -32,7 +32,7 @@ Suena absurdo, pero pasa mas de lo que pensamos. Africa es un continente con 54 
 
 ## 4. Pensar que Brasil es un pais hispanohablante
 
-Brasil esta rodeado de paises que hablan espanol. Pero en Brasil se habla portugues. La explicacion se remonta al Tratado de Tordesillas de 1494, que repartio el Nuevo Mundo entre Espana y Portugal. La linea de division le dio a Portugal la parte oriental de Sudamerica, y ahi nacio lo que hoy es Brasil. Con mas de 210 millones de habitantes, es el pais lusofono mas grande del planeta, muy por encima de Portugal en poblacion. Tener clara esta diferencia linguistica ayuda a entender mejor la [cultura general](/es/blog/cultura-general-guia/) de America Latina. Si quieres profundizar en las historias detras de cada nacion, el [significado de las banderas](/es/blog/significado-banderas/) te sorprendera.
+Brasil esta rodeado de paises que hablan espanol. Pero en Brasil se habla portugues. La explicacion se remonta al [Tratado de Tordesillas](https://es.wikipedia.org/wiki/Tratado_de_Tordesillas) de 1494, que repartio el Nuevo Mundo entre Espana y Portugal. La linea de division le dio a Portugal la parte oriental de Sudamerica, y ahi nacio lo que hoy es Brasil. Con mas de 210 millones de habitantes, es el pais lusofono mas grande del planeta, muy por encima de Portugal en poblacion. Tener clara esta diferencia linguistica ayuda a entender mejor la [cultura general](/es/blog/cultura-general-guia/) de America Latina. Si quieres profundizar en las historias detras de cada nacion, el [significado de las banderas](/es/blog/significado-banderas/) te sorprendera.
 
 ## 5. Confundir Europa del Este: Eslovaquia, Eslovenia y mas
 
@@ -42,7 +42,7 @@ Para distinguirlas: EsloVENia tiene acceso al mar y limita con VENecia (bueno, c
 
 ## 6. Groenlandia es realmente mas grande que Africa?
 
-Culpa directa de la proyeccion de Mercator, el tipo de mapa plano que todos hemos visto en la escuela. Esta proyeccion infla todo lo que esta cerca de los polos, asi que Groenlandia parece del tamano de Africa. La realidad: Africa mide 30,3 millones de kilometros cuadrados; Groenlandia, 2,2 millones. Africa es casi 14 veces mas grande. Si quieres ver el efecto con tus propios ojos, entra en thetruesize.com y arrastra Groenlandia hacia el ecuador. Se encoge como un jersey en la secadora.
+Culpa directa de la [proyeccion de Mercator](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_de_Mercator), el tipo de mapa plano que todos hemos visto en la escuela. Esta proyeccion infla todo lo que esta cerca de los polos, asi que Groenlandia parece del tamano de Africa. La realidad: Africa mide 30,3 millones de kilometros cuadrados; Groenlandia, 2,2 millones. Africa es casi 14 veces mas grande. Si quieres ver el efecto con tus propios ojos, entra en thetruesize.com y arrastra Groenlandia hacia el ecuador. Se encoge como un jersey en la secadora.
 
 ## 7. Pensar que los Paises Bajos y Holanda son lo mismo
 

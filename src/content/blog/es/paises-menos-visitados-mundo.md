@@ -18,7 +18,7 @@ Los paises menos visitados del mundo reciben a veces menos de 5 000 turistas al 
 
 ## 1. Tuvalu (3 700 turistas al ano)
 
-El pais menos visitado del mundo. Cuarto pais mas pequeno por superficie (26 km²). Nueve atolones en el Pacifico. Poblacion: 11 000.
+El pais menos visitado del mundo. [Cuarto pais mas pequeno por superficie](https://es.wikipedia.org/wiki/Tuvalu) (26 km²). Nueve atolones en el Pacifico. Poblacion: 11 000.
 
 **Por que tan pocos visitantes?** Acceso muy dificil (un solo vuelo desde Fiyi dos veces por semana), infraestructura turistica limitada, precios altos.
 
@@ -58,7 +58,7 @@ Republica de Asia Central, ex URSS. Regimen cerrado.
 
 **Por que tan pocos?** Visado muy dificil de obtener. Pais extremadamente controlado politicamente.
 
-**Que ver.** Asjabad con sus edificios de marmol blanco, el "Crater de Darvaza" (pozo de gas ardiendo desde hace 50 anos).
+**Que ver.** Asjabad con sus edificios de marmol blanco, el ["Crater de Darvaza"](https://es.wikipedia.org/wiki/Cr%C3%A1ter_de_Darvaza) (pozo de gas ardiendo desde hace 50 anos).
 
 ## 7. Butan (270 000 turistas al ano antes del Covid, mucho menos despues)
 

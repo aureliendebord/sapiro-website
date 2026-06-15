@@ -20,7 +20,7 @@ Here are 12 geography mistakes nearly everyone makes, why they stick, and the me
 
 ## 1. Thinking Sydney Is the Capital of Australia
 
-Ask ten people to name Australia's capital and at least half will confidently answer "Sydney." The real capital is Canberra, a planned inland city built in the early 20th century specifically to end the rivalry between Sydney and Melbourne. For the full story behind this and other tricky capitals, see our [world capitals quiz](/en/blog/world-capitals-quiz/) article.
+Ask ten people to name Australia's capital and at least half will confidently answer "Sydney." The real capital is [Canberra](https://en.wikipedia.org/wiki/Canberra), a planned inland city built in the early 20th century specifically to end the rivalry between Sydney and Melbourne. For the full story behind this and other tricky capitals, see our [world capitals quiz](/en/blog/world-capitals-quiz/) article.
 
 Memory trick: "Can-berra Can-pital." Both start with "Can."
 
@@ -121,7 +121,7 @@ Thinking Sydney is the capital of Australia is consistently the most widespread 
 
 ### Why does Greenland look so big on maps?
 
-The Mercator projection, used by most flat maps and web mapping tools, distorts areas near the poles. Greenland appears roughly the same size as Africa, when in reality Africa is about 14 times larger at 30.3 million square kilometers versus Greenland's 2.2 million.
+The [Mercator projection](https://en.wikipedia.org/wiki/Mercator_projection), used by most flat maps and web mapping tools, distorts areas near the poles. Greenland appears roughly the same size as Africa, when in reality Africa is about 14 times larger at 30.3 million square kilometers versus Greenland's 2.2 million.
 
 ### How can I improve my geography knowledge quickly?
 

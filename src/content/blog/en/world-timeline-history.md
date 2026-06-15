@@ -44,7 +44,7 @@ A mental timeline is the most powerful tool to stop getting lost in world histor
 
 **0**: presumed birth of Jesus.
 
-**476**: fall of the Western Roman Empire.
+**476**: [fall of the Western Roman Empire](https://en.wikipedia.org/wiki/Fall_of_the_Western_Roman_Empire).
 
 ## Middle Ages (476-1492)
 
@@ -60,7 +60,7 @@ A mental timeline is the most powerful tool to stop getting lost in world histor
 
 **1337-1453**: Hundred Years' War.
 
-**1348**: Black Death, up to 50% of the European population dead.
+**1348**: [Black Death](https://en.wikipedia.org/wiki/Black_Death), up to 50% of the European population dead.
 
 **1453**: fall of Constantinople, end of the Byzantine Empire.
 

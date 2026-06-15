@@ -32,7 +32,7 @@ The United States has had 47 presidents since 1789. Knowing the sequence means o
 
 **7. Andrew Jackson (1829-1837).** Populist. Broadens white democracy. Brutal policy toward Native Americans (Trail of Tears).
 
-**16. Abraham Lincoln (1861-1865).** Civil War. Emancipation Proclamation in 1863. Assassinated.
+**16. Abraham Lincoln (1861-1865).** [Civil War](https://en.wikipedia.org/wiki/American_Civil_War). Emancipation Proclamation in 1863. Assassinated.
 
 ## Reconstruction and industry (1865-1901)
 
@@ -54,7 +54,7 @@ The United States has had 47 presidents since 1789. Knowing the sequence means o
 
 **36. Lyndon B. Johnson (1963-1969).** Civil Rights Act (1964). Vietnam War.
 
-**37. Richard Nixon (1969-1974).** Opening to China. Watergate scandal. Only president to resign.
+**37. Richard Nixon (1969-1974).** Opening to China. [Watergate scandal](https://en.wikipedia.org/wiki/Watergate_scandal). Only president to resign.
 
 **40. Ronald Reagan (1981-1989).** Conservative. Confrontation with USSR that helped bring it down.
 
