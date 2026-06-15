@@ -2,6 +2,9 @@
 title: "15 esculturas célebres que conocer en el mundo"
 description: "El David, El Pensador, la Venus de Milo: 15 esculturas célebres del mundo con su historia, ubicación y lo que las hace imprescindibles."
 date: 2026-01-26
+image: "/images/blog/art/david-michel-ange.jpg"
+imageAlt: "El David de Miguel Ángel"
+imageCredit: "Foto: Commonists · CC BY-SA 4.0 · Wikimedia Commons"
 lastModified: 2026-06-15
 lang: "es"
 urlSlug: "esculturas-celebres-mundo"
@@ -62,3 +65,9 @@ Asociar a una epoca. Antiguedad: escultura griega. Renacimiento: Miguel Angel. B
 Identificar el material. Marmol para el Renacimiento, bronce para Rodin y Bernini, acero para los contemporaneos.
 
 SAPIRO propone quizzes sobre 553 obras incluida la escultura, con explicacion didactica detras de cada pregunta. Para profundizar: [30 cuadros celebres que conocer](/es/blog/cuadros-celebres-obras-maestras/).
+
+<figure>
+  <img src="/images/blog/art/venus-de-milo.jpg" alt="La Venus de Milo" loading="lazy" />
+  <figcaption>Foto: Unknown artist · CC BY-SA 2.5 · Wikimedia Commons</figcaption>
+</figure>
+

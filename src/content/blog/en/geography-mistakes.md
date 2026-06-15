@@ -2,6 +2,9 @@
 title: "12 Common Geography Mistakes (And How to Fix Them)"
 description: "Sydney is not Australia's capital and Africa is 14 times larger than Greenland. How many of these 12 common geography mistakes are you still making today?"
 date: 2025-11-15
+image: "/images/blog/monde/carte-monde-ancienne.jpg"
+imageAlt: "An old world map"
+imageCredit: "Photo: Reginald Lane Poole · public domain · Wikimedia Commons"
 lang: "en"
 urlSlug: "geography-mistakes"
 translationKey: "erreurs-geographie"
@@ -103,6 +106,11 @@ A few practical steps will eliminate your geography blind spots faster than you 
 First, use a globe instead of relying solely on flat maps. Globes preserve true proportions and eliminate projection distortions. Second, quiz yourself regularly -- repetition is the backbone of long-term memory, and even five minutes a day makes a measurable difference. Third, travel virtually through tools like Google Earth and GeoGuessr, which let you explore streets worldwide and build spatial intuition. Fourth, read widely -- news, travel writing, and history books all reinforce geographic facts without feeling like study. And fifth, play geography games. Turning rote memorization into a game changes everything about how your brain stores the information.
 
 If you are looking for a fun way to organize quiz sessions with friends or family, our guide on [how to host a family geography quiz night](/en/blog/geography-family/) is packed with ideas.
+
+<figure>
+  <img src="/images/blog/monde/globe-terrestre.jpg" alt="An antique terrestrial globe" loading="lazy" />
+  <figcaption>Photo: Henry James · public domain · Wikimedia Commons</figcaption>
+</figure>
 
 ## Frequently asked questions
 

@@ -2,6 +2,9 @@
 title: "Sapiro vs Kahoot : deux outils, deux usages"
 description: "Comparatif entre SAPIRO et Kahoot : l'un est conçu pour la salle de classe, l'autre pour apprendre seul ou en famille. Contenu, vie privée, prix, pédagogie."
 date: 2026-03-20
+image: "/images/blog/apps/tablette-education.jpg"
+imageAlt: "Apprendre sur une tablette"
+imageCredit: "Photo : Shixart1985 · CC BY 2.0 · Wikimedia Commons"
 lang: "fr"
 urlSlug: "sapiro-vs-kahoot"
 translationKey: "sapiro-vs-kahoot"
@@ -21,6 +24,11 @@ Kahoot est une plateforme pour animer un groupe. Un enseignant projette un quiz 
 Le problème, c'est qu'il faut quelqu'un pour créer et animer le quiz. Sans hôte, sans code, il reste des fonctions solo marginales et peu engageantes. Le contenu est principalement généré par les utilisateurs, ce qui donne une variété énorme mais aussi des quiz bâclés, des fautes, des questions obsolètes. L'appli n'a pas de parcours, pas d'explications après les réponses, pas de progression qu'un enfant peut suivre seul. Le modèle favorise la vitesse : le premier à cliquer marque plus, ce qui en classe crée de l'énergie et à la maison frustre surtout les plus jeunes.
 
 SAPIRO part d'un tout autre postulat. On ouvre l'appli, on choisit un domaine (géographie, histoire, art, nature), on joue. Seul dans le métro, en famille le dimanche, en voiture pour un long trajet. Plus de 2 000 questions vérifiées, chacune avec une explication après la réponse. Les 50+ parcours thématiques (capitales d'Afrique, empires historiques, familles d'animaux, peintres de la Renaissance) structurent l'apprentissage comme un petit cours déguisé en jeu. Trois modes (Classique, Survie, Défi quotidien), fonctionnement hors ligne, aucun compte requis, aucune publicité, aucune collecte de données. La [gamification au service de l'éducation](/blog/gamification-education/) guide la conception depuis le début.
+
+<figure>
+  <img src="/images/blog/apps/apprendre-mobile.jpg" alt="Jouer et apprendre sur son téléphone" loading="lazy" />
+  <figcaption>Photo : Anastasiya Lvova · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
+</figure>
 
 ## Questions fréquentes de parents et d'enseignants
 

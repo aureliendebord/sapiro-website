@@ -2,6 +2,9 @@
 title: "Quiz histoire de France niveau brevet et bac"
 description: "Réviser l'histoire de France pour le brevet, le bac ou les concours : programme officiel, dates incontournables et quiz pour s'entraîner."
 date: 2026-02-05
+image: "/images/blog/histoire/chateau-versailles.jpg"
+imageAlt: "Le château de Versailles"
+imageCredit: "Photo : Basile Morin · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "fr"
 urlSlug: "quiz-histoire-france-bac"
 translationKey: "quiz-histoire-france"
@@ -80,3 +83,9 @@ Lier événement et personnage. 1789 = Louis XVI et la Bastille. 1804 = Napoléo
 Tester régulièrement. La [science de la mémorisation](/blog/gamification-education/) montre qu'on retient 50% mieux en se testant. SAPIRO propose des quiz sur l'histoire avec explication contextualisée derrière chaque question.
 
 Pour aller plus loin, voir notre [frise chronologique mondiale](/blog/frise-chronologique-mondiale/) et l'article sur les [grandes batailles de l'histoire](/blog/grandes-batailles-histoire/).
+
+<figure>
+  <img src="/images/blog/histoire/revolution-francaise.jpg" alt="Peinture de la Révolution française" loading="lazy" />
+  <figcaption>Photo : Horace Vernet · domaine public · Wikimedia Commons</figcaption>
+</figure>
+

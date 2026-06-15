@@ -2,6 +2,9 @@
 title: "Apprendre les pays du monde aux enfants"
 description: "Comment faire découvrir les pays, drapeaux et capitales aux enfants ? Méthodes par âge, jeux et ressources pour éveiller la curiosité géographique."
 date: 2026-02-14
+image: "/images/blog/famille/carte-monde-drapeaux.jpg"
+imageAlt: "Une carte du monde avec les pays et les drapeaux"
+imageCredit: "Photo : Transparent 6lue · domaine public · Wikimedia Commons"
 lang: "fr"
 urlSlug: "apprendre-pays-monde-enfants"
 translationKey: "apprendre-pays-enfants"
@@ -63,6 +66,11 @@ L'enfant peut maîtriser tous les pays d'Europe avec capitales et drapeaux, plus
 **Bachoter avant l'école.** Apprendre n'est pas la même chose qu'apprendre par cœur. Comprendre où se trouve un pays vaut mieux que réciter une liste.
 
 **Confondre les pays piégeux.** Slovaquie/Slovénie, Autriche/Australie. Bien faire la différence dès le début.
+
+<figure>
+  <img src="/images/blog/famille/globe-enfant.jpg" alt="Un globe terrestre pour découvrir les pays" loading="lazy" />
+  <figcaption>Photo : Shixart1985 · CC BY 2.0 · Wikimedia Commons</figcaption>
+</figure>
 
 ## Questions fréquentes
 

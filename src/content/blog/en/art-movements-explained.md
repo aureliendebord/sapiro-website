@@ -2,6 +2,9 @@
 title: "15 Art Movements Explained Simply"
 description: "Renaissance, Impressionism, Cubism, Pop Art: 15 major art movements explained with dates, traits and key figures."
 date: 2026-01-25
+image: "/images/blog/art/nuit-etoilee.jpg"
+imageAlt: "The Starry Night by Vincent van Gogh"
+imageCredit: "Photo: Vincent van Gogh · public domain · Wikimedia Commons"
 lang: "en"
 urlSlug: "art-movements-explained"
 translationKey: "mouvements-artistiques"
@@ -81,3 +84,9 @@ Associate each movement with an emblematic work. Renaissance = Mona Lisa. Baroqu
 Train yourself to recognize painters by style. See our [guide to recognize painters](/en/blog/recognize-painter-style/).
 
 SAPIRO offers quizzes on 553 works of art organized by movement, with an educational explanation behind each question.
+
+<figure>
+  <img src="/images/blog/art/impression-soleil-levant.jpg" alt="Impression, Sunrise by Claude Monet" loading="lazy" />
+  <figcaption>Photo: Claude Monet · public domain · Wikimedia Commons</figcaption>
+</figure>
+

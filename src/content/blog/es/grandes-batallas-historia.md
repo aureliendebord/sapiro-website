@@ -2,6 +2,9 @@
 title: "Las 15 grandes batallas de la historia mundial"
 description: "Maratón, Hastings, Waterloo, Stalingrado: 15 batallas que cambiaron el curso de la historia mundial con sus fechas, causas y consecuencias."
 date: 2026-01-31
+image: "/images/blog/histoire/bataille-napoleonienne.jpg"
+imageAlt: "Pintura de una batalla napoleónica"
+imageCredit: "Foto: Horace Vernet · dominio público · Wikimedia Commons"
 lang: "es"
 urlSlug: "grandes-batallas-historia"
 translationKey: "grandes-batailles"
@@ -59,3 +62,9 @@ Pensar mas en las consecuencias que en los detalles militares. Una batalla inter
 Visualizar en un mapa. Cada batalla ocurre en algun sitio. La geografia influye en el resultado.
 
 Ver tambien nuestra [linea de tiempo mundial](/es/blog/linea-tiempo-historia-mundial/) para situar estas fechas y nuestro articulo sobre [personajes historicos](/es/blog/personajes-historicos/) para los actores. SAPIRO propone quizzes de historia mundial con explicacion contextualizada detras de cada pregunta.
+
+<figure>
+  <img src="/images/blog/histoire/memorial-verdun.jpg" alt="El memorial de Verdún" loading="lazy" />
+  <figcaption>Foto: Jean-Marie Mangeot · CC BY-SA 3.0 · Wikimedia Commons</figcaption>
+</figure>
+

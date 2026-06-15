@@ -2,6 +2,9 @@
 title: "20 Gift Ideas for Curious Kids (Ages 6, 8, 10)"
 description: "Twenty educational and fun gift ideas for curious kids 6 to 12: games, books, apps, observation tools."
 date: 2026-02-20
+image: "/images/blog/famille/cadeau-emballe.jpg"
+imageAlt: "A wrapped gift with a ribbon"
+imageCredit: "Photo: daveynin from United States · CC BY 2.0 · Wikimedia Commons"
 lang: "en"
 urlSlug: "gift-ideas-curious-kids"
 translationKey: "cadeau-enfant-curieux"
@@ -71,3 +74,9 @@ Finding a gift that pleases a curious kid and lasts is rare. Here are 20 tested 
 **Matches an existing interest.** No point giving a microscope to a kid passionate about history. Observe what draws the child.
 
 Worth reading: [nature quiz for kids](/en/blog/nature-quiz-kids/) and [family cultural activities](/en/blog/family-cultural-activities/) to extend.
+
+<figure>
+  <img src="/images/blog/famille/jouets-bois-educatifs.jpg" alt="Wooden educational toys for children" loading="lazy" />
+  <figcaption>Photo: perpetual.fostering · CC BY 2.0 · Wikimedia Commons</figcaption>
+</figure>
+

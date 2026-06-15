@@ -2,6 +2,9 @@
 title: "Réviser la culture générale en 30 jours : programme"
 description: "Un planning de 30 jours pour réviser la culture générale efficacement avant un concours ou un examen, jour par jour, thème par thème."
 date: 2026-02-12
+image: "/images/blog/apprentissage/bureau-revision.jpg"
+imageAlt: "Un bureau de révision avec livres et notes"
+imageCredit: "Photo : Miscellaneous Items in High Demand, PPOC, Library of Congress · domaine public · Wikimedia Commons"
 lang: "fr"
 urlSlug: "reviser-culture-generale-30-jours"
 translationKey: "reviser-30-jours"
@@ -91,3 +94,9 @@ Trente jours pour réviser la culture générale, c'est court mais réaliste si 
 **Sommeil et sport.** Sept à huit heures de sommeil minimum. Trente minutes de sport par jour. Le cerveau consolide pendant le sommeil.
 
 Voir aussi notre [guide complet culture générale](/blog/culture-generale-guide/) pour la méthode sur le long terme.
+
+<figure>
+  <img src="/images/blog/apprentissage/bibliotheque-lecture.jpg" alt="Une salle de lecture en bibliothèque" loading="lazy" />
+  <figcaption>Photo : Diliff · CC BY 2.5 · Wikimedia Commons</figcaption>
+</figure>
+

@@ -2,6 +2,9 @@
 title: "12 œuvres d'art que tout le monde devrait connaître"
 description: "De la Joconde à Guernica, les œuvres d'art incontournables avec des anecdotes surprenantes sur chacune. Un parcours à travers 5 siècles de création."
 date: 2026-03-16
+image: "/images/blog/monde/la-joconde.jpg"
+imageAlt: "La Joconde de Léonard de Vinci"
+imageCredit: "Photo : Leonardo da Vinci · domaine public · Wikimedia Commons"
 lang: "fr"
 urlSlug: "oeuvres-art-incontournables"
 translationKey: "oeuvres-art-incontournables"
@@ -91,3 +94,9 @@ Pour approfondir, voir notre [guide de culture générale](/blog/culture-general
 Le plus efficace reste de combiner les approches : visiter un musée après avoir révisé ses collections sur SAPIRO change complètement l'expérience. Aucune reproduction ne rend la taille de Guernica ni la texture des empâtements de Van Gogh. Mais sans préparation, on passe devant sans voir.
 
 Pour aller plus loin, voir notre guide pour [apprendre l'histoire en s'amusant](/blog/apprendre-histoire-en-samusant/) et notre article sur les [personnages historiques](/blog/personnages-historiques/) qui ont créé certaines de ces œuvres.
+
+<figure>
+  <img src="/images/blog/monde/bibliotheque.jpg" alt="Une ancienne bibliothèque remplie de livres" loading="lazy" />
+  <figcaption>Photo : Davide Cantelli cant89 · CC0 · Wikimedia Commons</figcaption>
+</figure>
+

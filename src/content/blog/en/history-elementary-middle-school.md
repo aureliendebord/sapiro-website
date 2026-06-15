@@ -2,6 +2,9 @@
 title: "History in Elementary and Middle School Guide"
 description: "Standard history curriculum for elementary and middle school with themes, key dates and quizzes to help your child review effectively."
 date: 2026-02-15
+image: "/images/blog/famille/salle-classe.jpg"
+imageAlt: "A classroom with a blackboard"
+imageCredit: "Photo: AKA MBG · CC0 · Wikimedia Commons"
 lang: "en"
 urlSlug: "history-elementary-middle-school"
 translationKey: "histoire-primaire-college"
@@ -57,3 +60,9 @@ Three principles.
 **Confusing eras.** Clearly distinguish Middle Ages (5th-15th century) from Renaissance (15th-16th), Roman Empire (Antiquity) from French Empire (Napoleon).
 
 Worth reading: [world history timeline](/en/blog/world-timeline-history/) and [historical figures](/en/blog/historical-figures/).
+
+<figure>
+  <img src="/images/blog/famille/livres-histoire.jpg" alt="History books on a shelf" loading="lazy" />
+  <figcaption>Photo: Tom Woodward from Richmond, VA, US · CC BY-SA 2.0 · Wikimedia Commons</figcaption>
+</figure>
+

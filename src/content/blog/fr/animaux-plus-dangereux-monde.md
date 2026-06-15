@@ -2,6 +2,9 @@
 title: "Les 15 animaux les plus dangereux du monde"
 description: "Lion, requin, ours blanc ? Les vrais animaux les plus dangereux ne sont pas ceux qu'on imagine. Classement par nombre de morts humaines chaque année."
 date: 2026-01-16
+image: "/images/blog/nature/requin-blanc.jpg"
+imageAlt: "Un grand requin blanc dans l'océan"
+imageCredit: "Photo : Pterantula (Terry Goss) at en.wikipedia · CC BY 2.5 · Wikimedia Commons"
 lang: "fr"
 urlSlug: "animaux-plus-dangereux-monde"
 translationKey: "animaux-dangereux"
@@ -87,3 +90,9 @@ L'écart entre danger perçu et danger réel est énorme, et il est entretenu pa
 Et puis les écarts entre régions du monde sont massifs. Le paludisme, les morsures de serpent et la maladie de Chagas tuent presque exclusivement dans les pays pauvres. C'est moins un problème de "nature dangereuse" que de pauvreté et d'accès aux soins. Le moustique d'Atlanta et celui de Bangui ne piquent pas avec la même conséquence.
 
 Pour la perspective inverse, voir l'article sur les [animaux en voie de disparition](/blog/animaux-en-voie-disparition/) : nous sommes infiniment plus dangereux pour eux qu'eux ne le sont pour nous. SAPIRO propose des quiz sur 600 espèces, dangereuses comme inoffensives, avec une explication pour comprendre derrière chaque réponse.
+
+<figure>
+  <img src="/images/blog/nature/crocodile.jpg" alt="Un crocodile du Nil au bord de l'eau" loading="lazy" />
+  <figcaption>Photo : Diego Delso · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
+</figure>
+

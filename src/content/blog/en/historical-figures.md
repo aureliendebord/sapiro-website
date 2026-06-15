@@ -2,6 +2,9 @@
 title: "20 Historical Figures Everyone Should Know"
 description: "From Cleopatra to Mandela, 20 essential historical figures spanning every continent and 5,000 years. How many can you name in a historical figures quiz?"
 date: 2025-11-28
+image: "/images/blog/monde/buste-antique.jpg"
+imageAlt: "An ancient marble bust"
+imageCredit: "Photo: J. Paul Getty Museum · CC0 · Wikimedia Commons"
 lang: "en"
 urlSlug: "historical-figures"
 translationKey: "personnages-historiques"
@@ -127,6 +130,11 @@ Use the story, not the date. Our brains remember narratives far better than isol
 Group by theme. Revolutionaries (Toussaint, Napoleon, Gandhi, Mandela), scientists (Newton, Curie, Einstein), cultural icons (Leonardo, Confucius, de Beauvoir). Thematic grouping aids recall because your brain can walk through categories instead of scrolling through a random list.
 
 Test yourself regularly. As research on [gamification in learning](/en/blog/gamification-education/) shows, active retrieval practice is far more effective than passive review. Read the name, cover the description, and try to recall what they did. That moment of effort is where learning actually happens.
+
+<figure>
+  <img src="/images/blog/monde/bibliotheque.jpg" alt="An old library full of books" loading="lazy" />
+  <figcaption>Photo: Davide Cantelli cant89 · CC0 · Wikimedia Commons</figcaption>
+</figure>
 
 ## Frequently asked questions
 

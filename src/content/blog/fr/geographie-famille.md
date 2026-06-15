@@ -2,6 +2,9 @@
 title: "Quiz géographie en famille : la soirée idéale"
 description: "Organisez un quiz géographie en famille : règles, questions adaptées par âge et variantes de jeu pour une soirée réussie. Prêt à jouer ce soir ?"
 date: 2025-10-20
+image: "/images/blog/famille/globe-atlas-table.jpg"
+imageAlt: "Un globe et un atlas posés sur une table"
+imageCredit: "Photo : Ánthimos Gazís · domaine public · Wikimedia Commons"
 lang: "fr"
 urlSlug: "geographie-famille"
 translationKey: "geographie-famille"
@@ -119,6 +122,11 @@ Pour tout le monde : un dessert spécial pour célébrer la soirée et un fait a
 L'essentiel, c'est que chacun reparte avec le sourire et l'envie de recommencer. Le but premier reste l'apprentissage dans la bonne humeur, pas la compétition acharnée.
 
 Et pourquoi ne pas ajouter une manche d'histoire à votre soirée ? Notre guide pour [apprendre l'histoire en s'amusant](/blog/apprendre-histoire-en-samusant/) regorge d'idées qui fonctionnent aussi en famille.
+
+<figure>
+  <img src="/images/blog/famille/carte-monde-coloree.jpg" alt="Une carte du monde colorée à explorer en famille" loading="lazy" />
+  <figcaption>Photo : Dietmar Rabich · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
+</figure>
 
 ## Questions fréquentes
 

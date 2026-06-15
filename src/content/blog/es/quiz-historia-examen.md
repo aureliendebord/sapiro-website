@@ -2,6 +2,9 @@
 title: "Quiz historia nivel examen: entrenamiento"
 description: "Repasar historia para exámenes y oposiciones: programa oficial, fechas imprescindibles y quizzes para entrenarse."
 date: 2026-02-05
+image: "/images/blog/histoire/chateau-versailles.jpg"
+imageAlt: "El palacio de Versalles"
+imageCredit: "Foto: Basile Morin · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "es"
 urlSlug: "quiz-historia-examen"
 translationKey: "quiz-histoire-france"
@@ -84,3 +87,9 @@ Vincular evento y figura. 1789 = Luis XVI y la Bastilla. 1804 = Napoleon. 1945 =
 Testear regularmente. La [ciencia de la memoria](/es/blog/gamificacion-educacion/) muestra que se retiene 50% mejor autoexaminandose. SAPIRO propone quizzes de historia con explicacion contextualizada detras de cada pregunta.
 
 Para profundizar, ver nuestra [linea de tiempo mundial](/es/blog/linea-tiempo-historia-mundial/) y el articulo sobre [grandes batallas de la historia](/es/blog/grandes-batallas-historia/).
+
+<figure>
+  <img src="/images/blog/histoire/revolution-francaise.jpg" alt="Pintura de la Revolución francesa" loading="lazy" />
+  <figcaption>Foto: Horace Vernet · dominio público · Wikimedia Commons</figcaption>
+</figure>
+

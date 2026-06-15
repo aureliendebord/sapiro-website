@@ -2,6 +2,9 @@
 title: "Quiz historia del arte nivel examen: entrénate"
 description: "Repasar historia del arte para exámenes, oposiciones o universidad: programa oficial, obras clave y quizzes de nivel para entrenarse."
 date: 2026-01-29
+image: "/images/blog/art/ecole-athenes.jpg"
+imageAlt: "La escuela de Atenas de Rafael"
+imageCredit: "Foto: Raphael · dominio público · Wikimedia Commons"
 lang: "es"
 urlSlug: "quiz-historia-arte-examen"
 translationKey: "quiz-histoire-art-bac"
@@ -74,3 +77,9 @@ Olvidar el arte no occidental. Los programas suelen esperar apertura al arte afr
 Confundir Renacimiento italiano y Renacimiento flamenco. Los italianos (Leonardo, Miguel Angel) son del sur, los flamencos (Van Eyck) del norte, con tecnicas y temas distintos.
 
 Para profundizar, ver nuestra [guia de movimientos artisticos](/es/blog/movimientos-artisticos/) y el articulo sobre [como reconocer a un pintor por su estilo](/es/blog/reconocer-pintor-estilo/). SAPIRO permite entrenarse en 553 obras con explicacion didactica detras de cada pregunta.
+
+<figure>
+  <img src="/images/blog/art/liberte-guidant-peuple.jpg" alt="La libertad guiando al pueblo de Eugène Delacroix" loading="lazy" />
+  <figcaption>Foto: Eugène Delacroix · dominio público · Wikimedia Commons</figcaption>
+</figure>
+

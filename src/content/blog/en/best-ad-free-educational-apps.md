@@ -2,6 +2,9 @@
 title: "Best Ad-Free Educational Apps"
 description: "Selection of the best ad-free educational applications: geography, languages, history, science. Learning without interruptions."
 date: 2026-03-03
+image: "/images/blog/apps/tablette-education.jpg"
+imageAlt: "Learning on a tablet"
+imageCredit: "Photo: Shixart1985 · CC BY 2.0 · Wikimedia Commons"
 lang: "en"
 urlSlug: "best-ad-free-educational-apps"
 translationKey: "apps-educatives-sans-pub"
@@ -89,3 +92,9 @@ Three signs.
 **Privacy policy.** Read the first lines. "No third-party advertising" is the phrase to look for.
 
 Worth reading: [quiz apps without data collection](/en/blog/quiz-apps-no-data-collection/) for more.
+
+<figure>
+  <img src="/images/blog/apps/etudier-smartphone.jpg" alt="Studying on a smartphone" loading="lazy" />
+  <figcaption>Photo: ONBag · CC0 · Wikimedia Commons</figcaption>
+</figure>
+

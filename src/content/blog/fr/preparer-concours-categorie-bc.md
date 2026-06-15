@@ -2,6 +2,9 @@
 title: "Préparer un concours catégorie B ou C : guide complet"
 description: "Réussir un concours administratif catégorie B ou C : programme, méthode, planning et entraînement aux quiz de culture générale."
 date: 2026-02-10
+image: "/images/blog/apprentissage/bibliotheque-lecture.jpg"
+imageAlt: "Une salle de lecture en bibliothèque"
+imageCredit: "Photo : Diliff · CC BY 2.5 · Wikimedia Commons"
 lang: "fr"
 urlSlug: "preparer-concours-categorie-bc"
 translationKey: "concours-categorie-bc"
@@ -61,3 +64,9 @@ Les concours catégorie B et C de la fonction publique française attirent chaqu
 ## Pour s'entraîner
 
 SAPIRO propose des quiz de culture générale qui correspondent au programme catégorie B et C. Sessions courtes de 15 minutes par jour, idéales pour intégrer l'apprentissage au quotidien. Pour creuser : [culture générale aux concours de la fonction publique](/blog/culture-generale-concours-fonction-publique/).
+
+<figure>
+  <img src="/images/blog/apprentissage/bureau-revision.jpg" alt="Un bureau de révision avec livres et notes" loading="lazy" />
+  <figcaption>Photo : Miscellaneous Items in High Demand, PPOC, Library of Congress · domaine public · Wikimedia Commons</figcaption>
+</figure>
+

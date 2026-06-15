@@ -2,6 +2,9 @@
 title: "Nature Quiz for Kids: Learning Animals the Fun Way"
 description: "How to introduce kids to animals? Age-by-age quizzes, observation games, and teaching tips that actually spark naturalist curiosity."
 date: 2026-01-21
+image: "/images/blog/nature/renard-roux.jpg"
+imageAlt: "A red fox in the wild"
+imageCredit: "Photo: Gregory Slobirdr Smith · CC BY-SA 2.0 · Wikimedia Commons"
 lang: "en"
 urlSlug: "nature-quiz-kids"
 translationKey: "quiz-nature-enfants"
@@ -73,3 +76,9 @@ Misleading common names. The "clownfish" does not laugh, the "basking shark" is 
 ## Going further as a family
 
 Hosting a family nature quiz night works well from age 7. SAPIRO offers 600 animal species with an educational explanation behind each question, which turns every mistake into a learning moment. The quiz format suits kids especially well: short, playful, no grading pressure. Worth reading: [geography as a family](/en/blog/geography-family/) to extend the practice to other fields.
+
+<figure>
+  <img src="/images/blog/nature/papillon.jpg" alt="A butterfly resting on a flower" loading="lazy" />
+  <figcaption>Photo: Charles J. Sharp · CC BY-SA 3.0 · Wikimedia Commons</figcaption>
+</figure>
+

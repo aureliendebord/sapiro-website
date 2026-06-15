@@ -2,6 +2,9 @@
 title: "Quiz cultura general nivel fácil, medio, difícil, experto"
 description: "Quizzes de cultura general por nivel: fácil, medio, difícil, experto. Para evaluar nivel y progresar paso a paso."
 date: 2026-02-23
+image: "/images/blog/apprentissage/bureau-revision.jpg"
+imageAlt: "Un escritorio de estudio con libros y apuntes"
+imageCredit: "Foto: Miscellaneous Items in High Demand, PPOC, Library of Congress · dominio público · Wikimedia Commons"
 lang: "es"
 urlSlug: "quiz-cultura-general-nivel"
 translationKey: "quiz-niveau"
@@ -127,3 +130,9 @@ Tres principios.
 **Aumentar progresivamente.** De facil a medio, luego dificil. SAPIRO propone 2 000+ preguntas por nivel con explicacion.
 
 Para profundizar: [mejores apps de quiz cultura general](/es/blog/mejores-apps-quiz-cultura-general/).
+
+<figure>
+  <img src="/images/blog/apprentissage/bibliotheque-lecture.jpg" alt="Una sala de lectura de biblioteca" loading="lazy" />
+  <figcaption>Foto: Diliff · CC BY 2.5 · Wikimedia Commons</figcaption>
+</figure>
+

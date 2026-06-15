@@ -2,6 +2,9 @@
 title: "20 paires d'animaux qui se ressemblent"
 description: "Crocodile ou alligator, léopard ou guépard, lama ou alpaga : 20 paires d'animaux confondus avec les critères pour ne plus jamais se tromper."
 date: 2026-01-22
+image: "/images/blog/nature/leopard.jpg"
+imageAlt: "Un léopard, souvent confondu avec le guépard"
+imageCredit: "Photo : tropicaLiving · CC BY-SA 3.0 · Wikimedia Commons"
 lang: "fr"
 urlSlug: "differences-animaux-ressemblants"
 translationKey: "animaux-ressemblants"
@@ -151,3 +154,9 @@ La truite est plus petite et vit toute sa vie en eau douce (sauf la truite de me
 Trois techniques marchent. La comparaison en paire (toujours apprendre deux espèces ensemble). L'identification par caractère discriminant (un seul critère qui tranche). L'ancrage géographique (quel continent, quel habitat).
 
 Pour creuser : [50 espèces animales à reconnaître](/blog/quiz-animaux-especes-monde/) et celui sur les [races de chiens](/blog/reconnaitre-races-chiens/). SAPIRO propose des quiz sur 600 espèces, dont beaucoup de paires piégeuses, avec une explication didactique derrière chaque réponse.
+
+<figure>
+  <img src="/images/blog/nature/guepard.jpg" alt="Un guépard reconnaissable à ses larmes noires" loading="lazy" />
+  <figcaption>Photo : Alexander Klink · CC BY 4.0 · Wikimedia Commons</figcaption>
+</figure>
+

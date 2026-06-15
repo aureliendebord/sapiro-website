@@ -2,6 +2,9 @@
 title: "Identifier les animaux avec ses enfants : guide pratique"
 description: "Comment apprendre à votre enfant à identifier les animaux ? Méthodes, sorties et ressources pour développer l'œil naturaliste."
 date: 2026-02-17
+image: "/images/blog/famille/enfant-jumelles.jpg"
+imageAlt: "Un enfant observe la nature avec des jumelles"
+imageCredit: "Photo : Shixart1985 · CC BY 2.0 · Wikimedia Commons"
 lang: "fr"
 urlSlug: "identifier-animaux-enfants"
 translationKey: "identifier-animaux-enfants"
@@ -63,3 +66,9 @@ Trois grandes catégories couvrent l'essentiel pour un enfant.
 **Sous-estimer l'enfant.** Un enfant de 7 ans peut très bien apprendre 50 espèces. Ne pas se limiter aux animaux "mignons".
 
 Pour creuser : [quiz nature pour enfants](/blog/quiz-nature-enfants/).
+
+<figure>
+  <img src="/images/blog/famille/livre-animaux.jpg" alt="Un guide pour identifier les animaux" loading="lazy" />
+  <figcaption>Photo : U.S. Fish and Wildlife Service Southeast Region · domaine public · Wikimedia Commons</figcaption>
+</figure>
+

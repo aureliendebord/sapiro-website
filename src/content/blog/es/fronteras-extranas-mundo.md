@@ -2,6 +2,9 @@
 title: "Las 10 fronteras más extrañas del mundo"
 description: "Baarle-Nassau, enclave de Cooch Behar, cuadripuntos: las 10 fronteras más extrañas del mundo, su historia y originalidad."
 date: 2026-03-08
+image: "/images/blog/monde/mappemonde.jpg"
+imageAlt: "Un mapamundi antiguo"
+imageCredit: "Foto: Various authors. · dominio público · Wikimedia Commons"
 lang: "es"
 urlSlug: "fronteras-extranas-mundo"
 translationKey: "frontieres-etranges"
@@ -73,3 +76,9 @@ Tres razones.
 **Compromisos politicos.** Para evitar una guerra, a veces se aceptan configuraciones absurdas.
 
 Para profundizar: [origen del nombre de los paises](/es/blog/origen-nombres-paises/) y [significado de las banderas](/es/blog/significado-banderas/).
+
+<figure>
+  <img src="/images/blog/monde/frontiere-baarle.jpg" alt="La línea fronteriza marcada en el suelo en Baarle" loading="lazy" />
+  <figcaption>Foto: Www.Mar.io · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
+</figure>
+

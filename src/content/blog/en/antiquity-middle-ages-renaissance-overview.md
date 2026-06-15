@@ -2,6 +2,9 @@
 title: "Antiquity, Middle Ages, Renaissance: Essential Overview"
 description: "Three major periods that structure Western history. Dates, civilizations, movements and figures to navigate them simply."
 date: 2026-02-04
+image: "/images/blog/histoire/forum-romain.jpg"
+imageAlt: "The ruins of the Roman Forum in Rome"
+imageCredit: "Photo: VasuVR · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "en"
 urlSlug: "antiquity-middle-ages-renaissance-overview"
 translationKey: "antiquite-moyen-age-renaissance"
@@ -61,3 +64,9 @@ Tie each period to a keyword. Antiquity = writing and empires. Middle Ages = feu
 Cross-reference with art. Art lets you visualize each era. Antiquity = Greek sculpture, Pompeii frescoes. Middle Ages = Gothic cathedrals, illuminations. Renaissance = Leonardo paintings, Florence dome. The [monuments of Antiquity](/en/blog/ancient-monuments/) also give concrete landmarks to anchor that first period.
 
 See also our [world history timeline](/en/blog/world-timeline-history/) and our article on [art movements](/en/blog/art-movements-explained/) to structure. SAPIRO offers world history quizzes with contextualized explanations.
+
+<figure>
+  <img src="/images/blog/histoire/cathedrale-gothique.jpg" alt="The facade of a Gothic cathedral" loading="lazy" />
+  <figcaption>Photo: Diliff · CC BY-SA 3.0 · Wikimedia Commons</figcaption>
+</figure>
+

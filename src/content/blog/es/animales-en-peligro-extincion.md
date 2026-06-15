@@ -2,6 +2,9 @@
 title: "Animales en peligro de extinción: lista 2026"
 description: "¿Qué animales corren riesgo real de desaparecer en las próximas décadas? Lista actualizada por categoría UICN con cifras reales de población."
 date: 2026-01-17
+image: "/images/blog/nature/panda-geant.jpg"
+imageAlt: "Un panda gigante comiendo bambú"
+imageCredit: "Foto: KQuhen · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "es"
 urlSlug: "animales-en-peligro-extincion"
 translationKey: "animaux-disparition"
@@ -105,3 +108,9 @@ La ecologia no es solo un relato de colapso. Algunos exitos.
 El **condor de California**, el **bisonte americano** (recuperado de 750 a 30 000 individuos), el **gorila de montana**, el **ibis eremita**, el **orix de Arabia** (reintroducido en libertad tras estar extinto en estado salvaje) muestran que la conservacion puede invertir la trayectoria. Pero cada vez se necesitan decadas de esfuerzo coordinado y recursos masivos.
 
 Para profundizar sobre naturaleza, ver tambien nuestro articulo sobre [animales extranos y desconocidos](/es/blog/animales-extranos-desconocidos/) y el de [animales mas peligrosos del mundo](/es/blog/animales-mas-peligrosos-mundo/). SAPIRO permite poner a prueba conocimientos sobre 600 especies, con una explicacion didactica detras de cada pregunta.
+
+<figure>
+  <img src="/images/blog/nature/rhinoceros.jpg" alt="Un rinoceronte negro, especie amenazada" loading="lazy" />
+  <figcaption>Foto: Jebulon · CC0 · Wikimedia Commons</figcaption>
+</figure>
+

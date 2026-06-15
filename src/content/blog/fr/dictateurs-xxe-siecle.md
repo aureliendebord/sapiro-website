@@ -2,6 +2,9 @@
 title: "Les dictateurs du XXe siècle expliqués aux ados"
 description: "Hitler, Staline, Mao, Franco, Pol Pot : les grands dictateurs du XXe siècle expliqués simplement, avec leurs idéologies et leurs conséquences."
 date: 2026-02-06
+image: "/images/blog/histoire/mur-de-berlin.jpg"
+imageAlt: "Vestiges du mur de Berlin"
+imageCredit: "Photo : Slaunger · CC BY-SA 3.0 · Wikimedia Commons"
 lang: "fr"
 urlSlug: "dictateurs-xxe-siecle"
 translationKey: "dictateurs-xxe-siecle"
@@ -61,3 +64,9 @@ Mesurer l'humain. Les chiffres sont abstraits. Mais 50 millions de morts pour la
 Comprendre le XXIe siècle. Beaucoup de tensions actuelles (Chine-Taïwan, Russie-Ukraine, Corées) sont des héritages directs des dictatures du XXe siècle.
 
 Pour aller plus loin, voir notre [frise chronologique mondiale](/blog/frise-chronologique-mondiale/) et notre article sur les [grandes batailles de l'histoire](/blog/grandes-batailles-histoire/). SAPIRO propose des quiz sur les personnages historiques avec explication contextualisée.
+
+<figure>
+  <img src="/images/blog/histoire/memorial-wwii.jpg" alt="Un mémorial de la Seconde Guerre mondiale" loading="lazy" />
+  <figcaption>Photo : Armenak Margarian · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
+</figure>
+

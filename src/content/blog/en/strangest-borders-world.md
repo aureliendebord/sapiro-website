@@ -2,6 +2,9 @@
 title: "The 10 Strangest Borders in the World"
 description: "Baarle-Nassau, Cooch Behar enclave, quadripoint: the 10 strangest borders in the world, their history and originality."
 date: 2026-03-08
+image: "/images/blog/monde/mappemonde.jpg"
+imageAlt: "An antique world map"
+imageCredit: "Photo: Various authors. · public domain · Wikimedia Commons"
 lang: "en"
 urlSlug: "strangest-borders-world"
 translationKey: "frontieres-etranges"
@@ -73,3 +76,9 @@ Three reasons.
 **Political compromises.** To avoid war, absurd configurations are sometimes accepted.
 
 Worth reading: [origin of country names](/en/blog/origin-country-names/) and [flag meanings](/en/blog/flags-meaning/).
+
+<figure>
+  <img src="/images/blog/monde/frontiere-baarle.jpg" alt="The border line on the ground in Baarle" loading="lazy" />
+  <figcaption>Photo: Www.Mar.io · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
+</figure>
+

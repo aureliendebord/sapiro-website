@@ -2,6 +2,9 @@
 title: "20th Century Dictators Explained for Teens"
 description: "Hitler, Stalin, Mao, Franco, Pol Pot: the major 20th century dictators explained simply, with their ideologies and consequences."
 date: 2026-02-06
+image: "/images/blog/histoire/mur-de-berlin.jpg"
+imageAlt: "Remains of the Berlin Wall"
+imageCredit: "Photo: Slaunger · CC BY-SA 3.0 · Wikimedia Commons"
 lang: "en"
 urlSlug: "20th-century-dictators"
 translationKey: "dictateurs-xxe-siecle"
@@ -63,3 +66,9 @@ To grasp the human cost. The numbers are abstract. But 50 million deaths for Wor
 To understand the 21st century. Many current tensions (China-Taiwan, Russia-Ukraine, Koreas) are direct legacies of 20th-century dictatorships.
 
 For more, see our [world history timeline](/en/blog/world-timeline-history/) and our article on [the great battles of history](/en/blog/great-battles-history/). SAPIRO offers quizzes on historical figures with contextualized explanations.
+
+<figure>
+  <img src="/images/blog/histoire/memorial-wwii.jpg" alt="A World War II memorial" loading="lazy" />
+  <figcaption>Photo: Armenak Margarian · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
+</figure>
+

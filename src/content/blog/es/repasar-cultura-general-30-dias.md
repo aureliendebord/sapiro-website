@@ -2,6 +2,9 @@
 title: "Repasar cultura general en 30 días: plan diario"
 description: "Un plan de 30 días para repasar cultura general antes de un examen: día a día, tema a tema, con un programa diario y el método adecuado para que se quede."
 date: 2026-02-12
+image: "/images/blog/apprentissage/bureau-revision.jpg"
+imageAlt: "Un escritorio de estudio con libros y apuntes"
+imageCredit: "Foto: Miscellaneous Items in High Demand, PPOC, Library of Congress · dominio público · Wikimedia Commons"
 lang: "es"
 urlSlug: "repasar-cultura-general-30-dias"
 translationKey: "reviser-30-jours"
@@ -91,3 +94,9 @@ Treinta dias para repasar cultura general es corto pero realista bien planteado.
 **Sueno y deporte.** Siete a ocho horas de sueno minimo. Treinta minutos de deporte al dia. El cerebro consolida durante el sueno.
 
 Ver tambien nuestra [guia completa de cultura general](/es/blog/cultura-general-guia/) para el metodo a largo plazo.
+
+<figure>
+  <img src="/images/blog/apprentissage/bibliotheque-lecture.jpg" alt="Una sala de lectura de biblioteca" loading="lazy" />
+  <figcaption>Foto: Diliff · CC BY 2.5 · Wikimedia Commons</figcaption>
+</figure>
+

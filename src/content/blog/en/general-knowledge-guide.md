@@ -2,6 +2,9 @@
 title: "General Knowledge: The Guide to Know It All"
 description: "Want to improve general knowledge without cramming? Five daily habits, proven retention strategies, and the overlooked domains that make all the difference."
 date: 2025-10-28
+image: "/images/blog/monde/bibliotheque.jpg"
+imageAlt: "An old library full of books"
+imageCredit: "Photo: Davide Cantelli cant89 · CC0 · Wikimedia Commons"
 lang: "en"
 urlSlug: "general-knowledge-guide"
 translationKey: "culture-generale-guide"
@@ -118,6 +121,11 @@ And do not underestimate sleep. Memory consolidation happens while you rest. Lea
 One of the most enjoyable ways to measure how far you have come is to organize a quiz night with friends or family. It combines social fun with genuine knowledge testing, and the competitive element adds motivation that solo study cannot match.
 
 If this sounds appealing, we have a complete guide to [organizing a family geography quiz night](/en/blog/geography-family/) that covers everything from question categories to team formation to scoring systems.
+
+<figure>
+  <img src="/images/blog/monde/livres-anciens.jpg" alt="A stack of old books" loading="lazy" />
+  <figcaption>Photo: Evan Bench from paris, france · CC BY 2.0 · Wikimedia Commons</figcaption>
+</figure>
 
 ## Frequently asked questions
 

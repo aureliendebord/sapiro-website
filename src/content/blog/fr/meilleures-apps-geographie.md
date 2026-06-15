@@ -2,6 +2,9 @@
 title: "Top 8 des apps pour apprendre la géographie"
 description: "Comparatif des 8 meilleures applications pour apprendre la géographie en 2025 : quiz, cartes interactives et jeux éducatifs. Laquelle vous correspond ?"
 date: 2025-11-10
+image: "/images/blog/apps/carte-monde-app.jpg"
+imageAlt: "Une carte du monde sur écran"
+imageCredit: "Photo : Lázár deák (Lazarus secretarius) · domaine public · Wikimedia Commons"
 lang: "fr"
 urlSlug: "meilleures-apps-geographie"
 translationKey: "meilleures-apps-geographie"
@@ -90,6 +93,11 @@ Tout dépend de l'usage.
 Pour un apprentissage suivi qui couvre géographie et culture générale avec des explications après chaque question, SAPIRO fait le travail (oui, on prêche pour notre paroisse). Pour bosser la localisation sur carte à l'ancienne, Seterra reste la référence historique, et personne n'a encore fait mieux sur ce créneau précis. Pour le fun pur, GeoGuessr n'a pas de concurrent sérieux. Les enfants accrocheront à Stack the Countries, et notre guide sur l'[apprentissage de la géographie pour les enfants](/blog/geographie-enfants/) propose d'autres pistes. Google Earth, lui, reste génial quand on veut juste voyager en restant sur son canapé.
 
 Notre conseil après ces semaines de test : combinez deux ou trois apps qui ne se marchent pas sur les pieds. Une pour les quiz courts (SAPIRO ou Geography Quiz), une pour la carte (Seterra), Google Earth en bonus pour visualiser. Pour creuser pourquoi certains drapeaux se ressemblent autant, notre article sur [la signification des drapeaux](/blog/signification-drapeaux/) en parle.
+
+<figure>
+  <img src="/images/blog/apps/etude-mobile.jpg" alt="Apprendre la géographie sur mobile" loading="lazy" />
+  <figcaption>Photo : Pharouqenr · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
+</figure>
 
 ## Questions fréquentes
 

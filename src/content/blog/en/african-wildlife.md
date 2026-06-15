@@ -2,6 +2,9 @@
 title: "African Wildlife: 40 Emblematic Species"
 description: "Lion, wildebeest, fennec, oryx: 40 emblematic animals from Africa with their habitat, diet and conservation status. Complete guide by region."
 date: 2026-01-20
+image: "/images/blog/nature/elephant-afrique.jpg"
+imageAlt: "An African elephant in the savanna"
+imageCredit: "Photo: Geoff Gallice · CC BY 2.0 · Wikimedia Commons"
 lang: "en"
 urlSlug: "african-wildlife"
 translationKey: "animaux-afrique"
@@ -107,3 +110,9 @@ The term "Big Five" comes from colonial safaris. It originally referred to the f
 African animal populations have dropped by 70% on average since 1970, according to WWF. Three causes dominate: habitat loss (urbanization, agriculture), poaching (mostly for ivory, horn and skins), and climate change. For the species at greatest risk, see our [endangered species list](/en/blog/endangered-species-list/).
 
 SAPIRO offers quizzes covering 600 species across the animal kingdom, including about a hundred from Africa, with an explanation behind each answer.
+
+<figure>
+  <img src="/images/blog/nature/lion-afrique.jpg" alt="A lion in the African savanna" loading="lazy" />
+  <figcaption>Photo: Michael Barera · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
+</figure>
+

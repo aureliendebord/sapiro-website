@@ -2,6 +2,9 @@
 title: "20 idées cadeaux pour enfant curieux (6, 8, 10 ans)"
 description: "Vingt idées de cadeaux éducatifs et ludiques pour enfants curieux de 6 à 12 ans : jeux, livres, apps, instruments d'observation."
 date: 2026-02-20
+image: "/images/blog/famille/cadeau-emballe.jpg"
+imageAlt: "Un cadeau emballé avec un ruban"
+imageCredit: "Photo : daveynin from United States · CC BY 2.0 · Wikimedia Commons"
 lang: "fr"
 urlSlug: "cadeau-enfant-curieux"
 translationKey: "cadeau-enfant-curieux"
@@ -71,3 +74,9 @@ Trouver un cadeau qui plaise à un enfant curieux et qui dure, c'est rare. Voici
 **Qui correspond à un intérêt déjà manifesté.** Inutile d'offrir un microscope à un enfant passionné d'histoire. Observer ce qui attire l'enfant.
 
 Pour creuser : [quiz nature pour enfants](/blog/quiz-nature-enfants/) et les [activités culturelles en famille](/blog/activites-culturelles-famille/) pour prolonger.
+
+<figure>
+  <img src="/images/blog/famille/jouets-bois-educatifs.jpg" alt="Des jouets éducatifs en bois pour enfants" loading="lazy" />
+  <figcaption>Photo : perpetual.fostering · CC BY 2.0 · Wikimedia Commons</figcaption>
+</figure>
+

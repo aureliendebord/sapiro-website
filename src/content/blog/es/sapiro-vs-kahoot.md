@@ -2,6 +2,9 @@
 title: "Sapiro vs Kahoot: dos herramientas, dos usos"
 description: "Comparativa entre SAPIRO y Kahoot: uno está diseñado para el aula, el otro para aprender solo o en familia. Contenido, privacidad, precios, pedagogía."
 date: 2026-03-20
+image: "/images/blog/apps/tablette-education.jpg"
+imageAlt: "Aprender en una tableta"
+imageCredit: "Foto: Shixart1985 · CC BY 2.0 · Wikimedia Commons"
 lang: "es"
 urlSlug: "sapiro-vs-kahoot"
 translationKey: "sapiro-vs-kahoot"
@@ -66,3 +69,9 @@ SAPIRO está hecho para otro momento. El de cuando un niño llega a casa y quier
 La elección no es una u otra. Depende del contexto. En el aula, Kahoot. En casa, SAPIRO.
 
 Para más comparativas, consulta [SAPIRO vs Trivia Crack](/es/blog/sapiro-vs-trivia-crack/), [SAPIRO vs GeoGuessr](/es/blog/sapiro-vs-geoguessr/) y nuestro artículo sobre [la gamificación en la educación](/es/blog/gamificacion-educacion/).
+
+<figure>
+  <img src="/images/blog/apps/apprendre-mobile.jpg" alt="Jugar y aprender en el teléfono" loading="lazy" />
+  <figcaption>Foto: Anastasiya Lvova · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
+</figure>
+

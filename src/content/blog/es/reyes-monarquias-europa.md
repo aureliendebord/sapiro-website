@@ -2,6 +2,9 @@
 title: "Reyes y monarquías de Europa: lista completa por país"
 description: "De Carlomagno a Isabel II: los monarcas esenciales de Europa por país y dinastía, con fechas de reinado y eventos mayores."
 date: 2026-02-01
+image: "/images/blog/histoire/galerie-des-glaces.jpg"
+imageAlt: "La galería de los Espejos del palacio de Versalles"
+imageCredit: "Foto: Myrabella · CC BY-SA 3.0 · Wikimedia Commons"
 lang: "es"
 urlSlug: "reyes-monarquias-europa"
 translationKey: "rois-monarchies-europe"
@@ -101,3 +104,9 @@ Cruzar con eventos mayores. Revolucion americana = Luis XVI y Jorge III. Primera
 Cruzar con los lugares de poder. De Versalles a El Escorial, los [castillos y palacios famosos](/es/blog/castillos-palacios-famosos-mundo/) cuentan de forma concreta el reinado de estos gobernantes.
 
 Para profundizar, ver nuestra [linea de tiempo mundial](/es/blog/linea-tiempo-historia-mundial/) y nuestro articulo sobre [personajes historicos mayores](/es/blog/personajes-historicos/). SAPIRO propone quizzes de historia con explicacion contextualizada detras de cada pregunta.
+
+<figure>
+  <img src="/images/blog/histoire/louis-xiv.jpg" alt="Retrato de Luis XIV" loading="lazy" />
+  <figcaption>Foto: Hyacinthe Rigaud · CC0 · Wikimedia Commons</figcaption>
+</figure>
+

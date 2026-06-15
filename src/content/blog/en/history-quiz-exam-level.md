@@ -2,6 +2,9 @@
 title: "World History Quiz: Exam-Level Practice"
 description: "Review world history for exams and tests: official syllabus, must-know dates and quizzes to practice."
 date: 2026-02-05
+image: "/images/blog/histoire/chateau-versailles.jpg"
+imageAlt: "The Palace of Versailles"
+imageCredit: "Photo: Basile Morin · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "en"
 urlSlug: "history-quiz-exam-level"
 translationKey: "quiz-histoire-france"
@@ -83,3 +86,9 @@ Tie event to figure. 1789 = Louis XVI and the Bastille. 1804 = Napoleon. 1945 = 
 Test regularly. The [science of memorization](/en/blog/gamification-education/) shows you retain 50% better when self-testing. SAPIRO offers history quizzes with contextualized explanations behind each question.
 
 For more, see our [world history timeline](/en/blog/world-timeline-history/) and the article on [the great battles of history](/en/blog/great-battles-history/).
+
+<figure>
+  <img src="/images/blog/histoire/revolution-francaise.jpg" alt="Painting of the French Revolution" loading="lazy" />
+  <figcaption>Photo: Horace Vernet · public domain · Wikimedia Commons</figcaption>
+</figure>
+

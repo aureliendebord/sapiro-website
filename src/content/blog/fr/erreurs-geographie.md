@@ -2,6 +2,9 @@
 title: "12 erreurs de géographie que tout le monde fait"
 description: "Sydney capitale de l'Australie ? Groenland plus grand que l'Afrique ? Les 12 erreurs de géographie courantes que tout le monde fait. Combien en faites-vous ?"
 date: 2025-11-15
+image: "/images/blog/monde/carte-monde-ancienne.jpg"
+imageAlt: "Une vieille carte du monde"
+imageCredit: "Photo : Reginald Lane Poole · domaine public · Wikimedia Commons"
 lang: "fr"
 urlSlug: "erreurs-geographie"
 translationKey: "erreurs-geographie"
@@ -99,6 +102,11 @@ Ces erreurs ne sont pas une fatalité. Quelques habitudes simples suffisent.
 Faites des quiz réguliers, même courts. Cinq minutes par jour valent mieux qu'une heure par mois. La [répétition espacée et le rappel actif](/blog/gamification-education/) sont les deux piliers de la mémorisation durable. Manipulez des cartes interactives plutôt que de simplement les regarder -- ça renforce la mémoire spatiale bien plus efficacement. Et si les drapeaux vous intéressent aussi, découvrez les [drapeaux les plus difficiles à reconnaître](/blog/drapeaux-difficiles/).
 
 Quand un pays passe aux infos, localisez-le immédiatement sur une carte. Organisez une [soirée quiz géographie](/blog/geographie-famille/) avec vos proches : on retient mieux quand on apprend en s'amusant. Et surtout, inventez vos propres moyens mnémotechniques. Les associations les plus absurdes sont souvent celles qui collent le mieux.
+
+<figure>
+  <img src="/images/blog/monde/globe-terrestre.jpg" alt="Un globe terrestre ancien" loading="lazy" />
+  <figcaption>Photo : Henry James · domaine public · Wikimedia Commons</figcaption>
+</figure>
 
 ## Questions fréquentes
 

@@ -2,6 +2,9 @@
 title: "20 Strange and Lesser-Known Animals in the World"
 description: "Tardigrade, axolotl, pangolin, vampire squid: 20 strange and lesser-known animals that actually exist, with their biological quirks."
 date: 2026-01-18
+image: "/images/blog/nature/axolotl.jpg"
+imageAlt: "An axolotl, an amphibian with a striking appearance"
+imageCredit: "Photo: Stan Shebs · CC BY-SA 3.0 · Wikimedia Commons"
 lang: "en"
 urlSlug: "strange-unknown-animals"
 translationKey: "animaux-etranges"
@@ -71,3 +74,9 @@ Nature sometimes has more imagination than any science fiction movie. Here are 2
 Most of these animals share three traits. They live in habitats hard to access (great depths, dense forests, underground). They are rare or very localized. Their discovery is recent, sometimes less than 50 years ago. Biodiversity remains largely unexplored: an estimated 86% of land species and 91% of marine species have not yet been described.
 
 Worth reading: [50 animal species worth knowing](/en/blog/quiz-animals-world-species/), [endangered species](/en/blog/endangered-species-list/) and [the most dangerous animals in the world](/en/blog/most-dangerous-animals-world/). SAPIRO offers quizzes on 600 species, from the most familiar to the strangest, with an explanation behind each question.
+
+<figure>
+  <img src="/images/blog/nature/ornithorynque.jpg" alt="A platypus, an egg-laying mammal" loading="lazy" />
+  <figcaption>Photo: Charles J. Sharp · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
+</figure>
+

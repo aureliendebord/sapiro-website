@@ -2,6 +2,9 @@
 title: "12 errores de geografía que todos cometemos"
 description: "Los 12 errores de geografía comunes que casi todos cometemos: capitales confundidas, países mal ubicados y mitos del mapa. ¿En cuántos caes tú? Compruébalo."
 date: 2025-11-15
+image: "/images/blog/monde/carte-monde-ancienne.jpg"
+imageAlt: "Un mapa del mundo antiguo"
+imageCredit: "Foto: Reginald Lane Poole · dominio público · Wikimedia Commons"
 lang: "es"
 urlSlug: "errores-geografia"
 translationKey: "erreurs-geographie"
@@ -69,6 +72,11 @@ Cierra los ojos y piensa en el Sahara. Seguro que ves dunas doradas hasta el hor
 La mayoria comparten raices comunes. Nuestro sistema educativo se centra en la geografia local y deja enormes huecos sobre el resto del mundo. Los medios de comunicacion refuerzan estereotipos y simplifican la informacion geografica. La proyeccion de Mercator, usada durante siglos como mapa estandar, distorsiona nuestra percepcion de tamanos y posiciones. Y luego esta lo obvio: sin practica regular, se nos olvida lo que aprendimos en la escuela.
 
 Corregir estos errores tampoco requiere volver a la escuela. Los metodos de [repeticion espaciada](/es/blog/mejores-apps-geografia/) funcionan especialmente bien para fijar informacion geografica a largo plazo. Y la [gamificacion aplicada a la educacion](/es/blog/gamificacion-educacion/) muestra que los quiz mejoran la retencion hasta un 50% frente a la lectura pasiva.
+
+<figure>
+  <img src="/images/blog/monde/globe-terrestre.jpg" alt="Un globo terráqueo antiguo" loading="lazy" />
+  <figcaption>Foto: Henry James · dominio público · Wikimedia Commons</figcaption>
+</figure>
 
 ## Preguntas frecuentes
 

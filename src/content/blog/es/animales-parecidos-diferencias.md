@@ -2,6 +2,9 @@
 title: "20 parejas de animales que se parecen: cómo distinguirlos"
 description: "Cocodrilo o caimán, leopardo o guepardo, llama o alpaca: 20 parejas de animales confundidos con los criterios para no volver a equivocarse."
 date: 2026-01-22
+image: "/images/blog/nature/leopard.jpg"
+imageAlt: "Un leopardo, a menudo confundido con el guepardo"
+imageCredit: "Foto: tropicaLiving · CC BY-SA 3.0 · Wikimedia Commons"
 lang: "es"
 urlSlug: "animales-parecidos-diferencias"
 translationKey: "animaux-ressemblants"
@@ -149,3 +152,9 @@ La trucha es mas pequena y vive toda su vida en agua dulce (salvo la trucha mari
 Tres tecnicas funcionan. La comparacion en pareja (aprender dos especies juntas). La identificacion por rasgo discriminante. El anclaje geografico (que continente, que habitat).
 
 Para profundizar: [50 especies animales que reconocer](/es/blog/quiz-animales-especies-mundo/) y el de [razas de perros](/es/blog/razas-perros-reconocer/). SAPIRO propone quizzes sobre 600 especies, incluidas muchas parejas tramposas, con explicacion didactica detras de cada respuesta.
+
+<figure>
+  <img src="/images/blog/nature/guepard.jpg" alt="Un guepardo reconocible por sus marcas lacrimales negras" loading="lazy" />
+  <figcaption>Foto: Alexander Klink · CC BY 4.0 · Wikimedia Commons</figcaption>
+</figure>
+

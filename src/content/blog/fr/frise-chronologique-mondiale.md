@@ -2,6 +2,9 @@
 title: "Frise chronologique mondiale : repères essentiels"
 description: "Antiquité, Moyen Âge, Renaissance, ère industrielle, guerres mondiales : frise chronologique mondiale avec les dates et événements à retenir."
 date: 2026-01-30
+image: "/images/blog/histoire/pyramides-gizeh.jpg"
+imageAlt: "Les pyramides de Gizeh en Égypte"
+imageCredit: "Photo : Ricardo Liberato · CC BY-SA 2.0 · Wikimedia Commons"
 lang: "fr"
 urlSlug: "frise-chronologique-mondiale"
 translationKey: "frise-chronologique"
@@ -113,6 +116,11 @@ Associer chaque siècle à un événement-pivot. XVe siècle = 1492. XVIIIe = 17
 Penser par grandes "ruptures". Néolithique, Antiquité (Rome), chute de Rome (476), Renaissance (1492), Révolution (1789), guerres mondiales (XXe).
 
 Croiser avec la géographie. Les civilisations se chevauchent. Rome existe en même temps que la Chine des Han, l'Inde maurya. La frise européenne n'est pas la frise mondiale.
+
+<figure>
+  <img src="/images/blog/histoire/artefact-antique.jpg" alt="Une poterie grecque antique" loading="lazy" />
+  <figcaption>Photo : Carlo Dell'Orto · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
+</figure>
 
 ## Questions fréquentes
 

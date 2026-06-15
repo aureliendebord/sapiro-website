@@ -2,6 +2,9 @@
 title: "20 Women Who Shaped World History"
 description: "Cleopatra, Joan of Arc, Marie Curie, Rosa Parks: 20 women who shaped world history with their era and impact."
 date: 2026-02-03
+image: "/images/blog/histoire/marie-curie.jpg"
+imageAlt: "Portrait of Marie Curie"
+imageCredit: "Photo: Henri Manuel · public domain · Wikimedia Commons"
 lang: "en"
 urlSlug: "women-who-shaped-history"
 translationKey: "femmes-histoire"
@@ -77,3 +80,9 @@ Tie each figure to a field. Politics: queens and prime ministers. Science: Marie
 Cross-reference with contexts. Joan of Arc = Hundred Years' War. Cleopatra = Roman conquest. Rosa Parks = American segregation. Context makes the figure more memorable.
 
 Worth reading: [major historical figures](/en/blog/historical-figures/) and the [world history timeline](/en/blog/world-timeline-history/). SAPIRO offers quizzes on 500+ historical figures with contextualized explanations.
+
+<figure>
+  <img src="/images/blog/histoire/rosa-parks.jpg" alt="Portrait of Rosa Parks" loading="lazy" />
+  <figcaption>Photo: Unknown authorUnknown author · public domain · Wikimedia Commons</figcaption>
+</figure>
+

@@ -2,6 +2,9 @@
 title: "Seasonal Quizzes: Christmas, Summer, Olympics, Elections"
 description: "Themed seasonal quizzes: Christmas, summer, Olympics, elections. Question ideas and method to host an evening."
 date: 2026-02-24
+image: "/images/blog/apprentissage/decorations-noel.jpg"
+imageAlt: "Illuminated Christmas decorations"
+imageCredit: "Photo: Rhododendrites · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "en"
 urlSlug: "seasonal-quiz-christmas-olympics"
 translationKey: "quiz-saisonnier"
@@ -97,3 +100,9 @@ Three principles.
 **Limit to 15-20 questions.** Beyond that, attention drops. Better a short quiz repeated than a long draining one.
 
 SAPIRO offers 2,000+ general knowledge questions, perfect to pick by theme. Worth reading: [family cultural activities](/en/blog/family-cultural-activities/) and [general knowledge quiz by level](/en/blog/general-knowledge-quiz-levels/).
+
+<figure>
+  <img src="/images/blog/apprentissage/stade-olympique.jpg" alt="An Olympic stadium" loading="lazy" />
+  <figcaption>Photo: Acarpentier ; this edited version by Sting · CC BY 3.0 · Wikimedia Commons</figcaption>
+</figure>
+

@@ -2,6 +2,9 @@
 title: "Presidentes de Estados Unidos: la lista completa"
 description: "De George Washington a hoy: lista completa de presidentes de EEUU con fechas, partido y eventos clave de cada mandato."
 date: 2026-02-02
+image: "/images/blog/histoire/maison-blanche.jpg"
+imageAlt: "La Casa Blanca en Washington"
+imageCredit: "Foto: Benjamin Henry Latrobe · dominio público · Wikimedia Commons"
 lang: "es"
 urlSlug: "presidentes-estados-unidos"
 translationKey: "presidents-usa"
@@ -75,3 +78,9 @@ Vincular cada presidente a un evento clave. Lincoln = abolicion de la esclavitud
 Saber el partido. Democratas: Jefferson, FDR, Kennedy, Johnson, Carter, Clinton, Obama, Biden. Republicanos: Lincoln, Theodore Roosevelt, Eisenhower, Nixon, Reagan, Bush, Trump.
 
 Para profundizar: [personajes historicos mayores](/es/blog/personajes-historicos/) y la [linea de tiempo mundial](/es/blog/linea-tiempo-historia-mundial/). SAPIRO propone quizzes de historia mundial con explicacion contextualizada.
+
+<figure>
+  <img src="/images/blog/histoire/mont-rushmore.jpg" alt="El monte Rushmore" loading="lazy" />
+  <figcaption>Foto: Dean Franklin · dominio público · Wikimedia Commons</figcaption>
+</figure>
+

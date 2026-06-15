@@ -2,6 +2,9 @@
 title: "Les 10 meilleures apps de quiz culture générale en 2026"
 description: "Comparatif des meilleures applications de quiz et culture générale : Trivia Crack, Kahoot, QuizUp, SAPIRO... Laquelle choisir ? Notre analyse complète."
 date: 2026-03-20
+image: "/images/blog/apps/smartphone-app.jpg"
+imageAlt: "Une application de quiz sur smartphone"
+imageCredit: "Photo : Mictlancihuatl · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "fr"
 urlSlug: "meilleures-apps-quiz-culture-generale"
 translationKey: "best-quiz-apps-comparison"
@@ -132,3 +135,9 @@ Un dernier point qui compte quand on confie un téléphone à un enfant : lisez 
 Pour aller plus loin, nos comparatifs détaillés [SAPIRO vs Trivia Crack](/blog/sapiro-vs-trivia-crack/), [SAPIRO vs GeoGuessr](/blog/sapiro-vs-geoguessr/) et [SAPIRO vs Kahoot](/blog/sapiro-vs-kahoot/), ou le [guide des meilleures apps de géographie](/blog/meilleures-apps-geographie/).
 
 Et si le sujet vous intéresse au-delà des apps : notre [guide complet de la culture générale](/blog/culture-generale-guide/) et un papier sur [la gamification dans l'éducation](/blog/gamification-education/) pour comprendre pourquoi le format quiz fonctionne aussi bien.
+
+<figure>
+  <img src="/images/blog/apps/etudier-smartphone.jpg" alt="Tester ses connaissances sur son téléphone" loading="lazy" />
+  <figcaption>Photo : ONBag · CC0 · Wikimedia Commons</figcaption>
+</figure>
+

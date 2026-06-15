@@ -2,6 +2,9 @@
 title: "Quizzes para imprimir para niños: países, animales, arte"
 description: "Modelos de quiz para imprimir para niños: banderas, capitales, animales, arte. Soluciones y consejos para adaptar al nivel del niño."
 date: 2026-02-19
+image: "/images/blog/famille/enfant-cahier.jpg"
+imageAlt: "Un niño escribe en un cuaderno"
+imageCredit: "Foto: Shixart1985 · CC BY 2.0 · Wikimedia Commons"
 lang: "es"
 urlSlug: "quiz-imprimir-ninos"
 translationKey: "quiz-imprimer"
@@ -100,3 +103,9 @@ Limitados a un solo juego, poca variedad. Sin explicacion automatica. Sin progre
 Para sesiones regulares, mejor una app dedicada. SAPIRO propone 2 000+ preguntas con explicacion didactica, sobre cuatro universos (geografia, historia, arte, naturaleza). Permite medir la progresion en el tiempo.
 
 Para profundizar: [mejores apps de quiz cultura general](/es/blog/mejores-apps-quiz-cultura-general/).
+
+<figure>
+  <img src="/images/blog/famille/crayons-couleur.jpg" alt="Lápices de colores para responder el quiz" loading="lazy" />
+  <figcaption>Foto: MichaelMaggs · CC BY-SA 3.0 · Wikimedia Commons</figcaption>
+</figure>
+

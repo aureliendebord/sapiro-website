@@ -2,6 +2,9 @@
 title: "30 Famous Paintings: The Masterpieces to Know"
 description: "Mona Lisa, Starry Night, Les Demoiselles d'Avignon: 30 famous paintings with their story, painter, and what makes them essential."
 date: 2026-01-23
+image: "/images/blog/art/joconde.jpg"
+imageAlt: "The Mona Lisa by Leonardo da Vinci"
+imageCredit: "Photo: Leonardo da Vinci · public domain · Wikimedia Commons"
 lang: "en"
 urlSlug: "famous-paintings-masterpieces"
 translationKey: "tableaux-celebres"
@@ -89,3 +92,9 @@ Attach an anecdote. The theft of the Mona Lisa, Van Gogh's madness, the difficul
 Visit. No reproduction replaces the real impact of a work seen in person. To plan, see our article on [the most visited museums in the world](/en/blog/most-visited-museums-world/).
 
 SAPIRO offers quizzes on 553 works of art, with an educational explanation behind each question. Worth reading: [essential artworks](/en/blog/essential-artworks-to-know/) for a tighter selection.
+
+<figure>
+  <img src="/images/blog/art/ronde-de-nuit.jpg" alt="The Night Watch by Rembrandt" loading="lazy" />
+  <figcaption>Photo: Rembrandt · public domain · Wikimedia Commons</figcaption>
+</figure>
+

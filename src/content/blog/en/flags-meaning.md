@@ -2,6 +2,9 @@
 title: "Hidden Meaning of Flags: Colors and Symbols"
 description: "What do flag colors actually represent? Explore the meaning of flags colors and symbols, from Japan's red sun to Nepal's unique shape and Brazil's sky."
 date: 2025-11-05
+image: "/images/blog/monde/mur-drapeaux.jpg"
+imageAlt: "A row of national flags"
+imageCredit: "Photo: Willem van de Velde the Younger · public domain · Wikimedia Commons"
 lang: "en"
 urlSlug: "flags-meaning"
 translationKey: "signification-drapeaux"
@@ -109,6 +112,11 @@ Ireland and Ivory Coast (Cote d'Ivoire) both use green, white, and orange vertic
 Australia and New Zealand both feature the Union Jack in the canton with Southern Cross stars on a blue background. New Zealand uses four red stars with white borders, while Australia uses six white stars plus a large Commonwealth Star below the Union Jack.
 
 These near-twins are a perennial source of embarrassment at international sporting events, where the wrong flag occasionally appears on scoreboards. Sometimes it takes a formal protest to get it corrected. Our deep dive into [the 15 hardest flags to recognize](/en/blog/hardest-flags/) covers even more confusing pairs and the tricks to finally tell them apart.
+
+<figure>
+  <img src="/images/blog/monde/drapeaux-monde.jpg" alt="A collection of world flags" loading="lazy" />
+  <figcaption>Photo: Colin Smith · CC BY-SA 2.0 · Wikimedia Commons</figcaption>
+</figure>
 
 ## Frequently asked questions
 

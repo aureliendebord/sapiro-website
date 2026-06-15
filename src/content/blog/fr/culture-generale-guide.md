@@ -2,6 +2,9 @@
 title: "Culture générale : le guide pour tout savoir"
 description: "Comment améliorer sa culture générale au quotidien ? Méthodes concrètes, ressources choisies et habitudes simples pour progresser en 15 minutes par jour."
 date: 2025-10-28
+image: "/images/blog/monde/bibliotheque.jpg"
+imageAlt: "Une ancienne bibliothèque remplie de livres"
+imageCredit: "Photo : Davide Cantelli cant89 · CC0 · Wikimedia Commons"
 lang: "fr"
 urlSlug: "culture-generale-guide"
 translationKey: "culture-generale-guide"
@@ -99,3 +102,9 @@ Pour les histoires cachées derrière les bannières nationales, voyez notre art
 ## Pour commencer ce soir
 
 SAPIRO propose des quiz de géographie, drapeaux, capitales et culture générale, avec une explication derrière chaque réponse. Si l'idée vous tente, testez sur un trajet ou pendant un café.
+
+<figure>
+  <img src="/images/blog/monde/livres-anciens.jpg" alt="Une pile de vieux livres" loading="lazy" />
+  <figcaption>Photo : Evan Bench from paris, france · CC BY 2.0 · Wikimedia Commons</figcaption>
+</figure>
+

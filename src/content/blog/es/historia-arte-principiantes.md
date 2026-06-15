@@ -2,6 +2,9 @@
 title: "Historia del arte para principiantes: guía inicial"
 description: "¿Partes de cero en historia del arte? Guía accesible de grandes períodos, obras y artistas para tener una visión de conjunto."
 date: 2026-01-28
+image: "/images/blog/art/naissance-venus.jpg"
+imageAlt: "El nacimiento de Venus de Botticelli"
+imageCredit: "Foto: Sandro Botticelli · dominio público · Wikimedia Commons"
 lang: "es"
 urlSlug: "historia-arte-principiantes"
 translationKey: "histoire-art-nuls"
@@ -91,3 +94,9 @@ Leer biografias cortas. Los artistas tienen vidas novelescas que ayudan a record
 Testear los conocimientos. Ver una obra, adivinar al artista, comprobar. SAPIRO propone 553 obras con su contexto, ideal para entrenarse.
 
 Para profundizar: [como reconocer a un pintor por su estilo](/es/blog/reconocer-pintor-estilo/).
+
+<figure>
+  <img src="/images/blog/art/jeune-fille-perle.jpg" alt="La joven de la perla de Vermeer" loading="lazy" />
+  <figcaption>Foto: Johannes Vermeer · dominio público · Wikimedia Commons</figcaption>
+</figure>
+

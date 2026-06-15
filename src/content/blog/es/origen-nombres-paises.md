@@ -2,6 +2,9 @@
 title: "Origen del nombre de los países: etimologías"
 description: "Francia, Argentina, Pakistán, Australia: el origen del nombre de los países revela su historia y culturas. 20 etimologías sorprendentes."
 date: 2026-03-09
+image: "/images/blog/monde/mappemonde.jpg"
+imageAlt: "Un mapamundi antiguo"
+imageCredit: "Foto: Various authors. · dominio público · Wikimedia Commons"
 lang: "es"
 urlSlug: "origen-nombres-paises"
 translationKey: "origine-noms-pays"
@@ -105,3 +108,9 @@ Literalmente "pais bajo", porque en su mayoria bajo el nivel del mar (hasta -7 m
 Desde 1989, el nombre oficial es Myanmar pero muchos siguen diciendo Birmania. La junta militar cambio el nombre para romper con la herencia colonial.
 
 Para profundizar: [significado de las banderas](/es/blog/significado-banderas/) y [paises desaparecidos](/es/blog/paises-desaparecidos/).
+
+<figure>
+  <img src="/images/blog/monde/globe-terrestre.jpg" alt="Un globo terráqueo antiguo" loading="lazy" />
+  <figcaption>Foto: Henry James · dominio público · Wikimedia Commons</figcaption>
+</figure>
+

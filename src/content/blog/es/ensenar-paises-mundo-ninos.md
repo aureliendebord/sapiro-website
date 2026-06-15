@@ -2,6 +2,9 @@
 title: "Cómo enseñar los países del mundo a los niños"
 description: "¿Cómo introducir países, banderas y capitales a los niños? Métodos por edad, juegos y recursos para despertar la curiosidad geográfica."
 date: 2026-02-14
+image: "/images/blog/famille/carte-monde-drapeaux.jpg"
+imageAlt: "Un mapa del mundo con los países y las banderas"
+imageCredit: "Foto: Transparent 6lue · dominio público · Wikimedia Commons"
 lang: "es"
 urlSlug: "ensenar-paises-mundo-ninos"
 translationKey: "apprendre-pays-enfants"
@@ -65,3 +68,9 @@ A esta edad, el nino puede dominar los 197 paises reconocidos, con capitales y b
 **Confundir paises tramposos.** Eslovaquia/Eslovenia, Austria/Australia. Hacer la diferencia clara desde el principio.
 
 Para profundizar: [geografia en familia](/es/blog/geografia-familia/) para transformar el aprendizaje en momento compartido.
+
+<figure>
+  <img src="/images/blog/famille/globe-enfant.jpg" alt="Un globo terráqueo para descubrir los países" loading="lazy" />
+  <figcaption>Foto: Shixart1985 · CC BY 2.0 · Wikimedia Commons</figcaption>
+</figure>
+

@@ -2,6 +2,9 @@
 title: "Quiz capitales du monde : combien peux-tu en nommer ?"
 description: "Quiz capitales du monde : de Canberra à Naypyidaw, les capitales les plus surprenantes et les pièges à éviter. Combien pouvez-vous en nommer sur 195 ?"
 date: 2025-12-10
+image: "/images/blog/monde/mappemonde.jpg"
+imageAlt: "Une mappemonde ancienne"
+imageCredit: "Photo : Various authors. · domaine public · Wikimedia Commons"
 lang: "fr"
 urlSlug: "quiz-capitales-monde"
 translationKey: "quiz-capitales-monde"
@@ -101,6 +104,11 @@ La capitale la plus récente est Naypyidaw, inaugurée en 2006. Avant elle, Asta
 Sur 195 pays reconnus, combien de capitales pouvez-vous sortir de tête ? La plupart des gens plafonnent entre 40 et 60. Les passionnés de géographie montent à 120-150. Les vrais mordus revendiquent la totalité.
 
 Quel que soit le score de départ, il progresse vite dès qu'on s'y met régulièrement. Les capitales s'accrochent mieux quand on les associe à des anecdotes plutôt qu'à une liste sèche.
+
+<figure>
+  <img src="/images/blog/monde/capitale-paris.jpg" alt="Vue aérienne de Paris" loading="lazy" />
+  <figcaption>Photo : Drew Coffman drewcoffman · CC0 · Wikimedia Commons</figcaption>
+</figure>
 
 ## Questions fréquentes
 

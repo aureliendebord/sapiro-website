@@ -2,6 +2,9 @@
 title: "Countries That No Longer Exist: The List of the Vanished"
 description: "Yugoslavia, USSR, Czechoslovakia, East Germany: the list of countries that no longer exist and the story of their recent disappearance."
 date: 2026-03-07
+image: "/images/blog/monde/carte-monde-ancienne.jpg"
+imageAlt: "An old world map"
+imageCredit: "Photo: Reginald Lane Poole · public domain · Wikimedia Commons"
 lang: "en"
 urlSlug: "countries-that-disappeared"
 translationKey: "pays-disparus"
@@ -91,3 +94,9 @@ Three techniques.
 **Know the "children"** that emerged from each vanished country. USSR → 15. Yugoslavia → 7 with Kosovo.
 
 **Test knowledge.** SAPIRO offers quizzes on world geography and history, with contextualized explanations. Worth reading: [world history timeline](/en/blog/world-timeline-history/).
+
+<figure>
+  <img src="/images/blog/monde/globe-terrestre.jpg" alt="An antique terrestrial globe" loading="lazy" />
+  <figcaption>Photo: Henry James · public domain · Wikimedia Commons</figcaption>
+</figure>
+

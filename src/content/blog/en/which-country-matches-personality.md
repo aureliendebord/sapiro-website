@@ -2,6 +2,9 @@
 title: "Which Country Matches Your Personality? The Test"
 description: "Playful test: which country matches your personality? A journey through culture, geography and character to discover your mirror country."
 date: 2026-03-10
+image: "/images/blog/monde/globe-terrestre.jpg"
+imageAlt: "An antique terrestrial globe"
+imageCredit: "Photo: Henry James · public domain · Wikimedia Commons"
 lang: "en"
 urlSlug: "which-country-matches-personality"
 translationKey: "test-pays-personnalite"
@@ -113,3 +116,9 @@ Traveling to the mirror country revealed by the test can be a special experience
 SAPIRO offers quizzes to better know the 197 countries of the world, their culture, history, geography. Worth reading: [least visited countries in the world](/en/blog/least-visited-countries-world/) and [origin of country names](/en/blog/origin-country-names/).
 
 This test is intentionally simplified and playful. Cultural stereotypes are starting points, never absolute truths. Each country holds millions of different personalities.
+
+<figure>
+  <img src="/images/blog/monde/carte-monde-ancienne.jpg" alt="An old world map" loading="lazy" />
+  <figcaption>Photo: Reginald Lane Poole · public domain · Wikimedia Commons</figcaption>
+</figure>
+

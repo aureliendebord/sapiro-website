@@ -2,6 +2,9 @@
 title: "The 10 Smallest Countries in the World"
 description: "Vatican, Monaco, Nauru, Tuvalu: the 10 smallest countries in the world by area, with their history, population and quirks."
 date: 2026-03-06
+image: "/images/blog/monde/vatican.jpg"
+imageAlt: "Vatican City seen from above"
+imageCredit: "Photo: CAPTAIN RAJU · CC0 · Wikimedia Commons"
 lang: "en"
 urlSlug: "smallest-countries-world"
 translationKey: "plus-petits-pays"
@@ -95,3 +98,9 @@ Three historical reasons.
 - Malta = 3 times the city of Brussels
 
 Worth reading: [least visited countries in the world](/en/blog/least-visited-countries-world/) and [countries that no longer exist](/en/blog/countries-that-disappeared/) to continue.
+
+<figure>
+  <img src="/images/blog/monde/carte-monde-ancienne.jpg" alt="An old world map" loading="lazy" />
+  <figcaption>Photo: Reginald Lane Poole · public domain · Wikimedia Commons</figcaption>
+</figure>
+

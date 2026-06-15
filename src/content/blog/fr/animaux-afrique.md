@@ -2,6 +2,9 @@
 title: "Les animaux d'Afrique : 40 espèces emblématiques"
 description: "Lion, gnou, fennec, oryx : 40 animaux emblématiques d'Afrique avec leur habitat, régime et statut de conservation. Guide complet par région."
 date: 2026-01-20
+image: "/images/blog/nature/elephant-afrique.jpg"
+imageAlt: "Un éléphant d'Afrique dans la savane"
+imageCredit: "Photo : Geoff Gallice · CC BY 2.0 · Wikimedia Commons"
 lang: "fr"
 urlSlug: "animaux-afrique"
 translationKey: "animaux-afrique"
@@ -107,3 +110,9 @@ Le terme "Big Five" vient des safaris coloniaux. Il désignait les cinq animaux 
 Les populations animales africaines ont chuté de 70% en moyenne depuis 1970, selon le WWF. C'est un chiffre brutal qu'on a tendance à survoler : 70%, c'est plus de deux tiers de la faune partie en une cinquantaine d'années. Les trois grandes causes : perte d'habitat (urbanisation, agriculture), braconnage (ivoire, corne, peaux), changement climatique. Pour les espèces les plus à risque, voir notre [liste des animaux en voie de disparition](/blog/animaux-en-voie-disparition/).
 
 SAPIRO propose des quiz qui couvrent les 600 espèces du règne animal, dont une centaine présentes en Afrique, avec une explication didactique derrière chaque réponse.
+
+<figure>
+  <img src="/images/blog/nature/lion-afrique.jpg" alt="Un lion dans la savane africaine" loading="lazy" />
+  <figcaption>Photo : Michael Barera · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
+</figure>
+

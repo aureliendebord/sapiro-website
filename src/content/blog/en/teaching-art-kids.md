@@ -2,6 +2,9 @@
 title: "Teaching Art to Kids: A Practical Guide"
 description: "How to introduce art to kids? Museums, books, age-by-age methods and resources to spark artistic curiosity."
 date: 2026-02-16
+image: "/images/blog/famille/enfant-peinture.jpg"
+imageAlt: "A child painting with watercolors"
+imageCredit: "Photo: Vyacheslav Argenberg · CC BY 4.0 · Wikimedia Commons"
 lang: "en"
 urlSlug: "teaching-art-kids"
 translationKey: "apprendre-art-enfants"
@@ -63,3 +66,9 @@ Three principles.
 **Snobbery.** Contemporary art is not "incomprehensible." Kids often appreciate it more than adults: abstraction and colors speak to them directly.
 
 Worth reading: [essential artworks to know](/en/blog/essential-artworks-to-know/) and [geography as a family](/en/blog/geography-family/).
+
+<figure>
+  <img src="/images/blog/famille/crayons-couleur.jpg" alt="Colored pencils and art supplies" loading="lazy" />
+  <figcaption>Photo: MichaelMaggs · CC BY-SA 3.0 · Wikimedia Commons</figcaption>
+</figure>
+

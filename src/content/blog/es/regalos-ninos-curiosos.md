@@ -2,6 +2,9 @@
 title: "20 ideas de regalos para niños curiosos (6, 8, 10 años)"
 description: "Veinte ideas de regalos educativos y lúdicos para niños curiosos de 6 a 12 años: juegos, libros, apps, instrumentos de observación."
 date: 2026-02-20
+image: "/images/blog/famille/cadeau-emballe.jpg"
+imageAlt: "Un regalo envuelto con un lazo"
+imageCredit: "Foto: daveynin from United States · CC BY 2.0 · Wikimedia Commons"
 lang: "es"
 urlSlug: "regalos-ninos-curiosos"
 translationKey: "cadeau-enfant-curieux"
@@ -73,3 +76,9 @@ Cuatro principios.
 **Que corresponda a un interes ya manifestado.** Inutil dar un microscopio a un nino apasionado por la historia. Observar lo que atrae al nino.
 
 Para profundizar: [quiz naturaleza para ninos](/es/blog/quiz-naturaleza-ninos/) y [actividades culturales en familia](/es/blog/actividades-culturales-familia/) para profundizar.
+
+<figure>
+  <img src="/images/blog/famille/jouets-bois-educatifs.jpg" alt="Juguetes educativos de madera para niños" loading="lazy" />
+  <figcaption>Foto: perpetual.fostering · CC BY 2.0 · Wikimedia Commons</figcaption>
+</figure>
+

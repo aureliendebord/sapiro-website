@@ -2,6 +2,9 @@
 title: "Quizzes estacionales: Navidad, verano, JJOO"
 description: "Quizzes temáticos estacionales: Navidad, verano, Juegos Olímpicos, elecciones. Ideas de preguntas y método para animar una velada."
 date: 2026-02-24
+image: "/images/blog/apprentissage/decorations-noel.jpg"
+imageAlt: "Decoraciones navideñas iluminadas"
+imageCredit: "Foto: Rhododendrites · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "es"
 urlSlug: "quiz-estacionales-navidad-juegos-olimpicos"
 translationKey: "quiz-saisonnier"
@@ -97,3 +100,9 @@ Tres principios.
 **Limitar a 15-20 preguntas.** Mas alla, la atencion cae. Mejor un quiz corto repetido que uno largo agotador.
 
 SAPIRO propone 2 000+ preguntas de cultura general, perfectas para elegir por tema. Para profundizar: [actividades culturales en familia](/es/blog/actividades-culturales-familia/) y [quiz cultura general por nivel](/es/blog/quiz-cultura-general-nivel/).
+
+<figure>
+  <img src="/images/blog/apprentissage/stade-olympique.jpg" alt="Un estadio olímpico" loading="lazy" />
+  <figcaption>Foto: Acarpentier ; this edited version by Sting · CC BY 3.0 · Wikimedia Commons</figcaption>
+</figure>
+

@@ -2,6 +2,9 @@
 title: "Quiz Apps Without Data Collection: Comparison"
 description: "Which quiz apps truly respect your data? Comparison of applications that do not collect your personal data."
 date: 2026-03-04
+image: "/images/blog/apps/smartphone-app.jpg"
+imageAlt: "An app on a smartphone"
+imageCredit: "Photo: Mictlancihuatl · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "en"
 urlSlug: "quiz-apps-no-data-collection"
 translationKey: "apps-sans-donnees"
@@ -73,3 +76,9 @@ Three tools.
 ## For more
 
 Worth reading: [best ad-free educational apps](/en/blog/best-ad-free-educational-apps/) and the [SAPIRO vs Quizlet comparison](/en/blog/sapiro-vs-quizlet/).
+
+<figure>
+  <img src="/images/blog/apps/apprendre-mobile.jpg" alt="Learning on a phone" loading="lazy" />
+  <figcaption>Photo: Anastasiya Lvova · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
+</figure>
+

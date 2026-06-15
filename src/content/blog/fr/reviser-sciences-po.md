@@ -2,6 +2,9 @@
 title: "Réviser la culture générale pour Sciences Po"
 description: "Comment préparer l'épreuve de culture générale pour Sciences Po et les IEP : programme, lectures, méthode et entraînement aux quiz."
 date: 2026-02-08
+image: "/images/blog/apprentissage/amphitheatre-universite.jpg"
+imageAlt: "Un amphithéâtre universitaire"
+imageCredit: "Photo : Bob Aronson from Monterey, CA, US · CC BY-SA 2.0 · Wikimedia Commons"
 lang: "fr"
 urlSlug: "reviser-sciences-po"
 translationKey: "reviser-sciences-po"
@@ -57,3 +60,9 @@ Pour l'histoire, le programme couvre généralement le monde de 1945 à nos jour
 ## Pour s'entraîner
 
 SAPIRO permet de tester sa culture générale sur 2 000+ questions, avec explication didactique derrière chaque réponse. Pour creuser : [culture générale aux concours de la fonction publique](/blog/culture-generale-concours-fonction-publique/) et notre [guide culture générale](/blog/culture-generale-guide/).
+
+<figure>
+  <img src="/images/blog/apprentissage/bibliotheque-lecture.jpg" alt="Une salle de lecture en bibliothèque" loading="lazy" />
+  <figcaption>Photo : Diliff · CC BY 2.5 · Wikimedia Commons</figcaption>
+</figure>
+

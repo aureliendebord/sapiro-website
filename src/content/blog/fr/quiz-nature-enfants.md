@@ -2,6 +2,9 @@
 title: "Quiz nature pour enfants : apprendre en s'amusant"
 description: "Comment faire découvrir les animaux aux enfants ? Quiz par âge, jeux d'observation et astuces pédagogiques pour éveiller la curiosité naturaliste."
 date: 2026-01-21
+image: "/images/blog/nature/renard-roux.jpg"
+imageAlt: "Un renard roux dans la nature"
+imageCredit: "Photo : Gregory Slobirdr Smith · CC BY-SA 2.0 · Wikimedia Commons"
 lang: "fr"
 urlSlug: "quiz-nature-enfants"
 translationKey: "quiz-nature-enfants"
@@ -73,3 +76,9 @@ Les noms commerciaux trompeurs. Le "poisson-clown" n'est pas un poisson rieur, l
 ## Pour aller plus loin en famille
 
 Organiser une soirée quiz nature en famille marche bien à partir de 7 ans. SAPIRO propose 600 espèces animales avec une explication pédagogique derrière chaque question, ce qui transforme chaque erreur en occasion d'apprendre. Le format quiz est particulièrement adapté aux enfants : court, ludique, sans pression de notation. Pour creuser : [géographie en famille](/blog/geographie-famille/) pour étendre la pratique à d'autres domaines.
+
+<figure>
+  <img src="/images/blog/nature/papillon.jpg" alt="Un papillon posé sur une fleur" loading="lazy" />
+  <figcaption>Photo : Charles J. Sharp · CC BY-SA 3.0 · Wikimedia Commons</figcaption>
+</figure>
+

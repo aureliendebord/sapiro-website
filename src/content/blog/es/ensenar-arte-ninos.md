@@ -2,6 +2,9 @@
 title: "Cómo enseñar arte a los niños: guía práctica"
 description: "¿Cómo acercar el arte a los niños? Museos, libros, métodos por edad y recursos para despertar la curiosidad artística."
 date: 2026-02-16
+image: "/images/blog/famille/enfant-peinture.jpg"
+imageAlt: "Un niño pintando con acuarelas"
+imageCredit: "Foto: Vyacheslav Argenberg · CC BY 4.0 · Wikimedia Commons"
 lang: "es"
 urlSlug: "ensenar-arte-ninos"
 translationKey: "apprendre-art-enfants"
@@ -63,3 +66,9 @@ Tres principios.
 **Snobismo.** El arte contemporaneo no es "incomprensible". A menudo los ninos lo aprecian mas que los adultos: la abstraccion y los colores les hablan directamente.
 
 Para profundizar: [obras de arte imprescindibles](/es/blog/obras-arte-imprescindibles/) y [geografia en familia](/es/blog/geografia-familia/).
+
+<figure>
+  <img src="/images/blog/famille/crayons-couleur.jpg" alt="Lápices de colores y material de arte" loading="lazy" />
+  <figcaption>Foto: MichaelMaggs · CC BY-SA 3.0 · Wikimedia Commons</figcaption>
+</figure>
+

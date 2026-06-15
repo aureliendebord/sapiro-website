@@ -2,6 +2,9 @@
 title: "Quiz saisonniers : Noël, été, JO, élections"
 description: "Quiz à thème saisonnier : Noël, été, Jeux Olympiques, élections. Idées de questions et méthode pour animer une soirée."
 date: 2026-02-24
+image: "/images/blog/apprentissage/decorations-noel.jpg"
+imageAlt: "Des décorations de Noël illuminées"
+imageCredit: "Photo : Rhododendrites · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "fr"
 urlSlug: "quiz-saisonnier-noel-ete-jo"
 translationKey: "quiz-saisonnier"
@@ -97,3 +100,9 @@ Trois principes.
 **Limiter à 15-20 questions.** Au-delà, l'attention décroche. Mieux vaut un quiz court répété qu'un long déchirant.
 
 SAPIRO propose 2 000+ questions de culture générale parfaites pour piocher selon le thème. Pour creuser : [activités culturelles en famille](/blog/activites-culturelles-famille/) et le [quiz culture générale par niveau](/blog/quiz-culture-generale-niveau/).
+
+<figure>
+  <img src="/images/blog/apprentissage/stade-olympique.jpg" alt="Un stade olympique" loading="lazy" />
+  <figcaption>Photo : Acarpentier ; this edited version by Sting · CC BY 3.0 · Wikimedia Commons</figcaption>
+</figure>
+

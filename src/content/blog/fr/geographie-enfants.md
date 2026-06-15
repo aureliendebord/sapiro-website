@@ -2,6 +2,9 @@
 title: "Géographie pour enfants : 10 méthodes ludiques"
 description: "Comment apprendre la géographie aux enfants de 5 à 12 ans ? 10 méthodes ludiques testées par des parents et enseignants. Laquelle essayez-vous ce soir ?"
 date: 2025-12-05
+image: "/images/blog/famille/globe-enfant.jpg"
+imageAlt: "Un globe terrestre pour apprendre la géographie aux enfants"
+imageCredit: "Photo : Shixart1985 · CC BY 2.0 · Wikimedia Commons"
 lang: "fr"
 urlSlug: "geographie-enfants"
 translationKey: "geographie-enfants"
@@ -99,6 +102,11 @@ Choisissez des applications qui privilégient l'apprentissage sur le divertissem
 Aucune méthode unique ne fonctionne pour tous les enfants ni pour tous les sujets. La variété est la clé. Activités manuelles (puzzles, coloriage), expériences sensorielles (cuisine), exploration numérique (Google Earth, quiz), interactions sociales (jeux de société, correspondance) : en alternant, on couvre tous les styles d'apprentissage.
 
 L'objectif n'est pas de produire un enfant qui récite des listes de capitales. C'est d'éveiller une curiosité sincère pour le monde. Un enfant qui s'étonne devant la diversité des cultures, des paysages et des traditions est un enfant qui continuera d'apprendre bien au-delà de l'école.
+
+<figure>
+  <img src="/images/blog/famille/carte-monde-coloree.jpg" alt="Une carte du monde colorée pour les enfants" loading="lazy" />
+  <figcaption>Photo : Dietmar Rabich · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
+</figure>
 
 ## Questions fréquentes
 

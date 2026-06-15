@@ -2,6 +2,9 @@
 title: "20 mujeres que marcaron la historia mundial"
 description: "Cleopatra, Juana de Arco, Marie Curie, Rosa Parks: 20 mujeres que marcaron la historia mundial con su época y su impacto."
 date: 2026-02-03
+image: "/images/blog/histoire/marie-curie.jpg"
+imageAlt: "Retrato de Marie Curie"
+imageCredit: "Foto: Henri Manuel · dominio público · Wikimedia Commons"
 lang: "es"
 urlSlug: "mujeres-marcaron-historia"
 translationKey: "femmes-histoire"
@@ -77,3 +80,9 @@ Vincular cada figura a un ambito. Politica: reinas y primeras ministras. Ciencia
 Cruzar con los contextos. Juana de Arco = Guerra de los Cien Anos. Cleopatra = conquista romana. Rosa Parks = segregacion americana. El contexto vuelve mas memorable a la figura.
 
 Para profundizar: [personajes historicos mayores](/es/blog/personajes-historicos/) y la [linea de tiempo mundial](/es/blog/linea-tiempo-historia-mundial/). SAPIRO propone quizzes sobre 500+ personajes historicos con explicacion contextualizada.
+
+<figure>
+  <img src="/images/blog/histoire/rosa-parks.jpg" alt="Retrato de Rosa Parks" loading="lazy" />
+  <figcaption>Foto: Unknown authorUnknown author · dominio público · Wikimedia Commons</figcaption>
+</figure>
+

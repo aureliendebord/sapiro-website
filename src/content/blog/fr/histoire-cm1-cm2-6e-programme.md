@@ -2,6 +2,9 @@
 title: "Histoire en CM1, CM2 et 6e : programme et quiz"
 description: "Programme officiel d'histoire en CM1, CM2 et 6e avec thèmes, dates clés et quiz pour aider votre enfant à réviser efficacement."
 date: 2026-02-15
+image: "/images/blog/famille/salle-classe.jpg"
+imageAlt: "Une salle de classe avec un tableau noir"
+imageCredit: "Photo : AKA MBG · CC0 · Wikimedia Commons"
 lang: "fr"
 urlSlug: "histoire-cm1-cm2-6e-programme"
 translationKey: "histoire-primaire-college"
@@ -59,3 +62,9 @@ Trois principes.
 **Confondre époques.** Bien différencier Moyen Âge (Clovis à Renaissance) et Renaissance (XVe-XVIe), Empire (Napoléon) et Empire romain.
 
 Pour creuser : [frise chronologique mondiale](/blog/frise-chronologique-mondiale/) et les [personnages historiques](/blog/personnages-historiques/).
+
+<figure>
+  <img src="/images/blog/famille/livres-histoire.jpg" alt="Des livres d'histoire sur une étagère" loading="lazy" />
+  <figcaption>Photo : Tom Woodward from Richmond, VA, US · CC BY-SA 2.0 · Wikimedia Commons</figcaption>
+</figure>
+

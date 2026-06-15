@@ -2,6 +2,9 @@
 title: "General Knowledge Quiz: High School Level"
 description: "Practice general knowledge at middle and high school level: recurring themes, sample questions and method for exam success."
 date: 2026-02-09
+image: "/images/blog/apprentissage/examen-amphi.jpg"
+imageAlt: "Students taking an exam in a lecture hall"
+imageCredit: "Photo: Nabokov · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "en"
 urlSlug: "general-knowledge-quiz-high-school"
 translationKey: "quiz-brevet-bac"
@@ -63,3 +66,9 @@ Three principles.
 ## How to practice
 
 SAPIRO offers 2,000+ general knowledge questions on geography, history, art and nature, with an educational explanation behind every answer. Ideal for short sessions before exams. Worth reading: [best general knowledge quiz apps](/en/blog/best-quiz-apps-general-knowledge/) and our [full general knowledge guide](/en/blog/general-knowledge-guide/).
+
+<figure>
+  <img src="/images/blog/apprentissage/bureau-revision.jpg" alt="A study desk with books and notes" loading="lazy" />
+  <figcaption>Photo: Miscellaneous Items in High Demand, PPOC, Library of Congress · public domain · Wikimedia Commons</figcaption>
+</figure>
+

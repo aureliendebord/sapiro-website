@@ -2,6 +2,9 @@
 title: "Revise General Knowledge in 30 Days: Daily Plan"
 description: "A 30-day plan to revise general knowledge efficiently before an exam: day by day, theme by theme, with a daily schedule and the right method to retain it for good."
 date: 2026-02-12
+image: "/images/blog/apprentissage/bureau-revision.jpg"
+imageAlt: "A study desk with books and notes"
+imageCredit: "Photo: Miscellaneous Items in High Demand, PPOC, Library of Congress · public domain · Wikimedia Commons"
 lang: "en"
 urlSlug: "revise-general-knowledge-30-days"
 translationKey: "reviser-30-jours"
@@ -91,3 +94,9 @@ Thirty days to revise general knowledge is short but realistic if done well. Her
 **Sleep and exercise.** Seven to eight hours of sleep minimum. Thirty minutes of exercise daily. The brain consolidates during sleep.
 
 See also our [full general knowledge guide](/en/blog/general-knowledge-guide/) for the long-term method.
+
+<figure>
+  <img src="/images/blog/apprentissage/bibliotheque-lecture.jpg" alt="A library reading room" loading="lazy" />
+  <figcaption>Photo: Diliff · CC BY 2.5 · Wikimedia Commons</figcaption>
+</figure>
+

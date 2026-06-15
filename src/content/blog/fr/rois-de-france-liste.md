@@ -2,6 +2,9 @@
 title: "Rois de France : liste complète et dates"
 description: "De Clovis à Louis-Philippe : liste complète des rois de France avec dates de règne, dynasties et faits majeurs de chaque souverain."
 date: 2026-02-01
+image: "/images/blog/histoire/galerie-des-glaces.jpg"
+imageAlt: "La galerie des Glaces du château de Versailles"
+imageCredit: "Photo : Myrabella · CC BY-SA 3.0 · Wikimedia Commons"
 lang: "fr"
 urlSlug: "rois-de-france-liste"
 translationKey: "rois-monarchies-europe"
@@ -91,3 +94,9 @@ Croiser avec les guerres. Guerre de Cent Ans = Charles V, Charles VII, Louis XI.
 Croiser avec les lieux de pouvoir. De Versailles au Louvre, les [châteaux et palais célèbres](/blog/chateaux-palais-celebres-monde/) racontent concrètement le règne de ces souverains.
 
 Pour aller plus loin, voir notre [frise chronologique mondiale](/blog/frise-chronologique-mondiale/) et notre article sur les [personnages historiques majeurs](/blog/personnages-historiques/). SAPIRO propose des quiz sur les souverains et l'histoire de France avec explication contextualisée derrière chaque question.
+
+<figure>
+  <img src="/images/blog/histoire/louis-xiv.jpg" alt="Portrait de Louis XIV" loading="lazy" />
+  <figcaption>Photo : Hyacinthe Rigaud · CC0 · Wikimedia Commons</figcaption>
+</figure>
+

@@ -2,6 +2,9 @@
 title: "Sapiro vs Quizlet : quelle app choisir ?"
 description: "Comparatif Sapiro et Quizlet : quiz culture générale ou flashcards ? Avantages, inconvénients et public cible de chaque application."
 date: 2026-02-27
+image: "/images/blog/apps/etudier-smartphone.jpg"
+imageAlt: "Étudier sur son smartphone"
+imageCredit: "Photo : ONBag · CC0 · Wikimedia Commons"
 lang: "fr"
 urlSlug: "sapiro-vs-quizlet"
 translationKey: "sapiro-vs-quizlet"
@@ -59,6 +62,11 @@ SAPIRO et Quizlet sont deux apps d'apprentissage, mais elles ne font pas la mêm
 **Choisissez Quizlet si** vous voulez réviser un cours spécifique (vocabulaire d'anglais, anatomie, droit) en créant vos propres flashcards.
 
 **Choisissez SAPIRO si** vous voulez développer votre culture générale, en famille ou seul, avec un contenu pré-rempli de qualité et zéro publicité.
+
+<figure>
+  <img src="/images/blog/apps/etude-mobile.jpg" alt="Réviser sur son téléphone" loading="lazy" />
+  <figcaption>Photo : Pharouqenr · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
+</figure>
 
 ## Questions fréquentes
 

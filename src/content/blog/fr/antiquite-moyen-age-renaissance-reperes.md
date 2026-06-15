@@ -2,6 +2,9 @@
 title: "Antiquité, Moyen Âge, Renaissance : repères essentiels"
 description: "Trois grandes périodes qui structurent l'histoire occidentale. Dates, civilisations, mouvements et figures pour s'y retrouver simplement."
 date: 2026-02-04
+image: "/images/blog/histoire/forum-romain.jpg"
+imageAlt: "Les ruines du Forum romain à Rome"
+imageCredit: "Photo : VasuVR · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "fr"
 urlSlug: "antiquite-moyen-age-renaissance-reperes"
 translationKey: "antiquite-moyen-age-renaissance"
@@ -61,3 +64,9 @@ Associer chaque période à un mot-clé. Antiquité = écriture et empires. Moye
 Croiser avec l'art. L'art permet de visualiser chaque époque. Antiquité = sculpture grecque, fresques de Pompéi. Moyen Âge = cathédrales gothiques, enluminures. Renaissance = peintures de Léonard, dôme de Florence. Les [monuments de l'Antiquité](/blog/monuments-antiquite/) offrent eux aussi des repères concrets pour ancrer cette première période.
 
 Voir aussi notre [frise chronologique mondiale](/blog/frise-chronologique-mondiale/) et notre article sur les [mouvements artistiques](/blog/mouvements-artistiques/) pour structurer. SAPIRO propose des quiz sur l'histoire mondiale avec explication contextualisée.
+
+<figure>
+  <img src="/images/blog/histoire/cathedrale-gothique.jpg" alt="La façade d'une cathédrale gothique" loading="lazy" />
+  <figcaption>Photo : Diliff · CC BY-SA 3.0 · Wikimedia Commons</figcaption>
+</figure>
+

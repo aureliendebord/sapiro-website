@@ -2,6 +2,9 @@
 title: "Histoire de l'art pour les nuls : le guide pour débuter"
 description: "Vous partez de zéro en histoire de l'art ? Guide accessible des grandes périodes, œuvres et artistes à connaître pour avoir une vue d'ensemble."
 date: 2026-01-28
+image: "/images/blog/art/naissance-venus.jpg"
+imageAlt: "La Naissance de Vénus de Botticelli"
+imageCredit: "Photo : Sandro Botticelli · domaine public · Wikimedia Commons"
 lang: "fr"
 urlSlug: "histoire-art-pour-les-nuls"
 translationKey: "histoire-art-nuls"
@@ -91,3 +94,9 @@ Lire des biographies courtes. Les artistes ont des vies romanesques qui aident �
 Tester ses connaissances. Voir une œuvre, deviner l'artiste, vérifier. SAPIRO propose 553 œuvres avec leur contexte, idéal pour s'entraîner.
 
 Pour aller plus loin, voir aussi notre article sur [comment reconnaître un peintre à son style](/blog/reconnaitre-peintre-style/).
+
+<figure>
+  <img src="/images/blog/art/jeune-fille-perle.jpg" alt="La Jeune Fille à la perle de Vermeer" loading="lazy" />
+  <figcaption>Photo : Johannes Vermeer · domaine public · Wikimedia Commons</figcaption>
+</figure>
+

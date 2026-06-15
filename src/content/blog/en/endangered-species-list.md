@@ -2,6 +2,9 @@
 title: "Endangered Species List: 2026 Update"
 description: "Which animals really risk extinction in the coming decades? Updated list by IUCN category, with actual population numbers and the real causes."
 date: 2026-01-17
+image: "/images/blog/nature/panda-geant.jpg"
+imageAlt: "A giant panda eating bamboo"
+imageCredit: "Photo: KQuhen · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "en"
 urlSlug: "endangered-species-list"
 translationKey: "animaux-disparition"
@@ -105,3 +108,9 @@ Ecology is not just a story of collapse. A few successes.
 The **California condor**, the **American bison** (recovered from 750 to 30,000 individuals), the **mountain gorilla**, the **northern bald ibis**, the **Arabian oryx** (reintroduced to the wild after being extinct in the wild) show that conservation can reverse the trajectory. But each case takes decades of coordinated effort and massive resources.
 
 For more on nature, see also our article on [strange and lesser-known animals](/en/blog/strange-unknown-animals/) and the one on [the most dangerous animals in the world](/en/blog/most-dangerous-animals-world/). SAPIRO lets you test knowledge on 600 species, with an explanation behind every question.
+
+<figure>
+  <img src="/images/blog/nature/rhinoceros.jpg" alt="A black rhinoceros, an endangered species" loading="lazy" />
+  <figcaption>Photo: Jebulon · CC0 · Wikimedia Commons</figcaption>
+</figure>
+

@@ -2,6 +2,9 @@
 title: "Top 8 apps para aprender geografía en 2025"
 description: "Comparativa de las 8 mejores aplicaciones de geografía en 2025: notas del 1 al 10, pros, contras y para quién va cada una. ¿Cuál se adapta mejor a tu nivel?"
 date: 2025-11-10
+image: "/images/blog/apps/carte-monde-app.jpg"
+imageAlt: "Un mapa del mundo en una pantalla"
+imageCredit: "Foto: Lázár deák (Lazarus secretarius) · dominio público · Wikimedia Commons"
 lang: "es"
 urlSlug: "mejores-apps-geografia"
 translationKey: "meilleures-apps-geographie"
@@ -89,6 +92,11 @@ Las apps con repeticion espaciada (como SAPIRO) son las que mejor funcionan para
 Depende de lo que busques. Si quieres mejorar tu [cultura general](/es/blog/cultura-general-guia/) de forma sistematica, necesitas repeticion espaciada y contenido bien organizado. Si vas a preparar un examen o un concurso, prioriza apps con muchos quiz especificos. Si lo tuyo es jugar con amigos o en familia, busca modo multijugador.
 
 Para ninos: graficos atractivos, mecanicas de juego que enganchen y contenido adaptado a su edad. Nuestro articulo sobre [aprender geografia para ninos](/es/blog/geografia-ninos/) profundiza en 10 metodos que funcionan. Para adultos: profundidad, estadisticas de progreso y variedad de temas. Para los frikis de la geografia (sin ningun tono despectivo): combinar varias apps te dara la experiencia mas completa.
+
+<figure>
+  <img src="/images/blog/apps/etude-mobile.jpg" alt="Aprender geografía en el móvil" loading="lazy" />
+  <figcaption>Foto: Pharouqenr · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
+</figure>
 
 ## Preguntas frecuentes
 

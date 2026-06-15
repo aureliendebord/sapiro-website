@@ -2,6 +2,9 @@
 title: "Les 15 pays les moins visités du monde"
 description: "Découvrez les 15 pays les moins visités au monde : Tuvalu, Kiribati, Turkménistan... Pourquoi si peu de touristes et que faut-il y voir ?"
 date: 2026-03-05
+image: "/images/blog/monde/carte-monde-ancienne.jpg"
+imageAlt: "Une vieille carte du monde"
+imageCredit: "Photo : Reginald Lane Poole · domaine public · Wikimedia Commons"
 lang: "fr"
 urlSlug: "pays-moins-visites-monde"
 translationKey: "pays-moins-visites"
@@ -107,6 +110,11 @@ Trois raisons.
 **Respect.** Tourisme responsable, ne pas perturber les communautés locales.
 
 **Préparation.** Pas d'infrastructures massives, prévoir l'autonomie.
+
+<figure>
+  <img src="/images/blog/monde/globe-terrestre.jpg" alt="Un globe terrestre ancien" loading="lazy" />
+  <figcaption>Photo : Henry James · domaine public · Wikimedia Commons</figcaption>
+</figure>
 
 ## Questions fréquentes
 

@@ -2,6 +2,9 @@
 title: "Quiz geografía en familia: la velada perfecta"
 description: "Organiza un quiz geografía en familia inolvidable: 30 preguntas listas para usar, reglas claras, formatos por edad y consejos para que todos disfruten."
 date: 2025-10-20
+image: "/images/blog/famille/globe-atlas-table.jpg"
+imageAlt: "Un globo y un atlas sobre una mesa"
+imageCredit: "Foto: Ánthimos Gazís · dominio público · Wikimedia Commons"
 lang: "es"
 urlSlug: "geografia-familia"
 translationKey: "geographie-famille"
@@ -95,6 +98,11 @@ Pon SAPIRO en una tablet de la casa y crea un mini-desafio semanal: quien saque 
 Cuelga un mapa grande en la pared. Cada vez que alguien aprenda algo nuevo sobre un pais, pega una nota adhesiva con el dato. Con el tiempo, el mapa se llena de conocimiento compartido, y se convierte en un punto de conversacion cada vez que alguien pasa por delante.
 
 Establece una frecuencia para las veladas: una vez al mes funciona bien. Rota los temas: una noche geografia, la siguiente historia, la siguiente ciencias. Si quieres preparar un quiz tematico sobre banderas, las historias detras de los colores y simbolos que contamos en nuestro articulo sobre el [significado de las banderas](/es/blog/significado-banderas/) te daran material de sobra.
+
+<figure>
+  <img src="/images/blog/famille/carte-monde-coloree.jpg" alt="Un mapa del mundo colorido para explorar en familia" loading="lazy" />
+  <figcaption>Foto: Dietmar Rabich · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
+</figure>
 
 ## Preguntas frecuentes
 

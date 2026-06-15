@@ -2,6 +2,9 @@
 title: "World History Timeline: The Essential Markers"
 description: "Antiquity, Middle Ages, Renaissance, industrial era, world wars: world timeline with the dates and events to remember."
 date: 2026-01-30
+image: "/images/blog/histoire/pyramides-gizeh.jpg"
+imageAlt: "The pyramids of Giza in Egypt"
+imageCredit: "Photo: Ricardo Liberato · CC BY-SA 2.0 · Wikimedia Commons"
 lang: "en"
 urlSlug: "world-timeline-history"
 translationKey: "frise-chronologique"
@@ -117,3 +120,9 @@ Think in terms of major "ruptures." Neolithic, Antiquity (Rome), fall of Rome (4
 Cross-reference with geography. Civilizations overlap. Rome exists at the same time as Han China, Mauryan India. The European timeline is not the world timeline.
 
 Worth reading: [major historical figures](/en/blog/historical-figures/) and the one on [the great battles of history](/en/blog/great-battles-history/). SAPIRO offers world history quizzes with contextualized explanations behind each question.
+
+<figure>
+  <img src="/images/blog/histoire/artefact-antique.jpg" alt="An ancient Greek pottery artifact" loading="lazy" />
+  <figcaption>Photo: Carlo Dell'Orto · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
+</figure>
+

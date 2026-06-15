@@ -2,6 +2,9 @@
 title: "Sapiro vs Seterra : quelle app géographie choisir ?"
 description: "Comparatif Sapiro et Seterra : quelle app de géographie est la meilleure ? Avantages, inconvénients et public cible de chaque outil."
 date: 2026-03-01
+image: "/images/blog/apps/carte-monde-app.jpg"
+imageAlt: "Une carte du monde sur écran"
+imageCredit: "Photo : Lázár deák (Lazarus secretarius) · domaine public · Wikimedia Commons"
 lang: "fr"
 urlSlug: "sapiro-vs-seterra"
 translationKey: "sapiro-vs-seterra"
@@ -59,3 +62,9 @@ SAPIRO et Seterra sont deux apps de géographie, mais avec des approches différ
 Oui, ils sont complémentaires. Seterra pour la maîtrise cartographique pure. SAPIRO pour la culture générale élargie avec géographie incluse.
 
 Pour creuser : [meilleures apps de géographie](/blog/meilleures-apps-geographie/) pour le panorama complet.
+
+<figure>
+  <img src="/images/blog/apps/etudier-smartphone.jpg" alt="Réviser la géographie sur son téléphone" loading="lazy" />
+  <figcaption>Photo : ONBag · CC0 · Wikimedia Commons</figcaption>
+</figure>
+

@@ -2,6 +2,9 @@
 title: "30 tableaux célèbres : les chefs-d'œuvre à connaître"
 description: "La Joconde, La Nuit étoilée, Les Demoiselles d'Avignon : 30 tableaux célèbres avec leur histoire, leur peintre et ce qui les rend incontournables."
 date: 2026-01-23
+image: "/images/blog/art/joconde.jpg"
+imageAlt: "La Joconde de Léonard de Vinci"
+imageCredit: "Photo : Leonardo da Vinci · domaine public · Wikimedia Commons"
 lang: "fr"
 urlSlug: "tableaux-celebres-chefs-oeuvre"
 translationKey: "tableaux-celebres"
@@ -87,6 +90,11 @@ Raccrocher chaque œuvre à un mouvement. Joconde = Renaissance, Cri = Expressio
 Associer une anecdote. Le vol de la Joconde, la folie de Van Gogh, l'accouchement difficile de Guernica après Picasso ayant lu le bombardement dans les journaux. Les histoires fixent.
 
 Visiter. Aucune reproduction ne remplace l'impact réel d'une œuvre vue physiquement. Pour planifier, voir notre article sur les [musées les plus visités au monde](/blog/musees-plus-visites-monde/).
+
+<figure>
+  <img src="/images/blog/art/ronde-de-nuit.jpg" alt="La Ronde de nuit de Rembrandt" loading="lazy" />
+  <figcaption>Photo : Rembrandt · domaine public · Wikimedia Commons</figcaption>
+</figure>
 
 ## Questions fréquentes
 

@@ -2,6 +2,9 @@
 title: "Cultura general en oposiciones publicas"
 description: "Repasar cultura general para oposiciones: temario, temas recurrentes y método para preparar la prueba con eficacia."
 date: 2026-02-07
+image: "/images/blog/apprentissage/examen-amphi.jpg"
+imageAlt: "Estudiantes haciendo un examen en un aula magna"
+imageCredit: "Foto: Nabokov · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "es"
 urlSlug: "cultura-general-oposiciones"
 translationKey: "concours-fonction-publique"
@@ -71,3 +74,9 @@ Tres formatos principales.
 ## Para entrenarse
 
 SAPIRO propone quizzes de cultura general con una explicacion didactica detras de cada pregunta. Es la herramienta ideal para sesiones cortas (15 minutos al dia) que se acumulan. Para profundizar: [mejores apps de quiz cultura general](/es/blog/mejores-apps-quiz-cultura-general/) y nuestra [guia completa cultura general](/es/blog/cultura-general-guia/).
+
+<figure>
+  <img src="/images/blog/apprentissage/bibliotheque-lecture.jpg" alt="Una sala de lectura de biblioteca" loading="lazy" />
+  <figcaption>Foto: Diliff · CC BY 2.5 · Wikimedia Commons</figcaption>
+</figure>
+

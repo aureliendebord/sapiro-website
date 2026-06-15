@@ -2,6 +2,9 @@
 title: "Quel pays correspond à ta personnalité ? Le test"
 description: "Test ludique : quel pays correspond à ta personnalité ? Un voyage entre culture, géographie et caractère pour découvrir ton pays-miroir."
 date: 2026-03-10
+image: "/images/blog/monde/globe-terrestre.jpg"
+imageAlt: "Un globe terrestre ancien"
+imageCredit: "Photo : Henry James · domaine public · Wikimedia Commons"
 lang: "fr"
 urlSlug: "test-pays-personnalite"
 translationKey: "test-pays-personnalite"
@@ -113,3 +116,9 @@ Voyager dans le pays-miroir révélé par le test peut être une expérience par
 SAPIRO propose des quiz pour mieux connaître les 197 pays du monde, leur culture, leur histoire, leur géographie. Pour creuser : [pays les moins visités du monde](/blog/pays-moins-visites-monde/) et l'[origine des noms de pays](/blog/origine-noms-pays/).
 
 Ce test est volontairement simplifié et ludique. Les stéréotypes culturels sont des points de départ, jamais des vérités absolues. Chaque pays contient des millions de personnalités différentes.
+
+<figure>
+  <img src="/images/blog/monde/carte-monde-ancienne.jpg" alt="Une vieille carte du monde" loading="lazy" />
+  <figcaption>Photo : Reginald Lane Poole · domaine public · Wikimedia Commons</figcaption>
+</figure>
+

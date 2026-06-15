@@ -2,6 +2,9 @@
 title: "Family Cultural Activities: 30 Ideas"
 description: "Thirty cultural activity ideas for family weekends and holidays: museums, outings, games, cultural trips."
 date: 2026-02-18
+image: "/images/blog/famille/jeu-societe-famille.jpg"
+imageAlt: "A family gathered around a board game"
+imageCredit: "Photo: Bill Branson (Photographer) · public domain · Wikimedia Commons"
 lang: "en"
 urlSlug: "family-cultural-activities"
 translationKey: "activites-culturelles-famille"
@@ -83,3 +86,9 @@ Family learning does not need lectures. Thirty concrete ideas to try this weeken
 **30. Podcast session.** Educational podcasts for kids in the car or before bed.
 
 Worth reading: [geography as a family](/en/blog/geography-family/) to dig into a particular area.
+
+<figure>
+  <img src="/images/blog/famille/enfants-musee.jpg" alt="Children visiting a museum" loading="lazy" />
+  <figcaption>Photo: Unknown authorUnknown author · public domain · Wikimedia Commons</figcaption>
+</figure>
+

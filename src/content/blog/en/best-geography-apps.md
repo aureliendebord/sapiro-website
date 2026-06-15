@@ -2,6 +2,9 @@
 title: "The 8 Best Apps to Learn Geography in 2025"
 description: "We tested and ranked the 8 best geography apps for 2025, from adaptive quiz drills to Street View exploration. Find out which one fits your learning style."
 date: 2025-11-10
+image: "/images/blog/apps/carte-monde-app.jpg"
+imageAlt: "A world map on a screen"
+imageCredit: "Photo: Lázár deák (Lazarus secretarius) · public domain · Wikimedia Commons"
 lang: "en"
 urlSlug: "best-geography-apps"
 translationKey: "meilleures-apps-geographie"
@@ -115,6 +118,11 @@ The single biggest factor in learning geography is whether you use an app regula
 The best geography apps understand this and are designed for bite-sized sessions. SAPIRO, for example, lets you complete a full quiz round in under five minutes, so it fits into a commute, a lunch break, or those few minutes before bed when you are not quite ready to sleep.
 
 If you want to see why quiz-based apps are so effective for building lasting knowledge, our article on [the hidden meaning of flags](/en/blog/flags-meaning/) demonstrates how a single question about a flag can unlock an entire chain of historical and cultural learning.
+
+<figure>
+  <img src="/images/blog/apps/etude-mobile.jpg" alt="Learning geography on mobile" loading="lazy" />
+  <figcaption>Photo: Pharouqenr · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
+</figure>
 
 ## Frequently asked questions
 

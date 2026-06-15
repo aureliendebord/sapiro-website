@@ -2,6 +2,9 @@
 title: "How to Prepare for University Admission Tests"
 description: "Prepare general knowledge for university admission tests (UCAT, BMAT, SAT, IB, Oxbridge): program, readings, method and quiz practice."
 date: 2026-02-08
+image: "/images/blog/apprentissage/amphitheatre-universite.jpg"
+imageAlt: "A university amphitheater"
+imageCredit: "Photo: Bob Aronson from Monterey, CA, US · CC BY-SA 2.0 · Wikimedia Commons"
 lang: "en"
 urlSlug: "prepare-university-admission"
 translationKey: "reviser-sciences-po"
@@ -67,3 +70,9 @@ Three main areas come up consistently.
 ## How to practice
 
 SAPIRO lets you test general culture across 2,000+ questions, with educational explanation behind each answer. Worth reading: [general knowledge for civil service exams](/en/blog/general-knowledge-civil-service-exams/) and our [general knowledge guide](/en/blog/general-knowledge-guide/).
+
+<figure>
+  <img src="/images/blog/apprentissage/bibliotheque-lecture.jpg" alt="A library reading room" loading="lazy" />
+  <figcaption>Photo: Diliff · CC BY 2.5 · Wikimedia Commons</figcaption>
+</figure>
+

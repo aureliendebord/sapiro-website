@@ -2,6 +2,9 @@
 title: "SAPIRO vs GeoGuessr: Which Geography App Is Worth Your Time?"
 description: "A detailed comparison of SAPIRO and GeoGuessr: content, privacy, educational value, pricing. Two very different approaches to learning geography."
 date: 2026-03-24
+image: "/images/blog/apps/carte-monde-app.jpg"
+imageAlt: "A world map on a screen"
+imageCredit: "Photo: Lázár deák (Lazarus secretarius) · public domain · Wikimedia Commons"
 lang: "en"
 urlSlug: "sapiro-vs-geoguessr"
 translationKey: "sapiro-vs-geoguessr"
@@ -70,3 +73,9 @@ SAPIRO is the more complete choice if your goal is actual learning. Four domains
 Some people will use both, and that is probably the ideal setup: GeoGuessr for immersive exploration, SAPIRO for structured learning.
 
 For more geography app recommendations, check out our guide to the [best geography apps](/en/blog/best-geography-apps/), our [SAPIRO vs Kahoot comparison](/en/blog/sapiro-vs-kahoot/), and our roundup of the [best quiz apps for general knowledge](/en/blog/best-quiz-apps-general-knowledge/).
+
+<figure>
+  <img src="/images/blog/apps/apprendre-mobile.jpg" alt="Exploring geography on a phone" loading="lazy" />
+  <figcaption>Photo: Anastasiya Lvova · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
+</figure>
+

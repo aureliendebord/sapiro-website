@@ -2,6 +2,9 @@
 title: "How to Recognize 30 Dog Breeds: Visual Guide"
 description: "Australian shepherd or border collie, husky or malamute: 30 dog breeds with their distinctive traits so you never confuse them again."
 date: 2026-01-19
+image: "/images/blog/nature/golden-retriever.jpg"
+imageAlt: "A golden retriever, a popular dog breed"
+imageCredit: "Photo: Dietmar Rabich · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "en"
 urlSlug: "dog-breeds-identify"
 translationKey: "races-chiens"
@@ -97,3 +100,9 @@ Play the classic confusions. Husky vs malamute (eyes and size), German shepherd 
 Geography of origin helps. Nordic dogs are robust with thick undercoats. Mediterranean dogs are lighter. Terriers come from the British Isles. Pinschers and schnauzers from Germany. The map tells the story of each breed.
 
 Worth reading: [50 animal species worth knowing](/en/blog/quiz-animals-world-species/) and [differences between animals that look alike](/en/blog/animals-that-look-alike/). SAPIRO offers nature quizzes covering 600 species, with an explanation behind every question.
+
+<figure>
+  <img src="/images/blog/nature/berger-allemand.jpg" alt="A German shepherd with its characteristic coat" loading="lazy" />
+  <figcaption>Photo: Museum of Veterinary Anatomy FMVZ USP / Wagner Souza e Silva edited by Rodrigo Tetsuo Argenton · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
+</figure>
+

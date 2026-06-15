@@ -2,6 +2,9 @@
 title: "General Knowledge Quiz: Easy, Medium, Hard, Expert"
 description: "General knowledge quizzes by level: easy, medium, hard, expert. To assess your level and progress step by step."
 date: 2026-02-23
+image: "/images/blog/apprentissage/bureau-revision.jpg"
+imageAlt: "A study desk with books and notes"
+imageCredit: "Photo: Miscellaneous Items in High Demand, PPOC, Library of Congress · public domain · Wikimedia Commons"
 lang: "en"
 urlSlug: "general-knowledge-quiz-levels"
 translationKey: "quiz-niveau"
@@ -127,3 +130,9 @@ Three principles.
 **Increase gradually.** From easy to medium, then to hard. SAPIRO offers 2,000+ questions by level with explanations.
 
 Worth reading: [best general knowledge quiz apps](/en/blog/best-quiz-apps-general-knowledge/).
+
+<figure>
+  <img src="/images/blog/apprentissage/bibliotheque-lecture.jpg" alt="A library reading room" loading="lazy" />
+  <figcaption>Photo: Diliff · CC BY 2.5 · Wikimedia Commons</figcaption>
+</figure>
+

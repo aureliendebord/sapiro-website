@@ -2,6 +2,9 @@
 title: "Quiz naturaleza para niños: aprender animales jugando"
 description: "¿Cómo acercar a los niños al mundo animal? Quiz por edad, juegos de observación y consejos pedagógicos para despertar la curiosidad naturalista."
 date: 2026-01-21
+image: "/images/blog/nature/renard-roux.jpg"
+imageAlt: "Un zorro rojo en la naturaleza"
+imageCredit: "Foto: Gregory Slobirdr Smith · CC BY-SA 2.0 · Wikimedia Commons"
 lang: "es"
 urlSlug: "quiz-naturaleza-ninos"
 translationKey: "quiz-nature-enfants"
@@ -73,3 +76,9 @@ Los nombres comunes enganosos. El "pez payaso" no rie, el "tiburon peregrino" no
 ## Para profundizar en familia
 
 Organizar una noche de quiz naturaleza en familia funciona bien desde los 7 anos. SAPIRO propone 600 especies animales con una explicacion pedagogica detras de cada pregunta, lo que transforma cada error en ocasion de aprender. El formato quiz se adapta especialmente bien a los ninos: corto, ludico, sin presion de calificacion. Para profundizar: [geografia en familia](/es/blog/geografia-familia/) para extender la practica a otros campos.
+
+<figure>
+  <img src="/images/blog/nature/papillon.jpg" alt="Una mariposa posada sobre una flor" loading="lazy" />
+  <figcaption>Foto: Charles J. Sharp · CC BY-SA 3.0 · Wikimedia Commons</figcaption>
+</figure>
+

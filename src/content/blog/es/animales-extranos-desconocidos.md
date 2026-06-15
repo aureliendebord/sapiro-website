@@ -2,6 +2,9 @@
 title: "20 animales extraños y desconocidos del mundo"
 description: "Tardígrado, ajolote, pangolín, calamar vampiro: 20 animales extraños y desconocidos que existen de verdad, con sus particularidades biológicas."
 date: 2026-01-18
+image: "/images/blog/nature/axolotl.jpg"
+imageAlt: "Un ajolote, anfibio de aspecto sorprendente"
+imageCredit: "Foto: Stan Shebs · CC BY-SA 3.0 · Wikimedia Commons"
 lang: "es"
 urlSlug: "animales-extranos-desconocidos"
 translationKey: "animaux-etranges"
@@ -71,3 +74,9 @@ La naturaleza tiene a veces mas imaginacion que cualquier pelicula de ciencia fi
 La mayoria de estos animales comparten tres rasgos. Viven en habitats dificiles de acceso (grandes profundidades, bosques densos, subsuelo). Son raros o muy localizados. Su descubrimiento es reciente, a veces menos de 50 anos. La biodiversidad sigue siendo en gran parte por explorar: se estima que el 86% de las especies terrestres y el 91% de las marinas aun no han sido descritas.
 
 Para profundizar: [50 especies animales que reconocer](/es/blog/quiz-animales-especies-mundo/), [animales en peligro de extincion](/es/blog/animales-en-peligro-extincion/) y [animales mas peligrosos del mundo](/es/blog/animales-mas-peligrosos-mundo/). SAPIRO propone quizzes sobre 600 especies, de las mas conocidas a las mas extranas, con explicacion detras de cada pregunta.
+
+<figure>
+  <img src="/images/blog/nature/ornithorynque.jpg" alt="Un ornitorrinco, mamífero que pone huevos" loading="lazy" />
+  <figcaption>Foto: Charles J. Sharp · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
+</figure>
+

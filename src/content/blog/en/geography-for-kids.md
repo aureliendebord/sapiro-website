@@ -2,6 +2,9 @@
 title: "Teaching Geography to Kids: 10 Fun and Effective Methods"
 description: "10 proven, parent-tested methods to teach geography to kids aged 5-12 through games, quizzes, cooking, and hands-on activities. Which work best?"
 date: 2025-12-05
+image: "/images/blog/famille/globe-enfant.jpg"
+imageAlt: "A globe for teaching geography to children"
+imageCredit: "Photo: Shixart1985 · CC BY 2.0 · Wikimedia Commons"
 lang: "en"
 urlSlug: "geography-for-kids"
 translationKey: "geographie-enfants"
@@ -108,6 +111,11 @@ Connecting abstract geographic concepts to tangible, observable phenomena in the
 Children as young as four or five can start grasping basic concepts like continents and oceans, and research from the National Geographic Society suggests that spatial awareness develops rapidly between ages 5 and 8. The most effective approach is not to rely on any single method but to weave geographic learning into everyday life through variety. Cook a dish from Peru on Monday, work on a map puzzle on Tuesday, listen to music from Senegal on Wednesday, and do a quiz session on Thursday.
 
 Children who engage with geography through multiple channels -- physical, visual, auditory, social, and digital -- develop a robust and flexible understanding of the world that goes far beyond memorizing [capitals](/en/blog/world-capitals-quiz/) and country names. They start seeing geography everywhere. And once that happens, you do not have to teach them anymore -- they teach themselves.
+
+<figure>
+  <img src="/images/blog/famille/carte-monde-coloree.jpg" alt="A colorful world map for children" loading="lazy" />
+  <figcaption>Photo: Dietmar Rabich · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
+</figure>
 
 ## Frequently asked questions
 

@@ -2,6 +2,9 @@
 title: "Past Exam Papers and Solutions: Where to Find Them"
 description: "Find past papers and solutions for general knowledge exams: official sources, books and training on typical questions."
 date: 2026-02-11
+image: "/images/blog/apprentissage/examen-amphi.jpg"
+imageAlt: "Students taking an exam in a lecture hall"
+imageCredit: "Photo: Nabokov · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "en"
 urlSlug: "past-exam-papers-general-knowledge"
 translationKey: "annales-culture-generale"
@@ -65,3 +68,9 @@ Three pillars.
 **Human exchanges.** Find a study partner or a mentor. Free and accelerates learning.
 
 Worth reading: [general knowledge for civil service exams](/en/blog/general-knowledge-civil-service-exams/) and [how to revise in 30 days](/en/blog/revise-general-knowledge-30-days/).
+
+<figure>
+  <img src="/images/blog/apprentissage/bureau-revision.jpg" alt="A study desk with books and notes" loading="lazy" />
+  <figcaption>Photo: Miscellaneous Items in High Demand, PPOC, Library of Congress · public domain · Wikimedia Commons</figcaption>
+</figure>
+

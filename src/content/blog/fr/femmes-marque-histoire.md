@@ -2,6 +2,9 @@
 title: "20 femmes qui ont marqué l'histoire mondiale"
 description: "Cléopâtre, Jeanne d'Arc, Marie Curie, Rosa Parks : 20 femmes qui ont marqué l'histoire mondiale avec leur époque et leur impact."
 date: 2026-02-03
+image: "/images/blog/histoire/marie-curie.jpg"
+imageAlt: "Portrait de Marie Curie"
+imageCredit: "Photo : Henri Manuel · domaine public · Wikimedia Commons"
 lang: "fr"
 urlSlug: "femmes-marque-histoire"
 translationKey: "femmes-histoire"
@@ -77,3 +80,9 @@ Lier chaque figure à un domaine. Politique : reines et présidentes. Science : 
 Croiser avec les contextes. Jeanne d'Arc = guerre de Cent Ans. Cléopâtre = conquête romaine. Rosa Parks = ségrégation américaine. Le contexte rend la figure plus mémorable.
 
 Pour creuser : [personnages historiques majeurs](/blog/personnages-historiques/) et la [frise chronologique mondiale](/blog/frise-chronologique-mondiale/). SAPIRO propose des quiz sur 500+ personnages historiques avec explication contextualisée.
+
+<figure>
+  <img src="/images/blog/histoire/rosa-parks.jpg" alt="Portrait de Rosa Parks" loading="lazy" />
+  <figcaption>Photo : Unknown authorUnknown author · domaine public · Wikimedia Commons</figcaption>
+</figure>
+

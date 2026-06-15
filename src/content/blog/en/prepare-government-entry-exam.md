@@ -2,6 +2,9 @@
 title: "Preparing a Government Entry-Level Exam: Complete Guide"
 description: "Succeed at a government or civil service entry-level exam: syllabus, method, planning and general knowledge quiz training."
 date: 2026-02-10
+image: "/images/blog/apprentissage/bibliotheque-lecture.jpg"
+imageAlt: "A library reading room"
+imageCredit: "Photo: Diliff · CC BY 2.5 · Wikimedia Commons"
 lang: "en"
 urlSlug: "prepare-government-entry-exam"
 translationKey: "concours-categorie-bc"
@@ -61,3 +64,9 @@ Government and civil service exams attract tens of thousands of candidates every
 ## How to practice
 
 SAPIRO offers general knowledge quizzes matching the syllabus of entry-level government exams. Fifteen-minute daily sessions, ideal for integrating learning into the everyday. Worth reading: [general knowledge for civil service exams](/en/blog/general-knowledge-civil-service-exams/).
+
+<figure>
+  <img src="/images/blog/apprentissage/bureau-revision.jpg" alt="A study desk with books and notes" loading="lazy" />
+  <figcaption>Photo: Miscellaneous Items in High Demand, PPOC, Library of Congress · public domain · Wikimedia Commons</figcaption>
+</figure>
+

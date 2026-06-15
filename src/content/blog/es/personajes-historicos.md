@@ -2,6 +2,9 @@
 title: "20 personajes históricos que todos deberían conocer"
 description: "El quiz personajes históricos definitivo: de Cleopatra a Mandela, 20 figuras que cambiaron el rumbo de la humanidad. ¿Cuántos serías capaz de reconocer?"
 date: 2025-11-28
+image: "/images/blog/monde/buste-antique.jpg"
+imageAlt: "Un busto antiguo de mármol"
+imageCredit: "Foto: J. Paul Getty Museum · CC0 · Wikimedia Commons"
 lang: "es"
 urlSlug: "personajes-historicos"
 translationKey: "personnages-historiques"
@@ -107,6 +110,11 @@ Matematico, criptoanalista, padre de la informatica. Su trabajo para descifrar e
 El interes va mas alla de la [cultura general](/es/blog/cultura-general-guia/) de sobremesa. Conocer estas vidas es entender como el mundo llego a ser lo que es. El Codigo Civil de Napoleon estructura el derecho de mas de 40 paises. La teoria de Darwin fundamenta nuestra biologia. La no violencia de Gandhi inspira los movimientos sociales contemporaneos. No son figuras del pasado. Su influencia esta en el presente.
 
 Para ninos y adolescentes, descubrir a estos personajes desarrolla el espiritu critico y la empatia. Y el metodo ludico — [quiz y juegos educativos](/es/blog/geografia-ninos/) — vuelve estas figuras vivas y accesibles, lejos de los parrafos grises de un manual escolar. Los [principios de la gamificacion](/es/blog/gamificacion-educacion/) explican por que el formato quiz ancla tan bien estos conocimientos, y las [mejores aplicaciones de geografia](/es/blog/mejores-apps-geografia/) extienden el juego a mapas y banderas.
+
+<figure>
+  <img src="/images/blog/monde/bibliotheque.jpg" alt="Una antigua biblioteca llena de libros" loading="lazy" />
+  <figcaption>Foto: Davide Cantelli cant89 · CC0 · Wikimedia Commons</figcaption>
+</figure>
 
 ## Preguntas frecuentes
 

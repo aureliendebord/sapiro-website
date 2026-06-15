@@ -2,6 +2,9 @@
 title: "Animaux en voie de disparition : liste 2026"
 description: "Quels animaux risquent vraiment de disparaître dans les prochaines décennies ? Liste actualisée par catégorie UICN, avec les chiffres réels de population."
 date: 2026-01-17
+image: "/images/blog/nature/panda-geant.jpg"
+imageAlt: "Un panda géant en train de manger du bambou"
+imageCredit: "Photo : KQuhen · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "fr"
 urlSlug: "animaux-en-voie-disparition"
 translationKey: "animaux-disparition"
@@ -107,3 +110,9 @@ Le condor de Californie, sauvé in extremis avec 27 oiseaux en 1987, en compte a
 Le point commun de ces réussites : décennies d'efforts coordonnés, ressources massives, volonté politique soutenue. Aucun n'a été facile. Tous prouvent que c'est faisable.
 
 Pour creuser la nature, voir [animaux étranges et méconnus](/blog/animaux-etranges-meconnus/) et [animaux les plus dangereux du monde](/blog/animaux-plus-dangereux-monde/). SAPIRO permet de tester ses connaissances sur 600 espèces, avec une explication didactique derrière chaque question.
+
+<figure>
+  <img src="/images/blog/nature/rhinoceros.jpg" alt="Un rhinocéros noir, espèce menacée" loading="lazy" />
+  <figcaption>Photo : Jebulon · CC0 · Wikimedia Commons</figcaption>
+</figure>
+

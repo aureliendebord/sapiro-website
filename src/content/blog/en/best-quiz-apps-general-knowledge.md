@@ -2,6 +2,9 @@
 title: "10 Best General Knowledge Quiz Apps in 2026"
 description: "Compare the best quiz and trivia apps: Trivia Crack, Kahoot, SAPIRO, GeoGuessr... Which one should you choose? Our complete analysis."
 date: 2026-03-20
+image: "/images/blog/apps/smartphone-app.jpg"
+imageAlt: "A quiz app on a smartphone"
+imageCredit: "Photo: Mictlancihuatl · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "en"
 urlSlug: "best-quiz-apps-general-knowledge"
 translationKey: "best-quiz-apps-comparison"
@@ -150,3 +153,9 @@ It's not the app for everyone. If you want multiplayer battles against strangers
 But if you want to actually learn -- at your own pace, without ads, without being tracked -- SAPIRO is the strongest option we tested. The adaptive difficulty keeps it challenging as you improve, and the explanations mean you walk away knowing more, not just scoring higher.
 
 For deeper comparisons, check out our head-to-head reviews: [SAPIRO vs Trivia Crack](/en/blog/sapiro-vs-trivia-crack/), [SAPIRO vs GeoGuessr](/en/blog/sapiro-vs-geoguessr/), and [SAPIRO vs Kahoot](/en/blog/sapiro-vs-kahoot/). And if geography is your thing, see our [best geography apps](/en/blog/best-geography-apps/) guide.
+
+<figure>
+  <img src="/images/blog/apps/etudier-smartphone.jpg" alt="Testing knowledge on a phone" loading="lazy" />
+  <figcaption>Photo: ONBag · CC0 · Wikimedia Commons</figcaption>
+</figure>
+

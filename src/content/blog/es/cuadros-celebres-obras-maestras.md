@@ -2,6 +2,9 @@
 title: "30 cuadros célebres: las obras maestras que conocer"
 description: "La Gioconda, La Noche estrellada, Las Señoritas de Avignon: 30 cuadros célebres con su historia, autor y lo que los hace imprescindibles."
 date: 2026-01-23
+image: "/images/blog/art/joconde.jpg"
+imageAlt: "La Gioconda de Leonardo da Vinci"
+imageCredit: "Foto: Leonardo da Vinci · dominio público · Wikimedia Commons"
 lang: "es"
 urlSlug: "cuadros-celebres-obras-maestras"
 translationKey: "tableaux-celebres"
@@ -89,3 +92,9 @@ Asociar una anecdota. El robo de la Gioconda, la locura de Van Gogh, el dificil 
 Visitar. Ninguna reproduccion sustituye el impacto real de una obra vista en persona. Para planificar, ver nuestro articulo sobre [los museos mas visitados del mundo](/es/blog/museos-mas-visitados-mundo/).
 
 SAPIRO propone quizzes sobre 553 obras de arte, con explicacion didactica detras de cada pregunta. Para profundizar: [obras de arte imprescindibles](/es/blog/obras-arte-imprescindibles/) para una seleccion mas ajustada.
+
+<figure>
+  <img src="/images/blog/art/ronde-de-nuit.jpg" alt="La ronda de noche de Rembrandt" loading="lazy" />
+  <figcaption>Foto: Rembrandt · dominio público · Wikimedia Commons</figcaption>
+</figure>
+

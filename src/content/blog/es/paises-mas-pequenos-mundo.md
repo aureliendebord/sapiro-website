@@ -2,6 +2,9 @@
 title: "Los 10 países más pequeños del mundo"
 description: "Vaticano, Mónaco, Nauru, Tuvalu: los 10 países más pequeños del mundo por superficie, con su historia, población y curiosidades."
 date: 2026-03-06
+image: "/images/blog/monde/vatican.jpg"
+imageAlt: "La Ciudad del Vaticano vista desde el cielo"
+imageCredit: "Foto: CAPTAIN RAJU · CC0 · Wikimedia Commons"
 lang: "es"
 urlSlug: "paises-mas-pequenos-mundo"
 translationKey: "plus-petits-pays"
@@ -95,3 +98,9 @@ Tres razones historicas.
 - Malta = 3 veces la ciudad de Granada
 
 Para profundizar: [paises menos visitados del mundo](/es/blog/paises-menos-visitados-mundo/) y [paises que ya no existen](/es/blog/paises-desaparecidos/) para continuar.
+
+<figure>
+  <img src="/images/blog/monde/carte-monde-ancienne.jpg" alt="Un mapa del mundo antiguo" loading="lazy" />
+  <figcaption>Foto: Reginald Lane Poole · dominio público · Wikimedia Commons</figcaption>
+</figure>
+

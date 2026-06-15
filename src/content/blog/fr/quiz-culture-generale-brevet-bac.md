@@ -2,6 +2,9 @@
 title: "Quiz culture générale niveau brevet et bac"
 description: "S'entraîner à la culture générale niveau brevet et bac : thèmes récurrents, questions types et méthode pour réussir l'épreuve."
 date: 2026-02-09
+image: "/images/blog/apprentissage/examen-amphi.jpg"
+imageAlt: "Des étudiants passant un examen en amphithéâtre"
+imageCredit: "Photo : Nabokov · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "fr"
 urlSlug: "quiz-culture-generale-brevet-bac"
 translationKey: "quiz-brevet-bac"
@@ -63,3 +66,9 @@ Trois principes.
 ## Pour s'entraîner
 
 SAPIRO propose 2 000+ questions de culture générale, géographie, histoire, art et nature, avec une explication didactique derrière chaque réponse. Idéal pour des sessions courtes avant les examens. Pour creuser : [meilleures apps quiz culture générale](/blog/meilleures-apps-quiz-culture-generale/) et notre [guide complet culture générale](/blog/culture-generale-guide/).
+
+<figure>
+  <img src="/images/blog/apprentissage/bureau-revision.jpg" alt="Un bureau de révision avec livres et notes" loading="lazy" />
+  <figcaption>Photo : Miscellaneous Items in High Demand, PPOC, Library of Congress · domaine public · Wikimedia Commons</figcaption>
+</figure>
+

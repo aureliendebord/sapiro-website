@@ -2,6 +2,9 @@
 title: "Sapiro vs QuizUp et HQ Trivia : approches différentes"
 description: "Comparatif Sapiro avec QuizUp et HQ Trivia : quiz compétitif live ou apprentissage tranquille ? Avantages et limites de chaque format."
 date: 2026-03-02
+image: "/images/blog/apps/smartphone-app.jpg"
+imageAlt: "Une application sur smartphone"
+imageCredit: "Photo : Mictlancihuatl · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "fr"
 urlSlug: "sapiro-vs-quizup-hq-trivia"
 translationKey: "sapiro-vs-quizup"
@@ -68,3 +71,9 @@ Voilà la différence philosophique fondamentale. QuizUp et HQ Trivia sont des j
 L'un n'est pas meilleur que l'autre, ils répondent à des besoins différents.
 
 Pour creuser : [meilleures apps quiz culture générale](/blog/meilleures-apps-quiz-culture-generale/) et [comment fonctionne la gamification éducative](/blog/gamification-education/).
+
+<figure>
+  <img src="/images/blog/apps/apprendre-mobile.jpg" alt="Jouer et apprendre sur son téléphone" loading="lazy" />
+  <figcaption>Photo : Anastasiya Lvova · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
+</figure>
+

@@ -2,6 +2,9 @@
 title: "World Capitals Quiz: How Many Can You Name?"
 description: "Think you can ace a world capitals quiz? From Canberra to Naypyidaw, discover the trickiest capitals and proven strategies to remember all 195 of them."
 date: 2025-12-10
+image: "/images/blog/monde/mappemonde.jpg"
+imageAlt: "An antique world map"
+imageCredit: "Photo: Various authors. · public domain · Wikimedia Commons"
 lang: "en"
 urlSlug: "world-capitals-quiz"
 translationKey: "quiz-capitales-monde"
@@ -105,6 +108,11 @@ To round things out, here are a few capital facts that make for excellent trivia
 La Paz, Bolivia sits at approximately 3,640 meters above sea level, making it the highest capital in the world. (Sucre is the constitutional capital, but La Paz is where the government sits -- and where visitors gasp for air.)
 
 Reykjavik, Iceland is the northernmost capital, at 64 degrees north latitude, with a population of around 140,000. Damascus, Syria is the oldest continuously inhabited capital, with evidence of habitation dating back over 11,000 years according to archaeological studies. Naypyidaw, Myanmar, established in 2006, is arguably the newest. Many of these cities are also home to some of the [famous monuments of the world](/en/blog/famous-monuments-world/), which makes their capitals easier to picture and recall. Ngerulmud, Palau has only a few hundred residents, making it the smallest capital by population. And Beijing, China is the most populous, depending on how metropolitan areas are measured.
+
+<figure>
+  <img src="/images/blog/monde/capitale-paris.jpg" alt="Aerial view of Paris" loading="lazy" />
+  <figcaption>Photo: Drew Coffman drewcoffman · CC0 · Wikimedia Commons</figcaption>
+</figure>
 
 ## Frequently asked questions
 

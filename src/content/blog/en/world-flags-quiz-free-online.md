@@ -2,6 +2,9 @@
 title: "World Flags Quiz: Free Online Practice"
 description: "Test your knowledge of world flags with free online quizzes, by continent and level. Progressive learning."
 date: 2026-02-21
+image: "/images/blog/apprentissage/drapeaux-monde.jpg"
+imageAlt: "A row of national flags"
+imageCredit: "Photo: United States Department of Energy, Office of Energy Efficiency and Renewable Energy · public domain · Wikimedia Commons"
 lang: "en"
 urlSlug: "world-flags-quiz-free-online"
 translationKey: "quiz-drapeaux-monde"
@@ -69,3 +72,9 @@ Three reasons.
 **Confusing similar ones.** Chad/Romania, Poland/Indonesia. See our article on [the hardest flags](/en/blog/hardest-flags/).
 
 Worth reading: [world capitals quiz](/en/blog/world-capitals-quiz/) and [flag meanings](/en/blog/flags-meaning/).
+
+<figure>
+  <img src="/images/blog/apprentissage/carte-monde.jpg" alt="A political world map" loading="lazy" />
+  <figcaption>Photo: JanitoalevicOriginal map by: CIA World Factbook · public domain · Wikimedia Commons</figcaption>
+</figure>
+

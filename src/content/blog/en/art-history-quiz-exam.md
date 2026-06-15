@@ -2,6 +2,9 @@
 title: "Art History Quiz: Exam-Level Practice"
 description: "Reviewing art history for exams, competitive tests or college: official syllabus, key works and practice quizzes by level."
 date: 2026-01-29
+image: "/images/blog/art/ecole-athenes.jpg"
+imageAlt: "The School of Athens by Raphael"
+imageCredit: "Photo: Raphael · public domain · Wikimedia Commons"
 lang: "en"
 urlSlug: "art-history-quiz-exam"
 translationKey: "quiz-histoire-art-bac"
@@ -74,3 +77,9 @@ Forgetting non-Western art. Programs often expect openness to African, Asian, Oc
 Mixing up Italian and Flemish Renaissance. The Italians (Leonardo, Michelangelo) are from the south, the Flemish (Van Eyck) from the north, with different techniques and subjects.
 
 For more, see our [art movements guide](/en/blog/art-movements-explained/) and the article on [how to recognize a painter by style](/en/blog/recognize-painter-style/). SAPIRO lets you practice on 553 works with an educational explanation behind every question.
+
+<figure>
+  <img src="/images/blog/art/liberte-guidant-peuple.jpg" alt="Liberty Leading the People by Eugène Delacroix" loading="lazy" />
+  <figcaption>Photo: Eugène Delacroix · public domain · Wikimedia Commons</figcaption>
+</figure>
+

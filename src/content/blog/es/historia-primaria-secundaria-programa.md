@@ -2,6 +2,9 @@
 title: "Historia en primaria y secundaria: programa y quizzes"
 description: "Programa de historia en primaria y secundaria con temas, fechas clave y quizzes para ayudar a tu hijo a repasar con eficacia."
 date: 2026-02-15
+image: "/images/blog/famille/salle-classe.jpg"
+imageAlt: "Un aula con una pizarra"
+imageCredit: "Foto: AKA MBG · CC0 · Wikimedia Commons"
 lang: "es"
 urlSlug: "historia-primaria-secundaria-programa"
 translationKey: "histoire-primaire-college"
@@ -57,3 +60,9 @@ Tres principios.
 **Confundir epocas.** Diferenciar bien Edad Media (siglos V-XV) y Renacimiento (XV-XVI), Imperio romano (Antiguedad) e Imperio frances (Napoleon).
 
 Para profundizar: [linea de tiempo mundial](/es/blog/linea-tiempo-historia-mundial/) y [personajes historicos](/es/blog/personajes-historicos/).
+
+<figure>
+  <img src="/images/blog/famille/livres-histoire.jpg" alt="Libros de historia en una estantería" loading="lazy" />
+  <figcaption>Foto: Tom Woodward from Richmond, VA, US · CC BY-SA 2.0 · Wikimedia Commons</figcaption>
+</figure>
+

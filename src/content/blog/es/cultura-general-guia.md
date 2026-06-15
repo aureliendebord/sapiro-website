@@ -2,6 +2,9 @@
 title: "Cultura general: guía para saber (casi) todo"
 description: "¿Quieres mejorar cultura general cada día? Métodos probados por la ciencia, hábitos de 15 minutos y recursos para saber un poco de todo. ¿Por dónde empezar?"
 date: 2025-10-28
+image: "/images/blog/monde/bibliotheque.jpg"
+imageAlt: "Una antigua biblioteca llena de libros"
+imageCredit: "Foto: Davide Cantelli cant89 · CC0 · Wikimedia Commons"
 lang: "es"
 urlSlug: "cultura-general-guia"
 translationKey: "culture-generale-guide"
@@ -91,6 +94,11 @@ En libros, tres recomendaciones: "Sapiens" de Yuval Noah Harari (publicado en 20
 En plataformas online: Wikipedia como punto de partida (siempre verificando fuentes), Khan Academy con cursos gratuitos de ciencia e historia, y TED Talks con charlas cortas que abren ventanas a temas que quiza nunca te habrias planteado.
 
 En aplicaciones: SAPIRO para geografia y cultura del mundo, con su sistema de quiz adaptativos. Nuestra [comparativa de las mejores apps de geografia](/es/blog/mejores-apps-geografia/) te ayuda a elegir. Complementala con Duolingo para idiomas y Anki si te gustan las flashcards personalizadas.
+
+<figure>
+  <img src="/images/blog/monde/livres-anciens.jpg" alt="Una pila de libros antiguos" loading="lazy" />
+  <figcaption>Foto: Evan Bench from paris, france · CC BY 2.0 · Wikimedia Commons</figcaption>
+</figure>
 
 ## Preguntas frecuentes
 

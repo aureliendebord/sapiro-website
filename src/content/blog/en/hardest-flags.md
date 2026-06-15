@@ -2,6 +2,9 @@
 title: "The 15 Hardest Flags to Recognize in the World"
 description: "From Chad vs Romania to Indonesia vs Monaco, these are the 15 hardest flags to recognize in the world -- plus the memory tricks to finally master them."
 date: 2025-12-15
+image: "/images/blog/monde/mur-drapeaux.jpg"
+imageAlt: "A row of national flags"
+imageCredit: "Photo: Willem van de Velde the Younger · public domain · Wikimedia Commons"
 lang: "en"
 urlSlug: "hardest-flags"
 translationKey: "drapeaux-difficiles"
@@ -107,6 +110,11 @@ Third, practice with spaced repetition. Review tricky flags at increasing interv
 Fourth, group flags by family. Study the Nordic crosses together, the Pan-African tricolors together, the Pan-Arab flags together. Understanding the "family" helps you narrow down options quickly during a quiz.
 
 Fifth, test yourself under pressure. Timed quizzes force your brain to retrieve information quickly, strengthening the neural pathways associated with recall. Comfort and mastery are different things.
+
+<figure>
+  <img src="/images/blog/monde/drapeaux-monde.jpg" alt="A collection of world flags" loading="lazy" />
+  <figcaption>Photo: Colin Smith · CC BY-SA 2.0 · Wikimedia Commons</figcaption>
+</figure>
 
 ## Frequently asked questions
 

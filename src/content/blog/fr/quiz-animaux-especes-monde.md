@@ -2,6 +2,9 @@
 title: "Quiz animaux : reconnaître 50 espèces du monde"
 description: "Sauriez-vous distinguer un guépard d'un léopard, un lama d'un alpaga ? 50 espèces animales à reconnaître avec leurs traits clés."
 date: 2026-01-15
+image: "/images/blog/nature/tigre.jpg"
+imageAlt: "Un tigre du Bengale dans son habitat"
+imageCredit: "Photo : Charles J. Sharp · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "fr"
 urlSlug: "quiz-animaux-especes-monde"
 translationKey: "quiz-animaux-monde"
@@ -89,6 +92,11 @@ Comparer plutôt qu'énumérer. À chaque fois que vous apprenez une espèce, co
 Associer à une carte mentale. Une espèce + un continent + un habitat = un ancrage qui tient. Une "carte du monde animale" en tête vaut bien des listes.
 
 Tester régulièrement. La [recherche sur l'apprentissage actif](/blog/gamification-education/) montre qu'on retient 50% mieux en se testant qu'en relisant passivement. SAPIRO propose justement des quiz sur 600 espèces animales avec une explication derrière chaque réponse. Quinze minutes par jour suffisent largement, surtout en complément d'une visite au zoo ou d'un documentaire.
+
+<figure>
+  <img src="/images/blog/nature/girafe.jpg" alt="Une girafe dans la savane" loading="lazy" />
+  <figcaption>Photo : Ssemmanda will · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
+</figure>
 
 ## Questions fréquentes
 

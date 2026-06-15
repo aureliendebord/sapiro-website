@@ -2,6 +2,9 @@
 title: "Preparar una oposición de acceso a la administración"
 description: "Sacar una oposición pública de acceso a la administración: temario, método, planning y entrenamiento con quizzes de cultura general."
 date: 2026-02-10
+image: "/images/blog/apprentissage/bibliotheque-lecture.jpg"
+imageAlt: "Una sala de lectura de biblioteca"
+imageCredit: "Foto: Diliff · CC BY 2.5 · Wikimedia Commons"
 lang: "es"
 urlSlug: "preparar-oposicion-acceso-administracion"
 translationKey: "concours-categorie-bc"
@@ -63,3 +66,9 @@ Cuatro principios.
 ## Para entrenarse
 
 SAPIRO propone quizzes de cultura general que corresponden al temario habitual de los Grupos B y C. Sesiones cortas de 15 minutos al dia, ideales para integrar el aprendizaje en el dia a dia. Para profundizar: [cultura general en oposiciones publicas](/es/blog/cultura-general-oposiciones/).
+
+<figure>
+  <img src="/images/blog/apprentissage/bureau-revision.jpg" alt="Un escritorio de estudio con libros y apuntes" loading="lazy" />
+  <figcaption>Foto: Miscellaneous Items in High Demand, PPOC, Library of Congress · dominio público · Wikimedia Commons</figcaption>
+</figure>
+

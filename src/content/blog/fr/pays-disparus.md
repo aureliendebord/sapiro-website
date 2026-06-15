@@ -2,6 +2,9 @@
 title: "Les pays qui n'existent plus : la liste des disparus"
 description: "Yougoslavie, URSS, Tchécoslovaquie, RDA : la liste des pays qui n'existent plus et l'histoire de leur disparition récente."
 date: 2026-03-07
+image: "/images/blog/monde/carte-monde-ancienne.jpg"
+imageAlt: "Une vieille carte du monde"
+imageCredit: "Photo : Reginald Lane Poole · domaine public · Wikimedia Commons"
 lang: "fr"
 urlSlug: "pays-disparus"
 translationKey: "pays-disparus"
@@ -91,3 +94,9 @@ Trois techniques.
 **Connaître les "enfants"** issus de chaque pays disparu. URSS → 15. Yougoslavie → 7 avec le Kosovo.
 
 **Tester ses connaissances.** SAPIRO propose des quiz sur la géographie et l'histoire mondiale, avec une explication contextualisée. Pour creuser : [frise chronologique mondiale](/blog/frise-chronologique-mondiale/).
+
+<figure>
+  <img src="/images/blog/monde/globe-terrestre.jpg" alt="Un globe terrestre ancien" loading="lazy" />
+  <figcaption>Photo : Henry James · domaine public · Wikimedia Commons</figcaption>
+</figure>
+

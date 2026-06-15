@@ -2,6 +2,9 @@
 title: "The 15 Great Battles of World History"
 description: "Marathon, Hastings, Waterloo, Stalingrad: 15 battles that changed the course of world history with their dates, causes and consequences."
 date: 2026-01-31
+image: "/images/blog/histoire/bataille-napoleonienne.jpg"
+imageAlt: "Painting of a Napoleonic battle"
+imageCredit: "Photo: Horace Vernet · public domain · Wikimedia Commons"
 lang: "en"
 urlSlug: "great-battles-history"
 translationKey: "grandes-batailles"
@@ -59,3 +62,9 @@ Think about consequences more than military details. A battle matters to history
 Visualize on a map. Every battle happens somewhere. Geography shapes the result.
 
 See also our [world history timeline](/en/blog/world-timeline-history/) to situate these dates and our article on [historical figures](/en/blog/historical-figures/) for the actors. SAPIRO offers world history quizzes with contextualized explanations behind each question.
+
+<figure>
+  <img src="/images/blog/histoire/memorial-verdun.jpg" alt="The Verdun memorial" loading="lazy" />
+  <figcaption>Photo: Jean-Marie Mangeot · CC BY-SA 3.0 · Wikimedia Commons</figcaption>
+</figure>
+

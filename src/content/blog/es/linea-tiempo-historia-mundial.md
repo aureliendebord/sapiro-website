@@ -2,6 +2,9 @@
 title: "Línea de tiempo mundial: los hitos esenciales"
 description: "Antigüedad, Edad Media, Renacimiento, era industrial, guerras mundiales: línea de tiempo mundial con las fechas y eventos que recordar."
 date: 2026-01-30
+image: "/images/blog/histoire/pyramides-gizeh.jpg"
+imageAlt: "Las pirámides de Guiza en Egipto"
+imageCredit: "Foto: Ricardo Liberato · CC BY-SA 2.0 · Wikimedia Commons"
 lang: "es"
 urlSlug: "linea-tiempo-historia-mundial"
 translationKey: "frise-chronologique"
@@ -117,3 +120,9 @@ Pensar por grandes "rupturas". Neolitico, Antiguedad (Roma), caida de Roma (476)
 Cruzar con la geografia. Las civilizaciones se solapan. Roma existe a la vez que la China Han, la India maurya. La linea europea no es la linea mundial.
 
 Para profundizar: [personajes historicos mayores](/es/blog/personajes-historicos/) y el de [grandes batallas de la historia](/es/blog/grandes-batallas-historia/). SAPIRO propone quizzes de historia mundial con explicacion contextualizada detras de cada pregunta.
+
+<figure>
+  <img src="/images/blog/histoire/artefact-antique.jpg" alt="Una cerámica griega antigua" loading="lazy" />
+  <figcaption>Foto: Carlo Dell'Orto · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
+</figure>
+

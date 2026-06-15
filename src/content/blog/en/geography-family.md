@@ -2,6 +2,9 @@
 title: "Family Quiz Night: Plan a Geography Evening"
 description: "Plan the perfect family geography quiz night with our complete guide: 3 proven formats, team-balancing tips, 20 ready-made questions, and visual round ideas."
 date: 2025-10-20
+image: "/images/blog/famille/globe-atlas-table.jpg"
+imageAlt: "A globe and atlas on a table"
+imageCredit: "Photo: Ánthimos Gazís · public domain · Wikimedia Commons"
 lang: "en"
 urlSlug: "geography-family"
 translationKey: "geographie-famille"
@@ -155,6 +158,11 @@ Here are 20 ready-to-use questions spanning multiple categories and difficulty l
 18. Which South American country has Portuguese as its official language? *(Brazil)*
 19. What is the largest country in Africa by area? *(Algeria)*
 20. How many countries are there in the United Kingdom? *(Four: England, Scotland, Wales, Northern Ireland)*
+
+<figure>
+  <img src="/images/blog/famille/carte-monde-coloree.jpg" alt="A colorful world map to explore as a family" loading="lazy" />
+  <figcaption>Photo: Dietmar Rabich · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
+</figure>
 
 ## Frequently asked questions
 

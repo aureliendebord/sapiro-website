@@ -2,6 +2,9 @@
 title: "Antigüedad, Edad Media, Renacimiento: hitos esenciales"
 description: "Tres grandes periodos que estructuran la historia occidental. Fechas, civilizaciones, movimientos y figuras para orientarse simple."
 date: 2026-02-04
+image: "/images/blog/histoire/forum-romain.jpg"
+imageAlt: "Las ruinas del Foro Romano en Roma"
+imageCredit: "Foto: VasuVR · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "es"
 urlSlug: "antiguedad-edad-media-renacimiento-resumen"
 translationKey: "antiquite-moyen-age-renaissance"
@@ -61,3 +64,9 @@ Asociar cada periodo a una palabra clave. Antiguedad = escritura e imperios. Eda
 Cruzar con el arte. El arte permite visualizar cada epoca. Antiguedad = escultura griega, frescos de Pompeya. Edad Media = catedrales goticas, iluminaciones. Renacimiento = pinturas de Leonardo, cupula de Florencia. Los [monumentos de la Antiguedad](/es/blog/monumentos-antiguedad/) tambien ofrecen referencias concretas para anclar ese primer periodo.
 
 Ver tambien nuestra [linea de tiempo mundial](/es/blog/linea-tiempo-historia-mundial/) y nuestro articulo sobre [movimientos artisticos](/es/blog/movimientos-artisticos/) para estructurar. SAPIRO propone quizzes de historia mundial con explicacion contextualizada.
+
+<figure>
+  <img src="/images/blog/histoire/cathedrale-gothique.jpg" alt="La fachada de una catedral gótica" loading="lazy" />
+  <figcaption>Foto: Diliff · CC BY-SA 3.0 · Wikimedia Commons</figcaption>
+</figure>
+

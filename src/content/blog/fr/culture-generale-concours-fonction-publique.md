@@ -2,6 +2,9 @@
 title: "Culture générale aux concours de la fonction publique"
 description: "Réviser la culture générale pour les concours de la fonction publique : programme officiel, thèmes récurrents et méthode pour préparer l'épreuve."
 date: 2026-02-07
+image: "/images/blog/apprentissage/examen-amphi.jpg"
+imageAlt: "Des étudiants passant un examen en amphithéâtre"
+imageCredit: "Photo : Nabokov · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "fr"
 urlSlug: "culture-generale-concours-fonction-publique"
 translationKey: "concours-fonction-publique"
@@ -67,6 +70,11 @@ Trois formats principaux.
 **Confondre culture générale et érudition.** Le but n'est pas de citer des références obscures, mais de montrer qu'on comprend les enjeux contemporains.
 
 **Négliger la méthode.** En composition, le plan compte autant que les connaissances. Une bonne dissertation mal construite vaut moins qu'une dissertation moins ambitieuse mais claire.
+
+<figure>
+  <img src="/images/blog/apprentissage/bibliotheque-lecture.jpg" alt="Une salle de lecture en bibliothèque" loading="lazy" />
+  <figcaption>Photo : Diliff · CC BY 2.5 · Wikimedia Commons</figcaption>
+</figure>
 
 ## Questions fréquentes
 

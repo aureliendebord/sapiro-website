@@ -2,6 +2,9 @@
 title: "Learning History in a Fun Way: Methods That Actually Work"
 description: "How to learn history without just memorizing dates. Quizzes, storytelling, thematic paths: the methods that make historical knowledge stick for good."
 date: 2026-03-18
+image: "/images/blog/famille/livres-histoire.jpg"
+imageAlt: "History books to learn while having fun"
+imageCredit: "Photo: Tom Woodward from Richmond, VA, US · CC BY-SA 2.0 · Wikimedia Commons"
 lang: "en"
 urlSlug: "learning-history-fun"
 translationKey: "apprendre-histoire"
@@ -96,3 +99,9 @@ No single method is enough on its own. Books offer a depth that quizzes cannot r
 The best approach is to combine them. Watch a documentary on the fall of Rome, then test yourself with a quiz on Roman emperors, then read a book chapter to grasp the nuances the documentary simplified. Each method compensates for the other's limitations.
 
 History is not a static subject you learn once and file away. It is a lens for reading the present. Current conflicts, borders, institutions, the ideas circulating around us -- all of it has a history. And understanding that history means better understanding the world you live in.
+
+<figure>
+  <img src="/images/blog/famille/chateau-medieval.jpg" alt="The ruins of a medieval castle" loading="lazy" />
+  <figcaption>Photo: Dietmar Rabich · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
+</figure>
+

@@ -2,6 +2,9 @@
 title: "20 personnages historiques incontournables"
 description: "Quiz personnages historiques : de Cléopâtre à Turing, 20 figures incontournables qui ont façonné le monde. Combien pouvez-vous replacer dans leur époque ?"
 date: 2025-11-28
+image: "/images/blog/monde/buste-antique.jpg"
+imageAlt: "Un buste antique en marbre"
+imageCredit: "Photo : J. Paul Getty Museum · CC0 · Wikimedia Commons"
 lang: "fr"
 urlSlug: "personnages-historiques"
 translationKey: "personnages-historiques"
@@ -71,3 +74,9 @@ Pour les plus jeunes, découvrir ces vies développe l'esprit critique et l'empa
 ## Tester ses connaissances
 
 Sur ces vingt figures, combien sauriez-vous replacer dans leur siècle et leur pays ? SAPIRO propose des quiz d'histoire de l'Antiquité à aujourd'hui, avec une fiche explicative derrière chaque personnage.
+
+<figure>
+  <img src="/images/blog/monde/bibliotheque.jpg" alt="Une ancienne bibliothèque remplie de livres" loading="lazy" />
+  <figcaption>Photo : Davide Cantelli cant89 · CC0 · Wikimedia Commons</figcaption>
+</figure>
+

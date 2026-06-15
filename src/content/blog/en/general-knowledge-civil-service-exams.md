@@ -2,6 +2,9 @@
 title: "General Knowledge for Civil Service Exams"
 description: "Review general knowledge for civil service or government exams: official syllabus, recurring themes and method to prepare the test."
 date: 2026-02-07
+image: "/images/blog/apprentissage/examen-amphi.jpg"
+imageAlt: "Students taking an exam in a lecture hall"
+imageCredit: "Photo: Nabokov · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "en"
 urlSlug: "general-knowledge-civil-service-exams"
 translationKey: "concours-fonction-publique"
@@ -71,3 +74,9 @@ Three main formats.
 ## How to practice
 
 SAPIRO offers general knowledge quizzes with an educational explanation behind each question. It is the ideal tool for short sessions (15 minutes a day) that compound. Worth reading: [best general knowledge quiz apps](/en/blog/best-quiz-apps-general-knowledge/) and our [full general knowledge guide](/en/blog/general-knowledge-guide/).
+
+<figure>
+  <img src="/images/blog/apprentissage/bibliotheque-lecture.jpg" alt="A library reading room" loading="lazy" />
+  <figcaption>Photo: Diliff · CC BY 2.5 · Wikimedia Commons</figcaption>
+</figure>
+

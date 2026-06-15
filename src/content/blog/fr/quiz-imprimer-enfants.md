@@ -2,6 +2,9 @@
 title: "Quiz à imprimer pour enfants : pays, animaux, art"
 description: "Modèles de quiz à imprimer pour les enfants : drapeaux, capitales, animaux, art. Solutions et conseils pour adapter au niveau de l'enfant."
 date: 2026-02-19
+image: "/images/blog/famille/enfant-cahier.jpg"
+imageAlt: "Un enfant écrit dans un cahier"
+imageCredit: "Photo : Shixart1985 · CC BY 2.0 · Wikimedia Commons"
 lang: "fr"
 urlSlug: "quiz-imprimer-enfants"
 translationKey: "quiz-imprimer"
@@ -100,3 +103,9 @@ Limités à un seul jeu, peu de variété. Pas d'explication automatique. Pas de
 Pour des sessions régulières, mieux vaut une application dédiée. SAPIRO propose 2 000+ questions avec explication didactique, sur quatre univers (géographie, histoire, art, nature). Permet de mesurer la progression sur la durée.
 
 Pour creuser : [meilleures apps quiz culture générale](/blog/meilleures-apps-quiz-culture-generale/).
+
+<figure>
+  <img src="/images/blog/famille/crayons-couleur.jpg" alt="Des crayons de couleur pour répondre au quiz" loading="lazy" />
+  <figcaption>Photo : MichaelMaggs · CC BY-SA 3.0 · Wikimedia Commons</figcaption>
+</figure>
+

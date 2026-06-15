@@ -2,6 +2,9 @@
 title: "The 15 Most Visited Museums in the World"
 description: "Louvre, British Museum, MoMA, Vatican: top 15 most visited museums worldwide with attendance numbers, key works and visit tips."
 date: 2026-01-27
+image: "/images/blog/art/pyramide-louvre.jpg"
+imageAlt: "The Louvre Pyramid in Paris"
+imageCredit: "Photo: Benh LIEU SONG (Flickr) · CC BY-SA 3.0 · Wikimedia Commons"
 lang: "en"
 urlSlug: "most-visited-museums-world"
 translationKey: "musees-plus-visites"
@@ -83,3 +86,9 @@ Arrive at opening or late afternoon. Tour buses arrive around 10-11am and leave 
 Favor weekdays. A Tuesday morning at the Louvre does not look like a spring Saturday.
 
 Worth reading: [30 famous paintings to know](/en/blog/famous-paintings-masterpieces/) before the visit, or the ranking of the [most visited monuments](/en/blog/most-visited-monuments-world/) to round out the itinerary. SAPIRO lets you review 553 works with their location, perfect before a cultural trip.
+
+<figure>
+  <img src="/images/blog/art/galerie-musee.jpg" alt="Painting gallery inside a major museum" loading="lazy" />
+  <figcaption>Photo: Krzysztof Popławski · CC BY 4.0 · Wikimedia Commons</figcaption>
+</figure>
+

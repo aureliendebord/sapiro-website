@@ -2,6 +2,9 @@
 title: "Quiz banderas del mundo gratis online"
 description: "Pon a prueba tu conocimiento de banderas del mundo con quizzes gratis online, por continente y nivel. Aprendizaje progresivo."
 date: 2026-02-21
+image: "/images/blog/apprentissage/drapeaux-monde.jpg"
+imageAlt: "Banderas nacionales alineadas"
+imageCredit: "Foto: United States Department of Energy, Office of Energy Efficiency and Renewable Energy · dominio público · Wikimedia Commons"
 lang: "es"
 urlSlug: "quiz-banderas-mundo-gratis-online"
 translationKey: "quiz-drapeaux-monde"
@@ -69,3 +72,9 @@ Tres razones.
 **Confundir similares.** Chad/Rumania, Polonia/Indonesia. Ver nuestro articulo sobre [banderas dificiles](/es/blog/banderas-dificiles/).
 
 Para profundizar: [quiz capitales del mundo](/es/blog/quiz-capitales-mundo/) y [significado de las banderas](/es/blog/significado-banderas/).
+
+<figure>
+  <img src="/images/blog/apprentissage/carte-monde.jpg" alt="Un mapa político del mundo" loading="lazy" />
+  <figcaption>Foto: JanitoalevicOriginal map by: CIA World Factbook · dominio público · Wikimedia Commons</figcaption>
+</figure>
+

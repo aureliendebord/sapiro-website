@@ -2,6 +2,9 @@
 title: "Las 15 banderas más difíciles de reconocer del mundo"
 description: "De Mónaco a Indonesia, estas son las 15 banderas más difíciles de reconocer del mundo. Trucos visuales, datos curiosos y quiz para dejar de confundirlas."
 date: 2025-12-15
+image: "/images/blog/monde/mur-drapeaux.jpg"
+imageAlt: "Una hilera de banderas nacionales"
+imageCredit: "Foto: Willem van de Velde the Younger · dominio público · Wikimedia Commons"
 lang: "es"
 urlSlug: "banderas-dificiles"
 translationKey: "drapeaux-difficiles"
@@ -77,6 +80,11 @@ La repeticion espaciada sigue siendo el metodo mas solido. Se repasan las bander
 La agrupacion por regiones ayuda a estructurar el aprendizaje. Las banderas de Africa comparten a menudo los colores panafricanos, las de Oceania la Cruz del Sur, las de los paises musulmanes la media luna. Estas regularidades sirven de puntos de referencia.
 
 Y luego esta el aprendizaje activo mediante quiz. Ponerse a prueba regularmente ancla las banderas mucho mas solidamente que mirarlas de forma pasiva. Para los [errores de geografia comunes](/es/blog/errores-geografia/), el principio es el mismo: ponerse a prueba vale mas que releer. Y si quieres poner a prueba tus conocimientos en [familia con un quiz](/es/blog/geografia-familia/), las banderas son un tema perfecto para todas las generaciones.
+
+<figure>
+  <img src="/images/blog/monde/drapeaux-monde.jpg" alt="Una colección de banderas del mundo" loading="lazy" />
+  <figcaption>Foto: Colin Smith · CC BY-SA 2.0 · Wikimedia Commons</figcaption>
+</figure>
 
 ## Preguntas frecuentes
 

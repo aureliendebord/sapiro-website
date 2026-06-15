@@ -2,6 +2,9 @@
 title: "QCM gendarmerie, police, armée : préparation"
 description: "Réussir les QCM des concours gendarmerie, police, armée : programme, exemples de questions et méthode d'entraînement."
 date: 2026-02-13
+image: "/images/blog/apprentissage/examen-amphi.jpg"
+imageAlt: "Des étudiants passant un examen en amphithéâtre"
+imageCredit: "Photo : Nabokov · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "fr"
 urlSlug: "qcm-gendarmerie-police-armee"
 translationKey: "qcm-gendarmerie"
@@ -74,3 +77,9 @@ Préparation : se documenter sur l'institution, ses missions, son histoire réce
 ## Pour s'entraîner
 
 SAPIRO propose des quiz culture générale qui couvrent le programme typique des QCM. Sessions de 15 minutes par jour pour maintenir la régularité. Voir aussi nos articles sur [comment préparer un concours catégorie B ou C](/blog/preparer-concours-categorie-bc/) et [comment réviser en 30 jours](/blog/reviser-culture-generale-30-jours/).
+
+<figure>
+  <img src="/images/blog/apprentissage/bureau-revision.jpg" alt="Un bureau de révision avec livres et notes" loading="lazy" />
+  <figcaption>Photo : Miscellaneous Items in High Demand, PPOC, Library of Congress · domaine public · Wikimedia Commons</figcaption>
+</figure>
+

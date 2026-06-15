@@ -2,6 +2,9 @@
 title: "20 Animal Pairs That Look Alike: How to Tell Them Apart"
 description: "Crocodile or alligator, leopard or cheetah, llama or alpaca: 20 commonly confused animal pairs with the criteria to never mix them up again."
 date: 2026-01-22
+image: "/images/blog/nature/leopard.jpg"
+imageAlt: "A leopard, often confused with the cheetah"
+imageCredit: "Photo: tropicaLiving · CC BY-SA 3.0 · Wikimedia Commons"
 lang: "en"
 urlSlug: "animals-that-look-alike"
 translationKey: "animaux-ressemblants"
@@ -147,3 +150,9 @@ The trout is smaller and lives its whole life in fresh water (except sea trout, 
 Three techniques work. Pair comparison (always learn two species together). Identification by a single discriminating trait. Geographic anchoring (which continent, which habitat).
 
 Worth reading: [50 animal species worth knowing](/en/blog/quiz-animals-world-species/) and the one on [dog breeds](/en/blog/dog-breeds-identify/). SAPIRO offers quizzes on 600 species, including many tricky pairs, with an educational explanation behind each answer.
+
+<figure>
+  <img src="/images/blog/nature/guepard.jpg" alt="A cheetah recognizable by its black tear marks" loading="lazy" />
+  <figcaption>Photo: Alexander Klink · CC BY 4.0 · Wikimedia Commons</figcaption>
+</figure>
+

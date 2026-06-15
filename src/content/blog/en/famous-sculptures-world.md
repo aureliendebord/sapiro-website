@@ -2,6 +2,9 @@
 title: "15 Famous Sculptures to Know in the World"
 description: "David, The Thinker, Venus de Milo: 15 famous sculptures from around the world with their story, location, and what makes them essential."
 date: 2026-01-26
+image: "/images/blog/art/david-michel-ange.jpg"
+imageAlt: "The David by Michelangelo"
+imageCredit: "Photo: Commonists · CC BY-SA 4.0 · Wikimedia Commons"
 lastModified: 2026-06-15
 lang: "en"
 urlSlug: "famous-sculptures-world"
@@ -62,3 +65,9 @@ Tie to a period. Antiquity: Greek sculpture. Renaissance: Michelangelo. Baroque:
 Identify the material. Marble for the Renaissance, bronze for Rodin and Bernini, steel for contemporaries.
 
 SAPIRO offers quizzes on 553 works including sculpture, with an educational explanation behind each question. Worth reading: [30 famous paintings to know](/en/blog/famous-paintings-masterpieces/).
+
+<figure>
+  <img src="/images/blog/art/venus-de-milo.jpg" alt="The Venus de Milo" loading="lazy" />
+  <figcaption>Photo: Unknown artist · CC BY-SA 2.5 · Wikimedia Commons</figcaption>
+</figure>
+

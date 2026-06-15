@@ -2,6 +2,9 @@
 title: "Annales culture générale et corrigés : où trouver"
 description: "Trouver des annales corrigées de culture générale pour préparer un concours : sources officielles, livres et entraînement aux questions types."
 date: 2026-02-11
+image: "/images/blog/apprentissage/examen-amphi.jpg"
+imageAlt: "Des étudiants passant un examen en amphithéâtre"
+imageCredit: "Photo : Nabokov · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "fr"
 urlSlug: "annales-culture-generale-corriges"
 translationKey: "annales-culture-generale"
@@ -63,3 +66,9 @@ Trois piliers.
 **Échanges humains.** Trouver un binôme de révision ou un mentor. C'est gratuit et accélère l'apprentissage.
 
 Pour creuser : [culture générale aux concours](/blog/culture-generale-concours-fonction-publique/) et [comment réviser en 30 jours](/blog/reviser-culture-generale-30-jours/).
+
+<figure>
+  <img src="/images/blog/apprentissage/bureau-revision.jpg" alt="Un bureau de révision avec livres et notes" loading="lazy" />
+  <figcaption>Photo : Miscellaneous Items in High Demand, PPOC, Library of Congress · domaine public · Wikimedia Commons</figcaption>
+</figure>
+

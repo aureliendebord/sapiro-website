@@ -2,6 +2,9 @@
 title: "Quiz de capitales del mundo: ¿cuántas puedes nombrar?"
 description: "Acepta el quiz capitales del mundo: trampas clásicas, capitales sorprendentes y trucos para memorizar las 195. ¿Cuántas eres capaz de nombrar sin mirar?"
 date: 2025-12-10
+image: "/images/blog/monde/mappemonde.jpg"
+imageAlt: "Un mapamundi antiguo"
+imageCredit: "Foto: Various authors. · dominio público · Wikimedia Commons"
 lang: "es"
 urlSlug: "quiz-capitales-mundo"
 translationKey: "quiz-capitales-monde"
@@ -101,6 +104,11 @@ La capital mas reciente es Naipyido, inaugurada en 2006. Antes, Astana habia sid
 De 195 paises reconocidos, cuantas capitales puedes soltar de memoria? La mayoria de la gente se estanca entre 40 y 60. Los apasionados de la geografia suben a 120-150. Los verdaderos fanaticos reivindican la totalidad.
 
 Sea cual sea la puntuacion de partida, progresa rapido en cuanto uno se pone a ello con regularidad. Las capitales se enganchan mejor cuando se asocian a anecdotas en vez de a una lista seca.
+
+<figure>
+  <img src="/images/blog/monde/capitale-paris.jpg" alt="Vista aérea de París" loading="lazy" />
+  <figcaption>Foto: Drew Coffman drewcoffman · CC0 · Wikimedia Commons</figcaption>
+</figure>
 
 ## Preguntas frecuentes
 

@@ -2,6 +2,9 @@
 title: "Exámenes anteriores y correcciones: ¿dónde encontrarlos?"
 description: "Encontrar exámenes y correcciones de cultura general para preparar una oposición: fuentes oficiales, libros y entrenamiento con preguntas tipo."
 date: 2026-02-11
+image: "/images/blog/apprentissage/examen-amphi.jpg"
+imageAlt: "Estudiantes haciendo un examen en un aula magna"
+imageCredit: "Foto: Nabokov · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "es"
 urlSlug: "examenes-anteriores-cultura-general"
 translationKey: "annales-culture-generale"
@@ -63,3 +66,9 @@ Tres pilares.
 **Intercambios humanos.** Encontrar un companero de oposicion o un mentor. Gratis y acelera el aprendizaje.
 
 Para profundizar: [cultura general en oposiciones publicas](/es/blog/cultura-general-oposiciones/) y [como repasar en 30 dias](/es/blog/repasar-cultura-general-30-dias/).
+
+<figure>
+  <img src="/images/blog/apprentissage/bureau-revision.jpg" alt="Un escritorio de estudio con libros y apuntes" loading="lazy" />
+  <figcaption>Foto: Miscellaneous Items in High Demand, PPOC, Library of Congress · dominio público · Wikimedia Commons</figcaption>
+</figure>
+

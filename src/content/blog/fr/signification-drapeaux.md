@@ -2,6 +2,9 @@
 title: "Signification des drapeaux : couleurs et symboles"
 description: "Signification des drapeaux du monde : couleurs, symboles, croissants et étoiles. Savez-vous pourquoi le Népal a le seul drapeau non rectangulaire ?"
 date: 2025-11-05
+image: "/images/blog/monde/mur-drapeaux.jpg"
+imageAlt: "Un alignement de drapeaux nationaux"
+imageCredit: "Photo : Willem van de Velde the Younger · domaine public · Wikimedia Commons"
 lang: "fr"
 urlSlug: "signification-drapeaux"
 translationKey: "signification-drapeaux"
@@ -93,6 +96,11 @@ Le drapeau de la Nouvelle-Zélande a fait l'objet d'un référendum en 2015-2016
 Le drapeau du Mississippi (État américain) a été changé en 2020 : le canton confédéré, considéré comme un symbole raciste, a cédé sa place à un magnolia, fleur emblématique de l'État. Ces changements compliquent la vie des amateurs de [quiz de culture générale](/blog/culture-generale-guide/), qui doivent se tenir à jour.
 
 Et le drapeau libyen a connu des vies multiples. Sous Kadhafi (1977-2011), il était entièrement vert, sans aucun symbole -- le drapeau le plus simple du monde. Depuis 2011, la Libye a repris le drapeau tricolore de la monarchie.
+
+<figure>
+  <img src="/images/blog/monde/drapeaux-monde.jpg" alt="Une collection de drapeaux du monde" loading="lazy" />
+  <figcaption>Photo : Colin Smith · CC BY-SA 2.0 · Wikimedia Commons</figcaption>
+</figure>
 
 ## Questions fréquentes
 

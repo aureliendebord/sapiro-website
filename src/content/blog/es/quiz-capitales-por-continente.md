@@ -2,6 +2,9 @@
 title: "Quiz capitales por continente: Europa, África, Asia..."
 description: "Pon a prueba tu conocimiento de capitales del mundo por continente: Europa, África, Asia, Américas, Oceanía. Listas completas y quizzes."
 date: 2026-02-22
+image: "/images/blog/apprentissage/carte-monde.jpg"
+imageAlt: "Un mapa político del mundo"
+imageCredit: "Foto: JanitoalevicOriginal map by: CIA World Factbook · dominio público · Wikimedia Commons"
 lang: "es"
 urlSlug: "quiz-capitales-por-continente"
 translationKey: "quiz-capitales-continent"
@@ -67,3 +70,9 @@ Canberra (Australia), Wellington (Nueva Zelanda), Port Moresby (Papua Nueva Guin
 **Quince minutos al dia.** SAPIRO propone quizzes sobre las 197 capitales por continente y nivel. Con explicacion didactica detras de cada pregunta.
 
 Para profundizar: [quiz capitales del mundo](/es/blog/quiz-capitales-mundo/).
+
+<figure>
+  <img src="/images/blog/apprentissage/drapeaux-monde.jpg" alt="Banderas nacionales alineadas" loading="lazy" />
+  <figcaption>Foto: United States Department of Energy, Office of Energy Efficiency and Renewable Energy · dominio público · Wikimedia Commons</figcaption>
+</figure>
+

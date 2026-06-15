@@ -2,6 +2,9 @@
 title: "How to Recognize a Painter: Visual Guide to the Old Masters"
 description: "Monet, Van Gogh, Picasso, Vermeer: simple criteria to identify the great painters at a glance. Style, palette, themes."
 date: 2026-01-24
+image: "/images/blog/art/autoportrait-van-gogh.jpg"
+imageAlt: "Self-portrait by Vincent van Gogh"
+imageCredit: "Photo: Vincent van Gogh · public domain · Wikimedia Commons"
 lang: "en"
 urlSlug: "recognize-painter-style"
 translationKey: "reconnaitre-peintre"
@@ -91,3 +94,9 @@ Look in thematic groups. Landscape painters (Monet, Turner, Constable). Portrait
 Cross-reference with periods. Renaissance = Leonardo, Michelangelo, Raphael. Baroque = Rembrandt, Vermeer, Velazquez. Impressionism = Monet, Renoir, Degas. See our article on [art movements](/en/blog/art-movements-explained/).
 
 Play attribution quizzes. See a painting, guess the author, check. SAPIRO offers 553 works with attribution, which lets you calibrate your eye by repetition. Worth reading: [30 famous paintings to know](/en/blog/famous-paintings-masterpieces/).
+
+<figure>
+  <img src="/images/blog/art/menines-velazquez.jpg" alt="Las Meninas by Diego Velázquez" loading="lazy" />
+  <figcaption>Photo: Diego Velázquez · public domain · Wikimedia Commons</figcaption>
+</figure>
+

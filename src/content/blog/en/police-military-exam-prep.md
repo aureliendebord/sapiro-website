@@ -2,6 +2,9 @@
 title: "Police, Military and Security Exam Preparation"
 description: "Pass police, military and security exams: program, sample questions and training method for general knowledge and aptitude tests."
 date: 2026-02-13
+image: "/images/blog/apprentissage/examen-amphi.jpg"
+imageAlt: "Students taking an exam in a lecture hall"
+imageCredit: "Photo: Nabokov · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "en"
 urlSlug: "police-military-exam-prep"
 translationKey: "qcm-gendarmerie"
@@ -72,3 +75,9 @@ Preparation: research the institution, its missions, its recent history. Practic
 ## How to practice
 
 SAPIRO offers general knowledge quizzes covering the typical multiple-choice exam program. 15-minute daily sessions to maintain consistency. Worth reading: [preparing a government entry-level exam](/en/blog/prepare-government-entry-exam/) and [how to revise in 30 days](/en/blog/revise-general-knowledge-30-days/).
+
+<figure>
+  <img src="/images/blog/apprentissage/bureau-revision.jpg" alt="A study desk with books and notes" loading="lazy" />
+  <figcaption>Photo: Miscellaneous Items in High Demand, PPOC, Library of Congress · public domain · Wikimedia Commons</figcaption>
+</figure>
+

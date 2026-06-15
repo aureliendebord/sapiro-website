@@ -2,6 +2,9 @@
 title: "Animales de África: 40 especies emblemáticas"
 description: "León, nu, fenec, órix: 40 animales emblemáticos de África con su hábitat, dieta y estado de conservación. Guía completa por región."
 date: 2026-01-20
+image: "/images/blog/nature/elephant-afrique.jpg"
+imageAlt: "Un elefante africano en la sabana"
+imageCredit: "Foto: Geoff Gallice · CC BY 2.0 · Wikimedia Commons"
 lang: "es"
 urlSlug: "animales-africa"
 translationKey: "animaux-afrique"
@@ -107,3 +110,9 @@ El termino "Big Five" viene de los safaris coloniales. Designaba los cinco anima
 Las poblaciones animales africanas han caido un 70% de media desde 1970, segun WWF. Tres causas dominan: perdida de habitat (urbanizacion, agricultura), caza furtiva (sobre todo por marfil, cuerno y pieles) y cambio climatico. Para las especies con mayor riesgo, ver nuestra [lista de animales en peligro de extincion](/es/blog/animales-en-peligro-extincion/).
 
 SAPIRO propone quizzes que cubren las 600 especies del reino animal, de las que un centenar estan presentes en Africa, con explicacion didactica detras de cada respuesta.
+
+<figure>
+  <img src="/images/blog/nature/lion-afrique.jpg" alt="Un león en la sabana africana" loading="lazy" />
+  <figcaption>Foto: Michael Barera · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
+</figure>
+

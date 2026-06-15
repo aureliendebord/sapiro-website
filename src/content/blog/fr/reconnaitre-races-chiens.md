@@ -2,6 +2,9 @@
 title: "Reconnaître 30 races de chiens : guide visuel"
 description: "Berger australien ou border collie, husky ou malamute : 30 races de chiens avec leurs traits distinctifs pour ne plus jamais les confondre."
 date: 2026-01-19
+image: "/images/blog/nature/golden-retriever.jpg"
+imageAlt: "Un golden retriever, race de chien populaire"
+imageCredit: "Photo : Dietmar Rabich · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "fr"
 urlSlug: "reconnaitre-races-chiens"
 translationKey: "races-chiens"
@@ -99,3 +102,9 @@ Travaillez par paires confuses, pas en listes. Husky vs malamute (yeux et taille
 Enfin, l'origine géographique raconte beaucoup. Les chiens nordiques sont robustes et fournis en sous-poil parce qu'ils ont évolué dans le froid. Les méditerranéens sont plus légers. Les terriers viennent des îles britanniques. Les pinschers et schnauzers d'Allemagne. Une fois qu'on a ce fil, on se souvient mieux des silhouettes.
 
 Pour creuser : [50 espèces animales à reconnaître](/blog/quiz-animaux-especes-monde/) et les [différences entre animaux qui se ressemblent](/blog/differences-animaux-ressemblants/). SAPIRO propose des quiz nature qui couvrent 600 espèces, avec une explication derrière chaque question.
+
+<figure>
+  <img src="/images/blog/nature/berger-allemand.jpg" alt="Un berger allemand au pelage caractéristique" loading="lazy" />
+  <figcaption>Photo : Museum of Veterinary Anatomy FMVZ USP / Wagner Souza e Silva edited by Rodrigo Tetsuo Argenton · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
+</figure>
+

@@ -2,6 +2,9 @@
 title: "Quiz cumpleaños y fiesta entre amigos: ideas"
 description: "Organizar un quiz para un cumpleaños o una fiesta entre amigos: temas, preguntas personalizadas y método de animación."
 date: 2026-02-26
+image: "/images/blog/apprentissage/fete-amis.jpg"
+imageAlt: "Una fiesta de cumpleaños entre amigos"
+imageCredit: "Foto: Anna Flodmark Ehrs for Southerly Clubs · dominio público · Wikimedia Commons"
 lang: "es"
 urlSlug: "quiz-cumpleanos-fiesta-amigos"
 translationKey: "quiz-anniversaire-amis"
@@ -91,3 +94,9 @@ Tres principios.
 ## Para preparar rapido
 
 SAPIRO propone 2 000+ preguntas por categoria (geografia, historia, arte, naturaleza). Ideal para coger rapido preguntas de calidad con explicacion. Para profundizar: [actividades culturales en familia](/es/blog/actividades-culturales-familia/) para profundizar.
+
+<figure>
+  <img src="/images/blog/apprentissage/jeu-societe-amis.jpg" alt="Amigos jugando a un juego de mesa" loading="lazy" />
+  <figcaption>Foto: Bill Branson (Photographer) · dominio público · Wikimedia Commons</figcaption>
+</figure>
+

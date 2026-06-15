@@ -2,6 +2,9 @@
 title: "Birthday and Friends Party Quiz: Ideas"
 description: "Hosting a quiz for a birthday or friends gathering: themes, personalized questions and hosting method."
 date: 2026-02-26
+image: "/images/blog/apprentissage/fete-amis.jpg"
+imageAlt: "A birthday party with friends"
+imageCredit: "Photo: Anna Flodmark Ehrs for Southerly Clubs · public domain · Wikimedia Commons"
 lang: "en"
 urlSlug: "birthday-party-quiz-friends"
 translationKey: "quiz-anniversaire-amis"
@@ -91,3 +94,9 @@ Three principles.
 ## To prepare quickly
 
 SAPIRO offers 2,000+ questions by category (geography, history, art, nature). Ideal to quickly pick quality questions with an explanation. Worth reading: [family cultural activities](/en/blog/family-cultural-activities/) to extend.
+
+<figure>
+  <img src="/images/blog/apprentissage/jeu-societe-amis.jpg" alt="Friends playing a board game" loading="lazy" />
+  <figcaption>Photo: Bill Branson (Photographer) · public domain · Wikimedia Commons</figcaption>
+</figure>
+

@@ -2,6 +2,9 @@
 title: "Sapiro vs Duolingo: ¿aprender qué exactamente?"
 description: "Comparativa Sapiro y Duolingo: ¿cultura general o idiomas extranjeros? Ventajas, inconvenientes y públicos de cada aplicación."
 date: 2026-02-28
+image: "/images/blog/apps/smartphone-app.jpg"
+imageAlt: "Una aplicación en un smartphone"
+imageCredit: "Foto: Mictlancihuatl · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "es"
 urlSlug: "sapiro-vs-duolingo"
 translationKey: "sapiro-vs-duolingo"
@@ -59,3 +62,9 @@ SAPIRO y Duolingo son dos apps de aprendizaje, pero en terrenos distintos. Duoli
 Si. Muchos usuarios combinan ambos: 15 minutos de idioma por la manana con Duolingo, 15 minutos de cultura G por la noche con SAPIRO. Son competencias complementarias, no competidoras.
 
 Para profundizar: [mejores apps de quiz cultura general](/es/blog/mejores-apps-quiz-cultura-general/).
+
+<figure>
+  <img src="/images/blog/apps/apprendre-mobile.jpg" alt="Aprender en el teléfono" loading="lazy" />
+  <figcaption>Foto: Anastasiya Lvova · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
+</figure>
+

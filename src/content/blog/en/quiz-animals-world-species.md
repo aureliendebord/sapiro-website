@@ -2,6 +2,9 @@
 title: "Animal Quiz: Recognize 50 Species From Around the World"
 description: "Could you tell a cheetah from a leopard, a llama from an alpaca? Tour of the 50 animal species worth knowing, with their distinctive traits and habitats."
 date: 2026-01-15
+image: "/images/blog/nature/tigre.jpg"
+imageAlt: "A Bengal tiger in its habitat"
+imageCredit: "Photo: Charles J. Sharp · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "en"
 urlSlug: "quiz-animals-world-species"
 translationKey: "quiz-animaux-monde"
@@ -93,3 +96,9 @@ Regular testing. [Research on active learning](/en/blog/gamification-education/)
 ## What next?
 
 Once the 50 major species are locked in, you can move to regional variations (elephant subspecies, tiger subspecies), behavioral quirks, conservation status. It is also a strong entry point into ecology and climate, fields where species are the most visible barometers. For kids, see our [nature quiz for children](/en/blog/nature-quiz-kids/).
+
+<figure>
+  <img src="/images/blog/nature/girafe.jpg" alt="A giraffe in the savanna" loading="lazy" />
+  <figcaption>Photo: Ssemmanda will · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
+</figure>
+

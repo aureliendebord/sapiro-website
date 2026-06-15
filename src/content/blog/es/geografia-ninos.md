@@ -2,6 +2,9 @@
 title: "Enseñar geografía a los niños: 10 métodos divertidos"
 description: "10 métodos probados para aprender geografía para niños de 5 a 12 años: quiz, puzzles, cocina del mundo y apps educativas. ¿Cuáles funcionan mejor según la edad?"
 date: 2025-12-05
+image: "/images/blog/famille/globe-enfant.jpg"
+imageAlt: "Un globo terráqueo para enseñar geografía a los niños"
+imageCredit: "Foto: Shixart1985 · CC BY 2.0 · Wikimedia Commons"
 lang: "es"
 urlSlug: "geografia-ninos"
 translationKey: "geographie-enfants"
@@ -99,6 +102,11 @@ Elige aplicaciones que privilegien el aprendizaje sobre el puro entretenimiento.
 Ningun metodo unico funciona para todos los ninos ni para todos los temas. La variedad es la clave. Actividades manuales (puzzles, coloreado), experiencias sensoriales (cocina), exploracion digital (Google Earth, quiz), interacciones sociales (juegos de mesa, correspondencia): alternando, se cubren todos los estilos de aprendizaje.
 
 El objetivo no es producir un nino que recite listas de capitales. Es despertar una curiosidad sincera por el mundo. Un nino que se asombra ante la diversidad de culturas, paisajes y tradiciones es un nino que seguira aprendiendo mucho mas alla de la escuela.
+
+<figure>
+  <img src="/images/blog/famille/carte-monde-coloree.jpg" alt="Un mapa del mundo colorido para niños" loading="lazy" />
+  <figcaption>Foto: Dietmar Rabich · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
+</figure>
 
 ## Preguntas frecuentes
 

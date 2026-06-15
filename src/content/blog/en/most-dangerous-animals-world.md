@@ -2,6 +2,9 @@
 title: "The 15 Most Dangerous Animals in the World"
 description: "Lion, shark, polar bear? The real most dangerous animals are not the ones you think. Ranking by estimated human deaths per year, backed by WHO data."
 date: 2026-01-16
+image: "/images/blog/nature/requin-blanc.jpg"
+imageAlt: "A great white shark in the ocean"
+imageCredit: "Photo: Pterantula (Terry Goss) at en.wikipedia · CC BY 2.5 · Wikimedia Commons"
 lang: "en"
 urlSlug: "most-dangerous-animals-world"
 translationKey: "animaux-dangereux"
@@ -85,3 +88,9 @@ The gap between perceived and actual danger is huge. Media amplifies rare and sp
 The gap between world regions is massive. Malaria, snake bites and Chagas disease kill almost exclusively in poorer countries. It is less a problem of "dangerous nature" than of poverty and access to care.
 
 Worth reading: [endangered species](/en/blog/endangered-species-list/), which flips the perspective. SAPIRO offers quizzes on 600 species, dangerous and harmless alike, with an explanation behind each answer.
+
+<figure>
+  <img src="/images/blog/nature/crocodile.jpg" alt="A Nile crocodile at the water's edge" loading="lazy" />
+  <figcaption>Photo: Diego Delso · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
+</figure>
+

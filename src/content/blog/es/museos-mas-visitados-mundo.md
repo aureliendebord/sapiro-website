@@ -2,6 +2,9 @@
 title: "Los 15 museos más visitados del mundo"
 description: "Louvre, British Museum, MoMA, Vaticano: top 15 de museos más visitados con sus cifras, obras clave y consejos para visitar."
 date: 2026-01-27
+image: "/images/blog/art/pyramide-louvre.jpg"
+imageAlt: "La pirámide del Louvre en París"
+imageCredit: "Foto: Benh LIEU SONG (Flickr) · CC BY-SA 3.0 · Wikimedia Commons"
 lang: "es"
 urlSlug: "museos-mas-visitados-mundo"
 translationKey: "musees-plus-visites"
@@ -83,3 +86,9 @@ Llegar a la apertura o al final del dia. Los autobuses de grupos llegan hacia la
 Preferir dias entre semana. Un martes por la manana en el Louvre no se parece a un sabado de primavera.
 
 Para profundizar: [30 cuadros celebres que conocer](/es/blog/cuadros-celebres-obras-maestras/) antes de la visita, o el ranking de los [monumentos mas visitados](/es/blog/monumentos-mas-visitados-mundo/) para completar el itinerario. SAPIRO permite repasar 553 obras con su ubicacion, perfecto antes de un viaje cultural.
+
+<figure>
+  <img src="/images/blog/art/galerie-musee.jpg" alt="Galería de cuadros en un gran museo" loading="lazy" />
+  <figcaption>Foto: Krzysztof Popławski · CC BY 4.0 · Wikimedia Commons</figcaption>
+</figure>
+

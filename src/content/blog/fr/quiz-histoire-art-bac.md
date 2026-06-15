@@ -2,6 +2,9 @@
 title: "Quiz histoire de l'art niveau bac : entraînez-vous"
 description: "Réviser l'histoire de l'art pour le bac, le brevet ou les concours : programme officiel, œuvres clefs et quiz de niveau pour s'entraîner."
 date: 2026-01-29
+image: "/images/blog/art/ecole-athenes.jpg"
+imageAlt: "L'École d'Athènes de Raphaël"
+imageCredit: "Photo : Raphael · domaine public · Wikimedia Commons"
 lang: "fr"
 urlSlug: "quiz-histoire-art-bac"
 translationKey: "quiz-histoire-art-bac"
@@ -78,3 +81,9 @@ Oublier l'art non-occidental. Les programmes attendent souvent une ouverture ver
 Confondre Renaissance italienne et Renaissance flamande. Les Italiens (Léonard, Michel-Ange) sont du sud, les Flamands (Van Eyck) du nord, avec des techniques et sujets différents.
 
 Pour aller plus loin, voir notre [guide des mouvements artistiques](/blog/mouvements-artistiques/) et l'article sur [comment reconnaitre un peintre a son style](/blog/reconnaitre-peintre-style/). SAPIRO permet de s'entraîner sur 553 œuvres avec une explication didactique derrière chaque question.
+
+<figure>
+  <img src="/images/blog/art/liberte-guidant-peuple.jpg" alt="La Liberté guidant le peuple d'Eugène Delacroix" loading="lazy" />
+  <figcaption>Photo : Eugène Delacroix · domaine public · Wikimedia Commons</figcaption>
+</figure>
+

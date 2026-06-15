@@ -2,6 +2,9 @@
 title: "Printable Quizzes for Kids: Countries, Animals, Art"
 description: "Printable quiz templates for kids: flags, capitals, animals, art. Solutions and tips to adapt to your child's level."
 date: 2026-02-19
+image: "/images/blog/famille/enfant-cahier.jpg"
+imageAlt: "A child writing in a notebook"
+imageCredit: "Photo: Shixart1985 · CC BY 2.0 · Wikimedia Commons"
 lang: "en"
 urlSlug: "printable-quiz-kids"
 translationKey: "quiz-imprimer"
@@ -100,3 +103,9 @@ Limited to one play, little variety. No automatic explanations. No measurable pr
 For regular sessions, a dedicated app is better. SAPIRO offers 2,000+ questions with educational explanation, across four universes (geography, history, art, nature). Lets you measure progress over time.
 
 Worth reading: [best general knowledge quiz apps](/en/blog/best-quiz-apps-general-knowledge/).
+
+<figure>
+  <img src="/images/blog/famille/crayons-couleur.jpg" alt="Colored pencils for answering the quiz" loading="lazy" />
+  <figcaption>Photo: MichaelMaggs · CC BY-SA 3.0 · Wikimedia Commons</figcaption>
+</figure>
+

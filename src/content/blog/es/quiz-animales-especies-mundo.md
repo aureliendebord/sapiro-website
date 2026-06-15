@@ -2,6 +2,9 @@
 title: "Quiz animales: reconocer 50 especies del mundo"
 description: "¿Sabrías distinguir un guepardo de un leopardo, una llama de una alpaca? Recorrido por las 50 especies animales que conviene saber reconocer."
 date: 2026-01-15
+image: "/images/blog/nature/tigre.jpg"
+imageAlt: "Un tigre de Bengala en su hábitat"
+imageCredit: "Foto: Charles J. Sharp · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "es"
 urlSlug: "quiz-animales-especies-mundo"
 translationKey: "quiz-animaux-monde"
@@ -93,3 +96,9 @@ El test regular. La [investigacion sobre aprendizaje activo](/es/blog/gamificaci
 ## Y despues?
 
 Una vez fijadas las 50 grandes especies, se puede pasar a variaciones regionales (subespecies de elefantes, de tigres), particularidades de comportamiento, conservacion. Es tambien un excelente punto de entrada para profundizar en ecologia y clima, campos donde las especies son los barometros mas visibles. Para los ninos, ver tambien nuestro [quiz naturaleza para ninos](/es/blog/quiz-naturaleza-ninos/).
+
+<figure>
+  <img src="/images/blog/nature/girafe.jpg" alt="Una jirafa en la sabana" loading="lazy" />
+  <figcaption>Foto: Ssemmanda will · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
+</figure>
+

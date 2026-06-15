@@ -2,6 +2,9 @@
 title: "Reconocer a un pintor: guía visual"
 description: "Monet, Van Gogh, Picasso, Vermeer: criterios simples para reconocer a los grandes pintores de un vistazo. Estilo, paleta, temas."
 date: 2026-01-24
+image: "/images/blog/art/autoportrait-van-gogh.jpg"
+imageAlt: "Autorretrato de Vincent van Gogh"
+imageCredit: "Foto: Vincent van Gogh · dominio público · Wikimedia Commons"
 lang: "es"
 urlSlug: "reconocer-pintor-estilo"
 translationKey: "reconnaitre-peintre"
@@ -91,3 +94,9 @@ Mirar por grupos tematicos. Paisajistas (Monet, Turner, Constable). Retratistas 
 Cruzar con periodos. Renacimiento = Leonardo, Miguel Angel, Rafael. Barroco = Rembrandt, Vermeer, Velazquez. Impresionismo = Monet, Renoir, Degas. Ver nuestro articulo sobre [movimientos artisticos](/es/blog/movimientos-artisticos/).
 
 Jugar a quizzes de atribucion. Ver un cuadro, adivinar al autor, comprobar. SAPIRO propone 553 obras con su atribucion, lo que permite calibrar el ojo por repeticion. Para profundizar: [30 cuadros celebres que conocer](/es/blog/cuadros-celebres-obras-maestras/).
+
+<figure>
+  <img src="/images/blog/art/menines-velazquez.jpg" alt="Las meninas de Diego Velázquez" loading="lazy" />
+  <figcaption>Foto: Diego Velázquez · dominio público · Wikimedia Commons</figcaption>
+</figure>
+

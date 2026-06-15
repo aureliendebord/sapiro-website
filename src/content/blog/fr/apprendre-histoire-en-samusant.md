@@ -2,6 +2,9 @@
 title: "Apprendre l'histoire en s'amusant : méthodes"
 description: "Comment apprendre l'histoire sans mémoriser des dates ? Quiz, récits, parcours thématiques : les méthodes qui ancrent les connaissances pour de bon."
 date: 2026-03-18
+image: "/images/blog/famille/livres-histoire.jpg"
+imageAlt: "Des livres d'histoire pour apprendre en s'amusant"
+imageCredit: "Photo : Tom Woodward from Richmond, VA, US · CC BY-SA 2.0 · Wikimedia Commons"
 lang: "fr"
 urlSlug: "apprendre-histoire-en-samusant"
 translationKey: "apprendre-histoire"
@@ -85,3 +88,9 @@ Les livres offrent une profondeur que les quiz ne peuvent pas reproduire. Les do
 La meilleure approche, c'est de combiner. Regarder un documentaire sur la chute de Rome, puis se tester avec un quiz sur les empereurs romains, puis lire un chapitre de livre pour creuser les nuances que le documentaire a simplifiées. Chaque méthode compense les limites de l'autre.
 
 L'histoire n'est pas une matière figée qu'on apprend une fois et qu'on range dans un tiroir. C'est une grille de lecture du présent. Les conflits actuels, les frontières, les institutions, les idées qui circulent, tout ça a une histoire. Et la comprendre, c'est mieux comprendre le monde dans lequel on vit.
+
+<figure>
+  <img src="/images/blog/famille/chateau-medieval.jpg" alt="Les ruines d'un château médiéval" loading="lazy" />
+  <figcaption>Photo : Dietmar Rabich · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
+</figure>
+

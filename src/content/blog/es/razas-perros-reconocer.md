@@ -2,6 +2,9 @@
 title: "Reconocer 30 razas de perros: guía visual"
 description: "Pastor australiano o border collie, husky o malamute: 30 razas de perros con sus rasgos distintivos para no volver a confundirlos."
 date: 2026-01-19
+image: "/images/blog/nature/golden-retriever.jpg"
+imageAlt: "Un golden retriever, raza de perro popular"
+imageCredit: "Foto: Dietmar Rabich · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "es"
 urlSlug: "razas-perros-reconocer"
 translationKey: "races-chiens"
@@ -97,3 +100,9 @@ Jugar con las confusiones clasicas. Husky vs malamute (ojos y tamano), pastor al
 El origen geografico ayuda. Los perros nordicos son robustos y con buen subpelo. Los mediterraneos son mas ligeros. Los terriers vienen de las islas britanicas. Los pinscher y schnauzer de Alemania. La geografia cuenta la historia de cada raza.
 
 Para profundizar: [50 especies animales que reconocer](/es/blog/quiz-animales-especies-mundo/) y [diferencias entre animales que se parecen](/es/blog/animales-parecidos-diferencias/). SAPIRO propone quizzes de naturaleza que cubren 600 especies, con una explicacion detras de cada pregunta.
+
+<figure>
+  <img src="/images/blog/nature/berger-allemand.jpg" alt="Un pastor alemán con su pelaje característico" loading="lazy" />
+  <figcaption>Foto: Museum of Veterinary Anatomy FMVZ USP / Wagner Souza e Silva edited by Rodrigo Tetsuo Argenton · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
+</figure>
+

@@ -2,6 +2,9 @@
 title: "Art History for Beginners: The Starter Guide"
 description: "Starting from zero in art history? Accessible guide to major periods, works and artists you need to know to get a full overview."
 date: 2026-01-28
+image: "/images/blog/art/naissance-venus.jpg"
+imageAlt: "The Birth of Venus by Botticelli"
+imageCredit: "Photo: Sandro Botticelli · public domain · Wikimedia Commons"
 lang: "en"
 urlSlug: "art-history-beginners"
 translationKey: "histoire-art-nuls"
@@ -91,3 +94,9 @@ Read short biographies. Artists have novelistic lives that help remember their w
 Test your knowledge. See a work, guess the artist, check. SAPIRO offers 553 works with their context, ideal for practice.
 
 Worth reading: [how to recognize a painter by style](/en/blog/recognize-painter-style/).
+
+<figure>
+  <img src="/images/blog/art/jeune-fille-perle.jpg" alt="Girl with a Pearl Earring by Vermeer" loading="lazy" />
+  <figcaption>Photo: Johannes Vermeer · public domain · Wikimedia Commons</figcaption>
+</figure>
+

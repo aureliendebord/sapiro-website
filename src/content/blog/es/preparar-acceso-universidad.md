@@ -2,6 +2,9 @@
 title: "Cómo preparar la EvAU y acceso a la universidad"
 description: "Preparar cultura general para EvAU, Selectividad y otros exámenes de acceso a la universidad: temario, lecturas, método y entrenamiento con quizzes."
 date: 2026-02-08
+image: "/images/blog/apprentissage/amphitheatre-universite.jpg"
+imageAlt: "Un anfiteatro universitario"
+imageCredit: "Foto: Bob Aronson from Monterey, CA, US · CC BY-SA 2.0 · Wikimedia Commons"
 lang: "es"
 urlSlug: "preparar-acceso-universidad"
 translationKey: "reviser-sciences-po"
@@ -67,3 +70,9 @@ Cuatro principios.
 ## Para entrenarse
 
 SAPIRO permite testear la cultura general sobre 2 000+ preguntas, con explicacion didactica detras de cada respuesta. Para profundizar: [cultura general en oposiciones publicas](/es/blog/cultura-general-oposiciones/) y nuestra [guia cultura general](/es/blog/cultura-general-guia/).
+
+<figure>
+  <img src="/images/blog/apprentissage/bibliotheque-lecture.jpg" alt="Una sala de lectura de biblioteca" loading="lazy" />
+  <figcaption>Foto: Diliff · CC BY 2.5 · Wikimedia Commons</figcaption>
+</figure>
+

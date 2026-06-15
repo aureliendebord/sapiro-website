@@ -2,6 +2,9 @@
 title: "Los 15 animales más peligrosos del mundo"
 description: "¿León, tiburón, oso polar? Los animales realmente más peligrosos no son los que imaginas. Ranking por muertes humanas anuales con datos de la OMS."
 date: 2026-01-16
+image: "/images/blog/nature/requin-blanc.jpg"
+imageAlt: "Un gran tiburón blanco en el océano"
+imageCredit: "Foto: Pterantula (Terry Goss) at en.wikipedia · CC BY 2.5 · Wikimedia Commons"
 lang: "es"
 urlSlug: "animales-mas-peligrosos-mundo"
 translationKey: "animaux-dangereux"
@@ -87,3 +90,9 @@ La diferencia entre peligro percibido y peligro real es enorme. Los medios ampli
 Las diferencias entre regiones del mundo son masivas. La malaria, las mordeduras de serpiente y el Chagas matan casi exclusivamente en paises pobres. Es menos un problema de "naturaleza peligrosa" que de pobreza y acceso a la atencion.
 
 Para profundizar: [animales en peligro de extincion](/es/blog/animales-en-peligro-extincion/), que invierte la perspectiva. SAPIRO propone quizzes sobre 600 especies, peligrosas e inofensivas, con una explicacion detras de cada respuesta.
+
+<figure>
+  <img src="/images/blog/nature/crocodile.jpg" alt="Un cocodrilo del Nilo a la orilla del agua" loading="lazy" />
+  <figcaption>Foto: Diego Delso · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
+</figure>
+

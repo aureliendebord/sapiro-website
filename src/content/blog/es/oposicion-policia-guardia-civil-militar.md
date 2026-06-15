@@ -2,6 +2,9 @@
 title: "Oposición policía, guardia civil y militar: preparación"
 description: "Sacar oposiciones de policía nacional, guardia civil y fuerzas armadas: temario, ejemplos de preguntas y método de entrenamiento."
 date: 2026-02-13
+image: "/images/blog/apprentissage/examen-amphi.jpg"
+imageAlt: "Estudiantes haciendo un examen en un aula magna"
+imageCredit: "Foto: Nabokov · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "es"
 urlSlug: "oposicion-policia-guardia-civil-militar"
 translationKey: "qcm-gendarmerie"
@@ -76,3 +79,9 @@ Preparacion: documentarse sobre la institucion, sus misiones, su historia recien
 ## Para entrenarse
 
 SAPIRO propone quizzes de cultura general que cubren el temario tipico de los test. Sesiones de 15 minutos al dia para mantener regularidad. Para profundizar: [preparar una oposicion de acceso](/es/blog/preparar-oposicion-acceso-administracion/) y [como repasar en 30 dias](/es/blog/repasar-cultura-general-30-dias/).
+
+<figure>
+  <img src="/images/blog/apprentissage/bureau-revision.jpg" alt="Un escritorio de estudio con libros y apuntes" loading="lazy" />
+  <figcaption>Foto: Miscellaneous Items in High Demand, PPOC, Library of Congress · dominio público · Wikimedia Commons</figcaption>
+</figure>
+

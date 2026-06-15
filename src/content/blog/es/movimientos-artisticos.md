@@ -2,6 +2,9 @@
 title: "15 movimientos artísticos explicados simple"
 description: "Renacimiento, Impresionismo, Cubismo, Pop Art: 15 grandes movimientos artísticos explicados con sus fechas, rasgos y figuras."
 date: 2026-01-25
+image: "/images/blog/art/nuit-etoilee.jpg"
+imageAlt: "La noche estrellada de Vincent van Gogh"
+imageCredit: "Foto: Vincent van Gogh · dominio público · Wikimedia Commons"
 lang: "es"
 urlSlug: "movimientos-artisticos"
 translationKey: "mouvements-artistiques"
@@ -81,3 +84,9 @@ Asociar cada movimiento a una obra emblematica. Renacimiento = Gioconda. Barroco
 Entrenarse para reconocer pintores por estilo. Ver nuestra [guia para reconocer pintores](/es/blog/reconocer-pintor-estilo/).
 
 SAPIRO propone quizzes sobre 553 obras de arte organizadas por movimiento, con explicacion didactica detras de cada pregunta.
+
+<figure>
+  <img src="/images/blog/art/impression-soleil-levant.jpg" alt="Impresión, sol naciente de Claude Monet" loading="lazy" />
+  <figcaption>Foto: Claude Monet · dominio público · Wikimedia Commons</figcaption>
+</figure>
+

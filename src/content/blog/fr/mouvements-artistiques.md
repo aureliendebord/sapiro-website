@@ -2,6 +2,9 @@
 title: "15 mouvements artistiques expliqués simplement"
 description: "Renaissance, Impressionnisme, Cubisme, Pop Art : 15 grands mouvements artistiques expliqués avec leurs dates, leurs caractéristiques et leurs figures."
 date: 2026-01-25
+image: "/images/blog/art/nuit-etoilee.jpg"
+imageAlt: "La Nuit étoilée de Vincent van Gogh"
+imageCredit: "Photo : Vincent van Gogh · domaine public · Wikimedia Commons"
 lang: "fr"
 urlSlug: "mouvements-artistiques"
 translationKey: "mouvements-artistiques"
@@ -81,3 +84,9 @@ Associer chaque mouvement à une œuvre emblématique. Renaissance = Joconde. Ba
 S'entraîner à reconnaître les peintres au style. Voir notre [guide pour reconnaitre les peintres](/blog/reconnaitre-peintre-style/).
 
 SAPIRO propose des quiz sur 553 œuvres d'art organisées par mouvement, avec une explication didactique derrière chaque question.
+
+<figure>
+  <img src="/images/blog/art/impression-soleil-levant.jpg" alt="Impression, soleil levant de Claude Monet" loading="lazy" />
+  <figcaption>Photo : Claude Monet · domaine public · Wikimedia Commons</figcaption>
+</figure>
+

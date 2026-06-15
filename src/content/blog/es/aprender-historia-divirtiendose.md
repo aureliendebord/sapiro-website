@@ -2,6 +2,9 @@
 title: "Aprender historia divirtiéndose: métodos"
 description: "Cómo aprender historia sin memorizar fechas. Quiz, relatos, recorridos temáticos: los métodos que anclan los conocimientos históricos para siempre."
 date: 2026-03-18
+image: "/images/blog/famille/livres-histoire.jpg"
+imageAlt: "Libros de historia para aprender divirtiéndose"
+imageCredit: "Foto: Tom Woodward from Richmond, VA, US · CC BY-SA 2.0 · Wikimedia Commons"
 lang: "es"
 urlSlug: "aprender-historia-divirtiendose"
 translationKey: "apprendre-histoire"
@@ -96,3 +99,9 @@ Ningún método basta por sí solo. Los libros ofrecen una profundidad que los q
 El mejor enfoque es combinar. Ver un documental sobre la caída de Roma, después ponerse a prueba con un quiz sobre emperadores romanos, y luego leer un capítulo de libro para captar los matices que el documental simplificó. Cada método compensa los límites del otro.
 
 La historia no es una asignatura estática que se aprende una vez y se guarda en un cajón. Es una lente para leer el presente. Los conflictos actuales, las fronteras, las instituciones, las ideas que circulan a nuestro alrededor — todo tiene una historia. Y comprenderla es entender mejor el mundo en el que vivimos.
+
+<figure>
+  <img src="/images/blog/famille/chateau-medieval.jpg" alt="Las ruinas de un castillo medieval" loading="lazy" />
+  <figcaption>Foto: Dietmar Rabich · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
+</figure>
+

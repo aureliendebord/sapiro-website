@@ -2,6 +2,9 @@
 title: "US Presidents: The Complete List"
 description: "From George Washington to today: complete list of US Presidents with dates, party, and key events of each term."
 date: 2026-02-02
+image: "/images/blog/histoire/maison-blanche.jpg"
+imageAlt: "The White House in Washington"
+imageCredit: "Photo: Benjamin Henry Latrobe · public domain · Wikimedia Commons"
 lang: "en"
 urlSlug: "us-presidents-list"
 translationKey: "presidents-usa"
@@ -75,3 +78,9 @@ Tie each president to a key event. Lincoln = end of slavery. FDR = New Deal and 
 Know the party. Democrats: Jefferson, FDR, Kennedy, Johnson, Carter, Clinton, Obama, Biden. Republicans: Lincoln, Theodore Roosevelt, Eisenhower, Nixon, Reagan, Bush, Trump.
 
 Worth reading: [major historical figures](/en/blog/historical-figures/) and the [world history timeline](/en/blog/world-timeline-history/). SAPIRO offers world history quizzes with contextualized explanations.
+
+<figure>
+  <img src="/images/blog/histoire/mont-rushmore.jpg" alt="Mount Rushmore" loading="lazy" />
+  <figcaption>Photo: Dean Franklin · public domain · Wikimedia Commons</figcaption>
+</figure>
+

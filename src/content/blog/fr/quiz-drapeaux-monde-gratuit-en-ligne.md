@@ -2,6 +2,9 @@
 title: "Quiz drapeaux du monde gratuit en ligne"
 description: "Tester votre connaissance des drapeaux du monde avec des quiz gratuits en ligne, par continent et par niveau. Apprentissage progressif."
 date: 2026-02-21
+image: "/images/blog/apprentissage/drapeaux-monde.jpg"
+imageAlt: "Des drapeaux nationaux alignés"
+imageCredit: "Photo : United States Department of Energy, Office of Energy Efficiency and Renewable Energy · domaine public · Wikimedia Commons"
 lang: "fr"
 urlSlug: "quiz-drapeaux-monde-gratuit-en-ligne"
 translationKey: "quiz-drapeaux-monde"
@@ -67,6 +70,11 @@ Trois raisons.
 **Apprendre sans contexte.** Connaître le drapeau du Bangladesh sans savoir où c'est ne sert à rien. Toujours coupler avec la position sur la carte.
 
 **Confondre similaires.** Tchad/Roumanie, Pologne/Indonésie. Voir notre article sur les [drapeaux les plus difficiles](/blog/drapeaux-difficiles/).
+
+<figure>
+  <img src="/images/blog/apprentissage/carte-monde.jpg" alt="Une carte politique du monde" loading="lazy" />
+  <figcaption>Photo : JanitoalevicOriginal map by: CIA World Factbook · domaine public · Wikimedia Commons</figcaption>
+</figure>
 
 ## Questions fréquentes
 

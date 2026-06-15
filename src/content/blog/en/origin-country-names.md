@@ -2,6 +2,9 @@
 title: "The Origin of Country Names: Surprising Etymologies"
 description: "France, Argentina, Pakistan, Australia: the origin of country names reveals their history and cultures. 20 surprising etymologies."
 date: 2026-03-09
+image: "/images/blog/monde/mappemonde.jpg"
+imageAlt: "An antique world map"
+imageCredit: "Photo: Various authors. · public domain · Wikimedia Commons"
 lang: "en"
 urlSlug: "origin-country-names"
 translationKey: "origine-noms-pays"
@@ -105,3 +108,9 @@ Literally "low country," because mostly below sea level (down to -7 meters).
 Since 1989, the official name is Myanmar but many continue to say Burma. The military junta changed the name to break with the colonial legacy.
 
 Worth reading: [flag meanings](/en/blog/flags-meaning/) and [countries that disappeared](/en/blog/countries-that-disappeared/).
+
+<figure>
+  <img src="/images/blog/monde/globe-terrestre.jpg" alt="An antique terrestrial globe" loading="lazy" />
+  <figcaption>Photo: Henry James · public domain · Wikimedia Commons</figcaption>
+</figure>
+

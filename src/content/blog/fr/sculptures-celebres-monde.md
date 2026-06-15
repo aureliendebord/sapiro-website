@@ -2,6 +2,9 @@
 title: "15 sculptures célèbres à connaître dans le monde"
 description: "Le David, Le Penseur, la Vénus de Milo : 15 sculptures célèbres du monde avec leur histoire, leur lieu et ce qui les rend incontournables."
 date: 2026-01-26
+image: "/images/blog/art/david-michel-ange.jpg"
+imageAlt: "Le David de Michel-Ange"
+imageCredit: "Photo : Commonists · CC BY-SA 4.0 · Wikimedia Commons"
 lastModified: 2026-06-15
 lang: "fr"
 urlSlug: "sculptures-celebres-monde"
@@ -62,3 +65,9 @@ Associer à une époque. Antiquité : sculptures grecques. Renaissance : Michel-
 Identifier la matière. Marbre pour la Renaissance, bronze pour Rodin et Le Bernin, acier pour les contemporains.
 
 SAPIRO propose des quiz sur 553 œuvres incluant la sculpture, avec une explication didactique derrière chaque question. Pour creuser : [30 tableaux celebres a connaitre](/blog/tableaux-celebres-chefs-oeuvre/).
+
+<figure>
+  <img src="/images/blog/art/venus-de-milo.jpg" alt="La Vénus de Milo" loading="lazy" />
+  <figcaption>Photo : Unknown artist · CC BY-SA 2.5 · Wikimedia Commons</figcaption>
+</figure>
+

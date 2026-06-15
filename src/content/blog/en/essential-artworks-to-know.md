@@ -2,6 +2,9 @@
 title: "12 Essential Artworks Everyone Should Recognize"
 description: "From the Mona Lisa to Guernica, the artworks worth knowing and the surprising stories behind each one. A journey across 5 centuries of human creation."
 date: 2026-03-16
+image: "/images/blog/monde/la-joconde.jpg"
+imageAlt: "The Mona Lisa by Leonardo da Vinci"
+imageCredit: "Photo: Leonardo da Vinci · public domain · Wikimedia Commons"
 lang: "en"
 urlSlug: "essential-artworks-to-know"
 translationKey: "oeuvres-art-incontournables"
@@ -86,3 +89,9 @@ Each method has its strengths. Museums give you the emotion of seeing the real t
 The most effective approach is combining them. Visit a museum after reviewing its collection on SAPIRO, and the experience changes completely.
 
 For more context on the creators behind these works, explore our guide to [20 historical figures everyone should know](/en/blog/historical-figures/). And if you want to make history stick through play, our article on [learning history the fun way](/en/blog/learning-history-fun/) shows how.
+
+<figure>
+  <img src="/images/blog/monde/bibliotheque.jpg" alt="An old library full of books" loading="lazy" />
+  <figcaption>Photo: Davide Cantelli cant89 · CC0 · Wikimedia Commons</figcaption>
+</figure>
+

@@ -2,6 +2,9 @@
 title: "Meilleures apps éducatives sans publicité"
 description: "Sélection des meilleures applications éducatives sans publicité : géographie, langues, histoire, sciences. Apprendre sans interruptions."
 date: 2026-03-03
+image: "/images/blog/apps/tablette-education.jpg"
+imageAlt: "Apprendre sur une tablette"
+imageCredit: "Photo : Shixart1985 · CC BY 2.0 · Wikimedia Commons"
 lang: "fr"
 urlSlug: "meilleures-apps-educatives-sans-publicite"
 translationKey: "apps-educatives-sans-pub"
@@ -89,3 +92,9 @@ Trois indices.
 **La politique de confidentialité.** Lire les premières lignes. "Pas de publicité tierce" est la phrase à chercher.
 
 Pour creuser : [apps quiz sans collecte de données](/blog/apps-quiz-sans-collecte-donnees/) pour creuser.
+
+<figure>
+  <img src="/images/blog/apps/etudier-smartphone.jpg" alt="Étudier sur son smartphone" loading="lazy" />
+  <figcaption>Photo : ONBag · CC0 · Wikimedia Commons</figcaption>
+</figure>
+

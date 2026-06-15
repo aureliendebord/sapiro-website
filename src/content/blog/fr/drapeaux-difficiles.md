@@ -2,6 +2,9 @@
 title: "15 drapeaux difficiles à reconnaître au monde"
 description: "Tchad ou Roumanie, Monaco ou Indonésie : voici les 15 drapeaux les plus difficiles à reconnaître au monde, avec des astuces pour les distinguer enfin."
 date: 2025-12-15
+image: "/images/blog/monde/mur-drapeaux.jpg"
+imageAlt: "Un alignement de drapeaux nationaux"
+imageCredit: "Photo : Willem van de Velde the Younger · domaine public · Wikimedia Commons"
 lang: "fr"
 urlSlug: "drapeaux-difficiles"
 translationKey: "drapeaux-difficiles"
@@ -77,6 +80,11 @@ La répétition espacée reste la méthode la plus solide. On revoit les drapeau
 Le regroupement par région aide à structurer l'apprentissage. Les drapeaux d'Afrique partagent souvent les couleurs panafricaines, ceux d'Océanie la Croix du Sud, ceux des pays musulmans le croissant. Ces régularités servent de points de repère.
 
 Et puis il y a l'apprentissage actif par les quiz. Se tester régulièrement ancre les drapeaux bien plus solidement que de les regarder passivement. Pour les [erreurs de géographie courantes](/blog/erreurs-geographie/), le principe est le même : se tester vaut mieux que relire. Et si vous voulez tester vos connaissances en [famille autour d'un quiz](/blog/geographie-famille/), les drapeaux sont un sujet parfait pour toutes les générations.
+
+<figure>
+  <img src="/images/blog/monde/drapeaux-monde.jpg" alt="Une collection de drapeaux du monde" loading="lazy" />
+  <figcaption>Photo : Colin Smith · CC BY-SA 2.0 · Wikimedia Commons</figcaption>
+</figure>
 
 ## Questions fréquentes
 

@@ -2,6 +2,9 @@
 title: "European Monarchs: A Complete List by Country"
 description: "From Charlemagne to Queen Elizabeth II: the essential European monarchs by country and dynasty, with reign dates and major events."
 date: 2026-02-01
+image: "/images/blog/histoire/galerie-des-glaces.jpg"
+imageAlt: "The Hall of Mirrors at the Palace of Versailles"
+imageCredit: "Photo: Myrabella · CC BY-SA 3.0 · Wikimedia Commons"
 lang: "en"
 urlSlug: "european-monarchs-list"
 translationKey: "rois-monarchies-europe"
@@ -101,3 +104,9 @@ Cross-reference with major events. American Revolution = Louis XVI and George II
 Cross-reference with seats of power. From Versailles to the Escorial, the [famous castles and palaces](/en/blog/famous-castles-palaces-world/) tell the story of these rulers in concrete form.
 
 For more, see our [world history timeline](/en/blog/world-timeline-history/) and our article on [major historical figures](/en/blog/historical-figures/). SAPIRO offers history quizzes with contextualized explanations behind each question.
+
+<figure>
+  <img src="/images/blog/histoire/louis-xiv.jpg" alt="Portrait of Louis XIV" loading="lazy" />
+  <figcaption>Photo: Hyacinthe Rigaud · CC0 · Wikimedia Commons</figcaption>
+</figure>
+
