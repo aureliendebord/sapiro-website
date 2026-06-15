@@ -26,35 +26,35 @@ Spain reads like a palimpsest. Romans, Muslims and Christian kingdoms all left t
 
 The Catalan capital bears the mark of one man. Antoni Gaudí invented an architectural language unlike any other, somewhere between the organic and pure geometric invention.
 
-**[Sagrada Família](https://en.wikipedia.org/wiki/Sagrada_Fam%C3%ADlia)** — Barcelona — Catalan Modernism, begun 1882. Gaudí's unfinished basilica, bristling with towers and façades carved like coral reefs. The architect worked on it for more than forty years, until his death in 1926, and the site is still active today.
+- **[Sagrada Família](https://en.wikipedia.org/wiki/Sagrada_Fam%C3%ADlia)** — Barcelona — Catalan Modernism, begun 1882. Gaudí's unfinished basilica, bristling with towers and façades carved like coral reefs. The architect worked on it for more than forty years, until his death in 1926, and the site is still active today.
 
-**Park Güell** — Barcelona — Catalan Modernism, 1900-1914. Originally planned as a luxury housing estate that never found buyers, later turned into a public garden. Its undulating benches clad in *trencadís* mosaic, its multicoloured salamander and its leaning columns have made it an emblem of the city.
+- **Park Güell** — Barcelona — Catalan Modernism, 1900-1914. Originally planned as a luxury housing estate that never found buyers, later turned into a public garden. Its undulating benches clad in *trencadís* mosaic, its multicoloured salamander and its leaning columns have made it an emblem of the city.
 
-**Casa Batlló** — Barcelona — Catalan Modernism, 1904-1906. A middle-class apartment block that Gaudí completely reimagined. The scaly, ribbed façade suggests a dragon or a skeleton; many read it as the legend of Saint George slaying the beast. Façade and roofline flow as if molten.
+- **Casa Batlló** — Barcelona — Catalan Modernism, 1904-1906. A middle-class apartment block that Gaudí completely reimagined. The scaly, ribbed façade suggests a dragon or a skeleton; many read it as the legend of Saint George slaying the beast. Façade and roofline flow as if molten.
 
 ## Moorish Andalusia
 
 It is in the south that the legacy of Al-Andalus takes over. Muslim dynasties ruled here for nearly eight centuries, and their monuments often survive beneath a Christian layer added after the Reconquista.
 
-**Alhambra** — Granada — Nasrid Islamic art, 13th-14th century. The palace-fortress of the last Muslim emirs of the peninsula, [a UNESCO World Heritage site](https://whc.unesco.org/en/list/). Carved stucco, muqarnas ceilings, the Court of the Lions and pools that multiply the light make it the peak of Moorish architecture still standing in Europe.
+- **Alhambra** — Granada — Nasrid Islamic art, 13th-14th century. The palace-fortress of the last Muslim emirs of the peninsula, [a UNESCO World Heritage site](https://whc.unesco.org/en/list/). Carved stucco, muqarnas ceilings, the Court of the Lions and pools that multiply the light make it the peak of Moorish architecture still standing in Europe.
 
-**Mosque-Cathedral** — Córdoba — Umayyad art, then Christian additions, from the 8th century. The great mosque of Córdoba, with its forest of nearly 850 columns and red-and-white striped arches. After 1236 a cathedral was built right in the middle of the prayer hall, without tearing it down. The two faiths are literally stacked on top of each other.
+- **Mosque-Cathedral** — Córdoba — Umayyad art, then Christian additions, from the 8th century. The great mosque of Córdoba, with its forest of nearly 850 columns and red-and-white striped arches. After 1236 a cathedral was built right in the middle of the prayer hall, without tearing it down. The two faiths are literally stacked on top of each other.
 
-**Giralda** — Seville — Almohad minaret turned bell tower, 12th century. Originally the minaret of the great Almohad mosque, converted into the cathedral's bell tower after the Christian conquest. The Renaissance top, added in the 16th century, sits on a Muslim base that remains almost intact. You climb it by ramps, not stairs.
+- **Giralda** — Seville — Almohad minaret turned bell tower, 12th century. Originally the minaret of the great Almohad mosque, converted into the cathedral's bell tower after the Christian conquest. The Renaissance top, added in the 16th century, sits on a Muslim base that remains almost intact. You climb it by ramps, not stairs.
 
 ## Madrid and the centre
 
 The heart of the peninsula blends the splendour of the Bourbons with some of the oldest remains, including one of the finest Roman works in Europe.
 
-**Royal Palace** — Madrid — Baroque and Classicism, 18th century. Built for Philip V after the old Alcázar burned down, it has more than 3,000 rooms, making it one of the largest palaces in Western Europe. The monarch no longer lives there, but it is still used for state ceremonies.
+- **Royal Palace** — Madrid — Baroque and Classicism, 18th century. Built for Philip V after the old Alcázar burned down, it has more than 3,000 rooms, making it one of the largest palaces in Western Europe. The monarch no longer lives there, but it is still used for state ceremonies.
 
-**Roman Aqueduct** — Segovia — Roman engineering, late 1st or early 2nd century. Probably the most impressive Roman monument in the country. Its granite arches, rising to 28 metres at their highest, were assembled without mortar or cement: the stones hold together by their own weight and balance alone. It supplied the city with water for centuries.
+- **Roman Aqueduct** — Segovia — Roman engineering, late 1st or early 2nd century. Probably the most impressive Roman monument in the country. Its granite arches, rising to 28 metres at their highest, were assembled without mortar or cement: the stones hold together by their own weight and balance alone. It supplied the city with water for centuries.
 
 ## Santiago and the north
 
 The greener, wetter northwest was the heart of Christian resistance during the Reconquista. Its cathedral became one of the great pilgrimage destinations of the Middle Ages.
 
-**Cathedral of Santiago de Compostela** — Galicia — Romanesque, then Baroque, from the 11th century. The end point of the Camino routes, believed to hold the tomb of the apostle James. The original Romanesque structure hides behind a spectacular Baroque façade, the Obradoiro, added in the 18th century. Pilgrims still arrive on foot by the thousand.
+- **Cathedral of Santiago de Compostela** — Galicia — Romanesque, then Baroque, from the 11th century. The end point of the Camino routes, believed to hold the tomb of the apostle James. The original Romanesque structure hides behind a spectacular Baroque façade, the Obradoiro, added in the 18th century. Pilgrims still arrive on foot by the thousand.
 
 These eight sites make one thing clear: there is no single Spain, only layers. The minaret turned bell tower, the cathedral planted inside the mosque, the Roman aqueduct still towering over a medieval town. If you enjoy testing your knowledge of places like these, the SAPIRO app offers general knowledge quizzes where geography, art and history meet, much as they do in these monuments.
 

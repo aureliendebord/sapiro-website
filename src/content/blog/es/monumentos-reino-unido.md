@@ -26,31 +26,31 @@ El Reino Unido reúne cuatro naciones y varios miles de años de construcción e
 
 La capital concentra las siluetas más reconocibles del país, las que aparecen en las postales y en los libros de texto.
 
-**Big Ben y el Palacio de Westminster** — Londres — la torre que se alza sobre el Támesis alberga la famosa campana; el palacio contiguo acoge las dos cámaras del Parlamento británico. El conjunto actual, de estilo neogótico, se reconstruyó tras el incendio de 1834.
+- **Big Ben y el Palacio de Westminster** — Londres — la torre que se alza sobre el Támesis alberga la famosa campana; el palacio contiguo acoge las dos cámaras del Parlamento británico. El conjunto actual, de estilo neogótico, se reconstruyó tras el incendio de 1834.
 
-**Tower Bridge y la Torre de Londres** — Londres — dos monumentos distintos que se confunden a menudo. El Tower Bridge es un puente basculante inaugurado en 1894, reconocible por sus dos torres victorianas. La vecina Torre de Londres es una fortaleza fundada por Guillermo el Conquistador poco después de 1066; sirvió de palacio y de prisión, y hoy custodia las joyas de la Corona.
+- **Tower Bridge y la Torre de Londres** — Londres — dos monumentos distintos que se confunden a menudo. El Tower Bridge es un puente basculante inaugurado en 1894, reconocible por sus dos torres victorianas. La vecina Torre de Londres es una fortaleza fundada por Guillermo el Conquistador poco después de 1066; sirvió de palacio y de prisión, y hoy custodia las joyas de la Corona.
 
-**Palacio de Buckingham** — Londres — residencia oficial del soberano británico en Londres desde 1837. El cambio de guardia ante su verja sigue siendo uno de los espectáculos más seguidos de la ciudad. Parte de los salones de gala abre al público en verano.
+- **Palacio de Buckingham** — Londres — residencia oficial del soberano británico en Londres desde 1837. El cambio de guardia ante su verja sigue siendo uno de los espectáculos más seguidos de la ciudad. Parte de los salones de gala abre al público en verano.
 
-**Catedral de San Pablo** — Londres — obra maestra de Christopher Wren, terminada en 1711 tras el gran incendio de 1666. Su enorme cúpula dominó durante mucho tiempo el perfil de Londres y resistió el Blitz de 1940, lo que la convirtió en símbolo de resistencia.
+- **Catedral de San Pablo** — Londres — obra maestra de Christopher Wren, terminada en 1711 tras el gran incendio de 1666. Su enorme cúpula dominó durante mucho tiempo el perfil de Londres y resistió el Blitz de 1940, lo que la convirtió en símbolo de resistencia.
 
-**London Eye** — Londres — noria de observación inaugurada para el año 2000, en la orilla sur del Támesis. Con sus 135 metros, fue durante un tiempo la más alta de Europa y ofrece una vista despejada del centro histórico.
+- **London Eye** — Londres — noria de observación inaugurada para el año 2000, en la orilla sur del Támesis. Con sus 135 metros, fue durante un tiempo la más alta de Europa y ofrece una vista despejada del centro histórico.
 
 ## Sitios antiguos y prehistóricos
 
 Lejos de las ciudades, el suelo británico conserva las huellas de civilizaciones muy anteriores a la monarquía.
 
-**Stonehenge** — llanura de Salisbury, Inglaterra — círculo de piedras erguidas levantado por etapas entre aproximadamente el 3000 y el 2000 a. C. Su función exacta sigue en debate: observatorio, lugar de culto, calendario solar. La alineación de las piedras con la salida del sol en el solsticio de verano continúa atrayendo multitudes.
+- **Stonehenge** — llanura de Salisbury, Inglaterra — círculo de piedras erguidas levantado por etapas entre aproximadamente el 3000 y el 2000 a. C. Su función exacta sigue en debate: observatorio, lugar de culto, calendario solar. La alineación de las piedras con la salida del sol en el solsticio de verano continúa atrayendo multitudes.
 
-**Muro de Adriano** — norte de Inglaterra — fortificación romana ordenada por el emperador Adriano hacia el año 122 d. C. para marcar el límite norte del Imperio. Se extendía unos 117 kilómetros de costa a costa. Se conservan largos tramos, salpicados de restos de fuertes.
+- **Muro de Adriano** — norte de Inglaterra — fortificación romana ordenada por el emperador Adriano hacia el año 122 d. C. para marcar el límite norte del Imperio. Se extendía unos 117 kilómetros de costa a costa. Se conservan largos tramos, salpicados de restos de fuertes.
 
 ## Más allá de Inglaterra
 
 El Reino Unido no se reduce a Londres ni a Inglaterra. Escocia y Gales tienen su propio patrimonio fortificado.
 
-**Castillo de Edimburgo** — Escocia — encaramado en un peñón volcánico sobre la capital escocesa. Ocupado desde la Edad del Hierro, ha soportado innumerables asedios y custodia los Honores de Escocia, las joyas de la Corona escocesa. Cada día, a la una de la tarde, suena un cañonazo desde sus murallas.
+- **Castillo de Edimburgo** — Escocia — encaramado en un peñón volcánico sobre la capital escocesa. Ocupado desde la Edad del Hierro, ha soportado innumerables asedios y custodia los Honores de Escocia, las joyas de la Corona escocesa. Cada día, a la una de la tarde, suena un cañonazo desde sus murallas.
 
-**Los castillos de Gales** — Gales — la región tiene una de las mayores densidades de castillos de Europa. Los de Eduardo I, como Caernarfon, Conwy o Harlech, levantados a finales del siglo XIII para afianzar la conquista inglesa, están inscritos en el Patrimonio Mundial de la Unesco.
+- **Los castillos de Gales** — Gales — la región tiene una de las mayores densidades de castillos de Europa. Los de Eduardo I, como Caernarfon, Conwy o Harlech, levantados a finales del siglo XIII para afianzar la conquista inglesa, están inscritos en el Patrimonio Mundial de la Unesco.
 
 ## Precisiones útiles
 

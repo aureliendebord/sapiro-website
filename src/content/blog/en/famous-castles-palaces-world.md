@@ -26,33 +26,33 @@ People tend to mix up castle and palace, fortress and pleasure house. Behind tho
 
 Europe holds the highest density of castles in the world, a legacy of centuries of feudalism, dynastic wars and rival courts.
 
-**Palace of Versailles** — France — French classical, 17th century. Once a hunting lodge of Louis XIII, transformed by Louis XIV into a symbol of absolute monarchy. Its Hall of Mirrors, 73 metres long, and its gardens laid out by Le Nôtre became the model for courts across Europe, under the [European monarchs](/en/blog/european-monarchs-list/) who held court here until the Revolution.
+- **Palace of Versailles** — France — French classical, 17th century. Once a hunting lodge of Louis XIII, transformed by Louis XIV into a symbol of absolute monarchy. Its Hall of Mirrors, 73 metres long, and its gardens laid out by Le Nôtre became the model for courts across Europe, under the [European monarchs](/en/blog/european-monarchs-list/) who held court here until the Revolution.
 
-**Neuschwanstein** — Germany — neo-Romanesque, 19th century. Perched in the Bavarian Alps, commissioned by Ludwig II of Bavaria from 1869. It is a stage set as much as a castle: the king recreated an idealised Middle Ages, drawing on Wagner's operas. It was never finished.
+- **Neuschwanstein** — Germany — neo-Romanesque, 19th century. Perched in the Bavarian Alps, commissioned by Ludwig II of Bavaria from 1869. It is a stage set as much as a castle: the king recreated an idealised Middle Ages, drawing on Wagner's operas. It was never finished.
 
-**Windsor Castle and Buckingham Palace** — United Kingdom. Windsor, founded by William the Conqueror in the 11th century, is the oldest inhabited castle in Europe still in use. Buckingham Palace, in London, has been the monarch's official residence since 1837; its current façade dates from the early 20th century.
+- **Windsor Castle and Buckingham Palace** — United Kingdom. Windsor, founded by William the Conqueror in the 11th century, is the oldest inhabited castle in Europe still in use. Buckingham Palace, in London, has been the monarch's official residence since 1837; its current façade dates from the early 20th century.
 
-**Schönbrunn** — Austria — Baroque, 18th century. The Habsburgs' summer residence in Vienna, with its more than 1,400 rooms and formal French gardens. It was here that a six-year-old Mozart is said to have played before Empress Maria Theresa.
+- **Schönbrunn** — Austria — Baroque, 18th century. The Habsburgs' summer residence in Vienna, with its more than 1,400 rooms and formal French gardens. It was here that a six-year-old Mozart is said to have played before Empress Maria Theresa.
 
-**Alhambra of Granada** — Spain — Nasrid Islamic art, 13th-14th century. The palace-fortress of the last Muslim emirs of the peninsula. Carved stucco, muqarnas ceilings, the Court of the Lions and its water features make it the masterpiece of Moorish architecture in Europe, inscribed on the [UNESCO World Heritage List](https://whc.unesco.org/en/list/).
+- **Alhambra of Granada** — Spain — Nasrid Islamic art, 13th-14th century. The palace-fortress of the last Muslim emirs of the peninsula. Carved stucco, muqarnas ceilings, the Court of the Lions and its water features make it the masterpiece of Moorish architecture in Europe, inscribed on the [UNESCO World Heritage List](https://whc.unesco.org/en/list/).
 
-**Topkapi Palace** — Turkey — Ottoman architecture, 15th century. Home to the sultans for nearly four hundred years, overlooking the Bosphorus in Istanbul. It is not a single building but a maze of courtyards, pavilions and gardens, including the famous harem.
+- **Topkapi Palace** — Turkey — Ottoman architecture, 15th century. Home to the sultans for nearly four hundred years, overlooking the Bosphorus in Istanbul. It is not a single building but a maze of courtyards, pavilions and gardens, including the famous harem.
 
-**Châteaux of the Loire Valley** — France — Renaissance, 15th-16th century. A whole valley of royal and noble residences: Chambord with its double-helix staircase tied to the spirit of Leonardo da Vinci, Chenonceau spanning the Cher, Azay-le-Rideau, Blois. The shift from fortress to pleasure house reads plainly here.
+- **Châteaux of the Loire Valley** — France — Renaissance, 15th-16th century. A whole valley of royal and noble residences: Chambord with its double-helix staircase tied to the spirit of Leonardo da Vinci, Chenonceau spanning the Cher, Azay-le-Rideau, Blois. The shift from fortress to pleasure house reads plainly here.
 
-**Peterhof** — Russia — Baroque, 18th century. Nicknamed the "Russian Versailles", on the Gulf of Finland near Saint Petersburg. Peter the Great installed a cascade of fountains that runs without a single pump, on gravity alone.
+- **Peterhof** — Russia — Baroque, 18th century. Nicknamed the "Russian Versailles", on the Gulf of Finland near Saint Petersburg. Peter the Great installed a cascade of fountains that runs without a single pump, on gravity alone.
 
 ## Asia
 
 Asian palaces follow a different logic: sacred axes, cosmic symbolism, timber rather than stone.
 
-**Forbidden City** — China — Ming and Qing imperial architecture, 15th century. At the heart of Beijing, it served as the emperors' palace from 1420 to 1912. Roughly 980 buildings across some 72 hectares, arranged along a strict north-south axis. Its name comes from the ban on entering without imperial permission.
+- **Forbidden City** — China — Ming and Qing imperial architecture, 15th century. At the heart of Beijing, it served as the emperors' palace from 1420 to 1912. Roughly 980 buildings across some 72 hectares, arranged along a strict north-south axis. Its name comes from the ban on entering without imperial permission.
 
-**Potala Palace** — Tibet — Tibetan architecture, 17th century. Rising on a hill in Lhasa, at over 3,700 metres above sea level, it was the residence of the Dalai Lamas. Thirteen storeys, more than a thousand rooms, at once palace, monastery and fortress.
+- **Potala Palace** — Tibet — Tibetan architecture, 17th century. Rising on a hill in Lhasa, at over 3,700 metres above sea level, it was the residence of the Dalai Lamas. Thirteen storeys, more than a thousand rooms, at once palace, monastery and fortress.
 
-**Himeji Castle** — Japan — Japanese castle, 17th century. Nicknamed the "White Heron" for its immaculate walls and slender outline. It is the best-preserved castle in Japan, having survived the bombings of 1945 and several earthquakes. Its main keep has seven internal levels beneath a five-storey appearance.
+- **Himeji Castle** — Japan — Japanese castle, 17th century. Nicknamed the "White Heron" for its immaculate walls and slender outline. It is the best-preserved castle in Japan, having survived the bombings of 1945 and several earthquakes. Its main keep has seven internal levels beneath a five-storey appearance.
 
-**Mysore Palace** — India — Indo-Saracenic style, early 20th century. Seat of the Wadiyar dynasty, rebuilt after a fire in 1912. A blend of Mughal arches, domes and stained glass. During the Dasara festival its façade lights up with tens of thousands of bulbs.
+- **Mysore Palace** — India — Indo-Saracenic style, early 20th century. Seat of the Wadiyar dynasty, rebuilt after a fire in 1912. A blend of Mughal arches, domes and stained glass. During the Dasara festival its façade lights up with tens of thousands of bulbs.
 
 ## Telling apart fortress, pleasure castle and palace
 

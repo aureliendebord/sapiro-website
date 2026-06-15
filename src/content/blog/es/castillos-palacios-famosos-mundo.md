@@ -26,33 +26,33 @@ Solemos confundir castillo y palacio, fortaleza y residencia de recreo. Detrás 
 
 Europa concentra la mayor densidad de castillos del mundo, herencia de siglos de feudalismo, guerras dinásticas y cortes rivales.
 
-**Palacio de Versalles** — Francia — clasicismo francés, siglo XVII. Antiguo pabellón de caza de Luis XIII, transformado por Luis XIV en símbolo de la monarquía absoluta. Su galería de los Espejos, de 73 metros de largo, y sus jardines trazados por Le Nôtre sirvieron de modelo a todas las cortes de Europa, bajo el reinado de los [reyes y monarquías de Europa](/es/blog/reyes-monarquias-europa/) que se sucedieron aquí hasta la Revolución.
+- **Palacio de Versalles** — Francia — clasicismo francés, siglo XVII. Antiguo pabellón de caza de Luis XIII, transformado por Luis XIV en símbolo de la monarquía absoluta. Su galería de los Espejos, de 73 metros de largo, y sus jardines trazados por Le Nôtre sirvieron de modelo a todas las cortes de Europa, bajo el reinado de los [reyes y monarquías de Europa](/es/blog/reyes-monarquias-europa/) que se sucedieron aquí hasta la Revolución.
 
-**Neuschwanstein** — Alemania — neorrománico, siglo XIX. Encaramado en los Alpes bávaros, encargado por Luis II de Baviera a partir de 1869. Es un decorado tanto como un castillo: el rey recreó allí una Edad Media idealizada, inspirada en las óperas de Wagner. Nunca llegó a terminarse.
+- **Neuschwanstein** — Alemania — neorrománico, siglo XIX. Encaramado en los Alpes bávaros, encargado por Luis II de Baviera a partir de 1869. Es un decorado tanto como un castillo: el rey recreó allí una Edad Media idealizada, inspirada en las óperas de Wagner. Nunca llegó a terminarse.
 
-**Castillo de Windsor y Palacio de Buckingham** — Reino Unido. Windsor, fundado por Guillermo el Conquistador en el siglo XI, es el castillo habitado más antiguo de Europa todavía en uso. El Palacio de Buckingham, en Londres, es la residencia oficial del monarca desde 1837; su fachada actual data de principios del siglo XX.
+- **Castillo de Windsor y Palacio de Buckingham** — Reino Unido. Windsor, fundado por Guillermo el Conquistador en el siglo XI, es el castillo habitado más antiguo de Europa todavía en uso. El Palacio de Buckingham, en Londres, es la residencia oficial del monarca desde 1837; su fachada actual data de principios del siglo XX.
 
-**Schönbrunn** — Austria — barroco, siglo XVIII. Residencia de verano de los Habsburgo en Viena, con sus más de 1.400 estancias y sus jardines a la francesa. Aquí un Mozart de seis años habría tocado ante la emperatriz María Teresa.
+- **Schönbrunn** — Austria — barroco, siglo XVIII. Residencia de verano de los Habsburgo en Viena, con sus más de 1.400 estancias y sus jardines a la francesa. Aquí un Mozart de seis años habría tocado ante la emperatriz María Teresa.
 
-**Alhambra de Granada** — España — arte islámico nazarí, siglos XIII-XIV. Palacio-fortaleza de los últimos emires musulmanes de la península. Yeserías labradas, techos de mocárabes, el patio de los Leones y sus juegos de agua la convierten en la obra maestra de la arquitectura andalusí en Europa, inscrita en la [lista del Patrimonio Mundial de la UNESCO](https://whc.unesco.org/es/list/).
+- **Alhambra de Granada** — España — arte islámico nazarí, siglos XIII-XIV. Palacio-fortaleza de los últimos emires musulmanes de la península. Yeserías labradas, techos de mocárabes, el patio de los Leones y sus juegos de agua la convierten en la obra maestra de la arquitectura andalusí en Europa, inscrita en la [lista del Patrimonio Mundial de la UNESCO](https://whc.unesco.org/es/list/).
 
-**Palacio de Topkapi** — Turquía — arquitectura otomana, siglo XV. Residencia de los sultanes durante casi cuatrocientos años, asomado al Bósforo en Estambul. No es un edificio único, sino un laberinto de patios, pabellones y jardines, con el célebre harén.
+- **Palacio de Topkapi** — Turquía — arquitectura otomana, siglo XV. Residencia de los sultanes durante casi cuatrocientos años, asomado al Bósforo en Estambul. No es un edificio único, sino un laberinto de patios, pabellones y jardines, con el célebre harén.
 
-**Castillos del Loira** — Francia — Renacimiento, siglos XV-XVI. Todo un valle de residencias reales y señoriales: Chambord y su doble escalera ligada al espíritu de Leonardo da Vinci, Chenonceau sobre el río Cher, Azay-le-Rideau, Blois. El paso de la fortaleza a la residencia de recreo se lee aquí como un libro abierto.
+- **Castillos del Loira** — Francia — Renacimiento, siglos XV-XVI. Todo un valle de residencias reales y señoriales: Chambord y su doble escalera ligada al espíritu de Leonardo da Vinci, Chenonceau sobre el río Cher, Azay-le-Rideau, Blois. El paso de la fortaleza a la residencia de recreo se lee aquí como un libro abierto.
 
-**Peterhof** — Rusia — barroco, siglo XVIII. Apodado el «Versalles ruso», a orillas del golfo de Finlandia, cerca de San Petersburgo. Pedro el Grande instaló allí un sistema de fuentes en cascada que funciona sin ninguna bomba, por simple gravedad.
+- **Peterhof** — Rusia — barroco, siglo XVIII. Apodado el «Versalles ruso», a orillas del golfo de Finlandia, cerca de San Petersburgo. Pedro el Grande instaló allí un sistema de fuentes en cascada que funciona sin ninguna bomba, por simple gravedad.
 
 ## Asia
 
 Los palacios asiáticos responden a otras lógicas: ejes sagrados, simbología cósmica, madera en lugar de piedra.
 
-**Ciudad Prohibida** — China — arquitectura imperial Ming y Qing, siglo XV. En el corazón de Pekín, fue el palacio de los emperadores de 1420 a 1912. Unos 980 edificios en unas 72 hectáreas, dispuestos según un eje norte-sur estricto. Su nombre viene de la prohibición de entrar sin permiso imperial.
+- **Ciudad Prohibida** — China — arquitectura imperial Ming y Qing, siglo XV. En el corazón de Pekín, fue el palacio de los emperadores de 1420 a 1912. Unos 980 edificios en unas 72 hectáreas, dispuestos según un eje norte-sur estricto. Su nombre viene de la prohibición de entrar sin permiso imperial.
 
-**Palacio del Potala** — Tíbet — arquitectura tibetana, siglo XVII. Alzado sobre una colina en Lhasa, a más de 3.700 metros de altitud, fue la residencia de los dalái lamas. Trece pisos, más de mil estancias, a la vez palacio, monasterio y fortaleza.
+- **Palacio del Potala** — Tíbet — arquitectura tibetana, siglo XVII. Alzado sobre una colina en Lhasa, a más de 3.700 metros de altitud, fue la residencia de los dalái lamas. Trece pisos, más de mil estancias, a la vez palacio, monasterio y fortaleza.
 
-**Castillo de Himeji** — Japón — castillo japonés, siglo XVII. Apodado la «Garza Blanca» por sus muros inmaculados y su silueta esbelta. Es el castillo mejor conservado de Japón, superviviente de los bombardeos de 1945 y de varios terremotos. Su torre del homenaje tiene siete niveles bajo una apariencia de cinco plantas.
+- **Castillo de Himeji** — Japón — castillo japonés, siglo XVII. Apodado la «Garza Blanca» por sus muros inmaculados y su silueta esbelta. Es el castillo mejor conservado de Japón, superviviente de los bombardeos de 1945 y de varios terremotos. Su torre del homenaje tiene siete niveles bajo una apariencia de cinco plantas.
 
-**Palacio de Mysore** — India — estilo indo-sarraceno, principios del siglo XX. Sede de la dinastía Wadiyar, reconstruido tras un incendio en 1912. Mezcla de arcos mogoles, cúpulas y vidrieras. Durante el festival de Dasara, su fachada se ilumina con decenas de miles de bombillas.
+- **Palacio de Mysore** — India — estilo indo-sarraceno, principios del siglo XX. Sede de la dinastía Wadiyar, reconstruido tras un incendio en 1912. Mezcla de arcos mogoles, cúpulas y vidrieras. Durante el festival de Dasara, su fachada se ilumina con decenas de miles de bombillas.
 
 ## Distinguir fortaleza, castillo de recreo y palacio
 

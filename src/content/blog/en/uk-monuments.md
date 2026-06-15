@@ -26,31 +26,31 @@ The United Kingdom packs four nations and several thousand years of building int
 
 The capital holds the country's most recognisable outlines, the ones that turn up on postcards and in textbooks.
 
-**Big Ben and the Palace of Westminster** — London — the tower rising over the Thames houses the famous bell; the palace beside it is home to both houses of the British Parliament. The present Gothic Revival complex was rebuilt after the fire of 1834.
+- **Big Ben and the Palace of Westminster** — London — the tower rising over the Thames houses the famous bell; the palace beside it is home to both houses of the British Parliament. The present Gothic Revival complex was rebuilt after the fire of 1834.
 
-**Tower Bridge and the Tower of London** — London — two separate monuments people often confuse. Tower Bridge is a bascule bridge opened in 1894, instantly known by its two Victorian towers. The nearby Tower of London is a fortress founded by William the Conqueror shortly after 1066; it has served as palace and prison and now holds the Crown Jewels.
+- **Tower Bridge and the Tower of London** — London — two separate monuments people often confuse. Tower Bridge is a bascule bridge opened in 1894, instantly known by its two Victorian towers. The nearby Tower of London is a fortress founded by William the Conqueror shortly after 1066; it has served as palace and prison and now holds the Crown Jewels.
 
-**Buckingham Palace** — London — the official London residence of the British monarch since 1837. The Changing of the Guard at its gates remains one of the city's most-watched sights. Part of the State Rooms opens to the public in summer.
+- **Buckingham Palace** — London — the official London residence of the British monarch since 1837. The Changing of the Guard at its gates remains one of the city's most-watched sights. Part of the State Rooms opens to the public in summer.
 
-**St Paul's Cathedral** — London — Christopher Wren's masterpiece, completed in 1711 after the Great Fire of 1666. Its vast dome long dominated the London skyline and survived the Blitz of 1940, which turned it into a symbol of resilience.
+- **St Paul's Cathedral** — London — Christopher Wren's masterpiece, completed in 1711 after the Great Fire of 1666. Its vast dome long dominated the London skyline and survived the Blitz of 1940, which turned it into a symbol of resilience.
 
-**The London Eye** — London — an observation wheel opened for the year 2000 on the South Bank of the Thames. At 135 metres, it was for a time the tallest in Europe and offers a clear view across the historic centre.
+- **The London Eye** — London — an observation wheel opened for the year 2000 on the South Bank of the Thames. At 135 metres, it was for a time the tallest in Europe and offers a clear view across the historic centre.
 
 ## Ancient and prehistoric sites
 
 Away from the cities, British soil keeps the traces of civilisations that predate the monarchy by a wide margin.
 
-**Stonehenge** — Salisbury Plain, England — a circle of standing stones raised in stages between roughly 3000 and 2000 BC. Its exact purpose is still debated: observatory, place of worship, solar calendar. The way the stones align with the sunrise at the summer solstice still draws crowds.
+- **Stonehenge** — Salisbury Plain, England — a circle of standing stones raised in stages between roughly 3000 and 2000 BC. Its exact purpose is still debated: observatory, place of worship, solar calendar. The way the stones align with the sunrise at the summer solstice still draws crowds.
 
-**Hadrian's Wall** — northern England — a Roman fortification ordered by the emperor Hadrian around AD 122 to mark the northern edge of the Empire. It ran for nearly 117 kilometres from coast to coast. Long sections survive, dotted with the remains of forts.
+- **Hadrian's Wall** — northern England — a Roman fortification ordered by the emperor Hadrian around AD 122 to mark the northern edge of the Empire. It ran for nearly 117 kilometres from coast to coast. Long sections survive, dotted with the remains of forts.
 
 ## Beyond England
 
 The UK is not only London, and not only England. Scotland and Wales hold their own fortified heritage.
 
-**Edinburgh Castle** — Scotland — perched on a volcanic crag above the Scottish capital. Occupied since the Iron Age, it has endured countless sieges and holds the Honours of Scotland, the Scottish Crown Jewels. Every day at one o'clock, a gun is fired from its ramparts.
+- **Edinburgh Castle** — Scotland — perched on a volcanic crag above the Scottish capital. Occupied since the Iron Age, it has endured countless sieges and holds the Honours of Scotland, the Scottish Crown Jewels. Every day at one o'clock, a gun is fired from its ramparts.
 
-**The castles of Wales** — Wales — the country has one of the highest densities of castles in Europe. Those of Edward I, such as Caernarfon, Conwy and Harlech, built in the late 13th century to cement the English conquest, are listed as a UNESCO World Heritage Site.
+- **The castles of Wales** — Wales — the country has one of the highest densities of castles in Europe. Those of Edward I, such as Caernarfon, Conwy and Harlech, built in the late 13th century to cement the English conquest, are listed as a UNESCO World Heritage Site.
 
 ## Points worth clearing up
 

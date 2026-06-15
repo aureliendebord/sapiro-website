@@ -26,35 +26,35 @@ España se lee como un palimpsesto. Romanos, musulmanes y reinos cristianos deja
 
 La capital catalana lleva la marca de un solo hombre. Antoni Gaudí inventó un lenguaje arquitectónico que no se parece a ningún otro, a medio camino entre lo orgánico y la invención geométrica pura.
 
-**[Sagrada Família](https://es.wikipedia.org/wiki/Templo_Expiatorio_de_la_Sagrada_Familia)** — Barcelona — modernismo catalán, desde 1882. La basílica inacabada de Gaudí, erizada de torres y fachadas talladas como arrecifes de coral. El arquitecto trabajó en ella más de cuarenta años, hasta su muerte en 1926, y las obras siguen vivas hoy.
+- **[Sagrada Família](https://es.wikipedia.org/wiki/Templo_Expiatorio_de_la_Sagrada_Familia)** — Barcelona — modernismo catalán, desde 1882. La basílica inacabada de Gaudí, erizada de torres y fachadas talladas como arrecifes de coral. El arquitecto trabajó en ella más de cuarenta años, hasta su muerte en 1926, y las obras siguen vivas hoy.
 
-**Parque Güell** — Barcelona — modernismo catalán, 1900-1914. Concebido en origen como una urbanización de lujo que nunca encontró compradores y convertido después en jardín público. Sus bancos ondulados cubiertos de *trencadís*, su salamandra multicolor y sus columnas inclinadas lo han hecho un emblema de la ciudad.
+- **Parque Güell** — Barcelona — modernismo catalán, 1900-1914. Concebido en origen como una urbanización de lujo que nunca encontró compradores y convertido después en jardín público. Sus bancos ondulados cubiertos de *trencadís*, su salamandra multicolor y sus columnas inclinadas lo han hecho un emblema de la ciudad.
 
-**Casa Batlló** — Barcelona — modernismo catalán, 1904-1906. Un edificio burgués que Gaudí reinventó por completo. La fachada, escamada y nervada, evoca un dragón o un esqueleto; muchos leen en ella la leyenda de san Jorge venciendo a la bestia. Fachada y tejado fluyen como cera fundida.
+- **Casa Batlló** — Barcelona — modernismo catalán, 1904-1906. Un edificio burgués que Gaudí reinventó por completo. La fachada, escamada y nervada, evoca un dragón o un esqueleto; muchos leen en ella la leyenda de san Jorge venciendo a la bestia. Fachada y tejado fluyen como cera fundida.
 
 ## La Andalucía andalusí
 
 Es en el sur donde se impone el legado de Al-Ándalus. Las dinastías musulmanas gobernaron aquí cerca de ocho siglos, y sus monumentos sobreviven a menudo bajo una capa cristiana añadida tras la Reconquista.
 
-**Alhambra** — Granada — arte islámico nazarí, siglos XIII-XIV. El palacio-fortaleza de los últimos emires musulmanes de la península, [declarado Patrimonio Mundial por la UNESCO](https://whc.unesco.org/es/list/). Yeserías cinceladas, techos de mocárabes, el patio de los Leones y estanques que multiplican la luz la convierten en la cima de la arquitectura andalusí que sigue en pie en Europa.
+- **Alhambra** — Granada — arte islámico nazarí, siglos XIII-XIV. El palacio-fortaleza de los últimos emires musulmanes de la península, [declarado Patrimonio Mundial por la UNESCO](https://whc.unesco.org/es/list/). Yeserías cinceladas, techos de mocárabes, el patio de los Leones y estanques que multiplican la luz la convierten en la cima de la arquitectura andalusí que sigue en pie en Europa.
 
-**Mezquita-Catedral** — Córdoba — arte omeya y después añadidos cristianos, desde el siglo VIII. La gran mezquita de Córdoba, con su bosque de cerca de 850 columnas y sus arcos bicolores rojos y blancos. Tras 1236 se levantó una catedral justo en el centro de la sala de oración, sin derribarla. Los dos cultos quedan literalmente superpuestos.
+- **Mezquita-Catedral** — Córdoba — arte omeya y después añadidos cristianos, desde el siglo VIII. La gran mezquita de Córdoba, con su bosque de cerca de 850 columnas y sus arcos bicolores rojos y blancos. Tras 1236 se levantó una catedral justo en el centro de la sala de oración, sin derribarla. Los dos cultos quedan literalmente superpuestos.
 
-**Giralda** — Sevilla — alminar almohade convertido en campanario, siglo XII. En origen el alminar de la gran mezquita almohade, transformado en campanario de la catedral tras la conquista cristiana. El remate renacentista, añadido en el siglo XVI, corona una base musulmana casi intacta. Se sube por rampas, no por escalones.
+- **Giralda** — Sevilla — alminar almohade convertido en campanario, siglo XII. En origen el alminar de la gran mezquita almohade, transformado en campanario de la catedral tras la conquista cristiana. El remate renacentista, añadido en el siglo XVI, corona una base musulmana casi intacta. Se sube por rampas, no por escalones.
 
 ## Madrid y el centro
 
 El corazón de la península mezcla el esplendor de los Borbones con algunos de los restos más antiguos, entre ellos una de las mejores obras romanas de Europa.
 
-**Palacio Real** — Madrid — barroco y clasicismo, siglo XVIII. Construido para Felipe V tras el incendio del antiguo Alcázar, cuenta con más de 3.000 estancias, lo que lo convierte en uno de los palacios más grandes de Europa occidental. El monarca ya no reside en él, pero todavía se usa para actos oficiales.
+- **Palacio Real** — Madrid — barroco y clasicismo, siglo XVIII. Construido para Felipe V tras el incendio del antiguo Alcázar, cuenta con más de 3.000 estancias, lo que lo convierte en uno de los palacios más grandes de Europa occidental. El monarca ya no reside en él, pero todavía se usa para actos oficiales.
 
-**Acueducto romano** — Segovia — ingeniería romana, finales del siglo I o principios del II. Probablemente el monumento romano más impresionante del país. Sus arcos de granito, de hasta 28 metros en su punto más alto, se montaron sin mortero ni cemento: las piedras se sostienen solo por su peso y su equilibrio. Abasteció de agua a la ciudad durante siglos.
+- **Acueducto romano** — Segovia — ingeniería romana, finales del siglo I o principios del II. Probablemente el monumento romano más impresionante del país. Sus arcos de granito, de hasta 28 metros en su punto más alto, se montaron sin mortero ni cemento: las piedras se sostienen solo por su peso y su equilibrio. Abasteció de agua a la ciudad durante siglos.
 
 ## Santiago y el norte
 
 El noroeste, más verde y húmedo, fue el corazón de la resistencia cristiana durante la Reconquista. Su catedral se convirtió en uno de los grandes destinos de peregrinación de la Edad Media.
 
-**Catedral de Santiago de Compostela** — Galicia — románica y después barroca, desde el siglo XI. Final de los caminos de Santiago, donde se cree que reposa la tumba del apóstol Santiago. La estructura románica original se esconde tras una espectacular fachada barroca, el Obradoiro, añadida en el siglo XVIII. Los peregrinos siguen llegando a pie por millares.
+- **Catedral de Santiago de Compostela** — Galicia — románica y después barroca, desde el siglo XI. Final de los caminos de Santiago, donde se cree que reposa la tumba del apóstol Santiago. La estructura románica original se esconde tras una espectacular fachada barroca, el Obradoiro, añadida en el siglo XVIII. Los peregrinos siguen llegando a pie por millares.
 
 Estos ocho lugares dejan algo claro: no existe una sola España, sino capas. El alminar vuelto campanario, la catedral plantada dentro de la mezquita, el acueducto romano que aún domina una ciudad medieval. Si te gusta poner a prueba tus conocimientos sobre lugares así, la aplicación SAPIRO ofrece cuestionarios de cultura general donde geografía, arte e historia se cruzan, igual que en estos monumentos.
 

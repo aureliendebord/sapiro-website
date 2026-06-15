@@ -26,51 +26,51 @@ La Antigüedad dejó monumentos que siguen en pie tras dos o tres mil años, y o
 
 El valle del Nilo produjo los monumentos masivos más antiguos que aún se conservan. La piedra sustituyó pronto a los materiales perecederos, lo que explica su longevidad.
 
-**Pirámides de Guiza** — Guiza, Egipto — hacia 2560 a. C. — Tres pirámides reales de la cuarta dinastía, entre ellas la de Keops, durante mucho tiempo la construcción humana más alta. Albergaban las tumbas de los faraones.
+- **Pirámides de Guiza** — Guiza, Egipto — hacia 2560 a. C. — Tres pirámides reales de la cuarta dinastía, entre ellas la de Keops, durante mucho tiempo la construcción humana más alta. Albergaban las tumbas de los faraones.
 
-**Gran Esfinge** — Guiza, Egipto — hacia 2500 a. C. — Estatua monumental con cuerpo de león y cabeza humana, tallada en un afloramiento calizo. Vigila la meseta, junto a las pirámides.
+- **Gran Esfinge** — Guiza, Egipto — hacia 2500 a. C. — Estatua monumental con cuerpo de león y cabeza humana, tallada en un afloramiento calizo. Vigila la meseta, junto a las pirámides.
 
-**Templos de Karnak y Luxor** — Tebas (Luxor), Egipto — construidos y ampliados del siglo XVI al I a. C. — Vastos complejos dedicados al dios Amón, unidos antaño por una avenida de esfinges. La sala hipóstila de Karnak alinea 134 columnas gigantes.
+- **Templos de Karnak y Luxor** — Tebas (Luxor), Egipto — construidos y ampliados del siglo XVI al I a. C. — Vastos complejos dedicados al dios Amón, unidos antaño por una avenida de esfinges. La sala hipóstila de Karnak alinea 134 columnas gigantes.
 
-**Abu Simbel** — sur de Egipto — hacia 1264 a. C. — Dos templos excavados en el acantilado por Ramsés II, con cuatro colosos de más de veinte metros en la fachada. El conjunto fue desmontado y reconstruido más arriba en los años sesenta para salvarlo de la subida de las aguas del lago Nasser.
+- **Abu Simbel** — sur de Egipto — hacia 1264 a. C. — Dos templos excavados en el acantilado por Ramsés II, con cuatro colosos de más de veinte metros en la fachada. El conjunto fue desmontado y reconstruido más arriba en los años sesenta para salvarlo de la subida de las aguas del lago Nasser.
 
 ## Antigua Grecia
 
 La Grecia clásica apostó menos por la masa que por la proporción. Sus monumentos servían al culto, a la política o a los espectáculos, y su influencia en la arquitectura occidental es duradera.
 
-**Partenón y Acrópolis** — Atenas, Grecia — 447-432 a. C. — Templo dórico dedicado a Atenea, alzado en la colina sagrada de la Acrópolis. Dañado por una explosión en 1687, sigue siendo el símbolo de la arquitectura griega.
+- **Partenón y Acrópolis** — Atenas, Grecia — 447-432 a. C. — Templo dórico dedicado a Atenea, alzado en la colina sagrada de la Acrópolis. Dañado por una explosión en 1687, sigue siendo el símbolo de la arquitectura griega.
 
-**Santuario de Delfos** — Delfos, Grecia — apogeo en los siglos VI-IV a. C. — Sede del oráculo de Apolo, que los griegos consideraban el centro del mundo. Allí se consultaba a la Pitia antes de las grandes decisiones.
+- **Santuario de Delfos** — Delfos, Grecia — apogeo en los siglos VI-IV a. C. — Sede del oráculo de Apolo, que los griegos consideraban el centro del mundo. Allí se consultaba a la Pitia antes de las grandes decisiones.
 
-**Teatro de Epidauro** — Epidauro, Grecia — hacia 340-330 a. C. — Teatro al aire libre célebre por su acústica: una moneda que cae al escenario se oye desde las últimas gradas. Podía acoger cerca de 14.000 espectadores.
+- **Teatro de Epidauro** — Epidauro, Grecia — hacia 340-330 a. C. — Teatro al aire libre célebre por su acústica: una moneda que cae al escenario se oye desde las últimas gradas. Podía acoger cerca de 14.000 espectadores.
 
 ## Antigua Roma
 
 Roma industrializó la construcción. El arco, la bóveda y sobre todo el hormigón permitieron obras de una escala inédita, tanto civiles como religiosas.
 
-**Coliseo** — Roma, Italia — 80 d. C. — El anfiteatro Flavio, el mayor del Imperio, capaz de reunir a unos 50.000 espectadores para los combates de gladiadores y las cacerías.
+- **Coliseo** — Roma, Italia — 80 d. C. — El anfiteatro Flavio, el mayor del Imperio, capaz de reunir a unos 50.000 espectadores para los combates de gladiadores y las cacerías.
 
-**Panteón** — Roma, Italia — reconstruido hacia 125 d. C. — Templo a todos los dioses coronado por una cúpula de hormigón con un óculo. Su cúpula de 43 metros de diámetro sigue siendo la mayor del mundo sin armadura metálica.
+- **Panteón** — Roma, Italia — reconstruido hacia 125 d. C. — Templo a todos los dioses coronado por una cúpula de hormigón con un óculo. Su cúpula de 43 metros de diámetro sigue siendo la mayor del mundo sin armadura metálica.
 
-**Foro Romano** — Roma, Italia — del siglo VII a. C. a la época imperial — Corazón político, religioso y comercial de la ciudad, rodeado de templos, basílicas y arcos de triunfo hoy en ruinas.
+- **Foro Romano** — Roma, Italia — del siglo VII a. C. a la época imperial — Corazón político, religioso y comercial de la ciudad, rodeado de templos, basílicas y arcos de triunfo hoy en ruinas.
 
-**Puente del Gard y acueductos** — cerca de Nimes, Francia — siglo I d. C. — Acueducto de tres niveles de arcos que cruzaba el valle del Gardon para abastecer de agua a Nimes. Testimonio del genio hidráulico romano.
+- **Puente del Gard y acueductos** — cerca de Nimes, Francia — siglo I d. C. — Acueducto de tres niveles de arcos que cruzaba el valle del Gardon para abastecer de agua a Nimes. Testimonio del genio hidráulico romano.
 
-**Pompeya** — cerca de Nápoles, Italia — congelada en el 79 d. C. — Ciudad sepultada por la erupción del Vesubio, cuyas cenizas conservaron calles, casas y frescos. Una instantánea única de la vida cotidiana romana.
+- **Pompeya** — cerca de Nápoles, Italia — congelada en el 79 d. C. — Ciudad sepultada por la erupción del Vesubio, cuyas cenizas conservaron calles, casas y frescos. Una instantánea única de la vida cotidiana romana.
 
 ## Más allá del mundo grecorromano
 
 La Antigüedad no se detiene en el Mediterráneo. Otras civilizaciones levantaron monumentos igual de notables, a veces en las antípodas.
 
-**Petra** — sur de Jordania — apogeo entre el siglo I a. C. y el I d. C. — Capital de los nabateos, cuyas fachadas, como la del Khazneh, están talladas en la roca rosada. La ciudad prosperó gracias al comercio de caravanas.
+- **Petra** — sur de Jordania — apogeo entre el siglo I a. C. y el I d. C. — Capital de los nabateos, cuyas fachadas, como la del Khazneh, están talladas en la roca rosada. La ciudad prosperó gracias al comercio de caravanas.
 
-**Persépolis** — sur de Irán — fundada hacia 518 a. C. — Capital ceremonial del Imperio persa aqueménida, ordenada por Darío I. Sus terrazas y escaleras con relieves fueron incendiadas por Alejandro Magno en el 330 a. C.
+- **Persépolis** — sur de Irán — fundada hacia 518 a. C. — Capital ceremonial del Imperio persa aqueménida, ordenada por Darío I. Sus terrazas y escaleras con relieves fueron incendiadas por Alejandro Magno en el 330 a. C.
 
-**Zigurat de Ur** — Mesopotamia (actual Irak) — hacia 2100 a. C. — Templo escalonado de ladrillo crudo dedicado al dios lunar Nanna. Su base restaurada da una idea de estas pirámides por niveles típicas de la región.
+- **Zigurat de Ur** — Mesopotamia (actual Irak) — hacia 2100 a. C. — Templo escalonado de ladrillo crudo dedicado al dios lunar Nanna. Su base restaurada da una idea de estas pirámides por niveles típicas de la región.
 
-**Gran Muralla China** — norte de China — primeros tramos unidos hacia 220 a. C. — Sistema de fortificaciones cuya unificación comenzó bajo el primer emperador, Qin Shi Huang. La mayor parte de lo que hoy se ve, sin embargo, data de la época Ming, mucho más tardía.
+- **Gran Muralla China** — norte de China — primeros tramos unidos hacia 220 a. C. — Sistema de fortificaciones cuya unificación comenzó bajo el primer emperador, Qin Shi Huang. La mayor parte de lo que hoy se ve, sin embargo, data de la época Ming, mucho más tardía.
 
-**Templos mayas** — Mesoamérica (México, Guatemala) — período clásico, siglos III-IX d. C. — Pirámides escalonadas rematadas por santuarios, como en Tikal o Palenque, en el corazón de ciudades-estado rivales. Servían al culto y a la observación astronómica.
+- **Templos mayas** — Mesoamérica (México, Guatemala) — período clásico, siglos III-IX d. C. — Pirámides escalonadas rematadas por santuarios, como en Tikal o Palenque, en el corazón de ciudades-estado rivales. Servían al culto y a la observación astronómica.
 
 Para fijar todos estos referentes sin agotarse, la aplicación **SAPIRO** ofrece cuestionarios que convierten estos nombres y fechas en reflejos. Para ampliar el panorama, lee también nuestro reportaje sobre las [maravillas del mundo](/es/blog/maravillas-del-mundo/), nuestra selección de [30 monumentos famosos](/es/blog/monumentos-famosos-mundo/) y nuestra guía de los [sitios del patrimonio mundial de la UNESCO](/es/blog/sitios-unesco-patrimonio-mundial/). Para situar estos monumentos en el tiempo, consulta nuestro resumen de [Antigüedad, Edad Media y Renacimiento](/es/blog/antiguedad-edad-media-renacimiento-resumen/). Todo está ordenado en nuestra sección de [monumentos](/es/monumentos/).
 

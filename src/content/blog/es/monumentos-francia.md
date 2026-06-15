@@ -26,21 +26,21 @@ París acapara la atención, pero Francia sembró sus obras maestras por todas p
 
 La Edad Media dejó en Francia algunos de los edificios más espectaculares de Europa. Tres destacan por encima del resto.
 
-**[Mont-Saint-Michel](https://es.wikipedia.org/wiki/Monte_Saint-Michel)** — Normandía — Una abadía encaramada en un islote rocoso que la marea separa del continente. Apodada la «Maravilla de Occidente», atrae peregrinos desde el siglo VIII y sigue siendo uno de los lugares más fotografiados del país.
+- **[Mont-Saint-Michel](https://es.wikipedia.org/wiki/Monte_Saint-Michel)** — Normandía — Una abadía encaramada en un islote rocoso que la marea separa del continente. Apodada la «Maravilla de Occidente», atrae peregrinos desde el siglo VIII y sigue siendo uno de los lugares más fotografiados del país.
 
-**Ciudad de Carcasona** — Occitania — Una ciudad fortificada entera, rodeada por una doble muralla y 52 torres. Restaurada en el siglo XIX por Viollet-le-Duc, ofrece la sorprendente ilusión de una fortaleza medieval detenida en el tiempo.
+- **Ciudad de Carcasona** — Occitania — Una ciudad fortificada entera, rodeada por una doble muralla y 52 torres. Restaurada en el siglo XIX por Viollet-le-Duc, ofrece la sorprendente ilusión de una fortaleza medieval detenida en el tiempo.
 
-**Palacio de los Papas** — Aviñón — El mayor palacio gótico de Europa, construido en el siglo XIV cuando el papado había abandonado Roma para instalarse en Provenza. Nueve papas vivieron aquí, en un edificio que es tanto fortaleza como palacio.
+- **Palacio de los Papas** — Aviñón — El mayor palacio gótico de Europa, construido en el siglo XIV cuando el papado había abandonado Roma para instalarse en Provenza. Nueve papas vivieron aquí, en un edificio que es tanto fortaleza como palacio.
 
 ## Castillos y palacios
 
 No se puede hablar de monumentos franceses sin los castillos. Entre el exceso real de Versalles y las joyas renacentistas del Loira, el país tiene más que ningún otro.
 
-**Palacio de Versalles** — Isla de Francia — Un antiguo pabellón de caza que Luis XIV convirtió en símbolo de la monarquía absoluta. La galería de los Espejos, los jardines diseñados por Le Nôtre y las fuentes lo convierten, con mucha diferencia, en el castillo más visitado de Francia.
+- **Palacio de Versalles** — Isla de Francia — Un antiguo pabellón de caza que Luis XIV convirtió en símbolo de la monarquía absoluta. La galería de los Espejos, los jardines diseñados por Le Nôtre y las fuentes lo convierten, con mucha diferencia, en el castillo más visitado de Francia.
 
-**Castillo de Chambord** — Centro-Valle del Loira — El mayor de los castillos del Loira, encargado por Francisco I. Su escalera de doble hélice, donde dos personas pueden subir y bajar sin cruzarse jamás, se atribuye a Leonardo da Vinci. Cuatrocientas cuarenta habitaciones, y nadie llegó nunca a vivir allí mucho tiempo.
+- **Castillo de Chambord** — Centro-Valle del Loira — El mayor de los castillos del Loira, encargado por Francisco I. Su escalera de doble hélice, donde dos personas pueden subir y bajar sin cruzarse jamás, se atribuye a Leonardo da Vinci. Cuatrocientas cuarenta habitaciones, y nadie llegó nunca a vivir allí mucho tiempo.
 
-**Castillo de Chenonceau** — Centro-Valle del Loira — Construido sobre el río Cher, sus arcos cruzan el agua. Se le conoce como el «castillo de las Damas»: Diana de Poitiers y luego Catalina de Médici dejaron en él su huella. Es el castillo privado más visitado del país.
+- **Castillo de Chenonceau** — Centro-Valle del Loira — Construido sobre el río Cher, sus arcos cruzan el agua. Se le conoce como el «castillo de las Damas»: Diana de Poitiers y luego Catalina de Médici dejaron en él su huella. Es el castillo privado más visitado del país.
 
 El valle del Loira no acaba ahí. Inscrito en su conjunto en la lista del Patrimonio Mundial, alinea también Amboise, Villandry con sus jardines, Cheverny y Azay-le-Rideau. Suficiente para llenar varios días.
 
@@ -48,21 +48,21 @@ El valle del Loira no acaba ahí. Inscrito en su conjunto en la lista del Patrim
 
 El sur de Francia formaba parte de la Galia romana, la provincia Narbonense, y conserva monumentos antiguos en un estado poco común. Algunos siguen en uso.
 
-**Pont du Gard** — Occitania — Un acueducto romano de tres niveles, de casi 50 metros de altura, que llevaba el agua hacia Nîmes. Construido en el siglo I sin argamasa, cruza el río Gardon con una precisión que desafía al tiempo.
+- **Pont du Gard** — Occitania — Un acueducto romano de tres niveles, de casi 50 metros de altura, que llevaba el agua hacia Nîmes. Construido en el siglo I sin argamasa, cruza el río Gardon con una precisión que desafía al tiempo.
 
-**Anfiteatro de Nîmes** — Occitania — Un anfiteatro romano de los mejor conservados que existen, que llegó a albergar a cerca de 24 000 espectadores. Veinte siglos después, todavía acoge conciertos y espectáculos.
+- **Anfiteatro de Nîmes** — Occitania — Un anfiteatro romano de los mejor conservados que existen, que llegó a albergar a cerca de 24 000 espectadores. Veinte siglos después, todavía acoge conciertos y espectáculos.
 
-**Maison Carrée** — Nîmes — Un templo romano casi intacto cuya pureza de proporciones inspiró a innumerables arquitectos, entre ellos a Thomas Jefferson para el Capitolio de Virginia. Inscrito en la lista de la UNESCO en 2023.
+- **Maison Carrée** — Nîmes — Un templo romano casi intacto cuya pureza de proporciones inspiró a innumerables arquitectos, entre ellos a Thomas Jefferson para el Capitolio de Virginia. Inscrito en la lista de la UNESCO en 2023.
 
-**Teatro romano de Orange** — Provenza-Alpes-Costa Azul — Su muro de escena, de 103 metros de largo y 37 de alto, es uno de los pocos conservados intactos del mundo romano. Luis XIV lo llamó «el muro más hermoso de mi reino». Cada verano acoge un festival de ópera.
+- **Teatro romano de Orange** — Provenza-Alpes-Costa Azul — Su muro de escena, de 103 metros de largo y 37 de alto, es uno de los pocos conservados intactos del mundo romano. Luis XIV lo llamó «el muro más hermoso de mi reino». Cada verano acoge un festival de ópera.
 
 ## Monumentos modernos y naturales
 
 Francia no vive solo de la piedra antigua. Su ingeniería y sus paisajes también dan lugar a lugares que se han vuelto emblemáticos.
 
-**Viaducto de Millau** — Occitania — El puente de carretera más alto del mundo, con un pilar que alcanza los 343 metros, por encima de la torre Eiffel. Diseñado por el ingeniero Michel Virlogeux y el arquitecto Norman Foster, e inaugurado en 2004, cruza el valle del Tarn como una línea tensada entre las nubes.
+- **Viaducto de Millau** — Occitania — El puente de carretera más alto del mundo, con un pilar que alcanza los 343 metros, por encima de la torre Eiffel. Diseñado por el ingeniero Michel Virlogeux y el arquitecto Norman Foster, e inaugurado en 2004, cruza el valle del Tarn como una línea tensada entre las nubes.
 
-**Duna de Pilat** — Nueva Aquitania — La duna de arena más alta de Europa, de más de 100 metros, en constante movimiento al borde de la bahía de Arcachon. No es un monumento construido, pero atrae a tantos visitantes como muchos castillos, y constituye un patrimonio natural por derecho propio.
+- **Duna de Pilat** — Nueva Aquitania — La duna de arena más alta de Europa, de más de 100 metros, en constante movimiento al borde de la bahía de Arcachon. No es un monumento construido, pero atrae a tantos visitantes como muchos castillos, y constituye un patrimonio natural por derecho propio.
 
 Con más de cincuenta sitios en la [lista del Patrimonio Mundial de la UNESCO](https://whc.unesco.org/es/list/), Francia figura entre los países mejor dotados del planeta. Esa densidad responde a una historia larga y a paisajes muy variados, desde la costa normanda en el norte hasta el Mediterráneo en el sur.
 

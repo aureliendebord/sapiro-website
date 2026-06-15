@@ -26,31 +26,31 @@ Le Royaume-Uni réunit quatre nations et plusieurs milliers d'années de bâti, 
 
 La capitale concentre les silhouettes les plus reconnaissables du pays, souvent reproduites sur les cartes postales et dans les manuels.
 
-**Big Ben et le palais de Westminster** — Londres — la tour qui domine la Tamise abrite la fameuse cloche ; le palais qui l'accompagne accueille les deux chambres du Parlement britannique. L'ensemble actuel, de style néogothique, a été reconstruit après l'incendie de 1834.
+- **Big Ben et le palais de Westminster** — Londres — la tour qui domine la Tamise abrite la fameuse cloche ; le palais qui l'accompagne accueille les deux chambres du Parlement britannique. L'ensemble actuel, de style néogothique, a été reconstruit après l'incendie de 1834.
 
-**Tower Bridge et la tour de Londres** — Londres — deux monuments distincts qu'on confond souvent. Tower Bridge est un pont basculant ouvert en 1894, reconnaissable à ses deux tours victoriennes. La tour de Londres, voisine, est une forteresse fondée par Guillaume le Conquérant peu après 1066 ; elle a servi de palais, de prison et abrite aujourd'hui les joyaux de la Couronne.
+- **Tower Bridge et la tour de Londres** — Londres — deux monuments distincts qu'on confond souvent. Tower Bridge est un pont basculant ouvert en 1894, reconnaissable à ses deux tours victoriennes. La tour de Londres, voisine, est une forteresse fondée par Guillaume le Conquérant peu après 1066 ; elle a servi de palais, de prison et abrite aujourd'hui les joyaux de la Couronne.
 
-**Buckingham Palace** — Londres — résidence officielle du souverain britannique à Londres depuis 1837. La relève de la garde, devant sa grille, reste l'un des spectacles les plus suivis de la ville. Une partie des salles d'apparat ouvre au public l'été.
+- **Buckingham Palace** — Londres — résidence officielle du souverain britannique à Londres depuis 1837. La relève de la garde, devant sa grille, reste l'un des spectacles les plus suivis de la ville. Une partie des salles d'apparat ouvre au public l'été.
 
-**Cathédrale Saint-Paul** — Londres — chef-d'œuvre de Christopher Wren, achevée en 1711 après le grand incendie de 1666. Son immense dôme a longtemps dominé la skyline londonienne et a résisté au Blitz de 1940, ce qui en a fait un symbole de résistance.
+- **Cathédrale Saint-Paul** — Londres — chef-d'œuvre de Christopher Wren, achevée en 1711 après le grand incendie de 1666. Son immense dôme a longtemps dominé la skyline londonienne et a résisté au Blitz de 1940, ce qui en a fait un symbole de résistance.
 
-**London Eye** — Londres — grande roue d'observation inaugurée pour l'an 2000, sur la rive sud de la Tamise. Avec ses 135 mètres, elle fut un temps la plus haute d'Europe et offre une vue dégagée sur le centre historique.
+- **London Eye** — Londres — grande roue d'observation inaugurée pour l'an 2000, sur la rive sud de la Tamise. Avec ses 135 mètres, elle fut un temps la plus haute d'Europe et offre une vue dégagée sur le centre historique.
 
 ## Sites antiques et préhistoriques
 
 Loin des villes, le sol britannique garde les traces de civilisations bien antérieures à la monarchie.
 
-**Stonehenge** — plaine de Salisbury, Angleterre — cercle de pierres dressées érigé par étapes entre environ 3000 et 2000 av. J.-C. Sa fonction exacte reste débattue : observatoire, lieu de culte, calendrier solaire. L'alignement des pierres avec le lever du soleil au solstice d'été continue d'attirer les foules.
+- **Stonehenge** — plaine de Salisbury, Angleterre — cercle de pierres dressées érigé par étapes entre environ 3000 et 2000 av. J.-C. Sa fonction exacte reste débattue : observatoire, lieu de culte, calendrier solaire. L'alignement des pierres avec le lever du soleil au solstice d'été continue d'attirer les foules.
 
-**Mur d'Hadrien** — nord de l'Angleterre — fortification romaine commandée par l'empereur Hadrien vers 122 apr. J.-C. pour marquer la limite nord de l'Empire. Il s'étirait sur près de 117 kilomètres d'une côte à l'autre. Il en reste de longues sections, jalonnées de vestiges de forts.
+- **Mur d'Hadrien** — nord de l'Angleterre — fortification romaine commandée par l'empereur Hadrien vers 122 apr. J.-C. pour marquer la limite nord de l'Empire. Il s'étirait sur près de 117 kilomètres d'une côte à l'autre. Il en reste de longues sections, jalonnées de vestiges de forts.
 
 ## Au-delà de l'Angleterre
 
 Le Royaume-Uni ne se résume pas à Londres ni à l'Angleterre. L'Écosse et le pays de Galles ont leur propre patrimoine fortifié.
 
-**Château d'Édimbourg** — Écosse — perché sur un piton volcanique au-dessus de la capitale écossaise. Occupé depuis l'âge du fer, il a connu d'innombrables sièges et abrite les Honours of Scotland, les joyaux de la Couronne écossaise. Chaque jour, à 13 heures, un coup de canon retentit du haut de ses remparts.
+- **Château d'Édimbourg** — Écosse — perché sur un piton volcanique au-dessus de la capitale écossaise. Occupé depuis l'âge du fer, il a connu d'innombrables sièges et abrite les Honours of Scotland, les joyaux de la Couronne écossaise. Chaque jour, à 13 heures, un coup de canon retentit du haut de ses remparts.
 
-**Les châteaux du pays de Galles** — pays de Galles — la région compte l'une des plus fortes densités de châteaux d'Europe. Ceux d'Édouard Ier, comme Caernarfon, Conwy ou Harlech, élevés à la fin du XIIIe siècle pour asseoir la conquête anglaise, sont inscrits au patrimoine mondial de l'UNESCO.
+- **Les châteaux du pays de Galles** — pays de Galles — la région compte l'une des plus fortes densités de châteaux d'Europe. Ceux d'Édouard Ier, comme Caernarfon, Conwy ou Harlech, élevés à la fin du XIIIe siècle pour asseoir la conquête anglaise, sont inscrits au patrimoine mondial de l'UNESCO.
 
 ## Précisions utiles
 

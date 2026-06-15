@@ -26,35 +26,35 @@ L'Espagne se lit comme un palimpseste. Romains, musulmans et royaumes chrétiens
 
 La capitale catalane porte la marque d'un seul homme. Antoni Gaudí y a inventé un langage architectural qui ne ressemble à rien d'autre, à mi-chemin entre l'organique et le délire géométrique.
 
-**[Sagrada Família](https://fr.wikipedia.org/wiki/Sagrada_Fam%C3%ADlia)** — Barcelone — modernisme catalan, à partir de 1882. La basilique inachevée de Gaudí, hérissée de tours et de façades sculptées comme des récifs. L'architecte y a travaillé plus de quarante ans, jusqu'à sa mort en 1926, et le chantier continue encore aujourd'hui.
+- **[Sagrada Família](https://fr.wikipedia.org/wiki/Sagrada_Fam%C3%ADlia)** — Barcelone — modernisme catalan, à partir de 1882. La basilique inachevée de Gaudí, hérissée de tours et de façades sculptées comme des récifs. L'architecte y a travaillé plus de quarante ans, jusqu'à sa mort en 1926, et le chantier continue encore aujourd'hui.
 
-**Parc Güell** — Barcelone — modernisme catalan, 1900-1914. Conçu au départ comme un lotissement de luxe qui n'a jamais trouvé d'acheteurs, devenu jardin public. Ses bancs ondulants couverts de mosaïques en *trencadís*, son lézard multicolore et ses colonnes inclinées en ont fait un emblème de la ville.
+- **Parc Güell** — Barcelone — modernisme catalan, 1900-1914. Conçu au départ comme un lotissement de luxe qui n'a jamais trouvé d'acheteurs, devenu jardin public. Ses bancs ondulants couverts de mosaïques en *trencadís*, son lézard multicolore et ses colonnes inclinées en ont fait un emblème de la ville.
 
-**Casa Batlló** — Barcelone — modernisme catalan, 1904-1906. Un immeuble bourgeois que Gaudí a entièrement repensé. La façade, écaillée et nervurée, évoque un dragon ou un os ; on y voit souvent la légende de saint Georges terrassant la bête. Façade et toiture coulent comme de la cire.
+- **Casa Batlló** — Barcelone — modernisme catalan, 1904-1906. Un immeuble bourgeois que Gaudí a entièrement repensé. La façade, écaillée et nervurée, évoque un dragon ou un os ; on y voit souvent la légende de saint Georges terrassant la bête. Façade et toiture coulent comme de la cire.
 
 ## Andalousie mauresque
 
 C'est dans le Sud que l'héritage d'Al-Andalus s'impose. Les dynasties musulmanes y ont gouverné près de huit siècles, et leurs monuments survivent souvent sous une couche chrétienne ajoutée après la Reconquista.
 
-**Alhambra** — Grenade — art islamique nasride, XIIIe-XIVe siècle. Palais-forteresse des derniers émirs musulmans de la péninsule, [classé au patrimoine mondial de l'UNESCO](https://whc.unesco.org/fr/list/). Stucs ciselés, plafonds en muqarnas, cour des Lions et bassins qui démultiplient la lumière : c'est le sommet de l'architecture mauresque encore debout en Europe.
+- **Alhambra** — Grenade — art islamique nasride, XIIIe-XIVe siècle. Palais-forteresse des derniers émirs musulmans de la péninsule, [classé au patrimoine mondial de l'UNESCO](https://whc.unesco.org/fr/list/). Stucs ciselés, plafonds en muqarnas, cour des Lions et bassins qui démultiplient la lumière : c'est le sommet de l'architecture mauresque encore debout en Europe.
 
-**Mosquée-cathédrale** — Cordoue — art omeyyade puis ajouts chrétiens, à partir du VIIIe siècle. La grande mosquée de Cordoue, avec sa forêt de près de 850 colonnes et ses arcs bicolores rouge et blanc. Après 1236, une cathédrale a été bâtie en plein centre de la salle de prière, sans la détruire. Les deux cultes s'y superposent littéralement.
+- **Mosquée-cathédrale** — Cordoue — art omeyyade puis ajouts chrétiens, à partir du VIIIe siècle. La grande mosquée de Cordoue, avec sa forêt de près de 850 colonnes et ses arcs bicolores rouge et blanc. Après 1236, une cathédrale a été bâtie en plein centre de la salle de prière, sans la détruire. Les deux cultes s'y superposent littéralement.
 
-**Giralda** — Séville — minaret almohade devenu clocher, XIIe siècle. À l'origine le minaret de la grande mosquée almohade, transformé en clocher de la cathédrale après la conquête chrétienne. Le sommet Renaissance, ajouté au XVIe siècle, coiffe une base musulmane restée presque intacte. On y monte par des rampes, non par des marches.
+- **Giralda** — Séville — minaret almohade devenu clocher, XIIe siècle. À l'origine le minaret de la grande mosquée almohade, transformé en clocher de la cathédrale après la conquête chrétienne. Le sommet Renaissance, ajouté au XVIe siècle, coiffe une base musulmane restée presque intacte. On y monte par des rampes, non par des marches.
 
 ## Madrid et le centre
 
 Le centre de la péninsule mêle le faste des Bourbons et les vestiges les plus anciens, dont l'un des plus beaux ouvrages romains d'Europe.
 
-**Palais royal** — Madrid — baroque et classicisme, XVIIIe siècle. Bâti pour Philippe V après l'incendie de l'ancien Alcázar, il compte plus de 3 000 pièces, ce qui en fait l'un des plus vastes palais d'Europe occidentale. Le souverain n'y réside plus, mais il sert encore aux cérémonies officielles.
+- **Palais royal** — Madrid — baroque et classicisme, XVIIIe siècle. Bâti pour Philippe V après l'incendie de l'ancien Alcázar, il compte plus de 3 000 pièces, ce qui en fait l'un des plus vastes palais d'Europe occidentale. Le souverain n'y réside plus, mais il sert encore aux cérémonies officielles.
 
-**Aqueduc romain** — Ségovie — ingénierie romaine, fin du Ier ou début du IIe siècle. Sans doute le monument romain le plus impressionnant du pays. Ses arches de granit, hautes de 28 mètres à leur point culminant, ont été assemblées sans mortier ni ciment : les pierres tiennent par leur seul poids et leur équilibre. Il a alimenté la ville en eau pendant des siècles.
+- **Aqueduc romain** — Ségovie — ingénierie romaine, fin du Ier ou début du IIe siècle. Sans doute le monument romain le plus impressionnant du pays. Ses arches de granit, hautes de 28 mètres à leur point culminant, ont été assemblées sans mortier ni ciment : les pierres tiennent par leur seul poids et leur équilibre. Il a alimenté la ville en eau pendant des siècles.
 
 ## Saint-Jacques et le Nord
 
 Le Nord-Ouest, plus vert et plus humide, a été le cœur de la résistance chrétienne pendant la Reconquista. Sa cathédrale est devenue l'un des grands buts de pèlerinage du Moyen Âge.
 
-**Cathédrale de Saint-Jacques-de-Compostelle** — Galice — romane puis baroque, à partir du XIe siècle. Terminus des chemins de Compostelle, censée abriter le tombeau de l'apôtre saint Jacques. La structure romane originelle se cache derrière une spectaculaire façade baroque, l'Obradoiro, ajoutée au XVIIIe siècle. Les pèlerins continuent d'y arriver à pied par milliers.
+- **Cathédrale de Saint-Jacques-de-Compostelle** — Galice — romane puis baroque, à partir du XIe siècle. Terminus des chemins de Compostelle, censée abriter le tombeau de l'apôtre saint Jacques. La structure romane originelle se cache derrière une spectaculaire façade baroque, l'Obradoiro, ajoutée au XVIIIe siècle. Les pèlerins continuent d'y arriver à pied par milliers.
 
 Ces huit sites résument une évidence : il n'existe pas une Espagne, mais des strates. Le minaret devenu clocher, la cathédrale plantée dans la mosquée, l'aqueduc romain qui domine encore une ville médiévale. Si vous aimez tester vos connaissances sur ce genre de lieux, l'application SAPIRO propose des quiz de culture générale où géographie, art et histoire se croisent comme dans ces monuments.
 
