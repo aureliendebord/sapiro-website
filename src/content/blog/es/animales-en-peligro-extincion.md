@@ -2,6 +2,7 @@
 title: "Animales en peligro de extinción: lista 2026"
 description: "¿Qué animales corren riesgo real de desaparecer en las próximas décadas? Lista actualizada por categoría UICN con cifras reales de población."
 date: 2026-01-17
+lastModified: 2026-06-15
 image: "/images/blog/nature/panda-geant.jpg"
 imageAlt: "Un panda gigante comiendo bambú"
 imageCredit: "Foto: KQuhen · CC BY-SA 4.0 · Wikimedia Commons"

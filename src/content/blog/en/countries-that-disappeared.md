@@ -2,6 +2,7 @@
 title: "Countries That No Longer Exist: The List of the Vanished"
 description: "Yugoslavia, USSR, Czechoslovakia, East Germany: the list of countries that no longer exist and the story of their recent disappearance."
 date: 2026-03-07
+lastModified: 2026-06-15
 image: "/images/blog/monde/carte-monde-ancienne.jpg"
 imageAlt: "An old world map"
 imageCredit: "Photo: Reginald Lane Poole · public domain · Wikimedia Commons"

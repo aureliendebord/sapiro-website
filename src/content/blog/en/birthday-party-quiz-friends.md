@@ -2,6 +2,7 @@
 title: "Birthday and Friends Party Quiz: Ideas"
 description: "Hosting a quiz for a birthday or friends gathering: themes, personalized questions and hosting method."
 date: 2026-02-26
+lastModified: 2026-06-15
 image: "/images/blog/apprentissage/fete-amis.jpg"
 imageAlt: "A birthday party with friends"
 imageCredit: "Photo: Anna Flodmark Ehrs for Southerly Clubs · public domain · Wikimedia Commons"

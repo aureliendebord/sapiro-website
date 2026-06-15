@@ -2,6 +2,7 @@
 title: "Histoire de l'art pour les nuls : le guide pour débuter"
 description: "Vous partez de zéro en histoire de l'art ? Guide accessible des grandes périodes, œuvres et artistes à connaître pour avoir une vue d'ensemble."
 date: 2026-01-28
+lastModified: 2026-06-15
 image: "/images/blog/art/naissance-venus.jpg"
 imageAlt: "La Naissance de Vénus de Botticelli"
 imageCredit: "Photo : Sandro Botticelli · domaine public · Wikimedia Commons"

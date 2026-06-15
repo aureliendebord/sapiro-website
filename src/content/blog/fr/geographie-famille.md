@@ -2,6 +2,7 @@
 title: "Quiz géographie en famille : la soirée idéale"
 description: "Organisez un quiz géographie en famille : règles, questions adaptées par âge et variantes de jeu pour une soirée réussie. Prêt à jouer ce soir ?"
 date: 2025-10-20
+lastModified: 2026-06-15
 image: "/images/blog/famille/globe-atlas-table.jpg"
 imageAlt: "Un globe et un atlas posés sur une table"
 imageCredit: "Photo : Ánthimos Gazís · domaine public · Wikimedia Commons"

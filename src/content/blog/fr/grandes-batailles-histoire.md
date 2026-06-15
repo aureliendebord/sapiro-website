@@ -2,6 +2,7 @@
 title: "Les 15 grandes batailles de l'histoire mondiale"
 description: "Marathon, Hastings, Waterloo, Stalingrad : 15 batailles qui ont changé le cours de l'histoire mondiale avec leurs dates, causes et conséquences."
 date: 2026-01-31
+lastModified: 2026-06-15
 image: "/images/blog/histoire/bataille-napoleonienne.jpg"
 imageAlt: "Peinture d'une bataille napoléonienne"
 imageCredit: "Photo : Horace Vernet · domaine public · Wikimedia Commons"

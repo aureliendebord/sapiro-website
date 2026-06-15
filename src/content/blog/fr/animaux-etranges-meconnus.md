@@ -2,6 +2,7 @@
 title: "20 animaux étranges et méconnus dans le monde"
 description: "Tardigrade, axolotl, pangolin, calmar vampire : 20 animaux étranges et méconnus qui existent vraiment, avec leurs particularités biologiques."
 date: 2026-01-18
+lastModified: 2026-06-15
 image: "/images/blog/nature/axolotl.jpg"
 imageAlt: "Un axolotl, amphibien à l'apparence étonnante"
 imageCredit: "Photo : Stan Shebs · CC BY-SA 3.0 · Wikimedia Commons"

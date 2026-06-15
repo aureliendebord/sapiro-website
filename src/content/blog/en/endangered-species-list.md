@@ -2,6 +2,7 @@
 title: "Endangered Species List: 2026 Update"
 description: "Which animals really risk extinction in the coming decades? Updated list by IUCN category, with actual population numbers and the real causes."
 date: 2026-01-17
+lastModified: 2026-06-15
 image: "/images/blog/nature/panda-geant.jpg"
 imageAlt: "A giant panda eating bamboo"
 imageCredit: "Photo: KQuhen · CC BY-SA 4.0 · Wikimedia Commons"

@@ -2,6 +2,7 @@
 title: "The 15 Most Dangerous Animals in the World"
 description: "Lion, shark, polar bear? The real most dangerous animals are not the ones you think. Ranking by estimated human deaths per year, backed by WHO data."
 date: 2026-01-16
+lastModified: 2026-06-15
 image: "/images/blog/nature/requin-blanc.jpg"
 imageAlt: "A great white shark in the ocean"
 imageCredit: "Photo: Pterantula (Terry Goss) at en.wikipedia · CC BY 2.5 · Wikimedia Commons"

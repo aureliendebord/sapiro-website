@@ -2,6 +2,7 @@
 title: "20 Women Who Shaped World History"
 description: "Cleopatra, Joan of Arc, Marie Curie, Rosa Parks: 20 women who shaped world history with their era and impact."
 date: 2026-02-03
+lastModified: 2026-06-15
 image: "/images/blog/histoire/marie-curie.jpg"
 imageAlt: "Portrait of Marie Curie"
 imageCredit: "Photo: Henri Manuel · public domain · Wikimedia Commons"

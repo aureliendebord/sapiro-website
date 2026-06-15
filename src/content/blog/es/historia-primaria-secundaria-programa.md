@@ -2,6 +2,7 @@
 title: "Historia en primaria y secundaria: programa y quizzes"
 description: "Programa de historia en primaria y secundaria con temas, fechas clave y quizzes para ayudar a tu hijo a repasar con eficacia."
 date: 2026-02-15
+lastModified: 2026-06-15
 image: "/images/blog/famille/salle-classe.jpg"
 imageAlt: "Un aula con una pizarra"
 imageCredit: "Foto: AKA MBG · CC0 · Wikimedia Commons"

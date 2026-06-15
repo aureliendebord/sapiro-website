@@ -2,6 +2,7 @@
 title: "Quizzes para imprimir para niños: países, animales, arte"
 description: "Modelos de quiz para imprimir para niños: banderas, capitales, animales, arte. Soluciones y consejos para adaptar al nivel del niño."
 date: 2026-02-19
+lastModified: 2026-06-15
 image: "/images/blog/famille/enfant-cahier.jpg"
 imageAlt: "Un niño escribe en un cuaderno"
 imageCredit: "Foto: Shixart1985 · CC BY 2.0 · Wikimedia Commons"

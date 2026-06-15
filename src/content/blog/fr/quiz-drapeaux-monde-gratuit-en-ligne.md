@@ -2,6 +2,7 @@
 title: "Quiz drapeaux du monde gratuit en ligne"
 description: "Tester votre connaissance des drapeaux du monde avec des quiz gratuits en ligne, par continent et par niveau. Apprentissage progressif."
 date: 2026-02-21
+lastModified: 2026-06-15
 image: "/images/blog/apprentissage/drapeaux-monde.jpg"
 imageAlt: "Des drapeaux nationaux alignés"
 imageCredit: "Photo : United States Department of Energy, Office of Energy Efficiency and Renewable Energy · domaine public · Wikimedia Commons"

@@ -2,6 +2,7 @@
 title: "Reconnaître un peintre : guide visuel des maîtres"
 description: "Monet, Van Gogh, Picasso, Vermeer : critères simples pour reconnaître les grands peintres d'un seul coup d'œil. Style, couleurs, thèmes."
 date: 2026-01-24
+lastModified: 2026-06-15
 image: "/images/blog/art/autoportrait-van-gogh.jpg"
 imageAlt: "Autoportrait de Vincent van Gogh"
 imageCredit: "Photo : Vincent van Gogh · domaine public · Wikimedia Commons"

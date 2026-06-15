@@ -2,6 +2,7 @@
 title: "Cultura general en oposiciones publicas"
 description: "Repasar cultura general para oposiciones: temario, temas recurrentes y método para preparar la prueba con eficacia."
 date: 2026-02-07
+lastModified: 2026-06-15
 image: "/images/blog/apprentissage/examen-amphi.jpg"
 imageAlt: "Estudiantes haciendo un examen en un aula magna"
 imageCredit: "Foto: Nabokov · CC BY-SA 4.0 · Wikimedia Commons"

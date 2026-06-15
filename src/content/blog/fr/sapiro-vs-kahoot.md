@@ -2,6 +2,7 @@
 title: "Sapiro vs Kahoot : deux outils, deux usages"
 description: "Comparatif entre SAPIRO et Kahoot : l'un est conçu pour la salle de classe, l'autre pour apprendre seul ou en famille. Contenu, vie privée, prix, pédagogie."
 date: 2026-03-20
+lastModified: 2026-06-15
 image: "/images/blog/apps/tablette-education.jpg"
 imageAlt: "Apprendre sur une tablette"
 imageCredit: "Photo : Shixart1985 · CC BY 2.0 · Wikimedia Commons"

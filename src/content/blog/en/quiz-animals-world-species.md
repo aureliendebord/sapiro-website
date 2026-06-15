@@ -2,6 +2,7 @@
 title: "Animal Quiz: Recognize 50 Species From Around the World"
 description: "Could you tell a cheetah from a leopard, a llama from an alpaca? Tour of the 50 animal species worth knowing, with their distinctive traits and habitats."
 date: 2026-01-15
+lastModified: 2026-06-15
 image: "/images/blog/nature/tigre.jpg"
 imageAlt: "A Bengal tiger in its habitat"
 imageCredit: "Photo: Charles J. Sharp · CC BY-SA 4.0 · Wikimedia Commons"

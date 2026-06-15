@@ -2,6 +2,7 @@
 title: "Historia del arte para principiantes: guía inicial"
 description: "¿Partes de cero en historia del arte? Guía accesible de grandes períodos, obras y artistas para tener una visión de conjunto."
 date: 2026-01-28
+lastModified: 2026-06-15
 image: "/images/blog/art/naissance-venus.jpg"
 imageAlt: "El nacimiento de Venus de Botticelli"
 imageCredit: "Foto: Sandro Botticelli · dominio público · Wikimedia Commons"

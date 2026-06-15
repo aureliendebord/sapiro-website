@@ -2,6 +2,7 @@
 title: "Réviser la culture générale pour Sciences Po"
 description: "Comment préparer l'épreuve de culture générale pour Sciences Po et les IEP : programme, lectures, méthode et entraînement aux quiz."
 date: 2026-02-08
+lastModified: 2026-06-15
 image: "/images/blog/apprentissage/amphitheatre-universite.jpg"
 imageAlt: "Un amphithéâtre universitaire"
 imageCredit: "Photo : Bob Aronson from Monterey, CA, US · CC BY-SA 2.0 · Wikimedia Commons"

@@ -2,6 +2,7 @@
 title: "Quiz cumpleaños y fiesta entre amigos: ideas"
 description: "Organizar un quiz para un cumpleaños o una fiesta entre amigos: temas, preguntas personalizadas y método de animación."
 date: 2026-02-26
+lastModified: 2026-06-15
 image: "/images/blog/apprentissage/fete-amis.jpg"
 imageAlt: "Una fiesta de cumpleaños entre amigos"
 imageCredit: "Foto: Anna Flodmark Ehrs for Southerly Clubs · dominio público · Wikimedia Commons"

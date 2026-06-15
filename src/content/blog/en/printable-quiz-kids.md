@@ -2,6 +2,7 @@
 title: "Printable Quizzes for Kids: Countries, Animals, Art"
 description: "Printable quiz templates for kids: flags, capitals, animals, art. Solutions and tips to adapt to your child's level."
 date: 2026-02-19
+lastModified: 2026-06-15
 image: "/images/blog/famille/enfant-cahier.jpg"
 imageAlt: "A child writing in a notebook"
 imageCredit: "Photo: Shixart1985 · CC BY 2.0 · Wikimedia Commons"

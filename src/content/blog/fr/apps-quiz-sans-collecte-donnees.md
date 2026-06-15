@@ -2,6 +2,7 @@
 title: "Apps quiz sans collecte de données : comparatif"
 description: "Quelles apps de quiz respectent vraiment vos données ? Comparatif des applications qui ne collectent pas vos données personnelles."
 date: 2026-03-04
+lastModified: 2026-06-15
 image: "/images/blog/apps/smartphone-app.jpg"
 imageAlt: "Une application sur smartphone"
 imageCredit: "Photo : Mictlancihuatl · CC BY-SA 4.0 · Wikimedia Commons"

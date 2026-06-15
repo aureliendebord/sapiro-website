@@ -2,6 +2,7 @@
 title: "20 Animal Pairs That Look Alike: How to Tell Them Apart"
 description: "Crocodile or alligator, leopard or cheetah, llama or alpaca: 20 commonly confused animal pairs with the criteria to never mix them up again."
 date: 2026-01-22
+lastModified: 2026-06-15
 image: "/images/blog/nature/leopard.jpg"
 imageAlt: "A leopard, often confused with the cheetah"
 imageCredit: "Photo: tropicaLiving · CC BY-SA 3.0 · Wikimedia Commons"

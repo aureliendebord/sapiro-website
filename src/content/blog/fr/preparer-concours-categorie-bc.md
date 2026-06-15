@@ -2,6 +2,7 @@
 title: "Préparer un concours catégorie B ou C : guide complet"
 description: "Réussir un concours administratif catégorie B ou C : programme, méthode, planning et entraînement aux quiz de culture générale."
 date: 2026-02-10
+lastModified: 2026-06-15
 image: "/images/blog/apprentissage/bibliotheque-lecture.jpg"
 imageAlt: "Une salle de lecture en bibliothèque"
 imageCredit: "Photo : Diliff · CC BY 2.5 · Wikimedia Commons"

@@ -2,6 +2,7 @@
 title: "Oposición policía, guardia civil y militar: preparación"
 description: "Sacar oposiciones de policía nacional, guardia civil y fuerzas armadas: temario, ejemplos de preguntas y método de entrenamiento."
 date: 2026-02-13
+lastModified: 2026-06-15
 image: "/images/blog/apprentissage/examen-amphi.jpg"
 imageAlt: "Estudiantes haciendo un examen en un aula magna"
 imageCredit: "Foto: Nabokov · CC BY-SA 4.0 · Wikimedia Commons"

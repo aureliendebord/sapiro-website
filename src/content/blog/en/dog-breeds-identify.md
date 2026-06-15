@@ -2,6 +2,7 @@
 title: "How to Recognize 30 Dog Breeds: Visual Guide"
 description: "Australian shepherd or border collie, husky or malamute: 30 dog breeds with their distinctive traits so you never confuse them again."
 date: 2026-01-19
+lastModified: 2026-06-15
 image: "/images/blog/nature/golden-retriever.jpg"
 imageAlt: "A golden retriever, a popular dog breed"
 imageCredit: "Photo: Dietmar Rabich · CC BY-SA 4.0 · Wikimedia Commons"

@@ -2,6 +2,7 @@
 title: "Origen del nombre de los países: etimologías"
 description: "Francia, Argentina, Pakistán, Australia: el origen del nombre de los países revela su historia y culturas. 20 etimologías sorprendentes."
 date: 2026-03-09
+lastModified: 2026-06-15
 image: "/images/blog/monde/mappemonde.jpg"
 imageAlt: "Un mapamundi antiguo"
 imageCredit: "Foto: Various authors. · dominio público · Wikimedia Commons"

@@ -2,6 +2,7 @@
 title: "15 Art Movements Explained Simply"
 description: "Renaissance, Impressionism, Cubism, Pop Art: 15 major art movements explained with dates, traits and key figures."
 date: 2026-01-25
+lastModified: 2026-06-15
 image: "/images/blog/art/nuit-etoilee.jpg"
 imageAlt: "The Starry Night by Vincent van Gogh"
 imageCredit: "Photo: Vincent van Gogh · public domain · Wikimedia Commons"

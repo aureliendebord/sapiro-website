@@ -2,6 +2,7 @@
 title: "Culture générale aux concours de la fonction publique"
 description: "Réviser la culture générale pour les concours de la fonction publique : programme officiel, thèmes récurrents et méthode pour préparer l'épreuve."
 date: 2026-02-07
+lastModified: 2026-06-15
 image: "/images/blog/apprentissage/examen-amphi.jpg"
 imageAlt: "Des étudiants passant un examen en amphithéâtre"
 imageCredit: "Photo : Nabokov · CC BY-SA 4.0 · Wikimedia Commons"

@@ -2,6 +2,7 @@
 title: "Quiz naturaleza para niños: aprender animales jugando"
 description: "¿Cómo acercar a los niños al mundo animal? Quiz por edad, juegos de observación y consejos pedagógicos para despertar la curiosidad naturalista."
 date: 2026-01-21
+lastModified: 2026-06-15
 image: "/images/blog/nature/renard-roux.jpg"
 imageAlt: "Un zorro rojo en la naturaleza"
 imageCredit: "Foto: Gregory Slobirdr Smith · CC BY-SA 2.0 · Wikimedia Commons"

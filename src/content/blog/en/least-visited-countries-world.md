@@ -2,6 +2,7 @@
 title: "The 15 Least Visited Countries in the World"
 description: "Discover the 15 least visited countries in the world: Tuvalu, Kiribati, Turkmenistan... Why so few tourists and what to see there?"
 date: 2026-03-05
+lastModified: 2026-06-15
 image: "/images/blog/monde/carte-monde-ancienne.jpg"
 imageAlt: "An old world map"
 imageCredit: "Photo: Reginald Lane Poole · public domain · Wikimedia Commons"

@@ -2,6 +2,7 @@
 title: "Gamification et éducation : le pouvoir des quiz"
 description: "Gamification et éducation : comment les quiz et les mécaniques de jeu boostent la mémorisation de 50 %. La science derrière ce qui fonctionne vraiment."
 date: 2025-11-20
+lastModified: 2026-06-15
 image: "/images/blog/famille/enfants-tablette.jpg"
 imageAlt: "Des enfants apprennent avec une tablette"
 imageCredit: "Photo : Salihen edrees · CC BY-SA 4.0 · Wikimedia Commons"

@@ -2,6 +2,7 @@
 title: "12 Essential Artworks Everyone Should Recognize"
 description: "From the Mona Lisa to Guernica, the artworks worth knowing and the surprising stories behind each one. A journey across 5 centuries of human creation."
 date: 2026-03-16
+lastModified: 2026-06-15
 image: "/images/blog/monde/la-joconde.jpg"
 imageAlt: "The Mona Lisa by Leonardo da Vinci"
 imageCredit: "Photo: Leonardo da Vinci · public domain · Wikimedia Commons"

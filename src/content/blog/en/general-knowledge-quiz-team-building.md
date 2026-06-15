@@ -2,6 +2,7 @@
 title: "General Knowledge Quiz: Workplace and Team Building"
 description: "Hosting a general knowledge quiz at work or for team building: format, themes, rules and tools to nail the event."
 date: 2026-02-25
+lastModified: 2026-06-15
 image: "/images/blog/apprentissage/reunion-equipe.jpg"
 imageAlt: "An office team meeting"
 imageCredit: "Photo: Solomon203 · CC BY-SA 4.0 · Wikimedia Commons"

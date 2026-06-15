@@ -2,6 +2,7 @@
 title: "Quiz animales: reconocer 50 especies del mundo"
 description: "¿Sabrías distinguir un guepardo de un leopardo, una llama de una alpaca? Recorrido por las 50 especies animales que conviene saber reconocer."
 date: 2026-01-15
+lastModified: 2026-06-15
 image: "/images/blog/nature/tigre.jpg"
 imageAlt: "Un tigre de Bengala en su hábitat"
 imageCredit: "Foto: Charles J. Sharp · CC BY-SA 4.0 · Wikimedia Commons"

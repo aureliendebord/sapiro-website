@@ -2,6 +2,7 @@
 title: "Les 10 plus petits pays du monde"
 description: "Vatican, Monaco, Nauru, Tuvalu : les 10 plus petits pays du monde par superficie, avec leur histoire, leur population et leurs particularités."
 date: 2026-03-06
+lastModified: 2026-06-15
 image: "/images/blog/monde/vatican.jpg"
 imageAlt: "La cité du Vatican vue du ciel"
 imageCredit: "Photo : CAPTAIN RAJU · CC0 · Wikimedia Commons"

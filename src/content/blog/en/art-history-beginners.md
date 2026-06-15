@@ -2,6 +2,7 @@
 title: "Art History for Beginners: The Starter Guide"
 description: "Starting from zero in art history? Accessible guide to major periods, works and artists you need to know to get a full overview."
 date: 2026-01-28
+lastModified: 2026-06-15
 image: "/images/blog/art/naissance-venus.jpg"
 imageAlt: "The Birth of Venus by Botticelli"
 imageCredit: "Photo: Sandro Botticelli · public domain · Wikimedia Commons"

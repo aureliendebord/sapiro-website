@@ -2,6 +2,7 @@
 title: "Seasonal Quizzes: Christmas, Summer, Olympics, Elections"
 description: "Themed seasonal quizzes: Christmas, summer, Olympics, elections. Question ideas and method to host an evening."
 date: 2026-02-24
+lastModified: 2026-06-15
 image: "/images/blog/apprentissage/decorations-noel.jpg"
 imageAlt: "Illuminated Christmas decorations"
 imageCredit: "Photo: Rhododendrites · CC BY-SA 4.0 · Wikimedia Commons"

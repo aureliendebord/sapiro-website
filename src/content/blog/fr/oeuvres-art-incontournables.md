@@ -2,6 +2,7 @@
 title: "12 œuvres d'art que tout le monde devrait connaître"
 description: "De la Joconde à Guernica, les œuvres d'art incontournables avec des anecdotes surprenantes sur chacune. Un parcours à travers 5 siècles de création."
 date: 2026-03-16
+lastModified: 2026-06-15
 image: "/images/blog/monde/la-joconde.jpg"
 imageAlt: "La Joconde de Léonard de Vinci"
 imageCredit: "Photo : Leonardo da Vinci · domaine public · Wikimedia Commons"

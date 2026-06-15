@@ -2,6 +2,7 @@
 title: "Quiz culture générale niveau brevet et bac"
 description: "S'entraîner à la culture générale niveau brevet et bac : thèmes récurrents, questions types et méthode pour réussir l'épreuve."
 date: 2026-02-09
+lastModified: 2026-06-15
 image: "/images/blog/apprentissage/examen-amphi.jpg"
 imageAlt: "Des étudiants passant un examen en amphithéâtre"
 imageCredit: "Photo : Nabokov · CC BY-SA 4.0 · Wikimedia Commons"

@@ -2,6 +2,7 @@
 title: "Family Cultural Activities: 30 Ideas"
 description: "Thirty cultural activity ideas for family weekends and holidays: museums, outings, games, cultural trips."
 date: 2026-02-18
+lastModified: 2026-06-15
 image: "/images/blog/famille/jeu-societe-famille.jpg"
 imageAlt: "A family gathered around a board game"
 imageCredit: "Photo: Bill Branson (Photographer) · public domain · Wikimedia Commons"

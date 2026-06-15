@@ -2,6 +2,7 @@
 title: "Sapiro vs Kahoot: Two Tools, Two Different Goals"
 description: "SAPIRO and Kahoot compared: one is built for the classroom, the other for learning at home. Content, privacy, pricing, educational value."
 date: 2026-03-20
+lastModified: 2026-06-15
 image: "/images/blog/apps/tablette-education.jpg"
 imageAlt: "Learning on a tablet"
 imageCredit: "Photo: Shixart1985 · CC BY 2.0 · Wikimedia Commons"

@@ -2,6 +2,7 @@
 title: "20 parejas de animales que se parecen: cómo distinguirlos"
 description: "Cocodrilo o caimán, leopardo o guepardo, llama o alpaca: 20 parejas de animales confundidos con los criterios para no volver a equivocarse."
 date: 2026-01-22
+lastModified: 2026-06-15
 image: "/images/blog/nature/leopard.jpg"
 imageAlt: "Un leopardo, a menudo confundido con el guepardo"
 imageCredit: "Foto: tropicaLiving · CC BY-SA 3.0 · Wikimedia Commons"

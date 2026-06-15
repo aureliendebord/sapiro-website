@@ -2,6 +2,7 @@
 title: "Preparar una oposición de acceso a la administración"
 description: "Sacar una oposición pública de acceso a la administración: temario, método, planning y entrenamiento con quizzes de cultura general."
 date: 2026-02-10
+lastModified: 2026-06-15
 image: "/images/blog/apprentissage/bibliotheque-lecture.jpg"
 imageAlt: "Una sala de lectura de biblioteca"
 imageCredit: "Foto: Diliff · CC BY 2.5 · Wikimedia Commons"

@@ -2,6 +2,7 @@
 title: "Animales de África: 40 especies emblemáticas"
 description: "León, nu, fenec, órix: 40 animales emblemáticos de África con su hábitat, dieta y estado de conservación. Guía completa por región."
 date: 2026-01-20
+lastModified: 2026-06-15
 image: "/images/blog/nature/elephant-afrique.jpg"
 imageAlt: "Un elefante africano en la sabana"
 imageCredit: "Foto: Geoff Gallice · CC BY 2.0 · Wikimedia Commons"

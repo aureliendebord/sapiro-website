@@ -2,6 +2,7 @@
 title: "SAPIRO vs GeoGuessr: Which Geography App Is Worth Your Time?"
 description: "A detailed comparison of SAPIRO and GeoGuessr: content, privacy, educational value, pricing. Two very different approaches to learning geography."
 date: 2026-03-24
+lastModified: 2026-06-15
 image: "/images/blog/apps/carte-monde-app.jpg"
 imageAlt: "A world map on a screen"
 imageCredit: "Photo: Lázár deák (Lazarus secretarius) · public domain · Wikimedia Commons"

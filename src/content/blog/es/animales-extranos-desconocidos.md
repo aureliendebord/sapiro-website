@@ -2,6 +2,7 @@
 title: "20 animales extraños y desconocidos del mundo"
 description: "Tardígrado, ajolote, pangolín, calamar vampiro: 20 animales extraños y desconocidos que existen de verdad, con sus particularidades biológicas."
 date: 2026-01-18
+lastModified: 2026-06-15
 image: "/images/blog/nature/axolotl.jpg"
 imageAlt: "Un ajolote, anfibio de aspecto sorprendente"
 imageCredit: "Foto: Stan Shebs · CC BY-SA 3.0 · Wikimedia Commons"

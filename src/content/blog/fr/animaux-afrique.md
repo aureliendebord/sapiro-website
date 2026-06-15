@@ -2,6 +2,7 @@
 title: "Les animaux d'Afrique : 40 espèces emblématiques"
 description: "Lion, gnou, fennec, oryx : 40 animaux emblématiques d'Afrique avec leur habitat, régime et statut de conservation. Guide complet par région."
 date: 2026-01-20
+lastModified: 2026-06-15
 image: "/images/blog/nature/elephant-afrique.jpg"
 imageAlt: "Un éléphant d'Afrique dans la savane"
 imageCredit: "Photo : Geoff Gallice · CC BY 2.0 · Wikimedia Commons"

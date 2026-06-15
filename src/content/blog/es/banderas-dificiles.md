@@ -2,6 +2,7 @@
 title: "Las 15 banderas más difíciles de reconocer del mundo"
 description: "De Mónaco a Indonesia, estas son las 15 banderas más difíciles de reconocer del mundo. Trucos visuales, datos curiosos y quiz para dejar de confundirlas."
 date: 2025-12-15
+lastModified: 2026-06-15
 image: "/images/blog/monde/mur-drapeaux.jpg"
 imageAlt: "Una hilera de banderas nacionales"
 imageCredit: "Foto: Willem van de Velde the Younger · dominio público · Wikimedia Commons"

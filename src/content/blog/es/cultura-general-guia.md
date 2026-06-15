@@ -2,6 +2,7 @@
 title: "Cultura general: guía para saber (casi) todo"
 description: "¿Quieres mejorar cultura general cada día? Métodos probados por la ciencia, hábitos de 15 minutos y recursos para saber un poco de todo. ¿Por dónde empezar?"
 date: 2025-10-28
+lastModified: 2026-06-15
 image: "/images/blog/monde/bibliotheque.jpg"
 imageAlt: "Una antigua biblioteca llena de libros"
 imageCredit: "Foto: Davide Cantelli cant89 · CC0 · Wikimedia Commons"

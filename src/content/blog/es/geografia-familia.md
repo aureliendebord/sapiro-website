@@ -2,6 +2,7 @@
 title: "Quiz geografía en familia: la velada perfecta"
 description: "Organiza un quiz geografía en familia inolvidable: 30 preguntas listas para usar, reglas claras, formatos por edad y consejos para que todos disfruten."
 date: 2025-10-20
+lastModified: 2026-06-15
 image: "/images/blog/famille/globe-atlas-table.jpg"
 imageAlt: "Un globo y un atlas sobre una mesa"
 imageCredit: "Foto: Ánthimos Gazís · dominio público · Wikimedia Commons"

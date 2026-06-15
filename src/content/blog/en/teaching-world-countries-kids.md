@@ -2,6 +2,7 @@
 title: "Teaching World Countries to Kids"
 description: "How to introduce countries, flags and capitals to kids? Age-by-age methods, games and resources to spark geographic curiosity."
 date: 2026-02-14
+lastModified: 2026-06-15
 image: "/images/blog/famille/carte-monde-drapeaux.jpg"
 imageAlt: "A world map with countries and flags"
 imageCredit: "Photo: Transparent 6lue · public domain · Wikimedia Commons"

@@ -2,6 +2,7 @@
 title: "Quiz nature pour enfants : apprendre en s'amusant"
 description: "Comment faire découvrir les animaux aux enfants ? Quiz par âge, jeux d'observation et astuces pédagogiques pour éveiller la curiosité naturaliste."
 date: 2026-01-21
+lastModified: 2026-06-15
 image: "/images/blog/nature/renard-roux.jpg"
 imageAlt: "Un renard roux dans la nature"
 imageCredit: "Photo : Gregory Slobirdr Smith · CC BY-SA 2.0 · Wikimedia Commons"

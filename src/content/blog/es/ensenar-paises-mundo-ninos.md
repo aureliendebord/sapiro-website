@@ -2,6 +2,7 @@
 title: "Cómo enseñar los países del mundo a los niños"
 description: "¿Cómo introducir países, banderas y capitales a los niños? Métodos por edad, juegos y recursos para despertar la curiosidad geográfica."
 date: 2026-02-14
+lastModified: 2026-06-15
 image: "/images/blog/famille/carte-monde-drapeaux.jpg"
 imageAlt: "Un mapa del mundo con los países y las banderas"
 imageCredit: "Foto: Transparent 6lue · dominio público · Wikimedia Commons"

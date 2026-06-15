@@ -2,6 +2,7 @@
 title: "Línea de tiempo mundial: los hitos esenciales"
 description: "Antigüedad, Edad Media, Renacimiento, era industrial, guerras mundiales: línea de tiempo mundial con las fechas y eventos que recordar."
 date: 2026-01-30
+lastModified: 2026-06-15
 image: "/images/blog/histoire/pyramides-gizeh.jpg"
 imageAlt: "Las pirámides de Guiza en Egipto"
 imageCredit: "Foto: Ricardo Liberato · CC BY-SA 2.0 · Wikimedia Commons"

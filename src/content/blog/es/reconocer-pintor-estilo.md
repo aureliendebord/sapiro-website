@@ -2,6 +2,7 @@
 title: "Reconocer a un pintor: guía visual"
 description: "Monet, Van Gogh, Picasso, Vermeer: criterios simples para reconocer a los grandes pintores de un vistazo. Estilo, paleta, temas."
 date: 2026-01-24
+lastModified: 2026-06-15
 image: "/images/blog/art/autoportrait-van-gogh.jpg"
 imageAlt: "Autorretrato de Vincent van Gogh"
 imageCredit: "Foto: Vincent van Gogh · dominio público · Wikimedia Commons"

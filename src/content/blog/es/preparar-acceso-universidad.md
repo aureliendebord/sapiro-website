@@ -2,6 +2,7 @@
 title: "Cómo preparar la EvAU y acceso a la universidad"
 description: "Preparar cultura general para EvAU, Selectividad y otros exámenes de acceso a la universidad: temario, lecturas, método y entrenamiento con quizzes."
 date: 2026-02-08
+lastModified: 2026-06-15
 image: "/images/blog/apprentissage/amphitheatre-universite.jpg"
 imageAlt: "Un anfiteatro universitario"
 imageCredit: "Foto: Bob Aronson from Monterey, CA, US · CC BY-SA 2.0 · Wikimedia Commons"

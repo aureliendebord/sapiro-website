@@ -2,6 +2,7 @@
 title: "Les dictateurs du XXe siècle expliqués aux ados"
 description: "Hitler, Staline, Mao, Franco, Pol Pot : les grands dictateurs du XXe siècle expliqués simplement, avec leurs idéologies et leurs conséquences."
 date: 2026-02-06
+lastModified: 2026-06-15
 image: "/images/blog/histoire/mur-de-berlin.jpg"
 imageAlt: "Vestiges du mur de Berlin"
 imageCredit: "Photo : Slaunger · CC BY-SA 3.0 · Wikimedia Commons"

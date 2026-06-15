@@ -2,6 +2,7 @@
 title: "History in Elementary and Middle School Guide"
 description: "Standard history curriculum for elementary and middle school with themes, key dates and quizzes to help your child review effectively."
 date: 2026-02-15
+lastModified: 2026-06-15
 image: "/images/blog/famille/salle-classe.jpg"
 imageAlt: "A classroom with a blackboard"
 imageCredit: "Photo: AKA MBG · CC0 · Wikimedia Commons"

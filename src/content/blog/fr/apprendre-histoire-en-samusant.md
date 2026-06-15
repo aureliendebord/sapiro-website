@@ -2,6 +2,7 @@
 title: "Apprendre l'histoire en s'amusant : méthodes"
 description: "Comment apprendre l'histoire sans mémoriser des dates ? Quiz, récits, parcours thématiques : les méthodes qui ancrent les connaissances pour de bon."
 date: 2026-03-18
+lastModified: 2026-06-15
 image: "/images/blog/famille/livres-histoire.jpg"
 imageAlt: "Des livres d'histoire pour apprendre en s'amusant"
 imageCredit: "Photo : Tom Woodward from Richmond, VA, US · CC BY-SA 2.0 · Wikimedia Commons"

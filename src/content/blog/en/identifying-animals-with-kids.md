@@ -2,6 +2,7 @@
 title: "Identifying Animals With Kids: A Practical Guide"
 description: "How to teach your child to identify animals? Methods, outings and resources to develop a naturalist eye."
 date: 2026-02-17
+lastModified: 2026-06-15
 image: "/images/blog/famille/enfant-jumelles.jpg"
 imageAlt: "A child watching nature with binoculars"
 imageCredit: "Photo: Shixart1985 · CC BY 2.0 · Wikimedia Commons"

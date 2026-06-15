@@ -2,6 +2,7 @@
 title: "World Capitals Quiz: How Many Can You Name?"
 description: "Think you can ace a world capitals quiz? From Canberra to Naypyidaw, discover the trickiest capitals and proven strategies to remember all 195 of them."
 date: 2025-12-10
+lastModified: 2026-06-15
 image: "/images/blog/monde/mappemonde.jpg"
 imageAlt: "An antique world map"
 imageCredit: "Photo: Various authors. · public domain · Wikimedia Commons"

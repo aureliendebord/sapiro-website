@@ -2,6 +2,7 @@
 title: "Best Ad-Free Educational Apps"
 description: "Selection of the best ad-free educational applications: geography, languages, history, science. Learning without interruptions."
 date: 2026-03-03
+lastModified: 2026-06-15
 image: "/images/blog/apps/tablette-education.jpg"
 imageAlt: "Learning on a tablet"
 imageCredit: "Photo: Shixart1985 · CC BY 2.0 · Wikimedia Commons"

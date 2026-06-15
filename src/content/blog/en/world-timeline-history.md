@@ -2,6 +2,7 @@
 title: "World History Timeline: The Essential Markers"
 description: "Antiquity, Middle Ages, Renaissance, industrial era, world wars: world timeline with the dates and events to remember."
 date: 2026-01-30
+lastModified: 2026-06-15
 image: "/images/blog/histoire/pyramides-gizeh.jpg"
 imageAlt: "The pyramids of Giza in Egypt"
 imageCredit: "Photo: Ricardo Liberato · CC BY-SA 2.0 · Wikimedia Commons"

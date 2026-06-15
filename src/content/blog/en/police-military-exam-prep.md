@@ -2,6 +2,7 @@
 title: "Police, Military and Security Exam Preparation"
 description: "Pass police, military and security exams: program, sample questions and training method for general knowledge and aptitude tests."
 date: 2026-02-13
+lastModified: 2026-06-15
 image: "/images/blog/apprentissage/examen-amphi.jpg"
 imageAlt: "Students taking an exam in a lecture hall"
 imageCredit: "Photo: Nabokov · CC BY-SA 4.0 · Wikimedia Commons"

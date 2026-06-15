@@ -2,6 +2,7 @@
 title: "Which Country Matches Your Personality? The Test"
 description: "Playful test: which country matches your personality? A journey through culture, geography and character to discover your mirror country."
 date: 2026-03-10
+lastModified: 2026-06-15
 image: "/images/blog/monde/globe-terrestre.jpg"
 imageAlt: "An antique terrestrial globe"
 imageCredit: "Photo: Henry James · public domain · Wikimedia Commons"

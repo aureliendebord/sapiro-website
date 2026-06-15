@@ -2,6 +2,7 @@
 title: "Les 10 frontières les plus étranges du monde"
 description: "Baarle-Nassau, enclave de Cooch Behar, point quadruple : les 10 frontières les plus étranges du monde, leur histoire et leur originalité."
 date: 2026-03-08
+lastModified: 2026-06-15
 image: "/images/blog/monde/mappemonde.jpg"
 imageAlt: "Une mappemonde ancienne"
 imageCredit: "Photo : Various authors. · domaine public · Wikimedia Commons"

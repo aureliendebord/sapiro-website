@@ -2,6 +2,7 @@
 title: "Quiz à imprimer pour enfants : pays, animaux, art"
 description: "Modèles de quiz à imprimer pour les enfants : drapeaux, capitales, animaux, art. Solutions et conseils pour adapter au niveau de l'enfant."
 date: 2026-02-19
+lastModified: 2026-06-15
 image: "/images/blog/famille/enfant-cahier.jpg"
 imageAlt: "Un enfant écrit dans un cahier"
 imageCredit: "Photo : Shixart1985 · CC BY 2.0 · Wikimedia Commons"

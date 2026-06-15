@@ -2,6 +2,7 @@
 title: "Preparing a Government Entry-Level Exam: Complete Guide"
 description: "Succeed at a government or civil service entry-level exam: syllabus, method, planning and general knowledge quiz training."
 date: 2026-02-10
+lastModified: 2026-06-15
 image: "/images/blog/apprentissage/bibliotheque-lecture.jpg"
 imageAlt: "A library reading room"
 imageCredit: "Photo: Diliff · CC BY 2.5 · Wikimedia Commons"

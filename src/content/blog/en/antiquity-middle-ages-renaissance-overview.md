@@ -2,6 +2,7 @@
 title: "Antiquity, Middle Ages, Renaissance: Essential Overview"
 description: "Three major periods that structure Western history. Dates, civilizations, movements and figures to navigate them simply."
 date: 2026-02-04
+lastModified: 2026-06-15
 image: "/images/blog/histoire/forum-romain.jpg"
 imageAlt: "The ruins of the Roman Forum in Rome"
 imageCredit: "Photo: VasuVR · CC BY-SA 4.0 · Wikimedia Commons"

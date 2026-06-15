@@ -2,6 +2,7 @@
 title: "Quiz culture générale entreprise et team building"
 description: "Organiser un quiz culture générale en entreprise ou en team building : format, thèmes, règles et outils pour réussir l'animation."
 date: 2026-02-25
+lastModified: 2026-06-15
 image: "/images/blog/apprentissage/reunion-equipe.jpg"
 imageAlt: "Une réunion d'équipe au bureau"
 imageCredit: "Photo : Solomon203 · CC BY-SA 4.0 · Wikimedia Commons"

@@ -2,6 +2,7 @@
 title: "20 Historical Figures Everyone Should Know"
 description: "From Cleopatra to Mandela, 20 essential historical figures spanning every continent and 5,000 years. How many can you name in a historical figures quiz?"
 date: 2025-11-28
+lastModified: 2026-06-15
 image: "/images/blog/monde/buste-antique.jpg"
 imageAlt: "An ancient marble bust"
 imageCredit: "Photo: J. Paul Getty Museum · CC0 · Wikimedia Commons"

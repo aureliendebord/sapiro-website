@@ -2,6 +2,7 @@
 title: "Significado de las banderas: colores y símbolos"
 description: "Descubre el significado de las banderas del mundo: por qué Japón usa un círculo rojo, qué simboliza la medialuna islámica y más historias sorprendentes."
 date: 2025-11-05
+lastModified: 2026-06-15
 image: "/images/blog/monde/mur-drapeaux.jpg"
 imageAlt: "Una hilera de banderas nacionales"
 imageCredit: "Foto: Willem van de Velde the Younger · dominio público · Wikimedia Commons"

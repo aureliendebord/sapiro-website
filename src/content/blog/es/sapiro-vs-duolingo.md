@@ -2,6 +2,7 @@
 title: "Sapiro vs Duolingo: ¿aprender qué exactamente?"
 description: "Comparativa Sapiro y Duolingo: ¿cultura general o idiomas extranjeros? Ventajas, inconvenientes y públicos de cada aplicación."
 date: 2026-02-28
+lastModified: 2026-06-15
 image: "/images/blog/apps/smartphone-app.jpg"
 imageAlt: "Una aplicación en un smartphone"
 imageCredit: "Foto: Mictlancihuatl · CC BY-SA 4.0 · Wikimedia Commons"

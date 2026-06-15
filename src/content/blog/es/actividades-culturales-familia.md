@@ -2,6 +2,7 @@
 title: "Actividades culturales en familia: 30 ideas"
 description: "Treinta ideas de actividades culturales en familia para fines de semana y vacaciones: museos, salidas, juegos, viajes culturales."
 date: 2026-02-18
+lastModified: 2026-06-15
 image: "/images/blog/famille/jeu-societe-famille.jpg"
 imageAlt: "Una familia reunida en torno a un juego de mesa"
 imageCredit: "Foto: Bill Branson (Photographer) · dominio público · Wikimedia Commons"

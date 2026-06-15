@@ -2,6 +2,7 @@
 title: "Teaching Art to Kids: A Practical Guide"
 description: "How to introduce art to kids? Museums, books, age-by-age methods and resources to spark artistic curiosity."
 date: 2026-02-16
+lastModified: 2026-06-15
 image: "/images/blog/famille/enfant-peinture.jpg"
 imageAlt: "A child painting with watercolors"
 imageCredit: "Photo: Vyacheslav Argenberg · CC BY 4.0 · Wikimedia Commons"

@@ -2,6 +2,7 @@
 title: "European Monarchs: A Complete List by Country"
 description: "From Charlemagne to Queen Elizabeth II: the essential European monarchs by country and dynasty, with reign dates and major events."
 date: 2026-02-01
+lastModified: 2026-06-15
 image: "/images/blog/histoire/galerie-des-glaces.jpg"
 imageAlt: "The Hall of Mirrors at the Palace of Versailles"
 imageCredit: "Photo: Myrabella · CC BY-SA 3.0 · Wikimedia Commons"

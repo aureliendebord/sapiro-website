@@ -2,6 +2,7 @@
 title: "SAPIRO vs QuizUp and HQ Trivia: Different Approaches"
 description: "SAPIRO vs QuizUp and HQ Trivia comparison: live competitive quiz or calm learning? Pros and cons of each format."
 date: 2026-03-02
+lastModified: 2026-06-15
 image: "/images/blog/apps/smartphone-app.jpg"
 imageAlt: "An app on a smartphone"
 imageCredit: "Photo: Mictlancihuatl · CC BY-SA 4.0 · Wikimedia Commons"

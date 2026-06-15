@@ -2,6 +2,7 @@
 title: "Quiz capitales du monde : combien peux-tu en nommer ?"
 description: "Quiz capitales du monde : de Canberra à Naypyidaw, les capitales les plus surprenantes et les pièges à éviter. Combien pouvez-vous en nommer sur 195 ?"
 date: 2025-12-10
+lastModified: 2026-06-15
 image: "/images/blog/monde/mappemonde.jpg"
 imageAlt: "Une mappemonde ancienne"
 imageCredit: "Photo : Various authors. · domaine public · Wikimedia Commons"

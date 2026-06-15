@@ -2,6 +2,7 @@
 title: "How to Recognize a Painter: Visual Guide to the Old Masters"
 description: "Monet, Van Gogh, Picasso, Vermeer: simple criteria to identify the great painters at a glance. Style, palette, themes."
 date: 2026-01-24
+lastModified: 2026-06-15
 image: "/images/blog/art/autoportrait-van-gogh.jpg"
 imageAlt: "Self-portrait by Vincent van Gogh"
 imageCredit: "Photo: Vincent van Gogh · public domain · Wikimedia Commons"

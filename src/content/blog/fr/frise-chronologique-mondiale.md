@@ -2,6 +2,7 @@
 title: "Frise chronologique mondiale : repères essentiels"
 description: "Antiquité, Moyen Âge, Renaissance, ère industrielle, guerres mondiales : frise chronologique mondiale avec les dates et événements à retenir."
 date: 2026-01-30
+lastModified: 2026-06-15
 image: "/images/blog/histoire/pyramides-gizeh.jpg"
 imageAlt: "Les pyramides de Gizeh en Égypte"
 imageCredit: "Photo : Ricardo Liberato · CC BY-SA 2.0 · Wikimedia Commons"

@@ -2,6 +2,7 @@
 title: "15 mouvements artistiques expliqués simplement"
 description: "Renaissance, Impressionnisme, Cubisme, Pop Art : 15 grands mouvements artistiques expliqués avec leurs dates, leurs caractéristiques et leurs figures."
 date: 2026-01-25
+lastModified: 2026-06-15
 image: "/images/blog/art/nuit-etoilee.jpg"
 imageAlt: "La Nuit étoilée de Vincent van Gogh"
 imageCredit: "Photo : Vincent van Gogh · domaine public · Wikimedia Commons"

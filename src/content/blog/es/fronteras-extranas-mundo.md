@@ -2,6 +2,7 @@
 title: "Las 10 fronteras más extrañas del mundo"
 description: "Baarle-Nassau, enclave de Cooch Behar, cuadripuntos: las 10 fronteras más extrañas del mundo, su historia y originalidad."
 date: 2026-03-08
+lastModified: 2026-06-15
 image: "/images/blog/monde/mappemonde.jpg"
 imageAlt: "Un mapamundi antiguo"
 imageCredit: "Foto: Various authors. · dominio público · Wikimedia Commons"

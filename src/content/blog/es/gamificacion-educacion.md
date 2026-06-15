@@ -2,6 +2,7 @@
 title: "Gamificación y educación: el poder de los quiz"
 description: "La gamificación en la educación funciona: la ciencia explica por qué los quiz mejoran la memoria un 50%. Mecánicas de juego, estudios y consejos prácticos."
 date: 2025-11-20
+lastModified: 2026-06-15
 image: "/images/blog/famille/enfants-tablette.jpg"
 imageAlt: "Niños aprendiendo con una tableta"
 imageCredit: "Foto: Salihen edrees · CC BY-SA 4.0 · Wikimedia Commons"

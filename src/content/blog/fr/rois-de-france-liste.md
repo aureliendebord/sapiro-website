@@ -2,6 +2,7 @@
 title: "Rois de France : liste complète et dates"
 description: "De Clovis à Louis-Philippe : liste complète des rois de France avec dates de règne, dynasties et faits majeurs de chaque souverain."
 date: 2026-02-01
+lastModified: 2026-06-15
 image: "/images/blog/histoire/galerie-des-glaces.jpg"
 imageAlt: "La galerie des Glaces du château de Versailles"
 imageCredit: "Photo : Myrabella · CC BY-SA 3.0 · Wikimedia Commons"

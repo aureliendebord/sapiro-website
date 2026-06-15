@@ -2,6 +2,7 @@
 title: "Capitals Quiz by Continent: Europe, Africa, Asia..."
 description: "Test your knowledge of world capitals by continent: Europe, Africa, Asia, Americas, Oceania. Complete lists and quizzes."
 date: 2026-02-22
+lastModified: 2026-06-15
 image: "/images/blog/apprentissage/carte-monde.jpg"
 imageAlt: "A political world map"
 imageCredit: "Photo: JanitoalevicOriginal map by: CIA World Factbook · public domain · Wikimedia Commons"

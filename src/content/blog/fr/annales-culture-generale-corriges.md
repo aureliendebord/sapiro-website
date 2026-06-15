@@ -2,6 +2,7 @@
 title: "Annales culture générale et corrigés : où trouver"
 description: "Trouver des annales corrigées de culture générale pour préparer un concours : sources officielles, livres et entraînement aux questions types."
 date: 2026-02-11
+lastModified: 2026-06-15
 image: "/images/blog/apprentissage/examen-amphi.jpg"
 imageAlt: "Des étudiants passant un examen en amphithéâtre"
 imageCredit: "Photo : Nabokov · CC BY-SA 4.0 · Wikimedia Commons"

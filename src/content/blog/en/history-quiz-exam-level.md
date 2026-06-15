@@ -2,6 +2,7 @@
 title: "World History Quiz: Exam-Level Practice"
 description: "Review world history for exams and tests: official syllabus, must-know dates and quizzes to practice."
 date: 2026-02-05
+lastModified: 2026-06-15
 image: "/images/blog/histoire/chateau-versailles.jpg"
 imageAlt: "The Palace of Versailles"
 imageCredit: "Photo: Basile Morin · CC BY-SA 4.0 · Wikimedia Commons"

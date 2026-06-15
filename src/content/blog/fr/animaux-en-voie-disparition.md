@@ -2,6 +2,7 @@
 title: "Animaux en voie de disparition : liste 2026"
 description: "Quels animaux risquent vraiment de disparaître dans les prochaines décennies ? Liste actualisée par catégorie UICN, avec les chiffres réels de population."
 date: 2026-01-17
+lastModified: 2026-06-15
 image: "/images/blog/nature/panda-geant.jpg"
 imageAlt: "Un panda géant en train de manger du bambou"
 imageCredit: "Photo : KQuhen · CC BY-SA 4.0 · Wikimedia Commons"

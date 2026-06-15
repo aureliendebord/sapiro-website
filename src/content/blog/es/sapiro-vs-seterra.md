@@ -2,6 +2,7 @@
 title: "Sapiro vs Seterra: ¿qué app de geografía elegir?"
 description: "Comparativa Sapiro y Seterra: ¿qué app de geografía es mejor? Ventajas, inconvenientes y público objetivo de cada herramienta."
 date: 2026-03-01
+lastModified: 2026-06-15
 image: "/images/blog/apps/carte-monde-app.jpg"
 imageAlt: "Un mapa del mundo en una pantalla"
 imageCredit: "Foto: Lázár deák (Lazarus secretarius) · dominio público · Wikimedia Commons"

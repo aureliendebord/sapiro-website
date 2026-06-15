@@ -2,6 +2,7 @@
 title: "Culture générale : le guide pour tout savoir"
 description: "Comment améliorer sa culture générale au quotidien ? Méthodes concrètes, ressources choisies et habitudes simples pour progresser en 15 minutes par jour."
 date: 2025-10-28
+lastModified: 2026-06-15
 image: "/images/blog/monde/bibliotheque.jpg"
 imageAlt: "Une ancienne bibliothèque remplie de livres"
 imageCredit: "Photo : Davide Cantelli cant89 · CC0 · Wikimedia Commons"

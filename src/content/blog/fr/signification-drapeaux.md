@@ -2,6 +2,7 @@
 title: "Signification des drapeaux : couleurs et symboles"
 description: "Signification des drapeaux du monde : couleurs, symboles, croissants et étoiles. Savez-vous pourquoi le Népal a le seul drapeau non rectangulaire ?"
 date: 2025-11-05
+lastModified: 2026-06-15
 image: "/images/blog/monde/mur-drapeaux.jpg"
 imageAlt: "Un alignement de drapeaux nationaux"
 imageCredit: "Photo : Willem van de Velde the Younger · domaine public · Wikimedia Commons"

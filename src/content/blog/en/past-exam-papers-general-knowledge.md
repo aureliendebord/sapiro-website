@@ -2,6 +2,7 @@
 title: "Past Exam Papers and Solutions: Where to Find Them"
 description: "Find past papers and solutions for general knowledge exams: official sources, books and training on typical questions."
 date: 2026-02-11
+lastModified: 2026-06-15
 image: "/images/blog/apprentissage/examen-amphi.jpg"
 imageAlt: "Students taking an exam in a lecture hall"
 imageCredit: "Photo: Nabokov · CC BY-SA 4.0 · Wikimedia Commons"

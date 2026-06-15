@@ -2,6 +2,7 @@
 title: "Quizzes estacionales: Navidad, verano, JJOO"
 description: "Quizzes temáticos estacionales: Navidad, verano, Juegos Olímpicos, elecciones. Ideas de preguntas y método para animar una velada."
 date: 2026-02-24
+lastModified: 2026-06-15
 image: "/images/blog/apprentissage/decorations-noel.jpg"
 imageAlt: "Decoraciones navideñas iluminadas"
 imageCredit: "Foto: Rhododendrites · CC BY-SA 4.0 · Wikimedia Commons"

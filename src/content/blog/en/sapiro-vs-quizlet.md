@@ -2,6 +2,7 @@
 title: "SAPIRO vs Quizlet: Which App to Choose?"
 description: "SAPIRO vs Quizlet comparison: general knowledge quiz or flashcards? Pros, cons and target audience for each app."
 date: 2026-02-27
+lastModified: 2026-06-15
 image: "/images/blog/apps/etudier-smartphone.jpg"
 imageAlt: "Studying on a smartphone"
 imageCredit: "Photo: ONBag · CC0 · Wikimedia Commons"

@@ -2,6 +2,7 @@
 title: "Los 15 animales más peligrosos del mundo"
 description: "¿León, tiburón, oso polar? Los animales realmente más peligrosos no son los que imaginas. Ranking por muertes humanas anuales con datos de la OMS."
 date: 2026-01-16
+lastModified: 2026-06-15
 image: "/images/blog/nature/requin-blanc.jpg"
 imageAlt: "Un gran tiburón blanco en el océano"
 imageCredit: "Foto: Pterantula (Terry Goss) at en.wikipedia · CC BY 2.5 · Wikimedia Commons"

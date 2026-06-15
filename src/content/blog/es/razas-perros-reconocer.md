@@ -2,6 +2,7 @@
 title: "Reconocer 30 razas de perros: guía visual"
 description: "Pastor australiano o border collie, husky o malamute: 30 razas de perros con sus rasgos distintivos para no volver a confundirlos."
 date: 2026-01-19
+lastModified: 2026-06-15
 image: "/images/blog/nature/golden-retriever.jpg"
 imageAlt: "Un golden retriever, raza de perro popular"
 imageCredit: "Foto: Dietmar Rabich · CC BY-SA 4.0 · Wikimedia Commons"

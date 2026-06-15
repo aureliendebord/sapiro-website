@@ -2,6 +2,7 @@
 title: "Teaching Geography to Kids: 10 Fun and Effective Methods"
 description: "10 proven, parent-tested methods to teach geography to kids aged 5-12 through games, quizzes, cooking, and hands-on activities. Which work best?"
 date: 2025-12-05
+lastModified: 2026-06-15
 image: "/images/blog/famille/globe-enfant.jpg"
 imageAlt: "A globe for teaching geography to children"
 imageCredit: "Photo: Shixart1985 · CC BY 2.0 · Wikimedia Commons"

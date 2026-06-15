@@ -2,6 +2,7 @@
 title: "Enseñar geografía a los niños: 10 métodos divertidos"
 description: "10 métodos probados para aprender geografía para niños de 5 a 12 años: quiz, puzzles, cocina del mundo y apps educativas. ¿Cuáles funcionan mejor según la edad?"
 date: 2025-12-05
+lastModified: 2026-06-15
 image: "/images/blog/famille/globe-enfant.jpg"
 imageAlt: "Un globo terráqueo para enseñar geografía a los niños"
 imageCredit: "Foto: Shixart1985 · CC BY 2.0 · Wikimedia Commons"

@@ -2,6 +2,7 @@
 title: "QCM gendarmerie, police, armée : préparation"
 description: "Réussir les QCM des concours gendarmerie, police, armée : programme, exemples de questions et méthode d'entraînement."
 date: 2026-02-13
+lastModified: 2026-06-15
 image: "/images/blog/apprentissage/examen-amphi.jpg"
 imageAlt: "Des étudiants passant un examen en amphithéâtre"
 imageCredit: "Photo : Nabokov · CC BY-SA 4.0 · Wikimedia Commons"

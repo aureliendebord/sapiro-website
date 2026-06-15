@@ -2,6 +2,7 @@
 title: "12 Common Geography Mistakes (And How to Fix Them)"
 description: "Sydney is not Australia's capital and Africa is 14 times larger than Greenland. How many of these 12 common geography mistakes are you still making today?"
 date: 2025-11-15
+lastModified: 2026-06-15
 image: "/images/blog/monde/carte-monde-ancienne.jpg"
 imageAlt: "An old world map"
 imageCredit: "Photo: Reginald Lane Poole · public domain · Wikimedia Commons"

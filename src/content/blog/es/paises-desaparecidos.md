@@ -2,6 +2,7 @@
 title: "Los países que ya no existen: lista de los desaparecidos"
 description: "Yugoslavia, URSS, Checoslovaquia, RDA: lista de los países que ya no existen y la historia de su desaparición reciente."
 date: 2026-03-07
+lastModified: 2026-06-15
 image: "/images/blog/monde/carte-monde-ancienne.jpg"
 imageAlt: "Un mapa del mundo antiguo"
 imageCredit: "Foto: Reginald Lane Poole · dominio público · Wikimedia Commons"

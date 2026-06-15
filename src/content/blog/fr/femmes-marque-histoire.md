@@ -2,6 +2,7 @@
 title: "20 femmes qui ont marqué l'histoire mondiale"
 description: "Cléopâtre, Jeanne d'Arc, Marie Curie, Rosa Parks : 20 femmes qui ont marqué l'histoire mondiale avec leur époque et leur impact."
 date: 2026-02-03
+lastModified: 2026-06-15
 image: "/images/blog/histoire/marie-curie.jpg"
 imageAlt: "Portrait de Marie Curie"
 imageCredit: "Photo : Henri Manuel · domaine public · Wikimedia Commons"

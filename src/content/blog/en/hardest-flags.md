@@ -2,6 +2,7 @@
 title: "The 15 Hardest Flags to Recognize in the World"
 description: "From Chad vs Romania to Indonesia vs Monaco, these are the 15 hardest flags to recognize in the world -- plus the memory tricks to finally master them."
 date: 2025-12-15
+lastModified: 2026-06-15
 image: "/images/blog/monde/mur-drapeaux.jpg"
 imageAlt: "A row of national flags"
 imageCredit: "Photo: Willem van de Velde the Younger · public domain · Wikimedia Commons"

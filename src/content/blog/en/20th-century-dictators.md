@@ -2,6 +2,7 @@
 title: "20th Century Dictators Explained for Teens"
 description: "Hitler, Stalin, Mao, Franco, Pol Pot: the major 20th century dictators explained simply, with their ideologies and consequences."
 date: 2026-02-06
+lastModified: 2026-06-15
 image: "/images/blog/histoire/mur-de-berlin.jpg"
 imageAlt: "Remains of the Berlin Wall"
 imageCredit: "Photo: Slaunger · CC BY-SA 3.0 · Wikimedia Commons"

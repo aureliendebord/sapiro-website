@@ -2,6 +2,7 @@
 title: "10 Best General Knowledge Quiz Apps in 2026"
 description: "Compare the best quiz and trivia apps: Trivia Crack, Kahoot, SAPIRO, GeoGuessr... Which one should you choose? Our complete analysis."
 date: 2026-03-20
+lastModified: 2026-06-15
 image: "/images/blog/apps/smartphone-app.jpg"
 imageAlt: "A quiz app on a smartphone"
 imageCredit: "Photo: Mictlancihuatl · CC BY-SA 4.0 · Wikimedia Commons"

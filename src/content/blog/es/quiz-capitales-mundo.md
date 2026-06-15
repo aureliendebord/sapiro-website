@@ -2,6 +2,7 @@
 title: "Quiz de capitales del mundo: ¿cuántas puedes nombrar?"
 description: "Acepta el quiz capitales del mundo: trampas clásicas, capitales sorprendentes y trucos para memorizar las 195. ¿Cuántas eres capaz de nombrar sin mirar?"
 date: 2025-12-10
+lastModified: 2026-06-15
 image: "/images/blog/monde/mappemonde.jpg"
 imageAlt: "Un mapamundi antiguo"
 imageCredit: "Foto: Various authors. · dominio público · Wikimedia Commons"

@@ -2,6 +2,7 @@
 title: "Quiz cultura general nivel fácil, medio, difícil, experto"
 description: "Quizzes de cultura general por nivel: fácil, medio, difícil, experto. Para evaluar nivel y progresar paso a paso."
 date: 2026-02-23
+lastModified: 2026-06-15
 image: "/images/blog/apprentissage/bureau-revision.jpg"
 imageAlt: "Un escritorio de estudio con libros y apuntes"
 imageCredit: "Foto: Miscellaneous Items in High Demand, PPOC, Library of Congress · dominio público · Wikimedia Commons"

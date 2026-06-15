@@ -2,6 +2,7 @@
 title: "SAPIRO vs Duolingo: Learn What Exactly?"
 description: "SAPIRO vs Duolingo comparison: general knowledge or foreign languages? Pros, cons and audiences for each app."
 date: 2026-02-28
+lastModified: 2026-06-15
 image: "/images/blog/apps/smartphone-app.jpg"
 imageAlt: "An app on a smartphone"
 imageCredit: "Photo: Mictlancihuatl · CC BY-SA 4.0 · Wikimedia Commons"

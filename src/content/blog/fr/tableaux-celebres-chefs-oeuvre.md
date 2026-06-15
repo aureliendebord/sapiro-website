@@ -2,6 +2,7 @@
 title: "30 tableaux célèbres : les chefs-d'œuvre à connaître"
 description: "La Joconde, La Nuit étoilée, Les Demoiselles d'Avignon : 30 tableaux célèbres avec leur histoire, leur peintre et ce qui les rend incontournables."
 date: 2026-01-23
+lastModified: 2026-06-15
 image: "/images/blog/art/joconde.jpg"
 imageAlt: "La Joconde de Léonard de Vinci"
 imageCredit: "Photo : Leonardo da Vinci · domaine public · Wikimedia Commons"

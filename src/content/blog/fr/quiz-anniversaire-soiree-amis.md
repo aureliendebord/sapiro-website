@@ -2,6 +2,7 @@
 title: "Quiz anniversaire et soirée entre amis : idées"
 description: "Organiser un quiz pour un anniversaire ou une soirée entre amis : thèmes, questions personnalisées et méthode d'animation."
 date: 2026-02-26
+lastModified: 2026-06-15
 image: "/images/blog/apprentissage/fete-amis.jpg"
 imageAlt: "Une fête d'anniversaire entre amis"
 imageCredit: "Photo : Anna Flodmark Ehrs for Southerly Clubs · domaine public · Wikimedia Commons"

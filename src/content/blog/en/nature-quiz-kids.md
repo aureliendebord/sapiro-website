@@ -2,6 +2,7 @@
 title: "Nature Quiz for Kids: Learning Animals the Fun Way"
 description: "How to introduce kids to animals? Age-by-age quizzes, observation games, and teaching tips that actually spark naturalist curiosity."
 date: 2026-01-21
+lastModified: 2026-06-15
 image: "/images/blog/nature/renard-roux.jpg"
 imageAlt: "A red fox in the wild"
 imageCredit: "Photo: Gregory Slobirdr Smith · CC BY-SA 2.0 · Wikimedia Commons"

@@ -2,6 +2,7 @@
 title: "Les 10 meilleures apps de quiz culture générale en 2026"
 description: "Comparatif des meilleures applications de quiz et culture générale : Trivia Crack, Kahoot, QuizUp, SAPIRO... Laquelle choisir ? Notre analyse complète."
 date: 2026-03-20
+lastModified: 2026-06-15
 image: "/images/blog/apps/smartphone-app.jpg"
 imageAlt: "Une application de quiz sur smartphone"
 imageCredit: "Photo : Mictlancihuatl · CC BY-SA 4.0 · Wikimedia Commons"

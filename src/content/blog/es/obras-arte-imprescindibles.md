@@ -2,6 +2,7 @@
 title: "12 obras de arte que todo el mundo debería conocer"
 description: "De la Mona Lisa a Guernica, las obras de arte imprescindibles con anécdotas sorprendentes sobre cada una. Un recorrido por 5 siglos de creación."
 date: 2026-03-16
+lastModified: 2026-06-15
 image: "/images/blog/monde/la-joconde.jpg"
 imageAlt: "La Gioconda de Leonardo da Vinci"
 imageCredit: "Foto: Leonardo da Vinci · dominio público · Wikimedia Commons"

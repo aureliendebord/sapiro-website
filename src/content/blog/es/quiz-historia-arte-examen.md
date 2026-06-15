@@ -2,6 +2,7 @@
 title: "Quiz historia del arte nivel examen: entrénate"
 description: "Repasar historia del arte para exámenes, oposiciones o universidad: programa oficial, obras clave y quizzes de nivel para entrenarse."
 date: 2026-01-29
+lastModified: 2026-06-15
 image: "/images/blog/art/ecole-athenes.jpg"
 imageAlt: "La escuela de Atenas de Rafael"
 imageCredit: "Foto: Raphael · dominio público · Wikimedia Commons"

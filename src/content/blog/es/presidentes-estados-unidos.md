@@ -2,6 +2,7 @@
 title: "Presidentes de Estados Unidos: la lista completa"
 description: "De George Washington a hoy: lista completa de presidentes de EEUU con fechas, partido y eventos clave de cada mandato."
 date: 2026-02-02
+lastModified: 2026-06-15
 image: "/images/blog/histoire/maison-blanche.jpg"
 imageAlt: "La Casa Blanca en Washington"
 imageCredit: "Foto: Benjamin Henry Latrobe · dominio público · Wikimedia Commons"

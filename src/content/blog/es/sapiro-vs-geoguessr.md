@@ -2,6 +2,7 @@
 title: "Sapiro vs GeoGuessr: ¿qué app de geografía?"
 description: "Comparativa detallada entre SAPIRO y GeoGuessr: contenido, privacidad, valor educativo, precios. Dos formas muy distintas de aprender geografía."
 date: 2026-03-24
+lastModified: 2026-06-15
 image: "/images/blog/apps/carte-monde-app.jpg"
 imageAlt: "Un mapa del mundo en una pantalla"
 imageCredit: "Foto: Lázár deák (Lazarus secretarius) · dominio público · Wikimedia Commons"

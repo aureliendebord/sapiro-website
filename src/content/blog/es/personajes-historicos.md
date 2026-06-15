@@ -2,6 +2,7 @@
 title: "20 personajes históricos que todos deberían conocer"
 description: "El quiz personajes históricos definitivo: de Cleopatra a Mandela, 20 figuras que cambiaron el rumbo de la humanidad. ¿Cuántos serías capaz de reconocer?"
 date: 2025-11-28
+lastModified: 2026-06-15
 image: "/images/blog/monde/buste-antique.jpg"
 imageAlt: "Un busto antiguo de mármol"
 imageCredit: "Foto: J. Paul Getty Museum · CC0 · Wikimedia Commons"

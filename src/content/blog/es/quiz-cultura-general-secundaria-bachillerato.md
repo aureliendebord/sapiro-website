@@ -2,6 +2,7 @@
 title: "Quiz cultura general nivel secundaria y bachillerato"
 description: "Entrenarse en cultura general a nivel secundaria y bachillerato: temas recurrentes, preguntas tipo y método para superar exámenes."
 date: 2026-02-09
+lastModified: 2026-06-15
 image: "/images/blog/apprentissage/examen-amphi.jpg"
 imageAlt: "Estudiantes haciendo un examen en un aula magna"
 imageCredit: "Foto: Nabokov · CC BY-SA 4.0 · Wikimedia Commons"

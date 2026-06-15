@@ -2,6 +2,7 @@
 title: "20 paires d'animaux qui se ressemblent"
 description: "Crocodile ou alligator, léopard ou guépard, lama ou alpaga : 20 paires d'animaux confondus avec les critères pour ne plus jamais se tromper."
 date: 2026-01-22
+lastModified: 2026-06-15
 image: "/images/blog/nature/leopard.jpg"
 imageAlt: "Un léopard, souvent confondu avec le guépard"
 imageCredit: "Photo : tropicaLiving · CC BY-SA 3.0 · Wikimedia Commons"

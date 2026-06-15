@@ -2,6 +2,7 @@
 title: "Apprendre les pays du monde aux enfants"
 description: "Comment faire découvrir les pays, drapeaux et capitales aux enfants ? Méthodes par âge, jeux et ressources pour éveiller la curiosité géographique."
 date: 2026-02-14
+lastModified: 2026-06-15
 image: "/images/blog/famille/carte-monde-drapeaux.jpg"
 imageAlt: "Une carte du monde avec les pays et les drapeaux"
 imageCredit: "Photo : Transparent 6lue · domaine public · Wikimedia Commons"

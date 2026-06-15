@@ -2,6 +2,7 @@
 title: "12 errores de geografía que todos cometemos"
 description: "Los 12 errores de geografía comunes que casi todos cometemos: capitales confundidas, países mal ubicados y mitos del mapa. ¿En cuántos caes tú? Compruébalo."
 date: 2025-11-15
+lastModified: 2026-06-15
 image: "/images/blog/monde/carte-monde-ancienne.jpg"
 imageAlt: "Un mapa del mundo antiguo"
 imageCredit: "Foto: Reginald Lane Poole · dominio público · Wikimedia Commons"

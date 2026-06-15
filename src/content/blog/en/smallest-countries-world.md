@@ -2,6 +2,7 @@
 title: "The 10 Smallest Countries in the World"
 description: "Vatican, Monaco, Nauru, Tuvalu: the 10 smallest countries in the world by area, with their history, population and quirks."
 date: 2026-03-06
+lastModified: 2026-06-15
 image: "/images/blog/monde/vatican.jpg"
 imageAlt: "Vatican City seen from above"
 imageCredit: "Photo: CAPTAIN RAJU · CC0 · Wikimedia Commons"

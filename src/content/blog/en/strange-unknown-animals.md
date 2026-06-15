@@ -2,6 +2,7 @@
 title: "20 Strange and Lesser-Known Animals in the World"
 description: "Tardigrade, axolotl, pangolin, vampire squid: 20 strange and lesser-known animals that actually exist, with their biological quirks."
 date: 2026-01-18
+lastModified: 2026-06-15
 image: "/images/blog/nature/axolotl.jpg"
 imageAlt: "An axolotl, an amphibian with a striking appearance"
 imageCredit: "Photo: Stan Shebs · CC BY-SA 3.0 · Wikimedia Commons"

@@ -2,6 +2,7 @@
 title: "30 Famous Paintings: The Masterpieces to Know"
 description: "Mona Lisa, Starry Night, Les Demoiselles d'Avignon: 30 famous paintings with their story, painter, and what makes them essential."
 date: 2026-01-23
+lastModified: 2026-06-15
 image: "/images/blog/art/joconde.jpg"
 imageAlt: "The Mona Lisa by Leonardo da Vinci"
 imageCredit: "Photo: Leonardo da Vinci · public domain · Wikimedia Commons"

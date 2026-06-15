@@ -2,6 +2,7 @@
 title: "Mejores apps educativas sin publicidad"
 description: "Selección de las mejores aplicaciones educativas sin publicidad: geografía, idiomas, historia, ciencias. Aprender sin interrupciones."
 date: 2026-03-03
+lastModified: 2026-06-15
 image: "/images/blog/apps/tablette-education.jpg"
 imageAlt: "Aprender en una tableta"
 imageCredit: "Foto: Shixart1985 · CC BY 2.0 · Wikimedia Commons"

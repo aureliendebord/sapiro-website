@@ -2,6 +2,7 @@
 title: "Géographie pour enfants : 10 méthodes ludiques"
 description: "Comment apprendre la géographie aux enfants de 5 à 12 ans ? 10 méthodes ludiques testées par des parents et enseignants. Laquelle essayez-vous ce soir ?"
 date: 2025-12-05
+lastModified: 2026-06-15
 image: "/images/blog/famille/globe-enfant.jpg"
 imageAlt: "Un globe terrestre pour apprendre la géographie aux enfants"
 imageCredit: "Photo : Shixart1985 · CC BY 2.0 · Wikimedia Commons"

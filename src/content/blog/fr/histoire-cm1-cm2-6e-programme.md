@@ -2,6 +2,7 @@
 title: "Histoire en CM1, CM2 et 6e : programme et quiz"
 description: "Programme officiel d'histoire en CM1, CM2 et 6e avec thèmes, dates clés et quiz pour aider votre enfant à réviser efficacement."
 date: 2026-02-15
+lastModified: 2026-06-15
 image: "/images/blog/famille/salle-classe.jpg"
 imageAlt: "Une salle de classe avec un tableau noir"
 imageCredit: "Photo : AKA MBG · CC0 · Wikimedia Commons"

@@ -2,6 +2,7 @@
 title: "US Presidents: The Complete List"
 description: "From George Washington to today: complete list of US Presidents with dates, party, and key events of each term."
 date: 2026-02-02
+lastModified: 2026-06-15
 image: "/images/blog/histoire/maison-blanche.jpg"
 imageAlt: "The White House in Washington"
 imageCredit: "Photo: Benjamin Henry Latrobe · public domain · Wikimedia Commons"
