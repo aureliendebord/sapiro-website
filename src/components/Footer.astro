@@ -24,6 +24,20 @@ const pillars = clusters.map((c) => ({ href: c.pillarSlug[lang], label: c.label[
         <span>SAPIRO</span>
       </a>
       <p class="footer-tagline">Quiz Culture Generale</p>
+      <div class="footer-social">
+        <a href="https://www.instagram.com/sapiro_en" class="footer-social-link" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+          </svg>
+        </a>
+        <a href="https://www.facebook.com/sapiro_en" class="footer-social-link" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+          </svg>
+        </a>
+      </div>
     </div>
 
     <div class="footer-col">
@@ -197,6 +211,30 @@ const pillars = clusters.map((c) => ({ href: c.pillarSlug[lang], label: c.label[
     font-size: 14px;
   }
 
+  .footer-social {
+    display: flex;
+    gap: 12px;
+    margin-top: 16px;
+  }
+
+  .footer-social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: var(--blanc);
+    background: rgba(255, 255, 255, 0.1);
+    opacity: 0.8;
+    transition: opacity 0.2s, background 0.2s;
+  }
+
+  .footer-social-link:hover {
+    opacity: 1;
+    background: var(--orange);
+  }
+
   .footer-link {
     color: var(--blanc);
     opacity: 0.8;
@@ -361,6 +399,10 @@ const pillars = clusters.map((c) => ({ href: c.pillarSlug[lang], label: c.label[
 
     .footer-link {
       text-align: center;
+    }
+
+    .footer-social {
+      justify-content: center;
     }
 
     .footer-bottom .container {
