@@ -128,6 +128,6 @@ By testing yourself rather than re-reading: the effort of pulling an answer from
 The SAPIRO app offers hundreds of questions by theme and level, free, with an explanation behind every answer.
 
 <figure>
-  <img src="/images/blog/apprentissage/reunion-equipe.jpg" alt="A team meeting at the office" loading="lazy" />
-  <figcaption>Photo: Solomon203 · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
+  <img src="/images/blog/histoire/cathedrale-gothique.jpg" alt="The facade of a gothic cathedral" loading="lazy" />
+  <figcaption>Photo: Diliff · CC BY-SA 3.0 · Wikimedia Commons</figcaption>
 </figure>

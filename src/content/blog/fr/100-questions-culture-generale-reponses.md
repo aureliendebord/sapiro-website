@@ -368,6 +368,6 @@ Beaucoup s'en rapprochent, mais un concours demande un travail ciblé sur son pr
 L'application SAPIRO propose des centaines de questions classées par thème et par niveau, gratuitement, avec une explication derrière chaque réponse.
 
 <figure>
-  <img src="/images/blog/apprentissage/fete-amis.jpg" alt="Une fête d'anniversaire entre amis" loading="lazy" />
-  <figcaption>Photo : Anna Flodmark Ehrs for Southerly Clubs · domaine public · Wikimedia Commons</figcaption>
+  <img src="/images/blog/art/ecole-athenes.jpg" alt="L'École d'Athènes de Raphaël" loading="lazy" />
+  <figcaption>Photo : Raphael · domaine public · Wikimedia Commons</figcaption>
 </figure>

@@ -368,6 +368,6 @@ Many are close, but an exam calls for targeted work on its syllabus: past papers
 The SAPIRO app offers hundreds of questions sorted by theme and level, free, with an explanation behind every answer.
 
 <figure>
-  <img src="/images/blog/apprentissage/fete-amis.jpg" alt="A birthday party with friends" loading="lazy" />
-  <figcaption>Photo: Anna Flodmark Ehrs for Southerly Clubs · public domain · Wikimedia Commons</figcaption>
+  <img src="/images/blog/art/ecole-athenes.jpg" alt="The School of Athens by Raphael" loading="lazy" />
+  <figcaption>Photo: Raphael · public domain · Wikimedia Commons</figcaption>
 </figure>

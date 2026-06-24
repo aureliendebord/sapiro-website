@@ -128,6 +128,6 @@ En se testant plutôt qu'en relisant : l'effort de retrouver une réponse de mé
 L'application SAPIRO propose des centaines de questions par thème et par niveau, gratuitement, avec une explication derrière chaque réponse.
 
 <figure>
-  <img src="/images/blog/apprentissage/reunion-equipe.jpg" alt="Une réunion d'équipe au bureau" loading="lazy" />
-  <figcaption>Photo : Solomon203 · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
+  <img src="/images/blog/histoire/cathedrale-gothique.jpg" alt="La façade d'une cathédrale gothique" loading="lazy" />
+  <figcaption>Photo : Diliff · CC BY-SA 3.0 · Wikimedia Commons</figcaption>
 </figure>

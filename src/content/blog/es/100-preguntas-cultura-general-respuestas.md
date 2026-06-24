@@ -368,6 +368,6 @@ Muchas se acercan, pero una oposición exige un trabajo específico sobre su tem
 La aplicación SAPIRO ofrece cientos de preguntas ordenadas por tema y nivel, gratis, con una explicación detrás de cada respuesta.
 
 <figure>
-  <img src="/images/blog/apprentissage/fete-amis.jpg" alt="Una fiesta de cumpleaños entre amigos" loading="lazy" />
-  <figcaption>Foto: Anna Flodmark Ehrs for Southerly Clubs · dominio público · Wikimedia Commons</figcaption>
+  <img src="/images/blog/art/ecole-athenes.jpg" alt="La Escuela de Atenas de Rafael" loading="lazy" />
+  <figcaption>Foto: Raphael · dominio público · Wikimedia Commons</figcaption>
 </figure>
