@@ -14,106 +14,105 @@ author: "SAPIRO"
 readingTime: 9
 ---
 
-Africa alberga una de las faunas mas ricas del planeta. Mas de 1 100 especies de mamiferos, 2 600 especies de aves, y miles de reptiles, anfibios e insectos. Aqui van 40 especies emblematicas, organizadas por gran habitat, con lo necesario para distinguirlas y entender su lugar en el ecosistema africano.
+África alberga una de las faunas más ricas del planeta. Más de 1 100 especies de mamíferos, 2 600 especies de aves, y miles de reptiles, anfibios e insectos. Aquí van 40 especies emblemáticas, organizadas por gran hábitat, con lo necesario para distinguirlas y entender su lugar en el ecosistema africano.
 
-## Los Big Five: el quinteto historico
+## Los Big Five: el quinteto histórico
 
-El termino "Big Five" viene de los safaris coloniales. Designaba los cinco animales mas dificiles de cazar a pie. Hoy se ha convertido en la lista turistica de referencia.
+El término "Big Five" viene de los safaris coloniales. Designaba los cinco animales más difíciles de cazar a pie. Hoy se ha convertido en la lista turística de referencia.
 
-**El leon.** El unico felino social, vive en grupos llamados manadas de 10 a 30 individuos. Presente en una decena de paises africanos, sobre todo en Africa del Este y del Sur. Poblacion: 20 000 a 25 000.
+**El león.** El único felino social, vive en grupos llamados manadas de 10 a 30 individuos. Presente en una decena de países africanos, sobre todo en África del Este y del Sur. Población: 20 000 a 25 000.
 
-**El leopardo.** Mas discreto y solitario. Vive en toda el Africa subsahariana, del desierto a los bosques densos. El mas adaptable de los grandes felinos. Para distinguirlo del guepardo y del jaguar, ver nuestra [guia de 50 especies animales](/es/blog/quiz-animales-especies-mundo/).
+**El leopardo.** Más discreto y solitario. Vive en toda el África subsahariana, del desierto a los bosques densos. El más adaptable de los grandes felinos. Para distinguirlo del guepardo y del jaguar, ver nuestra [guía de 50 especies animales](/es/blog/quiz-animales-especies-mundo/).
 
-**El elefante de sabana.** El animal terrestre mas grande, hasta 6 toneladas. Las manadas son matriarcales, dirigidas por la hembra mas anciana. Memoria e inteligencia excepcionales.
+**El elefante de sabana.** El animal terrestre más grande, hasta 6 toneladas. Las manadas son matriarcales, dirigidas por la hembra más anciana. Memoria e inteligencia excepcionales.
 
-**El rinoceronte (negro y blanco).** Dos especies hoy: rinoceronte blanco (el mas grande, 1,8 a 2,5 toneladas) y rinoceronte negro (1 a 1,4 toneladas, mas agresivo). Muy amenazados por la caza furtiva.
+**El rinoceronte (negro y blanco).** Dos especies hoy: rinoceronte blanco (el más grande, 1,8 a 2,5 toneladas) y rinoceronte negro (1 a 1,4 toneladas, más agresivo). Muy amenazados por la caza furtiva.
 
-**El bufalo africano.** El mas peligroso de los Big Five por numero de muertes humanas. Vive en grandes manadas y defiende agresivamente al grupo.
+**El búfalo africano.** El más peligroso de los Big Five por número de muertes humanas. Vive en grandes manadas y defiende agresivamente al grupo.
 
-## Grandes carnivoros fuera de los Big Five
+## Grandes carnívoros fuera de los Big Five
 
-**El guepardo.** El sprinter de la sabana, 110 km/h en punta. Reconocible por sus manchas solidas y las "lagrimas" negras en el hocico. Poblacion: 7 100, en caida.
+**El guepardo.** El sprinter de la sabana, 110 km/h en punta. Reconocible por sus manchas sólidas y las "lágrimas" negras en el hocico. Población: 7 100, en caída.
 
-**El licaon.** Tambien llamado perro salvaje africano. Pelaje moteado unico para cada individuo. Muy inteligente socialmente, tasa de exito en caza del 80%, el mejor de los depredadores.
+**El licaón.** También llamado perro salvaje africano. Pelaje moteado único para cada individuo. Muy inteligente socialmente, tasa de éxito en caza del 80%, el mejor de los depredadores.
 
-**La hiena manchada.** No es un carronero primario como suele creerse, sino un depredador eficaz que mata el 70% de su propia comida. Mandibula mas potente de los carnivoros terrestres.
+**La hiena manchada.** No es un carroñero primario como suele creerse, sino un depredador eficaz que mata el 70% de su propia comida. Mandíbula más potente de los carnívoros terrestres.
 
-**El caracal.** Felino de tamano mediano con orejas caracteristicas con largos pinceles negros. Salta hasta 3 metros en el aire para atrapar aves.
+**El caracal.** Felino de tamaño mediano con orejas características con largos pinceles negros. Salta hasta 3 metros en el aire para atrapar aves.
 
-**El serval.** Manchas y rayas pequenas, patas largas, grandes orejas. Caza sobre todo roedores y aves.
+**El serval.** Manchas y rayas pequeñas, patas largas, grandes orejas. Caza sobre todo roedores y aves.
 
-## Grandes herbivoros
+## Grandes herbívoros
 
-**La jirafa.** Mamifero terrestre mas alto, hasta 5,5 metros. Nueve subespecies, algunas en peligro critico. Lengua negra de 50 centimetros para atrapar hojas de acacia.
+**La jirafa.** Mamífero terrestre más alto, hasta 5,5 metros. Nueve subespecies, algunas en peligro crítico. Lengua negra de 50 centímetros para atrapar hojas de acacia.
 
-**La cebra.** Tres especies: cebra de llanuras (la mas comun), cebra de montana y cebra de Grevy (la mas grande, la mas amenazada). Cada cebra tiene un patron de rayas unico, como una huella digital.
+**La cebra.** Tres especies: cebra de llanuras (la más común), cebra de montaña y cebra de Grevy (la más grande, la más amenazada). Cada cebra tiene un patrón de rayas único, como una huella digital.
 
-**El nu.** Conocido por su migracion anual de 1,5 millones de individuos entre el Serengeti (Tanzania) y el Masai Mara (Kenia). Uno de los mayores espectaculos naturales del mundo.
+**El nu.** Conocido por su migración anual de 1,5 millones de individuos entre el Serengeti (Tanzania) y el Masai Mara (Kenia). Uno de los mayores espectáculos naturales del mundo.
 
-**El hipopotamo.** Mas peligroso de lo que parece, 500 muertes humanas al ano. Para profundizar, ver nuestro [ranking de animales mas peligrosos](/es/blog/animales-mas-peligrosos-mundo/).
+**El hipopótamo.** Más peligroso de lo que parece, 500 muertes humanas al año. Para profundizar, ver nuestro [ranking de animales más peligrosos](/es/blog/animales-mas-peligrosos-mundo/).
 
-**Los antilopes.** Enorme diversidad: impala (el mas comun en Africa Oriental), gacela de Thomson, gacela de Grant, kudu, eland (el antilope mas grande, 700 kilos), orix, springbok.
+**Los antílopes.** Enorme diversidad: impala (el más común en África Oriental), gacela de Thomson, gacela de Grant, kudú, eland (el antílope más grande, 700 kilos), órix, springbok.
 
 ## Primates
 
-**El gorila de montana.** Poblacion de 1 063 individuos en 2024, repartidos entre Ruanda, Uganda y RDC. Caso raro de una poblacion que crece.
+**El gorila de montaña.** Población de 1 063 individuos en 2024, repartidos entre Ruanda, Uganda y RDC. Caso raro de una población que crece.
 
-**El gorila de tierras bajas occidentales.** Mas numeroso pero tambien mas amenazado, unos 100 000 individuos.
+**El gorila de tierras bajas occidentales.** Más numeroso pero también más amenazado, unos 100 000 individuos.
 
-**El chimpance.** Nuestro primo genetico mas cercano (98,8% de ADN comun). Vive en Africa Occidental y Central.
+**El chimpancé.** Nuestro primo genético más cercano (98,8% de ADN común). Vive en África Occidental y Central.
 
-**El bonobo.** Primo del chimpance, mas pacifico y matriarcal. Vive solo en RDC.
+**El bonobo.** Primo del chimpancé, más pacífico y matriarcal. Vive solo en RDC.
 
-**El babuino.** Cinco especies, presente en toda Africa. Vive en grupos de 50 a 200 individuos.
+**El babuino.** Cinco especies, presente en toda África. Vive en grupos de 50 a 200 individuos.
 
-**El mandril.** El mono mas grande, con su cara coloreada azul y rojo espectacular. Vive en los bosques de Gabon y Camerun.
+**El mandril.** El mono más grande, con su cara coloreada azul y rojo espectacular. Vive en los bosques de Gabón y Camerún.
 
 ## Especies del desierto
 
-**El fenec.** Pequeno zorro del Sahara, enormes orejas para disipar el calor. Mascota del equipo de futbol de Argelia.
+**El fenec.** Pequeño zorro del Sahara, enormes orejas para disipar el calor. Mascota del equipo de fútbol de Argelia.
 
-**El orix algazel.** Antilope blanco del Sahel, casi extinto en estado salvaje, reintroducido recientemente en Chad.
+**El órix algazel.** Antílope blanco del Sahel, casi extinto en estado salvaje, reintroducido recientemente en Chad.
 
-**El dromedario.** Una sola joroba (a diferencia del camello asiatico que tiene dos). Capaz de beber 200 litros en pocos minutos.
+**El dromedario.** Una sola joroba (a diferencia del camello asiático que tiene dos). Capaz de beber 200 litros en pocos minutos.
 
-**El escarabajo del desierto.** Recoge agua de la niebla matinal gracias a protuberancias especificas en su caparazon.
+**El escarabajo del desierto.** Recoge agua de la niebla matinal gracias a protuberancias específicas en su caparazón.
 
-## Aves emblematicas
+## Aves emblemáticas
 
-**El avestruz.** Ave mas grande del mundo, 2,5 metros y 150 kilos. Corredor mas rapido a dos patas, 70 km/h.
+**El avestruz.** Ave más grande del mundo, 2,5 metros y 150 kilos. Corredor más rápido a dos patas, 70 km/h.
 
 **El flamenco rosa.** Vive en colonias de varios millones de individuos en lagos salados (Natron, Magadi).
 
-**El aguila pescadora africana.** Grito caracteristico oido en toda el Africa subsahariana, simbolo nacional de varios paises.
+**El águila pescadora africana.** Grito característico oído en toda el África subsahariana, símbolo nacional de varios países.
 
 **El serpentario.** Rapaz de cuello largo que caza a pie, especialista en serpientes.
 
-**El marabu.** Carronero con aspecto prehistorico, mas de 2 metros de envergadura.
+**El marabú.** Carroñero con aspecto prehistórico, más de 2 metros de envergadura.
 
 ## Reptiles y anfibios
 
-**El cocodrilo del Nilo.** Reptil mas grande de Africa, hasta 6 metros. Vive en casi todos los paises subsaharianos.
+**El cocodrilo del Nilo.** Reptil más grande de África, hasta 6 metros. Vive en casi todos los países subsaharianos.
 
-**La mamba negra.** Una de las serpientes mas rapidas del mundo (20 km/h) y la mas venenosa de Africa. Pero evita la confrontacion cuanto puede.
+**La mamba negra.** Una de las serpientes más rápidas del mundo (20 km/h) y la más venenosa de África. Pero evita la confrontación cuanto puede.
 
-**La tortuga gigante de Seychelles.** Puede vivir mas de 150 anos, hasta 250 kilos.
+**La tortuga gigante de Seychelles.** Puede vivir más de 150 años, hasta 250 kilos.
 
-## Insectos y artropodos notables
+## Insectos y artrópodos notables
 
-**El escorpion emperador.** El escorpion mas grande del mundo, hasta 20 centimetros. Paradojicamente, su veneno es poco peligroso para humanos.
+**El escorpión emperador.** El escorpión más grande del mundo, hasta 20 centímetros. Paradójicamente, su veneno es poco peligroso para humanos.
 
-**La mosca tse-tse.** Vector de la enfermedad del sueno, 10 000 muertes al ano.
+**La mosca tse-tse.** Vector de la enfermedad del sueño, 10 000 muertes al año.
 
-**El termitero.** Construye torres de barro de mas de 7 metros, ventiladas naturalmente.
+**El termitero.** Construye torres de barro de más de 7 metros, ventiladas naturalmente.
 
 ## Lo que amenaza a la fauna africana
 
-Las poblaciones animales africanas han caido un 70% de media desde 1970, segun WWF. Tres causas dominan: perdida de habitat (urbanizacion, agricultura), caza furtiva (sobre todo por marfil, cuerno y pieles) y cambio climatico. Para las especies con mayor riesgo, ver nuestra [lista de animales en peligro de extincion](/es/blog/animales-en-peligro-extincion/).
+Las poblaciones animales africanas han caído un 70% de media desde 1970, según WWF. Tres causas dominan: pérdida de hábitat (urbanización, agricultura), caza furtiva (sobre todo por marfil, cuerno y pieles) y cambio climático. Para las especies con mayor riesgo, ver nuestra [lista de animales en peligro de extinción](/es/blog/animales-en-peligro-extincion/).
 
-SAPIRO propone quizzes que cubren las 600 especies del reino animal, de las que un centenar estan presentes en Africa, con explicacion didactica detras de cada respuesta.
+SAPIRO propone quizzes que cubren las 600 especies del reino animal, de las que un centenar están presentes en África, con explicación didáctica detrás de cada respuesta.
 
 <figure>
   <img src="/images/blog/nature/lion-afrique.jpg" alt="Un león en la sabana africana" loading="lazy" />
   <figcaption>Foto: Michael Barera · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
 </figure>
-

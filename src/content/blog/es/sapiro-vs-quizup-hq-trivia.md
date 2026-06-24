@@ -14,35 +14,35 @@ author: "SAPIRO"
 readingTime: 5
 ---
 
-SAPIRO, QuizUp y HQ Trivia son tres enfoques muy distintos del quiz. Aqui van las distinciones importantes para elegir.
+SAPIRO, QuizUp y HQ Trivia son tres enfoques muy distintos del quiz. Aquí van las distinciones importantes para elegir.
 
 ## QuizUp: duelos en tiempo real
 
-**El concepto.** Enfrentamiento en duelo sobre un tema preciso. 7 preguntas cada uno, 10 segundos por pregunta. Sistema de clasificacion por categoria y por pais.
+**El concepto.** Enfrentamiento en duelo sobre un tema preciso. 7 preguntas cada uno, 10 segundos por pregunta. Sistema de clasificación por categoría y por país.
 
-**Fortalezas.** Muy adictivo. Competencia pura. Mas de 500 categorias (peliculas, deporte, geografia, historia).
+**Fortalezas.** Muy adictivo. Competencia pura. Más de 500 categorías (películas, deporte, geografía, historia).
 
-**Limites.** Sin explicacion pedagogica detras de las preguntas. Muchas preguntas repetitivas. Publicidad presente.
+**Límites.** Sin explicación pedagógica detrás de las preguntas. Muchas preguntas repetitivas. Publicidad presente.
 
-**Estado.** La app ha decaido y su futuro es incierto (vendida y relanzada varias veces).
+**Estado.** La app ha decaído y su futuro es incierto (vendida y relanzada varias veces).
 
 ## HQ Trivia: quiz en vivo televisado
 
-**El concepto.** Show en directo a hora fija (a menudo 21h). Todos los jugadores juegan al mismo tiempo las mismas preguntas. Una respuesta mala = eliminacion. El o los supervivientes comparten un bote real de dinero.
+**El concepto.** Show en directo a hora fija (a menudo 21h). Todos los jugadores juegan al mismo tiempo las mismas preguntas. Una respuesta mala = eliminación. El o los supervivientes comparten un bote real de dinero.
 
-**Fortalezas.** Sensacion unica de quiz televisado en directo. Comunidad masiva en picos de popularidad.
+**Fortalezas.** Sensación única de quiz televisado en directo. Comunidad masiva en picos de popularidad.
 
-**Limites.** La app cerro en 2020 y luego intento volver. Modelo de negocio incierto. No pedagogico.
+**Límites.** La app cerró en 2020 y luego intentó volver. Modelo de negocio incierto. No pedagógico.
 
 **Estado.** Muerta en 2020, intentos de relanzamiento inestables.
 
-## SAPIRO: quiz pedagogico en solo
+## SAPIRO: quiz pedagógico en solo
 
-**El concepto.** Quiz cultura general pre-construido con explicacion didactica detras de cada respuesta. Cuatro universos: geografia, historia, arte, naturaleza.
+**El concepto.** Quiz cultura general pre-construido con explicación didáctica detrás de cada respuesta. Cuatro universos: geografía, historia, arte, naturaleza.
 
-**Fortalezas.** Aprendizaje real. Sin publicidad. Sin recoleccion de datos. Apto para todas las edades, en familia o solo.
+**Fortalezas.** Aprendizaje real. Sin publicidad. Sin recolección de datos. Apto para todas las edades, en familia o solo.
 
-**Limites.** Sin multijugador en vivo. Sin modo multijugador. Enfoque mas tranquilo.
+**Límites.** Sin multijugador en vivo. Sin modo multijugador. Enfoque más tranquilo.
 
 **Estado.** App activa, gratuita, sin publi.
 
@@ -50,31 +50,30 @@ SAPIRO, QuizUp y HQ Trivia son tres enfoques muy distintos del quiz. Aqui van la
 
 | Criterio | QuizUp | HQ Trivia | SAPIRO |
 |----------|--------|-----------|--------|
-| Multijugador en vivo | Si | Si | No |
-| Explicacion pedagogica | No | No | Si |
-| Sin publicidad | No | No | Si |
-| Sin recoleccion de datos | No | No | Si |
-| Premio en dinero | No | Si | No |
+| Multijugador en vivo | Sí | Sí | No |
+| Explicación pedagógica | No | No | Sí |
+| Sin publicidad | No | No | Sí |
+| Sin recolección de datos | No | No | Sí |
+| Premio en dinero | No | Sí | No |
 | Estado activo | Incierto | Muerta | Activa |
 
-## Cuando elegir que
+## Cuándo elegir qué
 
 **QuizUp si** te gusta la competencia pura en duelo. Aunque su futuro sea incierto.
 
 **HQ Trivia si** disfrutas la experiencia en vivo (si la app vuelve estable).
 
-**SAPIRO si** quieres aprender tranquilamente, sin publicidad ni presion, solo o en familia.
+**SAPIRO si** quieres aprender tranquilamente, sin publicidad ni presión, solo o en familia.
 
 ## El aprendizaje antes que la competencia
 
-Esa es la diferencia filosofica fundamental. QuizUp y HQ Trivia son juegos competitivos donde el quiz es un pretexto. SAPIRO es una herramienta de aprendizaje donde el quiz es un medio.
+Esa es la diferencia filosófica fundamental. QuizUp y HQ Trivia son juegos competitivos donde el quiz es un pretexto. SAPIRO es una herramienta de aprendizaje donde el quiz es un medio.
 
 Ninguno es mejor que el otro, responden a necesidades distintas.
 
-Para profundizar: [mejores apps de quiz cultura general](/es/blog/mejores-apps-quiz-cultura-general/) y [como funciona la gamificacion educativa](/es/blog/gamificacion-educacion/).
+Para profundizar: [mejores apps de quiz cultura general](/es/blog/mejores-apps-quiz-cultura-general/) y [cómo funciona la gamificación educativa](/es/blog/gamificacion-educacion/).
 
 <figure>
   <img src="/images/blog/apps/apprendre-mobile.jpg" alt="Jugar y aprender en el teléfono" loading="lazy" />
   <figcaption>Foto: Anastasiya Lvova · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
 </figure>
-

@@ -14,90 +14,89 @@ author: "SAPIRO"
 readingTime: 6
 ---
 
-Treinta dias para repasar cultura general es corto pero realista bien planteado. Aqui va un planning dia a dia para cubrir lo esencial.
+Treinta días para repasar cultura general es corto pero realista bien planteado. Aquí va un planning día a día para cubrir lo esencial.
 
 ## Semana 1: historia e instituciones
 
-**Dia 1.** Antiguedad, Edad Media, Renacimiento. Ver nuestra [sintesis de las tres grandes periodos](/es/blog/antiguedad-edad-media-renacimiento-resumen/).
+**Día 1.** Antigüedad, Edad Media, Renacimiento. Ver nuestra [síntesis de las tres grandes periodos](/es/blog/antiguedad-edad-media-renacimiento-resumen/).
 
-**Dia 2.** Siglos XVII-XVIII. Monarquias absolutas, Ilustracion, Revolucion americana, Revolucion francesa.
+**Día 2.** Siglos XVII-XVIII. Monarquías absolutas, Ilustración, Revolución americana, Revolución francesa.
 
-**Dia 3.** Siglo XIX. Imperios, Restauracion, Belle Epoque, colonizaciones.
+**Día 3.** Siglo XIX. Imperios, Restauración, Belle Époque, colonizaciones.
 
-**Dia 4.** Siglo XX: guerras mundiales. Ver nuestro articulo sobre las [grandes batallas de la historia](/es/blog/grandes-batallas-historia/).
+**Día 4.** Siglo XX: guerras mundiales. Ver nuestro artículo sobre las [grandes batallas de la historia](/es/blog/grandes-batallas-historia/).
 
-**Dia 5.** Siglo XX: Guerra Fria y descolonizacion. Ver nuestro articulo sobre los [dictadores del siglo XX](/es/blog/dictadores-siglo-xx/).
+**Día 5.** Siglo XX: Guerra Fría y descolonización. Ver nuestro artículo sobre los [dictadores del siglo XX](/es/blog/dictadores-siglo-xx/).
 
-**Dia 6.** Instituciones nacionales. Constitucion, separacion de poderes, organizacion territorial.
+**Día 6.** Instituciones nacionales. Constitución, separación de poderes, organización territorial.
 
-**Dia 7.** Instituciones internacionales. ONU, UE, OTAN, OMC.
+**Día 7.** Instituciones internacionales. ONU, UE, OTAN, OMC.
 
-## Semana 2: geografia y economia
+## Semana 2: geografía y economía
 
-**Dia 8.** Geografia nacional. Regiones, rios, climas, demografia.
+**Día 8.** Geografía nacional. Regiones, ríos, climas, demografía.
 
-**Dia 9.** Geografia europea. Paises, capitales, montanas, mares.
+**Día 9.** Geografía europea. Países, capitales, montañas, mares.
 
-**Dia 10.** Geografia mundial. Continentes, paises por PIB, demografia mundial.
+**Día 10.** Geografía mundial. Continentes, países por PIB, demografía mundial.
 
-**Dia 11.** Geografia economica. Globalizacion, flujos, potencias, BRICS.
+**Día 11.** Geografía económica. Globalización, flujos, potencias, BRICS.
 
-**Dia 12.** Economia nacional. PIB, desempleo, inflacion, deuda, presupuesto del Estado.
+**Día 12.** Economía nacional. PIB, desempleo, inflación, deuda, presupuesto del Estado.
 
-**Dia 13.** Sociologia. Demografia, inmigracion, envejecimiento, urbanizacion.
+**Día 13.** Sociología. Demografía, inmigración, envejecimiento, urbanización.
 
-**Dia 14.** Quiz piloto semanas 1-2 para verificar progreso.
+**Día 14.** Quiz piloto semanas 1-2 para verificar progreso.
 
 ## Semana 3: ciencias y artes
 
-**Dia 15.** Ciencias fundamentales. Evolucion, genetica, atomo, energia.
+**Día 15.** Ciencias fundamentales. Evolución, genética, átomo, energía.
 
-**Dia 16.** Ciencias del clima. Efecto invernadero, IPCC, acuerdos, transicion energetica.
+**Día 16.** Ciencias del clima. Efecto invernadero, IPCC, acuerdos, transición energética.
 
-**Dia 17.** Digital. Internet, IA, datos, ciberseguridad.
+**Día 17.** Digital. Internet, IA, datos, ciberseguridad.
 
-**Dia 18.** Historia del arte. Ver nuestros articulos sobre [movimientos artisticos](/es/blog/movimientos-artisticos/) y [cuadros celebres](/es/blog/cuadros-celebres-obras-maestras/).
+**Día 18.** Historia del arte. Ver nuestros artículos sobre [movimientos artísticos](/es/blog/movimientos-artisticos/) y [cuadros célebres](/es/blog/cuadros-celebres-obras-maestras/).
 
-**Dia 19.** Literatura. Grandes autores por siglo.
+**Día 19.** Literatura. Grandes autores por siglo.
 
-**Dia 20.** Musica y cine. Compositores mayores, directores imprescindibles.
+**Día 20.** Música y cine. Compositores mayores, directores imprescindibles.
 
-**Dia 21.** Patrimonio. Monumentos nacionales, sitios UNESCO.
+**Día 21.** Patrimonio. Monumentos nacionales, sitios UNESCO.
 
 ## Semana 4: actualidad y repasos
 
-**Dia 22.** Actualidad politica de los ultimos 12 meses.
+**Día 22.** Actualidad política de los últimos 12 meses.
 
-**Dia 23.** Actualidad economica reciente.
+**Día 23.** Actualidad económica reciente.
 
-**Dia 24.** Actualidad internacional (guerras, elecciones, tratados).
+**Día 24.** Actualidad internacional (guerras, elecciones, tratados).
 
-**Dia 25.** Actualidad cientifica y ambiental.
+**Día 25.** Actualidad científica y ambiental.
 
-**Dia 26.** Quiz piloto completo para medir progreso.
+**Día 26.** Quiz piloto completo para medir progreso.
 
-**Dia 27.** Repasar los errores de los quizzes anteriores.
+**Día 27.** Repasar los errores de los quizzes anteriores.
 
-**Dia 28.** Simulacion de examen en condiciones reales.
+**Día 28.** Simulación de examen en condiciones reales.
 
-**Dia 29.** Descanso relativo. Solo revision de fichas.
+**Día 29.** Descanso relativo. Solo revisión de fichas.
 
-**Dia 30.** Vispera del examen. Lectura distendida, dormir pronto.
+**Día 30.** Víspera del examen. Lectura distendida, dormir pronto.
 
-## Metodo diario
+## Método diario
 
-**1 h 30 al dia.** 30 minutos de lectura (prensa + un capitulo de manual). 30 minutos de fichas (crear o repasar). 30 minutos de quiz.
+**1 h 30 al día.** 30 minutos de lectura (prensa + un capítulo de manual). 30 minutos de fichas (crear o repasar). 30 minutos de quiz.
 
-**Quizzes como herramienta principal.** SAPIRO propone 2 000+ preguntas de cultura general perfectas para estas sesiones de 30 minutos. La [ciencia de la memorizacion](/es/blog/gamificacion-educacion/) prueba que los quizzes multiplican la eficacia del aprendizaje.
+**Quizzes como herramienta principal.** SAPIRO propone 2 000+ preguntas de cultura general perfectas para estas sesiones de 30 minutos. La [ciencia de la memorización](/es/blog/gamificacion-educacion/) prueba que los quizzes multiplican la eficacia del aprendizaje.
 
-**Cuaderno de errores.** Anotar cada error en un cuaderno para revisarlo tres dias despues. Principio de repeticion espaciada.
+**Cuaderno de errores.** Anotar cada error en un cuaderno para revisarlo tres días después. Principio de repetición espaciada.
 
-**Sueno y deporte.** Siete a ocho horas de sueno minimo. Treinta minutos de deporte al dia. El cerebro consolida durante el sueno.
+**Sueño y deporte.** Siete a ocho horas de sueño mínimo. Treinta minutos de deporte al día. El cerebro consolida durante el sueño.
 
-Ver tambien nuestra [guia completa de cultura general](/es/blog/cultura-general-guia/) para el metodo a largo plazo.
+Ver también nuestra [guía completa de cultura general](/es/blog/cultura-general-guia/) para el método a largo plazo.
 
 <figure>
   <img src="/images/blog/apprentissage/bibliotheque-lecture.jpg" alt="Una sala de lectura de biblioteca" loading="lazy" />
   <figcaption>Foto: Diliff · CC BY 2.5 · Wikimedia Commons</figcaption>
 </figure>
-

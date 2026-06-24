@@ -14,15 +14,15 @@ author: "SAPIRO"
 readingTime: 8
 ---
 
-Los monarcas europeos estructuran gran parte de la historia mundial. Aqui van los gobernantes que conviene conocer por los principales reinos europeos, agrupados por pais.
+Los monarcas europeos estructuran gran parte de la historia mundial. Aquí van los gobernantes que conviene conocer por los principales reinos europeos, agrupados por país.
 
-## Espana
+## España
 
-**Isabel I de Castilla y Fernando II de Aragon (1474-1504 / 1479-1516).** Los Reyes Catolicos. Unen Espana. Financian a Colon en 1492.
+**Isabel I de Castilla y Fernando II de Aragón (1474-1504 / 1479-1516).** Los Reyes Católicos. Unen España. Financian a Colón en 1492.
 
-**Carlos V (1516-1556).** Emperador del Sacro Imperio y rey de Espana. Inmenso imperio incluido America, Paises Bajos, Napoles.
+**Carlos V (1516-1556).** Emperador del Sacro Imperio y rey de España. Inmenso imperio incluido América, Países Bajos, Nápoles.
 
-**Felipe II (1556-1598).** Apogeo del Imperio espanol. Construye El Escorial.
+**Felipe II (1556-1598).** Apogeo del Imperio español. Construye El Escorial.
 
 **Carlos III (1759-1788).** Reformas ilustradas.
 
@@ -36,29 +36,29 @@ Los monarcas europeos estructuran gran parte de la historia mundial. Aqui van lo
 
 **Carlomagno (768-814).** Coronado emperador en 800. Extiende el reino franco por Europa Occidental.
 
-**Hugo Capeto (987-996).** Fundador de la dinastia capetiana.
+**Hugo Capeto (987-996).** Fundador de la dinastía capetiana.
 
 **Felipe II Augusto (1180-1223).** Triplica la superficie del reino. Construye el Louvre.
 
-**San Luis (1226-1270).** Famoso por su justicia. Septima cruzada. Canonizado.
+**San Luis (1226-1270).** Famoso por su justicia. Séptima cruzada. Canonizado.
 
-**Francisco I (1515-1547).** Renacimiento frances. Acoge a Leonardo da Vinci.
+**Francisco I (1515-1547).** Renacimiento francés. Acoge a Leonardo da Vinci.
 
-**Enrique IV (1589-1610).** Primer Borbon. Edicto de Nantes (1598).
+**Enrique IV (1589-1610).** Primer Borbón. Edicto de Nantes (1598).
 
-**Luis XIV (1643-1715).** El Rey Sol. Reinado mas largo de la historia de Francia (72 anos). Construye el [Palacio de Versalles](https://es.wikipedia.org/wiki/Palacio_de_Versalles).
+**Luis XIV (1643-1715).** El Rey Sol. Reinado más largo de la historia de Francia (72 años). Construye el [Palacio de Versalles](https://es.wikipedia.org/wiki/Palacio_de_Versalles).
 
 **Luis XVI (1774-1792).** Guillotinado en 1793.
 
-**Napoleon I (1804-1815).** Emperador. Batalla de Waterloo (1815).
+**Napoleón I (1804-1815).** Emperador. Batalla de Waterloo (1815).
 
 ## Inglaterra / Reino Unido
 
 **Guillermo el Conquistador (1066-1087).** Conquista normanda tras la batalla de Hastings.
 
-**Enrique II (1154-1189).** Fundador de la dinastia Plantagenet. Conflicto con Thomas Becket.
+**Enrique II (1154-1189).** Fundador de la dinastía Plantagenet. Conflicto con Thomas Becket.
 
-**Ricardo Corazon de Leon (1189-1199).** Tercera cruzada.
+**Ricardo Corazón de León (1189-1199).** Tercera cruzada.
 
 **Juan sin Tierra (1199-1216).** Firma la Carta Magna en 1215.
 
@@ -68,46 +68,45 @@ Los monarcas europeos estructuran gran parte de la historia mundial. Aqui van lo
 
 **Carlos I (1625-1649).** Ejecutado durante la Guerra Civil inglesa.
 
-**Reina Victoria (1837-1901).** Reinado mas largo antes de Isabel II. Apogeo imperial britanico.
+**Reina Victoria (1837-1901).** Reinado más largo antes de Isabel II. Apogeo imperial británico.
 
-**Isabel II (1952-2022).** Reinado mas largo de la historia britanica (70 anos).
+**Isabel II (1952-2022).** Reinado más largo de la historia británica (70 años).
 
 ## Sacro Imperio / Alemania / Austria
 
-**Otton I (962-973).** Fundador del Sacro Imperio Romano Germanico.
+**Otton I (962-973).** Fundador del Sacro Imperio Romano Germánico.
 
 **Federico II (1220-1250).** Hohenstaufen, cosmopolita, "la maravilla del mundo".
 
-**Maria Teresa (1740-1780).** Habsburgo austriaca. Madre de Maria Antonieta.
+**María Teresa (1740-1780).** Habsburgo austriaca. Madre de María Antonieta.
 
-**Federico el Grande (1740-1786).** Prusia. Fundador del poder aleman moderno.
+**Federico el Grande (1740-1786).** Prusia. Fundador del poder alemán moderno.
 
-**Guillermo II (1888-1918).** Ultimo emperador aleman.
+**Guillermo II (1888-1918).** Último emperador alemán.
 
 ## Rusia
 
-**Ivan IV el Terrible (1547-1584).** Primer zar de Rusia.
+**Iván IV el Terrible (1547-1584).** Primer zar de Rusia.
 
 **Pedro el Grande (1682-1725).** Moderniza Rusia. Funda San Petersburgo.
 
-**Catalina la Grande (1762-1796).** Ilustracion, expansion territorial.
+**Catalina la Grande (1762-1796).** Ilustración, expansión territorial.
 
-**Nicolas II (1894-1917).** Ultimo zar. Ejecutado en 1918.
+**Nicolás II (1894-1917).** Último zar. Ejecutado en 1918.
 
-## Metodo para recordar
+## Método para recordar
 
-Memorizar primero las dinastias. Espana: Reyes Catolicos, Habsburgo, Borbones. Francia: Merovingios, Carolingios, Capetos, Valois, Borbones. Inglaterra: Plantagenets, Tudor, Estuardo, Hanover, Windsor.
+Memorizar primero las dinastías. España: Reyes Católicos, Habsburgo, Borbones. Francia: Merovingios, Carolingios, Capetos, Valois, Borbones. Inglaterra: Plantagenets, Tudor, Estuardo, Hanover, Windsor.
 
-Asociar cada gobernante a un evento clave. Enrique VIII = Reforma anglicana. Isabel I = Armada Invencible. Luis XIV = Versalles. Catalina la Grande = expansion rusa.
+Asociar cada gobernante a un evento clave. Enrique VIII = Reforma anglicana. Isabel I = Armada Invencible. Luis XIV = Versalles. Catalina la Grande = expansión rusa.
 
-Cruzar con eventos mayores. Revolucion americana = Luis XVI y Jorge III. Primera Guerra Mundial = Guillermo II y Nicolas II.
+Cruzar con eventos mayores. Revolución americana = Luis XVI y Jorge III. Primera Guerra Mundial = Guillermo II y Nicolás II.
 
 Cruzar con los lugares de poder. De Versalles a El Escorial, los [castillos y palacios famosos](/es/blog/castillos-palacios-famosos-mundo/) cuentan de forma concreta el reinado de estos gobernantes.
 
-Para profundizar, ver nuestra [linea de tiempo mundial](/es/blog/linea-tiempo-historia-mundial/) y nuestro articulo sobre [personajes historicos mayores](/es/blog/personajes-historicos/). SAPIRO propone quizzes de historia con explicacion contextualizada detras de cada pregunta.
+Para profundizar, ver nuestra [línea de tiempo mundial](/es/blog/linea-tiempo-historia-mundial/) y nuestro artículo sobre [personajes históricos mayores](/es/blog/personajes-historicos/). SAPIRO propone quizzes de historia con explicación contextualizada detrás de cada pregunta.
 
 <figure>
   <img src="/images/blog/histoire/louis-xiv.jpg" alt="Retrato de Luis XIV" loading="lazy" />
   <figcaption>Foto: Hyacinthe Rigaud · CC0 · Wikimedia Commons</figcaption>
 </figure>
-
