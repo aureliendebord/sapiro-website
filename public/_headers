@@ -9,6 +9,12 @@
 /robots.txt
   Content-Type: text/plain; charset=utf-8
 
+# Version de l'app consommee par hooks/useAppUpdate.ts (bandeau de mise a jour)
+# Cache court : doit se propager vite quand on bumpe une version au lancement d'une release
+/app-version.json
+  Content-Type: application/json; charset=utf-8
+  Cache-Control: public, max-age=300
+
 # Page d'attribution des images (statique, generee depuis le repo sapiro)
 # Cache 1h : la liste evolue uniquement entre releases de l'app
 # FR a la racine, EN/ES traduits via scripts/translate-credits.mjs
