@@ -14,7 +14,7 @@ author: "SAPIRO"
 readingTime: 5
 ---
 
-Quizzes multinivel para evaluar tu cultura general y progresar. Aqui van ejemplos de preguntas por nivel, de mas facil a experto.
+Quizzes multinivel para evaluar tu cultura general y progresar. Aqui van ejemplos de preguntas por nivel, de mas facil a experto. Para series con respuestas explicadas, mira tambien nuestras [10 preguntas](/es/blog/10-preguntas-cultura-general-respuestas/) y [50 preguntas de cultura general](/es/blog/50-preguntas-cultura-general-respuestas/).
 
 ## Nivel facil
 

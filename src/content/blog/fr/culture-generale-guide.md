@@ -64,7 +64,7 @@ Côté livres, quelques titres ont vraiment l'ambition d'ouvrir des portes. *Sap
 
 Les documentaires et les chaînes YouTube offrent un apprentissage visuel qui accroche. Arte reste la référence en accès libre. *Nota Bene* raconte l'histoire sans l'embaumer, *Le Dessous des Cartes* (la version Arte) décortique la géopolitique, *Dirty Biology* vulgarise la science avec un ton très peu scolaire.
 
-Les applis de quiz, enfin, sont le format idéal pour des sessions courtes et régulières. SAPIRO combine géographie et culture générale avec une explication derrière chaque question. Pour un comparatif complet, voyez notre article sur [les meilleures applications de géographie](/blog/meilleures-apps-geographie/).
+Les applis de quiz, enfin, sont le format idéal pour des sessions courtes et régulières. SAPIRO combine géographie et culture générale avec une explication derrière chaque question. Pour vous tester tout de suite, essayez nos [10 questions de culture générale](/blog/10-questions-culture-generale-reponses/) ou la série complète de [50 questions](/blog/50-questions-culture-generale-reponses/). Pour un comparatif complet, voyez notre article sur [les meilleures applications de géographie](/blog/meilleures-apps-geographie/).
 
 ## Comment retenir ce qu'on apprend
 

@@ -14,7 +14,7 @@ author: "SAPIRO"
 readingTime: 5
 ---
 
-Multi-level quizzes to assess your general knowledge and progress. Here are sample questions by level, from easiest to expert.
+Multi-level quizzes to assess your general knowledge and progress. Here are sample questions by level, from easiest to expert. For sets with explained answers, see also our [10 questions](/en/blog/10-general-knowledge-questions-answers/) and [50 general knowledge questions](/en/blog/50-general-knowledge-questions-answers/).
 
 ## Easy level
 

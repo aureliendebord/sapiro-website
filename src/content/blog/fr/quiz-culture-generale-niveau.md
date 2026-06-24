@@ -14,7 +14,7 @@ author: "SAPIRO"
 readingTime: 5
 ---
 
-Quiz à plusieurs niveaux pour évaluer votre culture générale et progresser. Voici des exemples de questions par niveau, du plus facile au plus expert.
+Quiz à plusieurs niveaux pour évaluer votre culture générale et progresser. Voici des exemples de questions par niveau, du plus facile au plus expert. Pour des séries avec réponses expliquées, voyez aussi nos [10 questions](/blog/10-questions-culture-generale-reponses/) et [50 questions de culture générale](/blog/50-questions-culture-generale-reponses/).
 
 ## Niveau facile
 
