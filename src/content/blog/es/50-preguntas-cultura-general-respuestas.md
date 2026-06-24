@@ -15,7 +15,7 @@ readingTime: 10
 
 Cincuenta preguntas, cincuenta respuestas, todas a la vista en la página. Suficiente para poner a prueba tu cultura general de verdad, repasar o animar una noche de quiz sin preparar nada.
 
-Las preguntas están ordenadas en cinco campos —geografía, historia, arte y cultura, ciencias, naturaleza— con un nivel indicado en cada una. Cuenta un punto por respuesta correcta; el baremo está al final de la página. Si con diez preguntas te basta para calentar, empieza por nuestras [10](/es/blog/10-preguntas-cultura-general-respuestas/) o [20 preguntas de cultura general](/es/blog/20-preguntas-cultura-general-respuestas/).
+Las preguntas están ordenadas en cinco campos —geografía, historia, arte y cultura, ciencias, naturaleza— con un nivel indicado en cada una. Cuenta un punto por respuesta correcta; el baremo está al final de la página. Si con diez preguntas te basta para calentar, empieza por nuestras [10](/es/blog/10-preguntas-cultura-general-respuestas/) o [20 preguntas de cultura general](/es/blog/20-preguntas-cultura-general-respuestas/). Y para la serie completa, mira nuestras [100 preguntas](/es/blog/100-preguntas-cultura-general-respuestas/).
 
 ## Geografía
 
