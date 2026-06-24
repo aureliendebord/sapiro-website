@@ -71,7 +71,7 @@ Comptez une bonne réponse par question.
 
 ## Envie d'aller plus loin
 
-Dix questions, c'est un échauffement. Pour une vraie partie, enchaînez avec nos [50 questions de culture générale](/blog/50-questions-culture-generale-reponses/). Et pour progresser vraiment, ce qui compte c'est la régularité : quelques minutes par jour valent mieux qu'une longue session par mois.
+Dix questions, c'est un échauffement. Pour aller plus loin, enchaînez avec nos [20](/blog/20-questions-culture-generale-reponses/) ou [50 questions de culture générale](/blog/50-questions-culture-generale-reponses/). Et pour progresser vraiment, ce qui compte c'est la régularité : quelques minutes par jour valent mieux qu'une longue session par mois.
 
 C'est l'idée derrière SAPIRO. L'appli rassemble des centaines de quiz sur la géographie (197 pays), l'histoire, l'art et la nature, avec une explication derrière chaque réponse. Gratuite, sans publicité. Parfaite pour un trajet, une pause café ou une [soirée entre amis](/blog/quiz-anniversaire-soiree-amis/). Pour un plan d'entraînement clé en main, suivez notre méthode pour [réviser sa culture générale en 30 jours](/blog/reviser-culture-generale-30-jours/).
 

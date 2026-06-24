@@ -71,7 +71,7 @@ Cuenta un punto por respuesta correcta.
 
 ## Para seguir aprendiendo
 
-Diez preguntas son un calentamiento. Para una partida de verdad, sigue con nuestras [50 preguntas de cultura general](/es/blog/50-preguntas-cultura-general-respuestas/). Y para progresar de verdad, lo que cuenta es la constancia: unos minutos al día valen más que una sesión larga al mes.
+Diez preguntas son un calentamiento. Para ir más allá, sigue con nuestras [20](/es/blog/20-preguntas-cultura-general-respuestas/) o [50 preguntas de cultura general](/es/blog/50-preguntas-cultura-general-respuestas/). Y para progresar de verdad, lo que cuenta es la constancia: unos minutos al día valen más que una sesión larga al mes.
 
 Esa es la idea de SAPIRO. La app reúne cientos de quizzes sobre geografía (197 países), historia, arte y naturaleza, con una explicación detrás de cada respuesta. Gratis, sin publicidad. Perfecta para un trayecto, una pausa o una [noche de quiz entre amigos](/es/blog/quiz-cumpleanos-fiesta-amigos/). Para un plan de entrenamiento listo para usar, sigue nuestro método para [repasar cultura general en 30 días](/es/blog/repasar-cultura-general-30-dias/).
 

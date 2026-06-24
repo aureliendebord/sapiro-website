@@ -71,7 +71,7 @@ Count one point per correct answer.
 
 ## Want to go further
 
-Ten questions is a warm-up. For a proper game, move on to our [50 general knowledge questions](/en/blog/50-general-knowledge-questions-answers/). And to really improve, what counts is consistency: a few minutes a day beat one long session a month.
+Ten questions is a warm-up. To go further, move on to our [20](/en/blog/20-general-knowledge-questions-answers/) or [50 general knowledge questions](/en/blog/50-general-knowledge-questions-answers/). And to really improve, what counts is consistency: a few minutes a day beat one long session a month.
 
 That's the idea behind SAPIRO. The app gathers hundreds of quizzes on geography (197 countries), history, art and nature, with an explanation behind every answer. Free, no ads. Perfect for a commute, a coffee break or a [quiz night with friends](/en/blog/birthday-party-quiz-friends/). For a ready-made training plan, follow our method to [revise general knowledge in 30 days](/en/blog/revise-general-knowledge-30-days/).
 

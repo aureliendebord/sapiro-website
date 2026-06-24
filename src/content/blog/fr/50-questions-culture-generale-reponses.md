@@ -15,7 +15,7 @@ readingTime: 10
 
 Cinquante questions, cinquante réponses, toutes visibles sur la page. De quoi tester sa culture générale pour de bon, réviser, ou alimenter une soirée quiz sans rien préparer.
 
-Les questions sont rangées en cinq thèmes — géographie, histoire, art et culture, sciences, nature — avec un niveau indiqué à chaque fois. Comptez un point par bonne réponse, le barème est en bas de page. Si dix questions suffisent à vous échauffer, commencez par nos [10 questions de culture générale](/blog/10-questions-culture-generale-reponses/).
+Les questions sont rangées en cinq thèmes — géographie, histoire, art et culture, sciences, nature — avec un niveau indiqué à chaque fois. Comptez un point par bonne réponse, le barème est en bas de page. Si dix questions suffisent à vous échauffer, commencez par nos [10](/blog/10-questions-culture-generale-reponses/) ou [20 questions de culture générale](/blog/20-questions-culture-generale-reponses/).
 
 ## Géographie
 
