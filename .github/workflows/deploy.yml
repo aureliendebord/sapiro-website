@@ -1,0 +1,44 @@
+name: Deploy to Cloudflare Pages
+
+# Déploiement reproductible de la prod sapiro.app.
+# Sur push vers main : build Astro (Node 20) puis `wrangler pages deploy`.
+# Le déclencheur manuel permet de redéployer sans nouveau commit.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+# Un seul déploiement à la fois ; on annule les runs en attente obsolètes.
+concurrency:
+  group: deploy-pages
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+
+      - run: npm ci
+
+      # Déclenche aussi le hook `prebuild` (vérif des liens cross-langue).
+      - run: npm run build
+
+      - name: Deploy to Cloudflare Pages (production)
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          # Version figée = déploiement reproductible (wrangler >= 4 exige Node 22).
+          wranglerVersion: "4.104.0"
+          # --branch=main = branche de prod du projet CF Pages -> déploiement
+          # en production (sapiro.app), pas un preview *.pages.dev.
+          command: pages deploy dist --project-name=sapiro --branch=main
