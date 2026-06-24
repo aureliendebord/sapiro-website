@@ -1,5 +1,5 @@
 ---
-title: "Cultura general en oposiciones publicas"
+title: "Cultura general en oposiciones públicas"
 description: "Repasar cultura general para oposiciones: temario, temas recurrentes y método para preparar la prueba con eficacia."
 date: 2026-02-07
 lastModified: 2026-06-15
@@ -14,70 +14,69 @@ author: "SAPIRO"
 readingTime: 7
 ---
 
-La cultura general es una prueba habitual en oposiciones a la Administracion publica. Formatos variados pero la base se mantiene. Aqui va una guia para prepararse con eficacia.
+La cultura general es una prueba habitual en oposiciones a la Administración pública. Formatos variados pero la base se mantiene. Aquí va una guía para prepararse con eficacia.
 
 ## Temario habitual
 
 Pocas oposiciones publican una lista cerrada. Es a la vez ventaja y trampa. Ventaja: no hay lista fija que memorizar. Trampa: imposible "saberlo todo".
 
-En la practica, los temas se agrupan en bloques recurrentes.
+En la práctica, los temas se agrupan en bloques recurrentes.
 
-**Instituciones y vida politica.** Constitucion espanola, separacion de poderes, proceso legislativo, derechos fundamentales, organizacion territorial (autonomias, provincias, municipios), Union Europea.
+**Instituciones y vida política.** Constitución española, separación de poderes, proceso legislativo, derechos fundamentales, organización territorial (autonomías, provincias, municipios), Unión Europea.
 
-**Historia.** Sobre todo siglos XIX y XX. Revoluciones, guerras, descolonizacion, mundo de posguerra, Espana contemporanea. Para profundizar: [quiz historia nivel examen](/es/blog/quiz-historia-examen/) y [linea de tiempo mundial](/es/blog/linea-tiempo-historia-mundial/).
+**Historia.** Sobre todo siglos XIX y XX. Revoluciones, guerras, descolonización, mundo de posguerra, España contemporánea. Para profundizar: [quiz historia nivel examen](/es/blog/quiz-historia-examen/) y [línea de tiempo mundial](/es/blog/linea-tiempo-historia-mundial/).
 
-**Geografia.** Espana, capitales europeas, hitos mundiales mayores, retos climaticos.
+**Geografía.** España, capitales europeas, hitos mundiales mayores, retos climáticos.
 
-**Economia y sociedad.** PIB, desempleo, inflacion, deuda publica, modelo social, demografia, inmigracion, sanidad, educacion.
+**Economía y sociedad.** PIB, desempleo, inflación, deuda pública, modelo social, demografía, inmigración, sanidad, educación.
 
-**Ciencia y tecnologia.** Bases cientificas (evolucion, genoma, energia, clima), cuestiones eticas (bioetica, IA, vigilancia).
+**Ciencia y tecnología.** Bases científicas (evolución, genoma, energía, clima), cuestiones éticas (bioética, IA, vigilancia).
 
-**Artes y cultura.** Grandes movimientos literarios y artisticos, patrimonio espanol.
+**Artes y cultura.** Grandes movimientos literarios y artísticos, patrimonio español.
 
 ## Tipos de prueba
 
 Tres formatos principales.
 
-**Test tipo test.** 40 a 60 preguntas en 30 a 60 minutos. Penalizacion por error variable (a veces puntos negativos). Pro: poca redaccion. Contra: amplio temario.
+**Test tipo test.** 40 a 60 preguntas en 30 a 60 minutos. Penalización por error variable (a veces puntos negativos). Pro: poca redacción. Contra: amplio temario.
 
-**Desarrollo.** Tema amplio a tratar en composicion estructurada. Plan, tesis, ejemplos. Suele contar el 40 a 50% de la nota final.
+**Desarrollo.** Tema amplio a tratar en composición estructurada. Plan, tesis, ejemplos. Suele contar el 40 a 50% de la nota final.
 
-**Oral.** Pregunta sorteada, 10 minutos de preparacion, exposicion, discusion. Mide agilidad tanto como conocimiento.
+**Oral.** Pregunta sorteada, 10 minutos de preparación, exposición, discusión. Mide agilidad tanto como conocimiento.
 
-## Niveles mas accesibles
+## Niveles más accesibles
 
-**Grupo C (sin titulacion superior).** Auxiliares administrativos, agentes. Temario nivel ESO/Bachillerato.
+**Grupo C (sin titulación superior).** Auxiliares administrativos, agentes. Temario nivel ESO/Bachillerato.
 
-**Grupo B (Bachillerato).** Tecnicos, controladores, agentes especialistas. Temario nivel Bachillerato.
+**Grupo B (Bachillerato).** Técnicos, controladores, agentes especialistas. Temario nivel Bachillerato.
 
 **Grupo A (Grado).** Administradores, inspectores, asesores. Temario nivel universitario.
 
-## Metodo eficaz de repaso
+## Método eficaz de repaso
 
-**Planificar a 6-12 meses.** Tres meses raramente bastan a media jornada. La cultura general se absorbe por sedimentacion, no por atracon.
+**Planificar a 6-12 meses.** Tres meses raramente bastan a media jornada. La cultura general se absorbe por sedimentación, no por atracón.
 
-**Repaso diario de prensa.** Diario nacional de calidad, radio publica, semanario. Una hora al dia. Los temas de oposicion siguen la actualidad.
+**Repaso diario de prensa.** Diario nacional de calidad, radio pública, semanario. Una hora al día. Los temas de oposición siguen la actualidad.
 
-**Fichas tematicas.** Una ficha por gran tema (educacion, salud, clima, politica exterior). Releer regularmente, enriquecer con actualidad.
+**Fichas temáticas.** Una ficha por gran tema (educación, salud, clima, política exterior). Releer regularmente, enriquecer con actualidad.
 
-**Entrenarse con quizzes.** [La ciencia del aprendizaje activo](/es/blog/gamificacion-educacion/) muestra que se retiene 50% mejor autoexaminandose. Los quizzes de cultura general son perfectos para calibrar nivel y detectar lagunas.
+**Entrenarse con quizzes.** [La ciencia del aprendizaje activo](/es/blog/gamificacion-educacion/) muestra que se retiene 50% mejor autoexaminándose. Los quizzes de cultura general son perfectos para calibrar nivel y detectar lagunas.
 
-## Trampas clasicas
+## Trampas clásicas
 
-**Sobrevolar todos los temas.** Leer 20 articulos sin profundizar. Sin sedimentacion. Mejor dominar 30 temas solidamente que sobrevolar 200.
+**Sobrevolar todos los temas.** Leer 20 artículos sin profundizar. Sin sedimentación. Mejor dominar 30 temas sólidamente que sobrevolar 200.
 
-**Subestimar la actualidad.** Todos los tribunales miran si el candidato sigue el mundo real. Ignorar los seis ultimos meses es eliminatorio.
+**Subestimar la actualidad.** Todos los tribunales miran si el candidato sigue el mundo real. Ignorar los seis últimos meses es eliminatorio.
 
-**Confundir cultura general con erudicion.** El objetivo no es citar referencias oscuras, sino mostrar que se entienden los retos contemporaneos.
+**Confundir cultura general con erudición.** El objetivo no es citar referencias oscuras, sino mostrar que se entienden los retos contemporáneos.
 
-**Descuidar la metodologia.** En el desarrollo, la estructura cuenta tanto como el conocimiento. Una buena tesis mal construida vale menos que una menos ambiciosa pero clara.
+**Descuidar la metodología.** En el desarrollo, la estructura cuenta tanto como el conocimiento. Una buena tesis mal construida vale menos que una menos ambiciosa pero clara.
 
 ## Para entrenarse
 
-SAPIRO propone quizzes de cultura general con una explicacion didactica detras de cada pregunta. Es la herramienta ideal para sesiones cortas (15 minutos al dia) que se acumulan. Para profundizar: [mejores apps de quiz cultura general](/es/blog/mejores-apps-quiz-cultura-general/) y nuestra [guia completa cultura general](/es/blog/cultura-general-guia/).
+SAPIRO propone quizzes de cultura general con una explicación didáctica detrás de cada pregunta. Es la herramienta ideal para sesiones cortas (15 minutos al día) que se acumulan. Para profundizar: [mejores apps de quiz cultura general](/es/blog/mejores-apps-quiz-cultura-general/) y nuestra [guía completa cultura general](/es/blog/cultura-general-guia/).
 
 <figure>
   <img src="/images/blog/apprentissage/bibliotheque-lecture.jpg" alt="Una sala de lectura de biblioteca" loading="lazy" />
   <figcaption>Foto: Diliff · CC BY 2.5 · Wikimedia Commons</figcaption>
 </figure>
-

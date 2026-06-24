@@ -14,66 +14,65 @@ author: "SAPIRO"
 readingTime: 6
 ---
 
-Los accesos a la universidad incluyen a menudo componentes de cultura general, en redacciones, entrevistas o pruebas especificas. Aqui va como prepararse de forma eficaz.
+Los accesos a la universidad incluyen a menudo componentes de cultura general, en redacciones, entrevistas o pruebas específicas. Aquí va cómo prepararse de forma eficaz.
 
 ## Formatos habituales
 
-**EvAU/Selectividad (Espana).** Examen estatal de acceso a la universidad. Lengua, historia, idioma extranjero, materia troncal. Las pruebas de Historia y Filosofia exigen cultura general solida.
+**EvAU/Selectividad (España).** Examen estatal de acceso a la universidad. Lengua, historia, idioma extranjero, materia troncal. Las pruebas de Historia y Filosofía exigen cultura general sólida.
 
-**Examenes especificos por universidad.** Algunas facultades (Medicina, Bellas Artes, Comunicacion) anaden pruebas propias.
+**Exámenes específicos por universidad.** Algunas facultades (Medicina, Bellas Artes, Comunicación) añaden pruebas propias.
 
-**SAT/ACT (Estados Unidos).** Examenes estandarizados que cubren lectura, escritura, matematicas, a veces ensayo. Las secciones verbales esperan buena cultura general.
+**SAT/ACT (Estados Unidos).** Exámenes estandarizados que cubren lectura, escritura, matemáticas, a veces ensayo. Las secciones verbales esperan buena cultura general.
 
-**Oxbridge entrevistas.** Preguntas abiertas para medir pensamiento, no solo conocimiento. La cultura general apoya la discusion.
+**Oxbridge entrevistas.** Preguntas abiertas para medir pensamiento, no solo conocimiento. La cultura general apoya la discusión.
 
-**Sciences Po e IEP (Francia).** Examenes de acceso franceses con fuerte componente de cultura general.
+**Sciences Po e IEP (Francia).** Exámenes de acceso franceses con fuerte componente de cultura general.
 
 ## Lo que se suele evaluar
 
-Tres areas mayores aparecen una y otra vez.
+Tres áreas mayores aparecen una y otra vez.
 
-**Actualidad.** Ultimos 12 a 24 meses. Eventos politicos mayores, cambios economicos, transformaciones tecnologicas, evoluciones climaticas.
+**Actualidad.** Últimos 12 a 24 meses. Eventos políticos mayores, cambios económicos, transformaciones tecnológicas, evoluciones climáticas.
 
-**Contexto historico.** Sobre todo siglos XX y XXI. Guerras mundiales, descolonizacion, Guerra Fria, post Guerra Fria, crisis recientes.
+**Contexto histórico.** Sobre todo siglos XX y XXI. Guerras mundiales, descolonización, Guerra Fría, post Guerra Fría, crisis recientes.
 
-**Pensamiento transversal.** Capacidad de conectar historia, filosofia, economia, ciencia, artes. Las instituciones de prestigio valoran esto mas que el saber enciclopedico.
+**Pensamiento transversal.** Capacidad de conectar historia, filosofía, economía, ciencia, artes. Las instituciones de prestigio valoran esto más que el saber enciclopédico.
 
 ## Lecturas recomendadas
 
-**Prensa.** Diario nacional de calidad, semanario (The Economist, El Pais Semanal, Letras Libres). Al menos una hora al dia los seis meses previos.
+**Prensa.** Diario nacional de calidad, semanario (The Economist, El País Semanal, Letras Libres). Al menos una hora al día los seis meses previos.
 
-**Ensayos imprescindibles.** *Sapiens* de Harari, *Pensar rapido, pensar despacio* de Kahneman, *Por que fracasan los paises* de Acemoglu y Robinson, *Sobre la tirania* de Snyder.
+**Ensayos imprescindibles.** *Sapiens* de Harari, *Pensar rápido, pensar despacio* de Kahneman, *Por qué fracasan los países* de Acemoglu y Robinson, *Sobre la tiranía* de Snyder.
 
-**Manuales especificos.** Consultar lo que cada universidad publica o recomienda a sus futuros alumnos.
+**Manuales específicos.** Consultar lo que cada universidad publica o recomienda a sus futuros alumnos.
 
-## Metodo eficaz
+## Método eficaz
 
 Cuatro principios.
 
-**Una ficha por gran tema.** Memoria, identidad, democracia, economia, medio ambiente, geopolitica. Enriquecer cada ficha durante meses.
+**Una ficha por gran tema.** Memoria, identidad, democracia, economía, medio ambiente, geopolítica. Enriquecer cada ficha durante meses.
 
 **Conectar referencias.** Las admisiones de prestigio valoran candidatos que cruzan disciplinas. Un tema sobre la memoria puede convocar a Proust, Halbwachs, justicia transicional, neurociencia.
 
-**Practicar escritura.** Una redaccion por semana, idealmente corregida por un profesor.
+**Practicar escritura.** Una redacción por semana, idealmente corregida por un profesor.
 
-**Testear conocimientos.** [La ciencia del aprendizaje activo](/es/blog/gamificacion-educacion/) muestra que los quizzes multiplican la memorizacion por 1,5. SAPIRO propone quizzes de cultura general perfectos para sesiones cortas.
+**Testear conocimientos.** [La ciencia del aprendizaje activo](/es/blog/gamificacion-educacion/) muestra que los quizzes multiplican la memorización por 1,5. SAPIRO propone quizzes de cultura general perfectos para sesiones cortas.
 
 ## Errores a evitar
 
-**El atracon tardio.** Tres meses no bastan. Las admisiones competitivas requieren 12 a 18 meses minimo.
+**El atracón tardío.** Tres meses no bastan. Las admisiones competitivas requieren 12 a 18 meses mínimo.
 
-**La sobre especializacion.** Estos programas buscan mentes abiertas, no especialistas. Leer en historia, filosofia, economia, ciencia politica, ciencias naturales.
+**La sobre especialización.** Estos programas buscan mentes abiertas, no especialistas. Leer en historia, filosofía, economía, ciencia política, ciencias naturales.
 
 **El snobismo intelectual.** Citar a Heidegger sin contexto es contraproducente. Mejor integrar bien tres referencias que sobrevolar veinte.
 
-**Descuidar el oral.** Sobre todo en Oxbridge, la entrevista es decisiva. Trabajar la diccion, la estructura, la capacidad de dialogar.
+**Descuidar el oral.** Sobre todo en Oxbridge, la entrevista es decisiva. Trabajar la dicción, la estructura, la capacidad de dialogar.
 
 ## Para entrenarse
 
-SAPIRO permite testear la cultura general sobre 2 000+ preguntas, con explicacion didactica detras de cada respuesta. Para profundizar: [cultura general en oposiciones publicas](/es/blog/cultura-general-oposiciones/) y nuestra [guia cultura general](/es/blog/cultura-general-guia/).
+SAPIRO permite testear la cultura general sobre 2 000+ preguntas, con explicación didáctica detrás de cada respuesta. Para profundizar: [cultura general en oposiciones públicas](/es/blog/cultura-general-oposiciones/) y nuestra [guía cultura general](/es/blog/cultura-general-guia/).
 
 <figure>
   <img src="/images/blog/apprentissage/bibliotheque-lecture.jpg" alt="Una sala de lectura de biblioteca" loading="lazy" />
   <figcaption>Foto: Diliff · CC BY 2.5 · Wikimedia Commons</figcaption>
 </figure>
-

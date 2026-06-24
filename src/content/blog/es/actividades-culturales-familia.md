@@ -14,82 +14,81 @@ author: "SAPIRO"
 readingTime: 6
 ---
 
-Aprender en familia no necesita clases. Treinta ideas concretas para probar este fin de semana o en las proximas vacaciones.
+Aprender en familia no necesita clases. Treinta ideas concretas para probar este fin de semana o en las próximas vacaciones.
 
 ## Visitas y salidas
 
-**1. Un museo al mes.** Al menos una hora, no mas. Elegir una obra que ver si o si. Ver nuestro articulo sobre [museos mas visitados del mundo](/es/blog/museos-mas-visitados-mundo/).
+**1. Un museo al mes.** Al menos una hora, no más. Elegir una obra que ver sí o sí. Ver nuestro artículo sobre [museos más visitados del mundo](/es/blog/museos-mas-visitados-mundo/).
 
-**2. Visita guiada para ninos.** Los grandes museos ofrecen visitas adaptadas por edad.
+**2. Visita guiada para niños.** Los grandes museos ofrecen visitas adaptadas por edad.
 
-**3. Zoo.** Con una mision precisa: encontrar los 5 felinos, identificar 10 aves.
+**3. Zoo.** Con una misión precisa: encontrar los 5 felinos, identificar 10 aves.
 
-**4. Acuario.** Con un cuadernillo de observacion.
+**4. Acuario.** Con un cuadernillo de observación.
 
-**5. Planetario.** Descubrir astronomia, constelaciones, sistema solar.
+**5. Planetario.** Descubrir astronomía, constelaciones, sistema solar.
 
-**6. Un yacimiento prehistorico.** Atapuerca, Altamira: salir de los manuales.
+**6. Un yacimiento prehistórico.** Atapuerca, Altamira: salir de los manuales.
 
 **7. Un castillo medieval.** La historia se vuelve concreta.
 
-**8. Una catedral gotica.** Burgos, Leon, Toledo: arquitectura sublime.
+**8. Una catedral gótica.** Burgos, León, Toledo: arquitectura sublime.
 
-**9. Museo de ciencias naturales.** Esqueletos, fosiles, dioramas. Asombro garantizado.
+**9. Museo de ciencias naturales.** Esqueletos, fósiles, dioramas. Asombro garantizado.
 
-**10. Espacio de arte contemporaneo.** Reina Sofia, IVAM, MACBA. Quitar prejuicios.
+**10. Espacio de arte contemporáneo.** Reina Sofía, IVAM, MACBA. Quitar prejuicios.
 
 ## Actividades en casa
 
-**11. Noche de quiz cultural.** Un quiz de geografia, historia, arte o naturaleza. SAPIRO propone 2 000+ preguntas.
+**11. Noche de quiz cultural.** Un quiz de geografía, historia, arte o naturaleza. SAPIRO propone 2 000+ preguntas.
 
-**12. Lectura en voz alta.** Un libro por semana, leido por turnos.
+**12. Lectura en voz alta.** Un libro por semana, leído por turnos.
 
-**13. Documental comentado.** RTVE, BBC Earth, National Geographic. Discusion despues.
+**13. Documental comentado.** RTVE, BBC Earth, National Geographic. Discusión después.
 
-**14. Taller de dibujo de cuadro celebre.** Reproducir La Noche estrellada o Los Girasoles.
+**14. Taller de dibujo de cuadro célebre.** Reproducir La Noche estrellada o Los Girasoles.
 
-**15. Mapa mundial gigante en la pared.** Clavar chinchetas cuando se descubre un pais nuevo.
+**15. Mapa mundial gigante en la pared.** Clavar chinchetas cuando se descubre un país nuevo.
 
-**16. Linea de tiempo evolutiva.** Anadir una fecha por semana.
+**16. Línea de tiempo evolutiva.** Añadir una fecha por semana.
 
-**17. Caja de tesoros.** Cada nino colecciona objetos que cuentan una historia.
+**17. Caja de tesoros.** Cada niño colecciona objetos que cuentan una historia.
 
 ## Juegos y retos
 
-**18. La vuelta al mundo en quiz.** Una semana = un pais explorado (geografia, cocina, musica, bandera).
+**18. La vuelta al mundo en quiz.** Una semana = un país explorado (geografía, cocina, música, bandera).
 
-**19. El reto de las 100 aves.** Identificar 100 aves en el ano con prismaticos.
+**19. El reto de las 100 aves.** Identificar 100 aves en el año con prismáticos.
 
 **20. Bingo de obras de arte.** Durante una visita, marcar las obras encontradas en una lista preparada.
 
-**21. La caza de capitales.** Quince minutos al dia para aprender las capitales de un continente.
+**21. La caza de capitales.** Quince minutos al día para aprender las capitales de un continente.
 
 **22. Gran quiz de Navidad en familia.** Preparar un quiz personalizado para las fiestas.
 
 ## Viajes
 
-**23. Viaje tematico.** Roma para Antiguedad, Florencia para Renacimiento, Berlin para siglo XX.
+**23. Viaje temático.** Roma para Antigüedad, Florencia para Renacimiento, Berlín para siglo XX.
 
-**24. Eco-viaje.** Parques nacionales, observacion de fauna salvaje. La naturaleza como escuela.
+**24. Eco-viaje.** Parques nacionales, observación de fauna salvaje. La naturaleza como escuela.
 
-**25. Viaje gastronomico.** Aprender una cultura por su cocina.
+**25. Viaje gastronómico.** Aprender una cultura por su cocina.
 
 **26. Viaje musical.** Viena para Mozart, Salzburgo para Beethoven, Venecia para Vivaldi.
 
-**27. Senderismo historico.** Seguir una via romana, un camino de peregrinacion, una ruta historica.
+**27. Senderismo histórico.** Seguir una vía romana, un camino de peregrinación, una ruta histórica.
 
-## Concretos, faciles, gratis
+## Concretos, fáciles, gratis
 
-**28. Revista de prensa familiar.** Un articulo del diario leido y comentado juntos por semana.
+**28. Revista de prensa familiar.** Un artículo del diario leído y comentado juntos por semana.
 
-**29. Cuaderno de preguntas.** Un nino plantea una pregunta, se busca la respuesta juntos durante la semana.
+**29. Cuaderno de preguntas.** Un niño plantea una pregunta, se busca la respuesta juntos durante la semana.
 
-**30. Sesion de podcast.** Podcasts educativos para ninos en el coche o antes de dormir.
+**30. Sesión de podcast.** Podcasts educativos para niños en el coche o antes de dormir.
 
-Para profundizar: [geografia en familia](/es/blog/geografia-familia/) para profundizar en un area concreta.
+Para profundizar: [geografía en familia](/es/blog/geografia-familia/) para profundizar en un área concreta.
 
 <figure>
   <img src="/images/blog/famille/enfants-musee.jpg" alt="Niños visitando un museo" loading="lazy" />
   <figcaption>Foto: Unknown authorUnknown author · dominio público · Wikimedia Commons</figcaption>
 </figure>
-

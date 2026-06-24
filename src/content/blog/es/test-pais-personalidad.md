@@ -14,27 +14,27 @@ author: "SAPIRO"
 readingTime: 6
 ---
 
-Que pais se te parece? Aqui va un test ludico de 10 preguntas que cruza personalidad, valores y cultura para revelar el pais que mejor te corresponde.
+¿Qué país se te parece? Aquí va un test lúdico de 10 preguntas que cruza personalidad, valores y cultura para revelar el país que mejor te corresponde.
 
 ## El test
 
-Anota tu respuesta a cada pregunta, despues cuenta los puntos al final.
+Anota tu respuesta a cada pregunta, después cuenta los puntos al final.
 
-**1. Tu relacion con el tiempo.**
+**1. Tu relación con el tiempo.**
 - A) Siempre puntual
 - B) Flexible, depende del contexto
 - C) El tiempo es una sugerencia
 
-**2. Tu relacion con la naturaleza.**
+**2. Tu relación con la naturaleza.**
 - A) Me gusta la naturaleza pero soy urbano
 - B) La naturaleza es esencial en mi vida
 - C) Prefiero el confort urbano
 
 **3. Tu estilo culinario.**
-- A) Cocina refinada, atencion al detalle
+- A) Cocina refinada, atención al detalle
 - B) Platos generosos y conviviales
 - C) Saludable y ligero
-- D) Picante y aromatico
+- D) Picante y aromático
 
 **4. Tu enfoque del trabajo.**
 - A) Disciplina y estructura
@@ -42,84 +42,83 @@ Anota tu respuesta a cada pregunta, despues cuenta los puntos al final.
 - C) Equilibrio trabajo-vida
 
 **5. Tu fin de semana ideal.**
-- A) Cafe en terraza y museo
-- B) Senderismo en montana
+- A) Café en terraza y museo
+- B) Senderismo en montaña
 - C) Playa y relajo
 - D) Salida cultural con amigos
 
 **6. Tus valores prioritarios.**
-- A) Tradicion e historia
-- B) Innovacion y progreso
+- A) Tradición e historia
+- B) Innovación y progreso
 - C) Familia y comunidad
 - D) Libertad individual
 
-**7. Tu relacion con el dinero.**
+**7. Tu relación con el dinero.**
 - A) Ahorrador y previsor
 - B) Gastador y hedonista
-- C) Pragmatico y equilibrado
+- C) Pragmático y equilibrado
 
 **8. Tu lugar de vida ideal.**
 - A) Gran ciudad cosmopolita
 - B) Pueblo costero
 - C) Casa en el campo
-- D) Ciudad mediana historica
+- D) Ciudad mediana histórica
 
 **9. Tu frecuencia deportiva.**
-- A) Cada dia
+- A) Cada día
 - B) Varias veces por semana
 - C) Ocasionalmente
 - D) Raramente
 
-**10. Tu relacion con la espiritualidad.**
+**10. Tu relación con la espiritualidad.**
 - A) Muy importante
 - B) Presente pero discreto
-- C) Mas bien racionalista
-- D) Sin interes
+- C) Más bien racionalista
+- D) Sin interés
 
-## Los perfiles-pais
+## Los perfiles-país
 
 Cuenta tus A, B, C, D dominantes.
 
-**Perfil "Francia":** valores republicanos, espiritu critico, gastronomia, rechazo de la autoridad, arte de vivir, cafe en terraza, debates animados.
+**Perfil "Francia":** valores republicanos, espíritu crítico, gastronomía, rechazo de la autoridad, arte de vivir, café en terraza, debates animados.
 
-**Perfil "Italia":** familia, belleza, gastronomia hedonista, arte, dolce vita, expresividad.
+**Perfil "Italia":** familia, belleza, gastronomía hedonista, arte, dolce vita, expresividad.
 
-**Perfil "Japon":** disciplina, precision, estetica, respeto, tecnologia, cocina refinada, calma.
+**Perfil "Japón":** disciplina, precisión, estética, respeto, tecnología, cocina refinada, calma.
 
-**Perfil "Espana":** convivencia, fiesta, gastronomia compartida, tradicion catolica, siesta, sociabilidad.
+**Perfil "España":** convivencia, fiesta, gastronomía compartida, tradición católica, siesta, sociabilidad.
 
-**Perfil "Alemania":** organizacion, puntualidad, ecologia, ingenieria, racionalidad.
+**Perfil "Alemania":** organización, puntualidad, ecología, ingeniería, racionalidad.
 
-**Perfil "Suecia":** moderacion, equilibrio trabajo-vida, democracia social, diseno, ecologia, simplicidad.
+**Perfil "Suecia":** moderación, equilibrio trabajo-vida, democracia social, diseño, ecología, simplicidad.
 
-**Perfil "Brasil":** calor humano, musica, danza, playa, sonrisa, familia extensa.
+**Perfil "Brasil":** calor humano, música, danza, playa, sonrisa, familia extensa.
 
-**Perfil "Argentina":** [tango](https://es.wikipedia.org/wiki/Tango), carne, melancolia, orgullo, gauchos, espiritu de grupo.
+**Perfil "Argentina":** [tango](https://es.wikipedia.org/wiki/Tango), carne, melancolía, orgullo, gauchos, espíritu de grupo.
 
 **Perfil "Marruecos":** hospitalidad, cocina especiada, tradiciones familiares, arte de vivir, regateo.
 
-**Perfil "India":** espiritualidad, diversidad, intensidad, filosofia, cocina picante, contrastes.
+**Perfil "India":** espiritualidad, diversidad, intensidad, filosofía, cocina picante, contrastes.
 
-**Perfil "Canada":** cortesia, multiculturalismo, naturaleza, moderacion, invierno, ecologia.
+**Perfil "Canadá":** cortesía, multiculturalismo, naturaleza, moderación, invierno, ecología.
 
-**Perfil "Australia":** relajacion, deporte, playa, apertura, optimismo, naturaleza.
+**Perfil "Australia":** relajación, deporte, playa, apertura, optimismo, naturaleza.
 
-## Como interpretar
+## Cómo interpretar
 
-El pais espejo no es necesariamente donde querrias vivir. Es aquel cuyos valores culturales dominantes resuenan mas con tu personalidad.
+El país espejo no es necesariamente donde querrías vivir. Es aquel cuyos valores culturales dominantes resuenan más con tu personalidad.
 
-Mucha gente descubre que es culturalmente mas "japonesa" de lo que creia, o mas "italiana" pese a su origen nordico. La cultura nacional no es un destino biologico.
+Mucha gente descubre que es culturalmente más "japonesa" de lo que creía, o más "italiana" pese a su origen nórdico. La cultura nacional no es un destino biológico.
 
 ## Para profundizar
 
-Viajar al pais espejo revelado por el test puede ser una experiencia especial: a menudo uno se siente en armonia sin saber por que.
+Viajar al país espejo revelado por el test puede ser una experiencia especial: a menudo uno se siente en armonía sin saber por qué.
 
-SAPIRO propone quizzes para conocer mejor los 197 paises del mundo, su cultura, historia, geografia. Para profundizar: [paises menos visitados del mundo](/es/blog/paises-menos-visitados-mundo/) y [origen de los nombres de paises](/es/blog/origen-nombres-paises/).
+SAPIRO propone quizzes para conocer mejor los 197 países del mundo, su cultura, historia, geografía. Para profundizar: [países menos visitados del mundo](/es/blog/paises-menos-visitados-mundo/) y [origen de los nombres de países](/es/blog/origen-nombres-paises/).
 
-Este test es voluntariamente simplificado y ludico. Los estereotipos culturales son puntos de partida, nunca verdades absolutas. Cada pais alberga millones de personalidades distintas.
+Este test es voluntariamente simplificado y lúdico. Los estereotipos culturales son puntos de partida, nunca verdades absolutas. Cada país alberga millones de personalidades distintas.
 
 <figure>
   <img src="/images/blog/monde/carte-monde-ancienne.jpg" alt="Un mapa del mundo antiguo" loading="lazy" />
   <figcaption>Foto: Reginald Lane Poole · dominio público · Wikimedia Commons</figcaption>
 </figure>
-

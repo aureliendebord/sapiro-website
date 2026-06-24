@@ -14,108 +14,107 @@ author: "SAPIRO"
 readingTime: 6
 ---
 
-Los paises menos visitados del mundo reciben a veces menos de 5 000 turistas al ano. Aqui va el ranking de los destinos mas confidenciales con sus razones.
+Los países menos visitados del mundo reciben a veces menos de 5 000 turistas al año. Aquí va el ranking de los destinos más confidenciales con sus razones.
 
-## 1. Tuvalu (3 700 turistas al ano)
+## 1. Tuvalu (3 700 turistas al año)
 
-El pais menos visitado del mundo. [Cuarto pais mas pequeno por superficie](https://es.wikipedia.org/wiki/Tuvalu) (26 km²). Nueve atolones en el Pacifico. Poblacion: 11 000.
+El país menos visitado del mundo. [Cuarto país más pequeño por superficie](https://es.wikipedia.org/wiki/Tuvalu) (26 km²). Nueve atolones en el Pacífico. Población: 11 000.
 
-**Por que tan pocos visitantes?** Acceso muy dificil (un solo vuelo desde Fiyi dos veces por semana), infraestructura turistica limitada, precios altos.
+**¿Por qué tan pocos visitantes?** Acceso muy difícil (un solo vuelo desde Fiyi dos veces por semana), infraestructura turística limitada, precios altos.
 
-**Que ver.** El unico aeropuerto sirve de campo de futbol por la tarde. Ambiente pacifico unico.
+**Qué ver.** El único aeropuerto sirve de campo de fútbol por la tarde. Ambiente pacífico único.
 
-## 2. Kiribati (6 000 turistas al ano)
+## 2. Kiribati (6 000 turistas al año)
 
-33 atolones e islas en el Pacifico. A caballo del ecuador y la linea de cambio de fecha.
+33 atolones e islas en el Pacífico. A caballo del ecuador y la línea de cambio de fecha.
 
-**Por que tan pocos?** Enormes distancias entre islas, dificultad de acceso, subida del nivel del mar.
+**¿Por qué tan pocos?** Enormes distancias entre islas, dificultad de acceso, subida del nivel del mar.
 
-**Que ver.** Primer pais en ver el sol cada manana. Sitios de buceo excepcionales.
+**Qué ver.** Primer país en ver el sol cada mañana. Sitios de buceo excepcionales.
 
-## 3. Islas Marshall (6 100 turistas al ano)
+## 3. Islas Marshall (6 100 turistas al año)
 
-29 atolones y 5 islas aisladas en el Pacifico. Poblacion: 60 000.
+29 atolones y 5 islas aisladas en el Pacífico. Población: 60 000.
 
-**Por que tan pocos?** Muy aislado, legado de pruebas nucleares estadounidenses, infraestructura limitada.
+**¿Por qué tan pocos?** Muy aislado, legado de pruebas nucleares estadounidenses, infraestructura limitada.
 
-## 4. Santo Tome y Principe (8 000 turistas al ano)
+## 4. Santo Tomé y Príncipe (8 000 turistas al año)
 
-Dos islas frente a la costa de Gabon en Africa. Pais lusofono.
+Dos islas frente a la costa de Gabón en África. País lusófono.
 
-**Por que tan pocos?** Poco conocido, vuelos escasos, poca promocion turistica.
+**¿Por qué tan pocos?** Poco conocido, vuelos escasos, poca promoción turística.
 
-**Que ver.** Playas excepcionales, plantaciones de cacao, biodiversidad tropical.
+**Qué ver.** Playas excepcionales, plantaciones de cacao, biodiversidad tropical.
 
-## 5. Comoras (24 000 turistas al ano)
+## 5. Comoras (24 000 turistas al año)
 
-Archipielago entre el Este de Africa y Madagascar.
+Archipiélago entre el Este de África y Madagascar.
 
-**Por que tan pocos?** Inestabilidad politica pasada, infraestructura limitada.
+**¿Por qué tan pocos?** Inestabilidad política pasada, infraestructura limitada.
 
-## 6. Turkmenistan (8 000-12 000 turistas al ano)
+## 6. Turkmenistán (8 000-12 000 turistas al año)
 
-Republica de Asia Central, ex URSS. Regimen cerrado.
+República de Asia Central, ex URSS. Régimen cerrado.
 
-**Por que tan pocos?** Visado muy dificil de obtener. Pais extremadamente controlado politicamente.
+**¿Por qué tan pocos?** Visado muy difícil de obtener. País extremadamente controlado políticamente.
 
-**Que ver.** Asjabad con sus edificios de marmol blanco, el ["Crater de Darvaza"](https://es.wikipedia.org/wiki/Cr%C3%A1ter_de_Darvaza) (pozo de gas ardiendo desde hace 50 anos).
+**Qué ver.** Asjabad con sus edificios de mármol blanco, el ["Cráter de Darvaza"](https://es.wikipedia.org/wiki/Cr%C3%A1ter_de_Darvaza) (pozo de gas ardiendo desde hace 50 años).
 
-## 7. Butan (270 000 turistas al ano antes del Covid, mucho menos despues)
+## 7. Bután (270 000 turistas al año antes del Covid, mucho menos después)
 
-Reino del Himalaya entre India y China. Politica de turismo limitado con la "Sustainable Development Fee" (200 dolares/dia).
+Reino del Himalaya entre India y China. Política de turismo limitado con la "Sustainable Development Fee" (200 dólares/día).
 
-**Que ver.** Monasterios himalayos, incluido el famoso Nido del Tigre.
+**Qué ver.** Monasterios himalayos, incluido el famoso Nido del Tigre.
 
-## 8. Nauru (200 turistas al ano)
+## 8. Nauru (200 turistas al año)
 
-El pais insular mas pequeno del mundo (21 km²) y menos poblado tras el Vaticano.
+El país insular más pequeño del mundo (21 km²) y menos poblado tras el Vaticano.
 
-**Por que tan pocos?** Vuelos escasos, pocas atracciones, pais en gran parte destruido por la explotacion pasada de fosfato.
+**¿Por qué tan pocos?** Vuelos escasos, pocas atracciones, país en gran parte destruido por la explotación pasada de fosfato.
 
-## 9. Liechtenstein (90 000 turistas al ano)
+## 9. Liechtenstein (90 000 turistas al año)
 
 Microestado entre Suiza y Austria. 160 km².
 
-**Por que pocos pese a la proximidad europea?** Pequeno, muchos vienen solo por el dia desde Suiza sin contar como "visita".
+**¿Por qué pocos pese a la proximidad europea?** Pequeño, muchos vienen solo por el día desde Suiza sin contar como "visita".
 
-## 10. Eritrea (87 000 turistas al ano)
+## 10. Eritrea (87 000 turistas al año)
 
-En el Cuerno de Africa. Regimen autoritario que restringe mucho el turismo.
+En el Cuerno de África. Régimen autoritario que restringe mucho el turismo.
 
-## 11. Argelia (3,5 millones, pero pocos para su tamano)
+## 11. Argelia (3,5 millones, pero pocos para su tamaño)
 
-El pais mas grande de Africa. Politica turistica limitada hasta hace poco.
+El país más grande de África. Política turística limitada hasta hace poco.
 
-## Paises recientemente abiertos al turismo
+## Países recientemente abiertos al turismo
 
-**Arabia Saudi.** Politica de visado turistico inaugurada en 2019. Crecimiento rapido.
+**Arabia Saudí.** Política de visado turístico inaugurada en 2019. Crecimiento rápido.
 
-**Iran.** Abierto al turismo pero las sanciones occidentales complican.
+**Irán.** Abierto al turismo pero las sanciones occidentales complican.
 
-**Corea del Norte.** Algunos miles de turistas al ano, acompanamiento obligatorio.
+**Corea del Norte.** Algunos miles de turistas al año, acompañamiento obligatorio.
 
-## Por que visitar estos paises?
+## ¿Por qué visitar estos países?
 
 Tres razones.
 
-**Turismo alternativo.** Lejos de multitudes, experiencia autentica.
+**Turismo alternativo.** Lejos de multitudes, experiencia auténtica.
 
-**Apoyo economico directo.** Cuando un pais recibe pocos turistas, cada visita cuenta de verdad.
+**Apoyo económico directo.** Cuando un país recibe pocos turistas, cada visita cuenta de verdad.
 
-**Curiosidad geopolitica.** Entender culturas poco mediatizadas.
+**Curiosidad geopolítica.** Entender culturas poco mediatizadas.
 
 ## Precauciones
 
-**Documentacion.** Verificar visados, vacunas, seguridad.
+**Documentación.** Verificar visados, vacunas, seguridad.
 
 **Respeto.** Turismo responsable, no perturbar a comunidades locales.
 
-**Preparacion.** Sin infraestructura masiva, prever autonomia.
+**Preparación.** Sin infraestructura masiva, prever autonomía.
 
-Para profundizar: [paises mas pequenos del mundo](/es/blog/paises-mas-pequenos-mundo/) y [paises que ya no existen](/es/blog/paises-desaparecidos/) para explorar geografia poco conocida.
+Para profundizar: [países más pequeños del mundo](/es/blog/paises-mas-pequenos-mundo/) y [países que ya no existen](/es/blog/paises-desaparecidos/) para explorar geografía poco conocida.
 
 <figure>
   <img src="/images/blog/monde/globe-terrestre.jpg" alt="Un globo terráqueo antiguo" loading="lazy" />
   <figcaption>Foto: Henry James · dominio público · Wikimedia Commons</figcaption>
 </figure>
-

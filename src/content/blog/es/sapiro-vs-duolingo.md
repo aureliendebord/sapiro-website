@@ -14,53 +14,53 @@ author: "SAPIRO"
 readingTime: 5
 ---
 
-SAPIRO y Duolingo son dos apps de aprendizaje, pero en terrenos distintos. Duolingo ensena idiomas. SAPIRO desarrolla cultura general. Aqui van sus coincidencias y diferencias.
+SAPIRO y Duolingo son dos apps de aprendizaje, pero en terrenos distintos. Duolingo enseña idiomas. SAPIRO desarrolla cultura general. Aquí van sus coincidencias y diferencias.
 
 ## Lo que se aprende
 
-**Duolingo.** Aprendizaje de idiomas: ingles, espanol, aleman, italiano, mandarin, etc. Mas de 40 idiomas disponibles. Competencia linguistica: vocabulario, gramatica, conjugacion, escucha, expresion.
+**Duolingo.** Aprendizaje de idiomas: inglés, español, alemán, italiano, mandarín, etc. Más de 40 idiomas disponibles. Competencia lingüística: vocabulario, gramática, conjugación, escucha, expresión.
 
-**SAPIRO.** Aprendizaje de cultura general: geografia (197 paises, banderas, capitales), historia (500+ personajes), arte (553 obras), naturaleza (600 especies animales). Competencia factual y cultural.
+**SAPIRO.** Aprendizaje de cultura general: geografía (197 países, banderas, capitales), historia (500+ personajes), arte (553 obras), naturaleza (600 especies animales). Competencia factual y cultural.
 
-## El metodo
+## El método
 
-**Duolingo.** Gamificacion intensa: lecciones cortas, insignias, corazones, rachas, clasificaciones de amigos. Muy adictivo. Presion de la racha.
+**Duolingo.** Gamificación intensa: lecciones cortas, insignias, corazones, rachas, clasificaciones de amigos. Muy adictivo. Presión de la racha.
 
-**SAPIRO.** Formato quiz puro con explicacion didactica. Mas pedagogico, menos adictivo. Sin notificaciones agresivas. Ver nuestro articulo sobre [gamificacion del aprendizaje](/es/blog/gamificacion-educacion/).
+**SAPIRO.** Formato quiz puro con explicación didáctica. Más pedagógico, menos adictivo. Sin notificaciones agresivas. Ver nuestro artículo sobre [gamificación del aprendizaje](/es/blog/gamificacion-educacion/).
 
 ## La gratuidad
 
-**Duolingo.** Gratis con publicidad y limite de corazones (recarga larga tras errores). Super Duolingo (8 a 14 euros/mes) elimina eso.
+**Duolingo.** Gratis con publicidad y límite de corazones (recarga larga tras errores). Super Duolingo (8 a 14 euros/mes) elimina eso.
 
-**SAPIRO.** Gratis con todas las funcionalidades, sin publicidad, sin limite. Sapiro+ (1,99 euros/mes o 39,99 a vida) para funcionalidades extendidas.
+**SAPIRO.** Gratis con todas las funcionalidades, sin publicidad, sin límite. Sapiro+ (1,99 euros/mes o 39,99 a vida) para funcionalidades extendidas.
 
 ## La publicidad
 
-**Duolingo.** Mucha publicidad en la version gratuita. Puede ser pesado.
+**Duolingo.** Mucha publicidad en la versión gratuita. Puede ser pesado.
 
-**SAPIRO.** Cero publicidad. Ver nuestro articulo sobre [mejores apps educativas sin publicidad](/es/blog/mejores-apps-educativas-sin-publicidad/).
+**SAPIRO.** Cero publicidad. Ver nuestro artículo sobre [mejores apps educativas sin publicidad](/es/blog/mejores-apps-educativas-sin-publicidad/).
 
-## La recoleccion de datos
+## La recolección de datos
 
-**Duolingo.** Importante recoleccion de datos para personalizacion y publicidad. Cuenta obligatoria.
+**Duolingo.** Importante recolección de datos para personalización y publicidad. Cuenta obligatoria.
 
-**SAPIRO.** Sin recoleccion de datos. Sin cuenta obligatoria. Ver nuestro articulo sobre [apps de quiz sin recoleccion de datos](/es/blog/apps-quiz-sin-recoleccion-datos/).
+**SAPIRO.** Sin recolección de datos. Sin cuenta obligatoria. Ver nuestro artículo sobre [apps de quiz sin recolección de datos](/es/blog/apps-quiz-sin-recoleccion-datos/).
 
-## El publico objetivo
+## El público objetivo
 
 **Duolingo.** Aprendices de idiomas, todos los niveles. Adultos que quieren viajar, escolares en paralelo a clase, profesionales.
 
-**SAPIRO.** Curiosos de todas las edades. Familias, escolares, candidatos a oposicion, adultos en busca de cultura G.
+**SAPIRO.** Curiosos de todas las edades. Familias, escolares, candidatos a oposición, adultos en busca de cultura G.
 
-## Cuando usar uno u otro
+## Cuándo usar uno u otro
 
-**Duolingo si** quieres aprender un idioma desde cero o consolidar. Aprendizaje progresivo, estructurado, ludico pero repetitivo.
+**Duolingo si** quieres aprender un idioma desde cero o consolidar. Aprendizaje progresivo, estructurado, lúdico pero repetitivo.
 
-**SAPIRO si** quieres desarrollar tu cultura general (paises, historia, arte, naturaleza). Aprendizaje por quiz pedagogico.
+**SAPIRO si** quieres desarrollar tu cultura general (países, historia, arte, naturaleza). Aprendizaje por quiz pedagógico.
 
-## Pueden coexistir?
+## ¿Pueden coexistir?
 
-Si. Muchos usuarios combinan ambos: 15 minutos de idioma por la manana con Duolingo, 15 minutos de cultura G por la noche con SAPIRO. Son competencias complementarias, no competidoras.
+Sí. Muchos usuarios combinan ambos: 15 minutos de idioma por la mañana con Duolingo, 15 minutos de cultura G por la noche con SAPIRO. Son competencias complementarias, no competidoras.
 
 Para profundizar: [mejores apps de quiz cultura general](/es/blog/mejores-apps-quiz-cultura-general/).
 
@@ -68,4 +68,3 @@ Para profundizar: [mejores apps de quiz cultura general](/es/blog/mejores-apps-q
   <img src="/images/blog/apps/apprendre-mobile.jpg" alt="Aprender en el teléfono" loading="lazy" />
   <figcaption>Foto: Anastasiya Lvova · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
 </figure>
-

@@ -14,75 +14,74 @@ author: "SAPIRO"
 readingTime: 6
 ---
 
-Las oposiciones de policia, guardia civil y fuerzas armadas incluyen casi todas test tipo test sobre cultura general, logica, lengua y matematicas. Aqui va una guia para superarlas.
+Las oposiciones de policía, guardia civil y fuerzas armadas incluyen casi todas test tipo test sobre cultura general, lógica, lengua y matemáticas. Aquí va una guía para superarlas.
 
 ## Oposiciones implicadas
 
-**Policia Nacional.** Escala basica, escala ejecutiva. Test sobre cultura general, ortografia, psicotecnicos.
+**Policía Nacional.** Escala básica, escala ejecutiva. Test sobre cultura general, ortografía, psicotécnicos.
 
-**Guardia Civil.** Escala de cabos y guardias, escala de oficiales. Programa similar a Policia.
+**Guardia Civil.** Escala de cabos y guardias, escala de oficiales. Programa similar a Policía.
 
-**Fuerzas Armadas.** Tropa y marineria, suboficiales, oficiales (AGM, ENM, AGA). Niveles y contenidos varian.
+**Fuerzas Armadas.** Tropa y marinería, suboficiales, oficiales (AGM, ENM, AGA). Niveles y contenidos varían.
 
 **Instituciones Penitenciarias.** Cuerpo de Ayudantes. Test de cultura general.
 
-## Temario tipico
+## Temario típico
 
-**Cultura general.** Historia y geografia espanolas, instituciones, vida politica, actualidad. Ver nuestra [guia cultura general en oposiciones](/es/blog/cultura-general-oposiciones/).
+**Cultura general.** Historia y geografía españolas, instituciones, vida política, actualidad. Ver nuestra [guía cultura general en oposiciones](/es/blog/cultura-general-oposiciones/).
 
-**Lengua.** Ortografia, gramatica, vocabulario, conjugacion. A menudo eliminatorio.
+**Lengua.** Ortografía, gramática, vocabulario, conjugación. A menudo eliminatorio.
 
-**Matematicas.** Nivel ESO-Bachillerato. Porcentajes, proporciones, conversiones, geometria simple.
+**Matemáticas.** Nivel ESO-Bachillerato. Porcentajes, proporciones, conversiones, geometría simple.
 
-**Psicotecnicos.** Series numericas, series logicas, razonamiento espacial, memoria visual.
+**Psicotécnicos.** Series numéricas, series lógicas, razonamiento espacial, memoria visual.
 
-**Conocimientos especificos.** Para algunas oposiciones: historia de la institucion, valores, deontologia, derecho penal y procesal basico.
+**Conocimientos específicos.** Para algunas oposiciones: historia de la institución, valores, deontología, derecho penal y procesal básico.
 
-## Metodo eficaz
+## Método eficaz
 
 Cuatro principios.
 
-**Conocer el formato.** Cuantas preguntas, cuanto tiempo, puntos negativos o no. Muchos errores vienen de no conocer el formato.
+**Conocer el formato.** Cuántas preguntas, cuánto tiempo, puntos negativos o no. Muchos errores vienen de no conocer el formato.
 
-**Gestionar el tiempo.** Un minuto por pregunta de media. Detectar preguntas faciles y responderlas primero, luego volver a las dificiles.
+**Gestionar el tiempo.** Un minuto por pregunta de media. Detectar preguntas fáciles y responderlas primero, luego volver a las difíciles.
 
-**Dominar la lengua.** Una falta de ortografia o sintaxis cuesta mucho. Trabajar primero.
+**Dominar la lengua.** Una falta de ortografía o sintaxis cuesta mucho. Trabajar primero.
 
-**Entrenarse con quizzes a diario.** 15 minutos al dia durante 3 meses. SAPIRO propone 2 000+ preguntas de cultura general perfectas para este entrenamiento.
+**Entrenarse con quizzes a diario.** 15 minutos al día durante 3 meses. SAPIRO propone 2 000+ preguntas de cultura general perfectas para este entrenamiento.
 
-## La prueba fisica
+## La prueba física
 
-Inseparable de la preparacion. Carrera, flexiones, abdominales, circuito. Variable segun la oposicion y sexo del candidato. No descuidar: muchos candidatos validos fallan la fisica.
+Inseparable de la preparación. Carrera, flexiones, abdominales, circuito. Variable según la oposición y sexo del candidato. No descuidar: muchos candidatos válidos fallan la física.
 
-**Preparacion tipo:** 4 a 6 sesiones a la semana durante 4 meses minimo. Carrera larga, fraccionada, musculacion, abdos.
+**Preparación tipo:** 4 a 6 sesiones a la semana durante 4 meses mínimo. Carrera larga, fraccionada, musculación, abdos.
 
 ## La entrevista personal
 
-Para la mayoria de oposiciones, oral ante un tribunal. Preguntas frecuentes:
+Para la mayoría de oposiciones, oral ante un tribunal. Preguntas frecuentes:
 
-- Por que esta profesion?
-- Como te has preparado?
-- Como reaccionarias ante tal situacion?
-- Cual es tu vision de la institucion?
+- ¿Por qué esta profesión?
+- ¿Cómo te has preparado?
+- ¿Cómo reaccionarías ante tal situación?
+- ¿Cuál es tu visión de la institución?
 
-Preparacion: documentarse sobre la institucion, sus misiones, su historia reciente. Trabajar preguntas clasicas con un familiar.
+Preparación: documentarse sobre la institución, sus misiones, su historia reciente. Trabajar preguntas clásicas con un familiar.
 
 ## Trampas a evitar
 
 **Marcar al azar sin pensar.** Si no hay puntos negativos, vale. Si hay puntos negativos, cuidado. Leer las instrucciones.
 
-**Estres de la prueba fisica.** Prepararse metodicamente. La mayoria de candidatos sin prep deportiva fallan.
+**Estrés de la prueba física.** Prepararse metódicamente. La mayoría de candidatos sin prep deportiva fallan.
 
-**Subestimar la lengua.** La ortografia puede salvar o hundir un examen.
+**Subestimar la lengua.** La ortografía puede salvar o hundir un examen.
 
-**Descuidar la motivacion.** Los tribunales buscan candidatos comprometidos. Una respuesta sosa hunde el oral.
+**Descuidar la motivación.** Los tribunales buscan candidatos comprometidos. Una respuesta sosa hunde el oral.
 
 ## Para entrenarse
 
-SAPIRO propone quizzes de cultura general que cubren el temario tipico de los test. Sesiones de 15 minutos al dia para mantener regularidad. Para profundizar: [preparar una oposicion de acceso](/es/blog/preparar-oposicion-acceso-administracion/) y [como repasar en 30 dias](/es/blog/repasar-cultura-general-30-dias/).
+SAPIRO propone quizzes de cultura general que cubren el temario típico de los test. Sesiones de 15 minutos al día para mantener regularidad. Para profundizar: [preparar una oposición de acceso](/es/blog/preparar-oposicion-acceso-administracion/) y [cómo repasar en 30 días](/es/blog/repasar-cultura-general-30-dias/).
 
 <figure>
   <img src="/images/blog/apprentissage/bureau-revision.jpg" alt="Un escritorio de estudio con libros y apuntes" loading="lazy" />
   <figcaption>Foto: Miscellaneous Items in High Demand, PPOC, Library of Congress · dominio público · Wikimedia Commons</figcaption>
 </figure>
-

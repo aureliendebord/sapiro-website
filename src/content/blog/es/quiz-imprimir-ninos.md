@@ -14,94 +14,94 @@ author: "SAPIRO"
 readingTime: 5
 ---
 
-Los quizzes para imprimir siguen siendo una de las mejores herramientas para pasar un rato ludico aprendiendo. Aqui van modelos para reproducir, por tema y nivel, con buenas practicas.
+Los quizzes para imprimir siguen siendo una de las mejores herramientas para pasar un rato lúdico aprendiendo. Aquí van modelos para reproducir, por tema y nivel, con buenas prácticas.
 
-## Quiz de banderas nivel facil (6-8 anos)
+## Quiz de banderas nivel fácil (6-8 años)
 
 Preguntas simples con 4 opciones por bandera.
 
-1. Bandera de Espana: rojo y amarillo / azul y blanco / verde y blanco / negro y rojo.
+1. Bandera de España: rojo y amarillo / azul y blanco / verde y blanco / negro y rojo.
 
-2. La bandera de Japon muestra: un sol rojo sobre fondo blanco / una estrella / una luna / un dragon.
+2. La bandera de Japón muestra: un sol rojo sobre fondo blanco / una estrella / una luna / un dragón.
 
-3. La bandera de Canada muestra: una hoja de arce / un castor / una montana / un salmon.
+3. La bandera de Canadá muestra: una hoja de arce / un castor / una montaña / un salmón.
 
-Ver nuestro articulo sobre [significado de las banderas](/es/blog/significado-banderas/) para preparar preguntas.
+Ver nuestro artículo sobre [significado de las banderas](/es/blog/significado-banderas/) para preparar preguntas.
 
-## Quiz capitales nivel medio (9-11 anos)
+## Quiz capitales nivel medio (9-11 años)
 
-Una lista de paises, el nino escribe la capital.
+Una lista de países, el niño escribe la capital.
 
-1. Alemania — Berlin
+1. Alemania — Berlín
 2. Italia — Roma
-3. Francia — Paris
+3. Francia — París
 4. Reino Unido — Londres
-5. Japon — Tokio
-6. Rusia — Moscu
+5. Japón — Tokio
+6. Rusia — Moscú
 7. Brasil — Brasilia
-8. Canada — Ottawa
+8. Canadá — Ottawa
 9. Australia — Canberra
-10. Mexico — Ciudad de Mexico
+10. México — Ciudad de México
 
-Ver nuestro articulo sobre [quiz capitales del mundo](/es/blog/quiz-capitales-mundo/).
+Ver nuestro artículo sobre [quiz capitales del mundo](/es/blog/quiz-capitales-mundo/).
 
-## Quiz animales nivel facil (6-8 anos)
+## Quiz animales nivel fácil (6-8 años)
 
-Pregunta con ilustracion o descripcion, 3 opciones.
+Pregunta con ilustración o descripción, 3 opciones.
 
-1. El animal mas grande del mundo: elefante / jirafa / ballena azul.
+1. El animal más grande del mundo: elefante / jirafa / ballena azul.
 
-2. El animal que duerme hasta 20 horas al dia: koala / perezoso / gato.
+2. El animal que duerme hasta 20 horas al día: koala / perezoso / gato.
 
-3. El unico mamifero que pone huevos: canguro / ornitorrinco / murcielago.
+3. El único mamífero que pone huevos: canguro / ornitorrinco / murciélago.
 
-Ver nuestro articulo sobre [50 especies animales que reconocer](/es/blog/quiz-animales-especies-mundo/).
+Ver nuestro artículo sobre [50 especies animales que reconocer](/es/blog/quiz-animales-especies-mundo/).
 
 ## Quiz historia (primaria-ESO)
 
-Preguntas de nivel curriculo.
+Preguntas de nivel currículo.
 
-1. En que ano fue el descubrimiento de America? (1492)
+1. ¿En qué año fue el descubrimiento de América? (1492)
 
-2. Quien proclamo la Republica espanola en 1931? (Niceto Alcala-Zamora)
+2. ¿Quién proclamó la República española en 1931? (Niceto Alcalá-Zamora)
 
-3. En que ano cayo el muro de Berlin? (1989)
+3. ¿En qué año cayó el muro de Berlín? (1989)
 
-4. Quien fue el primer rey de la Espana unificada? (Carlos I / Carlos V)
+4. ¿Quién fue el primer rey de la España unificada? (Carlos I / Carlos V)
 
-5. En que ano se firmo la Constitucion espanola actual? (1978)
+5. ¿En qué año se firmó la Constitución española actual? (1978)
 
-Ver nuestro articulo sobre [quiz historia nivel examen](/es/blog/quiz-historia-examen/).
+Ver nuestro artículo sobre [quiz historia nivel examen](/es/blog/quiz-historia-examen/).
 
-## Quiz obras de arte (9-11 anos)
+## Quiz obras de arte (9-11 años)
 
-1. Quien pinto La Gioconda? (Leonardo da Vinci)
+1. ¿Quién pintó La Gioconda? (Leonardo da Vinci)
 
-2. Que pintor tuvo un famoso periodo azul? (Picasso)
+2. ¿Qué pintor tuvo un famoso período azul? (Picasso)
 
-3. Quien pinto Los Girasoles? (Van Gogh)
+3. ¿Quién pintó Los Girasoles? (Van Gogh)
 
-4. Que obra famosa esta en la Capilla Sixtina? (El techo de Miguel Angel)
+4. ¿Qué obra famosa está en la Capilla Sixtina? (El techo de Miguel Ángel)
 
-5. Donde esta Guernica de Picasso? (Madrid)
+5. ¿Dónde está Guernica de Picasso? (Madrid)
 
-Ver nuestro articulo sobre [30 cuadros celebres que conocer](/es/blog/cuadros-celebres-obras-maestras/).
+Ver nuestro artículo sobre [30 cuadros célebres que conocer](/es/blog/cuadros-celebres-obras-maestras/).
 
 ## Consejos para usar bien un quiz imprimible
 
-**Adaptar el nivel.** Si mas de la mitad de las preguntas son muy dificiles o muy faciles, el quiz no funciona. Probar unas preguntas primero.
+**Adaptar el nivel.** Si más de la mitad de las preguntas son muy difíciles o muy fáciles, el quiz no funciona. Probar unas preguntas primero.
 
-**Mezclar temas.** Un quiz solo de banderas cansa rapido. Alternar geo, historia, animales, artes.
+**Mezclar temas.** Un quiz solo de banderas cansa rápido. Alternar geo, historia, animales, artes.
 
-**Dar una explicacion despues.** El quiz sigue siendo pedagogico solo si se explica la respuesta correcta. Si no, es solo un test.
+**Dar una explicación después.** El quiz sigue siendo pedagógico solo si se explica la respuesta correcta. Si no, es solo un test.
 
-**Premiar con moderacion.** Una buena nota merece elogios pero no pago. La motivacion debe quedar intrinseca.
+**Premiar con moderación.** Una buena nota merece elogios pero no pago. La motivación debe quedar intrínseca.
 
-## Limites de los quizzes imprimibles
+## Límites de los quizzes imprimibles
 
-Limitados a un solo juego, poca variedad. Sin explicacion automatica. Sin progresion medible en el tiempo.
+Limitados a un solo juego, poca variedad. Sin explicación automática. Sin progresión medible en el tiempo.
 
-Para sesiones regulares, mejor una app dedicada. SAPIRO propone 2 000+ preguntas con explicacion didactica, sobre cuatro universos (geografia, historia, arte, naturaleza). Permite medir la progresion en el tiempo.
+Para sesiones regulares, mejor una app dedicada. SAPIRO propone 2 000+ preguntas con explicación didáctica, sobre cuatro universos (geografía, historia, arte, naturaleza). Permite medir la progresión en el tiempo.
 
 Para profundizar: [mejores apps de quiz cultura general](/es/blog/mejores-apps-quiz-cultura-general/).
 
@@ -109,4 +109,3 @@ Para profundizar: [mejores apps de quiz cultura general](/es/blog/mejores-apps-q
   <img src="/images/blog/famille/crayons-couleur.jpg" alt="Lápices de colores para responder el quiz" loading="lazy" />
   <figcaption>Foto: MichaelMaggs · CC BY-SA 3.0 · Wikimedia Commons</figcaption>
 </figure>
-

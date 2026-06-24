@@ -14,56 +14,55 @@ author: "SAPIRO"
 readingTime: 6
 ---
 
-La historia entra en el programa escolar en primaria y estructura la cultura general hasta el final de la secundaria. Aqui va una guia para ayudar a tu hijo a dominar el programa.
+La historia entra en el programa escolar en primaria y estructura la cultura general hasta el final de la secundaria. Aquí va una guía para ayudar a tu hijo a dominar el programa.
 
 ## Primaria: de la prehistoria a tiempos modernos
 
-**Temas estandar.** Primeras civilizaciones (Mesopotamia, Egipto), antiguedad griega y romana, Edad Media, Renacimiento, Ilustracion y revoluciones.
+**Temas estándar.** Primeras civilizaciones (Mesopotamia, Egipto), antigüedad griega y romana, Edad Media, Renacimiento, Ilustración y revoluciones.
 
-**Figuras que conocer.** Faraones, Pericles, Cesar, Carlomagno, Juana de Arco, Leonardo da Vinci, Napoleon.
+**Figuras que conocer.** Faraones, Pericles, César, Carlomagno, Juana de Arco, Leonardo da Vinci, Napoleón.
 
-**Fechas clave.** -3000 (escritura), -490 (Maraton), -44 (muerte de Cesar), 800 (Carlomagno emperador), 1492 (Colon), 1789 (Revolucion francesa), 1804 (Napoleon).
+**Fechas clave.** -3000 (escritura), -490 (Maratón), -44 (muerte de César), 800 (Carlomagno emperador), 1492 (Colón), 1789 (Revolución francesa), 1804 (Napoleón).
 
-Ver nuestro articulo sobre [la linea de tiempo mundial completa](/es/blog/linea-tiempo-historia-mundial/).
+Ver nuestro artículo sobre [la línea de tiempo mundial completa](/es/blog/linea-tiempo-historia-mundial/).
 
 ## Secundaria (ESO): siglos XIX a XXI
 
-**Temas estandar.** Revolucion industrial, colonizacion y descolonizacion, guerras mundiales, Guerra Fria, mundo contemporaneo, Espana contemporanea.
+**Temas estándar.** Revolución industrial, colonización y descolonización, guerras mundiales, Guerra Fría, mundo contemporáneo, España contemporánea.
 
-**Figuras que conocer.** Bolivar, Lincoln, Marie Curie, Churchill, Roosevelt, De Gaulle, Mandela, Martin Luther King, Franco, Suarez.
+**Figuras que conocer.** Bolívar, Lincoln, Marie Curie, Churchill, Roosevelt, De Gaulle, Mandela, Martin Luther King, Franco, Suárez.
 
-**Fechas clave.** 1812 (Constitucion de Cadiz), 1815 (Waterloo), 1898 (perdida de las colonias), 1914-1918, 1936-1939 (Guerra Civil), 1939-1945, 1975 (muerte de Franco), 1978 (Constitucion espanola), 1989 (caida del muro).
+**Fechas clave.** 1812 (Constitución de Cádiz), 1815 (Waterloo), 1898 (pérdida de las colonias), 1914-1918, 1936-1939 (Guerra Civil), 1939-1945, 1975 (muerte de Franco), 1978 (Constitución española), 1989 (caída del muro).
 
 ## Civilizaciones antiguas
 
 **Temas.** La larga historia de la humanidad, las migraciones, las primeras civilizaciones, los imperios antiguos.
 
-**Figuras que conocer.** Ramses II, Hammurabi, Pericles, Alejandro Magno, Julio Cesar, Augusto, Constantino.
+**Figuras que conocer.** Ramsés II, Hammurabi, Pericles, Alejandro Magno, Julio César, Augusto, Constantino.
 
-**Fechas clave.** -3,3 millones de anos (primeras herramientas), -10 000 (Neolitico), -3000 (escritura), -509 (Republica romana), 0 (Jesus), 476 (caida de Roma).
+**Fechas clave.** -3,3 millones de años (primeras herramientas), -10 000 (Neolítico), -3000 (escritura), -509 (República romana), 0 (Jesús), 476 (caída de Roma).
 
-## Metodo para ayudar a tu hijo
+## Método para ayudar a tu hijo
 
 Tres principios.
 
-**No sustituir al colegio en casa.** Complementar, no reemplazar. El maestro hace su trabajo. Tu enciendes la curiosidad.
+**No sustituir al colegio en casa.** Complementar, no reemplazar. El maestro hace su trabajo. Tú enciendes la curiosidad.
 
-**Vincular la historia a salidas.** Una visita a un castillo hace concreta la Edad Media. Un museo de historia da vida a la antiguedad.
+**Vincular la historia a salidas.** Una visita a un castillo hace concreta la Edad Media. Un museo de historia da vida a la antigüedad.
 
-**Usar quizzes.** [La ciencia del aprendizaje activo](/es/blog/gamificacion-educacion/) muestra que los ninos retienen 50% mejor con quizzes. SAPIRO propone 500+ personajes historicos con explicacion.
+**Usar quizzes.** [La ciencia del aprendizaje activo](/es/blog/gamificacion-educacion/) muestra que los niños retienen 50% mejor con quizzes. SAPIRO propone 500+ personajes históricos con explicación.
 
 ## Errores a evitar
 
-**La presion.** La historia debe dar ganas de saber mas, no crear bloqueo escolar.
+**La presión.** La historia debe dar ganas de saber más, no crear bloqueo escolar.
 
-**El atracon de fechas.** Mejor entender las secuencias que recitar listas.
+**El atracón de fechas.** Mejor entender las secuencias que recitar listas.
 
-**Confundir epocas.** Diferenciar bien Edad Media (siglos V-XV) y Renacimiento (XV-XVI), Imperio romano (Antiguedad) e Imperio frances (Napoleon).
+**Confundir épocas.** Diferenciar bien Edad Media (siglos V-XV) y Renacimiento (XV-XVI), Imperio romano (Antigüedad) e Imperio francés (Napoleón).
 
-Para profundizar: [linea de tiempo mundial](/es/blog/linea-tiempo-historia-mundial/) y [personajes historicos](/es/blog/personajes-historicos/).
+Para profundizar: [línea de tiempo mundial](/es/blog/linea-tiempo-historia-mundial/) y [personajes históricos](/es/blog/personajes-historicos/).
 
 <figure>
   <img src="/images/blog/famille/livres-histoire.jpg" alt="Libros de historia en una estantería" loading="lazy" />
   <figcaption>Foto: Tom Woodward from Richmond, VA, US · CC BY-SA 2.0 · Wikimedia Commons</figcaption>
 </figure>
-

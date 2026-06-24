@@ -14,35 +14,35 @@ author: "SAPIRO"
 readingTime: 5
 ---
 
-Los paises mas pequenos del mundo tienen menos de 1 000 km², menos que la superficie de Madrid (605 km²) para los mas minusculos. Aqui va el top 10.
+Los países más pequeños del mundo tienen menos de 1 000 km², menos que la superficie de Madrid (605 km²) para los más minúsculos. Aquí va el top 10.
 
 ## 1. Vaticano (0,49 km²)
 
-[El pais mas pequeno del mundo](https://es.wikipedia.org/wiki/Ciudad_del_Vaticano). 825 habitantes. Teocracia electiva dirigida por el Papa. Enclavado en Roma.
+[El país más pequeño del mundo](https://es.wikipedia.org/wiki/Ciudad_del_Vaticano). 825 habitantes. Teocracia electiva dirigida por el Papa. Enclavado en Roma.
 
-**Curiosidades.** Pais mas pequeno pero tambien el mas denso (1 700 hab/km²). Guardia Suiza Pontificia como ejercito.
+**Curiosidades.** País más pequeño pero también el más denso (1 700 hab/km²). Guardia Suiza Pontificia como ejército.
 
-## 2. Monaco (2,02 km²)
+## 2. Mónaco (2,02 km²)
 
-Principado mediterraneo. 36 000 habitantes. Monarquia constitucional de la familia Grimaldi desde 1297.
+Principado mediterráneo. 36 000 habitantes. Monarquía constitucional de la familia Grimaldi desde 1297.
 
-**Curiosidades.** Pais mas denso del mundo (18 000 hab/km²). Sin impuesto sobre la renta. Gran Premio de Formula 1 y Casino de Montecarlo.
+**Curiosidades.** País más denso del mundo (18 000 hab/km²). Sin impuesto sobre la renta. Gran Premio de Fórmula 1 y Casino de Montecarlo.
 
 ## 3. Nauru (21 km²)
 
-Isla del Pacifico. 12 000 habitantes. El pais insular mas pequeno.
+Isla del Pacífico. 12 000 habitantes. El país insular más pequeño.
 
-**Curiosidades.** Antigua riqueza por fosfato hizo del pais uno de los mas ricos del mundo en los anos 1970, despues colapso total tras el agotamiento.
+**Curiosidades.** Antigua riqueza por fosfato hizo del país uno de los más ricos del mundo en los años 1970, después colapso total tras el agotamiento.
 
 ## 4. Tuvalu (26 km²)
 
-Nueve atolones en el Pacifico. 11 000 habitantes.
+Nueve atolones en el Pacífico. 11 000 habitantes.
 
-**Curiosidades.** Pais mas expuesto a la subida del nivel del mar. El dominio internet .tv le aporta ingresos importantes (vendido por millones).
+**Curiosidades.** País más expuesto a la subida del nivel del mar. El dominio internet .tv le aporta ingresos importantes (vendido por millones).
 
 ## 5. San Marino (61 km²)
 
-Enclavado en Italia. 33 000 habitantes. Una de las republicas mas antiguas del mundo, [fundada en 301](https://es.wikipedia.org/wiki/San_Marino).
+Enclavado en Italia. 33 000 habitantes. Una de las repúblicas más antiguas del mundo, [fundada en 301](https://es.wikipedia.org/wiki/San_Marino).
 
 **Curiosidades.** Tres fortalezas medievales accesibles a pie.
 
@@ -50,25 +50,25 @@ Enclavado en Italia. 33 000 habitantes. Una de las republicas mas antiguas del m
 
 Entre Suiza y Austria. 39 000 habitantes.
 
-**Curiosidades.** Monarquia constitucional. Pais mas rico del mundo por PIB per capita.
+**Curiosidades.** Monarquía constitucional. País más rico del mundo por PIB per cápita.
 
 ## 7. Islas Marshall (181 km²)
 
-29 atolones en el Pacifico. 60 000 habitantes. Pacto de libre asociacion con EEUU.
+29 atolones en el Pacífico. 60 000 habitantes. Pacto de libre asociación con EEUU.
 
-## 8. San Cristobal y Nieves (261 km²)
+## 8. San Cristóbal y Nieves (261 km²)
 
-Dos islas en el Caribe. 47 000 habitantes. Pais mas pequeno de las Americas.
+Dos islas en el Caribe. 47 000 habitantes. País más pequeño de las Américas.
 
 ## 9. Maldivas (298 km²)
 
-26 atolones en el oceano Indico. 540 000 habitantes. Tambien el pais mas plano (altitud maxima 2,4 metros).
+26 atolones en el océano Índico. 540 000 habitantes. También el país más plano (altitud máxima 2,4 metros).
 
 ## 10. Malta (316 km²)
 
-Isla mediterranea. 530 000 habitantes. Miembro de la UE.
+Isla mediterránea. 530 000 habitantes. Miembro de la UE.
 
-## Paises ligeramente mas grandes que conocer
+## Países ligeramente más grandes que conocer
 
 **Granada (344 km²).** Caribe.
 
@@ -78,30 +78,29 @@ Isla mediterranea. 530 000 habitantes. Miembro de la UE.
 
 **Antigua y Barbuda (442 km²).** Caribe.
 
-**Andorra (468 km²).** Entre Francia y Espana.
+**Andorra (468 km²).** Entre Francia y España.
 
-## Por que paises tan pequenos?
+## ¿Por qué países tan pequeños?
 
-Tres razones historicas.
+Tres razones históricas.
 
-**Herencia medieval.** Vaticano, San Marino, Monaco, Liechtenstein son reliquias de fragmentaciones politicas antiguas.
+**Herencia medieval.** Vaticano, San Marino, Mónaco, Liechtenstein son reliquias de fragmentaciones políticas antiguas.
 
-**Geografia insular.** Muchos de los paises mas pequenos son islas o archipielagos, necesariamente limitados por su geografia.
+**Geografía insular.** Muchos de los países más pequeños son islas o archipiélagos, necesariamente limitados por su geografía.
 
-**Descolonizacion.** Para el Caribe sobre todo, la independencia creo pequenos estados estables sobre islas modestas.
+**Descolonización.** Para el Caribe sobre todo, la independencia creó pequeños estados estables sobre islas modestas.
 
-## Comparaciones utiles
+## Comparaciones útiles
 
-- Vaticano = Plaza de Espana de Madrid x 6
-- Monaco = Casa de Campo de Madrid en superficie
+- Vaticano = Plaza de España de Madrid x 6
+- Mónaco = Casa de Campo de Madrid en superficie
 - San Marino = Manhattan aproximadamente
 - Liechtenstein = Madrid intramuros aproximadamente
 - Malta = 3 veces la ciudad de Granada
 
-Para profundizar: [paises menos visitados del mundo](/es/blog/paises-menos-visitados-mundo/) y [paises que ya no existen](/es/blog/paises-desaparecidos/) para continuar.
+Para profundizar: [países menos visitados del mundo](/es/blog/paises-menos-visitados-mundo/) y [países que ya no existen](/es/blog/paises-desaparecidos/) para continuar.
 
 <figure>
   <img src="/images/blog/monde/carte-monde-ancienne.jpg" alt="Un mapa del mundo antiguo" loading="lazy" />
   <figcaption>Foto: Reginald Lane Poole · dominio público · Wikimedia Commons</figcaption>
 </figure>
-

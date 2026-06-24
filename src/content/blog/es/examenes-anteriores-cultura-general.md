@@ -14,57 +14,57 @@ author: "SAPIRO"
 readingTime: 6
 ---
 
-Trabajar con examenes anteriores es uno de los metodos mas eficaces para preparar una oposicion. Aqui va donde encontrar examenes, correcciones, y como aprovecharlos al maximo.
+Trabajar con exámenes anteriores es uno de los métodos más eficaces para preparar una oposición. Aquí va dónde encontrar exámenes, correcciones, y cómo aprovecharlos al máximo.
 
 ## Fuentes oficiales
 
-**Boletines oficiales.** El BOE y los boletines autonomicos publican las convocatorias y a menudo los temarios y modelos de examen.
+**Boletines oficiales.** El BOE y los boletines autonómicos publican las convocatorias y a menudo los temarios y modelos de examen.
 
-**Webs ministeriales.** Cada ministerio publica los examenes de sus oposiciones: Educacion para magisterio, Hacienda para inspectores, Interior para policia y guardia civil.
+**Webs ministeriales.** Cada ministerio publica los exámenes de sus oposiciones: Educación para magisterio, Hacienda para inspectores, Interior para policía y guardia civil.
 
-**Universidad y EvAU.** Las consejerias autonomicas publican los examenes de Selectividad por convocatoria y materia.
+**Universidad y EvAU.** Las consejerías autonómicas publican los exámenes de Selectividad por convocatoria y materia.
 
-**Centros oficiales.** El INAP (Instituto Nacional de Administracion Publica) recopila examenes de oposiciones estatales.
+**Centros oficiales.** El INAP (Instituto Nacional de Administración Pública) recopila exámenes de oposiciones estatales.
 
 ## Libros recomendados
 
-Las editoriales especializadas (CEP, MAD, Adams, Cep Editorial) publican cada ano colecciones de examenes con correcciones detalladas.
+Las editoriales especializadas (CEP, MAD, Adams, Cep Editorial) publican cada año colecciones de exámenes con correcciones detalladas.
 
-Para Grupos B/C: *Test de cultura general para oposiciones* (Adams), *Examenes resueltos de cultura general* (MAD).
+Para Grupos B/C: *Test de cultura general para oposiciones* (Adams), *Exámenes resueltos de cultura general* (MAD).
 
-Para Grupo A: manuales especificos por oposicion (acceso al cuerpo de tecnicos, gestores, etc.).
+Para Grupo A: manuales específicos por oposición (acceso al cuerpo de técnicos, gestores, etc.).
 
 ## Foros y ayuda entre opositores
 
-Foros y grupos online reunen a candidatos que comparten examenes, experiencias y consejos.
+Foros y grupos online reúnen a candidatos que comparten exámenes, experiencias y consejos.
 
-**Redes sociales.** Grupos de Facebook por oposicion especifica, hashtags de Twitter, canales de YouTube dedicados a preparar oposiciones.
+**Redes sociales.** Grupos de Facebook por oposición específica, hashtags de Twitter, canales de YouTube dedicados a preparar oposiciones.
 
-## Como usar los examenes anteriores
+## Cómo usar los exámenes anteriores
 
-**Primera lectura.** Leer el examen sin responder, despues la correccion. Entender lo que se pide.
+**Primera lectura.** Leer el examen sin responder, después la corrección. Entender lo que se pide.
 
-**Simulacion en tiempo real.** Rehacer el examen en condiciones (tiempo, sin ayuda). Despues comparar con la correccion.
+**Simulación en tiempo real.** Rehacer el examen en condiciones (tiempo, sin ayuda). Después comparar con la corrección.
 
-**Analisis de errores.** Clasificar cada error por tipo: laguna de conocimiento, metodo fallido, mala lectura del enunciado, gestion del tiempo.
+**Análisis de errores.** Clasificar cada error por tipo: laguna de conocimiento, método fallido, mala lectura del enunciado, gestión del tiempo.
 
-**Compilacion tematica.** Sobre cinco anos de examenes, detectar los temas recurrentes. Util para orientar el repaso.
+**Compilación temática.** Sobre cinco años de exámenes, detectar los temas recurrentes. Útil para orientar el repaso.
 
-## Limites de los examenes anteriores
+## Límites de los exámenes anteriores
 
-Los examenes anteriores preparan a un formato pero no a una pregunta especifica. Una pregunta nunca cae dos veces igual. El metodo se transfiere, el contenido no.
+Los exámenes anteriores preparan a un formato pero no a una pregunta específica. Una pregunta nunca cae dos veces igual. El método se transfiere, el contenido no.
 
-La actualidad cambia. Un examen de 2018 trata temas desfasados. Completar con repaso de prensa del ano en curso.
+La actualidad cambia. Un examen de 2018 trata temas desfasados. Completar con repaso de prensa del año en curso.
 
-## Metodo completo
+## Método completo
 
 Tres pilares.
 
-**Examenes anteriores + metodo + actualidad.** Los tres juntos. Ninguno basta solo.
+**Exámenes anteriores + método + actualidad.** Los tres juntos. Ninguno basta solo.
 
-**Quizzes para memorizar.** Ver nuestro articulo sobre [gamificacion del aprendizaje](/es/blog/gamificacion-educacion/). SAPIRO propone 2 000+ preguntas de cultura general perfectas para sesiones cortas diarias.
+**Quizzes para memorizar.** Ver nuestro artículo sobre [gamificacion del aprendizaje](/es/blog/gamificacion-educacion/). SAPIRO propone 2 000+ preguntas de cultura general perfectas para sesiones cortas diarias.
 
-**Intercambios humanos.** Encontrar un companero de oposicion o un mentor. Gratis y acelera el aprendizaje.
+**Intercambios humanos.** Encontrar un compañero de oposición o un mentor. Gratis y acelera el aprendizaje.
 
 Para profundizar: [cultura general en oposiciones publicas](/es/blog/cultura-general-oposiciones/) y [como repasar en 30 dias](/es/blog/repasar-cultura-general-30-dias/).
 
@@ -72,4 +72,3 @@ Para profundizar: [cultura general en oposiciones publicas](/es/blog/cultura-gen
   <img src="/images/blog/apprentissage/bureau-revision.jpg" alt="Un escritorio de estudio con libros y apuntes" loading="lazy" />
   <figcaption>Foto: Miscellaneous Items in High Demand, PPOC, Library of Congress · dominio público · Wikimedia Commons</figcaption>
 </figure>
-

@@ -14,59 +14,59 @@ author: "SAPIRO"
 readingTime: 6
 ---
 
-Ensenar los paises del mundo a un nino no es cuestion de atracon. Es un trabajo paciente que empieza pronto, en pequenos toques, que transforma la curiosidad natural en saber solido. Aqui va como hacerlo por tramo de edad.
+Enseñar los países del mundo a un niño no es cuestión de atracón. Es un trabajo paciente que empieza pronto, en pequeños toques, que transforma la curiosidad natural en saber sólido. Aquí va cómo hacerlo por tramo de edad.
 
-## 3 a 5 anos: los continentes
+## 3 a 5 años: los continentes
 
-El nino puede reconocer los seis continentes y algunos paises imagen. Nada mas.
+El niño puede reconocer los seis continentes y algunos países imagen. Nada más.
 
-**Continentes a introducir.** Africa, America del Norte, America del Sur, Europa, Asia, Oceania, Antartida.
+**Continentes a introducir.** África, América del Norte, América del Sur, Europa, Asia, Oceanía, Antártida.
 
-**Paises imagen.** Espana (Sagrada Familia / toros), Francia (Torre Eiffel), EEUU (Estatua de la Libertad), Egipto (piramides), Italia (bota/pizza), Japon (Monte Fuji/sushi), China (Gran Muralla), Brasil (Cristo de Rio), Australia (canguro).
+**Países imagen.** España (Sagrada Familia / toros), Francia (Torre Eiffel), EEUU (Estatua de la Libertad), Egipto (pirámides), Italia (bota/pizza), Japón (Monte Fuji/sushi), China (Gran Muralla), Brasil (Cristo de Río), Australia (canguro).
 
-**Herramientas.** Globo terraqueo adaptado, puzzle de continentes, libros con imagenes, aplicaciones con sonidos.
+**Herramientas.** Globo terráqueo adaptado, puzzle de continentes, libros con imágenes, aplicaciones con sonidos.
 
-## 6 a 8 anos: paises y banderas
+## 6 a 8 años: países y banderas
 
-El nino puede asociar 20 a 30 paises a su bandera, capital, posicion en el mapa.
+El niño puede asociar 20 a 30 países a su bandera, capital, posición en el mapa.
 
-**Paises prioritarios.** Paises vecinos (Portugal, Francia, Marruecos), grandes potencias (EEUU, China, Rusia, Japon, India, Brasil), paises culturalmente famosos (Egipto, Grecia, Mexico, Australia).
+**Países prioritarios.** Países vecinos (Portugal, Francia, Marruecos), grandes potencias (EEUU, China, Rusia, Japón, India, Brasil), países culturalmente famosos (Egipto, Grecia, México, Australia).
 
-**Banderas faciles.** Alemania, Italia, Mexico, Argentina, Japon. Ver nuestro articulo sobre [significado de las banderas](/es/blog/significado-banderas/).
+**Banderas fáciles.** Alemania, Italia, México, Argentina, Japón. Ver nuestro artículo sobre [significado de las banderas](/es/blog/significado-banderas/).
 
 **Herramientas.** Quizzes de banderas, mapa mundial de pared, atlas ilustrado.
 
-## 9 a 11 anos: toda Europa
+## 9 a 11 años: toda Europa
 
-El nino puede dominar todos los paises europeos con capitales y banderas, mas los paises mayores de otros continentes.
+El niño puede dominar todos los países europeos con capitales y banderas, más los países mayores de otros continentes.
 
-**Etapa clave.** Aprender los 27 paises de la UE mas los no UE (Noruega, Suiza, Reino Unido, etc.).
+**Etapa clave.** Aprender los 27 países de la UE más los no UE (Noruega, Suiza, Reino Unido, etc.).
 
-**Herramientas.** SAPIRO propone quizzes especificos por continente con explicacion didactica detras de cada pregunta. Para profundizar: [geografia para ninos](/es/blog/geografia-ninos/).
+**Herramientas.** SAPIRO propone quizzes específicos por continente con explicación didáctica detrás de cada pregunta. Para profundizar: [geografia para niños](/es/blog/geografia-ninos/).
 
-## 12 anos en adelante: todos los paises del mundo
+## 12 años en adelante: todos los países del mundo
 
-A esta edad, el nino puede dominar los 197 paises reconocidos, con capitales y banderas, mas los retos geopoliticos basicos.
+A esta edad, el niño puede dominar los 197 países reconocidos, con capitales y banderas, más los retos geopolíticos básicos.
 
-**Etapa clave.** Identificar en un mapa mudo los paises por region.
+**Etapa clave.** Identificar en un mapa mudo los países por región.
 
-**Mas alla.** Geografia economica, clima, demografia. Cruce con la actualidad.
+**Más allá.** Geografía económica, clima, demografía. Cruce con la actualidad.
 
-## Metodo eficaz
+## Método eficaz
 
-**Quince minutos al dia, no mas.** La constancia gana a la intensidad. Cinco minutos en el desayuno, cinco en el coche, cinco antes de dormir.
+**Quince minutos al día, no más.** La constancia gana a la intensidad. Cinco minutos en el desayuno, cinco en el coche, cinco antes de dormir.
 
-**Vincular a la actualidad.** Ucrania = Rusia + Europa del Este. Mundial de futbol = paises clasificados. Viaje = pais visitado y vecinos. El contexto fija la memoria.
+**Vincular a la actualidad.** Ucrania = Rusia + Europa del Este. Mundial de fútbol = países clasificados. Viaje = país visitado y vecinos. El contexto fija la memoria.
 
-**Quiz como herramienta principal.** [La ciencia del aprendizaje activo](/es/blog/gamificacion-educacion/) muestra que los ninos retienen 50% mejor con quizzes que con lectura pasiva. SAPIRO cubre 197 paises con banderas y capitales.
+**Quiz como herramienta principal.** [La ciencia del aprendizaje activo](/es/blog/gamificacion-educacion/) muestra que los niños retienen 50% mejor con quizzes que con lectura pasiva. SAPIRO cubre 197 países con banderas y capitales.
 
 ## Errores a evitar
 
 **Imponer.** El aprendizaje forzado mata la curiosidad. Mejor menos aprendizaje pero gozoso.
 
-**Atracon antes del colegio.** Aprender no es lo mismo que memorizar. Entender donde esta un pais vale mas que recitar una lista.
+**Atracón antes del colegio.** Aprender no es lo mismo que memorizar. Entender dónde está un país vale más que recitar una lista.
 
-**Confundir paises tramposos.** Eslovaquia/Eslovenia, Austria/Australia. Hacer la diferencia clara desde el principio.
+**Confundir países tramposos.** Eslovaquia/Eslovenia, Austria/Australia. Hacer la diferencia clara desde el principio.
 
 Para profundizar: [geografia en familia](/es/blog/geografia-familia/) para transformar el aprendizaje en momento compartido.
 
@@ -74,4 +74,3 @@ Para profundizar: [geografia en familia](/es/blog/geografia-familia/) para trans
   <img src="/images/blog/famille/globe-enfant.jpg" alt="Un globo terráqueo para descubrir los países" loading="lazy" />
   <figcaption>Foto: Shixart1985 · CC BY 2.0 · Wikimedia Commons</figcaption>
 </figure>
-

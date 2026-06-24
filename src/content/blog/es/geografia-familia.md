@@ -14,91 +14,91 @@ author: "SAPIRO"
 readingTime: 7
 ---
 
-El abuelo dice Estambul. Tu hijo de diez anos grita Ankara. El abuelo protesta. Tu hijo tiene razon. Y toda la mesa se rie. Eso es un quiz geografia en familia: el momento en que un nino le gana a un adulto con un dato que aprendio en una app, y el adulto descubre que lleva treinta anos equivocado. Risas, debates, algun "no me lo creo" y, de paso, todo el mundo aprende algo. Aqui tienes todo lo que necesitas para montar una.
+El abuelo dice Estambul. Tu hijo de diez años grita Ankara. El abuelo protesta. Tu hijo tiene razón. Y toda la mesa se ríe. Eso es un quiz geografía en familia: el momento en que un niño le gana a un adulto con un dato que aprendió en una app, y el adulto descubre que lleva treinta años equivocado. Risas, debates, algún "no me lo creo" y, de paso, todo el mundo aprende algo. Aquí tienes todo lo que necesitas para montar una.
 
-## Por que la geografia funciona tan bien en un quiz familiar?
+## ¿Por qué la geografía funciona tan bien en un quiz familiar?
 
-La geografia tiene algo que otros temas no tienen: cualquiera puede jugar, pero nadie domina todo. Un nino de seis anos reconoce la bandera de Brasil. Un adolescente sabe que la capital de Australia es Canberra y no Sydney (uno de los [errores de geografia mas comunes](/es/blog/errores-geografia/)). Un adulto conoce las capitales de Asia Central. Cada uno juega a su nivel, y todos participan.
+La geografía tiene algo que otros temas no tienen: cualquiera puede jugar, pero nadie domina todo. Un niño de seis años reconoce la bandera de Brasil. Un adolescente sabe que la capital de Australia es Canberra y no Sydney (uno de los [errores de geografía más comunes](/es/blog/errores-geografia/)). Un adulto conoce las capitales de Asia Central. Cada uno juega a su nivel, y todos participan.
 
-Ademas, es visual. Con 195 paises reconocidos por la ONU y miles de datos curiosos para descubrir, un quiz de geografia no es una sucesion de preguntas leidas en voz alta. Puedes proyectar imagenes en la tele, imprimir fichas con banderas, sacar el globo terraqueo del estante. Los ninos pequenos se mantienen enganchados y los mayores disfrutan mas.
+Además, es visual. Con 195 países reconocidos por la ONU y miles de datos curiosos para descubrir, un quiz de geografía no es una sucesión de preguntas leídas en voz alta. Puedes proyectar imágenes en la tele, imprimir fichas con banderas, sacar el globo terráqueo del estante. Los niños pequeños se mantienen enganchados y los mayores disfrutan más.
 
-Y genera conversacion. Cuando alguien dice "la capital de Sudafrica es Johannesburgo" y resulta que tiene tres capitales (Pretoria, Ciudad del Cabo y Bloemfontein), se abre un debate: por que un pais tiene tres capitales? Esos momentos de descubrimiento compartido son lo mejor de una noche de quiz.
+Y genera conversación. Cuando alguien dice "la capital de Sudáfrica es Johannesburgo" y resulta que tiene tres capitales (Pretoria, Ciudad del Cabo y Bloemfontein), se abre un debate: ¿por qué un país tiene tres capitales? Esos momentos de descubrimiento compartido son lo mejor de una noche de quiz.
 
-## Preparacion: los elementos esenciales
+## Preparación: los elementos esenciales
 
-No hace falta preparar nada durante horas. Con treinta minutos de organizacion previa, la diferencia entre una velada memorable y una improvisacion frustrante es enorme.
+No hace falta preparar nada durante horas. Con treinta minutos de organización previa, la diferencia entre una velada memorable y una improvisación frustrante es enorme.
 
-El espacio: una habitacion comoda donde todos quepan. Si tienes tele o proyector, usalos para mostrar preguntas, mapas e imagenes. Una pizarra o un papel grande sirve para llevar la puntuacion a la vista. Buena luz y espacio suficiente para que los equipos puedan cuchichear sin que les oigan.
+El espacio: una habitación cómoda donde todos quepan. Si tienes tele o proyector, úsalos para mostrar preguntas, mapas e imágenes. Una pizarra o un papel grande sirve para llevar la puntuación a la vista. Buena luz y espacio suficiente para que los equipos puedan cuchichear sin que les oigan.
 
-Los equipos: mezcla adultos y ninos. El abuelo que viajo por Europa, el padre que ve documentales, el nino que juega con mapas en la tablet... cada uno aporta algo. Equipos de 2 a 4 personas funcionan bien. La mezcla intergeneracional equilibra el nivel y genera momentos muy buenos.
+Los equipos: mezcla adultos y niños. El abuelo que viajó por Europa, el padre que ve documentales, el niño que juega con mapas en la tablet... cada uno aporta algo. Equipos de 2 a 4 personas funcionan bien. La mezcla intergeneracional equilibra el nivel y genera momentos muy buenos.
 
-Las preguntas: prepara entre 40 y 60, divididas en rondas tematicas. Mas abajo tienes ideas concretas. Lo importante es incluir diferentes niveles de dificultad para que todos tengan su momento de gloria.
+Las preguntas: prepara entre 40 y 60, divididas en rondas temáticas. Más abajo tienes ideas concretas. Lo importante es incluir diferentes niveles de dificultad para que todos tengan su momento de gloria.
 
-Los premios: no hace falta gastarse dinero. Un trofeo casero, el derecho a elegir la pelicula de la proxima noche familiar, una corona de carton, un certificado impreso de "Campeones de Geografia"... los premios simples funcionan sorprendentemente bien.
+Los premios: no hace falta gastarse dinero. Un trofeo casero, el derecho a elegir la película de la próxima noche familiar, una corona de cartón, un certificado impreso de "Campeones de Geografía"... los premios simples funcionan sorprendentemente bien.
 
 ## Formato y reglas del quiz
 
 Un buen quiz necesita reglas claras y un ritmo que no decaiga. Esta estructura funciona.
 
-Ronda 1, banderas del mundo (10 preguntas): muestra banderas y los equipos identifican el pais. Empieza facil (Francia, Japon, Brasil) y sube la dificultad. Para las ultimas, mete banderas que se confunden entre si, como esas parejas casi identicas que analizamos en nuestro articulo sobre los [drapeaux mas dificiles del mundo](/es/blog/banderas-dificiles/). Un punto por acierto.
+Ronda 1, banderas del mundo (10 preguntas): muestra banderas y los equipos identifican el país. Empieza fácil (Francia, Japón, Brasil) y sube la dificultad. Para las últimas, mete banderas que se confunden entre sí, como esas parejas casi idénticas que analizamos en nuestro artículo sobre los [drapeaux más difíciles del mundo](/es/blog/banderas-dificiles/). Un punto por acierto.
 
-Ronda 2, capitales (10 preguntas): nombras un pais, los equipos escriben la capital. Incluye las trampas clasicas: Australia (Canberra, no Sydney), Turquia (Ankara, no Estambul), Brasil (Brasilia, no Rio). Un punto por acierto.
+Ronda 2, capitales (10 preguntas): nombras un país, los equipos escriben la capital. Incluye las trampas clásicas: Australia (Canberra, no Sydney), Turquía (Ankara, no Estambul), Brasil (Brasilia, no Río). Un punto por acierto.
 
-Ronda 3, ubica en el mapa (10 preguntas): mapa mudo en pantalla o impreso, y los equipos colocan paises, rios o montanas. Es la ronda mas visual y la que mas gritos provoca. Dos puntos por acierto, porque es mas dificil.
+Ronda 3, ubica en el mapa (10 preguntas): mapa mudo en pantalla o impreso, y los equipos colocan países, ríos o montañas. Es la ronda más visual y la que más gritos provoca. Dos puntos por acierto, porque es más difícil.
 
-Ronda 4, cultura y curiosidades (10 preguntas): tradiciones, gastronomia, monumentos, idiomas, datos raros. Esta ronda va mas alla de la geografia pura y conecta con la [cultura general](/es/blog/cultura-general-guia/). Un punto por acierto.
+Ronda 4, cultura y curiosidades (10 preguntas): tradiciones, gastronomía, monumentos, idiomas, datos raros. Esta ronda va más allá de la geografía pura y conecta con la [cultura general](/es/blog/cultura-general-guia/). Un punto por acierto.
 
-Ronda final, preguntas rapidas (10 preguntas): preguntas cortas, sin tiempo para deliberar. El primer equipo en levantar la mano y acertar gana 3 puntos. Si falla, los demas pueden responder por 1 punto. Aqui es donde se deciden los quiz renidos.
+Ronda final, preguntas rápidas (10 preguntas): preguntas cortas, sin tiempo para deliberar. El primer equipo en levantar la mano y acertar gana 3 puntos. Si falla, los demás pueden responder por 1 punto. Aquí es donde se deciden los quiz reñidos.
 
-## Que preguntas de geografia hacer en un quiz en familia?
+## ¿Qué preguntas de geografía hacer en un quiz en familia?
 
-Para que puedas montar el quiz esta misma noche, aqui van 30 preguntas listas.
+Para que puedas montar el quiz esta misma noche, aquí van 30 preguntas listas.
 
-Banderas: Que pais tiene un circulo rojo sobre fondo blanco? (Japon). Cual es el unico pais con bandera no rectangular? (Nepal). Que pais lleva una hoja de arce roja? (Canada). Que pais africano tiene un AK-47 en su bandera? (Mozambique). Que dos paises tienen banderas casi identicas con franjas azul, amarilla y roja? (Chad y Rumania).
+Banderas: ¿Qué país tiene un círculo rojo sobre fondo blanco? (Japón). ¿Cuál es el único país con bandera no rectangular? (Nepal). ¿Qué país lleva una hoja de arce roja? (Canadá). ¿Qué país africano tiene un AK-47 en su bandera? (Mozambique). ¿Qué dos países tienen banderas casi idénticas con franjas azul, amarilla y roja? (Chad y Rumanía).
 
-Capitales: Canada? (Ottawa). Nueva Zelanda? (Wellington). Myanmar? (Naipyido). Marruecos? (Rabat). Suiza? (Berna).
+Capitales: ¿Canadá? (Ottawa). ¿Nueva Zelanda? (Wellington). ¿Myanmar? (Naipyidó). ¿Marruecos? (Rabat). ¿Suiza? (Berna).
 
-Geografia fisica: Rio mas largo del mundo? (El Nilo con unos 6.650 km, aunque el Amazonas le disputa el titulo). Montana mas alta? (Everest, 8.849 m). Oceano mas grande? (Pacifico, con 165,2 millones de km2). Desierto mas grande del mundo? (La Antartida; el Sahara es el desierto caliente mas grande, con 9,2 millones de km2). Lago mas profundo? (Baikal, en Rusia, con 1.642 m de profundidad).
+Geografía física: ¿Río más largo del mundo? (El Nilo con unos 6.650 km, aunque el Amazonas le disputa el título). ¿Montaña más alta? (Everest, 8.849 m). ¿Océano más grande? (Pacífico, con 165,2 millones de km2). ¿Desierto más grande del mundo? (La Antártida; el Sahara es el desierto caliente más grande, con 9,2 millones de km2). ¿Lago más profundo? (Baikal, en Rusia, con 1.642 m de profundidad).
 
-Cultura y curiosidades: Donde esta el Machu Picchu? (Peru). Pais mas pequeno del mundo? (Vaticano). En que continente esta Egipto? (Africa). Idioma de Brasil? (Portugues). Pais con mas habitantes? (India, habiendo superado a China recientemente).
+Cultura y curiosidades: ¿Dónde está el Machu Picchu? (Perú). ¿País más pequeño del mundo? (Vaticano). ¿En qué continente está Egipto? (África). ¿Idioma de Brasil? (Portugués). ¿País con más habitantes? (India, habiendo superado a China recientemente).
 
-Preguntas dificiles: Capital de Kazajistan? (Astana). Que pais tiene fronteras con 14 paises? (Rusia y China). Isla mas grande del mundo? (Groenlandia). Donde esta Tombuctu? (Mali). Pais mas joven del mundo? (Sudan del Sur, independiente desde 2011).
+Preguntas difíciles: ¿Capital de Kazajistán? (Astaná). ¿Qué país tiene fronteras con 14 países? (Rusia y China). ¿Isla más grande del mundo? (Groenlandia). ¿Dónde está Tombuctú? (Mali). ¿País más joven del mundo? (Sudán del Sur, independiente desde 2011).
 
 ## Adaptaciones por edad
 
 Para que todos disfruten, hay que calibrar la dificultad.
 
-Para los mas pequenos (4-7 anos): banderas con colores evidentes ("que pais tiene una bandera roja con estrellas amarillas?"), animales asociados a paises ("de donde son los canguros?"), monumentos que reconozcan ("donde esta la Torre Eiffel?"). Muchas imagenes y pistas si se atascan. A esta edad, participar ya es ganar.
+Para los más pequeños (4-7 años): banderas con colores evidentes ("¿qué país tiene una bandera roja con estrellas amarillas?"), animales asociados a países ("¿de dónde son los canguros?"), monumentos que reconozcan ("¿dónde está la Torre Eiffel?"). Muchas imágenes y pistas si se atascan. A esta edad, participar ya es ganar.
 
-Para ninos (8-12 anos): capitales de paises conocidos, banderas mas dificiles, ubicacion en el mapa. Les encanta competir y los datos curiosos. Las preguntas tipo "sabias que..." generan mucho entusiasmo en este grupo.
+Para niños (8-12 años): capitales de países conocidos, banderas más difíciles, ubicación en el mapa. Les encanta competir y los datos curiosos. Las preguntas tipo "¿sabías que..." generan mucho entusiasmo en este grupo.
 
-Para adolescentes (13-17 anos): capitales menos conocidas, geopolitica basica, datos culturales. Responden bien a preguntas que conecten geografia con lo que les interesa: musica, deporte, tecnologia, redes sociales. "En que pais se creo TikTok?" funciona mejor que "Capital de China?".
+Para adolescentes (13-17 años): capitales menos conocidas, geopolítica básica, datos culturales. Responden bien a preguntas que conecten geografía con lo que les interesa: música, deporte, tecnología, redes sociales. "¿En qué país se creó TikTok?" funciona mejor que "¿Capital de China?".
 
-Para adultos: geopolitica, historia geografica, economia, datos demograficos. Las preguntas trampa que explotan los [errores clasicos de geografia](/es/blog/errores-geografia/) generan carcajadas, sobre todo cuando el adulto "experto" cae en la mas obvia. Los [personajes historicos](/es/blog/personajes-historicos/) tambien dan mucho juego en este grupo.
+Para adultos: geopolítica, historia geográfica, economía, datos demográficos. Las preguntas trampa que explotan los [errores clásicos de geografía](/es/blog/errores-geografia/) generan carcajadas, sobre todo cuando el adulto "experto" cae en la más obvia. Los [personajes históricos](/es/blog/personajes-historicos/) también dan mucho juego en este grupo.
 
-## Ideas para hacer el quiz mas dinamico
+## Ideas para hacer el quiz más dinámico
 
 No todo tiene que ser pregunta-respuesta. Estas variaciones le meten chicha al asunto.
 
-Ronda de apuestas: antes de cada pregunta, los equipos apuestan entre 1 y 5 puntos. Aciertan, ganan lo apostado. Fallan, lo pierden. Anade una capa de estrategia que hace las rondas finales muy tensas. El equipo que va ultimo empieza a apostar fuerte y el que va primero se pone nervioso.
+Ronda de apuestas: antes de cada pregunta, los equipos apuestan entre 1 y 5 puntos. Aciertan, ganan lo apostado. Fallan, lo pierden. Añade una capa de estrategia que hace las rondas finales muy tensas. El equipo que va último empieza a apostar fuerte y el que va primero se pone nervioso.
 
-Pregunta musical: pon fragmentos de musica tipica de diferentes paises (flamenco, samba, reggae, musica arabe) y que identifiquen el pais o la region. Siempre sorprende quien tiene buen oido y quien no.
+Pregunta musical: pon fragmentos de música típica de diferentes países (flamenco, samba, reggae, música árabe) y que identifiquen el país o la región. Siempre sorprende quién tiene buen oído y quién no.
 
-Ronda de sabores: prepara pequenas muestras de comida de diferentes paises (sushi, hummus, guacamole, croissant) y que adivinen el pais de origen. Es multisensorial y siempre sale bien. Ademas, los ninos la disfrutan muchisimo.
+Ronda de sabores: prepara pequeñas muestras de comida de diferentes países (sushi, hummus, guacamole, croissant) y que adivinen el país de origen. Es multisensorial y siempre sale bien. Además, los niños la disfrutan muchísimo.
 
-Mapa en blanco: imprime un mapa mudo grande y que cada equipo coloque etiquetas en los paises correctos. Puntos extra para el equipo con mas aciertos. Ver donde pone cada uno a Nueva Zelanda ya es entretenimiento por si solo.
+Mapa en blanco: imprime un mapa mudo grande y que cada equipo coloque etiquetas en los países correctos. Puntos extra para el equipo con más aciertos. Ver dónde pone cada uno a Nueva Zelanda ya es entretenimiento por sí solo.
 
-Ronda de mimica: un miembro de cada equipo representa con mimica un monumento (Torre de Pisa, Estatua de la Libertad, Cristo Redentor) y su equipo adivina el monumento y el pais. Los intentos fallidos suelen ser la parte mas divertida de la noche.
+Ronda de mímica: un miembro de cada equipo representa con mímica un monumento (Torre de Pisa, Estatua de la Libertad, Cristo Redentor) y su equipo adivina el monumento y el país. Los intentos fallidos suelen ser la parte más divertida de la noche.
 
-## Despues del quiz: mantener el entusiasmo
+## Después del quiz: mantener el entusiasmo
 
-La noche de quiz no tiene por que acabar cuando se terminan las preguntas. El truco esta en aprovechar el entusiasmo.
+La noche de quiz no tiene por qué acabar cuando se terminan las preguntas. El truco está en aprovechar el entusiasmo.
 
-Pon SAPIRO en una tablet de la casa y crea un mini-desafio semanal: quien saque la mejor puntuacion elige la actividad del fin de semana. Mantiene el interes entre quiz y quiz sin esfuerzo extra.
+Pon SAPIRO en una tablet de la casa y crea un mini-desafío semanal: quien saque la mejor puntuación elige la actividad del fin de semana. Mantiene el interés entre quiz y quiz sin esfuerzo extra.
 
-Cuelga un mapa grande en la pared. Cada vez que alguien aprenda algo nuevo sobre un pais, pega una nota adhesiva con el dato. Con el tiempo, el mapa se llena de conocimiento compartido, y se convierte en un punto de conversacion cada vez que alguien pasa por delante.
+Cuelga un mapa grande en la pared. Cada vez que alguien aprenda algo nuevo sobre un país, pega una nota adhesiva con el dato. Con el tiempo, el mapa se llena de conocimiento compartido, y se convierte en un punto de conversación cada vez que alguien pasa por delante.
 
-Establece una frecuencia para las veladas: una vez al mes funciona bien. Rota los temas: una noche geografia, la siguiente historia, la siguiente ciencias. Si quieres preparar un quiz tematico sobre banderas, las historias detras de los colores y simbolos que contamos en nuestro articulo sobre el [significado de las banderas](/es/blog/significado-banderas/) te daran material de sobra.
+Establece una frecuencia para las veladas: una vez al mes funciona bien. Rota los temas: una noche geografía, la siguiente historia, la siguiente ciencias. Si quieres preparar un quiz temático sobre banderas, las historias detrás de los colores y símbolos que contamos en nuestro artículo sobre el [significado de las banderas](/es/blog/significado-banderas/) te darán material de sobra.
 
 <figure>
   <img src="/images/blog/famille/carte-monde-coloree.jpg" alt="Un mapa del mundo colorido para explorar en familia" loading="lazy" />
@@ -107,26 +107,26 @@ Establece una frecuencia para las veladas: una vez al mes funciona bien. Rota lo
 
 ## Preguntas frecuentes
 
-### Cuantas preguntas preparar para una noche de quiz?
+### ¿Cuántas preguntas preparar para una noche de quiz?
 
-Entre 40 y 60 preguntas divididas en 4-5 rondas tematicas. Cada ronda de 10 preguntas mantiene un buen ritmo sin que decaiga la atencion. Incluye diferentes niveles de dificultad para que todos tengan su momento de gloria.
+Entre 40 y 60 preguntas divididas en 4-5 rondas temáticas. Cada ronda de 10 preguntas mantiene un buen ritmo sin que decaiga la atención. Incluye diferentes niveles de dificultad para que todos tengan su momento de gloria.
 
-### A partir de que edad pueden participar los ninos?
+### ¿A partir de qué edad pueden participar los niños?
 
-Desde los 4 anos, con preguntas adaptadas: banderas de colores evidentes, animales asociados a paises, monumentos reconocibles. A partir de los 8 ya pueden responder preguntas de capitales y ubicar paises en un mapa.
+Desde los 4 años, con preguntas adaptadas: banderas de colores evidentes, animales asociados a países, monumentos reconocibles. A partir de los 8 ya pueden responder preguntas de capitales y ubicar países en un mapa.
 
-### Como hacer el quiz justo entre ninos y adultos?
+### ¿Cómo hacer el quiz justo entre niños y adultos?
 
-Mezcla las edades dentro de cada equipo. Un equipo de 3-4 personas con al menos un nino y un adulto equilibra el nivel. Tambien puedes dar preguntas de distinta dificultad a cada grupo de edad.
+Mezcla las edades dentro de cada equipo. Un equipo de 3-4 personas con al menos un niño y un adulto equilibra el nivel. También puedes dar preguntas de distinta dificultad a cada grupo de edad.
 
-### Con que frecuencia organizar noches de quiz?
+### ¿Con qué frecuencia organizar noches de quiz?
 
-Una vez al mes funciona bien para mantener el interes sin que se convierta en rutina. Entre sesiones, una app de quiz en la tablet de casa mantiene el entusiasmo con un mini-desafio semanal.
+Una vez al mes funciona bien para mantener el interés sin que se convierta en rutina. Entre sesiones, una app de quiz en la tablet de casa mantiene el entusiasmo con un mini-desafío semanal.
 
-Y para anadir una ronda de historia a tu noche de quiz, nuestra guia para [aprender historia divirtiendose](/es/blog/aprender-historia-divirtiendose/) tiene ideas que funcionan en familia.
+Y para añadir una ronda de historia a tu noche de quiz, nuestra guía para [aprender historia divirtiéndose](/es/blog/aprender-historia-divirtiendose/) tiene ideas que funcionan en familia.
 
 ## Usa SAPIRO como banco de preguntas
 
-Montar una noche de quiz de geografia en familia requiere poca preparacion y da mucho: aprendizaje, risas y tiempo juntos sin pantallas individuales de por medio.
+Montar una noche de quiz de geografía en familia requiere poca preparación y da mucho: aprendizaje, risas y tiempo juntos sin pantallas individuales de por medio.
 
-SAPIRO cubre paises, capitales, banderas, culturas y monumentos con preguntas de diferentes niveles. Puedes usarla para preparar las rondas antes de la velada o pasarla directamente de equipo en equipo como maestro de ceremonias. Entre sesiones, cada miembro de la familia puede practicar a su ritmo con los quiz adaptativos.
+SAPIRO cubre países, capitales, banderas, culturas y monumentos con preguntas de diferentes niveles. Puedes usarla para preparar las rondas antes de la velada o pasarla directamente de equipo en equipo como maestro de ceremonias. Entre sesiones, cada miembro de la familia puede practicar a su ritmo con los quiz adaptativos.

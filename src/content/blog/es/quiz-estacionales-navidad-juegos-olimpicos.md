@@ -14,96 +14,95 @@ author: "SAPIRO"
 readingTime: 5
 ---
 
-Los quizzes tematicos estacionales animan las fiestas, los viajes, los grandes eventos. Aqui van ideas de preguntas para cada gran periodo del ano.
+Los quizzes temáticos estacionales animan las fiestas, los viajes, los grandes eventos. Aquí van ideas de preguntas para cada gran periodo del año.
 
 ## Quiz especial Navidad
 
-Para fiestas de fin de ano.
+Para fiestas de fin de año.
 
-1. En que pais nacio Papa Noel (legendariamente)? (Finlandia / Rovaniemi)
+1. ¿En qué país nació Papá Noel (legendariamente)? (Finlandia / Rovaniemi)
 
-2. Que personaje biblico huyo a Egipto con su familia? (Jose y Maria con Jesus)
+2. ¿Qué personaje bíblico huyó a Egipto con su familia? (José y María con Jesús)
 
-3. Origen del pavo en Navidad? (Importado de America en el siglo XVI, popularizado en Inglaterra y luego en Francia)
+3. ¿Origen del pavo en Navidad? (Importado de América en el siglo XVI, popularizado en Inglaterra y luego en Francia)
 
-4. Que pais tiene la tradicion de mercado navideno mas antigua? (Alemania, primer mercado en Dresde en 1434)
+4. ¿Qué país tiene la tradición de mercado navideño más antigua? (Alemania, primer mercado en Dresde en 1434)
 
-5. Compositor de El Cascanueces? (Tchaikovsky para la musica, Hoffmann para el cuento original)
+5. ¿Compositor de El Cascanueces? (Tchaikovsky para la música, Hoffmann para el cuento original)
 
-6. Origen del color rojo de Papa Noel? (Segun la leyenda, Coca-Cola en los anos 1930)
+6. ¿Origen del color rojo de Papá Noel? (Según la leyenda, Coca-Cola en los años 1930)
 
-7. Que pais celebra Nochevieja comiendo 12 uvas? (Espana, una por campanada)
+7. ¿Qué país celebra Nochevieja comiendo 12 uvas? (España, una por campanada)
 
-8. En que ano se compuso "White Christmas"? (1942, por Irving Berlin)
+8. ¿En qué año se compuso "White Christmas"? (1942, por Irving Berlin)
 
 ## Quiz especial verano
 
 Para viajes y aperitivos en la playa.
 
-1. Pais mas visitado del mundo en verano? (Francia, unos 100 millones de turistas al ano)
+1. ¿País más visitado del mundo en verano? (Francia, unos 100 millones de turistas al año)
 
-2. Origen de la palabra "vacaciones"? (Latin "vacans", estar libre / vacio)
+2. ¿Origen de la palabra "vacaciones"? (Latín "vacans", estar libre / vacío)
 
-3. Playa mas larga del mundo? (Praia do Cassino, Brasil, 254 km)
+3. ¿Playa más larga del mundo? (Praia do Cassino, Brasil, 254 km)
 
-4. Capital de verano de un pais conocido? (San Petersburgo para la Rusia zarista, Simla para la India britanica)
+4. ¿Capital de verano de un país conocido? (San Petersburgo para la Rusia zarista, Simla para la India británica)
 
-5. Origen de la sombrilla? (Antiguo Egipto, hacia -2400 a.C.)
+5. ¿Origen de la sombrilla? (Antiguo Egipto, hacia -2400 a.C.)
 
-6. Temperatura mas alta jamas registrada? (56,7°C en el Valle de la Muerte, California, 1913)
+6. ¿Temperatura más alta jamás registrada? (56,7°C en el Valle de la Muerte, California, 1913)
 
-7. Mayor laguna del mundo? (Lagoa dos Patos, Brasil)
+7. ¿Mayor laguna del mundo? (Lagoa dos Patos, Brasil)
 
-## Quiz especial Juegos Olimpicos
+## Quiz especial Juegos Olímpicos
 
-Para anos olimpicos.
+Para años olímpicos.
 
-1. Ano y ciudad de los primeros JJOO modernos? (Atenas, 1896)
+1. ¿Año y ciudad de los primeros JJOO modernos? (Atenas, 1896)
 
-2. Quien relanzo los JJOO modernos? (Pierre de Coubertin)
+2. ¿Quién relanzó los JJOO modernos? (Pierre de Coubertin)
 
-3. Pais organizador de los JJOO 2024? (Francia, Paris)
+3. ¿País organizador de los JJOO 2024? (Francia, París)
 
-4. Pais organizador de los JJOO 2028? (EEUU, Los Angeles)
+4. ¿País organizador de los JJOO 2028? (EEUU, Los Ángeles)
 
-5. Numero maximo de medallas de oro para un atleta? (Michael Phelps, 23 medallas de oro)
+5. ¿Número máximo de medallas de oro para un atleta? (Michael Phelps, 23 medallas de oro)
 
-6. Que pais ha ganado mas oros olimpicos en gimnasia? (URSS y Rusia / Rumania / EEUU)
+6. ¿Qué país ha ganado más oros olímpicos en gimnasia? (URSS y Rusia / Rumanía / EEUU)
 
-7. Simbolo de los cinco anillos olimpicos? (Cinco continentes: Europa, Africa, America, Asia, Oceania)
+7. ¿Símbolo de los cinco anillos olímpicos? (Cinco continentes: Europa, África, América, Asia, Oceanía)
 
 ## Quiz especial elecciones
 
-Para ano electoral.
+Para año electoral.
 
-1. Que pais invento el sufragio universal masculino? (Francia en 1848)
+1. ¿Qué país inventó el sufragio universal masculino? (Francia en 1848)
 
-2. Cuando obtuvieron las mujeres el voto en Espana? (1931, durante la Segunda Republica)
+2. ¿Cuándo obtuvieron las mujeres el voto en España? (1931, durante la Segunda República)
 
-3. Primer presidente de EEUU elegido? (George Washington en 1789)
+3. ¿Primer presidente de EEUU elegido? (George Washington en 1789)
 
-4. Cual es el sistema electoral mayoritario a dos vueltas? (Francia, Iran)
+4. ¿Cuál es el sistema electoral mayoritario a dos vueltas? (Francia, Irán)
 
-5. Cual es el sistema proporcional puro? (Israel, Paises Bajos)
+5. ¿Cuál es el sistema proporcional puro? (Israel, Países Bajos)
 
-6. Cuantos miembros en el Parlamento Europeo? (705 eurodiputados)
+6. ¿Cuántos miembros en el Parlamento Europeo? (705 eurodiputados)
 
-7. Ano de las primeras elecciones europeas por sufragio directo? (1979)
+7. ¿Año de las primeras elecciones europeas por sufragio directo? (1979)
 
-## Metodo para animar un quiz
+## Método para animar un quiz
 
 Tres principios.
 
-**Mezclar niveles.** Una pregunta muy facil al inicio para soltar, mas dificiles despues, una muy dificil al final.
+**Mezclar niveles.** Una pregunta muy fácil al inicio para soltar, más difíciles después, una muy difícil al final.
 
-**Dar contexto tras cada respuesta.** No solo si/no, sino explicar por que. Eso hace el quiz pedagogico y divertido.
+**Dar contexto tras cada respuesta.** No solo sí/no, sino explicar por qué. Eso hace el quiz pedagógico y divertido.
 
-**Limitar a 15-20 preguntas.** Mas alla, la atencion cae. Mejor un quiz corto repetido que uno largo agotador.
+**Limitar a 15-20 preguntas.** Más allá, la atención cae. Mejor un quiz corto repetido que uno largo agotador.
 
 SAPIRO propone 2 000+ preguntas de cultura general, perfectas para elegir por tema. Para profundizar: [actividades culturales en familia](/es/blog/actividades-culturales-familia/) y [quiz cultura general por nivel](/es/blog/quiz-cultura-general-nivel/).
 
 <figure>
   <img src="/images/blog/apprentissage/stade-olympique.jpg" alt="Un estadio olímpico" loading="lazy" />
-  <figcaption>Foto: Acarpentier ; this edited version by Sting · CC BY 3.0 · Wikimedia Commons</figcaption>
+  <figcaption>Foto: Acarpentier ; this edited version by Sting · CC BY 3.0 · Wikimedia Commons</figcaption>
 </figure>
-
