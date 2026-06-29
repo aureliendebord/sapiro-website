@@ -8,7 +8,6 @@
     "home": "Home",
     "features": "Features",
     "blog": "Blog",
-    "pricing": "Pricing",
     "download": "Download"
   },
   "hero": {
@@ -271,66 +270,14 @@
       }
     ]
   },
-  "pricing": {
-    "title": "Our plans",
-    "subtitle": "Free to start, Sapiro+ to go further",
-    "metaDescription": "SAPIRO is free with no ads. Try Sapiro+ from $1.99/month: 50+ exclusive paths on museums, animals, and empires. Cancel anytime.",
-    "intro": "SAPIRO is free and ad-free. Unlock Sapiro+ to access over 50 exclusive thematic paths.",
-    "free": {
-      "title": "Free",
-      "price": "$0",
-      "description": "Forever, no ads",
-      "features": [
-        "4 universes: geography, history, art, nature",
-        "~12 paths included",
-        "Unlimited Classic and Survival modes",
-        "Daily Challenge",
-        "Progression, XP and badges",
-        "No ads"
-      ]
-    },
-    "pro": {
-      "title": "Sapiro+",
-      "description": "For the most curious",
-      "features": [
-        "All free content",
-        "50+ thematic paths",
-        "Museum paths (Louvre, MoMA, Orsay...)",
-        "Animal family paths (felines, raptors...)",
-        "Empires and organizations paths",
-        "Exclusive Premium badge"
-      ]
-    },
-    "plans": [
-      {
-        "name": "Monthly",
-        "price": "$1.99",
-        "period": "/month"
-      },
-      {
-        "name": "Annual",
-        "price": "$19.99",
-        "period": "/year",
-        "badge": "2 months free",
-        "popular": true
-      },
-      {
-        "name": "Lifetime",
-        "price": "$39.99",
-        "period": "one-time payment"
-      }
-    ],
-    "cta": "Download SAPIRO",
-    "note": "Secure payment via App Store or Google Play. Cancel anytime."
-  },
   "faq": {
     "title": "Frequently asked questions",
-    "metaDescription": "Answers to common questions about SAPIRO: is it really free? Is it safe for kids? Privacy, content, and Sapiro+ details.",
+    "metaDescription": "Answers to common questions about SAPIRO: is it really free? Is it safe for kids? Privacy, content",
     "subtitle": "Everything you need to know about SAPIRO",
     "items": [
       {
         "question": "Is SAPIRO really free?",
-        "answer": "Yes. The free version gives you access to all 4 universes (geography, history, art, nature), about a dozen paths, unlimited Classic and Survival modes, and the Daily Challenge. No ads. Sapiro+ (from $1.99/month) unlocks 50+ additional thematic paths."
+        "answer": "Yes. The free version gives you access to all 4 universes (geography, history, art, nature), about a dozen paths, unlimited Classic and Survival modes, and the Daily Challenge. No ads."
       },
       {
         "question": "Is it safe for my child?",
@@ -347,14 +294,6 @@
       {
         "question": "Does SAPIRO collect my data?",
         "answer": "No. Zero data collection. No cookies, no tracking, no sharing with third parties. Your progress data stays on your device."
-      },
-      {
-        "question": "What is the difference between free and Sapiro+?",
-        "answer": "The free version includes all core content with no ads. Sapiro+ unlocks over 50 exclusive thematic paths (world museums, animal families, historical empires) and a Premium badge."
-      },
-      {
-        "question": "How do I cancel my Sapiro+ subscription?",
-        "answer": "On iOS: Settings > your name > Subscriptions. On Android: Google Play Store > Menu > Subscriptions. Cancellation takes effect at the end of the current period."
       },
       {
         "question": "Is SAPIRO available on iOS and Android?",

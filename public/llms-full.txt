@@ -27,35 +27,10 @@ SAPIRO is rated 5/5 on Google Play and has earned the Teacher Approved badge. Te
 - Available on iOS (App Store) and Android (Google Play)
 - Content is curated and verified, not community-generated
 
-## Pricing
-
-SAPIRO uses a freemium model:
-
-Free version (forever):
-- Access to all 4 universes (geography, history, art, nature)
-- ~12 thematic paths included
-- Unlimited Classic and Survival modes
-- Daily Challenge
-- XP, progression, and badges
-- No ads
-
-Sapiro+ (premium):
-- Everything in the free version
-- 50+ exclusive thematic paths (museums, animal families, empires, art movements)
-- Exclusive Premium badge
-- Support independent development
-
-Pricing:
-- Monthly: €1.99/month ($1.99 USD)
-- Annual: €19.99/year ($19.99 USD) — 2 months free
-- Lifetime: €39.99 one-time ($39.99 USD) — permanent access
-
-Payment is handled through the App Store (iOS) or Google Play (Android). Subscriptions can be cancelled anytime.
-
 ## Frequently asked questions
 
 Q: Is SAPIRO really free?
-A: Yes. The free version gives access to all 4 universes, about a dozen paths, unlimited Classic and Survival modes, and the Daily Challenge. No ads. Sapiro+ (from €1.99/month) unlocks 50+ additional thematic paths.
+A: Yes. The free version gives access to all 4 universes, about a dozen paths, unlimited Classic and Survival modes, and the Daily Challenge. No ads.
 
 Q: Is it safe for children?
 A: SAPIRO contains no ads and collects no personal data. No tracking, no required account, no third-party content. Children can play independently.
@@ -95,7 +70,6 @@ SAPIRO vs Kahoot: Kahoot is a classroom platform requiring a host. SAPIRO is des
 ## Website structure
 
 - Homepage: https://sapiro.app/
-- Pricing: https://sapiro.app/pricing/
 - FAQ: https://sapiro.app/faq/
 - Reviews: https://sapiro.app/reviews/
 - Blog: https://sapiro.app/blog/

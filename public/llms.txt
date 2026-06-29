@@ -13,12 +13,11 @@ Key facts:
 - Works fully offline
 - Available on iOS and Android
 - 5/5 rating on Google Play (Teacher Approved)
-- Free version is generous; Sapiro+ from EUR 1.99/month
+- Free version is generous, with no ads and no data collection
 
 ## Website structure
 
 - Homepage: https://sapiro.app/
-- Pricing: https://sapiro.app/pricing/
 - FAQ: https://sapiro.app/faq/
 - Blog: https://sapiro.app/blog/
 - Privacy Policy: https://sapiro.app/privacy/

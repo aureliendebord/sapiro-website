@@ -8,7 +8,6 @@
     "home": "Inicio",
     "features": "Funciones",
     "blog": "Blog",
-    "pricing": "Precios",
     "download": "Descargar"
   },
   "hero": {
@@ -271,66 +270,14 @@
       }
     ]
   },
-  "pricing": {
-    "title": "Nuestros planes",
-    "subtitle": "Gratis para empezar, Sapiro+ para ir más lejos",
-    "metaDescription": "SAPIRO es gratis y sin publicidad. Prueba Sapiro+ desde 1,99 €/mes: 50+ recorridos exclusivos sobre museos, animales e imperios. Cancela cuando quieras.",
-    "intro": "SAPIRO es gratis y sin publicidad. Desbloquea Sapiro+ para acceder a más de 50 recorridos temáticos exclusivos.",
-    "free": {
-      "title": "Gratis",
-      "price": "0 €",
-      "description": "Para siempre, sin publicidad",
-      "features": [
-        "4 universos: geografía, historia, arte, naturaleza",
-        "~12 recorridos incluidos",
-        "Modo Clásico y Supervivencia ilimitados",
-        "Desafío diario",
-        "Progresión, XP e insignias",
-        "Sin publicidad"
-      ]
-    },
-    "pro": {
-      "title": "Sapiro+",
-      "description": "Para los más curiosos",
-      "features": [
-        "Todo el contenido gratis",
-        "50+ recorridos temáticos",
-        "Recorridos museos (Louvre, MoMA, Orsay...)",
-        "Recorridos familias animales (felinos, rapaces...)",
-        "Recorridos imperios y organizaciones",
-        "Insignia Premium exclusiva"
-      ]
-    },
-    "plans": [
-      {
-        "name": "Mensual",
-        "price": "1,99 €",
-        "period": "/mes"
-      },
-      {
-        "name": "Anual",
-        "price": "19,99 €",
-        "period": "/año",
-        "badge": "2 meses gratis",
-        "popular": true
-      },
-      {
-        "name": "De por vida",
-        "price": "39,99 €",
-        "period": "pago único"
-      }
-    ],
-    "cta": "Descargar SAPIRO",
-    "note": "Pago seguro a través de App Store o Google Play. Cancelación en cualquier momento."
-  },
   "faq": {
     "title": "Preguntas frecuentes",
-    "metaDescription": "Respuestas a las preguntas frecuentes sobre SAPIRO: gratuidad, privacidad, contenido, suscripción Sapiro+.",
+    "metaDescription": "Respuestas a las preguntas frecuentes sobre SAPIRO: gratuidad, privacidad, contenido",
     "subtitle": "Todo lo que necesitas saber sobre SAPIRO",
     "items": [
       {
         "question": "¿SAPIRO es realmente gratis?",
-        "answer": "Sí. La versión gratuita da acceso a los 4 universos (geografía, historia, arte, naturaleza), una docena de recorridos, los modos Clásico y Supervivencia ilimitados, y el Desafío diario. Sin publicidad. Sapiro+ (desde 1,99 €/mes) desbloquea más de 50 recorridos temáticos adicionales."
+        "answer": "Sí. La versión gratuita da acceso a los 4 universos (geografía, historia, arte, naturaleza), una docena de recorridos, los modos Clásico y Supervivencia ilimitados, y el Desafío diario. Sin publicidad."
       },
       {
         "question": "¿Mi hijo puede jugar sin riesgo?",
@@ -347,14 +294,6 @@
       {
         "question": "¿SAPIRO recopila mis datos?",
         "answer": "No. Cero recopilación de datos. Sin cookies, sin tracking, sin transmisión a terceros. Tus datos de progresión se quedan en tu dispositivo."
-      },
-      {
-        "question": "¿Cuál es la diferencia entre la versión gratuita y Sapiro+?",
-        "answer": "La versión gratuita incluye todo el contenido básico sin publicidad. Sapiro+ desbloquea más de 50 recorridos temáticos exclusivos (museos del mundo, familias animales, imperios históricos) y una insignia Premium."
-      },
-      {
-        "question": "¿Cómo cancelo mi suscripción a Sapiro+?",
-        "answer": "En iOS: Ajustes > tu nombre > Suscripciones. En Android: Google Play Store > Menú > Suscripciones. La cancelación entra en vigor al final del período actual."
       },
       {
         "question": "¿SAPIRO está disponible en iOS y Android?",

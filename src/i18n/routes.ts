@@ -10,7 +10,6 @@ export type RouteKey =
   | 'exams'
   | 'family'
   | 'comparisons'
-  | 'pricing'
   | 'privacy'
   | 'terms'
   | 'faq'
@@ -28,7 +27,6 @@ export const routes: Record<RouteKey, Record<Lang, string>> = {
   exams: { fr: '/concours/', en: '/en/exams/', es: '/es/oposiciones/' },
   family: { fr: '/famille/', en: '/en/family/', es: '/es/familia/' },
   comparisons: { fr: '/comparatifs/', en: '/en/comparisons/', es: '/es/comparativas/' },
-  pricing: { fr: '/pricing/', en: '/en/pricing/', es: '/es/pricing/' },
   privacy: { fr: '/privacy/', en: '/en/privacy/', es: '/es/privacy/' },
   terms: { fr: '/terms/', en: '/en/terms/', es: '/es/terms/' },
   faq: { fr: '/faq/', en: '/en/faq/', es: '/es/faq/' },
