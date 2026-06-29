@@ -25,26 +25,16 @@ const copy = {
     ],
     freeCta: 'Télécharger gratuitement',
     plusTitle: 'Sapiro+',
-    plusSub: 'Pour les plus curieux',
+    plusSub: 'Débloque les 54 parcours exclusifs',
     plusFeatures: [
       'Tout le contenu gratuit',
-      '50+ parcours thématiques',
-      'Musées : Louvre, MoMA, Orsay…',
-      'Familles animales, empires',
-      'Badge Premium',
-      'Mises à jour prioritaires',
+      'Les 54 parcours premium',
+      'Drapeaux à étoiles, Louvre, célébrités d\'Afrique…',
+      'Rejoue tes questions difficiles',
+      'Sauvegarde ta partie Survie',
+      'Bannières & badge exclusifs au classement',
     ],
-    priceMonth: '1,99 €',
-    priceMonthLabel: '/mois',
-    priceYear: '19,99 €',
-    priceYearLabel: '/an',
-    priceLifetime: '39,99 €',
-    priceLifetimeLabel: 'une fois',
-    badgeYear: 'Populaire',
-    badgeLifetime: 'Meilleur deal',
     seeAll: 'Voir tous les détails',
-    savings: '≈ 2 mois offerts',
-    lifetimeNote: 'Jamais d\'abonnement',
   },
   en: {
     kicker: 'Pricing',
@@ -62,26 +52,16 @@ const copy = {
     ],
     freeCta: 'Download for free',
     plusTitle: 'Sapiro+',
-    plusSub: 'For the curious ones',
+    plusSub: 'Unlock all 54 exclusive paths',
     plusFeatures: [
       'Everything in Free',
-      '50+ themed paths',
-      'Museums: Louvre, MoMA, Orsay…',
-      'Animal families, empires',
-      'Premium badge',
-      'Priority updates',
+      'All 54 premium paths',
+      'Starred flags, the Louvre, African icons…',
+      'Replay your tricky questions',
+      'Save your Survival run',
+      'Exclusive leaderboard banners & badge',
     ],
-    priceMonth: '€1.99',
-    priceMonthLabel: '/month',
-    priceYear: '€19.99',
-    priceYearLabel: '/year',
-    priceLifetime: '€39.99',
-    priceLifetimeLabel: 'once',
-    badgeYear: 'Popular',
-    badgeLifetime: 'Best deal',
     seeAll: 'See full pricing',
-    savings: '≈ 2 months free',
-    lifetimeNote: 'No subscription',
   },
   es: {
     kicker: 'Precios',
@@ -99,26 +79,16 @@ const copy = {
     ],
     freeCta: 'Descargar gratis',
     plusTitle: 'Sapiro+',
-    plusSub: 'Para los mas curiosos',
+    plusSub: 'Desbloquea los 54 recorridos exclusivos',
     plusFeatures: [
       'Todo lo gratis',
-      '50+ recorridos tematicos',
-      'Museos: Louvre, MoMA, Orsay…',
-      'Familias animales, imperios',
-      'Insignia Premium',
-      'Actualizaciones prioritarias',
+      'Los 54 recorridos premium',
+      'Banderas con estrellas, el Louvre, iconos de Africa…',
+      'Repite tus preguntas dificiles',
+      'Guarda tu partida de Supervivencia',
+      'Banderines e insignia exclusivos del ranking',
     ],
-    priceMonth: '1,99 €',
-    priceMonthLabel: '/mes',
-    priceYear: '19,99 €',
-    priceYearLabel: '/ano',
-    priceLifetime: '39,99 €',
-    priceLifetimeLabel: 'una vez',
-    badgeYear: 'Popular',
-    badgeLifetime: 'Mejor oferta',
     seeAll: 'Ver todos los detalles',
-    savings: '≈ 2 meses gratis',
-    lifetimeNote: 'Sin suscripcion',
   },
 };
 
@@ -140,9 +110,6 @@ const t = copy[lang];
           <h3>{t.freeTitle}</h3>
           <p class="plan-sub">{t.freeSub}</p>
         </div>
-        <div class="plan-price">
-          <span class="price-big">0 €</span>
-        </div>
         <ul class="features">
           {t.freeFeatures.map((f) => (
             <li><span class="check">✓</span>{f}</li>
@@ -160,49 +127,6 @@ const t = copy[lang];
           <p class="plan-sub">{t.plusSub}</p>
         </div>
 
-        <div class="price-options">
-          <label class="price-opt">
-            <input type="radio" name="pricing-plan" value="month" />
-            <span class="opt-inner">
-              <span class="opt-head">
-                <span class="opt-title">Mensuel</span>
-              </span>
-              <span class="opt-price">
-                <strong>{t.priceMonth}</strong>
-                <em>{t.priceMonthLabel}</em>
-              </span>
-            </span>
-          </label>
-
-          <label class="price-opt" data-badge={t.badgeYear}>
-            <input type="radio" name="pricing-plan" value="year" checked />
-            <span class="opt-inner">
-              <span class="opt-head">
-                <span class="opt-title">Annuel</span>
-                <span class="opt-save">{t.savings}</span>
-              </span>
-              <span class="opt-price">
-                <strong>{t.priceYear}</strong>
-                <em>{t.priceYearLabel}</em>
-              </span>
-            </span>
-          </label>
-
-          <label class="price-opt price-opt-lifetime" data-badge={t.badgeLifetime}>
-            <input type="radio" name="pricing-plan" value="lifetime" />
-            <span class="opt-inner">
-              <span class="opt-head">
-                <span class="opt-title">À vie</span>
-                <span class="opt-save">{t.lifetimeNote}</span>
-              </span>
-              <span class="opt-price">
-                <strong>{t.priceLifetime}</strong>
-                <em>{t.priceLifetimeLabel}</em>
-              </span>
-            </span>
-          </label>
-        </div>
-
         <ul class="features">
           {t.plusFeatures.map((f) => (
             <li><span class="check check-plus">✓</span>{f}</li>
@@ -218,7 +142,7 @@ const t = copy[lang];
 
 <style>
   .pricing-v2 {
-    background: #fff;
+    background: #FAF3E9;
     padding: 96px 0;
   }
 
@@ -257,9 +181,9 @@ const t = copy[lang];
 
   .grid {
     display: grid;
-    grid-template-columns: 1fr 1.2fr;
+    grid-template-columns: 1fr 1fr;
     gap: 24px;
-    max-width: 1000px;
+    max-width: 920px;
     margin: 0 auto;
     align-items: stretch;
   }
@@ -275,26 +199,27 @@ const t = copy[lang];
   }
 
   .plan-free {
-    border: 2px solid #e5e7eb;
+    border: 1.5px solid rgba(31, 41, 55, 0.1);
+    box-shadow: 0 14px 40px -24px rgba(0, 0, 0, 0.25);
   }
 
   .plan-plus {
-    background: linear-gradient(180deg, #0a0a0f 0%, #1a1a2e 100%);
-    color: #fff;
-    border: 2px solid transparent;
-    box-shadow: 0 40px 80px -30px rgba(255, 107, 53, 0.5), 0 0 0 1px rgba(255, 107, 53, 0.15);
+    background: #fff;
+    color: #1f2937;
+    border: 2px solid #ff6b35;
+    box-shadow: 0 40px 80px -34px rgba(255, 107, 53, 0.5);
     overflow: hidden;
   }
 
   .plan-plus::before {
     content: '';
     position: absolute;
-    top: -100px;
-    right: -100px;
+    top: -120px;
+    right: -120px;
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    background: radial-gradient(circle, rgba(255, 107, 53, 0.4), transparent 70%);
+    background: radial-gradient(circle, rgba(255, 107, 53, 0.18), transparent 70%);
     pointer-events: none;
   }
 
@@ -325,97 +250,7 @@ const t = copy[lang];
     color: #6b7280;
   }
 
-  .plan-plus .plan-sub { color: rgba(255, 255, 255, 0.6); }
-
-  .plan-price {
-    display: flex;
-    align-items: baseline;
-    gap: 8px;
-  }
-
-  .price-big {
-    font-size: 3.5rem;
-    font-weight: 800;
-    letter-spacing: -0.03em;
-    line-height: 1;
-    color: #0a0a0f;
-  }
-
-  .plan-plus .price-big { color: #fff; }
-
-  /* Price options radio group */
-  .price-options {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    position: relative;
-    z-index: 1;
-  }
-
-  .price-opt {
-    position: relative;
-    display: block;
-    cursor: pointer;
-  }
-
-  .price-opt input {
-    position: absolute;
-    opacity: 0;
-    pointer-events: none;
-  }
-
-  .opt-inner {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 12px;
-    padding: 14px 16px;
-    border: 1.5px solid rgba(255, 255, 255, 0.12);
-    border-radius: 14px;
-    background: rgba(255, 255, 255, 0.03);
-    transition: all 0.25s;
-  }
-
-  .price-opt:hover .opt-inner {
-    background: rgba(255, 255, 255, 0.06);
-    border-color: rgba(255, 255, 255, 0.2);
-  }
-
-  .price-opt input:checked + .opt-inner {
-    background: rgba(255, 107, 53, 0.12);
-    border-color: #ff6b35;
-    box-shadow: 0 0 0 3px rgba(255, 107, 53, 0.15);
-  }
-
-  .price-opt[data-badge]::after {
-    content: attr(data-badge);
-    position: absolute;
-    top: -8px;
-    right: 16px;
-    padding: 3px 10px;
-    background: linear-gradient(135deg, #fbbf24, #ff6b35);
-    color: #fff;
-    border-radius: 999px;
-    font-size: 10px;
-    font-weight: 700;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-  }
-
-  .opt-head { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
-  .opt-title { font-size: 15px; font-weight: 600; color: #fff; }
-  .opt-save { font-size: 11px; color: #fbbf24; font-weight: 500; }
-
-  .opt-price {
-    display: flex;
-    align-items: baseline;
-    gap: 4px;
-    color: #fff;
-    white-space: nowrap;
-  }
-
-  .opt-price strong { font-size: 18px; font-weight: 800; letter-spacing: -0.02em; }
-  .opt-price em { font-size: 12px; font-style: normal; color: rgba(255, 255, 255, 0.55); }
+  .plan-plus .plan-sub { color: #6b7280; }
 
   /* Features */
   .features {
@@ -435,7 +270,7 @@ const t = copy[lang];
     color: #374151;
   }
 
-  .plan-plus .features li { color: rgba(255, 255, 255, 0.85); }
+  .plan-plus .features li { color: #374151; }
 
   .check {
     display: inline-flex;
@@ -469,11 +304,12 @@ const t = copy[lang];
   }
 
   .cta-ghost {
-    background: #0a0a0f;
-    color: #fff;
+    background: #fff;
+    color: #1f2937;
+    border: 1.5px solid rgba(31, 41, 55, 0.15);
   }
 
-  .cta-ghost:hover { transform: translateY(-2px); box-shadow: 0 12px 28px -10px rgba(0,0,0,0.35); }
+  .cta-ghost:hover { transform: translateY(-2px); box-shadow: 0 12px 28px -14px rgba(0,0,0,0.3); }
 
   .cta-primary {
     background: linear-gradient(135deg, #ff6b35, #ff8f5c);
@@ -489,11 +325,11 @@ const t = copy[lang];
   .plan-link {
     text-align: center;
     font-size: 13px;
-    color: rgba(255, 255, 255, 0.6);
+    color: #6b7280;
     margin-top: -10px;
   }
 
-  .plan-link:hover { color: #fff; }
+  .plan-link:hover { color: #e55a2b; }
 
   @media (max-width: 840px) {
     .grid { grid-template-columns: 1fr; }
