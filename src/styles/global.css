@@ -58,6 +58,7 @@ img {
   height: 1em;
   vertical-align: -0.15em;
   object-fit: contain;
+  border-radius: 22%;
   flex-shrink: 0;
 }
 

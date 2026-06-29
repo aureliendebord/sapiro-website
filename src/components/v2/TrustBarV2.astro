@@ -64,12 +64,12 @@ const marqueeItems = [...items, ...items];
 
 <style>
   .trust-bar {
-    background: #0a0a0f;
-    color: #fff;
-    padding: 28px 0;
+    background: #fff;
+    color: #1f2937;
+    padding: 26px 0;
     overflow: hidden;
-    border-top: 1px solid rgba(255, 255, 255, 0.06);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+    border-top: 1px solid rgba(31, 41, 55, 0.07);
+    border-bottom: 1px solid rgba(31, 41, 55, 0.07);
     position: relative;
   }
 
@@ -86,12 +86,12 @@ const marqueeItems = [...items, ...items];
 
   .trust-bar::before {
     left: 0;
-    background: linear-gradient(90deg, #0a0a0f, transparent);
+    background: linear-gradient(90deg, #fff, transparent);
   }
 
   .trust-bar::after {
     right: 0;
-    background: linear-gradient(-90deg, #0a0a0f, transparent);
+    background: linear-gradient(-90deg, #fff, transparent);
   }
 
   .marquee { width: 100%; }
@@ -127,7 +127,7 @@ const marqueeItems = [...items, ...items];
     background-clip: text;
     color: transparent;
   }
-  .label { color: rgba(255, 255, 255, 0.55); }
+  .label { color: #6b7280; }
 
   /* Le défilement reste actif même en "reduced motion" : c'est un choix
      produit assumé. On le ralentit simplement pour limiter la gêne. */
