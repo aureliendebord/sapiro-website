@@ -13,25 +13,25 @@ const content = {
     subtitle: "Une app pour toute la famille",
     audiences: [
       {
-        emoji: "👧",
+        icon: "baby",
         title: "Les enfants",
         description: "Apprendre en s'amusant, c'est plus facile ! Parfait dès 6 ans.",
         color: "violet"
       },
       {
-        emoji: "🧑‍🎓",
+        icon: "graduation-cap",
         title: "Les étudiants",
         description: "Révise ta géographie et ton histoire de manière ludique.",
         color: "teal"
       },
       {
-        emoji: "👨‍👩‍👧‍👦",
+        icon: "people",
         title: "Les familles",
         description: "Défie tes proches et découvrez ensemble le monde !",
         color: "orange"
       },
       {
-        emoji: "🧠",
+        icon: "bulb",
         title: "Les curieux",
         description: "Entraîne ta mémoire et enrichis ta culture générale.",
         color: "jaune"
@@ -43,25 +43,25 @@ const content = {
     subtitle: "An app for the whole family",
     audiences: [
       {
-        emoji: "👧",
+        icon: "baby",
         title: "Children",
         description: "Learning while having fun is easier! Perfect from age 6.",
         color: "violet"
       },
       {
-        emoji: "🧑‍🎓",
+        icon: "graduation-cap",
         title: "Students",
         description: "Review your geography and history in a fun way.",
         color: "teal"
       },
       {
-        emoji: "👨‍👩‍👧‍👦",
+        icon: "people",
         title: "Families",
         description: "Challenge your loved ones and discover the world together!",
         color: "orange"
       },
       {
-        emoji: "🧠",
+        icon: "bulb",
         title: "Curious minds",
         description: "Train your memory and enrich your general knowledge.",
         color: "jaune"
@@ -73,25 +73,25 @@ const content = {
     subtitle: "Una app para toda la familia",
     audiences: [
       {
-        emoji: "👧",
+        icon: "baby",
         title: "Los niños",
         description: "¡Aprender divirtiéndose es más fácil! Perfecto desde los 6 años.",
         color: "violet"
       },
       {
-        emoji: "🧑‍🎓",
+        icon: "graduation-cap",
         title: "Los estudiantes",
         description: "Repasa tu geografía e historia de forma lúdica.",
         color: "teal"
       },
       {
-        emoji: "👨‍👩‍👧‍👦",
+        icon: "people",
         title: "Las familias",
         description: "¡Desafía a tus seres queridos y descubran el mundo juntos!",
         color: "orange"
       },
       {
-        emoji: "🧠",
+        icon: "bulb",
         title: "Los curiosos",
         description: "Entrena tu memoria y enriquece tu cultura general.",
         color: "jaune"
@@ -120,7 +120,7 @@ const colorMap: Record<string, string> = {
     <div class="audiences-grid">
       {t.audiences.map((audience) => (
         <div class="audience-card" style={`--card-color: ${colorMap[audience.color]}`}>
-          <div class="audience-emoji">{audience.emoji}</div>
+          <div class="audience-emoji"><img src={`/images/icons/${audience.icon}.webp`} class="app-ico" alt="" aria-hidden="true" /></div>
           <h3>{audience.title}</h3>
           <p>{audience.description}</p>
         </div>

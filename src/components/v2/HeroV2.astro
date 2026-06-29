@@ -9,7 +9,7 @@ const { lang } = Astro.props;
 
 const copy = {
   fr: {
-    badge: 'Nouveau thème • Découvre les monuments du monde 🏛️',
+    badge: 'Nouveau thème • Découvre les monuments du monde',
     titleA: 'Deviens',
     titleHighlight: 'incollable',
     titleB: 'en culture générale.',
@@ -33,7 +33,7 @@ const copy = {
     },
   },
   en: {
-    badge: 'New theme • Discover the world\'s monuments 🏛️',
+    badge: 'New theme • Discover the world\'s monuments',
     titleA: 'Become',
     titleHighlight: 'unbeatable',
     titleB: 'at general knowledge.',
@@ -57,7 +57,7 @@ const copy = {
     },
   },
   es: {
-    badge: 'Nuevo tema • Descubre los monumentos del mundo 🏛️',
+    badge: 'Nuevo tema • Descubre los monumentos del mundo',
     titleA: 'Hazte',
     titleHighlight: 'imbatible',
     titleB: 'en cultura general.',
@@ -94,6 +94,7 @@ const t = copy[lang];
       <div class="badge">
         <span class="badge-dot"></span>
         <span>{t.badge}</span>
+        <img src="/images/icons/classical-building.webp" class="app-ico" alt="" aria-hidden="true" />
       </div>
 
       <h1 class="title">
@@ -122,7 +123,7 @@ const t = copy[lang];
 
       <div class="proof-row">
         <div class="proof-item">
-          <div class="proof-icon">✅</div>
+          <div class="proof-icon"><img src="/images/icons/check.webp" class="app-ico" alt="" aria-hidden="true" /></div>
           <div class="proof-text">
             <strong>{t.proofQuestions}</strong>
             <span>{t.proofQuestionsLabel}</span>
@@ -130,7 +131,7 @@ const t = copy[lang];
         </div>
         <div class="proof-divider" aria-hidden="true"></div>
         <div class="proof-item">
-          <div class="proof-icon">🎁</div>
+          <div class="proof-icon"><img src="/images/icons/gift.webp" class="app-ico" alt="" aria-hidden="true" /></div>
           <div class="proof-text">
             <strong>{t.proofPrice}</strong>
             <span>{t.proofPriceLabel}</span>
@@ -146,11 +147,11 @@ const t = copy[lang];
 
         <div class="orbit" aria-hidden="true">
           <span class="orbit-emoji orbit-emoji-1" style="--a:0deg; --r:180px">🇫🇷</span>
-          <span class="orbit-emoji orbit-emoji-2" style="--a:60deg; --r:190px">🗿</span>
-          <span class="orbit-emoji orbit-emoji-3" style="--a:120deg; --r:175px">🎨</span>
-          <span class="orbit-emoji orbit-emoji-4" style="--a:180deg; --r:195px">🦁</span>
+          <span class="orbit-emoji orbit-emoji-2" style="--a:60deg; --r:190px"><img src="/images/icons/moai.webp" class="app-ico" alt="" aria-hidden="true" /></span>
+          <span class="orbit-emoji orbit-emoji-3" style="--a:120deg; --r:175px"><img src="/images/icons/palette.webp" class="app-ico" alt="" aria-hidden="true" /></span>
+          <span class="orbit-emoji orbit-emoji-4" style="--a:180deg; --r:195px"><img src="/images/icons/lion.webp" class="app-ico" alt="" aria-hidden="true" /></span>
           <span class="orbit-emoji orbit-emoji-5" style="--a:240deg; --r:180px">🇯🇵</span>
-          <span class="orbit-emoji orbit-emoji-6" style="--a:300deg; --r:185px">🏛️</span>
+          <span class="orbit-emoji orbit-emoji-6" style="--a:300deg; --r:185px"><img src="/images/icons/classical-building.webp" class="app-ico" alt="" aria-hidden="true" /></span>
         </div>
 
         <div class="phone-tilt">
@@ -167,7 +168,7 @@ const t = copy[lang];
         </div>
 
         <div class="floating-card card-top">
-          <div class="card-emoji">⚡</div>
+          <div class="card-emoji"><img src="/images/icons/lightning.webp" class="app-ico" alt="" aria-hidden="true" /></div>
           <div class="card-content">
             <div class="card-num">{t.xpAmount}</div>
             <div class="card-label">{t.xpLabel}</div>
@@ -175,7 +176,7 @@ const t = copy[lang];
         </div>
 
         <div class="floating-card card-bottom">
-          <div class="card-emoji">🏆</div>
+          <div class="card-emoji"><img src="/images/icons/trophy.webp" class="app-ico" alt="" aria-hidden="true" /></div>
           <div class="card-content">
             <div class="card-num">{t.badgeTitle}</div>
             <div class="card-label">{t.badgeName}</div>

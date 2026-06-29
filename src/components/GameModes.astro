@@ -13,19 +13,19 @@ const content = {
     subtitle: "3 modes de jeu pour chaque envie",
     modes: [
       {
-        emoji: "📝",
+        icon: "books",
         title: "Mode Classique",
         description: "10 questions pour apprendre à ton rythme. Le mode idéal pour découvrir et progresser.",
         color: "orange"
       },
       {
-        emoji: "⚡",
+        icon: "lightning",
         title: "Mode Survie",
         description: "3 vies, zéro erreur permise. Jusqu'où iras-tu ? Compare-toi au classement mondial.",
         color: "coral"
       },
       {
-        emoji: "📅",
+        icon: "calendar",
         title: "Défi quotidien",
         description: "Un nouveau thème chaque jour, un seul essai. Maintiens ta série !",
         color: "violet"
@@ -37,19 +37,19 @@ const content = {
     subtitle: "3 game modes for every mood",
     modes: [
       {
-        emoji: "📝",
+        icon: "books",
         title: "Classic Mode",
         description: "10 questions to learn at your own pace. The perfect mode to discover and progress.",
         color: "orange"
       },
       {
-        emoji: "⚡",
+        icon: "lightning",
         title: "Survival Mode",
         description: "3 lives, no mistakes allowed. How far can you go? Compare yourself on the world leaderboard.",
         color: "coral"
       },
       {
-        emoji: "📅",
+        icon: "calendar",
         title: "Daily Challenge",
         description: "A new theme every day, one try only. Keep your streak going!",
         color: "violet"
@@ -61,19 +61,19 @@ const content = {
     subtitle: "3 modos de juego para cada momento",
     modes: [
       {
-        emoji: "📝",
+        icon: "books",
         title: "Modo Clásico",
         description: "10 preguntas para aprender a tu ritmo. El modo ideal para descubrir y progresar.",
         color: "orange"
       },
       {
-        emoji: "⚡",
+        icon: "lightning",
         title: "Modo Supervivencia",
         description: "3 vidas, cero errores permitidos. ¿Hasta dónde llegarás? Compárate en el ranking mundial.",
         color: "coral"
       },
       {
-        emoji: "📅",
+        icon: "calendar",
         title: "Desafío diario",
         description: "Un nuevo tema cada día, un solo intento. ¡Mantén tu racha!",
         color: "violet"
@@ -101,7 +101,7 @@ const colorMap: Record<string, string> = {
     <div class="modes-grid">
       {t.modes.map((mode) => (
         <div class="mode-card" style={`--card-color: ${colorMap[mode.color]}`}>
-          <div class="mode-emoji">{mode.emoji}</div>
+          <div class="mode-emoji"><img src={`/images/icons/${mode.icon}.webp`} class="app-ico" alt="" aria-hidden="true" /></div>
           <h3>{mode.title}</h3>
           <p>{mode.description}</p>
         </div>

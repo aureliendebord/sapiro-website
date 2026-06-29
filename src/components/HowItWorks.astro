@@ -16,19 +16,19 @@ const content = {
         number: "1",
         title: "Choisis ton quiz",
         description: "Géographie, histoire, art ou nature. À toi de choisir !",
-        emoji: "🎯"
+        icon: "target"
       },
       {
         number: "2",
         title: "Réponds aux questions",
         description: "10 questions par quiz. Chaque bonne réponse te rapporte des points !",
-        emoji: "🧠"
+        icon: "bulb"
       },
       {
         number: "3",
         title: "Progresse et débloque",
         description: "Gagne des badges, améliore ton score et deviens un expert !",
-        emoji: "🏆"
+        icon: "trophy"
       }
     ]
   },
@@ -40,19 +40,19 @@ const content = {
         number: "1",
         title: "Choose your quiz",
         description: "Geography, history, art or nature. You choose!",
-        emoji: "🎯"
+        icon: "target"
       },
       {
         number: "2",
         title: "Answer questions",
         description: "10 questions per quiz. Each correct answer earns you points!",
-        emoji: "🧠"
+        icon: "bulb"
       },
       {
         number: "3",
         title: "Progress and unlock",
         description: "Earn badges, improve your score and become an expert!",
-        emoji: "🏆"
+        icon: "trophy"
       }
     ]
   },
@@ -64,19 +64,19 @@ const content = {
         number: "1",
         title: "Elige tu quiz",
         description: "Geografía, historia, arte o naturaleza. ¡Tú eliges!",
-        emoji: "🎯"
+        icon: "target"
       },
       {
         number: "2",
         title: "Responde preguntas",
         description: "10 preguntas por quiz. ¡Cada respuesta correcta te da puntos!",
-        emoji: "🧠"
+        icon: "bulb"
       },
       {
         number: "3",
         title: "Progresa y desbloquea",
         description: "Gana insignias, mejora tu puntuación y ¡conviértete en experto!",
-        emoji: "🏆"
+        icon: "trophy"
       }
     ]
   }
@@ -96,7 +96,7 @@ const t = content[lang];
       {t.steps.map((step, index) => (
         <div class="step" style={`--step-delay: ${index * 0.1}s`}>
           <div class="step-number">{step.number}</div>
-          <div class="step-emoji">{step.emoji}</div>
+          <div class="step-emoji"><img src={`/images/icons/${step.icon}.webp`} class="app-ico" alt="" aria-hidden="true" /></div>
           <h3>{step.title}</h3>
           <p>{step.description}</p>
           {index < t.steps.length - 1 && <div class="step-connector" />}

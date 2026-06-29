@@ -85,7 +85,7 @@ interface Question {
 
 interface Theme {
   key: ThemeKey;
-  emoji: string;
+  icon: string;
   label: string;
   questions: Question[];
 }
@@ -94,7 +94,7 @@ const themes: Record<Lang, Theme[]> = {
   fr: [
     {
       key: 'geo',
-      emoji: '🌍',
+      icon: 'globe-grid',
       label: 'Géo',
       questions: [
         {
@@ -128,7 +128,7 @@ const themes: Record<Lang, Theme[]> = {
     },
     {
       key: 'history',
-      emoji: '👤',
+      icon: 'person',
       label: 'Histoire',
       questions: [
         {
@@ -162,7 +162,7 @@ const themes: Record<Lang, Theme[]> = {
     },
     {
       key: 'art',
-      emoji: '🎨',
+      icon: 'palette',
       label: 'Art',
       questions: [
         {
@@ -193,7 +193,7 @@ const themes: Record<Lang, Theme[]> = {
     },
     {
       key: 'nature',
-      emoji: '🦁',
+      icon: 'lion',
       label: 'Nature',
       questions: [
         {
@@ -224,7 +224,7 @@ const themes: Record<Lang, Theme[]> = {
     },
     {
       key: 'monument',
-      emoji: '🏛️',
+      icon: 'classical-building',
       label: 'Monument',
       questions: [
         {
@@ -257,7 +257,7 @@ const themes: Record<Lang, Theme[]> = {
   en: [
     {
       key: 'geo',
-      emoji: '🌍',
+      icon: 'globe-grid',
       label: 'Geo',
       questions: [
         {
@@ -291,7 +291,7 @@ const themes: Record<Lang, Theme[]> = {
     },
     {
       key: 'history',
-      emoji: '👤',
+      icon: 'person',
       label: 'History',
       questions: [
         {
@@ -325,7 +325,7 @@ const themes: Record<Lang, Theme[]> = {
     },
     {
       key: 'art',
-      emoji: '🎨',
+      icon: 'palette',
       label: 'Art',
       questions: [
         {
@@ -356,7 +356,7 @@ const themes: Record<Lang, Theme[]> = {
     },
     {
       key: 'nature',
-      emoji: '🦁',
+      icon: 'lion',
       label: 'Nature',
       questions: [
         {
@@ -387,7 +387,7 @@ const themes: Record<Lang, Theme[]> = {
     },
     {
       key: 'monument',
-      emoji: '🏛️',
+      icon: 'classical-building',
       label: 'Monument',
       questions: [
         {
@@ -420,7 +420,7 @@ const themes: Record<Lang, Theme[]> = {
   es: [
     {
       key: 'geo',
-      emoji: '🌍',
+      icon: 'globe-grid',
       label: 'Geo',
       questions: [
         {
@@ -454,7 +454,7 @@ const themes: Record<Lang, Theme[]> = {
     },
     {
       key: 'history',
-      emoji: '👤',
+      icon: 'person',
       label: 'Historia',
       questions: [
         {
@@ -488,7 +488,7 @@ const themes: Record<Lang, Theme[]> = {
     },
     {
       key: 'art',
-      emoji: '🎨',
+      icon: 'palette',
       label: 'Arte',
       questions: [
         {
@@ -519,7 +519,7 @@ const themes: Record<Lang, Theme[]> = {
     },
     {
       key: 'nature',
-      emoji: '🦁',
+      icon: 'lion',
       label: 'Naturaleza',
       questions: [
         {
@@ -550,7 +550,7 @@ const themes: Record<Lang, Theme[]> = {
     },
     {
       key: 'monument',
-      emoji: '🏛️',
+      icon: 'classical-building',
       label: 'Monumento',
       questions: [
         {
@@ -590,7 +590,7 @@ const totalQuestions = 3;
 <section class="demo-quiz" id="demo-quiz">
   <div class="container">
     <div class="header-block">
-      <span class="kicker">⚡ {t.kicker}</span>
+      <span class="kicker"><img src="/images/icons/lightning.webp" class="app-ico" alt="" aria-hidden="true" /> {t.kicker}</span>
       <h2 class="title">{t.title}</h2>
       <p class="subtitle">{t.subtitle}</p>
     </div>
@@ -620,7 +620,7 @@ const totalQuestions = 3;
 
       <!-- Theme selection screen -->
       <div class="screen screen-theme active" data-screen="theme">
-        <div class="theme-visual">🎯</div>
+        <div class="theme-visual"><img src="/images/icons/target.webp" class="app-ico" alt="" aria-hidden="true" /></div>
         <h3 class="screen-title">{t.pickTheme}</h3>
         <div class="theme-picker">
           <div class="theme-dropdown" id="theme-dropdown" data-value={themesList[0].key}>
@@ -632,7 +632,7 @@ const totalQuestions = 3;
               aria-expanded="false"
               aria-labelledby="theme-trigger-label"
             >
-              <span class="theme-trigger-emoji" id="theme-trigger-emoji">{themesList[0].emoji}</span>
+              <span class="theme-trigger-emoji" id="theme-trigger-emoji"><img src={`/images/icons/${themesList[0].icon}.webp`} class="app-ico" alt="" aria-hidden="true" /></span>
               <span class="theme-trigger-label" id="theme-trigger-label">{themesList[0].label}</span>
               <svg class="theme-trigger-chevron" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
             </button>
@@ -645,7 +645,7 @@ const totalQuestions = 3;
                   aria-selected={idx === 0 ? 'true' : 'false'}
                   tabindex="-1"
                 >
-                  <span class="theme-option-emoji">{theme.emoji}</span>
+                  <span class="theme-option-emoji"><img src={`/images/icons/${theme.icon}.webp`} class="app-ico" alt="" aria-hidden="true" /></span>
                   <span class="theme-option-label">{theme.label}</span>
                   <svg class="theme-option-check" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
                 </li>
@@ -690,7 +690,7 @@ const totalQuestions = 3;
 
       <!-- Result screen -->
       <div class="screen screen-result" data-screen="result">
-        <div class="result-visual" id="result-emoji">🏆</div>
+        <div class="result-visual" id="result-emoji"><img src="/images/icons/trophy.webp" class="app-ico" alt="" aria-hidden="true" /></div>
         <div class="result-score">
           <span id="result-value">0</span><span class="result-of">/{totalQuestions}</span>
         </div>
@@ -752,7 +752,7 @@ const totalQuestions = 3;
         else visual.classList.add('is-media');
       }
       if (promptEl) promptEl.textContent = q.prompt;
-      if (themeTag) themeTag.textContent = `${theme.emoji} ${theme.label}`;
+      if (themeTag) themeTag.innerHTML = `<img src="/images/icons/${theme.icon}.webp" class="app-ico" alt="" aria-hidden="true" /> ${theme.label}`;
       if (explEl) explEl.textContent = q.explanation;
       if (screen) screen.setAttribute('data-answer', String(q.answer));
       q.options.forEach((opt, optIdx) => {
@@ -816,7 +816,7 @@ const totalQuestions = 3;
     });
     const emojiEl = opt.querySelector('.theme-option-emoji');
     const labelEl = opt.querySelector('.theme-option-label');
-    if (triggerEmoji && emojiEl) triggerEmoji.textContent = emojiEl.textContent;
+    if (triggerEmoji && emojiEl) triggerEmoji.innerHTML = emojiEl.innerHTML;
     if (triggerLabel && labelEl) triggerLabel.textContent = labelEl.textContent;
   };
 
@@ -878,15 +878,16 @@ const totalQuestions = 3;
           const emojiEl = document.getElementById('result-emoji');
           if (valEl) valEl.textContent = String(score);
           if (emojiEl && msgEl) {
+            const resultIcon = (name) => `<img src="/images/icons/${name}.webp" class="app-ico" alt="" aria-hidden="true" />`;
             if (score === totalQuestions) {
-              emojiEl.textContent = '🏆';
+              emojiEl.innerHTML = resultIcon('trophy');
               msgEl.textContent = i18n.resultPerfect;
               boomConfetti();
             } else if (score >= 2) {
-              emojiEl.textContent = '🎯';
+              emojiEl.innerHTML = resultIcon('target');
               msgEl.textContent = i18n.resultGood;
             } else {
-              emojiEl.textContent = '💪';
+              emojiEl.innerHTML = resultIcon('muscle');
               msgEl.textContent = i18n.resultMeh;
             }
           }
@@ -925,7 +926,7 @@ const totalQuestions = 3;
       if (feedback) {
         const emoji = feedback.querySelector('.feedback-emoji');
         const label = feedback.querySelector('.feedback-label');
-        if (emoji) emoji.textContent = isRight ? '✅' : '❌';
+        if (emoji) emoji.innerHTML = isRight ? '<img src="/images/icons/check.webp" class="app-ico" alt="" aria-hidden="true" />' : '❌';
         if (label) label.textContent = isRight ? i18n.correct : i18n.wrong;
         feedback.classList.add('active');
       }

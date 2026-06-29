@@ -50,6 +50,17 @@ img {
   display: block;
 }
 
+/* Icônes de l'app utilisées à la place des emojis.
+   Taille calée sur le contexte (1em) et alignée sur le texte. */
+.app-ico {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
 a {
   color: inherit;
   text-decoration: none;
