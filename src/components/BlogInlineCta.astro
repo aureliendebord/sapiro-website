@@ -11,54 +11,31 @@ const { lang } = Astro.props;
 /**
  * DA calquée sur les bannières des fiches stores (screenshots/ios-framed
  * du repo de l'app) : fond cream→pêche, badge pingouin cerclé blanc, titre
- * chunky brun avec un mot surligné pêche, sparkles orange, et une mini-démo
- * du quiz qui joue toute seule en boucle (3 scènes, la bonne réponse
- * s'allume) — l'effet vidéo, sans le poids d'une vidéo.
+ * Nunito ExtraBold avec un mot surligné pêche légèrement incliné, sparkles,
+ * et un iPhone incliné à droite, à moitié cropé, qui fait défiler les vrais
+ * screens in-game localisés (pattern repris du mockup de la home).
  */
-const copy: Record<Lang, {
-  titleBefore: string; titleHl: string;
-  sub: string;
-  scenes: { kicker: string; question: string; wrong: string; right: string }[];
-}> = {
+const copy: Record<Lang, { titleBefore: string; titleHl: string; sub: string }> = {
   fr: {
     titleBefore: 'Apprends',
     titleHl: 'en jouant',
     sub: 'Drapeaux, tableaux, animaux… 2 000+ quiz photo. Gratuit, sans pub.',
-    scenes: [
-      { kicker: 'Drapeaux', question: 'Quel est ce pays ?', wrong: 'Chine', right: 'Japon' },
-      { kicker: 'Tableaux', question: 'Qui l\'a peinte ?', wrong: 'Monet', right: 'De Vinci' },
-      { kicker: 'Animaux', question: 'Quel est cet animal ?', wrong: 'Léopard', right: 'Guépard' },
-    ],
   },
   en: {
     titleBefore: 'Learn',
     titleHl: 'by playing',
     sub: 'Flags, paintings, animals… 2,000+ photo quizzes. Free, no ads.',
-    scenes: [
-      { kicker: 'Flags', question: 'Which country is this?', wrong: 'China', right: 'Japan' },
-      { kicker: 'Paintings', question: 'Who painted it?', wrong: 'Monet', right: 'Da Vinci' },
-      { kicker: 'Animals', question: 'Which animal is this?', wrong: 'Leopard', right: 'Cheetah' },
-    ],
   },
   es: {
     titleBefore: 'Aprende',
     titleHl: 'jugando',
     sub: 'Banderas, cuadros, animales… 2 000+ quiz con fotos. Gratis, sin anuncios.',
-    scenes: [
-      { kicker: 'Banderas', question: '¿Qué país es?', wrong: 'China', right: 'Japón' },
-      { kicker: 'Cuadros', question: '¿Quién lo pintó?', wrong: 'Monet', right: 'Da Vinci' },
-      { kicker: 'Animales', question: '¿Qué animal es?', wrong: 'Leopardo', right: 'Guepardo' },
-    ],
   },
 };
 
 const t = copy[lang];
 
-const sceneImages = [
-  { src: '/images/banner/jp.png', fit: 'contain' },
-  { src: '/images/banner/joconde.webp', fit: 'cover' },
-  { src: '/images/banner/guepard.webp', fit: 'cover' },
-];
+const slides = ['01', '03', '04'].map(n => `/images/banner/screen-${lang}-${n}.webp`);
 ---
 
 <template id="inline-cta-template">
@@ -77,21 +54,15 @@ const sceneImages = [
       <p class="cta-sub">{t.sub}</p>
     </div>
 
-    <div class="cta-quiz" role="img" aria-label="SAPIRO">
-      {t.scenes.map((scene, i) => (
-        <div class={`scene scene-${i + 1}`}>
-          <span class="scene-kicker">{scene.kicker}</span>
-          <p class="scene-question">{scene.question}</p>
-          <div class={`scene-img img-${sceneImages[i].fit}`}>
-            <img src={sceneImages[i].src} alt="" width="240" height="96" loading="lazy" />
-          </div>
-          <div class="scene-chips">
-            <span class="chip">{scene.wrong}</span>
-            <span class="chip chip-right">{scene.right}</span>
-          </div>
+    <div class="cta-phone" aria-hidden="true">
+      <div class="phone">
+        <div class="phone-notch"></div>
+        <div class="phone-screen">
+          {slides.map((src, i) => (
+            <img src={src} alt="" class={`slide slide-${i + 1}`} width="300" height="652" loading="lazy" />
+          ))}
         </div>
-      ))}
-      <div class="quiz-progress" aria-hidden="true"><span></span></div>
+      </div>
     </div>
 
     <div class="cta-stores">
@@ -121,17 +92,20 @@ const sceneImages = [
 </script>
 
 <style>
+  @font-face {
+    font-family: 'Nunito Banner';
+    src: url('/fonts/nunito-800-subset.woff2') format('woff2');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+  }
+
   .inline-cta {
     position: relative;
-    display: grid;
-    grid-template-areas:
-      'text quiz'
-      'stores quiz';
-    grid-template-columns: 1fr 236px;
-    align-items: center;
-    gap: 8px 32px;
+    display: block;
+    min-height: 330px;
     margin: 40px 0;
-    padding: 28px 32px;
+    padding: 32px 250px 32px 32px;
     background:
       radial-gradient(120% 100% at 90% 110%, rgba(255, 145, 61, 0.32), transparent 60%),
       linear-gradient(165deg, #FBF3E7, #F7E3CA);
@@ -158,11 +132,6 @@ const sceneImages = [
     50% { opacity: 1; transform: scale(1.15) rotate(20deg); }
   }
 
-  /* --- Texte --- */
-  .cta-text {
-    grid-area: text;
-  }
-
   .cta-badge {
     display: inline-flex;
     padding: 4px;
@@ -172,31 +141,27 @@ const sceneImages = [
     margin-bottom: 14px;
   }
 
-  .cta-badge img,
-  .scene-img img {
+  .cta-badge img {
     margin: 0;
     box-shadow: none;
-  }
-
-  .cta-badge img {
     border-radius: 50%;
   }
 
   .cta-title {
-    font-size: 1.75rem;
+    font-family: 'Nunito Banner', var(--font-family);
+    font-size: 2rem;
     font-weight: 800;
-    letter-spacing: -0.02em;
     color: #3D2B1F;
-    line-height: 1.2;
-    margin: 0 0 8px;
+    line-height: 1.15;
+    margin: 0 0 10px;
   }
 
   .cta-title .hl {
+    display: inline-block;
     background: linear-gradient(100deg, #F9CD9E, #F6BE85);
     border-radius: 10px;
-    padding: 1px 10px 3px;
-    box-decoration-break: clone;
-    -webkit-box-decoration-break: clone;
+    padding: 0 10px 2px;
+    transform: rotate(-2deg);
   }
 
   .cta-sub {
@@ -207,132 +172,86 @@ const sceneImages = [
     max-width: 340px;
   }
 
-  /* --- Mini quiz animé --- */
-  .cta-quiz {
-    grid-area: quiz;
-    position: relative;
-    height: 218px;
-    background: #fff;
-    border-radius: 18px;
-    box-shadow: 0 18px 36px -14px rgba(120, 70, 20, 0.35);
-  }
-
-  .scene {
+  /* --- iPhone incliné, screens qui défilent --- */
+  .cta-phone {
     position: absolute;
-    inset: 0;
-    display: flex;
-    flex-direction: column;
-    padding: 14px 16px;
-    opacity: 0;
-    animation: scene-cycle 9s infinite;
+    top: 30px;
+    right: -26px;
+    width: 220px;
+    animation: phone-float 5s ease-in-out infinite;
+    pointer-events: none;
   }
 
-  .scene-1 { animation-delay: 0s; }
-  .scene-2 { animation-delay: 3s; }
-  .scene-3 { animation-delay: 6s; }
-
-  @keyframes scene-cycle {
-    0% { opacity: 0; transform: translateY(6px); }
-    4%, 30% { opacity: 1; transform: translateY(0); }
-    33.33%, 100% { opacity: 0; transform: translateY(-4px); }
+  @keyframes phone-float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-8px); }
   }
 
-  .scene-kicker {
-    font-size: 10px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.12em;
-    color: var(--orange);
+  .phone {
+    position: relative;
+    width: 200px;
+    height: 410px;
+    background: #0a0a0a;
+    border-radius: 36px;
+    padding: 8px;
+    border: 2px solid #1f1f1f;
+    transform: rotate(9deg);
+    box-shadow:
+      inset 0 0 0 2px rgba(255, 255, 255, 0.05),
+      0 24px 48px -16px rgba(120, 70, 20, 0.45);
   }
 
-  .scene-question {
-    font-size: 0.92rem;
-    font-weight: 700;
-    color: #3D2B1F;
-    margin: 2px 0 8px;
-  }
-
-  .scene-img {
-    height: 88px;
+  .phone-notch {
+    position: absolute;
+    top: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 72px;
+    height: 20px;
+    background: #0a0a0a;
     border-radius: 12px;
-    overflow: hidden;
-    background: #FAF6F0;
-    margin-bottom: 10px;
+    z-index: 2;
   }
 
-  .scene-img img {
-    display: block;
+  .phone-screen {
+    position: relative;
     width: 100%;
     height: 100%;
-  }
-
-  .img-cover img { object-fit: cover; }
-  .img-contain img { object-fit: contain; padding: 6px; }
-
-  .scene-chips {
-    display: flex;
-    gap: 8px;
-  }
-
-  .chip {
-    flex: 1;
-    text-align: center;
-    font-size: 12.5px;
-    font-weight: 600;
-    color: #3D2B1F;
-    background: #fff;
-    border: 1.5px solid #EBDDCB;
-    border-radius: 10px;
-    padding: 8px 4px;
-  }
-
-  .chip-right {
-    animation: chip-flash 9s infinite;
-    animation-delay: inherit;
-  }
-
-  .scene-1 .chip-right { animation-delay: 0s; }
-  .scene-2 .chip-right { animation-delay: 3s; }
-  .scene-3 .chip-right { animation-delay: 6s; }
-
-  @keyframes chip-flash {
-    0%, 15% { background: #fff; color: #3D2B1F; border-color: #EBDDCB; transform: scale(1); }
-    19%, 30% { background: var(--orange); color: #fff; border-color: var(--orange); transform: scale(1.04); }
-    33.33%, 100% { background: #fff; color: #3D2B1F; border-color: #EBDDCB; transform: scale(1); }
-  }
-
-  .quiz-progress {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 4px;
-    border-radius: 18px 18px 0 0;
-    background: #F3E7D7;
+    border-radius: 28px;
     overflow: hidden;
+    background: #FAF6F0;
   }
 
-  .quiz-progress span {
-    display: block;
+  .phone-screen .slide {
+    position: absolute;
+    inset: 0;
+    width: 100%;
     height: 100%;
-    background: var(--orange);
-    transform-origin: left;
-    animation: quiz-progress 3s linear infinite;
+    object-fit: cover;
+    object-position: top;
+    margin: 0;
+    box-shadow: none;
+    border-radius: 0;
+    opacity: 0;
+    animation: slide-cycle 9s infinite;
   }
 
-  @keyframes quiz-progress {
-    from { transform: scaleX(0); }
-    to { transform: scaleX(1); }
+  .slide-1 { animation-delay: 0s; }
+  .slide-2 { animation-delay: 3s; }
+  .slide-3 { animation-delay: 6s; }
+
+  @keyframes slide-cycle {
+    0% { opacity: 0; }
+    5%, 32% { opacity: 1; }
+    38%, 100% { opacity: 0; }
   }
 
   /* --- Boutons stores --- */
   .cta-stores {
-    grid-area: stores;
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
-    align-self: start;
-    margin-top: 10px;
+    margin-top: 20px;
   }
 
   .inline-cta .store {
@@ -356,32 +275,39 @@ const sceneImages = [
   }
 
   @media (prefers-reduced-motion: reduce) {
-    .sparkle, .quiz-progress span { animation: none; }
-    .scene { animation: none; }
-    .scene-2, .scene-3 { display: none; }
-    .scene-1 { opacity: 1; }
-    .chip-flash, .scene-1 .chip-right { animation: none; background: var(--orange); color: #fff; border-color: var(--orange); }
+    .sparkle, .cta-phone { animation: none; }
+    .phone-screen .slide { animation: none; }
+    .phone-screen .slide-2, .phone-screen .slide-3 { display: none; }
+    .phone-screen .slide-1 { opacity: 1; }
   }
 
   @media (max-width: 640px) {
     .inline-cta {
-      grid-template-areas:
-        'text'
-        'quiz'
-        'stores';
-      grid-template-columns: 1fr;
-      gap: 18px;
-      padding: 24px 18px;
+      min-height: 0;
+      padding: 24px 18px 28px;
     }
 
-    .cta-title { font-size: 1.45rem; }
+    .cta-title { font-size: 1.55rem; }
 
-    .cta-quiz {
+    .cta-sub { max-width: none; }
+
+    .cta-phone {
+      position: relative;
+      top: 0;
+      right: 0;
       width: 100%;
-      max-width: 300px;
-      justify-self: center;
+      height: 250px;
+      margin: 18px 0 4px;
+      display: flex;
+      justify-content: center;
+      overflow: hidden;
     }
 
-    .cta-stores { justify-content: center; margin-top: 0; }
+    .phone {
+      flex-shrink: 0;
+      transform: rotate(8deg) translateX(10px);
+    }
+
+    .cta-stores { justify-content: center; margin-top: 10px; }
   }
 </style>
