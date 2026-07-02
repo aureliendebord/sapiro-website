@@ -192,7 +192,7 @@ const breadcrumbSchema = {
             <a href={clusterUrl} class="cluster-box-link">{t.blog.seeAllTopic} &rarr;</a>
           </aside>
         )}
-        <BlogCta lang={lang} />
+        <BlogCta lang={lang} clusterKey={cluster?.key} />
       </div>
 
       <script>
@@ -384,15 +384,19 @@ const breadcrumbSchema = {
     color: var(--noir);
   }
 
-  .article-content :global(a:not(.btn)) {
+  .article-content :global(a:not(.btn):not(.store)) {
     color: var(--orange);
     text-decoration: underline;
     text-underline-offset: 2px;
     transition: color 0.2s;
   }
 
-  .article-content :global(a:not(.btn):hover) {
+  .article-content :global(a:not(.btn):not(.store):hover) {
     color: var(--orange-dark);
+  }
+
+  .article-content :global(.store strong) {
+    color: inherit;
   }
 
   .article-content :global(blockquote) {
