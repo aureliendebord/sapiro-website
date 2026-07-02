@@ -1,7 +1,7 @@
 ---
 import type { Lang } from '../../i18n';
 import { getLocalePath } from '../../i18n';
-import { APP_STORE_URL, playStoreUrl } from '../../data/appLinks';
+import { appStoreUrl, playStoreUrl } from '../../data/appLinks';
 
 interface Props {
   lang: Lang;
@@ -31,8 +31,8 @@ const fallbackHref = mode === 'anchor' ? '#download' : `${getLocalePath('/', lan
   id="sticky-cta"
   aria-label={t.label}
   data-mode={mode}
-  data-ios={APP_STORE_URL}
-  data-android={playStoreUrl('sticky-cta')}
+  data-ios={appStoreUrl(lang)}
+  data-android={playStoreUrl('sticky-cta', lang)}
 >
   <span class="icon"><img src="/images/icons/lightning.webp" class="app-ico" alt="" aria-hidden="true" /></span>
   <span class="text">
