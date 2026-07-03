@@ -59,6 +59,16 @@ const slides = ['01', '02', '03', '04', '05'].map(n => `/images/banner/screen-${
 
     <div class="cta-stage" aria-hidden="true">
       <div class="glow"></div>
+
+      <div class="orbit">
+        <span class="orbit-emoji orbit-emoji-1" style="--a:0deg; --r:106px">🇫🇷</span>
+        <span class="orbit-emoji orbit-emoji-2" style="--a:60deg; --r:106px"><img src="/images/icons/moai.webp" class="app-ico" alt="" /></span>
+        <span class="orbit-emoji orbit-emoji-3" style="--a:120deg; --r:102px"><img src="/images/icons/palette.webp" class="app-ico" alt="" /></span>
+        <span class="orbit-emoji orbit-emoji-4" style="--a:180deg; --r:100px"><img src="/images/icons/lion.webp" class="app-ico" alt="" /></span>
+        <span class="orbit-emoji orbit-emoji-5" style="--a:240deg; --r:106px">🇯🇵</span>
+        <span class="orbit-emoji orbit-emoji-6" style="--a:300deg; --r:108px"><img src="/images/icons/classical-building.webp" class="app-ico" alt="" /></span>
+      </div>
+
       <div class="phone-tilt">
         <div class="phone">
           <div class="phone-notch"></div>
@@ -116,9 +126,9 @@ const slides = ['01', '02', '03', '04', '05'].map(n => `/images/banner/screen-${
   .inline-cta {
     position: relative;
     display: block;
-    min-height: 380px;
-    margin: 88px 0 76px;
-    padding: 36px 300px 36px 32px;
+    min-height: 264px;
+    margin: 76px 0 68px;
+    padding: 30px 284px 30px 32px;
     background:
       radial-gradient(120% 100% at 90% 110%, rgba(255, 145, 61, 0.32), transparent 60%),
       linear-gradient(165deg, #FBF3E7, #F7E3CA);
@@ -172,18 +182,18 @@ const slides = ['01', '02', '03', '04', '05'].map(n => `/images/banner/screen-${
   /* --- Mockup iPhone : réplique du phone-stage de la home (HeroV2) --- */
   .cta-stage {
     position: absolute;
-    top: -44px;
-    right: 44px;
-    width: 230px;
+    top: -42px;
+    right: 40px;
+    width: 200px;
     z-index: 2;
   }
 
   .glow {
     position: absolute;
-    top: 70px;
-    left: -6px;
-    width: 240px;
-    height: 240px;
+    top: 60px;
+    left: -10px;
+    width: 220px;
+    height: 220px;
     border-radius: 50%;
     background: radial-gradient(circle, rgba(255, 107, 53, 0.28), transparent 70%);
     filter: blur(60px);
@@ -193,6 +203,46 @@ const slides = ['01', '02', '03', '04', '05'].map(n => `/images/banner/screen-${
   @keyframes glowFloat {
     0%, 100% { transform: translate(0, 0); }
     50% { transform: translate(20px, -15px); }
+  }
+
+  /* --- Orbit d'icônes autour du téléphone (repris de HeroV2) --- */
+  .orbit {
+    position: absolute;
+    inset: 0;
+    animation: orbitRotate 30s linear infinite;
+    pointer-events: none;
+  }
+
+  .orbit-emoji {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 26px;
+    transform: translate(-50%, -50%) rotate(var(--a)) translateY(calc(var(--r) * -1)) rotate(calc(var(--a) * -1));
+    filter: drop-shadow(0 4px 12px rgba(120, 70, 20, 0.28));
+    animation: orbitBob 3.6s ease-in-out infinite;
+  }
+
+  .orbit-emoji .app-ico {
+    width: 26px;
+    height: 26px;
+  }
+
+  .orbit-emoji-1 { animation-delay: 0s; }
+  .orbit-emoji-2 { animation-delay: 0.4s; }
+  .orbit-emoji-3 { animation-delay: 0.9s; }
+  .orbit-emoji-4 { animation-delay: 1.3s; }
+  .orbit-emoji-5 { animation-delay: 1.8s; }
+  .orbit-emoji-6 { animation-delay: 2.2s; }
+
+  @keyframes orbitRotate {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+
+  @keyframes orbitBob {
+    0%, 100% { scale: 1; }
+    50% { scale: 1.16; }
   }
 
   .phone-tilt {
@@ -207,11 +257,11 @@ const slides = ['01', '02', '03', '04', '05'].map(n => `/images/banner/screen-${
 
   .phone {
     position: relative;
-    width: 230px;
-    height: 470px;
+    width: 200px;
+    height: 408px;
     background: #0a0a0a;
-    border-radius: 40px;
-    padding: 9px;
+    border-radius: 36px;
+    padding: 8px;
     border: 2px solid #1f1f1f;
     box-shadow:
       inset 0 0 0 2px rgba(255, 255, 255, 0.05),
@@ -333,7 +383,7 @@ const slides = ['01', '02', '03', '04', '05'].map(n => `/images/banner/screen-${
   }
 
   @media (prefers-reduced-motion: reduce) {
-    .sparkle, .glow, .floating-card, .card-emoji {
+    .sparkle, .glow, .orbit, .floating-card, .card-emoji {
       animation-duration: 60s !important;
     }
   }
@@ -341,6 +391,7 @@ const slides = ['01', '02', '03', '04', '05'].map(n => `/images/banner/screen-${
   @media (max-width: 640px) {
     .inline-cta {
       min-height: 0;
+      margin: 48px 0;
       padding: 24px 18px 28px;
     }
 
@@ -348,24 +399,22 @@ const slides = ['01', '02', '03', '04', '05'].map(n => `/images/banner/screen-${
 
     .cta-sub { max-width: none; }
 
-    .inline-cta { margin: 48px 0; }
-
     .cta-stage {
       position: relative;
       top: 0;
       right: 0;
-      width: 100%;
+      width: 200px;
       height: auto;
-      margin: 20px 0 8px;
+      margin: 30px auto 12px;
       display: flex;
       justify-content: center;
     }
 
-    .glow { left: 50%; margin-left: -130px; }
+    .glow { left: -10px; margin-left: 0; }
 
     .phone { flex-shrink: 0; }
 
-    .card-top { right: 6px; }
+    .card-top { right: -6px; }
 
     .cta-stores { justify-content: center; margin-top: 10px; }
   }
