@@ -1,11 +1,19 @@
 ---
 import type { Lang } from '../../i18n';
+import { getLocalePath } from '../../i18n';
+import { appStoreUrl, playStoreUrl } from '../../data/appLinks';
 
 interface Props {
   lang: Lang;
+  /**
+   * 'anchor' : scroll vers la section #download de la page courante
+   * (home, index blog). 'store' : lien direct vers le store selon l'OS,
+   * avec la home #download en secours si la détection échoue.
+   */
+  mode?: 'anchor' | 'store';
 }
 
-const { lang } = Astro.props;
+const { lang, mode = 'store' } = Astro.props;
 
 const copy = {
   fr: { label: 'Télécharger SAPIRO', free: 'Gratuit', extra: 'Sans pub' },
@@ -14,9 +22,18 @@ const copy = {
 };
 
 const t = copy[lang];
+const fallbackHref = mode === 'anchor' ? '#download' : `${getLocalePath('/', lang)}#download`;
 ---
 
-<a href="#download" class="sticky-cta" id="sticky-cta" aria-label={t.label}>
+<a
+  href={fallbackHref}
+  class="sticky-cta"
+  id="sticky-cta"
+  aria-label={t.label}
+  data-mode={mode}
+  data-ios={appStoreUrl(lang)}
+  data-android={playStoreUrl('sticky-cta', lang)}
+>
   <span class="icon"><img src="/images/icons/lightning.webp" class="app-ico" alt="" aria-hidden="true" /></span>
   <span class="text">
     <strong>{t.label}</strong>
@@ -31,6 +48,15 @@ const t = copy[lang];
 (() => {
   const cta = document.getElementById('sticky-cta');
   if (!cta) return;
+
+  // En mode store : lien direct vers le bon store selon l'OS.
+  // Si la détection échoue, le href de secours (home #download) reste en place.
+  if (cta.dataset.mode === 'store') {
+    const ua = navigator.userAgent;
+    const isIOS = /iPhone|iPad|iPod/.test(ua) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+    if (isIOS && cta.dataset.ios) cta.href = cta.dataset.ios;
+    else if (/Android/.test(ua) && cta.dataset.android) cta.href = cta.dataset.android;
+  }
 
   const show = () => cta.classList.add('visible');
   const hide = () => cta.classList.remove('visible');

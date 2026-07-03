@@ -3,6 +3,8 @@ import Layout from './Layout.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import BlogCta from '../components/BlogCta.astro';
+import BlogInlineCta from '../components/BlogInlineCta.astro';
+import StickyMobileCta from '../components/v2/StickyMobileCta.astro';
 import type { Lang } from '../i18n';
 import { getTranslations, getLocalePath } from '../i18n';
 import type { FaqItem } from '../utils/faq';
@@ -192,8 +194,10 @@ const breadcrumbSchema = {
             <a href={clusterUrl} class="cluster-box-link">{t.blog.seeAllTopic} &rarr;</a>
           </aside>
         )}
-        <BlogCta lang={lang} />
+        <BlogCta lang={lang} clusterKey={cluster?.key} />
       </div>
+
+      <BlogInlineCta lang={lang} />
 
       <script>
         // Wrap FAQ section in a styled container
@@ -229,6 +233,7 @@ const breadcrumbSchema = {
   </main>
 
   <Footer lang={lang} t={t} />
+  <StickyMobileCta lang={lang} />
 </Layout>
 
 <style>
@@ -384,15 +389,19 @@ const breadcrumbSchema = {
     color: var(--noir);
   }
 
-  .article-content :global(a:not(.btn)) {
+  .article-content :global(a:not(.btn):not(.store)) {
     color: var(--orange);
     text-decoration: underline;
     text-underline-offset: 2px;
     transition: color 0.2s;
   }
 
-  .article-content :global(a:not(.btn):hover) {
+  .article-content :global(a:not(.btn):not(.store):hover) {
     color: var(--orange-dark);
+  }
+
+  .article-content :global(.store strong) {
+    color: inherit;
   }
 
   .article-content :global(blockquote) {

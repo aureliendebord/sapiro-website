@@ -1,44 +1,196 @@
 ---
 import type { Lang } from '../i18n';
-import { getTranslations, getLocalePath } from '../i18n';
+import { appStoreUrl, playStoreUrl } from '../data/appLinks';
 
 interface Props {
   lang: Lang;
+  /** Cluster thematique de l'article, pour contextualiser l'accroche */
+  clusterKey?: string;
 }
 
-const { lang } = Astro.props;
-const t = getTranslations(lang);
+const { lang, clusterKey } = Astro.props;
 
-const ctaText: Record<string, { title: string; subtitle: string; button: string }> = {
+interface CtaCopy {
+  title: string;
+  subtitle: string;
+}
+
+const defaultCopy: Record<Lang, CtaCopy> = {
   fr: {
     title: 'Teste tes connaissances avec SAPIRO !',
     subtitle: 'Géographie, histoire, art, nature... Apprends en t\'amusant avec des quiz ludiques et éducatifs.',
-    button: 'Télécharger SAPIRO gratuitement'
   },
   en: {
     title: 'Test your knowledge with SAPIRO!',
     subtitle: 'Geography, history, art, nature... Learn while having fun with engaging educational quizzes.',
-    button: 'Download SAPIRO for free'
   },
   es: {
     title: '¡Pon a prueba tus conocimientos con SAPIRO!',
     subtitle: 'Geografía, historia, arte, naturaleza... Aprende divirtiéndote con quizzes lúdicos y educativos.',
-    button: 'Descarga SAPIRO gratis'
-  }
+  },
 };
 
-const cta = ctaText[lang];
+const clusterCopy: Record<string, Record<Lang, CtaCopy>> = {
+  geographie: {
+    fr: {
+      title: 'Tu viens de faire le plein de géographie.',
+      subtitle: '197 pays, drapeaux et capitales à deviner dans SAPIRO. Voyons combien tu en reconnais.',
+    },
+    en: {
+      title: 'You just loaded up on geography.',
+      subtitle: '197 countries, flags and capitals to guess in SAPIRO. Let\'s see how many you recognise.',
+    },
+    es: {
+      title: 'Acabas de llenarte de geografía.',
+      subtitle: '197 países, banderas y capitales para adivinar en SAPIRO. Veamos cuántos reconoces.',
+    },
+  },
+  histoire: {
+    fr: {
+      title: 'L\'histoire, tu la lis ou tu la retiens ?',
+      subtitle: 'Personnages, batailles, grandes dates : SAPIRO transforme tout ça en quiz. Gratuit, sans pub.',
+    },
+    en: {
+      title: 'History: do you read it or retain it?',
+      subtitle: 'Figures, battles, key dates — SAPIRO turns them all into quizzes. Free, no ads.',
+    },
+    es: {
+      title: 'La historia, ¿la lees o la retienes?',
+      subtitle: 'Personajes, batallas, grandes fechas: SAPIRO lo convierte todo en quiz. Gratis, sin anuncios.',
+    },
+  },
+  art: {
+    fr: {
+      title: 'Et si tu testais ton œil ?',
+      subtitle: 'Tableaux, sculptures, mouvements : saurais-tu les reconnaître en quiz ? 2 000+ questions dans SAPIRO.',
+    },
+    en: {
+      title: 'Time to test your eye.',
+      subtitle: 'Paintings, sculptures, movements: would you recognise them in a quiz? 2,000+ questions in SAPIRO.',
+    },
+    es: {
+      title: '¿Y si pones a prueba tu ojo?',
+      subtitle: 'Cuadros, esculturas, movimientos: ¿los reconocerías en un quiz? 2 000+ preguntas en SAPIRO.',
+    },
+  },
+  nature: {
+    fr: {
+      title: '600 espèces à reconnaître. Chiche ?',
+      subtitle: 'Animaux, biodiversité, records du vivant : teste-toi en quiz dans SAPIRO. Gratuit, sans pub.',
+    },
+    en: {
+      title: '600 species to recognise. Game on?',
+      subtitle: 'Animals, biodiversity, records of the living world: quiz yourself in SAPIRO. Free, no ads.',
+    },
+    es: {
+      title: '600 especies por reconocer. ¿Te atreves?',
+      subtitle: 'Animales, biodiversidad, récords de la naturaleza: ponte a prueba en SAPIRO. Gratis, sin anuncios.',
+    },
+  },
+  monuments: {
+    fr: {
+      title: 'Tu les reconnaîtrais en photo ?',
+      subtitle: 'Merveilles du monde, sites UNESCO, monuments : SAPIRO t\'en fait deviner des centaines.',
+    },
+    en: {
+      title: 'Would you recognise them from a photo?',
+      subtitle: 'World wonders, UNESCO sites, monuments: SAPIRO has hundreds of them to guess.',
+    },
+    es: {
+      title: '¿Los reconocerías en una foto?',
+      subtitle: 'Maravillas del mundo, sitios UNESCO, monumentos: SAPIRO te hace adivinar cientos de ellos.',
+    },
+  },
+  concours: {
+    fr: {
+      title: 'Réviser en 3 minutes par jour, ça existe.',
+      subtitle: 'La culture générale des concours en quiz rapides. Gratuit, sans pub, sans compte.',
+    },
+    en: {
+      title: 'Revising 3 minutes a day? It exists.',
+      subtitle: 'Exam-level general knowledge in quick quizzes. Free, no ads, no account.',
+    },
+    es: {
+      title: 'Repasar 3 minutos al día, sí existe.',
+      subtitle: 'La cultura general de las oposiciones en quizzes rápidos. Gratis, sin anuncios, sin cuenta.',
+    },
+  },
+  famille: {
+    fr: {
+      title: 'Le prochain quiz, faites-le à deux.',
+      subtitle: 'SAPIRO, c\'est le quiz à partager en famille : ludique, éducatif, sans pub ni collecte de données.',
+    },
+    en: {
+      title: 'Make the next quiz a family game.',
+      subtitle: 'SAPIRO is the quiz to share at home: fun, educational, no ads, no data collection.',
+    },
+    es: {
+      title: 'El próximo quiz, jugadlo en familia.',
+      subtitle: 'SAPIRO es el quiz para compartir en casa: lúdico, educativo, sin anuncios ni recogida de datos.',
+    },
+  },
+  quiz: {
+    fr: {
+      title: 'Tu aimes les quiz ? En voilà 2 000+.',
+      subtitle: 'Géographie, histoire, art, nature : la vraie mécanique du quiz, dans ta poche.',
+    },
+    en: {
+      title: 'Love quizzes? Here are 2,000+.',
+      subtitle: 'Geography, history, art, nature: the real quiz mechanic, in your pocket.',
+    },
+    es: {
+      title: '¿Te gustan los quizzes? Aquí tienes 2 000+.',
+      subtitle: 'Geografía, historia, arte, naturaleza: la auténtica mecánica del quiz, en tu bolsillo.',
+    },
+  },
+  comparatifs: {
+    fr: {
+      title: 'Le plus simple : essaie SAPIRO.',
+      subtitle: 'Gratuit, sans pub, sans collecte de données. Juge par toi-même en 2 minutes.',
+    },
+    en: {
+      title: 'The easiest way to decide: try SAPIRO.',
+      subtitle: 'Free, no ads, no data collection. Judge for yourself in 2 minutes.',
+    },
+    es: {
+      title: 'Lo más sencillo: prueba SAPIRO.',
+      subtitle: 'Gratis, sin anuncios, sin recogida de datos. Júzgalo tú mismo en 2 minutos.',
+    },
+  },
+};
+
+const storeLabels: Record<Lang, { iosSub: string; androidSub: string }> = {
+  fr: { iosSub: 'Télécharger sur', androidSub: 'Disponible sur' },
+  en: { iosSub: 'Download on the', androidSub: 'Get it on' },
+  es: { iosSub: 'Descargar en', androidSub: 'Disponible en' },
+};
+
+const cta = (clusterKey && clusterCopy[clusterKey]?.[lang]) || defaultCopy[lang];
+const labels = storeLabels[lang];
 ---
 
 <aside class="blog-cta">
   <div class="blog-cta-icon">
-    <img src="/images/icon-180.png" alt="SAPIRO" width="64" height="64" />
+    <img src="/images/icon-180.png" alt="SAPIRO" width="64" height="64" loading="lazy" />
   </div>
   <h3 class="blog-cta-title">{cta.title}</h3>
   <p class="blog-cta-text">{cta.subtitle}</p>
-  <a href={`${getLocalePath('/', lang)}#download`} class="btn btn-orange blog-cta-button">
-    {cta.button}
-  </a>
+  <div class="blog-cta-stores">
+    <a href={appStoreUrl(lang)} class="store" target="_blank" rel="noopener noreferrer">
+      <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5C17.88 20.74 17 21.95 15.66 21.97C14.32 22 13.89 21.18 12.37 21.18C10.84 21.18 10.37 21.95 9.09997 22C7.78997 22.05 6.79997 20.68 5.95997 19.47C4.24997 17 2.93997 12.45 4.69997 9.39C5.56997 7.87 7.12997 6.91 8.81997 6.88C10.1 6.86 11.32 7.75 12.11 7.75C12.89 7.75 14.37 6.68 15.92 6.84C16.57 6.87 18.39 7.1 19.56 8.82C19.47 8.88 17.39 10.1 17.41 12.63C17.44 15.65 20.06 16.66 20.09 16.67C20.06 16.74 19.67 18.11 18.71 19.5ZM13 3.5C13.73 2.67 14.94 2.04 15.94 2C16.07 3.17 15.6 4.35 14.9 5.19C14.21 6.04 13.07 6.7 11.95 6.61C11.8 5.46 12.36 4.26 13 3.5Z"/></svg>
+      <span class="store-txt">
+        <small>{labels.iosSub}</small>
+        <strong>App Store</strong>
+      </span>
+    </a>
+    <a href={playStoreUrl('blog-cta', lang)} class="store" target="_blank" rel="noopener noreferrer">
+      <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M3 20.5V3.5C3 2.91 3.34 2.39 3.84 2.15L13.69 12L3.84 21.85C3.34 21.6 3 21.09 3 20.5ZM16.81 15.12L6.05 21.34L14.54 12.85L16.81 15.12ZM20.16 10.81C20.5 11.08 20.75 11.5 20.75 12C20.75 12.5 20.53 12.9 20.18 13.18L17.89 14.5L15.39 12L17.89 9.5L20.16 10.81ZM6.05 2.66L16.81 8.88L14.54 11.15L6.05 2.66Z"/></svg>
+      <span class="store-txt">
+        <small>{labels.androidSub}</small>
+        <strong>Google Play</strong>
+      </span>
+    </a>
+  </div>
 </aside>
 
 <style>
@@ -77,8 +229,63 @@ const cta = ctaText[lang];
     line-height: 1.6;
   }
 
-  .blog-cta-button {
+  .blog-cta-stores {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+
+  .store {
     display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 20px;
+    background: #0a0a0f;
+    color: #fff;
+    border-radius: 14px;
+    font-weight: 600;
     text-decoration: none;
+    text-align: left;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 10px 24px -10px rgba(10, 10, 15, 0.5);
+  }
+
+  .store:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 14px 32px -10px rgba(10, 10, 15, 0.55);
+  }
+
+  .store-txt {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.15;
+  }
+
+  .store-txt small {
+    font-size: 10px;
+    opacity: 0.75;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+
+  .store-txt strong {
+    font-size: 15px;
+  }
+
+  @media (max-width: 480px) {
+    .blog-cta {
+      padding: 24px 16px;
+    }
+
+    .blog-cta-stores {
+      flex-direction: column;
+      align-items: stretch;
+    }
+
+    .store {
+      justify-content: center;
+    }
   }
 </style>
