@@ -35,7 +35,7 @@ const copy: Record<Lang, { titleBefore: string; titleHl: string; sub: string }> 
 
 const t = copy[lang];
 
-const slides = ['01', '03', '04'].map(n => `/images/banner/screen-${lang}-${n}.webp`);
+const slides = ['01', '02', '03', '04', '05'].map(n => `/images/banner/screen-${lang}-${n}.webp`);
 ---
 
 <template id="inline-cta-template">
@@ -45,9 +45,6 @@ const slides = ['01', '03', '04'].map(n => `/images/banner/screen-${lang}-${n}.w
     <span class="sparkle s3" aria-hidden="true">✦</span>
 
     <div class="cta-text">
-      <div class="cta-badge">
-        <img src="/images/icon-180.png" alt="SAPIRO" width="52" height="52" loading="lazy" />
-      </div>
       <p class="cta-title">
         {t.titleBefore}&nbsp;<span class="hl">{t.titleHl}</span>
       </p>
@@ -55,12 +52,14 @@ const slides = ['01', '03', '04'].map(n => `/images/banner/screen-${lang}-${n}.w
     </div>
 
     <div class="cta-phone" aria-hidden="true">
-      <div class="phone">
+      <div class="phone-tilt">
+        <div class="phone">
         <div class="phone-notch"></div>
         <div class="phone-screen">
           {slides.map((src, i) => (
             <img src={src} alt="" class={`slide slide-${i + 1}`} width="300" height="652" loading="lazy" />
           ))}
+          </div>
         </div>
       </div>
     </div>
@@ -132,21 +131,6 @@ const slides = ['01', '03', '04'].map(n => `/images/banner/screen-${lang}-${n}.w
     50% { opacity: 1; transform: scale(1.15) rotate(20deg); }
   }
 
-  .cta-badge {
-    display: inline-flex;
-    padding: 4px;
-    background: #fff;
-    border-radius: 50%;
-    box-shadow: 0 6px 16px -6px rgba(120, 70, 20, 0.35);
-    margin-bottom: 14px;
-  }
-
-  .cta-badge img {
-    margin: 0;
-    box-shadow: none;
-    border-radius: 50%;
-  }
-
   .cta-title {
     font-family: 'Nunito Banner', var(--font-family);
     font-size: 2rem;
@@ -175,11 +159,17 @@ const slides = ['01', '03', '04'].map(n => `/images/banner/screen-${lang}-${n}.w
   /* --- iPhone incliné, screens qui défilent --- */
   .cta-phone {
     position: absolute;
-    top: 30px;
-    right: -26px;
-    width: 220px;
+    top: 34px;
+    right: 34px;
+    width: 200px;
     animation: phone-float 5s ease-in-out infinite;
     pointer-events: none;
+  }
+
+  /* Tilt 3D repris du mockup de la home, penché à gauche */
+  .phone-tilt {
+    transform: perspective(1400px) rotateY(-14deg) rotateX(6deg) rotateZ(-3deg);
+    filter: drop-shadow(0 30px 45px rgba(120, 70, 20, 0.35));
   }
 
   @keyframes phone-float {
@@ -195,10 +185,9 @@ const slides = ['01', '03', '04'].map(n => `/images/banner/screen-${lang}-${n}.w
     border-radius: 36px;
     padding: 8px;
     border: 2px solid #1f1f1f;
-    transform: rotate(9deg);
     box-shadow:
       inset 0 0 0 2px rgba(255, 255, 255, 0.05),
-      0 24px 48px -16px rgba(120, 70, 20, 0.45);
+      0 0 0 8px rgba(255, 255, 255, 0.03);
   }
 
   .phone-notch {
@@ -233,17 +222,21 @@ const slides = ['01', '03', '04'].map(n => `/images/banner/screen-${lang}-${n}.w
     box-shadow: none;
     border-radius: 0;
     opacity: 0;
-    animation: slide-cycle 9s infinite;
+    animation: slide-cycle 20s cubic-bezier(0.65, 0, 0.35, 1) infinite;
   }
 
-  .slide-1 { animation-delay: 0s; }
-  .slide-2 { animation-delay: 3s; }
-  .slide-3 { animation-delay: 6s; }
+  .phone-screen .slide-1 { opacity: 1; animation-delay: 0s; }
+  .phone-screen .slide-2 { animation-delay: 4s; }
+  .phone-screen .slide-3 { animation-delay: 8s; }
+  .phone-screen .slide-4 { animation-delay: 12s; }
+  .phone-screen .slide-5 { animation-delay: 16s; }
 
   @keyframes slide-cycle {
-    0% { opacity: 0; }
-    5%, 32% { opacity: 1; }
-    38%, 100% { opacity: 0; }
+    0% { opacity: 0; transform: translateX(8%) scale(1.02); }
+    2% { opacity: 1; transform: translateX(0) scale(1); }
+    18% { opacity: 1; transform: translateX(0) scale(1); }
+    22% { opacity: 0; transform: translateX(-8%) scale(1.02); }
+    100% { opacity: 0; transform: translateX(8%) scale(1.02); }
   }
 
   /* --- Boutons stores --- */
@@ -277,7 +270,7 @@ const slides = ['01', '03', '04'].map(n => `/images/banner/screen-${lang}-${n}.w
   @media (prefers-reduced-motion: reduce) {
     .sparkle, .cta-phone { animation: none; }
     .phone-screen .slide { animation: none; }
-    .phone-screen .slide-2, .phone-screen .slide-3 { display: none; }
+    .phone-screen .slide:not(.slide-1) { display: none; }
     .phone-screen .slide-1 { opacity: 1; }
   }
 
@@ -305,7 +298,6 @@ const slides = ['01', '03', '04'].map(n => `/images/banner/screen-${lang}-${n}.w
 
     .phone {
       flex-shrink: 0;
-      transform: rotate(8deg) translateX(10px);
     }
 
     .cta-stores { justify-content: center; margin-top: 10px; }
