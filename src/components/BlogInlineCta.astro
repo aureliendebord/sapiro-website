@@ -15,21 +15,27 @@ const { lang } = Astro.props;
  * et un iPhone incliné à droite, à moitié cropé, qui fait défiler les vrais
  * screens in-game localisés (pattern repris du mockup de la home).
  */
-const copy: Record<Lang, { titleBefore: string; titleHl: string; sub: string }> = {
+const copy: Record<Lang, { titleBefore: string; titleHl: string; sub: string; xpAmount: string; xpLabel: string }> = {
   fr: {
     titleBefore: 'Apprends',
     titleHl: 'en jouant',
     sub: 'Drapeaux, tableaux, animaux… 2 000+ quiz photo. Gratuit, sans pub.',
+    xpAmount: '+120 XP',
+    xpLabel: 'Série de 5',
   },
   en: {
     titleBefore: 'Learn',
     titleHl: 'by playing',
     sub: 'Flags, paintings, animals… 2,000+ photo quizzes. Free, no ads.',
+    xpAmount: '+120 XP',
+    xpLabel: '5-streak',
   },
   es: {
     titleBefore: 'Aprende',
     titleHl: 'jugando',
     sub: 'Banderas, cuadros, animales… 2 000+ quiz con fotos. Gratis, sin anuncios.',
+    xpAmount: '+120 XP',
+    xpLabel: 'Racha de 5',
   },
 };
 
@@ -51,15 +57,23 @@ const slides = ['01', '02', '03', '04', '05'].map(n => `/images/banner/screen-${
       <p class="cta-sub">{t.sub}</p>
     </div>
 
-    <div class="cta-phone" aria-hidden="true">
+    <div class="cta-stage" aria-hidden="true">
+      <div class="glow"></div>
       <div class="phone-tilt">
         <div class="phone">
-        <div class="phone-notch"></div>
-        <div class="phone-screen">
-          {slides.map((src, i) => (
-            <img src={src} alt="" class={`slide slide-${i + 1}`} width="300" height="652" loading="lazy" />
-          ))}
+          <div class="phone-notch"></div>
+          <div class="phone-screen">
+            {slides.map((src, i) => (
+              <img src={src} alt="" class={`slide slide-${i + 1}`} width="460" height="1000" loading="lazy" />
+            ))}
           </div>
+        </div>
+      </div>
+      <div class="floating-card card-top">
+        <div class="card-emoji"><img src="/images/icons/lightning.webp" class="app-ico" alt="" aria-hidden="true" /></div>
+        <div class="card-content">
+          <div class="card-num">{t.xpAmount}</div>
+          <div class="card-label">{t.xpLabel}</div>
         </div>
       </div>
     </div>
@@ -104,7 +118,7 @@ const slides = ['01', '02', '03', '04', '05'].map(n => `/images/banner/screen-${
     display: block;
     min-height: 330px;
     margin: 40px 0;
-    padding: 32px 250px 32px 32px;
+    padding: 32px 290px 32px 32px;
     background:
       radial-gradient(120% 100% at 90% 110%, rgba(255, 145, 61, 0.32), transparent 60%),
       linear-gradient(165deg, #FBF3E7, #F7E3CA);
@@ -156,34 +170,48 @@ const slides = ['01', '02', '03', '04', '05'].map(n => `/images/banner/screen-${
     max-width: 340px;
   }
 
-  /* --- iPhone incliné, screens qui défilent --- */
-  .cta-phone {
+  /* --- Mockup iPhone : réplique du phone-stage de la home (HeroV2) --- */
+  .cta-stage {
     position: absolute;
     top: 34px;
-    right: 34px;
-    width: 200px;
-    animation: phone-float 5s ease-in-out infinite;
-    pointer-events: none;
+    right: 40px;
+    width: 230px;
   }
 
-  /* Tilt 3D repris du mockup de la home, penché à gauche */
+  .glow {
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(255, 107, 53, 0.28), transparent 70%);
+    filter: blur(60px);
+    animation: glowFloat 6s ease-in-out infinite;
+  }
+
+  @keyframes glowFloat {
+    0%, 100% { transform: translate(0, 0); }
+    50% { transform: translate(20px, -15px); }
+  }
+
   .phone-tilt {
-    transform: perspective(1400px) rotateY(-14deg) rotateX(6deg) rotateZ(-3deg);
-    filter: drop-shadow(0 30px 45px rgba(120, 70, 20, 0.35));
+    transform: perspective(1400px) rotateY(-14deg) rotateX(6deg) rotateZ(-2deg);
+    transition: transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+    filter: drop-shadow(0 40px 60px rgba(120, 70, 20, 0.4));
   }
 
-  @keyframes phone-float {
-    0%, 100% { transform: translateY(0); }
-    50% { transform: translateY(-8px); }
+  .cta-stage:hover .phone-tilt {
+    transform: perspective(1400px) rotateY(-8deg) rotateX(3deg) rotateZ(-1deg);
   }
 
   .phone {
     position: relative;
-    width: 200px;
-    height: 410px;
+    width: 230px;
+    height: 470px;
     background: #0a0a0a;
-    border-radius: 36px;
-    padding: 8px;
+    border-radius: 40px;
+    padding: 9px;
     border: 2px solid #1f1f1f;
     box-shadow:
       inset 0 0 0 2px rgba(255, 255, 255, 0.05),
@@ -192,11 +220,11 @@ const slides = ['01', '02', '03', '04', '05'].map(n => `/images/banner/screen-${
 
   .phone-notch {
     position: absolute;
-    top: 12px;
+    top: 13px;
     left: 50%;
     transform: translateX(-50%);
-    width: 72px;
-    height: 20px;
+    width: 76px;
+    height: 21px;
     background: #0a0a0a;
     border-radius: 12px;
     z-index: 2;
@@ -206,7 +234,7 @@ const slides = ['01', '02', '03', '04', '05'].map(n => `/images/banner/screen-${
     position: relative;
     width: 100%;
     height: 100%;
-    border-radius: 28px;
+    border-radius: 32px;
     overflow: hidden;
     background: #FAF6F0;
   }
@@ -222,7 +250,7 @@ const slides = ['01', '02', '03', '04', '05'].map(n => `/images/banner/screen-${
     box-shadow: none;
     border-radius: 0;
     opacity: 0;
-    animation: slide-cycle 20s cubic-bezier(0.65, 0, 0.35, 1) infinite;
+    animation: slideShow 20s cubic-bezier(0.65, 0, 0.35, 1) infinite;
   }
 
   .phone-screen .slide-1 { opacity: 1; animation-delay: 0s; }
@@ -231,13 +259,50 @@ const slides = ['01', '02', '03', '04', '05'].map(n => `/images/banner/screen-${
   .phone-screen .slide-4 { animation-delay: 12s; }
   .phone-screen .slide-5 { animation-delay: 16s; }
 
-  @keyframes slide-cycle {
+  @keyframes slideShow {
     0% { opacity: 0; transform: translateX(8%) scale(1.02); }
     2% { opacity: 1; transform: translateX(0) scale(1); }
     18% { opacity: 1; transform: translateX(0) scale(1); }
     22% { opacity: 0; transform: translateX(-8%) scale(1.02); }
     100% { opacity: 0; transform: translateX(8%) scale(1.02); }
   }
+
+  .floating-card {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 16px;
+    background: rgba(255, 255, 255, 0.98);
+    color: #1f2937;
+    border-radius: 14px;
+    box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.4);
+    z-index: 3;
+  }
+
+  .card-top {
+    top: 12%;
+    right: -24px;
+    animation: floatCardTop 5s ease-in-out infinite;
+  }
+
+  @keyframes floatCardTop {
+    0%, 100% { transform: translateY(0) rotate(-1deg); }
+    50% { transform: translateY(-10px) rotate(1.5deg); }
+  }
+
+  .card-emoji {
+    font-size: 22px;
+    animation: emojiPulse 2.4s ease-in-out infinite;
+  }
+
+  @keyframes emojiPulse {
+    0%, 100% { transform: scale(1) rotate(0deg); filter: brightness(1); }
+    50% { transform: scale(1.18) rotate(-6deg); filter: brightness(1.2) drop-shadow(0 0 8px rgba(255, 191, 36, 0.6)); }
+  }
+
+  .card-num { font-size: 14px; font-weight: 700; }
+  .card-label { font-size: 11px; color: #6b7280; }
 
   /* --- Boutons stores --- */
   .cta-stores {
@@ -268,10 +333,9 @@ const slides = ['01', '02', '03', '04', '05'].map(n => `/images/banner/screen-${
   }
 
   @media (prefers-reduced-motion: reduce) {
-    .sparkle, .cta-phone { animation: none; }
-    .phone-screen .slide { animation: none; }
-    .phone-screen .slide:not(.slide-1) { display: none; }
-    .phone-screen .slide-1 { opacity: 1; }
+    .sparkle, .glow, .floating-card, .card-emoji {
+      animation-duration: 60s !important;
+    }
   }
 
   @media (max-width: 640px) {
@@ -284,21 +348,23 @@ const slides = ['01', '02', '03', '04', '05'].map(n => `/images/banner/screen-${
 
     .cta-sub { max-width: none; }
 
-    .cta-phone {
+    .cta-stage {
       position: relative;
       top: 0;
       right: 0;
       width: 100%;
-      height: 250px;
+      height: 280px;
       margin: 18px 0 4px;
       display: flex;
       justify-content: center;
       overflow: hidden;
     }
 
-    .phone {
-      flex-shrink: 0;
-    }
+    .glow { left: 50%; margin-left: -130px; }
+
+    .phone { flex-shrink: 0; }
+
+    .card-top { right: 6px; }
 
     .cta-stores { justify-content: center; margin-top: 10px; }
   }
