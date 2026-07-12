@@ -1,8 +1,8 @@
 ---
-title: "The 10 Smallest Countries in the World"
-description: "Vatican, Monaco, Nauru, Tuvalu: the 10 smallest countries in the world by area, with their history, population and quirks."
+title: "What Is the Smallest Country in the World? Top 10 (2026)"
+description: "The Vatican (0.49 km²) is the smallest country on Earth. Full 2026 ranking of the 10 smallest countries by area, with population and surprising facts."
 date: 2026-03-06
-lastModified: 2026-06-15
+lastModified: 2026-07-12
 image: "/images/blog/monde/vatican.jpg"
 imageAlt: "Vatican City seen from above"
 imageCredit: "Photo: CAPTAIN RAJU · CC0 · Wikimedia Commons"
@@ -105,3 +105,25 @@ Worth reading: [least visited countries in the world](/en/blog/least-visited-cou
   <figcaption>Photo: Reginald Lane Poole · public domain · Wikimedia Commons</figcaption>
 </figure>
 
+
+## Frequently asked questions
+
+### What is the smallest country in the world?
+
+Vatican City, at 0.49 km² (about 44 hectares), is the smallest country in the world. Enclaved within Rome, it is home to roughly 800 residents and is ruled by the Pope.
+
+### What is the smallest country by population?
+
+Vatican City is also the smallest by population, with around 800 inhabitants. Among United Nations member states (the Vatican is not one), Tuvalu is the smallest, with about 11,000 people.
+
+### Is Sealand a real country?
+
+No. The Principality of Sealand is a self-declared micronation on a former WWII sea fort off the English coast. It is not recognised by any sovereign state, so it does not count in rankings of the world's smallest countries.
+
+### What is the smallest country on each continent?
+
+The smallest country in Europe is Vatican City (0.49 km²). In Asia it is the Maldives (about 298 km²), in Africa the Seychelles (about 452 km²), in the Americas Saint Kitts and Nevis (261 km²), and in Oceania Nauru (21 km²).
+
+### How many countries are smaller than 1,000 km²?
+
+More than twenty sovereign states are smaller than 1,000 km² — most of them island nations in the Caribbean and the Pacific, plus the European microstates (Vatican, Monaco, San Marino, Liechtenstein).

@@ -1,8 +1,8 @@
 ---
-title: "Los 10 países más pequeños del mundo"
-description: "Vaticano, Mónaco, Nauru, Tuvalu: los 10 países más pequeños del mundo por superficie, con su historia, población y curiosidades."
+title: "¿Cuál es el país más pequeño del mundo? Top 10 (2026)"
+description: "El Vaticano (0,49 km²) es el país más pequeño del mundo. Ranking 2026 de los 10 países más pequeños por superficie, con población y datos sorprendentes."
 date: 2026-03-06
-lastModified: 2026-06-15
+lastModified: 2026-07-12
 image: "/images/blog/monde/vatican.jpg"
 imageAlt: "La Ciudad del Vaticano vista desde el cielo"
 imageCredit: "Foto: CAPTAIN RAJU · CC0 · Wikimedia Commons"
@@ -104,3 +104,25 @@ Para profundizar: [países menos visitados del mundo](/es/blog/paises-menos-visi
   <img src="/images/blog/monde/carte-monde-ancienne.jpg" alt="Un mapa del mundo antiguo" loading="lazy" />
   <figcaption>Foto: Reginald Lane Poole · dominio público · Wikimedia Commons</figcaption>
 </figure>
+
+## Preguntas frecuentes
+
+### ¿Cuál es el país más pequeño del mundo?
+
+El Vaticano, con 0,49 km² (unas 44 hectáreas), es el país más pequeño del mundo. Enclavado en Roma, tiene alrededor de 800 habitantes y está gobernado por el papa.
+
+### ¿Cuál es el país más pequeño por población?
+
+El Vaticano también es el más pequeño por población, con unos 800 habitantes. Entre los Estados miembros de la ONU (el Vaticano no lo es), el más pequeño es Tuvalu, con cerca de 11 000 habitantes.
+
+### ¿Es Sealand un país de verdad?
+
+No. El Principado de Sealand es una micronación autoproclamada situada en una antigua plataforma militar de la Segunda Guerra Mundial, frente a la costa de Inglaterra. No está reconocida por ningún Estado soberano, así que no cuenta en el ranking de los países más pequeños.
+
+### ¿Cuál es el país más pequeño de cada continente?
+
+El país más pequeño de Europa es el Vaticano (0,49 km²). En Asia son las Maldivas (unos 298 km²), en África las Seychelles (unos 452 km²), en América San Cristóbal y Nieves (261 km²) y en Oceanía Nauru (21 km²).
+
+### ¿Cuántos países tienen menos de 1 000 km²?
+
+Más de veinte Estados soberanos tienen menos de 1 000 km², en su mayoría islas del Caribe y del Pacífico, además de los microestados europeos (Vaticano, Mónaco, San Marino, Liechtenstein).

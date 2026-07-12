@@ -1,8 +1,8 @@
 ---
-title: "Les 10 plus petits pays du monde"
-description: "Vatican, Monaco, Nauru, Tuvalu : les 10 plus petits pays du monde par superficie, avec leur histoire, leur population et leurs particularités."
+title: "Quel est le plus petit pays du monde ? Top 10 (2026)"
+description: "Le Vatican (0,49 km²) est le plus petit pays du monde. Classement 2026 des 10 plus petits pays par superficie, avec population et faits surprenants."
 date: 2026-03-06
-lastModified: 2026-06-15
+lastModified: 2026-07-12
 image: "/images/blog/monde/vatican.jpg"
 imageAlt: "La cité du Vatican vue du ciel"
 imageCredit: "Photo : CAPTAIN RAJU · CC0 · Wikimedia Commons"
@@ -105,3 +105,25 @@ Pour creuser : [pays les moins visités au monde](/blog/pays-moins-visites-monde
   <figcaption>Photo : Reginald Lane Poole · domaine public · Wikimedia Commons</figcaption>
 </figure>
 
+
+## Questions fréquentes
+
+### Quel est le plus petit pays du monde ?
+
+Le Vatican, avec 0,49 km² (environ 44 hectares), est le plus petit pays du monde. Enclavé dans Rome, il compte à peu près 800 habitants et est dirigé par le pape.
+
+### Quel est le plus petit pays par population ?
+
+Le Vatican est aussi le plus petit par la population, avec environ 800 habitants. Parmi les États membres de l'ONU (le Vatican n'en fait pas partie), le plus petit est Tuvalu, avec près de 11 000 habitants.
+
+### Le Sealand est-il un vrai pays ?
+
+Non. La principauté de Sealand est une micronation autoproclamée installée sur une ancienne plateforme militaire de la Seconde Guerre mondiale, au large de l'Angleterre. Elle n'est reconnue par aucun État souverain et ne compte donc pas dans le classement des plus petits pays.
+
+### Quel est le plus petit pays de chaque continent ?
+
+Le plus petit pays d'Europe est le Vatican (0,49 km²). En Asie, ce sont les Maldives (environ 298 km²), en Afrique les Seychelles (environ 452 km²), en Amérique Saint-Christophe-et-Niévès (261 km²) et en Océanie Nauru (21 km²).
+
+### Combien de pays font moins de 1 000 km² ?
+
+Plus d'une vingtaine d'États souverains font moins de 1 000 km² — pour la plupart des îles des Caraïbes et du Pacifique, auxquelles s'ajoutent les micro-États européens (Vatican, Monaco, Saint-Marin, Liechtenstein).
