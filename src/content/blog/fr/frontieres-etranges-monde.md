@@ -76,7 +76,7 @@ Trois raisons.
 
 **Compromis politiques.** Pour éviter une guerre, on accepte parfois des configurations absurdes.
 
-Pour creuser : [origine du nom des pays](/blog/origine-noms-pays/) et la [signification des drapeaux](/blog/signification-drapeaux/).
+Pour creuser : [origine du nom des pays](/blog/origine-noms-pays/), la [signification des drapeaux](/blog/signification-drapeaux/) et les [micro-États les plus petits du monde](/blog/plus-petits-pays-monde/).
 
 <figure>
   <img src="/images/blog/monde/frontiere-baarle.jpg" alt="La frontière marquée au sol à Baarle" loading="lazy" />

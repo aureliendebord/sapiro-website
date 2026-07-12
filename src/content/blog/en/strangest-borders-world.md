@@ -76,7 +76,7 @@ Three reasons.
 
 **Political compromises.** To avoid war, absurd configurations are sometimes accepted.
 
-Worth reading: [origin of country names](/en/blog/origin-country-names/) and [flag meanings](/en/blog/flags-meaning/).
+Worth reading: [origin of country names](/en/blog/origin-country-names/), [flag meanings](/en/blog/flags-meaning/) and the world's [tiniest microstates](/en/blog/smallest-countries-world/).
 
 <figure>
   <img src="/images/blog/monde/frontiere-baarle.jpg" alt="The border line on the ground in Baarle" loading="lazy" />

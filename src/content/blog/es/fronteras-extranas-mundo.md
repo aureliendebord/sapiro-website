@@ -76,7 +76,7 @@ Tres razones.
 
 **Compromisos políticos.** Para evitar una guerra, a veces se aceptan configuraciones absurdas.
 
-Para profundizar: [origen del nombre de los países](/es/blog/origen-nombres-paises/) y [significado de las banderas](/es/blog/significado-banderas/).
+Para profundizar: [origen del nombre de los países](/es/blog/origen-nombres-paises/), [significado de las banderas](/es/blog/significado-banderas/) y los [microestados más pequeños del mundo](/es/blog/paises-mas-pequenos-mundo/).
 
 <figure>
   <img src="/images/blog/monde/frontiere-baarle.jpg" alt="La línea fronteriza marcada en el suelo en Baarle" loading="lazy" />
