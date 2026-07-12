@@ -1,11 +1,11 @@
 ---
-title: "15 sculptures célèbres à connaître dans le monde"
-description: "Le David, Le Penseur, la Vénus de Milo : 15 sculptures célèbres du monde avec leur histoire, leur lieu et ce qui les rend incontournables."
+title: "Les 15 sculptures les plus célèbres du monde (et où les voir)"
+description: "Le David, Le Penseur, la Vénus de Milo : les 15 sculptures les plus célèbres du monde, ce qui les rend incontournables et où les voir aujourd'hui."
 date: 2026-01-26
 image: "/images/blog/art/david-michel-ange.jpg"
 imageAlt: "Le David de Michel-Ange"
 imageCredit: "Photo : Commonists · CC BY-SA 4.0 · Wikimedia Commons"
-lastModified: 2026-06-15
+lastModified: 2026-07-12
 lang: "fr"
 urlSlug: "sculptures-celebres-monde"
 translationKey: "sculptures-celebres"
@@ -14,7 +14,7 @@ author: "SAPIRO"
 readingTime: 7
 ---
 
-La sculpture est trop souvent oubliée derrière la peinture. Pourtant, c'est l'art le plus ancien et le plus universel. Voici 15 sculptures incontournables, des plus anciennes aux plus modernes.
+Les sculptures les plus célèbres du monde sont le *David* de Michel-Ange, *Le Penseur* de Rodin et la *Vénus de Milo*. La sculpture est trop souvent oubliée derrière la peinture, pourtant c'est l'art le plus ancien et le plus universel. Voici les 15 sculptures les plus incontournables, de l'Antiquité à l'art moderne, et où voir chacune.
 
 ## Antiquité
 
@@ -71,3 +71,25 @@ SAPIRO propose des quiz sur 553 œuvres incluant la sculpture, avec une explicat
   <figcaption>Photo : Unknown artist · CC BY-SA 2.5 · Wikimedia Commons</figcaption>
 </figure>
 
+
+## Questions fréquentes
+
+### Quelles sont les sculptures les plus célèbres du monde ?
+
+Parmi les plus célèbres : le *David* de Michel-Ange, *Le Penseur* d'Auguste Rodin, la *Vénus de Milo*, la *Victoire de Samothrace* et le *Christ Rédempteur* de Rio de Janeiro. Chacune est un jalon de son époque, de l'Antiquité grecque à l'art moderne.
+
+### Quelle est la sculpture la plus célèbre au monde ?
+
+Le *David* de Michel-Ange (1504) est souvent cité comme la sculpture la plus célèbre du monde. Taillé dans un seul bloc de marbre, il mesure 5,17 mètres et se trouve à la Galerie de l'Académie de Florence.
+
+### Où voir le David de Michel-Ange ?
+
+L'original du *David* est à la Galerie de l'Académie (Galleria dell'Accademia) à Florence, en Italie. Des répliques grandeur nature se dressent sur la Piazza della Signoria et au Piazzale Michelangelo.
+
+### Qui a sculpté Le Penseur ?
+
+*Le Penseur* est l'œuvre du sculpteur français Auguste Rodin, conçue vers 1880 pour sa monumentale *Porte de l'Enfer*. Plusieurs tirages en bronze existent, dont un au musée Rodin à Paris.
+
+### Quelle est la plus ancienne sculpture connue ?
+
+La *Vénus de Hohle Fels*, taillée dans l'ivoire de mammouth il y a environ 40 000 ans en Allemagne, est la plus ancienne sculpture figurative connue à ce jour.

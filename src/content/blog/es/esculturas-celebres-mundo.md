@@ -1,11 +1,11 @@
 ---
-title: "15 esculturas célebres que conocer en el mundo"
-description: "El David, El Pensador, la Venus de Milo: 15 esculturas célebres del mundo con su historia, ubicación y lo que las hace imprescindibles."
+title: "Las 15 esculturas más célebres del mundo (y dónde verlas)"
+description: "El David, El Pensador, la Venus de Milo: las 15 esculturas más célebres del mundo, lo que las hace imprescindibles y dónde verlas hoy."
 date: 2026-01-26
 image: "/images/blog/art/david-michel-ange.jpg"
 imageAlt: "El David de Miguel Ángel"
 imageCredit: "Foto: Commonists · CC BY-SA 4.0 · Wikimedia Commons"
-lastModified: 2026-06-15
+lastModified: 2026-07-12
 lang: "es"
 urlSlug: "esculturas-celebres-mundo"
 translationKey: "sculptures-celebres"
@@ -14,7 +14,7 @@ author: "SAPIRO"
 readingTime: 7
 ---
 
-La escultura suele quedar olvidada detrás de la pintura. Sin embargo es el arte más antiguo y universal. Aquí van 15 esculturas imprescindibles, de las más antiguas a las más modernas.
+Las esculturas más célebres del mundo son el *David* de Miguel Ángel, *El Pensador* de Rodin y la *Venus de Milo*. La escultura suele quedar olvidada detrás de la pintura, pero es el arte más antiguo y universal. Aquí van las 15 esculturas más imprescindibles, de la Antigüedad al arte moderno, y dónde ver cada una.
 
 ## Antigüedad
 
@@ -70,3 +70,25 @@ SAPIRO propone quizzes sobre 553 obras incluida la escultura, con explicación d
   <img src="/images/blog/art/venus-de-milo.jpg" alt="La Venus de Milo" loading="lazy" />
   <figcaption>Foto: Unknown artist · CC BY-SA 2.5 · Wikimedia Commons</figcaption>
 </figure>
+
+## Preguntas frecuentes
+
+### ¿Cuáles son las esculturas más célebres del mundo?
+
+Entre las más célebres están el *David* de Miguel Ángel, *El Pensador* de Auguste Rodin, la *Venus de Milo*, la *Victoria de Samotracia* y el *Cristo Redentor* de Río de Janeiro. Cada una es un hito de su época, de la Antigüedad griega al arte moderno.
+
+### ¿Cuál es la escultura más famosa del mundo?
+
+El *David* de Miguel Ángel (1504) suele citarse como la escultura más famosa del mundo. Tallado en un solo bloque de mármol, mide 5,17 metros y se encuentra en la Galería de la Academia de Florencia.
+
+### ¿Dónde se puede ver el David de Miguel Ángel?
+
+El *David* original está en la Galería de la Academia (Galleria dell'Accademia) de Florencia, Italia. Hay réplicas a tamaño real en la Piazza della Signoria y en el Piazzale Michelangelo.
+
+### ¿Quién esculpió El Pensador?
+
+*El Pensador* es obra del escultor francés Auguste Rodin, concebida hacia 1880 para su monumental *Puerta del Infierno*. Existen varias fundiciones en bronce, entre ellas una en el Museo Rodin de París.
+
+### ¿Cuál es la escultura más antigua conocida?
+
+La *Venus de Hohle Fels*, tallada en marfil de mamut hace unos 40 000 años en Alemania, es la escultura figurativa más antigua conocida hasta la fecha.

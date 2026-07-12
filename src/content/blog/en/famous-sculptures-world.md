@@ -1,11 +1,11 @@
 ---
-title: "15 Famous Sculptures to Know in the World"
-description: "David, The Thinker, Venus de Milo: 15 famous sculptures from around the world with their story, location, and what makes them essential."
+title: "The 15 Most Famous Sculptures in the World (and Where to See Them)"
+description: "David, The Thinker, Venus de Milo: the 15 most famous sculptures in the world, what makes each essential and where to see them today."
 date: 2026-01-26
 image: "/images/blog/art/david-michel-ange.jpg"
 imageAlt: "The David by Michelangelo"
 imageCredit: "Photo: Commonists · CC BY-SA 4.0 · Wikimedia Commons"
-lastModified: 2026-06-15
+lastModified: 2026-07-12
 lang: "en"
 urlSlug: "famous-sculptures-world"
 translationKey: "sculptures-celebres"
@@ -14,7 +14,7 @@ author: "SAPIRO"
 readingTime: 7
 ---
 
-Sculpture is too often forgotten behind painting. Yet it is the oldest and most universal art form. Here are 15 essential sculptures, from the most ancient to the most modern.
+The most famous sculptures in the world are Michelangelo's *David*, Rodin's *The Thinker* and the *Venus de Milo*. Sculpture is too often forgotten behind painting, yet it is the oldest and most universal art form. Here are the 15 most essential sculptures, from antiquity to modern art, and where to see each one.
 
 ## Antiquity
 
@@ -71,3 +71,25 @@ SAPIRO offers quizzes on 553 works including sculpture, with an educational expl
   <figcaption>Photo: Unknown artist · CC BY-SA 2.5 · Wikimedia Commons</figcaption>
 </figure>
 
+
+## Frequently asked questions
+
+### What are the most famous sculptures in the world?
+
+The most famous sculptures include Michelangelo's *David*, Auguste Rodin's *The Thinker*, the *Venus de Milo*, the *Winged Victory of Samothrace* and *Christ the Redeemer* in Rio de Janeiro. Each is a landmark of its era, from Greek antiquity to the modern age.
+
+### What is the most famous sculpture ever made?
+
+Michelangelo's *David* (1504) is often cited as the most famous sculpture in the world. Carved from a single block of marble, it stands 5.17 metres tall in the Galleria dell'Accademia in Florence.
+
+### Where can you see Michelangelo's David?
+
+The original *David* is in the Galleria dell'Accademia in Florence, Italy. Full-size replicas stand in the Piazza della Signoria and at Piazzale Michelangelo.
+
+### Who created The Thinker?
+
+*The Thinker* was created by the French sculptor Auguste Rodin, first conceived around 1880 as part of his monumental *Gates of Hell*. Several bronze casts exist, including one at the Musée Rodin in Paris.
+
+### What is the oldest known sculpture?
+
+The *Venus of Hohle Fels*, carved from mammoth ivory around 40,000 years ago in Germany, is the oldest known figurative sculpture ever found.
