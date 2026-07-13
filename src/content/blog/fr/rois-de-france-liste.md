@@ -1,5 +1,5 @@
 ---
-title: "Rois de France : liste complète et dates"
+title: "Liste des rois de France dans l'ordre : de Clovis à Louis-Philippe"
 description: "De Clovis à Louis-Philippe : liste complète des rois de France avec dates de règne, dynasties et faits majeurs de chaque souverain."
 date: 2026-02-01
 lastModified: 2026-06-15

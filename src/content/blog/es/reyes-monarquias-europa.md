@@ -1,5 +1,5 @@
 ---
-title: "Reyes y monarquías de Europa: lista completa por país"
+title: "Monarquías de Europa hoy: lista completa por país (2026)"
 description: "De Carlomagno a Isabel II: los monarcas esenciales de Europa por país y dinastía, con fechas de reinado y eventos mayores."
 date: 2026-02-01
 lastModified: 2026-06-15

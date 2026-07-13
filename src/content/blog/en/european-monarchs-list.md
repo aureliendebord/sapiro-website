@@ -1,5 +1,5 @@
 ---
-title: "European Monarchs: A Complete List by Country"
+title: "European Monarchs Today: the Complete List by Country (2026)"
 description: "From Charlemagne to Queen Elizabeth II: the essential European monarchs by country and dynasty, with reign dates and major events."
 date: 2026-02-01
 lastModified: 2026-06-15

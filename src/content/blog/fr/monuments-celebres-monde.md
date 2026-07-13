@@ -1,5 +1,5 @@
 ---
-title: "30 monuments célèbres du monde à connaître absolument"
+title: "Les 30 monuments les plus célèbres du monde (2026)"
 description: "Tour Eiffel, Taj Mahal, Machu Picchu, pyramides de Gizeh : 30 monuments célèbres du monde groupés par continent, avec ce qu'il faut retenir de chacun."
 date: 2026-02-04
 lastModified: 2026-06-15

@@ -1,5 +1,5 @@
 ---
-title: "30 Famous Monuments Around the World You Should Know"
+title: "The 30 Most Famous Monuments in the World (2026)"
 description: "Eiffel Tower, Taj Mahal, Machu Picchu, the Giza pyramids: 30 famous monuments around the world, grouped by continent, with the key facts on each one."
 date: 2026-02-04
 lastModified: 2026-06-15
