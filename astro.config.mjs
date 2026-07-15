@@ -26,6 +26,7 @@ const FIXED_ROUTES = [
   { fr: '/faq/', en: '/en/faq/', es: '/es/faq/' },
   { fr: '/quiz/', en: '/en/quiz/', es: '/es/quiz/' },
   { fr: '/blog/', en: '/en/blog/', es: '/es/blog/' },
+  { fr: '/about/', en: '/en/about/', es: '/es/about/' },
   { fr: '/credits/', en: '/en/credits/', es: '/es/credits/' },
 ];
 

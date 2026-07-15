@@ -46,6 +46,7 @@ const pillars = clusters.map((c) => ({ href: c.pillarSlug[lang], label: c.label[
         <a href={p.href} class="footer-link">{p.label}</a>
       ))}
       <a href={getLocalePath('/blog', lang)} class="footer-link">{t.header.blog}</a>
+      <a href={getLocalePath('/about', lang)} class="footer-link">{lang === 'fr' ? 'À propos' : lang === 'es' ? 'Acerca de' : 'About'}</a>
     </div>
 
     <div class="footer-col">

@@ -1,0 +1,221 @@
+---
+import type { Lang } from '../../i18n';
+import { getLocalePath } from '../../i18n';
+import { AUTHOR } from '../../data/author';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+
+const copy: Record<Lang, {
+  kicker: string;
+  title: string;
+  lead: string;
+  body: string[];
+  missionTitle: string;
+  mission: string[];
+  linkedin: string;
+  role: string;
+}> = {
+  fr: {
+    kicker: '👋 À propos',
+    title: 'Qui est derrière SAPIRO',
+    role: "Fondateur de l'Agence Debord",
+    lead: "SAPIRO est édité par Aurélien Debord, développeur web et fondateur de l'Agence Debord, un studio indépendant spécialisé dans le développement d'applications web sur-mesure et l'intégration d'IA.",
+    body: [
+      "Après des années à concevoir des produits web pour ses clients, Aurélien a créé SAPIRO pour réunir ce qui lui tient à cœur : du contenu éducatif de qualité, une expérience soignée, et une conviction simple — apprendre peut être un plaisir quotidien.",
+      "Chaque quiz, chaque article du blog et chaque illustration est vérifié et retravaillé à la main. SAPIRO n'est pas une usine à contenu : c'est un projet personnel construit avec exigence.",
+    ],
+    missionTitle: 'Ce à quoi on tient',
+    mission: [
+      'Du contenu vérifié et de qualité, sur des sujets grand public.',
+      'Zéro publicité, jamais.',
+      'Le respect de la vie privée : pas de collecte de données superflue.',
+    ],
+    linkedin: 'Suivre Aurélien sur LinkedIn',
+  },
+  en: {
+    kicker: '👋 About',
+    title: 'Who is behind SAPIRO',
+    role: 'Founder of Agence Debord',
+    lead: 'SAPIRO is published by Aurélien Debord, a web developer and the founder of Agence Debord, an independent studio specialised in custom web application development and AI integration.',
+    body: [
+      'After years building web products for clients, Aurélien created SAPIRO to bring together what he cares about: high-quality educational content, a polished experience, and one simple belief — that learning can be a daily pleasure.',
+      'Every quiz, every blog article and every illustration is checked and reworked by hand. SAPIRO is not a content farm: it is a personal project built with care.',
+    ],
+    missionTitle: 'What we stand for',
+    mission: [
+      'Verified, high-quality content on subjects for everyone.',
+      'Zero advertising, ever.',
+      'Respect for privacy: no unnecessary data collection.',
+    ],
+    linkedin: 'Follow Aurélien on LinkedIn',
+  },
+  es: {
+    kicker: '👋 Acerca de',
+    title: 'Quién está detrás de SAPIRO',
+    role: 'Fundador de Agence Debord',
+    lead: 'SAPIRO está editado por Aurélien Debord, desarrollador web y fundador de Agence Debord, un estudio independiente especializado en el desarrollo de aplicaciones web a medida y la integración de IA.',
+    body: [
+      'Tras años creando productos web para sus clientes, Aurélien creó SAPIRO para reunir lo que le importa: contenido educativo de calidad, una experiencia cuidada y una convicción sencilla: aprender puede ser un placer cotidiano.',
+      'Cada quiz, cada artículo del blog y cada ilustración se verifica y se retoca a mano. SAPIRO no es una fábrica de contenido: es un proyecto personal hecho con exigencia.',
+    ],
+    missionTitle: 'Lo que nos importa',
+    mission: [
+      'Contenido verificado y de calidad, sobre temas para todos.',
+      'Cero publicidad, nunca.',
+      'Respeto por la privacidad: sin recogida de datos innecesaria.',
+    ],
+    linkedin: 'Seguir a Aurélien en LinkedIn',
+  },
+};
+
+const c = copy[lang];
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'AboutPage',
+  name: c.title,
+  url: `https://sapiro.app${getLocalePath('/about', lang)}`,
+  mainEntity: {
+    '@type': 'Person',
+    name: AUTHOR.name,
+    jobTitle: AUTHOR.jobTitle,
+    url: `https://sapiro.app${getLocalePath('/about', lang)}`,
+    worksFor: { '@type': 'Organization', name: 'Agence Debord' },
+    sameAs: [...AUTHOR.sameAs],
+  },
+};
+---
+
+<section class="about-v2">
+  <div class="container">
+    <span class="about-kicker">{c.kicker}</span>
+    <h1 class="about-title">{c.title}</h1>
+
+    <div class="about-card">
+      <div class="about-avatar" aria-hidden="true">AD</div>
+      <div class="about-id">
+        <strong>{AUTHOR.name}</strong>
+        <span>{c.role}</span>
+      </div>
+    </div>
+
+    <p class="about-lead">{c.lead}</p>
+    {c.body.map(p => <p class="about-p">{p}</p>)}
+
+    <h2 class="about-h2">{c.missionTitle}</h2>
+    <ul class="about-mission">
+      {c.mission.map(m => <li>{m}</li>)}
+    </ul>
+
+    <a href={AUTHOR.sameAs[0]} class="about-linkedin" target="_blank" rel="noopener noreferrer">
+      {c.linkedin} &rarr;
+    </a>
+  </div>
+</section>
+
+<script type="application/ld+json" set:html={JSON.stringify(schema)} />
+
+<style>
+  .about-v2 {
+    padding: 100px 0 80px;
+  }
+  .about-v2 .container {
+    max-width: 720px;
+  }
+  .about-kicker {
+    display: inline-block;
+    padding: 6px 14px;
+    background: rgba(255, 107, 53, 0.1);
+    color: var(--orange);
+    border-radius: 999px;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  .about-title {
+    font-size: clamp(2rem, 4vw, 2.75rem);
+    line-height: 1.15;
+    color: var(--noir);
+    margin-bottom: 28px;
+  }
+  .about-card {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 16px 20px;
+    background: var(--gris-clair);
+    border-radius: 16px;
+    margin-bottom: 28px;
+  }
+  .about-avatar {
+    width: 56px;
+    height: 56px;
+    flex: 0 0 auto;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #ff6b35, #ff8f5c);
+    color: #fff;
+    font-weight: 800;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.02em;
+  }
+  .about-id {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.3;
+  }
+  .about-id strong {
+    color: var(--noir);
+    font-size: 1.05rem;
+  }
+  .about-id span {
+    color: var(--gris);
+    font-size: 0.9rem;
+  }
+  .about-lead {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: var(--noir);
+    margin-bottom: 20px;
+  }
+  .about-p {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: var(--noir);
+    margin-bottom: 16px;
+  }
+  .about-h2 {
+    font-size: 1.5rem;
+    color: var(--noir);
+    margin: 36px 0 16px;
+  }
+  .about-mission {
+    padding-left: 22px;
+    margin-bottom: 32px;
+  }
+  .about-mission li {
+    margin-bottom: 10px;
+    line-height: 1.7;
+    color: var(--noir);
+  }
+  .about-linkedin {
+    display: inline-flex;
+    align-items: center;
+    padding: 12px 22px;
+    background: var(--orange);
+    color: #fff !important;
+    border-radius: 10px;
+    font-weight: 600;
+    text-decoration: none !important;
+    transition: background 0.2s;
+  }
+  .about-linkedin:hover {
+    background: var(--orange-dark);
+  }
+</style>

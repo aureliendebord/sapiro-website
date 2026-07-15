@@ -1,0 +1,75 @@
+---
+import { getCollection } from 'astro:content';
+import BlogCard from './BlogCard.astro';
+import type { Lang } from '../i18n';
+import { getClusterForCategory } from '../data/clusters';
+
+interface Props {
+  lang: Lang;
+  slug: string;
+  category: string;
+}
+
+const { lang, slug, category } = Astro.props;
+
+const all = await getCollection('blog');
+const sameLang = all.filter(p => p.data.lang === lang && p.data.urlSlug !== slug);
+
+// Priorite : meme categorie, puis meme cluster (categories soeurs), tri par date desc.
+const cluster = getClusterForCategory(category);
+const clusterCats = cluster ? cluster.categories : [category];
+
+const byDate = (a: typeof sameLang[number], b: typeof sameLang[number]) =>
+  b.data.date.getTime() - a.data.date.getTime();
+
+const primary = sameLang.filter(p => p.data.category === category).sort(byDate);
+const secondary = sameLang
+  .filter(p => p.data.category !== category && clusterCats.includes(p.data.category))
+  .sort(byDate);
+
+const related = [...primary, ...secondary].slice(0, 3);
+
+const relatedTitle: Record<Lang, string> = {
+  fr: 'À lire aussi',
+  en: 'You might also like',
+  es: 'También te puede interesar',
+};
+---
+
+{related.length >= 2 && (
+  <section class="related-posts" aria-labelledby="related-title">
+    <h2 id="related-title" class="related-title">{relatedTitle[lang]}</h2>
+    <div class="related-grid">
+      {related.map(p => (
+        <BlogCard
+          title={p.data.title}
+          description={p.data.description}
+          date={p.data.date}
+          slug={p.data.urlSlug}
+          category={p.data.category}
+          readingTime={p.data.readingTime}
+          lang={lang}
+        />
+      ))}
+    </div>
+  </section>
+)}
+
+<style>
+  .related-posts {
+    max-width: 720px;
+    margin: 48px auto 0;
+  }
+
+  .related-title {
+    font-size: 1.5rem;
+    color: var(--noir);
+    margin-bottom: 24px;
+  }
+
+  .related-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 20px;
+  }
+</style>

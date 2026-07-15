@@ -8,7 +8,10 @@ import StickyMobileCta from '../components/v2/StickyMobileCta.astro';
 import type { Lang } from '../i18n';
 import { getTranslations, getLocalePath } from '../i18n';
 import type { FaqItem } from '../utils/faq';
+import type { ListItem } from '../utils/list';
 import { getClusterForCategory } from '../data/clusters';
+import { AUTHOR, authorPersonSchema } from '../data/author';
+import RelatedPosts from '../components/RelatedPosts.astro';
 
 interface TranslationSlugs {
   fr: string;
@@ -27,10 +30,11 @@ interface Props {
   author: string;
   readingTime?: number;
   faqItems?: FaqItem[];
+  listItems?: ListItem[];
   translationSlugs?: TranslationSlugs;
 }
 
-const { title, description, date, lastModified, lang, slug, category, author, readingTime, faqItems = [], translationSlugs, image, imageAlt, imageCredit } = Astro.props;
+const { title, description, date, lastModified, lang, slug, category, author, readingTime, faqItems = [], listItems = [], translationSlugs, image, imageAlt, imageCredit } = Astro.props;
 const heroImageUrl = image ? (image.startsWith('http') ? image : `https://sapiro.app${image}`) : null;
 const t = getTranslations(lang);
 const modifiedDate = lastModified || date;
@@ -67,11 +71,7 @@ const schemaArticle = {
   headline: title,
   description: description,
   ...(heroImageUrl ? { image: { '@type': 'ImageObject', url: heroImageUrl } } : {}),
-  author: {
-    '@type': 'Organization',
-    name: author,
-    url: 'https://sapiro.app'
-  },
+  author: authorPersonSchema,
   publisher: {
     '@type': 'Organization',
     name: 'SAPIRO',
@@ -110,6 +110,19 @@ const schemaFaq = faqItems.length > 0 ? {
   }))
 } : null;
 
+// Schema.org ItemList (si l'article est un listicle numerote)
+const schemaList = listItems.length >= 3 ? {
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  itemListOrder: 'https://schema.org/ItemListOrderAscending',
+  numberOfItems: listItems.length,
+  itemListElement: listItems.map(it => ({
+    '@type': 'ListItem',
+    position: it.position,
+    name: it.name,
+  })),
+} : null;
+
 // Schema.org BreadcrumbList (avec le niveau cluster si disponible)
 const breadcrumbItems: any[] = [
   { '@type': 'ListItem', position: 1, name: t.header.home, item: `https://sapiro.app${getLocalePath('/', lang)}` },
@@ -138,12 +151,13 @@ const breadcrumbSchema = {
 
     <!-- Open Graph Article (og:type est defini via la prop ogType du Layout) -->
     <meta property="article:published_time" content={date.toISOString()} />
-    <meta property="article:author" content={author} />
+    <meta property="article:author" content={AUTHOR.name} />
 
     <!-- Schema.org -->
     <script type="application/ld+json" set:html={JSON.stringify(schemaArticle)} />
     <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
     {schemaFaq && <script type="application/ld+json" set:html={JSON.stringify(schemaFaq)} />}
+    {schemaList && <script type="application/ld+json" set:html={JSON.stringify(schemaList)} />}
   </Fragment>
 
   <Header lang={lang} t={t} />
@@ -174,7 +188,7 @@ const breadcrumbSchema = {
         <h1>{title}</h1>
         <div class="article-info">
           <span>{t.blog.publishedOn} <time datetime={date.toISOString()}>{formattedDate}</time></span>
-          <span class="article-author">— {author}</span>
+          <span class="article-author">— <a href={getLocalePath('/about', lang)} rel="author">{AUTHOR.name}</a></span>
         </div>
       </header>
 
@@ -198,6 +212,8 @@ const breadcrumbSchema = {
       </div>
 
       <BlogInlineCta lang={lang} />
+
+      <RelatedPosts lang={lang} slug={slug} category={category} />
 
       <script>
         // Wrap FAQ section in a styled container
