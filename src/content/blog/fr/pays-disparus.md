@@ -94,7 +94,7 @@ Trois techniques.
 
 **Connaître les "enfants"** issus de chaque pays disparu. URSS → 15. Yougoslavie → 7 avec le Kosovo.
 
-**Tester ses connaissances.** SAPIRO propose des quiz sur la géographie et l'histoire mondiale, avec une explication contextualisée. Pour creuser : [frise chronologique mondiale](/blog/frise-chronologique-mondiale/) et les [plus petits pays encore debout aujourd'hui](/blog/plus-petits-pays-monde/).
+**Tester ses connaissances.** SAPIRO propose des quiz sur la géographie et l'histoire mondiale, avec une explication contextualisée. Pour creuser : [frise chronologique mondiale](/blog/frise-chronologique-mondiale/), les [plus petits pays encore debout aujourd'hui](/blog/plus-petits-pays-monde/) et les [drapeaux de pays disparus](/blog/drapeaux-pays-disparus/).
 
 <figure>
   <img src="/images/blog/monde/globe-terrestre.jpg" alt="Un globe terrestre ancien" loading="lazy" />

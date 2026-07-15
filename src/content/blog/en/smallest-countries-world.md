@@ -98,6 +98,8 @@ Three historical reasons.
 - Liechtenstein = Inner Paris roughly
 - Malta = 3 times the city of Brussels
 
+By continent: the [smallest countries in Europe](/en/blog/smallest-countries-europe/), the [smallest countries in Asia](/en/blog/smallest-countries-asia/) and the [six European microstates](/en/blog/european-microstates/).
+
 Worth reading: [least visited countries in the world](/en/blog/least-visited-countries-world/) and [countries that no longer exist](/en/blog/countries-that-disappeared/) to continue.
 
 <figure>

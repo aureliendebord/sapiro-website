@@ -98,6 +98,8 @@ Trois raisons historiques.
 - Liechtenstein = Paris intra-muros environ
 - Malte = 3 fois la ville de Lyon
 
+Par continent : les [plus petits pays d'Europe](/blog/plus-petits-pays-europe/), les [plus petits pays d'Asie](/blog/plus-petits-pays-asie/) et les [six micro-États européens](/blog/micro-etats-europeens/).
+
 Pour creuser : [pays les moins visités au monde](/blog/pays-moins-visites-monde/) et les [pays qui n'existent plus](/blog/pays-disparus/) pour la suite.
 
 <figure>

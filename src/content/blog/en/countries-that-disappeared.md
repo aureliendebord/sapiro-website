@@ -94,7 +94,7 @@ Three techniques.
 
 **Know the "children"** that emerged from each vanished country. USSR → 15. Yugoslavia → 7 with Kosovo.
 
-**Test knowledge.** SAPIRO offers quizzes on world geography and history, with contextualized explanations. Worth reading: [world history timeline](/en/blog/world-timeline-history/) and the [smallest countries still standing today](/en/blog/smallest-countries-world/).
+**Test knowledge.** SAPIRO offers quizzes on world geography and history, with contextualized explanations. Worth reading: [world history timeline](/en/blog/world-timeline-history/), the [smallest countries still standing today](/en/blog/smallest-countries-world/) and the [flags of countries that no longer exist](/en/blog/flags-of-disappeared-countries/).
 
 <figure>
   <img src="/images/blog/monde/globe-terrestre.jpg" alt="An antique terrestrial globe" loading="lazy" />
