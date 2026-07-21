@@ -3,9 +3,24 @@ import Layout from '../../layouts/Layout.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
 import { getTranslations } from '../../i18n';
+import { getCollection } from 'astro:content';
 
 const lang = 'es';
 const t = getTranslations(lang);
+
+const allPosts = await getCollection('blog');
+const natCategories = ['nature'];
+const articles = allPosts
+  .filter(p => p.data.lang === 'es' && natCategories.includes(p.data.category))
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+
+const featuredSlugs = [
+  'quiz-animales-especies-mundo', 'animales-parecidos-diferencias',
+  'animales-mas-peligrosos-mundo', 'animales-en-peligro-extincion',
+  'animales-extranos-desconocidos', 'animales-africa', 'razas-perros-reconocer',
+  'quiz-naturaleza-ninos', 'identificar-animales-ninos',
+];
+const moreArticles = articles.filter(p => !featuredSlugs.includes(p.data.urlSlug));
 
 const collectionPageSchema = {
   "@context": "https://schema.org",
@@ -85,6 +100,17 @@ const faqSchema = {
           <li><a href="/es/blog/identificar-animales-ninos/">Identificar animales con los niños</a></li>
         </ul>
       </section>
+
+      {moreArticles.length > 0 && (
+        <section class="pillar-sub">
+          <h2>Más artículos</h2>
+          <ul class="pillar-grid">
+            {moreArticles.map(p => (
+              <li><a href={`/es/blog/${p.data.urlSlug}/`}>{p.data.title}</a></li>
+            ))}
+          </ul>
+        </section>
+      )}
 
       <section class="pillar-faq">
         <h2>Preguntas frecuentes sobre animales</h2>

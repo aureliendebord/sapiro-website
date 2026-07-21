@@ -3,9 +3,25 @@ import Layout from '../../layouts/Layout.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
 import { getTranslations } from '../../i18n';
+import { getCollection } from 'astro:content';
 
 const lang = 'es';
 const t = getTranslations(lang);
+
+const allPosts = await getCollection('blog');
+const monCategories = ['monuments'];
+const articles = allPosts
+  .filter(p => p.data.lang === 'es' && monCategories.includes(p.data.category))
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+
+const featuredSlugs = [
+  'maravillas-del-mundo', 'monumentos-famosos-mundo', 'monumentos-mas-visitados-mundo',
+  'monumentos-francia', 'monumentos-paris', 'monumentos-italia', 'monumentos-egipto',
+  'monumentos-espana', 'monumentos-reino-unido', 'sitios-unesco-patrimonio-mundial',
+  'monumentos-antiguedad', 'castillos-palacios-famosos-mundo', 'quiz-monumentos-mundo',
+  'monumentos-cultura-general',
+];
+const moreArticles = articles.filter(p => !featuredSlugs.includes(p.data.urlSlug));
 
 const collectionPageSchema = {
   "@context": "https://schema.org",
@@ -112,6 +128,17 @@ const breadcrumbSchema = {
           <li><a href="/es/blog/monumentos-cultura-general/">Monumentos que hay que conocer para las oposiciones</a></li>
         </ul>
       </section>
+
+      {moreArticles.length > 0 && (
+        <section class="pillar-sub">
+          <h2>Más artículos</h2>
+          <ul class="pillar-grid">
+            {moreArticles.map(p => (
+              <li><a href={`/es/blog/${p.data.urlSlug}/`}>{p.data.title}</a></li>
+            ))}
+          </ul>
+        </section>
+      )}
 
       <section class="pillar-faq">
         <h2>Preguntas frecuentes sobre los monumentos</h2>

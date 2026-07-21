@@ -2,10 +2,27 @@
 import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import { getCollection } from 'astro:content';
 import { getTranslations } from '../i18n';
 
 const lang = 'fr';
 const t = getTranslations(lang);
+
+const allPosts = await getCollection('blog');
+const monumentsCategories = ['monuments'];
+const articles = allPosts
+  .filter(p => p.data.lang === 'fr' && monumentsCategories.includes(p.data.category))
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+
+// Slugs déjà mis en avant dans les listes curées ci-dessous (pour ne pas les répéter).
+const featuredSlugs = [
+  'merveilles-du-monde', 'monuments-celebres-monde', 'monuments-plus-visites-monde',
+  'monuments-france', 'monuments-paris', 'monuments-italie', 'monuments-egypte',
+  'monuments-espagne', 'monuments-royaume-uni', 'sites-unesco-patrimoine-mondial',
+  'monuments-antiquite', 'chateaux-palais-celebres-monde', 'quiz-monuments-monde',
+  'monuments-culture-generale-concours',
+];
+const moreArticles = articles.filter(p => !featuredSlugs.includes(p.data.urlSlug));
 
 const collectionPageSchema = {
   "@context": "https://schema.org",
@@ -128,6 +145,17 @@ const breadcrumbSchema = {
           <li><a href="/blog/monuments-culture-generale-concours/">Monuments à connaître pour les concours et le bac</a></li>
         </ul>
       </section>
+
+      {moreArticles.length > 0 && (
+        <section class="pillar-sub">
+          <h2>Plus d'articles</h2>
+          <ul class="pillar-grid">
+            {moreArticles.map(p => (
+              <li><a href={`/blog/${p.data.urlSlug}/`}>{p.data.title}</a></li>
+            ))}
+          </ul>
+        </section>
+      )}
 
       <section class="pillar-faq">
         <h2>Questions fréquentes sur les monuments</h2>

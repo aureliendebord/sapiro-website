@@ -3,9 +3,25 @@ import Layout from '../../layouts/Layout.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
 import { getTranslations } from '../../i18n';
+import { getCollection } from 'astro:content';
 
 const lang = 'es';
 const t = getTranslations(lang);
+
+const allPosts = await getCollection('blog');
+const histCategories = ['histoire'];
+const articles = allPosts
+  .filter(p => p.data.lang === 'es' && histCategories.includes(p.data.category))
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+
+const featuredSlugs = [
+  'antiguedad-edad-media-renacimiento-resumen', 'linea-tiempo-historia-mundial',
+  'grandes-batallas-historia', 'monumentos-antiguedad', 'personajes-historicos',
+  'reyes-monarquias-europa', 'presidentes-estados-unidos', 'mujeres-marcaron-historia',
+  'dictadores-siglo-xx', 'quiz-historia-examen', 'aprender-historia-divirtiendose',
+  'historia-primaria-secundaria-programa',
+];
+const moreArticles = articles.filter(p => !featuredSlugs.includes(p.data.urlSlug));
 
 const collectionPageSchema = {
   "@context": "https://schema.org",
@@ -88,6 +104,17 @@ const faqSchema = {
           <li><a href="/es/blog/historia-primaria-secundaria-programa/">Historia primaria y secundaria</a></li>
         </ul>
       </section>
+
+      {moreArticles.length > 0 && (
+        <section class="pillar-sub">
+          <h2>Más artículos</h2>
+          <ul class="pillar-grid">
+            {moreArticles.map(p => (
+              <li><a href={`/es/blog/${p.data.urlSlug}/`}>{p.data.title}</a></li>
+            ))}
+          </ul>
+        </section>
+      )}
 
       <section class="pillar-faq">
         <h2>Preguntas frecuentes sobre historia</h2>

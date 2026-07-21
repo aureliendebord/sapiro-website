@@ -3,9 +3,25 @@ import Layout from '../../layouts/Layout.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
 import { getTranslations } from '../../i18n';
+import { getCollection } from 'astro:content';
 
 const lang = 'en';
 const t = getTranslations(lang);
+
+const allPosts = await getCollection('blog');
+const historyCategories = ['histoire'];
+const articles = allPosts
+  .filter(p => p.data.lang === 'en' && historyCategories.includes(p.data.category))
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+
+// Slugs déjà mis en avant dans les listes curées ci-dessous (pour ne pas les répéter).
+const featuredSlugs = [
+  'antiquity-middle-ages-renaissance-overview', 'world-timeline-history', 'great-battles-history',
+  'ancient-monuments', 'historical-figures', 'european-monarchs-list', 'us-presidents-list',
+  'women-who-shaped-history', '20th-century-dictators', 'history-quiz-exam-level',
+  'learning-history-fun', 'history-elementary-middle-school',
+];
+const moreArticles = articles.filter(p => !featuredSlugs.includes(p.data.urlSlug));
 
 const collectionPageSchema = {
   "@context": "https://schema.org",
@@ -88,6 +104,17 @@ const faqSchema = {
           <li><a href="/en/blog/history-elementary-middle-school/">History in elementary and middle school</a></li>
         </ul>
       </section>
+
+      {moreArticles.length > 0 && (
+        <section class="pillar-sub">
+          <h2>More articles</h2>
+          <ul class="pillar-grid">
+            {moreArticles.map(p => (
+              <li><a href={`/en/blog/${p.data.urlSlug}/`}>{p.data.title}</a></li>
+            ))}
+          </ul>
+        </section>
+      )}
 
       <section class="pillar-faq">
         <h2>Frequently asked questions about history</h2>

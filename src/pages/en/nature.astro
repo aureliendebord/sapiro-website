@@ -3,9 +3,24 @@ import Layout from '../../layouts/Layout.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
 import { getTranslations } from '../../i18n';
+import { getCollection } from 'astro:content';
 
 const lang = 'en';
 const t = getTranslations(lang);
+
+const allPosts = await getCollection('blog');
+const natureCategories = ['nature'];
+const articles = allPosts
+  .filter(p => p.data.lang === 'en' && natureCategories.includes(p.data.category))
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+
+// Slugs déjà mis en avant dans les listes curées ci-dessous (pour ne pas les répéter).
+const featuredSlugs = [
+  'quiz-animals-world-species', 'animals-that-look-alike', 'most-dangerous-animals-world',
+  'endangered-species-list', 'strange-unknown-animals', 'african-wildlife',
+  'dog-breeds-identify', 'nature-quiz-kids', 'identifying-animals-with-kids',
+];
+const moreArticles = articles.filter(p => !featuredSlugs.includes(p.data.urlSlug));
 
 const collectionPageSchema = {
   "@context": "https://schema.org",
@@ -85,6 +100,17 @@ const faqSchema = {
           <li><a href="/en/blog/identifying-animals-with-kids/">Identifying animals with kids</a></li>
         </ul>
       </section>
+
+      {moreArticles.length > 0 && (
+        <section class="pillar-sub">
+          <h2>More articles</h2>
+          <ul class="pillar-grid">
+            {moreArticles.map(p => (
+              <li><a href={`/en/blog/${p.data.urlSlug}/`}>{p.data.title}</a></li>
+            ))}
+          </ul>
+        </section>
+      )}
 
       <section class="pillar-faq">
         <h2>Frequently asked questions about animals</h2>

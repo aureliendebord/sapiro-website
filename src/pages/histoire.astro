@@ -2,10 +2,27 @@
 import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import { getCollection } from 'astro:content';
 import { getTranslations } from '../i18n';
 
 const lang = 'fr';
 const t = getTranslations(lang);
+
+const allPosts = await getCollection('blog');
+const histoireCategories = ['histoire'];
+const articles = allPosts
+  .filter(p => p.data.lang === 'fr' && histoireCategories.includes(p.data.category))
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+
+// Slugs déjà mis en avant dans les listes curées ci-dessous (pour ne pas les répéter).
+const featuredSlugs = [
+  'antiquite-moyen-age-renaissance-reperes', 'frise-chronologique-mondiale',
+  'grandes-batailles-histoire', 'monuments-antiquite', 'personnages-historiques',
+  'rois-de-france-liste', 'presidents-etats-unis', 'femmes-marque-histoire',
+  'dictateurs-xxe-siecle', 'quiz-histoire-france-bac', 'apprendre-histoire-en-samusant',
+  'histoire-cm1-cm2-6e-programme',
+];
+const moreArticles = articles.filter(p => !featuredSlugs.includes(p.data.urlSlug));
 
 const collectionPageSchema = {
   "@context": "https://schema.org",
@@ -104,6 +121,17 @@ const faqSchema = {
           <li><a href="/blog/histoire-cm1-cm2-6e-programme/">Programme d'histoire CM1, CM2, 6e</a></li>
         </ul>
       </section>
+
+      {moreArticles.length > 0 && (
+        <section class="pillar-sub">
+          <h2>Plus d'articles</h2>
+          <ul class="pillar-grid">
+            {moreArticles.map(p => (
+              <li><a href={`/blog/${p.data.urlSlug}/`}>{p.data.title}</a></li>
+            ))}
+          </ul>
+        </section>
+      )}
 
       <section class="pillar-faq">
         <h2>Questions fréquentes sur l'histoire</h2>

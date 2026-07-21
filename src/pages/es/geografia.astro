@@ -3,9 +3,26 @@ import Layout from '../../layouts/Layout.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
 import { getTranslations } from '../../i18n';
+import { getCollection } from 'astro:content';
 
 const lang = 'es';
 const t = getTranslations(lang);
+
+const allPosts = await getCollection('blog');
+const geoCategories = ['geographie', 'drapeaux', 'voyage', 'culture-generale'];
+const articles = allPosts
+  .filter(p => p.data.lang === 'es' && geoCategories.includes(p.data.category))
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+
+const featuredSlugs = [
+  'quiz-capitales-mundo', 'quiz-capitales-por-continente', 'banderas-dificiles',
+  'significado-banderas', 'errores-geografia', 'quiz-banderas-mundo-gratis-online',
+  'paises-menos-visitados-mundo', 'paises-mas-pequenos-mundo', 'paises-desaparecidos',
+  'fronteras-extranas-mundo', 'origen-nombres-paises', 'test-pais-personalidad',
+  'monumentos-mas-visitados-mundo', 'geografia-ninos', 'geografia-familia',
+  'ensenar-paises-mundo-ninos', 'mejores-apps-geografia',
+];
+const moreArticles = articles.filter(p => !featuredSlugs.includes(p.data.urlSlug));
 
 const collectionPageSchema = {
   "@context": "https://schema.org",
@@ -94,6 +111,17 @@ const faqSchema = {
           <li><a href="/es/blog/mejores-apps-geografia/">Las mejores apps de geografía</a></li>
         </ul>
       </section>
+
+      {moreArticles.length > 0 && (
+        <section class="pillar-sub">
+          <h2>Más artículos</h2>
+          <ul class="pillar-grid">
+            {moreArticles.map(p => (
+              <li><a href={`/es/blog/${p.data.urlSlug}/`}>{p.data.title}</a></li>
+            ))}
+          </ul>
+        </section>
+      )}
 
       <section class="pillar-faq">
         <h2>Preguntas frecuentes sobre geografía</h2>

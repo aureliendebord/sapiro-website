@@ -3,9 +3,25 @@ import Layout from '../../layouts/Layout.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
 import { getTranslations } from '../../i18n';
+import { getCollection } from 'astro:content';
 
 const lang = 'en';
 const t = getTranslations(lang);
+
+const allPosts = await getCollection('blog');
+const artCategories = ['art'];
+const articles = allPosts
+  .filter(p => p.data.lang === 'en' && artCategories.includes(p.data.category))
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+
+// Slugs déjà mis en avant dans les listes curées ci-dessous (pour ne pas les répéter).
+const featuredSlugs = [
+  'famous-paintings-masterpieces', 'essential-artworks-to-know', 'famous-sculptures-world',
+  'art-movements-explained', 'recognize-painter-style', 'famous-monuments-world',
+  'most-visited-museums-world', 'art-history-beginners', 'art-history-quiz-exam',
+  'teaching-art-kids',
+];
+const moreArticles = articles.filter(p => !featuredSlugs.includes(p.data.urlSlug));
 
 const collectionPageSchema = {
   "@context": "https://schema.org",
@@ -86,6 +102,17 @@ const faqSchema = {
           <li><a href="/en/blog/teaching-art-kids/">Teaching art to kids</a></li>
         </ul>
       </section>
+
+      {moreArticles.length > 0 && (
+        <section class="pillar-sub">
+          <h2>More articles</h2>
+          <ul class="pillar-grid">
+            {moreArticles.map(p => (
+              <li><a href={`/en/blog/${p.data.urlSlug}/`}>{p.data.title}</a></li>
+            ))}
+          </ul>
+        </section>
+      )}
 
       <section class="pillar-faq">
         <h2>Frequently asked questions about art</h2>

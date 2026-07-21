@@ -14,6 +14,17 @@ const articles = allPosts
   .filter(p => p.data.lang === 'fr' && geoCategories.includes(p.data.category))
   .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
 
+// Slugs déjà mis en avant dans les listes curées ci-dessous (pour ne pas les répéter).
+const featuredSlugs = [
+  'quiz-capitales-monde', 'quiz-capitales-par-continent', 'drapeaux-difficiles',
+  'signification-drapeaux', 'erreurs-geographie', 'quiz-drapeaux-monde-gratuit-en-ligne',
+  'pays-moins-visites-monde', 'plus-petits-pays-monde', 'pays-disparus',
+  'frontieres-etranges-monde', 'origine-noms-pays', 'test-pays-personnalite',
+  'monuments-plus-visites-monde', 'geographie-enfants', 'geographie-famille',
+  'apprendre-pays-monde-enfants', 'meilleures-apps-geographie',
+];
+const moreArticles = articles.filter(p => !featuredSlugs.includes(p.data.urlSlug));
+
 const collectionPageSchema = {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
@@ -126,6 +137,17 @@ const faqSchema = {
           <li><a href="/blog/meilleures-apps-geographie/">Les meilleures apps de géographie</a></li>
         </ul>
       </section>
+
+      {moreArticles.length > 0 && (
+        <section class="pillar-sub">
+          <h2>Plus d'articles</h2>
+          <ul class="pillar-grid">
+            {moreArticles.map(p => (
+              <li><a href={`/blog/${p.data.urlSlug}/`}>{p.data.title}</a></li>
+            ))}
+          </ul>
+        </section>
+      )}
 
       <section class="pillar-faq">
         <h2>Questions fréquentes sur la géographie</h2>

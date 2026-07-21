@@ -2,10 +2,26 @@
 import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import { getCollection } from 'astro:content';
 import { getTranslations } from '../i18n';
 
 const lang = 'fr';
 const t = getTranslations(lang);
+
+const allPosts = await getCollection('blog');
+const natureCategories = ['nature'];
+const articles = allPosts
+  .filter(p => p.data.lang === 'fr' && natureCategories.includes(p.data.category))
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+
+// Slugs déjà mis en avant dans les listes curées ci-dessous (pour ne pas les répéter).
+const featuredSlugs = [
+  'quiz-animaux-especes-monde', 'differences-animaux-ressemblants',
+  'animaux-plus-dangereux-monde', 'animaux-en-voie-disparition', 'animaux-etranges-meconnus',
+  'animaux-afrique', 'reconnaitre-races-chiens', 'quiz-nature-enfants',
+  'identifier-animaux-enfants',
+];
+const moreArticles = articles.filter(p => !featuredSlugs.includes(p.data.urlSlug));
 
 const collectionPageSchema = {
   "@context": "https://schema.org",
@@ -101,6 +117,17 @@ const faqSchema = {
           <li><a href="/blog/identifier-animaux-enfants/">Identifier les animaux avec ses enfants</a></li>
         </ul>
       </section>
+
+      {moreArticles.length > 0 && (
+        <section class="pillar-sub">
+          <h2>Plus d'articles</h2>
+          <ul class="pillar-grid">
+            {moreArticles.map(p => (
+              <li><a href={`/blog/${p.data.urlSlug}/`}>{p.data.title}</a></li>
+            ))}
+          </ul>
+        </section>
+      )}
 
       <section class="pillar-faq">
         <h2>Questions fréquentes sur les animaux</h2>

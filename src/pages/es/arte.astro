@@ -3,9 +3,24 @@ import Layout from '../../layouts/Layout.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
 import { getTranslations } from '../../i18n';
+import { getCollection } from 'astro:content';
 
 const lang = 'es';
 const t = getTranslations(lang);
+
+const allPosts = await getCollection('blog');
+const artCategories = ['art'];
+const articles = allPosts
+  .filter(p => p.data.lang === 'es' && artCategories.includes(p.data.category))
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+
+const featuredSlugs = [
+  'cuadros-celebres-obras-maestras', 'obras-arte-imprescindibles',
+  'esculturas-celebres-mundo', 'movimientos-artisticos', 'reconocer-pintor-estilo',
+  'monumentos-famosos-mundo', 'museos-mas-visitados-mundo', 'historia-arte-principiantes',
+  'quiz-historia-arte-examen', 'ensenar-arte-ninos',
+];
+const moreArticles = articles.filter(p => !featuredSlugs.includes(p.data.urlSlug));
 
 const collectionPageSchema = {
   "@context": "https://schema.org",
@@ -86,6 +101,17 @@ const faqSchema = {
           <li><a href="/es/blog/ensenar-arte-ninos/">Enseñar arte a los niños</a></li>
         </ul>
       </section>
+
+      {moreArticles.length > 0 && (
+        <section class="pillar-sub">
+          <h2>Más artículos</h2>
+          <ul class="pillar-grid">
+            {moreArticles.map(p => (
+              <li><a href={`/es/blog/${p.data.urlSlug}/`}>{p.data.title}</a></li>
+            ))}
+          </ul>
+        </section>
+      )}
 
       <section class="pillar-faq">
         <h2>Preguntas frecuentes sobre arte</h2>
