@@ -48,7 +48,7 @@ L'Afghanistan a changé de drapeau un nombre incalculable de fois au fil de son 
 
 ## Les trios de confusion : drapeaux qui se ressemblent à trois
 
-Parfois, on ne confond pas deux drapeaux. On en confond trois. Ces trios sont de vrais casse-tête, y compris pour ceux qui s'entraînent régulièrement aux [quiz de géographie](/blog/quiz-capitales-monde/).
+Parfois, on ne confond pas deux drapeaux. On en confond trois. Ces trios sont de vrais casse-tête, y compris pour ceux qui s'entraînent régulièrement aux [quiz de géographie](/blog/quiz-capitales-monde/). Pour un tour complet des paires jumelles, voir les [drapeaux qui se ressemblent](/blog/drapeaux-qui-se-ressemblent/).
 
 Pays-Bas, Luxembourg et Paraguay : trois bandes horizontales rouge, blanche et bleue. Les Pays-Bas et le Luxembourg sont presque indiscernables — le Luxembourg utilise simplement un bleu plus clair. Le Paraguay partage les mêmes couleurs mais se distingue par un emblème central. Et pas n'importe lequel : un emblème différent sur chaque face, ce qui en fait l'un des rares drapeaux nationaux asymétriques.
 

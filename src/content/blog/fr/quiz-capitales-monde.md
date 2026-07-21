@@ -90,7 +90,7 @@ L'apprentissage par contexte : au lieu d'une liste aride, attachez chaque capita
 
 ## Les records et anecdotes sur les capitales
 
-Quelques faits pour donner du relief à tout ça. Et si les capitales vous passionnent, les [drapeaux des pays](/blog/drapeaux-difficiles/) correspondants sont un excellent complément pour muscler sa mémoire géographique.
+Quelques faits pour donner du relief à tout ça. Et si les capitales vous passionnent, les [drapeaux des pays](/blog/drapeaux-difficiles/) correspondants sont un excellent complément pour muscler sa mémoire géographique. Autre curiosité : les [pays qui ont deux capitales, voire trois](/blog/pays-plusieurs-capitales/).
 
 La plus ancienne capitale du monde en usage continu ? Le débat reste ouvert. Damas, Athènes, Beijing : chacune revendique des millénaires d'histoire.
 

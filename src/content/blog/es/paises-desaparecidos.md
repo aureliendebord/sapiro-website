@@ -96,6 +96,8 @@ Tres técnicas.
 
 **Testear conocimientos.** SAPIRO propone quizzes sobre geografía e historia mundial, con explicación contextualizada. Para profundizar: [línea de tiempo mundial](/es/blog/linea-tiempo-historia-mundial/), los [países más pequeños que siguen en pie hoy](/es/blog/paises-mas-pequenos-mundo/) y las [banderas de países desaparecidos](/es/blog/banderas-paises-desaparecidos/).
 
+La continuación lógica: los [países que cambiaron de nombre](/es/blog/paises-que-cambiaron-de-nombre/), los [países no reconocidos](/es/blog/paises-no-reconocidos/) y los [países más jóvenes del mundo](/es/blog/paises-mas-jovenes-mundo/).
+
 <figure>
   <img src="/images/blog/monde/globe-terrestre.jpg" alt="Un globo terráqueo antiguo" loading="lazy" />
   <figcaption>Foto: Henry James · dominio público · Wikimedia Commons</figcaption>

@@ -100,7 +100,7 @@ Tres razones históricas.
 
 Por continente: los [países más pequeños de Europa](/es/blog/paises-mas-pequenos-europa/), los [países más pequeños de Asia](/es/blog/paises-mas-pequenos-asia/) y los [seis microestados europeos](/es/blog/microestados-europeos/).
 
-Para profundizar: [países menos visitados del mundo](/es/blog/paises-menos-visitados-mundo/) y [países que ya no existen](/es/blog/paises-desaparecidos/) para continuar.
+Para profundizar: [países menos visitados del mundo](/es/blog/paises-menos-visitados-mundo/), los [países sin salida al mar](/es/blog/paises-sin-salida-al-mar/) y [países que ya no existen](/es/blog/paises-desaparecidos/) para continuar.
 
 <figure>
   <img src="/images/blog/monde/carte-monde-ancienne.jpg" alt="Un mapa del mundo antiguo" loading="lazy" />

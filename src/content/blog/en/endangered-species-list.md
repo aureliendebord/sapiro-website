@@ -108,7 +108,7 @@ Ecology is not just a story of collapse. A few successes.
 
 The **California condor**, the **American bison** (recovered from 750 to 30,000 individuals), the **mountain gorilla**, the **northern bald ibis**, the **Arabian oryx** (reintroduced to the wild after being extinct in the wild) show that conservation can reverse the trajectory. But each case takes decades of coordinated effort and massive resources.
 
-For more on nature, see also our article on [strange and lesser-known animals](/en/blog/strange-unknown-animals/) and the one on [the most dangerous animals in the world](/en/blog/most-dangerous-animals-world/). SAPIRO lets you test knowledge on 600 species, with an explanation behind every question.
+For more on nature, see also our article on [strange and lesser-known animals](/en/blog/strange-unknown-animals/) and the one on [the most dangerous animals in the world](/en/blog/most-dangerous-animals-world/). And for the species we failed to save: the [recently extinct animals](/en/blog/recently-extinct-animals/). SAPIRO lets you test knowledge on 600 species, with an explanation behind every question.
 
 <figure>
   <img src="/images/blog/nature/rhinoceros.jpg" alt="A black rhinoceros, an endangered species" loading="lazy" />

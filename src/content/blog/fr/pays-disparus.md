@@ -96,6 +96,8 @@ Trois techniques.
 
 **Tester ses connaissances.** SAPIRO propose des quiz sur la géographie et l'histoire mondiale, avec une explication contextualisée. Pour creuser : [frise chronologique mondiale](/blog/frise-chronologique-mondiale/), les [plus petits pays encore debout aujourd'hui](/blog/plus-petits-pays-monde/) et les [drapeaux de pays disparus](/blog/drapeaux-pays-disparus/).
 
+La suite logique : les [pays qui ont changé de nom](/blog/pays-qui-ont-change-de-nom/), les [pays non reconnus](/blog/pays-non-reconnus/) et les [plus jeunes pays du monde](/blog/plus-jeunes-pays-monde/).
+
 <figure>
   <img src="/images/blog/monde/globe-terrestre.jpg" alt="Un globe terrestre ancien" loading="lazy" />
   <figcaption>Photo : Henry James · domaine public · Wikimedia Commons</figcaption>

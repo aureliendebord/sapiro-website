@@ -62,7 +62,7 @@ Penser aux conséquences plus qu'aux détails militaires. Une bataille intéress
 
 Visualiser sur une carte. Chaque bataille se passe quelque part. La géographie influence le résultat.
 
-Voir aussi notre [frise chronologique mondiale](/blog/frise-chronologique-mondiale/) pour situer ces dates et notre article sur les [personnages historiques](/blog/personnages-historiques/) pour les acteurs. SAPIRO propose des quiz sur l'histoire mondiale avec explication contextualisée derrière chaque question.
+Voir aussi notre [frise chronologique mondiale](/blog/frise-chronologique-mondiale/) pour situer ces dates, les [plus grands empires de l'histoire](/blog/plus-grands-empires-histoire/) que ces batailles ont bâtis ou défaits, et notre article sur les [personnages historiques](/blog/personnages-historiques/) pour les acteurs. SAPIRO propose des quiz sur l'histoire mondiale avec explication contextualisée derrière chaque question.
 
 <figure>
   <img src="/images/blog/histoire/memorial-verdun.jpg" alt="Le mémorial de Verdun" loading="lazy" />

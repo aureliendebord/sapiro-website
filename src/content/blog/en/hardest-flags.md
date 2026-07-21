@@ -46,7 +46,7 @@ Ireland starts with green, and Ireland is famously green -- the Emerald Isle. Iv
 
 The flags of Luxembourg and the Netherlands both consist of horizontal red, white, and blue stripes. The distinction lies in the shade of blue: the Netherlands uses a darker cobalt, while Luxembourg employs a lighter sky blue. The Luxembourg flag is also slightly longer in proportion.
 
-Luxembourg is a small, bright country in the heart of Europe -- its blue is lighter, more cheerful. The Netherlands, with its maritime heritage, uses a deeper ocean blue. I think of Dutch painters and their moody seascapes. It sticks. Mixing up these two is one of [the most common geography mistakes](/en/blog/geography-mistakes/) people make.
+Luxembourg is a small, bright country in the heart of Europe -- its blue is lighter, more cheerful. The Netherlands, with its maritime heritage, uses a deeper ocean blue. I think of Dutch painters and their moody seascapes. It sticks. Mixing up these two is one of [the most common geography mistakes](/en/blog/geography-mistakes/) people make. For a full tour of twin banners, see the [flags that look alike](/en/blog/flags-that-look-alike/).
 
 ## Bhutan: The Dragon's Complexity
 

@@ -62,7 +62,7 @@ Pensar más en las consecuencias que en los detalles militares. Una batalla inte
 
 Visualizar en un mapa. Cada batalla ocurre en algún sitio. La geografía influye en el resultado.
 
-Ver también nuestra [línea de tiempo mundial](/es/blog/linea-tiempo-historia-mundial/) para situar estas fechas y nuestro artículo sobre [personajes históricos](/es/blog/personajes-historicos/) para los actores. SAPIRO propone quizzes de historia mundial con explicación contextualizada detrás de cada pregunta.
+Ver también nuestra [línea de tiempo mundial](/es/blog/linea-tiempo-historia-mundial/) para situar estas fechas, los [imperios más grandes de la historia](/es/blog/imperios-mas-grandes-historia/) que estas batallas construyeron o deshicieron, y nuestro artículo sobre [personajes históricos](/es/blog/personajes-historicos/) para los actores. SAPIRO propone quizzes de historia mundial con explicación contextualizada detrás de cada pregunta.
 
 <figure>
   <img src="/images/blog/histoire/memorial-verdun.jpg" alt="El memorial de Verdún" loading="lazy" />

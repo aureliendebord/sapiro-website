@@ -108,7 +108,7 @@ La ecología no es solo un relato de colapso. Algunos éxitos.
 
 El **cóndor de California**, el **bisonte americano** (recuperado de 750 a 30 000 individuos), el **gorila de montaña**, el **ibis eremita**, el **órix de Arabia** (reintroducido en libertad tras estar extinto en estado salvaje) muestran que la conservación puede invertir la trayectoria. Pero cada vez se necesitan décadas de esfuerzo coordinado y recursos masivos.
 
-Para profundizar sobre naturaleza, ver también nuestro artículo sobre [animales extraños y desconocidos](/es/blog/animales-extranos-desconocidos/) y el de [animales más peligrosos del mundo](/es/blog/animales-mas-peligrosos-mundo/). SAPIRO permite poner a prueba conocimientos sobre 600 especies, con una explicación didáctica detrás de cada pregunta.
+Para profundizar sobre naturaleza, ver también nuestro artículo sobre [animales extraños y desconocidos](/es/blog/animales-extranos-desconocidos/) y el de [animales más peligrosos del mundo](/es/blog/animales-mas-peligrosos-mundo/). Y para las especies que no supimos salvar: los [animales extinguidos recientemente](/es/blog/animales-extintos-recientemente/). SAPIRO permite poner a prueba conocimientos sobre 600 especies, con una explicación didáctica detrás de cada pregunta.
 
 <figure>
   <img src="/images/blog/nature/rhinoceros.jpg" alt="Un rinoceronte negro, especie amenazada" loading="lazy" />

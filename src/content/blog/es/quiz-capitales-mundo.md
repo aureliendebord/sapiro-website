@@ -90,7 +90,7 @@ El aprendizaje por contexto: en lugar de una lista árida, vincula cada capital 
 
 ## Records y anécdotas sobre capitales
 
-Algunos datos para dar relieve a todo esto. Y si las capitales te apasionan, las [banderas de los países](/es/blog/banderas-dificiles/) correspondientes son un excelente complemento para entrenar la memoria geográfica.
+Algunos datos para dar relieve a todo esto. Y si las capitales te apasionan, las [banderas de los países](/es/blog/banderas-dificiles/) correspondientes son un excelente complemento para entrenar la memoria geográfica. Otra curiosidad: los [países que tienen dos capitales, o incluso tres](/es/blog/paises-con-dos-capitales/).
 
 ¿La capital habitada en uso continuo más antigua? El debate sigue abierto. Damasco, Atenas, Pekín: cada una reivindica milenios de historia.
 

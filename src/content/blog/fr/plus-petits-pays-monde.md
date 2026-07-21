@@ -100,7 +100,7 @@ Trois raisons historiques.
 
 Par continent : les [plus petits pays d'Europe](/blog/plus-petits-pays-europe/), les [plus petits pays d'Asie](/blog/plus-petits-pays-asie/) et les [six micro-États européens](/blog/micro-etats-europeens/).
 
-Pour creuser : [pays les moins visités au monde](/blog/pays-moins-visites-monde/) et les [pays qui n'existent plus](/blog/pays-disparus/) pour la suite.
+Pour creuser : [pays les moins visités au monde](/blog/pays-moins-visites-monde/), les [pays sans accès à la mer](/blog/pays-sans-acces-mer/) et les [pays qui n'existent plus](/blog/pays-disparus/) pour la suite.
 
 <figure>
   <img src="/images/blog/monde/carte-monde-ancienne.jpg" alt="Une vieille carte du monde" loading="lazy" />

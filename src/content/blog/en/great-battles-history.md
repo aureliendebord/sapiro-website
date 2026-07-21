@@ -62,7 +62,7 @@ Think about consequences more than military details. A battle matters to history
 
 Visualize on a map. Every battle happens somewhere. Geography shapes the result.
 
-See also our [world history timeline](/en/blog/world-timeline-history/) to situate these dates and our article on [historical figures](/en/blog/historical-figures/) for the actors. SAPIRO offers world history quizzes with contextualized explanations behind each question.
+See also our [world history timeline](/en/blog/world-timeline-history/) to situate these dates, the [largest empires in history](/en/blog/largest-empires-history/) these battles built or broke, and our article on [historical figures](/en/blog/historical-figures/) for the actors. SAPIRO offers world history quizzes with contextualized explanations behind each question.
 
 <figure>
   <img src="/images/blog/histoire/memorial-verdun.jpg" alt="The Verdun memorial" loading="lazy" />

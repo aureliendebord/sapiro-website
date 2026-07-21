@@ -100,7 +100,7 @@ Three historical reasons.
 
 By continent: the [smallest countries in Europe](/en/blog/smallest-countries-europe/), the [smallest countries in Asia](/en/blog/smallest-countries-asia/) and the [six European microstates](/en/blog/european-microstates/).
 
-Worth reading: [least visited countries in the world](/en/blog/least-visited-countries-world/) and [countries that no longer exist](/en/blog/countries-that-disappeared/) to continue.
+Worth reading: [least visited countries in the world](/en/blog/least-visited-countries-world/), [landlocked countries](/en/blog/landlocked-countries/) and [countries that no longer exist](/en/blog/countries-that-disappeared/) to continue.
 
 <figure>
   <img src="/images/blog/monde/carte-monde-ancienne.jpg" alt="An old world map" loading="lazy" />

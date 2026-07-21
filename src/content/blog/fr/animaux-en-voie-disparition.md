@@ -110,7 +110,7 @@ Le condor de Californie, sauvé in extremis avec 27 oiseaux en 1987, en compte a
 
 Le point commun de ces réussites : décennies d'efforts coordonnés, ressources massives, volonté politique soutenue. Aucun n'a été facile. Tous prouvent que c'est faisable.
 
-Pour creuser la nature, voir [animaux étranges et méconnus](/blog/animaux-etranges-meconnus/) et [animaux les plus dangereux du monde](/blog/animaux-plus-dangereux-monde/). SAPIRO permet de tester ses connaissances sur 600 espèces, avec une explication didactique derrière chaque question.
+Pour creuser la nature, voir [animaux étranges et méconnus](/blog/animaux-etranges-meconnus/) et [animaux les plus dangereux du monde](/blog/animaux-plus-dangereux-monde/). Et pour les espèces qu'on n'a pas su sauver : les [animaux disparus récemment](/blog/animaux-disparus-recemment/). SAPIRO permet de tester ses connaissances sur 600 espèces, avec une explication didactique derrière chaque question.
 
 <figure>
   <img src="/images/blog/nature/rhinoceros.jpg" alt="Un rhinocéros noir, espèce menacée" loading="lazy" />

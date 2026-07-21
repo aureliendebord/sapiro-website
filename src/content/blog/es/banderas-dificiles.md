@@ -48,7 +48,7 @@ Afganistán ha cambiado de bandera un número incalculable de veces a lo largo d
 
 ## Los tríos de confusión: banderas que se confunden de tres en tres
 
-A veces no se confunden dos banderas. Se confunden tres. Estos tríos son verdaderos rompecabezas, incluso para quienes practican regularmente los [quiz de geografía](/es/blog/quiz-capitales-mundo/).
+A veces no se confunden dos banderas. Se confunden tres. Estos tríos son verdaderos rompecabezas, incluso para quienes practican regularmente los [quiz de geografía](/es/blog/quiz-capitales-mundo/). Para un repaso completo de los pares gemelos, ver las [banderas que se parecen](/es/blog/banderas-que-se-parecen/).
 
 Países Bajos, Luxemburgo y Paraguay: tres franjas horizontales roja, blanca y azul. Los Países Bajos y Luxemburgo son casi indistinguibles — Luxemburgo simplemente usa un azul más claro. Paraguay comparte los mismos colores pero se distingue por un emblema central. Y no uno cualquiera: un emblema diferente en cada cara, lo que la convierte en una de las pocas banderas nacionales asimétricas.
 
