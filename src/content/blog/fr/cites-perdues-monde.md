@@ -11,7 +11,7 @@ author: "SAPIRO"
 readingTime: 6
 ---
 
-Des villes entières ont été englouties, ensevelies ou abandonnées, puis redécouvertes des siècles plus tard. Une éruption, une conquête ou un simple déplacement des routes commerciales suffit à vider une capitale, que la jungle, le sable ou la cendre recouvrent ensuite. Voici 10 cités perdues que l'archéologie a retrouvées.
+Des villes entières ont été englouties, ensevelies ou abandonnées, puis redécouvertes des siècles plus tard. Une éruption, une conquête ou un déplacement des routes commerciales suffit à vider une capitale, que la jungle ou le sable finit par recouvrir. Les dix cités réunies ici ont toutes été retrouvées par l'archéologie.
 
 ## 1. Pompéi (Italie)
 
@@ -19,7 +19,7 @@ Ville romaine prospère au pied du Vésuve, Pompéi a été ensevelie par l'éru
 
 ## 2. Machu Picchu (Pérou)
 
-Citadelle inca construite au XVe siècle à 2 430 mètres d'altitude, dans les Andes. Elle a été abandonnée lors de la conquête espagnole, sans jamais être trouvée par les conquistadors. Hiram Bingham l'a révélée au monde en 1911.
+Le Machu Picchu est une citadelle inca construite au XVe siècle à 2 430 mètres d'altitude, dans les Andes. Elle a été abandonnée lors de la conquête espagnole, sans jamais être trouvée par les conquistadors. Hiram Bingham l'a révélée au monde en 1911.
 
 ## 3. Angkor (Cambodge)
 
@@ -35,7 +35,7 @@ Longtemps considérée comme une simple légende homérique, Troie a été ident
 
 ## 6. Mohenjo-daro (Pakistan)
 
-Grande ville de la civilisation de l'Indus vers 2500 av. J.-C., Mohenjo-daro disposait d'égouts, de bains publics et d'un urbanisme en damier. La ville a décliné vers 1900 av. J.-C., pour des raisons encore débattues. Les fouilles ont commencé dans les années 1920.
+Mohenjo-daro était une grande ville de la civilisation de l'Indus vers 2500 av. J.-C. Elle disposait d'égouts, de bains publics et d'un urbanisme en damier. La ville a décliné vers 1900 av. J.-C., pour des raisons encore débattues. Les fouilles ont commencé dans les années 1920.
 
 ## 7. Babylone (Irak)
 
@@ -47,11 +47,11 @@ L'une des plus puissantes cités mayas, Tikal a dominé la région entre le IIIe
 
 ## 9. Grand Zimbabwe (Zimbabwe)
 
-Cité en pierre sèche bâtie entre le XIe et le XVe siècle, capitale d'un royaume qui commerçait l'or jusqu'à l'océan Indien. Ses murs, montés sans mortier, atteignent 11 mètres de haut. Abandonnée au XVe siècle, elle a donné son nom au pays actuel.
+Le Grand Zimbabwe est une cité en pierre sèche bâtie entre le XIe et le XVe siècle, capitale d'un royaume qui commerçait l'or jusqu'à l'océan Indien. Ses murs, montés sans mortier, atteignent 11 mètres de haut. Abandonnée au XVe siècle, elle a donné son nom au pays actuel.
 
 ## 10. Skara Brae (Écosse)
 
-Village néolithique des Orcades, occupé vers 3100 av. J.-C., soit avant Stonehenge et les pyramides d'Égypte. Il a été enfoui sous le sable après son abandon. Une tempête l'a mis au jour en 1850.
+Skara Brae est un village néolithique des Orcades, occupé vers 3100 av. J.-C., soit avant Stonehenge et les pyramides d'Égypte. Il a été enfoui sous le sable après son abandon. Une tempête l'a mis au jour en 1850.
 
 ## Les cités perdues en un coup d'œil
 
@@ -68,7 +68,7 @@ Village néolithique des Orcades, occupé vers 3100 av. J.-C., soit avant Stoneh
 | Grand Zimbabwe | Zimbabwe | XVe siècle | XIXe siècle |
 | Skara Brae | Écosse | Vers 2500 av. J.-C. | 1850 |
 
-Pour aller plus loin, lisez les [monuments de l'Antiquité](/blog/monuments-antiquite/), les [sites UNESCO au patrimoine mondial](/blog/sites-unesco-patrimoine-mondial/) et les [merveilles du monde](/blog/merveilles-du-monde/).
+Plusieurs de ces cités comptent parmi les [monuments de l'Antiquité](/blog/monuments-antiquite/) et les [sites UNESCO au patrimoine mondial](/blog/sites-unesco-patrimoine-mondial/), aux côtés des [merveilles du monde](/blog/merveilles-du-monde/).
 
 ## Questions fréquentes
 

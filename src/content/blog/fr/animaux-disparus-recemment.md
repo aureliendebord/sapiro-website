@@ -11,15 +11,15 @@ author: "SAPIRO"
 readingTime: 6
 ---
 
-Du dodo (vers 1681) au rhinocéros noir de l'Ouest (2011), ces espèces ont disparu à l'époque moderne, presque toujours à cause des activités humaines : chasse, braconnage, déforestation et introduction d'espèces prédatrices. Voici 10 animaux disparus récemment, classés par ordre chronologique, avec la date et la cause principale de leur extinction.
+À l'époque moderne, de nombreuses espèces animales ont disparu, presque toujours du fait des activités humaines : chasse, braconnage, déforestation et introduction d'espèces prédatrices. Le cas le plus ancien de cette liste est le dodo, éteint vers 1681 ; le plus récent, le rhinocéros noir de l'Ouest, déclaré éteint en 2011. Les dix animaux qui suivent sont classés par ordre chronologique, avec la date et la cause principale de leur extinction.
 
 ## 1. Dodo (vers 1681)
 
-Gros oiseau incapable de voler, endémique de l'île Maurice. Il a été exterminé en moins d'un siècle après l'arrivée des marins et des animaux qu'ils avaient introduits, comme les rats et les cochons. C'est devenu le symbole même de l'extinction provoquée par l'homme.
+Gros oiseau incapable de voler, endémique de l'île Maurice. Il a été exterminé en moins d'un siècle après l'arrivée des marins et des animaux qu'ils avaient introduits, comme les rats et les cochons. Il est aujourd'hui l'exemple le plus connu d'extinction provoquée par l'homme.
 
 ## 2. Vache de mer de Steller (1768)
 
-Sirénien géant de 8 à 9 mètres de long, vivant dans les eaux froides du Pacifique Nord. Elle a été chassée jusqu'au dernier individu 27 ans seulement après sa description scientifique. Sa graisse et sa viande étaient recherchées par les chasseurs de phoques et de loutres.
+Ce sirénien géant de 8 à 9 mètres de long vivait dans les eaux froides du Pacifique Nord. Elle a été chassée jusqu'au dernier individu 27 ans seulement après sa description scientifique. Sa graisse et sa viande étaient recherchées par les chasseurs de phoques et de loutres.
 
 ## 3. Grand pingouin (1844)
 
@@ -27,11 +27,11 @@ Oiseau marin incapable de voler de l'Atlantique Nord, chassé pour sa viande, se
 
 ## 4. Quagga (1883)
 
-Sous-espèce de zèbre d'Afrique du Sud, rayée uniquement sur l'avant du corps, l'arrière étant uni comme celui d'un cheval. Le dernier individu est mort au zoo d'Amsterdam en 1883. L'espèce avait été décimée par la chasse pour sa peau et pour protéger les pâturages du bétail.
+Le quagga était une sous-espèce de zèbre d'Afrique du Sud, rayée uniquement sur l'avant du corps, l'arrière uni comme celui d'un cheval. Le dernier individu est mort au zoo d'Amsterdam en 1883. L'espèce avait été décimée par la chasse pour sa peau et pour protéger les pâturages du bétail.
 
 ## 5. Pigeon migrateur (1914)
 
-Cet oiseau nord-américain est passé de plusieurs milliards d'individus à zéro en un siècle de chasse industrielle. Martha, la dernière représentante de l'espèce, est morte au zoo de Cincinnati en 1914. C'est l'un des exemples les plus rapides d'extinction d'une espèce autrefois surabondante.
+Cet oiseau nord-américain est passé de plusieurs milliards d'individus à zéro en un siècle de chasse industrielle. Martha, la dernière représentante de l'espèce, est morte au zoo de Cincinnati en 1914. Peu d'espèces aussi abondantes ont disparu aussi rapidement.
 
 ## 6. Perruche de Caroline (1918)
 
@@ -39,7 +39,7 @@ Le seul perroquet endémique de l'est des États-Unis. Il a disparu sous l'effet
 
 ## 7. Thylacine ou tigre de Tasmanie (1936)
 
-Marsupial carnivore d'Australie et de Tasmanie, reconnaissable aux rayures sombres de son dos. Benjamin, le dernier individu connu, est mort au zoo de Hobart en 1936, deux mois après que l'espèce a été officiellement protégée. Il avait été exterminé par les éleveurs qui le tenaient pour une menace pour leurs troupeaux.
+Le thylacine était un marsupial carnivore d'Australie et de Tasmanie, reconnaissable aux rayures sombres de son dos. Benjamin, le dernier individu connu, est mort au zoo de Hobart en 1936, deux mois après que l'espèce a été officiellement protégée. Il avait été exterminé par les éleveurs qui le tenaient pour une menace pour leurs troupeaux.
 
 ## 8. Bouquetin des Pyrénées (2000)
 
@@ -47,7 +47,7 @@ Sous-espèce espagnole de bouquetin, dont le dernier individu est mort en 2000. 
 
 ## 9. Dauphin de Chine ou baiji (2007)
 
-Dauphin d'eau douce du fleuve Yangzi Jiang, en Chine. Il a été déclaré fonctionnellement éteint en 2007 après une expédition qui n'a pu retrouver aucun individu. C'est la première disparition d'une espèce de cétacé attribuée aux activités humaines : trafic fluvial, barrages, pêche et pollution.
+Le baiji était un dauphin d'eau douce du fleuve Yangzi Jiang, en Chine. Il a été déclaré fonctionnellement éteint en 2007 après une expédition qui n'a pu retrouver aucun individu. C'est la première disparition d'une espèce de cétacé attribuée aux activités humaines : trafic fluvial, barrages, pêche et pollution.
 
 ## 10. Rhinocéros noir de l'Ouest (2011)
 
@@ -68,7 +68,7 @@ Sous-espèce de rhinocéros noir d'Afrique de l'Ouest, déclarée éteinte par l
 | Dauphin de Chine (baiji) | 2007 | Trafic fluvial et pêche |
 | Rhinocéros noir de l'Ouest | 2011 | Braconnage |
 
-Pour aller plus loin, lisez notre liste des [animaux en voie de disparition](/blog/animaux-en-voie-disparition/) et notre sélection d'[animaux étranges et méconnus](/blog/animaux-etranges-meconnus/).
+Beaucoup d'autres espèces figurent aujourd'hui parmi les [animaux en voie de disparition](/blog/animaux-en-voie-disparition/), tandis que certaines espèces encore vivantes restent mal connues, comme ces [animaux étranges et méconnus](/blog/animaux-etranges-meconnus/).
 
 ## Questions fréquentes
 

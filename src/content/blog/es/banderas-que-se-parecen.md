@@ -11,15 +11,15 @@ author: "SAPIRO"
 readingTime: 6
 ---
 
-Varios pares de banderas nacionales son casi imposibles de distinguir, empezando por las de Chad y Rumanía, prácticamente idénticas. Colores compartidos, historia común o pura coincidencia: las razones varían, pero siempre hay un detalle que delata a cada bandera. Aquí van 10 casos de banderas que se parecen, y cómo diferenciarlas.
+Varios pares de banderas nacionales son casi imposibles de distinguir, con Chad y Rumanía a la cabeza: sus tricolores solo se diferencian por un tono de azul. A veces la causa es una historia común, a veces pura coincidencia. En cualquier caso, basta un detalle para saber cuál es cuál. Aquí van diez.
 
 ## 1. Chad y Rumanía
 
-Ambas banderas muestran la misma tricolor vertical azul-amarillo-rojo, hasta el punto de ser casi idénticas. La única diferencia: el azul de Chad es ligeramente más oscuro que el rumano. Chad incluso llevó el asunto a la ONU en 2004 para impugnar la similitud, sin resultado.
+Una tricolor vertical azul-amarillo-rojo idéntica en ambos lados, o casi. La única diferencia: el azul de Chad es ligeramente más oscuro que el rumano. Chad incluso llevó el asunto a la ONU en 2004 para impugnar la similitud, sin resultado.
 
 ## 2. Indonesia y Mónaco
 
-Las dos banderas son rojas sobre blanco, en dos franjas horizontales. Solo cambian las proporciones: la de Mónaco es más cuadrada (4:5) que la de Indonesia (2:3). Polonia usa los mismos colores invertidos, blanco sobre rojo.
+Rojo sobre blanco, en dos franjas horizontales, en las dos. Solo cambian las proporciones: la de Mónaco es más cuadrada (4:5) que la de Indonesia (2:3). Polonia usa los mismos colores invertidos, blanco sobre rojo.
 
 ## 3. Países Bajos y Luxemburgo
 
@@ -27,7 +27,7 @@ La misma tricolor horizontal rojo-blanco-azul para ambos países. El azul luxemb
 
 ## 4. Irlanda y Costa de Marfil
 
-Las dos tricolores usan los mismos colores, pero en espejo: el verde va junto al asta en Irlanda, el naranja en Costa de Marfil. Las proporciones también difieren, siendo la bandera irlandesa más alargada.
+Los mismos colores, pero en espejo: el verde va junto al asta en Irlanda, el naranja en Costa de Marfil. Las proporciones también difieren: la bandera irlandesa es más alargada.
 
 ## 5. Malí y Senegal
 
@@ -35,11 +35,11 @@ Dos tricolores verticales verde-amarillo-rojo, con los colores panafricanos. Sen
 
 ## 6. Noruega e Islandia
 
-Dos cruces escandinavas con los colores exactamente invertidos. Noruega tiene fondo rojo con cruz azul bordeada de blanco; Islandia, fondo azul con cruz roja bordeada de blanco.
+Los colores están exactamente invertidos entre las dos cruces escandinavas. Noruega tiene fondo rojo con cruz azul bordeada de blanco; Islandia, fondo azul con cruz roja bordeada de blanco.
 
 ## 7. Australia y Nueva Zelanda
 
-Ambas banderas combinan la Union Jack en el cantón con la Cruz del Sur sobre fondo azul. Nueva Zelanda tiene 4 estrellas rojas bordeadas de blanco; Australia tiene 6 estrellas blancas, incluida la gran estrella de la Federación bajo la Union Jack.
+Union Jack en el cantón, Cruz del Sur sobre fondo azul: ambas banderas comparten la misma base. Nueva Zelanda tiene 4 estrellas rojas bordeadas de blanco; Australia tiene 6 estrellas blancas, incluida la gran estrella de la Federación bajo la Union Jack.
 
 ## 8. Venezuela, Colombia y Ecuador
 
@@ -68,7 +68,7 @@ Tres banderas con franjas rojas y blancas y un cantón en la esquina superior. L
 | Eslovenia / Eslovaquia / Rusia | Tricolor blanco-azul-rojo | Escudos, ausentes en la rusa |
 | Estados Unidos / Liberia / Malasia | Franjas rojas y blancas | 1 estrella (Liberia), luna creciente (Malasia) |
 
-Para ir más lejos, ponte a prueba con las [banderas más difíciles](/es/blog/banderas-dificiles/), descubre el [significado de las banderas](/es/blog/significado-banderas/), explora las [banderas de países desaparecidos](/es/blog/banderas-paises-desaparecidos/) o lanza un [quiz de banderas del mundo](/es/blog/quiz-banderas-mundo-gratis-online/).
+Estos parecidos suelen deberse a una historia común, algo que detalla el [significado de las banderas](/es/blog/significado-banderas/), como también lo recuerdan las [banderas de países desaparecidos](/es/blog/banderas-paises-desaparecidos/). Para practicar y distinguirlas, quedan las [banderas más difíciles](/es/blog/banderas-dificiles/) de reconocer y el [quiz de banderas del mundo](/es/blog/quiz-banderas-mundo-gratis-online/).
 
 ## Preguntas frecuentes
 

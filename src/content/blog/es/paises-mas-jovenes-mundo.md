@@ -11,7 +11,7 @@ author: "SAPIRO"
 readingTime: 5
 ---
 
-El país más joven del mundo es Sudán del Sur, independiente desde el 9 de julio de 2011. El mapa del mundo no es fijo: desde 1990, decenas de nuevos Estados han nacido de referéndums, guerras o separaciones amistosas. Estos son los 10 países más recientes, del más joven al más antiguo.
+El país más joven del mundo es Sudán del Sur, independiente desde el 9 de julio de 2011. El mapa político siguió cambiando mucho después del final de la Guerra Fría. Desde 1990 han aparecido decenas de Estados, casi siempre mediante un referéndum o tras la ruptura de una federación. El ranking que sigue empieza por el más reciente.
 
 ## 1. Sudán del Sur (2011)
 
@@ -31,7 +31,7 @@ Técnicamente un nuevo Estado: Serbia se convirtió en país independiente con l
 
 ## 5. Timor Oriental (2002)
 
-Independiente tras una administración transitoria de la ONU, después de la ocupación indonesia de esta antigua colonia portuguesa. Es uno de los países más jóvenes de Asia.
+Antigua colonia portuguesa, el territorio pasó por la ocupación indonesia y después por una administración transitoria de la ONU que condujo a la independencia. Es uno de los países más jóvenes de Asia.
 
 ## 6. Palaos (1994)
 
@@ -39,7 +39,7 @@ Este archipiélago del Pacífico de unos 18 000 habitantes se independizó al te
 
 ## 7. Eritrea (1993)
 
-Se separó de Etiopía tras tres décadas de guerra de independencia. El referéndum de 1993 fue aprobado de forma casi unánime.
+Tras tres décadas de guerra de independencia, Eritrea se separó de Etiopía. El referéndum de 1993 fue aprobado de forma casi unánime.
 
 ## 8. Chequia (1993)
 
@@ -51,7 +51,7 @@ La otra mitad del divorcio de terciopelo, independiente el mismo día que Chequi
 
 ## 10. Bosnia y Herzegovina (1992)
 
-Independiente durante la desintegración de Yugoslavia, tras un referéndum en 1992. Su independencia fue seguida de una guerra que duró hasta los acuerdos de Dayton en 1995.
+El país se independizó durante la desintegración de Yugoslavia, tras un referéndum en 1992. Le siguió una guerra que duró hasta los acuerdos de Dayton en 1995.
 
 ## Los países más jóvenes de un vistazo
 
@@ -68,7 +68,7 @@ Independiente durante la desintegración de Yugoslavia, tras un referéndum en 1
 | 9 | Eslovaquia | 1993 | Partición |
 | 10 | Bosnia y Herzegovina | 1992 | Desintegración |
 
-Para ir más lejos, lee sobre los [países que ya no existen](/es/blog/paises-desaparecidos/), los [países más pequeños del mundo](/es/blog/paises-mas-pequenos-mundo/) y los [países que cambiaron de nombre](/es/blog/paises-que-cambiaron-de-nombre/).
+Varios de estos Estados surgieron de la desaparición de otros, recogidos entre los [países que ya no existen](/es/blog/paises-desaparecidos/). Otras dos listas prolongan el tema: los [países más pequeños del mundo](/es/blog/paises-mas-pequenos-mundo/) y los [países que cambiaron de nombre](/es/blog/paises-que-cambiaron-de-nombre/).
 
 ## Preguntas frecuentes
 

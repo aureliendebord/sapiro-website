@@ -11,7 +11,7 @@ author: "SAPIRO"
 readingTime: 5
 ---
 
-The newest country in the world is South Sudan, independent since July 9, 2011. The world map is not fixed: since 1990, dozens of new states have been born from referendums, wars, or amicable separations. Here are the 10 most recent countries, from youngest to oldest.
+The newest country in the world is South Sudan, independent since July 9, 2011. The political map kept shifting long after the Cold War ended. Since 1990, dozens of states have appeared, usually through a referendum or the breakup of a federation. The ranking below starts with the most recent.
 
 ## 1. South Sudan (2011)
 
@@ -31,7 +31,7 @@ Technically a new state: Serbia became an independent country upon the dissoluti
 
 ## 5. East Timor (2002)
 
-Independent after a transitional UN administration, following the Indonesian occupation of this former Portuguese colony. It is one of the youngest countries in Asia.
+A former Portuguese colony, the territory went through Indonesian occupation and then a transitional UN administration that led to independence. It is one of the youngest countries in Asia.
 
 ## 6. Palau (1994)
 
@@ -39,7 +39,7 @@ This Pacific archipelago of about 18,000 inhabitants became independent at the e
 
 ## 7. Eritrea (1993)
 
-Seceded from Ethiopia after three decades of war for independence. The 1993 referendum was approved almost unanimously.
+After three decades of war for independence, Eritrea seceded from Ethiopia. The 1993 referendum was approved almost unanimously.
 
 ## 8. Czechia (1993)
 
@@ -51,7 +51,7 @@ The other half of the Velvet Divorce, independent on the same day as Czechia. It
 
 ## 10. Bosnia and Herzegovina (1992)
 
-Independent during the breakup of Yugoslavia, after a referendum in 1992. Its independence was followed by a war that lasted until the Dayton Agreement in 1995.
+The country became independent during the breakup of Yugoslavia, after a referendum in 1992. A war followed and lasted until the Dayton Agreement in 1995.
 
 ## The newest countries at a glance
 
@@ -68,7 +68,7 @@ Independent during the breakup of Yugoslavia, after a referendum in 1992. Its in
 | 9 | Slovakia | 1993 | Partition |
 | 10 | Bosnia and Herzegovina | 1992 | Breakup |
 
-To go further, read about [countries that no longer exist](/en/blog/countries-that-disappeared/), the [smallest countries in the world](/en/blog/smallest-countries-world/) and [countries that changed their names](/en/blog/countries-that-changed-names/).
+Several of these states emerged from the disappearance of others, listed among the [countries that no longer exist](/en/blog/countries-that-disappeared/). Two related rankings continue the topic: the [smallest countries in the world](/en/blog/smallest-countries-world/) and the [countries that changed their names](/en/blog/countries-that-changed-names/).
 
 ## Frequently asked questions
 

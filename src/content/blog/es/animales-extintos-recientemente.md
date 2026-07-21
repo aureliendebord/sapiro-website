@@ -11,15 +11,15 @@ author: "SAPIRO"
 readingTime: 6
 ---
 
-Del dodo (hacia 1681) al rinoceronte negro occidental (2011), estas especies se extinguieron en la época moderna, casi siempre a causa de las actividades humanas: caza, furtivismo, deforestación e introducción de especies depredadoras. Estos son 10 animales extinguidos recientemente, ordenados cronológicamente, con la fecha y la causa principal de su extinción.
+En la época moderna, numerosas especies animales han desaparecido, casi siempre a causa de las actividades humanas: caza, furtivismo, deforestación e introducción de especies depredadoras. El caso más antiguo de esta lista es el dodo, extinto hacia 1681; el más reciente, el rinoceronte negro occidental, declarado extinto en 2011. Los diez animales que siguen están ordenados cronológicamente, con la fecha y la causa principal de su extinción.
 
 ## 1. Dodo (hacia 1681)
 
-Ave grande incapaz de volar, endémica de la isla Mauricio. Fue exterminada en menos de un siglo tras la llegada de los marinos y de los animales que introdujeron, como ratas y cerdos. Se ha convertido en el símbolo mismo de la extinción provocada por el hombre.
+Ave grande incapaz de volar, endémica de la isla Mauricio. Fue exterminada en menos de un siglo tras la llegada de los marinos y de los animales que introdujeron, como ratas y cerdos. Hoy es el ejemplo más conocido de extinción provocada por el hombre.
 
 ## 2. Vaca marina de Steller (1768)
 
-Sirenio gigante de 8 a 9 metros de largo, que vivía en las aguas frías del Pacífico Norte. Fue cazada hasta el último individuo apenas 27 años después de su descripción científica. Su grasa y su carne eran muy buscadas por los cazadores de focas y nutrias.
+Este sirenio gigante de 8 a 9 metros de largo vivía en las aguas frías del Pacífico Norte. Fue cazada hasta el último individuo apenas 27 años después de su descripción científica. Su grasa y su carne eran muy buscadas por los cazadores de focas y nutrias.
 
 ## 3. Alca gigante (1844)
 
@@ -27,11 +27,11 @@ Ave marina incapaz de volar del Atlántico Norte, cazada por su carne, sus huevo
 
 ## 4. Cuaga (1883)
 
-Subespecie de cebra de Sudáfrica, rayada únicamente en la parte delantera del cuerpo, con la trasera lisa como la de un caballo. El último individuo murió en el zoo de Ámsterdam en 1883. La especie había sido diezmada por la caza por su piel y para proteger los pastos del ganado.
+La cuaga era una subespecie de cebra de Sudáfrica, rayada únicamente en la parte delantera del cuerpo, con la trasera lisa como la de un caballo. El último individuo murió en el zoo de Ámsterdam en 1883. La especie había sido diezmada por la caza por su piel y para proteger los pastos del ganado.
 
 ## 5. Paloma migratoria (1914)
 
-Esta ave norteamericana pasó de varios miles de millones de individuos a cero en un siglo de caza industrial. Martha, la última de su especie, murió en el zoo de Cincinnati en 1914. Es uno de los ejemplos más rápidos de extinción de una especie antes superabundante.
+Esta ave norteamericana pasó de varios miles de millones de individuos a cero en un siglo de caza industrial. Martha, la última de su especie, murió en el zoo de Cincinnati en 1914. Pocas especies tan abundantes se han extinguido tan deprisa.
 
 ## 6. Cotorra de Carolina (1918)
 
@@ -39,7 +39,7 @@ El único loro endémico del este de Estados Unidos. Desapareció por efecto de 
 
 ## 7. Tilacino o tigre de Tasmania (1936)
 
-Marsupial carnívoro de Australia y Tasmania, reconocible por las rayas oscuras de su lomo. Benjamin, el último individuo conocido, murió en el zoo de Hobart en 1936, dos meses después de que la especie fuera protegida oficialmente. Había sido exterminado por los ganaderos que lo consideraban una amenaza para sus rebaños.
+El tilacino era un marsupial carnívoro de Australia y Tasmania, reconocible por las rayas oscuras de su lomo. Benjamin, el último individuo conocido, murió en el zoo de Hobart en 1936, dos meses después de que la especie fuera protegida oficialmente. Había sido exterminado por los ganaderos que lo consideraban una amenaza para sus rebaños.
 
 ## 8. Bucardo o cabra montés de los Pirineos (2000)
 
@@ -47,7 +47,7 @@ Subespecie española de cabra montés cuyo último individuo murió en 2000. En 
 
 ## 9. Delfín de China o baiji (2007)
 
-Delfín de agua dulce del río Yangtsé, en China. Fue declarado funcionalmente extinto en 2007 tras una expedición que no logró encontrar ningún individuo. Es la primera extinción de una especie de cetáceo atribuida a las actividades humanas: tráfico fluvial, presas, pesca y contaminación.
+El baiji era un delfín de agua dulce del río Yangtsé, en China. Fue declarado funcionalmente extinto en 2007 tras una expedición que no logró encontrar ningún individuo. Es la primera extinción de una especie de cetáceo atribuida a las actividades humanas: tráfico fluvial, presas, pesca y contaminación.
 
 ## 10. Rinoceronte negro occidental (2011)
 
@@ -68,7 +68,7 @@ Subespecie de rinoceronte negro de África Occidental, declarada extinta por la 
 | Delfín de China (baiji) | 2007 | Tráfico fluvial y pesca |
 | Rinoceronte negro occidental | 2011 | Furtivismo |
 
-Para saber más, lee nuestra lista de [animales en peligro de extinción](/es/blog/animales-en-peligro-extincion/) y nuestra selección de [animales extraños y desconocidos](/es/blog/animales-extranos-desconocidos/).
+Muchas otras especies figuran hoy entre los [animales en peligro de extinción](/es/blog/animales-en-peligro-extincion/), mientras que algunos animales aún vivos siguen siendo poco conocidos, como estos [animales extraños y desconocidos](/es/blog/animales-extranos-desconocidos/).
 
 ## Preguntas frecuentes
 

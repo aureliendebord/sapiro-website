@@ -11,7 +11,7 @@ author: "SAPIRO"
 readingTime: 6
 ---
 
-Entire cities have been buried, swallowed or abandoned, then rediscovered centuries later. An eruption, a conquest or a shift in trade routes is enough to empty a capital, which jungle, sand or ash then covers over. Here are 10 lost cities that archaeology found again.
+Entire cities have been buried, swallowed or abandoned, then rediscovered centuries later. An eruption, a conquest or a shift in trade routes is enough to empty a capital, which jungle or sand then covers over. The ten cities gathered here were all found again by archaeology.
 
 ## 1. Pompeii (Italy)
 
@@ -19,11 +19,11 @@ A prosperous Roman city at the foot of Mount Vesuvius, Pompeii was buried by the
 
 ## 2. Machu Picchu (Peru)
 
-An Inca citadel built in the 15th century at 2,430 metres in the Andes. It was abandoned during the Spanish conquest and the conquistadors never found it. Hiram Bingham revealed it to the world in 1911.
+Machu Picchu is an Inca citadel built in the 15th century at 2,430 metres in the Andes. It was abandoned during the Spanish conquest and the conquistadors never found it. Hiram Bingham revealed it to the world in 1911.
 
 ## 3. Angkor (Cambodia)
 
-Capital of the Khmer Empire, Angkor had around one million inhabitants at its peak around 1200, making it one of the largest cities in the world. The site declined from the 15th century onwards and the forest covered much of its temples. Angkor Wat, which remained a place of worship, is the largest religious monument in the world.
+Capital of the Khmer Empire, Angkor had around one million inhabitants at its peak around 1200, which made it one of the largest cities in the world. The site declined from the 15th century onwards and the forest covered much of its temples. Angkor Wat, which remained a place of worship, is the largest religious monument in the world.
 
 ## 4. Petra (Jordan)
 
@@ -35,7 +35,7 @@ Long considered a mere Homeric legend, Troy was identified on the hill of Hisarl
 
 ## 6. Mohenjo-daro (Pakistan)
 
-A major city of the Indus Valley civilisation around 2500 BC, Mohenjo-daro had sewers, public baths and a grid street plan. The city declined around 1900 BC, for reasons still debated. Excavations began in the 1920s.
+Mohenjo-daro was a major city of the Indus Valley civilisation around 2500 BC. It had sewers, public baths and a grid street plan. The city declined around 1900 BC, for reasons still debated. Excavations began in the 1920s.
 
 ## 7. Babylon (Iraq)
 
@@ -47,11 +47,11 @@ One of the most powerful Maya cities, Tikal dominated the region between the 3rd
 
 ## 9. Great Zimbabwe (Zimbabwe)
 
-A dry-stone city built between the 11th and 15th centuries, capital of a kingdom that traded gold as far as the Indian Ocean. Its walls, built without mortar, reach 11 metres high. Abandoned in the 15th century, it gave its name to the present-day country.
+Great Zimbabwe is a dry-stone city built between the 11th and 15th centuries, capital of a kingdom that traded gold as far as the Indian Ocean. Its walls, built without mortar, reach 11 metres high. Abandoned in the 15th century, it gave its name to the present-day country.
 
 ## 10. Skara Brae (Scotland)
 
-A Neolithic village in the Orkney Islands, occupied around 3100 BC, older than Stonehenge and the Egyptian pyramids. It was buried under sand after its abandonment. A storm uncovered it in 1850.
+Skara Brae is a Neolithic village in the Orkney Islands, occupied around 3100 BC, older than Stonehenge and the Egyptian pyramids. It was buried under sand after its abandonment. A storm uncovered it in 1850.
 
 ## Lost cities at a glance
 
@@ -68,7 +68,7 @@ A Neolithic village in the Orkney Islands, occupied around 3100 BC, older than S
 | Great Zimbabwe | Zimbabwe | 15th century | 19th century |
 | Skara Brae | Scotland | Around 2500 BC | 1850 |
 
-To go further, read about [ancient monuments](/en/blog/ancient-monuments/), [UNESCO World Heritage sites](/en/blog/unesco-world-heritage-sites/) and the [seven wonders of the world](/en/blog/seven-wonders-of-the-world/).
+Several of these cities also count among the [ancient monuments](/en/blog/ancient-monuments/) and the [UNESCO World Heritage sites](/en/blog/unesco-world-heritage-sites/), alongside the [seven wonders of the world](/en/blog/seven-wonders-of-the-world/).
 
 ## Frequently asked questions
 

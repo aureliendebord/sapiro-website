@@ -11,15 +11,15 @@ author: "SAPIRO"
 readingTime: 6
 ---
 
-44 países, incluidos 2 doblemente aislados, no tienen acceso directo al océano. Estos Estados sin litoral dependen de sus vecinos para llegar a los puertos y al comercio marítimo. Algunos perdieron su costa en una guerra, otros nunca la tuvieron. Estos son los 10 casos más llamativos.
+44 países, incluidos 2 doblemente aislados, no tienen acceso directo al océano. Son los llamados países sin litoral. Sin una costa propia, cada uno depende de sus vecinos para llegar a un puerto y sacar sus mercancías. Algunos perdieron su costa en una guerra; muchos nunca la tuvieron. Estos son diez que se salen de lo común.
 
 ## 1. Kazajistán (el país sin litoral más grande)
 
-Con unos 2,7 millones de km², Kazajistán es el país sin litoral más grande del mundo. Bordea el mar Caspio — pero es un mar cerrado, sin ningún acceso al océano.
+Con unos 2,7 millones de km², Kazajistán es el país sin litoral más grande del mundo. Bordea el mar Caspio, un mar cerrado que no da a ningún océano.
 
 ## 2. Etiopía (el país sin litoral más poblado)
 
-Unos 130 millones de habitantes, lo que lo convierte en el país sin litoral más poblado del mundo. Etiopía perdió su costa con la independencia de Eritrea en 1993. Desde entonces depende del puerto de Yibuti para la mayor parte de su comercio.
+Con cerca de 130 millones de habitantes, Etiopía es el país sin litoral más poblado del mundo. Perdió su costa en 1993, cuando Eritrea se independizó. Desde entonces, la mayor parte de su comercio pasa por el puerto de Yibuti.
 
 ## 3. Bolivia (una marina sin mar)
 
@@ -39,15 +39,15 @@ El segundo país sin litoral más grande del mundo. Mongolia está encajada entr
 
 ## 7. Suiza (una flota mercante sin costa)
 
-Sin litoral, Suiza es sin embargo una gran nación marítima mercante. Llega al mar del Norte por el Rin, desde el puerto de Basilea.
+Suiza no tiene costa y, aun así, figura entre las grandes naciones de la marina mercante. Llega al mar del Norte por el Rin, desde el puerto de Basilea.
 
 ## 8. Nepal (el techo del mundo)
 
-Encajado entre la India y China. Nepal alberga ocho de las diez cumbres más altas del mundo, incluido el Everest.
+Atrapado entre la India y China, Nepal alberga ocho de las diez cumbres más altas del mundo, incluido el Everest.
 
 ## 9. Paraguay (el acceso por los ríos)
 
-Sin litoral, pero con una inmensa fachada fluvial que lo conecta con el Atlántico. La represa de Itaipú, compartida con Brasil, es una de las más potentes del mundo.
+Paraguay no tiene litoral, pero una inmensa fachada fluvial lo conecta con el Atlántico. La represa de Itaipú, compartida con Brasil, es una de las más potentes del mundo.
 
 ## 10. Vaticano (el país sin litoral más pequeño)
 
@@ -68,7 +68,7 @@ El país sin litoral más pequeño del mundo, con 0,44 km². Está enclavado en 
 | Paraguay | América del Sur | Fachada fluvial, represa de Itaipú |
 | Vaticano | Europa | El más pequeño (0,44 km²), enclavado en Roma |
 
-Para seguir explorando, ver los [países más pequeños del mundo](/es/blog/paises-mas-pequenos-mundo/), los [microestados europeos](/es/blog/microestados-europeos/) y las [fronteras más extrañas](/es/blog/fronteras-extranas-mundo/).
+Varios de estos Estados reaparecen en otras clasificaciones. El Vaticano y Liechtenstein están entre los [países más pequeños del mundo](/es/blog/paises-mas-pequenos-mundo/), Liechtenstein figura además entre los [microestados europeos](/es/blog/microestados-europeos/), y el enredo de sus límites terrestres da lugar a algunas de las [fronteras más extrañas del planeta](/es/blog/fronteras-extranas-mundo/).
 
 ## Preguntas frecuentes
 

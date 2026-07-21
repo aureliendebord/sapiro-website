@@ -11,7 +11,7 @@ author: "SAPIRO"
 readingTime: 6
 ---
 
-Entre los países que cambiaron de nombre están Esuatini (antes Suazilandia), Türkiye, Chequia, Macedonia del Norte y Myanmar (antes Birmania). Un Estado suele renombrarse para romper con un pasado colonial, afirmar una identidad o cerrar una disputa diplomática. Estos son 10 cambios de nombre, con el año y la razón de cada uno.
+Entre los países que cambiaron de nombre están Esuatini (antes Suazilandia), Türkiye, Chequia, Macedonia del Norte y Myanmar (antes Birmania). La mayoría de estas decisiones responden a una ruptura con el pasado colonial o al fin de una disputa diplomática, y a veces a la simple elección de un nombre ya usado en la lengua del país. Los diez casos siguientes indican, para cada uno, el nombre anterior, el año y la razón.
 
 ## 1. Esuatini (Suazilandia hasta 2018)
 
@@ -35,7 +35,7 @@ La junta militar renombró Birmania como «Myanmar» en 1989, y Rangún pasó a 
 
 ## 6. RD del Congo (Zaire de 1971 a 1997)
 
-Mobutu Sese Seko renombró el país como «Zaire» en 1971, dentro de su política de autenticidad. Con su caída en 1997, Laurent-Désiré Kabila restableció el nombre de República Democrática del Congo. El río Zaire también volvió a llamarse río Congo.
+En 1971, dentro de su política de autenticidad, Mobutu Sese Seko dio al país el nombre de «Zaire». Con su caída en 1997, Laurent-Désiré Kabila restableció el nombre de República Democrática del Congo. El río Zaire también volvió a llamarse río Congo.
 
 ## 7. Burkina Faso (Alto Volta hasta 1984)
 
@@ -68,7 +68,7 @@ En 1935, Reza Sah pidió oficialmente a los Estados extranjeros usar «Irán» e
 | Tailandia | Siam | 1939 |
 | Irán | Persia | 1935 |
 
-Para seguir leyendo, consulta los [países que ya no existen](/es/blog/paises-desaparecidos/), el [origen de los nombres de países](/es/blog/origen-nombres-paises/) y los [países más jóvenes del mundo](/es/blog/paises-mas-jovenes-mundo/).
+Algunos países hicieron algo más que cambiar de nombre: [desaparecieron del mapa](/es/blog/paises-desaparecidos/). También puedes remontarte al [origen de los nombres de países](/es/blog/origen-nombres-paises/), o mirar hacia los [países más jóvenes del mundo](/es/blog/paises-mas-jovenes-mundo/).
 
 ## Preguntas frecuentes
 

@@ -11,7 +11,7 @@ author: "SAPIRO"
 readingTime: 6
 ---
 
-Parmi les pays qui ont changé de nom figurent l'Eswatini (ex-Swaziland), la Türkiye, la Tchéquie, la Macédoine du Nord et le Myanmar (ex-Birmanie). Un État se renomme en général pour rompre avec un passé colonial, affirmer une identité ou clore un différend diplomatique. Voici 10 changements de nom, avec l'année et la raison de chacun.
+Parmi les pays qui ont changé de nom figurent l'Eswatini (ex-Swaziland), la Türkiye, la Tchéquie, la Macédoine du Nord et le Myanmar (ex-Birmanie). Ces décisions tiennent le plus souvent à une rupture avec le passé colonial ou au règlement d'un litige diplomatique, parfois au simple choix d'un nom déjà employé dans la langue du pays. Les dix cas ci-dessous précisent, pour chacun, l'ancien nom, l'année et la raison.
 
 ## 1. Eswatini (Swaziland jusqu'en 2018)
 
@@ -35,7 +35,7 @@ La junte militaire a renommé la Birmanie « Myanmar » en 1989, et Rangoun est 
 
 ## 6. RD Congo (Zaïre de 1971 à 1997)
 
-Mobutu Sese Seko a renommé le pays « Zaïre » en 1971, dans le cadre de sa politique d'authenticité. À sa chute en 1997, Laurent-Désiré Kabila a rétabli le nom de République démocratique du Congo. Le fleuve Zaïre est lui aussi redevenu le fleuve Congo.
+En 1971, dans le cadre de sa politique d'authenticité, Mobutu Sese Seko a donné au pays le nom de « Zaïre ». À sa chute en 1997, Laurent-Désiré Kabila a rétabli le nom de République démocratique du Congo. Le fleuve Zaïre est lui aussi redevenu le fleuve Congo.
 
 ## 7. Burkina Faso (Haute-Volta jusqu'en 1984)
 
@@ -68,7 +68,7 @@ En 1935, Reza Chah a demandé officiellement aux États étrangers d'employer «
 | Thaïlande | Siam | 1939 |
 | Iran | Perse | 1935 |
 
-Pour aller plus loin, lisez les [pays qui n'existent plus](/blog/pays-disparus/), l'[origine des noms de pays](/blog/origine-noms-pays/) et les [plus jeunes pays du monde](/blog/plus-jeunes-pays-monde/).
+Certains pays ne se sont pas contentés de changer de nom : ils ont [disparu de la carte](/blog/pays-disparus/). On peut aussi remonter à l'[origine des noms de pays](/blog/origine-noms-pays/), ou regarder du côté des [plus jeunes pays du monde](/blog/plus-jeunes-pays-monde/).
 
 ## Questions fréquentes
 

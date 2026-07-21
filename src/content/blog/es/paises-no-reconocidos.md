@@ -11,7 +11,7 @@ author: "SAPIRO"
 readingTime: 6
 ---
 
-Una decena de territorios funcionan hoy como Estados — con gobierno, moneda y a veces ejército — sin asiento en la ONU. Algunos son reconocidos por un centenar de países, otros por uno solo, otros por ninguno. Estos son 10 países no reconocidos, o parcialmente reconocidos, y el estatus de cada uno.
+Una decena de territorios funcionan hoy como Estados (gobierno, moneda y a veces ejército) sin asiento en la ONU. Su reconocimiento internacional es muy desigual: un centenar de países para unos, uno solo o ninguno para otros. Los diez casos siguientes precisan, para cada uno, en qué punto está ese estatus.
 
 ## 1. Taiwán (reconocido por una docena de Estados)
 
@@ -68,7 +68,7 @@ La república autoproclamada de Artsaj, poblada mayoritariamente por armenios, s
 | Osetia del Sur | 2008 | unos 5 países |
 | Alto Karabaj | 1991-2024 | disuelto en 2024 |
 
-Para seguir, mira los [países que ya no existen](/es/blog/paises-desaparecidos/), los [microestados europeos](/es/blog/microestados-europeos/) y las [fronteras más extrañas](/es/blog/fronteras-extranas-mundo/).
+La desaparición de un Estado es un caso vecino, descrito en los [países que ya no existen](/es/blog/paises-desaparecidos/). Los [microestados europeos](/es/blog/microestados-europeos/), en cambio, están reconocidos pese a su tamaño minúsculo, y las [fronteras más extrañas](/es/blog/fronteras-extranas-mundo/) muestran otros trazados heredados de la historia.
 
 ## Preguntas frecuentes
 

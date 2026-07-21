@@ -11,7 +11,7 @@ author: "SAPIRO"
 readingTime: 6
 ---
 
-Le plus grand empire de l'histoire est l'Empire britannique, avec environ 35,5 millions de km² à son apogée vers 1920, soit près d'un quart des terres émergées. Les superficies des empires anciens sont des estimations, mais les ordres de grandeur font consensus chez les historiens. Voici le classement des 10 plus grands empires de l'histoire par superficie maximale.
+Le plus grand empire de l'histoire est l'Empire britannique, avec environ 35,5 millions de km² à son apogée vers 1920, soit près d'un quart des terres émergées. Viennent ensuite les Mongols, puis les Russes, avant que les écarts ne se resserrent. Les superficies des empires anciens restent des estimations, mais leurs ordres de grandeur font consensus chez les historiens. Le classement qui suit retient les dix premiers, par superficie maximale.
 
 ## 1. Empire britannique (~35,5 M km², vers 1920)
 
@@ -19,7 +19,7 @@ Le plus grand empire de l'histoire est l'Empire britannique, avec environ 35,5 m
 
 ## 2. Empire mongol (~24 M km², XIIIe siècle)
 
-Fondé par Gengis Khan, l'Empire mongol a atteint environ 24 millions de km² au XIIIe siècle. C'est le plus grand empire d'un seul tenant de l'histoire, s'étendant sans interruption de la Corée à la Hongrie.
+Fondé par Gengis Khan, l'Empire mongol a atteint environ 24 millions de km² au XIIIe siècle. C'est le plus grand empire d'un seul tenant de l'histoire : son territoire s'étendait sans interruption de la Corée à la Hongrie.
 
 ## 3. Empire russe (~22,8 M km², vers 1895)
 
@@ -27,7 +27,7 @@ L'Empire russe couvrait environ 22,8 millions de km² vers 1895, de la Pologne a
 
 ## 4. Dynastie Qing (~14,7 M km², XVIIIe siècle)
 
-La dernière dynastie impériale chinoise a atteint environ 14,7 millions de km² au XVIIIe siècle. Son territoire constitue la base territoriale de la Chine moderne.
+La dernière dynastie impériale chinoise a atteint environ 14,7 millions de km² au XVIIIe siècle. Ses frontières correspondent en grande partie à celles de la Chine moderne.
 
 ## 5. Empire espagnol (~13,7 M km², XVIIIe siècle)
 
@@ -43,7 +43,7 @@ Le califat abbasside couvrait environ 11,1 millions de km² entre le VIIIe et le
 
 ## 8. Califat omeyyade (~11,1 M km², VIIIe siècle)
 
-Le califat omeyyade a atteint environ 11,1 millions de km² au VIIIe siècle, de l'Espagne à l'Indus. Son expansion est l'une des plus rapides de l'histoire : moins d'un siècle après sa fondation.
+À peine un siècle après sa fondation, le califat omeyyade s'étendait déjà de l'Espagne à l'Indus, sur environ 11,1 millions de km² au VIIIe siècle. Peu d'empires ont grandi aussi vite.
 
 ## 9. Dynastie Yuan (~11 M km², XIIIe-XIVe siècle)
 
@@ -68,7 +68,7 @@ L'Empire portugais a atteint environ 10,4 millions de km² à son pic, Brésil i
 | 9 | Dynastie Yuan | ~11 | XIIIe-XIVe siècle |
 | 10 | Empire portugais | ~10,4 | XVIe-XVIIIe siècle |
 
-Pour aller plus loin, lisez les [pays qui n'existent plus](/blog/pays-disparus/), les [grandes batailles de l'histoire](/blog/grandes-batailles-histoire/) et la [frise chronologique mondiale](/blog/frise-chronologique-mondiale/).
+Plusieurs de ces empires ont laissé place à des [pays qui n'existent plus](/blog/pays-disparus/). Leur histoire s'est jouée en partie dans les [grandes batailles de l'histoire](/blog/grandes-batailles-histoire/), qu'on peut resituer sur la [frise chronologique mondiale](/blog/frise-chronologique-mondiale/).
 
 ## Questions fréquentes
 

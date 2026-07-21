@@ -11,7 +11,7 @@ author: "SAPIRO"
 readingTime: 5
 ---
 
-More than a dozen countries officially have two or more capitals, and South Africa even has three. The reason is almost always the same: the executive, the parliament and sometimes the judiciary sit in different cities, whether by political compromise or by planning choice. Here are 10 countries that split their capital between several cities.
+More than a dozen countries officially have two or more capitals, and South Africa has three. The pattern holds from one case to the next: the executive, the parliament and sometimes the judiciary do not sit in the same city. The reasons vary. Sometimes a political compromise between rival regions, sometimes an administrative capital built to relieve the older one. Ten countries split their capital across several cities this way.
 
 ## 1. South Africa (Pretoria, Cape Town, Bloemfontein)
 
@@ -23,7 +23,7 @@ Sucre is the constitutional capital and home to the Supreme Court, but the gover
 
 ## 3. Netherlands (Amsterdam, The Hague)
 
-Amsterdam is the capital named in the constitution, but it hosts no political institutions. The government, the parliament, the royal residence and the international courts of justice all sit in The Hague.
+Named in the constitution, Amsterdam nonetheless hosts no political institutions. The government, the parliament, the royal residence and the international courts of justice all sit in The Hague.
 
 ## 4. Sri Lanka (Sri Jayawardenepura Kotte, Colombo)
 
@@ -43,11 +43,11 @@ Yamoussoukro, the birthplace of President Houphouët-Boigny, has been the politi
 
 ## 8. Benin (Porto-Novo, Cotonou)
 
-Porto-Novo is the official capital and the seat of the National Assembly. Cotonou, the largest city, hosts the government and most institutions.
+The official capital, Porto-Novo houses the National Assembly, but it is Cotonou, the largest city, that hosts the government and most institutions.
 
 ## 9. Eswatini (Mbabane, Lobamba)
 
-Mbabane is the administrative capital where the government sits. Lobamba is the royal and legislative capital: it hosts the parliament and the residence of the queen mother.
+Mbabane is the administrative capital, seat of the government. Lobamba, for its part, is the royal and legislative capital: it hosts the parliament and the residence of the queen mother.
 
 ## 10. Chile (Santiago, Valparaíso)
 
@@ -68,7 +68,7 @@ Santiago is the capital and concentrates the executive and the judiciary. The Na
 | Eswatini | Mbabane, Lobamba | Administrative capital / royal and legislative capital |
 | Chile | Santiago, Valparaíso | Capital / seat of Congress |
 
-To test your knowledge, try the [world capitals quiz](/en/blog/world-capitals-quiz/) or the [capitals quiz by continent](/en/blog/capitals-quiz-by-continent/), and read about [common geography mistakes](/en/blog/geography-mistakes/).
+Mixing up these capitals is one of the [common geography mistakes](/en/blog/geography-mistakes/) worth knowing. The [world capitals quiz](/en/blog/world-capitals-quiz/) covers the full set, while the [capitals quiz by continent](/en/blog/capitals-quiz-by-continent/) lets you work through one region at a time.
 
 ## Frequently asked questions
 

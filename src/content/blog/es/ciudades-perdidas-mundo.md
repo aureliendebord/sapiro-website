@@ -11,7 +11,7 @@ author: "SAPIRO"
 readingTime: 6
 ---
 
-Ciudades enteras fueron sepultadas, engullidas o abandonadas, y redescubiertas siglos después. Una erupción, una conquista o un simple desplazamiento de las rutas comerciales basta para vaciar una capital, que la selva, la arena o la ceniza cubren después. Estas son 10 ciudades perdidas que la arqueología volvió a encontrar.
+Ciudades enteras fueron sepultadas, engullidas o abandonadas, y redescubiertas siglos después. Una erupción, una conquista o un desplazamiento de las rutas comerciales basta para vaciar una capital, que la selva o la arena cubre después. Las diez ciudades reunidas aquí fueron todas reencontradas por la arqueología.
 
 ## 1. Pompeya (Italia)
 
@@ -19,7 +19,7 @@ Próspera ciudad romana al pie del Vesubio, Pompeya fue sepultada por la erupci�
 
 ## 2. Machu Picchu (Perú)
 
-Ciudadela inca construida en el siglo XV a 2 430 metros de altitud, en los Andes. Fue abandonada durante la conquista española y los conquistadores nunca la encontraron. Hiram Bingham la reveló al mundo en 1911.
+Machu Picchu es una ciudadela inca construida en el siglo XV a 2 430 metros de altitud, en los Andes. Fue abandonada durante la conquista española y los conquistadores nunca la encontraron. Hiram Bingham la reveló al mundo en 1911.
 
 ## 3. Angkor (Camboya)
 
@@ -35,7 +35,7 @@ Considerada durante mucho tiempo una simple leyenda homérica, Troya fue identif
 
 ## 6. Mohenjo-daro (Pakistán)
 
-Gran ciudad de la civilización del Indo hacia 2500 a. C., Mohenjo-daro contaba con alcantarillado, baños públicos y un trazado en cuadrícula. La ciudad declinó hacia 1900 a. C., por razones todavía debatidas. Las excavaciones comenzaron en los años 1920.
+Mohenjo-daro fue una gran ciudad de la civilización del Indo hacia 2500 a. C. Contaba con alcantarillado, baños públicos y un trazado en cuadrícula. La ciudad declinó hacia 1900 a. C., por razones todavía debatidas. Las excavaciones comenzaron en los años 1920.
 
 ## 7. Babilonia (Irak)
 
@@ -47,11 +47,11 @@ Una de las ciudades mayas más poderosas, Tikal dominó la región entre los sig
 
 ## 9. Gran Zimbabue (Zimbabue)
 
-Ciudad de piedra seca construida entre los siglos XI y XV, capital de un reino que comerciaba oro hasta el océano Índico. Sus muros, levantados sin mortero, alcanzan 11 metros de altura. Abandonada en el siglo XV, dio su nombre al país actual.
+Gran Zimbabue es una ciudad de piedra seca construida entre los siglos XI y XV, capital de un reino que comerciaba oro hasta el océano Índico. Sus muros, levantados sin mortero, alcanzan 11 metros de altura. Abandonada en el siglo XV, dio su nombre al país actual.
 
 ## 10. Skara Brae (Escocia)
 
-Aldea neolítica de las islas Orcadas, ocupada hacia 3100 a. C., más antigua que Stonehenge y que las pirámides de Egipto. Quedó enterrada bajo la arena tras su abandono. Una tormenta la dejó al descubierto en 1850.
+Skara Brae es una aldea neolítica de las islas Orcadas, ocupada hacia 3100 a. C., más antigua que Stonehenge y que las pirámides de Egipto. Quedó enterrada bajo la arena tras su abandono. Una tormenta la dejó al descubierto en 1850.
 
 ## Las ciudades perdidas de un vistazo
 
@@ -68,7 +68,7 @@ Aldea neolítica de las islas Orcadas, ocupada hacia 3100 a. C., más antigua qu
 | Gran Zimbabue | Zimbabue | Siglo XV | Siglo XIX |
 | Skara Brae | Escocia | Hacia 2500 a. C. | 1850 |
 
-Para seguir explorando, lee los [monumentos de la Antigüedad](/es/blog/monumentos-antiguedad/), los [sitios UNESCO del patrimonio mundial](/es/blog/sitios-unesco-patrimonio-mundial/) y las [maravillas del mundo](/es/blog/maravillas-del-mundo/).
+Varias de estas ciudades figuran también entre los [monumentos de la Antigüedad](/es/blog/monumentos-antiguedad/) y los [sitios UNESCO del patrimonio mundial](/es/blog/sitios-unesco-patrimonio-mundial/), junto a las [maravillas del mundo](/es/blog/maravillas-del-mundo/).
 
 ## Preguntas frecuentes
 

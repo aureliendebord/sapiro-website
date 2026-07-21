@@ -11,7 +11,7 @@ author: "SAPIRO"
 readingTime: 6
 ---
 
-Countries that changed their names include Eswatini (formerly Swaziland), Türkiye, Czechia, North Macedonia and Myanmar (formerly Burma). A state usually renames itself to break with a colonial past, assert an identity or settle a diplomatic dispute. Here are 10 name changes, with the year and the reason behind each one.
+Countries that changed their names include Eswatini (formerly Swaziland), Türkiye, Czechia, North Macedonia and Myanmar (formerly Burma). Most of these decisions come down to breaking with a colonial past or settling a diplomatic dispute, and sometimes simply to picking a name already used in the country's own language. The ten cases below give, for each one, the former name, the year and the reason.
 
 ## 1. Eswatini (Swaziland until 2018)
 
@@ -35,7 +35,7 @@ The military junta renamed Burma "Myanmar" in 1989, and Rangoon became Yangon. B
 
 ## 6. DR Congo (Zaire from 1971 to 1997)
 
-Mobutu Sese Seko renamed the country "Zaire" in 1971, as part of his authenticity policy. When he fell in 1997, Laurent-Désiré Kabila restored the name Democratic Republic of the Congo. The Zaire River became the Congo River again as well.
+In 1971, as part of his authenticity policy, Mobutu Sese Seko gave the country the name "Zaire". When he fell in 1997, Laurent-Désiré Kabila restored the name Democratic Republic of the Congo. The Zaire River became the Congo River again as well.
 
 ## 7. Burkina Faso (Upper Volta until 1984)
 
@@ -68,7 +68,7 @@ In 1935, Reza Shah officially asked foreign states to use "Iran" instead of "Per
 | Thailand | Siam | 1939 |
 | Iran | Persia | 1935 |
 
-To go further, read about [countries that no longer exist](/en/blog/countries-that-disappeared/), the [origin of country names](/en/blog/origin-country-names/) and the [newest countries in the world](/en/blog/newest-countries-world/).
+Some countries did more than change their name: they [vanished from the map](/en/blog/countries-that-disappeared/). You can also trace the [origin of country names](/en/blog/origin-country-names/), or look instead at the [newest countries in the world](/en/blog/newest-countries-world/).
 
 ## Frequently asked questions
 

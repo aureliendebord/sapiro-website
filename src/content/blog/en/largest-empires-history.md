@@ -11,7 +11,7 @@ author: "SAPIRO"
 readingTime: 6
 ---
 
-The largest empire in history is the British Empire, with about 35.5 million km² at its peak around 1920 — nearly a quarter of the world's land area. Historical empire sizes are estimates, but historians broadly agree on the orders of magnitude. Here are the 10 largest empires in history ranked by maximum land area.
+The largest empire in history is the British Empire, with about 35.5 million km² at its peak around 1920, nearly a quarter of the world's land area. Next come the Mongols, then the Russians, before the gaps start to narrow. Empire sizes from earlier eras are estimates, but historians broadly agree on the orders of magnitude. The ranking below covers the top ten, by maximum land area.
 
 ## 1. British Empire (~35.5 M km², around 1920)
 
@@ -19,7 +19,7 @@ At its peak after the First World War, the British Empire covered about 35.5 mil
 
 ## 2. Mongol Empire (~24 M km², 13th century)
 
-Founded by Genghis Khan, the Mongol Empire reached about 24 million km² in the 13th century. It is the largest contiguous empire in history, stretching without interruption from Korea to Hungary.
+Founded by Genghis Khan, the Mongol Empire reached about 24 million km² in the 13th century. It is the largest contiguous empire in history: its territory ran without interruption from Korea to Hungary.
 
 ## 3. Russian Empire (~22.8 M km², around 1895)
 
@@ -27,7 +27,7 @@ The Russian Empire covered about 22.8 million km² around 1895, from Poland to t
 
 ## 4. Qing Dynasty (~14.7 M km², 18th century)
 
-China's last imperial dynasty reached about 14.7 million km² in the 18th century. Its territory forms the territorial basis of modern China.
+China's last imperial dynasty reached about 14.7 million km² in the 18th century. Its borders largely match those of modern China.
 
 ## 5. Spanish Empire (~13.7 M km², 18th century)
 
@@ -43,7 +43,7 @@ The Abbasid Caliphate covered about 11.1 million km² between the 8th and 9th ce
 
 ## 8. Umayyad Caliphate (~11.1 M km², 8th century)
 
-The Umayyad Caliphate reached about 11.1 million km² in the 8th century, from Spain to the Indus. Its expansion was one of the fastest in history: less than a century after its founding.
+Barely a century after its founding, the Umayyad Caliphate already stretched from Spain to the Indus, covering about 11.1 million km² in the 8th century. Few empires have grown so fast.
 
 ## 9. Yuan Dynasty (~11 M km², 13th-14th century)
 
@@ -68,7 +68,7 @@ The Portuguese Empire reached about 10.4 million km² at its peak, Brazil includ
 | 9 | Yuan Dynasty | ~11 | 13th-14th century |
 | 10 | Portuguese Empire | ~10.4 | 16th-18th century |
 
-To go further, read about [countries that no longer exist](/en/blog/countries-that-disappeared/), the [great battles of history](/en/blog/great-battles-history/) and the [world history timeline](/en/blog/world-timeline-history/).
+Several of these empires eventually became [countries that no longer exist](/en/blog/countries-that-disappeared/). Much of their story played out in the [great battles of history](/en/blog/great-battles-history/), which are easier to place on the [world history timeline](/en/blog/world-timeline-history/).
 
 ## Frequently asked questions
 

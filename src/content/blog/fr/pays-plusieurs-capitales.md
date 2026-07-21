@@ -11,7 +11,7 @@ author: "SAPIRO"
 readingTime: 5
 ---
 
-Plus d'une dizaine de pays ont officiellement deux capitales ou plus, et l'Afrique du Sud en a même trois. La raison est presque toujours la même : le pouvoir exécutif, le Parlement et parfois la justice siègent dans des villes différentes, par compromis politique ou par choix d'aménagement. Voici 10 pays qui répartissent leur capitale entre plusieurs villes.
+Plus d'une dizaine de pays ont officiellement deux capitales ou plus, et l'Afrique du Sud en a trois. Le principe reste le même d'un cas à l'autre : l'exécutif, le Parlement et parfois la justice ne siègent pas dans la même ville. Les raisons, elles, changent. Ici un compromis politique entre régions rivales, là une capitale administrative construite pour désengorger l'ancienne. Dix pays se partagent ainsi leur capitale entre plusieurs villes.
 
 ## 1. Afrique du Sud (Pretoria, Le Cap, Bloemfontein)
 
@@ -23,7 +23,7 @@ Sucre est la capitale constitutionnelle et le siège de la Cour suprême, mais l
 
 ## 3. Pays-Bas (Amsterdam, La Haye)
 
-Amsterdam est la capitale inscrite dans la Constitution, mais elle n'accueille aucune institution politique. Le gouvernement, le Parlement, la résidence royale et les cours internationales de justice siègent à La Haye.
+Inscrite dans la Constitution, Amsterdam n'accueille pourtant aucune institution politique. Le gouvernement, le Parlement, la résidence royale et les cours internationales de justice siègent à La Haye.
 
 ## 4. Sri Lanka (Sri Jayawardenepura Kotte, Colombo)
 
@@ -43,11 +43,11 @@ Yamoussoukro, ville natale du président Houphouët-Boigny, est la capitale poli
 
 ## 8. Bénin (Porto-Novo, Cotonou)
 
-Porto-Novo est la capitale officielle et le siège de l'Assemblée nationale. Cotonou, la plus grande ville, accueille le gouvernement et la plupart des institutions.
+Capitale officielle, Porto-Novo abrite l'Assemblée nationale, mais c'est Cotonou, la plus grande ville, qui accueille le gouvernement et la plupart des institutions.
 
 ## 9. Eswatini (Mbabane, Lobamba)
 
-Mbabane est la capitale administrative où siège le gouvernement. Lobamba est la capitale royale et législative : elle abrite le Parlement et la résidence de la reine mère.
+Mbabane est la capitale administrative, siège du gouvernement. Lobamba, elle, joue le rôle de capitale royale et législative : elle abrite le Parlement et la résidence de la reine mère.
 
 ## 10. Chili (Santiago, Valparaíso)
 
@@ -68,7 +68,7 @@ Santiago est la capitale et concentre l'exécutif et la justice. Le Congrès nat
 | Eswatini | Mbabane, Lobamba | Capitale administrative / capitale royale et législative |
 | Chili | Santiago, Valparaíso | Capitale / siège du Congrès |
 
-Pour tester vos connaissances, essayez le [quiz capitales du monde](/blog/quiz-capitales-monde/) ou le [quiz capitales par continent](/blog/quiz-capitales-par-continent/), et découvrez les [erreurs de géographie courantes](/blog/erreurs-geographie/).
+Confondre ces capitales fait partie des [erreurs de géographie courantes](/blog/erreurs-geographie/). Pour les retenir, le [quiz capitales du monde](/blog/quiz-capitales-monde/) passe en revue l'ensemble, tandis que le [quiz capitales par continent](/blog/quiz-capitales-par-continent/) permet de travailler région par région.
 
 ## Questions fréquentes
 

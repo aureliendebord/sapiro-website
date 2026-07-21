@@ -11,15 +11,15 @@ author: "SAPIRO"
 readingTime: 6
 ---
 
-44 countries, including 2 doubly landlocked ones, have no direct access to the ocean. These landlocked states depend on their neighbours to reach ports and maritime trade. Some lost their coastline in a war, others never had one. Here are the 10 most remarkable cases.
+44 countries, including 2 doubly landlocked ones, have no direct access to the ocean. They are the landlocked states. Without a coast of their own, each one relies on a neighbour to reach a port and ship its goods abroad. Some lost their coastline in a war; many never had one. Here are ten that stand out.
 
 ## 1. Kazakhstan (the largest landlocked country)
 
-At around 2.7 million km², Kazakhstan is the largest landlocked country in the world. It does border the Caspian Sea — but that is a closed sea, with no access to the ocean.
+At around 2.7 million km², Kazakhstan is the largest landlocked country in the world. It does border the Caspian Sea, a closed sea that opens onto no ocean.
 
 ## 2. Ethiopia (the most populous landlocked country)
 
-Around 130 million inhabitants, making it the most populous landlocked country in the world. Ethiopia lost its coastline when Eritrea became independent in 1993. It has since depended on the port of Djibouti for most of its trade.
+With close to 130 million inhabitants, Ethiopia is the most populous landlocked country in the world. It lost its coastline in 1993, when Eritrea became independent. Since then, most of its trade has passed through the port of Djibouti.
 
 ## 3. Bolivia (a navy without a sea)
 
@@ -39,15 +39,15 @@ The second-largest landlocked country in the world. Mongolia is wedged between j
 
 ## 7. Switzerland (a merchant fleet without a coast)
 
-Landlocked, yet Switzerland is a major merchant shipping nation. It reaches the North Sea via the Rhine, from the port of Basel.
+Switzerland has no coast, yet it ranks among the great merchant shipping nations. It reaches the North Sea along the Rhine, from the port of Basel.
 
 ## 8. Nepal (the roof of the world)
 
-Landlocked between India and China. Nepal is home to eight of the ten highest peaks in the world, including Everest.
+Hemmed in between India and China, Nepal is home to eight of the ten highest peaks on Earth, including Everest.
 
 ## 9. Paraguay (access through rivers)
 
-Landlocked, but with a vast river frontage that connects it to the Atlantic. The Itaipú dam, shared with Brazil, is one of the most powerful in the world.
+Paraguay has no coastline, but a vast river frontage connects it to the Atlantic. The Itaipú dam, shared with Brazil, is one of the most powerful in the world.
 
 ## 10. Vatican City (the smallest landlocked country)
 
@@ -68,7 +68,7 @@ The smallest landlocked country in the world, at 0.44 km². It is enclosed withi
 | Paraguay | South America | River frontage, Itaipú dam |
 | Vatican City | Europe | The smallest (0.44 km²), enclosed in Rome |
 
-To keep exploring, see the [smallest countries in the world](/en/blog/smallest-countries-world/), the [European microstates](/en/blog/european-microstates/) and the [strangest borders in the world](/en/blog/strangest-borders-world/).
+Several of these states turn up in other rankings too. Vatican City and Liechtenstein are among the [smallest countries in the world](/en/blog/smallest-countries-world/), Liechtenstein also counts as one of the [European microstates](/en/blog/european-microstates/), and the tangle of their land borders produces some of the [strangest borders on the planet](/en/blog/strangest-borders-world/).
 
 ## Frequently asked questions
 

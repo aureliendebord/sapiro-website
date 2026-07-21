@@ -11,7 +11,7 @@ author: "SAPIRO"
 readingTime: 6
 ---
 
-Une dizaine de territoires fonctionnent aujourd'hui comme des États — avec un gouvernement, une monnaie, parfois une armée — sans siéger à l'ONU. Certains sont reconnus par une centaine de pays, d'autres par un seul, d'autres par aucun. Voici 10 pays non reconnus, ou partiellement reconnus, et le statut de chacun.
+Une dizaine de territoires fonctionnent aujourd'hui comme des États (gouvernement, monnaie, parfois armée) sans siéger à l'ONU. Leur reconnaissance internationale est très inégale : une centaine de pays pour les uns, un seul ou aucun pour d'autres. Les dix cas ci-dessous précisent, pour chacun, où en est ce statut.
 
 ## 1. Taïwan (reconnu par une douzaine d'États)
 
@@ -68,7 +68,7 @@ La république autoproclamée d'Artsakh, peuplée majoritairement d'Arméniens, 
 | Ossétie du Sud | 2008 | environ 5 pays |
 | Haut-Karabakh | 1991-2024 | dissous en 2024 |
 
-Pour prolonger, voir les [pays qui n'existent plus](/blog/pays-disparus/), les [micro-États européens](/blog/micro-etats-europeens/) et les [frontières les plus étranges](/blog/frontieres-etranges-monde/).
+La disparition d'un État est un cas voisin, décrit dans les [pays qui n'existent plus](/blog/pays-disparus/). Les [micro-États européens](/blog/micro-etats-europeens/), eux, sont pleinement reconnus malgré leur taille minuscule, et les [frontières les plus étranges](/blog/frontieres-etranges-monde/) montrent d'autres tracés hérités de l'histoire.
 
 ## Questions fréquentes
 

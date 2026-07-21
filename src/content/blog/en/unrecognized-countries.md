@@ -11,7 +11,7 @@ author: "SAPIRO"
 readingTime: 6
 ---
 
-About ten territories function today as states — with a government, a currency, sometimes an army — without a seat at the UN. Some are recognized by around a hundred countries, others by a single one, others by none at all. Here are 10 unrecognized, or partially recognized, countries and where each one stands.
+About ten territories function today as states (a government, a currency, sometimes an army) without a seat at the UN. International recognition among them is very uneven: around a hundred countries for some, a single one or none for others. The ten cases below set out where each one stands.
 
 ## 1. Taiwan (recognized by about a dozen states)
 
@@ -68,7 +68,7 @@ The self-proclaimed republic of Artsakh, populated mostly by Armenians, was offi
 | South Ossetia | 2008 | around 5 countries |
 | Nagorno-Karabakh | 1991-2024 | dissolved in 2024 |
 
-To go further, see the [countries that no longer exist](/en/blog/countries-that-disappeared/), the [European microstates](/en/blog/european-microstates/) and the [strangest borders in the world](/en/blog/strangest-borders-world/).
+The disappearance of a state is a related case, covered in the [countries that no longer exist](/en/blog/countries-that-disappeared/). The [European microstates](/en/blog/european-microstates/), by contrast, are fully recognized despite their tiny size, and the [strangest borders in the world](/en/blog/strangest-borders-world/) show other lines inherited from history.
 
 ## Frequently asked questions
 

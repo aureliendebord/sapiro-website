@@ -11,15 +11,15 @@ author: "SAPIRO"
 readingTime: 6
 ---
 
-44 pays, dont 2 doublement enclavés, n'ont aucun accès direct à l'océan. Ces États dits « enclavés » dépendent de leurs voisins pour atteindre les ports et le commerce maritime. Certains ont perdu leur côte à la suite d'une guerre, d'autres n'en ont jamais eu. Voici les 10 cas les plus marquants.
+44 pays, dont 2 doublement enclavés, n'ont aucun accès direct à l'océan. On les dit « enclavés ». Sans façade maritime, chacun dépend de ses voisins pour rejoindre un port et exporter ses marchandises. Certains ont perdu leur côte au cours d'une guerre ; beaucoup n'en ont jamais eu. En voici dix qui sortent du lot.
 
 ## 1. Kazakhstan (le plus grand pays enclavé)
 
-Avec environ 2,7 millions de km², le Kazakhstan est le plus grand pays enclavé du monde. Il borde pourtant la mer Caspienne — mais c'est une mer fermée, sans aucun accès à l'océan.
+Avec environ 2,7 millions de km², le Kazakhstan est le plus grand pays enclavé du monde. Il borde pourtant la mer Caspienne, une mer fermée qui n'ouvre sur aucun océan.
 
 ## 2. Éthiopie (le pays enclavé le plus peuplé)
 
-Environ 130 millions d'habitants, ce qui en fait le pays enclavé le plus peuplé du monde. L'Éthiopie a perdu sa côte avec l'indépendance de l'Érythrée en 1993. Elle dépend depuis du port de Djibouti pour l'essentiel de son commerce.
+Avec près de 130 millions d'habitants, l'Éthiopie est le pays enclavé le plus peuplé du monde. Elle a perdu sa côte en 1993, quand l'Érythrée est devenue indépendante. Depuis, l'essentiel de son commerce passe par le port de Djibouti.
 
 ## 3. Bolivie (une marine sans mer)
 
@@ -39,15 +39,15 @@ Le deuxième plus grand pays enclavé du monde. La Mongolie est coincée entre d
 
 ## 7. Suisse (une flotte marchande sans côte)
 
-Enclavée, la Suisse est pourtant une grande nation maritime marchande. Elle accède à la mer du Nord par le Rhin, depuis le port de Bâle.
+La Suisse n'a pas de côte, et pourtant elle compte parmi les grandes nations du transport maritime marchand. Elle rejoint la mer du Nord par le Rhin, depuis le port de Bâle.
 
 ## 8. Népal (le toit du monde)
 
-Enclavé entre l'Inde et la Chine. Le Népal abrite huit des dix plus hauts sommets du monde, dont l'Everest.
+Pris entre l'Inde et la Chine, le Népal abrite huit des dix plus hauts sommets du monde, dont l'Everest.
 
 ## 9. Paraguay (l'accès par les fleuves)
 
-Enclavé, mais doté d'une immense façade fluviale qui le relie à l'Atlantique. Le barrage d'Itaipú, partagé avec le Brésil, est l'un des plus puissants du monde.
+Le Paraguay n'a pas de littoral, mais une immense façade fluviale le relie à l'Atlantique. Le barrage d'Itaipú, partagé avec le Brésil, est l'un des plus puissants du monde.
 
 ## 10. Vatican (le plus petit pays enclavé)
 
@@ -68,7 +68,7 @@ Le plus petit pays enclavé du monde, avec 0,44 km². Il est enclavé dans une s
 | Paraguay | Amérique du Sud | Façade fluviale, barrage d'Itaipú |
 | Vatican | Europe | Le plus petit (0,44 km²), enclavé dans Rome |
 
-Pour continuer l'exploration, voir les [plus petits pays du monde](/blog/plus-petits-pays-monde/), les [micro-États européens](/blog/micro-etats-europeens/) et les [frontières les plus étranges](/blog/frontieres-etranges-monde/).
+Plusieurs de ces États reviennent dans d'autres classements. Le Vatican et le Liechtenstein comptent parmi les [plus petits pays du monde](/blog/plus-petits-pays-monde/), le second se retrouve aussi chez les [micro-États européens](/blog/micro-etats-europeens/), et l'entrelacs de leurs limites terrestres compose quelques-unes des [frontières les plus étranges de la planète](/blog/frontieres-etranges-monde/).
 
 ## Questions fréquentes
 

@@ -11,15 +11,15 @@ author: "SAPIRO"
 readingTime: 6
 ---
 
-Several pairs of national flags are almost impossible to tell apart, starting with Chad and Romania, whose flags are near identical. Shared colors, common history or pure coincidence: the reasons vary, but there is always one detail that gives each flag away. Here are 10 cases of flags that look alike, and how to tell them apart.
+Several pairs of national flags are almost impossible to tell apart, with Chad and Romania at the top of the list: their tricolors differ only in the shade of blue. Sometimes the cause is a shared history, sometimes plain coincidence. Either way, one detail is enough to settle it. Here are ten.
 
 ## 1. Chad and Romania
 
-Both flags show the same vertical blue-yellow-red tricolor, to the point of being near identical. The only difference: Chad's blue is slightly darker than Romania's. Chad even took the matter to the UN in 2004 to contest the similarity, without result.
+A vertical blue-yellow-red tricolor that is identical on both sides, or nearly so. The only difference: Chad's blue is slightly darker than Romania's. Chad even took the matter to the UN in 2004 to contest the similarity, without result.
 
 ## 2. Indonesia and Monaco
 
-Both flags are red over white, in two horizontal bands. Only the proportions differ: Monaco's flag is more square (4:5) than Indonesia's (2:3). Poland uses the same colors reversed, white over red.
+Red over white, in two horizontal bands, on both. Only the proportions differ: Monaco's flag is more square (4:5) than Indonesia's (2:3). Poland uses the same colors reversed, white over red.
 
 ## 3. Netherlands and Luxembourg
 
@@ -27,7 +27,7 @@ The same horizontal red-white-blue tricolor for both countries. Luxembourg's blu
 
 ## 4. Ireland and Ivory Coast
 
-Both tricolors use the same colors, but mirrored: green sits at the hoist for Ireland, orange for Ivory Coast. The proportions also differ, Ireland's flag being more elongated.
+The same colors, but mirrored: green sits at the hoist for Ireland, orange for Ivory Coast. The proportions also differ: Ireland's flag is more elongated.
 
 ## 5. Mali and Senegal
 
@@ -35,11 +35,11 @@ Two vertical green-yellow-red tricolors in Pan-African colors. Senegal adds a gr
 
 ## 6. Norway and Iceland
 
-Two Nordic crosses with exactly inverted colors. Norway has a red field with a white-bordered blue cross; Iceland a blue field with a white-bordered red cross.
+The colors are exactly inverted between the two Nordic crosses. Norway has a red field with a white-bordered blue cross; Iceland a blue field with a white-bordered red cross.
 
 ## 7. Australia and New Zealand
 
-Both flags combine the Union Jack in the canton with the Southern Cross on a blue field. New Zealand has 4 red stars bordered in white; Australia has 6 white stars, including the large Commonwealth Star below the Union Jack.
+Union Jack in the canton, Southern Cross on a blue field: both flags share the same base. New Zealand has 4 red stars bordered in white; Australia has 6 white stars, including the large Commonwealth Star below the Union Jack.
 
 ## 8. Venezuela, Colombia and Ecuador
 
@@ -68,7 +68,7 @@ Three flags with red and white stripes and a canton in the upper hoist corner. L
 | Slovenia / Slovakia / Russia | White-blue-red tricolor | Coat of arms, none on Russia's |
 | United States / Liberia / Malaysia | Red and white stripes | 1 star (Liberia), crescent (Malaysia) |
 
-To go further, test yourself on the [hardest flags](/en/blog/hardest-flags/), discover the [meaning of flags](/en/blog/flags-meaning/), explore the [flags of disappeared countries](/en/blog/flags-of-disappeared-countries/) or try a [world flags quiz](/en/blog/world-flags-quiz-free-online/).
+These resemblances often come down to a shared history, something the [meaning of flags](/en/blog/flags-meaning/) explains in detail, as do the [flags of disappeared countries](/en/blog/flags-of-disappeared-countries/). To practice telling them apart, there are still the [hardest flags](/en/blog/hardest-flags/) to name and the [world flags quiz](/en/blog/world-flags-quiz-free-online/).
 
 ## Frequently asked questions
 
