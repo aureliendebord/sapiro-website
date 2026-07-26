@@ -3,9 +3,27 @@ import Layout from '../../layouts/Layout.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
 import { getTranslations } from '../../i18n';
+import { getCollection } from 'astro:content';
 
 const lang = 'en';
 const t = getTranslations(lang);
+
+const allPosts = await getCollection('blog');
+const geoCategories = ['geographie', 'drapeaux', 'voyage', 'culture-generale'];
+const articles = allPosts
+  .filter(p => p.data.lang === 'en' && geoCategories.includes(p.data.category))
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+
+// Slugs already featured in the curated lists below (so we don't repeat them).
+const featuredSlugs = [
+  'world-capitals-quiz', 'capitals-quiz-by-continent', 'hardest-flags',
+  'flags-meaning', 'geography-mistakes', 'world-flags-quiz-free-online',
+  'least-visited-countries-world', 'smallest-countries-world', 'countries-that-disappeared',
+  'strangest-borders-world', 'origin-country-names', 'which-country-matches-personality',
+  'most-visited-monuments-world', 'geography-for-kids', 'geography-family',
+  'teaching-world-countries-kids', 'best-geography-apps',
+];
+const moreArticles = articles.filter(p => !featuredSlugs.includes(p.data.urlSlug));
 
 const collectionPageSchema = {
   "@context": "https://schema.org",
@@ -94,6 +112,17 @@ const faqSchema = {
           <li><a href="/en/blog/best-geography-apps/">The best geography apps</a></li>
         </ul>
       </section>
+
+      {moreArticles.length > 0 && (
+        <section class="pillar-sub">
+          <h2>More articles</h2>
+          <ul class="pillar-grid">
+            {moreArticles.map(p => (
+              <li><a href={`/en/blog/${p.data.urlSlug}/`}>{p.data.title}</a></li>
+            ))}
+          </ul>
+        </section>
+      )}
 
       <section class="pillar-faq">
         <h2>Frequently asked questions about geography</h2>
