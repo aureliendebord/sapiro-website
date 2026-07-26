@@ -15,7 +15,7 @@ readingTime: 16
 
 Cien preguntas, cien respuestas a la vista, cinco campos. La gran lista para repasar a fondo, preparar un quiz gigante o ir picoteando ronda tras ronda.
 
-Las preguntas están ordenadas por tema —geografía, historia, arte y cultura, ciencias, naturaleza— con un nivel indicado en cada una. Cuenta un punto por respuesta correcta; el baremo está al final. Para un formato más corto, mira nuestras [10](/es/blog/10-preguntas-cultura-general-respuestas/), [20](/es/blog/20-preguntas-cultura-general-respuestas/) o [50 preguntas](/es/blog/50-preguntas-cultura-general-respuestas/).
+Las preguntas están ordenadas por tema (geografía, historia, arte y cultura, ciencias, naturaleza), con un nivel indicado en cada una. Cuenta un punto por respuesta correcta; el baremo está al final. Para un formato más corto, mira nuestras [10](/es/blog/10-preguntas-cultura-general-respuestas/), [20](/es/blog/20-preguntas-cultura-general-respuestas/) o [50 preguntas](/es/blog/50-preguntas-cultura-general-respuestas/).
 
 ## Geografía
 

@@ -15,7 +15,7 @@ readingTime: 6
 
 Ten questions, ten answers, all visible on the page. No quiz that hides the solution behind a button: here you read the answer right below, with a short explanation so you remember the "why".
 
-The questions span five fields — geography, history, art, science, nature — and rise steadily in difficulty. Four easy, four medium, two traps. To play solo, cover the line below with your hand. For a quiz night, read each question out loud and keep score.
+The questions span five fields (geography, history, art, science, nature) and rise steadily in difficulty. Four easy, four medium, two traps. To play solo, cover the line below with your hand. For a quiz night, read each question out loud and keep score.
 
 ## Geography
 
@@ -33,7 +33,7 @@ The questions span five fields — geography, history, art, science, nature — 
 **4. Who was the first Roman emperor?** *(hard)*
 **Answer: [Augustus](https://en.wikipedia.org/wiki/Augustus)**, born Octavian, from 27 BC. Many answer Julius Caesar, but Caesar never held the title of emperor: it was his adopted son who founded the Empire. To stop mixing up figures like these, see our roundup of [major historical figures](/en/blog/historical-figures/).
 
-Already stuck? That's actually a good sign. You remember an answer better once you've searched for it before reading it — which is exactly how a quiz app works: get it wrong, understand why, remember.
+Already stuck? That's actually a good sign. You remember an answer better once you've searched for it before reading it, which is exactly how a quiz app works: get it wrong, understand why, remember.
 
 ## Art
 
@@ -81,7 +81,7 @@ That's the idea behind SAPIRO. The app gathers hundreds of quizzes on geography 
 The classics revolve around capitals (Australia, Brazil, Kazakhstan), key dates (1789, 1945, 1989), geographic records (longest river, highest peak) and famous artworks like the *Mona Lisa*. They're safe bets in quizzes and interviews alike.
 
 ### How can I improve my general knowledge quickly?
-Fifteen minutes a day is enough if it's regular. Mix the formats — quizzes, podcasts, long reads — and look up the answer right away when a word or name escapes you. Active testing, like a quiz, sticks far better than simply re-reading.
+Fifteen minutes a day is enough if it's regular. Mix the formats (quizzes, podcasts, long reads) and look up the answer right away when a word or name escapes you. Active testing, like a quiz, sticks far better than simply re-reading.
 
 ### What is the hardest general knowledge question?
 Difficulty is personal: it all depends on your gaps. The questions that trip up the most people tend to be lesser-known capitals, the first emperors, or counter-intuitive scientific records like the hottest planet.

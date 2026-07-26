@@ -15,7 +15,7 @@ readingTime: 6
 
 Vingt questions, vingt réponses visibles, cinq thèmes. Le bon format pour se tester sans y passer la soirée : plus complet que dix, plus rapide qu'une grande série.
 
-Quatre questions par thème — géographie, histoire, art et culture, sciences, nature — avec le niveau indiqué à chaque fois. Comptez un point par bonne réponse, le barème est en bas de page. Besoin de plus court ou plus long ? Voyez nos [10 questions](/blog/10-questions-culture-generale-reponses/) ou la grande série de [50 questions](/blog/50-questions-culture-generale-reponses/).
+Quatre questions par thème (géographie, histoire, art et culture, sciences, nature), avec le niveau indiqué à chaque fois. Comptez un point par bonne réponse, le barème est en bas de page. Besoin de plus court ou plus long ? Voyez nos [10 questions](/blog/10-questions-culture-generale-reponses/) ou la grande série de [50 questions](/blog/50-questions-culture-generale-reponses/).
 
 ## Géographie
 

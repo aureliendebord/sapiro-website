@@ -14,7 +14,7 @@ author: "SAPIRO"
 readingTime: 7
 ---
 
-Les sculptures les plus célèbres du monde sont le *David* de Michel-Ange, *Le Penseur* de Rodin et la *Vénus de Milo*. La sculpture est trop souvent oubliée derrière la peinture, pourtant c'est l'art le plus ancien et le plus universel. Voici les 15 sculptures les plus incontournables, de l'Antiquité à l'art moderne, et où voir chacune.
+Les sculptures les plus célèbres du monde sont le *David* de Michel-Ange, *Le Penseur* de Rodin et la *Vénus de Milo*. La sculpture est trop souvent oubliée derrière la peinture, pourtant c'est l'art le plus ancien et le plus universel. Voici 15 sculptures majeures, de l'Antiquité à l'art moderne, et où voir chacune.
 
 ## Antiquité
 

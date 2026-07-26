@@ -14,13 +14,13 @@ author: "SAPIRO"
 readingTime: 10
 ---
 
-Se puede pasar por la escuela sin entender realmente quién forjó el mundo en el que vivimos. Un quiz personajes históricos revela rápido las lagunas: los manuales acumulan fechas, nombres, batallas, y uno acaba mezclando todo. Sin embargo, detrás de cada gran transformación — un imperio que se derrumba, una idea que se propaga, una sociedad que cambia — hay individuos. Gente que tomó decisiones y asumió sus consecuencias. Aquí van veinte de ellos. Veinte figuras que cruzan las épocas y los cinco continentes, y cuya influencia se sigue notando hoy.
+Se puede pasar por la escuela sin entender realmente quién forjó el mundo en el que vivimos. Un quiz personajes históricos revela rápido las lagunas: los manuales acumulan fechas, nombres, batallas, y uno acaba mezclando todo. Sin embargo, detrás de cada gran transformación (un imperio que se derrumba, una idea que se propaga, una sociedad que cambia) hay individuos. Gente que tomó decisiones y asumió sus consecuencias. Aquí van veinte de ellos. Veinte figuras que cruzan las épocas y los cinco continentes, y cuya influencia se sigue notando hoy.
 
 ## La Antigüedad: los fundadores de civilizaciones
 
 ### 1. Cleopatra (69-30 a.C.)
 
-Olvida la imagen de Hollywood. Cleopatra VII, última reina de la dinastía de los Ptolomeos en Egipto, era políglota — nueve lenguas —, diplomática temible y administradora hábil. Durante más de veinte años, mantuvo la independencia de Egipto frente a Roma, la superpotencia de la época. Sus alianzas con Julio César y después con Marco Antonio no eran romances de cine: eran golpes políticos calculados para preservar la soberanía de su reino. Su muerte en 30 a.C. marca el fin del Egipto faraónico y el comienzo de la dominación romana sobre el Mediterráneo oriental.
+Olvida la imagen de Hollywood. Cleopatra VII, última reina de la dinastía de los Ptolomeos en Egipto, era políglota (nueve lenguas), diplomática temible y administradora hábil. Durante más de veinte años, mantuvo la independencia de Egipto frente a Roma, la superpotencia de la época. Sus alianzas con Julio César y después con Marco Antonio no eran romances de cine: eran golpes políticos calculados para preservar la soberanía de su reino. Su muerte en 30 a.C. marca el fin del Egipto faraónico y el comienzo de la dominación romana sobre el Mediterráneo oriental.
 
 ### 2. Julio César (100-44 a.C.)
 
@@ -28,7 +28,7 @@ General, hombre de Estado y escritor. César conquistó la Galia, cruzó el Rubi
 
 ### 3. Alejandro Magno (356-323 a.C.)
 
-Rey de Macedonia a los veinte años. En trece años, construyó un imperio de más de 5 millones de km2, desde Grecia hasta la India. Pero más allá de las conquistas militares, es la mezcla cultural que provocó lo que deja huella. Mundo griego, mundo persa, mundo indio: estas civilizaciones se encontraron, se mezclaron, y de ese encuentro nació la cultura helenística. Las ciudades que fundó — más de 70, con Alejandría a la cabeza — se convirtieron en centros de saber y comercio durante siglos.
+Rey de Macedonia a los veinte años. En trece años, construyó un imperio de más de 5 millones de km2, desde Grecia hasta la India. Pero más allá de las conquistas militares, es la mezcla cultural que provocó lo que deja huella. Mundo griego, mundo persa, mundo indio: estas civilizaciones se encontraron, se mezclaron, y de ese encuentro nació la cultura helenística. Las ciudades que fundó (más de 70, con Alejandría a la cabeza) se convirtieron en centros de saber y comercio durante siglos.
 
 ### 4. Confucio (551-479 a.C.)
 
@@ -42,7 +42,7 @@ Campesina analfabeta. Diecisiete años. Afirma oír voces divinas, convence al d
 
 ### 6. Gengis Kan (1162-1227)
 
-Nacido Temujin en las estepas mongolas, unificó tribus nómadas y construyó el imperio contiguo más vasto de la Historia — desde China hasta Europa del Este. Se recuerda a menudo la imagen del conquistador brutal. Es incompleta. Gengis Kan fue también legislador: el Yasa, su código de leyes, garantizaba la libertad religiosa, favorecía el mérito sobre el nacimiento y estableció un sistema postal que conectaba todo el imperio. Dato adicional bastante vertiginoso: se estima que unos 16 millones de hombres vivos hoy descienden de él.
+Nacido Temujin en las estepas mongolas, unificó tribus nómadas y construyó el imperio contiguo más vasto de la Historia, desde China hasta Europa del Este. Se recuerda a menudo la imagen del conquistador brutal. Es incompleta. Gengis Kan fue también legislador: el Yasa, su código de leyes, garantizaba la libertad religiosa, favorecía el mérito sobre el nacimiento y estableció un sistema postal que conectaba todo el imperio. Dato adicional bastante vertiginoso: se estima que unos 16 millones de hombres vivos hoy descienden de él.
 
 ### 7. Mansa Musa (1280-1337)
 
@@ -74,7 +74,7 @@ Su teoría de la evolución por selección natural cambió nuestra comprensión 
 
 ### 13. Mahatma Gandhi (1869-1948)
 
-Líder del movimiento independentista indio. Gandhi hizo de la no violencia — el ahimsa — y de la resistencia pasiva — el satyagraha — armas de liberación. La marcha de la sal en 1930, la campaña "Quit India", las huelgas de hambre prolongadas: gestos que se convirtieron en modelos para todos los movimientos pacíficos posteriores. Asesinado en 1948 por un extremista hindú.
+Líder del movimiento independentista indio. Gandhi hizo de la no violencia (el ahimsa) y de la resistencia pasiva (el satyagraha) armas de liberación. La marcha de la sal en 1930, la campaña "Quit India", las huelgas de hambre prolongadas: gestos que se convirtieron en modelos para todos los movimientos pacíficos posteriores. Asesinado en 1948 por un extremista hindú.
 
 ### 14. Nelson Mandela (1918-2013)
 
@@ -86,7 +86,7 @@ Pastor bautista, líder del movimiento por los derechos civiles en Estados Unido
 
 ### 16. Simone de Beauvoir (1908-1986)
 
-Filósofa, novelista, feminista. "El segundo sexo", publicado en 1949, sentó las bases del feminismo moderno. Su célebre frase — "No se nace mujer, se llega a serlo" — abrió la distinción entre sexo biológico y género social, un debate que sigue vivo hoy. Compañera de Sartre, figura del existencialismo, dejó también novelas y memorias que atestiguan la vida intelectual parisina del siglo XX.
+Filósofa, novelista, feminista. "El segundo sexo", publicado en 1949, sentó las bases del feminismo moderno. Su célebre frase, "No se nace mujer, se llega a serlo", abrió la distinción entre sexo biológico y género social, un debate que sigue vivo hoy. Compañera de Sartre, figura del existencialismo, dejó también novelas y memorias que atestiguan la vida intelectual parisina del siglo XX.
 
 ### 17. Albert Einstein (1879-1955)
 
@@ -110,7 +110,7 @@ Matemático, criptoanalista, padre de la informática. Su trabajo para descifrar
 
 El interés va más allá de la [cultura general](/es/blog/cultura-general-guia/) de sobremesa. Conocer estas vidas es entender cómo el mundo llegó a ser lo que es. El Código Civil de Napoleón estructura el derecho de más de 40 países. La teoría de Darwin fundamenta nuestra biología. La no violencia de Gandhi inspira los movimientos sociales contemporáneos. No son figuras del pasado. Su influencia está en el presente.
 
-Para niños y adolescentes, descubrir a estos personajes desarrolla el espíritu crítico y la empatía. Y el método lúdico — [quiz y juegos educativos](/es/blog/geografia-ninos/) — vuelve estas figuras vivas y accesibles, lejos de los párrafos grises de un manual escolar. Los [principios de la gamificación](/es/blog/gamificacion-educacion/) explican por qué el formato quiz ancla tan bien estos conocimientos, y las [mejores aplicaciones de geografía](/es/blog/mejores-apps-geografia/) extienden el juego a mapas y banderas.
+Para niños y adolescentes, descubrir a estos personajes desarrolla el espíritu crítico y la empatía. Y el método lúdico de los [quiz y juegos educativos](/es/blog/geografia-ninos/) vuelve estas figuras vivas y accesibles, lejos de los párrafos grises de un manual escolar. Los [principios de la gamificación](/es/blog/gamificacion-educacion/) explican por qué el formato quiz ancla tan bien estos conocimientos, y las [mejores aplicaciones de geografía](/es/blog/mejores-apps-geografia/) extienden el juego a mapas y banderas.
 
 <figure>
   <img src="/images/blog/monde/bibliotheque.jpg" alt="Una antigua biblioteca llena de libros" loading="lazy" />

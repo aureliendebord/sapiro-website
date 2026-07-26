@@ -23,7 +23,7 @@ faqItems:
     answer: "Quelques semaines suffisent si vous révisez par petites séances espacées plutôt qu'en bloc. Une fiche par pays ou par époque, relue à intervalles croissants et testée par quiz, ancre l'essentiel sans y passer des heures."
 ---
 
-Aux concours comme au bac, les monuments reviennent sans prévenir : un nom, une photo, une date à retrouver. Ce n'est pas du par-cœur gratuit, c'est un terrain où quelques repères bien rangés rapportent beaucoup de points. Voici quoi réviser, quoi éviter de confondre, et comment s'y prendre.
+Aux concours comme au bac, les monuments reviennent sans prévenir : un nom, une photo, une date à retrouver. Quelques repères bien rangés rapportent beaucoup de points. Voici quoi réviser, quoi éviter de confondre, et comment s'y prendre.
 
 ## Pourquoi les monuments tombent aux examens
 

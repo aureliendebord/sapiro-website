@@ -11,7 +11,7 @@ author: "SAPIRO"
 readingTime: 5
 ---
 
-The smallest country in Asia is the Maldives, at about 298 km². Asia is the largest continent, yet it holds some of the world's tiniest nations — scattered islands and a couple of city-states. Here is the ranking of the 10 smallest Asian countries by area.
+The smallest country in Asia is the Maldives, at about 298 km². Asia is the largest continent, yet it holds some of the world's tiniest nations: scattered islands and a couple of city-states. Here is the ranking of the 10 smallest Asian countries by area.
 
 ## 1. Maldives (298 km²)
 
@@ -78,7 +78,7 @@ The Maldives is the smallest country in Asia by area, at about 298 km². It is a
 
 ### Is Singapore or the Maldives smaller?
 
-The Maldives (298 km²) is smaller than Singapore (735 km²) by area. Singapore, however, has a far larger population — close to six million against about half a million.
+The Maldives (298 km²) is smaller than Singapore (735 km²) by area. Singapore, however, has a far larger population, close to six million against about half a million.
 
 ### What is the smallest country in the Middle East?
 

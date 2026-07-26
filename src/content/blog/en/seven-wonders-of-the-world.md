@@ -27,7 +27,7 @@ We talk about the "seven wonders of the world" as if it were one fixed list, but
 
 ## The seven wonders of the ancient world
 
-The classic list comes from Greek travellers and scholars who catalogued the most impressive structures of the Mediterranean world. The original Greek word, *theamata*, meant something closer to "things worth seeing" — a kind of guidebook before guidebooks existed. The version that stuck names seven sites.
+The classic list comes from Greek travellers and scholars who catalogued the most impressive structures of the Mediterranean world. The original Greek word, *theamata*, meant something closer to "things worth seeing", a kind of guidebook before guidebooks existed. The version that stuck names seven sites.
 
 - The **Great Pyramid of Giza**, in Egypt. Built around 2560 BC, it rose to nearly 147 metres and remained the tallest human-made structure for almost four thousand years.
 - The **Hanging Gardens of Babylon**, in Mesopotamia, a system of planted terraces. No firm archaeological trace has ever been found, and some historians doubt they existed at all.
@@ -59,7 +59,7 @@ One point is worth stressing: this ranking is in no way official. **UNESCO** mad
 
 The same foundation later ran a vote for the **seven natural wonders of the world**, announced in 2011. Among them: the Amazon rainforest, Ha Long Bay in Vietnam, the Iguazu Falls, Jeju Island, Komodo National Park, the Puerto Princesa Underground River, and Table Mountain in South Africa.
 
-Other rankings have circulated for a long time. People sometimes mention the **wonders of the medieval world**, a late and rather fanciful list that includes the Great Wall, Stonehenge, and the Leaning Tower of Pisa. Engineers, for their part, like to point to the **wonders of modern engineering**: the Panama Canal, the Channel Tunnel, the Hoover Dam. None of these lists carries any authority, but they all say the same thing — every age picks the monuments that fascinate it.
+Other rankings have circulated for a long time. People sometimes mention the **wonders of the medieval world**, a late and rather fanciful list that includes the Great Wall, Stonehenge, and the Leaning Tower of Pisa. Engineers, for their part, like to point to the **wonders of modern engineering**: the Panama Canal, the Channel Tunnel, the Hoover Dam. None of these lists carries any authority, but they all say the same thing: every age picks the monuments that fascinate it.
 
 If you want to remember all this without cramming, the **SAPIRO** app has quizzes on the monuments of the world that turn these seven-plus-seven names into instinct. To dig deeper, read our overview of [ancient monuments](/en/blog/ancient-monuments/) and our pick of [30 famous monuments](/en/blog/famous-monuments-world/). And to test yourself, nothing beats a good [monuments quiz](/en/blog/world-monuments-quiz/). It all lives in our [monuments](/en/monuments/) section.
 
@@ -72,7 +72,7 @@ If you want to remember all this without cramming, the **SAPIRO** app has quizze
 
 ### How many of the ancient wonders are still standing?
 
-Only one. The **Great Pyramid of Giza** is the oldest of the seven and the only one still visible today. The other six were destroyed by earthquakes, fires, or the wear of time, and some — like the Hanging Gardens of Babylon — are known only from ancient written accounts.
+Only one. The **Great Pyramid of Giza** is the oldest of the seven and the only one still visible today. The other six were destroyed by earthquakes, fires, or the wear of time, and some (like the Hanging Gardens of Babylon) are known only from ancient written accounts.
 
 ### Who chose the seven new wonders of the world?
 
@@ -80,7 +80,7 @@ The general public did. The **New7Wonders Foundation**, launched by Swiss filmma
 
 ### Which is the oldest of the seven ancient wonders?
 
-The **Great Pyramid of Giza**, built around 2560 BC. It is by far the oldest on the list, predating later wonders such as the Colossus of Rhodes and the Lighthouse of Alexandria — both built in the Hellenistic period — by more than two thousand years.
+The **Great Pyramid of Giza**, built around 2560 BC. It is by far the oldest on the list, predating later wonders such as the Colossus of Rhodes and the Lighthouse of Alexandria (both built in the Hellenistic period) by more than two thousand years.
 
 ### Are the Sphinx or the Eiffel Tower among the wonders of the world?
 

@@ -50,7 +50,7 @@ El mayor de los seis (316 km²) y el único miembro de pleno derecho de la Unió
 
 ## ¿Cómo sobreviven los microestados?
 
-Tres factores explican su longevidad. **La protección**: la mayoría se apoya en un gran vecino para la defensa y, a menudo, la moneda — Francia para Mónaco, Suiza para Liechtenstein, Italia para San Marino y el Vaticano. **Economías especializadas**: finanzas, turismo, baja fiscalidad y, para el Vaticano, un monopolio espiritual. **La suerte histórica**: varios escaparon a las grandes unificaciones del siglo XIX (Italia, Alemania) y sencillamente nunca fueron absorbidos.
+Tres factores explican su longevidad. **La protección**: la mayoría se apoya en un gran vecino para la defensa y, a menudo, la moneda: Francia para Mónaco, Suiza para Liechtenstein, Italia para San Marino y el Vaticano. **Economías especializadas**: finanzas, turismo, baja fiscalidad y, para el Vaticano, un monopolio espiritual. **La suerte histórica**: varios escaparon a las grandes unificaciones del siglo XIX (Italia, Alemania) y sencillamente nunca fueron absorbidos.
 
 Para el ranking completo, consulta los [países más pequeños de Europa](/es/blog/paises-mas-pequenos-europa/) y los [países más pequeños del mundo](/es/blog/paises-mas-pequenos-mundo/).
 

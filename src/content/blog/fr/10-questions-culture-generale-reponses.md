@@ -15,7 +15,7 @@ readingTime: 6
 
 Dix questions, dix réponses, et tout est visible sur la page. Pas de quiz qui cache la solution derrière un bouton : ici vous lisez la réponse juste en dessous, avec une explication courte pour retenir le « pourquoi ».
 
-Les questions couvrent cinq domaines — géographie, histoire, art, sciences, nature — et montent progressivement en difficulté. Quatre faciles, quatre moyennes, deux pièges. Pour jouer en solo, cachez la ligne du dessous avec la main. Pour une soirée, lisez la question à voix haute et comptez les points.
+Les questions couvrent cinq domaines (géographie, histoire, art, sciences, nature) et montent progressivement en difficulté. Quatre faciles, quatre moyennes, deux pièges. Pour jouer en solo, cachez la ligne du dessous avec la main. Pour une soirée, lisez la question à voix haute et comptez les points.
 
 ## Géographie
 
@@ -33,7 +33,7 @@ Les questions couvrent cinq domaines — géographie, histoire, art, sciences, n
 **4. Qui fut le premier empereur romain ?** *(difficile)*
 **Réponse : [Auguste](https://fr.wikipedia.org/wiki/Auguste)**, né Octave, à partir de 27 av. J.-C. Beaucoup répondent Jules César, mais César n'a jamais porté le titre d'empereur : c'est son fils adoptif qui inaugure l'Empire. Pour ne plus confondre ce genre de figures, voyez notre tour d'horizon des [personnages historiques majeurs](/blog/personnages-historiques/).
 
-Vous séchez déjà ? C'est plutôt bon signe. On retient mieux une réponse qu'on a cherchée avant de la lire — c'est exactement le principe d'une appli de quiz : se tromper, comprendre, retenir.
+Vous séchez déjà ? C'est plutôt bon signe. On retient mieux une réponse qu'on a cherchée avant de la lire. C'est exactement le principe d'une appli de quiz : se tromper, comprendre, retenir.
 
 ## Art
 
@@ -81,7 +81,7 @@ C'est l'idée derrière SAPIRO. L'appli rassemble des centaines de quiz sur la g
 Les classiques tournent autour des capitales (Australie, Brésil, Kazakhstan), des grandes dates (1789, 1945, 1989), des records géographiques (plus long fleuve, plus haut sommet) et des œuvres d'art célèbres comme *La Joconde*. Ce sont des valeurs sûres en quiz comme en entretien.
 
 ### Comment améliorer sa culture générale rapidement ?
-Quinze minutes par jour suffisent si elles sont régulières. Variez les formats — quiz, podcasts, articles de fond — et cherchez tout de suite la réponse quand un mot ou un nom vous échappe. Le test actif, comme un quiz, fait retenir bien plus que la simple relecture.
+Quinze minutes par jour suffisent si elles sont régulières. Variez les formats (quiz, podcasts, articles de fond) et cherchez tout de suite la réponse quand un mot ou un nom vous échappe. Le test actif, comme un quiz, fait retenir bien plus que la simple relecture.
 
 ### Quelle est la question de culture générale la plus difficile ?
 La difficulté est personnelle : tout dépend de vos lacunes. Les questions qui piègent le plus de monde portent souvent sur les capitales méconnues, les premiers empereurs ou les records scientifiques contre-intuitifs, comme la planète la plus chaude.

@@ -72,7 +72,7 @@ Si quieres retener todo esto sin empollar, la aplicación **SAPIRO** ofrece cues
 
 ### ¿Cuántas maravillas del mundo antiguo siguen en pie?
 
-Solo una. La **pirámide de Keops**, en Guiza, es la más antigua de las siete y la única todavía visible hoy. Las otras seis fueron destruidas por terremotos, incendios o el desgaste del tiempo, y algunas —como los jardines colgantes de Babilonia— se conocen únicamente por relatos antiguos.
+Solo una. La **pirámide de Keops**, en Guiza, es la más antigua de las siete y la única todavía visible hoy. Las otras seis fueron destruidas por terremotos, incendios o el desgaste del tiempo, y algunas (como los jardines colgantes de Babilonia) se conocen únicamente por relatos antiguos.
 
 ### ¿Quién eligió las siete nuevas maravillas del mundo?
 

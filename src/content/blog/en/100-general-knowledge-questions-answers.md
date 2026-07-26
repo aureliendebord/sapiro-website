@@ -15,7 +15,7 @@ readingTime: 16
 
 One hundred questions, one hundred visible answers, five fields. The big list to revise thoroughly, prepare a giant quiz, or dip into round after round.
 
-The questions are sorted by theme — geography, history, art and culture, science, nature — with a level marked on each. Count one point per correct answer; the scale is at the bottom. For a shorter format, see our [10](/en/blog/10-general-knowledge-questions-answers/), [20](/en/blog/20-general-knowledge-questions-answers/) or [50 questions](/en/blog/50-general-knowledge-questions-answers/).
+The questions are sorted by theme (geography, history, art and culture, science, nature), with a level marked on each. Count one point per correct answer; the scale is at the bottom. For a shorter format, see our [10](/en/blog/10-general-knowledge-questions-answers/), [20](/en/blog/20-general-knowledge-questions-answers/) or [50 questions](/en/blog/50-general-knowledge-questions-answers/).
 
 ## Geography
 

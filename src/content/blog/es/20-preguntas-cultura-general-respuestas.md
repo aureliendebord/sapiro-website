@@ -15,7 +15,7 @@ readingTime: 6
 
 Veinte preguntas, veinte respuestas a la vista, cinco campos. El formato ideal para ponerte a prueba sin dedicarle toda la tarde: más completo que diez, más rápido que una serie larga.
 
-Cuatro preguntas por campo —geografía, historia, arte y cultura, ciencias, naturaleza— con el nivel indicado en cada una. Cuenta un punto por respuesta correcta; el baremo está al final. ¿Quieres algo más corto o más largo? Mira nuestras [10 preguntas](/es/blog/10-preguntas-cultura-general-respuestas/) o la gran serie de [50 preguntas](/es/blog/50-preguntas-cultura-general-respuestas/).
+Cuatro preguntas por campo (geografía, historia, arte y cultura, ciencias, naturaleza), con el nivel indicado en cada una. Cuenta un punto por respuesta correcta; el baremo está al final. ¿Quieres algo más corto o más largo? Mira nuestras [10 preguntas](/es/blog/10-preguntas-cultura-general-respuestas/) o la gran serie de [50 preguntas](/es/blog/50-preguntas-cultura-general-respuestas/).
 
 ## Geografía
 

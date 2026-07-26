@@ -144,16 +144,16 @@ Puntos débiles: solo geografía, sin contenido cultural ni histórico, catálog
 
 | App | Dominios | Sin publicidad | Privacidad | Explicaciones | Precio |
 |-----|----------|---------------|------------|---------------|--------|
-| **SAPIRO** | Geografía, historia, arte, naturaleza | ✅ Sí | ✅ Sin recopilación de datos | ✅ Sí | Gratis + 1,99 €/mes |
-| **Trivia Crack** | 6 categorías generales | ❌ Mucha publicidad | ❌ Datos vendidos a terceros | ❌ No | Gratis con anuncios |
-| **Kahoot!** | Todas (creadas por usuarios) | ⚠️ Parcial | ⚠️ Recopilación para servicios | ⚠️ Según el creador | 3-19 $/mes |
-| **Quizizz** | Todas (creadas por profesores) | ⚠️ Parcial | ⚠️ Recopilación para servicios | ⚠️ Según el creador | 5-10 $/mes |
-| **Erudite** | Varias categorías | ❌ Publicidad inadecuada | ⚠️ Datos publicitarios | ❌ No | Gratis con anuncios |
-| **Quiz Sans Fin** | Cultura general | ❌ Publicidad | ⚠️ No detallada | ⚠️ Vía Wikipedia | Gratis con anuncios |
-| **GeoGuessr** | Solo geografía | ⚠️ Versión Pro | ✅ Correcta | ❌ No | 3,99 €/mes |
-| **Seterra** | Solo geografía | ⚠️ Versión premium | ⚠️ Publicidad con rastreo | ❌ No | Gratis / premium |
-| **QuizDuel** | Varias categorías | ❌ Publicidad | ⚠️ Datos publicitarios | ❌ No | Gratis con anuncios |
-| **StudyGe** | Solo geografía | ⚠️ Versión premium | ⚠️ No detallada | ❌ No | 4,99 €/año |
+| **SAPIRO** | Geografía, historia, arte, naturaleza | Sí | Sin recopilación de datos | Sí | Gratis + 1,99 €/mes |
+| **Trivia Crack** | 6 categorías generales | Mucha publicidad | Datos vendidos a terceros | No | Gratis con anuncios |
+| **Kahoot!** | Todas (creadas por usuarios) | Parcial | Recopilación para servicios | Según el creador | 3-19 $/mes |
+| **Quizizz** | Todas (creadas por profesores) | Parcial | Recopilación para servicios | Según el creador | 5-10 $/mes |
+| **Erudite** | Varias categorías | Publicidad inadecuada | Datos publicitarios | No | Gratis con anuncios |
+| **Quiz Sans Fin** | Cultura general | Publicidad | No detallada | Vía Wikipedia | Gratis con anuncios |
+| **GeoGuessr** | Solo geografía | Versión Pro | Correcta | No | 3,99 €/mes |
+| **Seterra** | Solo geografía | Versión premium | Publicidad con rastreo | No | Gratis / premium |
+| **QuizDuel** | Varias categorías | Publicidad | Datos publicitarios | No | Gratis con anuncios |
+| **StudyGe** | Solo geografía | Versión premium | No detallada | No | 4,99 €/año |
 
 ## Nuestro veredicto
 

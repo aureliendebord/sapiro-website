@@ -63,7 +63,7 @@ Three words, three realities. The **fortified castle** is a military work of the
 
 The **pleasure castle** appears once gunpowder makes fortifications obsolete. The residence then opens outward: large windows, gardens, ceremonial staircases. Chambord and Chenonceau are the perfect examples.
 
-The **palace**, finally, is by definition an urban and princely residence with no defensive role. The word comes from the Palatine Hill in Rome, where the emperors lived. Buckingham, Schönbrunn and Topkapi are palaces, not castles. English usage stays loose — we still say "Versailles château" even though it is technically a palace — but the root distinction holds: a castle protects, a palace impresses.
+The **palace**, finally, is by definition an urban and princely residence with no defensive role. The word comes from the Palatine Hill in Rome, where the emperors lived. Buckingham, Schönbrunn and Topkapi are palaces, not castles. English usage stays loose (we still say "Versailles château" even though it is technically a palace), but the root distinction holds: a castle protects, a palace impresses.
 
 To turn all these names into instant recall, the **SAPIRO** app offers quizzes on the world's monuments that train your memory without rote learning. To go further, read our tour of [France's monuments](/en/blog/france-monuments/), our walk through the [monuments of Paris](/en/blog/paris-monuments/) and our selection of [UNESCO World Heritage Sites](/en/blog/unesco-world-heritage-sites/). It all sits in the [monuments](/en/monuments/) section.
 

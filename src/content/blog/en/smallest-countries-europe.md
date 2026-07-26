@@ -11,7 +11,7 @@ author: "SAPIRO"
 readingTime: 5
 ---
 
-The smallest country in Europe is Vatican City, at just 0.49 km². Europe packs an unusual number of tiny states — four of the ten smallest countries in the world are here. Below is the ranking of the 10 smallest European countries by area, from the Vatican to Montenegro.
+The smallest country in Europe is Vatican City, at just 0.49 km². Europe packs an unusual number of tiny states: four of the ten smallest countries in the world are here. Below is the ranking of the 10 smallest European countries by area, from the Vatican to Montenegro.
 
 ## 1. Vatican City (0.49 km²)
 

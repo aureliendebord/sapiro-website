@@ -128,4 +128,4 @@ Le plus petit pays d'Europe est le Vatican (0,49 km²). En Asie, ce sont les Mal
 
 ### Combien de pays font moins de 1 000 km² ?
 
-Plus d'une vingtaine d'États souverains font moins de 1 000 km² — pour la plupart des îles des Caraïbes et du Pacifique, auxquelles s'ajoutent les micro-États européens (Vatican, Monaco, Saint-Marin, Liechtenstein).
+Plus d'une vingtaine d'États souverains font moins de 1 000 km², pour la plupart des îles des Caraïbes et du Pacifique, auxquelles s'ajoutent les micro-États européens (Vatican, Monaco, Saint-Marin, Liechtenstein).

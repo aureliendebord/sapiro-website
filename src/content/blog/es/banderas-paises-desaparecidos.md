@@ -74,7 +74,7 @@ Para profundizar, lee sobre los [países que ya no existen](/es/blog/paises-desa
 
 ### ¿Qué pasa con la bandera de un país cuando desaparece?
 
-Cuando un Estado deja de existir, su bandera suele retirarse. A veces un sucesor la conserva —la República Checa mantuvo la bandera checoslovaca— y a veces pervive con las comunidades en el exilio, como con Vietnam del Sur o el Tíbet.
+Cuando un Estado deja de existir, su bandera suele retirarse. A veces un sucesor la conserva (la República Checa mantuvo la bandera checoslovaca) y a veces pervive con las comunidades en el exilio, como con Vietnam del Sur o el Tíbet.
 
 ### ¿Cuál era la bandera de la Unión Soviética?
 
@@ -86,4 +86,4 @@ Varias se siguen ondeando. La estrella solitaria de la República de Texas se co
 
 ### ¿Por qué desapareció la bandera yugoslava?
 
-La bandera yugoslava desapareció porque el propio país se fragmentó durante las guerras de los años 1990. Cada Estado sucesor —Eslovenia, Croacia, Bosnia, Serbia, Montenegro, Macedonia del Norte y Kosovo— adoptó su propia bandera.
+La bandera yugoslava desapareció porque el propio país se fragmentó durante las guerras de los años 1990. Cada Estado sucesor (Eslovenia, Croacia, Bosnia, Serbia, Montenegro, Macedonia del Norte y Kosovo) adoptó su propia bandera.

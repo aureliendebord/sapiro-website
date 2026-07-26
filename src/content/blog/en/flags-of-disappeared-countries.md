@@ -11,7 +11,7 @@ author: "SAPIRO"
 readingTime: 6
 ---
 
-Some of history's most recognisable flags belong to countries that no longer exist. When a state collapses, splits or is absorbed, its banner usually vanishes with it — but often stays famous for decades. Here are 10 flags of countries that have disappeared, and the story of each.
+Some of history's most recognisable flags belong to countries that no longer exist. When a state collapses, splits or is absorbed, its banner usually vanishes with it, but often stays famous for decades. Here are 10 flags of countries that have disappeared, and the story of each.
 
 ## 1. Soviet Union (1922–1991)
 
@@ -23,7 +23,7 @@ A blue-white-red horizontal tricolour, later with a red star in the centre for t
 
 ## 3. East Germany (1949–1990)
 
-The black-red-gold tricolour of Germany, but charged with the socialist state emblem — a hammer and compass within a ring of rye. It vanished with German reunification in October 1990.
+The black-red-gold tricolour of Germany, but charged with the socialist state emblem: a hammer and compass within a ring of rye. It vanished with German reunification in October 1990.
 
 ## 4. Czechoslovakia (1918–1992)
 
@@ -47,7 +47,7 @@ The dual monarchy used combined imperial and royal arms rather than a single sim
 
 ## 9. Republic of Texas (1836–1845)
 
-The famous "Lone Star" flag: a blue vertical band with a single white star, beside white and red horizontal bars. Texas joined the United States in 1845 — but kept the flag, which is now its state banner.
+The famous "Lone Star" flag: a blue vertical band with a single white star, beside white and red horizontal bars. Texas joined the United States in 1845, but kept the flag, which is now its state banner.
 
 ## 10. Tibet (used until 1951)
 
@@ -74,7 +74,7 @@ To go further, read about the [countries that no longer exist](/en/blog/countrie
 
 ### What happens to a country's flag when it disappears?
 
-When a state ceases to exist, its flag is usually retired. Sometimes a successor keeps it — the Czech Republic kept the Czechoslovak flag — and sometimes it lives on with communities in exile, as with South Vietnam or Tibet.
+When a state ceases to exist, its flag is usually retired. Sometimes a successor keeps it (the Czech Republic kept the Czechoslovak flag), and sometimes it lives on with communities in exile, as with South Vietnam or Tibet.
 
 ### What was the flag of the Soviet Union?
 
@@ -86,4 +86,4 @@ Several are still flown. The Lone Star of the Republic of Texas became the US st
 
 ### Why did the Yugoslav flag disappear?
 
-The Yugoslav flag disappeared because the country itself broke apart during the wars of the 1990s. Each successor state — Slovenia, Croatia, Bosnia, Serbia, Montenegro, North Macedonia and Kosovo — adopted its own flag.
+The Yugoslav flag disappeared because the country itself broke apart during the wars of the 1990s. Each successor state (Slovenia, Croatia, Bosnia, Serbia, Montenegro, North Macedonia and Kosovo) adopted its own flag.

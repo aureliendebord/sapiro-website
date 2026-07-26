@@ -50,7 +50,7 @@ Le plus grand des six (316 km²) et le seul membre à part entière de l'Union e
 
 ## Comment les micro-États survivent-ils ?
 
-Trois facteurs expliquent leur longévité. **La protection** : la plupart s'appuient sur un grand voisin pour la défense et, souvent, la monnaie — la France pour Monaco, la Suisse pour le Liechtenstein, l'Italie pour Saint-Marin et le Vatican. **Des économies spécialisées** : finance, tourisme, fiscalité faible et, pour le Vatican, un monopole spirituel. **La chance historique** : plusieurs ont échappé aux grandes unifications du XIXe siècle (Italie, Allemagne) et n'ont tout simplement jamais été absorbés.
+Trois facteurs expliquent leur longévité. **La protection** : la plupart s'appuient sur un grand voisin pour la défense et, souvent, la monnaie : la France pour Monaco, la Suisse pour le Liechtenstein, l'Italie pour Saint-Marin et le Vatican. **Des économies spécialisées** : finance, tourisme, fiscalité faible et, pour le Vatican, un monopole spirituel. **La chance historique** : plusieurs ont échappé aux grandes unifications du XIXe siècle (Italie, Allemagne) et n'ont tout simplement jamais été absorbés.
 
 Pour le classement complet, voir les [plus petits pays d'Europe](/blog/plus-petits-pays-europe/) et les [plus petits pays du monde](/blog/plus-petits-pays-monde/).
 

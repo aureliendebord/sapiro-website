@@ -86,11 +86,11 @@ Le contexte géographique, enfin, tranche les cas douteux. Un temple entouré de
 
 Réviser au hasard ne mène nulle part. Une méthode en trois temps donne de bien meilleurs résultats.
 
-Procède par continent. Plutôt que d'avaler une liste mondiale en vrac, attaque l'Europe, puis l'Asie, puis l'Amérique, et ainsi de suite. Ton cerveau retient mieux ce qui est rangé. Tu peux suivre cette logique avec les [sept merveilles du monde](/blog/merveilles-du-monde/), qui offrent un premier socle de repères incontournables.
+Procède par continent. Plutôt que d'avaler une liste mondiale en vrac, attaque l'Europe, puis l'Asie, puis l'Amérique, et ainsi de suite. Ton cerveau retient mieux ce qui est rangé. Tu peux suivre cette logique avec les [sept merveilles du monde](/blog/merveilles-du-monde/), qui offrent un premier socle de repères.
 
 Fabrique des fiches courtes. Pour chaque monument : nom, lieu, époque approximative, un détail mémorable. Le détail est la clé de la mémorisation. « Plus grand monument religieux du monde » colle à Angkor Vat bien mieux qu'une fiche surchargée.
 
-Teste-toi souvent. Relire passivement donne l'illusion de savoir ; se tester révèle les vrais trous. C'est là qu'une appli de quiz prend tout son sens. **SAPIRO** propose des quiz de culture générale, dont une catégorie consacrée aux monuments, avec une explication après chaque réponse — utile pour comprendre une erreur au lieu de la subir. Quelques minutes par jour ancrent les repères mieux qu'une longue session avant un concours. Si tu vises justement un examen, notre sélection de [monuments pour les concours](/blog/monuments-culture-generale-concours/) cible les sites les plus fréquemment demandés. Et pour explorer le sujet en entier, tout part de notre [page monuments](/monuments/).
+Teste-toi souvent. Relire passivement donne l'illusion de savoir ; se tester révèle les vrais trous. C'est là qu'une appli de quiz prend tout son sens. **SAPIRO** propose des quiz de culture générale, dont une catégorie consacrée aux monuments, avec une explication après chaque réponse, de quoi comprendre une erreur au lieu de la subir. Quelques minutes par jour ancrent les repères mieux qu'une longue session avant un concours. Si tu vises justement un examen, notre sélection de [monuments pour les concours](/blog/monuments-culture-generale-concours/) cible les sites les plus fréquemment demandés. Et pour explorer le sujet en entier, tout part de notre [page monuments](/monuments/).
 
 <figure>
   <img src="/images/blog/monuments/tour-eiffel.jpg" alt="La tour Eiffel à Paris" loading="lazy" />

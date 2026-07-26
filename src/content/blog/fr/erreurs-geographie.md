@@ -14,9 +14,9 @@ author: "SAPIRO"
 readingTime: 7
 ---
 
-Quelle est la capitale de l'Australie ? Si vous avez répondu Sydney, vous n'êtes pas seul — c'est la réponse la plus fréquente, et elle est fausse. Les erreurs de géographie courantes touchent tout le monde, même les personnes les plus cultivées. Certaines idées reçues sont tellement répandues qu'on ne pense même pas à les vérifier.
+Quelle est la capitale de l'Australie ? Si vous avez répondu Sydney, vous n'êtes pas seul : c'est la réponse la plus fréquente, et elle est fausse. Les erreurs de géographie courantes touchent tout le monde, même les personnes les plus cultivées. Certaines idées reçues sont tellement répandues qu'on ne pense même pas à les vérifier.
 
-Voici les 12 erreurs qui reviennent le plus souvent -- et surtout, de quoi les corriger une bonne fois pour toutes.
+Voici les 12 erreurs qui reviennent le plus souvent, et surtout de quoi les corriger une bonne fois pour toutes.
 
 ## 1. Croire que Sydney est la capitale de l'Australie
 
@@ -58,7 +58,7 @@ La définition même du nombre de continents varie selon les pays et les traditi
 
 Le monde regorge de drapeaux quasi-identiques. Quelques exemples qui font trébucher tout le monde :
 
-L'Indonésie et Monaco partagent le même drapeau -- rouge en haut, blanc en bas -- avec pour seule différence de légères variations de proportions. Cette ressemblance a même provoqué des incidents diplomatiques. La Roumanie et le Tchad ? Bleu, jaune, rouge en bandes verticales. La différence tient à une nuance de bleu presque imperceptible.
+L'Indonésie et Monaco partagent le même drapeau (rouge en haut, blanc en bas), avec pour seule différence de légères variations de proportions. Cette ressemblance a même provoqué des incidents diplomatiques. La Roumanie et le Tchad ? Bleu, jaune, rouge en bandes verticales. La différence tient à une nuance de bleu presque imperceptible.
 
 L'Irlande et la Côte d'Ivoire, c'est le jeu du miroir : vert, blanc, orange d'un côté ; orange, blanc, vert de l'autre. Quant aux Pays-Bas et au Luxembourg, ils arborent tous les deux du rouge, du blanc et du bleu en bandes horizontales, avec un bleu légèrement différent.
 
@@ -80,7 +80,7 @@ Le Groenland mesure environ 2,16 millions de km carré, ce qui en fait la plus g
 
 ## 10. Croire que le Moyen-Orient est en Afrique
 
-Le Moyen-Orient est une région qui chevauche l'Asie et, dans une moindre mesure, l'Afrique (avec l'Égypte). Mais la majorité des pays du Moyen-Orient -- l'Arabie saoudite, l'Iran, l'Irak, la Syrie, la Jordanie, le Liban, Israël, les Émirats arabes unis -- se trouvent en Asie.
+Le Moyen-Orient est une région qui chevauche l'Asie et, dans une moindre mesure, l'Afrique (avec l'Égypte). Mais la majorité des pays du Moyen-Orient (l'Arabie saoudite, l'Iran, l'Irak, la Syrie, la Jordanie, le Liban, Israël, les Émirats arabes unis) se trouvent en Asie.
 
 D'où vient cette confusion ? Probablement du fait que le Moyen-Orient est souvent traité séparément dans les médias et les manuels scolaires, ce qui donne l'impression qu'il constitue une entité géographique indépendante. Géographie politique et géographie physique ne coïncident pas toujours, et c'est ce qui rend les choses confuses.
 
@@ -88,19 +88,19 @@ D'où vient cette confusion ? Probablement du fait que le Moyen-Orient est souve
 
 On classe souvent la Russie comme un pays européen, et c'est vrai pour sa partie occidentale où se trouvent Moscou et Saint-Pétersbourg. Mais la majeure partie du territoire russe se situe en Asie, au-delà de l'Oural.
 
-Un chiffre suffit à donner le vertige : 11 fuseaux horaires. Du Kaliningrad (enclave entre la Pologne et la Lituanie) au Kamtchatka (près du Japon). Avec 17,1 millions de km carré, la Russie est le plus grand pays du monde — presque deux fois la taille du Canada. La Sibérie représente environ 77 % du territoire mais n'abrite que 27 % de la population. La Turquie et le Kazakhstan sont deux autres exemples de pays à cheval sur deux continents.
+Un chiffre suffit à donner le vertige : 11 fuseaux horaires. Du Kaliningrad (enclave entre la Pologne et la Lituanie) au Kamtchatka (près du Japon). Avec 17,1 millions de km carré, la Russie est le plus grand pays du monde, presque deux fois la taille du Canada. La Sibérie représente environ 77 % du territoire mais n'abrite que 27 % de la population. La Turquie et le Kazakhstan sont deux autres exemples de pays à cheval sur deux continents.
 
 ## 12. Penser que tous les pays africains sont petits
 
 L'Afrique compte 54 pays, et si certains sont effectivement de petite taille, d'autres sont immenses. L'Algérie est le plus grand pays d'Afrique et le dixième plus grand du monde, avec 2,38 millions de km carré. La République démocratique du Congo est plus grande que l'Europe occidentale. Le Soudan, la Libye et le Tchad figurent aussi parmi les plus grands pays de la planète.
 
-Cette erreur de perception vient de la projection cartographique déjà évoquée, mais aussi d'un manque de familiarité avec le continent. L'Afrique est d'une diversité extraordinaire -- taille, cultures, climats, paysages -- et la réduire à un ensemble de petits pays est une caricature qui ne résiste pas à deux minutes de vérification sur une carte.
+Cette erreur de perception vient de la projection cartographique déjà évoquée, mais aussi d'un manque de familiarité avec le continent. L'Afrique est d'une diversité extraordinaire (taille, cultures, climats, paysages), et la réduire à un ensemble de petits pays est une caricature qui ne résiste pas à deux minutes de vérification sur une carte.
 
 ## Comment corriger ses erreurs de géographie ?
 
 Ces erreurs ne sont pas une fatalité. Quelques habitudes simples suffisent.
 
-Faites des quiz réguliers, même courts. Cinq minutes par jour valent mieux qu'une heure par mois. La [répétition espacée et le rappel actif](/blog/gamification-education/) sont les deux piliers de la mémorisation durable. Manipulez des cartes interactives plutôt que de simplement les regarder -- ça renforce la mémoire spatiale bien plus efficacement. Et si les drapeaux vous intéressent aussi, découvrez les [drapeaux les plus difficiles à reconnaître](/blog/drapeaux-difficiles/).
+Faites des quiz réguliers, même courts. Cinq minutes par jour valent mieux qu'une heure par mois. La [répétition espacée et le rappel actif](/blog/gamification-education/) sont les deux piliers de la mémorisation durable. Manipulez des cartes interactives plutôt que de simplement les regarder : ça renforce la mémoire spatiale bien plus efficacement. Et si les drapeaux vous intéressent aussi, découvrez les [drapeaux les plus difficiles à reconnaître](/blog/drapeaux-difficiles/).
 
 Quand un pays passe aux infos, localisez-le immédiatement sur une carte. Organisez une [soirée quiz géographie](/blog/geographie-famille/) avec vos proches : on retient mieux quand on apprend en s'amusant. Et surtout, inventez vos propres moyens mnémotechniques. Les associations les plus absurdes sont souvent celles qui collent le mieux.
 
@@ -125,4 +125,4 @@ Oui, considérablement. La [projection de Mercator](https://fr.wikipedia.org/wik
 
 ## Testez vos connaissances avec SAPIRO
 
-Si vous avez tiqué sur plusieurs de ces erreurs, c'est le bon moment pour consolider vos bases. SAPIRO propose des quiz géographie — capitales, drapeaux, localisation — avec une explication après chaque réponse. Le système adapte la difficulté et suit votre progression, pour que ces confusions classiques ne vous piègent plus.
+Si vous avez tiqué sur plusieurs de ces erreurs, c'est le bon moment pour consolider vos bases. SAPIRO propose des quiz géographie (capitales, drapeaux, localisation) avec une explication après chaque réponse. Le système adapte la difficulté et suit votre progression, pour que ces confusions classiques ne vous piègent plus.

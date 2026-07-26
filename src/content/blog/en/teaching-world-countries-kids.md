@@ -14,7 +14,7 @@ author: "SAPIRO"
 readingTime: 6
 ---
 
-Teaching world countries to a child is not a cramming affair. It is patient work that starts early, in small touches, turning natural curiosity into solid knowledge. Here is how to do it by age range.
+Teaching world countries to a child is patient work that starts early, in small touches, turning natural curiosity into solid knowledge. Here is how to do it by age range.
 
 ## 3 to 5 years: continents
 

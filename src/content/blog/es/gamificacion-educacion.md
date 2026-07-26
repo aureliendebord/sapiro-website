@@ -14,11 +14,11 @@ author: "SAPIRO"
 readingTime: 7
 ---
 
-Un niño retiene los nombres de 150 Pokémon, sus tipos, sus evoluciones, sus debilidades. El mismo niño se queda en blanco con los 50 países de Europa. Un adulto domina las reglas complejas de su videojuego favorito pero olvida el contenido de su curso nocturno. El problema no es la inteligencia ni la memoria — es el diseño. La gamificación en la educación parte de una constatación simple: los juegos están diseñados para captar la atención y anclar las informaciones. Las clases, a menudo, no. Y entre las herramientas de la gamificación, los quiz son particularmente eficaces. He visto a un alumno de secundaria incapaz de citar cinco capitales africanas desbloquear la insignia "Experto África" en tres semanas en una app de quiz. Mismo cerebro, misma memoria — método diferente. Aquí va por qué funciona, con la ciencia como respaldo.
+Un niño retiene los nombres de 150 Pokémon, sus tipos, sus evoluciones, sus debilidades. El mismo niño se queda en blanco con los 50 países de Europa. Un adulto domina las reglas complejas de su videojuego favorito pero olvida el contenido de su curso nocturno. El problema es el diseño, no la inteligencia ni la memoria. La gamificación en la educación parte de una constatación simple: los juegos están diseñados para captar la atención y anclar las informaciones. Las clases, a menudo, no. Y entre las herramientas de la gamificación, los quiz son particularmente eficaces. He visto a un alumno de secundaria incapaz de citar cinco capitales africanas desbloquear la insignia "Experto África" en tres semanas en una app de quiz. Mismo cerebro, misma memoria, método diferente. Aquí va por qué funciona, con la ciencia como respaldo.
 
 ## ¿Qué es la gamificación en educación?
 
-La gamificación es la aplicación de mecánicas de juego — puntos, niveles, insignias, clasificaciones, desafíos — en contextos que no son juegos. La educación en cabeza. La verdadera gamificación va mucho más allá de un envoltorio colorido sobre un ejercicio aburrido. Toca los mecanismos profundos de la motivación: activa los circuitos de recompensa del cerebro y reestructura la experiencia de aprendizaje.
+La gamificación es la aplicación de mecánicas de juego (puntos, niveles, insignias, clasificaciones, desafíos) en contextos que no son juegos. La educación en cabeza. La verdadera gamificación va mucho más allá de un envoltorio colorido sobre un ejercicio aburrido. Toca los mecanismos profundos de la motivación: activa los circuitos de recompensa del cerebro y reestructura la experiencia de aprendizaje.
 
 El concepto viene de los años 1980 en el mundo empresarial (programas de fidelización, por ejemplo), pero es lo digital lo que lo hizo explotar en la educación. Aplicaciones, plataformas de e-learning, quiz en línea: la gamificación pedagógica se ha hecho accesible para todos, desde niños de cinco años hasta adultos en formación continua.
 
@@ -26,7 +26,7 @@ Un punto a tener en cuenta: añadir un envoltorio lúdico a un contenido plano n
 
 ## ¿Por qué los quiz ayudan a retener mejor?
 
-El recuerdo activo — "active recall" en inglés — es el motor que explica por qué los quiz funcionan. El principio es simple: en vez de releer una información, hay que recuperarla de la memoria. Ese esfuerzo de recuperación, incluso cuando falla, refuerza la huella en la memoria.
+El recuerdo activo ("active recall" en inglés) es el motor que explica por qué los quiz funcionan. El principio es simple: en vez de releer una información, hay que recuperarla de la memoria. Ese esfuerzo de recuperación, incluso cuando falla, refuerza la huella en la memoria.
 
 En 2006, los investigadores Roediger y Karpicke publicaron un estudio en Psychological Science que marcó época. Dos grupos de estudiantes. El primero releía un texto varias veces. El segundo lo leía una vez y después se ponía a prueba regularmente. Una semana después, el grupo "prueba" retenía un 50% más que el grupo "relectura". Este resultado se ha reproducido en decenas de estudios desde entonces. Se llama el "testing effect".
 
@@ -50,7 +50,7 @@ Recuerdo activo más repetición espaciada: es la combinación que los investiga
 
 La gamificación educativa retoma este principio. En un quiz bien diseñado, cada respuesta correcta se acompaña de un retorno inmediato: un sonido, puntos que suben, una barra de progreso que avanza. Ese feedback instantáneo cuenta enormemente. Las investigaciones en psicología del aprendizaje muestran que cuanto más rápido es el retorno tras una acción, más sólido es el aprendizaje.
 
-Pero la dopamina responde también a la novedad y a la imprevisibilidad. Un quiz que plantea las mismas preguntas en el mismo orden se agota rápido. Los mejores quiz aleatorizan las preguntas, varían los formatos — tipo test, verdadero/falso, asociación — e introducen regularmente contenido nuevo. El efecto sorpresa mantiene la motivación.
+Pero la dopamina responde también a la novedad y a la imprevisibilidad. Un quiz que plantea las mismas preguntas en el mismo orden se agota rápido. Los mejores quiz aleatorizan las preguntas, varían los formatos (tipo test, verdadero/falso, asociación) e introducen regularmente contenido nuevo. El efecto sorpresa mantiene la motivación.
 
 ## Insignias, niveles y clasificaciones: los pilares del compromiso
 
@@ -60,7 +60,7 @@ Las insignias y trofeos responden a una necesidad humana fundamental: el reconoc
 
 Los niveles dan una dirección. Empezar en el nivel 1 con los países más conocidos, progresar hacia niveles donde las preguntas se complican: eso estructura el recorrido y da la sensación de avanzar. El psicólogo Robert Bjork habla de "dificultad deseable": el reto debe ser bastante difícil para estimular, pero no tanto como para desanimar.
 
-Las clasificaciones explotan nuestra naturaleza social. Medirse con los demás — incluso amistosamente — es un motor de motivación potente. Clasificaciones semanales, retos entre amigos, torneos en línea: el aprendizaje solitario se convierte en una experiencia compartida. Para los niños, esta dimensión es particularmente fuerte, como describe nuestro artículo sobre [los métodos lúdicos para enseñar geografía](/es/blog/geografia-ninos/).
+Las clasificaciones explotan nuestra naturaleza social. Medirse con los demás, incluso amistosamente, es un motor de motivación potente. Clasificaciones semanales, retos entre amigos, torneos en línea: el aprendizaje solitario se convierte en una experiencia compartida. Para los niños, esta dimensión es particularmente fuerte, como describe nuestro artículo sobre [los métodos lúdicos para enseñar geografía](/es/blog/geografia-ninos/).
 
 Las rachas (streaks) juegan con el compromiso diario. Mantener una serie de días consecutivos de práctica crea un hábito y la motivación de no "romper la cadena". Un mecanismo simple, pero que funciona.
 
@@ -113,7 +113,7 @@ El riesgo existe si el sistema no está bien concebido. Las mejores aplicaciones
 
 ## Cómo SAPIRO aplica estos principios
 
-Todo lo que acabamos de describir — recuerdo activo, repetición espaciada, feedback inmediato — SAPIRO lo integra en cada sesión de quiz. El algoritmo adapta la frecuencia de las preguntas a tu nivel: lo que dominas se espacia, lo que se te escapa vuelve más rápido.
+Todo lo que acabamos de describir (recuerdo activo, repetición espaciada, feedback inmediato) SAPIRO lo integra en cada sesión de quiz. El algoritmo adapta la frecuencia de las preguntas a tu nivel: lo que dominas se espacia, lo que se te escapa vuelve más rápido.
 
 En cuanto a motivación, las mecánicas están ahí sin ser invasivas: niveles por desbloquear, insignias temáticas, retos diarios y clasificación entre amigos. Y cada error se acompaña de una explicación, porque entender por qué te has equivocado vale tanto como la respuesta correcta en sí.
 

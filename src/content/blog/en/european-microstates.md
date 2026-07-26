@@ -11,7 +11,7 @@ author: "SAPIRO"
 readingTime: 6
 ---
 
-The microstates of Europe are the six smallest sovereign states of the continent: Vatican City, Monaco, San Marino, Liechtenstein, Andorra and Malta. Together they cover less land than a single large city, yet each is fully independent, with its own government, laws and — in most cases — a history stretching back centuries. Here is who they are and how they survive.
+The microstates of Europe are the six smallest sovereign states of the continent: Vatican City, Monaco, San Marino, Liechtenstein, Andorra and Malta. Together they cover less land than a single large city, yet each is fully independent, with its own government, laws and, in most cases, a history stretching back centuries. Here is who they are and how they survive.
 
 ## 1. Vatican City
 
@@ -50,7 +50,7 @@ The largest of the six (316 km²) and the only one that is a full member of the 
 
 ## How do microstates survive?
 
-Three factors explain their endurance. **Protection**: most rely on a larger neighbour for defence and, often, currency — France for Monaco, Switzerland for Liechtenstein, Italy for San Marino and the Vatican. **Specialised economies**: finance, tourism, low taxes and, for the Vatican, a spiritual monopoly. **Historical luck**: several slipped through the great unifications of the 19th century (Italy, Germany) and were simply never absorbed.
+Three factors explain their endurance. **Protection**: most rely on a larger neighbour for defence and, often, currency: France for Monaco, Switzerland for Liechtenstein, Italy for San Marino and the Vatican. **Specialised economies**: finance, tourism, low taxes and, for the Vatican, a spiritual monopoly. **Historical luck**: several slipped through the great unifications of the 19th century (Italy, Germany) and were simply never absorbed.
 
 For the wider ranking, see the [smallest countries in Europe](/en/blog/smallest-countries-europe/) and the [smallest countries in the world](/en/blog/smallest-countries-world/).
 

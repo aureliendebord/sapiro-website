@@ -70,7 +70,7 @@ Pour une [soirée quiz géographie en famille](/blog/geographie-famille/), Stack
 
 ## 8. Google Earth, pour explorer
 
-Google Earth n'appartient pas vraiment à la même catégorie. Ce n'est pas un quiz, c'est un outil d'exploration. Images satellites haute résolution, vues 3D, visites thématiques via Voyager, mesure de distances. Gratuit, sur toutes les plateformes.
+Google Earth n'appartient pas vraiment à la même catégorie. C'est un outil d'exploration. Images satellites haute résolution, vues 3D, visites thématiques via Voyager, mesure de distances. Gratuit, sur toutes les plateformes.
 
 Le piège : sans objectif précis, on passe une heure à survoler la Patagonie et on n'en retient rien. L'intérêt apparaît quand on l'utilise en binôme avec une app de quiz : quand on découvre un pays via SAPIRO ou Seterra, on va le regarder de haut sur Google Earth, et ça fixe beaucoup mieux l'info.
 

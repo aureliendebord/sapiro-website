@@ -128,4 +128,4 @@ The smallest country in Europe is Vatican City (0.49 km²). In Asia it is the Ma
 
 ### How many countries are smaller than 1,000 km²?
 
-More than twenty sovereign states are smaller than 1,000 km² — most of them island nations in the Caribbean and the Pacific, plus the European microstates (Vatican, Monaco, San Marino, Liechtenstein).
+More than twenty sovereign states are smaller than 1,000 km², most of them island nations in the Caribbean and the Pacific, plus the European microstates (Vatican, Monaco, San Marino, Liechtenstein).

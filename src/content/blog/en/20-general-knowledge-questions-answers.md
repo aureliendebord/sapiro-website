@@ -15,7 +15,7 @@ readingTime: 6
 
 Twenty questions, twenty visible answers, five fields. The right format to test yourself without spending all evening on it: fuller than ten, faster than a long set.
 
-Four questions per field — geography, history, art and culture, science, nature — with the level marked on each. Count one point per correct answer; the scale is at the bottom of the page. Want shorter or longer? See our [10 questions](/en/blog/10-general-knowledge-questions-answers/) or the big set of [50 questions](/en/blog/50-general-knowledge-questions-answers/).
+Four questions per field (geography, history, art and culture, science, nature), with the level marked on each. Count one point per correct answer; the scale is at the bottom of the page. Want shorter or longer? See our [10 questions](/en/blog/10-general-knowledge-questions-answers/) or the big set of [50 questions](/en/blog/50-general-knowledge-questions-answers/).
 
 ## Geography
 

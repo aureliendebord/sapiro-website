@@ -14,7 +14,7 @@ author: "SAPIRO"
 readingTime: 8
 ---
 
-Pide a un niño que señale Francia en un mapa del mundo. No está seguro. Pídele que localice el país de su dibujo animado favorito. Te señala Japón sin dudar. El problema rara vez es de memoria. Aprender geografía para niños, tal como se suele enseñar — listas de capitales, ríos que memorizar, mapas mudos que rellenar — aburre a la mayoría. Sin embargo, es una materia que habla del mundo real, de personas, paisajes, culturas. Investigaciones en ciencias de la educación muestran que los niños que aprenden mediante el juego retienen bastante mejor la información que con una enseñanza clásica. El reto es hacer la geografía viva. Aquí van 10 métodos que funcionan, probados por padres y profesores, para niños de 5 a 12 años.
+Pide a un niño que señale Francia en un mapa del mundo. No está seguro. Pídele que localice el país de su dibujo animado favorito. Te señala Japón sin dudar. El problema rara vez es de memoria. Aprender geografía para niños, tal como se suele enseñar (listas de capitales, ríos que memorizar, mapas mudos que rellenar), aburre a la mayoría. Sin embargo, es una materia que habla del mundo real, de personas, paisajes, culturas. Investigaciones en ciencias de la educación muestran que los niños que aprenden mediante el juego retienen bastante mejor la información que con una enseñanza clásica. El reto es hacer la geografía viva. Aquí van 10 métodos que funcionan, probados por padres y profesores, para niños de 5 a 12 años.
 
 ## 1. Puzzles de mapas y globos interactivos
 
@@ -22,7 +22,7 @@ Para los niños pequeños, nada reemplaza la manipulación. Los puzzles de mapas
 
 Para los mayores (8-12 años), los globos interactivos hacen maravillas. Un toque de puntero sobre un país y el niño oye el nombre de la capital, la lengua hablada, la población, a veces incluso el himno nacional. La exploración se convierte en un juego autónomo, sin consigna que seguir.
 
-Un consejo concreto: cuelga un gran mapa del mundo en la habitación o el aula. La simple exposición repetida ayuda a la memoria, incluso cuando el niño no mira activamente el mapa. Y cada vez que se mencione un país — en las noticias, en un libro, en una conversación — localizadlo juntos. Ese pequeño gesto, repetido, construye una familiaridad geográfica que se acumula.
+Un consejo concreto: cuelga un gran mapa del mundo en la habitación o el aula. La simple exposición repetida ayuda a la memoria, incluso cuando el niño no mira activamente el mapa. Y cada vez que se mencione un país en las noticias, en un libro o en una conversación, localizadlo juntos. Ese pequeño gesto, repetido, construye una familiaridad geográfica que se acumula.
 
 ## 2. ¿Cómo organizar un quiz de geografía para niños?
 
@@ -86,7 +86,7 @@ El contenido de video educativo ha progresado enormemente en los últimos años.
 
 Lo importante es hacer el visionado activo. Ved juntos y haced preguntas. "¿Sabías que ese desierto es tan grande como Estados Unidos?" "¿Por qué crees que la gente vive cerca de los ríos?" Después de la película, localizad los lugares en un mapa. La pasividad es el enemigo.
 
-Para los de 10-12, los documentales sobre catástrofes naturales — volcanes, terremotos, tsunamis — captan la atención como nada. Y de paso enseñan tectónica de placas, ciclo del agua, geografía física.
+Para los de 10-12, los documentales sobre catástrofes naturales (volcanes, terremotos, tsunamis) captan la atención como nada. Y de paso enseñan tectónica de placas, ciclo del agua, geografía física.
 
 ## 10. Aplicaciones de quiz y juegos digitales
 

@@ -28,13 +28,13 @@ Brésil : Brasília, ni Rio de Janeiro, ni São Paulo. Inaugurée en 1960, enti�
 
 Inde : New Delhi, ni Mumbai, ni Calcutta. Mumbai est le moteur économique, Calcutta l'ancienne capitale britannique, mais c'est New Delhi qui abrite le gouvernement depuis 1931. Conçue par les architectes britanniques Edwin Lutyens et Herbert Baker.
 
-États-Unis : Washington D.C., pas New York. Ça peut paraître évident, mais selon une enquête de National Geographic en 2006, près de 50 % des jeunes Américains de 18-24 ans ne pouvaient pas localiser New York sur une carte — alors imaginez pour la capitale. Washington a été choisie en 1790 justement pour ne dépendre d'aucun État existant.
+États-Unis : Washington D.C., pas New York. Ça peut paraître évident, mais selon une enquête de National Geographic en 2006, près de 50 % des jeunes Américains de 18-24 ans ne pouvaient pas localiser New York sur une carte. Alors imaginez pour la capitale. Washington a été choisie en 1790 justement pour ne dépendre d'aucun État existant.
 
 ## Les capitales qui ont changé récemment
 
 Le monde bouge. Les capitales aussi. Et ça complique sérieusement les quiz.
 
-Kazakhstan : Astana est devenue Nur-Sultan en 2019, en hommage à l'ancien président Nazarbayev. Puis elle est redevenue Astana en 2022. Avant tout ça, la capitale était Almaty. Deux changements de nom en trois ans — de quoi perdre n'importe qui.
+Kazakhstan : Astana est devenue Nur-Sultan en 2019, en hommage à l'ancien président Nazarbayev. Puis elle est redevenue Astana en 2022. Avant tout ça, la capitale était Almaty. Deux changements de nom en trois ans, de quoi perdre n'importe qui.
 
 Birmanie (Myanmar) : le transfert vers Naypyidaw en 2006, déjà mentionné, reste l'un des déplacements de capitale les plus récents et les plus inattendus.
 
@@ -46,11 +46,11 @@ Un survol rapide, continent par continent, des capitales à connaître. Si les [
 
 ### Europe
 
-L'Europe et ses 44 pays paraît familière, mais elle réserve des surprises. La Suisse n'a techniquement pas de capitale : Berne est la "ville fédérale", pas la capitale au sens juridique. Le Monténégro, indépendant depuis 2006, a pour capitale Podgorica — un nom que peu de gens citent spontanément. Et Vaduz, capitale du Liechtenstein, accueille moins de 6 000 habitants. Pas mal d'[erreurs de géographie courantes](/blog/erreurs-geographie/) viennent justement de l'Europe, qu'on croit connaître par cœur.
+L'Europe et ses 44 pays paraît familière, mais elle réserve des surprises. La Suisse n'a techniquement pas de capitale : Berne est la "ville fédérale", pas la capitale au sens juridique. Le Monténégro, indépendant depuis 2006, a pour capitale Podgorica, un nom que peu de gens citent spontanément. Et Vaduz, capitale du Liechtenstein, accueille moins de 6 000 habitants. Pas mal d'[erreurs de géographie courantes](/blog/erreurs-geographie/) viennent justement de l'Europe, qu'on croit connaître par cœur.
 
 ### Afrique
 
-L'Afrique et ses 54 pays est le continent qui piège le plus. L'Afrique du Sud a trois capitales : Pretoria pour l'administratif, Le Cap pour le législatif, Bloemfontein pour le judiciaire. Le Nigeria a pour capitale Abuja, pas Lagos — une ville de plus de 15 millions d'habitants qui n'est pourtant pas la capitale. La Tanzanie reconnaît officiellement Dodoma, même si Dar es Salaam concentre encore la plupart des institutions. Le Maroc ? Rabat, pas Casablanca.
+L'Afrique et ses 54 pays est le continent qui piège le plus. L'Afrique du Sud a trois capitales : Pretoria pour l'administratif, Le Cap pour le législatif, Bloemfontein pour le judiciaire. Le Nigeria a pour capitale Abuja, pas Lagos. Cette dernière compte plus de 15 millions d'habitants et n'est pourtant pas la capitale. La Tanzanie reconnaît officiellement Dodoma, même si Dar es Salaam concentre encore la plupart des institutions. Le Maroc ? Rabat, pas Casablanca.
 
 ### Asie
 
@@ -58,7 +58,7 @@ Au-delà de la Turquie et du Myanmar déjà mentionnés, d'autres surprises. Le 
 
 ### Amériques
 
-Le Brésil n'est pas le seul piège sud-américain. La Bolivie a deux capitales : Sucre (constitutionnelle) et La Paz (siège du gouvernement). Le Canada a pour capitale Ottawa — pas Toronto, pas Montréal, pas Vancouver. Le Belize ? Belmopan. Pas Belize City. Oui, c'est tordu.
+Le Brésil n'est pas le seul piège sud-américain. La Bolivie a deux capitales : Sucre (constitutionnelle) et La Paz (siège du gouvernement). Le Canada a pour capitale Ottawa, pas Toronto, pas Montréal, pas Vancouver. Le Belize ? Belmopan. Pas Belize City. Oui, c'est tordu.
 
 ### Océanie
 
@@ -80,11 +80,11 @@ Le piège des noms identiques : Guatemala City est la capitale du Guatemala. Lux
 
 On peut retenir ces capitales. Ça demande de la méthode, pas du talent inné. Les principes sont les mêmes que ceux de la [gamification dans l'apprentissage](/blog/gamification-education/), et fonctionnent aussi bien pour [enseigner la géographie aux enfants](/blog/geographie-enfants/).
 
-Les moyens mnémotechniques : inventez des associations absurdes. Pour retenir Canberra, pensez à "Can Bear a" — un kangourou qui peut porter quelque chose. Plus c'est ridicule, plus ça colle en mémoire.
+Les moyens mnémotechniques : inventez des associations absurdes. Pour retenir Canberra, pensez à "Can Bear a", un kangourou qui peut porter quelque chose. Plus c'est ridicule, plus ça colle en mémoire.
 
-La méthode des palais de mémoire : imaginez un parcours familier — votre maison, votre trajet du matin — et placez chaque capitale à un endroit précis. En refaisant le parcours mentalement, les informations reviennent.
+La méthode des palais de mémoire : imaginez un parcours familier (votre maison, votre trajet du matin) et placez chaque capitale à un endroit précis. En refaisant le parcours mentalement, les informations reviennent.
 
-La répétition espacée : revoir les capitales à intervalles croissants — une heure, un jour, trois jours, une semaine. C'est la technique la plus solide pour ancrer les connaissances à long terme. Les [meilleures applications de géographie](/blog/meilleures-apps-geographie/) comme SAPIRO l'intègrent automatiquement.
+La répétition espacée : revoir les capitales à intervalles croissants : une heure, un jour, trois jours, une semaine. C'est la technique la plus solide pour ancrer les connaissances à long terme. Les [meilleures applications de géographie](/blog/meilleures-apps-geographie/) comme SAPIRO l'intègrent automatiquement.
 
 L'apprentissage par contexte : au lieu d'une liste aride, attachez chaque capitale à une image ou une anecdote. Brasília vue du ciel, en forme d'avion. Naypyidaw et ses autoroutes vides. Canberra choisie comme compromis entre Sydney et Melbourne. Les histoires restent. Les listes s'évaporent.
 

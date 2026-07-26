@@ -63,7 +63,7 @@ Tres palabras, tres realidades. La **fortaleza**, o castillo fortificado, es una
 
 El **castillo de recreo** aparece cuando la pólvora vuelve obsoletas las fortificaciones. La residencia se abre entonces al exterior: grandes ventanales, jardines, escaleras de aparato. Chambord y Chenonceau son los ejemplos perfectos.
 
-El **palacio**, por último, es por definición una residencia urbana y principesca sin función defensiva. La palabra viene del monte Palatino de Roma, donde residían los emperadores. Buckingham, Schönbrunn o Topkapi son palacios, no castillos. El uso corriente sigue siendo impreciso —seguimos diciendo «castillo de Versalles» cuando técnicamente es un palacio—, pero la distinción de origen se mantiene: un castillo protege, un palacio impresiona.
+El **palacio**, por último, es por definición una residencia urbana y principesca sin función defensiva. La palabra viene del monte Palatino de Roma, donde residían los emperadores. Buckingham, Schönbrunn o Topkapi son palacios, no castillos. El uso corriente sigue siendo impreciso (seguimos diciendo «castillo de Versalles» cuando técnicamente es un palacio), pero la distinción de origen se mantiene: un castillo protege, un palacio impresiona.
 
 Para convertir todos estos nombres en reflejos, la aplicación **SAPIRO** propone cuestionarios sobre los monumentos del mundo que ejercitan la memoria sin empollar. Para seguir, lee nuestro recorrido por los [monumentos de Francia](/es/blog/monumentos-francia/), nuestro paseo por los [monumentos de París](/es/blog/monumentos-paris/) y nuestra selección de [sitios del Patrimonio Mundial de la UNESCO](/es/blog/sitios-unesco-patrimonio-mundial/). Todo está ordenado en la sección de [monumentos](/es/monumentos/).
 

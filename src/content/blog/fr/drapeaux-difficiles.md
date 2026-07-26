@@ -20,7 +20,7 @@ Le Tchad a déposé une plainte officielle auprès des Nations Unies en 2004. La
 
 Le premier piège, le plus classique : deux drapeaux quasi identiques côte à côte. Sur les 195 drapeaux nationaux reconnus par l'ONU, une étude de la North American Vexillological Association estime qu'une trentaine de paires peuvent être confondues à l'œil nu. Ces ressemblances racontent souvent une histoire plus profonde qu'un simple hasard.
 
-Tchad et Roumanie, donc. Trois bandes verticales bleue, jaune et rouge, dans les deux cas. La seule différence tient à une nuance de bleu — le Tchad utilise un bleu légèrement plus sombre. À l'œil nu, en conditions réelles, sur un mât qui claque au vent ? Bonne chance. C'est la paire qui a provoqué une véritable crise diplomatique.
+Tchad et Roumanie, donc. Trois bandes verticales bleue, jaune et rouge, dans les deux cas. La seule différence tient à une nuance de bleu : le Tchad utilise un bleu légèrement plus sombre. À l'œil nu, en conditions réelles, sur un mât qui claque au vent ? Bonne chance. C'est la paire qui a provoqué une crise diplomatique.
 
 Monaco et Indonésie posent un problème similaire. Deux bandes horizontales, rouge en haut, blanche en bas. Point. La différence réside dans les proportions : Monaco adopte un ratio de 4:5, l'Indonésie un ratio de 2:3, ce qui rend le drapeau indonésien légèrement plus allongé. En pratique, on ne le remarque jamais.
 
@@ -30,7 +30,7 @@ Irlande et Côte d'Ivoire, c'est plus vicieux. Trois bandes verticales verte, bl
 
 Certains drapeaux ne ressemblent à rien d'autre. Leur problème, c'est l'inverse : ils sont tellement chargés qu'on n'arrive pas à les mémoriser. Si la [signification des symboles](/blog/signification-drapeaux/) vous intrigue, sachez que chaque détail a une raison d'être.
 
-Le Turkménistan détient l'un des designs les plus élaborés de la planète. Fond vert, croissant de lune, cinq étoiles, et surtout une bande verticale rouge le long du mât ornée de cinq motifs de tapis traditionnels — un pour chacune des grandes tribus du pays. En dessous, deux branches d'olivier croisées. On pourrait passer dix minutes à le détailler sans en retenir la moitié.
+Le Turkménistan détient l'un des designs les plus élaborés de la planète. Fond vert, croissant de lune, cinq étoiles, et surtout une bande verticale rouge le long du mât ornée de cinq motifs de tapis traditionnels, un pour chacune des grandes tribus du pays. En dessous, deux branches d'olivier croisées. On pourrait passer dix minutes à le détailler sans en retenir la moitié.
 
 Le Bhoutan mise sur un dragon blanc tonnerre, le Druk, sur un fond coupé en diagonale entre jaune et orange. Le dragon tient des joyaux dans ses griffes, symboles de richesse et de perfection. Essayez de le dessiner de mémoire. C'est quasi impossible.
 
@@ -40,9 +40,9 @@ Le Sri Lanka frappe par son originalité. Un lion doré brandissant une épée s
 
 Au-delà des designs complexes dans leur ensemble, certains pays ont inséré des emblèmes si minutieux qu'il faudrait une loupe pour en saisir toutes les subtilités.
 
-Le Belize bat probablement tout le monde sur ce terrain. Son emblème central montre deux bûcherons (un métis et un créole) encadrant un écusson où figurent un navire, une scie, une hache et un acajou. Le tout ceint d'une couronne de cinquante feuilles, avec la devise "Sub Umbra Floreo" (Je fleuris à l'ombre). [Douze couleurs différentes](https://fr.wikipedia.org/wiki/Drapeau_du_Belize) — le record absolu pour un drapeau national. Qui peut honnêtement prétendre le reproduire de tête ?
+Le Belize bat probablement tout le monde sur ce terrain. Son emblème central montre deux bûcherons (un métis et un créole) encadrant un écusson où figurent un navire, une scie, une hache et un acajou. Le tout ceint d'une couronne de cinquante feuilles, avec la devise "Sub Umbra Floreo" (Je fleuris à l'ombre). [Douze couleurs différentes](https://fr.wikipedia.org/wiki/Drapeau_du_Belize), le record absolu pour un drapeau national. Qui peut honnêtement prétendre le reproduire de tête ?
 
-Le Mexique place en son centre un aigle royal perché sur un cactus nopal, en train de dévorer un serpent. La scène vient de la mythologie aztèque. Les plumes de l'aigle, les épines du cactus, les écailles du serpent — chaque détail est là. On reconnaît le drapeau mexicain à cette scène, mais la décrire précisément est une autre affaire.
+Le Mexique place en son centre un aigle royal perché sur un cactus nopal, en train de dévorer un serpent. La scène vient de la mythologie aztèque. Les plumes de l'aigle, les épines du cactus, les écailles du serpent : chaque détail est là. On reconnaît le drapeau mexicain à cette scène, mais la décrire précisément est une autre affaire.
 
 L'Afghanistan a changé de drapeau un nombre incalculable de fois au fil de son histoire. La version précédant le régime taliban montrait une mosquée détaillée, des gerbes de blé et une inscription arabe. L'emblème central était si chargé qu'une identification rapide relevait du défi.
 
@@ -50,7 +50,7 @@ L'Afghanistan a changé de drapeau un nombre incalculable de fois au fil de son 
 
 Parfois, on ne confond pas deux drapeaux. On en confond trois. Ces trios sont de vrais casse-tête, y compris pour ceux qui s'entraînent régulièrement aux [quiz de géographie](/blog/quiz-capitales-monde/). Pour un tour complet des paires jumelles, voir les [drapeaux qui se ressemblent](/blog/drapeaux-qui-se-ressemblent/).
 
-Pays-Bas, Luxembourg et Paraguay : trois bandes horizontales rouge, blanche et bleue. Les Pays-Bas et le Luxembourg sont presque indiscernables — le Luxembourg utilise simplement un bleu plus clair. Le Paraguay partage les mêmes couleurs mais se distingue par un emblème central. Et pas n'importe lequel : un emblème différent sur chaque face, ce qui en fait l'un des rares drapeaux nationaux asymétriques.
+Pays-Bas, Luxembourg et Paraguay : trois bandes horizontales rouge, blanche et bleue. Les Pays-Bas et le Luxembourg sont presque indiscernables : le Luxembourg utilise simplement un bleu plus clair. Le Paraguay partage les mêmes couleurs mais se distingue par un emblème central. Et pas n'importe lequel : un emblème différent sur chaque face, ce qui en fait l'un des rares drapeaux nationaux asymétriques.
 
 Mali, Sénégal et Guinée : trois bandes verticales verte, jaune et rouge, les couleurs panafricaines. Le Sénégal tranche le débat avec une étoile verte sur sa bande jaune. Mais entre le Mali et la Guinée ? La seule distinction, c'est l'ordre des couleurs. Vert à gauche pour le Mali, vert à droite pour la Guinée. On respire un grand coup et on essaie de s'en souvenir.
 

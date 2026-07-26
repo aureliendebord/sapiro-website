@@ -56,7 +56,7 @@ Un ejercicio que recomiendo a menudo. Toma un acontecimiento histórico importan
 
 La Revolución francesa no empieza el 14 de julio de 1789. Empieza con décadas de crisis fiscal, una monarquía desconectada, ideas ilustradas que difunden la noción de que el poder emana del pueblo, y un invierno catastrófico en 1788-1789 que disparó el precio del pan. Y no termina con la toma de la Bastilla. Conduce al Terror, a Napoleón, al Código Civil y, en última instancia, a las democracias modernas.
 
-Este enfoque por cadenas causales convierte la historia en algo orgánico. Los eventos encajan unos en otros. Ya no se memorizan puntos aislados en una línea cronológica — se retiene un flujo.
+Este enfoque por cadenas causales convierte la historia en algo orgánico. Los eventos encajan unos en otros. Ya no se memorizan puntos aislados en una línea cronológica: se retiene un flujo.
 
 Para los más jóvenes, un buen punto de partida es coger un objeto cotidiano y remontar el hilo. ¿El papel? Inventado en China en el siglo II, transmitido al mundo árabe, y de ahí a Europa a través de la España musulmana. ¿El café? Descubierto en Etiopía, adoptado por los otomanos, llegado a Europa en el siglo XVII y transformado en institución social en los cafés parisinos.
 
@@ -99,7 +99,7 @@ Ningún método basta por sí solo. Los libros ofrecen una profundidad que los q
 
 El mejor enfoque es combinar. Ver un documental sobre la caída de Roma, después ponerse a prueba con un quiz sobre emperadores romanos, y luego leer un capítulo de libro para captar los matices que el documental simplificó. Cada método compensa los límites del otro.
 
-La historia no es una asignatura estática que se aprende una vez y se guarda en un cajón. Es una lente para leer el presente. Los conflictos actuales, las fronteras, las instituciones, las ideas que circulan a nuestro alrededor — todo tiene una historia. Y comprenderla es entender mejor el mundo en el que vivimos.
+La historia no es una asignatura estática que se aprende una vez y se guarda en un cajón. Es una lente para leer el presente. Los conflictos actuales, las fronteras, las instituciones, las ideas que circulan a nuestro alrededor: todo tiene una historia. Y comprenderla es entender mejor el mundo en el que vivimos.
 
 <figure>
   <img src="/images/blog/famille/chateau-medieval.jpg" alt="Las ruinas de un castillo medieval" loading="lazy" />

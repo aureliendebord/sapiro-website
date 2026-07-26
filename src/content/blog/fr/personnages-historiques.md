@@ -38,7 +38,7 @@ Léonard de Vinci (1452-1519) — le mot "polymathe" semble avoir été inventé
 
 ## Époque moderne : bascules politiques et scientifiques
 
-Napoléon Bonaparte (1769-1821) — général corse devenu empereur des Français. Il a redessiné la carte de l'Europe et laissé un héritage juridique toujours en vigueur : le Code civil de 1804 a influencé le droit de plusieurs dizaines de pays. Système métrique, baccalauréat, préfets, Banque de France — autant d'institutions napoléoniennes qui tiennent debout. On peut discuter l'homme, pas l'empreinte.
+Napoléon Bonaparte (1769-1821) — général corse devenu empereur des Français. Il a redessiné la carte de l'Europe et laissé un héritage juridique toujours en vigueur : le Code civil de 1804 a influencé le droit de plusieurs dizaines de pays. Le système métrique, le baccalauréat, les préfets et la Banque de France sont aussi des institutions napoléoniennes qui tiennent debout. On peut discuter l'homme, pas l'empreinte.
 
 Toussaint Louverture (1743-1803) — né esclave à Saint-Domingue. Il a mené la seule révolution d'esclaves victorieuse de l'Histoire. Pas une révolte spontanée : un mouvement politique structuré, capable de négocier avec les puissances européennes et de poser les fondations de la première république noire du monde. Capturé par Napoléon, il meurt au Fort de Joux, dans le Jura, en 1803. Haïti proclame son indépendance l'année suivante.
 
@@ -56,7 +56,7 @@ Martin Luther King Jr. (1929-1968) — pasteur baptiste, leader du mouvement des
 
 Simone de Beauvoir (1908-1986) — philosophe, romancière, féministe. *Le Deuxième Sexe*, publié en 1949, pose les fondations du féminisme moderne. Sa formule — "On ne naît pas femme, on le devient" — ouvre la distinction entre sexe biologique et genre social, débat toujours vivace. Compagne de Sartre, figure de l'existentialisme, elle laisse aussi des romans et des mémoires précieux pour comprendre la vie intellectuelle parisienne du siècle.
 
-Albert Einstein (1879-1955) — la théorie de la relativité. E=mc². Prix Nobel de physique 1921. Il fuit l'Allemagne nazie pour les États-Unis, milite pour la paix et contre les armes nucléaires jusqu'à la fin. Un esprit qui a reconfiguré notre compréhension de l'espace, du temps et de l'univers.
+Albert Einstein (1879-1955) — la théorie de la relativité. E=mc². Prix Nobel de physique 1921. Il fuit l'Allemagne nazie pour les États-Unis, milite pour la paix et contre les armes nucléaires jusqu'à la fin.
 
 ## Figures contemporaines
 
@@ -64,13 +64,13 @@ Rosa Parks (1913-2005) — le 1er décembre 1955, à Montgomery, Alabama, elle r
 
 Wangari Maathai (1940-2011) — biologiste et militante écologiste kényane. Elle fonde en 1977 le Mouvement de la Ceinture Verte, un programme de plantation d'arbres qui mobilise des milliers de femmes à travers l'Afrique. Prix Nobel de la paix en 2004. Plus de 51 millions d'arbres plantés grâce à son mouvement. Cinquante et un millions.
 
-Alan Turing (1912-1954) — mathématicien, cryptanalyste, père de l'informatique. Son travail sur le code Enigma, pendant la Seconde Guerre mondiale, a raccourci le conflit de plusieurs années. Sa "machine de Turing" est le fondement théorique de tout ordinateur moderne. Persécuté pour son homosexualité, condamné à une castration chimique, il se suicide en 1954. Gracié à titre posthume par Elizabeth II en 2013 — près de soixante ans trop tard.
+Alan Turing (1912-1954) — mathématicien, cryptanalyste, père de l'informatique. Son travail sur le code Enigma, pendant la Seconde Guerre mondiale, a raccourci le conflit de plusieurs années. Sa "machine de Turing" est le fondement théorique de tout ordinateur moderne. Persécuté pour son homosexualité, condamné à une castration chimique, il se suicide en 1954. Gracié à titre posthume par Elizabeth II en 2013, près de soixante ans trop tard.
 
 ## Pourquoi ces vies-là comptent encore
 
-L'intérêt dépasse la [culture générale](/blog/culture-generale-guide/) de dîner. Comprendre ces trajectoires, c'est comprendre comment le monde actuel s'est construit. Le Code civil de Napoléon structure le droit de plus de 40 pays. La théorie de Darwin fonde notre biologie. La non-violence de Gandhi irrigue encore les mouvements sociaux. Ces figures continuent d'agir, même lorsqu'elles reposent depuis des siècles.
+L'intérêt dépasse la [culture générale](/blog/culture-generale-guide/) de dîner. Comprendre ces trajectoires, c'est comprendre comment le monde actuel s'est construit. Le Code civil de Napoléon structure le droit de plus de 40 pays. La théorie de Darwin fonde notre biologie. La non-violence de Gandhi irrigue encore les mouvements sociaux.
 
-Pour les plus jeunes, découvrir ces vies développe l'esprit critique et l'empathie. Et la voie ludique — [quiz et jeux éducatifs](/blog/geographie-enfants/) — rend ces figures vivantes, loin des paragraphes ternes d'un manuel. Pour aller plus loin, voyez notre guide sur [apprendre l'histoire en s'amusant](/blog/apprendre-histoire-en-samusant/) et les [principes de la gamification](/blog/gamification-education/) qui expliquent pourquoi le format quiz ancre si bien la mémoire.
+Pour les plus jeunes, découvrir ces vies développe l'esprit critique et l'empathie. Et la voie ludique des [quiz et jeux éducatifs](/blog/geographie-enfants/) rend ces figures vivantes, loin des paragraphes ternes d'un manuel. Pour aller plus loin, voyez notre guide sur [apprendre l'histoire en s'amusant](/blog/apprendre-histoire-en-samusant/) et les [principes de la gamification](/blog/gamification-education/) qui expliquent pourquoi le format quiz ancre si bien la mémoire.
 
 ## Tester ses connaissances
 

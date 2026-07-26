@@ -26,7 +26,7 @@ Human memory was not designed to store isolated numbers. It runs on associations
 
 When you learn that the Battle of Austerlitz happened in 1805, you retain a number. When you understand that Napoleon crushed the Russian and Austrian empires through a brilliant feint on the Pratzen Heights, using the morning fog to mask his troop movements, you retain a story. And stories, the brain knows how to keep.
 
-Psychologist Jerome Bruner estimated that a fact embedded in a narrative is twenty-two times more memorable than a fact presented in isolation. Twenty-two times. That is not a marginal difference. It is an abyss.
+Psychologist Jerome Bruner estimated that a fact embedded in a narrative is twenty-two times more memorable than a fact presented in isolation. Twenty-two times.
 
 ## Storytelling: The Secret Weapon of Historical Memory
 
@@ -99,7 +99,7 @@ No single method is enough on its own. Books offer a depth that quizzes cannot r
 
 The best approach is to combine them. Watch a documentary on the fall of Rome, then test yourself with a quiz on Roman emperors, then read a book chapter to grasp the nuances the documentary simplified. Each method compensates for the other's limitations.
 
-History is not a static subject you learn once and file away. It is a lens for reading the present. Current conflicts, borders, institutions, the ideas circulating around us -- all of it has a history. And understanding that history means better understanding the world you live in.
+History is not a static subject you learn once and file away. It is a lens for reading the present. Current conflicts, borders, institutions, the ideas circulating around us: all of it has a history. And understanding that history means better understanding the world you live in.
 
 <figure>
   <img src="/images/blog/famille/chateau-medieval.jpg" alt="The ruins of a medieval castle" loading="lazy" />

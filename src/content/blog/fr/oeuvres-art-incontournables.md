@@ -80,7 +80,7 @@ Un casse-tête visuel du Prado, à Madrid. Velázquez s'est peint en train de pe
 
 ## Les Nymphéas, Claude Monet (1896-1926)
 
-Monet a peint environ 250 tableaux de nymphéas sur les trente dernières années de sa vie, tous inspirés du bassin de son jardin à Giverny. Ce n'est pas un tableau, c'est une obsession. Il se levait à l'aube pour capter la lumière du matin sur l'eau.
+Monet a peint environ 250 tableaux de nymphéas sur les trente dernières années de sa vie, tous inspirés du bassin de son jardin à Giverny. C'était devenu une obsession. Il se levait à l'aube pour capter la lumière du matin sur l'eau.
 
 Monet souffrait de cataracte et sa vision des couleurs s'est progressivement altérée. Certains experts pensent que les tons rougeâtres de ses dernières œuvres reflètent littéralement ce qu'il voyait. Les grands panneaux sont au musée de l'Orangerie à Paris, dans deux salles ovales conçues spécialement pour eux.
 

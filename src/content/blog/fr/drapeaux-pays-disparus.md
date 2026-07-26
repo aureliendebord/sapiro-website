@@ -11,7 +11,7 @@ author: "SAPIRO"
 readingTime: 6
 ---
 
-Certains des drapeaux les plus reconnaissables de l'histoire appartiennent à des pays qui n'existent plus. Quand un État s'effondre, se divise ou est absorbé, sa bannière disparaît en général avec lui — mais reste souvent célèbre pendant des décennies. Voici 10 drapeaux de pays disparus et l'histoire de chacun.
+Certains des drapeaux les plus reconnaissables de l'histoire appartiennent à des pays qui n'existent plus. Quand un État s'effondre, se divise ou est absorbé, sa bannière disparaît en général avec lui, mais reste souvent célèbre pendant des décennies. Voici 10 drapeaux de pays disparus et l'histoire de chacun.
 
 ## 1. Union soviétique (1922-1991)
 
@@ -23,7 +23,7 @@ Un tricolore horizontal bleu-blanc-rouge, plus tard frappé d'une étoile rouge 
 
 ## 3. Allemagne de l'Est (1949-1990)
 
-Le tricolore noir-rouge-or de l'Allemagne, mais chargé de l'emblème de l'État socialiste — un marteau et un compas dans une couronne d'épis. Il a disparu avec la réunification allemande en octobre 1990.
+Le tricolore noir-rouge-or de l'Allemagne, mais chargé de l'emblème de l'État socialiste : un marteau et un compas dans une couronne d'épis. Il a disparu avec la réunification allemande en octobre 1990.
 
 ## 4. Tchécoslovaquie (1918-1992)
 
@@ -47,7 +47,7 @@ La double monarchie utilisait des armoiries impériales et royales combinées pl
 
 ## 9. République du Texas (1836-1845)
 
-Le célèbre drapeau à « l'étoile solitaire » : une bande verticale bleue avec une seule étoile blanche, à côté de bandes horizontales blanche et rouge. Le Texas a rejoint les États-Unis en 1845 — mais a gardé le drapeau, aujourd'hui sa bannière d'État.
+Le célèbre drapeau à « l'étoile solitaire » : une bande verticale bleue avec une seule étoile blanche, à côté de bandes horizontales blanche et rouge. Le Texas a rejoint les États-Unis en 1845, mais a gardé le drapeau, aujourd'hui sa bannière d'État.
 
 ## 10. Tibet (utilisé jusqu'en 1951)
 
@@ -74,7 +74,7 @@ Pour aller plus loin, lisez les [pays qui n'existent plus](/blog/pays-disparus/)
 
 ### Que devient le drapeau d'un pays quand il disparaît ?
 
-Quand un État cesse d'exister, son drapeau est en général retiré. Parfois un successeur le conserve — la République tchèque a gardé le drapeau tchécoslovaque — et parfois il survit auprès des communautés en exil, comme pour le Sud-Vietnam ou le Tibet.
+Quand un État cesse d'exister, son drapeau est en général retiré. Parfois un successeur le conserve (la République tchèque a gardé le drapeau tchécoslovaque), et parfois il survit auprès des communautés en exil, comme pour le Sud-Vietnam ou le Tibet.
 
 ### Quel était le drapeau de l'Union soviétique ?
 
@@ -86,4 +86,4 @@ Plusieurs sont encore arborés. L'étoile solitaire de la République du Texas e
 
 ### Pourquoi le drapeau yougoslave a-t-il disparu ?
 
-Le drapeau yougoslave a disparu parce que le pays lui-même a éclaté durant les guerres des années 1990. Chaque État successeur — Slovénie, Croatie, Bosnie, Serbie, Monténégro, Macédoine du Nord et Kosovo — a adopté son propre drapeau.
+Le drapeau yougoslave a disparu parce que le pays lui-même a éclaté durant les guerres des années 1990. Chaque État successeur (Slovénie, Croatie, Bosnie, Serbie, Monténégro, Macédoine du Nord et Kosovo) a adopté son propre drapeau.

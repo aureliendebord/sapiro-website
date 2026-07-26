@@ -14,7 +14,7 @@ author: "SAPIRO"
 readingTime: 7
 ---
 
-Vendredi soir. Les enfants s'ennuient, les écrans commencent à prendre le dessus, et personne n'a envie de jouer encore une fois au même jeu de société. C'est le moment idéal pour sortir un quiz géographie en famille. Pas besoin de matériel, pas besoin de préparation interminable : avec quelques bonnes idées et un téléphone, votre salon se transforme en plateau de jeu télévisé. Et apprendre en groupe, ça aide à mieux retenir — c'est du bon sens, mais ça marche vraiment.
+Vendredi soir. Les enfants s'ennuient, les écrans commencent à prendre le dessus, et personne n'a envie de jouer encore une fois au même jeu de société. C'est le moment idéal pour sortir un quiz géographie en famille. Pas besoin de matériel, pas besoin de préparation interminable : avec quelques bonnes idées et un téléphone, votre salon se transforme en plateau de jeu télévisé. Et apprendre en groupe, ça aide à mieux retenir. C'est du bon sens, mais ça marche vraiment.
 
 Que vos enfants aient 6 ou 16 ans, que les grands-parents soient incollables ou débutants, ce guide vous donne tout ce qu'il faut pour organiser une soirée quiz qui plaît à tout le monde.
 
@@ -22,9 +22,9 @@ Que vos enfants aient 6 ou 16 ans, que les grands-parents soient incollables ou 
 
 Une bonne soirée quiz demande une préparation minimale mais stratégique. Comptez 30 minutes, pas plus.
 
-Choisissez le bon moment. Le vendredi soir, le dimanche après-midi ou les vacances scolaires -- bref, un créneau où tout le monde est disponible et détendu. Un mardi soir après les devoirs, ça ne marchera pas.
+Choisissez le bon moment. Le vendredi soir, le dimanche après-midi ou les vacances scolaires, bref un créneau où tout le monde est disponible et détendu. Un mardi soir après les devoirs, ça ne marchera pas.
 
-Soignez l'ambiance. Installez-vous confortablement dans le salon, préparez des snacks et des boissons. Un globe terrestre posé sur la table, une carte du monde affichée au mur ou des petits drapeaux en papier sur les assiettes -- ça suffit à créer l'atmosphère. On joue mieux quand le décor suit.
+Soignez l'ambiance. Installez-vous confortablement dans le salon, préparez des snacks et des boissons. Un globe terrestre posé sur la table, une carte du monde affichée au mur ou des petits drapeaux en papier sur les assiettes : ça suffit à créer l'atmosphère. On joue mieux quand le décor suit.
 
 Définissez une durée. Entre 45 minutes et 1h30, c'est le format idéal. Assez long pour plusieurs manches, assez court pour que les plus jeunes ne décrochent pas.
 
@@ -34,9 +34,9 @@ Préparez les questions à l'avance, ou bien utilisez une application comme SAPI
 
 La clé d'un bon quiz, c'est la variété. Alternez les types de questions pour que chacun puisse briller à un moment ou un autre.
 
-Les capitales du monde. Le grand classique. Commencez par les évidentes (Paris, Londres, Washington) puis montez progressivement en difficulté. Ouagadougou, Thimphou, Naypyidaw -- vous serez surpris de voir combien de capitales font trébucher même les adultes. Pour vous préparer, jetez un œil aux [erreurs de géographie les plus courantes](/blog/erreurs-geographie/).
+Les capitales du monde. Le grand classique. Commencez par les évidentes (Paris, Londres, Washington) puis montez progressivement en difficulté. Ouagadougou, Thimphou, Naypyidaw : vous serez surpris de voir combien de capitales font trébucher même les adultes. Pour vous préparer, jetez un œil aux [erreurs de géographie les plus courantes](/blog/erreurs-geographie/).
 
-Les drapeaux. Imprimez-en quelques-uns ou affichez-les sur un écran, et demandez aux participants d'identifier les pays correspondants. C'est visuellement stimulant et les enfants sont souvent meilleurs qu'on ne le pense. Les drapeaux qui se ressemblent (Indonésie/Monaco, Irlande/Côte d'Ivoire) font des questions particulièrement savoureuses — notre article sur les [drapeaux les plus difficiles à reconnaître](/blog/drapeaux-difficiles/) en recense quinze.
+Les drapeaux. Imprimez-en quelques-uns ou affichez-les sur un écran, et demandez aux participants d'identifier les pays correspondants. C'est visuellement stimulant et les enfants sont souvent meilleurs qu'on ne le pense. Les drapeaux qui se ressemblent (Indonésie/Monaco, Irlande/Côte d'Ivoire) font des questions particulièrement savoureuses. Notre article sur les [drapeaux les plus difficiles à reconnaître](/blog/drapeaux-difficiles/) en recense quinze.
 
 Les monuments et sites célèbres. Montrez des photos de la Tour Eiffel, du Machu Picchu, de la Grande Muraille ou du Taj Mahal et demandez dans quel pays ils se trouvent. Variante : décrivez un monument sans le nommer et demandez de le deviner.
 
@@ -44,7 +44,7 @@ La gastronomie mondiale. Associez des plats à leurs pays d'origine : le sushi (
 
 Les animaux emblématiques. Quel animal figure sur le drapeau du Mexique ? (Un aigle.) Où vit le kangourou à l'état sauvage ? (Australie.) Quel est le plus grand animal terrestre ? (L'éléphant d'Afrique.) Les questions sur les animaux passionnent toute la famille, sans exception.
 
-Les records géographiques. Le plus long fleuve du monde (le Nil, 6 650 km) ? La montagne la plus haute (l'Everest, 8 849 m) ? Le plus petit pays (le Vatican, 0,44 km carré) ? Le pays le plus peuplé (l'Inde, 1,44 milliard d'habitants en 2024) ? Ces questions de superlatifs déclenchent souvent des débats animés -- et parfois des paris.
+Les records géographiques. Le plus long fleuve du monde (le Nil, 6 650 km) ? La montagne la plus haute (l'Everest, 8 849 m) ? Le plus petit pays (le Vatican, 0,44 km carré) ? Le pays le plus peuplé (l'Inde, 1,44 milliard d'habitants en 2024) ? Ces questions de superlatifs déclenchent souvent des débats animés, et parfois des paris.
 
 ## Les règles du jeu : équité et amusement
 
@@ -149,7 +149,7 @@ Des récompenses symboliques suffisent : choix du film de la soirée, diplôme f
 
 ## Utiliser SAPIRO comme maître du jeu
 
-Pas envie de préparer toutes les questions vous-même ? Posez une tablette au centre de la table avec SAPIRO. Chaque équipe joue à tour de rôle, et l'application fournit les questions, les réponses et les explications — plus besoin d'arbitre, et plus de disputes sur la validité d'une question.
+Pas envie de préparer toutes les questions vous-même ? Posez une tablette au centre de la table avec SAPIRO. Chaque équipe joue à tour de rôle, et l'application fournit les questions, les réponses et les explications. Plus besoin d'arbitre, et plus de disputes sur la validité d'une question.
 
 Les explications après chaque réponse lancent souvent des discussions autour de la table ("Ah bon, le Népal ?"), et le score intégré évite de compter les points à la main.
 

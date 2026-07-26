@@ -14,7 +14,7 @@ author: "SAPIRO"
 readingTime: 9
 ---
 
-La nature joue parfois à nous faire douter. Le guépard et le léopard, qu'on confond. Le caïman et le crocodile, qu'on confond encore plus. Le marsouin et le dauphin, indissociables à l'œil non entraîné. Souvent, ce n'est pas un hasard : c'est de la convergence évolutive. Deux espèces sans lien de parenté finissent par se ressembler parce qu'elles vivent dans des conditions proches et résolvent les mêmes problèmes biologiques. Voici 20 paires classiques avec les critères qui permettent de trancher en un coup d'œil.
+La nature joue parfois à nous faire douter. Le guépard et le léopard, qu'on confond. Le caïman et le crocodile, qu'on confond encore plus. Le marsouin et le dauphin, indissociables à l'œil non entraîné. Souvent, c'est de la convergence évolutive. Deux espèces sans lien de parenté finissent par se ressembler parce qu'elles vivent dans des conditions proches et résolvent les mêmes problèmes biologiques. Voici 20 paires classiques avec les critères qui permettent de trancher en un coup d'œil.
 
 ## Les félins tachetés
 

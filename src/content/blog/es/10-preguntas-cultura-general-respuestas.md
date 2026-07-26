@@ -15,7 +15,7 @@ readingTime: 6
 
 Diez preguntas, diez respuestas, y todo está a la vista en la página. Nada de quiz que esconde la solución tras un botón: aquí lees la respuesta justo debajo, con una breve explicación para retener el «porqué».
 
-Las preguntas abarcan cinco campos —geografía, historia, arte, ciencias, naturaleza— y suben de dificultad poco a poco. Cuatro fáciles, cuatro medias, dos trampas. Para jugar en solitario, tapa la línea de abajo con la mano. Para una velada, lee la pregunta en voz alta y lleva la cuenta.
+Las preguntas abarcan cinco campos (geografía, historia, arte, ciencias, naturaleza) y suben de dificultad poco a poco. Cuatro fáciles, cuatro medias, dos trampas. Para jugar en solitario, tapa la línea de abajo con la mano. Para una velada, lee la pregunta en voz alta y lleva la cuenta.
 
 ## Geografía
 
@@ -33,7 +33,7 @@ Las preguntas abarcan cinco campos —geografía, historia, arte, ciencias, natu
 **4. ¿Quién fue el primer emperador romano?** *(difícil)*
 **Respuesta: [Augusto](https://es.wikipedia.org/wiki/C%C3%A9sar_Augusto)**, nacido Octavio, desde el 27 a. C. Muchos responden Julio César, pero César nunca ostentó el título de emperador: fue su hijo adoptivo quien fundó el Imperio. Para no volver a confundir a figuras así, consulta nuestro repaso de [personajes históricos clave](/es/blog/personajes-historicos/).
 
-¿Ya te has quedado en blanco? Es buena señal. Se recuerda mejor una respuesta que se ha buscado antes de leerla: justo el principio de una app de quiz —equivocarse, entender, recordar.
+¿Ya te has quedado en blanco? Es buena señal. Se recuerda mejor una respuesta que se ha buscado antes de leerla. Es justo el principio de una app de quiz: equivocarse, entender, recordar.
 
 ## Arte
 
@@ -81,7 +81,7 @@ Esa es la idea de SAPIRO. La app reúne cientos de quizzes sobre geografía (197
 Las clásicas giran en torno a las capitales (Australia, Brasil, Kazajistán), las grandes fechas (1789, 1945, 1989), los récords geográficos (río más largo, cumbre más alta) y obras de arte célebres como la *Gioconda*. Son valores seguros tanto en quizzes como en entrevistas.
 
 ### ¿Cómo mejorar la cultura general rápidamente?
-Quince minutos al día bastan si son regulares. Varía los formatos —quizzes, pódcasts, artículos de fondo— y busca la respuesta enseguida cuando se te escape una palabra o un nombre. El test activo, como un quiz, fija mucho más que la simple relectura.
+Quince minutos al día bastan si son regulares. Varía los formatos (quizzes, pódcasts, artículos de fondo) y busca la respuesta enseguida cuando se te escape una palabra o un nombre. El test activo, como un quiz, fija mucho más que la simple relectura.
 
 ### ¿Cuál es la pregunta de cultura general más difícil?
 La dificultad es personal: depende de tus lagunas. Las preguntas que más despistan suelen ser las capitales poco conocidas, los primeros emperadores o los récords científicos contraintuitivos, como el planeta más caliente.
