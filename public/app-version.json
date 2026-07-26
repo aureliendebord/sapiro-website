@@ -1,5 +1,5 @@
 {
-  "ios": { "latest": "1.9.3", "min": "1.0.0" },
-  "android": { "latest": "1.9.3", "min": "1.0.0" },
+  "ios": { "latest": "1.9.5", "min": "1.0.0" },
+  "android": { "latest": "1.9.4", "min": "1.0.0" },
   "tickets": { "enabled": true, "dailyQuota": 3, "dailyBonus": 1 }
 }
