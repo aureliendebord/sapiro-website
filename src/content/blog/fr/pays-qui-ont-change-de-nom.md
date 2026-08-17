@@ -3,6 +3,9 @@ title: "10 pays qui ont changé de nom (et pourquoi)"
 description: "Eswatini (ex-Swaziland), Türkiye, Tchéquie, Myanmar : 10 pays qui ont changé de nom, avec l'ancien nom, l'année et la raison du changement."
 date: 2026-07-21
 lastModified: 2026-07-21
+image: "/images/blog/apprentissage/carte-monde.jpg"
+imageAlt: "Une carte politique du monde"
+imageCredit: "Photo : JanitoalevicOriginal map by: CIA World Factbook · domaine public · Wikimedia Commons"
 lang: "fr"
 urlSlug: "pays-qui-ont-change-de-nom"
 translationKey: "pays-qui-ont-change-de-nom"

@@ -3,6 +3,9 @@ title: "Banderas de países desaparecidos: 10 enseñas que ya no existen"
 description: "URSS, Yugoslavia, RDA, Vietnam del Sur: 10 banderas de países que ya no existen, la historia de cada enseña y cuándo desapareció el Estado."
 date: 2026-07-13
 lastModified: 2026-07-13
+image: "/images/blog/apprentissage/drapeaux-monde.jpg"
+imageAlt: "Banderas nacionales alineadas"
+imageCredit: "Foto: United States Department of Energy, Office of Energy Efficiency and Renewable Energy · dominio público · Wikimedia Commons"
 lang: "es"
 urlSlug: "banderas-paises-desaparecidos"
 translationKey: "drapeaux-pays-disparus"

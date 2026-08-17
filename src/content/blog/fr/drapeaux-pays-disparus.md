@@ -3,6 +3,9 @@ title: "Drapeaux de pays disparus : 10 bannières qui n'existent plus"
 description: "URSS, Yougoslavie, RDA, Sud-Vietnam : 10 drapeaux de pays qui n'existent plus, l'histoire de chaque bannière et la date de disparition de l'État."
 date: 2026-07-13
 lastModified: 2026-07-13
+image: "/images/blog/apprentissage/drapeaux-monde.jpg"
+imageAlt: "Des drapeaux nationaux alignés"
+imageCredit: "Photo : United States Department of Energy, Office of Energy Efficiency and Renewable Energy · domaine public · Wikimedia Commons"
 lang: "fr"
 urlSlug: "drapeaux-pays-disparus"
 translationKey: "drapeaux-pays-disparus"

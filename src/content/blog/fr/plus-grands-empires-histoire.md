@@ -3,6 +3,9 @@ title: "Les 10 plus grands empires de l'histoire (par superficie)"
 description: "L'Empire britannique (~35,5 M km²) est le plus grand empire de l'histoire. Le classement des 10 plus grands empires par superficie, du mongol au portugais."
 date: 2026-07-21
 lastModified: 2026-07-21
+image: "/images/blog/monde/carte-monde-ancienne.jpg"
+imageAlt: "Une vieille carte du monde"
+imageCredit: "Photo : Reginald Lane Poole · domaine public · Wikimedia Commons"
 lang: "fr"
 urlSlug: "plus-grands-empires-histoire"
 translationKey: "plus-grands-empires-histoire"

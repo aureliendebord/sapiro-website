@@ -3,6 +3,9 @@ title: "The 6 Microstates of Europe: Full List and How They Survive"
 description: "Vatican, Monaco, San Marino, Liechtenstein, Andorra, Malta: the six European microstates, their status, history and how such tiny nations stay independent."
 date: 2026-07-13
 lastModified: 2026-07-13
+image: "/images/blog/famille/globe-atlas-table.jpg"
+imageAlt: "A globe and atlas on a table"
+imageCredit: "Photo: Ánthimos Gazís · public domain · Wikimedia Commons"
 lang: "en"
 urlSlug: "european-microstates"
 translationKey: "micro-etats-europeens"

@@ -3,6 +3,9 @@ title: "10 pays non reconnus (ou partiellement) qui existent vraiment"
 description: "Taïwan, Kosovo, Somaliland : une dizaine de territoires fonctionnent comme des États sans siège à l'ONU. Les 10 pays non reconnus, ou partiellement reconnus."
 date: 2026-07-21
 lastModified: 2026-07-21
+image: "/images/blog/monde/mur-drapeaux.jpg"
+imageAlt: "Un alignement de drapeaux nationaux"
+imageCredit: "Photo : Willem van de Velde the Younger · domaine public · Wikimedia Commons"
 lang: "fr"
 urlSlug: "pays-non-reconnus"
 translationKey: "pays-non-reconnus"

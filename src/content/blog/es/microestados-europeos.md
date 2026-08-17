@@ -3,6 +3,9 @@ title: "Los 6 microestados de Europa: lista completa y cómo sobreviven"
 description: "Vaticano, Mónaco, San Marino, Liechtenstein, Andorra, Malta: los seis microestados europeos, su estatus, su historia y cómo siguen siendo independientes."
 date: 2026-07-13
 lastModified: 2026-07-13
+image: "/images/blog/famille/globe-atlas-table.jpg"
+imageAlt: "Un globo y un atlas sobre una mesa"
+imageCredit: "Foto: Ánthimos Gazís · dominio público · Wikimedia Commons"
 lang: "es"
 urlSlug: "microestados-europeos"
 translationKey: "micro-etats-europeens"

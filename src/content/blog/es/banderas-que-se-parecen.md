@@ -3,6 +3,9 @@ title: "10 banderas que se parecen (y cómo diferenciarlas)"
 description: "Chad y Rumanía tienen banderas casi idénticas. 10 pares de banderas casi imposibles de distinguir, con el detalle concreto que delata a cada una."
 date: 2026-07-21
 lastModified: 2026-07-21
+image: "/images/blog/famille/carte-monde-drapeaux.jpg"
+imageAlt: "Un mapa del mundo con los países y las banderas"
+imageCredit: "Foto: Transparent 6lue · dominio público · Wikimedia Commons"
 lang: "es"
 urlSlug: "banderas-que-se-parecen"
 translationKey: "drapeaux-qui-se-ressemblent"

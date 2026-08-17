@@ -3,6 +3,9 @@ title: "Los 10 países más pequeños de Europa (2026)"
 description: "El Vaticano (0,49 km²) es el país más pequeño de Europa. El ranking de los 10 países europeos más pequeños por superficie, con población y datos clave."
 date: 2026-07-13
 lastModified: 2026-07-13
+image: "/images/blog/monde/vatican.jpg"
+imageAlt: "La Ciudad del Vaticano vista desde el cielo"
+imageCredit: "Foto: CAPTAIN RAJU · CC0 · Wikimedia Commons"
 lang: "es"
 urlSlug: "paises-mas-pequenos-europa"
 translationKey: "plus-petits-pays-europe"

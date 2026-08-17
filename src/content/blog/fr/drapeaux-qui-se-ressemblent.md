@@ -3,6 +3,9 @@ title: "10 drapeaux qui se ressemblent (et comment les différencier)"
 description: "Tchad et Roumanie ont des drapeaux quasi identiques. 10 paires de drapeaux presque impossibles à distinguer, avec le détail qui permet de les reconnaître."
 date: 2026-07-21
 lastModified: 2026-07-21
+image: "/images/blog/famille/carte-monde-drapeaux.jpg"
+imageAlt: "Une carte du monde avec les pays et les drapeaux"
+imageCredit: "Photo : Transparent 6lue · domaine public · Wikimedia Commons"
 lang: "fr"
 urlSlug: "drapeaux-qui-se-ressemblent"
 translationKey: "drapeaux-qui-se-ressemblent"

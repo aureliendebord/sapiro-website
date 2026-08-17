@@ -1,8 +1,11 @@
 ---
-title: "The 10 Smallest Countries in Asia (2026)"
-description: "The Maldives (298 km²) is the smallest country in Asia. The full ranking of the 10 smallest Asian countries by area, with population and key facts."
+title: "The 10 Smallest Countries in Asia, from the Maldives to Kuwait"
+description: "The Maldives (298 km²) is Asia's smallest country and Singapore comes second. The full ranking of the 10 smallest Asian states by area, with population."
 date: 2026-07-13
 lastModified: 2026-07-13
+image: "/images/blog/monde/mappemonde.jpg"
+imageAlt: "An antique world map"
+imageCredit: "Photo: Various authors. · public domain · Wikimedia Commons"
 lang: "en"
 urlSlug: "smallest-countries-asia"
 translationKey: "plus-petits-pays-asie"

@@ -1,6 +1,6 @@
 ---
-title: "The 15 Most Famous Sculptures in the World (and Where to See Them)"
-description: "David, The Thinker, Venus de Milo: the 15 most famous sculptures in the world, what makes each essential and where to see them today."
+title: "The 15 Most Famous Sculptures in the World, Antiquity to Today"
+description: "David, The Thinker, Venus de Milo and 12 more: what makes each sculpture essential, who carved it, and where to see it today."
 date: 2026-01-26
 image: "/images/blog/art/david-michel-ange.jpg"
 imageAlt: "The David by Michelangelo"

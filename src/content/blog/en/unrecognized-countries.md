@@ -3,6 +3,9 @@ title: "Countries that don't exist: 10 unrecognized states that are real"
 description: "Taiwan, Kosovo, Somaliland: about ten territories function as states without a UN seat. The 10 unrecognized (or partially recognized) countries, explained."
 date: 2026-07-21
 lastModified: 2026-07-21
+image: "/images/blog/monde/mur-drapeaux.jpg"
+imageAlt: "A row of national flags"
+imageCredit: "Photo: Willem van de Velde the Younger · public domain · Wikimedia Commons"
 lang: "en"
 urlSlug: "unrecognized-countries"
 translationKey: "pays-non-reconnus"

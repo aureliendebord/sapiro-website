@@ -3,6 +3,9 @@ title: "10 animals driven extinct by humans (from the dodo to the rhino)"
 description: "Dodo, Steller's sea cow, great auk, passenger pigeon, thylacine: 10 animals that went extinct in modern times, with each date and cause of extinction."
 date: 2026-07-21
 lastModified: 2026-07-21
+image: "/images/blog/nature/axolotl.jpg"
+imageAlt: "An axolotl, an amphibian with a striking appearance"
+imageCredit: "Photo: Stan Shebs · CC BY-SA 3.0 · Wikimedia Commons"
 lang: "en"
 urlSlug: "recently-extinct-animals"
 translationKey: "animaux-disparus-recemment"

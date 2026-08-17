@@ -3,6 +3,9 @@ title: "Países sin salida al mar: los 44 países sin litoral (y 10 casos sorpre
 description: "44 países no tienen acceso al mar. Kazajistán, Bolivia, Liechtenstein: los 10 casos más sorprendentes entre los países sin litoral, con tabla resumen."
 date: 2026-07-21
 lastModified: 2026-07-21
+image: "/images/blog/famille/globe-enfant.jpg"
+imageAlt: "Un globo terráqueo para enseñar geografía a los niños"
+imageCredit: "Foto: Shixart1985 · CC BY 2.0 · Wikimedia Commons"
 lang: "es"
 urlSlug: "paises-sin-salida-al-mar"
 translationKey: "pays-sans-acces-mer"

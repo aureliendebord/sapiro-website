@@ -3,6 +3,9 @@ title: "The 10 Smallest Countries in Europe (2026)"
 description: "Vatican City (0.49 km²) is the smallest country in Europe. The full ranking of the 10 smallest European countries by area, with population and key facts."
 date: 2026-07-13
 lastModified: 2026-07-13
+image: "/images/blog/monde/vatican.jpg"
+imageAlt: "Vatican City seen from above"
+imageCredit: "Photo: CAPTAIN RAJU · CC0 · Wikimedia Commons"
 lang: "en"
 urlSlug: "smallest-countries-europe"
 translationKey: "plus-petits-pays-europe"

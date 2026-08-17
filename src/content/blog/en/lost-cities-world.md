@@ -3,6 +3,9 @@ title: "10 Lost Cities That Were Found Again (Pompeii, Machu Picchu, Angkor…)"
 description: "Pompeii, Machu Picchu, Angkor, Petra, Troy: 10 cities buried or abandoned and then rediscovered, with dates of disappearance and rediscovery."
 date: 2026-07-21
 lastModified: 2026-07-21
+image: "/images/blog/monuments/machu-picchu.jpg"
+imageAlt: "Machu Picchu in Peru"
+imageCredit: "Photo: Diego Delso · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "en"
 urlSlug: "lost-cities-world"
 translationKey: "cites-perdues-monde"

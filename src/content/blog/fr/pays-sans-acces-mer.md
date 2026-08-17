@@ -3,6 +3,9 @@ title: "Pays sans accès à la mer : les 44 pays enclavés (et 10 cas étonnants
 description: "44 pays n'ont aucun accès à la mer. Kazakhstan, Bolivie, Liechtenstein : les 10 cas les plus étonnants parmi les pays enclavés, avec tableau récapitulatif."
 date: 2026-07-21
 lastModified: 2026-07-21
+image: "/images/blog/famille/globe-enfant.jpg"
+imageAlt: "Un globe terrestre pour apprendre la géographie aux enfants"
+imageCredit: "Photo : Shixart1985 · CC BY 2.0 · Wikimedia Commons"
 lang: "fr"
 urlSlug: "pays-sans-acces-mer"
 translationKey: "pays-sans-acces-mer"

@@ -3,6 +3,9 @@ title: "Landlocked countries: the 44 nations with no sea access (and 10 surprisi
 description: "44 countries have no access to the sea. Kazakhstan, Bolivia, Liechtenstein: the 10 most surprising landlocked nations, with a recap table."
 date: 2026-07-21
 lastModified: 2026-07-21
+image: "/images/blog/famille/globe-enfant.jpg"
+imageAlt: "A globe for teaching geography to children"
+imageCredit: "Photo: Shixart1985 · CC BY 2.0 · Wikimedia Commons"
 lang: "en"
 urlSlug: "landlocked-countries"
 translationKey: "pays-sans-acces-mer"

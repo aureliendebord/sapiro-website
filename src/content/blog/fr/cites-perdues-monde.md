@@ -3,6 +3,9 @@ title: "10 cités perdues retrouvées (Pompéi, Machu Picchu, Angkor…)"
 description: "Pompéi, Machu Picchu, Angkor, Pétra, Troie : 10 cités englouties ou abandonnées puis redécouvertes, avec dates de disparition et de redécouverte."
 date: 2026-07-21
 lastModified: 2026-07-21
+image: "/images/blog/monuments/machu-picchu.jpg"
+imageAlt: "Le Machu Picchu au Pérou"
+imageCredit: "Photo : Diego Delso · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "fr"
 urlSlug: "cites-perdues-monde"
 translationKey: "cites-perdues-monde"

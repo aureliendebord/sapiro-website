@@ -3,6 +3,9 @@ title: "10 países no reconocidos (o parcialmente) que existen de verdad"
 description: "Taiwán, Kosovo, Somalilandia: una decena de territorios funcionan como Estados sin asiento en la ONU. Los 10 países no reconocidos o parcialmente reconocidos."
 date: 2026-07-21
 lastModified: 2026-07-21
+image: "/images/blog/monde/mur-drapeaux.jpg"
+imageAlt: "Una hilera de banderas nacionales"
+imageCredit: "Foto: Willem van de Velde the Younger · dominio público · Wikimedia Commons"
 lang: "es"
 urlSlug: "paises-no-reconocidos"
 translationKey: "pays-non-reconnus"

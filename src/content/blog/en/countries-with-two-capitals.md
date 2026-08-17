@@ -3,6 +3,9 @@ title: "10 countries with two capitals (or three)"
 description: "South Africa has three capitals, Bolivia and the Netherlands have two. 10 countries with more than one capital and the role each city plays."
 date: 2026-07-21
 lastModified: 2026-07-21
+image: "/images/blog/monde/capitale-paris.jpg"
+imageAlt: "Aerial view of Paris"
+imageCredit: "Photo: Drew Coffman drewcoffman · CC0 · Wikimedia Commons"
 lang: "en"
 urlSlug: "countries-with-two-capitals"
 translationKey: "pays-plusieurs-capitales"

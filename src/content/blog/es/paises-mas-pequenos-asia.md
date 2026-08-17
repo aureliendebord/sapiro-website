@@ -3,6 +3,9 @@ title: "Los 10 países más pequeños de Asia (2026)"
 description: "Las Maldivas (298 km²) son el país más pequeño de Asia. El ranking de los 10 países asiáticos más pequeños por superficie, con población y datos clave."
 date: 2026-07-13
 lastModified: 2026-07-13
+image: "/images/blog/monde/mappemonde.jpg"
+imageAlt: "Un mapamundi antiguo"
+imageCredit: "Foto: Various authors. · dominio público · Wikimedia Commons"
 lang: "es"
 urlSlug: "paises-mas-pequenos-asia"
 translationKey: "plus-petits-pays-asie"

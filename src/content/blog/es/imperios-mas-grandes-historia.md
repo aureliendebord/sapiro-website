@@ -3,6 +3,9 @@ title: "Los 10 imperios más grandes de la historia (por superficie)"
 description: "El Imperio británico (~35,5 M km²) es el imperio más grande de la historia. Los 10 mayores imperios por superficie máxima, del mongol al portugués."
 date: 2026-07-21
 lastModified: 2026-07-21
+image: "/images/blog/monde/carte-monde-ancienne.jpg"
+imageAlt: "Un mapa del mundo antiguo"
+imageCredit: "Foto: Reginald Lane Poole · dominio público · Wikimedia Commons"
 lang: "es"
 urlSlug: "imperios-mas-grandes-historia"
 translationKey: "plus-grands-empires-histoire"

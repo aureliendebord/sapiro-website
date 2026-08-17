@@ -1,8 +1,11 @@
 ---
-title: "The 10 Largest Empires in History (by Land Area)"
-description: "The British Empire (~35.5 M km²) is the largest empire in history. The 10 biggest empires ranked by maximum land area, from the Mongols to the Portuguese."
+title: "The 10 Largest Empires in History, from Britain to Portugal"
+description: "The British Empire (~35.5 M km²) is the largest in history, ahead of the Mongols and Russia. The 10 biggest empires by peak land area, with the date of each peak."
 date: 2026-07-21
 lastModified: 2026-07-21
+image: "/images/blog/monde/carte-monde-ancienne.jpg"
+imageAlt: "An old world map"
+imageCredit: "Photo: Reginald Lane Poole · public domain · Wikimedia Commons"
 lang: "en"
 urlSlug: "largest-empires-history"
 translationKey: "plus-grands-empires-histoire"

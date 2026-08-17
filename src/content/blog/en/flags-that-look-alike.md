@@ -3,6 +3,9 @@ title: "10 flags that look alike (and how to tell them apart)"
 description: "Chad and Romania have near-identical flags. 10 pairs of flags that are almost impossible to tell apart, with the one detail that gives each away."
 date: 2026-07-21
 lastModified: 2026-07-21
+image: "/images/blog/famille/carte-monde-drapeaux.jpg"
+imageAlt: "A world map with countries and flags"
+imageCredit: "Photo: Transparent 6lue · public domain · Wikimedia Commons"
 lang: "en"
 urlSlug: "flags-that-look-alike"
 translationKey: "drapeaux-qui-se-ressemblent"

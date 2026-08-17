@@ -3,6 +3,9 @@ title: "10 animaux disparus à cause de l'homme (du dodo au rhinocéros)"
 description: "Dodo, vache de mer de Steller, grand pingouin, pigeon migrateur, thylacine : 10 animaux disparus à l'époque moderne, avec leur date et la cause de leur extinction."
 date: 2026-07-21
 lastModified: 2026-07-21
+image: "/images/blog/nature/axolotl.jpg"
+imageAlt: "Un axolotl, amphibien à l'apparence étonnante"
+imageCredit: "Photo : Stan Shebs · CC BY-SA 3.0 · Wikimedia Commons"
 lang: "fr"
 urlSlug: "animaux-disparus-recemment"
 translationKey: "animaux-disparus-recemment"
