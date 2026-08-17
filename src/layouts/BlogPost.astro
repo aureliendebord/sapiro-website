@@ -12,6 +12,7 @@ import type { ListItem } from '../utils/list';
 import { getClusterForCategory } from '../data/clusters';
 import { AUTHOR, authorPersonSchema } from '../data/author';
 import RelatedPosts from '../components/RelatedPosts.astro';
+import { jpegSize } from '../lib/jpeg-size';
 
 interface TranslationSlugs {
   fr: string;
@@ -36,6 +37,13 @@ interface Props {
 
 const { title, description, date, lastModified, lang, slug, category, author, readingTime, faqItems = [], listItems = [], translationSlugs, image, imageAlt, imageCredit } = Astro.props;
 const heroImageUrl = image ? (image.startsWith('http') ? image : `https://sapiro.app${image}`) : null;
+
+// og:image : le hero seulement s'il est assez paysage pour la fenêtre 1,91:1
+// des réseaux sociaux — un portrait recadré donne une tranche illisible,
+// le défaut brandé 1200x630 fait mieux. Dimensions lues au build.
+const heroDims = image && !image.startsWith('http') ? jpegSize(`public${image}`) : null;
+const heroIsLandscape = heroDims !== null && heroDims.width / heroDims.height >= 1.2;
+const ogImage = heroIsLandscape ? heroImageUrl : undefined;
 const t = getTranslations(lang);
 const modifiedDate = lastModified || date;
 
@@ -141,7 +149,17 @@ const breadcrumbSchema = {
 };
 ---
 
-<Layout title={`${title} | SAPIRO`} description={description} lang={lang} noDefaultHreflang={true} ogType="article">
+<Layout
+  title={`${title} | SAPIRO`}
+  description={description}
+  lang={lang}
+  noDefaultHreflang={true}
+  ogType="article"
+  ogImage={ogImage}
+  ogImageAlt={ogImage ? imageAlt : undefined}
+  ogImageWidth={ogImage ? heroDims!.width : undefined}
+  ogImageHeight={ogImage ? heroDims!.height : undefined}
+>
   <Fragment slot="head">
     <!-- Hreflang spécifique à l'article -->
     {hreflangs.map(h => (
