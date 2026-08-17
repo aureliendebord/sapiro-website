@@ -1,6 +1,6 @@
 ---
 title: "Los 10 países más pequeños de Oceanía, de Nauru a Fiyi"
-description: "Nauru (21 km²) es el país más pequeño de Oceanía y la república más pequeña del mundo. El ranking de los 10 países oceánicos más pequeños, de solo 14 estados en total."
+description: "Nauru (21 km²) es el país más pequeño de Oceanía y la república más pequeña del mundo. Los 10 países oceánicos más pequeños, de solo 14 estados en total."
 date: 2026-08-17
 lastModified: 2026-08-17
 image: "/images/blog/monde/mappemonde.jpg"
@@ -14,7 +14,7 @@ author: "SAPIRO"
 readingTime: 5
 ---
 
-El país más pequeño de Oceanía es Nauru, con 21 km², la quinta parte de la ciudad de Madrid. Es también la república más pequeña del mundo y el tercer estado más pequeño del planeta. Oceanía solo tiene 14 países: clasificar los diez más pequeños equivale a citar todo el continente salvo Australia, Papúa Nueva Guinea, Nueva Zelanda y las Islas Salomón. Aquí va el ranking.
+El país más pequeño de Oceanía es Nauru, con 21 km², la quinta parte de la ciudad de Barcelona. Es también la república más pequeña del mundo y el tercer estado más pequeño del planeta. Oceanía solo tiene 14 países: clasificar los diez más pequeños equivale a citar todo el continente salvo Australia, Papúa Nueva Guinea, Nueva Zelanda y las Islas Salomón. Aquí va el ranking.
 
 ## 1. Nauru (21 km²)
 
@@ -54,7 +54,7 @@ Un archipiélago de más de 80 islas volcánicas, antiguo condominio franco-brit
 
 ## 10. Fiyi (18 272 km²)
 
-Unas 330 islas, un centenar habitadas, y el peso pesado de este ranking con cerca de 900 000 habitantes. Fiyi sigue siendo quince veces más pequeño que Papúa Nueva Guinea, el primer país de Oceanía fuera de este top 10.
+Unas 330 islas, un centenar habitadas, y el peso pesado de este ranking con cerca de 900 000 habitantes. El primer país de Oceanía fuera de este top 10, las Islas Salomón, solo es 1,6 veces mayor; después la distancia se dispara, con Nueva Zelanda quince veces más grande.
 
 ## Los países más pequeños de Oceanía de un vistazo
 

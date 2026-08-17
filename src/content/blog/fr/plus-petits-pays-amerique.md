@@ -1,6 +1,6 @@
 ---
 title: "Les 10 plus petits pays d'Amérique, tous dans les Caraïbes"
-description: "Saint-Christophe-et-Niévès (261 km²) est le plus petit pays d'Amérique. Le classement des 10 plus petits pays américains, tous insulaires, et le plus petit du continent."
+description: "Saint-Christophe-et-Niévès (261 km²) est le plus petit pays d'Amérique. Les 10 plus petits pays américains, tous insulaires, et le plus petit du continent."
 date: 2026-08-17
 lastModified: 2026-08-17
 image: "/images/blog/famille/globe-atlas-table.jpg"
@@ -26,7 +26,7 @@ L'île aux épices produit une part notable de la noix de muscade mondiale, qui 
 
 ## 3. Saint-Vincent-et-les-Grenadines (389 km²)
 
-Une île principale et une trentaine d'îlots, dont certains privés. Le volcan de la Soufrière, au nord de Saint-Vincent, est entré en éruption en 2021 et a forcé l'évacuation de dizaines de milliers d'habitants.
+Une île principale et une trentaine d'îlots, dont certains privés. Le volcan de la Soufrière, au nord de Saint-Vincent, est entré en éruption en 2021 et a forcé l'évacuation d'environ 20 000 habitants.
 
 ## 4. La Barbade (430 km²)
 
@@ -81,7 +81,7 @@ Saint-Christophe-et-Niévès, avec environ 261 km² et 47 000 habitants. C'est a
 
 ### Quel est le plus petit pays du continent américain, hors îles ?
 
-Le Salvador, avec 21 041 km². C'est le seul pays d'Amérique centrale sans façade caraïbe, et il reste plus grand que les dix pays insulaires de ce classement réunis.
+Le Salvador, avec 21 041 km². C'est le seul pays d'Amérique centrale sans façade caraïbe, et il reste plus grand que les neuf premiers pays insulaires de ce classement réunis.
 
 ### Pourquoi les plus petits pays d'Amérique sont-ils tous dans les Caraïbes ?
 

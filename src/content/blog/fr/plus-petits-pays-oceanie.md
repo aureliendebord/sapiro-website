@@ -54,7 +54,7 @@ Un archipel de plus de 80 îles volcaniques, ancien condominium franco-britanniq
 
 ## 10. Fidji (18 272 km²)
 
-Environ 330 îles, dont une centaine habitées, et le poids lourd de ce classement avec près de 900 000 habitants. Les Fidji restent quinze fois plus petites que la Papouasie-Nouvelle-Guinée, premier pays d'Océanie hors de ce top 10.
+Environ 330 îles, dont une centaine habitées, et le poids lourd de ce classement avec près de 900 000 habitants. Le premier pays d'Océanie hors de ce top 10, les îles Salomon, ne fait que 1,6 fois leur taille ; ensuite l'écart se creuse, la Nouvelle-Zélande étant quinze fois plus grande.
 
 ## Les plus petits pays d'Océanie en un coup d'œil
 

@@ -26,7 +26,7 @@ The spice island produces a notable share of the world's nutmeg, which appears o
 
 ## 3. Saint Vincent and the Grenadines (389 km²)
 
-One main island and some thirty islets, several of them privately owned. La Soufrière, the volcano in the north of Saint Vincent, erupted in 2021 and forced tens of thousands of residents to evacuate.
+One main island and some thirty islets, several of them privately owned. La Soufrière, the volcano in the north of Saint Vincent, erupted in 2021 and forced some 20,000 residents to evacuate.
 
 ## 4. Barbados (430 km²)
 
@@ -81,7 +81,7 @@ Saint Kitts and Nevis, at about 261 km² with 47,000 inhabitants. It is also the
 
 ### What is the smallest country on the American mainland?
 
-El Salvador, at 21,041 km². It is the only Central American country without a Caribbean coastline, and it is still larger than the ten island countries of this ranking combined.
+El Salvador, at 21,041 km². It is the only Central American country without a Caribbean coastline, and it is still larger than the first nine island countries of this ranking combined.
 
 ### Why are the smallest countries in the Americas all in the Caribbean?
 

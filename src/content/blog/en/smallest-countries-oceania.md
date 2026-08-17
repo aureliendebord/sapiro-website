@@ -54,7 +54,7 @@ An archipelago of more than 80 volcanic islands, a former Franco-British condomi
 
 ## 10. Fiji (18,272 km²)
 
-About 330 islands, a hundred of them inhabited, and the heavyweight of this ranking with close to 900,000 inhabitants. Fiji is still fifteen times smaller than Papua New Guinea, the first Oceanian country outside this top 10.
+About 330 islands, a hundred of them inhabited, and the heavyweight of this ranking with close to 900,000 inhabitants. The first Oceanian country outside this top 10, the Solomon Islands, is only 1.6 times its size; after that the gap widens, with New Zealand fifteen times larger.
 
 ## The smallest countries in Oceania at a glance
 

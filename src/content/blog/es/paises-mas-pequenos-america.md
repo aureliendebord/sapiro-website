@@ -1,6 +1,6 @@
 ---
 title: "Los 10 países más pequeños de América, todos en el Caribe"
-description: "San Cristóbal y Nieves (261 km²) es el país más pequeño de América. El ranking de los 10 países americanos más pequeños, todos insulares, y el menor del continente."
+description: "San Cristóbal y Nieves (261 km²) es el país más pequeño de América. Los 10 países americanos más pequeños, todos insulares, y el menor del continente."
 date: 2026-08-17
 lastModified: 2026-08-17
 image: "/images/blog/famille/globe-atlas-table.jpg"
@@ -26,7 +26,7 @@ La isla de las especias produce una parte notable de la nuez moscada mundial, qu
 
 ## 3. San Vicente y las Granadinas (389 km²)
 
-Una isla principal y una treintena de islotes, algunos privados. La Soufrière, el volcán del norte de San Vicente, entró en erupción en 2021 y obligó a evacuar a decenas de miles de habitantes.
+Una isla principal y una treintena de islotes, algunos privados. La Soufrière, el volcán del norte de San Vicente, entró en erupción en 2021 y obligó a evacuar a unas 20 000 personas.
 
 ## 4. Barbados (430 km²)
 
@@ -81,7 +81,7 @@ San Cristóbal y Nieves, con unos 261 km² y 47 000 habitantes. Es también el p
 
 ### ¿Cuál es el país más pequeño del continente americano, sin contar islas?
 
-El Salvador, con 21 041 km². Es el único país centroamericano sin costa caribeña, y aun así es más grande que los diez países insulares de este ranking juntos.
+El Salvador, con 21 041 km². Es el único país centroamericano sin costa caribeña, y aun así es más grande que los nueve primeros países insulares de este ranking juntos.
 
 ### ¿Por qué los países más pequeños de América están todos en el Caribe?
 
