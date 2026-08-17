@@ -71,7 +71,7 @@ A mountainous Adriatic country of roughly 620,000 people, independent from Serbi
 | 9 | Kosovo | 10,887 | 1,800,000 |
 | 10 | Montenegro | 13,812 | 620,000 |
 
-Want the global picture? See the [smallest countries in the world](/en/blog/smallest-countries-world/) and the [microstates of Europe](/en/blog/european-microstates/) for the six sovereign mini-states.
+Want the global picture? See the [smallest countries in the world](/en/blog/smallest-countries-world/) and the [microstates of Europe](/en/blog/european-microstates/) for the six sovereign mini-states. The series also covers [Asia](/en/blog/smallest-countries-asia/), [Africa](/en/blog/smallest-countries-africa/), the [Americas](/en/blog/smallest-countries-americas/) and [Oceania](/en/blog/smallest-countries-oceania/).
 
 ## Frequently asked questions
 

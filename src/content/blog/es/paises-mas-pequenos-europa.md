@@ -71,7 +71,7 @@ País montañoso del Adriático de unos 620 000 habitantes, independiente de Ser
 | 9 | Kosovo | 10 887 | 1 800 000 |
 | 10 | Montenegro | 13 812 | 620 000 |
 
-¿Quieres la vista mundial? Consulta los [países más pequeños del mundo](/es/blog/paises-mas-pequenos-mundo/) y los [microestados de Europa](/es/blog/microestados-europeos/) para los seis miniestados soberanos.
+¿Quieres la vista mundial? Consulta los [países más pequeños del mundo](/es/blog/paises-mas-pequenos-mundo/) y los [microestados de Europa](/es/blog/microestados-europeos/) para los seis miniestados soberanos. La serie también cubre [Asia](/es/blog/paises-mas-pequenos-asia/), [África](/es/blog/paises-mas-pequenos-africa/), [América](/es/blog/paises-mas-pequenos-america/) y [Oceanía](/es/blog/paises-mas-pequenos-oceania/).
 
 ## Preguntas frecuentes
 

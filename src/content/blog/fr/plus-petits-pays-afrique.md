@@ -71,7 +71,7 @@ Voisin et presque jumeau géographique du Rwanda, le Burundi ferme ce classement
 | 9 | Rwanda | 26 338 | Continental |
 | 10 | Burundi | 27 834 | Continental |
 
-Les cinq premiers sont des îles ou des archipels : sur le continent, la course au plus petit se joue entre la Gambie et l'Eswatini. Pour comparer avec les autres continents, voyez les [plus petits pays du monde](/blog/plus-petits-pays-monde/), les [plus petits pays d'Asie](/blog/plus-petits-pays-asie/) et les [plus petits pays d'Europe](/blog/plus-petits-pays-europe/). Et pour rester sur le continent, notre tour des [animaux emblématiques d'Afrique](/blog/animaux-afrique/) complète le voyage.
+Les cinq premiers sont des îles ou des archipels : sur le continent, la course au plus petit se joue entre la Gambie et l'Eswatini. Pour comparer avec les autres continents, voyez les [plus petits pays du monde](/blog/plus-petits-pays-monde/), les [plus petits pays d'Asie](/blog/plus-petits-pays-asie/), les [plus petits pays d'Europe](/blog/plus-petits-pays-europe/), les [plus petits pays d'Amérique](/blog/plus-petits-pays-amerique/) et les [plus petits pays d'Océanie](/blog/plus-petits-pays-oceanie/). Et pour rester sur le continent, notre tour des [animaux emblématiques d'Afrique](/blog/animaux-afrique/) complète le voyage.
 
 ## Questions fréquentes
 

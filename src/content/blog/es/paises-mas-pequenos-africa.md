@@ -71,7 +71,7 @@ Vecino y casi gemelo geográfico de Ruanda, Burundi cierra este ranking. Como é
 | 9 | Ruanda | 26 338 | Continental |
 | 10 | Burundi | 27 834 | Continental |
 
-Los cinco primeros son islas o archipiélagos: en el continente, la carrera por el más pequeño se juega entre Gambia y Esuatini. Para comparar con otros continentes, mira los [países más pequeños del mundo](/es/blog/paises-mas-pequenos-mundo/), los [países más pequeños de Asia](/es/blog/paises-mas-pequenos-asia/) y los [países más pequeños de Europa](/es/blog/paises-mas-pequenos-europa/). Y para quedarte en el continente, nuestro recorrido por los [animales emblemáticos de África](/es/blog/animales-africa/) completa el viaje.
+Los cinco primeros son islas o archipiélagos: en el continente, la carrera por el más pequeño se juega entre Gambia y Esuatini. Para comparar con otros continentes, mira los [países más pequeños del mundo](/es/blog/paises-mas-pequenos-mundo/), los [países más pequeños de Asia](/es/blog/paises-mas-pequenos-asia/), los [países más pequeños de Europa](/es/blog/paises-mas-pequenos-europa/), los [países más pequeños de América](/es/blog/paises-mas-pequenos-america/) y los [países más pequeños de Oceanía](/es/blog/paises-mas-pequenos-oceania/). Y para quedarte en el continente, nuestro recorrido por los [animales emblemáticos de África](/es/blog/animales-africa/) completa el viaje.
 
 ## Preguntas frecuentes
 

@@ -98,7 +98,7 @@ Tres razones históricas.
 - Liechtenstein = Madrid intramuros aproximadamente
 - Malta = 3 veces la ciudad de Granada
 
-Por continente: los [países más pequeños de Europa](/es/blog/paises-mas-pequenos-europa/), los [países más pequeños de Asia](/es/blog/paises-mas-pequenos-asia/) y los [seis microestados europeos](/es/blog/microestados-europeos/).
+Por continente: los [países más pequeños de Europa](/es/blog/paises-mas-pequenos-europa/), los [países más pequeños de Asia](/es/blog/paises-mas-pequenos-asia/), los [países más pequeños de África](/es/blog/paises-mas-pequenos-africa/), los [países más pequeños de América](/es/blog/paises-mas-pequenos-america/), los [países más pequeños de Oceanía](/es/blog/paises-mas-pequenos-oceania/) y los [seis microestados europeos](/es/blog/microestados-europeos/).
 
 Para profundizar: [países menos visitados del mundo](/es/blog/paises-menos-visitados-mundo/), los [países sin salida al mar](/es/blog/paises-sin-salida-al-mar/) y [países que ya no existen](/es/blog/paises-desaparecidos/) para continuar.
 
@@ -123,7 +123,7 @@ No. El Principado de Sealand es una micronación autoproclamada situada en una a
 
 ### ¿Cuál es el país más pequeño de cada continente?
 
-El país más pequeño de Europa es el Vaticano (0,49 km²). En Asia son las Maldivas (unos 298 km²), en África las Seychelles (unos 452 km²), en América San Cristóbal y Nieves (261 km²) y en Oceanía Nauru (21 km²).
+El país más pequeño de Europa es el Vaticano (0,49 km²). En Asia son las Maldivas (unos 298 km²), en África las Seychelles (unos 459 km²), en América San Cristóbal y Nieves (261 km²) y en Oceanía Nauru (21 km²).
 
 ### ¿Cuántos países tienen menos de 1 000 km²?
 

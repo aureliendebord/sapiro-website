@@ -71,7 +71,7 @@ Pays montagneux de l'Adriatique d'environ 620 000 habitants, indépendant de la 
 | 9 | Kosovo | 10 887 | 1 800 000 |
 | 10 | Monténégro | 13 812 | 620 000 |
 
-Envie de la vue mondiale ? Voir les [plus petits pays du monde](/blog/plus-petits-pays-monde/) et les [micro-États d'Europe](/blog/micro-etats-europeens/) pour les six mini-États souverains.
+Envie de la vue mondiale ? Voir les [plus petits pays du monde](/blog/plus-petits-pays-monde/) et les [micro-États d'Europe](/blog/micro-etats-europeens/) pour les six mini-États souverains. La série couvre aussi l'[Asie](/blog/plus-petits-pays-asie/), l'[Afrique](/blog/plus-petits-pays-afrique/), l'[Amérique](/blog/plus-petits-pays-amerique/) et l'[Océanie](/blog/plus-petits-pays-oceanie/).
 
 ## Questions fréquentes
 

@@ -71,7 +71,7 @@ Petit État riche en pétrole à la tête du golfe Persique, environ 4,3 million
 | 9 | Timor oriental | 14 919 | 1 400 000 |
 | 10 | Koweït | 17 818 | 4 300 000 |
 
-Envie de la vue mondiale ? Voir les [plus petits pays du monde](/blog/plus-petits-pays-monde/) et les [plus petits pays d'Europe](/blog/plus-petits-pays-europe/).
+Envie de la vue mondiale ? Voir les [plus petits pays du monde](/blog/plus-petits-pays-monde/) et les [plus petits pays d'Europe](/blog/plus-petits-pays-europe/). La série couvre aussi l'[Afrique](/blog/plus-petits-pays-afrique/), l'[Amérique](/blog/plus-petits-pays-amerique/) et l'[Océanie](/blog/plus-petits-pays-oceanie/).
 
 ## Questions fréquentes
 

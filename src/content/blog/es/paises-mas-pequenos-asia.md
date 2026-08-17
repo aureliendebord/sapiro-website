@@ -71,7 +71,7 @@ Pequeño Estado rico en petróleo a la cabeza del golfo Pérsico, unos 4,3 millo
 | 9 | Timor Oriental | 14 919 | 1 400 000 |
 | 10 | Kuwait | 17 818 | 4 300 000 |
 
-¿Quieres la vista mundial? Consulta los [países más pequeños del mundo](/es/blog/paises-mas-pequenos-mundo/) y los [países más pequeños de Europa](/es/blog/paises-mas-pequenos-europa/).
+¿Quieres la vista mundial? Consulta los [países más pequeños del mundo](/es/blog/paises-mas-pequenos-mundo/) y los [países más pequeños de Europa](/es/blog/paises-mas-pequenos-europa/). La serie también cubre [África](/es/blog/paises-mas-pequenos-africa/), [América](/es/blog/paises-mas-pequenos-america/) y [Oceanía](/es/blog/paises-mas-pequenos-oceania/).
 
 ## Preguntas frecuentes
 

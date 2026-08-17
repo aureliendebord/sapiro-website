@@ -71,7 +71,7 @@ A small, oil-rich state at the head of the Persian Gulf, around 4.3 million resi
 | 9 | East Timor | 14,919 | 1,400,000 |
 | 10 | Kuwait | 17,818 | 4,300,000 |
 
-Want the global picture? See the [smallest countries in the world](/en/blog/smallest-countries-world/) and the [smallest countries in Europe](/en/blog/smallest-countries-europe/).
+Want the global picture? See the [smallest countries in the world](/en/blog/smallest-countries-world/) and the [smallest countries in Europe](/en/blog/smallest-countries-europe/). The series also covers [Africa](/en/blog/smallest-countries-africa/), the [Americas](/en/blog/smallest-countries-americas/) and [Oceania](/en/blog/smallest-countries-oceania/).
 
 ## Frequently asked questions
 

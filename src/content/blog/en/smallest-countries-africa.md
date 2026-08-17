@@ -71,7 +71,7 @@ Rwanda's neighbor and near geographic twin, Burundi closes this ranking. Like Rw
 | 9 | Rwanda | 26,338 | Mainland |
 | 10 | Burundi | 27,834 | Mainland |
 
-The top five are all islands or archipelagos: on the mainland, the race for smallest comes down to the Gambia and Eswatini. To compare with other continents, see the [smallest countries in the world](/en/blog/smallest-countries-world/), the [smallest countries in Asia](/en/blog/smallest-countries-asia/) and the [smallest countries in Europe](/en/blog/smallest-countries-europe/). And to stay on the continent, our tour of [Africa's iconic wildlife](/en/blog/african-wildlife/) completes the trip.
+The top five are all islands or archipelagos: on the mainland, the race for smallest comes down to the Gambia and Eswatini. To compare with other continents, see the [smallest countries in the world](/en/blog/smallest-countries-world/), the [smallest countries in Asia](/en/blog/smallest-countries-asia/), the [smallest countries in Europe](/en/blog/smallest-countries-europe/), the [smallest countries in the Americas](/en/blog/smallest-countries-americas/) and the [smallest countries in Oceania](/en/blog/smallest-countries-oceania/). And to stay on the continent, our tour of [Africa's iconic wildlife](/en/blog/african-wildlife/) completes the trip.
 
 ## Frequently asked questions
 
