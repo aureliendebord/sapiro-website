@@ -124,7 +124,7 @@ Non. La principauté de Sealand est une micronation autoproclamée installée su
 
 ### Quel est le plus petit pays de chaque continent ?
 
-Le plus petit pays d'Europe est le Vatican (0,49 km²). En Asie, ce sont les Maldives (environ 298 km²), en Afrique les Seychelles (environ 452 km²), en Amérique Saint-Christophe-et-Niévès (261 km²) et en Océanie Nauru (21 km²).
+Le plus petit pays d'Europe est le Vatican (0,49 km²). En Asie, ce sont les Maldives (environ 298 km²), en Afrique les Seychelles (environ 459 km²), en Amérique Saint-Christophe-et-Niévès (261 km²) et en Océanie Nauru (21 km²).
 
 ### Combien de pays font moins de 1 000 km² ?
 

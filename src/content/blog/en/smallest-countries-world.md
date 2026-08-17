@@ -124,7 +124,7 @@ No. The Principality of Sealand is a self-declared micronation on a former WWII 
 
 ### What is the smallest country on each continent?
 
-The smallest country in Europe is Vatican City (0.49 km²). In Asia it is the Maldives (about 298 km²), in Africa the Seychelles (about 452 km²), in the Americas Saint Kitts and Nevis (261 km²), and in Oceania Nauru (21 km²).
+The smallest country in Europe is Vatican City (0.49 km²). In Asia it is the Maldives (about 298 km²), in Africa the Seychelles (about 459 km²), in the Americas Saint Kitts and Nevis (261 km²), and in Oceania Nauru (21 km²).
 
 ### How many countries are smaller than 1,000 km²?
 
