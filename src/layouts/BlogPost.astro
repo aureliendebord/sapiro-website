@@ -12,7 +12,7 @@ import type { ListItem } from '../utils/list';
 import { getClusterForCategory } from '../data/clusters';
 import { AUTHOR, authorPersonSchema } from '../data/author';
 import RelatedPosts from '../components/RelatedPosts.astro';
-import { jpegSize } from '../lib/jpeg-size';
+import { imageSize } from '../lib/image-size';
 
 interface TranslationSlugs {
   fr: string;
@@ -41,7 +41,7 @@ const heroImageUrl = image ? (image.startsWith('http') ? image : `https://sapiro
 // og:image : le hero seulement s'il est assez paysage pour la fenêtre 1,91:1
 // des réseaux sociaux — un portrait recadré donne une tranche illisible,
 // le défaut brandé 1200x630 fait mieux. Dimensions lues au build.
-const heroDims = image && !image.startsWith('http') ? jpegSize(`public${image}`) : null;
+const heroDims = image && !image.startsWith('http') ? imageSize(`public${image}`) : null;
 const heroIsLandscape = heroDims !== null && heroDims.width / heroDims.height >= 1.2;
 const ogImage = heroIsLandscape ? heroImageUrl : undefined;
 const t = getTranslations(lang);
