@@ -11,7 +11,9 @@ const blog = defineCollection({
     lang: z.enum(['fr', 'en', 'es']),
     urlSlug: z.string(),
     translationKey: z.string(),
-    category: z.string(),
+    // Enum verrouillé : une nouvelle catégorie doit aussi être ajoutée aux
+    // SECTIONS de src/pages/llms.txt.ts, sinon ses articles n'y figurent pas.
+    category: z.enum(['apps', 'art', 'comparatifs', 'concours', 'culture-generale', 'drapeaux', 'education', 'famille', 'formats-quiz', 'geographie', 'histoire', 'monuments', 'nature', 'voyage']),
     image: z.string().optional(),
     imageAlt: z.string().optional(),
     imageCredit: z.string().optional(),
