@@ -29,7 +29,7 @@ Hay 195 países en el mundo según el recuento más habitual: los 193 estados mi
 
 ## 193: los miembros de la ONU
 
-La base de todos los recuentos. El último admitido es Sudán del Sur, en 2011; desde entonces no ha entrado ningún miembro nuevo. Suiza, citada a menudo como caso aparte, no se incorporó hasta 2002, tras décadas de neutralidad deliberada fuera de la ONU.
+Es la base de todos los recuentos. El último admitido es Sudán del Sur, en 2011; desde entonces no ha entrado ningún miembro nuevo. Suiza, citada a menudo como caso aparte, no se incorporó hasta 2002, tras décadas de neutralidad deliberada fuera de la ONU.
 
 ## 195: la cifra más citada
 
@@ -37,7 +37,7 @@ Se añaden los 2 estados observadores permanentes: el Vaticano (Santa Sede) y Pa
 
 ## 197: contando Kosovo y Taiwán
 
-Dos estados funcionan como países de pleno derecho sin sentarse en la ONU. Kosovo, independiente desde 2008, está reconocido por un centenar de estados. Taiwán tiene gobierno, moneda y ejército propios, pero menos de quince estados lo reconocen oficialmente, ya que China considera la isla una provincia suya. Este recuento de 197 es el que usa SAPIRO, para cubrir todos los territorios que realmente se gobiernan a sí mismos.
+Dos estados son países de pleno derecho en la práctica sin sentarse en la ONU. Kosovo, independiente desde 2008, está reconocido por un centenar de estados. Taiwán tiene gobierno, moneda y ejército propios, pero menos de quince estados lo reconocen oficialmente, ya que China considera la isla una provincia suya. Este recuento de 197 es el que usa SAPIRO, para cubrir todos los territorios que realmente se gobiernan a sí mismos.
 
 ## 206, 211, 249: el deporte y los códigos
 

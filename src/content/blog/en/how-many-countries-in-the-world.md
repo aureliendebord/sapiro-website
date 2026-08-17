@@ -14,7 +14,7 @@ author: "SAPIRO"
 readingTime: 5
 ---
 
-There are 195 countries in the world by the most common count: the 193 member states of the UN, plus 2 observer states (the Vatican and Palestine). But 193, 197 or even 249 are perfectly defensible answers — it all depends on who is counting, and by what criterion. Here is each figure and what it covers.
+There are 195 countries in the world by the most common count: the 193 member states of the UN, plus 2 observer states (the Vatican and Palestine). But 193, 197 or even 249 are perfectly defensible answers: it all depends on who is counting, and by what criterion. Here is each figure and what it covers.
 
 ## The possible counts
 
@@ -29,7 +29,7 @@ There are 195 countries in the world by the most common count: the 193 member st
 
 ## 193: the UN member states
 
-The baseline of every count. The most recent admission is South Sudan, in 2011 — no new member since. Switzerland, often cited as an odd case, only joined in 2002, after decades of deliberate neutrality outside the UN.
+This is the baseline of every count. The most recent admission is South Sudan, in 2011; no new member since. Switzerland, often cited as an odd case, only joined in 2002, after decades of deliberate neutrality outside the UN.
 
 ## 195: the most quoted figure
 
@@ -37,11 +37,11 @@ Add the 2 permanent observer states: the Vatican (Holy See) and Palestine. They 
 
 ## 197: counting Kosovo and Taiwan
 
-Two states function as full-fledged countries without sitting at the UN. Kosovo, independent since 2008, is recognized by around a hundred states. Taiwan has its own government, currency and army, but fewer than fifteen states recognize it officially, as China considers the island one of its provinces. This count of 197 is the one SAPIRO uses, to cover every territory that actually governs itself.
+Two states are full-fledged countries in practice without sitting at the UN. Kosovo, independent since 2008, is recognized by around a hundred states. Taiwan has its own government, currency and army, but fewer than fifteen states recognize it officially, as China considers the island one of its provinces. This count of 197 is the one SAPIRO uses, to cover every territory that governs itself.
 
 ## 206, 211, 249: sport and codes
 
-The IOC recognizes 206 Olympic committees: Puerto Rico and the Cook Islands march at the Games without being independent states. FIFA federates 211 associations — England, Scotland, Wales and Northern Ireland each play under their own jersey. And the ISO 3166-1 standard assigns 249 codes, because it includes dependent territories such as French Polynesia and Greenland.
+The IOC recognizes 206 Olympic committees: Puerto Rico and the Cook Islands march at the Games without being independent states. FIFA federates 211 associations: England, Scotland, Wales and Northern Ireland each play under their own jersey. And the ISO 3166-1 standard assigns 249 codes, because it includes dependent territories such as French Polynesia and Greenland.
 
 ## The borderline cases
 
@@ -49,7 +49,7 @@ A handful of territories have proclaimed independence without broad recognition:
 
 ## Can the figure still change?
 
-Yes. South Sudan brought the total to 193 in 2011, and the next serious candidate is Bougainville: this island in Papua New Guinea voted 98% for independence in its 2019 referendum. The recent history of the [newest countries in the world](/en/blog/newest-countries-world/) shows the map is still moving — and the list of [countries that no longer exist](/en/blog/countries-that-disappeared/) is a reminder that it moves both ways. For perspective, those 195 countries come in very different sizes: the ten [smallest countries in the world](/en/blog/smallest-countries-world/) would fit together inside half of Corsica.
+Yes. South Sudan brought the total to 193 in 2011, and the next serious candidate is Bougainville: this island in Papua New Guinea voted 98% for independence in its 2019 referendum. The recent history of the [newest countries in the world](/en/blog/newest-countries-world/) shows the map is still moving, and the list of [countries that no longer exist](/en/blog/countries-that-disappeared/) is a reminder that it moves both ways. For perspective, those 195 countries come in very different sizes: the ten [smallest countries in the world](/en/blog/smallest-countries-world/) would fit together inside half of Corsica.
 
 ## Frequently asked questions
 

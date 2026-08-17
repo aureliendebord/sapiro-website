@@ -14,7 +14,7 @@ author: "SAPIRO"
 readingTime: 5
 ---
 
-Il y a 195 pays dans le monde selon le décompte le plus courant : les 193 États membres de l'ONU, plus 2 États observateurs (le Vatican et la Palestine). Mais 193, 197 ou même 249 sont des réponses tout aussi défendables — tout dépend de qui compte, et selon quel critère. Voici chaque chiffre et ce qu'il recouvre.
+Il y a 195 pays dans le monde selon le décompte le plus courant : les 193 États membres de l'ONU, plus 2 États observateurs (le Vatican et la Palestine). Mais 193, 197 ou même 249 sont des réponses tout aussi défendables : tout dépend de qui compte, et selon quel critère. Voici chaque chiffre et ce qu'il recouvre.
 
 ## Les décomptes possibles
 
@@ -29,7 +29,7 @@ Il y a 195 pays dans le monde selon le décompte le plus courant : les 193 État
 
 ## 193 : les membres de l'ONU
 
-Le socle de tous les décomptes. Le dernier admis est le Soudan du Sud, en 2011 — aucun nouveau membre depuis. La Suisse, souvent citée comme cas à part, n'a rejoint l'organisation qu'en 2002, après des décennies de neutralité assumée hors de l'ONU.
+C'est le socle de tous les décomptes. Le dernier admis est le Soudan du Sud, en 2011 ; aucun nouveau membre depuis. La Suisse, souvent citée comme cas à part, n'a rejoint l'organisation qu'en 2002, après des décennies de neutralité assumée hors de l'ONU.
 
 ## 195 : le chiffre le plus cité
 
@@ -37,11 +37,11 @@ On ajoute les 2 États observateurs permanents : le Vatican (Saint-Siège) et la
 
 ## 197 : en comptant le Kosovo et Taïwan
 
-Deux États fonctionnent comme des pays à part entière sans siéger à l'ONU. Le Kosovo, indépendant depuis 2008, est reconnu par une centaine d'États. Taïwan a son gouvernement, sa monnaie et son armée, mais moins de quinze États l'ont reconnu officiellement, la Chine considérant l'île comme une province. C'est ce décompte de 197 que SAPIRO utilise pour couvrir tous les territoires qui se gouvernent réellement eux-mêmes.
+Deux États fonctionnent comme des pays à part entière sans siéger à l'ONU. Le Kosovo, indépendant depuis 2008, est reconnu par une centaine d'États. Taïwan a son gouvernement, sa monnaie et son armée, mais moins de quinze États l'ont reconnu officiellement, la Chine considérant l'île comme une province. C'est ce décompte de 197 que SAPIRO utilise pour couvrir tous les territoires qui se gouvernent eux-mêmes.
 
 ## 206, 211, 249 : le sport et les codes
 
-Le CIO reconnaît 206 comités olympiques : Porto Rico ou les Îles Cook défilent aux Jeux sans être des États indépendants. La FIFA en fédère 211 — l'Angleterre, l'Écosse, le pays de Galles et l'Irlande du Nord y jouent chacun sous son propre maillot. Et la norme ISO 3166-1 attribue 249 codes, car elle inclut les territoires dépendants comme la Polynésie française ou le Groenland.
+Le CIO reconnaît 206 comités olympiques : Porto Rico ou les Îles Cook défilent aux Jeux sans être des États indépendants. La FIFA en fédère 211 : l'Angleterre, l'Écosse, le pays de Galles et l'Irlande du Nord y jouent chacun sous son propre maillot. Et la norme ISO 3166-1 attribue 249 codes, car elle inclut les territoires dépendants comme la Polynésie française ou le Groenland.
 
 ## Les cas limites
 
@@ -49,7 +49,7 @@ Une poignée de territoires proclament leur indépendance sans reconnaissance la
 
 ## Le chiffre peut-il encore changer ?
 
-Oui. Le Soudan du Sud a porté le total à 193 en 2011, et le prochain candidat sérieux est Bougainville : cette île de Papouasie-Nouvelle-Guinée a voté pour l'indépendance à 98 % lors du référendum de 2019. L'histoire récente des [plus jeunes pays du monde](/blog/plus-jeunes-pays-monde/) montre que la carte bouge encore — et celle des [pays disparus](/blog/pays-disparus/) rappelle que le mouvement joue dans les deux sens. Pour l'anecdote, les 195 pays ne pèsent pas lourd à la même échelle : les dix [plus petits pays du monde](/blog/plus-petits-pays-monde/) tiendraient ensemble dans la moitié de la Corse.
+Oui. Le Soudan du Sud a porté le total à 193 en 2011, et le prochain candidat sérieux est Bougainville : cette île de Papouasie-Nouvelle-Guinée a voté pour l'indépendance à 98 % lors du référendum de 2019. L'histoire récente des [plus jeunes pays du monde](/blog/plus-jeunes-pays-monde/) montre que la carte bouge encore, et celle des [pays disparus](/blog/pays-disparus/) rappelle que le mouvement joue dans les deux sens. Pour l'anecdote, les 195 pays ne pèsent pas lourd à la même échelle : les dix [plus petits pays du monde](/blog/plus-petits-pays-monde/) tiendraient ensemble dans la moitié de la Corse.
 
 ## Questions fréquentes
 
