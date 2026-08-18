@@ -1,0 +1,41 @@
+priorite,cible,type,langue,url_ou_page_visee,contact,dofollow_verifie,statut,date_contact,date_relance,resultat,notes
+1,AlternativeTo,annuaire,EN,https://alternativeto.net/manage/new/,formulaire (compte gratuit),a_tester,a_faire,,,,tags Ad-free / No Tracking ; alternative a Trivia Crack et Kahoot
+2,SaaSHub,annuaire,EN,https://www.saashub.com/submit,formulaire,a_tester,a_faire,,,,fiche "Sapiro alternatives & reviews"
+3,edshelf,annuaire_edu,EN,https://edshelf.com/add-tool,formulaire,a_tester,a_faire,,,,categories trivia / geography
+4,Les Clionautes,assoc_profs,FR,https://college.clionautes.org/reviser-des-notions-de-geographie-avec-un-quiz.html,https://www.clionautes.org/contactez-vous,a_tester,a_faire,,,,email 1 redige (emails-outreach.md)
+5,Spatial Post,listicle,EN,https://www.spatialpost.com/apps-to-learn-geography/,admin@spatialpost.com,a_tester,a_faire,,,,email 2 redige
+6,Web del Maestro CMF,media_profs,ES,https://webdelmaestrocmf.com/portal/las-mejores-apps-para-aprender-geografia/,admin@webdelmaestrocmf.com,a_tester,a_faire,,,,email 3 redige
+7,Geek Junior,presse_ados,FR,https://www.geekjunior.fr/applications/,redaction@geekjunior.fr,a_tester,a_faire,,,,article dedie type Cultureo ; angle CDI
+8,Outils Tice,blog_profs,FR,https://outilstice.com,formulaire + Substack (F. Navamuel),a_tester,a_faire,,,,mail tres court ; refuser toute offre payante
+9,Ayuda para maestros,blog_prof,ES,https://www.ayudaparamaestros.com,manuvelasco@hotmail.es,a_tester,a_faire,,,,billet "repaso de geografia"
+10,HT Pratique,listicle,FR,https://htpratique.com/applications-geographie/ + /applications-culture-generale/,contact@htpratique.com,a_tester,a_faire,,,,1 email = 2 pages
+11,EdTech Impact,annuaire_edu,EN,https://edtechimpact.com/list-your-product/,hello@edtechimpact.com,a_tester,a_faire,,,,rester sur le listing gratuit
+12,appPicker,annuaire,EN,https://www.apppicker.com/users/registerdev,inscription dev,a_tester,a_faire,,,,iOS surtout ; reviews staff gratuites
+13,EarthGuessr blog,listicle,EN,https://www.earthguessr.com/blog/best-geography-apps-iphone-android-2026,page contact du site,a_tester,a_faire,,,,complementaire de leur jeu ; site inde reactif
+14,Le Tout Pile,listicle,FR,https://letoutpile.com/articles/appli-culture-generale/,letoutpile@gmail.com,a_tester,a_faire,,,,maj 07/2026 ; quasi-concurrent : se positionner en complement solo
+15,Ludomag,presse_edtech,FR,https://www.ludomag.com/contacter-la-redaction/,redaction@ludomag.com,a_tester,a_faire,,,,CP editorialise
+16,Ecole branchee,presse_edtech,FR-CA,https://ecolebranchee.com/a-propos/soumettez-un-article/,info@ecolebranchee.com,a_tester,a_faire,,,,Edubreves ; angle loi 25 Quebec
+17,Cafe pedagogique,presse_edu,FR,https://www.cafepedagogique.net/publier-dans-le-cafe/,redaction@cafepedagogique.net,a_tester,a_faire,,,,breve ressource pas article promo
+18,Orientacion Andujar,blog_profs,ES,https://www.orientacionandujar.es/contacto/,formulaire (sugerencias),a_tester,a_faire,,,,
+19,Educacion 3.0,presse_edtech,ES,https://www.educaciontrespuntocero.com/contacto/,formulaire,a_tester,a_faire,,,,viser maj des listes apps tipo Trivial / geografia
+20,gHacks,media_tech,EN,https://www.ghacks.net/contact/,formulaire,a_tester,a_faire,,,,attendre rapport Exodus avant envoi
+21,Children & Media Australia,institution,EN,https://childrenandmedia.org.au/accm/contact-us,formulaire,a_tester,a_faire,,,,lien direct incertain (fiches vers stores) ; valeur citation
+22,Watercooler Trivia,listicle,EN,https://www.watercoolertrivia.com/blog/best-quizzing-apps,formulaire site,a_tester,a_faire,,,,case "solo sans compte" manquante chez eux
+23,Educavox,media_contributif,FR,https://www.educavox.fr/devenez-redacteurs,contact@anae.education,a_tester,a_faire,,,,contribution signee non promo (effort redaction)
+24,Educational App Store,annuaire_edu,EN,https://www.educationalappstore.com/developer/contact-us,webteam@educationalappstore.com,a_tester,a_clarifier,,,,demander si fiche gratuite existe (certification payante = refuser)
+25,Thot Cursus,media_edu,FR-CA,https://cursus.edu,formulaire (eviter page annonceurs),a_tester,a_faire,,,,repertoire solutions gratuites
+26,Educapeques,portail_familles,ES,https://www.educapeques.com/informacion/participa,email sur page Participa,a_tester,a_faire,,,,article invite ; verifier dofollow avant d ecrire
+27,La Souris Grise,guide_apps_enfants,FR,https://souris-grise.fr/contact/,formulaire,a_tester,a_faire,,,,cible 8-12 ans ; volet geographie/nature
+28,App-enfant.fr,guide_apps_enfants,FR,https://app-enfant.fr/contactez-nous/,formulaire,a_tester,a_verifier_activite,,,,verifier que le site publie encore
+29,Profe Recursos,blog_profs,ES,https://www.proferecursos.com,contacto@proferecursos.com,a_tester,a_faire,,,,risque nofollow un peu plus eleve
+30,digiSchool,media_edu,FR,https://www.digischool.fr/articles/culture-generale/top-10-des-applis-pour-booster-sa-culture-generale/,formulaire partenariats,a_tester,a_faire,,,,grosse autorite proba faible
+31,Educators Technology,blog_edtech,EN,https://www.educatorstechnology.com/contact,formulaire,a_tester,a_faire,,,,editorial only ; refuser sponsored
+32,Geoconfluences ENS Lyon,institution,FR,http://geoconfluences.ens-lyon.fr/a-propos/contact,formulaire (J.-B. Bouron),a_tester,a_faire,,,,dossier soigne mois 4-5 ; pitcher la rigueur des donnees
+33,Coformacion + Ensename de Ciencia,listicle,ES,https://coformacion.com/estas-son-las-7-mejores-aplicaciones-para-aprender-geografia/,pages contact,a_tester,a_faire,,,,2 cibles ES secondaires
+34,Teachers With Apps,blog_edu,EN,https://teacherswithapps.com,jayne@teacherswithapps.com,a_tester,a_clarifier,,,,confirmer gratuite des reviews
+35,Mothers Always Right,blog_parental,EN,https://www.mothersalwaysright.com/10-best-free-apps-for-kids-that-parents-actually-trust-no-ads-no-upsells/,molly@mothersalwaysright.com,a_tester,a_faire,,,,exclure si demande payante
+36,Common Sense Media,institution,EN,https://www.commonsensemedia.org/app-reviews,formulaire contact general,non_pertinent,long_shot,,,,pas de canal dev ; valeur badge pas backlink
+37,Show HN,communaute,EN,https://news.ycombinator.com/showhn.html,post direct,nofollow,a_faire,,,,apres fiche AlternativeTo + rapport Exodus
+38,r/geography + r/geographygames,communaute,EN,https://www.reddit.com/r/geography/,post direct,nofollow,a_faire,,,,verifier sidebar ; contenu d abord jamais autopromo seche
+39,r/AndroidApps + r/iosapps + r/SideProject,communaute,EN,https://www.reddit.com/r/androidapps/,post direct,nofollow,a_faire,,,,flairs dev ; divulguer etre le developpeur
+40,Neoprofs,communaute,FR,https://www.neoprofs.org/,post direct,nofollow,a_faire,,,,transparence totale ; sections ressources HG
