@@ -71,7 +71,7 @@ El país se independizó durante la desintegración de Yugoslavia, tras un refer
 | 9 | Eslovaquia | 1993 | Partición |
 | 10 | Bosnia y Herzegovina | 1992 | Desintegración |
 
-Varios de estos Estados surgieron de la desaparición de otros, recogidos entre los [países que ya no existen](/es/blog/paises-desaparecidos/). Otras dos listas prolongan el tema: los [países más pequeños del mundo](/es/blog/paises-mas-pequenos-mundo/) y los [países que cambiaron de nombre](/es/blog/paises-que-cambiaron-de-nombre/).
+Varios de estos Estados surgieron de la desaparición de otros, recogidos entre los [países que ya no existen](/es/blog/paises-desaparecidos/). Otras dos listas prolongan el tema: el [país más antiguo del mundo](/es/blog/pais-mas-antiguo-mundo/), espejo exacto de esta lista, y los [países que cambiaron de nombre](/es/blog/paises-que-cambiaron-de-nombre/).
 
 ## Preguntas frecuentes
 

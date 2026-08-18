@@ -71,7 +71,7 @@ The country became independent during the breakup of Yugoslavia, after a referen
 | 9 | Slovakia | 1993 | Partition |
 | 10 | Bosnia and Herzegovina | 1992 | Breakup |
 
-Several of these states emerged from the disappearance of others, listed among the [countries that no longer exist](/en/blog/countries-that-disappeared/). Two related rankings continue the topic: the [smallest countries in the world](/en/blog/smallest-countries-world/) and the [countries that changed their names](/en/blog/countries-that-changed-names/).
+Several of these states emerged from the disappearance of others, listed among the [countries that no longer exist](/en/blog/countries-that-disappeared/). Two related rankings continue the topic: the [oldest country in the world](/en/blog/oldest-countries-world/), this ranking's exact mirror, and the [countries that changed their names](/en/blog/countries-that-changed-names/).
 
 ## Frequently asked questions
 

@@ -71,7 +71,7 @@ Le pays est devenu indépendant lors de l'éclatement de la Yougoslavie, après 
 | 9 | Slovaquie | 1993 | Partition |
 | 10 | Bosnie-Herzégovine | 1992 | Éclatement |
 
-Plusieurs de ces États sont nés de la disparition d'autres, recensés parmi les [pays qui n'existent plus](/blog/pays-disparus/). Deux autres classements prolongent le sujet : les [plus petits pays du monde](/blog/plus-petits-pays-monde/) et les [pays qui ont changé de nom](/blog/pays-qui-ont-change-de-nom/).
+Plusieurs de ces États sont nés de la disparition d'autres, recensés parmi les [pays qui n'existent plus](/blog/pays-disparus/). Deux autres classements prolongent le sujet : le [plus vieux pays du monde](/blog/plus-vieux-pays-monde/), miroir exact de celui-ci, et les [pays qui ont changé de nom](/blog/pays-qui-ont-change-de-nom/).
 
 ## Questions fréquentes
 
