@@ -13,7 +13,9 @@ import { useGameStore } from "@game/store/gameStore";
 import { recordGameResult, flushPendingResults } from "@game/lib/gameResults";
 import type { SessionConfig, SessionResult } from "@game/lib/quizSession";
 import { AccountModal } from "./AccountModal";
+import { PaywallModal } from "./PaywallModal";
 import { completePendingMerge, ensureSession, isSignedIn, onAuthChange } from "@game/lib/auth";
+import { fetchPremiumStatus, identifyUser } from "@game/lib/purchases";
 import type { User } from "@supabase/supabase-js";
 import "@game/styles/game.css";
 
@@ -58,9 +60,9 @@ export default function GameApp({ lang }: Props) {
 
   const [user, setUser] = useState<User | null>(null);
   const [accountOpen, setAccountOpen] = useState(false);
+  const [paywallOpen, setPaywallOpen] = useState(false);
+  const [isPremium, setIsPremium] = useState(false);
 
-  // TODO(phase 3) : statut réel depuis RevenueCat Web Billing + premium_overrides.
-  const isPremium = false;
   const signedIn = isSignedIn(user);
 
   const dailyDone = lastDailyKey === todayKey();
@@ -78,6 +80,18 @@ export default function GameApp({ lang }: Props) {
     })();
     return unsubscribe;
   }, []);
+
+  // Le SDK RevenueCat suit l'uid Supabase : c'est ce qui fait qu'un abonnement
+  // pris ici vaut sur mobile, et inversement.
+  const refreshPremium = useCallback(async (uid: string | undefined) => {
+    if (!uid) return setIsPremium(false);
+    identifyUser(uid);
+    setIsPremium(await fetchPremiumStatus(uid));
+  }, []);
+
+  useEffect(() => {
+    void refreshPremium(user?.id);
+  }, [user?.id, refreshPremium]);
 
   // Seuls les textes d'interface sont chargés au démarrage. Les locales
   // d'entités (jusqu'à 1,3 Mo pour une langue) sont chargées au lancement
@@ -188,10 +202,7 @@ export default function GameApp({ lang }: Props) {
     [refundTicket, isPremium],
   );
 
-  const handleSubscribe = useCallback(() => {
-    // TODO(phase 3) : ouvrir le checkout RevenueCat Web Billing.
-    window.alert("L'abonnement en ligne arrive très bientôt.");
-  }, []);
+  const handleSubscribe = useCallback(() => setPaywallOpen(true), []);
 
   const handleAccount = useCallback(() => setAccountOpen(true), []);
 
@@ -275,6 +286,20 @@ export default function GameApp({ lang }: Props) {
     <div className="sapiro-game">
       <div className="game-frame">{body}</div>
       {accountOpen && <AccountModal user={user} onClose={() => setAccountOpen(false)} />}
+      {paywallOpen && (
+        <PaywallModal
+          user={user}
+          onClose={() => setPaywallOpen(false)}
+          onPurchased={() => {
+            setPaywallOpen(false);
+            void refreshPremium(user?.id);
+          }}
+          onNeedAccount={() => {
+            setPaywallOpen(false);
+            setAccountOpen(true);
+          }}
+        />
+      )}
     </div>
   );
 }

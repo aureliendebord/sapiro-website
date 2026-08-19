@@ -565,3 +565,70 @@
 .game-modal__links button:hover {
   color: var(--ink);
 }
+
+/* ---------- Abonnement ---------- */
+
+.paywall-features {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px;
+  display: grid;
+  gap: 8px;
+}
+
+.paywall-features li {
+  position: relative;
+  padding-left: 26px;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.paywall-features li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: var(--correct);
+  font-weight: 800;
+}
+
+.paywall-plans {
+  display: grid;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.paywall-plan {
+  font: inherit;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 18px;
+  border-radius: 16px;
+  border: 2px solid var(--rule-light);
+  background: var(--surface);
+  color: var(--ink);
+  transition: border-color 140ms ease, background 140ms ease;
+}
+
+.paywall-plan--on {
+  border-color: var(--accent);
+  background: var(--accent-tint);
+}
+
+.paywall-plan__name {
+  font-weight: 800;
+}
+
+.paywall-plan__price {
+  font-weight: 800;
+  font-size: 17px;
+}
+
+.paywall-legal {
+  text-align: center;
+  color: var(--ink-faint);
+  font-size: 12px;
+  font-weight: 600;
+  margin: 12px 0 0;
+}
