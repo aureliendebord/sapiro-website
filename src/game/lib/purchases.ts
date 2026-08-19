@@ -12,14 +12,12 @@
  * Le statut premium lu par l'UI vient d'ici (SDK, source de vérité), plus la
  * table `premium_overrides` pour les accès accordés à la main — même règle que
  * `stores/subscriptionStore.ts` de l'app.
+ *
+ * Le SDK (~1 Mo dist) est chargé par import() dynamique : il ne doit pas peser
+ * sur le premier paint du jeu alors qu'une minorité de visiteurs ouvre le
+ * paywall. Toutes les fonctions publiques sont async, l'appelant ne voit rien.
  */
-import {
-  Purchases,
-  ErrorCode,
-  PurchasesError,
-  type CustomerInfo,
-  type Package,
-} from "@revenuecat/purchases-js";
+import type { CustomerInfo, Package, Purchases } from "@revenuecat/purchases-js";
 import { getSupabase } from "@game/lib/supabase";
 
 const API_KEY = import.meta.env.PUBLIC_RC_WEB_API_KEY;
@@ -27,19 +25,30 @@ const API_KEY = import.meta.env.PUBLIC_RC_WEB_API_KEY;
 /** Identique à l'app (`stores/subscriptionStore.ts`). */
 const ENTITLEMENT_ID = "Sapiro Pro";
 
+type SDK = typeof import("@revenuecat/purchases-js");
+
+let sdkPromise: Promise<SDK> | null = null;
 let configuredFor: string | null = null;
+
+function loadSdk(): Promise<SDK> {
+  sdkPromise ??= import("@revenuecat/purchases-js");
+  return sdkPromise;
+}
 
 export function isBillingConfigured(): boolean {
   return Boolean(API_KEY);
 }
 
 /**
- * Associe le SDK à l'utilisateur courant. À rappeler à chaque changement d'uid
- * (connexion, fusion de compte anonyme) : c'est l'`appUserId` qui porte
- * l'entitlement d'une plateforme à l'autre.
+ * Associe le SDK à l'utilisateur courant et ATTEND que le changement soit
+ * effectif : c'est l'`appUserId` qui porte l'entitlement d'une plateforme à
+ * l'autre, et un `getCustomerInfo` parti avant la fin d'un `changeUser`
+ * répondrait pour l'ancien utilisateur (abonné affiché gratuit).
  */
-export function identifyUser(uid: string): Purchases | null {
+export async function identifyUser(uid: string): Promise<Purchases | null> {
   if (!API_KEY) return null;
+
+  const { Purchases } = await loadSdk();
 
   if (configuredFor === null) {
     configuredFor = uid;
@@ -49,7 +58,7 @@ export function identifyUser(uid: string): Purchases | null {
   const purchases = Purchases.getSharedInstance();
   if (configuredFor !== uid) {
     configuredFor = uid;
-    void purchases.changeUser(uid);
+    await purchases.changeUser(uid);
   }
   return purchases;
 }
@@ -77,14 +86,13 @@ function periodOf(pkg: Package): SubscriptionPlan["period"] {
 export async function getPlans(): Promise<SubscriptionPlan[]> {
   if (!API_KEY) return [];
 
+  const { Purchases } = await loadSdk();
   const offerings = await Purchases.getSharedInstance().getOfferings();
   const packages = offerings.current?.availablePackages ?? [];
 
   return packages.map((pkg) => ({
     id: pkg.identifier,
-    priceString:
-      pkg.webBillingProduct.currentPrice.formattedPrice ??
-      String(pkg.webBillingProduct.currentPrice.amountMicros / 1_000_000),
+    priceString: pkg.webBillingProduct.currentPrice.formattedPrice,
     period: periodOf(pkg),
     rcPackage: pkg,
   }));
@@ -107,6 +115,7 @@ export async function purchasePlan(
 ): Promise<CustomerInfo> {
   if (!API_KEY) throw new Error("Le paiement en ligne n'est pas configuré.");
 
+  const { Purchases, PurchasesError, ErrorCode } = await loadSdk();
   try {
     const { customerInfo } = await Purchases.getSharedInstance().purchase({
       rcPackage: plan.rcPackage,
@@ -136,7 +145,8 @@ export async function fetchPremiumStatus(uid: string): Promise<boolean> {
 
   if (API_KEY) {
     try {
-      identifyUser(uid);
+      await identifyUser(uid);
+      const { Purchases } = await loadSdk();
       const info = await Purchases.getSharedInstance().getCustomerInfo();
       entitled = hasEntitlement(info);
     } catch (e) {
@@ -164,6 +174,7 @@ export async function fetchPremiumStatus(uid: string): Promise<boolean> {
 export async function openCustomerPortal(): Promise<boolean> {
   if (!API_KEY) return false;
 
+  const { Purchases } = await loadSdk();
   const info = await Purchases.getSharedInstance().getCustomerInfo();
   const url = info.managementURL;
   if (!url) return false;

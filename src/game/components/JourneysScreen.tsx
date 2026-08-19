@@ -1,6 +1,7 @@
 import { useMemo } from "react";
 import { JOURNEY_CATALOG, type JourneyDefinition } from "@/domain/journeys/catalog";
 import { themeColor } from "@game/design/tokens";
+import { t } from "@game/lib/i18n";
 
 /**
  * Le catalogue web reprend le gating par catégorie de l'app
@@ -15,13 +16,13 @@ const FREE_CATEGORIES = new Set([
   "monuments-continent",
 ]);
 
-const THEME_LABELS: Record<string, string> = {
-  geography: "Géographie",
-  history: "Histoire",
-  art: "Art",
-  nature: "Nature",
-  monument: "Monuments",
-};
+/**
+ * Libellés de thème : ceux des locales synchronisées de l'app
+ * (`game.json` → `themeSelect.*`) — mêmes mots que sur mobile, déjà traduits.
+ */
+function themeLabel(theme: string): string {
+  return t(`themeSelect.${theme}`);
+}
 
 interface Props {
   isPremium: boolean;
@@ -49,17 +50,22 @@ export function JourneysScreen({ isPremium, catalogOpen, onPick, onLocked, onBac
   return (
     <>
       <div className="game-topbar">
-        <button type="button" className="game-icon-btn" onClick={onBack} aria-label="Retour">
+        <button
+          type="button"
+          className="game-icon-btn"
+          onClick={onBack}
+          aria-label={t("web.journeys.back")}
+        >
           ←
         </button>
-        <strong style={{ fontSize: 17 }}>Parcours</strong>
+        <strong style={{ fontSize: 17 }}>{t("web.journeys.title")}</strong>
         <span style={{ width: 38 }} />
       </div>
 
       <div style={{ overflowY: "auto", flex: 1 }}>
         {[...byTheme.entries()].map(([theme, journeys]) => (
           <section className="journey-section" key={theme}>
-            <h2 className="journey-section__title">{THEME_LABELS[theme] ?? theme}</h2>
+            <h2 className="journey-section__title">{themeLabel(theme)}</h2>
             <div className="journey-grid">
               {journeys.map((journey) => {
                 const unlocked = isUnlocked(journey);
@@ -74,7 +80,9 @@ export function JourneysScreen({ isPremium, catalogOpen, onPick, onLocked, onBac
                   >
                     <span className="journey-card__icon">{unlocked ? journey.icon : "🔒"}</span>
                     <span className="journey-card__title">{journey.title}</span>
-                    <span className="journey-card__meta">{journey.entityCount} éléments</span>
+                    <span className="journey-card__meta">
+                      {t("web.journeys.elements", { count: journey.entityCount })}
+                    </span>
                   </button>
                 );
               })}

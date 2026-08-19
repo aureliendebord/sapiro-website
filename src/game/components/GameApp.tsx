@@ -1,23 +1,31 @@
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { Suspense, lazy, useCallback, useEffect, useMemo, useState } from "react";
 import type { AnyFlagEntity, EntityType } from "@/types";
 import type { JourneyDefinition } from "@/domain/journeys/catalog";
 import { getEntityById } from "@/domain/quiz/entityPool";
+import { getDailyTheme } from "@/utils/dailyChallenge";
 import { HomeScreen, type HomeAction } from "./HomeScreen";
 import { JourneysScreen } from "./JourneysScreen";
 import { QuizScreen } from "./QuizScreen";
 import { ResultScreen } from "./ResultScreen";
-import { loadLanguage, type GameLang } from "@game/lib/i18n";
+import { loadLanguage, t, type GameLang } from "@game/lib/i18n";
 import { preloadEntityLocales } from "@/hooks/useEntityDescriptions";
 import { useTicketStore, useTicketBalance } from "@game/store/ticketStore";
 import { useGameStore } from "@game/store/gameStore";
 import { recordGameResult, flushPendingResults } from "@game/lib/gameResults";
 import type { SessionConfig, SessionResult } from "@game/lib/quizSession";
 import { AccountModal } from "./AccountModal";
-import { PaywallModal } from "./PaywallModal";
+import { ResetPasswordModal } from "./ResetPasswordModal";
 import { completePendingMerge, ensureSession, isSignedIn, onAuthChange } from "@game/lib/auth";
-import { fetchPremiumStatus, identifyUser } from "@game/lib/purchases";
+import { fetchPremiumStatus } from "@game/lib/purchases";
+import { capture, identifyAnalytics } from "@game/lib/analytics";
 import type { User } from "@supabase/supabase-js";
 import "@game/styles/game.css";
+
+// Le paywall embarque le SDK RevenueCat (~1 Mo dist) : chargé seulement à
+// l'ouverture, pas au premier paint du jeu.
+const PaywallModal = lazy(() =>
+  import("./PaywallModal").then((m) => ({ default: m.PaywallModal })),
+);
 
 type Screen =
   | { name: "home" }
@@ -60,7 +68,8 @@ export default function GameApp({ lang }: Props) {
 
   const [user, setUser] = useState<User | null>(null);
   const [accountOpen, setAccountOpen] = useState(false);
-  const [paywallOpen, setPaywallOpen] = useState(false);
+  const [paywallSource, setPaywallSource] = useState<string | null>(null);
+  const [resetOpen, setResetOpen] = useState(false);
   const [isPremium, setIsPremium] = useState(false);
 
   const signedIn = isSignedIn(user);
@@ -71,13 +80,29 @@ export default function GameApp({ lang }: Props) {
   // la 1re partie), reprise d'une éventuelle fusion post-redirect Google, puis
   // envoi des parties restées en file d'attente.
   useEffect(() => {
-    const unsubscribe = onAuthChange(setUser);
+    const unsubscribe = onAuthChange((nextUser) => {
+      identifyAnalytics(nextUser?.id ?? null);
+      setUser(nextUser);
+    });
     void (async () => {
       await completePendingMerge();
       const session = await ensureSession();
+      identifyAnalytics(session?.user?.id ?? null);
       setUser(session?.user ?? null);
       await flushPendingResults();
     })();
+
+    // Retour du lien « mot de passe oublié » : la session de récupération est
+    // déjà ouverte (detectSessionInUrl), il reste à demander le nouveau mot de
+    // passe. Le paramètre est consommé pour qu'un rechargement ne rouvre rien.
+    const params = new URLSearchParams(window.location.search);
+    if (params.has("reset")) {
+      setResetOpen(true);
+      params.delete("reset");
+      const query = params.toString();
+      window.history.replaceState(null, "", window.location.pathname + (query ? `?${query}` : ""));
+    }
+
     return unsubscribe;
   }, []);
 
@@ -85,7 +110,6 @@ export default function GameApp({ lang }: Props) {
   // pris ici vaut sur mobile, et inversement.
   const refreshPremium = useCallback(async (uid: string | undefined) => {
     if (!uid) return setIsPremium(false);
-    identifyUser(uid);
     setIsPremium(await fetchPremiumStatus(uid));
   }, []);
 
@@ -107,23 +131,39 @@ export default function GameApp({ lang }: Props) {
     };
   }, [lang, refreshRemoteConfig]);
 
+  const openPaywall = useCallback((source: string) => {
+    setPaywallSource(source);
+  }, []);
+
   const startQuiz = useCallback(
     async (config: SessionConfig, costsTicket: boolean) => {
-      if (costsTicket && !isPremium && !consumeTicket()) {
-        // Plus de tickets : l'accueil porte déjà l'invitation à s'abonner.
-        setScreen({ name: "home" });
-        return;
+      if (costsTicket && !isPremium) {
+        if (!consumeTicket()) {
+          // Plus de tickets : même funnel que l'app (quota_reached → paywall).
+          capture("quota_reached", { mode: config.mode, journey: config.journeyId ?? "" });
+          openPaywall("quota_reached");
+          setScreen({ name: "home" });
+          return;
+        }
+        capture("ticket_consumed", {
+          mode: config.mode,
+          journey: config.journeyId ?? "",
+          balance_after: useTicketStore.getState().getBalance(),
+        });
       }
 
       // Bloquant : sans les locales, les questions sortiraient en français.
       // En révision, le pool est hétérogène → on charge toutes les familles.
       setPreparing(true);
-      await preloadEntityLocales(lang, config.pool ? undefined : [config.entityType]);
-      setPreparing(false);
+      try {
+        await preloadEntityLocales(lang, config.pool ? undefined : [config.entityType]);
+      } finally {
+        setPreparing(false);
+      }
 
       setScreen({ name: "quiz", config });
     },
-    [consumeTicket, isPremium, lang],
+    [consumeTicket, isPremium, lang, openPaywall],
   );
 
   const handleAction = useCallback(
@@ -135,18 +175,33 @@ export default function GameApp({ lang }: Props) {
           .map((entry) => getEntityById(entry.entityType, entry.entityId))
           .filter((entity): entity is AnyFlagEntity => entity != null);
         if (!pool.length) return;
-        return startQuiz({ mode: "review", entityType: pool[0].type, language: lang, pool }, true);
+        return void startQuiz(
+          { mode: "review", entityType: pool[0].type, language: lang, pool },
+          true,
+        );
       }
 
-      const mode = action === "daily" ? "daily" : action === "survival" ? "survival" : "classic";
-      startQuiz({ mode, entityType: "country", language: lang }, mode !== "daily");
+      if (action === "daily") {
+        // Garde en profondeur : la carte est déjà désactivée, mais rien ne doit
+        // permettre une 2e partie daily (elle crédite un ticket bonus et écrit
+        // dans le classement partagé avec le mobile).
+        if (dailyDone) return;
+        const theme = getDailyTheme();
+        return void startQuiz(
+          { mode: "daily", entityType: theme.entityType as EntityType, language: lang },
+          false,
+        );
+      }
+
+      const mode = action === "survival" ? "survival" : "classic";
+      void startQuiz({ mode, entityType: "country", language: lang }, true);
     },
-    [review, lang, startQuiz],
+    [review, lang, startQuiz, dailyDone],
   );
 
   const handlePickJourney = useCallback(
     (journey: JourneyDefinition) => {
-      startQuiz(
+      void startQuiz(
         {
           mode: "classic",
           journeyId: journey.id,
@@ -187,6 +242,13 @@ export default function GameApp({ lang }: Props) {
         earnDailyBonus();
       }
 
+      capture("game_finished", {
+        mode: result.mode,
+        journey: result.journeyId ?? "",
+        score: result.score,
+        total: result.totalQuestions,
+        xp: result.xp.totalXP,
+      });
       void recordGameResult(result);
       setScreen({ name: "result", result, config });
     },
@@ -196,19 +258,18 @@ export default function GameApp({ lang }: Props) {
   /** Quitter sans avoir répondu ne doit rien coûter (comme sur mobile). */
   const handleQuit = useCallback(
     (answered: number, costsTicket: boolean) => {
-      if (answered === 0 && costsTicket && !isPremium) refundTicket();
+      if (answered === 0 && costsTicket && !isPremium) {
+        refundTicket();
+        capture("ticket_refunded", { balance_after: useTicketStore.getState().getBalance() });
+      }
       setScreen({ name: "home" });
     },
     [refundTicket, isPremium],
   );
 
-  const handleSubscribe = useCallback(() => setPaywallOpen(true), []);
-
-  const handleAccount = useCallback(() => setAccountOpen(true), []);
-
   const body = useMemo(() => {
-    if (!ready) return <div className="game-loading">Chargement du jeu…</div>;
-    if (preparing) return <div className="game-loading">Préparation de la partie…</div>;
+    if (!ready) return <div className="game-loading">…</div>;
+    if (preparing) return <div className="game-loading">{t("web.quiz.preparing")}</div>;
 
     switch (screen.name) {
       case "home":
@@ -221,8 +282,8 @@ export default function GameApp({ lang }: Props) {
             reviewCount={review.length}
             dailyDone={dailyDone}
             onAction={handleAction}
-            onAccount={handleAccount}
-            onSubscribe={handleSubscribe}
+            onAccount={() => setAccountOpen(true)}
+            onSubscribe={() => openPaywall("home_pill")}
           />
         );
 
@@ -232,7 +293,7 @@ export default function GameApp({ lang }: Props) {
             isPremium={isPremium}
             catalogOpen={catalogOpen}
             onPick={handlePickJourney}
-            onLocked={handleSubscribe}
+            onLocked={() => openPaywall("locked_journey")}
             onBack={() => setScreen({ name: "home" })}
           />
         );
@@ -255,9 +316,10 @@ export default function GameApp({ lang }: Props) {
             result={screen.result}
             ticketsLeft={tickets}
             isPremium={isPremium}
-            onReplay={() => startQuiz(screen.config, screen.config.mode !== "daily")}
+            canReplay={screen.config.mode !== "daily"}
+            onReplay={() => void startQuiz(screen.config, true)}
             onHome={() => setScreen({ name: "home" })}
-            onSubscribe={handleSubscribe}
+            onSubscribe={() => openPaywall("quiz_result")}
           />
         );
     }
@@ -272,33 +334,35 @@ export default function GameApp({ lang }: Props) {
     review.length,
     dailyDone,
     catalogOpen,
-    lang,
     handleAction,
-    handleAccount,
-    handleSubscribe,
     handlePickJourney,
     handleFinish,
     handleQuit,
     startQuiz,
+    openPaywall,
   ]);
 
   return (
     <div className="sapiro-game">
       <div className="game-frame">{body}</div>
       {accountOpen && <AccountModal user={user} onClose={() => setAccountOpen(false)} />}
-      {paywallOpen && (
-        <PaywallModal
-          user={user}
-          onClose={() => setPaywallOpen(false)}
-          onPurchased={() => {
-            setPaywallOpen(false);
-            void refreshPremium(user?.id);
-          }}
-          onNeedAccount={() => {
-            setPaywallOpen(false);
-            setAccountOpen(true);
-          }}
-        />
+      {resetOpen && <ResetPasswordModal onClose={() => setResetOpen(false)} />}
+      {paywallSource !== null && (
+        <Suspense fallback={null}>
+          <PaywallModal
+            user={user}
+            source={paywallSource}
+            onClose={() => setPaywallSource(null)}
+            onPurchased={() => {
+              setPaywallSource(null);
+              void refreshPremium(user?.id);
+            }}
+            onNeedAccount={() => {
+              setPaywallSource(null);
+              setAccountOpen(true);
+            }}
+          />
+        </Suspense>
       )}
     </div>
   );

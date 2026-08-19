@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { AnyFlagEntity } from "@/types";
 import { getQuestionPrompt } from "@game/lib/questionPrompt";
 import { entityVisualUrl, isImageEntity } from "@game/lib/entityAssets";
@@ -10,7 +10,8 @@ import {
   type SessionResult,
   type SessionState,
 } from "@game/lib/quizSession";
-import { modeColor } from "@game/design/tokens";
+import { accentVars } from "@game/design/tokens";
+import { t } from "@game/lib/i18n";
 
 /** Délai d'affichage du feedback avant la question suivante (ms). */
 const FEEDBACK_MS = 900;
@@ -24,16 +25,29 @@ interface Props {
 export function QuizScreen({ config, onFinish, onQuit }: Props) {
   const [session, setSession] = useState<SessionState>(() => startSession(config));
   const [picked, setPicked] = useState<string | null>(null);
+  // Le timeout de feedback doit mourir avec l'écran : sans ça, quitter pendant
+  // la fenêtre de 900 ms laisse un onFinish tardif rouvrir l'écran de résultat.
+  const feedbackTimer = useRef<number | null>(null);
 
-  const accent = modeColor(config.mode);
+  useEffect(() => {
+    return () => {
+      if (feedbackTimer.current !== null) window.clearTimeout(feedbackTimer.current);
+    };
+  }, []);
+
   const question = session.question;
+
+  // Réponses données, feedback en cours compris : quitter pendant les 900 ms
+  // d'affichage NE doit PAS passer pour une partie vierge (remboursement indu).
+  const answeredCount = session.questionIndex + (picked !== null ? 1 : 0);
 
   const handlePick = useCallback(
     (choice: string) => {
       if (picked !== null) return;
       setPicked(choice);
 
-      window.setTimeout(() => {
+      feedbackTimer.current = window.setTimeout(() => {
+        feedbackTimer.current = null;
         const { state } = answerSession(session, choice);
         setPicked(null);
         setSession(state);
@@ -49,7 +63,7 @@ export function QuizScreen({ config, onFinish, onQuit }: Props) {
   // clavier sur desktop, où la souris pour 10 questions est vite pénible.
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
-      if (e.key === "Escape") return onQuit(session.questionIndex);
+      if (e.key === "Escape") return onQuit(answeredCount);
       const index = Number(e.key) - 1;
       if (question && index >= 0 && index < question.options.length) {
         handlePick(question.options[index]);
@@ -57,7 +71,7 @@ export function QuizScreen({ config, onFinish, onQuit }: Props) {
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
-  }, [question, handlePick, onQuit, session.questionIndex]);
+  }, [question, handlePick, onQuit, answeredCount]);
 
   const progress = useMemo(() => {
     if (session.totalQuestions === null) return null;
@@ -65,29 +79,19 @@ export function QuizScreen({ config, onFinish, onQuit }: Props) {
   }, [session.questionIndex, session.totalQuestions]);
 
   if (!question) {
-    return <div className="game-loading">Chargement de la partie…</div>;
+    return <div className="game-loading">{t("web.quiz.loading")}</div>;
   }
 
   const visual = entityVisualUrl(question.entity);
 
   return (
-    <div
-      style={
-        {
-          "--accent": accent.primary,
-          "--on-accent": accent.onPrimary,
-          "--accent-tint": accent.tint,
-          "--accent-deep": accent.tintDeep,
-          display: "contents",
-        } as React.CSSProperties
-      }
-    >
+    <div style={{ ...accentVars(config.mode), display: "contents" } as React.CSSProperties}>
       <div className="game-topbar">
         <button
           type="button"
           className="game-icon-btn"
-          onClick={() => onQuit(session.questionIndex)}
-          aria-label="Quitter la partie"
+          onClick={() => onQuit(answeredCount)}
+          aria-label={t("web.quiz.quit")}
         >
           ←
         </button>
@@ -99,16 +103,21 @@ export function QuizScreen({ config, onFinish, onQuit }: Props) {
             aria-valuenow={session.questionIndex}
             aria-valuemin={0}
             aria-valuemax={session.totalQuestions ?? undefined}
-            aria-label="Progression de la partie"
+            aria-label={t("web.quiz.progress")}
           >
             <div className="quiz-progress__bar" style={{ width: `${progress}%` }} />
           </div>
         ) : (
-          <span className="game-pill">{session.questionIndex} bonnes réponses</span>
+          <span className="game-pill">
+            {t("web.quiz.goodAnswers", { count: session.questionIndex })}
+          </span>
         )}
 
         {config.mode === "survival" ? (
-          <span className="quiz-lives" aria-label={`${session.lives} vies restantes`}>
+          <span
+            className="quiz-lives"
+            aria-label={t("web.quiz.livesLeft", { count: session.lives })}
+          >
             {"❤️".repeat(Math.max(0, session.lives))}
           </span>
         ) : (
@@ -130,7 +139,7 @@ export function QuizScreen({ config, onFinish, onQuit }: Props) {
         </div>
 
         <div className="quiz-options">
-          {question.options.map((option, i) => (
+          {question.options.map((option) => (
             <button
               type="button"
               key={option}

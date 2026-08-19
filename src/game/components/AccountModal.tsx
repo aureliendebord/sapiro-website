@@ -8,6 +8,7 @@ import {
   signOut,
   signUpWithEmail,
 } from "@game/lib/auth";
+import { t } from "@game/lib/i18n";
 
 type Tab = "signin" | "signup" | "forgot";
 
@@ -20,16 +21,16 @@ interface Props {
 function humanError(error: unknown): string {
   const message = error instanceof Error ? error.message : String(error);
   if (/already registered|email_exists|already been registered/i.test(message)) {
-    return "Cette adresse a déjà un compte. Connecte-toi plutôt.";
+    return t("web.account.errorExists");
   }
   if (/invalid login credentials/i.test(message)) {
-    return "Adresse ou mot de passe incorrect.";
+    return t("web.account.errorCredentials");
   }
   if (/password should be at least/i.test(message)) {
-    return "Le mot de passe doit faire au moins 6 caractères.";
+    return t("web.account.errorPassword");
   }
   if (/rate limit|too many/i.test(message)) {
-    return "Trop de tentatives. Réessaie dans quelques minutes.";
+    return t("web.account.errorRateLimit");
   }
   return message;
 }
@@ -64,43 +65,39 @@ export function AccountModal({ user, onClose }: Props) {
       className="game-modal"
       role="dialog"
       aria-modal="true"
-      aria-label={signedIn ? "Mon compte" : "Connexion"}
+      aria-label={signedIn ? t("web.account.title") : t("web.home.signIn")}
     >
       <div className="game-modal__panel">
         <button
           type="button"
           className="game-icon-btn game-modal__close"
           onClick={onClose}
-          aria-label="Fermer"
+          aria-label={t("web.account.close")}
         >
           ✕
         </button>
 
         {signedIn ? (
           <>
-            <h2 className="game-modal__title">Mon compte</h2>
+            <h2 className="game-modal__title">{t("web.account.title")}</h2>
             <p className="game-modal__sub">{user?.email}</p>
-            <p className="game-modal__sub">
-              Ta progression est sauvegardée et suit ton compte sur l'app mobile.
-            </p>
+            <p className="game-modal__sub">{t("web.account.synced")}</p>
             <button
               type="button"
               className="game-btn game-btn--ghost game-btn--block"
               onClick={() => void run(signOut)}
               disabled={busy}
             >
-              Se déconnecter
+              {t("web.account.signOut")}
             </button>
           </>
         ) : (
           <>
             <h2 className="game-modal__title">
-              {tab === "forgot" ? "Mot de passe oublié" : "Sauvegarde ta progression"}
+              {tab === "forgot" ? t("web.account.forgotTitle") : t("web.account.saveTitle")}
             </h2>
             <p className="game-modal__sub">
-              {tab === "forgot"
-                ? "On t'envoie un lien pour choisir un nouveau mot de passe."
-                : "Un compte te permet de retrouver ta progression sur mobile, et inversement."}
+              {tab === "forgot" ? t("web.account.forgotSub") : t("web.account.saveSub")}
             </p>
 
             {tab !== "forgot" && (
@@ -108,12 +105,12 @@ export function AccountModal({ user, onClose }: Props) {
                 <button
                   type="button"
                   className="game-btn game-btn--ghost game-btn--block"
-                  onClick={() => void run(signInWithGoogle, "Redirection vers Google…")}
+                  onClick={() => void run(signInWithGoogle, t("web.account.googleRedirect"))}
                   disabled={busy}
                 >
-                  Continuer avec Google
+                  {t("web.account.google")}
                 </button>
-                <div className="game-modal__sep">ou</div>
+                <div className="game-modal__sep">{t("web.account.or")}</div>
               </>
             )}
 
@@ -121,10 +118,7 @@ export function AccountModal({ user, onClose }: Props) {
               onSubmit={(e) => {
                 e.preventDefault();
                 if (tab === "forgot") {
-                  void run(
-                    () => resetPassword(email),
-                    "Si un compte existe, le lien est parti. Pense aux indésirables.",
-                  );
+                  void run(() => resetPassword(email), t("web.account.forgotSent"));
                 } else if (tab === "signup") {
                   void run(() => signUpWithEmail(email, password));
                 } else {
@@ -133,7 +127,7 @@ export function AccountModal({ user, onClose }: Props) {
               }}
             >
               <label className="game-field">
-                <span>Adresse email</span>
+                <span>{t("web.account.email")}</span>
                 <input
                   type="email"
                   value={email}
@@ -146,7 +140,7 @@ export function AccountModal({ user, onClose }: Props) {
 
               {tab !== "forgot" && (
                 <label className="game-field">
-                  <span>Mot de passe</span>
+                  <span>{t("web.account.password")}</span>
                   <input
                     type="password"
                     value={password}
@@ -164,29 +158,29 @@ export function AccountModal({ user, onClose }: Props) {
 
               <button type="submit" className="game-btn game-btn--block" disabled={busy}>
                 {busy
-                  ? "Un instant…"
+                  ? t("web.account.wait")
                   : tab === "signup"
-                    ? "Créer mon compte"
+                    ? t("web.account.signUp")
                     : tab === "signin"
-                      ? "Se connecter"
-                      : "Envoyer le lien"}
+                      ? t("web.account.signIn")
+                      : t("web.account.sendLink")}
               </button>
             </form>
 
             <div className="game-modal__links">
               {tab !== "signup" && (
                 <button type="button" onClick={() => setTab("signup")}>
-                  Créer un compte
+                  {t("web.account.signUpLink")}
                 </button>
               )}
               {tab !== "signin" && (
                 <button type="button" onClick={() => setTab("signin")}>
-                  J'ai déjà un compte
+                  {t("web.account.signInLink")}
                 </button>
               )}
               {tab === "signin" && (
                 <button type="button" onClick={() => setTab("forgot")}>
-                  Mot de passe oublié
+                  {t("web.account.forgotLink")}
                 </button>
               )}
             </div>

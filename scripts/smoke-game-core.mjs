@@ -88,8 +88,36 @@ try {
   console.log(`partie survie (que des erreurs) : ${svResult.totalQuestions} questions, ${svResult.xp.totalXP} XP`);
   if (svResult.totalQuestions !== 3) throw new Error('la survie doit s\'arrêter après 3 vies perdues');
 
+  // Défi du jour : déterministe (même quiz pour tous) et thémé comme sur mobile.
+  const d1 = startSession({ mode: 'daily', entityType: 'country', language: 'fr' });
+  const d2 = startSession({ mode: 'daily', entityType: 'country', language: 'fr' });
+  if (!d1.playlist?.length) throw new Error('le daily doit avoir une playlist');
+  const ids1 = d1.playlist.map((q) => q.entity.id).join(',');
+  const ids2 = d2.playlist.map((q) => q.entity.id).join(',');
+  if (ids1 !== ids2) throw new Error('le daily doit être identique à chaque lancement (seed par date)');
+  console.log(`\ndéfi du jour : ${d1.playlist.length} questions, thème ${d1.dailyTheme}, déterministe ✓`);
+
+  // Révision : pool hétérogène → chaque question garde SA famille d'options.
+  const { getEntityById } = await server.ssrLoadModule('/src/game/core/domain/quiz/entityPool.ts');
+  const mixedPool = [getEntityById('country', 'fr'), getEntityById('figure', 'napoleon')].filter(Boolean);
+  if (mixedPool.length === 2) {
+    const rv = startSession({ mode: 'review', entityType: 'country', language: 'fr', pool: mixedPool });
+    if (rv.playlist.length !== 2) throw new Error('révision : une question par entité du deck');
+    for (const q of rv.playlist) {
+      // La bonne réponse et les distracteurs doivent venir de la famille de l'entité.
+      console.log(`  révision [${q.entity.type}] ${q.entity.name} — options: ${q.options.join(', ')}`);
+    }
+    const figureQ = rv.playlist.find((q) => q.entity.type === 'figure');
+    if (figureQ && figureQ.options.some((o) => ['France', 'Allemagne', 'Espagne', 'Italie'].includes(o))) {
+      throw new Error('révision : distracteurs de la mauvaise famille (pays sur une figure)');
+    }
+  } else {
+    console.log('  (entité de test absente, contrôle révision par types sautés)');
+  }
+
   console.log('\n✓ le moteur génère des questions valides hors React Native');
   console.log('✓ une partie complète se déroule et score correctement');
+  console.log('✓ daily déterministe et révision par famille');
 } finally {
   await server.close();
 }

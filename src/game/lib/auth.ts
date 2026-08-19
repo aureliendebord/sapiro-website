@@ -20,6 +20,7 @@
 import type { Session, User } from "@supabase/supabase-js";
 import { getSupabase } from "@game/lib/supabase";
 import { flushPendingResults } from "@game/lib/gameResults";
+import { capture, identifyAnalytics } from "@game/lib/analytics";
 
 const PENDING_MERGE_KEY = "sapiro-web-pending-merge";
 /** Un aller-retour OAuth dure moins d'une minute ; au-delà, le jeton anonyme
@@ -95,6 +96,27 @@ async function mergeAnonymousInto(pending: PendingMerge, newUid: string | null):
   }
 }
 
+/**
+ * Même événement que le mobile (`lib/auth.ts` de l'app) : `merged: false` est
+ * le signal d'alerte d'une progression orpheline — il DOIT être visible dans
+ * PostHog, pas seulement en console.
+ */
+function captureAccountLinked(
+  provider: "google" | "email",
+  wasAnonymous: boolean,
+  uidChanged: boolean,
+  merged: boolean | null,
+): void {
+  capture("account_linked", {
+    provider,
+    source: "web_game",
+    was_anonymous: wasAnonymous,
+    linked_in_place: wasAnonymous && !uidChanged,
+    uid_changed: uidChanged,
+    merged,
+  });
+}
+
 /** Connexion Google : redirect, donc on met le jeton anonyme de côté. */
 export async function signInWithGoogle(): Promise<void> {
   const supabase = requireSupabase();
@@ -137,7 +159,9 @@ export async function completePendingMerge(): Promise<void> {
   // Toujours anonyme : le retour OAuth a échoué, il n'y a rien à fusionner.
   if (!user || user.is_anonymous) return;
 
-  await mergeAnonymousInto(pending, user.id);
+  identifyAnalytics(user.id);
+  const merged = await mergeAnonymousInto(pending, user.id);
+  captureAccountLinked("google", true, user.id !== pending.oldUid, merged);
   await flushPendingResults();
 }
 
@@ -152,6 +176,7 @@ export async function signUpWithEmail(email: string, password: string): Promise<
   if (data.session?.user?.is_anonymous) {
     const { data: updated, error } = await supabase.auth.updateUser({ email, password });
     if (error) throw error;
+    captureAccountLinked("email", true, false, null);
     await flushPendingResults();
     return updated.user;
   }
@@ -160,6 +185,7 @@ export async function signUpWithEmail(email: string, password: string): Promise<
   // classique. Rien à fusionner, il n'y a pas de progression serveur à sauver.
   const { data: signed, error } = await supabase.auth.signUp({ email, password });
   if (error) throw error;
+  captureAccountLinked("email", false, false, null);
   await flushPendingResults();
   return signed.user;
 }
@@ -172,7 +198,13 @@ export async function signInWithEmail(email: string, password: string): Promise<
   const { data, error } = await supabase.auth.signInWithPassword({ email, password });
   if (error) throw error;
 
-  if (pending) await mergeAnonymousInto(pending, data.user?.id ?? null);
+  const merged = pending ? await mergeAnonymousInto(pending, data.user?.id ?? null) : null;
+  captureAccountLinked(
+    "email",
+    pending !== null,
+    Boolean(pending && data.user && data.user.id !== pending.oldUid),
+    merged,
+  );
   await flushPendingResults();
   return data.user;
 }

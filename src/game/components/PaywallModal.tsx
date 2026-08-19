@@ -8,27 +8,28 @@ import {
   type SubscriptionPlan,
 } from "@game/lib/purchases";
 import { isSignedIn } from "@game/lib/auth";
+import { capture } from "@game/lib/analytics";
+import { t } from "@game/lib/i18n";
 
 interface Props {
   user: User | null;
+  /** Emplacement d'origine (funnel PostHog, comme `source` sur mobile). */
+  source: string;
   onClose: () => void;
   onPurchased: () => void;
   /** Ouvre la modale de compte : s'abonner suppose un compte identifiable. */
   onNeedAccount: () => void;
 }
 
-/** Ce que débloque l'abonnement — mêmes trois promesses que l'app. */
-const FEATURES = [
-  "Parties illimitées, tous les jours",
-  "Reprendre une partie de survie en cours",
-  "Soutenir le développement de Sapiro",
-];
-
-export function PaywallModal({ user, onClose, onPurchased, onNeedAccount }: Props) {
+export function PaywallModal({ user, source, onClose, onPurchased, onNeedAccount }: Props) {
   const [plans, setPlans] = useState<SubscriptionPlan[] | null>(null);
   const [selected, setSelected] = useState<string | null>(null);
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
+
+  useEffect(() => {
+    capture("paywall_shown", { source });
+  }, [source]);
 
   useEffect(() => {
     if (!isBillingConfigured()) {
@@ -61,18 +62,25 @@ export function PaywallModal({ user, onClose, onPurchased, onNeedAccount }: Prop
     // Sans compte, l'abonnement ne suivrait pas l'utilisateur sur mobile —
     // c'est précisément ce qu'il vient acheter.
     if (!isSignedIn(user)) {
+      capture("paywall_needs_account", { source, plan: plan.period });
       onNeedAccount();
       return;
     }
 
     setBusy(true);
     setError(null);
+    capture("purchase_started", { source, plan: plan.period });
     try {
       await purchasePlan(plan, user?.email ?? undefined);
+      capture("purchase_completed", { source, plan: plan.period });
       onPurchased();
     } catch (e) {
-      if (!(e instanceof PurchaseCancelledError)) {
-        setError(e instanceof Error ? e.message : String(e));
+      if (e instanceof PurchaseCancelledError) {
+        capture("purchase_cancelled", { source, plan: plan.period });
+      } else {
+        const message = e instanceof Error ? e.message : String(e);
+        capture("purchase_failed", { source, plan: plan.period, message });
+        setError(message);
       }
     } finally {
       setBusy(false);
@@ -80,35 +88,30 @@ export function PaywallModal({ user, onClose, onPurchased, onNeedAccount }: Prop
   };
 
   return (
-    <div className="game-modal" role="dialog" aria-modal="true" aria-label="Abonnement">
+    <div className="game-modal" role="dialog" aria-modal="true" aria-label={t("web.paywall.title")}>
       <div className="game-modal__panel">
         <button
           type="button"
           className="game-icon-btn game-modal__close"
           onClick={onClose}
-          aria-label="Fermer"
+          aria-label={t("web.account.close")}
         >
           ✕
         </button>
 
-        <h2 className="game-modal__title">Joue sans limite</h2>
-        <p className="game-modal__sub">
-          Ton abonnement vaut aussi sur l'app mobile, avec le même compte.
-        </p>
+        <h2 className="game-modal__title">{t("web.paywall.title")}</h2>
+        <p className="game-modal__sub">{t("web.paywall.sub")}</p>
 
         <ul className="paywall-features">
-          {FEATURES.map((feature) => (
-            <li key={feature}>{feature}</li>
-          ))}
+          <li>{t("web.paywall.f1")}</li>
+          <li>{t("web.paywall.f2")}</li>
+          <li>{t("web.paywall.f3")}</li>
         </ul>
 
-        {plans === null && <p className="game-modal__sub">Chargement des offres…</p>}
+        {plans === null && <p className="game-modal__sub">{t("web.paywall.loading")}</p>}
 
         {plans?.length === 0 && (
-          <p className="game-modal__notice">
-            L'abonnement en ligne n'est pas encore ouvert. En attendant, l'app mobile
-            propose déjà l'illimité.
-          </p>
+          <p className="game-modal__notice">{t("web.paywall.unavailable")}</p>
         )}
 
         {plans && plans.length > 0 && (
@@ -123,7 +126,7 @@ export function PaywallModal({ user, onClose, onPurchased, onNeedAccount }: Prop
                   disabled={busy}
                 >
                   <span className="paywall-plan__name">
-                    {plan.period === "yearly" ? "Annuel" : "Mensuel"}
+                    {plan.period === "yearly" ? t("web.paywall.yearly") : t("web.paywall.monthly")}
                   </span>
                   <span className="paywall-plan__price">{plan.priceString}</span>
                 </button>
@@ -138,12 +141,10 @@ export function PaywallModal({ user, onClose, onPurchased, onNeedAccount }: Prop
               onClick={() => void handleSubscribe()}
               disabled={busy || !selected}
             >
-              {busy ? "Un instant…" : "S'abonner"}
+              {busy ? t("web.paywall.wait") : t("web.paywall.cta")}
             </button>
 
-            <p className="paywall-legal">
-              Résiliable à tout moment depuis ton compte.
-            </p>
+            <p className="paywall-legal">{t("web.paywall.legal")}</p>
           </>
         )}
       </div>

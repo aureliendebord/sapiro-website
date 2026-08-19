@@ -4,7 +4,9 @@
  * Mêmes règles : 3 parties par jour, +1 au Défi du jour, rollover à minuit
  * heure locale, remboursement d'une partie quittée sans réponse, illimité pour
  * les abonnés. Le kill-switch distant (`/app-version.json`, bloc `tickets`) est
- * honoré comme sur mobile : il pilote les deux plateformes d'un seul endroit.
+ * honoré avec la MÊME sémantique que sur mobile (`useTicketGating`) :
+ * `enabled: false` = retour à l'ancien modèle — parties ILLIMITÉES, mais
+ * catalogue de parcours verrouillé au tier gratuit.
  *
  * Simplifications assumées côté web : pas de cohorte legacy (aucun historique
  * d'utilisateur web à migrer) et pas de notification de recharge (pas de push).
@@ -51,7 +53,10 @@ type BalanceInput = Pick<
  * Solde calculable sans mutation (pour les sélecteurs React) : un `day` périmé
  * vaut « journée neuve », donc quota plein.
  */
-export const computeBalance = (s: BalanceInput): number => {
+export const computeBalance = (s: BalanceInput & { remoteEnabled: boolean }): number => {
+  // Kill-switch : quota désactivé = jamais à court (sémantique mobile,
+  // cf. useTicketGating — le gating n'est actif que si remoteEnabled).
+  if (!s.remoteEnabled) return s.dailyQuota;
   if (s.day !== localDayKey()) return s.dailyQuota;
   const earned = s.dailyQuota + (s.bonusEarned ? s.dailyBonus : 0) + s.streakBonus;
   return Math.max(0, earned - s.used);
@@ -87,6 +92,9 @@ export const useTicketStore = create<TicketState>()(
       },
 
       consume: () => {
+        // Kill-switch : le quota n'existe plus, la partie est toujours accordée
+        // (l'app fait pareil : useTicketGating inactif → aucun décompte).
+        if (!get().remoteEnabled) return true;
         if (get().day !== localDayKey()) {
           set({ day: localDayKey(), used: 0, bonusEarned: false, streakBonus: 0 });
         }

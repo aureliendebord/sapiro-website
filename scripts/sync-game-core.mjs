@@ -43,6 +43,9 @@ const COPY = [
   { from: 'types/index.ts', to: 'types/index.ts' },
   { from: 'config/cdn.ts', to: 'config/cdn.ts' },
   { from: 'utils/shuffle.ts', to: 'utils/shuffle.ts' },
+  // Défi du jour : seed déterministe par date + thème du jour — indispensable
+  // pour que le daily web soit LE MÊME quiz que sur mobile.
+  { from: 'utils/dailyChallenge.ts', to: 'utils/dailyChallenge.ts' },
   { from: 'hooks/useLocalizedEntity.ts', to: 'hooks/useLocalizedEntity.ts' },
 ];
 

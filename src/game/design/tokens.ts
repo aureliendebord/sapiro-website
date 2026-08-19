@@ -76,3 +76,18 @@ export function themeColor(theme: string | undefined): ColorScheme {
 export function modeColor(mode: string): ColorScheme {
   return MODE_COLOR[mode] ?? MODE_COLOR.classic;
 }
+
+/**
+ * Variables CSS d'accent d'un mode, à poser en style inline sur le conteneur
+ * d'un écran. Une seule définition pour tous les écrans : ajouter une variable
+ * ici la propage partout.
+ */
+export function accentVars(mode: string): Record<string, string> {
+  const accent = modeColor(mode);
+  return {
+    "--accent": accent.primary,
+    "--on-accent": accent.onPrimary,
+    "--accent-tint": accent.tint,
+    "--accent-deep": accent.tintDeep,
+  };
+}
