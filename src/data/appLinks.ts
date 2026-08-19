@@ -37,3 +37,28 @@ export function playStoreUrl(campaign: StoreCampaign, lang: Lang): string {
   );
   return `${PLAY_STORE_URL}&hl=${lang}&referrer=${referrer}`;
 }
+
+/**
+ * Lien vers le jeu jouable en ligne (`/jouer/`, `/en/play/`, `/es/jugar/`).
+ *
+ * Contrairement aux liens store, la destination est interne : l'`utm_campaign`
+ * sert ici à mesurer quels emplacements du site amènent réellement à jouer,
+ * pas à attribuer une install.
+ */
+export type PlayCampaign =
+  | 'hero'
+  | 'nav'
+  | 'demo-quiz-end'
+  | 'blog-cta'
+  | 'inline-banner'
+  | 'download-section';
+
+const PLAY_PATH: Record<Lang, string> = {
+  fr: '/jouer/',
+  en: '/en/play/',
+  es: '/es/jugar/',
+};
+
+export function playGameUrl(campaign: PlayCampaign, lang: Lang): string {
+  return `${PLAY_PATH[lang]}?utm_source=sapiro.app&utm_medium=website&utm_campaign=${campaign}`;
+}

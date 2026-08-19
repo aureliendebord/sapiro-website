@@ -1,5 +1,6 @@
 ---
 import type { Lang } from '../../i18n';
+import { playGameUrl } from '../../data/appLinks';
 
 interface Props {
   lang: Lang;
@@ -15,7 +16,7 @@ const copy = {
     titleB: 'en culture générale.',
     subtitle: 'Géographie, histoire, art, nature, monuments. 2 000+ questions vérifiées. Sans pub, sans data.',
     ctaPrimary: 'Télécharger gratuitement',
-    ctaSecondary: 'Essayer un quiz',
+    ctaSecondary: 'Jouer en ligne',
     proofQuestions: '2 000+',
     proofQuestionsLabel: 'questions vérifiées',
     proofPrice: 'Gratuit',
@@ -39,7 +40,7 @@ const copy = {
     titleB: 'at general knowledge.',
     subtitle: 'Geography, history, art, nature, monuments. 2,000+ verified questions. No ads, no data.',
     ctaPrimary: 'Download for free',
-    ctaSecondary: 'Try a quiz',
+    ctaSecondary: 'Play online',
     proofQuestions: '2,000+',
     proofQuestionsLabel: 'verified questions',
     proofPrice: 'Free',
@@ -63,7 +64,7 @@ const copy = {
     titleB: 'en cultura general.',
     subtitle: 'Geografia, historia, arte, naturaleza, monumentos. 2 000+ preguntas verificadas. Sin anuncios, sin datos.',
     ctaPrimary: 'Descargar gratis',
-    ctaSecondary: 'Probar un quiz',
+    ctaSecondary: 'Jugar en línea',
     proofQuestions: '2 000+',
     proofQuestionsLabel: 'preguntas verificadas',
     proofPrice: 'Gratis',
@@ -115,7 +116,7 @@ const t = copy[lang];
           <span>{t.ctaPrimary}</span>
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
         </a>
-        <a href="#demo-quiz" class="cta-secondary">
+        <a href={playGameUrl('hero', lang)} class="cta-secondary">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
           <span>{t.ctaSecondary}</span>
         </a>

@@ -1,6 +1,7 @@
 ---
 import type { Lang } from '../i18n';
 import { getLocalePath, localeFlags } from '../i18n';
+import { playGameUrl } from '../data/appLinks';
 
 interface Props {
   lang: Lang;
@@ -19,6 +20,7 @@ const languages: Lang[] = ['fr', 'en', 'es'];
     </a>
 
     <nav class="nav" id="main-nav">
+      <a href={playGameUrl('nav', lang)} class="nav-link">{t.header.play}</a>
       <a href={`${getLocalePath('/', lang)}#features`} class="nav-link">{t.header.features}</a>
       <a href={getLocalePath('/blog', lang)} class="nav-link">{t.header.blog}</a>
       <a href={`${getLocalePath('/', lang)}#download`} class="nav-link">{t.header.download}</a>
@@ -44,6 +46,7 @@ const languages: Lang[] = ['fr', 'en', 'es'];
   </div>
 
   <nav class="mobile-nav" id="mobile-nav">
+    <a href={playGameUrl('nav', lang)} class="mobile-nav-link">{t.header.play}</a>
     <a href={`${getLocalePath('/', lang)}#features`} class="mobile-nav-link">{t.header.features}</a>
     <a href={getLocalePath('/blog', lang)} class="mobile-nav-link">{t.header.blog}</a>
     <a href={`${getLocalePath('/', lang)}#download`} class="mobile-nav-link">{t.header.download}</a>
