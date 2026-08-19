@@ -10,8 +10,11 @@ import { loadLanguage, type GameLang } from "@game/lib/i18n";
 import { preloadEntityLocales } from "@/hooks/useEntityDescriptions";
 import { useTicketStore, useTicketBalance } from "@game/store/ticketStore";
 import { useGameStore } from "@game/store/gameStore";
-import { recordGameResult } from "@game/lib/gameResults";
+import { recordGameResult, flushPendingResults } from "@game/lib/gameResults";
 import type { SessionConfig, SessionResult } from "@game/lib/quizSession";
+import { AccountModal } from "./AccountModal";
+import { completePendingMerge, ensureSession, isSignedIn, onAuthChange } from "@game/lib/auth";
+import type { User } from "@supabase/supabase-js";
 import "@game/styles/game.css";
 
 type Screen =
@@ -53,11 +56,28 @@ export default function GameApp({ lang }: Props) {
   const clearMiss = useGameStore((s) => s.clearMiss);
   const markDailyDone = useGameStore((s) => s.markDailyDone);
 
+  const [user, setUser] = useState<User | null>(null);
+  const [accountOpen, setAccountOpen] = useState(false);
+
   // TODO(phase 3) : statut réel depuis RevenueCat Web Billing + premium_overrides.
   const isPremium = false;
-  const isSignedIn = false;
+  const signedIn = isSignedIn(user);
 
   const dailyDone = lastDailyKey === todayKey();
+
+  // Session anonyme au démarrage (la progression est rattachée à un compte dès
+  // la 1re partie), reprise d'une éventuelle fusion post-redirect Google, puis
+  // envoi des parties restées en file d'attente.
+  useEffect(() => {
+    const unsubscribe = onAuthChange(setUser);
+    void (async () => {
+      await completePendingMerge();
+      const session = await ensureSession();
+      setUser(session?.user ?? null);
+      await flushPendingResults();
+    })();
+    return unsubscribe;
+  }, []);
 
   // Seuls les textes d'interface sont chargés au démarrage. Les locales
   // d'entités (jusqu'à 1,3 Mo pour une langue) sont chargées au lancement
@@ -173,10 +193,7 @@ export default function GameApp({ lang }: Props) {
     window.alert("L'abonnement en ligne arrive très bientôt.");
   }, []);
 
-  const handleAccount = useCallback(() => {
-    // TODO(phase 2) : modale de connexion Google / email.
-    window.alert("La connexion arrive très bientôt.");
-  }, []);
+  const handleAccount = useCallback(() => setAccountOpen(true), []);
 
   const body = useMemo(() => {
     if (!ready) return <div className="game-loading">Chargement du jeu…</div>;
@@ -189,7 +206,7 @@ export default function GameApp({ lang }: Props) {
             xp={xp}
             ticketsLeft={tickets}
             isPremium={isPremium}
-            isSignedIn={isSignedIn}
+            isSignedIn={signedIn}
             reviewCount={review.length}
             dailyDone={dailyDone}
             onAction={handleAction}
@@ -240,7 +257,7 @@ export default function GameApp({ lang }: Props) {
     xp,
     tickets,
     isPremium,
-    isSignedIn,
+    signedIn,
     review.length,
     dailyDone,
     catalogOpen,
@@ -257,6 +274,7 @@ export default function GameApp({ lang }: Props) {
   return (
     <div className="sapiro-game">
       <div className="game-frame">{body}</div>
+      {accountOpen && <AccountModal user={user} onClose={() => setAccountOpen(false)} />}
     </div>
   );
 }
