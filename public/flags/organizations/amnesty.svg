@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 70">
+  <!-- Amnesty International - Candle wrapped in barbed wire -->
+  <rect width="180" height="70" fill="#FFCC00"/>
+  <!-- Candle flame -->
+  <ellipse cx="90" cy="18" rx="6" ry="10" fill="#000"/>
+  <!-- Candle body -->
+  <rect x="85" y="25" width="10" height="30" fill="#000"/>
+  <!-- Barbed wire horizontal -->
+  <path d="M60 35 L75 35 M105 35 L120 35" stroke="#000" stroke-width="2" fill="none"/>
+  <!-- Barbed wire wrapped around candle -->
+  <path d="M75 30 Q85 25 85 35 Q85 45 75 40" stroke="#000" stroke-width="2" fill="none"/>
+  <path d="M105 30 Q95 25 95 35 Q95 45 105 40" stroke="#000" stroke-width="2" fill="none"/>
+  <!-- Barbs -->
+  <path d="M65 33 L63 30 M65 37 L63 40" stroke="#000" stroke-width="1.5"/>
+  <path d="M115 33 L117 30 M115 37 L117 40" stroke="#000" stroke-width="1.5"/>
+  <!-- Text AMNESTY -->
+  <text x="90" y="62" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#000" text-anchor="middle">AMNESTY INTERNATIONAL</text>
+</svg>

@@ -1,6 +1,7 @@
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 import cloudflare from '@astrojs/cloudflare';
+import react from '@astrojs/react';
 import fs from 'node:fs';
 import path from 'node:path';
 
@@ -25,6 +26,7 @@ const FIXED_ROUTES = [
   { fr: '/terms/', en: '/en/terms/', es: '/es/terms/' },
   { fr: '/faq/', en: '/en/faq/', es: '/es/faq/' },
   { fr: '/quiz/', en: '/en/quiz/', es: '/es/quiz/' },
+  { fr: '/jouer/', en: '/en/play/', es: '/es/jugar/' },
   { fr: '/blog/', en: '/en/blog/', es: '/es/blog/' },
   { fr: '/about/', en: '/en/about/', es: '/es/about/' },
   { fr: '/credits/', en: '/en/credits/', es: '/es/credits/' },
@@ -92,7 +94,23 @@ for (const slugs of Object.values(BLOG_BY_KEY)) {
 export default defineConfig({
   site: SITE,
   adapter: cloudflare(),
-  integrations: [sitemap({
+  vite: {
+    define: {
+      // `__DEV__` est un global React Native. Le cœur de jeu synchronisé s'en
+      // sert pour des avertissements de données (data/historicalFigures.ts) ;
+      // c'est le seul RN-isme du code copié.
+      __DEV__: JSON.stringify(process.env.NODE_ENV !== 'production'),
+    },
+    resolve: {
+      alias: {
+        // Miroir des paths tsconfig : le cœur de jeu synchronisé depuis l'app
+        // mobile importe en `@/…`, le code web du jeu en `@game/…`.
+        '@': path.resolve('./src/game/core'),
+        '@game': path.resolve('./src/game'),
+      },
+    },
+  },
+  integrations: [react(), sitemap({
     customPages: [
       `${SITE}/credits/`,
       `${SITE}/en/credits/`,

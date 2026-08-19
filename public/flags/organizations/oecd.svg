@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 320">
+  <rect width="512" height="320" fill="#fff"/>
+  <g fill="#004C97">
+    <!-- OECD Text -->
+    <text x="256" y="200" font-family="Arial, sans-serif" font-size="100" font-weight="bold" text-anchor="middle">OECD</text>
+    <!-- Three dots representing cooperation -->
+    <circle cx="180" cy="250" r="12"/>
+    <circle cx="256" cy="250" r="12"/>
+    <circle cx="332" cy="250" r="12"/>
+  </g>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600">
+  <!-- Empire babylonien - Lion marchant stylisé (Porte d'Ishtar) sur fond bleu lapis-lazuli -->
+  <rect width="900" height="600" fill="#1E4D8C"/>
+  <rect x="15" y="15" width="870" height="570" fill="none" stroke="#C9A227" stroke-width="10"/>
+  <!-- Lion de Babylone stylisé -->
+  <g transform="translate(450, 300)" fill="#C9A227">
+    <!-- Corps du lion -->
+    <ellipse cx="0" cy="30" rx="140" ry="70"/>
+    <!-- Tête -->
+    <circle cx="160" cy="-10" r="60"/>
+    <!-- Crinière -->
+    <path d="M130,-50 Q180,-100 220,-50 Q250,-20 220,10 Q180,20 140,0" fill="#C9A227"/>
+    <!-- Pattes avant -->
+    <rect x="80" y="70" width="25" height="80" rx="5"/>
+    <rect x="120" y="70" width="25" height="80" rx="5"/>
+    <!-- Pattes arrière -->
+    <rect x="-100" y="70" width="25" height="70" rx="5"/>
+    <rect x="-60" y="70" width="25" height="70" rx="5"/>
+    <!-- Queue -->
+    <path d="M-140,20 Q-200,0 -180,-60 Q-170,-80 -160,-60" stroke="#C9A227" stroke-width="15" fill="none"/>
+    <!-- Oeil -->
+    <circle cx="175" cy="-20" r="10" fill="#1E4D8C"/>
+    <!-- Gueule -->
+    <path d="M200,-10 Q230,-5 220,10" stroke="#1E4D8C" stroke-width="5" fill="none"/>
+  </g>
+</svg>

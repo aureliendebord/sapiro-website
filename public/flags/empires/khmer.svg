@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600">
+  <!-- Empire Khmer - Temple d'Angkor stylisé -->
+  <!-- Fond bleu royal (couleur royale khmère) -->
+  <rect width="900" height="600" fill="#1E3A8A"/>
+
+  <!-- Bande rouge (couleur cambodgienne) -->
+  <rect y="150" width="900" height="300" fill="#C41E3A"/>
+
+  <!-- Temple d'Angkor Wat stylisé (silhouette blanche) -->
+  <g fill="#FFFFFF">
+    <!-- Base du temple -->
+    <rect x="250" y="380" width="400" height="30"/>
+
+    <!-- Niveau 1 -->
+    <rect x="280" y="350" width="340" height="30"/>
+
+    <!-- Niveau 2 -->
+    <rect x="320" y="320" width="260" height="30"/>
+
+    <!-- Tours latérales gauche -->
+    <path d="M300 350 L300 290 L320 260 L340 290 L340 350 Z"/>
+    <path d="M360 320 L360 270 L375 245 L390 270 L390 320 Z"/>
+
+    <!-- Tour centrale (plus haute) -->
+    <path d="M420 320 L420 230 L450 180 L480 230 L480 320 Z"/>
+
+    <!-- Tours latérales droite -->
+    <path d="M510 320 L510 270 L525 245 L540 270 L540 320 Z"/>
+    <path d="M560 350 L560 290 L580 260 L600 290 L600 350 Z"/>
+  </g>
+</svg>

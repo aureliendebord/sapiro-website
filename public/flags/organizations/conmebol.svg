@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="900" height="600">
+  <rect width="900" height="600" fill="#1B365D"/>
+  <circle cx="450" cy="250" r="110" fill="#FFD100" stroke="#FFFFFF" stroke-width="8"/>
+  <path d="M380 200 L450 320 L520 200 L430 270 L470 270 Z" fill="#1B365D"/>
+  <circle cx="450" cy="250" r="50" fill="none" stroke="#1B365D" stroke-width="4"/>
+  <text x="450" y="450" font-size="70" font-weight="bold" fill="#FFFFFF" text-anchor="middle" font-family="Arial">CONMEBOL</text>
+  <text x="450" y="510" font-size="28" fill="#FFD100" text-anchor="middle" font-family="Arial">SOUTH AMERICA</text>
+</svg>

@@ -27,3 +27,6 @@ npm-debug.log*
 .env
 .env.local
 .env.*.local
+
+# Config locale du serveur de dev (outillage, pas le projet)
+.claude/launch.json

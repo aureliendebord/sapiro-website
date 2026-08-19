@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="900" height="600">
+  <!-- Califat abbasside : bannière noire (couleur dynastique des Abbassides),
+       emblème doré en rub el hizb (octogramme islamique formé de deux carrés). -->
+  <rect width="900" height="600" fill="#0B0B0B"/>
+  <rect x="22" y="22" width="856" height="556" fill="none" stroke="#D4AF37" stroke-width="6" opacity="0.5"/>
+  <g fill="none" stroke="#D4AF37" stroke-width="24" stroke-linejoin="miter" transform="translate(450,300)">
+    <rect x="-140" y="-140" width="280" height="280"/>
+    <rect x="-140" y="-140" width="280" height="280" transform="rotate(45)"/>
+  </g>
+  <circle cx="450" cy="300" r="34" fill="#D4AF37"/>
+</svg>

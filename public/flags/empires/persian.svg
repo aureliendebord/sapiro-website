@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="900" height="600">
+  <rect width="900" height="600" fill="#4B0082"/>
+  <rect x="100" y="100" width="700" height="400" fill="#FFD700" rx="20"/>
+  <rect x="150" y="150" width="600" height="300" fill="#4B0082" rx="15"/>
+  <text x="450" y="330" font-size="100" fill="#FFD700" text-anchor="middle" font-family="serif">☀</text>
+</svg>

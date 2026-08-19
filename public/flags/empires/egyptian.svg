@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600">
+  <!-- Empire égyptien ancien - Ankh (symbole de vie) sur fond doré avec bordure bleue -->
+  <rect width="900" height="600" fill="#C9A227"/>
+  <rect x="20" y="20" width="860" height="560" fill="none" stroke="#1E4D8C" stroke-width="20"/>
+  <!-- Ankh - Croix de vie égyptienne -->
+  <g transform="translate(450, 300)">
+    <!-- Boucle supérieure -->
+    <ellipse cx="0" cy="-120" rx="70" ry="90" fill="none" stroke="#1E4D8C" stroke-width="40"/>
+    <!-- Bras horizontal -->
+    <rect x="-110" y="-30" width="220" height="40" fill="#1E4D8C"/>
+    <!-- Tige verticale -->
+    <rect x="-20" y="-30" width="40" height="230" fill="#1E4D8C"/>
+  </g>
+</svg>

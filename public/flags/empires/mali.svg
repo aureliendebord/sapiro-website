@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600">
+  <!-- Empire du Mali - Couleurs et symboles historiques -->
+  <!-- Fond vert (Islam et prospérité) -->
+  <rect width="900" height="600" fill="#14532D"/>
+
+  <!-- Bande or centrale (richesse en or) -->
+  <rect y="175" width="900" height="250" fill="#D4AF37"/>
+
+  <!-- Symbole du Mali : étoile à 8 branches (symbole de Mansa Musa) -->
+  <g fill="#14532D" transform="translate(450,300)">
+    <!-- Étoile principale -->
+    <polygon points="0,-80 18,-25 75,-25 28,10 45,65 0,35 -45,65 -28,10 -75,-25 -18,-25"/>
+    <!-- Cercle central -->
+    <circle cx="0" cy="0" r="25" fill="#D4AF37"/>
+    <circle cx="0" cy="0" r="20" fill="#14532D"/>
+  </g>
+
+  <!-- Motifs décoratifs (style africain) -->
+  <g fill="#D4AF37" opacity="0.6">
+    <!-- Triangles décoratifs en haut -->
+    <polygon points="100,0 130,50 70,50"/>
+    <polygon points="200,0 230,50 170,50"/>
+    <polygon points="700,0 730,50 670,50"/>
+    <polygon points="800,0 830,50 770,50"/>
+
+    <!-- Triangles décoratifs en bas -->
+    <polygon points="100,600 130,550 70,550"/>
+    <polygon points="200,600 230,550 170,550"/>
+    <polygon points="700,600 730,550 670,550"/>
+    <polygon points="800,600 830,550 770,550"/>
+  </g>
+</svg>

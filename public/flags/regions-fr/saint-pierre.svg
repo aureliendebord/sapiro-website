@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600">
+  <rect width="900" height="600" fill="#002654"/>
+  <rect x="50" y="50" width="250" height="180" fill="#fcd116" stroke="#000" stroke-width="2"/>
+  <g transform="translate(175,140)">
+    <path d="M-80 50 L0 -60 L80 50 Z" fill="#002654"/>
+    <rect x="-60" y="-80" width="120" height="30" fill="#ce1126"/>
+    <path d="M-40 50 L-40 -20 L40 -20 L40 50" fill="none" stroke="#002654" stroke-width="8"/>
+    <circle cx="0" cy="-30" r="15" fill="#ce1126"/>
+  </g>
+  <g transform="translate(475,100)">
+    <rect x="-150" y="0" width="300" height="200" fill="#fff" stroke="#000" stroke-width="2"/>
+    <g fill="#002654">
+      <path d="M-120 30 L-80 30 L-80 170 L-120 170 Z"/>
+      <path d="M-60 30 L-20 30 L-20 170 L-60 170 Z"/>
+      <path d="M20 30 L60 30 L60 170 L20 170 Z"/>
+      <path d="M80 30 L120 30 L120 170 L80 170 Z"/>
+    </g>
+    <g fill="#ce1126">
+      <rect x="-150" y="0" width="300" height="25"/>
+      <rect x="-150" y="175" width="300" height="25"/>
+    </g>
+    <circle cx="0" cy="100" r="40" fill="#009543"/>
+    <path d="M-15 85 L0 60 L15 85 L15 115 L-15 115 Z" fill="#fcd116"/>
+  </g>
+  <g transform="translate(750,100)">
+    <rect x="-100" y="0" width="200" height="200" fill="#fff" stroke="#000" stroke-width="2"/>
+    <g fill="#ce1126">
+      <path d="M-80 20 C-80 20 -40 60 0 60 C40 60 80 20 80 20 L80 80 C80 80 40 120 0 120 C-40 120 -80 80 -80 80 Z"/>
+    </g>
+    <g fill="#fcd116">
+      <circle cx="-40" cy="150" r="20"/>
+      <circle cx="40" cy="150" r="20"/>
+      <circle cx="0" cy="170" r="15"/>
+    </g>
+  </g>
+  <g transform="translate(300,400)">
+    <rect x="-250" y="0" width="500" height="150" fill="#fff"/>
+    <path d="M-250 0 L-200 75 L-250 150 L250 150 L200 75 L250 0 Z" fill="#ce1126"/>
+    <g fill="#fcd116">
+      <path d="M-150 30 L-150 120 L-100 75 Z"/>
+      <path d="M150 30 L150 120 L100 75 Z"/>
+    </g>
+    <text x="0" y="90" text-anchor="middle" font-family="serif" font-size="36" font-weight="bold" fill="#fff">A MARE USQUE AD MARE</text>
+  </g>
+</svg>

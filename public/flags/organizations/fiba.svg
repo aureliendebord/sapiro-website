@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="900" height="600">
+  <rect width="900" height="600" fill="#E74C3C"/>
+  <circle cx="450" cy="260" r="120" fill="#F39C12" stroke="#FFFFFF" stroke-width="8"/>
+  <path d="M330 260 Q450 140 570 260" fill="none" stroke="#1A1A1A" stroke-width="6"/>
+  <path d="M330 260 Q450 380 570 260" fill="none" stroke="#1A1A1A" stroke-width="6"/>
+  <line x1="450" y1="140" x2="450" y2="380" stroke="#1A1A1A" stroke-width="6"/>
+  <text x="450" y="470" font-size="100" font-weight="bold" fill="#FFFFFF" text-anchor="middle" font-family="Arial">FIBA</text>
+</svg>

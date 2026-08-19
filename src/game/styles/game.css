@@ -1,0 +1,443 @@
+/**
+ * Feuille de style du jeu web. Miroir de la DA de l'app (`constants/design.ts`) :
+ * une fonte (Nunito), une couleur dominante par mode, fond crème.
+ *
+ * Le jeu s'affiche dans un cadre centré de largeur mobile sur desktop : la
+ * grammaire visuelle de l'app est conçue pour une colonne étroite, l'étirer
+ * sur 1400 px la casserait.
+ */
+
+.sapiro-game {
+  --canvas: #fbf4eb;
+  --canvas-dim: #f3eadaff;
+  --surface: #ffffff;
+  --ink: #1a1816;
+  --ink-mid: #6e665c;
+  --ink-faint: #b6ada1;
+  --rule-light: #e8dfcd;
+  --rule: #d5c9b1;
+  --correct: #2b8f5e;
+  --correct-soft: #d9ede2;
+  --correct-ink: #12472e;
+  --wrong: #d14836;
+  --wrong-soft: #f7ddd7;
+  --wrong-ink: #771f14;
+  /* Redéfinis par mode/thème à la volée (style inline sur le conteneur). */
+  --accent: #ff5e3a;
+  --on-accent: #ffffff;
+  --accent-tint: #ffe4db;
+  --accent-deep: #b13818;
+
+  font-family: Nunito, ui-rounded, "Segoe UI", system-ui, sans-serif;
+  color: var(--ink);
+  background: var(--canvas);
+  display: flex;
+  justify-content: center;
+  min-height: 100dvh;
+}
+
+.sapiro-game *,
+.sapiro-game *::before,
+.sapiro-game *::after {
+  box-sizing: border-box;
+}
+
+/* Cadre mobile : le jeu garde une colonne étroite quelle que soit la fenêtre. */
+.game-frame {
+  width: 100%;
+  max-width: 460px;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  background: var(--canvas);
+  padding: 16px 20px 32px;
+  position: relative;
+}
+
+@media (min-width: 520px) {
+  .sapiro-game {
+    background: var(--canvas-dim);
+    padding: 24px 0;
+  }
+  .game-frame {
+    min-height: min(880px, calc(100dvh - 48px));
+    border-radius: 28px;
+    box-shadow: 0 8px 40px rgb(26 24 22 / 12%);
+  }
+}
+
+/* ---------- Éléments communs ---------- */
+
+.game-topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 20px;
+  min-height: 40px;
+}
+
+.game-btn {
+  font: inherit;
+  font-weight: 800;
+  border: none;
+  border-radius: 999px;
+  padding: 14px 24px;
+  cursor: pointer;
+  background: var(--accent);
+  color: var(--on-accent);
+  transition: transform 120ms ease, filter 120ms ease;
+}
+
+.game-btn:hover:not(:disabled) {
+  filter: brightness(1.05);
+}
+
+.game-btn:active:not(:disabled) {
+  transform: scale(0.97);
+}
+
+.game-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.game-btn--ghost {
+  background: transparent;
+  color: var(--ink-mid);
+  border: 2px solid var(--rule-light);
+}
+
+.game-btn--block {
+  width: 100%;
+}
+
+.game-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  border-radius: 999px;
+  background: var(--surface);
+  border: 2px solid var(--rule-light);
+  font-weight: 800;
+  font-size: 14px;
+}
+
+.game-icon-btn {
+  font: inherit;
+  border: none;
+  background: transparent;
+  color: var(--ink-mid);
+  font-size: 22px;
+  line-height: 1;
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 999px;
+}
+
+.game-icon-btn:hover {
+  background: var(--canvas-dim);
+}
+
+/* ---------- Accueil ---------- */
+
+.home-title {
+  font-size: 30px;
+  font-weight: 800;
+  letter-spacing: -0.6px;
+  margin: 0 0 4px;
+}
+
+.home-sub {
+  color: var(--ink-mid);
+  font-weight: 600;
+  margin: 0 0 24px;
+}
+
+.mode-grid {
+  display: grid;
+  gap: 12px;
+}
+
+.mode-card {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  text-align: left;
+  font: inherit;
+  cursor: pointer;
+  padding: 18px;
+  border-radius: 22px;
+  border: 2px solid var(--rule-light);
+  background: var(--surface);
+  transition: transform 120ms ease, border-color 120ms ease;
+}
+
+.mode-card:hover:not(:disabled) {
+  transform: translateY(-2px);
+  border-color: var(--card-accent, var(--accent));
+}
+
+.mode-card:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.mode-card__icon {
+  width: 48px;
+  height: 48px;
+  flex: none;
+  display: grid;
+  place-items: center;
+  border-radius: 16px;
+  font-size: 24px;
+  background: var(--card-tint, var(--accent-tint));
+}
+
+.mode-card__name {
+  font-weight: 800;
+  font-size: 17px;
+}
+
+.mode-card__desc {
+  color: var(--ink-mid);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* ---------- Quiz ---------- */
+
+.quiz-progress {
+  height: 8px;
+  border-radius: 999px;
+  background: var(--rule-light);
+  overflow: hidden;
+  flex: 1;
+}
+
+.quiz-progress__bar {
+  height: 100%;
+  background: var(--accent);
+  border-radius: 999px;
+  transition: width 260ms ease;
+}
+
+.quiz-stage {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 12px 0 24px;
+}
+
+.quiz-prompt {
+  font-size: 19px;
+  font-weight: 800;
+  text-align: center;
+  margin: 0;
+  text-wrap: balance;
+}
+
+.quiz-visual {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  min-height: 180px;
+}
+
+.quiz-visual img {
+  max-width: 100%;
+  max-height: 260px;
+  border-radius: 18px;
+  /* Un drapeau blanc sur fond crème a besoin d'un contour pour exister. */
+  box-shadow: 0 4px 18px rgb(26 24 22 / 10%);
+}
+
+.quiz-visual--flag img {
+  width: 220px;
+  height: auto;
+  border-radius: 12px;
+}
+
+.quiz-options {
+  display: grid;
+  gap: 10px;
+  width: 100%;
+}
+
+.quiz-option {
+  font: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: left;
+  padding: 16px 18px;
+  border-radius: 16px;
+  border: 2px solid var(--rule-light);
+  background: var(--surface);
+  color: var(--ink);
+  cursor: pointer;
+  transition: transform 120ms ease, background 160ms ease, border-color 160ms ease;
+}
+
+.quiz-option:hover:not(:disabled) {
+  border-color: var(--accent);
+}
+
+.quiz-option:active:not(:disabled) {
+  transform: scale(0.99);
+}
+
+.quiz-option--correct {
+  background: var(--correct-soft);
+  border-color: var(--correct);
+  color: var(--correct-ink);
+}
+
+.quiz-option--wrong {
+  background: var(--wrong-soft);
+  border-color: var(--wrong);
+  color: var(--wrong-ink);
+}
+
+.quiz-option:disabled {
+  cursor: default;
+}
+
+.quiz-lives {
+  display: flex;
+  gap: 4px;
+  font-size: 16px;
+}
+
+/* ---------- Résultat ---------- */
+
+.result-screen {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 8px;
+}
+
+.result-score {
+  font-size: 56px;
+  font-weight: 800;
+  letter-spacing: -2px;
+  margin: 0;
+}
+
+.result-label {
+  color: var(--ink-mid);
+  font-weight: 700;
+  margin: 0 0 8px;
+}
+
+.result-xp {
+  display: inline-flex;
+  padding: 8px 18px;
+  border-radius: 999px;
+  background: var(--accent-tint);
+  color: var(--accent-deep);
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+
+.result-actions {
+  display: grid;
+  gap: 10px;
+  width: 100%;
+  margin-top: 16px;
+}
+
+/* ---------- Parcours ---------- */
+
+.journey-section {
+  margin-bottom: 24px;
+}
+
+.journey-section__title {
+  font-size: 13px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  color: var(--ink-faint);
+  margin: 0 0 10px;
+}
+
+.journey-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.journey-card {
+  font: inherit;
+  cursor: pointer;
+  text-align: left;
+  padding: 14px;
+  border-radius: 18px;
+  border: 2px solid var(--rule-light);
+  background: var(--surface);
+  display: grid;
+  gap: 4px;
+  transition: transform 120ms ease, border-color 120ms ease;
+}
+
+.journey-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent);
+}
+
+.journey-card__icon {
+  font-size: 22px;
+}
+
+.journey-card__title {
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 1.25;
+}
+
+.journey-card__meta {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--ink-faint);
+}
+
+.journey-card--locked {
+  opacity: 0.6;
+}
+
+/* ---------- États ---------- */
+
+.game-loading,
+.game-empty {
+  flex: 1;
+  display: grid;
+  place-items: center;
+  color: var(--ink-mid);
+  font-weight: 700;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.game-notice {
+  border-radius: 18px;
+  background: var(--accent-tint);
+  color: var(--accent-deep);
+  padding: 16px 18px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sapiro-game * {
+    transition: none !important;
+  }
+}

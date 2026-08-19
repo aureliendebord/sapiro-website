@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600">
+  <!-- Empire grec ancien - Meandros (motif grec) avec casque spartiate -->
+  <rect width="900" height="600" fill="#FFFFFF"/>
+  <!-- Bandes bleues (style grec) -->
+  <rect y="0" width="900" height="67" fill="#0D5EAF"/>
+  <rect y="133" width="900" height="67" fill="#0D5EAF"/>
+  <rect y="267" width="900" height="67" fill="#0D5EAF"/>
+  <rect y="400" width="900" height="67" fill="#0D5EAF"/>
+  <rect y="533" width="900" height="67" fill="#0D5EAF"/>
+  <!-- Casque spartiate corinthien au centre -->
+  <g transform="translate(450, 300)">
+    <ellipse cx="0" cy="0" rx="120" ry="100" fill="#FFFFFF" stroke="#0D5EAF" stroke-width="4"/>
+    <!-- Casque -->
+    <path d="M-80,-80 Q-100,-20 -80,60 L-40,80 L-40,20 L-20,0 L-20,80 L20,80 L20,0 L40,20 L40,80 L80,60 Q100,-20 80,-80 Q0,-120 -80,-80" fill="#0D5EAF"/>
+    <!-- Crête du casque -->
+    <path d="M0,-80 Q-20,-100 0,-120 Q20,-100 0,-80" fill="#0D5EAF"/>
+    <rect x="-8" y="-120" width="16" height="40" fill="#C41E3A"/>
+    <path d="M-8,-120 Q0,-180 8,-120 L8,-80 Q0,-100 -8,-80 Z" fill="#C41E3A"/>
+    <!-- Extension de la crête -->
+    <path d="M-10,-80 L10,-80 L15,40 L-15,40 Z" fill="#C41E3A"/>
+  </g>
+</svg>

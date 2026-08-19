@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600">
+  <!-- Empire Aztèque - Soleil aztèque (Tonatiuh) -->
+  <!-- Fond turquoise (couleur sacrée aztèque) -->
+  <rect width="900" height="600" fill="#0D9488"/>
+
+  <!-- Cercle extérieur du soleil -->
+  <circle cx="450" cy="300" r="200" fill="#B91C1C"/>
+
+  <!-- Rayons du soleil (style aztèque) -->
+  <g fill="#D4AF37">
+    <!-- 8 rayons principaux -->
+    <polygon points="450,50 470,100 450,120 430,100"/>
+    <polygon points="450,550 470,500 450,480 430,500"/>
+    <polygon points="200,300 250,320 270,300 250,280"/>
+    <polygon points="700,300 650,320 630,300 650,280"/>
+    <polygon points="273,123 310,160 330,140 293,103"/>
+    <polygon points="627,477 590,440 570,460 607,497"/>
+    <polygon points="627,123 590,160 570,140 607,103"/>
+    <polygon points="273,477 310,440 330,460 293,497"/>
+
+    <!-- Rayons secondaires -->
+    <polygon points="350,80 365,130 350,150 335,130"/>
+    <polygon points="550,80 565,130 550,150 535,130"/>
+    <polygon points="350,520 365,470 350,450 335,470"/>
+    <polygon points="550,520 565,470 550,450 535,470"/>
+  </g>
+
+  <!-- Cercle intérieur -->
+  <circle cx="450" cy="300" r="120" fill="#D4AF37"/>
+
+  <!-- Visage du soleil (Tonatiuh simplifié) -->
+  <circle cx="450" cy="300" r="80" fill="#B91C1C"/>
+
+  <!-- Yeux -->
+  <ellipse cx="420" cy="280" rx="15" ry="12" fill="#D4AF37"/>
+  <ellipse cx="480" cy="280" rx="15" ry="12" fill="#D4AF37"/>
+  <circle cx="420" cy="280" r="6" fill="#1E1E1E"/>
+  <circle cx="480" cy="280" r="6" fill="#1E1E1E"/>
+
+  <!-- Nez -->
+  <path d="M450 285 L445 310 L455 310 Z" fill="#D4AF37"/>
+
+  <!-- Bouche (langue tirée - symbole aztèque) -->
+  <ellipse cx="450" cy="340" rx="20" ry="10" fill="#D4AF37"/>
+  <path d="M450 340 L445 360 L450 365 L455 360 Z" fill="#B91C1C" stroke="#D4AF37" stroke-width="2"/>
+</svg>

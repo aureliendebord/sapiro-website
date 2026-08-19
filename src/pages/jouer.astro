@@ -1,0 +1,15 @@
+---
+import Layout from '../layouts/Layout.astro';
+import GameApp from '../game/components/GameApp.tsx';
+
+// Le jeu est 100 % client (état local, session Supabase, quota du jour) :
+// `client:only` évite un rendu serveur qui serait de toute façon remplacé.
+---
+
+<Layout
+  title="Jouer en ligne — Quiz de culture générale | Sapiro"
+  description="Joue gratuitement au quiz Sapiro dans ton navigateur : géographie, histoire, art, nature et monuments. 88 parcours, sans installation."
+  lang="fr"
+>
+  <GameApp client:only="react" lang="fr" />
+</Layout>

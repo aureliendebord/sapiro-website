@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 30">
+  <!-- Greenpeace logo - stylized text -->
+  <rect width="200" height="30" fill="#FFFFFF"/>
+  <text x="100" y="22" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#73C82C" text-anchor="middle">GREENPEACE</text>
+</svg>

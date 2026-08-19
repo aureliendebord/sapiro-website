@@ -2,8 +2,17 @@
   "extends": "astro/tsconfigs/strict",
   "compilerOptions": {
     "baseUrl": ".",
+    "jsx": "react-jsx",
+    "jsxImportSource": "react",
+    "resolveJsonModule": true,
     "paths": {
-      "@/*": ["src/*"]
+      // Le cœur de jeu est copié verbatim depuis l'app mobile (npm run sync:game),
+      // où `@/` pointe la racine du repo. On garde ses imports intacts en
+      // aliasant `@/` sur le dossier synchronisé. Le reste du site utilise des
+      // imports relatifs.
+      "@/*": ["src/game/core/*"],
+      "@game/*": ["src/game/*"]
     }
-  }
+  },
+  "exclude": ["dist", "node_modules"]
 }

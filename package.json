@@ -10,12 +10,25 @@
     "preview": "astro preview",
     "astro": "astro",
     "check:links": "node scripts/check-cross-lang-links.mjs",
-    "credits:translate": "node scripts/translate-credits.mjs"
+    "credits:translate": "node scripts/translate-credits.mjs",
+    "sync:game": "node scripts/sync-game-core.mjs",
+    "check:game": "node scripts/sync-game-core.mjs --check",
+    "smoke:game": "node scripts/smoke-game-core.mjs"
   },
   "dependencies": {
     "@astrojs/cloudflare": "^12.6.13",
+    "@astrojs/react": "^5.0.0",
     "@astrojs/sitemap": "^3.7.0",
+    "@revenuecat/purchases-js": "^1.53.0",
+    "@supabase/supabase-js": "^2.109.0",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.4",
     "astro": "^5.0.0",
-    "qrcode": "^1.5.4"
+    "i18next": "^26.3.6",
+    "qrcode": "^1.5.4",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "react-i18next": "^17.0.11",
+    "zustand": "^5.0.15"
   }
 }

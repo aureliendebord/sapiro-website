@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="900" height="600">
+  <rect width="900" height="600" fill="#003082"/>
+  <rect x="200" y="180" width="500" height="200" fill="#FFFFFF" rx="20"/>
+  <rect x="220" y="200" width="460" height="160" fill="#003082" rx="15"/>
+  <circle cx="300" cy="280" r="50" fill="#E10600"/>
+  <rect x="360" y="260" width="80" height="40" fill="#FFFFFF"/>
+  <rect x="460" y="260" width="80" height="40" fill="#FFFFFF"/>
+  <rect x="560" y="260" width="80" height="40" fill="#E10600"/>
+  <text x="450" y="480" font-size="100" font-weight="bold" fill="#FFFFFF" text-anchor="middle" font-family="Arial">FIA</text>
+  <text x="450" y="540" font-size="28" fill="#E10600" text-anchor="middle" font-family="Arial">MOTORSPORT</text>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#1a3c6e"/>
+  <!-- Five colored arcs representing the 5 countries -->
+  <g fill="none" stroke-width="25" stroke-linecap="round">
+    <!-- Brazil - Green -->
+    <path d="M120 380 Q256 180 392 380" stroke="#009B3A"/>
+    <!-- Russia - White -->
+    <path d="M140 340 Q256 160 372 340" stroke="#fff"/>
+    <!-- India - Orange -->
+    <path d="M160 300 Q256 140 352 300" stroke="#FF9933"/>
+    <!-- China - Red -->
+    <path d="M180 260 Q256 120 332 260" stroke="#DE2910"/>
+    <!-- South Africa - Gold -->
+    <path d="M200 220 Q256 100 312 220" stroke="#FFB612"/>
+  </g>
+  <!-- BRICS text -->
+  <text x="256" y="460" font-family="Arial, sans-serif" font-size="70" font-weight="bold" fill="#fff" text-anchor="middle">BRICS</text>
+</svg>

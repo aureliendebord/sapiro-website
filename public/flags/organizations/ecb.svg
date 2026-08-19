@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#003399"/>
+  <!-- Euro symbol stylized like ECB logo -->
+  <g fill="none" stroke="#FFCC00" stroke-width="20">
+    <!-- Euro symbol C shape -->
+    <path d="M320 180 A100 100 0 1 0 320 332"/>
+    <!-- Two horizontal lines through euro -->
+    <line x1="160" y1="230" x2="300" y2="230"/>
+    <line x1="160" y1="282" x2="300" y2="282"/>
+  </g>
+  <!-- Stars around representing EU -->
+  <g fill="#FFCC00">
+    <circle cx="256" cy="80" r="10"/>
+    <circle cx="340" cy="100" r="10"/>
+    <circle cx="400" cy="160" r="10"/>
+    <circle cx="420" cy="256" r="10"/>
+    <circle cx="400" cy="352" r="10"/>
+    <circle cx="340" cy="412" r="10"/>
+    <circle cx="256" cy="432" r="10"/>
+    <circle cx="172" cy="412" r="10"/>
+    <circle cx="112" cy="352" r="10"/>
+    <circle cx="92" cy="256" r="10"/>
+    <circle cx="112" cy="160" r="10"/>
+    <circle cx="172" cy="100" r="10"/>
+  </g>
+</svg>

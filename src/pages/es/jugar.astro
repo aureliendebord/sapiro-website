@@ -1,0 +1,12 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import GameApp from '../../game/components/GameApp.tsx';
+---
+
+<Layout
+  title="Jugar en línea — Quiz de cultura general | Sapiro"
+  description="Juega gratis al quiz de Sapiro en tu navegador: geografía, historia, arte, naturaleza y monumentos. 88 recorridos, sin instalar nada."
+  lang="es"
+>
+  <GameApp client:only="react" lang="es" />
+</Layout>

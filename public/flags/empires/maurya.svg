@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600">
+  <!-- Empire Maurya - Roue d'Ashoka (Dharma Chakra) sur fond safran -->
+  <rect width="900" height="600" fill="#FF9933"/>
+  <rect x="15" y="15" width="870" height="570" fill="none" stroke="#000080" stroke-width="8"/>
+  <!-- Ashoka Chakra - Roue à 24 rayons -->
+  <g transform="translate(450, 300)">
+    <!-- Cercle extérieur -->
+    <circle cx="0" cy="0" r="180" fill="none" stroke="#000080" stroke-width="12"/>
+    <!-- Cercle intérieur -->
+    <circle cx="0" cy="0" r="40" fill="#000080"/>
+    <circle cx="0" cy="0" r="20" fill="#FF9933"/>
+    <!-- 24 rayons -->
+    <g fill="#000080">
+      <rect x="-4" y="-175" width="8" height="130" transform="rotate(0)"/>
+      <rect x="-4" y="-175" width="8" height="130" transform="rotate(15)"/>
+      <rect x="-4" y="-175" width="8" height="130" transform="rotate(30)"/>
+      <rect x="-4" y="-175" width="8" height="130" transform="rotate(45)"/>
+      <rect x="-4" y="-175" width="8" height="130" transform="rotate(60)"/>
+      <rect x="-4" y="-175" width="8" height="130" transform="rotate(75)"/>
+      <rect x="-4" y="-175" width="8" height="130" transform="rotate(90)"/>
+      <rect x="-4" y="-175" width="8" height="130" transform="rotate(105)"/>
+      <rect x="-4" y="-175" width="8" height="130" transform="rotate(120)"/>
+      <rect x="-4" y="-175" width="8" height="130" transform="rotate(135)"/>
+      <rect x="-4" y="-175" width="8" height="130" transform="rotate(150)"/>
+      <rect x="-4" y="-175" width="8" height="130" transform="rotate(165)"/>
+      <rect x="-4" y="-175" width="8" height="130" transform="rotate(180)"/>
+      <rect x="-4" y="-175" width="8" height="130" transform="rotate(195)"/>
+      <rect x="-4" y="-175" width="8" height="130" transform="rotate(210)"/>
+      <rect x="-4" y="-175" width="8" height="130" transform="rotate(225)"/>
+      <rect x="-4" y="-175" width="8" height="130" transform="rotate(240)"/>
+      <rect x="-4" y="-175" width="8" height="130" transform="rotate(255)"/>
+      <rect x="-4" y="-175" width="8" height="130" transform="rotate(270)"/>
+      <rect x="-4" y="-175" width="8" height="130" transform="rotate(285)"/>
+      <rect x="-4" y="-175" width="8" height="130" transform="rotate(300)"/>
+      <rect x="-4" y="-175" width="8" height="130" transform="rotate(315)"/>
+      <rect x="-4" y="-175" width="8" height="130" transform="rotate(330)"/>
+      <rect x="-4" y="-175" width="8" height="130" transform="rotate(345)"/>
+    </g>
+  </g>
+</svg>

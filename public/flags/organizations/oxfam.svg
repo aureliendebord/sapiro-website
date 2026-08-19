@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 50">
+  <!-- Oxfam - Green color scheme -->
+  <rect width="120" height="50" fill="#FFFFFF"/>
+  <!-- Circle O -->
+  <circle cx="25" cy="25" r="12" fill="none" stroke="#61A534" stroke-width="5"/>
+  <!-- X -->
+  <path d="M42 15 L54 35 M54 15 L42 35" stroke="#61A534" stroke-width="5" stroke-linecap="round"/>
+  <!-- F -->
+  <path d="M62 15 L62 35 M62 15 L75 15 M62 25 L72 25" stroke="#61A534" stroke-width="5" stroke-linecap="round"/>
+  <!-- A -->
+  <path d="M80 35 L88 15 L96 35 M83 28 L93 28" stroke="#61A534" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <!-- M -->
+  <path d="M102 35 L102 15 L110 25 L118 15 L118 35" stroke="#61A534" stroke-width="4" stroke-linecap="round" fill="none"/>
+</svg>

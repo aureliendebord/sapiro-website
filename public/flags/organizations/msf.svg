@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="900" height="600">
+  <rect width="900" height="600" fill="#FFFFFF"/>
+  <rect x="350" y="180" width="200" height="240" fill="#E30613"/>
+  <rect x="280" y="250" width="340" height="100" fill="#E30613"/>
+  <text x="450" y="520" font-size="60" font-weight="bold" fill="#000000" text-anchor="middle" font-family="Arial">MSF</text>
+</svg>
