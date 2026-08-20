@@ -64,6 +64,7 @@ export default function GameApp({ lang }: Props) {
   const gamesPlayed = useGameStore((s) => s.gamesPlayed);
   const review = useGameStore((s) => s.review);
   const lastDailyKey = useGameStore((s) => s.lastDailyKey);
+  const dailyStreak = useGameStore((s) => s.dailyStreak);
   const recordGame = useGameStore((s) => s.recordGame);
   const addMiss = useGameStore((s) => s.addMiss);
   const clearMiss = useGameStore((s) => s.clearMiss);
@@ -303,6 +304,7 @@ export default function GameApp({ lang }: Props) {
           <QuizScreen
             key={`${screen.config.mode}-${screen.config.journeyId ?? "random"}`}
             config={screen.config}
+            previousDailyStreak={dailyStreak}
             onFinish={(result) => handleFinish(result, screen.config)}
             onQuit={(answered) => handleQuit(answered, costsTicket)}
           />
@@ -333,6 +335,7 @@ export default function GameApp({ lang }: Props) {
     review.length,
     dailyDone,
     catalogOpen,
+    dailyStreak,
     handleAction,
     handlePickJourney,
     handleFinish,

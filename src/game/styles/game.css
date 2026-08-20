@@ -613,3 +613,61 @@
   color: var(--ink-mid);
   box-shadow: 0 1px 4px rgb(26 24 22 / 25%);
 }
+
+/* Barre segmentée : un segment par question, comme le header de l'app.
+   On lit d'un coup d'œil où on en est ET comment on s'en sort. */
+.quiz-segments {
+  display: flex;
+  gap: 4px;
+  flex: 1;
+}
+
+.quiz-segment {
+  flex: 1;
+  height: 8px;
+  border-radius: 999px;
+  background: var(--rule-light);
+  transition: background 220ms ease, box-shadow 220ms ease;
+}
+
+.quiz-segment--ok {
+  background: var(--correct);
+}
+
+.quiz-segment--ko {
+  background: #d08a6e;
+}
+
+.quiz-segment--current {
+  background: var(--accent-tint);
+  box-shadow: inset 0 0 0 2px var(--accent);
+}
+
+/* Détail des bonus d'XP — l'équivalent de la XPBonusCard de l'app : le joueur
+   voit POURQUOI il a gagné ce total, pas seulement le total. */
+.result-bonuses {
+  list-style: none;
+  margin: 0 0 20px;
+  padding: 0;
+  width: 100%;
+  max-width: 320px;
+  display: grid;
+  gap: 6px;
+}
+
+.result-bonuses li {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 8px 14px;
+  border-radius: 12px;
+  background: var(--accent-tint);
+  color: var(--accent-deep);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.result-bonuses strong {
+  font-weight: 800;
+}

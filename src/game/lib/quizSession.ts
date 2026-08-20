@@ -57,6 +57,8 @@ export interface SessionState {
   dailyTheme: string | null;
   score: number;
   lives: number;
+  /** Vrai/faux par question déjà répondue — alimente la barre segmentée. */
+  answers: boolean[];
   misses: AnyFlagEntity[];
   startedAt: number;
   finished: boolean;
@@ -160,6 +162,7 @@ export function startSession(config: SessionConfig): SessionState {
     dailyTheme,
     score: 0,
     lives: config.mode === "survival" ? SURVIVAL_LIVES : Infinity,
+    answers: [],
     misses: [],
     startedAt: Date.now(),
     finished: question === null,
@@ -181,6 +184,7 @@ export function answer(state: SessionState, choice: string): AnswerOutcome {
 
   const score = state.score + (correct ? 1 : 0);
   const lives = correct ? state.lives : state.lives - 1;
+  const answers = [...state.answers, correct];
   const misses = correct ? state.misses : [...state.misses, missedEntity];
   const questionIndex = state.questionIndex + 1;
 
@@ -190,7 +194,16 @@ export function answer(state: SessionState, choice: string): AnswerOutcome {
 
   if (outOfLives || reachedEnd) {
     return {
-      state: { ...state, score, lives, misses, questionIndex, question: null, finished: true },
+      state: {
+        ...state,
+        score,
+        lives,
+        answers,
+        misses,
+        questionIndex,
+        question: null,
+        finished: true,
+      },
       correct,
     };
   }
@@ -203,6 +216,7 @@ export function answer(state: SessionState, choice: string): AnswerOutcome {
         ...state,
         score,
         lives,
+        answers,
         misses,
         questionIndex,
         question: next,
@@ -230,6 +244,7 @@ export function answer(state: SessionState, choice: string): AnswerOutcome {
         ...state,
         score,
         lives,
+        answers,
         misses,
         questionIndex,
         question: null,
@@ -241,7 +256,7 @@ export function answer(state: SessionState, choice: string): AnswerOutcome {
   }
 
   return {
-    state: { ...state, score, lives, misses, questionIndex, question: next },
+    state: { ...state, score, lives, answers, misses, questionIndex, question: next },
     correct,
   };
 }
