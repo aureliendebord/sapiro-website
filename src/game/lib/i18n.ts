@@ -107,6 +107,15 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
       home: "Retour à l'accueil",
     },
     journeys: { title: "Parcours", back: "Retour", elements: "{{count}} éléments" },
+    profile: {
+      title: "Mon profil",
+      anonymous: "Progression enregistrée sur cet appareil",
+      accuracy: "Réussite",
+      bestSurvival: "Record survie",
+      streak: "Série",
+      pathBlocks: "Sentier",
+      badges: "Badges — {{done}}/{{total}}",
+    },
     board: {
       title: "Classement",
       sub: "Web et mobile jouent dans le même classement.",
@@ -260,6 +269,15 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
       home: "Back to home",
     },
     journeys: { title: "Journeys", back: "Back", elements: "{{count}} items" },
+    profile: {
+      title: "My profile",
+      anonymous: "Progress saved on this device",
+      accuracy: "Accuracy",
+      bestSurvival: "Survival best",
+      streak: "Streak",
+      pathBlocks: "Trail",
+      badges: "Badges — {{done}}/{{total}}",
+    },
     board: {
       title: "Leaderboard",
       sub: "Web and mobile share the same leaderboard.",
@@ -413,6 +431,15 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
       home: "Volver al inicio",
     },
     journeys: { title: "Recorridos", back: "Atrás", elements: "{{count}} elementos" },
+    profile: {
+      title: "Mi perfil",
+      anonymous: "Progreso guardado en este dispositivo",
+      accuracy: "Aciertos",
+      bestSurvival: "Récord supervivencia",
+      streak: "Racha",
+      pathBlocks: "Sendero",
+      badges: "Insignias — {{done}}/{{total}}",
+    },
     board: {
       title: "Clasificación",
       sub: "Web y móvil comparten la misma clasificación.",

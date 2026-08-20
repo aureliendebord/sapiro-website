@@ -57,6 +57,7 @@ const LOCALE_FILES = [
   'animals.json', 'artworks.json', 'countries.json', 'empires.json',
   'figures.json', 'game.json', 'monuments.json', 'organizations.json',
   'regions-fr.json', 'themes.json', 'common.json', 'levels.json',
+  'badges.json', 'profile.json',
 ];
 
 /** Drapeaux SVG : import statique dans l'app, fichiers servis en web. */

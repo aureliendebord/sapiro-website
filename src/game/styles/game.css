@@ -889,3 +889,93 @@
   color: var(--accent-deep);
   white-space: nowrap;
 }
+
+/* ---------- Profil ---------- */
+
+.profile-card {
+  padding: 20px;
+  border-radius: 22px;
+  background: var(--surface);
+  border: 2px solid var(--rule-light);
+}
+
+.profile-level {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--rule-light);
+  margin-bottom: 16px;
+}
+
+.profile-stats {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+@media (min-width: 640px) {
+  .profile-stats {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.profile-stat {
+  display: grid;
+  justify-items: center;
+  gap: 2px;
+  padding: 12px 8px;
+  border-radius: 16px;
+  background: var(--canvas);
+}
+
+.profile-stat__value {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.profile-stat__label {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--ink-faint);
+  text-align: center;
+}
+
+/* ---------- Badges ---------- */
+
+.badge-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(104px, 1fr));
+  gap: 10px;
+}
+
+.badge-card {
+  display: grid;
+  justify-items: center;
+  gap: 4px;
+  padding: 14px 10px;
+  border-radius: 18px;
+  background: var(--surface);
+  border: 2px solid var(--rule-light);
+  /* Éteint tant qu'il n'est pas obtenu : on voit ce qu'il reste à décrocher. */
+  opacity: 0.55;
+}
+
+.badge-card--on {
+  opacity: 1;
+  border-color: var(--accent);
+}
+
+.badge-card__name {
+  font-size: 12px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.badge-card__desc {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--ink-faint);
+  text-align: center;
+  line-height: 1.35;
+}

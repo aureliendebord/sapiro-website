@@ -3,7 +3,7 @@ import { Icon } from "./ui/Icon";
 
 interface Props {
   /** Écran affiché au centre — le panneau s'y adapte. */
-  screen: "home" | "journeys" | "board" | "quiz" | "result";
+  screen: "home" | "journeys" | "board" | "profile" | "quiz" | "result";
   gamesPlayed: number;
   reviewCount: number;
 }
