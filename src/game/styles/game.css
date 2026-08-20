@@ -761,3 +761,131 @@
   font-weight: 600;
   line-height: 1.5;
 }
+
+/* ---------- Classement ---------- */
+
+.board-tabs {
+  display: flex;
+  gap: 6px;
+  padding: 5px;
+  border-radius: 999px;
+  background: var(--canvas-dim);
+  margin-bottom: 16px;
+}
+
+.board-tab {
+  flex: 1;
+  font: inherit;
+  font-size: 14px;
+  font-weight: 800;
+  padding: 9px 12px;
+  border: none;
+  border-radius: 999px;
+  background: transparent;
+  color: var(--ink-mid);
+  cursor: pointer;
+  transition: background 140ms ease, color 140ms ease;
+}
+
+.board-tab--on {
+  background: var(--surface);
+  color: var(--ink);
+  box-shadow: 0 2px 8px rgb(26 24 22 / 10%);
+}
+
+/* Un anonyme voit le classement mais n'y figure pas : c'est l'argument. */
+.board-nudge {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  flex-wrap: wrap;
+  padding: 14px 16px;
+  border-radius: 18px;
+  background: var(--accent-tint);
+  color: var(--accent-deep);
+  margin-bottom: 16px;
+}
+
+.board-nudge p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 700;
+  flex: 1;
+  min-width: 180px;
+}
+
+.board-nudge .game-btn {
+  padding: 10px 18px;
+  font-size: 14px;
+}
+
+.board-mine {
+  margin: 0 0 12px;
+  font-size: 14px;
+  font-weight: 800;
+  color: var(--ink-mid);
+}
+
+.board-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 6px;
+}
+
+.board-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 14px;
+  border-radius: 14px;
+  background: var(--surface);
+  border: 2px solid transparent;
+}
+
+.board-row--me {
+  border-color: var(--accent);
+  background: var(--accent-tint);
+}
+
+.board-rank {
+  min-width: 30px;
+  font-weight: 800;
+  font-size: 15px;
+  color: var(--ink-faint);
+  text-align: right;
+}
+
+.board-rank--top {
+  color: #e0a82e;
+}
+
+.board-avatar {
+  border-radius: 999px;
+}
+
+.board-name {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 700;
+  font-size: 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.board-pro {
+  flex: none;
+}
+
+.board-value {
+  font-weight: 800;
+  font-size: 14px;
+  color: var(--accent-deep);
+  white-space: nowrap;
+}

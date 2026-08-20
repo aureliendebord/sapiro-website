@@ -5,7 +5,7 @@ import { t } from "@game/lib/i18n";
 import { Icon } from "./ui/Icon";
 import { Glyph } from "./ui/Glyph";
 
-export type RailSection = "home" | "journeys";
+export type RailSection = "home" | "journeys" | "board";
 
 interface Props {
   xp: number;
@@ -74,6 +74,16 @@ export function GameRail({
         >
           <Icon emoji="🧭" size={22} />
           {t("web.home.journeys")}
+        </button>
+
+        <button
+          type="button"
+          className="game-nav-item"
+          aria-current={current === "board" ? "page" : undefined}
+          onClick={() => onNavigate("board")}
+        >
+          <Icon emoji="🏆" size={22} />
+          {t("web.board.title")}
         </button>
 
         <button type="button" className="game-nav-item" onClick={onAccount}>

@@ -7,6 +7,7 @@ import { getEntityById } from "@/domain/quiz/entityPool";
 import { getDailyTheme } from "@/utils/dailyChallenge";
 import { HomeScreen, type HomeAction } from "./HomeScreen";
 import { PathScreen } from "./path/PathScreen";
+import { LeaderboardScreen } from "./leaderboard/LeaderboardScreen";
 import { QuizScreen } from "./QuizScreen";
 import { ResultScreen } from "./ResultScreen";
 import { loadLanguage, t, type GameLang } from "@game/lib/i18n";
@@ -34,6 +35,7 @@ const PaywallModal = lazy(() =>
 type Screen =
   | { name: "home" }
   | { name: "journeys" }
+  | { name: "board" }
   | { name: "quiz"; config: SessionConfig }
   // `config` est conservé pour que « Rejouer » relance exactement la même
   // partie (même parcours, même type d'entité) sans le redéduire du résultat.
@@ -309,6 +311,9 @@ export default function GameApp({ lang }: Props) {
           />
         );
 
+      case "board":
+        return <LeaderboardScreen user={user} onSignIn={() => setAccountOpen(true)} />;
+
       case "journeys":
         return (
           <PathScreen
@@ -358,6 +363,7 @@ export default function GameApp({ lang }: Props) {
     dailyStreak,
     handleAction,
     handlePlayBlock,
+    user,
     handleFinish,
     handleQuit,
     startQuiz,
@@ -377,10 +383,10 @@ export default function GameApp({ lang }: Props) {
               ticketsLeft={tickets}
               isPremium={isPremium}
               user={user}
-              current={screen.name === "journeys" ? "journeys" : "home"}
-              onNavigate={(section) =>
-                setScreen(section === "journeys" ? { name: "journeys" } : { name: "home" })
+              current={
+                screen.name === "journeys" || screen.name === "board" ? screen.name : "home"
               }
+              onNavigate={(section) => setScreen({ name: section } as Screen)}
               onAccount={() => setAccountOpen(true)}
               onSubscribe={() => openPaywall("rail")}
             />
