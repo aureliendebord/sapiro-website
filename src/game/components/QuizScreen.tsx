@@ -15,6 +15,7 @@ import { t } from "@game/lib/i18n";
 import { Icon } from "./ui/Icon";
 import { Glyph } from "./ui/Glyph";
 import { getMuted, play, setMuted } from "@game/lib/sounds";
+import { DidYouKnow, hasFacts } from "./quiz/DidYouKnow";
 
 /** Délai d'affichage du feedback avant la question suivante (ms). */
 const FEEDBACK_MS = 900;
@@ -34,6 +35,8 @@ export function QuizScreen({ config, previousDailyStreak, onFinish, onQuit }: Pr
   const [session, setSession] = useState<SessionState>(() => startSession(config));
   const [picked, setPicked] = useState<string | null>(null);
   const [muted, setMutedState] = useState(() => getMuted());
+  /** Anecdote en attente : la question suivante ne vient qu'après « Continuer ». */
+  const [fact, setFact] = useState<{ entity: AnyFlagEntity; next: () => void } | null>(null);
   // Le timeout de feedback doit mourir avec l'écran : sans ça, quitter pendant
   // la fenêtre de 900 ms laisse un onFinish tardif rouvrir l'écran de résultat.
   const feedbackTimer = useRef<number | null>(null);
@@ -56,17 +59,31 @@ export function QuizScreen({ config, previousDailyStreak, onFinish, onQuit }: Pr
       setPicked(choice);
       play(choice === session.question?.correctAnswer ? "correct" : "incorrect");
 
+      const answered = session.question;
+
       feedbackTimer.current = window.setTimeout(() => {
         feedbackTimer.current = null;
         const { state } = answerSession(session, choice);
-        setPicked(null);
-        setSession(state);
-        if (state.finished) {
-          onFinish(finishSession(state, { previousDailyStreak }), state.questionIndex);
+
+        const advance = () => {
+          setFact(null);
+          setPicked(null);
+          setSession(state);
+          if (state.finished) {
+            onFinish(finishSession(state, { previousDailyStreak }), state.questionIndex);
+          }
+        };
+
+        // L'anecdote s'intercale seulement s'il y a quelque chose à raconter :
+        // une carte vide vaut moins qu'un enchaînement direct.
+        if (answered && hasFacts(answered.entity, config.language)) {
+          setFact({ entity: answered.entity, next: advance });
+        } else {
+          advance();
         }
       }, FEEDBACK_MS);
     },
-    [picked, session, onFinish, previousDailyStreak],
+    [picked, session, onFinish, previousDailyStreak, config.language],
   );
 
   // Clavier : 1-4 pour répondre, Échap pour quitter. Le jeu est jouable au
@@ -161,6 +178,10 @@ export function QuizScreen({ config, previousDailyStreak, onFinish, onQuit }: Pr
             <EntityFallback entity={question.entity} />
           )}
         </div>
+
+        {fact && (
+          <DidYouKnow entity={fact.entity} lang={config.language} onContinue={fact.next} />
+        )}
 
         <div className="quiz-options">
           {question.options.map((option) => (
