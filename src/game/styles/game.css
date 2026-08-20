@@ -17,6 +17,7 @@
    sinon le navigateur les ignore silencieusement. */
 @import "./shell.css";
 @import "./home.css";
+@import "./paywall.css";
 
 /* Nunito : la fonte de l'app. Déclarée sans être chargée en V1, donc le jeu
    tournait en fonte système et ne ressemblait pas à l'app. Deux graisses

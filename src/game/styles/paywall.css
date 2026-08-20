@@ -1,0 +1,318 @@
+/**
+ * Écran d'abonnement — reprend la composition de `app/subscription.tsx` :
+ * hero illustré en haut, feuille crème qui remonte par-dessus, CTA épinglé
+ * en bas hors du défilement.
+ *
+ * Le dégradé du hero n'devient opaque qu'en dessous de la moitié haute, pour
+ * ne pas délaver l'illustration.
+ */
+
+.paywall {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  display: grid;
+  place-items: center;
+  padding: 16px;
+  background: rgb(26 24 22 / 55%);
+  backdrop-filter: blur(3px);
+}
+
+.paywall__panel {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 440px;
+  max-height: 92dvh;
+  overflow: hidden;
+  border-radius: 28px;
+  background: var(--canvas);
+  box-shadow: 0 24px 70px rgb(26 24 22 / 35%);
+}
+
+/* ---------- Hero ---------- */
+
+.paywall__hero {
+  position: relative;
+  flex: none;
+  min-height: clamp(280px, 40dvh, 380px);
+  background: #ff5e3a;
+  display: flex;
+  align-items: flex-end;
+}
+
+.paywall__hero-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+
+/**
+ * Le dégradé laisse respirer l'illustration en haut puis devient opaque avant
+ * le bloc de texte. Sur mobile il bascule à 70 % parce que le hero fait
+ * jusqu'à 480 px ; ici il est plus court, donc la bascule est plus haute —
+ * sinon les titres se lisent par-dessus le pingouin.
+ */
+.paywall__hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgb(255 94 58 / 0%) 0%,
+    rgb(255 94 58 / 25%) 26%,
+    rgb(255 94 58 / 92%) 48%,
+    #ff5e3a 62%
+  );
+}
+
+.paywall__hero-content {
+  position: relative;
+  z-index: 1;
+  padding: 20px 20px 22px;
+  color: #fff;
+  width: 100%;
+}
+
+/* Pastille de preuve : un chiffre vérifiable, jamais un avis inventé. */
+.paywall__proof {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 5px 12px 5px 6px;
+  border-radius: 999px;
+  background: rgb(255 255 255 / 22%);
+  backdrop-filter: blur(6px);
+  font-size: 12px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.paywall__title {
+  font-size: clamp(21px, 5vw, 27px);
+  font-weight: 800;
+  line-height: 1.18;
+  letter-spacing: -0.4px;
+  margin: 0 0 4px;
+  text-shadow: 0 2px 8px rgb(120 30 10 / 25%);
+  text-wrap: balance;
+}
+
+.paywall__sub {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(255 255 255 / 92%);
+  margin: 0 0 14px;
+}
+
+.paywall__features {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 7px;
+}
+
+.paywall__features li {
+  position: relative;
+  padding-left: 26px;
+  font-size: 14px;
+  font-weight: 700;
+  /* Une ligne chacun : au-delà, la feuille et le CTA passent sous le pli. */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.paywall__features li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 2px;
+  width: 18px;
+  height: 18px;
+  border-radius: 6px;
+  background: rgb(255 255 255 / 24%)
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='3.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='20 6 9 17 4 12'/%3E%3C/svg%3E")
+    center / 12px no-repeat;
+}
+
+/* ---------- Feuille ---------- */
+
+.paywall__sheet {
+  position: relative;
+  z-index: 2;
+  flex: 1;
+  overflow-y: auto;
+  margin-top: -20px;
+  padding: 22px 20px 16px;
+  border-radius: 24px 24px 0 0;
+  background: var(--canvas);
+}
+
+.paywall-plans {
+  display: grid;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+
+.plan {
+  position: relative;
+  font: inherit;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 15px 16px;
+  border-radius: 20px;
+  border: 1.5px solid var(--rule-light);
+  background: var(--surface);
+  color: var(--ink);
+  text-align: left;
+  transition: border-color 140ms ease, background 140ms ease, box-shadow 140ms ease;
+}
+
+.plan--on {
+  border: 2.5px solid var(--accent);
+  background: var(--accent-tint);
+  box-shadow: 0 6px 18px -8px var(--accent-deep);
+}
+
+.plan__badge {
+  position: absolute;
+  top: -11px;
+  right: 16px;
+  padding: 3px 10px;
+  border-radius: 999px;
+  background: #f4b740;
+  color: #1a1816;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+}
+
+.plan__left {
+  display: grid;
+  gap: 2px;
+  min-width: 0;
+}
+
+.plan__name {
+  font-size: 18px;
+  font-weight: 800;
+}
+
+/* L'économie en vert : c'est un gain, pas une mention légale. */
+.plan__savings {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--correct);
+}
+
+.plan__anchor {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--ink-faint);
+}
+
+.plan__price {
+  font-size: 24px;
+  font-weight: 800;
+  color: var(--accent);
+  white-space: nowrap;
+}
+
+.paywall__restore {
+  display: block;
+  width: 100%;
+  font: inherit;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--accent);
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 6px 0;
+  text-align: center;
+}
+
+.paywall__legal {
+  font-size: 11px;
+  color: var(--ink-faint);
+  text-align: center;
+  line-height: 1.5;
+  margin: 10px 0 0;
+}
+
+/* ---------- Pied épinglé ---------- */
+
+.paywall__footer {
+  flex: none;
+  padding: 14px 20px 18px;
+  border-top: 1px solid var(--rule-light);
+  background: var(--canvas);
+}
+
+.paywall__cta {
+  width: 100%;
+  font: inherit;
+  cursor: pointer;
+  border: none;
+  border-radius: 18px;
+  padding: 13px 20px;
+  display: grid;
+  gap: 2px;
+  color: #fff;
+  background: linear-gradient(135deg, #ff7a4d, #ff5e3a 55%, #e84a28);
+  box-shadow: 0 8px 16px -4px rgb(255 94 58 / 40%);
+  transition: transform 120ms ease, filter 120ms ease;
+}
+
+.paywall__cta:hover:not(:disabled) {
+  filter: brightness(1.04);
+}
+
+.paywall__cta:active:not(:disabled) {
+  transform: scale(0.99);
+}
+
+.paywall__cta:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.paywall__cta-label {
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.paywall__cta-price {
+  font-size: 12px;
+  font-weight: 600;
+  color: rgb(255 255 255 / 85%);
+}
+
+/* Seule sortie de l'écran : discrète mais toujours présente. */
+.paywall__dismiss {
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  font: inherit;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--ink-mid);
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 6px 0;
+}
+
+.paywall__dismiss:hover {
+  color: var(--ink);
+}

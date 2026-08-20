@@ -35,8 +35,21 @@ function loadSdk(): Promise<SDK> {
   return sdkPromise;
 }
 
+/**
+ * Aperçu du paywall sans backend : `?preview=paywall`, développement seulement.
+ * Permet de relire la mise en page (badge, ancrage, essai, CTA) avant que les
+ * produits Web Billing existent côté RevenueCat.
+ */
+function isPaywallPreview(): boolean {
+  return (
+    import.meta.env.DEV &&
+    typeof location !== "undefined" &&
+    new URLSearchParams(location.search).get("preview") === "paywall"
+  );
+}
+
 export function isBillingConfigured(): boolean {
-  return Boolean(API_KEY);
+  return Boolean(API_KEY) || isPaywallPreview();
 }
 
 /**
@@ -69,6 +82,11 @@ export interface SubscriptionPlan {
   /** Prix déjà formaté et localisé par RevenueCat — jamais codé en dur. */
   priceString: string;
   period: "monthly" | "yearly" | "unknown";
+  /** Prix brut, pour calculer l'ancrage mensuel de l'offre annuelle. */
+  amountMicros: number;
+  currency: string;
+  /** Jours d'essai gratuit, 0 si l'offering web n'en propose pas. */
+  trialDays: number;
   rcPackage: Package;
 }
 
@@ -80,23 +98,95 @@ function periodOf(pkg: Package): SubscriptionPlan["period"] {
 }
 
 /**
+ * Durée de l'essai gratuit en jours. Web Billing expose la phase d'essai en
+ * ISO 8601 (P7D, P1W, P1M) : on la normalise pour pouvoir écrire « 7 jours »
+ * dans le CTA, comme sur mobile. Zéro si l'offering n'accorde pas d'essai —
+ * dans ce cas le paywall ne doit PAS en promettre un.
+ */
+function trialDaysOf(pkg: Package): number {
+  const phase = pkg.webBillingProduct.freeTrialPhase;
+  const period = phase?.period;
+  if (!period) return 0;
+
+  const perUnit: Record<string, number> = { day: 1, week: 7, month: 30, year: 365 };
+  return period.number * (perUnit[period.unit] ?? 0);
+}
+
+/**
  * Offres disponibles. Les prix viennent de RevenueCat (devise selon le pays du
  * visiteur) : aucun montant n'est écrit dans le code du site.
  */
 export async function getPlans(): Promise<SubscriptionPlan[]> {
+  if (isPaywallPreview()) return PREVIEW_PLANS;
   if (!API_KEY) return [];
 
   const { Purchases } = await loadSdk();
   const offerings = await Purchases.getSharedInstance().getOfferings();
   const packages = offerings.current?.availablePackages ?? [];
 
-  return packages.map((pkg) => ({
-    id: pkg.identifier,
-    priceString: pkg.webBillingProduct.currentPrice.formattedPrice,
-    period: periodOf(pkg),
-    rcPackage: pkg,
-  }));
+  return packages.map((pkg) => {
+    const price = pkg.webBillingProduct.currentPrice;
+    return {
+      id: pkg.identifier,
+      priceString: price.formattedPrice,
+      period: periodOf(pkg),
+      amountMicros: price.amountMicros,
+      currency: price.currency,
+      trialDays: trialDaysOf(pkg),
+      rcPackage: pkg,
+    };
+  });
 }
+
+/**
+ * Ancrage de l'offre annuelle : « soit X/mois · −N % ». Calculé depuis les
+ * prix réels renvoyés par RevenueCat, jamais depuis des montants écrits en
+ * dur — c'est la règle de l'app, et une promo côté dashboard doit se refléter
+ * ici sans redéploiement.
+ *
+ * `null` s'il n'y a pas les deux offres à comparer.
+ */
+export function yearlyAnchor(
+  plans: SubscriptionPlan[],
+  lang: string,
+): { perMonth: string; discountPercent: number } | null {
+  const yearly = plans.find((p) => p.period === "yearly");
+  const monthly = plans.find((p) => p.period === "monthly");
+  if (!yearly || !monthly || monthly.amountMicros <= 0) return null;
+
+  const yearlyPerMonthMicros = yearly.amountMicros / 12;
+  const discount = 1 - yearlyPerMonthMicros / monthly.amountMicros;
+  if (discount <= 0) return null;
+
+  const perMonth = new Intl.NumberFormat(lang, {
+    style: "currency",
+    currency: yearly.currency,
+  }).format(yearlyPerMonthMicros / 1_000_000);
+
+  return { perMonth, discountPercent: Math.round(discount * 100) };
+}
+
+/** Offres factices d'aperçu — développement uniquement (cf. `isPaywallPreview`). */
+const PREVIEW_PLANS: SubscriptionPlan[] = [
+  {
+    id: "$rc_annual",
+    priceString: "39,99 €",
+    period: "yearly",
+    amountMicros: 39_990_000,
+    currency: "EUR",
+    trialDays: 7,
+    rcPackage: null as unknown as Package,
+  },
+  {
+    id: "$rc_monthly",
+    priceString: "6,99 €",
+    period: "monthly",
+    amountMicros: 6_990_000,
+    currency: "EUR",
+    trialDays: 7,
+    rcPackage: null as unknown as Package,
+  },
+];
 
 export class PurchaseCancelledError extends Error {
   constructor() {
