@@ -202,3 +202,69 @@ export const BADGE_DEFINITIONS: Omit<Badge, "unlockedAt">[] = [
     condition: { type: "daily_challenge_perfect", value: 10 },
   },
 ];
+
+/**
+ * État minimal nécessaire pour évaluer une condition de badge. Chaque
+ * plateforme le construit depuis son propre stockage : l'app depuis
+ * `stats`/`gameHistory` du store, le web depuis son store local.
+ */
+export interface BadgeEvalInput {
+  gamesPlayed: number;
+  bestSurvivalStreak: number;
+  /** Jours de JEU consécutifs, tous modes confondus. */
+  currentDailyStreak: number;
+  /** Série du Défi du jour, distincte de la précédente. */
+  dailyChallengeStreak: number;
+  /** Badges déjà débloqués (pour `badge_count`). */
+  unlockedCount: number;
+  history: {
+    mode: string;
+    score: number;
+    totalQuestions: number;
+    journey?: string;
+  }[];
+}
+
+/**
+ * Une condition est-elle remplie ? Fonction PURE, seule source de vérité —
+ * l'app (checkAndUnlockBadges) et le web (profil) évaluent avec le même code,
+ * sinon les collections divergent entre plateformes.
+ */
+export function isBadgeConditionMet(
+  condition: Badge["condition"],
+  input: BadgeEvalInput,
+): boolean {
+  switch (condition.type) {
+    case "games_played":
+      return input.gamesPlayed >= condition.value;
+    case "perfect_score":
+      return input.history.some(
+        (game) => game.score === game.totalQuestions && game.totalQuestions >= condition.value,
+      );
+    case "survival_streak":
+      return input.bestSurvivalStreak >= condition.value;
+    case "survival_complete":
+      return input.history.some(
+        (game) => game.mode === "survival" && game.journey === "complete",
+      );
+    case "survival_perfect":
+      return input.history.some(
+        (game) => game.mode === "survival" && game.journey === "perfect",
+      );
+    case "daily_streak":
+      return input.currentDailyStreak >= condition.value;
+    case "badge_count":
+      return input.unlockedCount >= condition.value;
+    case "daily_challenge_streak":
+      return input.dailyChallengeStreak >= condition.value;
+    case "daily_challenge_perfect":
+      return input.history.some(
+        (game) =>
+          game.mode === "daily" &&
+          game.score === game.totalQuestions &&
+          game.totalQuestions >= condition.value,
+      );
+    default:
+      return false;
+  }
+}

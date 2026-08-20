@@ -1,5 +1,5 @@
 import type { User } from "@supabase/supabase-js";
-import { levelFromXp, xpToNextLevel } from "@game/store/gameStore";
+import { levelFromXp, levelProgress, xpToNextLevel } from "@game/store/gameStore";
 import { isSignedIn } from "@game/lib/auth";
 import { t } from "@game/lib/i18n";
 import { Icon } from "./ui/Icon";
@@ -37,8 +37,7 @@ export function GameRail({
 }: Props) {
   const level = levelFromXp(xp);
   const remaining = xpToNextLevel(xp);
-  // Part du niveau déjà parcourue, pour la barre de progression.
-  const progress = remaining === null ? 100 : Math.max(0, Math.min(100, 100 - (remaining / 100) * 10));
+  const progress = levelProgress(xp);
 
   return (
     <div className="game-rail__card">

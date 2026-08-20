@@ -36,15 +36,19 @@ export function LeaderboardScreen({ user, onSignIn }: Props) {
     setRows(null);
 
     void (async () => {
-      const list =
+      // Les deux requêtes partent ensemble, et le garde `cancelled` couvre
+      // CHAQUE écriture : sans lui sur `setMine`, un onglet quitté pouvait
+      // écraser le rang de l'onglet courant avec sa réponse tardive.
+      const period = tab === "week" ? "week" : "all";
+      const [list, rank] = await Promise.all([
         tab === "records"
-          ? await fetchSurvivalRecords()
-          : await fetchLeaderboard("xp", tab === "week" ? "week" : "all", { limit: 50 });
+          ? fetchSurvivalRecords()
+          : fetchLeaderboard("xp", period, { limit: 50 }),
+        tab === "records" ? Promise.resolve(null) : fetchMyRank("xp", period),
+      ]);
       if (cancelled) return;
       setRows(list);
-
-      // Le rang personnel n'a de sens qu'au classement XP.
-      setMine(tab === "records" ? null : await fetchMyRank("xp", tab === "week" ? "week" : "all"));
+      setMine(rank);
     })();
 
     return () => {
@@ -106,7 +110,7 @@ export function LeaderboardScreen({ user, onSignIn }: Props) {
               <span className={`board-rank ${row.rank <= 3 ? "board-rank--top" : ""}`}>
                 {row.rank}
               </span>
-              <Icon emoji={row.avatar || "👤"} size={32} className="board-avatar" />
+              <PlayerAvatar avatar={row.avatar} />
               <span className="board-name">
                 {row.pseudo}
                 {row.pro_badge && <Icon emoji="👑" size={15} className="board-pro" />}
@@ -122,4 +126,26 @@ export function LeaderboardScreen({ user, onSignIn }: Props) {
       )}
     </>
   );
+}
+
+/**
+ * Avatar d'une ligne de classement. `profiles.avatar` stocke une CLÉ de
+ * fichier (« fox », « panda » — les webp sont synchronisés dans
+ * public/images/avatars/) ; seuls les profils historiques ont un emoji.
+ */
+function PlayerAvatar({ avatar }: { avatar: string }) {
+  if (/^[a-z0-9-]+$/.test(avatar || "")) {
+    return (
+      <img
+        src={`/images/avatars/${avatar}.webp`}
+        width={32}
+        height={32}
+        alt=""
+        loading="lazy"
+        className="board-avatar"
+        style={{ borderRadius: 999 }}
+      />
+    );
+  }
+  return <Icon emoji={avatar || "👤"} size={32} className="board-avatar" />;
 }

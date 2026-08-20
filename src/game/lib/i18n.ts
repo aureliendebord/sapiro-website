@@ -19,16 +19,19 @@ const BUNDLES: Record<GameLang, () => Promise<Dict[]>> = {
     (await import("@/locales/fr/game.json")).default,
     (await import("@/locales/fr/common.json")).default,
     (await import("@/locales/fr/levels.json")).default,
+    { badges: (await import("@/locales/fr/badges.json")).default },
   ],
   en: async () => [
     (await import("@/locales/en/game.json")).default,
     (await import("@/locales/en/common.json")).default,
     (await import("@/locales/en/levels.json")).default,
+    { badges: (await import("@/locales/en/badges.json")).default },
   ],
   es: async () => [
     (await import("@/locales/es/game.json")).default,
     (await import("@/locales/es/common.json")).default,
     (await import("@/locales/es/levels.json")).default,
+    { badges: (await import("@/locales/es/badges.json")).default },
   ],
 };
 
@@ -78,11 +81,12 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
       shortcutQuit: "quitter",
     },
     quiz: {
+      retry: "On corrige les erreurs",
+      loadFailed: "Impossible de charger la partie. Vérifie ta connexion — ta partie n'a pas été décomptée.",
       soundOn: "Couper le son",
       soundOff: "Activer le son",
       loading: "Chargement de la partie…",
       preparing: "Préparation de la partie…",
-      loadingGame: "Chargement du jeu…",
       quit: "Quitter la partie",
       progress: "Progression de la partie",
       goodAnswers: "{{count}} bonnes réponses",
@@ -106,7 +110,6 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
       replay: "Rejouer",
       home: "Retour à l'accueil",
     },
-    journeys: { title: "Parcours", back: "Retour", elements: "{{count}} éléments" },
     profile: {
       title: "Mon profil",
       anonymous: "Progression enregistrée sur cet appareil",
@@ -240,11 +243,12 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
       shortcutQuit: "quit",
     },
     quiz: {
+      retry: "Fixing your mistakes",
+      loadFailed: "Couldn't load the game. Check your connection — your game wasn't used up.",
       soundOn: "Mute sound",
       soundOff: "Unmute sound",
       loading: "Loading the game…",
       preparing: "Preparing your game…",
-      loadingGame: "Loading…",
       quit: "Quit the game",
       progress: "Game progress",
       goodAnswers: "{{count}} correct answers",
@@ -268,7 +272,6 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
       replay: "Play again",
       home: "Back to home",
     },
-    journeys: { title: "Journeys", back: "Back", elements: "{{count}} items" },
     profile: {
       title: "My profile",
       anonymous: "Progress saved on this device",
@@ -402,11 +405,12 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
       shortcutQuit: "salir",
     },
     quiz: {
+      retry: "Corrigiendo los errores",
+      loadFailed: "No se pudo cargar la partida. Revisa tu conexión — no se gastó tu partida.",
       soundOn: "Silenciar",
       soundOff: "Activar el sonido",
       loading: "Cargando la partida…",
       preparing: "Preparando la partida…",
-      loadingGame: "Cargando…",
       quit: "Salir de la partida",
       progress: "Progreso de la partida",
       goodAnswers: "{{count}} respuestas correctas",
@@ -430,7 +434,6 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
       replay: "Jugar otra vez",
       home: "Volver al inicio",
     },
-    journeys: { title: "Recorridos", back: "Atrás", elements: "{{count}} elementos" },
     profile: {
       title: "Mi perfil",
       anonymous: "Progreso guardado en este dispositivo",

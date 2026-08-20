@@ -33,7 +33,13 @@ import {
   SURVIVAL_LIVES,
 } from "@/domain/quiz/constants";
 import { getJourneyById } from "@/domain/journeys/catalog";
-import { MIXED_QUESTIONS } from "@/domain/journeys/path";
+import {
+  MIXED_QUESTIONS,
+  isMixedBlockId,
+  questionsFor,
+  stageOfMixedBlock,
+} from "@/domain/journeys/path";
+import { makeStageMixPool } from "@/domain/journeys/stageMixPool";
 import { getDailySeed, getDailyTheme } from "@/utils/dailyChallenge";
 
 export type QuizMode = "classic" | "survival" | "daily" | "review";
@@ -45,12 +51,12 @@ export interface SessionConfig {
   language: string;
   /** Pool imposé (mode révision : les entités ratées). */
   pool?: AnyFlagEntity[];
-  /** Bloc du sentier Aventure joué, si c'en est un. */
+  /**
+   * Bloc du sentier Aventure joué, si c'en est un. Le nombre de questions et
+   * la nature mixte du bloc en sont DÉRIVÉS (questionsFor, isMixedBlockId) :
+   * un seul champ, aucune combinaison contradictoire possible.
+   */
   pathBlockId?: string;
-  /** Nombre de questions imposé (10 pour un bloc, 20 pour le mixte). */
-  questionCount?: number;
-  /** Bloc mixte de clôture : questions tirées des 5 univers. */
-  mixed?: boolean;
 }
 
 export interface SessionState {
@@ -72,6 +78,18 @@ export interface SessionState {
   finished: boolean;
   /** Vrai si le pool de survie a été entièrement épuisé. */
   survivalComplete: boolean;
+  /**
+   * File de repasse (blocs thématiques du sentier) : les questions ratées
+   * sont re-servies après la dernière, jusqu'à réussite. C'est cette
+   * mécanique qui JUSTIFIE que blockCleared valide toujours un bloc
+   * thématique — l'importer sans elle laissait un 0/10 « réussir ».
+   * NOTE : réimplémentation web de la mécanique de app/quiz/[mode].tsx
+   * (enfermée dans l'écran RN) ; l'extraction domain/quiz/retryQueue reste
+   * la cible pour n'avoir qu'une implémentation.
+   */
+  retryQueue: QuizQuestion[];
+  /** Vrai pendant la phase de repasse (le score ne bouge plus). */
+  retrying: boolean;
 }
 
 function resolvePool(config: SessionConfig): { pool: AnyFlagEntity[]; fullPool: AnyFlagEntity[] } {
@@ -140,10 +158,16 @@ export function startSession(config: SessionConfig): SessionState {
     dailyTheme = daily.theme.themeCategory;
   } else if (config.mode === "review") {
     playlist = buildReviewPlaylist(config.pool ?? [], config.language);
-  } else if (config.mixed) {
-    // Bloc mixte de clôture d'étape : questions équilibrées sur les 5 univers,
-    // via le même constructeur que l'app.
-    playlist = buildMixedQuestions(config.questionCount ?? MIXED_QUESTIONS, undefined, config.language);
+  } else if (config.pathBlockId && isMixedBlockId(config.pathBlockId)) {
+    // Grand mélange de fin d'étape : une RÉVISION des 5 parcours de l'étape,
+    // pas un tirage dans tout le catalogue — même restriction que l'app
+    // (makeStageMixPool, partagé via domain/).
+    playlist = buildMixedQuestions(
+      MIXED_QUESTIONS,
+      undefined,
+      config.language,
+      makeStageMixPool(stageOfMixedBlock(config.pathBlockId)),
+    );
   }
 
   let question: QuizQuestion | null;
@@ -163,7 +187,11 @@ export function startSession(config: SessionConfig): SessionState {
       config.language,
     );
     totalQuestions =
-      config.mode === "survival" ? null : (config.questionCount ?? CLASSIC_QUESTION_COUNT);
+      config.mode === "survival"
+        ? null
+        : config.pathBlockId
+          ? questionsFor(config.pathBlockId)
+          : CLASSIC_QUESTION_COUNT;
   }
 
   return {
@@ -180,7 +208,14 @@ export function startSession(config: SessionConfig): SessionState {
     startedAt: Date.now(),
     finished: question === null,
     survivalComplete: false,
+    retryQueue: [],
+    retrying: false,
   };
+}
+
+/** La repasse ne concerne que les blocs THÉMATIQUES du sentier. */
+function hasRetry(config: SessionConfig): boolean {
+  return Boolean(config.pathBlockId && !isMixedBlockId(config.pathBlockId));
 }
 
 export interface AnswerOutcome {
@@ -201,11 +236,51 @@ export function answer(state: SessionState, choice: string): AnswerOutcome {
   const misses = correct ? state.misses : [...state.misses, missedEntity];
   const questionIndex = state.questionIndex + 1;
 
+  // Phase de repasse : les ratés reviennent jusqu'à réussite. Le score et la
+  // barre sont figés (première passe seulement) — on apprend, on ne re-note pas.
+  if (state.retrying) {
+    const retryQueue = correct
+      ? state.retryQueue.slice(1)
+      : [...state.retryQueue.slice(1), state.question];
+    return {
+      state: {
+        ...state,
+        misses,
+        retryQueue,
+        question: retryQueue[0] ?? null,
+        finished: retryQueue.length === 0,
+      },
+      correct,
+    };
+  }
+
+  const retryQueue = !correct && hasRetry(state.config)
+    ? [...state.retryQueue, state.question]
+    : state.retryQueue;
+
   const outOfLives = lives <= 0;
   const reachedEnd =
     state.totalQuestions !== null && questionIndex >= state.totalQuestions;
 
   if (outOfLives || reachedEnd) {
+    // Fin de la première passe d'un bloc thématique avec des erreurs : la
+    // repasse démarre au lieu de terminer la partie.
+    if (reachedEnd && retryQueue.length > 0) {
+      return {
+        state: {
+          ...state,
+          score,
+          lives,
+          answers,
+          misses,
+          questionIndex,
+          retryQueue,
+          retrying: true,
+          question: retryQueue[0],
+        },
+        correct,
+      };
+    }
     return {
       state: {
         ...state,
@@ -214,6 +289,7 @@ export function answer(state: SessionState, choice: string): AnswerOutcome {
         answers,
         misses,
         questionIndex,
+        retryQueue,
         question: null,
         finished: true,
       },
@@ -221,7 +297,7 @@ export function answer(state: SessionState, choice: string): AnswerOutcome {
     };
   }
 
-  // Playlist (daily, révision) : la question suivante est déjà construite.
+  // Playlist (daily, révision, mixte) : la question suivante est déjà construite.
   if (state.playlist) {
     const next = state.playlist[questionIndex] ?? null;
     return {
@@ -232,6 +308,7 @@ export function answer(state: SessionState, choice: string): AnswerOutcome {
         answers,
         misses,
         questionIndex,
+        retryQueue,
         question: next,
         finished: next === null,
       },
@@ -269,7 +346,7 @@ export function answer(state: SessionState, choice: string): AnswerOutcome {
   }
 
   return {
-    state: { ...state, score, lives, answers, misses, questionIndex, question: next },
+    state: { ...state, score, lives, answers, misses, questionIndex, retryQueue, question: next },
     correct,
   };
 }
@@ -304,9 +381,15 @@ export function finishSession(
     previousDailyStreak: opts.previousDailyStreak,
   });
 
-  const journeyTheme = state.config.journeyId
-    ? getJourneyById(state.config.journeyId)?.theme
-    : undefined;
+  // Un bloc mixte n'a pas de parcours au catalogue : son thème est « mix »,
+  // comme sur mobile — sinon ses parties sont invisibles dans le classement
+  // par thème.
+  const journeyTheme =
+    state.config.pathBlockId && isMixedBlockId(state.config.pathBlockId)
+      ? "mix"
+      : state.config.journeyId
+        ? getJourneyById(state.config.journeyId)?.theme
+        : undefined;
 
   return {
     mode: state.config.mode,

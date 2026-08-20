@@ -1,7 +1,11 @@
 import { useMemo } from "react";
 import type { User } from "@supabase/supabase-js";
-import { BADGE_DEFINITIONS } from "@/domain/progress/badges";
-import { useGameStore, levelFromXp, xpToNextLevel } from "@game/store/gameStore";
+import {
+  BADGE_DEFINITIONS,
+  isBadgeConditionMet,
+  type BadgeEvalInput,
+} from "@/domain/progress/badges";
+import { useGameStore, levelFromXp, levelProgress, xpToNextLevel } from "@game/store/gameStore";
 import { usePathStore } from "@game/store/pathStore";
 import { isSignedIn } from "@game/lib/auth";
 import { t } from "@game/lib/i18n";
@@ -30,6 +34,8 @@ export function ProfileScreen({ user, isPremium, onAccount, onSubscribe }: Props
   const totalAnswers = useGameStore((s) => s.totalAnswers);
   const bestSurvival = useGameStore((s) => s.bestSurvivalStreak);
   const dailyStreak = useGameStore((s) => s.dailyStreak);
+  const playStreak = useGameStore((s) => s.playStreak);
+  const reviewCount = useGameStore((s) => s.review.length);
   const history = useGameStore((s) => s.history);
   const pathCleared = usePathStore((s) => s.cleared());
 
@@ -37,22 +43,31 @@ export function ProfileScreen({ user, isPremium, onAccount, onSubscribe }: Props
   const remaining = xpToNextLevel(xp);
   const accuracy = totalAnswers > 0 ? Math.round((correctAnswers / totalAnswers) * 100) : 0;
 
-  /** Badges atteints par la progression web, aux seuils du catalogue de l'app. */
+  /**
+   * Badges atteints — évalués par isBadgeConditionMet, LA règle partagée avec
+   * l'app (domain/progress/badges.ts) : plus de copie locale qui diverge.
+   * `badge_count` dépend des autres : deux passes suffisent (pas de badge
+   * badge_count en cascade dans le catalogue).
+   */
   const unlocked = useMemo(() => {
-    const has = new Set<string>();
-    for (const badge of BADGE_DEFINITIONS) {
-      const { type, value } = badge.condition;
-      const reached =
-        (type === "games_played" && gamesPlayed >= value) ||
-        (type === "survival_streak" && bestSurvival >= value) ||
-        (type === "daily_streak" && dailyStreak >= value) ||
-        (type === "daily_challenge_streak" && dailyStreak >= value) ||
-        (type === "perfect_score" &&
-          history.some((g) => g.score === g.totalQuestions && g.totalQuestions >= value));
-      if (reached) has.add(badge.id);
-    }
-    return has;
-  }, [gamesPlayed, bestSurvival, dailyStreak, history]);
+    const input: BadgeEvalInput = {
+      gamesPlayed,
+      bestSurvivalStreak: bestSurvival,
+      currentDailyStreak: playStreak,
+      dailyChallengeStreak: dailyStreak,
+      unlockedCount: 0,
+      history,
+    };
+    const first = new Set(
+      BADGE_DEFINITIONS.filter((b) => isBadgeConditionMet(b.condition, input)).map((b) => b.id),
+    );
+    const second = new Set(
+      BADGE_DEFINITIONS.filter((b) =>
+        isBadgeConditionMet(b.condition, { ...input, unlockedCount: first.size }),
+      ).map((b) => b.id),
+    );
+    return second;
+  }, [gamesPlayed, bestSurvival, dailyStreak, playStreak, history]);
 
   return (
     <>
@@ -79,7 +94,7 @@ export function ProfileScreen({ user, isPremium, onAccount, onSubscribe }: Props
               {remaining === null ? `${xp} XP` : t("web.home.xpToNext", { xp: remaining })}
             </p>
             <div className="game-rail__bar">
-              <span style={{ width: `${remaining === null ? 100 : Math.min(100, (xp % 100))}%` }} />
+              <span style={{ width: `${levelProgress(xp)}%` }} />
             </div>
           </div>
         </div>
@@ -90,7 +105,7 @@ export function ProfileScreen({ user, isPremium, onAccount, onSubscribe }: Props
           <Stat icon="❤️" label={t("web.profile.bestSurvival")} value={bestSurvival} />
           <Stat icon="🔥" label={t("web.profile.streak")} value={dailyStreak} />
           <Stat icon="🧭" label={t("web.profile.pathBlocks")} value={`${pathCleared}/54`} />
-          <Stat icon="🎓" label={t("web.home.statReview")} value={useGameStore.getState().review.length} />
+          <Stat icon="🎓" label={t("web.home.statReview")} value={reviewCount} />
         </div>
 
         {!isPremium && (
@@ -116,8 +131,10 @@ export function ProfileScreen({ user, isPremium, onAccount, onSubscribe }: Props
             return (
               <div key={badge.id} className={`badge-card ${on ? "badge-card--on" : ""}`}>
                 <Icon emoji={badge.icon} size={48} />
-                <span className="badge-card__name">{t(`badges.${badge.id}.name`, {})}</span>
-                <span className="badge-card__desc">{badge.description}</span>
+                <span className="badge-card__name">{t(`badges.items.${badge.id}.name`)}</span>
+                <span className="badge-card__desc">
+                  {t(`badges.items.${badge.id}.description`)}
+                </span>
               </div>
             );
           })}

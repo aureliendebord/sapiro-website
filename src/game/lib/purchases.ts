@@ -226,11 +226,13 @@ export function hasEntitlement(info: CustomerInfo | null): boolean {
 
 /**
  * Statut premium : entitlement RevenueCat OU accès accordé à la main dans
- * `premium_overrides`. Même règle que l'app — un override ne doit pas être
- * annulé par une erreur réseau, d'où le `?? false` seulement sur l'absence
- * de ligne, jamais sur l'échec de la requête.
+ * `premium_overrides`. Même règle que l'app.
+ *
+ * Retourne `null` quand le statut est INCONNU (erreur réseau/RLS sur la
+ * requête d'override) : l'appelant garde alors l'état courant au lieu de
+ * rétrograder quelqu'un en « gratuit » sur un incident réseau.
  */
-export async function fetchPremiumStatus(uid: string): Promise<boolean> {
+export async function fetchPremiumStatus(uid: string): Promise<boolean | null> {
   let entitled = false;
 
   if (API_KEY) {
@@ -245,15 +247,19 @@ export async function fetchPremiumStatus(uid: string): Promise<boolean> {
   }
   if (entitled) return true;
 
-  const supabase = getSupabase();
+  const supabase = await getSupabase();
   if (!supabase) return false;
 
-  const { data } = await supabase
+  const { data, error } = await supabase
     .from("premium_overrides")
     .select("user_id")
     .eq("user_id", uid)
     .maybeSingle();
 
+  if (error) {
+    console.warn("[sapiro] premium_overrides inaccessible", error.message);
+    return null;
+  }
   return Boolean(data);
 }
 

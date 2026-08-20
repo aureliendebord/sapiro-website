@@ -23,7 +23,9 @@ interface ModeCard {
  * synchronisées, pas des caractères à afficher.
  */
 const CARDS: ModeCard[] = [
-  { action: "journeys", icon: "🧭", nameKey: "journeys", descKey: "journeysDesc", metaKey: "journeysMeta", color: "classic", costsTicket: true },
+  // La carte NAVIGUE vers le sentier (le ticket se consomme au lancement d'un
+  // bloc) : elle reste cliquable même à quota épuisé.
+  { action: "journeys", icon: "🧭", nameKey: "journeys", descKey: "journeysDesc", metaKey: "journeysMeta", color: "classic", costsTicket: false },
   { action: "daily", icon: "📅", nameKey: "daily", descKey: "dailyDesc", metaKey: "dailyMeta", color: "daily", costsTicket: false },
   { action: "classic", icon: "🎮", nameKey: "classic", descKey: "classicDesc", metaKey: "classicMeta", color: "classic", costsTicket: true },
   { action: "survival", icon: "❤️", nameKey: "survival", descKey: "survivalDesc", metaKey: "survivalMeta", color: "survival", costsTicket: true },

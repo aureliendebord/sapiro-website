@@ -1,10 +1,11 @@
 import { Suspense, lazy, useCallback, useEffect, useMemo, useState } from "react";
 import type { AnyFlagEntity, EntityType } from "@/types";
 import { getJourneyById } from "@/domain/journeys/catalog";
-import { isMixedBlockId, questionsFor } from "@/domain/journeys/path";
+import { isMixedBlockId } from "@/domain/journeys/path";
 import { usePathStore } from "@game/store/pathStore";
 import { getEntityById } from "@/domain/quiz/entityPool";
 import { getDailyTheme } from "@/utils/dailyChallenge";
+import { warmGameSounds } from "@game/lib/sounds";
 import { HomeScreen, type HomeAction } from "./HomeScreen";
 import { PathScreen } from "./path/PathScreen";
 import { LeaderboardScreen } from "./leaderboard/LeaderboardScreen";
@@ -21,7 +22,7 @@ import { GameRail } from "./GameRail";
 import { GameAside } from "./GameAside";
 import { AccountModal } from "./AccountModal";
 import { ResetPasswordModal } from "./ResetPasswordModal";
-import { completePendingMerge, ensureSession, isSignedIn, onAuthChange } from "@game/lib/auth";
+import { completePendingMerge, ensureSession, onAuthChange } from "@game/lib/auth";
 import { fetchPremiumStatus } from "@game/lib/purchases";
 import { capture, identifyAnalytics } from "@game/lib/analytics";
 import type { User } from "@supabase/supabase-js";
@@ -64,7 +65,6 @@ export default function GameApp({ lang }: Props) {
   const refundTicket = useTicketStore((s) => s.refund);
   const earnDailyBonus = useTicketStore((s) => s.earnDailyBonus);
   const refreshRemoteConfig = useTicketStore((s) => s.refreshRemoteConfig);
-  const catalogOpen = useTicketStore((s) => s.isCatalogOpen());
 
   const xp = useGameStore((s) => s.xp);
   const gamesPlayed = useGameStore((s) => s.gamesPlayed);
@@ -84,8 +84,6 @@ export default function GameApp({ lang }: Props) {
   /** Message expliquant pourquoi un bloc du sentier est fermé. */
   const [dialog, setDialog] = useState<string | null>(null);
   const [isPremium, setIsPremium] = useState(false);
-
-  const signedIn = isSignedIn(user);
 
   const dailyDone = lastDailyKey === todayKey();
 
@@ -123,7 +121,10 @@ export default function GameApp({ lang }: Props) {
   // pris ici vaut sur mobile, et inversement.
   const refreshPremium = useCallback(async (uid: string | undefined) => {
     if (!uid) return setIsPremium(false);
-    setIsPremium(await fetchPremiumStatus(uid));
+    const status = await fetchPremiumStatus(uid);
+    // Statut inconnu (incident réseau) : on garde l'état courant plutôt que
+    // de rétrograder un abonné en gratuit.
+    if (status !== null) setIsPremium(status);
   }, []);
 
   useEffect(() => {
@@ -150,6 +151,8 @@ export default function GameApp({ lang }: Props) {
 
   const startQuiz = useCallback(
     async (config: SessionConfig, costsTicket: boolean) => {
+      // Geste utilisateur : le bon moment pour amorcer les sons de la partie.
+      warmGameSounds();
       if (costsTicket && !isPremium) {
         if (!consumeTicket()) {
           // Plus de tickets : même funnel que l'app (quota_reached → paywall).
@@ -166,17 +169,25 @@ export default function GameApp({ lang }: Props) {
       }
 
       // Bloquant : sans les locales, les questions sortiraient en français.
-      // En révision, le pool est hétérogène → on charge toutes les familles.
+      // Révision et grand mélange servent les 5 familles → tout charger.
+      const heterogeneous =
+        Boolean(config.pool) || Boolean(config.pathBlockId && isMixedBlockId(config.pathBlockId));
       setPreparing(true);
       try {
-        await preloadEntityLocales(lang, config.pool ? undefined : [config.entityType]);
+        await preloadEntityLocales(lang, heterogeneous ? undefined : [config.entityType]);
+      } catch {
+        // Locales inaccessibles (réseau) : la partie ne peut pas se jouer
+        // proprement — on rend le ticket au lieu de le perdre en silence.
+        if (costsTicket && !isPremium) refundTicket();
+        setDialog(t("web.quiz.loadFailed"));
+        return;
       } finally {
         setPreparing(false);
       }
 
       setScreen({ name: "quiz", config });
     },
-    [consumeTicket, isPremium, lang, openPaywall],
+    [consumeTicket, refundTicket, isPremium, lang, openPaywall],
   );
 
   const handleAction = useCallback(
@@ -212,11 +223,7 @@ export default function GameApp({ lang }: Props) {
     [review, lang, startQuiz, dailyDone],
   );
 
-  /**
-   * Lance un bloc du sentier. Le nombre de questions et le type d'entité
-   * viennent du cœur : un bloc thématique fait 10 questions sur sa famille,
-   * le mixte de clôture en fait 20 tirées des 5 blocs de l'étape.
-   */
+  /** Lance un bloc du sentier — la session dérive tout de pathBlockId. */
   const handlePlayBlock = useCallback(
     (blockId: string) => {
       const journey = getJourneyById(blockId);
@@ -227,8 +234,6 @@ export default function GameApp({ lang }: Props) {
           entityType: (journey?.entityType ?? "country") as EntityType,
           language: lang,
           pathBlockId: blockId,
-          questionCount: questionsFor(blockId),
-          mixed: isMixedBlockId(blockId),
         },
         true,
       );
@@ -365,13 +370,10 @@ export default function GameApp({ lang }: Props) {
     ready,
     preparing,
     screen,
-    xp,
     tickets,
     isPremium,
-    signedIn,
     review.length,
     dailyDone,
-    catalogOpen,
     dailyStreak,
     handleAction,
     handlePlayBlock,

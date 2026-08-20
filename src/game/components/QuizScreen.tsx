@@ -146,6 +146,10 @@ export function QuizScreen({ config, previousDailyStreak, onFinish, onQuit }: Pr
               <Icon key={i} emoji="❤️" size={20} />
             ))}
           </span>
+        ) : session.retrying ? (
+          // Phase de repasse : plus de compteur (il afficherait 11/10), on
+          // annonce ce qui se passe — on corrige ses erreurs.
+          <span className="game-pill">{t("web.quiz.retry")}</span>
         ) : (
           <span className="game-pill">
             {session.questionIndex + 1}/{session.totalQuestions}

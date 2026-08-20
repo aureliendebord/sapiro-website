@@ -173,21 +173,6 @@
 
 /* ---------- Quiz ---------- */
 
-.quiz-progress {
-  height: 8px;
-  border-radius: 999px;
-  background: var(--rule-light);
-  overflow: hidden;
-  flex: 1;
-}
-
-.quiz-progress__bar {
-  height: 100%;
-  background: var(--accent);
-  border-radius: 999px;
-  transition: width 260ms ease;
-}
-
 .quiz-stage {
   flex: 1;
   display: flex;
@@ -332,50 +317,6 @@
   letter-spacing: 0.6px;
   color: var(--ink-faint);
   margin: 0 0 10px;
-}
-
-.journey-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
-}
-
-.journey-card {
-  font: inherit;
-  cursor: pointer;
-  text-align: left;
-  padding: 14px;
-  border-radius: 18px;
-  border: 2px solid var(--rule-light);
-  background: var(--surface);
-  display: grid;
-  gap: 4px;
-  transition: transform 120ms ease, border-color 120ms ease;
-}
-
-.journey-card:hover {
-  transform: translateY(-2px);
-  border-color: var(--accent);
-}
-
-.journey-card__icon {
-  font-size: 22px;
-}
-
-.journey-card__title {
-  font-weight: 800;
-  font-size: 14px;
-  line-height: 1.25;
-}
-
-.journey-card__meta {
-  font-size: 12px;
-  font-weight: 700;
-  color: var(--ink-faint);
-}
-
-.journey-card--locked {
-  opacity: 0.6;
 }
 
 /* ---------- États ---------- */
@@ -598,23 +539,6 @@
   margin: 12px 0 0;
 }
 
-/* Cadenas posé sur l'icône du parcours : le joueur voit de quoi il parle
-   avant de payer — un cadenas seul ne vend rien. */
-.journey-card__icon {
-  position: relative;
-  display: inline-block;
-}
-
-.journey-card__lock {
-  position: absolute;
-  right: -4px;
-  bottom: -4px;
-  padding: 2px;
-  border-radius: 999px;
-  background: var(--surface);
-  color: var(--ink-mid);
-  box-shadow: 0 1px 4px rgb(26 24 22 / 25%);
-}
 
 /* Barre segmentée : un segment par question, comme le header de l'app.
    On lit d'un coup d'œil où on en est ET comment on s'en sort. */

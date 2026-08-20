@@ -16,8 +16,6 @@
 import {
   ALL_BLOCKS,
   STAGE_COUNT,
-  allBlocksOfStage,
-  isMixedBlockId,
   mixedBlockId,
   stageBlocks,
   stageOfBlock,
@@ -52,28 +50,27 @@ export function computeUnlockedStages(blocks: BlockMap): number {
 }
 
 /**
- * Un bloc est-il jouable ? Il faut que son etape soit ouverte, et — pour le
- * bloc mixte — que les 5 blocs thematiques de l'etape soient reussis.
+ * Un bloc est-il jouable ? Deblocage STRICTEMENT sequentiel (decision
+ * 2026-08-09) : ouvert seulement si TOUS les blocs precedents du sentier sont
+ * reussis — un seul bloc « a jouer » a la fois, les blocs deja reussis restant
+ * rejouables. Le mixte de cloture et l'ouverture de l'etape suivante en
+ * decoulent sans regle supplementaire.
+ *
+ * Un id hors sentier reste libre : le catalogue ne passe pas par ici.
  */
 export function isBlockUnlocked(blocks: BlockMap, blockId: string): boolean {
-  const stage = stageOfBlock(blockId);
-  if (stage < 0 || stage >= computeUnlockedStages(blocks)) return false;
-  if (isMixedBlockId(blockId)) return computeStageCleared(blocks, stage);
-  return true;
+  const idx = ALL_BLOCKS.indexOf(blockId);
+  if (idx === -1) return true;
+  return ALL_BLOCKS.slice(0, idx).every((id) => cleared(blocks, id));
 }
 
 /**
- * Prochain bloc a jouer : le premier non reussi parmi les etapes ouvertes.
+ * Prochain bloc a jouer : le premier non reussi du sentier. Avec le
+ * sequentiel strict, c'est LE seul bloc ouvert non encore valide.
  * `null` quand tout le sentier est termine.
  */
 export function nextBlockId(blocks: BlockMap): string | null {
-  const unlocked = computeUnlockedStages(blocks);
-  for (let stage = 0; stage < unlocked; stage += 1) {
-    for (const id of allBlocksOfStage(stage)) {
-      if (!cleared(blocks, id) && isBlockUnlocked(blocks, id)) return id;
-    }
-  }
-  return null;
+  return ALL_BLOCKS.find((id) => !cleared(blocks, id) && isBlockUnlocked(blocks, id)) ?? null;
 }
 
 export function clearedCount(blocks: BlockMap): number {
@@ -86,8 +83,8 @@ export type NodeStatus = "done" | "current" | "open" | "closed" | "locked";
 export function nodeStatus(blocks: BlockMap, blockId: string, current: string | null): NodeStatus {
   if (cleared(blocks, blockId)) return "done";
   if (blockId === current) return "current";
-  if (isBlockUnlocked(blocks, blockId)) return "open";
-  // Etape ouverte mais bloc pas encore atteint (ou mixte en attente de ses 5).
+  if (isBlockUnlocked(blocks, blockId)) return "open"; // rejouable (deja atteint)
+  // Pas encore atteint : « closed » dans une etape ouverte, « locked » au-dela.
   const stage = stageOfBlock(blockId);
   return stage >= 0 && stage < computeUnlockedStages(blocks) ? "closed" : "locked";
 }

@@ -7,8 +7,6 @@
  */
 export type GlyphName =
   | "back"
-  | "close"
-  | "lock"
   | "account"
   | "signin"
   | "chevron"
@@ -27,14 +25,7 @@ interface GlyphProps {
 /** Tracés sur une grille 24×24, trait 2, extrémités arrondies. */
 const PATHS: Record<GlyphName, React.ReactNode> = {
   back: <path d="M15 19l-7-7 7-7" />,
-  close: <path d="M18 6L6 18M6 6l12 12" />,
   chevron: <path d="M9 5l7 7-7 7" />,
-  lock: (
-    <>
-      <rect x="4" y="10" width="16" height="11" rx="2.5" />
-      <path d="M8 10V7a4 4 0 018 0v3" />
-    </>
-  ),
   account: (
     <>
       <circle cx="12" cy="8" r="3.5" />

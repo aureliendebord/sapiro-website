@@ -8,6 +8,12 @@ import {
 } from "@/domain/journeys/path";
 import { getJourneyById } from "@/domain/journeys/catalog";
 import { usePathStore } from "@game/store/pathStore";
+import {
+  clearedCount,
+  computeUnlockedStages,
+  nextBlockId,
+  nodeStatus,
+} from "@/domain/journeys/pathProgress";
 import { themeColor } from "@game/design/tokens";
 import { t } from "@game/lib/i18n";
 import { Icon } from "../ui/Icon";
@@ -47,10 +53,13 @@ interface Node {
  * progression. Reanimated devient ici des animations CSS.
  */
 export function PathScreen({ isPremium, onPlay, onLocked }: Props) {
+  // Un seul abonnement réactif (blocks) ; états et bloc courant sont dérivés
+  // UNE fois par rendu via le domaine — statusOf refaisait le calcul du bloc
+  // courant pour chacun des 54 nœuds.
   const blocks = usePathStore((s) => s.blocks);
-  const statusOf = usePathStore((s) => s.statusOf);
-  const next = usePathStore((s) => s.next);
-  const cleared = usePathStore((s) => s.cleared);
+  const currentBlock = useMemo(() => nextBlockId(blocks), [blocks]);
+  const clearedTotal = useMemo(() => clearedCount(blocks), [blocks]);
+  const unlockedStages = useMemo(() => computeUnlockedStages(blocks), [blocks]);
 
   const wrapRef = useRef<HTMLDivElement>(null);
   const currentRef = useRef<HTMLButtonElement>(null);
@@ -69,8 +78,6 @@ export function PathScreen({ isPremium, onPlay, onLocked }: Props) {
 
   const { nodes, height, path } = useMemo(() => buildTrail(width), [width]);
 
-  const currentBlock = next();
-
   // On arrive sur le nœud à jouer, pas en haut de la carte. Sans animation au
   // premier rendu : un défilement fluide depuis le sommet serait du bruit.
   useEffect(() => {
@@ -86,7 +93,7 @@ export function PathScreen({ isPremium, onPlay, onLocked }: Props) {
         </div>
         <span className="game-pill">
           <Glyph name="chevron" size={14} />
-          {t("web.path.cleared", { done: cleared(), total: STAGE_COUNT * 6 })}
+          {t("web.path.cleared", { done: clearedTotal, total: STAGE_COUNT * 6 })}
         </span>
       </div>
 
@@ -113,11 +120,18 @@ export function PathScreen({ isPremium, onPlay, onLocked }: Props) {
         </svg>
 
         {nodes.map((node) => {
-          const status = statusOf(node.blockId);
+          const status = nodeStatus(blocks, node.blockId, currentBlock);
           const journey = getJourneyById(node.blockId);
           const mixed = isMixedBlockId(node.blockId);
           const colors = themeColor(journey?.theme);
-          const label = mixed ? t("path.mixedTitle") : (journey?.title ?? node.blockId);
+          // `journeys.items.<id>` = titre localisé des locales synchronisées ;
+          // repli sur le titre FR du catalogue si la clé manque.
+          const localized = t(`journeys.items.${node.blockId}`);
+          const label = mixed
+            ? t("path.mixedTitle")
+            : localized !== `journeys.items.${node.blockId}`
+              ? localized
+              : (journey?.title ?? node.blockId);
 
           return (
             <div
@@ -128,9 +142,7 @@ export function PathScreen({ isPremium, onPlay, onLocked }: Props) {
               {node.stageBanner !== null && (
                 <span
                   className={`path-stage ${
-                    node.stageBanner < usePathStore.getState().unlockedStageCount()
-                      ? ""
-                      : "path-stage--locked"
+                    node.stageBanner < unlockedStages ? "" : "path-stage--locked"
                   }`}
                 >
                   {t("path.stage", { stage: node.stageBanner + 1 })}

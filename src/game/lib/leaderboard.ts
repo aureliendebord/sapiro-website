@@ -30,16 +30,6 @@ export interface MyRank {
   value: number;
 }
 
-export interface LeagueInfo {
-  season: number;
-  tier: number;
-  pool: number;
-  ends_at: string;
-  members: LeaderboardRow[];
-  my_rank: number | null;
-  pool_size: number;
-}
-
 /**
  * Top du classement. `theme` filtre par univers ('all' par défaut) — même
  * whitelist que l'app, validée côté serveur.
@@ -49,7 +39,7 @@ export async function fetchLeaderboard(
   period: LeaderboardPeriod,
   opts: { limit?: number; offset?: number; theme?: string } = {},
 ): Promise<LeaderboardRow[]> {
-  const supabase = getSupabase();
+  const supabase = await getSupabase();
   if (!supabase) return [];
 
   const { data, error } = await supabase.rpc("get_leaderboard", {
@@ -73,7 +63,7 @@ export async function fetchMyRank(
   period: LeaderboardPeriod,
   theme = "all",
 ): Promise<MyRank | null> {
-  const supabase = getSupabase();
+  const supabase = await getSupabase();
   if (!supabase) return null;
 
   const { data, error } = await supabase.rpc("get_my_rank", { metric, period, theme });
@@ -85,7 +75,7 @@ export async function fetchMyRank(
 
 /** Records de survie, tous joueurs confondus. */
 export async function fetchSurvivalRecords(): Promise<LeaderboardRow[]> {
-  const supabase = getSupabase();
+  const supabase = await getSupabase();
   if (!supabase) return [];
 
   const { data, error } = await supabase.rpc("get_survival_records_global");
@@ -94,20 +84,4 @@ export async function fetchSurvivalRecords(): Promise<LeaderboardRow[]> {
     return [];
   }
   return (data ?? []) as LeaderboardRow[];
-}
-
-/**
- * Ligue de la semaine : la poule du joueur, son rang et la date de clôture.
- * `null` tant qu'il n'est affecté à aucune poule (aucune partie jouée).
- */
-export async function fetchMyLeague(): Promise<LeagueInfo | null> {
-  const supabase = getSupabase();
-  if (!supabase) return null;
-
-  const { data, error } = await supabase.rpc("get_my_league");
-  if (error || !data) return null;
-
-  // La RPC renvoie un objet unique (ou une ligne selon la version).
-  const league = Array.isArray(data) ? data[0] : data;
-  return (league as LeagueInfo) ?? null;
 }

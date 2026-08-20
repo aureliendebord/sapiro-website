@@ -12,7 +12,7 @@
 import { create } from "zustand";
 import { persist } from "zustand/middleware";
 import type { EntityType } from "@/types";
-import { calculateNewStreak } from "@/utils/dailyChallenge";
+import { calculateNewStreak, formatDateKey } from "@/utils/dailyChallenge";
 
 export interface ReviewEntry {
   entityId: string;
@@ -52,6 +52,9 @@ interface GameState {
   bestSurvivalStreak: number;
   /** Série du Défi du jour, en jours consécutifs. */
   dailyStreak: number;
+  /** Jours de JEU consécutifs, tous modes — la métrique des badges « Assidu ». */
+  playStreak: number;
+  lastPlayedDate: string | null;
 
   recordGame: (record: LocalGameRecord) => void;
   addMiss: (entityId: string, entityType: EntityType) => void;
@@ -76,9 +79,15 @@ export const useGameStore = create<GameState>()(
       totalAnswers: 0,
       bestSurvivalStreak: 0,
       dailyStreak: 0,
+      playStreak: 0,
+      lastPlayedDate: null,
 
       recordGame: (record) =>
         set((s) => ({
+          // Série de jours de jeu : même règle calendaire que le Défi
+          // (calculateNewStreak, synchronisé), appliquée à toute partie.
+          playStreak: calculateNewStreak(s.playStreak, s.lastPlayedDate),
+          lastPlayedDate: formatDateKey(new Date()),
           xp: s.xp + record.xpEarned,
           gamesPlayed: s.gamesPlayed + 1,
           history: [record, ...s.history].slice(0, HISTORY_LIMIT),
@@ -132,23 +141,27 @@ export const useGameStore = create<GameState>()(
           totalAnswers: 0,
           bestSurvivalStreak: 0,
           dailyStreak: 0,
+          playStreak: 0,
+          lastPlayedDate: null,
         }),
     }),
     {
       name: "sapiro-web-game",
-      version: 2,
+      version: 3,
       // Les états persistés en v1 n'ont pas les statistiques : on les crée à
       // zéro plutôt que de laisser `undefined` se propager dans les calculs.
-      migrate: (persisted, version) =>
-        version >= 2
-          ? (persisted as GameState)
-          : {
-              ...(persisted as GameState),
-              correctAnswers: 0,
-              totalAnswers: 0,
-              bestSurvivalStreak: 0,
-              dailyStreak: 0,
-            },
+      migrate: (persisted, version) => {
+        const state = persisted as GameState;
+        if (version >= 3) return state;
+        return {
+          ...state,
+          ...(version < 2
+            ? { correctAnswers: 0, totalAnswers: 0, bestSurvivalStreak: 0, dailyStreak: 0 }
+            : {}),
+          playStreak: 0,
+          lastPlayedDate: null,
+        };
+      },
     },
   ),
 );
@@ -172,4 +185,17 @@ export function levelFromXp(xp: number): number {
 export function xpToNextLevel(xp: number): number | null {
   const next = LEVEL_THRESHOLDS.find((threshold) => xp < threshold);
   return next === undefined ? null : next - xp;
+}
+
+/**
+ * Part du niveau courant déjà parcourue, en % (0-100). LA formule unique des
+ * barres d'XP : les paliers sont non linéaires (100 → 4000 XP), toute
+ * arithmétique locale du style `xp % 100` est fausse dès le niveau 2.
+ */
+export function levelProgress(xp: number): number {
+  const level = levelFromXp(xp);
+  if (level >= LEVEL_THRESHOLDS.length) return 100;
+  const floor = LEVEL_THRESHOLDS[level - 1];
+  const ceil = LEVEL_THRESHOLDS[level];
+  return Math.max(0, Math.min(100, Math.round(((xp - floor) / (ceil - floor)) * 100)));
 }

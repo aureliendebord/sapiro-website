@@ -45,28 +45,33 @@ export function getMuted(): boolean {
   return isMuted();
 }
 
-/**
- * Crée les lecteurs au premier geste de l'utilisateur. Appelé par `play()`,
- * donc toujours dans le contexte d'un clic ou d'une touche : le navigateur
- * autorise la lecture à partir de là.
- */
-function unlock(): void {
-  if (unlocked) return;
-  unlocked = true;
-  for (const [name, src] of Object.entries(FILES) as [SoundName, string][]) {
-    const audio = new Audio(src);
+/** Crée le lecteur d'UN son, à la demande — pas de rafale de 5 téléchargements. */
+function player(name: SoundName): HTMLAudioElement {
+  let audio = players.get(name);
+  if (!audio) {
+    audio = new Audio(FILES[name]);
     audio.preload = "auto";
     audio.volume = 0.55;
     players.set(name, audio);
   }
+  return audio;
+}
+
+/**
+ * Amorce les sons d'une partie PENDANT un geste utilisateur (le clic sur la
+ * carte de mode) : sans ça, le premier « correct » partait en téléchargement
+ * au moment où il devait sonner. victory/level_up attendront la fin de partie.
+ */
+export function warmGameSounds(): void {
+  if (unlocked || isMuted()) return;
+  unlocked = true;
+  for (const name of ["correct", "incorrect", "tap"] as SoundName[]) player(name);
 }
 
 export function play(name: SoundName): void {
   if (isMuted()) return;
-  unlock();
 
-  const audio = players.get(name);
-  if (!audio) return;
+  const audio = player(name);
   try {
     audio.currentTime = 0;
     // Le navigateur peut refuser (onglet en arrière-plan, geste trop ancien) :
