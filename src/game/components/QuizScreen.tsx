@@ -12,6 +12,8 @@ import {
 } from "@game/lib/quizSession";
 import { accentVars } from "@game/design/tokens";
 import { t } from "@game/lib/i18n";
+import { Icon } from "./ui/Icon";
+import { Glyph } from "./ui/Glyph";
 
 /** Délai d'affichage du feedback avant la question suivante (ms). */
 const FEEDBACK_MS = 900;
@@ -93,7 +95,7 @@ export function QuizScreen({ config, onFinish, onQuit }: Props) {
           onClick={() => onQuit(answeredCount)}
           aria-label={t("web.quiz.quit")}
         >
-          ←
+          <Glyph name="back" size={22} />
         </button>
 
         {progress !== null ? (
@@ -118,7 +120,9 @@ export function QuizScreen({ config, onFinish, onQuit }: Props) {
             className="quiz-lives"
             aria-label={t("web.quiz.livesLeft", { count: session.lives })}
           >
-            {"❤️".repeat(Math.max(0, session.lives))}
+            {Array.from({ length: Math.max(0, session.lives) }, (_, i) => (
+              <Icon key={i} emoji="❤️" size={20} />
+            ))}
           </span>
         ) : (
           <span className="game-pill">
@@ -171,7 +175,7 @@ function optionState(option: string, correct: string, picked: string | null): st
 function EntityFallback({ entity }: { entity: AnyFlagEntity }) {
   return (
     <div className="game-empty" aria-hidden="true">
-      <span style={{ fontSize: 64 }}>{entity.type === "figure" ? "👤" : "🗺️"}</span>
+      <Icon emoji={entity.type === "figure" ? "👤" : "🗺️"} size={64} />
     </div>
   );
 }

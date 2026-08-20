@@ -2,6 +2,8 @@ import { useMemo } from "react";
 import { JOURNEY_CATALOG, type JourneyDefinition } from "@/domain/journeys/catalog";
 import { themeColor } from "@game/design/tokens";
 import { t } from "@game/lib/i18n";
+import { Icon } from "./ui/Icon";
+import { Glyph } from "./ui/Glyph";
 
 /**
  * Le catalogue web reprend le gating par catégorie de l'app
@@ -56,7 +58,7 @@ export function JourneysScreen({ isPremium, catalogOpen, onPick, onLocked, onBac
           onClick={onBack}
           aria-label={t("web.journeys.back")}
         >
-          ←
+          <Glyph name="back" size={22} />
         </button>
         <strong style={{ fontSize: 17 }}>{t("web.journeys.title")}</strong>
         <span style={{ width: 38 }} />
@@ -78,7 +80,10 @@ export function JourneysScreen({ isPremium, catalogOpen, onPick, onLocked, onBac
                     style={{ "--accent": colors.primary } as React.CSSProperties}
                     onClick={() => (unlocked ? onPick(journey) : onLocked(journey))}
                   >
-                    <span className="journey-card__icon">{unlocked ? journey.icon : "🔒"}</span>
+                    <span className="journey-card__icon">
+                      <Icon emoji={journey.icon} size={40} />
+                      {!unlocked && <Glyph name="lock" size={16} className="journey-card__lock" />}
+                    </span>
                     <span className="journey-card__title">{journey.title}</span>
                     <span className="journey-card__meta">
                       {t("web.journeys.elements", { count: journey.entityCount })}

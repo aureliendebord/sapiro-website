@@ -1,6 +1,7 @@
 import type { SessionResult } from "@game/lib/quizSession";
 import { accentVars } from "@game/design/tokens";
 import { t } from "@game/lib/i18n";
+import { Icon } from "./ui/Icon";
 
 interface Props {
   result: SessionResult;
@@ -29,7 +30,7 @@ export function ResultScreen({
   return (
     <div style={{ ...accentVars(result.mode), display: "contents" } as React.CSSProperties}>
       <div className="result-screen">
-        <span style={{ fontSize: 56 }}>{medalFor(ratio)}</span>
+        <Icon emoji={medalFor(ratio)} size={72} eager style={{ margin: "0 auto" }} />
 
         <p className="result-score">
           {result.score}/{result.totalQuestions}

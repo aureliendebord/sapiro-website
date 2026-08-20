@@ -1,0 +1,265 @@
+/**
+ * Coquille du jeu web : la page, la grille desktop, le plateau.
+ *
+ * Remplace le « cadre mobile centré » de la V1 (max-width 460px + ombre), qui
+ * traitait le desktop comme un téléphone posé au milieu de l'écran. Ici le jeu
+ * occupe la largeur du site (1200px, mêmes gouttières que `.container`) et
+ * répartit ses éléments en trois colonnes à partir de 1024px.
+ *
+ * Mobile-first, avec les mêmes valeurs de rupture que le site (768 / 1024).
+ */
+
+/**
+ * `.game-main` est le PARENT de `.sapiro-game` : les tokens déclarés sur le jeu
+ * ne remontent pas jusqu'à lui. Ces trois-là vivent donc à la racine — cette
+ * feuille n'est chargée que sur les pages de jeu, aucun risque de fuite.
+ */
+:root {
+  --header-h: 72px; /* hauteur de .header-content du site */
+  --game-canvas: #fbf4eb;
+}
+
+.game-main {
+  /* Le header du site est fixed : chaque page paie son offset (convention du repo). */
+  padding-top: var(--header-h);
+  background: linear-gradient(180deg, #fff 0, var(--game-canvas) 160px);
+  min-height: 100dvh;
+}
+
+.game-shell {
+  max-width: var(--game-max);
+  margin: 0 auto;
+  padding: 24px var(--game-gutter) 64px;
+  display: grid;
+  gap: 20px;
+  grid-template-areas:
+    "rail"
+    "board"
+    "aside";
+}
+
+.game-rail {
+  grid-area: rail;
+}
+
+/**
+ * Le plateau reste un conteneur flex vertical : les écrans (quiz, résultat)
+ * comptent dessus pour se centrer, comme ils le faisaient dans l'ancien cadre.
+ * La hauteur minimale évite que le pied de page remonte sur un écran court.
+ */
+.game-board {
+  grid-area: board;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 520px;
+}
+
+@media (min-width: 1024px) {
+  .game-board {
+    min-height: 620px;
+  }
+}
+
+.game-aside {
+  grid-area: aside;
+}
+
+@media (min-width: 768px) {
+  .game-shell {
+    grid-template-columns: minmax(0, 1fr) var(--aside-w);
+    grid-template-areas:
+      "rail rail"
+      "board aside";
+    gap: 24px;
+    padding-top: 32px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .game-shell {
+    grid-template-columns: var(--rail-w) minmax(0, 1fr) var(--aside-w);
+    grid-template-areas: "rail board aside";
+    align-items: start;
+    padding-top: 40px;
+  }
+
+  /* Les colonnes latérales suivent le scroll : le plateau reste le sujet. */
+  .game-rail,
+  .game-aside {
+    position: sticky;
+    top: calc(var(--header-h) + 24px);
+  }
+}
+
+/* Pendant une question, rien ne doit distraire : le plateau prend tout. */
+.game-shell--focus {
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-areas: "board";
+  max-width: 900px;
+}
+
+.game-shell--focus .game-rail,
+.game-shell--focus .game-aside {
+  display: none;
+}
+
+/* ---------- Rail : identité et navigation du jeu ---------- */
+
+.game-rail__card {
+  background: var(--surface);
+  border: 2px solid var(--rule-light);
+  border-radius: 22px;
+  padding: 18px;
+}
+
+.game-rail__identity {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.game-rail__level {
+  font-weight: 800;
+  font-size: 15px;
+}
+
+.game-rail__xp {
+  color: var(--ink-faint);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.game-rail__bar {
+  height: 6px;
+  border-radius: 999px;
+  background: var(--rule-light);
+  overflow: hidden;
+  margin-top: 6px;
+}
+
+.game-rail__bar span {
+  display: block;
+  height: 100%;
+  border-radius: 999px;
+  background: var(--accent);
+}
+
+.game-rail__nav {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.game-rail__nav::-webkit-scrollbar {
+  display: none;
+}
+
+.game-nav-item {
+  font: inherit;
+  font-weight: 700;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  border-radius: 14px;
+  border: none;
+  background: transparent;
+  color: var(--ink-mid);
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 140ms ease, color 140ms ease;
+}
+
+.game-nav-item:hover {
+  background: var(--canvas-dim);
+  color: var(--ink);
+}
+
+.game-nav-item[aria-current="page"] {
+  background: var(--accent-tint);
+  color: var(--accent-deep);
+}
+
+@media (min-width: 1024px) {
+  .game-rail__nav {
+    flex-direction: column;
+    overflow: visible;
+  }
+}
+
+/* ---------- Panneau latéral contextuel ---------- */
+
+.game-aside__card {
+  background: var(--surface);
+  border: 2px solid var(--rule-light);
+  border-radius: 22px;
+  padding: 18px;
+}
+
+.game-aside__card + .game-aside__card {
+  margin-top: 16px;
+}
+
+.game-aside__title {
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: var(--ink-faint);
+  margin: 0 0 12px;
+}
+
+.game-stat-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 7px 0;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.game-stat-row + .game-stat-row {
+  border-top: 1px solid var(--rule-light);
+}
+
+.game-stat-row__value {
+  font-weight: 800;
+  color: var(--ink);
+}
+
+.game-kbd {
+  display: inline-block;
+  min-width: 22px;
+  padding: 2px 6px;
+  border-radius: 6px;
+  border: 1px solid var(--rule);
+  border-bottom-width: 2px;
+  background: var(--canvas);
+  font-size: 12px;
+  font-weight: 800;
+  text-align: center;
+}
+
+/* ---------- Bloc SEO rendu au build (sous le jeu) ---------- */
+
+.game-seo {
+  max-width: var(--game-max);
+  margin: 0 auto;
+  padding: 8px var(--game-gutter) 72px;
+  color: var(--ink-mid);
+}
+
+.game-noscript {
+  max-width: 640px;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 18px;
+  background: var(--accent-tint);
+  color: var(--accent-deep);
+  font-weight: 700;
+  text-align: center;
+}

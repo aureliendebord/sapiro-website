@@ -22,6 +22,8 @@ import fs from 'node:fs';
 import path from 'node:path';
 import os from 'node:os';
 import crypto from 'node:crypto';
+import { pathToFileURL } from 'node:url';
+import { execFileSync } from 'node:child_process';
 
 const CHECK_ONLY = process.argv.includes('--check');
 
@@ -60,6 +62,35 @@ const LOCALE_FILES = [
 /** Drapeaux SVG : import statique dans l'app, fichiers servis en web. */
 const FLAG_DIRS = ['countries', 'empires', 'organizations', 'regions-fr'];
 
+/**
+ * Icônes illustrées : toute la DA de l'app en dépend (modes, thèmes, parcours,
+ * badges, ligues). Servies en fichiers statiques depuis `public/`, jamais
+ * bundlées — 123 fichiers, ~1,6 Mo. `_raw/` (sources PNG, 75 Mo) est ignoré.
+ */
+const ICONS_SRC = path.join(APP, 'assets/images/icons');
+const ICONS_OUT = path.join(SITE, 'public/images/icons');
+
+/**
+ * Images hors du dossier icons/ : [chemin app, chemin sous public/, largeur max].
+ * La mascotte est l'icône d'app en 1024² (1,1 Mo) pour un rendu à 84 px :
+ * on la réduit, sinon chaque visiteur télécharge 1 Mo pour un pingouin.
+ */
+const EXTRA_IMAGES = [
+  ['assets/images/paywall-hero.webp', 'images/game/paywall-hero.webp', null],
+  ['assets/images/icon.png', 'images/game/penguin.png', 256],
+];
+
+/** Avatars du profil (43 fichiers, ~450 Ko). */
+const AVATARS_SRC = path.join(APP, 'assets/images/avatars');
+const AVATARS_OUT = path.join(SITE, 'public/images/avatars');
+
+/** Sons du jeu (6 fichiers, ~220 Ko). */
+const SOUNDS_SRC = path.join(APP, 'assets/sounds');
+const SOUNDS_OUT = path.join(SITE, 'public/sounds');
+
+/** Modules générés (table emoji→icône, index des drapeaux). */
+const DESIGN_OUT = path.join(SITE, 'src/game/design');
+
 const written = [];
 const drift = [];
 
@@ -67,9 +98,11 @@ function ensureDir(dir) {
   if (!CHECK_ONLY) fs.mkdirSync(dir, { recursive: true });
 }
 
+/** Écrit un fichier texte OU binaire (icônes) en surveillant la dérive. */
 function writeOut(dest, content) {
+  const buf = Buffer.isBuffer(content) ? content : Buffer.from(content, 'utf8');
   const rel = path.relative(SITE, dest);
-  if (fs.existsSync(dest) && fs.readFileSync(dest, 'utf8') === content) {
+  if (fs.existsSync(dest) && fs.readFileSync(dest).equals(buf)) {
     written.push(rel);
     return;
   }
@@ -78,8 +111,19 @@ function writeOut(dest, content) {
     return;
   }
   ensureDir(path.dirname(dest));
-  fs.writeFileSync(dest, content);
+  fs.writeFileSync(dest, buf);
   written.push(rel);
+}
+
+/** Un asset supprimé côté app ne doit pas survivre côté site. */
+function pruneStale(dir, keep, ext) {
+  if (!fs.existsSync(dir)) return;
+  for (const file of fs.readdirSync(dir)) {
+    if (!file.endsWith(ext) || keep.has(file)) continue;
+    const full = path.join(dir, file);
+    if (CHECK_ONLY) drift.push(`${path.relative(SITE, full)} (orphelin)`);
+    else fs.unlinkSync(full);
+  }
 }
 
 /** Copie un fichier TS en préfixant l'en-tête d'avertissement. */
@@ -128,14 +172,115 @@ function syncLocales() {
 }
 
 function syncFlags() {
+  const index = [];
   for (const dir of FLAG_DIRS) {
     const src = path.join(APP, 'assets/flags', dir);
     if (!fs.existsSync(src)) throw new Error(`Drapeaux introuvables : ${src}`);
     for (const file of fs.readdirSync(src)) {
       if (!file.endsWith('.svg')) continue;
       writeOut(path.join(FLAGS_OUT, dir, file), fs.readFileSync(path.join(src, file), 'utf8'));
+      index.push(`${dir}/${file.slice(0, -4)}`);
     }
   }
+
+  // Équivalent web de `hasFlag()` de l'app : savoir si un drapeau existe AVANT
+  // de tenter de l'afficher (le composant Icon retombe sur l'emoji sinon).
+  writeOut(
+    path.join(DESIGN_OUT, 'flags.generated.ts'),
+    HEADER +
+      `\n/** Drapeaux disponibles dans public/flags/ (chemin sans extension). */\n` +
+      `export const FLAG_FILES: ReadonlySet<string> = new Set([\n` +
+      index.sort().map((p) => `  ${JSON.stringify(p)},`).join('\n') +
+      `\n]);\n`,
+  );
+}
+
+/**
+ * Réduit une image à `maxWidth` via `sips` (natif macOS). Ce script ne tourne
+ * que sur une machine qui a le repo de l'app en local, donc la dépendance est
+ * sans conséquence pour la CI. Sans `sips`, on copie l'original plutôt que
+ * d'échouer — mieux vaut une image lourde qu'une synchro cassée.
+ */
+function resized(src, maxWidth) {
+  const tmp = path.join(os.tmpdir(), `sapiro-sync-${path.basename(src)}`);
+  try {
+    execFileSync('sips', ['-Z', String(maxWidth), src, '--out', tmp], { stdio: 'ignore' });
+    const buf = fs.readFileSync(tmp);
+    fs.unlinkSync(tmp);
+    return buf;
+  } catch {
+    console.warn(`  ! redimensionnement impossible (${path.basename(src)}), copie de l'original`);
+    return fs.readFileSync(src);
+  }
+}
+
+/** Illustrations, images de jeu, avatars et sons — servis depuis public/. */
+function syncAssets() {
+  if (!fs.existsSync(ICONS_SRC)) throw new Error(`Icônes introuvables : ${ICONS_SRC}`);
+
+  const icons = fs.readdirSync(ICONS_SRC).filter((f) => f.endsWith('.webp'));
+  for (const file of icons) {
+    writeOut(path.join(ICONS_OUT, file), fs.readFileSync(path.join(ICONS_SRC, file)));
+  }
+  pruneStale(ICONS_OUT, new Set(icons), '.webp');
+
+  for (const [from, to, maxWidth] of EXTRA_IMAGES) {
+    const src = path.join(APP, from);
+    if (!fs.existsSync(src)) throw new Error(`Image introuvable : ${src}`);
+    writeOut(path.join(SITE, 'public', to), maxWidth ? resized(src, maxWidth) : fs.readFileSync(src));
+  }
+
+  for (const [src, out, ext] of [
+    [AVATARS_SRC, AVATARS_OUT, '.webp'],
+    [SOUNDS_SRC, SOUNDS_OUT, '.mp3'],
+  ]) {
+    if (!fs.existsSync(src)) continue;
+    const files = fs.readdirSync(src).filter((f) => f.endsWith(ext));
+    for (const file of files) {
+      writeOut(path.join(out, file), fs.readFileSync(path.join(src, file)));
+    }
+    pruneStale(out, new Set(files), ext);
+  }
+
+  return new Set(icons.map((f) => f.slice(0, -5)));
+}
+
+/**
+ * Table emoji → slug d'icône, générée depuis LA source de vérité de l'app
+ * (`scripts/icons.manifest.mjs`, le même fichier qui génère `constants/icons.ts`).
+ *
+ * On ne porte pas `constants/icons.ts` : il contient des `require()` Metro,
+ * inexploitables côté web. Le manifeste, lui, est du JS ESM pur.
+ */
+async function syncIconMap(availableSlugs) {
+  const manifestPath = path.join(APP, 'scripts/icons.manifest.mjs');
+  let ICON_MANIFEST;
+  try {
+    ({ ICON_MANIFEST } = await import(pathToFileURL(manifestPath).href));
+  } catch (err) {
+    throw new Error(
+      `Le manifeste d'icônes de l'app n'est plus importable depuis Node ` +
+        `(${manifestPath}) : ${err.message}`,
+    );
+  }
+
+  const entries = ICON_MANIFEST.flatMap((entry) =>
+    (Array.isArray(entry.emoji) ? entry.emoji : [entry.emoji]).map((emoji) => [emoji, entry.slug]),
+  )
+    // Un slug sans fichier .webp ferait un visuel manquant : on le laisse
+    // retomber sur l'emoji natif plutôt que de casser l'affichage.
+    .filter(([, slug]) => availableSlugs.has(slug))
+    // Tri : sans lui, un réordonnancement amont ferait clignoter `--check`.
+    .sort(([a], [b]) => (a < b ? -1 : a > b ? 1 : 0));
+
+  writeOut(
+    path.join(DESIGN_OUT, 'icons.generated.ts'),
+    HEADER +
+      `\n/** Emoji → slug. Fichier servi depuis /images/icons/<slug>.webp. */\n` +
+      `export const EMOJI_TO_ICON: Record<string, string> = {\n` +
+      entries.map(([e, s]) => `  ${JSON.stringify(e)}: ${JSON.stringify(s)},`).join('\n') +
+      `\n};\n`,
+  );
 }
 
 /** Génère les adaptateurs web depuis `scripts/templates/`. */
@@ -170,6 +315,7 @@ try {
   syncLocales();
   syncFlags();
   syncTemplates();
+  await syncIconMap(syncAssets());
 
   if (CHECK_ONLY && drift.length) {
     console.error(`✗ Le cœur de jeu a dérivé (${drift.length} fichier(s)) :`);

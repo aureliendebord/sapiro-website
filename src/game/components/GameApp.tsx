@@ -13,6 +13,8 @@ import { useTicketStore, useTicketBalance } from "@game/store/ticketStore";
 import { useGameStore } from "@game/store/gameStore";
 import { recordGameResult, flushPendingResults } from "@game/lib/gameResults";
 import type { SessionConfig, SessionResult } from "@game/lib/quizSession";
+import { GameRail } from "./GameRail";
+import { GameAside } from "./GameAside";
 import { AccountModal } from "./AccountModal";
 import { ResetPasswordModal } from "./ResetPasswordModal";
 import { completePendingMerge, ensureSession, isSignedIn, onAuthChange } from "@game/lib/auth";
@@ -59,6 +61,7 @@ export default function GameApp({ lang }: Props) {
   const catalogOpen = useTicketStore((s) => s.isCatalogOpen());
 
   const xp = useGameStore((s) => s.xp);
+  const gamesPlayed = useGameStore((s) => s.gamesPlayed);
   const review = useGameStore((s) => s.review);
   const lastDailyKey = useGameStore((s) => s.lastDailyKey);
   const recordGame = useGameStore((s) => s.recordGame);
@@ -275,15 +278,11 @@ export default function GameApp({ lang }: Props) {
       case "home":
         return (
           <HomeScreen
-            xp={xp}
             ticketsLeft={tickets}
             isPremium={isPremium}
-            isSignedIn={signedIn}
             reviewCount={review.length}
             dailyDone={dailyDone}
             onAction={handleAction}
-            onAccount={() => setAccountOpen(true)}
-            onSubscribe={() => openPaywall("home_pill")}
           />
         );
 
@@ -342,9 +341,38 @@ export default function GameApp({ lang }: Props) {
     openPaywall,
   ]);
 
+  // Pendant une question, les colonnes latérales s'effacent : le plateau seul.
+  const focusMode = screen.name === "quiz";
+
   return (
     <div className="sapiro-game">
-      <div className="game-frame">{body}</div>
+      <div className={`game-shell ${focusMode ? "game-shell--focus" : ""}`}>
+        {!focusMode && (
+          <aside className="game-rail">
+            <GameRail
+              xp={xp}
+              ticketsLeft={tickets}
+              isPremium={isPremium}
+              user={user}
+              current={screen.name === "journeys" ? "journeys" : "home"}
+              onNavigate={(section) =>
+                setScreen(section === "journeys" ? { name: "journeys" } : { name: "home" })
+              }
+              onAccount={() => setAccountOpen(true)}
+              onSubscribe={() => openPaywall("rail")}
+            />
+          </aside>
+        )}
+
+        <div className="game-board">{body}</div>
+
+        {!focusMode && (
+          <aside className="game-aside">
+            <GameAside screen={screen.name} gamesPlayed={gamesPlayed} reviewCount={review.length} />
+          </aside>
+        )}
+      </div>
+
       {accountOpen && <AccountModal user={user} onClose={() => setAccountOpen(false)} />}
       {resetOpen && <ResetPasswordModal onClose={() => setResetOpen(false)} />}
       {paywallSource !== null && (
