@@ -107,6 +107,17 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
       home: "Retour à l'accueil",
     },
     journeys: { title: "Parcours", back: "Retour", elements: "{{count}} éléments" },
+    path: {
+      cleared: "{{done}}/{{total}}",
+      questions: "{{count}} questions",
+      status: {
+        done: "réussi",
+        current: "à jouer maintenant",
+        open: "disponible",
+        closed: "à débloquer",
+        locked: "verrouillé",
+      },
+    },
     account: {
       close: "Fermer",
       title: "Mon compte",
@@ -237,6 +248,17 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
       home: "Back to home",
     },
     journeys: { title: "Journeys", back: "Back", elements: "{{count}} items" },
+    path: {
+      cleared: "{{done}}/{{total}}",
+      questions: "{{count}} questions",
+      status: {
+        done: "cleared",
+        current: "play now",
+        open: "available",
+        closed: "to unlock",
+        locked: "locked",
+      },
+    },
     account: {
       close: "Close",
       title: "My account",
@@ -367,6 +389,17 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
       home: "Volver al inicio",
     },
     journeys: { title: "Recorridos", back: "Atrás", elements: "{{count}} elementos" },
+    path: {
+      cleared: "{{done}}/{{total}}",
+      questions: "{{count}} preguntas",
+      status: {
+        done: "superado",
+        current: "jugar ahora",
+        open: "disponible",
+        closed: "por desbloquear",
+        locked: "bloqueado",
+      },
+    },
     account: {
       close: "Cerrar",
       title: "Mi cuenta",

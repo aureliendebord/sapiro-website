@@ -24,6 +24,7 @@ import {
   getFullPool,
 } from "@/domain/quiz/entityPool";
 import { buildReviewQuestions } from "@/domain/quiz/reviewQuestions";
+import { buildMixedQuestions } from "@/domain/quiz/mixedQuestions";
 import { calculateXP, type XPBreakdown } from "@/domain/quiz/scoring";
 import {
   CLASSIC_QUESTION_COUNT,
@@ -32,6 +33,7 @@ import {
   SURVIVAL_LIVES,
 } from "@/domain/quiz/constants";
 import { getJourneyById } from "@/domain/journeys/catalog";
+import { MIXED_QUESTIONS } from "@/domain/journeys/path";
 import { getDailySeed, getDailyTheme } from "@/utils/dailyChallenge";
 
 export type QuizMode = "classic" | "survival" | "daily" | "review";
@@ -43,6 +45,12 @@ export interface SessionConfig {
   language: string;
   /** Pool imposé (mode révision : les entités ratées). */
   pool?: AnyFlagEntity[];
+  /** Bloc du sentier Aventure joué, si c'en est un. */
+  pathBlockId?: string;
+  /** Nombre de questions imposé (10 pour un bloc, 20 pour le mixte). */
+  questionCount?: number;
+  /** Bloc mixte de clôture : questions tirées des 5 univers. */
+  mixed?: boolean;
 }
 
 export interface SessionState {
@@ -132,6 +140,10 @@ export function startSession(config: SessionConfig): SessionState {
     dailyTheme = daily.theme.themeCategory;
   } else if (config.mode === "review") {
     playlist = buildReviewPlaylist(config.pool ?? [], config.language);
+  } else if (config.mixed) {
+    // Bloc mixte de clôture d'étape : questions équilibrées sur les 5 univers,
+    // via le même constructeur que l'app.
+    playlist = buildMixedQuestions(config.questionCount ?? MIXED_QUESTIONS, undefined, config.language);
   }
 
   let question: QuizQuestion | null;
@@ -150,7 +162,8 @@ export function startSession(config: SessionConfig): SessionState {
       undefined,
       config.language,
     );
-    totalQuestions = config.mode === "survival" ? null : CLASSIC_QUESTION_COUNT;
+    totalQuestions =
+      config.mode === "survival" ? null : (config.questionCount ?? CLASSIC_QUESTION_COUNT);
   }
 
   return {

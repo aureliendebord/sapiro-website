@@ -1,10 +1,12 @@
 import { Suspense, lazy, useCallback, useEffect, useMemo, useState } from "react";
 import type { AnyFlagEntity, EntityType } from "@/types";
-import type { JourneyDefinition } from "@/domain/journeys/catalog";
+import { getJourneyById } from "@/domain/journeys/catalog";
+import { isMixedBlockId, questionsFor } from "@/domain/journeys/path";
+import { usePathStore } from "@game/store/pathStore";
 import { getEntityById } from "@/domain/quiz/entityPool";
 import { getDailyTheme } from "@/utils/dailyChallenge";
 import { HomeScreen, type HomeAction } from "./HomeScreen";
-import { JourneysScreen } from "./JourneysScreen";
+import { PathScreen } from "./path/PathScreen";
 import { QuizScreen } from "./QuizScreen";
 import { ResultScreen } from "./ResultScreen";
 import { loadLanguage, t, type GameLang } from "@game/lib/i18n";
@@ -69,11 +71,14 @@ export default function GameApp({ lang }: Props) {
   const addMiss = useGameStore((s) => s.addMiss);
   const clearMiss = useGameStore((s) => s.clearMiss);
   const markDailyDone = useGameStore((s) => s.markDailyDone);
+  const recordPathResult = usePathStore((s) => s.recordResult);
 
   const [user, setUser] = useState<User | null>(null);
   const [accountOpen, setAccountOpen] = useState(false);
   const [paywallSource, setPaywallSource] = useState<string | null>(null);
   const [resetOpen, setResetOpen] = useState(false);
+  /** Message expliquant pourquoi un bloc du sentier est fermé. */
+  const [dialog, setDialog] = useState<string | null>(null);
   const [isPremium, setIsPremium] = useState(false);
 
   const signedIn = isSignedIn(user);
@@ -203,14 +208,23 @@ export default function GameApp({ lang }: Props) {
     [review, lang, startQuiz, dailyDone],
   );
 
-  const handlePickJourney = useCallback(
-    (journey: JourneyDefinition) => {
+  /**
+   * Lance un bloc du sentier. Le nombre de questions et le type d'entité
+   * viennent du cœur : un bloc thématique fait 10 questions sur sa famille,
+   * le mixte de clôture en fait 20 tirées des 5 blocs de l'étape.
+   */
+  const handlePlayBlock = useCallback(
+    (blockId: string) => {
+      const journey = getJourneyById(blockId);
       void startQuiz(
         {
           mode: "classic",
-          journeyId: journey.id,
-          entityType: journey.entityType as EntityType,
+          journeyId: blockId,
+          entityType: (journey?.entityType ?? "country") as EntityType,
           language: lang,
+          pathBlockId: blockId,
+          questionCount: questionsFor(blockId),
+          mixed: isMixedBlockId(blockId),
         },
         true,
       );
@@ -246,6 +260,14 @@ export default function GameApp({ lang }: Props) {
         earnDailyBonus();
       }
 
+      if (config.pathBlockId) {
+        recordPathResult({
+          blockId: config.pathBlockId,
+          score: result.score,
+          total: result.totalQuestions,
+        });
+      }
+
       capture("game_finished", {
         mode: result.mode,
         journey: result.journeyId ?? "",
@@ -256,7 +278,7 @@ export default function GameApp({ lang }: Props) {
       void recordGameResult(result);
       setScreen({ name: "result", result, config });
     },
-    [recordGame, addMiss, clearMiss, review, markDailyDone, earnDailyBonus],
+    [recordGame, addMiss, clearMiss, review, markDailyDone, earnDailyBonus, recordPathResult],
   );
 
   /** Quitter sans avoir répondu ne doit rien coûter (comme sur mobile). */
@@ -289,12 +311,10 @@ export default function GameApp({ lang }: Props) {
 
       case "journeys":
         return (
-          <JourneysScreen
+          <PathScreen
             isPremium={isPremium}
-            catalogOpen={catalogOpen}
-            onPick={handlePickJourney}
-            onLocked={() => openPaywall("locked_journey")}
-            onBack={() => setScreen({ name: "home" })}
+            onPlay={handlePlayBlock}
+            onLocked={(_, reason) => setDialog(reason)}
           />
         );
 
@@ -337,7 +357,7 @@ export default function GameApp({ lang }: Props) {
     catalogOpen,
     dailyStreak,
     handleAction,
-    handlePickJourney,
+    handlePlayBlock,
     handleFinish,
     handleQuit,
     startQuiz,
@@ -375,6 +395,24 @@ export default function GameApp({ lang }: Props) {
           </aside>
         )}
       </div>
+
+      {dialog && (
+        <div className="game-modal" role="dialog" aria-modal="true">
+          <div className="game-modal__panel" style={{ textAlign: "center" }}>
+            <p className="game-modal__sub" style={{ marginBottom: 18 }}>
+              {dialog}
+            </p>
+            <button
+              type="button"
+              className="game-btn game-btn--block"
+              onClick={() => setDialog(null)}
+              autoFocus
+            >
+              {t("web.account.close")}
+            </button>
+          </div>
+        </div>
+      )}
 
       {accountOpen && <AccountModal user={user} onClose={() => setAccountOpen(false)} />}
       {resetOpen && <ResetPasswordModal onClose={() => setResetOpen(false)} />}
