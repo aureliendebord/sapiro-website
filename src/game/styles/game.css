@@ -130,10 +130,22 @@
   cursor: not-allowed;
 }
 
+/**
+ * Action secondaire. Le fond reste transparent (le bouton sert aussi bien sur
+ * le crème du jeu que sur le blanc des modales), mais la bordure et le texte
+ * sont assez contrastés pour qu'on le lise comme un bouton : en `--rule-light`
+ * sur fond crème, il devenait un rectangle fantôme.
+ */
 .game-btn--ghost {
   background: transparent;
-  color: var(--ink-mid);
-  border: 2px solid var(--rule-light);
+  color: var(--ink);
+  border: 2px solid var(--rule);
+}
+
+.game-btn--ghost:hover:not(:disabled) {
+  filter: none;
+  background: var(--canvas-dim);
+  border-color: var(--ink-faint);
 }
 
 .game-btn--block {
@@ -294,11 +306,14 @@
   margin-bottom: 24px;
 }
 
+/* Bornées : sur un plateau large, des boutons pleine largeur s'étirent sur
+   plusieurs centaines de pixels et ne ressemblent plus à des boutons. */
 .result-actions {
   display: grid;
   gap: 10px;
   width: 100%;
-  margin-top: 16px;
+  max-width: 340px;
+  margin: 16px auto 0;
 }
 
 /* ---------- Parcours ---------- */
