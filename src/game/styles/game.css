@@ -40,11 +40,8 @@
 }
 
 .sapiro-game {
-  --game-max: 1200px; /* = --max-width du site */
-  --game-gutter: 24px; /* = padding de .container */
-  --header-h: 72px; /* = hauteur de .header-content */
-  --rail-w: 260px;
-  --aside-w: 300px;
+  /* Les tokens de mise en page (largeur, gouttières, colonnes) vivent dans
+     shell.css, à la racine : le bloc SEO en a besoin aussi. */
   --canvas: #fbf4eb;
   --canvas-dim: #f3eadaff;
   --surface: #ffffff;

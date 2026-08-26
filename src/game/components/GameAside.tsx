@@ -5,7 +5,6 @@ interface Props {
   /** Écran affiché au centre — le panneau s'y adapte. */
   screen: "home" | "journeys" | "board" | "profile" | "quiz" | "result";
   gamesPlayed: number;
-  reviewCount: number;
 }
 
 /**
@@ -16,7 +15,7 @@ interface Props {
  * progression sur l'accueil, les raccourcis clavier pendant une partie — des
  * raccourcis implémentés depuis la V1 mais que rien n'annonçait.
  */
-export function GameAside({ screen, gamesPlayed, reviewCount }: Props) {
+export function GameAside({ screen, gamesPlayed }: Props) {
   if (screen === "quiz") {
     return (
       <div className="game-aside__card">
@@ -47,13 +46,6 @@ export function GameAside({ screen, gamesPlayed, reviewCount }: Props) {
           {t("web.home.statGames")}
         </span>
         <span className="game-stat-row__value">{gamesPlayed}</span>
-      </div>
-      <div className="game-stat-row">
-        <span>
-          <Icon emoji="🎓" size={18} style={{ display: "inline-block", verticalAlign: "-3px", marginRight: 6 }} />
-          {t("web.home.statReview")}
-        </span>
-        <span className="game-stat-row__value">{reviewCount}</span>
       </div>
     </div>
   );

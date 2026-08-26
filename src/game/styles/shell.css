@@ -17,6 +17,13 @@
 :root {
   --header-h: 72px; /* hauteur de .header-content du site */
   --game-canvas: #fbf4eb;
+  /* Largeur et gouttières : partagées par le jeu ET le bloc SEO qui le suit.
+     Déclarées sur `.sapiro-game`, le bloc SEO n'en héritait pas et s'affichait
+     pleine largeur, collé aux bords. */
+  --game-max: 1200px; /* = --max-width du site */
+  --game-gutter: 24px; /* = padding de .container */
+  --rail-w: 260px;
+  --aside-w: 300px;
 }
 
 .game-main {
@@ -26,12 +33,23 @@
   min-height: 100dvh;
 }
 
+/* Le jeu est monté côté client : sans hauteur réservée, la page s'affiche
+   d'abord avec le seul bloc SEO en haut, puis le jeu apparaît et le pousse
+   vers le bas — un saut de mise en page à chaque chargement. */
+.game-mount {
+  min-height: 660px;
+}
+
 .game-shell {
   max-width: var(--game-max);
   margin: 0 auto;
   padding: 24px var(--game-gutter) 64px;
   display: grid;
   gap: 20px;
+  /* `minmax(0, 1fr)` et pas `auto` : une colonne auto se dimensionne sur le
+     max-content de son contenu (la barre de navigation du jeu, en nowrap) et
+     déborde de la page au lieu de la laisser défiler. */
+  grid-template-columns: minmax(0, 1fr);
   grid-template-areas:
     "rail"
     "board"

@@ -413,7 +413,7 @@ export default function GameApp({ lang }: Props) {
 
         {!focusMode && (
           <aside className="game-aside">
-            <GameAside screen={screen.name} gamesPlayed={gamesPlayed} reviewCount={review.length} />
+            <GameAside screen={screen.name} gamesPlayed={gamesPlayed} />
           </aside>
         )}
       </div>
