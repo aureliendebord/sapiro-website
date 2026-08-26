@@ -384,38 +384,36 @@ export default function GameApp({ lang }: Props) {
     openPaywall,
   ]);
 
-  // Pendant une question, les colonnes latérales s'effacent : le plateau seul.
+  // Pendant une question, les colonnes latérales s'effacent — mais c'est le CSS
+  // qui décide, et seulement sous 1024 px : sur desktop la grille ne bouge pas,
+  // sinon lancer une partie réorganise toute la page.
   const focusMode = screen.name === "quiz";
 
   return (
     <div className="sapiro-game">
       <div className={`game-shell ${focusMode ? "game-shell--focus" : ""}`}>
-        {!focusMode && (
-          <aside className="game-rail">
-            <GameRail
-              xp={xp}
-              ticketsLeft={tickets}
-              isPremium={isPremium}
-              user={user}
-              current={
-                screen.name === "journeys" || screen.name === "board" || screen.name === "profile"
-                  ? screen.name
-                  : "home"
-              }
-              onNavigate={(section) => setScreen({ name: section } as Screen)}
-              onAccount={() => setAccountOpen(true)}
-              onSubscribe={() => openPaywall("rail")}
-            />
-          </aside>
-        )}
+        <aside className="game-rail">
+          <GameRail
+            xp={xp}
+            ticketsLeft={tickets}
+            isPremium={isPremium}
+            user={user}
+            current={
+              screen.name === "journeys" || screen.name === "board" || screen.name === "profile"
+                ? screen.name
+                : "home"
+            }
+            onNavigate={(section) => setScreen({ name: section } as Screen)}
+            onAccount={() => setAccountOpen(true)}
+            onSubscribe={() => openPaywall("rail")}
+          />
+        </aside>
 
         <div className="game-board">{body}</div>
 
-        {!focusMode && (
-          <aside className="game-aside">
-            <GameAside screen={screen.name} gamesPlayed={gamesPlayed} />
-          </aside>
-        )}
+        <aside className="game-aside">
+          <GameAside screen={screen.name} gamesPlayed={gamesPlayed} />
+        </aside>
       </div>
 
       {dialog && (

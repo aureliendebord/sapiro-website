@@ -110,16 +110,24 @@
   }
 }
 
-/* Pendant une question, rien ne doit distraire : le plateau prend tout. */
-.game-shell--focus {
-  grid-template-columns: minmax(0, 1fr);
-  grid-template-areas: "board";
-  max-width: 900px;
-}
+/**
+ * Pendant une question, les colonnes latérales s'effacent — mais SEULEMENT en
+ * dessous de 1024 px, là où elles occupent de la place verticale devant le
+ * quiz. Au-delà, la grille reste identique : lancer une partie réorganisait
+ * toute la page (plateau qui saute de sa colonne au centre, rail et panneau
+ * qui disparaissent), et ce sursaut se lisait comme un bug.
+ */
+@media (max-width: 1023.98px) {
+  .game-shell--focus {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-areas: "board";
+    max-width: 900px;
+  }
 
-.game-shell--focus .game-rail,
-.game-shell--focus .game-aside {
-  display: none;
+  .game-shell--focus .game-rail,
+  .game-shell--focus .game-aside {
+    display: none;
+  }
 }
 
 /* ---------- Rail : identité et navigation du jeu ---------- */
