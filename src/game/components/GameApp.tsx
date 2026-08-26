@@ -19,7 +19,6 @@ import { useGameStore } from "@game/store/gameStore";
 import { recordGameResult, flushPendingResults } from "@game/lib/gameResults";
 import type { SessionConfig, SessionResult } from "@game/lib/quizSession";
 import { GameRail } from "./GameRail";
-import { GameAside } from "./GameAside";
 import { AccountModal } from "./AccountModal";
 import { ResetPasswordModal } from "./ResetPasswordModal";
 import { completePendingMerge, ensureSession, onAuthChange } from "@game/lib/auth";
@@ -67,7 +66,6 @@ export default function GameApp({ lang }: Props) {
   const refreshRemoteConfig = useTicketStore((s) => s.refreshRemoteConfig);
 
   const xp = useGameStore((s) => s.xp);
-  const gamesPlayed = useGameStore((s) => s.gamesPlayed);
   const review = useGameStore((s) => s.review);
   const lastDailyKey = useGameStore((s) => s.lastDailyKey);
   const dailyStreak = useGameStore((s) => s.dailyStreak);
@@ -410,10 +408,6 @@ export default function GameApp({ lang }: Props) {
         </aside>
 
         <div className="game-board">{body}</div>
-
-        <aside className="game-aside">
-          <GameAside screen={screen.name} gamesPlayed={gamesPlayed} />
-        </aside>
       </div>
 
       {dialog && (

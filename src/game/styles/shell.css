@@ -23,7 +23,6 @@
   --game-max: 1200px; /* = --max-width du site */
   --game-gutter: 24px; /* = padding de .container */
   --rail-w: 260px;
-  --aside-w: 300px;
 }
 
 .game-main {
@@ -52,8 +51,7 @@
   grid-template-columns: minmax(0, 1fr);
   grid-template-areas:
     "rail"
-    "board"
-    "aside";
+    "board";
 }
 
 .game-rail {
@@ -79,34 +77,32 @@
   }
 }
 
-.game-aside {
-  grid-area: aside;
-}
-
+/**
+ * Deux colonnes dès 768 px : le rail à gauche, le plateau à droite. Le plateau
+ * est borné à 720 px — au-delà, quatre réponses étirées sur toute la largeur
+ * deviennent pénibles à lire — et l'ensemble est centré dans la page plutôt
+ * que collé à gauche.
+ */
 @media (min-width: 768px) {
   .game-shell {
-    grid-template-columns: minmax(0, 1fr) var(--aside-w);
-    grid-template-areas:
-      "rail rail"
-      "board aside";
+    grid-template-columns: var(--rail-w) minmax(0, 720px);
+    grid-template-areas: "rail board";
+    justify-content: center;
+    align-items: start;
     gap: 24px;
     padding-top: 32px;
+  }
+
+  /* Le rail suit le défilement : le plateau reste le sujet. */
+  .game-rail {
+    position: sticky;
+    top: calc(var(--header-h) + 24px);
   }
 }
 
 @media (min-width: 1024px) {
   .game-shell {
-    grid-template-columns: var(--rail-w) minmax(0, 1fr) var(--aside-w);
-    grid-template-areas: "rail board aside";
-    align-items: start;
     padding-top: 40px;
-  }
-
-  /* Les colonnes latérales suivent le scroll : le plateau reste le sujet. */
-  .game-rail,
-  .game-aside {
-    position: sticky;
-    top: calc(var(--header-h) + 24px);
   }
 }
 
@@ -124,8 +120,7 @@
     max-width: 900px;
   }
 
-  .game-shell--focus .game-rail,
-  .game-shell--focus .game-aside {
+  .game-shell--focus .game-rail {
     display: none;
   }
 }
@@ -217,57 +212,24 @@
   }
 }
 
-/* ---------- Panneau latéral contextuel ---------- */
-
-.game-aside__card {
-  background: var(--surface);
-  border: 2px solid var(--rule-light);
-  border-radius: 22px;
-  padding: 18px;
-}
-
-.game-aside__card + .game-aside__card {
-  margin-top: 16px;
-}
-
-.game-aside__title {
-  font-size: 12px;
-  font-weight: 800;
-  text-transform: uppercase;
-  letter-spacing: 0.8px;
-  color: var(--ink-faint);
-  margin: 0 0 12px;
-}
-
+/* Ligne libellé / valeur du rail (solde de parties). Vivait avec le panneau
+   latéral supprimé, alors que le rail s'en sert toujours. */
 .game-stat-row {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
+  gap: 12px;
   padding: 7px 0;
   font-weight: 700;
   font-size: 14px;
 }
 
-.game-stat-row + .game-stat-row {
-  border-top: 1px solid var(--rule-light);
-}
-
 .game-stat-row__value {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
   font-weight: 800;
   color: var(--ink);
-}
-
-.game-kbd {
-  display: inline-block;
-  min-width: 22px;
-  padding: 2px 6px;
-  border-radius: 6px;
-  border: 1px solid var(--rule);
-  border-bottom-width: 2px;
-  background: var(--canvas);
-  font-size: 12px;
-  font-weight: 800;
-  text-align: center;
 }
 
 /* ---------- Bloc SEO rendu au build (sous le jeu) ---------- */
