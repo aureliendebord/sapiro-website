@@ -20,48 +20,51 @@ const { lang } = Astro.props;
  */
 const copy = {
   fr: {
+    kicker: 'Jouer en ligne',
     title: 'Le quiz Sapiro, jouable directement dans ton navigateur',
     intro:
       "Aucune installation, aucun compte obligatoire : tu joues, et ta progression te suit si tu crées un compte. Le même jeu que l'application mobile, avec les mêmes questions vérifiées et les mêmes images.",
     modesTitle: 'Cinq façons de jouer',
     modes: [
-      ['Aventure', "Un sentier de 54 blocs qui traverse la géographie, l'histoire, l'art, la nature et les monuments. Chaque étape se débloque en réussissant la précédente."],
-      ['Défi du jour', "Dix questions, les mêmes pour tous les joueurs du monde ce jour-là. Il ne consomme aucune de tes parties quotidiennes."],
-      ['Partie rapide', 'Dix questions tirées au hasard pour une session courte.'],
-      ['Survie', "Trois vies, aucune limite de questions : le mode qui dit vraiment ce que tu sais."],
-      ['Révision', "Rejoue uniquement les questions que tu as ratées, jusqu'à ce qu'elles rentrent."],
+      ['Aventure', "Un sentier de 54 blocs qui traverse la géographie, l'histoire, l'art, la nature et les monuments. Chaque étape se débloque en réussissant la précédente.", 'compass'],
+      ['Défi du jour', "Dix questions, les mêmes pour tous les joueurs du monde ce jour-là. Il ne consomme aucune de tes parties quotidiennes.", 'calendar'],
+      ['Partie rapide', 'Dix questions tirées au hasard pour une session courte.', 'game-controller'],
+      ['Survie', "Trois vies, aucune limite de questions : le mode qui dit vraiment ce que tu sais.", 'heart'],
+      ['Révision', "Rejoue uniquement les questions que tu as ratées, jusqu'à ce qu'elles rentrent.", 'graduation-cap'],
     ],
     appTitle: 'Et sur mobile ?',
     appText:
       "L'application iOS et Android propose le même jeu hors connexion, avec les notifications du défi quotidien. Ton compte relie les deux : commence sur le web, continue sur ton téléphone.",
   },
   en: {
+    kicker: 'Play online',
     title: 'The Sapiro quiz, playable right in your browser',
     intro:
       'No install, no mandatory account: you play, and your progress follows you if you create one. The same game as the mobile app, with the same fact-checked questions and images.',
     modesTitle: 'Five ways to play',
     modes: [
-      ['Adventure', 'A 54-block trail across geography, history, art, nature and monuments. Each stage unlocks by clearing the previous one.'],
-      ['Daily Challenge', 'Ten questions, the same for every player in the world that day. It never uses up your daily games.'],
-      ['Quick game', 'Ten random questions for a short session.'],
-      ['Survival', 'Three lives, no question limit: the mode that really shows what you know.'],
-      ['Review', 'Replay only the questions you got wrong, until they stick.'],
+      ['Adventure', 'A 54-block trail across geography, history, art, nature and monuments. Each stage unlocks by clearing the previous one.', 'compass'],
+      ['Daily Challenge', 'Ten questions, the same for every player in the world that day. It never uses up your daily games.', 'calendar'],
+      ['Quick game', 'Ten random questions for a short session.', 'game-controller'],
+      ['Survival', 'Three lives, no question limit: the mode that really shows what you know.', 'heart'],
+      ['Review', 'Replay only the questions you got wrong, until they stick.', 'graduation-cap'],
     ],
     appTitle: 'What about mobile?',
     appText:
       'The iOS and Android app offers the same game offline, with daily challenge notifications. Your account links both: start on the web, continue on your phone.',
   },
   es: {
+    kicker: 'Jugar en línea',
     title: 'El quiz de Sapiro, jugable directamente en tu navegador',
     intro:
       'Sin instalación, sin cuenta obligatoria: juegas, y tu progreso te acompaña si creas una. El mismo juego que la app móvil, con las mismas preguntas verificadas y las mismas imágenes.',
     modesTitle: 'Cinco maneras de jugar',
     modes: [
-      ['Aventura', 'Un sendero de 54 bloques por geografía, historia, arte, naturaleza y monumentos. Cada etapa se desbloquea superando la anterior.'],
-      ['Desafío del día', 'Diez preguntas, las mismas para todos los jugadores del mundo ese día. Nunca gasta tus partidas diarias.'],
-      ['Partida rápida', 'Diez preguntas al azar para una sesión corta.'],
-      ['Supervivencia', 'Tres vidas, sin límite de preguntas: el modo que dice de verdad lo que sabes.'],
-      ['Repaso', 'Vuelve a jugar solo las preguntas que fallaste, hasta que se queden.'],
+      ['Aventura', 'Un sendero de 54 bloques por geografía, historia, arte, naturaleza y monumentos. Cada etapa se desbloquea superando la anterior.', 'compass'],
+      ['Desafío del día', 'Diez preguntas, las mismas para todos los jugadores del mundo ese día. Nunca gasta tus partidas diarias.', 'calendar'],
+      ['Partida rápida', 'Diez preguntas al azar para una sesión corta.', 'game-controller'],
+      ['Supervivencia', 'Tres vidas, sin límite de preguntas: el modo que dice de verdad lo que sabes.', 'heart'],
+      ['Repaso', 'Vuelve a jugar solo las preguntas que fallaste, hasta que se queden.', 'graduation-cap'],
     ],
     appTitle: '¿Y en el móvil?',
     appText:
@@ -73,58 +76,148 @@ const t = copy[lang];
 ---
 
 <section class="game-seo">
-  <h1>{t.title}</h1>
-  <p>{t.intro}</p>
+  <div class="container">
+    <div class="head">
+      <span class="kicker">{t.kicker}</span>
+      <h1 class="title">{t.title}</h1>
+      <p class="subtitle">{t.intro}</p>
+    </div>
 
-  <h2>{t.modesTitle}</h2>
-  <dl>
-    {t.modes.map(([name, desc]) => (
-      <>
-        <dt>{name}</dt>
-        <dd>{desc}</dd>
-      </>
-    ))}
-  </dl>
+    <div class="modes">
+      {t.modes.map(([name, desc, icon]) => (
+        <article class="mode">
+          <img src={`/images/icons/${icon}.webp`} alt="" class="mode-icon" loading="lazy" />
+          <h2>{name}</h2>
+          <p>{desc}</p>
+        </article>
+      ))}
+    </div>
 
-  <h2>{t.appTitle}</h2>
-  <p>{t.appText}</p>
+    <div class="mobile-note">
+      <img src="/images/icons/smartphone.webp" alt="" loading="lazy" />
+      <div>
+        <h2>{t.appTitle}</h2>
+        <p>{t.appText}</p>
+      </div>
+    </div>
+  </div>
 </section>
 
 <style>
-  .game-seo h1 {
-    font-size: clamp(1.3rem, 2.4vw, 1.7rem);
-    font-weight: 800;
-    letter-spacing: -0.4px;
-    color: var(--noir);
-    margin: 0 0 12px;
+  /* Fond blanc : le jeu vit sur le crème, cette section marque clairement la
+     fin de la zone jouable et reprend la grammaire des sections de la home
+     (kicker en pastille, titre large, sous-titre gris). */
+  .game-seo {
+    background: #fff;
+    padding: 88px 0 96px;
   }
 
-  .game-seo h2 {
+  .head {
+    max-width: 720px;
+    margin: 0 auto 48px;
+    text-align: center;
+  }
+
+  .kicker {
+    display: inline-block;
+    padding: 6px 14px;
+    background: rgba(255, 107, 53, 0.1);
+    color: var(--orange);
+    border-radius: 999px;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+
+  .title {
+    font-size: clamp(1.75rem, 3.6vw, 2.6rem);
+    font-weight: 800;
+    letter-spacing: -0.025em;
+    line-height: 1.15;
+    color: #0a0a0f;
+    margin: 0 0 16px;
+  }
+
+  .subtitle {
+    font-size: 1.1rem;
+    color: #6b7280;
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  .modes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+  }
+
+  .mode {
+    padding: 24px;
+    border-radius: var(--border-radius);
+    background: var(--gris-clair);
+  }
+
+  .mode-icon {
+    width: 44px;
+    height: 44px;
+    border-radius: 10px;
+    margin-bottom: 14px;
+  }
+
+  .mode h2 {
     font-size: 1.05rem;
     font-weight: 800;
     color: var(--noir);
-    margin: 28px 0 10px;
+    margin: 0 0 8px;
   }
 
-  .game-seo p {
-    max-width: 68ch;
-    line-height: 1.65;
+  .mode p {
+    font-size: 0.95rem;
+    color: var(--gris);
+    line-height: 1.6;
     margin: 0;
   }
 
-  .game-seo dl {
-    max-width: 68ch;
-    margin: 0;
+  .mobile-note {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    max-width: 760px;
+    margin: 48px auto 0;
+    padding: 24px 28px;
+    border-radius: var(--border-radius);
+    border: 1px solid #eee;
   }
 
-  .game-seo dt {
+  .mobile-note img {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    flex: none;
+  }
+
+  .mobile-note h2 {
+    font-size: 1.05rem;
     font-weight: 800;
     color: var(--noir);
-    margin-top: 14px;
+    margin: 0 0 8px;
   }
 
-  .game-seo dd {
-    margin: 4px 0 0;
+  .mobile-note p {
+    font-size: 0.95rem;
+    color: var(--gris);
     line-height: 1.6;
+    margin: 0;
+  }
+
+  @media (max-width: 768px) {
+    .game-seo {
+      padding: 56px 0 64px;
+    }
+
+    .mobile-note {
+      flex-direction: column;
+      gap: 14px;
+    }
   }
 </style>

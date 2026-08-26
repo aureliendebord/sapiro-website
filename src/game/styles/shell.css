@@ -30,6 +30,7 @@
   padding-top: var(--header-h);
   background: linear-gradient(180deg, #fff 0, var(--game-canvas) 160px);
   min-height: 100dvh;
+  padding-bottom: 0;
 }
 
 /* Le jeu est monté côté client : sans hauteur réservée, la page s'affiche
@@ -85,8 +86,10 @@
  */
 @media (min-width: 768px) {
   .game-shell {
-    grid-template-columns: var(--rail-w) minmax(0, 720px);
-    grid-template-areas: "rail board";
+    /* Le plateau d'abord, le rail à droite : le jeu commence là où l'œil
+       arrive, et l'identité (niveau, tickets, compte) reste en périphérie. */
+    grid-template-columns: minmax(0, 720px) var(--rail-w);
+    grid-template-areas: "board rail";
     justify-content: center;
     align-items: start;
     gap: 24px;
@@ -232,14 +235,8 @@
   color: var(--ink);
 }
 
-/* ---------- Bloc SEO rendu au build (sous le jeu) ---------- */
-
-.game-seo {
-  max-width: var(--game-max);
-  margin: 0 auto;
-  padding: 8px var(--game-gutter) 72px;
-  color: var(--ink-mid);
-}
+/* Le bloc SEO se met en page tout seul (styles scopés dans GameSeoIntro.astro,
+   grammaire des sections du site) : il n'a plus rien à faire ici. */
 
 .game-noscript {
   max-width: 640px;
