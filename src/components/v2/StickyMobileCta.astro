@@ -1,42 +1,41 @@
 ---
 import type { Lang } from '../../i18n';
-import { getLocalePath } from '../../i18n';
-import { appStoreUrl, playStoreUrl } from '../../data/appLinks';
+import { playGameUrl } from '../../data/appLinks';
 
 interface Props {
   lang: Lang;
   /**
    * 'anchor' : scroll vers la section #download de la page courante
-   * (home, index blog). 'store' : lien direct vers le store selon l'OS,
-   * avec la home #download en secours si la détection échoue.
+   * (home, index blog). 'play' : lien vers le jeu en ligne — le CTA
+   * principal du site converge vers le jeu, pas vers les stores.
    */
-  mode?: 'anchor' | 'store';
+  mode?: 'anchor' | 'play';
 }
 
-const { lang, mode = 'store' } = Astro.props;
+const { lang, mode = 'play' } = Astro.props;
 
 const copy = {
-  fr: { label: 'Télécharger SAPIRO', free: 'Gratuit', extra: 'Sans pub' },
-  en: { label: 'Download SAPIRO', free: 'Free', extra: 'No ads' },
-  es: { label: 'Descargar SAPIRO', free: 'Gratis', extra: 'Sin anuncios' },
+  fr: { anchor: 'Télécharger SAPIRO', play: 'Jouer maintenant', free: 'Gratuit', extra: 'Sans installation' },
+  en: { anchor: 'Download SAPIRO', play: 'Play now', free: 'Free', extra: 'No install' },
+  es: { anchor: 'Descargar SAPIRO', play: 'Jugar ahora', free: 'Gratis', extra: 'Sin instalación' },
 };
 
 const t = copy[lang];
-const fallbackHref = mode === 'anchor' ? '#download' : `${getLocalePath('/', lang)}#download`;
+const label = mode === 'anchor' ? t.anchor : t.play;
+const href = mode === 'anchor' ? '#download' : playGameUrl('sticky-cta', lang);
 ---
 
 <a
-  href={fallbackHref}
+  href={href}
   class="sticky-cta"
   id="sticky-cta"
-  aria-label={t.label}
-  data-mode={mode}
-  data-ios={appStoreUrl(lang)}
-  data-android={playStoreUrl('sticky-cta', lang)}
+  aria-label={label}
+  data-umami-event={mode === 'play' ? 'play-click' : undefined}
+  data-umami-event-campaign={mode === 'play' ? 'sticky-cta' : undefined}
 >
   <span class="icon"><img src="/images/icons/lightning.webp" class="app-ico" alt="" aria-hidden="true" /></span>
   <span class="text">
-    <strong>{t.label}</strong>
+    <strong>{label}</strong>
     <small>{t.free} · {t.extra}</small>
   </span>
   <span class="arrow">
@@ -48,26 +47,6 @@ const fallbackHref = mode === 'anchor' ? '#download' : `${getLocalePath('/', lan
 (() => {
   const cta = document.getElementById('sticky-cta');
   if (!cta) return;
-
-  // En mode store : lien direct vers le bon store selon l'OS.
-  // Si la détection échoue, le href de secours (home #download) reste en place.
-  if (cta.dataset.mode === 'store') {
-    const ua = navigator.userAgent;
-    const isIOS = /iPhone|iPad|iPod/.test(ua) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
-    // L'événement Umami n'est posé que si le lien pointe vraiment vers un
-    // store : le href de secours (#download) ne doit pas compter comme clic store.
-    if (isIOS && cta.dataset.ios) {
-      cta.href = cta.dataset.ios;
-      cta.dataset.umamiEvent = 'store-click';
-      cta.dataset.umamiEventStore = 'app-store';
-      cta.dataset.umamiEventCampaign = 'sticky-cta';
-    } else if (/Android/.test(ua) && cta.dataset.android) {
-      cta.href = cta.dataset.android;
-      cta.dataset.umamiEvent = 'store-click';
-      cta.dataset.umamiEventStore = 'play-store';
-      cta.dataset.umamiEventCampaign = 'sticky-cta';
-    }
-  }
 
   const show = () => cta.classList.add('visible');
   const hide = () => cta.classList.remove('visible');

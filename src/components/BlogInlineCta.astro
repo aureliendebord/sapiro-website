@@ -1,6 +1,6 @@
 ---
 import type { Lang } from '../i18n';
-import { appStoreUrl, playStoreUrl } from '../data/appLinks';
+import { appStoreUrl, playGameUrl, playStoreUrl } from '../data/appLinks';
 
 interface Props {
   lang: Lang;
@@ -15,11 +15,12 @@ const { lang } = Astro.props;
  * et un iPhone incliné à droite, à moitié cropé, qui fait défiler les vrais
  * screens in-game localisés (pattern repris du mockup de la home).
  */
-const copy: Record<Lang, { titleBefore: string; titleHl: string; sub: string; xpAmount: string; xpLabel: string }> = {
+const copy: Record<Lang, { titleBefore: string; titleHl: string; sub: string; play: string; xpAmount: string; xpLabel: string }> = {
   fr: {
     titleBefore: 'Apprends',
     titleHl: 'en jouant',
     sub: 'Drapeaux, tableaux, animaux… 2 000+ quiz photo. Gratuit, sans pub.',
+    play: 'Jouer maintenant',
     xpAmount: '+120 XP',
     xpLabel: 'Série de 5',
   },
@@ -27,6 +28,7 @@ const copy: Record<Lang, { titleBefore: string; titleHl: string; sub: string; xp
     titleBefore: 'Learn',
     titleHl: 'by playing',
     sub: 'Flags, paintings, animals… 2,000+ photo quizzes. Free, no ads.',
+    play: 'Play now',
     xpAmount: '+120 XP',
     xpLabel: '5-streak',
   },
@@ -34,6 +36,7 @@ const copy: Record<Lang, { titleBefore: string; titleHl: string; sub: string; xp
     titleBefore: 'Aprende',
     titleHl: 'jugando',
     sub: 'Banderas, cuadros, animales… 2 000+ quiz con fotos. Gratis, sin anuncios.',
+    play: 'Jugar ahora',
     xpAmount: '+120 XP',
     xpLabel: 'Racha de 5',
   },
@@ -89,6 +92,10 @@ const slides = ['01', '02', '03', '04', '05'].map(n => `/images/banner/screen-${
     </div>
 
     <div class="cta-stores">
+      <a href={playGameUrl('inline-banner', lang)} class="play-btn" data-umami-event="play-click" data-umami-event-campaign="inline-banner">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+        {t.play}
+      </a>
       <a href={appStoreUrl(lang)} class="store" target="_blank" rel="noopener noreferrer" data-umami-event="store-click" data-umami-event-store="app-store" data-umami-event-campaign="inline-banner">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.71 19.5C17.88 20.74 17 21.95 15.66 21.97C14.32 22 13.89 21.18 12.37 21.18C10.84 21.18 10.37 21.95 9.09997 22C7.78997 22.05 6.79997 20.68 5.95997 19.47C4.24997 17 2.93997 12.45 4.69997 9.39C5.56997 7.87 7.12997 6.91 8.81997 6.88C10.1 6.86 11.32 7.75 12.11 7.75C12.89 7.75 14.37 6.68 15.92 6.84C16.57 6.87 18.39 7.1 19.56 8.82C19.47 8.88 17.39 10.1 17.41 12.63C17.44 15.65 20.06 16.66 20.09 16.67C20.06 16.74 19.67 18.11 18.71 19.5ZM13 3.5C13.73 2.67 14.94 2.04 15.94 2C16.07 3.17 15.6 4.35 14.9 5.19C14.21 6.04 13.07 6.7 11.95 6.61C11.8 5.46 12.36 4.26 13 3.5Z"/></svg>
         App Store
@@ -362,24 +369,45 @@ const slides = ['01', '02', '03', '04', '05'].map(n => `/images/banner/screen-${
     margin-top: 20px;
   }
 
+  .inline-cta .play-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 20px;
+    background: linear-gradient(135deg, #ff6b35 0%, #ff8f5c 100%);
+    color: #fff;
+    border-radius: 12px;
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+    box-shadow: 0 12px 26px -10px rgba(255, 107, 53, 0.55);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+
+  .inline-cta .play-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 16px 32px -10px rgba(255, 107, 53, 0.6);
+  }
+
+  /* Stores en secondaire : le CTA principal de la bannière est le jeu. */
   .inline-cta .store {
     display: inline-flex;
     align-items: center;
     gap: 8px;
-    padding: 10px 18px;
-    background: #33241A;
-    color: #fff;
+    padding: 9px 16px;
+    background: transparent;
+    color: #33241A;
+    border: 1.5px solid rgba(51, 36, 26, 0.3);
     border-radius: 12px;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 600;
     text-decoration: none;
-    box-shadow: 0 10px 22px -10px rgba(61, 43, 31, 0.55);
-    transition: transform 0.2s, box-shadow 0.2s;
+    transition: border-color 0.2s, background 0.2s;
   }
 
   .inline-cta .store:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 14px 28px -10px rgba(61, 43, 31, 0.6);
+    border-color: rgba(51, 36, 26, 0.6);
+    background: rgba(51, 36, 26, 0.05);
   }
 
   @media (prefers-reduced-motion: reduce) {

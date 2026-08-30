@@ -55,6 +55,7 @@ export type PlayCampaign =
   | 'nav'
   | 'demo-quiz-end'
   | 'blog-cta'
+  | 'sticky-cta'
   | 'inline-banner'
   | 'download-section';
 
