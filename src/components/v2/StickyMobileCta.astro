@@ -54,8 +54,19 @@ const fallbackHref = mode === 'anchor' ? '#download' : `${getLocalePath('/', lan
   if (cta.dataset.mode === 'store') {
     const ua = navigator.userAgent;
     const isIOS = /iPhone|iPad|iPod/.test(ua) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
-    if (isIOS && cta.dataset.ios) cta.href = cta.dataset.ios;
-    else if (/Android/.test(ua) && cta.dataset.android) cta.href = cta.dataset.android;
+    // L'événement Umami n'est posé que si le lien pointe vraiment vers un
+    // store : le href de secours (#download) ne doit pas compter comme clic store.
+    if (isIOS && cta.dataset.ios) {
+      cta.href = cta.dataset.ios;
+      cta.dataset.umamiEvent = 'store-click';
+      cta.dataset.umamiEventStore = 'app-store';
+      cta.dataset.umamiEventCampaign = 'sticky-cta';
+    } else if (/Android/.test(ua) && cta.dataset.android) {
+      cta.href = cta.dataset.android;
+      cta.dataset.umamiEvent = 'store-click';
+      cta.dataset.umamiEventStore = 'play-store';
+      cta.dataset.umamiEventCampaign = 'sticky-cta';
+    }
   }
 
   const show = () => cta.classList.add('visible');
