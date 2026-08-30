@@ -286,12 +286,15 @@ async function syncIconMap(availableSlugs) {
 
 /** Génère les adaptateurs web depuis `scripts/templates/`. */
 function syncTemplates() {
+  // Dossier cible de chaque template dans core/ (par défaut : hooks/).
+  const TEMPLATE_DIRS = { 'artworks.web.ts': 'lib/content' };
   const dir = path.join(SITE, 'scripts/templates');
   for (const file of fs.readdirSync(dir)) {
     if (!file.endsWith('.ts')) continue;
     // `useEntityDescriptions.web.ts` -> `hooks/useEntityDescriptions.ts`
     const target = file.replace(/\.web\.ts$/, '.ts');
-    writeOut(path.join(CORE, 'hooks', target), HEADER + fs.readFileSync(path.join(dir, file), 'utf8'));
+    const sub = TEMPLATE_DIRS[file] ?? 'hooks';
+    writeOut(path.join(CORE, sub, target), HEADER + fs.readFileSync(path.join(dir, file), 'utf8'));
   }
 }
 

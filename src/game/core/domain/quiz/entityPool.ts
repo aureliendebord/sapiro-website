@@ -8,7 +8,12 @@
  * Les filtres sont definis dans domain/journeys/catalog.ts (source de verite unique).
  * Ce module se contente d'appliquer ces filtres aux donnees.
  */
-import { countries, getCountriesByContinent, getCountriesByTag, getCountriesByPopulation } from "@/data/countries";
+import {
+  countries,
+  getCountriesByContinent,
+  getCountriesByTag,
+  getCountriesByPopulation,
+} from "@/data/countries";
 import { frenchRegions, getRegionsByOverseas } from "@/data/regions-fr";
 import { historicalEmpires, getEmpiresByEra } from "@/data/empires";
 import { internationalOrgs, getOrgsByCategory } from "@/data/organizations";
@@ -18,8 +23,13 @@ import {
   getFiguresByEra,
   getFiguresByContinent,
 } from "@/data/historicalFigures";
-import { getAvailableArtworks } from "@/data/artworks";
-import { allAnimals, getAnimalsByClass, getAnimalsByFamily, getAnimalsByFamilies } from "@/data/animals";
+import { getArtworksPool } from "@/lib/content/artworks";
+import {
+  allAnimals,
+  getAnimalsByClass,
+  getAnimalsByFamily,
+  getAnimalsByFamilies,
+} from "@/data/animals";
 import {
   getAvailableMonuments,
   getMonumentsByContinent,
@@ -28,7 +38,13 @@ import {
 } from "@/data/monuments";
 import { getJourneyById } from "@/domain/journeys";
 
-import type { AnyFlagEntity, EntityType, JourneyFilter, DailyChallengeTheme, Artwork } from "@/types";
+import type {
+  AnyFlagEntity,
+  EntityType,
+  JourneyFilter,
+  DailyChallengeTheme,
+  Artwork,
+} from "@/types";
 
 // ============================================
 // Moteur generique de filtrage
@@ -76,7 +92,7 @@ function getPoolByFilter(entityType: EntityType, filter: JourneyFilter): AnyFlag
 
   // Artworks
   if (entityType === "artwork") {
-    let pool: AnyFlagEntity[] = getAvailableArtworks();
+    let pool: AnyFlagEntity[] = getArtworksPool();
     if (filter.artMovement)
       pool = pool.filter((a) => (a as Artwork).movement === filter.artMovement);
     if (filter.artMedium) pool = pool.filter((a) => (a as Artwork).medium === filter.artMedium);
@@ -158,9 +174,6 @@ export function getFullPool(entityType: EntityType): AnyFlagEntity[] {
  * son id stocke dans le deck. Renvoie `undefined` si l'entite a disparu du
  * catalogue (entree obsolete dans le deck).
  */
-export function getEntityById(
-  entityType: EntityType,
-  id: string,
-): AnyFlagEntity | undefined {
+export function getEntityById(entityType: EntityType, id: string): AnyFlagEntity | undefined {
   return getFullPool(entityType).find((entity) => entity.id === id);
 }

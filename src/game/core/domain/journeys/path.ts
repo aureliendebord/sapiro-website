@@ -21,7 +21,7 @@
  * joueur choisit son ordre à l'intérieur.
  */
 import { getJourneyById } from "./catalog";
-import type { ThemeType } from "@/types";
+import type { EntityType, ThemeType } from "@/types";
 
 // ============================================
 // Constantes
@@ -84,6 +84,41 @@ export const PATH_STAGES: readonly (readonly string[])[] = [
 
 export const STAGE_COUNT = PATH_STAGES.length;
 export const BLOCKS_PER_STAGE = THEME_ORDER.length;
+
+// ============================================
+// Dosage de la difficulte : les premieres etapes en « nom seul »
+// ============================================
+
+/**
+ * Nombre d'étapes de début de chemin où géographie et histoire ne demandent
+ * QUE le nom de l'entité : le pays derrière le drapeau, le nom de la
+ * personnalité derrière le portrait. Jamais la valeur secondaire (capitale,
+ * nationalité), qui est une deuxième connaissance à apprendre par-dessus la
+ * première et double la difficulté d'un bloc censé accueillir le joueur.
+ * Au-delà, les blocs reprennent le mélange nom / valeur secondaire.
+ */
+export const NAME_ONLY_STAGES = 3;
+
+/**
+ * Types d'entités posées en « nom seul » à cette étape (vide au-delà). Note :
+ * le bloc mixte pose DÉJÀ toujours les figures par leur nom (cf. `forceTypeFor`
+ * dans mixedQuestions) — `figure` ici ne change que le bloc thématique.
+ */
+export function nameOnlyEntityTypes(stage: number): EntityType[] {
+  return stage >= 0 && stage < NAME_ONLY_STAGES ? ["country", "figure"] : [];
+}
+
+/**
+ * Ce bloc thématique du chemin ne doit-il poser que le nom de l'entité ?
+ * Faux hors chemin, pour un bloc mixte (cf. `nameOnlyEntityTypes`, appliqué
+ * type par type) ou pour un univers non concerné (art, nature, monuments).
+ */
+export function isNameOnlyBlock(blockId: string): boolean {
+  if (isMixedBlockId(blockId)) return false;
+  const journey = getJourneyById(blockId);
+  if (!journey) return false;
+  return nameOnlyEntityTypes(stageOfBlock(blockId)).includes(journey.entityType);
+}
 
 // ============================================
 // Blocs mixtes

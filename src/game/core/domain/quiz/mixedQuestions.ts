@@ -49,8 +49,13 @@ const IDENTITY: PoolPreparer = (pool) => pool;
  * Type de question forcé par entité : identification ("name") pour
  * figures/œuvres/animaux ; libre (nom ou secondaire) pour pays/monuments.
  * Miroir exact de la logique par défaut de `generateSingleQuestion`.
+ *
+ * `nameOnly` ajoute des types à identifier uniquement : le bloc mixte des
+ * premières étapes du chemin ne réinterroge que ce qui a été travaillé dans
+ * les blocs thématiques (cf. `nameOnlyEntityTypes` dans domain/journeys/path).
  */
-function forceTypeFor(type: EntityType): "name" | undefined {
+function forceTypeFor(type: EntityType, nameOnly: readonly EntityType[] = []): "name" | undefined {
+  if (nameOnly.includes(type)) return "name";
   return type === "figure" || type === "artwork" || type === "animal" ? "name" : undefined;
 }
 
@@ -60,12 +65,16 @@ function forceTypeFor(type: EntityType): "name" | undefined {
  *
  * @param seed - défini → tirage déterministe (défi du jour, même quiz mondial) ;
  *   undefined → tirage aléatoire (quiz classique rejouable).
+ * @param nameOnly - types d'entités à poser en identification seule (nom), en
+ *   plus de ceux qui le sont toujours. Sert au dosage des premières étapes du
+ *   chemin, où pays et personnalités ne sont posés que par leur nom.
  */
 export function buildMixedQuestions(
   count: number,
   seed: number | undefined,
   language: string,
   prepare: PoolPreparer = IDENTITY,
+  nameOnly: readonly EntityType[] = [],
 ): QuizQuestion[] {
   const perType = Math.max(1, Math.round(count / MIX_ENTITY_TYPES.length));
   const all: QuizQuestion[] = [];
@@ -81,7 +90,7 @@ export function buildMixedQuestions(
       perType,
       4,
       seed !== undefined ? seed + i * 1000003 : undefined,
-      forceTypeFor(type),
+      forceTypeFor(type, nameOnly),
       full,
       language,
     );
