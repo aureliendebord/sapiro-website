@@ -353,8 +353,9 @@ export default function GameApp({ lang }: Props) {
             user={user}
             source={paywallSource}
             onClose={() => setPaywallSource(null)}
+            // La modale reste ouverte : elle affiche l'écran « installe l'app »
+            // (handoff web → app), et se ferme via son propre bouton.
             onPurchased={() => {
-              setPaywallSource(null);
               void refreshPremium(user?.id);
             }}
             onNeedAccount={() => {

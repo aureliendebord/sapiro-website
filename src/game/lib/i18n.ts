@@ -132,6 +132,12 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
       cta: "S'abonner",
       wait: "Un instant…",
       legal: "Résiliable à tout moment depuis ton compte.",
+      successTitle: "Bienvenue dans Sapiro Pro !",
+      successSub:
+        "Ton abonnement est actif ici et sur l'app mobile : installe-la et connecte-toi avec le même compte.",
+      successIos: "Télécharger sur l'App Store",
+      successAndroid: "Télécharger sur Google Play",
+      successContinue: "Continuer à jouer ici",
     },
   },
   en: {
@@ -227,6 +233,12 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
       cta: "Subscribe",
       wait: "One moment…",
       legal: "Cancel anytime from your account.",
+      successTitle: "Welcome to Sapiro Pro!",
+      successSub:
+        "Your subscription is active here and on the mobile app: install it and sign in with the same account.",
+      successIos: "Download on the App Store",
+      successAndroid: "Get it on Google Play",
+      successContinue: "Keep playing here",
     },
   },
   es: {
@@ -322,6 +334,12 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
       cta: "Suscribirse",
       wait: "Un momento…",
       legal: "Cancelable en cualquier momento desde tu cuenta.",
+      successTitle: "¡Bienvenido a Sapiro Pro!",
+      successSub:
+        "Tu suscripción está activa aquí y en la app móvil: instálala e inicia sesión con la misma cuenta.",
+      successIos: "Descargar en el App Store",
+      successAndroid: "Disponible en Google Play",
+      successContinue: "Seguir jugando aquí",
     },
   },
 };

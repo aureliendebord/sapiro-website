@@ -9,7 +9,8 @@ import {
 } from "@game/lib/purchases";
 import { isSignedIn } from "@game/lib/auth";
 import { capture } from "@game/lib/analytics";
-import { t } from "@game/lib/i18n";
+import { getLanguage, t } from "@game/lib/i18n";
+import { appStoreUrl, playStoreUrl } from "../../data/appLinks";
 
 interface Props {
   user: User | null;
@@ -26,6 +27,9 @@ export function PaywallModal({ user, source, onClose, onPurchased, onNeedAccount
   const [selected, setSelected] = useState<string | null>(null);
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  // Après l'achat, la modale devient l'écran de handoff web → app : c'est le
+  // moment où l'utilisateur est le plus motivé pour installer l'app mobile.
+  const [purchased, setPurchased] = useState(false);
 
   useEffect(() => {
     capture("paywall_shown", { source });
@@ -74,6 +78,7 @@ export function PaywallModal({ user, source, onClose, onPurchased, onNeedAccount
       await purchasePlan(plan, user?.email ?? undefined);
       capture("purchase_completed", { source, plan: plan.period });
       onPurchased();
+      setPurchased(true);
     } catch (e) {
       if (e instanceof PurchaseCancelledError) {
         capture("purchase_cancelled", { source, plan: plan.period });
@@ -86,6 +91,50 @@ export function PaywallModal({ user, source, onClose, onPurchased, onNeedAccount
       setBusy(false);
     }
   };
+
+  if (purchased) {
+    const lang = getLanguage();
+    const storeClick = (store: "app_store" | "play_store") =>
+      capture("post_purchase_store_click", { source, store });
+    return (
+      <div
+        className="game-modal"
+        role="dialog"
+        aria-modal="true"
+        aria-label={t("web.paywall.successTitle")}
+      >
+        <div className="game-modal__panel">
+          <h2 className="game-modal__title">{t("web.paywall.successTitle")}</h2>
+          <p className="game-modal__sub">{t("web.paywall.successSub")}</p>
+
+          <div className="paywall-stores">
+            <a
+              className="game-btn game-btn--block"
+              href={appStoreUrl(lang)}
+              target="_blank"
+              rel="noopener"
+              onClick={() => storeClick("app_store")}
+            >
+              {t("web.paywall.successIos")}
+            </a>
+            <a
+              className="game-btn game-btn--block"
+              href={playStoreUrl("post-purchase", lang)}
+              target="_blank"
+              rel="noopener"
+              onClick={() => storeClick("play_store")}
+            >
+              {t("web.paywall.successAndroid")}
+            </a>
+          </div>
+
+          <button type="button" className="game-btn game-btn--ghost game-btn--block" onClick={onClose}>
+            {t("web.paywall.successContinue")}
+          </button>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="game-modal" role="dialog" aria-modal="true" aria-label={t("web.paywall.title")}>

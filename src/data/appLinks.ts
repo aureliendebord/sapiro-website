@@ -25,7 +25,12 @@ const APP_STORE_STOREFRONT: Record<Lang, string> = {
   es: 'es',
 };
 
-export type StoreCampaign = 'download-section' | 'blog-cta' | 'sticky-cta' | 'inline-banner';
+export type StoreCampaign =
+  | 'download-section'
+  | 'blog-cta'
+  | 'sticky-cta'
+  | 'inline-banner'
+  | 'post-purchase';
 
 export function appStoreUrl(lang: Lang): string {
   return `https://apps.apple.com/${APP_STORE_STOREFRONT[lang]}/app/${APP_STORE_SLUG}/id${APP_STORE_ID}`;

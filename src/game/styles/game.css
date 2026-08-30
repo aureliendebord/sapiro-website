@@ -632,3 +632,16 @@
   font-weight: 600;
   margin: 12px 0 0;
 }
+
+/* Écran post-achat : liens stores empilés, bouton « continuer » en dessous. */
+.paywall-stores {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 16px 0 10px;
+}
+
+.paywall-stores .game-btn {
+  text-align: center;
+  text-decoration: none;
+}
