@@ -30,7 +30,13 @@ jobs:
       - run: npm ci
 
       # Déclenche aussi le hook `prebuild` (vérif des liens cross-langue).
+      # Les PUBLIC_* sont inlinées dans le bundle du jeu au build : sans elles,
+      # le jeu tourne mais sans compte ni abonnement (voir src/game/README.md).
       - run: npm run build
+        env:
+          PUBLIC_SUPABASE_URL: ${{ secrets.PUBLIC_SUPABASE_URL }}
+          PUBLIC_SUPABASE_ANON_KEY: ${{ secrets.PUBLIC_SUPABASE_ANON_KEY }}
+          PUBLIC_RC_WEB_API_KEY: ${{ secrets.PUBLIC_RC_WEB_API_KEY }}
 
       - name: Deploy to Cloudflare Pages (production)
         uses: cloudflare/wrangler-action@v3
