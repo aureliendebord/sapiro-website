@@ -71,7 +71,7 @@ function isSyncableMode(mode: string): boolean {
 }
 
 async function insertRows(rows: PendingResult[]): Promise<boolean> {
-  const supabase = getSupabase();
+  const supabase = await getSupabase();
   if (!supabase) return false;
 
   const { data } = await supabase.auth.getSession();

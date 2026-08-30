@@ -1,10 +1,15 @@
 import { Suspense, lazy, useCallback, useEffect, useMemo, useState } from "react";
 import type { AnyFlagEntity, EntityType } from "@/types";
-import type { JourneyDefinition } from "@/domain/journeys/catalog";
+import { getJourneyById } from "@/domain/journeys/catalog";
+import { isMixedBlockId } from "@/domain/journeys/path";
+import { usePathStore } from "@game/store/pathStore";
 import { getEntityById } from "@/domain/quiz/entityPool";
 import { getDailyTheme } from "@/utils/dailyChallenge";
+import { warmGameSounds } from "@game/lib/sounds";
 import { HomeScreen, type HomeAction } from "./HomeScreen";
-import { JourneysScreen } from "./JourneysScreen";
+import { PathScreen } from "./path/PathScreen";
+import { LeaderboardScreen } from "./leaderboard/LeaderboardScreen";
+import { ProfileScreen } from "./profile/ProfileScreen";
 import { QuizScreen } from "./QuizScreen";
 import { ResultScreen } from "./ResultScreen";
 import { loadLanguage, t, type GameLang } from "@game/lib/i18n";
@@ -13,9 +18,10 @@ import { useTicketStore, useTicketBalance } from "@game/store/ticketStore";
 import { useGameStore } from "@game/store/gameStore";
 import { recordGameResult, flushPendingResults } from "@game/lib/gameResults";
 import type { SessionConfig, SessionResult } from "@game/lib/quizSession";
+import { GameRail } from "./GameRail";
 import { AccountModal } from "./AccountModal";
 import { ResetPasswordModal } from "./ResetPasswordModal";
-import { completePendingMerge, ensureSession, isSignedIn, onAuthChange } from "@game/lib/auth";
+import { completePendingMerge, ensureSession, onAuthChange } from "@game/lib/auth";
 import { fetchPremiumStatus } from "@game/lib/purchases";
 import { capture, identifyAnalytics } from "@game/lib/analytics";
 import type { User } from "@supabase/supabase-js";
@@ -30,6 +36,8 @@ const PaywallModal = lazy(() =>
 type Screen =
   | { name: "home" }
   | { name: "journeys" }
+  | { name: "board" }
+  | { name: "profile" }
   | { name: "quiz"; config: SessionConfig }
   // `config` est conservé pour que « Rejouer » relance exactement la même
   // partie (même parcours, même type d'entité) sans le redéduire du résultat.
@@ -56,23 +64,24 @@ export default function GameApp({ lang }: Props) {
   const refundTicket = useTicketStore((s) => s.refund);
   const earnDailyBonus = useTicketStore((s) => s.earnDailyBonus);
   const refreshRemoteConfig = useTicketStore((s) => s.refreshRemoteConfig);
-  const catalogOpen = useTicketStore((s) => s.isCatalogOpen());
 
   const xp = useGameStore((s) => s.xp);
   const review = useGameStore((s) => s.review);
   const lastDailyKey = useGameStore((s) => s.lastDailyKey);
+  const dailyStreak = useGameStore((s) => s.dailyStreak);
   const recordGame = useGameStore((s) => s.recordGame);
   const addMiss = useGameStore((s) => s.addMiss);
   const clearMiss = useGameStore((s) => s.clearMiss);
   const markDailyDone = useGameStore((s) => s.markDailyDone);
+  const recordPathResult = usePathStore((s) => s.recordResult);
 
   const [user, setUser] = useState<User | null>(null);
   const [accountOpen, setAccountOpen] = useState(false);
   const [paywallSource, setPaywallSource] = useState<string | null>(null);
   const [resetOpen, setResetOpen] = useState(false);
+  /** Message expliquant pourquoi un bloc du sentier est fermé. */
+  const [dialog, setDialog] = useState<string | null>(null);
   const [isPremium, setIsPremium] = useState(false);
-
-  const signedIn = isSignedIn(user);
 
   const dailyDone = lastDailyKey === todayKey();
 
@@ -110,7 +119,10 @@ export default function GameApp({ lang }: Props) {
   // pris ici vaut sur mobile, et inversement.
   const refreshPremium = useCallback(async (uid: string | undefined) => {
     if (!uid) return setIsPremium(false);
-    setIsPremium(await fetchPremiumStatus(uid));
+    const status = await fetchPremiumStatus(uid);
+    // Statut inconnu (incident réseau) : on garde l'état courant plutôt que
+    // de rétrograder un abonné en gratuit.
+    if (status !== null) setIsPremium(status);
   }, []);
 
   useEffect(() => {
@@ -137,6 +149,8 @@ export default function GameApp({ lang }: Props) {
 
   const startQuiz = useCallback(
     async (config: SessionConfig, costsTicket: boolean) => {
+      // Geste utilisateur : le bon moment pour amorcer les sons de la partie.
+      warmGameSounds();
       if (costsTicket && !isPremium) {
         if (!consumeTicket()) {
           // Plus de tickets : même funnel que l'app (quota_reached → paywall).
@@ -153,17 +167,25 @@ export default function GameApp({ lang }: Props) {
       }
 
       // Bloquant : sans les locales, les questions sortiraient en français.
-      // En révision, le pool est hétérogène → on charge toutes les familles.
+      // Révision et grand mélange servent les 5 familles → tout charger.
+      const heterogeneous =
+        Boolean(config.pool) || Boolean(config.pathBlockId && isMixedBlockId(config.pathBlockId));
       setPreparing(true);
       try {
-        await preloadEntityLocales(lang, config.pool ? undefined : [config.entityType]);
+        await preloadEntityLocales(lang, heterogeneous ? undefined : [config.entityType]);
+      } catch {
+        // Locales inaccessibles (réseau) : la partie ne peut pas se jouer
+        // proprement — on rend le ticket au lieu de le perdre en silence.
+        if (costsTicket && !isPremium) refundTicket();
+        setDialog(t("web.quiz.loadFailed"));
+        return;
       } finally {
         setPreparing(false);
       }
 
       setScreen({ name: "quiz", config });
     },
-    [consumeTicket, isPremium, lang, openPaywall],
+    [consumeTicket, refundTicket, isPremium, lang, openPaywall],
   );
 
   const handleAction = useCallback(
@@ -199,14 +221,17 @@ export default function GameApp({ lang }: Props) {
     [review, lang, startQuiz, dailyDone],
   );
 
-  const handlePickJourney = useCallback(
-    (journey: JourneyDefinition) => {
+  /** Lance un bloc du sentier — la session dérive tout de pathBlockId. */
+  const handlePlayBlock = useCallback(
+    (blockId: string) => {
+      const journey = getJourneyById(blockId);
       void startQuiz(
         {
           mode: "classic",
-          journeyId: journey.id,
-          entityType: journey.entityType as EntityType,
+          journeyId: blockId,
+          entityType: (journey?.entityType ?? "country") as EntityType,
           language: lang,
+          pathBlockId: blockId,
         },
         true,
       );
@@ -242,6 +267,14 @@ export default function GameApp({ lang }: Props) {
         earnDailyBonus();
       }
 
+      if (config.pathBlockId) {
+        recordPathResult({
+          blockId: config.pathBlockId,
+          score: result.score,
+          total: result.totalQuestions,
+        });
+      }
+
       capture("game_finished", {
         mode: result.mode,
         journey: result.journeyId ?? "",
@@ -252,7 +285,7 @@ export default function GameApp({ lang }: Props) {
       void recordGameResult(result);
       setScreen({ name: "result", result, config });
     },
-    [recordGame, addMiss, clearMiss, review, markDailyDone, earnDailyBonus],
+    [recordGame, addMiss, clearMiss, review, markDailyDone, earnDailyBonus, recordPathResult],
   );
 
   /** Quitter sans avoir répondu ne doit rien coûter (comme sur mobile). */
@@ -275,26 +308,33 @@ export default function GameApp({ lang }: Props) {
       case "home":
         return (
           <HomeScreen
-            xp={xp}
             ticketsLeft={tickets}
             isPremium={isPremium}
-            isSignedIn={signedIn}
             reviewCount={review.length}
             dailyDone={dailyDone}
             onAction={handleAction}
+          />
+        );
+
+      case "board":
+        return <LeaderboardScreen user={user} onSignIn={() => setAccountOpen(true)} />;
+
+      case "profile":
+        return (
+          <ProfileScreen
+            user={user}
+            isPremium={isPremium}
             onAccount={() => setAccountOpen(true)}
-            onSubscribe={() => openPaywall("home_pill")}
+            onSubscribe={() => openPaywall("profile")}
           />
         );
 
       case "journeys":
         return (
-          <JourneysScreen
+          <PathScreen
             isPremium={isPremium}
-            catalogOpen={catalogOpen}
-            onPick={handlePickJourney}
-            onLocked={() => openPaywall("locked_journey")}
-            onBack={() => setScreen({ name: "home" })}
+            onPlay={handlePlayBlock}
+            onLocked={(_, reason) => setDialog(reason)}
           />
         );
 
@@ -304,6 +344,7 @@ export default function GameApp({ lang }: Props) {
           <QuizScreen
             key={`${screen.config.mode}-${screen.config.journeyId ?? "random"}`}
             config={screen.config}
+            previousDailyStreak={dailyStreak}
             onFinish={(result) => handleFinish(result, screen.config)}
             onQuit={(answered) => handleQuit(answered, costsTicket)}
           />
@@ -327,24 +368,66 @@ export default function GameApp({ lang }: Props) {
     ready,
     preparing,
     screen,
-    xp,
     tickets,
     isPremium,
-    signedIn,
     review.length,
     dailyDone,
-    catalogOpen,
+    dailyStreak,
     handleAction,
-    handlePickJourney,
+    handlePlayBlock,
+    user,
     handleFinish,
     handleQuit,
     startQuiz,
     openPaywall,
   ]);
 
+  // Pendant une question, les colonnes latérales s'effacent — mais c'est le CSS
+  // qui décide, et seulement sous 1024 px : sur desktop la grille ne bouge pas,
+  // sinon lancer une partie réorganise toute la page.
+  const focusMode = screen.name === "quiz";
+
   return (
     <div className="sapiro-game">
-      <div className="game-frame">{body}</div>
+      <div className={`game-shell ${focusMode ? "game-shell--focus" : ""}`}>
+        <aside className="game-rail">
+          <GameRail
+            xp={xp}
+            ticketsLeft={tickets}
+            isPremium={isPremium}
+            user={user}
+            current={
+              screen.name === "journeys" || screen.name === "board" || screen.name === "profile"
+                ? screen.name
+                : "home"
+            }
+            onNavigate={(section) => setScreen({ name: section } as Screen)}
+            onAccount={() => setAccountOpen(true)}
+            onSubscribe={() => openPaywall("rail")}
+          />
+        </aside>
+
+        <div className="game-board">{body}</div>
+      </div>
+
+      {dialog && (
+        <div className="game-modal" role="dialog" aria-modal="true">
+          <div className="game-modal__panel" style={{ textAlign: "center" }}>
+            <p className="game-modal__sub" style={{ marginBottom: 18 }}>
+              {dialog}
+            </p>
+            <button
+              type="button"
+              className="game-btn game-btn--block"
+              onClick={() => setDialog(null)}
+              autoFocus
+            >
+              {t("web.account.close")}
+            </button>
+          </div>
+        </div>
+      )}
+
       {accountOpen && <AccountModal user={user} onClose={() => setAccountOpen(false)} />}
       {resetOpen && <ResetPasswordModal onClose={() => setResetOpen(false)} />}
       {paywallSource !== null && (

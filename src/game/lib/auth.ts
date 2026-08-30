@@ -40,8 +40,8 @@ export class AuthUnavailableError extends Error {
   }
 }
 
-function requireSupabase() {
-  const supabase = getSupabase();
+async function requireSupabase() {
+  const supabase = await getSupabase();
   if (!supabase) throw new AuthUnavailableError();
   return supabase;
 }
@@ -49,7 +49,7 @@ function requireSupabase() {
 /** Session anonyme au premier lancement : on joue sans compte, la progression
  *  est déjà rattachée à un utilisateur pour pouvoir la récupérer ensuite. */
 export async function ensureSession(): Promise<Session | null> {
-  const supabase = getSupabase();
+  const supabase = await getSupabase();
   if (!supabase) return null;
 
   const { data } = await supabase.auth.getSession();
@@ -65,7 +65,7 @@ export async function ensureSession(): Promise<Session | null> {
 }
 
 async function readAnonymousSession(): Promise<PendingMerge | null> {
-  const supabase = requireSupabase();
+  const supabase = await requireSupabase();
   const { data } = await supabase.auth.getSession();
   const session = data.session;
   if (!session?.user?.is_anonymous) return null;
@@ -84,7 +84,7 @@ async function mergeAnonymousInto(pending: PendingMerge, newUid: string | null):
   if (!newUid || newUid === pending.oldUid) return null;
 
   try {
-    const supabase = requireSupabase();
+    const supabase = await requireSupabase();
     const { error } = await supabase.functions.invoke("merge-anonymous-account", {
       body: { old_access_token: pending.oldAccessToken },
     });
@@ -119,7 +119,7 @@ function captureAccountLinked(
 
 /** Connexion Google : redirect, donc on met le jeton anonyme de côté. */
 export async function signInWithGoogle(): Promise<void> {
-  const supabase = requireSupabase();
+  const supabase = await requireSupabase();
 
   const pending = await readAnonymousSession();
   if (pending) {
@@ -153,7 +153,7 @@ export async function completePendingMerge(): Promise<void> {
   }
   if (Date.now() - pending.storedAt > PENDING_MERGE_TTL_MS) return;
 
-  const supabase = requireSupabase();
+  const supabase = await requireSupabase();
   const { data } = await supabase.auth.getSession();
   const user = data.session?.user;
   // Toujours anonyme : le retour OAuth a échoué, il n'y a rien à fusionner.
@@ -170,7 +170,7 @@ export async function completePendingMerge(): Promise<void> {
  * session sur place. L'uid, et donc toute la progression, est conservé.
  */
 export async function signUpWithEmail(email: string, password: string): Promise<User | null> {
-  const supabase = requireSupabase();
+  const supabase = await requireSupabase();
   const { data } = await supabase.auth.getSession();
 
   if (data.session?.user?.is_anonymous) {
@@ -192,7 +192,7 @@ export async function signUpWithEmail(email: string, password: string): Promise<
 
 /** Connexion à un compte existant : l'uid change, donc fusion si anonyme. */
 export async function signInWithEmail(email: string, password: string): Promise<User | null> {
-  const supabase = requireSupabase();
+  const supabase = await requireSupabase();
   const pending = await readAnonymousSession();
 
   const { data, error } = await supabase.auth.signInWithPassword({ email, password });
@@ -210,7 +210,7 @@ export async function signInWithEmail(email: string, password: string): Promise<
 }
 
 export async function resetPassword(email: string): Promise<void> {
-  const supabase = requireSupabase();
+  const supabase = await requireSupabase();
   const { error } = await supabase.auth.resetPasswordForEmail(email, {
     redirectTo: `${window.location.origin}${window.location.pathname}?reset=1`,
   });
@@ -219,26 +219,35 @@ export async function resetPassword(email: string): Promise<void> {
 
 /** Applique le nouveau mot de passe (session de récupération active). */
 export async function updatePassword(password: string): Promise<void> {
-  const supabase = requireSupabase();
+  const supabase = await requireSupabase();
   const { error } = await supabase.auth.updateUser({ password });
   if (error) throw error;
 }
 
 export async function signOut(): Promise<void> {
-  const supabase = requireSupabase();
+  const supabase = await requireSupabase();
   await supabase.auth.signOut();
   // On repart d'une session anonyme : le jeu reste jouable, quota compris.
   await ensureSession();
 }
 
 export function onAuthChange(callback: (user: User | null) => void): () => void {
-  const supabase = getSupabase();
-  if (!supabase) return () => {};
+  let unsubscribe: (() => void) | null = null;
+  let disposed = false;
 
-  const { data } = supabase.auth.onAuthStateChange((_event, session) => {
-    callback(session?.user ?? null);
+  void getSupabase().then((supabase) => {
+    // Le composant peut être démonté avant que le client soit prêt.
+    if (!supabase || disposed) return;
+    const { data } = supabase.auth.onAuthStateChange((_event, session) => {
+      callback(session?.user ?? null);
+    });
+    unsubscribe = () => data.subscription.unsubscribe();
   });
-  return () => data.subscription.unsubscribe();
+
+  return () => {
+    disposed = true;
+    unsubscribe?.();
+  };
 }
 
 /** Un utilisateur anonyme n'est pas « connecté » du point de vue de l'UI. */

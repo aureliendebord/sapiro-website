@@ -1,82 +1,56 @@
 import { modeColor } from "@game/design/tokens";
-import { levelFromXp } from "@game/store/gameStore";
 import { t } from "@game/lib/i18n";
+import { Icon } from "./ui/Icon";
 
 export type HomeAction = "classic" | "survival" | "daily" | "review" | "journeys";
 
 interface ModeCard {
   action: HomeAction;
+  /** Emoji source — résolu en illustration par `<Icon>`. Mêmes visuels que l'app. */
   icon: string;
-  /** Clés dans `web.home.*` (nom, description). */
   nameKey: string;
   descKey: string;
-  /** Clé de couleur dans MODE_COLOR (les parcours reprennent le classique). */
+  /** Contrat du mode, épinglé en bas de carte. */
+  metaKey: string;
+  /** Clé de couleur dans MODE_COLOR. */
   color: string;
-  /** Une partie de ce mode consomme un ticket. */
   costsTicket: boolean;
 }
 
+/**
+ * Les cinq modes, dans l'ordre de l'accueil mobile. Les emojis sont ceux de
+ * l'app (`THEME_EMOJI` / `MODE_ICONS`) : ils désignent des illustrations
+ * synchronisées, pas des caractères à afficher.
+ */
 const CARDS: ModeCard[] = [
-  { action: "journeys", icon: "🗺️", nameKey: "journeys", descKey: "journeysDesc", color: "classic", costsTicket: true },
-  { action: "daily", icon: "📅", nameKey: "daily", descKey: "dailyDesc", color: "daily", costsTicket: false },
-  { action: "classic", icon: "🎯", nameKey: "classic", descKey: "classicDesc", color: "classic", costsTicket: true },
-  { action: "survival", icon: "❤️", nameKey: "survival", descKey: "survivalDesc", color: "survival", costsTicket: true },
-  { action: "review", icon: "🔁", nameKey: "review", descKey: "reviewDesc", color: "review", costsTicket: true },
+  // La carte NAVIGUE vers le sentier (le ticket se consomme au lancement d'un
+  // bloc) : elle reste cliquable même à quota épuisé.
+  { action: "journeys", icon: "🧭", nameKey: "journeys", descKey: "journeysDesc", metaKey: "journeysMeta", color: "classic", costsTicket: false },
+  { action: "daily", icon: "📅", nameKey: "daily", descKey: "dailyDesc", metaKey: "dailyMeta", color: "daily", costsTicket: false },
+  { action: "classic", icon: "🎮", nameKey: "classic", descKey: "classicDesc", metaKey: "classicMeta", color: "classic", costsTicket: true },
+  { action: "survival", icon: "❤️", nameKey: "survival", descKey: "survivalDesc", metaKey: "survivalMeta", color: "survival", costsTicket: true },
+  { action: "review", icon: "🎓", nameKey: "review", descKey: "reviewDesc", metaKey: "reviewMeta", color: "review", costsTicket: true },
 ];
 
 interface Props {
-  xp: number;
   ticketsLeft: number;
   isPremium: boolean;
-  isSignedIn: boolean;
-  /** Nombre d'entités dans le deck de révision (0 = mode indisponible). */
   reviewCount: number;
   dailyDone: boolean;
   onAction: (action: HomeAction) => void;
-  onAccount: () => void;
-  onSubscribe: () => void;
 }
 
-export function HomeScreen({
-  xp,
-  ticketsLeft,
-  isPremium,
-  isSignedIn,
-  reviewCount,
-  dailyDone,
-  onAction,
-  onAccount,
-  onSubscribe,
-}: Props) {
+export function HomeScreen({ ticketsLeft, isPremium, reviewCount, dailyDone, onAction }: Props) {
   const outOfTickets = !isPremium && ticketsLeft <= 0;
 
   return (
     <>
-      <div className="game-topbar">
-        <span className="game-pill" title={`${xp} XP`}>
-          ⭐ {t("web.home.level", { level: levelFromXp(xp) })}
-        </span>
-
-        {isPremium ? (
-          <span className="game-pill">👑 Pro</span>
-        ) : (
-          <button type="button" className="game-pill" onClick={onSubscribe}>
-            🎟️ {ticketsLeft}
-          </button>
-        )}
-
-        <button
-          type="button"
-          className="game-icon-btn"
-          onClick={onAccount}
-          aria-label={isSignedIn ? t("web.home.account") : t("web.home.signIn")}
-        >
-          {isSignedIn ? "👤" : "🔑"}
-        </button>
+      <div className="home-head">
+        <div>
+          <h1 className="home-title">{t("web.home.title")}</h1>
+          <p className="home-sub">{t("web.home.subtitle")}</p>
+        </div>
       </div>
-
-      <h1 className="home-title">Sapiro</h1>
-      <p className="home-sub">{t("web.home.subtitle")}</p>
 
       {outOfTickets && <div className="game-notice">{t("web.home.quotaNotice")}</div>}
 
@@ -99,22 +73,31 @@ export function HomeScreen({
             <button
               type="button"
               key={card.action}
-              className="mode-card"
+              className={`mode-card mode-card--${card.action}`}
               disabled={disabled}
               onClick={() => onAction(card.action)}
               style={
                 {
                   "--card-accent": colors.primary,
-                  "--card-tint": colors.tint,
+                  "--card-accent-deep": colors.tintDeep,
+                  "--card-on-accent": colors.onPrimary,
                 } as React.CSSProperties
               }
             >
-              <span className="mode-card__icon">{card.icon}</span>
-              <span>
-                <span className="mode-card__name">{t(`web.home.${card.nameKey}`)}</span>
-                <br />
-                <span className="mode-card__desc">{desc}</span>
-              </span>
+              {/* Le Défi du jour ne coûte pas de partie : c'est son argument. */}
+              {card.action === "daily" && !dailyDone && (
+                <span className="mode-card__badge">{t("web.home.dailyFree")}</span>
+              )}
+
+              <Icon
+                emoji={card.icon}
+                size={card.action === "journeys" ? 96 : 56}
+                eager
+                className="mode-card__icon"
+              />
+              <span className="mode-card__name">{t(`web.home.${card.nameKey}`)}</span>
+              <span className="mode-card__desc">{desc}</span>
+              <span className="mode-card__meta">{t(`web.home.${card.metaKey}`)}</span>
             </button>
           );
         })}

@@ -1,12 +1,36 @@
 ---
 import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import GameSeoIntro from '../../components/game/GameSeoIntro.astro';
 import GameApp from '../../game/components/GameApp.tsx';
+import { getTranslations } from '../../i18n';
+
+const lang = 'es';
+const t = getTranslations(lang);
+
+// Icônes des 5 modes : au-dessus du pli, donc préchargées plutôt que
+// découvertes après l'hydratation du jeu.
+const MODE_ICONS = ['compass', 'calendar', 'game-controller', 'heart', 'graduation-cap'];
 ---
 
-<Layout
-  title="Jugar en línea — Quiz de cultura general | Sapiro"
-  description="Juega gratis al quiz de Sapiro en tu navegador: geografía, historia, arte, naturaleza y monumentos. 88 recorridos, sin instalar nada."
-  lang="es"
->
-  <GameApp client:only="react" lang="es" />
+<Layout title="Jugar en línea — Quiz de cultura general | Sapiro" description="Juega gratis al quiz de Sapiro en tu navegador: geografía, historia, arte, naturaleza y monumentos. Aventura, Desafío del día, Supervivencia — sin instalar nada." lang={lang}>
+  <Fragment slot="head">
+    <link rel="preload" as="font" type="font/woff2" href="/fonts/nunito-800.woff2" crossorigin />
+    <link rel="preload" as="font" type="font/woff2" href="/fonts/nunito-700.woff2" crossorigin />
+    {MODE_ICONS.map((slug) => (
+      <link rel="preload" as="image" href={`/images/icons/${slug}.webp`} />
+    ))}
+  </Fragment>
+
+  <Header lang={lang} t={t} />
+
+  <main class="game-main">
+    <div class="game-mount">
+      <GameApp client:only="react" lang={lang} />
+    </div>
+    <GameSeoIntro lang={lang} />
+  </main>
+
+  <Footer lang={lang} t={t} />
 </Layout>

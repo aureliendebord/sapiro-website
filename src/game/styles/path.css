@@ -1,0 +1,198 @@
+/**
+ * Sentier Aventure — le chemin qui serpente du bas vers le haut.
+ *
+ * Les nœuds sont positionnés en absolu sur une carte haute ; le tracé SVG passe
+ * dessous. Reanimated (anneau qui pulse, badge « À toi ! ») devient ici des
+ * animations CSS, désactivées si l'utilisateur demande moins de mouvement.
+ */
+
+.path-title {
+  font-size: clamp(1.4rem, 3vw, 1.9rem);
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  margin: 0;
+}
+
+.path-sub {
+  color: var(--ink-mid);
+  font-weight: 600;
+  font-size: 14px;
+  margin: 2px 0 0;
+}
+
+.path-wrap {
+  position: relative;
+  width: 100%;
+  /* Le sentier défile dans le plateau, pas dans la page : le pied de page
+     reste atteignable sans traverser 54 blocs. */
+  max-height: 68dvh;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding: 8px 0 24px;
+  border-radius: 24px;
+  background: linear-gradient(180deg, var(--canvas-dim), var(--canvas));
+}
+
+/* Toile du sentier : sa hauteur est calculée en JS depuis le nombre de nœuds.
+   C'est elle qui donne sa dimension au conteneur défilant. */
+.path-canvas {
+  position: relative;
+  width: 100%;
+}
+
+.path-trail {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.path-node-slot {
+  position: absolute;
+}
+
+/* ---------- Bannière d'étape ---------- */
+
+.path-stage {
+  position: absolute;
+  bottom: calc(100% + 14px);
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  padding: 5px 14px;
+  border-radius: 999px;
+  background: var(--ink);
+  color: var(--canvas);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.path-stage--locked {
+  background: var(--ink-faint);
+}
+
+/* ---------- Nœud ---------- */
+
+.path-node {
+  position: relative;
+  font: inherit;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  padding: 8px;
+  border-radius: 50%;
+  border: 3px solid var(--surface);
+  background: var(--surface);
+  color: var(--ink);
+  box-shadow: 0 6px 16px rgb(26 24 22 / 12%);
+  transition: transform 140ms ease, box-shadow 140ms ease;
+}
+
+.path-node:hover:not(.path-node--locked):not(.path-node--closed) {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 24px rgb(26 24 22 / 18%);
+}
+
+.path-node__label {
+  font-size: 11px;
+  font-weight: 800;
+  line-height: 1.15;
+  text-align: center;
+  max-width: 92%;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.path-node__count {
+  font-size: 10px;
+  font-weight: 700;
+  color: var(--ink-faint);
+}
+
+/* Réussi : anneau doré + coche, la trace de ce qui est acquis. */
+.path-node--done {
+  border-color: #e0a82e;
+}
+
+.path-node__check {
+  position: absolute;
+  right: 2px;
+  bottom: 2px;
+  width: 24px;
+  height: 24px;
+  display: grid;
+  place-items: center;
+  border-radius: 999px;
+  background: #e0a82e;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+/* En cours : le seul nœud qui appelle, avec son anneau qui respire. */
+.path-node--current {
+  border-color: var(--node-accent, var(--accent));
+  background: var(--node-tint, var(--accent-tint));
+}
+
+.path-node--current::after {
+  content: "";
+  position: absolute;
+  inset: -6px;
+  border-radius: 50%;
+  border: 3px solid var(--node-accent, var(--accent));
+  animation: path-pulse 1.5s ease-out infinite;
+  pointer-events: none;
+}
+
+@keyframes path-pulse {
+  from {
+    transform: scale(0.94);
+    opacity: 0.9;
+  }
+  to {
+    transform: scale(1.16);
+    opacity: 0;
+  }
+}
+
+.path-turn {
+  position: absolute;
+  bottom: calc(100% + 6px);
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  padding: 4px 12px;
+  border-radius: 999px;
+  background: var(--accent);
+  color: var(--on-accent);
+  font-size: 11px;
+  font-weight: 800;
+  box-shadow: 0 4px 12px rgb(255 94 58 / 40%);
+}
+
+/* Ouverts mais pas encore atteints, ou verrouillés : présents mais éteints —
+   « scroller, c'est voir la route qui reste ». */
+.path-node--closed,
+.path-node--locked {
+  opacity: 0.45;
+  cursor: default;
+}
+
+.path-node--mixed {
+  border-width: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .path-node--current::after {
+    animation: none;
+    opacity: 0.5;
+    transform: scale(1.05);
+  }
+}

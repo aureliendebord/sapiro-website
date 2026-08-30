@@ -115,6 +115,40 @@ try {
     console.log('  (entité de test absente, contrôle révision par types sautés)');
   }
 
+  // Bloc thématique du sentier : la repasse re-sert les erreurs jusqu'à
+  // réussite — un 0/10 en première passe ne termine PAS la partie.
+  let pb = startSession({ mode: 'classic', journeyId: 'europe', entityType: 'country', language: 'fr', pathBlockId: 'europe' });
+  let wrongs = 0;
+  guard = 0;
+  while (!pb.finished && guard++ < 80) {
+    const q = pb.question;
+    const wrong = q.options.find((o) => o !== q.correctAnswer);
+    // Première passe : tout faux. Repasse : tout juste.
+    const pick = pb.retrying ? q.correctAnswer : wrong;
+    if (!pb.retrying) wrongs++;
+    pb = answer(pb, pick).state;
+  }
+  if (!pb.finished) throw new Error('bloc du sentier jamais terminé (repasse infinie ?)');
+  if (wrongs !== 10) throw new Error(`première passe attendue de 10 questions, vu ${wrongs}`);
+  if (pb.score !== 0) throw new Error('le score doit rester celui de la première passe (0)');
+  console.log(`\nbloc sentier : 10 ratés en 1re passe → ${guard - 10} questions de repasse, score figé à ${pb.score} ✓`);
+
+  // Grand mélange : les questions doivent venir des parcours de l'étape 1.
+  const { stageBlocks, mixedBlockId } = await server.ssrLoadModule('/src/game/core/domain/journeys/path.ts');
+  const stageIds = new Set(
+    stageBlocks(0).flatMap((id) => {
+      const j = JOURNEY_CATALOG.find((x) => x.id === id);
+      return getEntityPool(id, j.entityType).map((e) => e.id);
+    }),
+  );
+  const mixId = mixedBlockId(0);
+  const mix = startSession({ mode: 'classic', journeyId: mixId, entityType: 'country', language: 'fr', pathBlockId: mixId });
+  const outsiders = (mix.playlist ?? []).filter((q) => !stageIds.has(q.entity.id));
+  if (outsiders.length) {
+    throw new Error('grand mélange hors étape : ' + outsiders.map((q) => q.entity.id).slice(0, 5).join(', '));
+  }
+  console.log(`grand mélange : ${mix.playlist?.length ?? 0} questions, toutes issues de l'étape 1 ✓`);
+
   console.log('\n✓ le moteur génère des questions valides hors React Native');
   console.log('✓ une partie complète se déroule et score correctement');
   console.log('✓ daily déterministe et révision par famille');

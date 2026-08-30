@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import type { AnyFlagEntity } from "@/types";
 import { getQuestionPrompt } from "@game/lib/questionPrompt";
 import { entityVisualUrl, isImageEntity } from "@game/lib/entityAssets";
@@ -12,19 +12,31 @@ import {
 } from "@game/lib/quizSession";
 import { accentVars } from "@game/design/tokens";
 import { t } from "@game/lib/i18n";
+import { Icon } from "./ui/Icon";
+import { Glyph } from "./ui/Glyph";
+import { getMuted, play, setMuted } from "@game/lib/sounds";
+import { DidYouKnow, hasFacts } from "./quiz/DidYouKnow";
 
 /** Délai d'affichage du feedback avant la question suivante (ms). */
 const FEEDBACK_MS = 900;
 
 interface Props {
   config: SessionConfig;
+  /**
+   * Série du Défi du jour AVANT cette partie : `calculateXP` en a besoin pour
+   * accorder le bonus de série. Sans elle, le bonus n'était jamais versé.
+   */
+  previousDailyStreak: number;
   onFinish: (result: SessionResult, answered: number) => void;
   onQuit: (answered: number) => void;
 }
 
-export function QuizScreen({ config, onFinish, onQuit }: Props) {
+export function QuizScreen({ config, previousDailyStreak, onFinish, onQuit }: Props) {
   const [session, setSession] = useState<SessionState>(() => startSession(config));
   const [picked, setPicked] = useState<string | null>(null);
+  const [muted, setMutedState] = useState(() => getMuted());
+  /** Anecdote en attente : la question suivante ne vient qu'après « Continuer ». */
+  const [fact, setFact] = useState<{ entity: AnyFlagEntity; next: () => void } | null>(null);
   // Le timeout de feedback doit mourir avec l'écran : sans ça, quitter pendant
   // la fenêtre de 900 ms laisse un onFinish tardif rouvrir l'écran de résultat.
   const feedbackTimer = useRef<number | null>(null);
@@ -45,18 +57,33 @@ export function QuizScreen({ config, onFinish, onQuit }: Props) {
     (choice: string) => {
       if (picked !== null) return;
       setPicked(choice);
+      play(choice === session.question?.correctAnswer ? "correct" : "incorrect");
+
+      const answered = session.question;
 
       feedbackTimer.current = window.setTimeout(() => {
         feedbackTimer.current = null;
         const { state } = answerSession(session, choice);
-        setPicked(null);
-        setSession(state);
-        if (state.finished) {
-          onFinish(finishSession(state), state.questionIndex);
+
+        const advance = () => {
+          setFact(null);
+          setPicked(null);
+          setSession(state);
+          if (state.finished) {
+            onFinish(finishSession(state, { previousDailyStreak }), state.questionIndex);
+          }
+        };
+
+        // L'anecdote s'intercale seulement s'il y a quelque chose à raconter :
+        // une carte vide vaut moins qu'un enchaînement direct.
+        if (answered && hasFacts(answered.entity, config.language)) {
+          setFact({ entity: answered.entity, next: advance });
+        } else {
+          advance();
         }
       }, FEEDBACK_MS);
     },
-    [picked, session, onFinish],
+    [picked, session, onFinish, previousDailyStreak, config.language],
   );
 
   // Clavier : 1-4 pour répondre, Échap pour quitter. Le jeu est jouable au
@@ -73,11 +100,6 @@ export function QuizScreen({ config, onFinish, onQuit }: Props) {
     return () => window.removeEventListener("keydown", onKey);
   }, [question, handlePick, onQuit, answeredCount]);
 
-  const progress = useMemo(() => {
-    if (session.totalQuestions === null) return null;
-    return Math.round((session.questionIndex / session.totalQuestions) * 100);
-  }, [session.questionIndex, session.totalQuestions]);
-
   if (!question) {
     return <div className="game-loading">{t("web.quiz.loading")}</div>;
   }
@@ -93,19 +115,21 @@ export function QuizScreen({ config, onFinish, onQuit }: Props) {
           onClick={() => onQuit(answeredCount)}
           aria-label={t("web.quiz.quit")}
         >
-          ←
+          <Glyph name="back" size={22} />
         </button>
 
-        {progress !== null ? (
+        {session.totalQuestions !== null ? (
           <div
-            className="quiz-progress"
+            className="quiz-segments"
             role="progressbar"
             aria-valuenow={session.questionIndex}
             aria-valuemin={0}
-            aria-valuemax={session.totalQuestions ?? undefined}
+            aria-valuemax={session.totalQuestions}
             aria-label={t("web.quiz.progress")}
           >
-            <div className="quiz-progress__bar" style={{ width: `${progress}%` }} />
+            {Array.from({ length: session.totalQuestions }, (_, i) => (
+              <span key={i} className={`quiz-segment ${segmentState(i, session, picked)}`} />
+            ))}
           </div>
         ) : (
           <span className="game-pill">
@@ -118,13 +142,34 @@ export function QuizScreen({ config, onFinish, onQuit }: Props) {
             className="quiz-lives"
             aria-label={t("web.quiz.livesLeft", { count: session.lives })}
           >
-            {"❤️".repeat(Math.max(0, session.lives))}
+            {Array.from({ length: Math.max(0, session.lives) }, (_, i) => (
+              <Icon key={i} emoji="❤️" size={20} />
+            ))}
           </span>
+        ) : session.retrying ? (
+          // Phase de repasse : plus de compteur (il afficherait 11/10), on
+          // annonce ce qui se passe — on corrige ses erreurs.
+          <span className="game-pill">{t("web.quiz.retry")}</span>
         ) : (
           <span className="game-pill">
             {session.questionIndex + 1}/{session.totalQuestions}
           </span>
         )}
+
+        <button
+          type="button"
+          className="game-icon-btn"
+          aria-pressed={!muted}
+          aria-label={t(muted ? "web.quiz.soundOff" : "web.quiz.soundOn")}
+          onClick={() => {
+            const next = !muted;
+            setMuted(next);
+            setMutedState(next);
+            if (!next) play("tap");
+          }}
+        >
+          <Glyph name={muted ? "sound-off" : "sound-on"} size={20} />
+        </button>
       </div>
 
       <div className="quiz-stage">
@@ -137,6 +182,10 @@ export function QuizScreen({ config, onFinish, onQuit }: Props) {
             <EntityFallback entity={question.entity} />
           )}
         </div>
+
+        {fact && (
+          <DidYouKnow entity={fact.entity} lang={config.language} onContinue={fact.next} />
+        )}
 
         <div className="quiz-options">
           {question.options.map((option) => (
@@ -157,6 +206,21 @@ export function QuizScreen({ config, onFinish, onQuit }: Props) {
 }
 
 /**
+ * État d'un segment de la barre de progression : réussi, raté, en cours, à
+ * venir. Reproduit la lecture instantanée du header de l'app — on voit d'un
+ * coup d'œil où on en est ET comment on s'en sort.
+ */
+function segmentState(index: number, session: SessionState, picked: string | null): string {
+  if (index < session.questionIndex) {
+    return session.answers[index] ? "quiz-segment--ok" : "quiz-segment--ko";
+  }
+  if (index === session.questionIndex) {
+    return picked === null ? "quiz-segment--current" : "quiz-segment--current";
+  }
+  return "";
+}
+
+/**
  * Classe de feedback d'une option : rien tant que le joueur n'a pas répondu,
  * puis la bonne réponse en vert et le mauvais choix en rouge.
  */
@@ -171,7 +235,7 @@ function optionState(option: string, correct: string, picked: string | null): st
 function EntityFallback({ entity }: { entity: AnyFlagEntity }) {
   return (
     <div className="game-empty" aria-hidden="true">
-      <span style={{ fontSize: 64 }}>{entity.type === "figure" ? "👤" : "🗺️"}</span>
+      <Icon emoji={entity.type === "figure" ? "👤" : "🗺️"} size={64} />
     </div>
   );
 }
