@@ -44,13 +44,23 @@ import { getDailySeed, getDailyTheme } from "@/utils/dailyChallenge";
 
 export type QuizMode = "classic" | "survival" | "daily" | "review";
 
+/**
+ * Question ratée, avec le TYPE de question raté — la révision doit reposer la
+ * même question (une capitale ratée revient en capitale, pas en « quel
+ * pays ? »), comme le deck de l'app (`ReviewItem.type`, clé `${id}:${type}`).
+ */
+export interface MissedQuestion {
+  entity: AnyFlagEntity;
+  questionType: "name" | "secondary";
+}
+
 export interface SessionConfig {
   mode: QuizMode;
   journeyId?: string;
   entityType: EntityType;
   language: string;
-  /** Pool imposé (mode révision : les entités ratées). */
-  pool?: AnyFlagEntity[];
+  /** Deck imposé (mode révision) : entités ratées AVEC leur type de question. */
+  reviewItems?: MissedQuestion[];
   /**
    * Bloc du sentier Aventure joué, si c'en est un. Le nombre de questions et
    * la nature mixte du bloc en sont DÉRIVÉS (questionsFor, isMixedBlockId) :
@@ -73,7 +83,7 @@ export interface SessionState {
   lives: number;
   /** Vrai/faux par question déjà répondue — alimente la barre segmentée. */
   answers: boolean[];
-  misses: AnyFlagEntity[];
+  misses: MissedQuestion[];
   startedAt: number;
   finished: boolean;
   /** Vrai si le pool de survie a été entièrement épuisé. */
@@ -87,9 +97,32 @@ export interface SessionState {
    * (enfermée dans l'écran RN) ; l'extraction domain/quiz/retryQueue reste
    * la cible pour n'avoir qu'une implémentation.
    */
-  retryQueue: QuizQuestion[];
+  retryQueue: RetryEntry[];
   /** Vrai pendant la phase de repasse (le score ne bouge plus). */
   retrying: boolean;
+}
+
+/**
+ * Entrée de la file de repasse : la question et le nombre de mauvaises options
+ * grisées. 1re erreur → 1 option grisée ; erreur en repasse → 2 (plafond),
+ * comme l'app (`app/quiz/[mode].tsx`, commit 3814bee) : on resserre le choix
+ * pour faciliter l'apprentissage, sans jamais donner la réponse.
+ */
+export interface RetryEntry {
+  q: QuizQuestion;
+  grays: number;
+}
+
+/**
+ * Options grisées de la question de repasse courante : toujours les MÊMES
+ * mauvaises options (ordre figé des options), la 2e s'ajoute à la 1re.
+ */
+export function grayedOptions(state: SessionState): Set<string> {
+  const entry = state.retrying ? state.retryQueue[0] : undefined;
+  if (!entry) return new Set();
+  return new Set(
+    entry.q.options.filter((o) => o !== entry.q.correctAnswer).slice(0, entry.grays),
+  );
 }
 
 function resolvePool(config: SessionConfig): { pool: AnyFlagEntity[]; fullPool: AnyFlagEntity[] } {
@@ -138,11 +171,12 @@ function buildDailyPlaylist(language: string): {
  * famille de CETTE entité (le deck est hétérogène). Réutilise le builder
  * de l'app tel quel.
  */
-function buildReviewPlaylist(pool: AnyFlagEntity[], language: string): QuizQuestion[] {
-  const items: ReviewItem[] = pool.map((entity) => ({
+function buildReviewPlaylist(deck: MissedQuestion[], language: string): QuizQuestion[] {
+  const items: ReviewItem[] = deck.map(({ entity, questionType }) => ({
     entityId: entity.id,
     entityType: entity.type,
-    type: "name",
+    // Le type raté est conservé : une capitale ratée revient en capitale.
+    type: questionType,
   })) as ReviewItem[];
 
   return buildReviewQuestions(items, language).slice(0, CLASSIC_QUESTION_COUNT);
@@ -157,7 +191,7 @@ export function startSession(config: SessionConfig): SessionState {
     playlist = daily.questions;
     dailyTheme = daily.theme.themeCategory;
   } else if (config.mode === "review") {
-    playlist = buildReviewPlaylist(config.pool ?? [], config.language);
+    playlist = buildReviewPlaylist(config.reviewItems ?? [], config.language);
   } else if (config.pathBlockId && isMixedBlockId(config.pathBlockId)) {
     // Grand mélange de fin d'étape : une RÉVISION des 5 parcours de l'étape,
     // pas un tirage dans tout le catalogue — même restriction que l'app
@@ -228,26 +262,31 @@ export function answer(state: SessionState, choice: string): AnswerOutcome {
   if (state.finished || !state.question) return { state, correct: false };
 
   const correct = choice === state.question.correctAnswer;
-  const missedEntity = state.question.entity;
+  const miss: MissedQuestion = {
+    entity: state.question.entity,
+    questionType: state.question.type,
+  };
 
   const score = state.score + (correct ? 1 : 0);
   const lives = correct ? state.lives : state.lives - 1;
   const answers = [...state.answers, correct];
-  const misses = correct ? state.misses : [...state.misses, missedEntity];
+  const misses = correct ? state.misses : [...state.misses, miss];
   const questionIndex = state.questionIndex + 1;
 
-  // Phase de repasse : les ratés reviennent jusqu'à réussite. Le score et la
-  // barre sont figés (première passe seulement) — on apprend, on ne re-note pas.
+  // Phase de repasse : les ratés reviennent jusqu'à réussite. Le score, la
+  // barre ET le deck de révision sont figés (première passe seulement) — on
+  // apprend, on ne re-note pas (même règle que l'app : pas de double comptage).
+  // Une erreur en repasse grise une 2e mauvaise option (plafond), comme l'app.
   if (state.retrying) {
+    const current = state.retryQueue[0];
     const retryQueue = correct
       ? state.retryQueue.slice(1)
-      : [...state.retryQueue.slice(1), state.question];
+      : [...state.retryQueue.slice(1), { q: current.q, grays: Math.min(current.grays + 1, 2) }];
     return {
       state: {
         ...state,
-        misses,
         retryQueue,
-        question: retryQueue[0] ?? null,
+        question: retryQueue[0]?.q ?? null,
         finished: retryQueue.length === 0,
       },
       correct,
@@ -255,7 +294,7 @@ export function answer(state: SessionState, choice: string): AnswerOutcome {
   }
 
   const retryQueue = !correct && hasRetry(state.config)
-    ? [...state.retryQueue, state.question]
+    ? [...state.retryQueue, { q: state.question, grays: 1 }]
     : state.retryQueue;
 
   const outOfLives = lives <= 0;
@@ -276,7 +315,7 @@ export function answer(state: SessionState, choice: string): AnswerOutcome {
           questionIndex,
           retryQueue,
           retrying: true,
-          question: retryQueue[0],
+          question: retryQueue[0].q,
         },
         correct,
       };
@@ -359,7 +398,7 @@ export interface SessionResult {
   totalQuestions: number;
   durationSeconds: number;
   xp: XPBreakdown;
-  misses: AnyFlagEntity[];
+  misses: MissedQuestion[];
 }
 
 /** Résultat final : score, durée et XP détaillée (mêmes bonus que l'app). */

@@ -101,11 +101,21 @@ try {
   const { getEntityById } = await server.ssrLoadModule('/src/game/core/domain/quiz/entityPool.ts');
   const mixedPool = [getEntityById('country', 'fr'), getEntityById('figure', 'napoleon')].filter(Boolean);
   if (mixedPool.length === 2) {
-    const rv = startSession({ mode: 'review', entityType: 'country', language: 'fr', pool: mixedPool });
+    // Le deck porte le TYPE de question raté : une capitale ratée doit revenir
+    // en capitale (question secondaire), pas en « quel pays ? ».
+    const reviewItems = [
+      { entity: mixedPool[0], questionType: 'secondary' },
+      { entity: mixedPool[1], questionType: 'name' },
+    ];
+    const rv = startSession({ mode: 'review', entityType: 'country', language: 'fr', reviewItems });
     if (rv.playlist.length !== 2) throw new Error('révision : une question par entité du deck');
+    const countryQ = rv.playlist.find((q) => q.entity.type === 'country');
+    if (countryQ?.type !== 'secondary') {
+      throw new Error('révision : le type de question raté doit être conservé (capitale → capitale)');
+    }
     for (const q of rv.playlist) {
       // La bonne réponse et les distracteurs doivent venir de la famille de l'entité.
-      console.log(`  révision [${q.entity.type}] ${q.entity.name} — options: ${q.options.join(', ')}`);
+      console.log(`  révision [${q.entity.type}/${q.type}] ${q.entity.name} — options: ${q.options.join(', ')}`);
     }
     const figureQ = rv.playlist.find((q) => q.entity.type === 'figure');
     if (figureQ && figureQ.options.some((o) => ['France', 'Allemagne', 'Espagne', 'Italie'].includes(o))) {

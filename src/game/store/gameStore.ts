@@ -17,9 +17,20 @@ import { calculateNewStreak, formatDateKey } from "@/utils/dailyChallenge";
 export interface ReviewEntry {
   entityId: string;
   entityType: EntityType;
+  /**
+   * Type de question raté — la révision repose la MÊME question. Une entité
+   * ratée sur le nom ET sur la capitale fait deux entrées distinctes, comme
+   * le deck de l'app (clé `${entityId}:${type}`).
+   */
+  type: "name" | "secondary";
   /** Nombre d'échecs consécutifs — pilote la priorité de révision. */
   misses: number;
   lastMissedAt: number;
+}
+
+/** Clé d'identité d'une entrée de révision — même convention que l'app. */
+function reviewKey(entityId: string, type: ReviewEntry["type"]): string {
+  return `${entityId}:${type}`;
 }
 
 export interface LocalGameRecord {
@@ -57,8 +68,8 @@ interface GameState {
   lastPlayedDate: string | null;
 
   recordGame: (record: LocalGameRecord) => void;
-  addMiss: (entityId: string, entityType: EntityType) => void;
-  clearMiss: (entityId: string) => void;
+  addMiss: (entityId: string, entityType: EntityType, type: ReviewEntry["type"]) => void;
+  clearMiss: (entityId: string, type: ReviewEntry["type"]) => void;
   markDailyDone: (dayKey: string) => void;
   reset: () => void;
 }
@@ -104,19 +115,22 @@ export const useGameStore = create<GameState>()(
               : s.completedJourneys,
         })),
 
-      addMiss: (entityId, entityType) =>
+      addMiss: (entityId, entityType, type) =>
         set((s) => {
-          const existing = s.review.find((r) => r.entityId === entityId);
+          const key = reviewKey(entityId, type);
+          const existing = s.review.find((r) => reviewKey(r.entityId, r.type) === key);
           const entry: ReviewEntry = existing
             ? { ...existing, misses: existing.misses + 1, lastMissedAt: Date.now() }
-            : { entityId, entityType, misses: 1, lastMissedAt: Date.now() };
+            : { entityId, entityType, type, misses: 1, lastMissedAt: Date.now() };
           return {
-            review: [entry, ...s.review.filter((r) => r.entityId !== entityId)],
+            review: [entry, ...s.review.filter((r) => reviewKey(r.entityId, r.type) !== key)],
           };
         }),
 
-      clearMiss: (entityId) =>
-        set((s) => ({ review: s.review.filter((r) => r.entityId !== entityId) })),
+      clearMiss: (entityId, type) =>
+        set((s) => ({
+          review: s.review.filter((r) => reviewKey(r.entityId, r.type) !== reviewKey(entityId, type)),
+        })),
 
       /**
        * Défi du jour terminé : la série avance d'un jour si le précédent était
@@ -147,19 +161,22 @@ export const useGameStore = create<GameState>()(
     }),
     {
       name: "sapiro-web-game",
-      version: 3,
+      version: 4,
       // Les états persistés en v1 n'ont pas les statistiques : on les crée à
       // zéro plutôt que de laisser `undefined` se propager dans les calculs.
       migrate: (persisted, version) => {
         const state = persisted as GameState;
-        if (version >= 3) return state;
+        if (version >= 4) return state;
         return {
           ...state,
           ...(version < 2
             ? { correctAnswers: 0, totalAnswers: 0, bestSurvivalStreak: 0, dailyStreak: 0 }
             : {}),
-          playStreak: 0,
-          lastPlayedDate: null,
+          ...(version < 3 ? { playStreak: 0, lastPlayedDate: null } : {}),
+          // v4 : le deck de révision gagne le type de question raté. Les
+          // entrées existantes ne le connaissent pas → "name" (comportement
+          // d'avant), le deck se requalifie au fil des parties.
+          review: (state.review ?? []).map((r) => ({ ...r, type: r.type ?? "name" })),
         };
       },
     },

@@ -1,9 +1,11 @@
 import { Suspense, lazy, useCallback, useEffect, useMemo, useState } from "react";
-import type { AnyFlagEntity, EntityType } from "@/types";
+import type { EntityType } from "@/types";
 import { getJourneyById } from "@/domain/journeys/catalog";
 import { isMixedBlockId } from "@/domain/journeys/path";
 import { usePathStore } from "@game/store/pathStore";
 import { getEntityById } from "@/domain/quiz/entityPool";
+import { initWebContent } from "@/lib/content/artworks";
+import { CLASSIC_QUESTION_COUNT } from "@/domain/quiz/constants";
 import { getDailyTheme } from "@/utils/dailyChallenge";
 import { warmGameSounds } from "@game/lib/sounds";
 import { HomeScreen, type HomeAction } from "./HomeScreen";
@@ -17,8 +19,11 @@ import { preloadEntityLocales } from "@/hooks/useEntityDescriptions";
 import { useTicketStore, useTicketBalance } from "@game/store/ticketStore";
 import { useGameStore } from "@game/store/gameStore";
 import { recordGameResult, flushPendingResults } from "@game/lib/gameResults";
-import type { SessionConfig, SessionResult } from "@game/lib/quizSession";
-import { GameRail } from "./GameRail";
+import type { MissedQuestion, SessionConfig, SessionResult } from "@game/lib/quizSession";
+import { GameBottomNav } from "./GameBottomNav";
+import { levelFromXp } from "@game/store/gameStore";
+import { Icon } from "./ui/Icon";
+import { Glyph } from "./ui/Glyph";
 import { AccountModal } from "./AccountModal";
 import { ResetPasswordModal } from "./ResetPasswordModal";
 import { completePendingMerge, ensureSession, onAuthChange } from "@game/lib/auth";
@@ -89,6 +94,10 @@ export default function GameApp({ lang }: Props) {
   // la 1re partie), reprise d'une éventuelle fusion post-redirect Google, puis
   // envoi des parties restées en file d'attente.
   useEffect(() => {
+    // Contenu serveur (même source que l'app) : vérifié en tâche de fond,
+    // appliqué seulement si le pool arrive avant la première partie.
+    initWebContent();
+
     const unsubscribe = onAuthChange((nextUser) => {
       identifyAnalytics(nextUser?.id ?? null);
       setUser(nextUser);
@@ -169,7 +178,8 @@ export default function GameApp({ lang }: Props) {
       // Bloquant : sans les locales, les questions sortiraient en français.
       // Révision et grand mélange servent les 5 familles → tout charger.
       const heterogeneous =
-        Boolean(config.pool) || Boolean(config.pathBlockId && isMixedBlockId(config.pathBlockId));
+        Boolean(config.reviewItems) ||
+        Boolean(config.pathBlockId && isMixedBlockId(config.pathBlockId));
       setPreparing(true);
       try {
         await preloadEntityLocales(lang, heterogeneous ? undefined : [config.entityType]);
@@ -193,12 +203,24 @@ export default function GameApp({ lang }: Props) {
       if (action === "journeys") return setScreen({ name: "journeys" });
 
       if (action === "review") {
-        const pool = review
-          .map((entry) => getEntityById(entry.entityType, entry.entityId))
-          .filter((entity): entity is AnyFlagEntity => entity != null);
-        if (!pool.length) return;
+        // Le deck passe AVEC le type de question raté : une capitale ratée
+        // revient en capitale. Tronqué à la taille d'une partie ici, pour que
+        // la fin de partie ne « valide » que les entrées réellement rejouées.
+        const reviewItems: MissedQuestion[] = review
+          .map((entry) => {
+            const entity = getEntityById(entry.entityType, entry.entityId);
+            return entity ? { entity, questionType: entry.type } : null;
+          })
+          .filter((item): item is MissedQuestion => item != null)
+          .slice(0, CLASSIC_QUESTION_COUNT);
+        if (!reviewItems.length) return;
         return void startQuiz(
-          { mode: "review", entityType: pool[0].type, language: lang, pool },
+          {
+            mode: "review",
+            entityType: reviewItems[0].entity.type,
+            language: lang,
+            reviewItems,
+          },
           true,
         );
       }
@@ -253,12 +275,21 @@ export default function GameApp({ lang }: Props) {
         playedAt: Date.now(),
       });
 
-      // Deck de révision : les ratés entrent, les entités enfin réussies sortent.
-      for (const entity of result.misses) addMiss(entity.id, entity.type);
+      // Deck de révision : les ratés entrent AVEC leur type de question. En
+      // mode révision on ne ré-empile pas (pas de double comptage, comme
+      // l'app) : les questions enfin réussies sortent, les autres restent.
       if (result.mode === "review") {
-        const missed = new Set(result.misses.map((e) => e.id));
-        for (const entry of review) {
-          if (!missed.has(entry.entityId)) clearMiss(entry.entityId);
+        const missedKeys = new Set(
+          result.misses.map((m) => `${m.entity.id}:${m.questionType}`),
+        );
+        for (const item of config.reviewItems ?? []) {
+          if (!missedKeys.has(`${item.entity.id}:${item.questionType}`)) {
+            clearMiss(item.entity.id, item.questionType);
+          }
+        }
+      } else {
+        for (const miss of result.misses) {
+          addMiss(miss.entity.id, miss.entity.type, miss.questionType);
         }
       }
 
@@ -382,33 +413,55 @@ export default function GameApp({ lang }: Props) {
     openPaywall,
   ]);
 
-  // Pendant une question, les colonnes latérales s'effacent — mais c'est le CSS
-  // qui décide, et seulement sous 1024 px : sur desktop la grille ne bouge pas,
-  // sinon lancer une partie réorganise toute la page.
+  // Pendant une question, la barre de navigation s'efface : rien ne doit
+  // distraire du quiz — c'est tout l'intérêt du plateau central unique.
   const focusMode = screen.name === "quiz";
 
   return (
     <div className="sapiro-game">
-      <div className={`game-shell ${focusMode ? "game-shell--focus" : ""}`}>
-        <aside className="game-rail">
-          <GameRail
-            xp={xp}
-            ticketsLeft={tickets}
-            isPremium={isPremium}
-            user={user}
-            current={
-              screen.name === "journeys" || screen.name === "board" || screen.name === "profile"
-                ? screen.name
-                : "home"
-            }
-            onNavigate={(section) => setScreen({ name: section } as Screen)}
-            onAccount={() => setAccountOpen(true)}
-            onSubscribe={() => openPaywall("rail")}
-          />
-        </aside>
-
-        <div className="game-board">{body}</div>
+      <div className="game-shell">
+        <div className="game-board">
+          {screen.name === "home" && (
+            <div className="game-statusbar">
+              <span className="game-pill">
+                <Icon emoji="⭐" size={18} /> {t("web.home.level", { level: levelFromXp(xp) })}
+              </span>
+              {isPremium ? (
+                <span className="game-pill">
+                  <Icon emoji="👑" size={18} /> Pro
+                </span>
+              ) : (
+                <>
+                  <span className="game-pill">
+                    <Glyph name="ticket" size={18} /> {tickets}
+                  </span>
+                  <button
+                    type="button"
+                    className="game-statusbar__cta"
+                    onClick={() => openPaywall("home_statusbar")}
+                  >
+                    {t("web.home.unlimited")}
+                  </button>
+                </>
+              )}
+            </div>
+          )}
+          {body}
+        </div>
       </div>
+
+      {!focusMode && (
+        <GameBottomNav
+          user={user}
+          current={
+            screen.name === "journeys" || screen.name === "board" || screen.name === "profile"
+              ? screen.name
+              : "home"
+          }
+          onNavigate={(section) => setScreen({ name: section } as Screen)}
+          onAccount={() => setAccountOpen(true)}
+        />
+      )}
 
       {dialog && (
         <div className="game-modal" role="dialog" aria-modal="true">

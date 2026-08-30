@@ -1,28 +1,25 @@
 /**
- * Coquille du jeu web : la page, la grille desktop, le plateau.
+ * Coquille du jeu web : la page, le plateau central, la barre de navigation.
  *
- * Remplace le « cadre mobile centré » de la V1 (max-width 460px + ombre), qui
- * traitait le desktop comme un téléphone posé au milieu de l'écran. Ici le jeu
- * occupe la largeur du site (1200px, mêmes gouttières que `.container`) et
- * répartit ses éléments en trois colonnes à partir de 1024px.
- *
- * Mobile-first, avec les mêmes valeurs de rupture que le site (768 / 1024).
+ * Le jeu occupe l'espace central de l'écran, sans colonne latérale : un seul
+ * plateau borné à 720 px (au-delà, quatre réponses étirées deviennent pénibles
+ * à lire), et une barre de navigation FLOTTANTE en bas — le pendant web de la
+ * tab bar de l'app. Rien d'autre ne dispute l'attention au jeu.
  */
 
 /**
  * `.game-main` est le PARENT de `.sapiro-game` : les tokens déclarés sur le jeu
- * ne remontent pas jusqu'à lui. Ces trois-là vivent donc à la racine — cette
+ * ne remontent pas jusqu'à lui. Ceux-là vivent donc à la racine — cette
  * feuille n'est chargée que sur les pages de jeu, aucun risque de fuite.
  */
 :root {
   --header-h: 72px; /* hauteur de .header-content du site */
   --game-canvas: #fbf4eb;
-  /* Largeur et gouttières : partagées par le jeu ET le bloc SEO qui le suit.
-     Déclarées sur `.sapiro-game`, le bloc SEO n'en héritait pas et s'affichait
-     pleine largeur, collé aux bords. */
+  /* Largeur et gouttières : partagées par le jeu ET le bloc SEO qui le suit. */
   --game-max: 1200px; /* = --max-width du site */
   --game-gutter: 24px; /* = padding de .container */
-  --rail-w: 260px;
+  /* Espace réservé au-dessus du bas de page pour la barre flottante. */
+  --bottomnav-clearance: 96px;
 }
 
 .game-main {
@@ -41,31 +38,19 @@
 }
 
 .game-shell {
-  max-width: var(--game-max);
+  max-width: 720px;
   margin: 0 auto;
-  padding: 24px var(--game-gutter) 64px;
-  display: grid;
-  gap: 20px;
-  /* `minmax(0, 1fr)` et pas `auto` : une colonne auto se dimensionne sur le
-     max-content de son contenu (la barre de navigation du jeu, en nowrap) et
-     déborde de la page au lieu de la laisser défiler. */
-  grid-template-columns: minmax(0, 1fr);
-  grid-template-areas:
-    "rail"
-    "board";
-}
-
-.game-rail {
-  grid-area: rail;
+  /* Le bas de la coquille laisse la place à la barre flottante : sans cette
+     réserve, elle recouvrirait les derniers éléments de chaque écran. */
+  padding: 24px var(--game-gutter) calc(var(--bottomnav-clearance) + env(safe-area-inset-bottom, 0px));
 }
 
 /**
  * Le plateau reste un conteneur flex vertical : les écrans (quiz, résultat)
- * comptent dessus pour se centrer, comme ils le faisaient dans l'ancien cadre.
- * La hauteur minimale évite que le pied de page remonte sur un écran court.
+ * comptent dessus pour se centrer. La hauteur minimale évite que le pied de
+ * page remonte sur un écran court.
  */
 .game-board {
-  grid-area: board;
   min-width: 0;
   display: flex;
   flex-direction: column;
@@ -73,81 +58,101 @@
 }
 
 @media (min-width: 1024px) {
+  .game-shell {
+    padding-top: 40px;
+  }
+
   .game-board {
     min-height: 620px;
   }
 }
 
-/**
- * Deux colonnes dès 768 px : le rail à gauche, le plateau à droite. Le plateau
- * est borné à 720 px — au-delà, quatre réponses étirées sur toute la largeur
- * deviennent pénibles à lire — et l'ensemble est centré dans la page plutôt
- * que collé à gauche.
- */
-@media (min-width: 768px) {
-  .game-shell {
-    /* Le plateau d'abord, le rail à droite : le jeu commence là où l'œil
-       arrive, et l'identité (niveau, tickets, compte) reste en périphérie. */
-    grid-template-columns: minmax(0, 720px) var(--rail-w);
-    grid-template-areas: "board rail";
-    justify-content: center;
-    align-items: start;
-    gap: 24px;
-    padding-top: 32px;
-  }
+/* ---------- Barre d'état de l'accueil (niveau, parties, illimité) ---------- */
 
-  /* Le rail suit le défilement : le plateau reste le sujet. */
-  .game-rail {
-    position: sticky;
-    top: calc(var(--header-h) + 24px);
-  }
-}
-
-@media (min-width: 1024px) {
-  .game-shell {
-    padding-top: 40px;
-  }
-}
-
-/**
- * Pendant une question, les colonnes latérales s'effacent — mais SEULEMENT en
- * dessous de 1024 px, là où elles occupent de la place verticale devant le
- * quiz. Au-delà, la grille reste identique : lancer une partie réorganisait
- * toute la page (plateau qui saute de sa colonne au centre, rail et panneau
- * qui disparaissent), et ce sursaut se lisait comme un bug.
- */
-@media (max-width: 1023.98px) {
-  .game-shell--focus {
-    grid-template-columns: minmax(0, 1fr);
-    grid-template-areas: "board";
-    max-width: 900px;
-  }
-
-  .game-shell--focus .game-rail {
-    display: none;
-  }
-}
-
-/* ---------- Rail : identité et navigation du jeu ---------- */
-
-.game-rail__card {
-  background: var(--surface);
-  border: 2px solid var(--rule-light);
-  border-radius: 22px;
-  padding: 18px;
-}
-
-.game-rail__identity {
+.game-statusbar {
   display: flex;
   align-items: center;
-  gap: 12px;
-  margin-bottom: 14px;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
 }
 
-.game-rail__level {
+.game-statusbar__cta {
+  font: inherit;
   font-weight: 800;
-  font-size: 15px;
+  font-size: 13px;
+  margin-left: auto;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 999px;
+  background: var(--accent);
+  color: #fff;
+  cursor: pointer;
+  transition: transform 120ms ease, box-shadow 160ms ease;
 }
+
+.game-statusbar__cta:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 18px -8px var(--accent);
+}
+
+/* ---------- Barre de navigation flottante (tab bar web) ---------- */
+
+.game-bottomnav {
+  position: fixed;
+  bottom: calc(14px + env(safe-area-inset-bottom, 0px));
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 40;
+  display: flex;
+  align-items: stretch;
+  gap: 2px;
+  padding: 6px;
+  background: var(--surface);
+  border: 2px solid var(--rule-light);
+  border-radius: 999px;
+  box-shadow: 0 18px 40px -18px rgb(26 24 22 / 35%);
+  /* Jamais plus large que l'écran : les libellés passent dessous en colonne. */
+  max-width: calc(100vw - 24px);
+}
+
+.game-bottomnav__item {
+  font: inherit;
+  font-weight: 700;
+  font-size: 11px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  min-width: 64px;
+  padding: 8px 10px;
+  border: none;
+  border-radius: 999px;
+  background: transparent;
+  color: var(--ink-mid);
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 140ms ease, color 140ms ease;
+}
+
+.game-bottomnav__item:hover {
+  background: var(--canvas-dim);
+  color: var(--ink);
+}
+
+.game-bottomnav__item[aria-current="page"] {
+  background: var(--accent-tint);
+  color: var(--accent-deep);
+}
+
+@media (max-width: 420px) {
+  .game-bottomnav__item {
+    min-width: 56px;
+    padding: 8px 6px;
+  }
+}
+
+/* ---------- Restes partagés (le profil réutilise la barre d'XP) ---------- */
 
 .game-rail__xp {
   color: var(--ink-faint);
@@ -168,71 +173,6 @@
   height: 100%;
   border-radius: 999px;
   background: var(--accent);
-}
-
-.game-rail__nav {
-  display: flex;
-  gap: 8px;
-  overflow-x: auto;
-  scrollbar-width: none;
-}
-
-.game-rail__nav::-webkit-scrollbar {
-  display: none;
-}
-
-.game-nav-item {
-  font: inherit;
-  font-weight: 700;
-  font-size: 14px;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  padding: 10px 14px;
-  border-radius: 14px;
-  border: none;
-  background: transparent;
-  color: var(--ink-mid);
-  cursor: pointer;
-  white-space: nowrap;
-  transition: background 140ms ease, color 140ms ease;
-}
-
-.game-nav-item:hover {
-  background: var(--canvas-dim);
-  color: var(--ink);
-}
-
-.game-nav-item[aria-current="page"] {
-  background: var(--accent-tint);
-  color: var(--accent-deep);
-}
-
-@media (min-width: 1024px) {
-  .game-rail__nav {
-    flex-direction: column;
-    overflow: visible;
-  }
-}
-
-/* Ligne libellé / valeur du rail (solde de parties). Vivait avec le panneau
-   latéral supprimé, alors que le rail s'en sert toujours. */
-.game-stat-row {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  gap: 12px;
-  padding: 7px 0;
-  font-weight: 700;
-  font-size: 14px;
-}
-
-.game-stat-row__value {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  font-weight: 800;
-  color: var(--ink);
 }
 
 /* Le bloc SEO se met en page tout seul (styles scopés dans GameSeoIntro.astro,

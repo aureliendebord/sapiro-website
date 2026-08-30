@@ -261,6 +261,24 @@
   color: var(--wrong-ink);
 }
 
+/* Repasse : mauvaise option déjà écartée — grisée et injouable, mais la
+   grille reste à 4 tuiles (plus lisible que de passer à 3). */
+.quiz-option--dimmed {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+
+/* Question secondaire : le nom de l'entité sous le visuel, pour ne pas poser
+   une double énigme (deviner le pays PUIS sa capitale). */
+.quiz-entity-name {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 800;
+  letter-spacing: -0.3px;
+  text-align: center;
+  color: var(--ink);
+}
+
 .quiz-option:disabled {
   cursor: default;
 }

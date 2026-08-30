@@ -80,6 +80,15 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
       shortcutAnswer: "répondre",
       shortcutQuit: "quitter",
     },
+    /** Libellés courts de la barre de navigation flottante (tab bar web). */
+    nav: {
+      home: "Accueil",
+      journeys: "Aventure",
+      board: "Classement",
+      profile: "Profil",
+      account: "Compte",
+      signIn: "Connexion",
+    },
     quiz: {
       retry: "On corrige les erreurs",
       loadFailed: "Impossible de charger la partie. Vérifie ta connexion — ta partie n'a pas été décomptée.",
@@ -248,6 +257,14 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
       shortcutAnswer: "answer",
       shortcutQuit: "quit",
     },
+    nav: {
+      home: "Home",
+      journeys: "Adventure",
+      board: "Ranking",
+      profile: "Profile",
+      account: "Account",
+      signIn: "Sign in",
+    },
     quiz: {
       retry: "Fixing your mistakes",
       loadFailed: "Couldn't load the game. Check your connection — your game wasn't used up.",
@@ -415,6 +432,14 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
       shortcuts: "Atajos",
       shortcutAnswer: "responder",
       shortcutQuit: "salir",
+    },
+    nav: {
+      home: "Inicio",
+      journeys: "Aventura",
+      board: "Ranking",
+      profile: "Perfil",
+      account: "Cuenta",
+      signIn: "Entrar",
     },
     quiz: {
       retry: "Corrigiendo los errores",

@@ -5,6 +5,7 @@ import { entityVisualUrl, isImageEntity } from "@game/lib/entityAssets";
 import {
   answer as answerSession,
   finishSession,
+  grayedOptions,
   startSession,
   type SessionConfig,
   type SessionResult,
@@ -93,6 +94,8 @@ export function QuizScreen({ config, previousDailyStreak, onFinish, onQuit }: Pr
       if (e.key === "Escape") return onQuit(answeredCount);
       const index = Number(e.key) - 1;
       if (question && index >= 0 && index < question.options.length) {
+        // Une option grisée par la repasse n'est pas jouable, clavier compris.
+        if (grayedOptions(session).has(question.options[index])) return;
         handlePick(question.options[index]);
       }
     };
@@ -105,6 +108,19 @@ export function QuizScreen({ config, previousDailyStreak, onFinish, onQuit }: Pr
   }
 
   const visual = entityVisualUrl(question.entity);
+
+  // Repasse : les mauvaises options déjà écartées sont grisées (1 à la 1re
+  // erreur, 2 au plafond) — on resserre le choix pour apprendre, comme l'app.
+  const grayed = grayedOptions(session);
+
+  // Question secondaire (capitale, siège, nationalité…) : le nom de l'entité
+  // est affiché pour ne pas poser une double énigme — deviner le pays PUIS sa
+  // capitale. Même règle que l'app ; le titre d'une œuvre ou le nom d'un
+  // animal EST la réponse, donc jamais affiché pour ces familles.
+  const showsEntityName =
+    question.type === "secondary" &&
+    question.entity.type !== "artwork" &&
+    question.entity.type !== "animal";
 
   return (
     <div style={{ ...accentVars(config.mode), display: "contents" } as React.CSSProperties}>
@@ -183,22 +199,27 @@ export function QuizScreen({ config, previousDailyStreak, onFinish, onQuit }: Pr
           )}
         </div>
 
+        {showsEntityName && <p className="quiz-entity-name">{question.entity.name}</p>}
+
         {fact && (
           <DidYouKnow entity={fact.entity} lang={config.language} onContinue={fact.next} />
         )}
 
         <div className="quiz-options">
-          {question.options.map((option) => (
-            <button
-              type="button"
-              key={option}
-              className={`quiz-option ${optionState(option, question.correctAnswer, picked)}`}
-              onClick={() => handlePick(option)}
-              disabled={picked !== null}
-            >
-              {option}
-            </button>
-          ))}
+          {question.options.map((option) => {
+            const dimmed = grayed.has(option);
+            return (
+              <button
+                type="button"
+                key={option}
+                className={`quiz-option ${optionState(option, question.correctAnswer, picked)} ${dimmed ? "quiz-option--dimmed" : ""}`}
+                onClick={() => handlePick(option)}
+                disabled={picked !== null || dimmed}
+              >
+                {option}
+              </button>
+            );
+          })}
         </div>
       </div>
     </div>
