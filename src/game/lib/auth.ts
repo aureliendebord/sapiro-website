@@ -128,7 +128,10 @@ export async function signInWithGoogle(): Promise<void> {
 
   const { error } = await supabase.auth.signInWithOAuth({
     provider: "google",
-    options: { redirectTo: window.location.href },
+    // Origine + chemin SANS la query : les UTM d'arrivée feraient échouer le
+    // match de l'allow-list GoTrue (retour → SITE_URL, donc la home) et
+    // re-déclencheraient l'attribution au retour du redirect.
+    options: { redirectTo: `${window.location.origin}${window.location.pathname}` },
   });
   if (error) {
     localStorage.removeItem(PENDING_MERGE_KEY);

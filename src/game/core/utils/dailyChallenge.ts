@@ -1,7 +1,8 @@
 // ⚠️  FICHIER SYNCHRONISÉ — NE PAS ÉDITER À LA MAIN.
 // Source : repo de l'app mobile Sapiro. Régénérer avec `npm run sync:game`.
 // Toute correction doit être faite dans l'app puis re-synchronisée.
-import { DAILY_CHALLENGE_THEMES, DAILY_STREAK_MILESTONES } from "@/data/dailyChallengeThemes";
+import { DAILY_STREAK_MILESTONES } from "@/data/dailyChallengeThemes";
+import { getDailyThemes } from "@/lib/content/catalog";
 import type { DailyChallengeTheme, ThemeType } from "@/types";
 
 // Re-export shuffle utilities for convenience
@@ -45,17 +46,19 @@ export function getDailyTheme(
   themeCategory?: ThemeType,
 ): DailyChallengeTheme {
   const seed = getDailySeed(date);
+  // Catalogue ACTIF (serveur ou seed) : même liste → même thème pour tous.
+  const allThemes = getDailyThemes();
 
   // Filtrer les thèmes par catégorie si spécifié
   const themes = themeCategory
-    ? DAILY_CHALLENGE_THEMES.filter((t) => t.themeCategory === themeCategory)
-    : DAILY_CHALLENGE_THEMES;
+    ? allThemes.filter((t) => t.themeCategory === themeCategory)
+    : allThemes;
 
   // S'assurer qu'il y a des thèmes disponibles
   if (themes.length === 0) {
     // Fallback sur tous les thèmes si aucun ne correspond
-    const themeIndex = seed % DAILY_CHALLENGE_THEMES.length;
-    return DAILY_CHALLENGE_THEMES[themeIndex];
+    const themeIndex = seed % allThemes.length;
+    return allThemes[themeIndex];
   }
 
   const themeIndex = seed % themes.length;
@@ -65,7 +68,7 @@ export function getDailyTheme(
   // correspond bien à la catégorie demandée (protection contre les bugs de filtrage)
   if (themeCategory && selectedTheme.themeCategory !== themeCategory) {
     // En cas d'incohérence, forcer le premier thème de la bonne catégorie
-    const fallback = DAILY_CHALLENGE_THEMES.find((t) => t.themeCategory === themeCategory);
+    const fallback = allThemes.find((t) => t.themeCategory === themeCategory);
     if (fallback) return fallback;
   }
 

@@ -14,5 +14,7 @@
       "@game/*": ["src/game/*"]
     }
   },
-  "exclude": ["dist", "node_modules"]
+  // scripts/templates : sources de génération (sync:game) — leurs imports
+  // relatifs ne se résolvent qu'à destination (src/game/core/lib/content).
+  "exclude": ["dist", "node_modules", "scripts/templates"]
 }

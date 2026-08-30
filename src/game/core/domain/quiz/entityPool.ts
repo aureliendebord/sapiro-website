@@ -8,34 +8,7 @@
  * Les filtres sont definis dans domain/journeys/catalog.ts (source de verite unique).
  * Ce module se contente d'appliquer ces filtres aux donnees.
  */
-import {
-  countries,
-  getCountriesByContinent,
-  getCountriesByTag,
-  getCountriesByPopulation,
-} from "@/data/countries";
-import { frenchRegions, getRegionsByOverseas } from "@/data/regions-fr";
-import { historicalEmpires, getEmpiresByEra } from "@/data/empires";
-import { internationalOrgs, getOrgsByCategory } from "@/data/organizations";
-import {
-  historicalFigures,
-  getFiguresByCategory,
-  getFiguresByEra,
-  getFiguresByContinent,
-} from "@/data/historicalFigures";
-import { getArtworksPool } from "@/lib/content/artworks";
-import {
-  allAnimals,
-  getAnimalsByClass,
-  getAnimalsByFamily,
-  getAnimalsByFamilies,
-} from "@/data/animals";
-import {
-  getAvailableMonuments,
-  getMonumentsByContinent,
-  getMonumentsByCategory,
-  getMonumentsBySubCategory,
-} from "@/data/monuments";
+import { getDatasetPool } from "@/lib/content/entities";
 import { getJourneyById } from "@/domain/journeys";
 
 import type {
@@ -43,7 +16,14 @@ import type {
   EntityType,
   JourneyFilter,
   DailyChallengeTheme,
+  Animal,
   Artwork,
+  Country,
+  FrenchRegion,
+  HistoricalEmpire,
+  HistoricalFigure,
+  InternationalOrg,
+  Monument,
 } from "@/types";
 
 // ============================================
@@ -54,72 +34,90 @@ import type {
  * Applique un filtre metier a un type d'entite.
  * Utilise par getEntityPool (journeys) et getDailyChallengePool (defi quotidien).
  */
+/**
+ * Tous les pools de base viennent de `getDatasetPool` (contenu serveur si une
+ * mise à jour est active, sinon le seed bundlé) : c'est ce qui fait qu'une
+ * correction de données publiée sur le CDN vaut pour TOUS les modes de jeu.
+ * Les filtres reprennent tels quels les helpers historiques de `data/*.ts`,
+ * appliqués au dataset ACTIF au lieu de l'import statique.
+ */
 function getPoolByFilter(entityType: EntityType, filter: JourneyFilter): AnyFlagEntity[] {
   // Countries
   if (entityType === "country" || !entityType) {
-    if (filter.continent) return getCountriesByContinent(filter.continent);
-    if (filter.tags?.length) return getCountriesByTag(filter.tags[0]);
-    if (filter.minPopulation) return getCountriesByPopulation(filter.minPopulation);
-    if (filter.maxArea) return countries.filter((c) => c.area < filter.maxArea!);
-    return countries;
+    const pool = getDatasetPool("country") as Country[];
+    if (filter.continent) return pool.filter((c) => c.continent === filter.continent);
+    if (filter.tags?.length) return pool.filter((c) => c.tags.includes(filter.tags![0]));
+    if (filter.minPopulation) return pool.filter((c) => c.population >= filter.minPopulation!);
+    if (filter.maxArea) return pool.filter((c) => c.area < filter.maxArea!);
+    return pool;
   }
 
   // French Regions
   if (entityType === "region") {
-    if (filter.isOverseas !== undefined) return getRegionsByOverseas(filter.isOverseas);
-    return frenchRegions;
+    const pool = getDatasetPool("region") as FrenchRegion[];
+    if (filter.isOverseas !== undefined)
+      return pool.filter((r) => r.isOverseas === filter.isOverseas);
+    return pool;
   }
 
   // Historical Empires
   if (entityType === "empire") {
-    if (filter.era) return getEmpiresByEra(filter.era);
-    return historicalEmpires;
+    const pool = getDatasetPool("empire") as HistoricalEmpire[];
+    if (filter.era) return pool.filter((e) => e.era === filter.era);
+    return pool;
   }
 
   // International Organizations
   if (entityType === "organization") {
-    if (filter.orgCategory) return getOrgsByCategory(filter.orgCategory);
-    return internationalOrgs;
+    const pool = getDatasetPool("organization") as InternationalOrg[];
+    if (filter.orgCategory) return pool.filter((o) => o.category === filter.orgCategory);
+    return pool;
   }
 
   // Historical Figures
   if (entityType === "figure") {
-    if (filter.figureCategory) return getFiguresByCategory(filter.figureCategory);
-    if (filter.figureEra) return getFiguresByEra(filter.figureEra);
-    if (filter.figureContinent) return getFiguresByContinent(filter.figureContinent);
-    return historicalFigures;
+    const pool = getDatasetPool("figure") as HistoricalFigure[];
+    if (filter.figureCategory) return pool.filter((f) => f.category === filter.figureCategory);
+    if (filter.figureEra) return pool.filter((f) => f.era === filter.figureEra);
+    if (filter.figureContinent) return pool.filter((f) => f.continent === filter.figureContinent);
+    return pool;
   }
 
   // Artworks
   if (entityType === "artwork") {
-    let pool: AnyFlagEntity[] = getArtworksPool();
+    let pool: AnyFlagEntity[] = getDatasetPool("artwork");
     if (filter.artMovement)
       pool = pool.filter((a) => (a as Artwork).movement === filter.artMovement);
     if (filter.artMedium) pool = pool.filter((a) => (a as Artwork).medium === filter.artMedium);
     if (filter.artMuseum)
       pool = pool.filter((a) =>
-        (a as Artwork).museum.toLowerCase().includes(filter.artMuseum!.toLowerCase()),
+        ((a as Artwork).museum ?? "").toLowerCase().includes(filter.artMuseum!.toLowerCase()),
       );
     return pool;
   }
 
   // Animals
   if (entityType === "animal") {
-    if (filter.animalClass) return getAnimalsByClass(filter.animalClass);
-    if (filter.animalFamily) return getAnimalsByFamily(filter.animalFamily);
-    if (filter.animalFamilies) return getAnimalsByFamilies(filter.animalFamilies);
-    return allAnimals;
+    const pool = getDatasetPool("animal") as Animal[];
+    if (filter.animalClass) return pool.filter((a) => a.animalClass === filter.animalClass);
+    if (filter.animalFamily) return pool.filter((a) => a.family === filter.animalFamily);
+    if (filter.animalFamilies)
+      return pool.filter((a) => filter.animalFamilies!.includes(a.family));
+    return pool;
   }
 
   // Monuments
   if (entityType === "monument") {
-    if (filter.monumentContinent) return getMonumentsByContinent(filter.monumentContinent);
-    if (filter.monumentCategory) return getMonumentsByCategory(filter.monumentCategory);
-    if (filter.monumentSubCategory) return getMonumentsBySubCategory(filter.monumentSubCategory);
-    return getAvailableMonuments();
+    const pool = getDatasetPool("monument") as Monument[];
+    if (filter.monumentContinent)
+      return pool.filter((m) => m.continent === filter.monumentContinent);
+    if (filter.monumentCategory) return pool.filter((m) => m.category === filter.monumentCategory);
+    if (filter.monumentSubCategory)
+      return pool.filter((m) => m.subCategory === filter.monumentSubCategory);
+    return pool;
   }
 
-  return countries;
+  return getDatasetPool("country");
 }
 
 // ============================================

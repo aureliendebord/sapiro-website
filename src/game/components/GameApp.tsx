@@ -94,10 +94,6 @@ export default function GameApp({ lang }: Props) {
   // la 1re partie), reprise d'une éventuelle fusion post-redirect Google, puis
   // envoi des parties restées en file d'attente.
   useEffect(() => {
-    // Contenu serveur (même source que l'app) : vérifié en tâche de fond,
-    // appliqué seulement si le pool arrive avant la première partie.
-    initWebContent();
-
     const unsubscribe = onAuthChange((nextUser) => {
       identifyAnalytics(nextUser?.id ?? null);
       setUser(nextUser);
@@ -143,7 +139,13 @@ export default function GameApp({ lang }: Props) {
   // d'une partie, et seulement pour la famille jouée.
   useEffect(() => {
     let cancelled = false;
-    void loadLanguage(lang).then(() => {
+    // Contenu serveur (même source que l'app) : attendu au boot, borné à
+    // 1,5 s — au premier passage le seed gagne, ensuite le cache HTTP rend
+    // l'application quasi instantanée. Jamais de bascule après le boot.
+    void Promise.all([
+      loadLanguage(lang),
+      Promise.race([initWebContent(), new Promise((r) => setTimeout(r, 1500))]),
+    ]).then(() => {
       if (!cancelled) setReady(true);
     });
     void refreshRemoteConfig();

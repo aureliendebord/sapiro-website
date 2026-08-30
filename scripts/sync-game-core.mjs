@@ -49,6 +49,10 @@ const COPY = [
   // pour que le daily web soit LE MÊME quiz que sur mobile.
   { from: 'utils/dailyChallenge.ts', to: 'utils/dailyChallenge.ts' },
   { from: 'hooks/useLocalizedEntity.ts', to: 'hooks/useLocalizedEntity.ts' },
+  // Contenu serveur : registre des familles et validation du catalogue —
+  // modules purs (sans React Native), partagés tels quels avec l'app.
+  { from: 'lib/content/datasets.ts', to: 'lib/content/datasets.ts' },
+  { from: 'lib/content/catalogSchema.ts', to: 'lib/content/catalogSchema.ts' },
 ];
 
 /** Locales : seulement les 3 langues du site, et seulement les JSON utiles. */
@@ -287,7 +291,12 @@ async function syncIconMap(availableSlugs) {
 /** Génère les adaptateurs web depuis `scripts/templates/`. */
 function syncTemplates() {
   // Dossier cible de chaque template dans core/ (par défaut : hooks/).
-  const TEMPLATE_DIRS = { 'artworks.web.ts': 'lib/content' };
+  const TEMPLATE_DIRS = {
+    'artworks.web.ts': 'lib/content',
+    'entities.web.ts': 'lib/content',
+    'catalog.web.ts': 'lib/content',
+    'webContent.web.ts': 'lib/content',
+  };
   const dir = path.join(SITE, 'scripts/templates');
   for (const file of fs.readdirSync(dir)) {
     if (!file.endsWith('.ts')) continue;

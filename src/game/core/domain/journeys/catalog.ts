@@ -8,6 +8,7 @@
  * domain/quiz/entityPool.ts execute ces filtres sans logique propre.
  */
 import type { EntityType, ThemeType, JourneyFilter } from "@/types";
+import { getJourneysCatalog } from "@/lib/content/catalog";
 
 // ============================================
 // Types
@@ -163,18 +164,22 @@ export const JOURNEY_CATALOG: JourneyDefinition[] = [
 // ============================================
 // Helpers
 // ============================================
+// Les getters servent le catalogue ACTIF (serveur si contenu à jour, sinon le
+// seed ci-dessus) : c'est ce qui permet d'ajouter une journey sans release.
+// L'import est cyclique (lib/content/catalog importe le seed d'ici) mais
+// seulement traversé dans des corps de fonction — jamais à l'évaluation.
 
 /** Filtrer les journeys par categorie */
 export function getJourneysByCategory(category: JourneyCategory): JourneyDefinition[] {
-  return JOURNEY_CATALOG.filter((j) => j.category === category);
+  return getJourneysCatalog().filter((j) => j.category === category);
 }
 
 /** Filtrer les journeys par theme */
 export function getJourneysByTheme(theme: ThemeType): JourneyDefinition[] {
-  return JOURNEY_CATALOG.filter((j) => j.theme === theme);
+  return getJourneysCatalog().filter((j) => j.theme === theme);
 }
 
 /** Trouver un journey par ID */
 export function getJourneyById(id: string): JourneyDefinition | undefined {
-  return JOURNEY_CATALOG.find((j) => j.id === id);
+  return getJourneysCatalog().find((j) => j.id === id);
 }
