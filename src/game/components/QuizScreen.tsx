@@ -17,6 +17,7 @@ import { Icon } from "./ui/Icon";
 import { Glyph } from "./ui/Glyph";
 import { getMuted, play, setMuted } from "@game/lib/sounds";
 import { DidYouKnow, hasFacts } from "./quiz/DidYouKnow";
+import { QuizProgressBar } from "./quiz/QuizProgressBar";
 
 /** Délai d'affichage du feedback avant la question suivante (ms). */
 const FEEDBACK_MS = 900;
@@ -135,18 +136,11 @@ export function QuizScreen({ config, previousDailyStreak, onFinish, onQuit }: Pr
         </button>
 
         {session.totalQuestions !== null ? (
-          <div
-            className="quiz-segments"
-            role="progressbar"
-            aria-valuenow={session.questionIndex}
-            aria-valuemin={0}
-            aria-valuemax={session.totalQuestions}
-            aria-label={t("web.quiz.progress")}
-          >
-            {Array.from({ length: session.totalQuestions }, (_, i) => (
-              <span key={i} className={`quiz-segment ${segmentState(i, session, picked)}`} />
-            ))}
-          </div>
+          <QuizProgressBar
+            answered={answeredCount}
+            total={session.totalQuestions}
+            label={t("web.quiz.progress")}
+          />
         ) : (
           <span className="game-pill">
             {t("web.quiz.goodAnswers", { count: session.questionIndex })}
@@ -224,21 +218,6 @@ export function QuizScreen({ config, previousDailyStreak, onFinish, onQuit }: Pr
       </div>
     </div>
   );
-}
-
-/**
- * État d'un segment de la barre de progression : réussi, raté, en cours, à
- * venir. Reproduit la lecture instantanée du header de l'app — on voit d'un
- * coup d'œil où on en est ET comment on s'en sort.
- */
-function segmentState(index: number, session: SessionState, picked: string | null): string {
-  if (index < session.questionIndex) {
-    return session.answers[index] ? "quiz-segment--ok" : "quiz-segment--ko";
-  }
-  if (index === session.questionIndex) {
-    return picked === null ? "quiz-segment--current" : "quiz-segment--current";
-  }
-  return "";
 }
 
 /**
