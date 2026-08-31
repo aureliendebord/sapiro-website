@@ -47,15 +47,12 @@ interface Props {
 export function HomeScreen({ ticketsLeft, isPremium, dailyDone, onAction }: Props) {
   const outOfTickets = !isPremium && ticketsLeft <= 0;
 
+  // Pas de titre ni de sous-titre au-dessus des modes : le header du site dit
+  // déjà « Sapiro », et le <h1> de la page vit dans le bloc rendu au build
+  // (`GameSeoIntro`) — celui-là était monté côté client, donc invisible pour
+  // Google, et il coûtait 93px de hauteur avant la première carte.
   return (
     <>
-      <div className="home-head">
-        <div>
-          <h1 className="home-title">{t("web.home.title")}</h1>
-          <p className="home-sub">{t("web.home.subtitle")}</p>
-        </div>
-      </div>
-
       {outOfTickets && <div className="game-notice">{t("web.home.quotaNotice")}</div>}
 
       <div className="mode-list">

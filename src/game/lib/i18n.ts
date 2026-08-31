@@ -44,8 +44,6 @@ const BUNDLES: Record<GameLang, () => Promise<Dict[]>> = {
 const WEB_STRINGS: Record<GameLang, Dict> = {
   fr: {
     home: {
-      title: "Sapiro",
-      subtitle: "Apprends en jouant : géographie, histoire, art, nature, monuments.",
       quotaNotice:
         "Plus de parties aujourd'hui. Le Défi du jour reste jouable, et l'illimité t'attend.",
       level: "Niveau {{level}}",
@@ -212,8 +210,6 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
   },
   en: {
     home: {
-      title: "Sapiro",
-      subtitle: "Learn by playing: geography, history, art, nature, monuments.",
       quotaNotice:
         "No games left today. The Daily Challenge is still playable, and unlimited is waiting.",
       level: "Level {{level}}",
@@ -379,8 +375,6 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
   },
   es: {
     home: {
-      title: "Sapiro",
-      subtitle: "Aprende jugando: geografía, historia, arte, naturaleza, monumentos.",
       quotaNotice:
         "No te quedan partidas hoy. El Desafío del día sigue jugable, y el ilimitado te espera.",
       level: "Nivel {{level}}",
