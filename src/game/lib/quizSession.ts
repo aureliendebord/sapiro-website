@@ -12,24 +12,16 @@
  *   même thème que l'app), la révision rejoue chaque entité ratée avec les
  *   distracteurs de SA famille (`buildReviewQuestions`).
  */
-import type { AnyFlagEntity, DailyChallengeTheme, EntityType, ReviewItem } from "@/types";
-import {
-  generateQuestions,
-  generateSingleQuestion,
-  type QuizQuestion,
-} from "@/domain/quiz/questionGenerator";
-import {
-  getDailyChallengePool,
-  getEntityPool,
-  getFullPool,
-} from "@/domain/quiz/entityPool";
+import type { AnyFlagEntity, EntityType, ReviewItem } from "@/types";
+import { generateSingleQuestion, type QuizQuestion } from "@/domain/quiz/questionGenerator";
+import { getEntityPool, getFullPool } from "@/domain/quiz/entityPool";
 import { buildReviewQuestions } from "@/domain/quiz/reviewQuestions";
-import { buildMixedQuestions } from "@/domain/quiz/mixedQuestions";
+import { buildMixedQuestions, type PoolPreparer } from "@/domain/quiz/mixedQuestions";
+import { FLAG_FILES } from "@game/design/flags.generated";
 import { calculateXP, type XPBreakdown } from "@/domain/quiz/scoring";
 import {
   CLASSIC_QUESTION_COUNT,
   DAILY_CHALLENGE_QUESTIONS,
-  OPTIONS_COUNT,
   SURVIVAL_LIVES,
 } from "@/domain/quiz/constants";
 import { getJourneyById } from "@/domain/journeys/catalog";
@@ -40,7 +32,7 @@ import {
   stageOfMixedBlock,
 } from "@/domain/journeys/path";
 import { makeStageMixPool } from "@/domain/journeys/stageMixPool";
-import { getDailySeed, getDailyTheme } from "@/utils/dailyChallenge";
+import { getDailySeed } from "@/utils/dailyChallenge";
 
 export type QuizMode = "classic" | "survival" | "daily" | "review";
 
@@ -136,40 +128,34 @@ function resolvePool(config: SessionConfig): { pool: AnyFlagEntity[]; fullPool: 
  * (`app/quiz/[mode].tsx`) — tous les joueurs, web comme mobile, jouent le
  * même quiz ce jour-là.
  */
+/**
+ * Prépare un pool avant tirage mixte — miroir du `prepareMixPool` de l'écran
+ * quiz mobile : ne garder, côté pays, que les entités dont le drapeau existe.
+ * (Le filtre démo du mobile est un no-op hors mode démo App Store, absent du
+ * web.) Même filtre → mêmes pools → même Défi du jour que l'app.
+ */
+const prepareMixPool: PoolPreparer = (pool, type) =>
+  type === "country" ? pool.filter((e) => FLAG_FILES.has(e.flagPath)) : pool;
+
 export function buildDailyPlaylist(
   language: string,
   // Exporté et paramétré par la date pour `scripts/parity-daily.mjs` : la
-  // parité doit exercer CE code (thème, seed, choix name/secondary), pas une
-  // copie qui resterait verte quand ce fichier évolue.
+  // parité doit exercer CE code, pas une copie qui resterait verte quand ce
+  // fichier évolue.
   date: Date = new Date(),
-): {
-  questions: QuizQuestion[];
-  theme: DailyChallengeTheme;
-} {
-  const theme = getDailyTheme(date);
-  const seed = getDailySeed(date);
-  const pool = getDailyChallengePool(theme);
-
-  const isSecondary =
-    theme.questionType === "capital" ||
-    theme.questionType === "artwork_name" ||
-    theme.questionType === "figure_birth_country" ||
-    theme.questionType === "figure_nationality";
-  const secondaryField =
-    theme.questionType === "figure_birth_country" ? "birthCountry" : "nationality";
-
-  const questions = generateQuestions(
-    pool,
-    DAILY_CHALLENGE_QUESTIONS,
-    OPTIONS_COUNT,
-    seed,
-    isSecondary ? "secondary" : "name",
-    getFullPool(theme.entityType),
-    language,
-    secondaryField,
-  );
-
-  return { questions, theme };
+): { questions: QuizQuestion[] } {
+  // Défi MIXTE : 10 questions équilibrées sur les 5 thématiques, seedées par
+  // la date — le défaut du mobile (thème « Mixte »), donc le même quiz que
+  // l'app pour tout le monde. L'app propose en plus des défis par catégorie
+  // (getDailyTheme filtré) : hors périmètre web, assumé.
+  return {
+    questions: buildMixedQuestions(
+      DAILY_CHALLENGE_QUESTIONS,
+      getDailySeed(date),
+      language,
+      prepareMixPool,
+    ),
+  };
 }
 
 /**
@@ -193,9 +179,10 @@ export function startSession(config: SessionConfig): SessionState {
   let dailyTheme: string | null = null;
 
   if (config.mode === "daily") {
-    const daily = buildDailyPlaylist(config.language);
-    playlist = daily.questions;
-    dailyTheme = daily.theme.themeCategory;
+    playlist = buildDailyPlaylist(config.language).questions;
+    // Le mobile enregistre le défi Mixte sous le thème "mix" (partyTheme) —
+    // même valeur ici, le classement par thème est partagé.
+    dailyTheme = "mix";
   } else if (config.mode === "review") {
     playlist = buildReviewPlaylist(config.reviewItems ?? [], config.language);
   } else if (config.pathBlockId && isMixedBlockId(config.pathBlockId)) {
@@ -206,7 +193,7 @@ export function startSession(config: SessionConfig): SessionState {
       MIXED_QUESTIONS,
       undefined,
       config.language,
-      makeStageMixPool(stageOfMixedBlock(config.pathBlockId)),
+      makeStageMixPool(stageOfMixedBlock(config.pathBlockId), prepareMixPool),
     );
   }
 

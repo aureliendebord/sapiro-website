@@ -5,7 +5,6 @@ import { isMixedBlockId } from "@/domain/journeys/path";
 import { usePathStore } from "@game/store/pathStore";
 import { getEntityById } from "@/domain/quiz/entityPool";
 import { CLASSIC_QUESTION_COUNT } from "@/domain/quiz/constants";
-import { getDailyTheme } from "@/utils/dailyChallenge";
 import { warmGameSounds } from "@game/lib/sounds";
 import { loadContent } from "@game/lib/loadContent";
 import { HomeScreen, type HomeAction } from "./HomeScreen";
@@ -178,6 +177,7 @@ export default function GameApp({ lang }: Props) {
       // Bloquant : sans les locales, les questions sortiraient en français.
       // Révision et grand mélange servent les 5 familles → tout charger.
       const heterogeneous =
+        config.mode === "daily" ||
         Boolean(config.reviewItems) ||
         Boolean(config.pathBlockId && isMixedBlockId(config.pathBlockId));
       setPreparing(true);
@@ -230,11 +230,9 @@ export default function GameApp({ lang }: Props) {
         // permettre une 2e partie daily (elle crédite un ticket bonus et écrit
         // dans le classement partagé avec le mobile).
         if (dailyDone) return;
-        const theme = getDailyTheme();
-        return void startQuiz(
-          { mode: "daily", entityType: theme.entityType as EntityType, language: lang },
-          false,
-        );
+        // Défi MIXTE (le même que le mobile) : l'entityType est inerte, la
+        // playlist couvre les 5 familles.
+        return void startQuiz({ mode: "daily", entityType: "country", language: lang }, false);
       }
 
       const mode = action === "survival" ? "survival" : "classic";

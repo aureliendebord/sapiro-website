@@ -66,10 +66,9 @@ async function engineFor(root, coreDir) {
   });
   const load = (rel) => server.ssrLoadModule(`/${path.posix.join(coreDir, rel)}`);
 
-  const [daily, pool, generator, constants, locales] = await Promise.all([
+  const [daily, mixed, constants, locales] = await Promise.all([
     load('utils/dailyChallenge.ts'),
-    load('domain/quiz/entityPool.ts'),
-    load('domain/quiz/questionGenerator.ts'),
+    load('domain/quiz/mixedQuestions.ts'),
     load('domain/quiz/constants.ts'),
     load('lib/content/locales.ts'),
   ]);
@@ -79,7 +78,7 @@ async function engineFor(root, coreDir) {
   const quizSession =
     root === SITE ? await server.ssrLoadModule('/src/game/lib/quizSession.ts') : null;
 
-  return { server, daily, pool, generator, constants, locales, quizSession };
+  return { server, daily, mixed, constants, locales, quizSession };
 }
 
 /**
@@ -94,37 +93,24 @@ async function fingerprint(engine, dateIso, lang) {
   }
 
   const date = localNoon(dateIso);
-  let theme;
   let questions;
 
   if (engine.quizSession) {
     // Site : le vrai chemin joueur (quizSession.buildDailyPlaylist).
-    ({ theme, questions } = engine.quizSession.buildDailyPlaylist(lang, date));
+    ({ questions } = engine.quizSession.buildDailyPlaylist(lang, date));
   } else {
-    // App : reconstruction du daily mobile (le repo de l'app n'expose pas de
-    // builder paramétré par la date). Si le site change sa règle
-    // name/secondary sans l'app, les empreintes divergent — c'est le but.
-    theme = engine.daily.getDailyTheme(date);
-    const seed = engine.daily.getDailySeed(date);
-    const entityPool = engine.pool.getDailyChallengePool(theme);
-
-    const isSecondary =
-      theme.questionType === 'capital' ||
-      theme.questionType === 'artwork_name' ||
-      theme.questionType === 'figure_birth_country' ||
-      theme.questionType === 'figure_nationality';
-    const secondaryField =
-      theme.questionType === 'figure_birth_country' ? 'birthCountry' : 'nationality';
-
-    questions = engine.generator.generateQuestions(
-      entityPool,
+    // App : reconstruction du défi MIXTE mobile (écran quiz, thème « Mixte »,
+    // le défaut) — buildMixedQuestions seedé par la date, pays filtrés par
+    // drapeau disponible comme le `prepareMixPool` de l'écran. Les drapeaux du
+    // site étant synchronisés depuis l'app, FLAG_FILES est le même ensemble
+    // que le `hasFlag` mobile.
+    const prepare = (pool, type) =>
+      type === 'country' ? pool.filter((e) => flagFiles.has(e.flagPath)) : pool;
+    questions = engine.mixed.buildMixedQuestions(
       engine.constants.DAILY_CHALLENGE_QUESTIONS,
-      engine.constants.OPTIONS_COUNT,
-      seed,
-      isSecondary ? 'secondary' : 'name',
-      engine.pool.getFullPool(theme.entityType),
+      engine.daily.getDailySeed(date),
       lang,
-      secondaryField,
+      prepare,
     );
   }
 
@@ -133,7 +119,7 @@ async function fingerprint(engine, dateIso, lang) {
   }
 
   return [
-    `theme=${theme.id ?? theme.themeCategory}:${theme.questionType}:${theme.entityType}`,
+    'theme=mix',
     ...questions.map(
       (q) => `${q.entity.id}|${q.type}|${q.correctAnswer}|${q.options.join('>')}`,
     ),
@@ -156,6 +142,7 @@ function diff(expected, actual) {
 }
 
 const site = await engineFor(SITE, 'src/game/core');
+const { FLAG_FILES: flagFiles } = await site.server.ssrLoadModule('/src/game/design/flags.generated.ts');
 let failed = false;
 
 try {
