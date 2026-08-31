@@ -18,9 +18,14 @@
   /* Largeur et gouttières : partagées par le jeu ET le bloc SEO qui le suit. */
   --game-max: 1200px; /* = --max-width du site */
   --game-gutter: 24px; /* = padding de .container */
+  /* Offset de la barre flottante. 72px : les barres d'outils basses de
+     Safari/Chrome iOS font 50 à 90px et recouvrent les éléments `fixed` —
+     `env(safe-area-inset-bottom)` vaut 0 dans ce contexte et ne compense
+     rien, donc l'offset doit les dépasser à lui seul. */
+  --bottomnav-offset: 72px;
   /* Espace réservé au-dessus du bas de page pour la barre flottante
-     (32px de marge + ~82px de barre + respiration). */
-  --bottomnav-clearance: 128px;
+     (offset + ~82px de barre + respiration). */
+  --bottomnav-clearance: 168px;
 }
 
 .game-main {
@@ -101,9 +106,9 @@
 
 .game-bottomnav {
   position: fixed;
-  /* Décollée du bord : à 14px elle disparaissait sous les barres d'outils des
-     navigateurs mobiles (Safari/Chrome) et se fondait dans le bas de page. */
-  bottom: calc(32px + env(safe-area-inset-bottom, 0px));
+  /* Décollée du bord : à 14px puis 32px elle disparaissait encore sous les
+     barres d'outils des navigateurs mobiles. Voir --bottomnav-offset. */
+  bottom: calc(var(--bottomnav-offset) + env(safe-area-inset-bottom, 0px));
   left: 50%;
   transform: translateX(-50%);
   z-index: 40;
