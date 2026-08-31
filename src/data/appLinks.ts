@@ -30,7 +30,9 @@ export type StoreCampaign =
   | 'blog-cta'
   | 'sticky-cta'
   | 'inline-banner'
-  | 'post-purchase';
+  | 'post-purchase'
+  /** Bloc posé juste sous le jeu, avant le contenu SEO. */
+  | 'game-below';
 
 export function appStoreUrl(lang: Lang): string {
   return `https://apps.apple.com/${APP_STORE_STOREFRONT[lang]}/app/${APP_STORE_SLUG}/id${APP_STORE_ID}`;
