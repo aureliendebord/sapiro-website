@@ -136,12 +136,18 @@ function resolvePool(config: SessionConfig): { pool: AnyFlagEntity[]; fullPool: 
  * (`app/quiz/[mode].tsx`) — tous les joueurs, web comme mobile, jouent le
  * même quiz ce jour-là.
  */
-function buildDailyPlaylist(language: string): {
+export function buildDailyPlaylist(
+  language: string,
+  // Exporté et paramétré par la date pour `scripts/parity-daily.mjs` : la
+  // parité doit exercer CE code (thème, seed, choix name/secondary), pas une
+  // copie qui resterait verte quand ce fichier évolue.
+  date: Date = new Date(),
+): {
   questions: QuizQuestion[];
   theme: DailyChallengeTheme;
 } {
-  const theme = getDailyTheme();
-  const seed = getDailySeed();
+  const theme = getDailyTheme(date);
+  const seed = getDailySeed(date);
   const pool = getDailyChallengePool(theme);
 
   const isSecondary =

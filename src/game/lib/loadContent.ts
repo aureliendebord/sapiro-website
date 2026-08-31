@@ -10,7 +10,10 @@
  * Règles reprises de l'app :
  *  - le contenu ne s'applique qu'AVANT la première question (le chargement est
  *    attendu au boot, borné par `timeoutMs`) — jamais de bascule sous une
- *    session ; passé le délai, les requêtes sont annulées et rien n'est posé ;
+ *    session. Passé le délai, plus rien n'est APPLIQUÉ, mais les requêtes
+ *    continuent en arrière-plan : c'est ce qui remplit le cache HTTP et rend
+ *    l'application effective dès la visite suivante — les annuler condamnerait
+ *    une connexion lente à rejouer la même course perdue à chaque visite ;
  *  - tout échec retombe en silence sur le seed bundlé : le pire cas est « pas
  *    de nouveauté », jamais un jeu cassé ;
  *  - datasets et catalogue sont tout-ou-rien. Un mélange seed/serveur ferait
@@ -55,21 +58,37 @@ function hydrate(file: DatasetFile, raw: unknown): AnyFlagEntity[] | null {
 
 /**
  * Vérifie et applique le contenu serveur pour une langue. À awaiter au montage
- * du jeu ; ne throw jamais.
+ * du jeu ; ne throw jamais, et résout au plus tard à `timeoutMs`.
  *
  * @returns la version de contenu appliquée, ou `null` si on reste sur le seed.
  */
 export async function loadContent(lang: string, timeoutMs = 1500): Promise<number | null> {
   if (typeof window === "undefined") return null;
 
-  const controller = new AbortController();
-  const timer = setTimeout(() => controller.abort(), timeoutMs);
-  const { signal } = controller;
+  // Deadline d'APPLICATION, pas d'annulation : au-delà, le jeu démarre sur le
+  // contenu actif et `fetchAndApply` (qui continue) n'a plus le droit d'écrire
+  // — mais ses téléchargements aboutissent et chauffent le cache HTTP.
+  let expired = false;
+  let timer!: ReturnType<typeof setTimeout>;
+  const deadline = new Promise<null>((resolve) => {
+    timer = setTimeout(() => {
+      expired = true;
+      resolve(null);
+    }, timeoutMs);
+  });
 
+  const work = fetchAndApply(lang, () => expired).finally(() => clearTimeout(timer));
+  return Promise.race([work, deadline]);
+}
+
+/** Télécharge, valide et (si `hasExpired` est encore faux) applique. */
+async function fetchAndApply(
+  lang: string,
+  hasExpired: () => boolean,
+): Promise<number | null> {
   try {
     const manifestRes = await fetch(`${CONTENT_BASE_URL}/manifest.json`, {
       cache: "no-store",
-      signal,
     });
     if (!manifestRes.ok) return null;
 
@@ -84,7 +103,7 @@ export async function loadContent(lang: string, timeoutMs = 1500): Promise<numbe
     const base = `${CONTENT_BASE_URL}/v/${manifest.contentVersion}`;
     const loaded = await Promise.all(
       selectContentFiles(manifest, lang).map(async (rel) => {
-        const res = await fetch(`${base}/${rel}`, { cache: "force-cache", signal });
+        const res = await fetch(`${base}/${rel}`, { cache: "force-cache" });
         return { rel, json: res.ok ? ((await res.json()) as unknown) : null };
       }),
     );
@@ -117,16 +136,15 @@ export async function loadContent(lang: string, timeoutMs = 1500): Promise<numbe
 
     // Un seul fichier de jeu manquant ou illisible → on ne pose rien.
     if (broken) return null;
-    // Course perdue : la partie a pu démarrer sur le seed, on n'y touche plus.
-    if (signal.aborted) return null;
+    // Course perdue : la partie a pu démarrer sur le seed, on n'y touche plus
+    // — le cache est chaud, la prochaine visite gagnera la course.
+    if (hasExpired()) return null;
 
     setRemoteContent(datasets, catalog);
     setLocaleOverrides(locales);
     return manifest.contentVersion;
   } catch {
-    // Réseau, CORS, JSON invalide, abandon : seed bundlé, silencieux.
+    // Réseau, CORS, JSON invalide : seed bundlé, silencieux.
     return null;
-  } finally {
-    clearTimeout(timer);
   }
 }

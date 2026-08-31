@@ -37,6 +37,16 @@ const DATES = ['2026-01-15', '2026-03-02', '2026-06-21', '2026-09-01', '2026-12-
 const LANGS = ['fr', 'en'];
 
 /**
+ * Date LOCALE à midi : `getDailySeed` lit la date avec getFullYear/getDate
+ * (heure locale). Une date UTC basculerait d'un jour selon le fuseau du runner
+ * et ferait diverger l'empreinte de la référence commitée.
+ */
+function localNoon(dateIso) {
+  const [y, m, d] = dateIso.split('-').map(Number);
+  return new Date(y, m - 1, d, 12);
+}
+
+/**
  * Un serveur vite par repo : c'est lui qui résout l'alias `@/`, compile le TS
  * et neutralise `__DEV__` (absent hors Metro — sans ça `data/historicalFigures`
  * plante à l'import).
@@ -47,7 +57,12 @@ async function engineFor(root, coreDir) {
     configFile: false,
     logLevel: 'error',
     define: { __DEV__: 'false' },
-    resolve: { alias: { '@': path.resolve(root, coreDir) } },
+    resolve: {
+      alias: {
+        '@': path.resolve(root, coreDir),
+        '@game': path.resolve(root, 'src/game'),
+      },
+    },
   });
   const load = (rel) => server.ssrLoadModule(`/${path.posix.join(coreDir, rel)}`);
 
@@ -59,13 +74,18 @@ async function engineFor(root, coreDir) {
     load('lib/content/locales.ts'),
   ]);
 
-  return { server, daily, pool, generator, constants, locales };
+  // Côté site uniquement : la machine à états web. C'est ELLE qu'on certifie —
+  // la parité doit exercer le code que les joueurs traversent, pas une copie.
+  const quizSession =
+    root === SITE ? await server.ssrLoadModule('/src/game/lib/quizSession.ts') : null;
+
+  return { server, daily, pool, generator, constants, locales, quizSession };
 }
 
 /**
  * Rejoue le Défi du jour d'une date et en fait une empreinte textuelle.
- * Reproduit `buildDailyPlaylist` de `src/game/lib/quizSession.ts` — si l'un des
- * deux bouge sans l'autre, le site ne joue plus ce que ce script certifie.
+ * Côté site, via `buildDailyPlaylist` (le chemin joueur réel) ; côté app, en
+ * reconstruisant le daily mobile — toute divergence entre les deux échoue ici.
  */
 async function fingerprint(engine, dateIso, lang) {
   // Le web charge ses locales à la demande ; l'app les a en statique.
@@ -73,29 +93,40 @@ async function fingerprint(engine, dateIso, lang) {
     await engine.locales.preloadEntityLocales(lang);
   }
 
-  const date = new Date(`${dateIso}T12:00:00Z`);
-  const theme = engine.daily.getDailyTheme(date);
-  const seed = engine.daily.getDailySeed(date);
-  const entityPool = engine.pool.getDailyChallengePool(theme);
+  const date = localNoon(dateIso);
+  let theme;
+  let questions;
 
-  const isSecondary =
-    theme.questionType === 'capital' ||
-    theme.questionType === 'artwork_name' ||
-    theme.questionType === 'figure_birth_country' ||
-    theme.questionType === 'figure_nationality';
-  const secondaryField =
-    theme.questionType === 'figure_birth_country' ? 'birthCountry' : 'nationality';
+  if (engine.quizSession) {
+    // Site : le vrai chemin joueur (quizSession.buildDailyPlaylist).
+    ({ theme, questions } = engine.quizSession.buildDailyPlaylist(lang, date));
+  } else {
+    // App : reconstruction du daily mobile (le repo de l'app n'expose pas de
+    // builder paramétré par la date). Si le site change sa règle
+    // name/secondary sans l'app, les empreintes divergent — c'est le but.
+    theme = engine.daily.getDailyTheme(date);
+    const seed = engine.daily.getDailySeed(date);
+    const entityPool = engine.pool.getDailyChallengePool(theme);
 
-  const questions = engine.generator.generateQuestions(
-    entityPool,
-    engine.constants.DAILY_CHALLENGE_QUESTIONS,
-    engine.constants.OPTIONS_COUNT,
-    seed,
-    isSecondary ? 'secondary' : 'name',
-    engine.pool.getFullPool(theme.entityType),
-    lang,
-    secondaryField,
-  );
+    const isSecondary =
+      theme.questionType === 'capital' ||
+      theme.questionType === 'artwork_name' ||
+      theme.questionType === 'figure_birth_country' ||
+      theme.questionType === 'figure_nationality';
+    const secondaryField =
+      theme.questionType === 'figure_birth_country' ? 'birthCountry' : 'nationality';
+
+    questions = engine.generator.generateQuestions(
+      entityPool,
+      engine.constants.DAILY_CHALLENGE_QUESTIONS,
+      engine.constants.OPTIONS_COUNT,
+      seed,
+      isSecondary ? 'secondary' : 'name',
+      engine.pool.getFullPool(theme.entityType),
+      lang,
+      secondaryField,
+    );
+  }
 
   if (questions.length !== engine.constants.DAILY_CHALLENGE_QUESTIONS) {
     throw new Error(`${dateIso}/${lang} : ${questions.length} questions générées`);
@@ -146,7 +177,7 @@ try {
       console.error(`  npm run sync:game && npm run parity:game`);
       failed = true;
     } else {
-      console.log(`✓ Défi du jour identique à l'app sur ${changed.length || Object.keys(siteFp).length} empreintes`);
+      console.log(`✓ Défi du jour identique à l'app sur ${Object.keys(siteFp).length} empreintes`);
     }
   } else {
     if (!fs.existsSync(APP)) {

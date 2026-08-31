@@ -127,6 +127,9 @@ function writeOut(dest, content) {
   }
   if (CHECK_ONLY) {
     drift.push(rel);
+    // Le fichier a dérivé mais il EXISTE des deux côtés : le compter dans
+    // `written`, sinon pruneOrphans le re-signalerait en « (orphelin) ».
+    written.push(rel);
     return;
   }
   ensureDir(path.dirname(dest));
