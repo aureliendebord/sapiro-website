@@ -17,6 +17,7 @@ import { Icon } from "./ui/Icon";
 import { Glyph } from "./ui/Glyph";
 import { getMuted, play, setMuted } from "@game/lib/sounds";
 import { DidYouKnow, hasFacts } from "./quiz/DidYouKnow";
+import { QuestionSlide } from "./quiz/QuestionSlide";
 import { QuizProgressBar } from "./quiz/QuizProgressBar";
 
 /** Délai d'affichage du feedback avant la question suivante (ms). */
@@ -182,40 +183,46 @@ export function QuizScreen({ config, previousDailyStreak, onFinish, onQuit }: Pr
         </button>
       </div>
 
-      <div className="quiz-stage">
-        <p className="quiz-prompt">{getQuestionPrompt(question)}</p>
+      {/* Tout le contenu de la question (énoncé, visuel, tuiles) glisse d'un
+          bloc vers la gauche pendant que la suivante arrive depuis la droite,
+          façon pager — comme l'app. `questionIndex` suffit à identifier une
+          transition : il avance aussi pendant la repasse. */}
+      <QuestionSlide transitionKey={`${session.questionIndex}-${question.entity.id}`}>
+        <div className="quiz-stage">
+          <p className="quiz-prompt">{getQuestionPrompt(question)}</p>
 
-        <div className={`quiz-visual ${isImageEntity(question.entity) ? "" : "quiz-visual--flag"}`}>
-          {visual ? (
-            <img src={visual} alt="" key={question.entity.id} loading="eager" />
-          ) : (
-            <EntityFallback entity={question.entity} />
+          <div className={`quiz-visual ${isImageEntity(question.entity) ? "" : "quiz-visual--flag"}`}>
+            {visual ? (
+              <img src={visual} alt="" key={question.entity.id} loading="eager" />
+            ) : (
+              <EntityFallback entity={question.entity} />
+            )}
+          </div>
+
+          {showsEntityName && <p className="quiz-entity-name">{question.entity.name}</p>}
+
+          {fact && (
+            <DidYouKnow entity={fact.entity} lang={config.language} onContinue={fact.next} />
           )}
+
+          <div className="quiz-options">
+            {question.options.map((option) => {
+              const dimmed = grayed.has(option);
+              return (
+                <button
+                  type="button"
+                  key={option}
+                  className={`quiz-option ${optionState(option, question.correctAnswer, picked)} ${dimmed ? "quiz-option--dimmed" : ""}`}
+                  onClick={() => handlePick(option)}
+                  disabled={picked !== null || dimmed}
+                >
+                  {option}
+                </button>
+              );
+            })}
+          </div>
         </div>
-
-        {showsEntityName && <p className="quiz-entity-name">{question.entity.name}</p>}
-
-        {fact && (
-          <DidYouKnow entity={fact.entity} lang={config.language} onContinue={fact.next} />
-        )}
-
-        <div className="quiz-options">
-          {question.options.map((option) => {
-            const dimmed = grayed.has(option);
-            return (
-              <button
-                type="button"
-                key={option}
-                className={`quiz-option ${optionState(option, question.correctAnswer, picked)} ${dimmed ? "quiz-option--dimmed" : ""}`}
-                onClick={() => handlePick(option)}
-                disabled={picked !== null || dimmed}
-              >
-                {option}
-              </button>
-            );
-          })}
-        </div>
-      </div>
+      </QuestionSlide>
     </div>
   );
 }
