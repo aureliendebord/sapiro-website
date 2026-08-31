@@ -13,7 +13,9 @@
     "credits:translate": "node scripts/translate-credits.mjs",
     "sync:game": "node scripts/sync-game-core.mjs",
     "check:game": "node scripts/sync-game-core.mjs --check",
-    "smoke:game": "node scripts/smoke-game-core.mjs"
+    "smoke:game": "node scripts/smoke-game-core.mjs",
+    "parity:game": "node scripts/parity-daily.mjs",
+    "check:parity": "node scripts/parity-daily.mjs --check"
   },
   "dependencies": {
     "@astrojs/cloudflare": "^12.6.13",

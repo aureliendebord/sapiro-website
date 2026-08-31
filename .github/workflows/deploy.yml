@@ -29,6 +29,12 @@ jobs:
 
       - run: npm ci
 
+      # Le cœur de jeu est commité (le repo de l'app est absent en CI) : on
+      # vérifie qu'il tourne encore et qu'il pose toujours les MÊMES questions
+      # que l'app — empreinte du Défi du jour figée par `npm run parity:game`.
+      - run: npm run smoke:game
+      - run: npm run check:parity
+
       # Déclenche aussi le hook `prebuild` (vérif des liens cross-langue).
       # Les PUBLIC_* sont inlinées dans le bundle du jeu au build : sans elles,
       # le jeu tourne mais sans compte ni abonnement (voir src/game/README.md).
