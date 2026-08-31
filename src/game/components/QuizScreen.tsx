@@ -122,6 +122,19 @@ export function QuizScreen({ config, previousDailyStreak, onFinish, onQuit }: Pr
     question.entity.type !== "artwork" &&
     question.entity.type !== "animal";
 
+  // Barre continue, comme le header de l'app (QuizProgressBar) : elle se
+  // remplit à chaque réponse, sans découpage par question — le feedback
+  // juste/raté est déjà donné question par question. En repasse elle REPART
+  // sur la file d'erreurs (résolues / restantes) au lieu de rester figée à
+  // 10/10 ; pendant le feedback la bonne réponse compte tout de suite, sinon
+  // la barre n'avancerait qu'à la question suivante.
+  const progress = session.retrying
+    ? {
+        done: session.retryDone + (picked === question.correctAnswer ? 1 : 0),
+        total: session.retryDone + session.retryQueue.length,
+      }
+    : { done: answeredCount, total: session.totalQuestions ?? 0 };
+
   return (
     <div style={{ ...accentVars(config.mode), display: "contents" } as React.CSSProperties}>
       <div className="game-topbar">
@@ -136,16 +149,19 @@ export function QuizScreen({ config, previousDailyStreak, onFinish, onQuit }: Pr
 
         {session.totalQuestions !== null ? (
           <div
-            className="quiz-segments"
+            className="quiz-progress"
             role="progressbar"
-            aria-valuenow={session.questionIndex}
+            aria-valuenow={progress.done}
             aria-valuemin={0}
-            aria-valuemax={session.totalQuestions}
+            aria-valuemax={progress.total}
             aria-label={t("web.quiz.progress")}
           >
-            {Array.from({ length: session.totalQuestions }, (_, i) => (
-              <span key={i} className={`quiz-segment ${segmentState(i, session, picked)}`} />
-            ))}
+            <span
+              className="quiz-progress-fill"
+              style={{
+                width: `${progress.total > 0 ? Math.min(progress.done / progress.total, 1) * 100 : 0}%`,
+              }}
+            />
           </div>
         ) : (
           <span className="game-pill">
@@ -224,21 +240,6 @@ export function QuizScreen({ config, previousDailyStreak, onFinish, onQuit }: Pr
       </div>
     </div>
   );
-}
-
-/**
- * État d'un segment de la barre de progression : réussi, raté, en cours, à
- * venir. Reproduit la lecture instantanée du header de l'app — on voit d'un
- * coup d'œil où on en est ET comment on s'en sort.
- */
-function segmentState(index: number, session: SessionState, picked: string | null): string {
-  if (index < session.questionIndex) {
-    return session.answers[index] ? "quiz-segment--ok" : "quiz-segment--ko";
-  }
-  if (index === session.questionIndex) {
-    return picked === null ? "quiz-segment--current" : "quiz-segment--current";
-  }
-  return "";
 }
 
 /**

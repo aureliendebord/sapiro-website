@@ -582,33 +582,23 @@
   text-decoration: none;
 }
 
-/* Barre segmentée : un segment par question, comme le header de l'app.
-   On lit d'un coup d'œil où on en est ET comment on s'en sort. */
-.quiz-segments {
-  display: flex;
-  gap: 4px;
+/* Barre continue : elle se remplit à chaque réponse, comme le header de
+   l'app — pas de découpage par question, le feedback juste/raté est déjà
+   donné question par question. */
+.quiz-progress {
   flex: 1;
-}
-
-.quiz-segment {
-  flex: 1;
-  height: 8px;
+  height: 10px;
   border-radius: 999px;
   background: var(--rule-light);
-  transition: background 220ms ease, box-shadow 220ms ease;
+  overflow: hidden;
 }
 
-.quiz-segment--ok {
-  background: var(--correct);
-}
-
-.quiz-segment--ko {
-  background: #d08a6e;
-}
-
-.quiz-segment--current {
-  background: var(--accent-tint);
-  box-shadow: inset 0 0 0 2px var(--accent);
+.quiz-progress-fill {
+  display: block;
+  height: 100%;
+  border-radius: 999px;
+  background: var(--accent);
+  transition: width 420ms cubic-bezier(0.33, 1, 0.68, 1);
 }
 
 /* Détail des bonus d'XP — l'équivalent de la XPBonusCard de l'app : le joueur
