@@ -18,8 +18,9 @@
   /* Largeur et gouttières : partagées par le jeu ET le bloc SEO qui le suit. */
   --game-max: 1200px; /* = --max-width du site */
   --game-gutter: 24px; /* = padding de .container */
-  /* Espace réservé au-dessus du bas de page pour la barre flottante. */
-  --bottomnav-clearance: 96px;
+  /* Espace réservé au-dessus du bas de page pour la barre flottante
+     (32px de marge + ~82px de barre + respiration). */
+  --bottomnav-clearance: 128px;
 }
 
 .game-main {
@@ -100,7 +101,9 @@
 
 .game-bottomnav {
   position: fixed;
-  bottom: calc(14px + env(safe-area-inset-bottom, 0px));
+  /* Décollée du bord : à 14px elle disparaissait sous les barres d'outils des
+     navigateurs mobiles (Safari/Chrome) et se fondait dans le bas de page. */
+  bottom: calc(32px + env(safe-area-inset-bottom, 0px));
   left: 50%;
   transform: translateX(-50%);
   z-index: 40;
@@ -111,7 +114,9 @@
   background: var(--surface);
   border: 2px solid var(--rule-light);
   border-radius: 999px;
-  box-shadow: 0 18px 40px -18px rgb(26 24 22 / 35%);
+  box-shadow:
+    0 24px 48px -16px rgb(26 24 22 / 45%),
+    0 4px 12px rgb(26 24 22 / 12%);
   /* Jamais plus large que l'écran : les libellés passent dessous en colonne. */
   max-width: calc(100vw - 24px);
 }
