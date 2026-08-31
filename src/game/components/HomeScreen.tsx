@@ -2,7 +2,7 @@ import { modeColor } from "@game/design/tokens";
 import { t } from "@game/lib/i18n";
 import { Icon } from "./ui/Icon";
 
-export type HomeAction = "classic" | "survival" | "daily" | "review" | "journeys";
+export type HomeAction = "classic" | "survival" | "daily" | "journeys";
 
 interface ModeCard {
   action: HomeAction;
@@ -18,7 +18,7 @@ interface ModeCard {
 }
 
 /**
- * Les cinq modes, dans l'ordre de l'accueil mobile. Les emojis sont ceux de
+ * Les quatre modes, dans l'ordre de l'accueil mobile. Les emojis sont ceux de
  * l'app (`THEME_EMOJI` / `MODE_ICONS`) : ils désignent des illustrations
  * synchronisées, pas des caractères à afficher.
  */
@@ -29,18 +29,16 @@ const CARDS: ModeCard[] = [
   { action: "daily", icon: "📅", nameKey: "daily", descKey: "dailyDesc", metaKey: "dailyMeta", color: "daily", costsTicket: false },
   { action: "classic", icon: "🎮", nameKey: "classic", descKey: "classicDesc", metaKey: "classicMeta", color: "classic", costsTicket: true },
   { action: "survival", icon: "❤️", nameKey: "survival", descKey: "survivalDesc", metaKey: "survivalMeta", color: "survival", costsTicket: true },
-  { action: "review", icon: "🎓", nameKey: "review", descKey: "reviewDesc", metaKey: "reviewMeta", color: "review", costsTicket: true },
 ];
 
 interface Props {
   ticketsLeft: number;
   isPremium: boolean;
-  reviewCount: number;
   dailyDone: boolean;
   onAction: (action: HomeAction) => void;
 }
 
-export function HomeScreen({ ticketsLeft, isPremium, reviewCount, dailyDone, onAction }: Props) {
+export function HomeScreen({ ticketsLeft, isPremium, dailyDone, onAction }: Props) {
   const outOfTickets = !isPremium && ticketsLeft <= 0;
 
   return (
@@ -58,16 +56,12 @@ export function HomeScreen({ ticketsLeft, isPremium, reviewCount, dailyDone, onA
         {CARDS.map((card) => {
           const colors = modeColor(card.color);
           const disabled =
-            (card.action === "review" && reviewCount === 0) ||
-            (card.action === "daily" && dailyDone) ||
-            (card.costsTicket && outOfTickets);
+            (card.action === "daily" && dailyDone) || (card.costsTicket && outOfTickets);
 
           const desc =
-            card.action === "review" && reviewCount > 0
-              ? t("web.home.reviewCount", { count: reviewCount })
-              : card.action === "daily" && dailyDone
-                ? t("web.home.dailyDone")
-                : t(`web.home.${card.descKey}`);
+            card.action === "daily" && dailyDone
+              ? t("web.home.dailyDone")
+              : t(`web.home.${card.descKey}`);
 
           return (
             <button

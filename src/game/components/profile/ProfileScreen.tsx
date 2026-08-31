@@ -35,7 +35,6 @@ export function ProfileScreen({ user, isPremium, onAccount, onSubscribe }: Props
   const bestSurvival = useGameStore((s) => s.bestSurvivalStreak);
   const dailyStreak = useGameStore((s) => s.dailyStreak);
   const playStreak = useGameStore((s) => s.playStreak);
-  const reviewCount = useGameStore((s) => s.review.length);
   const history = useGameStore((s) => s.history);
   const pathCleared = usePathStore((s) => s.cleared());
 
@@ -105,7 +104,6 @@ export function ProfileScreen({ user, isPremium, onAccount, onSubscribe }: Props
           <Stat icon="❤️" label={t("web.profile.bestSurvival")} value={bestSurvival} />
           <Stat icon="🔥" label={t("web.profile.streak")} value={dailyStreak} />
           <Stat icon="🧭" label={t("web.profile.pathBlocks")} value={`${pathCleared}/54`} />
-          <Stat icon="🎓" label={t("web.home.statReview")} value={reviewCount} />
         </div>
 
         {!isPremium && (

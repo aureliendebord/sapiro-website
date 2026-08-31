@@ -3,8 +3,6 @@ import type { EntityType } from "@/types";
 import { getJourneyById } from "@/domain/journeys/catalog";
 import { isMixedBlockId } from "@/domain/journeys/path";
 import { usePathStore } from "@game/store/pathStore";
-import { getEntityById } from "@/domain/quiz/entityPool";
-import { CLASSIC_QUESTION_COUNT } from "@/domain/quiz/constants";
 import { warmGameSounds } from "@game/lib/sounds";
 import { loadContent } from "@game/lib/loadContent";
 import { HomeScreen, type HomeAction } from "./HomeScreen";
@@ -18,7 +16,7 @@ import { preloadEntityLocales } from "@/lib/content/locales";
 import { useTicketStore, useTicketBalance } from "@game/store/ticketStore";
 import { useGameStore } from "@game/store/gameStore";
 import { recordGameResult, flushPendingResults } from "@game/lib/gameResults";
-import type { MissedQuestion, SessionConfig, SessionResult } from "@game/lib/quizSession";
+import type { SessionConfig, SessionResult } from "@game/lib/quizSession";
 import { GameBottomNav } from "./GameBottomNav";
 import { levelFromXp } from "@game/store/gameStore";
 import { Icon } from "./ui/Icon";
@@ -70,12 +68,9 @@ export default function GameApp({ lang }: Props) {
   const refreshRemoteConfig = useTicketStore((s) => s.refreshRemoteConfig);
 
   const xp = useGameStore((s) => s.xp);
-  const review = useGameStore((s) => s.review);
   const lastDailyKey = useGameStore((s) => s.lastDailyKey);
   const dailyStreak = useGameStore((s) => s.dailyStreak);
   const recordGame = useGameStore((s) => s.recordGame);
-  const addMiss = useGameStore((s) => s.addMiss);
-  const clearMiss = useGameStore((s) => s.clearMiss);
   const markDailyDone = useGameStore((s) => s.markDailyDone);
   const recordPathResult = usePathStore((s) => s.recordResult);
 
@@ -202,29 +197,6 @@ export default function GameApp({ lang }: Props) {
     (action: HomeAction) => {
       if (action === "journeys") return setScreen({ name: "journeys" });
 
-      if (action === "review") {
-        // Le deck passe AVEC le type de question raté : une capitale ratée
-        // revient en capitale. Tronqué à la taille d'une partie ici, pour que
-        // la fin de partie ne « valide » que les entrées réellement rejouées.
-        const reviewItems: MissedQuestion[] = review
-          .map((entry) => {
-            const entity = getEntityById(entry.entityType, entry.entityId);
-            return entity ? { entity, questionType: entry.type } : null;
-          })
-          .filter((item): item is MissedQuestion => item != null)
-          .slice(0, CLASSIC_QUESTION_COUNT);
-        if (!reviewItems.length) return;
-        return void startQuiz(
-          {
-            mode: "review",
-            entityType: reviewItems[0].entity.type,
-            language: lang,
-            reviewItems,
-          },
-          true,
-        );
-      }
-
       if (action === "daily") {
         // Garde en profondeur : la carte est déjà désactivée, mais rien ne doit
         // permettre une 2e partie daily (elle crédite un ticket bonus et écrit
@@ -238,7 +210,7 @@ export default function GameApp({ lang }: Props) {
       const mode = action === "survival" ? "survival" : "classic";
       void startQuiz({ mode, entityType: "country", language: lang }, true);
     },
-    [review, lang, startQuiz, dailyDone],
+    [lang, startQuiz, dailyDone],
   );
 
   /** Lance un bloc du sentier — la session dérive tout de pathBlockId. */
@@ -273,24 +245,6 @@ export default function GameApp({ lang }: Props) {
         playedAt: Date.now(),
       });
 
-      // Deck de révision : les ratés entrent AVEC leur type de question. En
-      // mode révision on ne ré-empile pas (pas de double comptage, comme
-      // l'app) : les questions enfin réussies sortent, les autres restent.
-      if (result.mode === "review") {
-        const missedKeys = new Set(
-          result.misses.map((m) => `${m.entity.id}:${m.questionType}`),
-        );
-        for (const item of config.reviewItems ?? []) {
-          if (!missedKeys.has(`${item.entity.id}:${item.questionType}`)) {
-            clearMiss(item.entity.id, item.questionType);
-          }
-        }
-      } else {
-        for (const miss of result.misses) {
-          addMiss(miss.entity.id, miss.entity.type, miss.questionType);
-        }
-      }
-
       if (result.mode === "daily") {
         markDailyDone(todayKey());
         earnDailyBonus();
@@ -314,7 +268,7 @@ export default function GameApp({ lang }: Props) {
       void recordGameResult(result);
       setScreen({ name: "result", result, config });
     },
-    [recordGame, addMiss, clearMiss, review, markDailyDone, earnDailyBonus, recordPathResult],
+    [recordGame, markDailyDone, earnDailyBonus, recordPathResult],
   );
 
   /** Quitter sans avoir répondu ne doit rien coûter (comme sur mobile). */
@@ -339,7 +293,6 @@ export default function GameApp({ lang }: Props) {
           <HomeScreen
             ticketsLeft={tickets}
             isPremium={isPremium}
-            reviewCount={review.length}
             dailyDone={dailyDone}
             onAction={handleAction}
           />
@@ -399,7 +352,6 @@ export default function GameApp({ lang }: Props) {
     screen,
     tickets,
     isPremium,
-    review.length,
     dailyDone,
     dailyStreak,
     handleAction,
