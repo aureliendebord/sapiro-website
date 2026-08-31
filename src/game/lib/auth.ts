@@ -254,6 +254,6 @@ export function onAuthChange(callback: (user: User | null) => void): () => void 
 }
 
 /** Un utilisateur anonyme n'est pas « connecté » du point de vue de l'UI. */
-export function isSignedIn(user: User | null): boolean {
+export function isSignedIn(user: User | null): user is User {
   return Boolean(user && !user.is_anonymous);
 }
