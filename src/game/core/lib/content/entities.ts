@@ -2,10 +2,10 @@
 // Source : repo de l'app mobile Sapiro. Régénérer avec `npm run sync:game`.
 // Toute correction doit être faite dans l'app puis re-synchronisée.
 /**
- * Version web de `lib/content/entities.ts` de l'app : accesseur des pools
- * d'entités — contenu serveur si chargé (webContent), sinon le seed bundlé.
- * Même signature que l'app, pour que les fichiers synchronisés (entityPool)
- * s'importent tels quels.
+ * Accesseur des pools d'entités : version serveur si une mise à jour de
+ * contenu est active, sinon le seed bundlé dans le build (data/*.ts).
+ * C'est LE point de passage du moteur de quiz vers les datasets — le pendant
+ * généralisé de `lib/content/artworks.ts` (phase 1).
  */
 import { countries } from "@/data/countries";
 import { frenchRegions } from "@/data/regions-fr";
@@ -18,7 +18,7 @@ import { getAvailableMonuments } from "@/data/monuments";
 import type { AnyFlagEntity, EntityType } from "@/types";
 
 import { FILE_BY_ENTITY_TYPE } from "./datasets";
-import { getWebRemoteDataset, markServed } from "./webContent";
+import { readRemoteDataset } from "./state";
 
 const SEEDS: Record<EntityType, () => AnyFlagEntity[]> = {
   country: () => countries,
@@ -32,6 +32,5 @@ const SEEDS: Record<EntityType, () => AnyFlagEntity[]> = {
 };
 
 export function getDatasetPool(entityType: EntityType): AnyFlagEntity[] {
-  markServed();
-  return getWebRemoteDataset(FILE_BY_ENTITY_TYPE[entityType]) ?? SEEDS[entityType]();
+  return readRemoteDataset(FILE_BY_ENTITY_TYPE[entityType]) ?? SEEDS[entityType]();
 }

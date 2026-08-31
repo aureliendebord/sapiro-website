@@ -28,7 +28,7 @@ import type {
   Monument,
 } from "@/types";
 
-import { resolveLocalizedEntity } from "@/hooks/useLocalizedEntity";
+import { resolveLocalizedEntity } from "@/lib/content/localize";
 import { OPTIONS_COUNT } from "./constants";
 
 // ============================================

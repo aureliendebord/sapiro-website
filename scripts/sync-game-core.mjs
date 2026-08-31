@@ -8,9 +8,10 @@
  * données (`data/`, `locales/`) sont donc copiées, jamais réécrites. La sortie
  * est commitée : la CI du site n'a pas accès au repo de l'app.
  *
- * Deux exceptions au copier-coller, générées depuis `scripts/templates/` :
- *  - `hooks/useEntityDescriptions.ts` : l'app importe 11 langues de JSON en
- *    statique (~13 Mo). Le web n'en sert que 3 (fr/en/es).
+ * UNE seule exception au copier-coller, générée depuis `scripts/templates/` :
+ *  - `lib/content/locales.ts` : l'app importe 11 langues de JSON en statique
+ *    (~13 Mo). Le web n'en sert que 3 (fr/en/es), chargées à la demande. Même
+ *    API publique et surtout MÊME ordre de repli que l'app.
  *
  * Usage :
  *   node scripts/sync-game-core.mjs            # synchronise
@@ -32,6 +33,9 @@ const SITE = path.resolve(import.meta.dirname, '..');
 const CORE = path.join(SITE, 'src/game/core');
 const FLAGS_OUT = path.join(SITE, 'public/flags');
 const MANIFEST = path.join(CORE, '.sync-manifest.json');
+// Empreinte du Défi du jour issue de l'app (scripts/parity-daily.mjs) : posée
+// dans core/ mais pas produite par cette passe — à ne pas traiter en orphelin.
+const PARITY = path.join(CORE, '.daily-parity.json');
 
 const HEADER = `// ⚠️  FICHIER SYNCHRONISÉ — NE PAS ÉDITER À LA MAIN.
 // Source : repo de l'app mobile Sapiro. Régénérer avec \`npm run sync:game\`.
@@ -49,10 +53,20 @@ const COPY = [
   // pour que le daily web soit LE MÊME quiz que sur mobile.
   { from: 'utils/dailyChallenge.ts', to: 'utils/dailyChallenge.ts' },
   { from: 'hooks/useLocalizedEntity.ts', to: 'hooks/useLocalizedEntity.ts' },
-  // Contenu serveur : registre des familles et validation du catalogue —
-  // modules purs (sans React Native), partagés tels quels avec l'app.
+  { from: 'hooks/useEntityDescriptions.ts', to: 'hooks/useEntityDescriptions.ts' },
+  // Contenu serveur — tous ces modules sont PURS côté app (aucun import React
+  // Native, cf. `__tests__/domain/purity.test.ts`), donc copiés verbatim. Le
+  // web n'a plus d'adaptateur à maintenir ici : `state.ts` est le point
+  // d'injection, et `src/game/lib/loadContent.ts` (code web) y écrit ce que
+  // `lib/content/store.ts` y écrit côté mobile depuis le disque.
   { from: 'lib/content/datasets.ts', to: 'lib/content/datasets.ts' },
   { from: 'lib/content/catalogSchema.ts', to: 'lib/content/catalogSchema.ts' },
+  { from: 'lib/content/state.ts', to: 'lib/content/state.ts' },
+  { from: 'lib/content/manifest.ts', to: 'lib/content/manifest.ts' },
+  { from: 'lib/content/localize.ts', to: 'lib/content/localize.ts' },
+  { from: 'lib/content/entities.ts', to: 'lib/content/entities.ts' },
+  { from: 'lib/content/catalog.ts', to: 'lib/content/catalog.ts' },
+  { from: 'lib/content/artworks.ts', to: 'lib/content/artworks.ts' },
 ];
 
 /** Locales : seulement les 3 langues du site, et seulement les JSON utiles. */
@@ -129,6 +143,31 @@ function pruneStale(dir, keep, ext) {
     if (CHECK_ONLY) drift.push(`${path.relative(SITE, full)} (orphelin)`);
     else fs.unlinkSync(full);
   }
+}
+
+/**
+ * Supprime de `core/` tout fichier que cette passe n'a pas (ré)écrit. Sans ça
+ * un module retiré côté app — ou un adaptateur web devenu inutile — survit
+ * indéfiniment et continue d'être importé : c'est exactement ce qui a laissé
+ * traîner l'ancien shim `webContent.ts` après le passage à `state.ts`.
+ */
+function pruneOrphans() {
+  const keep = new Set(written);
+  const walk = (dir) => {
+    for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+      const full = path.join(dir, entry.name);
+      if (entry.isDirectory()) {
+        walk(full);
+        if (!CHECK_ONLY && fs.readdirSync(full).length === 0) fs.rmdirSync(full);
+        continue;
+      }
+      const rel = path.relative(SITE, full);
+      if (full === MANIFEST || full === PARITY || keep.has(rel)) continue;
+      if (CHECK_ONLY) drift.push(`${rel} (orphelin)`);
+      else fs.unlinkSync(full);
+    }
+  };
+  walk(CORE);
 }
 
 /** Copie un fichier TS en préfixant l'en-tête d'avertissement. */
@@ -292,15 +331,12 @@ async function syncIconMap(availableSlugs) {
 function syncTemplates() {
   // Dossier cible de chaque template dans core/ (par défaut : hooks/).
   const TEMPLATE_DIRS = {
-    'artworks.web.ts': 'lib/content',
-    'entities.web.ts': 'lib/content',
-    'catalog.web.ts': 'lib/content',
-    'webContent.web.ts': 'lib/content',
+    'locales.web.ts': 'lib/content',
   };
   const dir = path.join(SITE, 'scripts/templates');
   for (const file of fs.readdirSync(dir)) {
     if (!file.endsWith('.ts')) continue;
-    // `useEntityDescriptions.web.ts` -> `hooks/useEntityDescriptions.ts`
+    // `locales.web.ts` -> `lib/content/locales.ts`
     const target = file.replace(/\.web\.ts$/, '.ts');
     const sub = TEMPLATE_DIRS[file] ?? 'hooks';
     writeOut(path.join(CORE, sub, target), HEADER + fs.readFileSync(path.join(dir, file), 'utf8'));
@@ -328,6 +364,7 @@ try {
   syncLocales();
   syncFlags();
   syncTemplates();
+  pruneOrphans();
   await syncIconMap(syncAssets());
 
   if (CHECK_ONLY && drift.length) {

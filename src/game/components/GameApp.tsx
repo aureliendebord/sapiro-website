@@ -4,10 +4,10 @@ import { getJourneyById } from "@/domain/journeys/catalog";
 import { isMixedBlockId } from "@/domain/journeys/path";
 import { usePathStore } from "@game/store/pathStore";
 import { getEntityById } from "@/domain/quiz/entityPool";
-import { initWebContent } from "@/lib/content/artworks";
 import { CLASSIC_QUESTION_COUNT } from "@/domain/quiz/constants";
 import { getDailyTheme } from "@/utils/dailyChallenge";
 import { warmGameSounds } from "@game/lib/sounds";
+import { loadContent } from "@game/lib/loadContent";
 import { HomeScreen, type HomeAction } from "./HomeScreen";
 import { PathScreen } from "./path/PathScreen";
 import { LeaderboardScreen } from "./leaderboard/LeaderboardScreen";
@@ -15,7 +15,7 @@ import { ProfileScreen } from "./profile/ProfileScreen";
 import { QuizScreen } from "./QuizScreen";
 import { ResultScreen } from "./ResultScreen";
 import { loadLanguage, t, type GameLang } from "@game/lib/i18n";
-import { preloadEntityLocales } from "@/hooks/useEntityDescriptions";
+import { preloadEntityLocales } from "@/lib/content/locales";
 import { useTicketStore, useTicketBalance } from "@game/store/ticketStore";
 import { useGameStore } from "@game/store/gameStore";
 import { recordGameResult, flushPendingResults } from "@game/lib/gameResults";
@@ -139,13 +139,11 @@ export default function GameApp({ lang }: Props) {
   // d'une partie, et seulement pour la famille jouée.
   useEffect(() => {
     let cancelled = false;
-    // Contenu serveur (même source que l'app) : attendu au boot, borné à
-    // 1,5 s — au premier passage le seed gagne, ensuite le cache HTTP rend
-    // l'application quasi instantanée. Jamais de bascule après le boot.
-    void Promise.all([
-      loadLanguage(lang),
-      Promise.race([initWebContent(), new Promise((r) => setTimeout(r, 1500))]),
-    ]).then(() => {
+    // Contenu serveur (même source que l'app) : datasets, catalogue ET
+    // surcouches de traduction, attendus au boot et bornés en interne — au
+    // premier passage le seed gagne, ensuite le cache HTTP rend l'application
+    // quasi instantanée. Jamais de bascule après le boot.
+    void Promise.all([loadLanguage(lang), loadContent(lang)]).then(() => {
       if (!cancelled) setReady(true);
     });
     void refreshRemoteConfig();

@@ -18,7 +18,7 @@ const server = await createServer({
 
 try {
   const { preloadEntityLocales, getLocalizedEntry } = await server.ssrLoadModule(
-    '/src/game/core/hooks/useEntityDescriptions.ts',
+    '/src/game/core/lib/content/locales.ts',
   );
   const { getEntityPool, getFullPool } = await server.ssrLoadModule(
     '/src/game/core/domain/quiz/entityPool.ts',
