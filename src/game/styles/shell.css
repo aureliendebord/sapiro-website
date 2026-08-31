@@ -50,7 +50,7 @@
 .game-shell {
   max-width: 720px;
   margin: 0 auto;
-  padding: 12px var(--game-gutter) calc(20px + env(safe-area-inset-bottom, 0px));
+  padding: 12px var(--game-gutter) calc(12px + env(safe-area-inset-bottom, 0px));
 }
 
 /**
@@ -131,7 +131,10 @@
    passe donc par l'opacité de l'icône et la couleur du libellé, exactement
    comme `TabIcon` dans `app/(tabs)/_layout.tsx`. */
 .game-bottomnav {
-  margin-top: 12px;
+  /* Large respiration : collée aux modes, la navigation se lisait comme une
+     cinquième ligne de la liste. L'écart dit qu'on change de registre — on
+     quitte les modes pour naviguer dans le jeu. */
+  margin-top: 44px;
   display: flex;
   align-items: stretch;
   justify-content: space-around;
