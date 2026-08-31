@@ -104,7 +104,18 @@ const languages: Lang[] = ['fr', 'en', 'es'];
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 16px;
     height: 72px;
+  }
+
+  /* Aucun bloc ne se comprime : sans ça, le CTA le plus long (l'espagnol
+     « Probar mis conocimientos ») écrasait la navigation et la faisait passer
+     sous le logo. */
+  .logo,
+  .nav,
+  .nav-cta,
+  .lang-switcher {
+    flex: none;
   }
 
   .logo {
@@ -252,19 +263,13 @@ const languages: Lang[] = ['fr', 'en', 'es'];
     color: var(--orange);
   }
 
-  @media (max-width: 768px) {
+  /* Les liens passent dans le burger dès 1000px : le CTA, lui, reste dans la
+     barre — c'est le seul élément qu'on ne veut jamais cacher derrière un
+     menu. Le seuil est haut parce que trois liens plus un bouton plus le
+     sélecteur de langue ne tiennent pas en dessous, en espagnol surtout. */
+  @media (max-width: 1000px) {
     .nav {
       display: none;
-    }
-
-    /* Le CTA du header laisse la place au burger ; il rouvre en pleine largeur
-       en tête du menu déroulant, où il reste le premier choix offert. */
-    .header-content > .nav-cta {
-      display: none;
-    }
-
-    .nav-cta--block {
-      display: flex;
     }
 
     .burger {
@@ -272,6 +277,18 @@ const languages: Lang[] = ['fr', 'en', 'es'];
     }
 
     .mobile-nav.open {
+      display: flex;
+    }
+  }
+
+  /* Sous 560px, même le CTA seul serre trop : il rouvre en pleine largeur en
+     tête du menu déroulant, où il reste le premier choix offert. */
+  @media (max-width: 560px) {
+    .header-content > .nav-cta {
+      display: none;
+    }
+
+    .nav-cta--block {
       display: flex;
     }
   }

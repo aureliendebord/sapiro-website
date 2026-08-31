@@ -87,7 +87,6 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
       preparing: "Préparation de la partie…",
       quit: "Quitter la partie",
       progress: "Progression de la partie",
-      goodAnswers: "{{count}} bonnes réponses",
       livesLeft: "{{count}} vies restantes",
     },
     result: {
@@ -131,7 +130,6 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
     },
     path: {
       cleared: "{{done}}/{{total}}",
-      questions: "{{count}} questions",
       status: {
         done: "réussi",
         current: "à jouer maintenant",
@@ -252,7 +250,6 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
       preparing: "Preparing your game…",
       quit: "Quit the game",
       progress: "Game progress",
-      goodAnswers: "{{count}} correct answers",
       livesLeft: "{{count}} lives left",
     },
     result: {
@@ -296,7 +293,6 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
     },
     path: {
       cleared: "{{done}}/{{total}}",
-      questions: "{{count}} questions",
       status: {
         done: "cleared",
         current: "play now",
@@ -417,7 +413,6 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
       preparing: "Preparando la partida…",
       quit: "Salir de la partida",
       progress: "Progreso de la partida",
-      goodAnswers: "{{count}} respuestas correctas",
       livesLeft: "{{count}} vidas restantes",
     },
     result: {
@@ -461,7 +456,6 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
     },
     path: {
       cleared: "{{done}}/{{total}}",
-      questions: "{{count}} preguntas",
       status: {
         done: "superado",
         current: "jugar ahora",
