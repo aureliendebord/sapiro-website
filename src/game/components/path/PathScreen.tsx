@@ -19,7 +19,9 @@ import { Icon } from "../ui/Icon";
 import { Glyph } from "../ui/Glyph";
 
 /** Géométrie du sentier — mêmes valeurs que `PathSection.tsx` de l'app. */
-const STEP = 168;
+/* Plus haut que les 168 de l'app : le web pose sous chaque nœud le nom de la
+   thématique, sur deux lignes au besoin. */
+const STEP = 186;
 /* Plus large que les 72 de l'app : le web pose en plus le nom de la
    thématique sous chaque nœud, et la bannière d'étape a besoin de sa place
    au-dessus du premier bloc. */
@@ -136,10 +138,14 @@ export function PathScreen({ isPremium, onPlay, onLocked }: Props) {
               : (journey?.title ?? node.blockId);
 
           return (
+            // Le slot est CENTRÉ sur le point du tracé plutôt que calé par son
+            // coin : sans disque blanc, la hauteur du nœud suit celle de son
+            // illustration (un drapeau est en 3:2, pas carré) et un décalage
+            // fixe le désalignerait du chemin.
             <div
               key={node.blockId}
               className="path-node-slot"
-              style={{ left: node.x - node.size / 2, top: node.y - node.size / 2 }}
+              style={{ left: node.x, top: node.y }}
             >
               {node.stageBanner !== null && (
                 <span
@@ -160,9 +166,7 @@ export function PathScreen({ isPremium, onPlay, onLocked }: Props) {
                 style={
                   {
                     width: node.size,
-                    height: node.size,
                     "--node-accent": colors.primary,
-                    "--node-tint": colors.tint,
                   } as React.CSSProperties
                 }
                 aria-label={`${label} — ${t(`web.path.status.${status}`)}`}
@@ -177,7 +181,9 @@ export function PathScreen({ isPremium, onPlay, onLocked }: Props) {
                 {/* L'illustration remplit le disque, comme dans l'app : elle
                     n'a plus de large cerne blanc autour d'elle, et le tracé
                     pointillé ne peut plus transparaître au travers. */}
-                <Icon emoji={journey?.icon ?? "🧭"} size={node.size - 18} className="path-node__icon" />
+                {/* L'illustration EST le nœud : plus de disque blanc derrière
+                    elle, qui rognait le dessin et posait un rond de plus. */}
+                <Icon emoji={journey?.icon ?? "🧭"} size={node.size} className="path-node__icon" />
                 {status === "done" && <span className="path-node__check" aria-hidden="true">✓</span>}
               </button>
 

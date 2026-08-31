@@ -80,8 +80,13 @@
    SVG qui les traverse). */
 .path-node-slot {
   z-index: 1;
+  transform: translate(-50%, -50%);
 }
 
+/* Aucun fond, aucune bordure : le nœud EST son illustration. Le disque blanc
+   mangeait le bord des dessins et posait un rond de plus sur un fond déjà
+   texturé. Les anneaux d'état (doré, accent) sont rendus par `box-shadow`,
+   qui ne prend pas de place dans la boîte. */
 .path-node {
   position: relative;
   font: inherit;
@@ -89,34 +94,39 @@
   display: grid;
   place-items: center;
   padding: 0;
+  border: none;
   border-radius: 50%;
-  border: 3px solid var(--surface);
-  background: var(--surface);
+  background: transparent;
   color: var(--ink);
-  box-shadow: 0 6px 16px rgb(26 24 22 / 12%);
-  transition: transform 140ms ease, box-shadow 140ms ease;
+  filter: drop-shadow(0 6px 12px rgb(26 24 22 / 18%));
+  transition: transform 140ms ease, filter 140ms ease;
 }
 
-/* Illustration ronde qui remplit le disque : le fond blanc se réduit au
-   liseré, comme dans l'app. */
+/* L'illustration porte son propre arrondi (posé en style inline par `Icon`) ;
+   les anneaux d'état sont des `box-shadow` sur elle, donc ils épousent sa
+   forme — y compris pour un drapeau, qui est en 3:2 et non carré. */
 .path-node__icon {
-  border-radius: 50%;
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .path-node:hover:not(.path-node--locked):not(.path-node--closed) {
   transform: translateY(-3px);
-  box-shadow: 0 12px 24px rgb(26 24 22 / 18%);
+  filter: drop-shadow(0 12px 18px rgb(26 24 22 / 26%));
 }
 
-/* Nom de la thématique, posé sous le nœud et centré sur lui. */
+/* Nom de la thématique, posé sous le nœud et centré sur lui. C'est le seul
+   texte du sentier : il porte l'information, il a la taille qui va avec. */
 .path-node__label {
   position: absolute;
-  top: calc(100% + 8px);
+  top: calc(100% + 10px);
   left: 50%;
   transform: translateX(-50%);
-  width: 150px;
-  font-size: 12px;
+  width: 170px;
+  font-size: 16px;
   font-weight: 800;
+  letter-spacing: -0.2px;
   line-height: 1.2;
   text-align: center;
   color: var(--ink);
@@ -127,8 +137,8 @@
 }
 
 /* Réussi : anneau doré + coche, la trace de ce qui est acquis. */
-.path-node--done {
-  border-color: #e0a82e;
+.path-node--done .path-node__icon {
+  box-shadow: 0 0 0 3px #e0a82e;
 }
 
 .path-node__check {
@@ -147,16 +157,15 @@
 }
 
 /* En cours : le seul nœud qui appelle, avec son anneau qui respire. */
-.path-node--current {
-  border-color: var(--node-accent, var(--accent));
-  background: var(--node-tint, var(--accent-tint));
+.path-node--current .path-node__icon {
+  box-shadow: 0 0 0 4px var(--node-accent, var(--accent));
 }
 
 .path-node--current::after {
   content: "";
   position: absolute;
-  inset: -6px;
-  border-radius: 50%;
+  inset: -8px;
+  border-radius: 32px;
   border: 3px solid var(--node-accent, var(--accent));
   animation: path-pulse 1.5s ease-out infinite;
   pointer-events: none;
@@ -196,7 +205,7 @@
 .path-node--closed,
 .path-node--locked {
   cursor: default;
-  box-shadow: 0 4px 10px rgb(26 24 22 / 8%);
+  filter: drop-shadow(0 4px 8px rgb(26 24 22 / 10%));
 }
 
 .path-node--closed .path-node__icon,
@@ -210,6 +219,6 @@
   color: var(--ink-faint);
 }
 
-.path-node--mixed {
-  border-width: 4px;
+.path-node--mixed .path-node__label {
+  font-size: 17px;
 }
