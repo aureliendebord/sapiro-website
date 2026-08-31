@@ -4,7 +4,6 @@ import {
   STAGE_COUNT,
   allBlocksOfStage,
   isMixedBlockId,
-  questionsFor,
 } from "@/domain/journeys/path";
 import { getJourneyById } from "@/domain/journeys/catalog";
 import { usePathStore } from "@game/store/pathStore";
@@ -21,7 +20,10 @@ import { Glyph } from "../ui/Glyph";
 
 /** Géométrie du sentier — mêmes valeurs que `PathSection.tsx` de l'app. */
 const STEP = 168;
-const STAGE_GAP = 72;
+/* Plus large que les 72 de l'app : le web pose en plus le nom de la
+   thématique sous chaque nœud, et la bannière d'étape a besoin de sa place
+   au-dessus du premier bloc. */
+const STAGE_GAP = 104;
 const NODE = 120;
 const NODE_MIXED = 136;
 
@@ -172,13 +174,17 @@ export function PathScreen({ isPremium, onPlay, onLocked }: Props) {
                   onPlay(node.blockId);
                 }}
               >
-                <Icon emoji={journey?.icon ?? "🧭"} size={node.size - 44} />
-                <span className="path-node__label">{label}</span>
-                <span className="path-node__count">
-                  {t("web.path.questions", { count: questionsFor(node.blockId) })}
-                </span>
+                {/* L'illustration remplit le disque, comme dans l'app : elle
+                    n'a plus de large cerne blanc autour d'elle, et le tracé
+                    pointillé ne peut plus transparaître au travers. */}
+                <Icon emoji={journey?.icon ?? "🧭"} size={node.size - 18} className="path-node__icon" />
                 {status === "done" && <span className="path-node__check" aria-hidden="true">✓</span>}
               </button>
+
+              {/* Le nom de la thématique vit SOUS le nœud : dedans il fallait
+                  rétrécir l'illustration pour lui faire de la place. Le nombre
+                  de questions a disparu — il valait 10 partout. */}
+              <span className="path-node__label">{label}</span>
             </div>
           );
         })}

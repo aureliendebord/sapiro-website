@@ -30,8 +30,6 @@
   overflow-y: auto;
   overscroll-behavior: contain;
   padding: 8px 0 24px;
-  border-radius: 24px;
-  background: linear-gradient(180deg, var(--canvas-dim), var(--canvas));
 }
 
 /* Toile du sentier : sa hauteur est calculée en JS depuis le nombre de nœuds.
@@ -53,9 +51,11 @@
 
 /* ---------- Bannière d'étape ---------- */
 
+/* Assez haut pour laisser passer le badge « À toi ! » quand le premier bloc
+   d'une étape est justement celui à jouer — les deux se superposaient. */
 .path-stage {
   position: absolute;
-  bottom: calc(100% + 14px);
+  bottom: calc(100% + 38px);
   left: 50%;
   transform: translateX(-50%);
   white-space: nowrap;
@@ -75,16 +75,20 @@
 
 /* ---------- Nœud ---------- */
 
+/* Le tracé pointillé passe SOUS les nœuds : sans cette élévation, il
+   transparaissait au travers des nœuds éteints (leur opacité laissait voir le
+   SVG qui les traverse). */
+.path-node-slot {
+  z-index: 1;
+}
+
 .path-node {
   position: relative;
   font: inherit;
   cursor: pointer;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 2px;
-  padding: 8px;
+  display: grid;
+  place-items: center;
+  padding: 0;
   border-radius: 50%;
   border: 3px solid var(--surface);
   background: var(--surface);
@@ -93,27 +97,33 @@
   transition: transform 140ms ease, box-shadow 140ms ease;
 }
 
+/* Illustration ronde qui remplit le disque : le fond blanc se réduit au
+   liseré, comme dans l'app. */
+.path-node__icon {
+  border-radius: 50%;
+}
+
 .path-node:hover:not(.path-node--locked):not(.path-node--closed) {
   transform: translateY(-3px);
   box-shadow: 0 12px 24px rgb(26 24 22 / 18%);
 }
 
+/* Nom de la thématique, posé sous le nœud et centré sur lui. */
 .path-node__label {
-  font-size: 11px;
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 50%;
+  transform: translateX(-50%);
+  width: 150px;
+  font-size: 12px;
   font-weight: 800;
-  line-height: 1.15;
+  line-height: 1.2;
   text-align: center;
-  max-width: 92%;
+  color: var(--ink);
   overflow: hidden;
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
-}
-
-.path-node__count {
-  font-size: 10px;
-  font-weight: 700;
-  color: var(--ink-faint);
 }
 
 /* Réussi : anneau doré + coche, la trace de ce qui est acquis. */
@@ -180,10 +190,24 @@
 
 /* Ouverts mais pas encore atteints, ou verrouillés : présents mais éteints —
    « scroller, c'est voir la route qui reste ». */
+/* Ouverts mais pas encore atteints, ou verrouillés : éteints, jamais
+   translucides — une opacité sur le nœud entier laissait voir le tracé au
+   travers. On décolore l'illustration, le disque reste opaque. */
 .path-node--closed,
 .path-node--locked {
-  opacity: 0.45;
   cursor: default;
+  box-shadow: 0 4px 10px rgb(26 24 22 / 8%);
+}
+
+.path-node--closed .path-node__icon,
+.path-node--locked .path-node__icon {
+  opacity: 0.42;
+  filter: grayscale(0.85);
+}
+
+.path-node--closed + .path-node__label,
+.path-node--locked + .path-node__label {
+  color: var(--ink-faint);
 }
 
 .path-node--mixed {
