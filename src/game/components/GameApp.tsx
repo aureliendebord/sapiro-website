@@ -371,6 +371,23 @@ export default function GameApp({ lang }: Props) {
     <div className="sapiro-game">
       <div className="game-shell">
         <div className="game-board">
+          {/* La navigation ouvre le plateau : c'est la carte du jeu, elle passe
+              donc avant le compte du joueur (niveau, parties) et avant le
+              contenu de l'écran. Flottante et posée en bas, elle recouvrait le
+              jeu sans appartenir à rien. */}
+          {!focusMode && (
+            <GameBottomNav
+              user={user}
+              current={
+                screen.name === "journeys" || screen.name === "board" || screen.name === "profile"
+                  ? screen.name
+                  : "home"
+              }
+              onNavigate={(section) => setScreen({ name: section } as Screen)}
+              onAccount={() => setAccountOpen(true)}
+            />
+          )}
+
           {screen.name === "home" && (
             <div className="game-statusbar">
               <span className="game-pill">
@@ -398,20 +415,6 @@ export default function GameApp({ lang }: Props) {
           )}
           {body}
 
-          {/* La navigation vit DANS le plateau, sous le contenu : flottante,
-              elle recouvrait le jeu sans appartenir à rien. */}
-          {!focusMode && (
-            <GameBottomNav
-              user={user}
-              current={
-                screen.name === "journeys" || screen.name === "board" || screen.name === "profile"
-                  ? screen.name
-                  : "home"
-              }
-              onNavigate={(section) => setScreen({ name: section } as Screen)}
-              onAccount={() => setAccountOpen(true)}
-            />
-          )}
         </div>
       </div>
 

@@ -123,18 +123,17 @@
 
 /* ---------- Barre de navigation du jeu (tab bar web) ---------- */
 
-/* Posée dans le plateau, sous le contenu : elle fait partie de la zone de jeu
-   au lieu de flotter par-dessus. Masquée pendant une question.
+/* Posée EN TÊTE du plateau : c'est la carte du jeu, elle passe avant le compte
+   du joueur et avant le contenu de l'écran. Masquée pendant une question.
 
    Traitement de la tab bar de l'app : une surface blanche sobre, pas une
    pastille par onglet. Les illustrations ne se teintent pas — l'état actif
    passe donc par l'opacité de l'icône et la couleur du libellé, exactement
    comme `TabIcon` dans `app/(tabs)/_layout.tsx`. */
 .game-bottomnav {
-  /* Large respiration : collée aux modes, la navigation se lisait comme une
-     cinquième ligne de la liste. L'écart dit qu'on change de registre — on
-     quitte les modes pour naviguer dans le jeu. */
-  margin-top: 44px;
+  /* En tête du plateau, détachée de la barre d'état : collée, elle se lisait
+     comme une deuxième rangée de pastilles du compte. */
+  margin-bottom: 20px;
   display: flex;
   align-items: stretch;
   justify-content: space-around;
