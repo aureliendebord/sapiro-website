@@ -249,25 +249,119 @@
   }
 }
 
+/* Cadre photo blanc autour du visuel (façon polaroid) : assez pour le détacher
+   du fond, pas assez pour redevenir une carte pleine. Le nom de l'entité, quand
+   il est affiché, vit DANS le cadre. */
+.quiz-frame {
+  position: relative;
+  align-self: center;
+  max-width: 100%;
+  padding: 8px;
+  border-radius: 18px;
+  background: var(--surface);
+  box-shadow: 0 3px 10px rgb(26 24 22 / 7%);
+}
+
+/* Bonne réponse : le fond du cadre devient UNE surface dorée sur laquelle une
+   lumière claire tourne. L'image, posée par-dessus, ne bouge pas. */
+.quiz-frame__gold {
+  position: absolute;
+  inset: 0;
+  border-radius: 18px;
+  overflow: hidden;
+  background: linear-gradient(135deg, #f7c948 0%, #f08a24 50%, #d9482b 100%);
+  animation: quiz-gold-reveal 160ms ease-out both;
+}
+
+.quiz-frame__comet {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 250%;
+  aspect-ratio: 1;
+  translate: -50% -50%;
+  background: linear-gradient(
+    180deg,
+    #fff3c4 0%,
+    rgb(247 201 72 / 65%) 30%,
+    rgb(240 138 36 / 0%) 65%
+  );
+  animation: quiz-comet-spin 750ms linear infinite;
+}
+
+/* Le contenu du cadre passe au-dessus de la surface dorée. */
+.quiz-frame > .quiz-visual,
+.quiz-frame > .quiz-entity-name {
+  position: relative;
+  z-index: 1;
+}
+
+.quiz-frame__sparkle {
+  position: absolute;
+  z-index: 2;
+  line-height: 1;
+  color: #f5a623;
+  pointer-events: none;
+  opacity: 0;
+  animation: quiz-sparkle 700ms ease-in-out infinite both;
+}
+
+@keyframes quiz-gold-reveal {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes quiz-comet-spin {
+  to {
+    rotate: 360deg;
+  }
+}
+
+@keyframes quiz-sparkle {
+  0% {
+    opacity: 0;
+    scale: 0.4;
+    rotate: 0deg;
+  }
+
+  31% {
+    opacity: 1;
+    scale: 1.2;
+    rotate: 40deg;
+  }
+
+  71%,
+  100% {
+    opacity: 0;
+    scale: 0.4;
+    rotate: 0deg;
+  }
+}
+
 .quiz-visual {
   display: grid;
   place-items: center;
-  width: 100%;
+  min-width: 180px;
   min-height: 180px;
 }
 
 .quiz-visual img {
+  display: block;
   max-width: 100%;
   max-height: 260px;
-  border-radius: 18px;
-  /* Un drapeau blanc sur fond crème a besoin d'un contour pour exister. */
-  box-shadow: 0 4px 18px rgb(26 24 22 / 10%);
+  /* Rayon intérieur = rayon du cadre moins son liseré (18 - 8). */
+  border-radius: 10px;
 }
 
 .quiz-visual--flag img {
   width: 220px;
   height: auto;
-  border-radius: 12px;
+  border-radius: 8px;
 }
 
 .quiz-options {
@@ -320,7 +414,7 @@
 /* Question secondaire : le nom de l'entité sous le visuel, pour ne pas poser
    une double énigme (deviner le pays PUIS sa capitale). */
 .quiz-entity-name {
-  margin: 0;
+  margin: 8px 0 2px;
   font-size: 22px;
   font-weight: 800;
   letter-spacing: -0.3px;

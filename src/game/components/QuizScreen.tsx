@@ -19,9 +19,14 @@ import { getMuted, play, setMuted } from "@game/lib/sounds";
 import { DidYouKnow, hasFacts } from "./quiz/DidYouKnow";
 import { QuestionSlide } from "./quiz/QuestionSlide";
 import { QuizProgressBar } from "./quiz/QuizProgressBar";
+import { SuccessGradientFrame } from "./quiz/SuccessGradientFrame";
 
-/** Délai d'affichage du feedback avant la question suivante (ms). */
-const FEEDBACK_MS = 900;
+/**
+ * Délai d'affichage du feedback avant la question suivante (ms). Aligné sur
+ * `delayBeforeNext` de l'app, raccourci en même temps que le cadre doré est
+ * devenu une surface unique — l'animation dit tout de suite « c'est juste ».
+ */
+const FEEDBACK_MS = 800;
 
 interface Props {
   config: SessionConfig;
@@ -115,6 +120,11 @@ export function QuizScreen({ config, previousDailyStreak, onFinish, onQuit }: Pr
   // erreur, 2 au plafond) — on resserre le choix pour apprendre, comme l'app.
   const grayed = grayedOptions(session);
 
+  // Feedback de bonne réponse : le cadre blanc devient une surface dorée
+  // animée (l'image, elle, ne bouge pas). Mauvaise réponse : aucun mouvement,
+  // les couleurs des tuiles suffisent. Même règle que l'app.
+  const answeredCorrect = picked !== null && picked === question.correctAnswer;
+
   // Question secondaire (capitale, siège, nationalité…) : le nom de l'entité
   // est affiché pour ne pas poser une double énigme — deviner le pays PUIS sa
   // capitale. Même règle que l'app ; le titre d'une œuvre ou le nom d'un
@@ -191,15 +201,22 @@ export function QuizScreen({ config, previousDailyStreak, onFinish, onQuit }: Pr
         <div className="quiz-stage">
           <p className="quiz-prompt">{getQuestionPrompt(question)}</p>
 
-          <div className={`quiz-visual ${isImageEntity(question.entity) ? "" : "quiz-visual--flag"}`}>
-            {visual ? (
-              <img src={visual} alt="" key={question.entity.id} loading="eager" />
-            ) : (
-              <EntityFallback entity={question.entity} />
-            )}
-          </div>
+          {/* Cadre polaroid : liseré blanc autour du visuel, nom de l'entité
+              DANS le cadre (détaché, il flottait sur le fond). Sur bonne
+              réponse, ce blanc devient la surface dorée animée. */}
+          <SuccessGradientFrame active={answeredCorrect}>
+            <div
+              className={`quiz-visual ${isImageEntity(question.entity) ? "" : "quiz-visual--flag"}`}
+            >
+              {visual ? (
+                <img src={visual} alt="" key={question.entity.id} loading="eager" />
+              ) : (
+                <EntityFallback entity={question.entity} />
+              )}
+            </div>
 
-          {showsEntityName && <p className="quiz-entity-name">{question.entity.name}</p>}
+            {showsEntityName && <p className="quiz-entity-name">{question.entity.name}</p>}
+          </SuccessGradientFrame>
 
           {fact && (
             <DidYouKnow entity={fact.entity} lang={config.language} onContinue={fact.next} />
