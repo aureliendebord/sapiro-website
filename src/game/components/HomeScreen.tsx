@@ -1,34 +1,40 @@
-import { modeColor } from "@game/design/tokens";
+import { BRAND, modeColor } from "@game/design/tokens";
 import { t } from "@game/lib/i18n";
 import { Icon } from "./ui/Icon";
+import { Glyph } from "./ui/Glyph";
 
 export type HomeAction = "classic" | "survival" | "daily" | "journeys";
 
-interface ModeCard {
+interface ModeRow {
   action: HomeAction;
   /** Emoji source — résolu en illustration par `<Icon>`. Mêmes visuels que l'app. */
   icon: string;
   nameKey: string;
   descKey: string;
-  /** Contrat du mode, épinglé en bas de carte. */
-  metaKey: string;
-  /** Clé de couleur dans MODE_COLOR. */
+  /** Clé de couleur dans MODE_COLOR — sert au liseré de relief. */
   color: string;
   costsTicket: boolean;
 }
 
 /**
- * Les quatre modes, dans l'ordre de l'accueil mobile. Les emojis sont ceux de
- * l'app (`THEME_EMOJI` / `MODE_ICONS`) : ils désignent des illustrations
- * synchronisées, pas des caractères à afficher.
+ * Les quatre modes, en une ligne chacun, dans l'ordre de l'accueil mobile.
+ *
+ * Le bento de la V2 (blocs de couleur pleine, carte héros sur deux colonnes)
+ * donnait quatre hiérarchies concurrentes : on ne savait plus par où entrer.
+ * L'app empile des lignes identiques — illustration, titre, une phrase — et
+ * c'est ça qui se lit d'un coup d'œil. On reprend la même grammaire
+ * (`ModeTileHorizontal` / `AdventureCard`), relief 3D compris.
+ *
+ * Les emojis sont ceux de l'app (`THEME_EMOJI` / `MODE_ICONS`) : ils désignent
+ * des illustrations synchronisées, pas des caractères à afficher.
  */
-const CARDS: ModeCard[] = [
-  // La carte NAVIGUE vers le sentier (le ticket se consomme au lancement d'un
+const ROWS: ModeRow[] = [
+  // La ligne NAVIGUE vers le sentier (le ticket se consomme au lancement d'un
   // bloc) : elle reste cliquable même à quota épuisé.
-  { action: "journeys", icon: "🧭", nameKey: "journeys", descKey: "journeysDesc", metaKey: "journeysMeta", color: "classic", costsTicket: false },
-  { action: "daily", icon: "📅", nameKey: "daily", descKey: "dailyDesc", metaKey: "dailyMeta", color: "daily", costsTicket: false },
-  { action: "classic", icon: "🎮", nameKey: "classic", descKey: "classicDesc", metaKey: "classicMeta", color: "classic", costsTicket: true },
-  { action: "survival", icon: "❤️", nameKey: "survival", descKey: "survivalDesc", metaKey: "survivalMeta", color: "survival", costsTicket: true },
+  { action: "journeys", icon: "🧭", nameKey: "journeys", descKey: "journeysDesc", color: "classic", costsTicket: false },
+  { action: "daily", icon: "📅", nameKey: "daily", descKey: "dailyDesc", color: "daily", costsTicket: false },
+  { action: "classic", icon: "🎮", nameKey: "classic", descKey: "classicDesc", color: "classic", costsTicket: true },
+  { action: "survival", icon: "❤️", nameKey: "survival", descKey: "survivalDesc", color: "survival", costsTicket: true },
 ];
 
 interface Props {
@@ -52,46 +58,51 @@ export function HomeScreen({ ticketsLeft, isPremium, dailyDone, onAction }: Prop
 
       {outOfTickets && <div className="game-notice">{t("web.home.quotaNotice")}</div>}
 
-      <div className="mode-grid">
-        {CARDS.map((card) => {
-          const colors = modeColor(card.color);
-          const disabled =
-            (card.action === "daily" && dailyDone) || (card.costsTicket && outOfTickets);
+      <div className="mode-list">
+        {ROWS.map((row) => {
+          const colors = modeColor(row.color);
+          const disabled = (row.action === "daily" && dailyDone) || (row.costsTicket && outOfTickets);
+          // Aventure ouvre le sentier : elle porte la couleur de marque et une
+          // face teintée, comme la carte de tête de l'app. Les autres lignes
+          // restent blanches — une seule entrée dominante.
+          const hero = row.action === "journeys";
 
           const desc =
-            card.action === "daily" && dailyDone
+            row.action === "daily" && dailyDone
               ? t("web.home.dailyDone")
-              : t(`web.home.${card.descKey}`);
+              : t(`web.home.${row.descKey}`);
 
           return (
             <button
               type="button"
-              key={card.action}
-              className={`mode-card mode-card--${card.action}`}
+              key={row.action}
+              className={`mode-row ${hero ? "mode-row--hero" : ""}`}
               disabled={disabled}
-              onClick={() => onAction(card.action)}
+              onClick={() => onAction(row.action)}
               style={
                 {
-                  "--card-accent": colors.primary,
-                  "--card-accent-deep": colors.tintDeep,
-                  "--card-on-accent": colors.onPrimary,
+                  "--row-edge": hero ? BRAND.primary : colors.primary,
+                  "--row-face": hero ? BRAND.tint : "var(--surface)",
+                  "--row-ink": hero ? BRAND.tintDeep : "var(--ink)",
                 } as React.CSSProperties
               }
             >
-              {/* Le Défi du jour ne coûte pas de partie : c'est son argument. */}
-              {card.action === "daily" && !dailyDone && (
-                <span className="mode-card__badge">{t("web.home.dailyFree")}</span>
-              )}
+              <Icon emoji={row.icon} size={64} eager className="mode-row__icon" />
 
-              <Icon
-                emoji={card.icon}
-                size={card.action === "journeys" ? 96 : 56}
-                eager
-                className="mode-card__icon"
-              />
-              <span className="mode-card__name">{t(`web.home.${card.nameKey}`)}</span>
-              <span className="mode-card__desc">{desc}</span>
-              <span className="mode-card__meta">{t(`web.home.${card.metaKey}`)}</span>
+              <span className="mode-row__body">
+                <span className="mode-row__head">
+                  <span className="mode-row__name">{t(`web.home.${row.nameKey}`)}</span>
+                  {/* Le Défi du jour ne coûte pas de partie : c'est son
+                      argument. Sur la ligne du titre et non en colonne à part,
+                      sinon il vole la largeur au sous-titre. */}
+                  {row.action === "daily" && !dailyDone && (
+                    <span className="mode-row__badge">{t("web.home.dailyFree")}</span>
+                  )}
+                </span>
+                <span className="mode-row__desc">{desc}</span>
+              </span>
+
+              <Glyph name="chevron" size={20} className="mode-row__chevron" />
             </button>
           );
         })}

@@ -3,8 +3,12 @@
  *
  * Le jeu occupe l'espace central de l'écran, sans colonne latérale : un seul
  * plateau borné à 720 px (au-delà, quatre réponses étirées deviennent pénibles
- * à lire), et une barre de navigation FLOTTANTE en bas — le pendant web de la
- * tab bar de l'app. Rien d'autre ne dispute l'attention au jeu.
+ * à lire), et une barre de navigation posée DANS le plateau, sous le contenu.
+ * Rien d'autre ne dispute l'attention au jeu.
+ *
+ * Flottante et `fixed`, la barre ne se rattachait à rien : elle recouvrait le
+ * contenu et se perdait sous les barres d'outils des navigateurs mobiles, quel
+ * que soit l'offset. Dans le flux, elle appartient visiblement à la zone de jeu.
  */
 
 /**
@@ -14,24 +18,24 @@
  */
 :root {
   --header-h: 72px; /* hauteur de .header-content du site */
-  --game-canvas: #fbf4eb;
   /* Largeur et gouttières : partagées par le jeu ET le bloc SEO qui le suit. */
   --game-max: 1200px; /* = --max-width du site */
   --game-gutter: 24px; /* = padding de .container */
-  /* Offset de la barre flottante. 72px : les barres d'outils basses de
-     Safari/Chrome iOS font 50 à 90px et recouvrent les éléments `fixed` —
-     `env(safe-area-inset-bottom)` vaut 0 dans ce contexte et ne compense
-     rien, donc l'offset doit les dépasser à lui seul. */
-  --bottomnav-offset: 72px;
-  /* Espace réservé au-dessus du bas de page pour la barre flottante
-     (offset + ~82px de barre + respiration). */
-  --bottomnav-clearance: 168px;
 }
 
 .game-main {
   /* Le header du site est fixed : chaque page paie son offset (convention du repo). */
   padding-top: var(--header-h);
-  background: linear-gradient(180deg, #fff 0, var(--game-canvas) 160px);
+  /* Fond texturé de l'app (`components/ScreenBackground.tsx`) : dégradé
+     vertical crème → pêche, plus deux halos orange flous en haut-droite et
+     bas-gauche. Positions et rayons repris du SVG (viewBox 1320×2868), en
+     pourcentages. `fixed` garde les halos calés sur la fenêtre : sur une page
+     longue, attachés au document ils se seraient étirés hors de vue. */
+  background:
+    radial-gradient(49% 23% at 89% 14%, rgb(255 107 0 / 28%), rgb(255 107 0 / 0) 70%),
+    radial-gradient(55% 25% at 8% 78%, rgb(255 150 70 / 32%), rgb(255 150 70 / 0) 70%),
+    linear-gradient(180deg, #fff5e8 0%, #ffd6b0 100%);
+  background-attachment: fixed;
   min-height: 100dvh;
   padding-bottom: 0;
 }
@@ -46,9 +50,7 @@
 .game-shell {
   max-width: 720px;
   margin: 0 auto;
-  /* Le bas de la coquille laisse la place à la barre flottante : sans cette
-     réserve, elle recouvrirait les derniers éléments de chaque écran. */
-  padding: 24px var(--game-gutter) calc(var(--bottomnav-clearance) + env(safe-area-inset-bottom, 0px));
+  padding: 24px var(--game-gutter) calc(32px + env(safe-area-inset-bottom, 0px));
 }
 
 /**
@@ -102,31 +104,36 @@
   box-shadow: 0 8px 18px -8px var(--accent);
 }
 
-/* ---------- Barre de navigation flottante (tab bar web) ---------- */
+/* ---------- Barre de navigation du jeu (tab bar web) ---------- */
 
+/* Posée dans le plateau, sous le contenu : elle fait partie de la zone de jeu
+   au lieu de flotter par-dessus. Masquée pendant une question. */
 .game-bottomnav {
-  position: fixed;
-  /* Décollée du bord : à 14px puis 32px elle disparaissait encore sous les
-     barres d'outils des navigateurs mobiles. Voir --bottomnav-offset. */
-  bottom: calc(var(--bottomnav-offset) + env(safe-area-inset-bottom, 0px));
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 40;
+  margin-top: 24px;
   display: flex;
   align-items: stretch;
+  justify-content: space-around;
   gap: 2px;
   padding: 6px;
   background: var(--surface);
   border: 2px solid var(--rule-light);
   border-radius: 999px;
-  box-shadow:
-    0 24px 48px -16px rgb(26 24 22 / 45%),
-    0 4px 12px rgb(26 24 22 / 12%);
-  /* Jamais plus large que l'écran : les libellés passent dessous en colonne. */
-  max-width: calc(100vw - 24px);
+  box-shadow: 0 6px 16px -10px rgb(26 24 22 / 35%);
+  /* Écrans étroits : la barre défile horizontalement plutôt que de comprimer
+     les libellés jusqu'à l'illisible. */
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.game-bottomnav::-webkit-scrollbar {
+  display: none;
 }
 
 .game-bottomnav__item {
+  /* Chaque onglet garde la largeur de son contenu : étirés, leur pastille
+     active devenait un pavé qui traversait la barre. C'est l'espacement qui
+     les répartit (justify-content), pas leur largeur. */
+  flex: none;
   font: inherit;
   font-weight: 700;
   font-size: 11px;
@@ -155,10 +162,17 @@
   color: var(--accent-deep);
 }
 
+/* Sous 420px, les cinq onglets ne tiennent qu'en resserrant : on rogne le
+   rembourrage plutôt que de laisser la barre déborder de deux pixels. */
 @media (max-width: 420px) {
+  .game-bottomnav {
+    gap: 0;
+    padding: 5px;
+  }
+
   .game-bottomnav__item {
-    min-width: 56px;
-    padding: 8px 6px;
+    min-width: 52px;
+    padding: 8px 4px;
   }
 }
 

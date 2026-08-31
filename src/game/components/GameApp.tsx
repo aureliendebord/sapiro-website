@@ -397,21 +397,23 @@ export default function GameApp({ lang }: Props) {
             </div>
           )}
           {body}
+
+          {/* La navigation vit DANS le plateau, sous le contenu : flottante,
+              elle recouvrait le jeu sans appartenir à rien. */}
+          {!focusMode && (
+            <GameBottomNav
+              user={user}
+              current={
+                screen.name === "journeys" || screen.name === "board" || screen.name === "profile"
+                  ? screen.name
+                  : "home"
+              }
+              onNavigate={(section) => setScreen({ name: section } as Screen)}
+              onAccount={() => setAccountOpen(true)}
+            />
+          )}
         </div>
       </div>
-
-      {!focusMode && (
-        <GameBottomNav
-          user={user}
-          current={
-            screen.name === "journeys" || screen.name === "board" || screen.name === "profile"
-              ? screen.name
-              : "home"
-          }
-          onNavigate={(section) => setScreen({ name: section } as Screen)}
-          onAccount={() => setAccountOpen(true)}
-        />
-      )}
 
       {dialog && (
         <div className="game-modal" role="dialog" aria-modal="true">
