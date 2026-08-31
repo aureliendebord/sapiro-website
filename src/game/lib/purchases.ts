@@ -53,6 +53,49 @@ export function isBillingConfigured(): boolean {
 }
 
 /**
+ * Identifiant anonyme, stable pour ce navigateur : le SDK doit être configuré
+ * AVANT tout appel (`getOfferings` compris), or un visiteur qui ouvre le
+ * paywall n'a pas encore de compte. Sans ça, `getSharedInstance()` lève et le
+ * paywall affiche « pas encore ouvert » alors que les offres existent.
+ * Cet identifiant ne sert qu'à lire les offres : l'achat exige une connexion,
+ * et `identifyUser` bascule alors sur l'uid Supabase.
+ */
+function anonymousAppUserId(): string {
+  const KEY = "sapiro.rc.anon";
+  // `randomUUID` manque sur les Safari anciens : le repli suffit ici, cet
+  // identifiant ne protège rien, il ne fait qu'éviter les collisions.
+  const fresh = () =>
+    `anon_${
+      typeof crypto?.randomUUID === "function"
+        ? crypto.randomUUID().replace(/-/g, "")
+        : Math.random().toString(36).slice(2) + Date.now().toString(36)
+    }`;
+  try {
+    const stored = localStorage.getItem(KEY);
+    if (stored) return stored;
+    const id = fresh();
+    localStorage.setItem(KEY, id);
+    return id;
+  } catch {
+    return fresh();
+  }
+}
+
+/**
+ * Garantit un SDK configuré, avec l'utilisateur courant s'il y en a un, sinon
+ * avec l'identifiant anonyme.
+ */
+async function ensureConfigured(): Promise<Purchases> {
+  const { Purchases } = await loadSdk();
+  if (configuredFor === null) {
+    const uid = anonymousAppUserId();
+    configuredFor = uid;
+    return Purchases.configure({ apiKey: API_KEY, appUserId: uid });
+  }
+  return Purchases.getSharedInstance();
+}
+
+/**
  * Associe le SDK à l'utilisateur courant et ATTEND que le changement soit
  * effectif : c'est l'`appUserId` qui porte l'entitlement d'une plateforme à
  * l'autre, et un `getCustomerInfo` parti avant la fin d'un `changeUser`
@@ -61,14 +104,7 @@ export function isBillingConfigured(): boolean {
 export async function identifyUser(uid: string): Promise<Purchases | null> {
   if (!API_KEY) return null;
 
-  const { Purchases } = await loadSdk();
-
-  if (configuredFor === null) {
-    configuredFor = uid;
-    return Purchases.configure({ apiKey: API_KEY, appUserId: uid });
-  }
-
-  const purchases = Purchases.getSharedInstance();
+  const purchases = await ensureConfigured();
   if (configuredFor !== uid) {
     configuredFor = uid;
     await purchases.changeUser(uid);
@@ -120,8 +156,7 @@ export async function getPlans(): Promise<SubscriptionPlan[]> {
   if (isPaywallPreview()) return PREVIEW_PLANS;
   if (!API_KEY) return [];
 
-  const { Purchases } = await loadSdk();
-  const offerings = await Purchases.getSharedInstance().getOfferings();
+  const offerings = await (await ensureConfigured()).getOfferings();
   const packages = offerings.current?.availablePackages ?? [];
 
   return packages.map((pkg) => {
@@ -205,9 +240,10 @@ export async function purchasePlan(
 ): Promise<CustomerInfo> {
   if (!API_KEY) throw new Error("Le paiement en ligne n'est pas configuré.");
 
-  const { Purchases, PurchasesError, ErrorCode } = await loadSdk();
+  const { PurchasesError, ErrorCode } = await loadSdk();
+  const purchases = await ensureConfigured();
   try {
-    const { customerInfo } = await Purchases.getSharedInstance().purchase({
+    const { customerInfo } = await purchases.purchase({
       rcPackage: plan.rcPackage,
       customerEmail,
     });
@@ -238,8 +274,7 @@ export async function fetchPremiumStatus(uid: string): Promise<boolean | null> {
   if (API_KEY) {
     try {
       await identifyUser(uid);
-      const { Purchases } = await loadSdk();
-      const info = await Purchases.getSharedInstance().getCustomerInfo();
+      const info = await (await ensureConfigured()).getCustomerInfo();
       entitled = hasEntitlement(info);
     } catch (e) {
       console.warn("[sapiro] statut d'abonnement indisponible", e);
@@ -270,8 +305,7 @@ export async function fetchPremiumStatus(uid: string): Promise<boolean | null> {
 export async function openCustomerPortal(): Promise<boolean> {
   if (!API_KEY) return false;
 
-  const { Purchases } = await loadSdk();
-  const info = await Purchases.getSharedInstance().getCustomerInfo();
+  const info = await (await ensureConfigured()).getCustomerInfo();
   const url = info.managementURL;
   if (!url) return false;
 

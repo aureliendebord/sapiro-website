@@ -5,6 +5,7 @@ import {
   isBillingConfigured,
   openCustomerPortal,
   purchasePlan,
+  identifyUser,
   PurchaseCancelledError,
   yearlyAnchor,
   type SubscriptionPlan,
@@ -105,6 +106,10 @@ export function PaywallModal({ user, source, onClose, onPurchased, onNeedAccount
     setError(null);
     capture("paywall_cta_clicked", { source, plan: current.period, trial_days: trialDays });
     try {
+      // L'achat doit être attribué à l'uid Supabase, jamais à l'identifiant
+      // anonyme qui a servi à charger les offres : c'est lui qui porte
+      // l'entitlement jusqu'à l'app mobile.
+      await identifyUser(user.id);
       await purchasePlan(current, user?.email ?? undefined);
       capture("purchase_completed", { source, plan: current.period });
       onPurchased();
@@ -181,7 +186,7 @@ export function PaywallModal({ user, source, onClose, onPurchased, onNeedAccount
 
           <div className="paywall__hero-content">
             <span className="paywall__proof">
-              <Icon emoji="🧭" size={18} radius={6} />
+              <Icon emoji="✅" size={18} radius={6} />
               {t("web.paywall.proof")}
             </span>
 
