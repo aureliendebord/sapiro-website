@@ -9,7 +9,8 @@
     "features": "Features",
     "blog": "Blog",
     "download": "Download",
-    "play": "Play"
+    "play": "Play",
+    "playCta": "Take the quiz"
   },
   "hero": {
     "title": "Learn while having fun!",

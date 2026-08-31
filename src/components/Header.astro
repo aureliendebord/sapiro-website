@@ -20,11 +20,21 @@ const languages: Lang[] = ['fr', 'en', 'es'];
     </a>
 
     <nav class="nav" id="main-nav">
-      <a href={playGameUrl('nav', lang)} class="nav-link">{t.header.play}</a>
       <a href={`${getLocalePath('/', lang)}#features`} class="nav-link">{t.header.features}</a>
       <a href={getLocalePath('/blog', lang)} class="nav-link">{t.header.blog}</a>
       <a href={`${getLocalePath('/', lang)}#download`} class="nav-link">{t.header.download}</a>
     </nav>
+
+    {/* Le jeu est ce que le site a de plus fort à proposer, et c'était un lien
+        gris parmi quatre. Il devient LE bouton du header : « Faire le quiz »
+        dit ce qui se passe au clic, là où « Jouer » ne promettait rien de
+        précis. */}
+    <a
+      href={playGameUrl('nav', lang)}
+      class="nav-cta"
+      data-umami-event="play-click"
+      data-umami-event-campaign="nav"
+    >{t.header.playCta}</a>
 
     <div class="lang-switcher">
       {languages.map((l) => (
@@ -46,7 +56,12 @@ const languages: Lang[] = ['fr', 'en', 'es'];
   </div>
 
   <nav class="mobile-nav" id="mobile-nav">
-    <a href={playGameUrl('nav', lang)} class="mobile-nav-link">{t.header.play}</a>
+    <a
+      href={playGameUrl('nav', lang)}
+      class="nav-cta nav-cta--block"
+      data-umami-event="play-click"
+      data-umami-event-campaign="nav"
+    >{t.header.playCta}</a>
     <a href={`${getLocalePath('/', lang)}#features`} class="mobile-nav-link">{t.header.features}</a>
     <a href={getLocalePath('/blog', lang)} class="mobile-nav-link">{t.header.blog}</a>
     <a href={`${getLocalePath('/', lang)}#download`} class="mobile-nav-link">{t.header.download}</a>
@@ -121,6 +136,34 @@ const languages: Lang[] = ['fr', 'en', 'es'];
 
   .nav-link:hover {
     color: var(--orange);
+  }
+
+  /* Bouton plein à la couleur de marque : le seul élément coloré du header
+     après le logo, donc le seul point d'entrée qu'on ne peut pas manquer. */
+  .nav-cta {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 22px;
+    border-radius: 999px;
+    background: var(--orange);
+    color: var(--blanc);
+    font-weight: 800;
+    font-size: 15px;
+    white-space: nowrap;
+    box-shadow: 0 8px 18px -10px var(--orange);
+    transition: transform 0.18s, box-shadow 0.18s, filter 0.18s;
+  }
+
+  .nav-cta:hover {
+    transform: translateY(-2px);
+    filter: brightness(1.05);
+    box-shadow: 0 12px 22px -10px var(--orange);
+  }
+
+  .nav-cta--block {
+    display: none;
+    margin: 12px 0 4px;
   }
 
   .lang-switcher {
@@ -212,6 +255,16 @@ const languages: Lang[] = ['fr', 'en', 'es'];
   @media (max-width: 768px) {
     .nav {
       display: none;
+    }
+
+    /* Le CTA du header laisse la place au burger ; il rouvre en pleine largeur
+       en tête du menu déroulant, où il reste le premier choix offert. */
+    .header-content > .nav-cta {
+      display: none;
+    }
+
+    .nav-cta--block {
+      display: flex;
     }
 
     .burger {
