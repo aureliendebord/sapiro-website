@@ -62,14 +62,22 @@ export function isBillingConfigured(): boolean {
  */
 function anonymousAppUserId(): string {
   const KEY = "sapiro.rc.anon";
+  // `randomUUID` manque sur les Safari anciens : le repli suffit ici, cet
+  // identifiant ne protège rien, il ne fait qu'éviter les collisions.
+  const fresh = () =>
+    `anon_${
+      typeof crypto?.randomUUID === "function"
+        ? crypto.randomUUID().replace(/-/g, "")
+        : Math.random().toString(36).slice(2) + Date.now().toString(36)
+    }`;
   try {
     const stored = localStorage.getItem(KEY);
     if (stored) return stored;
-    const id = `anon_${crypto.randomUUID().replace(/-/g, "")}`;
+    const id = fresh();
     localStorage.setItem(KEY, id);
     return id;
   } catch {
-    return `anon_${crypto.randomUUID().replace(/-/g, "")}`;
+    return fresh();
   }
 }
 
