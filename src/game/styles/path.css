@@ -3,7 +3,8 @@
  *
  * Les nœuds sont positionnés en absolu sur une carte haute ; le tracé SVG passe
  * dessous. Reanimated (anneau qui pulse, badge « À toi ! ») devient ici des
- * animations CSS, désactivées si l'utilisateur demande moins de mouvement.
+ * animations CSS, jouées quel que soit `prefers-reduced-motion` — comme dans
+ * l'app.
  */
 
 .path-title {
@@ -187,12 +188,4 @@
 
 .path-node--mixed {
   border-width: 4px;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .path-node--current::after {
-    animation: none;
-    opacity: 0.5;
-    transform: scale(1.05);
-  }
 }

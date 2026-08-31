@@ -6,7 +6,9 @@
  * d'installation, et ça évite d'alourdir le bundle du jeu pour trois secondes
  * d'animation.
  *
- * Respecte `prefers-reduced-motion` : pas de confettis pour qui les refuse.
+ * Joués quel que soit `prefers-reduced-motion`, comme le reste des animations
+ * du jeu : le réglage système est souvent actif sans intention, et il privait
+ * la fin de partie de sa seule récompense visuelle.
  */
 const COLORS = ["#FF5E3A", "#F4B740", "#2B8F5E", "#6C7FE0", "#B74F7A"];
 
@@ -23,7 +25,6 @@ interface Piece {
 
 export function celebrate(durationMs = 2200): void {
   if (typeof window === "undefined") return;
-  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
 
   const canvas = document.createElement("canvas");
   canvas.setAttribute("aria-hidden", "true");

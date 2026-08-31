@@ -515,18 +515,13 @@
   margin-bottom: 16px;
 }
 
-@media (prefers-reduced-motion: reduce) {
-  .sapiro-game * {
-    transition: none !important;
-    animation: none !important;
-  }
-
-  /* Sans glissement, le pane sortant resterait posé sur la question suivante
-     le temps de son retrait (280 ms) : on le masque. */
-  .quiz-slide__pane--out {
-    opacity: 0;
-  }
-}
+/* Pas de coupure des animations en `prefers-reduced-motion` : les micro-
+   interactions du quiz (surface dorée, glissement entre questions, étincelles
+   de la barre) FONT le jeu — sans elles le web n'est plus l'app. Le réglage
+   système est très souvent actif sans intention de la part du joueur (économie
+   d'énergie, profil d'entreprise), et il masquait ici tout le feedback de
+   bonne réponse. Choix produit assumé, aligné sur l'app qui n'en tient pas
+   compte non plus. */
 
 /* ---------- Modale (compte, abonnement) ---------- */
 
