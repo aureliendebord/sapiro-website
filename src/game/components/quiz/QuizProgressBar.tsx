@@ -17,21 +17,24 @@ const SPARKS = [
 ];
 
 interface Props {
-  /** Réponses données, feedback en cours compris. */
-  answered: number;
+  /**
+   * Étapes franchies, feedback en cours compris. En repasse, ce sont les
+   * erreurs déjà corrigées — la barre repart sur la file d'erreurs.
+   */
+  done: number;
   total: number;
   label: string;
 }
 
-export function QuizProgressBar({ answered, total, label }: Props) {
-  const ratio = total > 0 ? Math.min(answered / total, 1) : 0;
+export function QuizProgressBar({ done, total, label }: Props) {
+  const ratio = total > 0 ? Math.min(done / total, 1) : 0;
   const pct = `${ratio * 100}%`;
 
   return (
     <div
       className="quiz-progress"
       role="progressbar"
-      aria-valuenow={Math.min(answered, total)}
+      aria-valuenow={Math.min(done, total)}
       aria-valuemin={0}
       aria-valuemax={total}
       aria-label={label}
@@ -42,8 +45,8 @@ export function QuizProgressBar({ answered, total, label }: Props) {
       {/* Étincelles : hors du track (qui masque son débordement) pour pouvoir
           déborder du bord. Remontées à chaque réponse (`key`) — c'est ce qui
           rejoue l'animation ; aucune au démarrage, la barre n'a pas bougé. */}
-      {answered > 0 && (
-        <div key={answered} className="quiz-progress__head" style={{ left: pct }} aria-hidden="true">
+      {done > 0 && (
+        <div key={done} className="quiz-progress__head" style={{ left: pct }} aria-hidden="true">
           {SPARKS.map((spark, i) => (
             <span
               key={i}

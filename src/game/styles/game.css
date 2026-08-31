@@ -734,10 +734,13 @@
 
 /* Barre de progression continue, comme le header de l'app : une seule pill qui
    se remplit à chaque réponse. Le détail juste/raté n'y figure plus — le
-   feedback est déjà donné question par question. */
+   feedback est déjà donné question par question. En repasse elle repart sur la
+   file d'erreurs (résolues / restantes), d'où le couple done/total plutôt que
+   l'index de question. */
 .quiz-progress {
   position: relative;
   flex: 1;
+  /* 12 px : BAR_HEIGHT du header de l'app. */
   height: 12px;
   display: flex;
   align-items: center;

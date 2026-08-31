@@ -73,7 +73,7 @@ export interface SessionState {
   dailyTheme: string | null;
   score: number;
   lives: number;
-  /** Vrai/faux par question déjà répondue — alimente la barre segmentée. */
+  /** Vrai/faux par question déjà répondue (première passe seulement). */
   answers: boolean[];
   misses: MissedQuestion[];
   startedAt: number;
@@ -92,6 +92,11 @@ export interface SessionState {
   retryQueue: RetryEntry[];
   /** Vrai pendant la phase de repasse (le score ne bouge plus). */
   retrying: boolean;
+  /**
+   * Questions de repasse résolues — la barre de progression repart sur la
+   * file d'erreurs (résolues / restantes), comme le header de l'app.
+   */
+  retryDone: number;
 }
 
 /**
@@ -237,6 +242,7 @@ export function startSession(config: SessionConfig): SessionState {
     survivalComplete: false,
     retryQueue: [],
     retrying: false,
+    retryDone: 0,
   };
 }
 
@@ -279,6 +285,7 @@ export function answer(state: SessionState, choice: string): AnswerOutcome {
       state: {
         ...state,
         retryQueue,
+        retryDone: state.retryDone + (correct ? 1 : 0),
         question: retryQueue[0]?.q ?? null,
         finished: retryQueue.length === 0,
       },

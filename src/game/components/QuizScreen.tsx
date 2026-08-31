@@ -134,6 +134,19 @@ export function QuizScreen({ config, previousDailyStreak, onFinish, onQuit }: Pr
     question.entity.type !== "artwork" &&
     question.entity.type !== "animal";
 
+  // Barre continue, comme le header de l'app (QuizProgressBar) : elle se
+  // remplit à chaque réponse, sans découpage par question — le feedback
+  // juste/raté est déjà donné question par question. En repasse elle REPART
+  // sur la file d'erreurs (résolues / restantes) au lieu de rester figée à
+  // 10/10 ; pendant le feedback la bonne réponse compte tout de suite, sinon
+  // la barre n'avancerait qu'à la question suivante.
+  const progress = session.retrying
+    ? {
+        done: session.retryDone + (picked === question.correctAnswer ? 1 : 0),
+        total: session.retryDone + session.retryQueue.length,
+      }
+    : { done: answeredCount, total: session.totalQuestions ?? 0 };
+
   return (
     <div style={{ ...accentVars(config.mode), display: "contents" } as React.CSSProperties}>
       <div className="game-topbar">
@@ -148,8 +161,8 @@ export function QuizScreen({ config, previousDailyStreak, onFinish, onQuit }: Pr
 
         {session.totalQuestions !== null ? (
           <QuizProgressBar
-            answered={answeredCount}
-            total={session.totalQuestions}
+            done={progress.done}
+            total={progress.total}
             label={t("web.quiz.progress")}
           />
         ) : (
