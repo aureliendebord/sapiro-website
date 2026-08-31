@@ -11,7 +11,7 @@ interface ModeRow {
   icon: string;
   nameKey: string;
   descKey: string;
-  /** Clé de couleur dans MODE_COLOR — sert au liseré de relief. */
+  /** Clé de couleur dans MODE_COLOR — sert aux pastilles de la ligne. */
   color: string;
   costsTicket: boolean;
 }
@@ -81,9 +81,15 @@ export function HomeScreen({ ticketsLeft, isPremium, dailyDone, onAction }: Prop
               onClick={() => onAction(row.action)}
               style={
                 {
-                  "--row-edge": hero ? BRAND.primary : colors.primary,
+                  // Le liseré coloré est réservé à Aventure : dans l'app, seule
+                  // `AdventureCard` passe un faceColor/edgeColor à
+                  // `PressableCard`. Les autres cartes gardent le liseré beige
+                  // par défaut — c'est ce qui fait ressortir la carte de tête.
+                  "--row-edge": hero ? BRAND.primary : "var(--rule)",
                   "--row-face": hero ? BRAND.tint : "var(--surface)",
                   "--row-ink": hero ? BRAND.tintDeep : "var(--ink)",
+                  "--row-tint": colors.tint,
+                  "--row-tint-deep": colors.tintDeep,
                 } as React.CSSProperties
               }
             >
@@ -102,7 +108,9 @@ export function HomeScreen({ ticketsLeft, isPremium, dailyDone, onAction }: Prop
                 <span className="mode-row__desc">{desc}</span>
               </span>
 
-              <Glyph name="chevron" size={20} className="mode-row__chevron" />
+              {/* Chevron sur la seule ligne qui NAVIGUE (le sentier) : les
+                  autres lancent une partie, et l'app n'en met pas non plus. */}
+              {hero && <Glyph name="chevron" size={20} className="mode-row__chevron" />}
             </button>
           );
         })}

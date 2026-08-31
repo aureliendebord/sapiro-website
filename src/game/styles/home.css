@@ -132,12 +132,15 @@
   }
 }
 
+/* Pastille douce à la couleur du mode, comme les chips de `DailyCard` :
+   fond `tint`, texte `tintDeep`. Le liseré de la ligne étant beige, c'est ici
+   que la couleur du mode se voit. */
 .mode-row__badge {
   flex: none;
-  padding: 5px 11px;
+  padding: 4px 10px;
   border-radius: 999px;
-  background: var(--row-edge);
-  color: #fff;
+  background: var(--row-tint);
+  color: var(--row-tint-deep);
   font-size: 12px;
   font-weight: 800;
   white-space: nowrap;
