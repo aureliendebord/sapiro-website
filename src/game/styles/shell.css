@@ -50,7 +50,7 @@
 .game-shell {
   max-width: 720px;
   margin: 0 auto;
-  padding: 24px var(--game-gutter) calc(32px + env(safe-area-inset-bottom, 0px));
+  padding: 12px var(--game-gutter) calc(20px + env(safe-area-inset-bottom, 0px));
 }
 
 /**
@@ -82,7 +82,7 @@
   align-items: center;
   gap: 10px;
   flex-wrap: wrap;
-  margin-bottom: 16px;
+  margin-bottom: 12px;
 }
 
 .game-statusbar__cta {
@@ -104,6 +104,23 @@
   box-shadow: 0 8px 18px -8px var(--accent);
 }
 
+/* Sous 420px, niveau + parties + CTA passaient à la ligne : la barre d'état
+   doublait de hauteur et poussait la navigation hors de l'écran. Quelques
+   pixels de rembourrage suffisent à tout garder sur une ligne. */
+@media (max-width: 420px) {
+  .game-statusbar {
+    gap: 8px;
+  }
+
+  .game-statusbar .game-pill {
+    padding: 6px 11px;
+  }
+
+  .game-statusbar__cta {
+    padding: 7px 12px;
+  }
+}
+
 /* ---------- Barre de navigation du jeu (tab bar web) ---------- */
 
 /* Posée dans le plateau, sous le contenu : elle fait partie de la zone de jeu
@@ -114,11 +131,11 @@
    passe donc par l'opacité de l'icône et la couleur du libellé, exactement
    comme `TabIcon` dans `app/(tabs)/_layout.tsx`. */
 .game-bottomnav {
-  margin-top: 24px;
+  margin-top: 12px;
   display: flex;
   align-items: stretch;
   justify-content: space-around;
-  padding: 10px 6px;
+  padding: 8px 6px;
   background: var(--surface);
   border: 2px solid var(--rule-light);
   border-radius: 24px;
@@ -181,7 +198,7 @@
 
 @media (max-width: 420px) {
   .game-bottomnav {
-    padding: 10px 4px;
+    padding: 8px 4px;
   }
 
   .game-bottomnav__item {

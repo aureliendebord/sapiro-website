@@ -93,7 +93,7 @@ export function HomeScreen({ ticketsLeft, isPremium, dailyDone, onAction }: Prop
                 } as React.CSSProperties
               }
             >
-              <Icon emoji={row.icon} size={64} eager className="mode-row__icon" />
+              <Icon emoji={row.icon} size={56} eager className="mode-row__icon" />
 
               <span className="mode-row__body">
                 <span className="mode-row__head">

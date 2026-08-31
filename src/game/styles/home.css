@@ -14,14 +14,14 @@
   align-items: flex-start;
   justify-content: space-between;
   gap: 16px;
-  margin-bottom: 20px;
+  margin-bottom: 12px;
 }
 
 .home-title {
-  font-size: clamp(1.6rem, 3.4vw, 2.4rem);
+  font-size: clamp(1.45rem, 3.4vw, 2.2rem);
   font-weight: 800;
   letter-spacing: -0.8px;
-  margin: 0 0 4px;
+  margin: 0 0 2px;
 }
 
 .home-sub {
@@ -31,10 +31,14 @@
   max-width: 46ch;
 }
 
+/* L'accueil doit tenir dans une fenêtre de téléphone : la navigation vit
+   maintenant dans le plateau, sous les modes, et devenait inatteignable sans
+   défiler. D'où des espacements plus serrés que les 24px de l'app, qui n'a ni
+   titre, ni sous-titre, ni barre d'état au-dessus de ses cartes. */
 .mode-list {
   display: flex;
   flex-direction: column;
-  gap: 14px;
+  gap: 8px;
 }
 
 /**
@@ -48,7 +52,7 @@
   align-items: center;
   gap: 14px;
   width: 100%;
-  padding: 16px;
+  padding: 14px;
   border: 2px solid var(--row-edge);
   border-radius: 24px;
   background: var(--row-face);
@@ -77,11 +81,15 @@
   cursor: not-allowed;
 }
 
+/* 56px et non les 66 de l'app : l'accueil web porte en plus un titre, un
+   sous-titre et la barre d'état des parties. Sans ce resserrement, les quatre
+   modes ne tiennent pas dans une fenêtre de téléphone et la navigation, qui
+   vit désormais dans le plateau, passe sous la ligne de flottaison. */
 .mode-row__icon {
   flex: none;
-  width: 64px;
-  height: 64px;
-  border-radius: 16px;
+  width: 56px;
+  height: 56px;
+  border-radius: 14px;
 }
 
 .mode-row__body {
@@ -124,7 +132,7 @@
 
 @media (min-width: 560px) {
   .mode-row {
-    padding: 18px 20px;
+    padding: 16px 20px;
   }
 
   .mode-row__name {
