@@ -28,6 +28,9 @@ import { SuccessGradientFrame } from "./quiz/SuccessGradientFrame";
  */
 const FEEDBACK_MS = 800;
 
+/** Survie : la barre vise le prochain multiple de 10, comme `PALIER_STEP`. */
+const PALIER_STEP = 10;
+
 interface Props {
   config: SessionConfig;
   /**
@@ -147,8 +150,17 @@ export function QuizScreen({ config, previousDailyStreak, onFinish, onQuit }: Pr
       }
     : { done: answeredCount, total: session.totalQuestions ?? 0 };
 
+  // Survie : le palier visé est le prochain multiple de 10. Cible toujours
+  // proche, jamais de plafond — même règle que le header de l'app.
+  const isSurvival = config.mode === "survival";
+  const palierStart = Math.floor(session.score / PALIER_STEP) * PALIER_STEP;
+
   return (
     <div style={{ ...accentVars(config.mode), display: "contents" } as React.CSSProperties}>
+      {/* Même structure que le header de l'app : deux boutons ronds sur fond
+          blanc encadrent une zone centrale qui porte la progression (barre en
+          modes bornés, cœurs en survie). Rien ne flotte : chaque élément a sa
+          pastille et sa place. */}
       <div className="game-topbar">
         <button
           type="button"
@@ -156,31 +168,37 @@ export function QuizScreen({ config, previousDailyStreak, onFinish, onQuit }: Pr
           onClick={() => onQuit(answeredCount)}
           aria-label={t("web.quiz.quit")}
         >
-          <Glyph name="back" size={22} />
+          <Glyph name="back" size={20} />
         </button>
 
-        {session.totalQuestions !== null ? (
-          <QuizProgressBar
-            done={progress.done}
-            total={progress.total}
-            label={t("web.quiz.progress")}
-          />
-        ) : (
-          <span className="game-pill">
-            {t("web.quiz.goodAnswers", { count: session.questionIndex })}
-          </span>
-        )}
+        <div className="quiz-topbar__center">
+          {isSurvival ? (
+            <span
+              className="quiz-lives"
+              aria-label={t("web.quiz.livesLeft", { count: session.lives })}
+            >
+              {/* Toujours trois cœurs : les vies perdues s'éteignent au lieu de
+                  disparaître, sinon le rang des cœurs restants change à chaque
+                  erreur et on ne sait plus combien il en reste. */}
+              {Array.from({ length: 3 }, (_, i) => (
+                <Icon
+                  key={i}
+                  emoji="❤️"
+                  size={20}
+                  className={i < session.lives ? "" : "quiz-life--lost"}
+                />
+              ))}
+            </span>
+          ) : (
+            <QuizProgressBar
+              done={progress.done}
+              total={progress.total}
+              label={t("web.quiz.progress")}
+            />
+          )}
+        </div>
 
-        {config.mode === "survival" ? (
-          <span
-            className="quiz-lives"
-            aria-label={t("web.quiz.livesLeft", { count: session.lives })}
-          >
-            {Array.from({ length: Math.max(0, session.lives) }, (_, i) => (
-              <Icon key={i} emoji="❤️" size={20} />
-            ))}
-          </span>
-        ) : session.retrying ? (
+        {isSurvival ? null : session.retrying ? (
           // Phase de repasse : plus de compteur (il afficherait 11/10), on
           // annonce ce qui se passe — on corrige ses erreurs.
           <span className="game-pill">{t("web.quiz.retry")}</span>
@@ -202,9 +220,25 @@ export function QuizScreen({ config, previousDailyStreak, onFinish, onQuit }: Pr
             if (!next) play("tap");
           }}
         >
-          <Glyph name={muted ? "sound-off" : "sound-on"} size={20} />
+          <Glyph name={muted ? "sound-off" : "sound-on"} size={18} />
         </button>
       </div>
+
+      {/* Survie : score et palier sur une ligne compacte, comme la 2e ligne du
+          header de l'app — le compteur « N bonnes réponses » ne flotte plus au
+          milieu de la barre. */}
+      {isSurvival && (
+        <div className="quiz-palier">
+          <span className="quiz-palier__score">{session.score}</span>
+          <span className="quiz-palier__track">
+            <span
+              className="quiz-palier__fill"
+              style={{ width: `${((session.score - palierStart) / PALIER_STEP) * 100}%` }}
+            />
+          </span>
+          <span className="quiz-palier__next">{palierStart + PALIER_STEP}</span>
+        </div>
+      )}
 
       {/* Tout le contenu de la question (énoncé, visuel, tuiles) glisse d'un
           bloc vers la gauche pendant que la suivante arrive depuis la droite,

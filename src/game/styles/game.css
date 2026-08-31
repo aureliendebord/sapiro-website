@@ -164,20 +164,30 @@
   font-size: 14px;
 }
 
+/* Pastille ronde de 36px sur fond blanc — le traitement des boutons du header
+   de l'app. Sans elle, un pictogramme nu flotte au bord de l'écran sans qu'on
+   sache qu'il est cliquable. */
 .game-icon-btn {
+  flex: none;
+  width: 36px;
+  height: 36px;
+  display: grid;
+  place-items: center;
   font: inherit;
   border: none;
-  background: transparent;
+  padding: 0;
+  background: var(--surface);
   color: var(--ink-mid);
-  font-size: 22px;
   line-height: 1;
-  padding: 8px;
   cursor: pointer;
   border-radius: 999px;
+  box-shadow: 0 2px 6px -3px rgb(26 24 22 / 30%);
+  transition: background 140ms ease, color 140ms ease;
 }
 
 .game-icon-btn:hover {
   background: var(--canvas-dim);
+  color: var(--ink);
 }
 
 /* ---------- Quiz ---------- */
@@ -426,10 +436,65 @@
   cursor: default;
 }
 
+/* Zone centrale du header : elle porte la barre de progression (modes bornés)
+   ou les cœurs (survie). Les deux occupent la même place, entre les deux
+   boutons ronds — rien ne se déplace d'un mode à l'autre. */
+.quiz-topbar__center {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .quiz-lives {
   display: flex;
-  gap: 4px;
-  font-size: 16px;
+  gap: 7px;
+}
+
+/* Vie perdue : le cœur s'éteint sur place. Les illustrations ne se teintent
+   pas — c'est le seul contraste possible, comme sur les onglets. */
+.quiz-life--lost {
+  opacity: 0.28;
+  filter: grayscale(1);
+}
+
+/* Survie : score, barre vers le prochain palier de 10, palier visé. Deuxième
+   ligne du header de l'app. */
+.quiz-palier {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: -12px 0 16px;
+}
+
+.quiz-palier__score {
+  font-size: 18px;
+  font-weight: 800;
+  color: var(--accent);
+  min-width: 2ch;
+}
+
+.quiz-palier__track {
+  flex: 1;
+  height: 8px;
+  border-radius: 999px;
+  background: var(--accent-tint);
+  overflow: hidden;
+}
+
+.quiz-palier__fill {
+  display: block;
+  height: 100%;
+  border-radius: 999px;
+  background: var(--accent);
+  transition: width 350ms cubic-bezier(0.33, 1, 0.68, 1);
+}
+
+.quiz-palier__next {
+  font-size: 12px;
+  font-weight: 800;
+  color: var(--ink-faint);
 }
 
 /* ---------- Résultat ---------- */
