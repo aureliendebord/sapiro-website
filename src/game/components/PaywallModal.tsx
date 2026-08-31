@@ -181,7 +181,7 @@ export function PaywallModal({ user, source, onClose, onPurchased, onNeedAccount
 
           <div className="paywall__hero-content">
             <span className="paywall__proof">
-              <Icon emoji="🧭" size={18} radius={6} />
+              <Icon emoji="✅" size={18} radius={6} />
               {t("web.paywall.proof")}
             </span>
 
