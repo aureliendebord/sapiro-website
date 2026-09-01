@@ -22,7 +22,8 @@ interface Props {
   source: string;
   onClose: () => void;
   onPurchased: () => void;
-  /** Ouvre la modale de compte : s'abonner suppose un compte identifiable. */
+  /** Ouvre la modale de compte — après l'achat, ou pour retrouver un
+   *  abonnement déjà pris. L'achat lui-même n'exige PAS de compte. */
   onNeedAccount: () => void;
 }
 
@@ -94,23 +95,22 @@ export function PaywallModal({ user, source, onClose, onPurchased, onNeedAccount
   const handleSubscribe = async () => {
     if (!current) return;
 
-    // Sans compte, l'abonnement ne suivrait pas sur mobile — c'est justement
-    // ce que l'utilisateur vient acheter.
-    if (!isSignedIn(user)) {
-      capture("paywall_needs_account", { source, plan: current.period });
-      onNeedAccount();
-      return;
-    }
-
     setBusy(true);
     setError(null);
-    capture("paywall_cta_clicked", { source, plan: current.period, trial_days: trialDays });
+    capture("paywall_cta_clicked", {
+      source,
+      plan: current.period,
+      trial_days: trialDays,
+      signed_in: isSignedIn(user),
+    });
     try {
-      // L'achat doit être attribué à l'uid Supabase, jamais à l'identifiant
-      // anonyme qui a servi à charger les offres : c'est lui qui porte
-      // l'entitlement jusqu'à l'app mobile.
-      await identifyUser(user.id);
-      await purchasePlan(current, user?.email ?? undefined);
+      // On achète avec l'identité de la session courante, anonyme comprise :
+      // demander un compte AVANT de payer coûtait une étape entière au moment
+      // le plus fragile du tunnel. L'identité anonyme est aliasée sur le compte
+      // à sa création (cf. `identifyUser`), l'abonnement suit donc jusqu'à
+      // l'app mobile — l'écran de fin réclame ce compte tout de suite après.
+      if (user) await identifyUser(user.id, Boolean(user.is_anonymous));
+      await purchasePlan(current, isSignedIn(user) ? (user.email ?? undefined) : undefined);
       capture("purchase_completed", { source, plan: current.period });
       onPurchased();
       setPurchased(true);
@@ -138,6 +138,11 @@ export function PaywallModal({ user, source, onClose, onPurchased, onNeedAccount
     const lang = getLanguage();
     const storeClick = (store: "app_store" | "play_store") =>
       capture("post_purchase_store_click", { source, store });
+    // L'achat a pu se faire sans compte : sans compte, l'abonnement ne vaut
+    // que sur ce navigateur. C'est donc ici, et pas avant le paiement, qu'on
+    // le réclame — l'utilisateur vient de payer, il a toutes les raisons de
+    // finir l'étape.
+    const needsAccount = !isSignedIn(user);
     return (
       <div
         className="game-modal"
@@ -147,11 +152,26 @@ export function PaywallModal({ user, source, onClose, onPurchased, onNeedAccount
       >
         <div className="game-modal__panel">
           <h2 className="game-modal__title">{t("web.paywall.successTitle")}</h2>
-          <p className="game-modal__sub">{t("web.paywall.successSub")}</p>
+          <p className="game-modal__sub">
+            {needsAccount ? t("web.paywall.successSubNoAccount") : t("web.paywall.successSub")}
+          </p>
+
+          {needsAccount && (
+            <button
+              type="button"
+              className="game-btn game-btn--block"
+              onClick={() => {
+                capture("post_purchase_account_cta", { source });
+                onNeedAccount();
+              }}
+            >
+              {t("web.paywall.successAccount")}
+            </button>
+          )}
 
           <div className="paywall-stores">
             <a
-              className="game-btn game-btn--block"
+              className={`game-btn game-btn--block ${needsAccount ? "game-btn--ghost" : ""}`}
               href={appStoreUrl(lang)}
               target="_blank"
               rel="noopener"
@@ -160,7 +180,7 @@ export function PaywallModal({ user, source, onClose, onPurchased, onNeedAccount
               {t("web.paywall.successIos")}
             </a>
             <a
-              className="game-btn game-btn--block"
+              className={`game-btn game-btn--block ${needsAccount ? "game-btn--ghost" : ""}`}
               href={playStoreUrl("post-purchase", lang)}
               target="_blank"
               rel="noopener"
@@ -264,6 +284,7 @@ export function PaywallModal({ user, source, onClose, onPurchased, onNeedAccount
                 type="button"
                 className="paywall__restore"
                 onClick={() => {
+                  capture("paywall_needs_account", { source, signed_in: isSignedIn(user) });
                   if (isSignedIn(user)) void openCustomerPortal();
                   else onNeedAccount();
                 }}

@@ -23,7 +23,7 @@ import { Icon } from "./ui/Icon";
 import { Glyph } from "./ui/Glyph";
 import { AccountModal } from "./AccountModal";
 import { ResetPasswordModal } from "./ResetPasswordModal";
-import { completePendingMerge, ensureSession, onAuthChange } from "@game/lib/auth";
+import { completePendingMerge, ensureSession, isSignedIn, onAuthChange } from "@game/lib/auth";
 import { fetchPremiumStatus } from "@game/lib/purchases";
 import { capture, identifyAnalytics } from "@game/lib/analytics";
 import type { User } from "@supabase/supabase-js";
@@ -114,19 +114,25 @@ export default function GameApp({ lang }: Props) {
     return unsubscribe;
   }, []);
 
-  // Le SDK RevenueCat suit l'uid Supabase : c'est ce qui fait qu'un abonnement
-  // pris ici vaut sur mobile, et inversement.
-  const refreshPremium = useCallback(async (uid: string | undefined) => {
+  // Le SDK RevenueCat suit l'identité Supabase, session anonyme comprise :
+  // c'est ce qui fait qu'un abonnement pris ici vaut sur mobile, et qu'un achat
+  // fait avant la création du compte n'est pas perdu.
+  const refreshPremium = useCallback(async (uid: string | undefined, anonymous: boolean) => {
     if (!uid) return setIsPremium(false);
-    const status = await fetchPremiumStatus(uid);
+    const status = await fetchPremiumStatus(uid, anonymous);
     // Statut inconnu (incident réseau) : on garde l'état courant plutôt que
     // de rétrograder un abonné en gratuit.
     if (status !== null) setIsPremium(status);
   }, []);
 
+  const uid = user?.id;
+  const uidIsAnonymous = Boolean(user?.is_anonymous);
   useEffect(() => {
-    void refreshPremium(user?.id);
-  }, [user?.id, refreshPremium]);
+    // Dépendre de l'identité, pas de l'objet `user` : Supabase en émet un
+    // nouveau à chaque rafraîchissement de jeton, ce qui relancerait l'appel
+    // RevenueCat pour rien.
+    void refreshPremium(uid, uidIsAnonymous);
+  }, [uid, uidIsAnonymous, refreshPremium]);
 
   // Seuls les textes d'interface sont chargés au démarrage. Les locales
   // d'entités (jusqu'à 1,3 Mo pour une langue) sont chargées au lancement
@@ -394,9 +400,27 @@ export default function GameApp({ lang }: Props) {
                 <Icon emoji="⭐" size={18} /> {t("web.home.level", { level: levelFromXp(xp) })}
               </span>
               {isPremium ? (
-                <span className="game-pill">
-                  <Icon emoji="👑" size={18} /> Pro
-                </span>
+                <>
+                  <span className="game-pill">
+                    <Icon emoji="👑" size={18} /> Pro
+                  </span>
+                  {/* Abonné sans compte : l'abonnement ne vaut que sur ce
+                      navigateur tant qu'il n'est pas rattaché à un compte. Le
+                      rappel reste affiché jusqu'à ce que ce soit fait — c'est
+                      la seule étape qui sépare l'achat de l'app mobile. */}
+                  {!isSignedIn(user) && (
+                    <button
+                      type="button"
+                      className="game-statusbar__cta"
+                      onClick={() => {
+                        capture("link_subscription_cta", { source: "home_statusbar" });
+                        setAccountOpen(true);
+                      }}
+                    >
+                      {t("web.home.linkSubscription")}
+                    </button>
+                  )}
+                </>
               ) : (
                 <>
                   <span className="game-pill">
@@ -447,7 +471,7 @@ export default function GameApp({ lang }: Props) {
             // La modale reste ouverte : elle affiche l'écran « installe l'app »
             // (handoff web → app), et se ferme via son propre bouton.
             onPurchased={() => {
-              void refreshPremium(user?.id);
+              void refreshPremium(uid, uidIsAnonymous);
             }}
             onNeedAccount={() => {
               setPaywallSource(null);

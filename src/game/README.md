@@ -125,3 +125,16 @@ et les parties de l'ancien uid deviennent orphelines. D'où :
 
 Google passant par un redirect complet, le jeton anonyme est mis de côté dans
 localStorage avant le départ et repris au retour (`completePendingMerge`).
+
+## Abonnement : payer d'abord, créer son compte ensuite
+
+Même principe que la progression, appliqué au paiement : le paywall n'exige
+**pas** de compte pour acheter. L'identité RevenueCat reflète l'identité
+Supabase, session anonyme comprise — sous la forme `$RCAnonymousID:<uid>`, seule
+forme que RevenueCat accepte d'**aliaser**. À la création du compte,
+`identifyUser` (dans `lib/purchases.ts`) aliase cette identité sur l'uid final :
+l'abonnement acheté sans compte suit jusqu'à l'app mobile.
+
+Sans compte, l'abonnement ne vaudrait que sur ce navigateur : l'écran affiché
+juste après l'achat le dit et propose la création de compte en action
+principale, les liens stores en secondaire.

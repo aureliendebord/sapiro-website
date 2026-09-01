@@ -1,4 +1,4 @@
-import { useMemo } from "react";
+import { useMemo, useState } from "react";
 import type { User } from "@supabase/supabase-js";
 import {
   BADGE_DEFINITIONS,
@@ -8,6 +8,8 @@ import {
 import { useGameStore, levelFromXp, levelProgress, xpToNextLevel } from "@game/store/gameStore";
 import { usePathStore } from "@game/store/pathStore";
 import { isSignedIn } from "@game/lib/auth";
+import { openCustomerPortal } from "@game/lib/purchases";
+import { capture } from "@game/lib/analytics";
 import { t } from "@game/lib/i18n";
 import { Icon } from "../ui/Icon";
 
@@ -28,6 +30,10 @@ interface Props {
  * l'état persisté des joueurs en production, on n'en fait pas une copie.
  */
 export function ProfileScreen({ user, isPremium, onAccount, onSubscribe }: Props) {
+  // Le profil est le seul endroit où un abonné revient : c'est donc ici que
+  // vivent le changement de moyen de paiement et la résiliation, promis par les
+  // mentions du paywall. Sans ça, un abonné n'avait aucune sortie dans le jeu.
+  const [portalNotice, setPortalNotice] = useState<string | null>(null);
   const xp = useGameStore((s) => s.xp);
   const gamesPlayed = useGameStore((s) => s.gamesPlayed);
   const correctAnswers = useGameStore((s) => s.correctAnswers);
@@ -106,7 +112,7 @@ export function ProfileScreen({ user, isPremium, onAccount, onSubscribe }: Props
           <Stat icon="🧭" label={t("web.profile.pathBlocks")} value={`${pathCleared}/54`} />
         </div>
 
-        {!isPremium && (
+        {!isPremium ? (
           <button
             type="button"
             className="game-btn game-btn--block"
@@ -115,6 +121,26 @@ export function ProfileScreen({ user, isPremium, onAccount, onSubscribe }: Props
           >
             {t("web.home.unlimited")}
           </button>
+        ) : (
+          <>
+            <button
+              type="button"
+              className="game-btn game-btn--ghost game-btn--block"
+              style={{ marginTop: 16 }}
+              onClick={() => {
+                capture("manage_subscription_clicked", { source: "profile" });
+                setPortalNotice(null);
+                void openCustomerPortal()
+                  .then((opened) => {
+                    if (!opened) setPortalNotice(t("web.profile.manageUnavailable"));
+                  })
+                  .catch(() => setPortalNotice(t("web.profile.manageUnavailable")));
+              }}
+            >
+              {t("web.profile.manage")}
+            </button>
+            {portalNotice && <p className="game-modal__notice">{portalNotice}</p>}
+          </>
         )}
       </section>
 

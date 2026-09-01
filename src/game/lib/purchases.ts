@@ -5,9 +5,12 @@
  * avec le même entitlement « Sapiro Pro » et le même `appUserId` (l'uid
  * Supabase). Conséquence directe : un achat web donne le premium sur mobile et
  * un abonné App Store est premium sur le web, sans aucun code de
- * synchronisation. Le webhook `revenuecat-webhook` de l'app reçoit les
- * événements web comme les autres (`store: RC_BILLING`) et alimente la même
- * table `subscriptions`.
+ * synchronisation. Une session Supabase anonyme est reflétée par une identité
+ * anonyme RevenueCat, aliasée sur le compte à sa création : on peut donc payer
+ * d'abord et créer son compte ensuite sans perdre l'abonnement.
+ *
+ * Le webhook `revenuecat-webhook` de l'app reçoit les événements web comme les
+ * autres (`store: RC_BILLING`) et alimente la même table `subscriptions`.
  *
  * Le statut premium lu par l'UI vient d'ici (SDK, source de vérité), plus la
  * table `premium_overrides` pour les accès accordés à la main — même règle que
@@ -19,6 +22,7 @@
  */
 import type { CustomerInfo, Package, Purchases } from "@revenuecat/purchases-js";
 import { getSupabase } from "@game/lib/supabase";
+import { getLanguage } from "@game/lib/i18n";
 
 const API_KEY = import.meta.env.PUBLIC_RC_WEB_API_KEY;
 
@@ -52,32 +56,44 @@ export function isBillingConfigured(): boolean {
   return Boolean(API_KEY) || isPaywallPreview();
 }
 
+/** Préfixe des identifiants que RevenueCat considère comme anonymes. */
+const RC_ANON_PREFIX = "$RCAnonymousID:";
+
 /**
- * Identifiant anonyme, stable pour ce navigateur : le SDK doit être configuré
- * AVANT tout appel (`getOfferings` compris), or un visiteur qui ouvre le
- * paywall n'a pas encore de compte. Sans ça, `getSharedInstance()` lève et le
- * paywall affiche « pas encore ouvert » alors que les offres existent.
- * Cet identifiant ne sert qu'à lire les offres : l'achat exige une connexion,
- * et `identifyUser` bascule alors sur l'uid Supabase.
+ * Identité RevenueCat d'une session Supabase. Une session anonyme prend la
+ * forme anonyme de RevenueCat plutôt que l'uid brut, et ce n'est pas cosmétique :
+ * `Purchases.identifyUser` ne crée un alias — donc ne TRANSFÈRE l'achat vers le
+ * compte final — que si l'identité de départ porte ce préfixe. C'est ce qui
+ * autorise à payer avant de créer son compte sans perdre l'abonnement.
  */
-function anonymousAppUserId(): string {
+function rcUserIdFor(uid: string, anonymous: boolean): string {
+  return anonymous ? `${RC_ANON_PREFIX}${uid.replace(/-/g, "")}` : uid;
+}
+
+/**
+ * Identifiant de repli, stable pour ce navigateur : le SDK doit être configuré
+ * AVANT tout appel (`getOfferings` compris), or les offres peuvent être
+ * demandées avant que la session Supabase soit prête. Sans ça,
+ * `getSharedInstance()` lève et le paywall affiche « pas encore ouvert » alors
+ * que les offres existent.
+ *
+ * Identité de secours seulement : dès que la session existe, `identifyUser`
+ * bascule dessus. Un achat conclu dans cet intervalle — il faudrait cliquer
+ * « payer » avant que la session soit prête — resterait sur cette identité et
+ * demanderait un transfert à la main dans RevenueCat.
+ */
+function browserAnonymousId(sdk: SDK): string {
   const KEY = "sapiro.rc.anon";
-  // `randomUUID` manque sur les Safari anciens : le repli suffit ici, cet
-  // identifiant ne protège rien, il ne fait qu'éviter les collisions.
-  const fresh = () =>
-    `anon_${
-      typeof crypto?.randomUUID === "function"
-        ? crypto.randomUUID().replace(/-/g, "")
-        : Math.random().toString(36).slice(2) + Date.now().toString(36)
-    }`;
   try {
     const stored = localStorage.getItem(KEY);
-    if (stored) return stored;
-    const id = fresh();
+    // Les identifiants de l'ancienne forme (`anon_…`) ne sont pas anonymes pour
+    // RevenueCat : les garder interdirait l'alias, on les remplace.
+    if (stored?.startsWith(RC_ANON_PREFIX)) return stored;
+    const id = sdk.Purchases.generateRevenueCatAnonymousAppUserId();
     localStorage.setItem(KEY, id);
     return id;
   } catch {
-    return fresh();
+    return sdk.Purchases.generateRevenueCatAnonymousAppUserId();
   }
 }
 
@@ -86,28 +102,48 @@ function anonymousAppUserId(): string {
  * avec l'identifiant anonyme.
  */
 async function ensureConfigured(): Promise<Purchases> {
-  const { Purchases } = await loadSdk();
+  const sdk = await loadSdk();
   if (configuredFor === null) {
-    const uid = anonymousAppUserId();
+    const uid = browserAnonymousId(sdk);
     configuredFor = uid;
-    return Purchases.configure({ apiKey: API_KEY, appUserId: uid });
+    return sdk.Purchases.configure({ apiKey: API_KEY, appUserId: uid });
   }
-  return Purchases.getSharedInstance();
+  return sdk.Purchases.getSharedInstance();
 }
 
 /**
- * Associe le SDK à l'utilisateur courant et ATTEND que le changement soit
+ * Associe le SDK à la session courante et ATTEND que le changement soit
  * effectif : c'est l'`appUserId` qui porte l'entitlement d'une plateforme à
- * l'autre, et un `getCustomerInfo` parti avant la fin d'un `changeUser`
- * répondrait pour l'ancien utilisateur (abonné affiché gratuit).
+ * l'autre, et un `getCustomerInfo` parti avant la fin du changement répondrait
+ * pour l'ancien utilisateur (abonné affiché gratuit).
+ *
+ * En quittant une identité anonyme, on ALIASE au lieu de basculer : sans ça,
+ * un achat fait avant la création du compte resterait sur l'identité anonyme
+ * et ne suivrait jamais jusqu'à l'app mobile.
  */
-export async function identifyUser(uid: string): Promise<Purchases | null> {
+export async function identifyUser(uid: string, anonymous = false): Promise<Purchases | null> {
   if (!API_KEY) return null;
 
+  const target = rcUserIdFor(uid, anonymous);
   const purchases = await ensureConfigured();
-  if (configuredFor !== uid) {
-    configuredFor = uid;
-    await purchases.changeUser(uid);
+  if (configuredFor === target) return purchases;
+
+  // Posé avant l'attente pour qu'un second appel concurrent ne relance pas le
+  // même changement ; remis à l'identité réelle si l'appel échoue, sinon le SDK
+  // resterait sur l'ancien utilisateur pendant qu'on le croit à jour.
+  configuredFor = target;
+  try {
+    if (!anonymous && purchases.isAnonymous()) {
+      // Alias (API encore expérimentale côté SDK) : les deux identités
+      // deviennent le même client RevenueCat, et l'entitlement acheté
+      // anonymement bascule sur le compte.
+      await purchases.identifyUser(target);
+    } else {
+      await purchases.changeUser(target);
+    }
+  } catch (e) {
+    configuredFor = purchases.getAppUserId();
+    throw e;
   }
   return purchases;
 }
@@ -246,6 +282,16 @@ export async function purchasePlan(
     const { customerInfo } = await purchases.purchase({
       rcPackage: plan.rcPackage,
       customerEmail,
+      // Sans ça, le tunnel de paiement s'affiche en anglais quelle que soit la
+      // langue du jeu : c'est le dernier écran avant de payer, il doit parler
+      // la langue du joueur.
+      selectedLocale: getLanguage(),
+      defaultLocale: "en",
+      // La page de succès de RevenueCat oblige à cliquer « Continuer » pour
+      // revenir au jeu, juste avant NOTRE écran de fin (compte + app). Deux
+      // écrans de félicitations à la suite, c'est un clic de trop au moment où
+      // il reste une étape à faire faire.
+      skipSuccessPage: true,
     });
     return customerInfo;
   } catch (e) {
@@ -268,12 +314,15 @@ export function hasEntitlement(info: CustomerInfo | null): boolean {
  * requête d'override) : l'appelant garde alors l'état courant au lieu de
  * rétrograder quelqu'un en « gratuit » sur un incident réseau.
  */
-export async function fetchPremiumStatus(uid: string): Promise<boolean | null> {
+export async function fetchPremiumStatus(
+  uid: string,
+  anonymous = false,
+): Promise<boolean | null> {
   let entitled = false;
 
   if (API_KEY) {
     try {
-      await identifyUser(uid);
+      await identifyUser(uid, anonymous);
       const info = await (await ensureConfigured()).getCustomerInfo();
       entitled = hasEntitlement(info);
     } catch (e) {
@@ -281,6 +330,10 @@ export async function fetchPremiumStatus(uid: string): Promise<boolean | null> {
     }
   }
   if (entitled) return true;
+
+  // Les accès accordés à la main sont attachés à de vrais comptes : inutile
+  // d'interroger la table pour une session anonyme.
+  if (anonymous) return false;
 
   const supabase = await getSupabase();
   if (!supabase) return false;
@@ -305,10 +358,24 @@ export async function fetchPremiumStatus(uid: string): Promise<boolean | null> {
 export async function openCustomerPortal(): Promise<boolean> {
   if (!API_KEY) return false;
 
-  const info = await (await ensureConfigured()).getCustomerInfo();
-  const url = info.managementURL;
-  if (!url) return false;
+  // L'onglet est ouvert AVANT l'appel réseau : ouvert après, il ne descend plus
+  // du clic et Safari le bloque. (`noopener` est écarté ici, il ferait renvoyer
+  // `null` par `window.open` ; on coupe `opener` à la main.)
+  const tab = window.open("", "_blank");
+  if (tab) tab.opener = null;
 
-  window.open(url, "_blank", "noopener");
-  return true;
+  try {
+    const info = await (await ensureConfigured()).getCustomerInfo();
+    const url = info.managementURL;
+    if (!url) {
+      tab?.close();
+      return false;
+    }
+    if (tab) tab.location.replace(url);
+    else window.open(url, "_blank", "noopener");
+    return true;
+  } catch (e) {
+    tab?.close();
+    throw e;
+  }
 }

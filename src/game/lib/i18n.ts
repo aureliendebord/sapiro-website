@@ -63,6 +63,7 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
       xpToNext: "{{xp}} XP avant le niveau suivant",
       tickets: "Parties du jour",
       unlimited: "Passer en illimité",
+      linkSubscription: "Lier à un compte",
       statsTitle: "Ta progression",
       statGames: "Parties jouées",
       shortcuts: "Raccourcis",
@@ -111,6 +112,9 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
       title: "Mon profil",
       anonymous: "Progression enregistrée sur cet appareil",
       accuracy: "Réussite",
+      manage: "Gérer mon abonnement",
+      manageUnavailable:
+        "L'espace de gestion n'est pas accessible d'ici. Si tu t'es abonné depuis l'app mobile, la résiliation se fait dans l'App Store ou Google Play.",
       bestSurvival: "Meilleur record",
       streak: "Série",
       pathBlocks: "Sentier",
@@ -201,6 +205,11 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
       successTitle: "Bienvenue dans Sapiro Pro !",
       successSub:
         "Ton abonnement est actif ici et sur l'app mobile : installe-la et connecte-toi avec le même compte.",
+      // Sans compte, l'abonnement ne vaut que sur ce navigateur : le dire
+      // franchement, c'est ce qui fait terminer l'étape.
+      successSubNoAccount:
+        "Dernière étape : crée ton compte pour retrouver ton abonnement sur l'app mobile — et le garder si tu changes d'appareil.",
+      successAccount: "Créer mon compte",
       successIos: "Télécharger sur l'App Store",
       successAndroid: "Télécharger sur Google Play",
       successContinue: "Continuer à jouer ici",
@@ -227,6 +236,7 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
       xpToNext: "{{xp}} XP to next level",
       tickets: "Today's games",
       unlimited: "Go unlimited",
+      linkSubscription: "Link to an account",
       statsTitle: "Your progress",
       statGames: "Games played",
       shortcuts: "Shortcuts",
@@ -274,6 +284,9 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
       title: "My profile",
       anonymous: "Progress saved on this device",
       accuracy: "Accuracy",
+      manage: "Manage my subscription",
+      manageUnavailable:
+        "The management page isn't reachable from here. If you subscribed in the mobile app, cancel from the App Store or Google Play.",
       bestSurvival: "Best record",
       streak: "Streak",
       pathBlocks: "Trail",
@@ -364,6 +377,9 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
       successTitle: "Welcome to Sapiro Pro!",
       successSub:
         "Your subscription is active here and on the mobile app: install it and sign in with the same account.",
+      successSubNoAccount:
+        "Last step: create your account to use your subscription in the mobile app — and keep it if you switch devices.",
+      successAccount: "Create my account",
       successIos: "Download on the App Store",
       successAndroid: "Get it on Google Play",
       successContinue: "Keep playing here",
@@ -390,6 +406,7 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
       xpToNext: "{{xp}} XP para el siguiente nivel",
       tickets: "Partidas de hoy",
       unlimited: "Pasar a ilimitado",
+      linkSubscription: "Vincular a una cuenta",
       statsTitle: "Tu progreso",
       statGames: "Partidas jugadas",
       shortcuts: "Atajos",
@@ -437,6 +454,9 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
       title: "Mi perfil",
       anonymous: "Progreso guardado en este dispositivo",
       accuracy: "Aciertos",
+      manage: "Gestionar mi suscripción",
+      manageUnavailable:
+        "La página de gestión no está disponible aquí. Si te suscribiste desde la app móvil, cancela en el App Store o Google Play.",
       bestSurvival: "Mejor récord",
       streak: "Racha",
       pathBlocks: "Sendero",
@@ -527,6 +547,9 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
       successTitle: "¡Bienvenido a Sapiro Pro!",
       successSub:
         "Tu suscripción está activa aquí y en la app móvil: instálala e inicia sesión con la misma cuenta.",
+      successSubNoAccount:
+        "Último paso: crea tu cuenta para usar tu suscripción en la app móvil — y conservarla si cambias de dispositivo.",
+      successAccount: "Crear mi cuenta",
       successIos: "Descargar en el App Store",
       successAndroid: "Disponible en Google Play",
       successContinue: "Seguir jugando aquí",
