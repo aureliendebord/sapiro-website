@@ -20,7 +20,7 @@
 import type { Session, User } from "@supabase/supabase-js";
 import { getSupabase } from "@game/lib/supabase";
 import { flushPendingResults } from "@game/lib/gameResults";
-import { capture, identifyAnalytics } from "@game/lib/analytics";
+import { capture, identifyAnalytics, resetAnalytics } from "@game/lib/analytics";
 
 const PENDING_MERGE_KEY = "sapiro-web-pending-merge";
 /** Un aller-retour OAuth dure moins d'une minute ; au-delà, le jeton anonyme
@@ -231,6 +231,8 @@ export async function signOut(): Promise<void> {
   const supabase = await requireSupabase();
   await supabase.auth.signOut();
   // On repart d'une session anonyme : le jeu reste jouable, quota compris.
+  // Le nouvel uid ne doit pas être rattaché à la personne qui vient de partir.
+  resetAnalytics();
   await ensureSession();
 }
 

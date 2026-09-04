@@ -107,6 +107,12 @@ if (routeUrls) {
 
   <!-- Analytics -->
   <script defer src="https://trafic.debord.eu/script.js" data-website-id="32b4fd6e-17a1-465a-b2ee-fe09c0f6dad7"></script>
+  <script>
+    // PostHog sur tout le site, pas seulement /jouer : c'est ce qui permet de
+    // relier un joueur à sa page d'arrivée et à sa source (referrer, utm_*).
+    import { initAnalytics } from '../lib/posthog';
+    initAnalytics();
+  </script>
 </head>
 <body>
   <slot />
