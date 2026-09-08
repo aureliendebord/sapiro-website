@@ -1,6 +1,6 @@
 ---
 import type { Lang } from '../../i18n';
-import { playGameUrl } from '../../data/appLinks';
+import { playGameUrl, type PlayCampaign } from '../../data/appLinks';
 
 interface Props {
   lang: Lang;
@@ -10,9 +10,11 @@ interface Props {
    * principal du site converge vers le jeu, pas vers les stores.
    */
   mode?: 'anchor' | 'play';
+  /** Permet de distinguer les emplacements du sticky dans Umami (articles vs piliers). */
+  campaign?: Extract<PlayCampaign, 'sticky-cta' | 'sticky-pillar'>;
 }
 
-const { lang, mode = 'play' } = Astro.props;
+const { lang, mode = 'play', campaign = 'sticky-cta' } = Astro.props;
 
 const copy = {
   fr: { anchor: 'Télécharger SAPIRO', play: 'Jouer maintenant', free: 'Gratuit', extra: 'Sans installation' },
@@ -22,7 +24,7 @@ const copy = {
 
 const t = copy[lang];
 const label = mode === 'anchor' ? t.anchor : t.play;
-const href = mode === 'anchor' ? '#download' : playGameUrl('sticky-cta', lang);
+const href = mode === 'anchor' ? '#download' : playGameUrl(campaign, lang);
 ---
 
 <a
@@ -31,7 +33,7 @@ const href = mode === 'anchor' ? '#download' : playGameUrl('sticky-cta', lang);
   id="sticky-cta"
   aria-label={label}
   data-umami-event={mode === 'play' ? 'play-click' : undefined}
-  data-umami-event-campaign={mode === 'play' ? 'sticky-cta' : undefined}
+  data-umami-event-campaign={mode === 'play' ? campaign : undefined}
 >
   <span class="icon"><img src="/images/icons/lightning.webp" class="app-ico" alt="" aria-hidden="true" /></span>
   <span class="text">

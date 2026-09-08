@@ -2,6 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import StickyMobileCta from '../components/v2/StickyMobileCta.astro';
 import { getCollection } from 'astro:content';
 import { getTranslations } from '../i18n';
 
@@ -152,6 +153,7 @@ const faqSchema = {
   </main>
 
   <Footer lang={lang} t={t} />
+  <StickyMobileCta lang={lang} campaign="sticky-pillar" />
 </Layout>
 
 <style>

@@ -29,6 +29,7 @@ export type StoreCampaign =
   | 'download-section'
   | 'blog-cta'
   | 'sticky-cta'
+  | 'sticky-pillar'
   | 'inline-banner'
   | 'post-purchase'
   /** Bloc posé juste sous le jeu, avant le contenu SEO. */
@@ -58,6 +59,7 @@ export type PlayCampaign =
   | 'demo-quiz-end'
   | 'blog-cta'
   | 'sticky-cta'
+  | 'sticky-pillar'
   | 'inline-banner'
   | 'download-section';
 
