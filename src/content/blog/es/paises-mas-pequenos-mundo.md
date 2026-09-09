@@ -100,6 +100,8 @@ Tres razones históricas.
 
 Por continente: los [países más pequeños de Europa](/es/blog/paises-mas-pequenos-europa/), los [países más pequeños de Asia](/es/blog/paises-mas-pequenos-asia/), los [países más pequeños de África](/es/blog/paises-mas-pequenos-africa/), los [países más pequeños de América](/es/blog/paises-mas-pequenos-america/), los [países más pequeños de Oceanía](/es/blog/paises-mas-pequenos-oceania/) y los [seis microestados europeos](/es/blog/microestados-europeos/).
 
+En el otro extremo de la escala están los [países más grandes del mundo](/es/blog/paises-mas-grandes-mundo/), donde Rusia sola pesa más que los cien países más pequeños juntos.
+
 Para profundizar: [países menos visitados del mundo](/es/blog/paises-menos-visitados-mundo/), los [países sin salida al mar](/es/blog/paises-sin-salida-al-mar/) y [países que ya no existen](/es/blog/paises-desaparecidos/) para continuar.
 
 <figure>
@@ -127,4 +129,4 @@ El país más pequeño de Europa es el Vaticano (0,49 km²). En Asia son las Mal
 
 ### ¿Cuántos países tienen menos de 1 000 km²?
 
-Más de veinte Estados soberanos tienen menos de 1 000 km², en su mayoría islas del Caribe y del Pacífico, además de los microestados europeos (Vaticano, Mónaco, San Marino, Liechtenstein).
+Más de veinte Estados soberanos tienen menos de 1 000 km², en su mayoría islas del Caribe y del Pacífico, además de los microestados europeos (Vaticano, Mónaco, San Marino, Liechtenstein). Es una décima parte del total: hay [195 países en el mundo](/es/blog/cuantos-paises-hay-en-el-mundo/) según el recuento más habitual.

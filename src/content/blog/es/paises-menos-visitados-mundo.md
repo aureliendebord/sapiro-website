@@ -112,7 +112,9 @@ Tres razones.
 
 **Preparación.** Sin infraestructura masiva, prever autonomía.
 
-Para profundizar: [países más pequeños del mundo](/es/blog/paises-mas-pequenos-mundo/) y [países que ya no existen](/es/blog/paises-desaparecidos/) para explorar geografía poco conocida.
+Estos once destinos son una porción mínima de los [195 países que hay en el mundo](/es/blog/cuantos-paises-hay-en-el-mundo/): la inmensa mayoría del planeta sigue sin aparecer en los folletos de viaje.
+
+Para profundizar: [países más pequeños del mundo](/es/blog/paises-mas-pequenos-mundo/), los [países más grandes del mundo](/es/blog/paises-mas-grandes-mundo/) y [países que ya no existen](/es/blog/paises-desaparecidos/) para explorar geografía poco conocida.
 
 <figure>
   <img src="/images/blog/monde/globe-terrestre.jpg" alt="Un globo terráqueo antiguo" loading="lazy" />
