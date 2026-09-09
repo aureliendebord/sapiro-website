@@ -8,6 +8,7 @@ interface Props {
   lang?: string;
   noDefaultHreflang?: boolean;
   noCanonical?: boolean;
+  canonicalOverride?: string;
   ogType?: string;
   ogImage?: string;
   ogImageAlt?: string;
@@ -15,8 +16,9 @@ interface Props {
   ogImageHeight?: number;
 }
 
-const { title, description, lang = 'fr', noDefaultHreflang = false, noCanonical = false, ogType = 'website', ogImage, ogImageAlt, ogImageWidth, ogImageHeight } = Astro.props;
+const { title, description, lang = 'fr', noDefaultHreflang = false, noCanonical = false, canonicalOverride, ogType = 'website', ogImage, ogImageAlt, ogImageWidth, ogImageHeight } = Astro.props;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+const canonicalHref = canonicalOverride || canonicalURL.toString();
 // || et non ?? : une chaîne vide doit retomber sur le visuel par défaut
 const ogImageURL = new URL(ogImage || `/images/og/default-${lang}.png`, Astro.site);
 
@@ -90,7 +92,7 @@ if (routeUrls) {
   <meta name="twitter:image" content={ogImageURL.toString()} />
 
   <!-- Canonical -->
-  {!noCanonical && <link rel="canonical" href={canonicalURL} />}
+  {!noCanonical && <link rel="canonical" href={canonicalHref} />}
 
   <!-- Alternate languages (dynamic per page) -->
   {!noDefaultHreflang && (

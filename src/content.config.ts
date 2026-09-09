@@ -19,6 +19,11 @@ const blog = defineCollection({
     imageCredit: z.string().optional(),
     author: z.string().default('SAPIRO'),
     readingTime: z.number().optional(),
+    // URL absolue vers laquelle canonicaliser cet article. Sert a annuler une
+    // page qui cannibalise une autre page du site : elle reste en ligne et
+    // lisible, mais sort du sitemap, perd ses hreflang et pointe son canonical
+    // vers la page a favoriser.
+    canonicalTo: z.string().url().optional(),
     faqItems: z.array(z.object({
       question: z.string(),
       answer: z.string(),

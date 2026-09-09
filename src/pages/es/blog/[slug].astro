@@ -17,9 +17,10 @@ export async function getStaticPaths() {
       params: { slug: post.data.urlSlug },
       props: {
         post,
+        // Une traduction canonicalisee ailleurs sort de la grappe hreflang.
         translationSlugs: {
-          fr: frPost?.data.urlSlug || post.data.urlSlug,
-          en: enPost?.data.urlSlug || post.data.urlSlug,
+          fr: frPost ? (frPost.data.canonicalTo ? undefined : frPost.data.urlSlug) : post.data.urlSlug,
+          en: enPost ? (enPost.data.canonicalTo ? undefined : enPost.data.urlSlug) : post.data.urlSlug,
           es: post.data.urlSlug,
         },
       },
@@ -49,6 +50,7 @@ const listItems = extractListFromMarkdown(post.body || '');
   faqItems={faqItems}
   listItems={listItems}
   translationSlugs={translationSlugs}
+  canonicalTo={post.data.canonicalTo}
 >
   <Content />
 </BlogPost>

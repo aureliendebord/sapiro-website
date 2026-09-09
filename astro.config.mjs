@@ -50,6 +50,9 @@ function buildBlogData() {
   const base = './src/content/blog';
   const byKey = {};
   const lastmodByUrl = {};
+  // URLs canonicalisees vers une autre page : exclues du sitemap et des
+  // grappes hreflang (voir le champ canonicalTo du frontmatter).
+  const canonicalized = new Set();
   for (const lang of ['fr', 'en', 'es']) {
     const dir = path.join(base, lang);
     if (!fs.existsSync(dir)) continue;
@@ -60,6 +63,10 @@ function buildBlogData() {
       const url = lang === 'fr'
         ? `${SITE}/blog/${fm.urlSlug}/`
         : `${SITE}/${lang}/blog/${fm.urlSlug}/`;
+      if (fm.canonicalTo) {
+        canonicalized.add(url);
+        continue;
+      }
       (byKey[fm.translationKey] ||= {})[lang] = fm.urlSlug;
       const raw = fm.lastModified || fm.date;
       if (raw) {
@@ -68,10 +75,10 @@ function buildBlogData() {
       }
     }
   }
-  return { byKey, lastmodByUrl };
+  return { byKey, lastmodByUrl, canonicalized };
 }
 
-const { byKey: BLOG_BY_KEY, lastmodByUrl: BLOG_LASTMOD } = buildBlogData();
+const { byKey: BLOG_BY_KEY, lastmodByUrl: BLOG_LASTMOD, canonicalized: BLOG_CANONICALIZED } = buildBlogData();
 
 // Map URL absolue -> liens alternates (hreflang fr/en/es + x-default).
 const ALTERNATES = new Map();
@@ -88,6 +95,15 @@ for (const r of FIXED_ROUTES) registerAlternates(r.fr, r.en, r.es);
 for (const slugs of Object.values(BLOG_BY_KEY)) {
   if (slugs.fr && slugs.en && slugs.es) {
     registerAlternates(`/blog/${slugs.fr}/`, `/en/blog/${slugs.en}/`, `/es/blog/${slugs.es}/`);
+  } else if (slugs.en && slugs.es) {
+    // Grappe amputee de sa version FR (article canonicalise ailleurs) : EN et
+    // ES continuent de se referencer, sans x-default puisque le FR a saute.
+    const links = [
+      { lang: 'en', url: `${SITE}/en/blog/${slugs.en}/` },
+      { lang: 'es', url: `${SITE}/es/blog/${slugs.es}/` },
+    ];
+    ALTERNATES.set(`${SITE}/en/blog/${slugs.en}/`, links);
+    ALTERNATES.set(`${SITE}/es/blog/${slugs.es}/`, links);
   }
 }
 
@@ -116,6 +132,9 @@ export default defineConfig({
       `${SITE}/en/credits/`,
       `${SITE}/es/credits/`,
     ],
+    // Une page qui pointe son canonical ailleurs ne doit pas figurer au
+    // sitemap : l'y laisser contredit le signal qu'on vient d'emettre.
+    filter: (page) => !BLOG_CANONICALIZED.has(page),
     // hreflang corrects (slugs traduits) + lastmod reel par article.
     serialize(item) {
       const links = ALTERNATES.get(item.url);
