@@ -112,6 +112,8 @@ Three reasons.
 
 **Preparation.** No massive infrastructure, plan for self-sufficiency.
 
+At the other end of the scale, the [most visited countries in the world](/en/blog/most-visited-countries-world/) each receive more tourists in a single day than Tuvalu does in a year.
+
 Worth reading: [smallest countries in the world](/en/blog/smallest-countries-world/) and [countries that no longer exist](/en/blog/countries-that-disappeared/) to explore lesser-known geography.
 
 <figure>

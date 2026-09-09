@@ -15,9 +15,9 @@ import RelatedPosts from '../components/RelatedPosts.astro';
 import { imageSize } from '../lib/image-size';
 
 interface TranslationSlugs {
-  fr: string;
-  en: string;
-  es: string;
+  fr?: string;
+  en?: string;
+  es?: string;
 }
 
 interface Props {
@@ -33,9 +33,10 @@ interface Props {
   faqItems?: FaqItem[];
   listItems?: ListItem[];
   translationSlugs?: TranslationSlugs;
+  canonicalTo?: string;
 }
 
-const { title, description, date, lastModified, lang, slug, category, author, readingTime, faqItems = [], listItems = [], translationSlugs, image, imageAlt, imageCredit } = Astro.props;
+const { title, description, date, lastModified, lang, slug, category, author, readingTime, faqItems = [], listItems = [], translationSlugs, canonicalTo, image, imageAlt, imageCredit } = Astro.props;
 const heroImageUrl = image ? (image.startsWith('http') ? image : `https://sapiro.app${image}`) : null;
 
 // og:image : le hero seulement s'il est assez paysage pour la fenêtre 1,91:1
@@ -61,16 +62,19 @@ const cluster = getClusterForCategory(category);
 const clusterLabel = cluster ? cluster.label[lang] : null;
 const clusterUrl = cluster ? cluster.pillarSlug[lang] : null;
 
-// Hreflang pour cet article (avec trailing slash et slugs par langue)
-const frSlug = translationSlugs?.fr || slug;
-const enSlug = translationSlugs?.en || slug;
-const esSlug = translationSlugs?.es || slug;
-
-const hreflangs = [
-  { lang: 'fr', href: `https://sapiro.app/blog/${frSlug}/` },
-  { lang: 'en', href: `https://sapiro.app/en/blog/${enSlug}/` },
-  { lang: 'es', href: `https://sapiro.app/es/blog/${esSlug}/` },
-];
+// Hreflang pour cet article (avec trailing slash et slugs par langue). Une
+// langue absente de translationSlugs est une version canonicalisee ailleurs :
+// elle sort de la grappe. Et une page elle-meme canonicalisee ailleurs n'emet
+// aucun hreflang — elle ne peut pas etre la reference d'une grappe qu'elle
+// quitte.
+const hreflangPaths: Array<{ lang: string; href: string }> = [];
+if (!canonicalTo) {
+  if (translationSlugs?.fr) hreflangPaths.push({ lang: 'fr', href: `https://sapiro.app/blog/${translationSlugs.fr}/` });
+  if (translationSlugs?.en) hreflangPaths.push({ lang: 'en', href: `https://sapiro.app/en/blog/${translationSlugs.en}/` });
+  if (translationSlugs?.es) hreflangPaths.push({ lang: 'es', href: `https://sapiro.app/es/blog/${translationSlugs.es}/` });
+}
+const hreflangs = hreflangPaths;
+const xDefault = hreflangs.find(h => h.lang === 'fr') || hreflangs[0];
 
 // Schema.org Article
 const schemaArticle = {
@@ -154,6 +158,7 @@ const breadcrumbSchema = {
   description={description}
   lang={lang}
   noDefaultHreflang={true}
+  canonicalOverride={canonicalTo}
   ogType="article"
   ogImage={ogImage}
   ogImageAlt={ogImage ? imageAlt : undefined}
@@ -165,7 +170,7 @@ const breadcrumbSchema = {
     {hreflangs.map(h => (
       <link rel="alternate" hreflang={h.lang} href={h.href} />
     ))}
-    <link rel="alternate" hreflang="x-default" href={hreflangs[0].href} />
+    {xDefault && <link rel="alternate" hreflang="x-default" href={xDefault.href} />}
 
     <!-- Open Graph Article (og:type est defini via la prop ogType du Layout) -->
     <meta property="article:published_time" content={date.toISOString()} />

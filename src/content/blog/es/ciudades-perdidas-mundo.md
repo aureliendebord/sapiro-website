@@ -87,6 +87,10 @@ Pompeya fue sepultada por la erupción del Vesubio en el año 79, bajo varios me
 
 Hiram Bingham reveló Machu Picchu al mundo en 1911, guiado por campesinos locales que conocían el sitio. La ciudadela no era, por tanto, del todo desconocida: varias familias aún cultivaban sus terrazas cuando llegó.
 
+### ¿Cuál es la ciudad más antigua que nunca se perdió?
+
+Jericó, habitada sin interrupción desde hace unos 11 000 años. El reverso de esta lista está en nuestro ranking de las [ciudades más antiguas del mundo](/es/blog/ciudades-mas-antiguas-mundo/), las que nunca fueron abandonadas.
+
 ### ¿Quedan ciudades por descubrir?
 
 Sí. El lidar aerotransportado revela con regularidad ciudades mayas y jemeres bajo la selva, como Valeriana en México en 2024. Amplias zonas de la Amazonia, del Sudeste Asiático y de África siguen poco exploradas por la arqueología.

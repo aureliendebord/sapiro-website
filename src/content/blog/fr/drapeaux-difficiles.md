@@ -105,6 +105,8 @@ Le Népal est le seul pays dont le drapeau n'est ni rectangulaire ni carré. Com
 
 La technique la plus efficace combine les associations mentales (lier un détail du drapeau au pays) et la répétition espacée (revoir les drapeaux à intervalles croissants). Les quiz actifs renforcent considérablement la mémorisation par rapport à la simple observation.
 
+Envie de voir où vous en êtes avant d'aller plus loin ? Notre [quiz drapeaux en 20 questions](/blog/quiz-drapeaux-pays/) va des plus évidents à ceux que presque tout le monde rate, réponses à l'appui.
+
 ## Testez vos connaissances avec SAPIRO
 
 Tchad ou Roumanie ? Mali ou Guinée ? Australie ou Nouvelle-Zélande ? SAPIRO inclut un mode dédié aux drapeaux qui vous confronte à ces paires piégées, du niveau débutant jusqu'au mode expert.

@@ -85,7 +85,7 @@ Bougainville es el candidato más probable. Esta isla de Papúa Nueva Guinea vot
 
 ### ¿Cuántos países hay en el mundo?
 
-La ONU cuenta con 193 Estados miembros, más 2 Estados observadores: el Vaticano y Palestina. El total varía según se incluyan Estados parcialmente reconocidos como Kosovo o Taiwán.
+La ONU cuenta con 193 Estados miembros, más 2 Estados observadores: el Vaticano y Palestina. El total varía según se incluyan Estados parcialmente reconocidos como Kosovo o Taiwán: el detalle de cada recuento está en nuestro artículo sobre [cuántos países hay en el mundo](/es/blog/cuantos-paises-hay-en-el-mundo/).
 
 ### ¿Por qué Sudán del Sur se separó de Sudán?
 

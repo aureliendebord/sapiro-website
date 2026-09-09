@@ -94,7 +94,7 @@ Tres técnicas.
 
 **Conocer los "hijos"** surgidos de cada país desaparecido. URSS → 15. Yugoslavia → 7 con Kosovo.
 
-**Testear conocimientos.** SAPIRO propone quizzes sobre geografía e historia mundial, con explicación contextualizada. Para profundizar: [línea de tiempo mundial](/es/blog/linea-tiempo-historia-mundial/), los [países más pequeños que siguen en pie hoy](/es/blog/paises-mas-pequenos-mundo/) y las [banderas de países desaparecidos](/es/blog/banderas-paises-desaparecidos/).
+**Testear conocimientos.** SAPIRO propone quizzes sobre geografía e historia mundial, con explicación contextualizada. Para profundizar: [línea de tiempo mundial](/es/blog/linea-tiempo-historia-mundial/), [cuántos países hay hoy en el mundo](/es/blog/cuantos-paises-hay-en-el-mundo/) después de todas estas desapariciones, los [países más pequeños que siguen en pie hoy](/es/blog/paises-mas-pequenos-mundo/) y las [banderas de países desaparecidos](/es/blog/banderas-paises-desaparecidos/).
 
 La continuación lógica: nuestro [quiz de 20 preguntas sobre países desaparecidos](/es/blog/quiz-paises-desaparecidos/), los [países que cambiaron de nombre](/es/blog/paises-que-cambiaron-de-nombre/), los [países no reconocidos](/es/blog/paises-no-reconocidos/) y los [países más jóvenes del mundo](/es/blog/paises-mas-jovenes-mundo/).
 
