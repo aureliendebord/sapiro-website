@@ -87,6 +87,10 @@ Pompéi a été ensevelie par l'éruption du Vésuve en 79, sous plusieurs mètr
 
 Hiram Bingham a révélé le Machu Picchu au monde en 1911, guidé par des paysans locaux qui connaissaient le site. La citadelle n'était donc pas totalement inconnue : des familles cultivaient encore ses terrasses à son arrivée.
 
+### Quelle est la plus vieille ville qui ne s'est jamais perdue ?
+
+Jéricho, habitée sans interruption depuis environ 11 000 ans. Le revers de cette liste est dans notre classement des [plus vieilles villes du monde](/blog/plus-vieilles-villes-monde/), celles qui n'ont jamais été abandonnées.
+
 ### Reste-t-il des cités à découvrir ?
 
 Oui. Le lidar aéroporté révèle régulièrement des villes mayas et khmères sous la jungle, comme Valeriana au Mexique en 2024. De vastes zones d'Amazonie, d'Asie du Sud-Est et d'Afrique restent peu explorées par l'archéologie.

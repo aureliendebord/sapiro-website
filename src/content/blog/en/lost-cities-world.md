@@ -87,6 +87,10 @@ Pompeii was buried by the eruption of Mount Vesuvius in AD 79, under several met
 
 Hiram Bingham revealed Machu Picchu to the world in 1911, guided by local farmers who knew the site. The citadel was therefore not entirely unknown: families were still farming its terraces when he arrived.
 
+### Which is the oldest city that was never lost?
+
+Jericho, inhabited without interruption for around 11,000 years. The other side of this list is our ranking of the [oldest cities in the world](/en/blog/oldest-cities-world/), the ones never abandoned.
+
 ### Are there still lost cities to discover?
 
 Yes. Airborne lidar regularly reveals Maya and Khmer cities under the jungle, such as Valeriana in Mexico in 2024. Large areas of the Amazon, Southeast Asia and Africa remain little explored by archaeology.
