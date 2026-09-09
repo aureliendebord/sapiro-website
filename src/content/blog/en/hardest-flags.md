@@ -135,6 +135,8 @@ Turkmenistan's flag is widely considered the most detailed, featuring five intri
 
 These are the Pan-African colors, inspired by the Ethiopian flag, one of Africa's oldest independent nations. At least 20 African countries incorporate these colors to symbolize African unity, natural wealth, and the blood shed for independence.
 
+Want to see where you stand before going further? Our [20-question flag quiz](/en/blog/quiz-flags-countries/) runs from the obvious ones to those almost everybody misses, answers included.
+
 ## Practice These Flags on SAPIRO
 
 Chad vs. Romania, Monaco vs. Indonesia, Ireland vs. Ivory Coast. Knowing the theory is one thing, spotting the difference under a timer is another. SAPIRO's flag quizzes resurface the pairs you confuse most often, using spaced repetition to turn your weak spots into strengths. Try a session and see how many of these 15 you can nail.

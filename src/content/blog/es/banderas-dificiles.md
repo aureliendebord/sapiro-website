@@ -105,6 +105,8 @@ Nepal es el único país cuya bandera no es ni rectangular ni cuadrada. Compuest
 
 La técnica más eficaz combina las asociaciones mentales (vincular un detalle de la bandera al país) y la repetición espaciada (repasar las banderas a intervalos crecientes). Los quiz activos refuerzan considerablemente la memorización en comparación con la simple observación.
 
+¿Quieres comprobar dónde estás antes de seguir? Nuestro [quiz de banderas en 20 preguntas](/es/blog/quiz-banderas-paises/) va de las más evidentes a las que fallan casi todos, con las respuestas al lado.
+
 ## Pon a prueba tus conocimientos con SAPIRO
 
 ¿Chad o Rumania? ¿Malí o Guinea? ¿Australia o Nueva Zelanda? SAPIRO incluye un modo dedicado a las banderas que te enfrenta a estos pares trampa, desde el nivel principiante hasta el modo experto.
