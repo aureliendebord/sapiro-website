@@ -4,7 +4,7 @@ description: "Descubre el significado de las banderas del mundo: por qué Japón
 date: 2025-11-05
 lastModified: 2026-06-15
 image: "/images/blog/monde/mur-drapeaux.jpg"
-imageAlt: "Una hilera de banderas nacionales"
+imageAlt: "Una marina del siglo XVII: barcos con sus pabellones en un puerto mediterráneo"
 imageCredit: "Foto: Willem van de Velde the Younger · dominio público · Wikimedia Commons"
 lang: "es"
 urlSlug: "significado-banderas"

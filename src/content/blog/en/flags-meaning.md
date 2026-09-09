@@ -4,7 +4,7 @@ description: "What do flag colors actually represent? Explore the meaning of fla
 date: 2025-11-05
 lastModified: 2026-06-15
 image: "/images/blog/monde/mur-drapeaux.jpg"
-imageAlt: "A row of national flags"
+imageAlt: "A 17th-century marine painting: ships flying their colours in a Mediterranean port"
 imageCredit: "Photo: Willem van de Velde the Younger · public domain · Wikimedia Commons"
 lang: "en"
 urlSlug: "flags-meaning"

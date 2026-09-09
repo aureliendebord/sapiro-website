@@ -4,7 +4,7 @@ description: "Taïwan, Kosovo, Somaliland : une dizaine de territoires fonctionn
 date: 2026-07-21
 lastModified: 2026-07-21
 image: "/images/blog/monde/mur-drapeaux.jpg"
-imageAlt: "Un alignement de drapeaux nationaux"
+imageAlt: "Une marine du XVIIe siècle : des navires pavoisés dans un port méditerranéen"
 imageCredit: "Photo : Willem van de Velde the Younger · domaine public · Wikimedia Commons"
 lang: "fr"
 urlSlug: "pays-non-reconnus"

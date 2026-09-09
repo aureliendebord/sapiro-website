@@ -4,7 +4,7 @@ description: "Taiwán, Kosovo, Somalilandia: una decena de territorios funcionan
 date: 2026-07-21
 lastModified: 2026-07-21
 image: "/images/blog/monde/mur-drapeaux.jpg"
-imageAlt: "Una hilera de banderas nacionales"
+imageAlt: "Una marina del siglo XVII: barcos con sus pabellones en un puerto mediterráneo"
 imageCredit: "Foto: Willem van de Velde the Younger · dominio público · Wikimedia Commons"
 lang: "es"
 urlSlug: "paises-no-reconocidos"

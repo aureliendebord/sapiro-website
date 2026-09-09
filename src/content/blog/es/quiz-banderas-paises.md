@@ -3,9 +3,9 @@ title: "Quiz de banderas: ¿de qué país es cada una de estas 20?"
 description: "Veinte banderas descritas, veinte países que adivinar, de las más fáciles a las que engañan a todo el mundo. Con las respuestas y tu puntuación al final."
 date: 2026-09-09
 lastModified: 2026-09-09
-image: "/images/blog/monde/mur-drapeaux.jpg"
-imageAlt: "Una hilera de banderas nacionales"
-imageCredit: "Foto: Willem van de Velde the Younger · dominio público · Wikimedia Commons"
+image: "/images/blog/famille/carte-monde-drapeaux.jpg"
+imageAlt: "Un mapa del mundo con los países y las banderas"
+imageCredit: "Foto: Transparent 6lue · dominio público · Wikimedia Commons"
 lang: "es"
 urlSlug: "quiz-banderas-paises"
 translationKey: "quiz-drapeaux-pays"

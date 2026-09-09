@@ -4,7 +4,7 @@ description: "Signification des drapeaux du monde : couleurs, symboles, croissan
 date: 2025-11-05
 lastModified: 2026-06-15
 image: "/images/blog/monde/mur-drapeaux.jpg"
-imageAlt: "Un alignement de drapeaux nationaux"
+imageAlt: "Une marine du XVIIe siècle : des navires pavoisés dans un port méditerranéen"
 imageCredit: "Photo : Willem van de Velde the Younger · domaine public · Wikimedia Commons"
 lang: "fr"
 urlSlug: "signification-drapeaux"

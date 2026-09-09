@@ -4,7 +4,7 @@ description: "Taiwan, Kosovo, Somaliland: about ten territories function as stat
 date: 2026-07-21
 lastModified: 2026-07-21
 image: "/images/blog/monde/mur-drapeaux.jpg"
-imageAlt: "A row of national flags"
+imageAlt: "A 17th-century marine painting: ships flying their colours in a Mediterranean port"
 imageCredit: "Photo: Willem van de Velde the Younger · public domain · Wikimedia Commons"
 lang: "en"
 urlSlug: "unrecognized-countries"
