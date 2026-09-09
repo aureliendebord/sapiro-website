@@ -97,10 +97,13 @@ for (const slugs of Object.values(BLOG_BY_KEY)) {
     registerAlternates(`/blog/${slugs.fr}/`, `/en/blog/${slugs.en}/`, `/es/blog/${slugs.es}/`);
   } else if (slugs.en && slugs.es) {
     // Grappe amputee de sa version FR (article canonicalise ailleurs) : EN et
-    // ES continuent de se referencer, sans x-default puisque le FR a saute.
+    // ES continuent de se referencer, et l'anglais reprend le x-default que
+    // portait le francais. Doit rester aligne sur BlogPost.astro, qui retombe
+    // lui aussi sur la premiere langue disponible.
     const links = [
       { lang: 'en', url: `${SITE}/en/blog/${slugs.en}/` },
       { lang: 'es', url: `${SITE}/es/blog/${slugs.es}/` },
+      { lang: 'x-default', url: `${SITE}/en/blog/${slugs.en}/` },
     ];
     ALTERNATES.set(`${SITE}/en/blog/${slugs.en}/`, links);
     ALTERNATES.set(`${SITE}/es/blog/${slugs.es}/`, links);
