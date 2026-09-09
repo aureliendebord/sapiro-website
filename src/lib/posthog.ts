@@ -46,6 +46,84 @@ export function initAnalytics(): void {
   posthog.register({ platform: "web" });
 
   posthog.capture("$pageview");
+
+  trackStoreClicks();
+}
+
+/**
+ * Clic vers un store, mesuré en un seul point.
+ *
+ * C'est le maillon qui manquait pour répondre à « est-ce que le site amène
+ * des installs ? » : jusqu'ici le site envoyait des `$pageview` et le jeu ses
+ * events de partie, mais rien entre le visiteur et la fiche store — donc
+ * aucun moyen de relier le trafic web aux téléchargements.
+ *
+ * Écouteur délégué plutôt qu'un `onClick` par bouton : les liens stores sont
+ * déjà centralisés (`data/appLinks.ts`) et posés dans six composants, et
+ * l'autocapture est coupée (le mobile sature déjà `$autocapture`). Un seul
+ * écouteur couvre les liens actuels ET ceux qu'on ajoutera, sans rien oublier.
+ *
+ * La campagne provient de l'attribut déjà présent sur les liens
+ * (`data-umami-event-campaign`) ; à défaut, du `referrer` du lien Play. Les
+ * liens App Store n'ont aucun paramètre exploitable côté Apple : c'est
+ * précisément l'emplacement mesuré ici qui donne l'information.
+ */
+function storeFromHref(href: string): "app_store" | "play_store" | null {
+  try {
+    const { hostname } = new URL(href, window.location.href);
+    if (hostname.endsWith("apps.apple.com") || hostname.endsWith("itunes.apple.com")) {
+      return "app_store";
+    }
+    if (hostname.endsWith("play.google.com")) return "play_store";
+  } catch {
+    // href relatif exotique ou vide : ce n'est pas un lien store.
+  }
+  return null;
+}
+
+function campaignFor(link: HTMLAnchorElement, store: string): string {
+  const explicit =
+    link.dataset.storeCampaign ??
+    link.getAttribute("data-umami-event-campaign") ??
+    undefined;
+  if (explicit) return explicit;
+
+  if (store === "play_store") {
+    try {
+      const referrer = new URL(link.href).searchParams.get("referrer");
+      const campaign = referrer && new URLSearchParams(referrer).get("utm_campaign");
+      if (campaign) return campaign;
+    } catch {
+      // Lien Play sans referrer : on retombe sur "unknown".
+    }
+  }
+  return "unknown";
+}
+
+function trackStoreClicks(): void {
+  document.addEventListener(
+    "click",
+    (event) => {
+      const link = (event.target as Element | null)?.closest?.("a[href]") as
+        | HTMLAnchorElement
+        | null;
+      if (!link) return;
+
+      const store = storeFromHref(link.getAttribute("href") ?? "");
+      if (!store) return;
+
+      posthog.capture("store_cta_clicked", {
+        store,
+        campaign: campaignFor(link, store),
+        page: window.location.pathname,
+        lang: document.documentElement.lang || null,
+      });
+    },
+    // Capture : l'event part avant qu'un handler applicatif n'arrête la
+    // propagation. Les liens stores ouvrent un nouvel onglet, la page reste
+    // vivante le temps de l'envoi.
+    true,
+  );
 }
 
 export { posthog };

@@ -175,6 +175,7 @@ export function PaywallModal({ user, source, onClose, onPurchased, onNeedAccount
               href={appStoreUrl(lang)}
               target="_blank"
               rel="noopener"
+              data-store-campaign="post-purchase"
               onClick={() => storeClick("app_store")}
             >
               {t("web.paywall.successIos")}
@@ -184,6 +185,7 @@ export function PaywallModal({ user, source, onClose, onPurchased, onNeedAccount
               href={playStoreUrl("post-purchase", lang)}
               target="_blank"
               rel="noopener"
+              data-store-campaign="post-purchase"
               onClick={() => storeClick("play_store")}
             >
               {t("web.paywall.successAndroid")}
