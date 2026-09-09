@@ -135,4 +135,6 @@ L'Arabie saoudite a lancé son visa touristique en 2019 et connaît une croissan
 
 Le danger varie énormément selon les pays. Tuvalu, Kiribati, Sao Tomé et le Liechtenstein sont parfaitement sûrs. L'Érythrée, le Yémen, le Soudan du Sud sont déconseillés par la plupart des ministères des Affaires étrangères. Consulter les conseils officiels avant tout voyage.
 
+À l'autre bout de l'échelle, les [pays les plus visités du monde](/blog/pays-plus-visites-monde/) reçoivent chacun plus de touristes en une seule journée que Tuvalu en un an.
+
 Pour creuser : [plus petits pays du monde](/blog/plus-petits-pays-monde/) et les [pays qui n'existent plus](/blog/pays-disparus/) pour creuser la géographie peu connue.

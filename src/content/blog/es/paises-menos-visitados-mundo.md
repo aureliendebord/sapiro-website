@@ -112,7 +112,7 @@ Tres razones.
 
 **Preparación.** Sin infraestructura masiva, prever autonomía.
 
-Estos once destinos son una porción mínima de los [195 países que hay en el mundo](/es/blog/cuantos-paises-hay-en-el-mundo/): la inmensa mayoría del planeta sigue sin aparecer en los folletos de viaje.
+Estos once destinos son una porción mínima de los [195 países que hay en el mundo](/es/blog/cuantos-paises-hay-en-el-mundo/): la inmensa mayoría del planeta sigue sin aparecer en los folletos de viaje. En el extremo opuesto, los [países más visitados del mundo](/es/blog/paises-mas-visitados-mundo/) reciben cada uno más turistas en un solo día que Tuvalu en un año.
 
 Para profundizar: [países más pequeños del mundo](/es/blog/paises-mas-pequenos-mundo/), los [países más grandes del mundo](/es/blog/paises-mas-grandes-mundo/) y [países que ya no existen](/es/blog/paises-desaparecidos/) para explorar geografía poco conocida.
 
