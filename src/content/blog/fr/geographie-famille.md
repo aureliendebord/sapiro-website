@@ -125,8 +125,8 @@ L'essentiel, c'est que chacun reparte avec le sourire et l'envie de recommencer.
 Et pourquoi ne pas ajouter une manche d'histoire à votre soirée ? Notre guide pour [apprendre l'histoire en s'amusant](/blog/apprendre-histoire-en-samusant/) regorge d'idées qui fonctionnent aussi en famille.
 
 <figure>
-  <img src="/images/blog/famille/carte-monde-coloree.jpg" alt="Une carte du monde colorée à explorer en famille" loading="lazy" />
-  <figcaption>Photo : Dietmar Rabich · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
+  <img src="/images/blog/famille/carte-monde-drapeaux.jpg" alt="Une carte du monde avec les pays et les drapeaux" loading="lazy" />
+  <figcaption>Photo : Transparent 6lue · domaine public · Wikimedia Commons</figcaption>
 </figure>
 
 ## Questions fréquentes

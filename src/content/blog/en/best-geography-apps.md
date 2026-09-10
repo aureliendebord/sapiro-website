@@ -121,8 +121,8 @@ The best geography apps understand this and are designed for bite-sized sessions
 If you want to see why quiz-based apps are so effective for building lasting knowledge, our article on [the hidden meaning of flags](/en/blog/flags-meaning/) demonstrates how a single question about a flag can unlock an entire chain of historical and cultural learning.
 
 <figure>
-  <img src="/images/blog/apps/etude-mobile.jpg" alt="Learning geography on mobile" loading="lazy" />
-  <figcaption>Photo: Pharouqenr · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
+  <img src="/images/blog/apps/smartphone-app.jpg" alt="A smartphone showing a social media post" loading="lazy" />
+  <figcaption>Photo: Mictlancihuatl · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
 </figure>
 
 ## Frequently asked questions

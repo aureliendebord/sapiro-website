@@ -67,7 +67,7 @@ SAPIRO and Quizlet are both learning apps, but they do different things. Quizlet
 Worth reading: [best general knowledge quiz apps](/en/blog/best-quiz-apps-general-knowledge/) to extend the comparison.
 
 <figure>
-  <img src="/images/blog/apps/etude-mobile.jpg" alt="Revising on a phone" loading="lazy" />
-  <figcaption>Photo: Pharouqenr · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
+  <img src="/images/blog/apps/smartphone-app.jpg" alt="A smartphone showing a social media post" loading="lazy" />
+  <figcaption>Photo: Mictlancihuatl · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
 </figure>
 

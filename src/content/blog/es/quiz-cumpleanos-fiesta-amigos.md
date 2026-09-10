@@ -97,6 +97,6 @@ Tres principios.
 SAPIRO propone 2 000+ preguntas por categoría (geografía, historia, arte, naturaleza). Ideal para coger rápido preguntas de calidad con explicación. Para profundizar: [actividades culturales en familia](/es/blog/actividades-culturales-familia/) para profundizar.
 
 <figure>
-  <img src="/images/blog/apprentissage/jeu-societe-amis.jpg" alt="Amigos jugando a un juego de mesa" loading="lazy" />
+  <img src="/images/blog/apprentissage/jeu-societe-amis.jpg" alt="Una familia jugando al Monopoly en el salón" loading="lazy" />
   <figcaption>Foto: Bill Branson (Photographer) · dominio público · Wikimedia Commons</figcaption>
 </figure>

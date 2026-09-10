@@ -105,8 +105,8 @@ Ningún método único funciona para todos los niños ni para todos los temas. L
 El objetivo no es producir un niño que recite listas de capitales. Es despertar una curiosidad sincera por el mundo. Un niño que se asombra ante la diversidad de culturas, paisajes y tradiciones es un niño que seguirá aprendiendo mucho más allá de la escuela.
 
 <figure>
-  <img src="/images/blog/famille/carte-monde-coloree.jpg" alt="Un mapa del mundo colorido para niños" loading="lazy" />
-  <figcaption>Foto: Dietmar Rabich · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
+  <img src="/images/blog/apprentissage/carte-monde.jpg" alt="Un mapa político del mundo" loading="lazy" />
+  <figcaption>Foto: JanitoalevicOriginal map by: CIA World Factbook · dominio público · Wikimedia Commons</figcaption>
 </figure>
 
 ## Preguntas frecuentes

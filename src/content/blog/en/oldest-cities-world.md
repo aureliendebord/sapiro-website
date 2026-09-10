@@ -3,9 +3,9 @@ title: "The 10 Oldest Cities in the World Still Inhabited"
 description: "Jericho, lived in for some 11,000 years, is the oldest city in the world still standing. The ranking of the 10 cities occupied without interruption for the longest."
 date: 2026-09-09
 lastModified: 2026-09-09
-image: "/images/blog/histoire/forum-romain.jpg"
-imageAlt: "The ruins of the Roman Forum in Rome"
-imageCredit: "Photo: VasuVR · CC BY-SA 4.0 · Wikimedia Commons"
+image: "/images/blog/monuments/acropole-parthenon.jpg"
+imageAlt: "The Parthenon on the Acropolis of Athens"
+imageCredit: "Photo: A.Savin · CC BY-SA 3.0 · Wikimedia Commons"
 lang: "en"
 urlSlug: "oldest-cities-world"
 translationKey: "plus-vieilles-villes"

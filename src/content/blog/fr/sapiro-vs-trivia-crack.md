@@ -65,7 +65,7 @@ Si l'objectif est d'apprendre en jouant, ou de donner à un enfant une alternati
 Pour aller plus loin, consultez notre guide des [meilleures applications de quiz de culture générale](/blog/meilleures-apps-quiz-culture-generale/), nos comparatifs [SAPIRO vs GeoGuessr](/blog/sapiro-vs-geoguessr/) et [SAPIRO vs Kahoot](/blog/sapiro-vs-kahoot/), et notre article sur la [gamification dans l'éducation](/blog/gamification-education/).
 
 <figure>
-  <img src="/images/blog/apps/etude-mobile.jpg" alt="Jouer aux quiz sur son téléphone" loading="lazy" />
-  <figcaption>Photo : Pharouqenr · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
+  <img src="/images/blog/apps/apprendre-mobile.jpg" alt="Une femme assise dans une bibliothèque, un téléphone à la main" loading="lazy" />
+  <figcaption>Photo : Anastasiya Lvova · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
 </figure>
 

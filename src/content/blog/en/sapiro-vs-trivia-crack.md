@@ -80,7 +80,7 @@ Choose SAPIRO if you want to learn something. If you care about building real kn
 For more comparisons, see [SAPIRO vs GeoGuessr](/en/blog/sapiro-vs-geoguessr/), [SAPIRO vs Kahoot](/en/blog/sapiro-vs-kahoot/), and our [best quiz apps for general knowledge](/en/blog/best-quiz-apps-general-knowledge/) guide.
 
 <figure>
-  <img src="/images/blog/apps/etude-mobile.jpg" alt="Playing quizzes on a phone" loading="lazy" />
-  <figcaption>Photo: Pharouqenr · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
+  <img src="/images/blog/apps/apprendre-mobile.jpg" alt="A woman sitting in a library holding a phone" loading="lazy" />
+  <figcaption>Photo: Anastasiya Lvova · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
 </figure>
 

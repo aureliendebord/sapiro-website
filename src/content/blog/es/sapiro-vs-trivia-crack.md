@@ -91,7 +91,7 @@ La elección depende de lo que busques. Pero si tu prioridad es aprender de verd
 ¿Quieres descubrir más apps de cultura general? Consulta nuestra [guía de las mejores apps de quiz de cultura general](/es/blog/mejores-apps-quiz-cultura-general/), nuestro [comparativo SAPIRO vs GeoGuessr](/es/blog/sapiro-vs-geoguessr/) y nuestro [comparativo SAPIRO vs Kahoot](/es/blog/sapiro-vs-kahoot/).
 
 <figure>
-  <img src="/images/blog/apps/etude-mobile.jpg" alt="Jugar a quiz en el teléfono" loading="lazy" />
-  <figcaption>Foto: Pharouqenr · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
+  <img src="/images/blog/apps/apprendre-mobile.jpg" alt="Una mujer sentada en una biblioteca con un teléfono en la mano" loading="lazy" />
+  <figcaption>Foto: Anastasiya Lvova · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
 </figure>
 

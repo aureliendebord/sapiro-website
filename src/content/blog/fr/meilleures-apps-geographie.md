@@ -96,8 +96,8 @@ Pour un apprentissage suivi qui couvre géographie et culture générale avec de
 Notre conseil après ces semaines de test : combinez deux ou trois apps qui ne se marchent pas sur les pieds. Une pour les quiz courts (SAPIRO ou Geography Quiz), une pour la carte (Seterra), Google Earth en bonus pour visualiser. Pour creuser pourquoi certains drapeaux se ressemblent autant, notre article sur [la signification des drapeaux](/blog/signification-drapeaux/) en parle.
 
 <figure>
-  <img src="/images/blog/apps/etude-mobile.jpg" alt="Apprendre la géographie sur mobile" loading="lazy" />
-  <figcaption>Photo : Pharouqenr · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
+  <img src="/images/blog/apps/smartphone-app.jpg" alt="Un smartphone affichant une publication sur un réseau social" loading="lazy" />
+  <figcaption>Photo : Mictlancihuatl · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
 </figure>
 
 ## Questions fréquentes

@@ -3,9 +3,9 @@ title: "20 idées cadeaux pour enfant curieux (6, 8, 10 ans)"
 description: "Vingt idées de cadeaux éducatifs et ludiques pour enfants curieux de 6 à 12 ans : jeux, livres, apps, instruments d'observation."
 date: 2026-02-20
 lastModified: 2026-06-15
-image: "/images/blog/famille/cadeau-emballe.jpg"
-imageAlt: "Un cadeau emballé avec un ruban"
-imageCredit: "Photo : daveynin from United States · CC BY 2.0 · Wikimedia Commons"
+image: "/images/blog/famille/globe-enfant.jpg"
+imageAlt: "Un globe terrestre pour apprendre la géographie aux enfants"
+imageCredit: "Photo : Shixart1985 · CC BY 2.0 · Wikimedia Commons"
 lang: "fr"
 urlSlug: "cadeau-enfant-curieux"
 translationKey: "cadeau-enfant-curieux"

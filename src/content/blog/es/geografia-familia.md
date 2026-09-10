@@ -101,8 +101,8 @@ Cuelga un mapa grande en la pared. Cada vez que alguien aprenda algo nuevo sobre
 Establece una frecuencia para las veladas: una vez al mes funciona bien. Rota los temas: una noche geografía, la siguiente historia, la siguiente ciencias. Si quieres preparar un quiz temático sobre banderas, las historias detrás de los colores y símbolos que contamos en nuestro artículo sobre el [significado de las banderas](/es/blog/significado-banderas/) te darán material de sobra.
 
 <figure>
-  <img src="/images/blog/famille/carte-monde-coloree.jpg" alt="Un mapa del mundo colorido para explorar en familia" loading="lazy" />
-  <figcaption>Foto: Dietmar Rabich · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
+  <img src="/images/blog/famille/carte-monde-drapeaux.jpg" alt="Un mapa del mundo con los países y las banderas" loading="lazy" />
+  <figcaption>Foto: Transparent 6lue · dominio público · Wikimedia Commons</figcaption>
 </figure>
 
 ## Preguntas frecuentes

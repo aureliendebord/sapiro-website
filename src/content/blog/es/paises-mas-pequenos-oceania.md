@@ -3,9 +3,9 @@ title: "Los 10 países más pequeños de Oceanía, de Nauru a Fiyi"
 description: "Nauru (21 km²) es el país más pequeño de Oceanía y la república más pequeña del mundo. Los 10 países oceánicos más pequeños, de solo 14 estados en total."
 date: 2026-08-17
 lastModified: 2026-08-17
-image: "/images/blog/monde/mappemonde.jpg"
-imageAlt: "Lámina de 1850: pabellones y escarapelas de las principales potencias del mundo"
-imageCredit: "Foto: Various authors. · dominio público · Wikimedia Commons"
+image: "/images/blog/monde/carte-monde-ancienne.jpg"
+imageAlt: "Un mapa del mundo antiguo"
+imageCredit: "Foto: Reginald Lane Poole · dominio público · Wikimedia Commons"
 lang: "es"
 urlSlug: "paises-mas-pequenos-oceania"
 translationKey: "plus-petits-pays-oceanie"

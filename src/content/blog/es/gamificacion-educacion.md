@@ -3,9 +3,9 @@ title: "Gamificación y educación: el poder de los quiz"
 description: "La gamificación en la educación funciona: la ciencia explica por qué los quiz mejoran la memoria un 50%. Mecánicas de juego, estudios y consejos prácticos."
 date: 2025-11-20
 lastModified: 2026-06-15
-image: "/images/blog/famille/enfants-tablette.jpg"
-imageAlt: "Niños aprendiendo con una tableta"
-imageCredit: "Foto: Salihen edrees · CC BY-SA 4.0 · Wikimedia Commons"
+image: "/images/blog/famille/jeu-societe-famille.jpg"
+imageAlt: "Una familia reunida en torno a un juego de mesa"
+imageCredit: "Foto: Bill Branson (Photographer) · dominio público · Wikimedia Commons"
 lang: "es"
 urlSlug: "gamificacion-educacion"
 translationKey: "gamification-education"
@@ -89,8 +89,8 @@ Por último, los mecanismos que hacen los juegos motivantes también pueden crea
 El equilibrio está ahí: la gamificación como herramienta entre otras, al servicio de objetivos pedagógicos claros. Los quiz sobre [personajes históricos](/es/blog/personajes-historicos/), por ejemplo, ganan al complementarse con lecturas, documentales, discusiones en [familia alrededor de un quiz](/es/blog/geografia-familia/).
 
 <figure>
-  <img src="/images/blog/famille/jeu-pions-des.jpg" alt="Fichas y dados de juego" loading="lazy" />
-  <figcaption>Foto: Tim Sheerman-Chase · CC BY 2.0 · Wikimedia Commons</figcaption>
+  <img src="/images/blog/famille/salle-classe.jpg" alt="Un aula con una pizarra" loading="lazy" />
+  <figcaption>Foto: AKA MBG · CC0 · Wikimedia Commons</figcaption>
 </figure>
 
 ## Preguntas frecuentes

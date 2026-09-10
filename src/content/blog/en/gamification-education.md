@@ -3,9 +3,9 @@ title: "Gamification in Education: Why Quizzes Work So Well"
 description: "How does gamification in education actually work? The science behind quizzes, spaced repetition, and why game mechanics boost long-term retention so well."
 date: 2025-11-20
 lastModified: 2026-06-15
-image: "/images/blog/famille/enfants-tablette.jpg"
-imageAlt: "Children learning with a tablet"
-imageCredit: "Photo: Salihen edrees · CC BY-SA 4.0 · Wikimedia Commons"
+image: "/images/blog/famille/jeu-societe-famille.jpg"
+imageAlt: "A family gathered around a board game"
+imageCredit: "Photo: Bill Branson (Photographer) · public domain · Wikimedia Commons"
 lang: "en"
 urlSlug: "gamification-education"
 translationKey: "gamification-education"
@@ -99,8 +99,8 @@ A 2019 meta-analysis published in Educational Research Review examined 46 studie
 Teachers who have integrated quiz-based gamification into their classrooms consistently report higher participation rates, improved test scores, and greater student enthusiasm. A geography teacher using a quiz app for weekly [flag](/en/blog/flags-meaning/) and [capital](/en/blog/world-capitals-quiz/) reviews might find that students voluntarily practice at home, something that rarely happens with traditional homework. When the homework does not feel like homework, it gets done. For ideas on bringing this approach into your home, our guide to [family geography quiz nights](/en/blog/geography-family/) offers a practical starting point.
 
 <figure>
-  <img src="/images/blog/famille/jeu-pions-des.jpg" alt="Board game pieces and dice" loading="lazy" />
-  <figcaption>Photo: Tim Sheerman-Chase · CC BY 2.0 · Wikimedia Commons</figcaption>
+  <img src="/images/blog/famille/salle-classe.jpg" alt="A classroom with a blackboard" loading="lazy" />
+  <figcaption>Photo: AKA MBG · CC0 · Wikimedia Commons</figcaption>
 </figure>
 
 ## Frequently asked questions

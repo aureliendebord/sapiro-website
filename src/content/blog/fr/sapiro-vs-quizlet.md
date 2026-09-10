@@ -65,8 +65,8 @@ SAPIRO et Quizlet sont deux apps d'apprentissage, mais elles ne font pas la mêm
 **Choisissez SAPIRO si** vous voulez développer votre culture générale, en famille ou seul, avec un contenu pré-rempli de qualité et zéro publicité.
 
 <figure>
-  <img src="/images/blog/apps/etude-mobile.jpg" alt="Réviser sur son téléphone" loading="lazy" />
-  <figcaption>Photo : Pharouqenr · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
+  <img src="/images/blog/apps/smartphone-app.jpg" alt="Un smartphone affichant une publication sur un réseau social" loading="lazy" />
+  <figcaption>Photo : Mictlancihuatl · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
 </figure>
 
 ## Questions fréquentes

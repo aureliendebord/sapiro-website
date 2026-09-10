@@ -3,9 +3,9 @@ title: "Antiquité, Moyen Âge, Renaissance : repères essentiels"
 description: "Trois grandes périodes qui structurent l'histoire occidentale. Dates, civilisations, mouvements et figures pour s'y retrouver simplement."
 date: 2026-02-04
 lastModified: 2026-06-15
-image: "/images/blog/histoire/forum-romain.jpg"
-imageAlt: "Les ruines du Forum romain à Rome"
-imageCredit: "Photo : VasuVR · CC BY-SA 4.0 · Wikimedia Commons"
+image: "/images/blog/monuments/colisee-rome.jpg"
+imageAlt: "Le Colisée de Rome"
+imageCredit: "Photo : Wilfredor · CC0 · Wikimedia Commons"
 lang: "fr"
 urlSlug: "antiquite-moyen-age-renaissance-reperes"
 translationKey: "antiquite-moyen-age-renaissance"

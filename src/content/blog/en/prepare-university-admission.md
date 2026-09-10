@@ -3,9 +3,9 @@ title: "How to Prepare for University Admission Tests"
 description: "Prepare general knowledge for university admission tests (UCAT, BMAT, SAT, IB, Oxbridge): program, readings, method and quiz practice."
 date: 2026-02-08
 lastModified: 2026-06-15
-image: "/images/blog/apprentissage/amphitheatre-universite.jpg"
-imageAlt: "A university amphitheater"
-imageCredit: "Photo: Bob Aronson from Monterey, CA, US · CC BY-SA 2.0 · Wikimedia Commons"
+image: "/images/blog/monde/bibliotheque.jpg"
+imageAlt: "An old library full of books"
+imageCredit: "Photo: Davide Cantelli cant89 · CC0 · Wikimedia Commons"
 lang: "en"
 urlSlug: "prepare-university-admission"
 translationKey: "reviser-sciences-po"

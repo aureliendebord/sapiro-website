@@ -3,9 +3,9 @@ title: "20 Gift Ideas for Curious Kids (Ages 6, 8, 10)"
 description: "Twenty educational and fun gift ideas for curious kids 6 to 12: games, books, apps, observation tools."
 date: 2026-02-20
 lastModified: 2026-06-15
-image: "/images/blog/famille/cadeau-emballe.jpg"
-imageAlt: "A wrapped gift with a ribbon"
-imageCredit: "Photo: daveynin from United States · CC BY 2.0 · Wikimedia Commons"
+image: "/images/blog/famille/globe-enfant.jpg"
+imageAlt: "A globe for teaching geography to children"
+imageCredit: "Photo: Shixart1985 · CC BY 2.0 · Wikimedia Commons"
 lang: "en"
 urlSlug: "gift-ideas-curious-kids"
 translationKey: "cadeau-enfant-curieux"

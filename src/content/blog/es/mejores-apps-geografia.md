@@ -95,8 +95,8 @@ Depende de lo que busques. Si quieres mejorar tu [cultura general](/es/blog/cult
 Para niños: gráficos atractivos, mecánicas de juego que enganchen y contenido adaptado a su edad. Nuestro artículo sobre [aprender geografía para niños](/es/blog/geografia-ninos/) profundiza en 10 métodos que funcionan. Para adultos: profundidad, estadísticas de progreso y variedad de temas. Para los frikis de la geografía (sin ningún tono despectivo): combinar varias apps te dará la experiencia más completa.
 
 <figure>
-  <img src="/images/blog/apps/etude-mobile.jpg" alt="Aprender geografía en el móvil" loading="lazy" />
-  <figcaption>Foto: Pharouqenr · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
+  <img src="/images/blog/apps/smartphone-app.jpg" alt="Un smartphone mostrando una publicación en una red social" loading="lazy" />
+  <figcaption>Foto: Mictlancihuatl · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
 </figure>
 
 ## Preguntas frecuentes

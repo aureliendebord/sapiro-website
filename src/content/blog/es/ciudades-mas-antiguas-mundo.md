@@ -3,9 +3,9 @@ title: "Las 10 ciudades más antiguas del mundo aún habitadas"
 description: "Jericó, habitada desde hace unos 11 000 años, es la ciudad más antigua del mundo todavía en pie. El ranking de las 10 ciudades habitadas sin interrupción desde más tiempo."
 date: 2026-09-09
 lastModified: 2026-09-09
-image: "/images/blog/histoire/forum-romain.jpg"
-imageAlt: "Las ruinas del Foro romano en Roma"
-imageCredit: "Foto: VasuVR · CC BY-SA 4.0 · Wikimedia Commons"
+image: "/images/blog/monuments/acropole-parthenon.jpg"
+imageAlt: "El Partenón en la Acrópolis de Atenas"
+imageCredit: "Foto: A.Savin · CC BY-SA 3.0 · Wikimedia Commons"
 lang: "es"
 urlSlug: "ciudades-mas-antiguas-mundo"
 translationKey: "plus-vieilles-villes"

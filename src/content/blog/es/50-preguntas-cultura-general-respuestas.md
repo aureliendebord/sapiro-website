@@ -2,9 +2,9 @@
 title: "50 preguntas de cultura general (con respuestas)"
 description: "50 preguntas de cultura general con respuestas explicadas, por tema y nivel. Para ponerte a prueba a fondo, repasar o animar una noche de quiz."
 date: 2026-06-24
-image: "/images/blog/apprentissage/amphitheatre-universite.jpg"
-imageAlt: "Un anfiteatro universitario"
-imageCredit: "Foto: Bob Aronson from Monterey, CA, US · CC BY-SA 2.0 · Wikimedia Commons"
+image: "/images/blog/art/ecole-athenes.jpg"
+imageAlt: "La Escuela de Atenas de Rafael"
+imageCredit: "Foto: Raphael · dominio público · Wikimedia Commons"
 lang: "es"
 urlSlug: "50-preguntas-cultura-general-respuestas"
 translationKey: "50-questions-culture-generale"
@@ -218,6 +218,6 @@ Para el entrenamiento general, sí. Pero una oposición exige un trabajo especí
 La aplicación SAPIRO ofrece cientos de preguntas ordenadas por tema y nivel, gratis, con una explicación detrás de cada respuesta.
 
 <figure>
-  <img src="/images/blog/histoire/forum-romain.jpg" alt="Las ruinas del Foro Romano en Roma" loading="lazy" />
-  <figcaption>Foto: VasuVR · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
+  <img src="/images/blog/monde/livres-anciens.jpg" alt="Una pila de libros antiguos" loading="lazy" />
+  <figcaption>Foto: Evan Bench from paris, france · CC BY 2.0 · Wikimedia Commons</figcaption>
 </figure>

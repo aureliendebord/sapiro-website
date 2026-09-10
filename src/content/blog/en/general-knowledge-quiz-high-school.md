@@ -3,9 +3,9 @@ title: "General Knowledge Quiz: High School Level"
 description: "Practice general knowledge at middle and high school level: recurring themes, sample questions and method for exam success."
 date: 2026-02-09
 lastModified: 2026-06-15
-image: "/images/blog/apprentissage/examen-amphi.jpg"
-imageAlt: "Students taking an exam in a lecture hall"
-imageCredit: "Photo: Nabokov · CC BY-SA 4.0 · Wikimedia Commons"
+image: "/images/blog/famille/salle-classe.jpg"
+imageAlt: "A classroom with a blackboard"
+imageCredit: "Photo: AKA MBG · CC0 · Wikimedia Commons"
 lang: "en"
 urlSlug: "general-knowledge-quiz-high-school"
 translationKey: "quiz-brevet-bac"

@@ -105,8 +105,8 @@ Aucune méthode unique ne fonctionne pour tous les enfants ni pour tous les suje
 L'objectif n'est pas de produire un enfant qui récite des listes de capitales. C'est d'éveiller une curiosité sincère pour le monde. Un enfant qui s'étonne devant la diversité des cultures, des paysages et des traditions est un enfant qui continuera d'apprendre bien au-delà de l'école.
 
 <figure>
-  <img src="/images/blog/famille/carte-monde-coloree.jpg" alt="Une carte du monde colorée pour les enfants" loading="lazy" />
-  <figcaption>Photo : Dietmar Rabich · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
+  <img src="/images/blog/apprentissage/carte-monde.jpg" alt="Une carte politique du monde" loading="lazy" />
+  <figcaption>Photo : JanitoalevicOriginal map by: CIA World Factbook · domaine public · Wikimedia Commons</figcaption>
 </figure>
 
 ## Questions fréquentes

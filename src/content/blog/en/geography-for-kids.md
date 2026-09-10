@@ -114,8 +114,8 @@ Children as young as four or five can start grasping basic concepts like contine
 Children who engage with geography through multiple channels (physical, visual, auditory, social, and digital) develop a solid and flexible understanding of the world that goes far beyond memorizing [capitals](/en/blog/world-capitals-quiz/) and country names. They start seeing geography everywhere. And once that happens, you do not have to teach them anymore. They teach themselves.
 
 <figure>
-  <img src="/images/blog/famille/carte-monde-coloree.jpg" alt="A colorful world map for children" loading="lazy" />
-  <figcaption>Photo: Dietmar Rabich · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
+  <img src="/images/blog/apprentissage/carte-monde.jpg" alt="A political world map" loading="lazy" />
+  <figcaption>Photo: JanitoalevicOriginal map by: CIA World Factbook · public domain · Wikimedia Commons</figcaption>
 </figure>
 
 ## Frequently asked questions

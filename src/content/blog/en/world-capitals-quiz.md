@@ -3,9 +3,9 @@ title: "World Capitals Quiz: How Many Can You Name?"
 description: "Think you can ace a world capitals quiz? From Canberra to Naypyidaw, discover the trickiest capitals and proven strategies to remember all 195 of them."
 date: 2025-12-10
 lastModified: 2026-06-15
-image: "/images/blog/monde/mappemonde.jpg"
-imageAlt: "An 1850 chart of the flags and cockades of the world's main powers"
-imageCredit: "Photo: Various authors. · public domain · Wikimedia Commons"
+image: "/images/blog/monuments/westminster-big-ben.jpg"
+imageAlt: "Big Ben and the Palace of Westminster in London"
+imageCredit: "Photo: Colin · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "en"
 urlSlug: "world-capitals-quiz"
 translationKey: "quiz-capitales-monde"

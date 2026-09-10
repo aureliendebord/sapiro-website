@@ -161,8 +161,8 @@ Here are 20 ready-to-use questions spanning multiple categories and difficulty l
 20. How many countries are there in the United Kingdom? *(Four: England, Scotland, Wales, Northern Ireland)*
 
 <figure>
-  <img src="/images/blog/famille/carte-monde-coloree.jpg" alt="A colorful world map to explore as a family" loading="lazy" />
-  <figcaption>Photo: Dietmar Rabich · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
+  <img src="/images/blog/famille/carte-monde-drapeaux.jpg" alt="A world map with countries and flags" loading="lazy" />
+  <figcaption>Photo: Transparent 6lue · public domain · Wikimedia Commons</figcaption>
 </figure>
 
 ## Frequently asked questions

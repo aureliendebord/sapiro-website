@@ -2,9 +2,9 @@
 title: "50 General Knowledge Questions (With Answers)"
 description: "50 general knowledge questions with explained answers, by theme and level. To test yourself in depth, revise, or host a quiz night."
 date: 2026-06-24
-image: "/images/blog/apprentissage/amphitheatre-universite.jpg"
-imageAlt: "A university lecture hall"
-imageCredit: "Photo: Bob Aronson from Monterey, CA, US · CC BY-SA 2.0 · Wikimedia Commons"
+image: "/images/blog/art/ecole-athenes.jpg"
+imageAlt: "The School of Athens by Raphael"
+imageCredit: "Photo: Raphael · public domain · Wikimedia Commons"
 lang: "en"
 urlSlug: "50-general-knowledge-questions-answers"
 translationKey: "50-questions-culture-generale"
@@ -218,6 +218,6 @@ For general practice, yes. But an exam calls for targeted work on its syllabus: 
 The SAPIRO app offers hundreds of questions sorted by theme and level, free, with an explanation behind every answer.
 
 <figure>
-  <img src="/images/blog/histoire/forum-romain.jpg" alt="The ruins of the Roman Forum in Rome" loading="lazy" />
-  <figcaption>Photo: VasuVR · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
+  <img src="/images/blog/monde/livres-anciens.jpg" alt="A stack of old books" loading="lazy" />
+  <figcaption>Photo: Evan Bench from paris, france · CC BY 2.0 · Wikimedia Commons</figcaption>
 </figure>

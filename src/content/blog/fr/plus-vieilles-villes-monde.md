@@ -3,9 +3,9 @@ title: "Les 10 plus vieilles villes du monde encore habitées"
 description: "Jéricho, habitée depuis environ 11 000 ans, est la plus vieille ville du monde encore debout. Le classement des 10 villes occupées sans interruption depuis le plus longtemps."
 date: 2026-09-09
 lastModified: 2026-09-09
-image: "/images/blog/histoire/forum-romain.jpg"
-imageAlt: "Les ruines du Forum romain à Rome"
-imageCredit: "Photo : VasuVR · CC BY-SA 4.0 · Wikimedia Commons"
+image: "/images/blog/monuments/acropole-parthenon.jpg"
+imageAlt: "Le Parthénon sur l'Acropole d'Athènes"
+imageCredit: "Photo : A.Savin · CC BY-SA 3.0 · Wikimedia Commons"
 lang: "fr"
 urlSlug: "plus-vieilles-villes-monde"
 translationKey: "plus-vieilles-villes"

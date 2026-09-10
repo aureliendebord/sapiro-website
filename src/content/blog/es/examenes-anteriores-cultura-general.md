@@ -3,9 +3,9 @@ title: "Exámenes anteriores y correcciones: ¿dónde encontrarlos?"
 description: "Encontrar exámenes y correcciones de cultura general para preparar una oposición: fuentes oficiales, libros y entrenamiento con preguntas tipo."
 date: 2026-02-11
 lastModified: 2026-06-15
-image: "/images/blog/apprentissage/examen-amphi.jpg"
-imageAlt: "Estudiantes haciendo un examen en un aula magna"
-imageCredit: "Foto: Nabokov · CC BY-SA 4.0 · Wikimedia Commons"
+image: "/images/blog/famille/salle-classe.jpg"
+imageAlt: "Un aula con una pizarra"
+imageCredit: "Foto: AKA MBG · CC0 · Wikimedia Commons"
 lang: "es"
 urlSlug: "examenes-anteriores-cultura-general"
 translationKey: "annales-culture-generale"

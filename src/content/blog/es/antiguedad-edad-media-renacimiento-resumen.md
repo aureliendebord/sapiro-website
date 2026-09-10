@@ -3,9 +3,9 @@ title: "Antigüedad, Edad Media, Renacimiento: hitos esenciales"
 description: "Tres grandes periodos que estructuran la historia occidental. Fechas, civilizaciones, movimientos y figuras para orientarse simple."
 date: 2026-02-04
 lastModified: 2026-06-15
-image: "/images/blog/histoire/forum-romain.jpg"
-imageAlt: "Las ruinas del Foro Romano en Roma"
-imageCredit: "Foto: VasuVR · CC BY-SA 4.0 · Wikimedia Commons"
+image: "/images/blog/monuments/colisee-rome.jpg"
+imageAlt: "El Coliseo de Roma"
+imageCredit: "Foto: Wilfredor · CC0 · Wikimedia Commons"
 lang: "es"
 urlSlug: "antiguedad-edad-media-renacimiento-resumen"
 translationKey: "antiquite-moyen-age-renaissance"

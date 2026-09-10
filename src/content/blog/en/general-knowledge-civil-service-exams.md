@@ -3,9 +3,9 @@ title: "General Knowledge for Civil Service Exams"
 description: "Review general knowledge for civil service or government exams: official syllabus, recurring themes and method to prepare the test."
 date: 2026-02-07
 lastModified: 2026-06-15
-image: "/images/blog/apprentissage/examen-amphi.jpg"
-imageAlt: "Students taking an exam in a lecture hall"
-imageCredit: "Photo: Nabokov · CC BY-SA 4.0 · Wikimedia Commons"
+image: "/images/blog/famille/salle-classe.jpg"
+imageAlt: "A classroom with a blackboard"
+imageCredit: "Photo: AKA MBG · CC0 · Wikimedia Commons"
 lang: "en"
 urlSlug: "general-knowledge-civil-service-exams"
 translationKey: "concours-fonction-publique"

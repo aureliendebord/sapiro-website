@@ -97,7 +97,7 @@ Trois principes.
 SAPIRO propose 2 000+ questions par catégorie (géographie, histoire, art, nature). Idéal pour piocher rapidement des questions de qualité avec une explication. Pour creuser : [activités culturelles en famille](/blog/activites-culturelles-famille/) pour étendre.
 
 <figure>
-  <img src="/images/blog/apprentissage/jeu-societe-amis.jpg" alt="Des amis jouant à un jeu de société" loading="lazy" />
+  <img src="/images/blog/apprentissage/jeu-societe-amis.jpg" alt="Une famille jouant au Monopoly dans son salon" loading="lazy" />
   <figcaption>Photo : Bill Branson (Photographer) · domaine public · Wikimedia Commons</figcaption>
 </figure>
 
