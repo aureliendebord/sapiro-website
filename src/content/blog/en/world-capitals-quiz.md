@@ -4,7 +4,7 @@ description: "Think you can ace a world capitals quiz? From Canberra to Naypyida
 date: 2025-12-10
 lastModified: 2026-06-15
 image: "/images/blog/monde/mappemonde.jpg"
-imageAlt: "An antique world map"
+imageAlt: "An 1850 chart of the flags and cockades of the world's main powers"
 imageCredit: "Photo: Various authors. · public domain · Wikimedia Commons"
 lang: "en"
 urlSlug: "world-capitals-quiz"

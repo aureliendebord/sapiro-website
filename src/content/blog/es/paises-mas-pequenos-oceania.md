@@ -4,7 +4,7 @@ description: "Nauru (21 km²) es el país más pequeño de Oceanía y la repúbl
 date: 2026-08-17
 lastModified: 2026-08-17
 image: "/images/blog/monde/mappemonde.jpg"
-imageAlt: "Un mapamundi antiguo"
+imageAlt: "Lámina de 1850: pabellones y escarapelas de las principales potencias del mundo"
 imageCredit: "Foto: Various authors. · dominio público · Wikimedia Commons"
 lang: "es"
 urlSlug: "paises-mas-pequenos-oceania"

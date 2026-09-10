@@ -4,7 +4,7 @@ description: "Quiz capitales du monde : de Canberra à Naypyidaw, les capitales 
 date: 2025-12-10
 lastModified: 2026-06-15
 image: "/images/blog/monde/mappemonde.jpg"
-imageAlt: "Une mappemonde ancienne"
+imageAlt: "Planche de 1850 : pavillons et cocardes des principales puissances du globe"
 imageCredit: "Photo : Various authors. · domaine public · Wikimedia Commons"
 lang: "fr"
 urlSlug: "quiz-capitales-monde"

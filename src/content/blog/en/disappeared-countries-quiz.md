@@ -3,9 +3,9 @@ title: "Quiz: 20 Disappeared Countries, How Many Can You Name?"
 description: "USSR, Yugoslavia, Prussia, the Kingdom of Hawaii: 20 questions on countries wiped off the map, from warm-up to expert level, with answers and your score."
 date: 2026-08-18
 lastModified: 2026-08-18
-image: "/images/blog/apprentissage/drapeaux-monde.jpg"
-imageAlt: "A row of national flags"
-imageCredit: "Photo: United States Department of Energy, Office of Energy Efficiency and Renewable Energy · public domain · Wikimedia Commons"
+image: "/images/blog/monde/carte-monde-ancienne.jpg"
+imageAlt: "An old world map"
+imageCredit: "Photo: Reginald Lane Poole · public domain · Wikimedia Commons"
 lang: "en"
 urlSlug: "disappeared-countries-quiz"
 translationKey: "quiz-pays-disparus"

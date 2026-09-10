@@ -4,7 +4,7 @@ description: "Les Maldives (298 km²) sont le plus petit pays d'Asie. Le classem
 date: 2026-07-13
 lastModified: 2026-07-13
 image: "/images/blog/monde/mappemonde.jpg"
-imageAlt: "Une mappemonde ancienne"
+imageAlt: "Planche de 1850 : pavillons et cocardes des principales puissances du globe"
 imageCredit: "Photo : Various authors. · domaine public · Wikimedia Commons"
 lang: "fr"
 urlSlug: "plus-petits-pays-asie"

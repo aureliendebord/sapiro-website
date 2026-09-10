@@ -4,7 +4,7 @@ description: "France, Argentina, Pakistan, Australia: the origin of country name
 date: 2026-03-09
 lastModified: 2026-06-15
 image: "/images/blog/monde/mappemonde.jpg"
-imageAlt: "An antique world map"
+imageAlt: "An 1850 chart of the flags and cockades of the world's main powers"
 imageCredit: "Photo: Various authors. · public domain · Wikimedia Commons"
 lang: "en"
 urlSlug: "origin-country-names"

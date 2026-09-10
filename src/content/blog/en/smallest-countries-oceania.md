@@ -4,7 +4,7 @@ description: "Nauru (21 km²) is the smallest country in Oceania and the world's
 date: 2026-08-17
 lastModified: 2026-08-17
 image: "/images/blog/monde/mappemonde.jpg"
-imageAlt: "An antique world map"
+imageAlt: "An 1850 chart of the flags and cockades of the world's main powers"
 imageCredit: "Photo: Various authors. · public domain · Wikimedia Commons"
 lang: "en"
 urlSlug: "smallest-countries-oceania"

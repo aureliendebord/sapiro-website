@@ -4,7 +4,7 @@ description: "Las Maldivas (298 km²) son el país más pequeño de Asia. El ran
 date: 2026-07-13
 lastModified: 2026-07-13
 image: "/images/blog/monde/mappemonde.jpg"
-imageAlt: "Un mapamundi antiguo"
+imageAlt: "Lámina de 1850: pabellones y escarapelas de las principales potencias del mundo"
 imageCredit: "Foto: Various authors. · dominio público · Wikimedia Commons"
 lang: "es"
 urlSlug: "paises-mas-pequenos-asia"

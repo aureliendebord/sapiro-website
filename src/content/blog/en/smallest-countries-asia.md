@@ -4,7 +4,7 @@ description: "The Maldives (298 km²) is Asia's smallest country and Singapore c
 date: 2026-07-13
 lastModified: 2026-07-13
 image: "/images/blog/monde/mappemonde.jpg"
-imageAlt: "An antique world map"
+imageAlt: "An 1850 chart of the flags and cockades of the world's main powers"
 imageCredit: "Photo: Various authors. · public domain · Wikimedia Commons"
 lang: "en"
 urlSlug: "smallest-countries-asia"

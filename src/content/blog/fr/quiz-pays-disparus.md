@@ -3,9 +3,9 @@ title: "Quiz : 20 pays disparus, combien pouvez-vous en retrouver ?"
 description: "URSS, Yougoslavie, Prusse, royaume d'Hawaï : 20 questions sur les pays disparus, du niveau échauffement au niveau expert, avec les réponses et votre score."
 date: 2026-08-18
 lastModified: 2026-08-18
-image: "/images/blog/apprentissage/drapeaux-monde.jpg"
-imageAlt: "Des drapeaux nationaux alignés"
-imageCredit: "Photo : United States Department of Energy, Office of Energy Efficiency and Renewable Energy · domaine public · Wikimedia Commons"
+image: "/images/blog/monde/carte-monde-ancienne.jpg"
+imageAlt: "Une vieille carte du monde"
+imageCredit: "Photo : Reginald Lane Poole · domaine public · Wikimedia Commons"
 lang: "fr"
 urlSlug: "quiz-pays-disparus"
 translationKey: "quiz-pays-disparus"

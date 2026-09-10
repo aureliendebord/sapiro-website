@@ -3,9 +3,9 @@ title: "World Flags Quiz: Free Online Practice"
 description: "Test your knowledge of world flags with free online quizzes, by continent and level. Progressive learning."
 date: 2026-02-21
 lastModified: 2026-06-15
-image: "/images/blog/apprentissage/drapeaux-monde.jpg"
-imageAlt: "A row of national flags"
-imageCredit: "Photo: United States Department of Energy, Office of Energy Efficiency and Renewable Energy · public domain · Wikimedia Commons"
+image: "/images/blog/famille/carte-monde-drapeaux.jpg"
+imageAlt: "A world map with countries and flags"
+imageCredit: "Photo: Transparent 6lue · public domain · Wikimedia Commons"
 lang: "en"
 urlSlug: "world-flags-quiz-free-online"
 translationKey: "quiz-drapeaux-monde"

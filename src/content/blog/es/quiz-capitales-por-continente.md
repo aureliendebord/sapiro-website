@@ -73,6 +73,6 @@ Canberra (Australia), Wellington (Nueva Zelanda), Port Moresby (Papúa Nueva Gui
 Para profundizar: [quiz capitales del mundo](/es/blog/quiz-capitales-mundo/).
 
 <figure>
-  <img src="/images/blog/apprentissage/drapeaux-monde.jpg" alt="Banderas nacionales alineadas" loading="lazy" />
-  <figcaption>Foto: United States Department of Energy, Office of Energy Efficiency and Renewable Energy · dominio público · Wikimedia Commons</figcaption>
+  <img src="/images/blog/monde/capitale-paris.jpg" alt="Vista aérea de París" loading="lazy" />
+  <figcaption>Foto: Drew Coffman drewcoffman · CC0 · Wikimedia Commons</figcaption>
 </figure>
