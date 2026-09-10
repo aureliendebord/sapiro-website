@@ -93,6 +93,6 @@ Las diferencias entre regiones del mundo son masivas. La malaria, las mordeduras
 Para profundizar: [animales en peligro de extinción](/es/blog/animales-en-peligro-extincion/), que invierte la perspectiva. SAPIRO propone quizzes sobre 600 especies, peligrosas e inofensivas, con una explicación detrás de cada respuesta.
 
 <figure>
-  <img src="/images/blog/nature/crocodile.jpg" alt="Un cocodrilo del Nilo a la orilla del agua" loading="lazy" />
+  <img src="/images/blog/nature/crocodile.jpg" alt="Un cocodrilo del Nilo tumbado en la hierba" loading="lazy" />
   <figcaption>Foto: Diego Delso · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
 </figure>

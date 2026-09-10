@@ -4,7 +4,7 @@ description: "Comparatif Sapiro et Duolingo : culture générale ou langues étr
 date: 2026-02-28
 lastModified: 2026-06-15
 image: "/images/blog/apps/smartphone-app.jpg"
-imageAlt: "Une application sur smartphone"
+imageAlt: "Un smartphone affichant une publication sur un réseau social"
 imageCredit: "Photo : Mictlancihuatl · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "fr"
 urlSlug: "sapiro-vs-duolingo"
@@ -65,7 +65,7 @@ Oui. Beaucoup d'utilisateurs combinent les deux : 15 minutes de langue le matin 
 Pour creuser : [meilleures apps quiz culture générale](/blog/meilleures-apps-quiz-culture-generale/).
 
 <figure>
-  <img src="/images/blog/apps/apprendre-mobile.jpg" alt="Apprendre sur son téléphone" loading="lazy" />
+  <img src="/images/blog/apps/apprendre-mobile.jpg" alt="Une femme assise dans une bibliothèque, un téléphone à la main" loading="lazy" />
   <figcaption>Photo : Anastasiya Lvova · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
 </figure>
 

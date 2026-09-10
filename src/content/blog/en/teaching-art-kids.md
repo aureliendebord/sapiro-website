@@ -4,7 +4,7 @@ description: "How to introduce art to kids? Museums, books, age-by-age methods a
 date: 2026-02-16
 lastModified: 2026-06-15
 image: "/images/blog/famille/enfant-peinture.jpg"
-imageAlt: "A child painting with watercolors"
+imageAlt: "Children's paintings of landscapes"
 imageCredit: "Photo: Vyacheslav Argenberg · CC BY 4.0 · Wikimedia Commons"
 lang: "en"
 urlSlug: "teaching-art-kids"

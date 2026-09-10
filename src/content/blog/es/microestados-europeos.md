@@ -4,7 +4,7 @@ description: "Vaticano, Mónaco, San Marino, Liechtenstein, Andorra, Malta: los 
 date: 2026-07-13
 lastModified: 2026-07-13
 image: "/images/blog/famille/globe-atlas-table.jpg"
-imageAlt: "Un globo y un atlas sobre una mesa"
+imageAlt: "Un antiguo mapamundi griego en dos hemisferios"
 imageCredit: "Foto: Ánthimos Gazís · dominio público · Wikimedia Commons"
 lang: "es"
 urlSlug: "microestados-europeos"

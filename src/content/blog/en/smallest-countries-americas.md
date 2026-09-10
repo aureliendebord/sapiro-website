@@ -4,7 +4,7 @@ description: "Saint Kitts and Nevis (261 km²) is the smallest country in the Am
 date: 2026-08-17
 lastModified: 2026-08-17
 image: "/images/blog/famille/globe-atlas-table.jpg"
-imageAlt: "A globe and atlas on a table"
+imageAlt: "An antique Greek world map in two hemispheres"
 imageCredit: "Photo: Ánthimos Gazís · public domain · Wikimedia Commons"
 lang: "en"
 urlSlug: "smallest-countries-americas"

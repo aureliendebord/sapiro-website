@@ -4,7 +4,7 @@ description: "General knowledge quizzes by level: easy, medium, hard, expert. To
 date: 2026-02-23
 lastModified: 2026-06-15
 image: "/images/blog/apprentissage/bureau-revision.jpg"
-imageAlt: "A study desk with books and notes"
+imageAlt: "A 19th-century study with bookshelves and a fireplace"
 imageCredit: "Photo: Miscellaneous Items in High Demand, PPOC, Library of Congress · public domain · Wikimedia Commons"
 lang: "en"
 urlSlug: "general-knowledge-quiz-levels"

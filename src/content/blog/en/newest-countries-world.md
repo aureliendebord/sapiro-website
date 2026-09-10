@@ -4,7 +4,7 @@ description: "South Sudan, independent since July 2011, is the newest country in
 date: 2026-07-21
 lastModified: 2026-07-21
 image: "/images/blog/monde/globe-terrestre.jpg"
-imageAlt: "An antique terrestrial globe"
+imageAlt: "An antique circular map projection showing two thirds of the globe"
 imageCredit: "Photo: Henry James · public domain · Wikimedia Commons"
 lang: "en"
 urlSlug: "newest-countries-world"

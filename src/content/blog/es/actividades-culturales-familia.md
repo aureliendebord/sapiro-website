@@ -89,6 +89,6 @@ Aprender en familia no necesita clases. Treinta ideas concretas para probar este
 Para profundizar: [geografía en familia](/es/blog/geografia-familia/) para profundizar en un área concreta.
 
 <figure>
-  <img src="/images/blog/famille/enfants-musee.jpg" alt="Niños visitando un museo" loading="lazy" />
-  <figcaption>Foto: Unknown authorUnknown author · dominio público · Wikimedia Commons</figcaption>
+  <img src="/images/blog/famille/enfants-musee.jpg" alt="Foto antigua de escolares japoneses posando ante una exposición" loading="lazy" />
+  <figcaption>Foto: Unknown author · dominio público · Wikimedia Commons</figcaption>
 </figure>

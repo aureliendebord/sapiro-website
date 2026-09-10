@@ -68,7 +68,7 @@ Más allá de las grandes ciudades, Italia conserva yacimientos arqueológicos e
 Si te gusta poner a prueba lo que sabes sobre estos lugares, la aplicación [SAPIRO](/es/) propone cuestionarios de cultura general donde la historia y el patrimonio aparecen a menudo. Para profundizar, recorre nuestra [guía de monumentos](/es/monumentos/) o nuestra selección de los [30 monumentos famosos del mundo](/es/blog/monumentos-famosos-mundo/). Y si te interesa Europa, compara con los [monumentos de Francia](/es/blog/monumentos-francia/) y los [monumentos de España](/es/blog/monumentos-espana/).
 
 <figure>
-  <img src="/images/blog/monuments/tour-de-pise.jpg" alt="La torre inclinada de Pisa" loading="lazy" />
+  <img src="/images/blog/monuments/tour-de-pise.jpg" alt="La catedral de Pisa y la torre inclinada en la plaza de los Milagros" loading="lazy" />
   <figcaption>Foto: MHoser · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
 </figure>
 

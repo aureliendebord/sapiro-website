@@ -80,7 +80,7 @@ Préparation : se documenter sur l'institution, ses missions, son histoire réce
 SAPIRO propose des quiz culture générale qui couvrent le programme typique des QCM. Sessions de 15 minutes par jour pour maintenir la régularité. Voir aussi nos articles sur [comment préparer un concours catégorie B ou C](/blog/preparer-concours-categorie-bc/) et [comment réviser en 30 jours](/blog/reviser-culture-generale-30-jours/).
 
 <figure>
-  <img src="/images/blog/apprentissage/bureau-revision.jpg" alt="Un bureau de révision avec livres et notes" loading="lazy" />
+  <img src="/images/blog/apprentissage/bureau-revision.jpg" alt="Un cabinet de travail du XIXe siècle avec bibliothèque et cheminée" loading="lazy" />
   <figcaption>Photo : Miscellaneous Items in High Demand, PPOC, Library of Congress · domaine public · Wikimedia Commons</figcaption>
 </figure>
 

@@ -84,6 +84,6 @@ Worth reading: [major historical figures](/en/blog/historical-figures/) and the 
 
 <figure>
   <img src="/images/blog/histoire/rosa-parks.jpg" alt="Portrait of Rosa Parks" loading="lazy" />
-  <figcaption>Photo: Unknown authorUnknown author · public domain · Wikimedia Commons</figcaption>
+  <figcaption>Photo: Unknown author · public domain · Wikimedia Commons</figcaption>
 </figure>
 

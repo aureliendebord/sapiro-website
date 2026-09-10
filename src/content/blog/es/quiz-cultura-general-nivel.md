@@ -4,7 +4,7 @@ description: "Quizzes de cultura general por nivel: fácil, medio, difícil, exp
 date: 2026-02-23
 lastModified: 2026-06-15
 image: "/images/blog/apprentissage/bureau-revision.jpg"
-imageAlt: "Un escritorio de estudio con libros y apuntes"
+imageAlt: "Un gabinete de estudio del siglo XIX con biblioteca y chimenea"
 imageCredit: "Foto: Miscellaneous Items in High Demand, PPOC, Library of Congress · dominio público · Wikimedia Commons"
 lang: "es"
 urlSlug: "quiz-cultura-general-nivel"

@@ -78,7 +78,7 @@ Preparation: research the institution, its missions, its recent history. Practic
 SAPIRO offers general knowledge quizzes covering the typical multiple-choice exam program. 15-minute daily sessions to maintain consistency. Worth reading: [preparing a government entry-level exam](/en/blog/prepare-government-entry-exam/) and [how to revise in 30 days](/en/blog/revise-general-knowledge-30-days/).
 
 <figure>
-  <img src="/images/blog/apprentissage/bureau-revision.jpg" alt="A study desk with books and notes" loading="lazy" />
+  <img src="/images/blog/apprentissage/bureau-revision.jpg" alt="A 19th-century study with bookshelves and a fireplace" loading="lazy" />
   <figcaption>Photo: Miscellaneous Items in High Demand, PPOC, Library of Congress · public domain · Wikimedia Commons</figcaption>
 </figure>
 

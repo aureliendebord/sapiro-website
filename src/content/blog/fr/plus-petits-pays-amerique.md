@@ -4,7 +4,7 @@ description: "Saint-Christophe-et-Niévès (261 km²) est le plus petit pays d'A
 date: 2026-08-17
 lastModified: 2026-08-17
 image: "/images/blog/famille/globe-atlas-table.jpg"
-imageAlt: "Un globe et un atlas posés sur une table"
+imageAlt: "Une carte du monde grecque ancienne en deux hémisphères"
 imageCredit: "Photo : Ánthimos Gazís · domaine public · Wikimedia Commons"
 lang: "fr"
 urlSlug: "plus-petits-pays-amerique"

@@ -69,7 +69,7 @@ Three categories cover the essentials for a child.
 Worth reading: [nature quiz for kids](/en/blog/nature-quiz-kids/).
 
 <figure>
-  <img src="/images/blog/famille/livre-animaux.jpg" alt="A field guide for identifying animals" loading="lazy" />
+  <img src="/images/blog/famille/livre-animaux.jpg" alt="Two hikers looking at a field guide in the woods" loading="lazy" />
   <figcaption>Photo: U.S. Fish and Wildlife Service Southeast Region · public domain · Wikimedia Commons</figcaption>
 </figure>
 

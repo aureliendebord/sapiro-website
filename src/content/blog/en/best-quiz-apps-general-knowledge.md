@@ -4,7 +4,7 @@ description: "Compare the best quiz and trivia apps: Trivia Crack, Kahoot, SAPIR
 date: 2026-03-20
 lastModified: 2026-06-15
 image: "/images/blog/apps/smartphone-app.jpg"
-imageAlt: "A quiz app on a smartphone"
+imageAlt: "A smartphone showing a social media post"
 imageCredit: "Photo: Mictlancihuatl · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "en"
 urlSlug: "best-quiz-apps-general-knowledge"
@@ -156,7 +156,7 @@ But if you want to actually learn at your own pace, without ads and without bein
 For deeper comparisons, check out our head-to-head reviews: [SAPIRO vs Trivia Crack](/en/blog/sapiro-vs-trivia-crack/), [SAPIRO vs GeoGuessr](/en/blog/sapiro-vs-geoguessr/), and [SAPIRO vs Kahoot](/en/blog/sapiro-vs-kahoot/). And if geography is your thing, see our [best geography apps](/en/blog/best-geography-apps/) guide.
 
 <figure>
-  <img src="/images/blog/apps/etudier-smartphone.jpg" alt="Testing knowledge on a phone" loading="lazy" />
+  <img src="/images/blog/apps/etudier-smartphone.jpg" alt="Seniors attending a training class in a classroom" loading="lazy" />
   <figcaption>Photo: ONBag · CC0 · Wikimedia Commons</figcaption>
 </figure>
 

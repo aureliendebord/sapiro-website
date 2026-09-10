@@ -69,7 +69,7 @@ Tres grandes categorias cubren lo esencial para un nino.
 Para profundizar: [quiz naturaleza para ninos](/es/blog/quiz-naturaleza-ninos/).
 
 <figure>
-  <img src="/images/blog/famille/livre-animaux.jpg" alt="Una guía para identificar animales" loading="lazy" />
+  <img src="/images/blog/famille/livre-animaux.jpg" alt="Dos excursionistas consultan una guía de campo en el bosque" loading="lazy" />
   <figcaption>Foto: U.S. Fish and Wildlife Service Southeast Region · dominio público · Wikimedia Commons</figcaption>
 </figure>
 

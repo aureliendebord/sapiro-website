@@ -4,7 +4,7 @@ description: "De George Washington a hoy: lista completa de presidentes de EEUU 
 date: 2026-02-02
 lastModified: 2026-06-15
 image: "/images/blog/histoire/maison-blanche.jpg"
-imageAlt: "La Casa Blanca en Washington"
+imageAlt: "Plano de la planta principal de la Casa Blanca por Latrobe, 1807"
 imageCredit: "Foto: Benjamin Henry Latrobe · dominio público · Wikimedia Commons"
 lang: "es"
 urlSlug: "presidentes-estados-unidos"

@@ -4,7 +4,7 @@ description: "¿Qué apps de quiz respetan de verdad tus datos? Comparativa de a
 date: 2026-03-04
 lastModified: 2026-06-15
 image: "/images/blog/apps/smartphone-app.jpg"
-imageAlt: "Una aplicación en un smartphone"
+imageAlt: "Un smartphone mostrando una publicación en una red social"
 imageCredit: "Foto: Mictlancihuatl · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "es"
 urlSlug: "apps-quiz-sin-recoleccion-datos"
@@ -79,6 +79,6 @@ Tres herramientas.
 Para profundizar: [mejores apps educativas sin publicidad](/es/blog/mejores-apps-educativas-sin-publicidad/) y la comparativa [SAPIRO vs Quizlet](/es/blog/sapiro-vs-quizlet/).
 
 <figure>
-  <img src="/images/blog/apps/apprendre-mobile.jpg" alt="Aprender en el teléfono" loading="lazy" />
+  <img src="/images/blog/apps/apprendre-mobile.jpg" alt="Una mujer sentada en una biblioteca con un teléfono en la mano" loading="lazy" />
   <figcaption>Foto: Anastasiya Lvova · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
 </figure>

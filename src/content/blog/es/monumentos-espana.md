@@ -4,7 +4,7 @@ description: "De la Sagrada Família a la Alhambra, un recorrido por los grandes
 date: 2026-03-02
 lastModified: 2026-06-15
 image: "/images/blog/monuments/sagrada-familia.jpg"
-imageAlt: "La Sagrada Família en Barcelona"
+imageAlt: "El interior de la Sagrada Família en Barcelona, con sus columnas y escaleras de caracol"
 imageCredit: "Foto: Alvesgaspar · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "es"
 urlSlug: "monumentos-espana"

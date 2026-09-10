@@ -4,7 +4,7 @@ description: "Lion, wildebeest, fennec, oryx: 40 emblematic animals from Africa 
 date: 2026-01-20
 lastModified: 2026-06-15
 image: "/images/blog/nature/elephant-afrique.jpg"
-imageAlt: "An African elephant in the savanna"
+imageAlt: "A herd of African elephants crossing a river"
 imageCredit: "Photo: Geoff Gallice · CC BY 2.0 · Wikimedia Commons"
 lang: "en"
 urlSlug: "african-wildlife"
@@ -113,7 +113,7 @@ African animal populations have dropped by 70% on average since 1970, according 
 SAPIRO offers quizzes covering 600 species across the animal kingdom, including about a hundred from Africa, with an explanation behind each answer.
 
 <figure>
-  <img src="/images/blog/nature/lion-afrique.jpg" alt="A lion in the African savanna" loading="lazy" />
+  <img src="/images/blog/nature/lion-afrique.jpg" alt="Museum diorama of a lion family in a savanna setting" loading="lazy" />
   <figcaption>Photo: Michael Barera · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
 </figure>
 

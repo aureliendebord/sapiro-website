@@ -4,7 +4,7 @@ description: "From the Sagrada Família to the Alhambra, a tour of Spain's great
 date: 2026-03-02
 lastModified: 2026-06-15
 image: "/images/blog/monuments/sagrada-familia.jpg"
-imageAlt: "The Sagrada Família in Barcelona"
+imageAlt: "Inside the Sagrada Família in Barcelona, with its columns and spiral staircases"
 imageCredit: "Photo: Alvesgaspar · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "en"
 urlSlug: "spain-monuments"

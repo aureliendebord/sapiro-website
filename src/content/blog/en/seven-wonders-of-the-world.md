@@ -4,7 +4,7 @@ description: "The 7 wonders of the ancient world and the 7 new wonders chosen in
 date: 2026-02-02
 lastModified: 2026-06-15
 image: "/images/blog/monuments/pyramides-gizeh.jpg"
-imageAlt: "The pyramids of Giza in Egypt"
+imageAlt: "A giant sculpture of hands framing the pyramids of Giza"
 imageCredit: "Photo: Mona Hassan Abo-Abda · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "en"
 urlSlug: "seven-wonders-of-the-world"

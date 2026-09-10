@@ -4,7 +4,7 @@ description: "Organisez un quiz géographie en famille : règles, questions adap
 date: 2025-10-20
 lastModified: 2026-06-15
 image: "/images/blog/famille/globe-atlas-table.jpg"
-imageAlt: "Un globe et un atlas posés sur une table"
+imageAlt: "Une carte du monde grecque ancienne en deux hémisphères"
 imageCredit: "Photo : Ánthimos Gazís · domaine public · Wikimedia Commons"
 lang: "fr"
 urlSlug: "geographie-famille"

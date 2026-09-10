@@ -69,7 +69,7 @@ Trois principes.
 SAPIRO propose 2 000+ questions de culture générale, géographie, histoire, art et nature, avec une explication didactique derrière chaque réponse. Idéal pour des sessions courtes avant les examens. Pour creuser : [meilleures apps quiz culture générale](/blog/meilleures-apps-quiz-culture-generale/) et notre [guide complet culture générale](/blog/culture-generale-guide/).
 
 <figure>
-  <img src="/images/blog/apprentissage/bureau-revision.jpg" alt="Un bureau de révision avec livres et notes" loading="lazy" />
+  <img src="/images/blog/apprentissage/bureau-revision.jpg" alt="Un cabinet de travail du XIXe siècle avec bibliothèque et cheminée" loading="lazy" />
   <figcaption>Photo : Miscellaneous Items in High Demand, PPOC, Library of Congress · domaine public · Wikimedia Commons</figcaption>
 </figure>
 

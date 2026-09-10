@@ -102,7 +102,7 @@ El mejor enfoque es combinar. Ver un documental sobre la caída de Roma, despué
 La historia no es una asignatura estática que se aprende una vez y se guarda en un cajón. Es una lente para leer el presente. Los conflictos actuales, las fronteras, las instituciones, las ideas que circulan a nuestro alrededor: todo tiene una historia. Y comprenderla es entender mejor el mundo en el que vivimos.
 
 <figure>
-  <img src="/images/blog/famille/chateau-medieval.jpg" alt="Las ruinas de un castillo medieval" loading="lazy" />
+  <img src="/images/blog/famille/chateau-medieval.jpg" alt="Un viejo muro de piedra con una estrecha abertura" loading="lazy" />
   <figcaption>Foto: Dietmar Rabich · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
 </figure>
 

@@ -4,7 +4,7 @@ description: "Un plan de 30 días para repasar cultura general antes de un exame
 date: 2026-02-12
 lastModified: 2026-06-15
 image: "/images/blog/apprentissage/bureau-revision.jpg"
-imageAlt: "Un escritorio de estudio con libros y apuntes"
+imageAlt: "Un gabinete de estudio del siglo XIX con biblioteca y chimenea"
 imageCredit: "Foto: Miscellaneous Items in High Demand, PPOC, Library of Congress · dominio público · Wikimedia Commons"
 lang: "es"
 urlSlug: "repasar-cultura-general-30-dias"

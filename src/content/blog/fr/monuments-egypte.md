@@ -4,7 +4,7 @@ description: "Pyramides de Gizeh, Karnak, vallée des Rois, Abou Simbel : un tou
 date: 2026-02-27
 lastModified: 2026-06-15
 image: "/images/blog/monuments/pyramides-gizeh.jpg"
-imageAlt: "Les pyramides de Gizeh en Égypte"
+imageAlt: "Une sculpture de mains géantes encadrant les pyramides de Gizeh"
 imageCredit: "Photo : Mona Hassan Abo-Abda · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "fr"
 urlSlug: "monuments-egypte"
@@ -72,7 +72,7 @@ L'Égypte ne se résume pas à ses pyramides et à ses grands temples. Certains 
 Pour ancrer tous ces noms et ces dates sans s'épuiser, l'application **SAPIRO** propose des quiz qui en font un réflexe. Pour élargir le tableau, lisez notre dossier sur les [merveilles du monde](/blog/merveilles-du-monde/), notre tour des [monuments de l'Antiquité](/blog/monuments-antiquite/) et notre sélection de [30 monuments célèbres](/blog/monuments-celebres-monde/). Le tout est rangé dans notre rubrique [monuments](/monuments/).
 
 <figure>
-  <img src="/images/blog/monuments/abou-simbel.jpg" alt="Les temples d'Abou Simbel" loading="lazy" />
+  <img src="/images/blog/monuments/abou-simbel.jpg" alt="Les quatre statues du sanctuaire du grand temple d'Abou Simbel" loading="lazy" />
   <figcaption>Photo : Diego Delso · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
 </figure>
 

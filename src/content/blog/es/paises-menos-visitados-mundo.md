@@ -117,6 +117,6 @@ Estos once destinos son una porción mínima de los [195 países que hay en el m
 Para profundizar: [países más pequeños del mundo](/es/blog/paises-mas-pequenos-mundo/), los [países más grandes del mundo](/es/blog/paises-mas-grandes-mundo/) y [países que ya no existen](/es/blog/paises-desaparecidos/) para explorar geografía poco conocida.
 
 <figure>
-  <img src="/images/blog/monde/globe-terrestre.jpg" alt="Un globo terráqueo antiguo" loading="lazy" />
+  <img src="/images/blog/monde/globe-terrestre.jpg" alt="Un mapa antiguo en proyección circular que muestra dos tercios del globo" loading="lazy" />
   <figcaption>Foto: Henry James · dominio público · Wikimedia Commons</figcaption>
 </figure>

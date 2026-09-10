@@ -105,7 +105,7 @@ Faites des quiz réguliers, même courts. Cinq minutes par jour valent mieux qu'
 Quand un pays passe aux infos, localisez-le immédiatement sur une carte. Organisez une [soirée quiz géographie](/blog/geographie-famille/) avec vos proches : on retient mieux quand on apprend en s'amusant. Et surtout, inventez vos propres moyens mnémotechniques. Les associations les plus absurdes sont souvent celles qui collent le mieux.
 
 <figure>
-  <img src="/images/blog/monde/globe-terrestre.jpg" alt="Un globe terrestre ancien" loading="lazy" />
+  <img src="/images/blog/monde/globe-terrestre.jpg" alt="Une carte ancienne en projection circulaire montrant les deux tiers du globe" loading="lazy" />
   <figcaption>Photo : Henry James · domaine public · Wikimedia Commons</figcaption>
 </figure>
 

@@ -113,7 +113,7 @@ Trois raisons.
 **Préparation.** Pas d'infrastructures massives, prévoir l'autonomie.
 
 <figure>
-  <img src="/images/blog/monde/globe-terrestre.jpg" alt="Un globe terrestre ancien" loading="lazy" />
+  <img src="/images/blog/monde/globe-terrestre.jpg" alt="Une carte ancienne en projection circulaire montrant les deux tiers du globe" loading="lazy" />
   <figcaption>Photo : Henry James · domaine public · Wikimedia Commons</figcaption>
 </figure>
 

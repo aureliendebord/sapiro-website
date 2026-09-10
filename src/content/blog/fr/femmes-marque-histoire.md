@@ -84,6 +84,6 @@ Pour creuser : [personnages historiques majeurs](/blog/personnages-historiques/)
 
 <figure>
   <img src="/images/blog/histoire/rosa-parks.jpg" alt="Portrait de Rosa Parks" loading="lazy" />
-  <figcaption>Photo : Unknown authorUnknown author · domaine public · Wikimedia Commons</figcaption>
+  <figcaption>Photo : Unknown author · domaine public · Wikimedia Commons</figcaption>
 </figure>
 

@@ -4,7 +4,7 @@ description: "Comparativa Sapiro con QuizUp y HQ Trivia: ¿quiz competitivo en v
 date: 2026-03-02
 lastModified: 2026-06-15
 image: "/images/blog/apps/smartphone-app.jpg"
-imageAlt: "Una aplicación en un smartphone"
+imageAlt: "Un smartphone mostrando una publicación en una red social"
 imageCredit: "Foto: Mictlancihuatl · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "es"
 urlSlug: "sapiro-vs-quizup-hq-trivia"
@@ -74,6 +74,6 @@ Ninguno es mejor que el otro, responden a necesidades distintas.
 Para profundizar: [mejores apps de quiz cultura general](/es/blog/mejores-apps-quiz-cultura-general/) y [cómo funciona la gamificación educativa](/es/blog/gamificacion-educacion/).
 
 <figure>
-  <img src="/images/blog/apps/apprendre-mobile.jpg" alt="Jugar y aprender en el teléfono" loading="lazy" />
+  <img src="/images/blog/apps/apprendre-mobile.jpg" alt="Una mujer sentada en una biblioteca con un teléfono en la mano" loading="lazy" />
   <figcaption>Foto: Anastasiya Lvova · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
 </figure>

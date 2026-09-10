@@ -4,7 +4,7 @@ description: "Comparativa Sapiro y Quizlet: ¿quiz cultura general o flashcards?
 date: 2026-02-27
 lastModified: 2026-06-15
 image: "/images/blog/apps/etudier-smartphone.jpg"
-imageAlt: "Estudiar en el smartphone"
+imageAlt: "Personas mayores asistiendo a una formación en un aula"
 imageCredit: "Foto: ONBag · CC0 · Wikimedia Commons"
 lang: "es"
 urlSlug: "sapiro-vs-quizlet"

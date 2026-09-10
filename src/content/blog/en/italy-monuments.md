@@ -68,7 +68,7 @@ Beyond the major cities, Italy preserves remarkable archaeological sites.
 If you enjoy testing what you know about these places, the [SAPIRO](/en/) app offers general-knowledge quizzes where history and heritage come up often. To dig deeper, browse our [monuments guide](/en/monuments/) or our pick of the [30 famous monuments of the world](/en/blog/famous-monuments-world/). And if Europe is your thing, compare with the [monuments of France](/en/blog/france-monuments/) and the [monuments of Spain](/en/blog/spain-monuments/).
 
 <figure>
-  <img src="/images/blog/monuments/tour-de-pise.jpg" alt="The Leaning Tower of Pisa" loading="lazy" />
+  <img src="/images/blog/monuments/tour-de-pise.jpg" alt="Pisa Cathedral and the Leaning Tower in the Piazza dei Miracoli" loading="lazy" />
   <figcaption>Photo: MHoser · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
 </figure>
 

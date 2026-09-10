@@ -4,7 +4,7 @@ description: "Comparativa de las mejores aplicaciones de quiz y cultura general:
 date: 2026-03-20
 lastModified: 2026-06-15
 image: "/images/blog/apps/smartphone-app.jpg"
-imageAlt: "Una aplicación de quiz en un smartphone"
+imageAlt: "Un smartphone mostrando una publicación en una red social"
 imageCredit: "Foto: Mictlancihuatl · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "es"
 urlSlug: "mejores-apps-quiz-cultura-general"
@@ -168,7 +168,7 @@ El catálogo de SAPIRO (2000+ preguntas) es más reducido que el de apps que lle
 Para comparativas más detalladas, consulta [SAPIRO vs Trivia Crack](/es/blog/sapiro-vs-trivia-crack/), [SAPIRO vs GeoGuessr](/es/blog/sapiro-vs-geoguessr/) y [SAPIRO vs Kahoot](/es/blog/sapiro-vs-kahoot/). Si la geografía es lo tuyo, echa un vistazo a nuestra guía de [mejores apps de geografía](/es/blog/mejores-apps-geografia/).
 
 <figure>
-  <img src="/images/blog/apps/etudier-smartphone.jpg" alt="Poner a prueba sus conocimientos en el teléfono" loading="lazy" />
+  <img src="/images/blog/apps/etudier-smartphone.jpg" alt="Personas mayores asistiendo a una formación en un aula" loading="lazy" />
   <figcaption>Foto: ONBag · CC0 · Wikimedia Commons</figcaption>
 </figure>
 

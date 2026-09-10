@@ -89,7 +89,7 @@ Family learning does not need lectures. Thirty concrete ideas to try this weeken
 Worth reading: [geography as a family](/en/blog/geography-family/) to dig into a particular area.
 
 <figure>
-  <img src="/images/blog/famille/enfants-musee.jpg" alt="Children visiting a museum" loading="lazy" />
-  <figcaption>Photo: Unknown authorUnknown author · public domain · Wikimedia Commons</figcaption>
+  <img src="/images/blog/famille/enfants-musee.jpg" alt="Vintage photo of Japanese schoolchildren posing outside an exhibition" loading="lazy" />
+  <figcaption>Photo: Unknown author · public domain · Wikimedia Commons</figcaption>
 </figure>
 

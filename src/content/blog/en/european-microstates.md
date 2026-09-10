@@ -4,7 +4,7 @@ description: "Vatican, Monaco, San Marino, Liechtenstein, Andorra, Malta: the si
 date: 2026-07-13
 lastModified: 2026-07-13
 image: "/images/blog/famille/globe-atlas-table.jpg"
-imageAlt: "A globe and atlas on a table"
+imageAlt: "An antique Greek world map in two hemispheres"
 imageCredit: "Photo: Ánthimos Gazís · public domain · Wikimedia Commons"
 lang: "en"
 urlSlug: "european-microstates"

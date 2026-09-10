@@ -4,7 +4,7 @@ description: "Organizar un quiz para un cumpleaños o una fiesta entre amigos: t
 date: 2026-02-26
 lastModified: 2026-06-15
 image: "/images/blog/apprentissage/fete-amis.jpg"
-imageAlt: "Una fiesta de cumpleaños entre amigos"
+imageAlt: "Un hombre recibiendo un ramo de flores y besos de dos amigos"
 imageCredit: "Foto: Anna Flodmark Ehrs for Southerly Clubs · dominio público · Wikimedia Commons"
 lang: "es"
 urlSlug: "quiz-cumpleanos-fiesta-amigos"

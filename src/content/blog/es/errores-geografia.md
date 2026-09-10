@@ -75,7 +75,7 @@ La mayoría comparten raíces comunes. Nuestro sistema educativo se centra en la
 Corregir estos errores tampoco requiere volver a la escuela. Los métodos de [repeticion espaciada](/es/blog/mejores-apps-geografia/) funcionan especialmente bien para fijar información geográfica a largo plazo. Y la [gamificacion aplicada a la educacion](/es/blog/gamificacion-educacion/) muestra que los quiz mejoran la retención hasta un 50% frente a la lectura pasiva.
 
 <figure>
-  <img src="/images/blog/monde/globe-terrestre.jpg" alt="Un globo terráqueo antiguo" loading="lazy" />
+  <img src="/images/blog/monde/globe-terrestre.jpg" alt="Un mapa antiguo en proyección circular que muestra dos tercios del globo" loading="lazy" />
   <figcaption>Foto: Henry James · dominio público · Wikimedia Commons</figcaption>
 </figure>
 

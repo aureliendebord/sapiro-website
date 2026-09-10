@@ -4,7 +4,7 @@ description: "Le Soudan du Sud (2011) est le plus jeune pays du monde. Le classe
 date: 2026-07-21
 lastModified: 2026-07-21
 image: "/images/blog/monde/globe-terrestre.jpg"
-imageAlt: "Un globe terrestre ancien"
+imageAlt: "Une carte ancienne en projection circulaire montrant les deux tiers du globe"
 imageCredit: "Photo : Henry James · domaine public · Wikimedia Commons"
 lang: "fr"
 urlSlug: "plus-jeunes-pays-monde"

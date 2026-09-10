@@ -117,7 +117,7 @@ At the other end of the scale, the [most visited countries in the world](/en/blo
 Worth reading: [smallest countries in the world](/en/blog/smallest-countries-world/) and [countries that no longer exist](/en/blog/countries-that-disappeared/) to explore lesser-known geography.
 
 <figure>
-  <img src="/images/blog/monde/globe-terrestre.jpg" alt="An antique terrestrial globe" loading="lazy" />
+  <img src="/images/blog/monde/globe-terrestre.jpg" alt="An antique circular map projection showing two thirds of the globe" loading="lazy" />
   <figcaption>Photo: Henry James · public domain · Wikimedia Commons</figcaption>
 </figure>
 

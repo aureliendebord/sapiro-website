@@ -111,7 +111,7 @@ Since 1989, the official name is Myanmar but many continue to say Burma. The mil
 Worth reading: [flag meanings](/en/blog/flags-meaning/) and [countries that disappeared](/en/blog/countries-that-disappeared/).
 
 <figure>
-  <img src="/images/blog/monde/globe-terrestre.jpg" alt="An antique terrestrial globe" loading="lazy" />
+  <img src="/images/blog/monde/globe-terrestre.jpg" alt="An antique circular map projection showing two thirds of the globe" loading="lazy" />
   <figcaption>Photo: Henry James · public domain · Wikimedia Commons</figcaption>
 </figure>
 

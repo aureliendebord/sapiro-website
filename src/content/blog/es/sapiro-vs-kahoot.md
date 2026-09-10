@@ -4,7 +4,7 @@ description: "Comparativa entre SAPIRO y Kahoot: uno está diseñado para el aul
 date: 2026-03-20
 lastModified: 2026-06-15
 image: "/images/blog/apps/tablette-education.jpg"
-imageAlt: "Aprender en una tableta"
+imageAlt: "Un niño jugando con un ordenador de juguete de madera con letras cirílicas"
 imageCredit: "Foto: Shixart1985 · CC BY 2.0 · Wikimedia Commons"
 lang: "es"
 urlSlug: "sapiro-vs-kahoot"
@@ -72,7 +72,7 @@ La elección no es una u otra. Depende del contexto. En el aula, Kahoot. En casa
 Para más comparativas, consulta [SAPIRO vs Trivia Crack](/es/blog/sapiro-vs-trivia-crack/), [SAPIRO vs GeoGuessr](/es/blog/sapiro-vs-geoguessr/) y nuestro artículo sobre [la gamificación en la educación](/es/blog/gamificacion-educacion/).
 
 <figure>
-  <img src="/images/blog/apps/apprendre-mobile.jpg" alt="Jugar y aprender en el teléfono" loading="lazy" />
+  <img src="/images/blog/apps/apprendre-mobile.jpg" alt="Una mujer sentada en una biblioteca con un teléfono en la mano" loading="lazy" />
   <figcaption>Foto: Anastasiya Lvova · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
 </figure>
 

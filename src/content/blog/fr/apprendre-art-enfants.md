@@ -4,7 +4,7 @@ description: "Comment faire découvrir l'art aux enfants ? Musées, livres, mét
 date: 2026-02-16
 lastModified: 2026-06-15
 image: "/images/blog/famille/enfant-peinture.jpg"
-imageAlt: "Un enfant qui peint à l'aquarelle"
+imageAlt: "Des peintures d'enfants représentant des paysages"
 imageCredit: "Photo : Vyacheslav Argenberg · CC BY 4.0 · Wikimedia Commons"
 lang: "fr"
 urlSlug: "apprendre-art-enfants"

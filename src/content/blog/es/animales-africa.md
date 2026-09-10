@@ -4,7 +4,7 @@ description: "León, nu, fenec, órix: 40 animales emblemáticos de África con 
 date: 2026-01-20
 lastModified: 2026-06-15
 image: "/images/blog/nature/elephant-afrique.jpg"
-imageAlt: "Un elefante africano en la sabana"
+imageAlt: "Una manada de elefantes africanos cruzando un río"
 imageCredit: "Foto: Geoff Gallice · CC BY 2.0 · Wikimedia Commons"
 lang: "es"
 urlSlug: "animales-africa"
@@ -113,6 +113,6 @@ Las poblaciones animales africanas han caído un 70% de media desde 1970, según
 SAPIRO propone quizzes que cubren las 600 especies del reino animal, de las que un centenar están presentes en África, con explicación didáctica detrás de cada respuesta.
 
 <figure>
-  <img src="/images/blog/nature/lion-afrique.jpg" alt="Un león en la sabana africana" loading="lazy" />
+  <img src="/images/blog/nature/lion-afrique.jpg" alt="Diorama de museo con una familia de leones en un decorado de sabana" loading="lazy" />
   <figcaption>Foto: Michael Barera · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
 </figure>

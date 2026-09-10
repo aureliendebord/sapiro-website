@@ -4,7 +4,7 @@ description: "From George Washington to today: complete list of US Presidents wi
 date: 2026-02-02
 lastModified: 2026-06-15
 image: "/images/blog/histoire/maison-blanche.jpg"
-imageAlt: "The White House in Washington"
+imageAlt: "Latrobe's 1807 floor plan of the White House principal story"
 imageCredit: "Photo: Benjamin Henry Latrobe · public domain · Wikimedia Commons"
 lang: "en"
 urlSlug: "us-presidents-list"

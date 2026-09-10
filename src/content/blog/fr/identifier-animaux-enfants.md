@@ -69,7 +69,7 @@ Trois grandes catégories couvrent l'essentiel pour un enfant.
 Pour creuser : [quiz nature pour enfants](/blog/quiz-nature-enfants/).
 
 <figure>
-  <img src="/images/blog/famille/livre-animaux.jpg" alt="Un guide pour identifier les animaux" loading="lazy" />
+  <img src="/images/blog/famille/livre-animaux.jpg" alt="Deux randonneurs consultent un guide de terrain en forêt" loading="lazy" />
   <figcaption>Photo : U.S. Fish and Wildlife Service Southeast Region · domaine public · Wikimedia Commons</figcaption>
 </figure>
 

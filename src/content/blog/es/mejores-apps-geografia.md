@@ -4,7 +4,7 @@ description: "Comparativa de las 8 mejores aplicaciones de geografía en 2025: n
 date: 2025-11-10
 lastModified: 2026-06-15
 image: "/images/blog/apps/carte-monde-app.jpg"
-imageAlt: "Un mapa del mundo en una pantalla"
+imageAlt: "Un mapa antiguo de Hungría del siglo XVI"
 imageCredit: "Foto: Lázár deák (Lazarus secretarius) · dominio público · Wikimedia Commons"
 lang: "es"
 urlSlug: "mejores-apps-geografia"

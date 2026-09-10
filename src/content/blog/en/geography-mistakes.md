@@ -109,7 +109,7 @@ First, use a globe instead of relying solely on flat maps. Globes preserve true 
 If you are looking for a fun way to organize quiz sessions with friends or family, our guide on [how to host a family geography quiz night](/en/blog/geography-family/) is packed with ideas.
 
 <figure>
-  <img src="/images/blog/monde/globe-terrestre.jpg" alt="An antique terrestrial globe" loading="lazy" />
+  <img src="/images/blog/monde/globe-terrestre.jpg" alt="An antique circular map projection showing two thirds of the globe" loading="lazy" />
   <figcaption>Photo: Henry James · public domain · Wikimedia Commons</figcaption>
 </figure>
 

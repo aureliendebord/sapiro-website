@@ -67,7 +67,7 @@ Les concours catégorie B et C de la fonction publique française attirent chaqu
 SAPIRO propose des quiz de culture générale qui correspondent au programme catégorie B et C. Sessions courtes de 15 minutes par jour, idéales pour intégrer l'apprentissage au quotidien. Pour creuser : [culture générale aux concours de la fonction publique](/blog/culture-generale-concours-fonction-publique/).
 
 <figure>
-  <img src="/images/blog/apprentissage/bureau-revision.jpg" alt="Un bureau de révision avec livres et notes" loading="lazy" />
+  <img src="/images/blog/apprentissage/bureau-revision.jpg" alt="Un cabinet de travail du XIXe siècle avec bibliothèque et cheminée" loading="lazy" />
   <figcaption>Photo : Miscellaneous Items in High Demand, PPOC, Library of Congress · domaine public · Wikimedia Commons</figcaption>
 </figure>
 

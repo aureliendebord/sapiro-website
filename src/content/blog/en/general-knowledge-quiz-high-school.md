@@ -69,7 +69,7 @@ Three principles.
 SAPIRO offers 2,000+ general knowledge questions on geography, history, art and nature, with an educational explanation behind every answer. Ideal for short sessions before exams. Worth reading: [best general knowledge quiz apps](/en/blog/best-quiz-apps-general-knowledge/) and our [full general knowledge guide](/en/blog/general-knowledge-guide/).
 
 <figure>
-  <img src="/images/blog/apprentissage/bureau-revision.jpg" alt="A study desk with books and notes" loading="lazy" />
+  <img src="/images/blog/apprentissage/bureau-revision.jpg" alt="A 19th-century study with bookshelves and a fireplace" loading="lazy" />
   <figcaption>Photo: Miscellaneous Items in High Demand, PPOC, Library of Congress · public domain · Wikimedia Commons</figcaption>
 </figure>
 

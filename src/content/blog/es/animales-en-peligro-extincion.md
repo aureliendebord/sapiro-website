@@ -111,6 +111,6 @@ El **cóndor de California**, el **bisonte americano** (recuperado de 750 a 30 0
 Para profundizar sobre naturaleza, ver también nuestro artículo sobre [animales extraños y desconocidos](/es/blog/animales-extranos-desconocidos/) y el de [animales más peligrosos del mundo](/es/blog/animales-mas-peligrosos-mundo/). Y para las especies que no supimos salvar: los [animales extinguidos recientemente](/es/blog/animales-extintos-recientemente/). SAPIRO permite poner a prueba conocimientos sobre 600 especies, con una explicación didáctica detrás de cada pregunta.
 
 <figure>
-  <img src="/images/blog/nature/rhinoceros.jpg" alt="Un rinoceronte negro, especie amenazada" loading="lazy" />
+  <img src="/images/blog/nature/rhinoceros.jpg" alt="Cráneo de rinoceronte con sus dos cuernos, expuesto en un museo" loading="lazy" />
   <figcaption>Foto: Jebulon · CC0 · Wikimedia Commons</figcaption>
 </figure>

@@ -4,7 +4,7 @@ description: "Vatican, Monaco, Saint-Marin, Liechtenstein, Andorre, Malte : les 
 date: 2026-07-13
 lastModified: 2026-07-13
 image: "/images/blog/famille/globe-atlas-table.jpg"
-imageAlt: "Un globe et un atlas posés sur une table"
+imageAlt: "Une carte du monde grecque ancienne en deux hémisphères"
 imageCredit: "Photo : Ánthimos Gazís · domaine public · Wikimedia Commons"
 lang: "fr"
 urlSlug: "micro-etats-europeens"

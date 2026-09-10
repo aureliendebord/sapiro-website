@@ -4,7 +4,7 @@ description: "Pirámides de Guiza, Karnak, el valle de los Reyes, Abu Simbel: un
 date: 2026-02-27
 lastModified: 2026-06-15
 image: "/images/blog/monuments/pyramides-gizeh.jpg"
-imageAlt: "Las pirámides de Guiza en Egipto"
+imageAlt: "Una escultura de manos gigantes que enmarca las pirámides de Guiza"
 imageCredit: "Foto: Mona Hassan Abo-Abda · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "es"
 urlSlug: "monumentos-egipto"
@@ -72,7 +72,7 @@ Egipto no se reduce a sus pirámides ni a sus grandes templos. Algunos de sus mo
 Para fijar todos estos nombres y fechas sin agotarse, la aplicación **SAPIRO** propone cuestionarios que los convierten en reflejo. Para ampliar el panorama, lee nuestro reportaje sobre las [maravillas del mundo](/es/blog/maravillas-del-mundo/), nuestro recorrido por los [monumentos de la Antigüedad](/es/blog/monumentos-antiguedad/) y nuestra selección de [30 monumentos famosos](/es/blog/monumentos-famosos-mundo/). Todo está recogido en nuestra sección de [monumentos](/es/monumentos/).
 
 <figure>
-  <img src="/images/blog/monuments/abou-simbel.jpg" alt="Los templos de Abu Simbel" loading="lazy" />
+  <img src="/images/blog/monuments/abou-simbel.jpg" alt="Las cuatro estatuas del santuario del gran templo de Abu Simbel" loading="lazy" />
   <figcaption>Foto: Diego Delso · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
 </figure>
 

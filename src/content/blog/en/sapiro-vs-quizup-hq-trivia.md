@@ -4,7 +4,7 @@ description: "SAPIRO vs QuizUp and HQ Trivia comparison: live competitive quiz o
 date: 2026-03-02
 lastModified: 2026-06-15
 image: "/images/blog/apps/smartphone-app.jpg"
-imageAlt: "An app on a smartphone"
+imageAlt: "A smartphone showing a social media post"
 imageCredit: "Photo: Mictlancihuatl · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "en"
 urlSlug: "sapiro-vs-quizup-hq-trivia"
@@ -74,7 +74,7 @@ Neither is better than the other, they meet different needs.
 Worth reading: [best general knowledge quiz apps](/en/blog/best-quiz-apps-general-knowledge/) and [how educational gamification works](/en/blog/gamification-education/).
 
 <figure>
-  <img src="/images/blog/apps/apprendre-mobile.jpg" alt="Playing and learning on a phone" loading="lazy" />
+  <img src="/images/blog/apps/apprendre-mobile.jpg" alt="A woman sitting in a library holding a phone" loading="lazy" />
   <figcaption>Photo: Anastasiya Lvova · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
 </figure>
 

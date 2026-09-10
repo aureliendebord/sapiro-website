@@ -99,6 +99,6 @@ Tres técnicas.
 La continuación lógica: nuestro [quiz de 20 preguntas sobre países desaparecidos](/es/blog/quiz-paises-desaparecidos/), los [países que cambiaron de nombre](/es/blog/paises-que-cambiaron-de-nombre/), los [países no reconocidos](/es/blog/paises-no-reconocidos/) y los [países más jóvenes del mundo](/es/blog/paises-mas-jovenes-mundo/).
 
 <figure>
-  <img src="/images/blog/monde/globe-terrestre.jpg" alt="Un globo terráqueo antiguo" loading="lazy" />
+  <img src="/images/blog/monde/globe-terrestre.jpg" alt="Un mapa antiguo en proyección circular que muestra dos tercios del globo" loading="lazy" />
   <figcaption>Foto: Henry James · dominio público · Wikimedia Commons</figcaption>
 </figure>

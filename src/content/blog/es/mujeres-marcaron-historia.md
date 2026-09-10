@@ -84,5 +84,5 @@ Para profundizar: [personajes históricos mayores](/es/blog/personajes-historico
 
 <figure>
   <img src="/images/blog/histoire/rosa-parks.jpg" alt="Retrato de Rosa Parks" loading="lazy" />
-  <figcaption>Foto: Unknown authorUnknown author · dominio público · Wikimedia Commons</figcaption>
+  <figcaption>Foto: Unknown author · dominio público · Wikimedia Commons</figcaption>
 </figure>

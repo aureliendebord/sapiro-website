@@ -69,6 +69,6 @@ Cuatro principios.
 SAPIRO propone quizzes de cultura general que corresponden al temario habitual de los Grupos B y C. Sesiones cortas de 15 minutos al día, ideales para integrar el aprendizaje en el día a día. Para profundizar: [cultura general en oposiciones públicas](/es/blog/cultura-general-oposiciones/).
 
 <figure>
-  <img src="/images/blog/apprentissage/bureau-revision.jpg" alt="Un escritorio de estudio con libros y apuntes" loading="lazy" />
+  <img src="/images/blog/apprentissage/bureau-revision.jpg" alt="Un gabinete de estudio del siglo XIX con biblioteca y chimenea" loading="lazy" />
   <figcaption>Foto: Miscellaneous Items in High Demand, PPOC, Library of Congress · dominio público · Wikimedia Commons</figcaption>
 </figure>

@@ -4,7 +4,7 @@ description: "Playful test: which country matches your personality? A journey th
 date: 2026-03-10
 lastModified: 2026-06-15
 image: "/images/blog/monde/globe-terrestre.jpg"
-imageAlt: "An antique terrestrial globe"
+imageAlt: "An antique circular map projection showing two thirds of the globe"
 imageCredit: "Photo: Henry James · public domain · Wikimedia Commons"
 lang: "en"
 urlSlug: "which-country-matches-personality"

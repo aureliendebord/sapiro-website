@@ -4,7 +4,7 @@ description: "Comparatif des 8 meilleures applications pour apprendre la géogra
 date: 2025-11-10
 lastModified: 2026-06-15
 image: "/images/blog/apps/carte-monde-app.jpg"
-imageAlt: "Une carte du monde sur écran"
+imageAlt: "Une carte ancienne de la Hongrie du XVIe siècle"
 imageCredit: "Photo : Lázár deák (Lazarus secretarius) · domaine public · Wikimedia Commons"
 lang: "fr"
 urlSlug: "meilleures-apps-geographie"

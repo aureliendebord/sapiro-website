@@ -4,7 +4,7 @@ description: "A detailed comparison of SAPIRO and GeoGuessr: content, privacy, e
 date: 2026-03-24
 lastModified: 2026-06-15
 image: "/images/blog/apps/carte-monde-app.jpg"
-imageAlt: "A world map on a screen"
+imageAlt: "A 16th-century map of Hungary"
 imageCredit: "Photo: Lázár deák (Lazarus secretarius) · public domain · Wikimedia Commons"
 lang: "en"
 urlSlug: "sapiro-vs-geoguessr"
@@ -76,7 +76,7 @@ Some people will use both, and that is probably the ideal setup: GeoGuessr for i
 For more geography app recommendations, check out our guide to the [best geography apps](/en/blog/best-geography-apps/), our [SAPIRO vs Kahoot comparison](/en/blog/sapiro-vs-kahoot/), and our roundup of the [best quiz apps for general knowledge](/en/blog/best-quiz-apps-general-knowledge/).
 
 <figure>
-  <img src="/images/blog/apps/apprendre-mobile.jpg" alt="Exploring geography on a phone" loading="lazy" />
+  <img src="/images/blog/apps/apprendre-mobile.jpg" alt="A woman sitting in a library holding a phone" loading="lazy" />
   <figcaption>Photo: Anastasiya Lvova · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
 </figure>
 

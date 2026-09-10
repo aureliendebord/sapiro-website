@@ -4,7 +4,7 @@ description: "Lion, gnou, fennec, oryx : 40 animaux emblématiques d'Afrique ave
 date: 2026-01-20
 lastModified: 2026-06-15
 image: "/images/blog/nature/elephant-afrique.jpg"
-imageAlt: "Un éléphant d'Afrique dans la savane"
+imageAlt: "Un troupeau d'éléphants d'Afrique traversant une rivière"
 imageCredit: "Photo : Geoff Gallice · CC BY 2.0 · Wikimedia Commons"
 lang: "fr"
 urlSlug: "animaux-afrique"
@@ -113,7 +113,7 @@ Les populations animales africaines ont chuté de 70% en moyenne depuis 1970, se
 SAPIRO propose des quiz qui couvrent les 600 espèces du règne animal, dont une centaine présentes en Afrique, avec une explication didactique derrière chaque réponse.
 
 <figure>
-  <img src="/images/blog/nature/lion-afrique.jpg" alt="Un lion dans la savane africaine" loading="lazy" />
+  <img src="/images/blog/nature/lion-afrique.jpg" alt="Diorama de musée montrant une famille de lions dans un décor de savane" loading="lazy" />
   <figcaption>Photo : Michael Barera · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
 </figure>
 

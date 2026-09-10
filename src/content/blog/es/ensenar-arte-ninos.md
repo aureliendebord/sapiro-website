@@ -4,7 +4,7 @@ description: "¿Cómo acercar el arte a los niños? Museos, libros, métodos por
 date: 2026-02-16
 lastModified: 2026-06-15
 image: "/images/blog/famille/enfant-peinture.jpg"
-imageAlt: "Un niño pintando con acuarelas"
+imageAlt: "Pinturas infantiles de paisajes"
 imageCredit: "Foto: Vyacheslav Argenberg · CC BY 4.0 · Wikimedia Commons"
 lang: "es"
 urlSlug: "ensenar-arte-ninos"

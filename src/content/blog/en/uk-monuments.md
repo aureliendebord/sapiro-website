@@ -68,7 +68,7 @@ A few things that regularly cause confusion.
 To lock all this in, the **SAPIRO** app offers general-knowledge quizzes that drill monuments without dry revision. To go further, browse our [30 famous monuments of the world](/en/blog/famous-monuments-world/), our pick of [monuments in France](/en/blog/france-monuments/) and our tour of [famous castles and palaces](/en/blog/famous-castles-palaces-world/). Everything sits in the [monuments](/en/monuments/) section.
 
 <figure>
-  <img src="/images/blog/monuments/stonehenge.jpg" alt="Stonehenge" loading="lazy" />
+  <img src="/images/blog/monuments/stonehenge.jpg" alt="A lone standing stone at Stonehenge" loading="lazy" />
   <figcaption>Photo: DeFacto · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
 </figure>
 

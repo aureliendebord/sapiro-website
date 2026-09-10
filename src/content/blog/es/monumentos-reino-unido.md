@@ -68,7 +68,7 @@ Algunos puntos que se prestan a confusión con frecuencia.
 Para fijar todos estos datos, la aplicación **SAPIRO** propone cuestionarios de cultura general que ejercitan los monumentos sin repasar al vacío. Para seguir, recorre nuestros [30 monumentos famosos del mundo](/es/blog/monumentos-famosos-mundo/), nuestra selección de [monumentos de Francia](/es/blog/monumentos-francia/) y nuestro recorrido por los [castillos y palacios célebres](/es/blog/castillos-palacios-famosos-mundo/). Todo está ordenado en la sección [monumentos](/es/monumentos/).
 
 <figure>
-  <img src="/images/blog/monuments/stonehenge.jpg" alt="Stonehenge" loading="lazy" />
+  <img src="/images/blog/monuments/stonehenge.jpg" alt="Un megalito aislado en el sitio de Stonehenge" loading="lazy" />
   <figcaption>Foto: DeFacto · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
 </figure>
 

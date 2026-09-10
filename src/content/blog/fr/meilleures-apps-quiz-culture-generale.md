@@ -4,7 +4,7 @@ description: "Comparatif des meilleures applications de quiz et culture généra
 date: 2026-03-20
 lastModified: 2026-06-15
 image: "/images/blog/apps/smartphone-app.jpg"
-imageAlt: "Une application de quiz sur smartphone"
+imageAlt: "Un smartphone affichant une publication sur un réseau social"
 imageCredit: "Photo : Mictlancihuatl · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "fr"
 urlSlug: "meilleures-apps-quiz-culture-generale"
@@ -138,7 +138,7 @@ Pour aller plus loin, nos comparatifs détaillés [SAPIRO vs Trivia Crack](/blog
 Et si le sujet vous intéresse au-delà des apps : notre [guide complet de la culture générale](/blog/culture-generale-guide/) et un papier sur [la gamification dans l'éducation](/blog/gamification-education/) pour comprendre pourquoi le format quiz fonctionne aussi bien.
 
 <figure>
-  <img src="/images/blog/apps/etudier-smartphone.jpg" alt="Tester ses connaissances sur son téléphone" loading="lazy" />
+  <img src="/images/blog/apps/etudier-smartphone.jpg" alt="Des seniors suivant une formation en salle de cours" loading="lazy" />
   <figcaption>Photo : ONBag · CC0 · Wikimedia Commons</figcaption>
 </figure>
 

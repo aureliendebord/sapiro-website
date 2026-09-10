@@ -4,7 +4,7 @@ description: "Test lúdico: ¿qué país corresponde a tu personalidad? Un viaje
 date: 2026-03-10
 lastModified: 2026-06-15
 image: "/images/blog/monde/globe-terrestre.jpg"
-imageAlt: "Un globo terráqueo antiguo"
+imageAlt: "Un mapa antiguo en proyección circular que muestra dos tercios del globo"
 imageCredit: "Foto: Henry James · dominio público · Wikimedia Commons"
 lang: "es"
 urlSlug: "test-pais-personalidad"

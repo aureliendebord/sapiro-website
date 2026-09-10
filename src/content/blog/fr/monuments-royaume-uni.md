@@ -68,7 +68,7 @@ Quelques points qui prêtent régulièrement à confusion.
 Pour ancrer tous ces repères, l'application **SAPIRO** propose des quiz de culture générale qui font travailler les monuments sans réviser dans le vide. Pour aller plus loin, parcourez nos [30 monuments célèbres du monde](/blog/monuments-celebres-monde/), notre sélection de [monuments de France](/blog/monuments-france/) et notre tour des [châteaux et palais célèbres](/blog/chateaux-palais-celebres-monde/). Tout est rangé dans la rubrique [monuments](/monuments/).
 
 <figure>
-  <img src="/images/blog/monuments/stonehenge.jpg" alt="Le site de Stonehenge" loading="lazy" />
+  <img src="/images/blog/monuments/stonehenge.jpg" alt="Un mégalithe isolé sur le site de Stonehenge" loading="lazy" />
   <figcaption>Photo : DeFacto · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
 </figure>
 

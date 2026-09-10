@@ -91,7 +91,7 @@ The gap between world regions is massive. Malaria, snake bites and Chagas diseas
 Worth reading: [endangered species](/en/blog/endangered-species-list/), which flips the perspective. SAPIRO offers quizzes on 600 species, dangerous and harmless alike, with an explanation behind each answer.
 
 <figure>
-  <img src="/images/blog/nature/crocodile.jpg" alt="A Nile crocodile at the water's edge" loading="lazy" />
+  <img src="/images/blog/nature/crocodile.jpg" alt="A Nile crocodile lying in the grass" loading="lazy" />
   <figcaption>Photo: Diego Delso · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
 </figure>
 

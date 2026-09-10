@@ -89,7 +89,7 @@ Apprendre en famille n'a pas besoin de cours. Trente idées concrètes, à essay
 Pour creuser : [géographie en famille](/blog/geographie-famille/) pour creuser un domaine particulier.
 
 <figure>
-  <img src="/images/blog/famille/enfants-musee.jpg" alt="Des enfants en visite dans un musée" loading="lazy" />
-  <figcaption>Photo : Unknown authorUnknown author · domaine public · Wikimedia Commons</figcaption>
+  <img src="/images/blog/famille/enfants-musee.jpg" alt="Photo ancienne d'écoliers japonais posant devant une exposition" loading="lazy" />
+  <figcaption>Photo : Unknown author · domaine public · Wikimedia Commons</figcaption>
 </figure>
 

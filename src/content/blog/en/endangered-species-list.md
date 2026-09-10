@@ -111,7 +111,7 @@ The **California condor**, the **American bison** (recovered from 750 to 30,000 
 For more on nature, see also our article on [strange and lesser-known animals](/en/blog/strange-unknown-animals/) and the one on [the most dangerous animals in the world](/en/blog/most-dangerous-animals-world/). And for the species we failed to save: the [recently extinct animals](/en/blog/recently-extinct-animals/). SAPIRO lets you test knowledge on 600 species, with an explanation behind every question.
 
 <figure>
-  <img src="/images/blog/nature/rhinoceros.jpg" alt="A black rhinoceros, an endangered species" loading="lazy" />
+  <img src="/images/blog/nature/rhinoceros.jpg" alt="Rhinoceros skull with its two horns, on museum display" loading="lazy" />
   <figcaption>Photo: Jebulon · CC0 · Wikimedia Commons</figcaption>
 </figure>
 

@@ -4,7 +4,7 @@ description: "Hosting a quiz for a birthday or friends gathering: themes, person
 date: 2026-02-26
 lastModified: 2026-06-15
 image: "/images/blog/apprentissage/fete-amis.jpg"
-imageAlt: "A birthday party with friends"
+imageAlt: "A man receiving a bouquet of flowers and kisses from two friends"
 imageCredit: "Photo: Anna Flodmark Ehrs for Southerly Clubs · public domain · Wikimedia Commons"
 lang: "en"
 urlSlug: "birthday-party-quiz-friends"

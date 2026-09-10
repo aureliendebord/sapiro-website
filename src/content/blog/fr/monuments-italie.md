@@ -68,7 +68,7 @@ Au-delà des grandes villes, l'Italie conserve des sites archéologiques excepti
 Si vous aimez tester vos connaissances sur ces lieux, l'application [SAPIRO](/) propose des quiz de culture générale où l'histoire et le patrimoine reviennent souvent. Pour aller plus loin, parcourez notre [guide des monuments](/monuments/) ou notre sélection des [30 monuments célèbres du monde](/blog/monuments-celebres-monde/). Et si l'Europe vous intéresse, comparez avec les [monuments de France](/blog/monuments-france/) et les [monuments d'Espagne](/blog/monuments-espagne/).
 
 <figure>
-  <img src="/images/blog/monuments/tour-de-pise.jpg" alt="La tour penchée de Pise" loading="lazy" />
+  <img src="/images/blog/monuments/tour-de-pise.jpg" alt="La cathédrale de Pise et la tour penchée sur la place des Miracles" loading="lazy" />
   <figcaption>Photo : MHoser · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
 </figure>
 

@@ -4,7 +4,7 @@ description: "SAPIRO vs Duolingo comparison: general knowledge or foreign langua
 date: 2026-02-28
 lastModified: 2026-06-15
 image: "/images/blog/apps/smartphone-app.jpg"
-imageAlt: "An app on a smartphone"
+imageAlt: "A smartphone showing a social media post"
 imageCredit: "Photo: Mictlancihuatl · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "en"
 urlSlug: "sapiro-vs-duolingo"
@@ -65,7 +65,7 @@ Yes. Many users combine both: 15 minutes of language in the morning with Duoling
 Worth reading: [best general knowledge quiz apps](/en/blog/best-quiz-apps-general-knowledge/).
 
 <figure>
-  <img src="/images/blog/apps/apprendre-mobile.jpg" alt="Learning on a phone" loading="lazy" />
+  <img src="/images/blog/apps/apprendre-mobile.jpg" alt="A woman sitting in a library holding a phone" loading="lazy" />
   <figcaption>Photo: Anastasiya Lvova · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
 </figure>
 

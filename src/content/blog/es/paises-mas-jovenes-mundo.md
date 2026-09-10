@@ -4,7 +4,7 @@ description: "Sudán del Sur (2011) es el país más joven del mundo. El ranking
 date: 2026-07-21
 lastModified: 2026-07-21
 image: "/images/blog/monde/globe-terrestre.jpg"
-imageAlt: "Un globo terráqueo antiguo"
+imageAlt: "Un mapa antiguo en proyección circular que muestra dos tercios del globo"
 imageCredit: "Foto: Henry James · dominio público · Wikimedia Commons"
 lang: "es"
 urlSlug: "paises-mas-jovenes-mundo"

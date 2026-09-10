@@ -4,7 +4,7 @@ description: "Organiza un quiz geografía en familia inolvidable: 30 preguntas l
 date: 2025-10-20
 lastModified: 2026-06-15
 image: "/images/blog/famille/globe-atlas-table.jpg"
-imageAlt: "Un globo y un atlas sobre una mesa"
+imageAlt: "Un antiguo mapamundi griego en dos hemisferios"
 imageCredit: "Foto: Ánthimos Gazís · dominio público · Wikimedia Commons"
 lang: "es"
 urlSlug: "geografia-familia"

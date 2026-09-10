@@ -4,7 +4,7 @@ description: "SAPIRO vs Quizlet comparison: general knowledge quiz or flashcards
 date: 2026-02-27
 lastModified: 2026-06-15
 image: "/images/blog/apps/etudier-smartphone.jpg"
-imageAlt: "Studying on a smartphone"
+imageAlt: "Seniors attending a training class in a classroom"
 imageCredit: "Photo: ONBag · CC0 · Wikimedia Commons"
 lang: "en"
 urlSlug: "sapiro-vs-quizlet"

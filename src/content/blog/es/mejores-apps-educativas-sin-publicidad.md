@@ -4,7 +4,7 @@ description: "Selección de las mejores aplicaciones educativas sin publicidad: 
 date: 2026-03-03
 lastModified: 2026-06-15
 image: "/images/blog/apps/tablette-education.jpg"
-imageAlt: "Aprender en una tableta"
+imageAlt: "Un niño jugando con un ordenador de juguete de madera con letras cirílicas"
 imageCredit: "Foto: Shixart1985 · CC BY 2.0 · Wikimedia Commons"
 lang: "es"
 urlSlug: "mejores-apps-educativas-sin-publicidad"
@@ -95,6 +95,6 @@ Tres indicios.
 Para profundizar: [apps de quiz sin recolección de datos](/es/blog/apps-quiz-sin-recoleccion-datos/) para profundizar.
 
 <figure>
-  <img src="/images/blog/apps/etudier-smartphone.jpg" alt="Estudiar en el smartphone" loading="lazy" />
+  <img src="/images/blog/apps/etudier-smartphone.jpg" alt="Personas mayores asistiendo a una formación en un aula" loading="lazy" />
   <figcaption>Foto: ONBag · CC0 · Wikimedia Commons</figcaption>
 </figure>

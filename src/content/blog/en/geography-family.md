@@ -4,7 +4,7 @@ description: "Plan the perfect family geography quiz night with our complete gui
 date: 2025-10-20
 lastModified: 2026-06-15
 image: "/images/blog/famille/globe-atlas-table.jpg"
-imageAlt: "A globe and atlas on a table"
+imageAlt: "An antique Greek world map in two hemispheres"
 imageCredit: "Photo: Ánthimos Gazís · public domain · Wikimedia Commons"
 lang: "en"
 urlSlug: "geography-family"

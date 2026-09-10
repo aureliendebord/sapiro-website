@@ -82,6 +82,6 @@ Preparación: documentarse sobre la institución, sus misiones, su historia reci
 SAPIRO propone quizzes de cultura general que cubren el temario típico de los test. Sesiones de 15 minutos al día para mantener regularidad. Para profundizar: [preparar una oposición de acceso](/es/blog/preparar-oposicion-acceso-administracion/) y [cómo repasar en 30 días](/es/blog/repasar-cultura-general-30-dias/).
 
 <figure>
-  <img src="/images/blog/apprentissage/bureau-revision.jpg" alt="Un escritorio de estudio con libros y apuntes" loading="lazy" />
+  <img src="/images/blog/apprentissage/bureau-revision.jpg" alt="Un gabinete de estudio del siglo XIX con biblioteca y chimenea" loading="lazy" />
   <figcaption>Foto: Miscellaneous Items in High Demand, PPOC, Library of Congress · dominio público · Wikimedia Commons</figcaption>
 </figure>

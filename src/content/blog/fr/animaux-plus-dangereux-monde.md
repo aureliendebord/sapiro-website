@@ -93,7 +93,7 @@ Et puis les écarts entre régions du monde sont massifs. Le paludisme, les mors
 Pour la perspective inverse, voir l'article sur les [animaux en voie de disparition](/blog/animaux-en-voie-disparition/) : nous sommes infiniment plus dangereux pour eux qu'eux ne le sont pour nous. SAPIRO propose des quiz sur 600 espèces, dangereuses comme inoffensives, avec une explication pour comprendre derrière chaque réponse.
 
 <figure>
-  <img src="/images/blog/nature/crocodile.jpg" alt="Un crocodile du Nil au bord de l'eau" loading="lazy" />
+  <img src="/images/blog/nature/crocodile.jpg" alt="Un crocodile du Nil allongé dans l'herbe" loading="lazy" />
   <figcaption>Photo : Diego Delso · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
 </figure>
 

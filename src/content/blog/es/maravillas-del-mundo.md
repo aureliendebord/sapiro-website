@@ -4,7 +4,7 @@ description: "Las 7 maravillas del mundo antiguo y las 7 nuevas maravillas elegi
 date: 2026-02-02
 lastModified: 2026-06-15
 image: "/images/blog/monuments/pyramides-gizeh.jpg"
-imageAlt: "Las pirámides de Guiza en Egipto"
+imageAlt: "Una escultura de manos gigantes que enmarca las pirámides de Guiza"
 imageCredit: "Foto: Mona Hassan Abo-Abda · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "es"
 urlSlug: "maravillas-del-mundo"

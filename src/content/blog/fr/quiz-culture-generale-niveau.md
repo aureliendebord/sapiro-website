@@ -4,7 +4,7 @@ description: "Quiz culture générale par niveau : facile, moyen, difficile, exp
 date: 2026-02-23
 lastModified: 2026-06-15
 image: "/images/blog/apprentissage/bureau-revision.jpg"
-imageAlt: "Un bureau de révision avec livres et notes"
+imageAlt: "Un cabinet de travail du XIXe siècle avec bibliothèque et cheminée"
 imageCredit: "Photo : Miscellaneous Items in High Demand, PPOC, Library of Congress · domaine public · Wikimedia Commons"
 lang: "fr"
 urlSlug: "quiz-culture-generale-niveau"

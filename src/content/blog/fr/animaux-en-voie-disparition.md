@@ -113,7 +113,7 @@ Le point commun de ces réussites : décennies d'efforts coordonnés, ressources
 Pour creuser la nature, voir [animaux étranges et méconnus](/blog/animaux-etranges-meconnus/) et [animaux les plus dangereux du monde](/blog/animaux-plus-dangereux-monde/). Et pour les espèces qu'on n'a pas su sauver : les [animaux disparus récemment](/blog/animaux-disparus-recemment/). SAPIRO permet de tester ses connaissances sur 600 espèces, avec une explication didactique derrière chaque question.
 
 <figure>
-  <img src="/images/blog/nature/rhinoceros.jpg" alt="Un rhinocéros noir, espèce menacée" loading="lazy" />
+  <img src="/images/blog/nature/rhinoceros.jpg" alt="Crâne de rhinocéros avec ses deux cornes, exposé dans un musée" loading="lazy" />
   <figcaption>Photo : Jebulon · CC0 · Wikimedia Commons</figcaption>
 </figure>
 

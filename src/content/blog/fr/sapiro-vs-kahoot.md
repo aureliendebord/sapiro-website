@@ -4,7 +4,7 @@ description: "Comparatif entre SAPIRO et Kahoot : l'un est conçu pour la salle 
 date: 2026-03-20
 lastModified: 2026-06-15
 image: "/images/blog/apps/tablette-education.jpg"
-imageAlt: "Apprendre sur une tablette"
+imageAlt: "Un enfant jouant avec un ordinateur jouet en bois à lettres cyrilliques"
 imageCredit: "Photo : Shixart1985 · CC BY 2.0 · Wikimedia Commons"
 lang: "fr"
 urlSlug: "sapiro-vs-kahoot"
@@ -27,7 +27,7 @@ Le problème, c'est qu'il faut quelqu'un pour créer et animer le quiz. Sans hô
 SAPIRO part d'un tout autre postulat. On ouvre l'appli, on choisit un domaine (géographie, histoire, art, nature), on joue. Seul dans le métro, en famille le dimanche, en voiture pour un long trajet. Plus de 2 000 questions vérifiées, chacune avec une explication après la réponse. Les 50+ parcours thématiques (capitales d'Afrique, empires historiques, familles d'animaux, peintres de la Renaissance) structurent l'apprentissage comme un petit cours déguisé en jeu. Trois modes (Classique, Survie, Défi quotidien), fonctionnement hors ligne, aucun compte requis, aucune publicité, aucune collecte de données. La [gamification au service de l'éducation](/blog/gamification-education/) guide la conception depuis le début.
 
 <figure>
-  <img src="/images/blog/apps/apprendre-mobile.jpg" alt="Jouer et apprendre sur son téléphone" loading="lazy" />
+  <img src="/images/blog/apps/apprendre-mobile.jpg" alt="Une femme assise dans une bibliothèque, un téléphone à la main" loading="lazy" />
   <figcaption>Photo : Anastasiya Lvova · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
 </figure>
 

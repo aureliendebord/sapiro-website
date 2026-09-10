@@ -111,6 +111,6 @@ Desde 1989, el nombre oficial es Myanmar pero muchos siguen diciendo Birmania. L
 Para profundizar: [significado de las banderas](/es/blog/significado-banderas/) y [países desaparecidos](/es/blog/paises-desaparecidos/).
 
 <figure>
-  <img src="/images/blog/monde/globe-terrestre.jpg" alt="Un globo terráqueo antiguo" loading="lazy" />
+  <img src="/images/blog/monde/globe-terrestre.jpg" alt="Un mapa antiguo en proyección circular que muestra dos tercios del globo" loading="lazy" />
   <figcaption>Foto: Henry James · dominio público · Wikimedia Commons</figcaption>
 </figure>

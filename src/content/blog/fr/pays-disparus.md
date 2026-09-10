@@ -99,7 +99,7 @@ Trois techniques.
 La suite logique : notre [quiz de 20 questions sur les pays disparus](/blog/quiz-pays-disparus/), les [pays qui ont changé de nom](/blog/pays-qui-ont-change-de-nom/), les [pays non reconnus](/blog/pays-non-reconnus/) et les [plus jeunes pays du monde](/blog/plus-jeunes-pays-monde/).
 
 <figure>
-  <img src="/images/blog/monde/globe-terrestre.jpg" alt="Un globe terrestre ancien" loading="lazy" />
+  <img src="/images/blog/monde/globe-terrestre.jpg" alt="Une carte ancienne en projection circulaire montrant les deux tiers du globe" loading="lazy" />
   <figcaption>Photo : Henry James · domaine public · Wikimedia Commons</figcaption>
 </figure>
 

@@ -4,7 +4,7 @@ description: "De George Washington à aujourd'hui : liste complète des préside
 date: 2026-02-02
 lastModified: 2026-06-15
 image: "/images/blog/histoire/maison-blanche.jpg"
-imageAlt: "La Maison-Blanche à Washington"
+imageAlt: "Plan de l'étage principal de la Maison-Blanche par Latrobe, 1807"
 imageCredit: "Photo : Benjamin Henry Latrobe · domaine public · Wikimedia Commons"
 lang: "fr"
 urlSlug: "presidents-etats-unis"

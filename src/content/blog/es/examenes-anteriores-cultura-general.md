@@ -69,6 +69,6 @@ Tres pilares.
 Para profundizar: [cultura general en oposiciones publicas](/es/blog/cultura-general-oposiciones/) y [como repasar en 30 dias](/es/blog/repasar-cultura-general-30-dias/).
 
 <figure>
-  <img src="/images/blog/apprentissage/bureau-revision.jpg" alt="Un escritorio de estudio con libros y apuntes" loading="lazy" />
+  <img src="/images/blog/apprentissage/bureau-revision.jpg" alt="Un gabinete de estudio del siglo XIX con biblioteca y chimenea" loading="lazy" />
   <figcaption>Foto: Miscellaneous Items in High Demand, PPOC, Library of Congress · dominio público · Wikimedia Commons</figcaption>
 </figure>

@@ -4,7 +4,7 @@ description: "Comparatif SAPIRO vs Trivia Crack : publicités, vie privée, cont
 date: 2026-03-22
 lastModified: 2026-06-15
 image: "/images/blog/apps/smartphone-app.jpg"
-imageAlt: "Une application de quiz sur smartphone"
+imageAlt: "Un smartphone affichant une publication sur un réseau social"
 imageCredit: "Photo : Mictlancihuatl · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "fr"
 urlSlug: "sapiro-vs-trivia-crack"

@@ -4,7 +4,7 @@ description: "San Cristóbal y Nieves (261 km²) es el país más pequeño de Am
 date: 2026-08-17
 lastModified: 2026-08-17
 image: "/images/blog/famille/globe-atlas-table.jpg"
-imageAlt: "Un globo y un atlas sobre una mesa"
+imageAlt: "Un antiguo mapamundi griego en dos hemisferios"
 imageCredit: "Foto: Ánthimos Gazís · dominio público · Wikimedia Commons"
 lang: "es"
 urlSlug: "paises-mas-pequenos-america"

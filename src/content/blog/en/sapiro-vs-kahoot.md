@@ -4,7 +4,7 @@ description: "SAPIRO and Kahoot compared: one is built for the classroom, the ot
 date: 2026-03-20
 lastModified: 2026-06-15
 image: "/images/blog/apps/tablette-education.jpg"
-imageAlt: "Learning on a tablet"
+imageAlt: "A child playing with a wooden toy laptop with Cyrillic letters"
 imageCredit: "Photo: Shixart1985 · CC BY 2.0 · Wikimedia Commons"
 lang: "en"
 urlSlug: "sapiro-vs-kahoot"
@@ -72,7 +72,7 @@ The choice is not either/or. It depends on the context. In the classroom, Kahoot
 For more comparisons, check out [SAPIRO vs Trivia Crack](/en/blog/sapiro-vs-trivia-crack/), [SAPIRO vs GeoGuessr](/en/blog/sapiro-vs-geoguessr/), and our article on [gamification in education](/en/blog/gamification-education/).
 
 <figure>
-  <img src="/images/blog/apps/apprendre-mobile.jpg" alt="Playing and learning on a phone" loading="lazy" />
+  <img src="/images/blog/apps/apprendre-mobile.jpg" alt="A woman sitting in a library holding a phone" loading="lazy" />
   <figcaption>Photo: Anastasiya Lvova · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
 </figure>
 

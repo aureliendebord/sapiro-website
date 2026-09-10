@@ -99,7 +99,7 @@ Three techniques.
 The logical next reads: our [20-question quiz on disappeared countries](/en/blog/disappeared-countries-quiz/), [countries that changed their names](/en/blog/countries-that-changed-names/), [unrecognized countries](/en/blog/unrecognized-countries/) and the [newest countries in the world](/en/blog/newest-countries-world/).
 
 <figure>
-  <img src="/images/blog/monde/globe-terrestre.jpg" alt="An antique terrestrial globe" loading="lazy" />
+  <img src="/images/blog/monde/globe-terrestre.jpg" alt="An antique circular map projection showing two thirds of the globe" loading="lazy" />
   <figcaption>Photo: Henry James · public domain · Wikimedia Commons</figcaption>
 </figure>
 

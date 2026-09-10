@@ -91,7 +91,7 @@ La meilleure approche, c'est de combiner. Regarder un documentaire sur la chute 
 L'histoire n'est pas une matière figée qu'on apprend une fois et qu'on range dans un tiroir. C'est une grille de lecture du présent. Les conflits actuels, les frontières, les institutions, les idées qui circulent, tout ça a une histoire. Et la comprendre, c'est mieux comprendre le monde dans lequel on vit.
 
 <figure>
-  <img src="/images/blog/famille/chateau-medieval.jpg" alt="Les ruines d'un château médiéval" loading="lazy" />
+  <img src="/images/blog/famille/chateau-medieval.jpg" alt="Un vieux mur de pierre percé d'une étroite ouverture" loading="lazy" />
   <figcaption>Photo : Dietmar Rabich · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
 </figure>
 
