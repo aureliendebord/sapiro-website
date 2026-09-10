@@ -103,7 +103,7 @@ Geography of origin helps. Nordic dogs are robust with thick undercoats. Mediter
 Worth reading: [50 animal species worth knowing](/en/blog/quiz-animals-world-species/) and [differences between animals that look alike](/en/blog/animals-that-look-alike/). SAPIRO offers nature quizzes covering 600 species, with an explanation behind every question.
 
 <figure>
-  <img src="/images/blog/nature/berger-allemand.jpg" alt="A German shepherd with its characteristic coat" loading="lazy" />
-  <figcaption>Photo: Museum of Veterinary Anatomy FMVZ USP / Wagner Souza e Silva edited by Rodrigo Tetsuo Argenton · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
+  <img src="/images/blog/nature/berger-allemand-pelouse.jpg" alt="A German shepherd lying on the grass" loading="lazy" />
+  <figcaption>Photo: Jakub Hałun · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
 </figure>
 

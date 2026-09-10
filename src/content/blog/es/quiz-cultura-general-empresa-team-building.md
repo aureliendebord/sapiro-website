@@ -3,9 +3,9 @@ title: "Quiz cultura general empresa y team building"
 description: "Organizar un quiz cultura general en empresa o team building: formato, temas, reglas y herramientas para clavar el evento."
 date: 2026-02-25
 lastModified: 2026-06-15
-image: "/images/blog/apprentissage/reunion-equipe.jpg"
-imageAlt: "Una reunión de equipo en la oficina"
-imageCredit: "Foto: Solomon203 · CC BY-SA 4.0 · Wikimedia Commons"
+image: "/images/blog/apprentissage/atelier-equipe.jpg"
+imageAlt: "Un taller de equipo en una sala de reuniones, frente a una presentación"
+imageCredit: "Foto: Ndahiro derrick · CC BY 4.0 · Wikimedia Commons"
 lang: "es"
 urlSlug: "quiz-cultura-general-empresa-team-building"
 translationKey: "quiz-entreprise"
@@ -85,6 +85,6 @@ Tres razones.
 SAPIRO permite testear preguntas sobre 2 000+ items con explicación didáctica detrás de cada respuesta. Ideal para elegir preguntas calibradas. Para profundizar: [quiz cultura general por nivel](/es/blog/quiz-cultura-general-nivel/) para adaptar a tu grupo.
 
 <figure>
-  <img src="/images/blog/apprentissage/jeu-societe-amis.jpg" alt="Compañeros jugando a un juego de mesa" loading="lazy" />
-  <figcaption>Foto: Bill Branson (Photographer) · dominio público · Wikimedia Commons</figcaption>
+  <img src="/images/blog/apprentissage/equipe-soiree-quiz.jpg" alt="Un equipo reunido alrededor de una mesa en una noche de quiz" loading="lazy" />
+  <figcaption>Foto: Hilary Murugu · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
 </figure>

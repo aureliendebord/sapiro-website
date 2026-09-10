@@ -105,7 +105,7 @@ Enfin, l'origine géographique raconte beaucoup. Les chiens nordiques sont robus
 Pour creuser : [50 espèces animales à reconnaître](/blog/quiz-animaux-especes-monde/) et les [différences entre animaux qui se ressemblent](/blog/differences-animaux-ressemblants/). SAPIRO propose des quiz nature qui couvrent 600 espèces, avec une explication derrière chaque question.
 
 <figure>
-  <img src="/images/blog/nature/berger-allemand.jpg" alt="Un berger allemand au pelage caractéristique" loading="lazy" />
-  <figcaption>Photo : Museum of Veterinary Anatomy FMVZ USP / Wagner Souza e Silva edited by Rodrigo Tetsuo Argenton · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
+  <img src="/images/blog/nature/berger-allemand-pelouse.jpg" alt="Un berger allemand couché dans l'herbe" loading="lazy" />
+  <figcaption>Photo : Jakub Hałun · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
 </figure>
 

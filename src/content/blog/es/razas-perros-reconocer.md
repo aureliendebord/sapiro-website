@@ -103,6 +103,6 @@ El origen geográfico ayuda. Los perros nórdicos son robustos y con buen subpel
 Para profundizar: [50 especies animales que reconocer](/es/blog/quiz-animales-especies-mundo/) y [diferencias entre animales que se parecen](/es/blog/animales-parecidos-diferencias/). SAPIRO propone quizzes de naturaleza que cubren 600 especies, con una explicación detrás de cada pregunta.
 
 <figure>
-  <img src="/images/blog/nature/berger-allemand.jpg" alt="Un pastor alemán con su pelaje característico" loading="lazy" />
-  <figcaption>Foto: Museum of Veterinary Anatomy FMVZ USP / Wagner Souza e Silva edited by Rodrigo Tetsuo Argenton · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
+  <img src="/images/blog/nature/berger-allemand-pelouse.jpg" alt="Un pastor alemán tumbado en la hierba" loading="lazy" />
+  <figcaption>Foto: Jakub Hałun · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
 </figure>

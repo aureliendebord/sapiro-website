@@ -3,9 +3,9 @@ title: "General Knowledge Quiz: Workplace and Team Building"
 description: "Hosting a general knowledge quiz at work or for team building: format, themes, rules and tools to nail the event."
 date: 2026-02-25
 lastModified: 2026-06-15
-image: "/images/blog/apprentissage/reunion-equipe.jpg"
-imageAlt: "An office team meeting"
-imageCredit: "Photo: Solomon203 · CC BY-SA 4.0 · Wikimedia Commons"
+image: "/images/blog/apprentissage/atelier-equipe.jpg"
+imageAlt: "A team workshop in a meeting room, in front of a presentation"
+imageCredit: "Photo: Ndahiro derrick · CC BY 4.0 · Wikimedia Commons"
 lang: "en"
 urlSlug: "general-knowledge-quiz-team-building"
 translationKey: "quiz-entreprise"
@@ -85,7 +85,7 @@ Three reasons.
 SAPIRO lets you test questions on 2,000+ items with an educational explanation behind each answer. Ideal to pick calibrated questions. Worth reading: [general knowledge quiz by level](/en/blog/general-knowledge-quiz-levels/) to adapt to your group.
 
 <figure>
-  <img src="/images/blog/apprentissage/jeu-societe-amis.jpg" alt="Colleagues playing a board game" loading="lazy" />
-  <figcaption>Photo: Bill Branson (Photographer) · public domain · Wikimedia Commons</figcaption>
+  <img src="/images/blog/apprentissage/equipe-soiree-quiz.jpg" alt="A team gathered around a table at a quiz night" loading="lazy" />
+  <figcaption>Photo: Hilary Murugu · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
 </figure>
 
