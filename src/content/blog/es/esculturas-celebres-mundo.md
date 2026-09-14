@@ -68,7 +68,7 @@ SAPIRO propone quizzes sobre 553 obras incluida la escultura, con explicación d
 
 <figure>
   <img src="/images/blog/art/venus-de-milo.jpg" alt="La Venus de Milo" loading="lazy" />
-  <figcaption>Foto: Unknown artist · CC BY-SA 2.5 · Wikimedia Commons</figcaption>
+  <figcaption>Foto: Chosovi (retoque de Paris 16) · CC BY-SA 2.5 · Wikimedia Commons</figcaption>
 </figure>
 
 ## Preguntas frecuentes

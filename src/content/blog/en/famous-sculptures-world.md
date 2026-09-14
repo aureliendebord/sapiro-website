@@ -68,7 +68,7 @@ SAPIRO offers quizzes on 553 works including sculpture, with an educational expl
 
 <figure>
   <img src="/images/blog/art/venus-de-milo.jpg" alt="The Venus de Milo" loading="lazy" />
-  <figcaption>Photo: Unknown artist · CC BY-SA 2.5 · Wikimedia Commons</figcaption>
+  <figcaption>Photo: Chosovi (edited by Paris 16) · CC BY-SA 2.5 · Wikimedia Commons</figcaption>
 </figure>
 
 
