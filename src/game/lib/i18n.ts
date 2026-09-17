@@ -220,7 +220,7 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
     /** Sortie mobile des parties gratuites : l'app d'abord, l'abonnement web en second. */
     handoff: {
       title: "Continue gratuitement dans l'app",
-      sub: "Tu as joué tes parties du jour ici. Dans l'app, tu repars tout de suite avec de nouvelles parties gratuites.",
+      sub: "Tu as joué tes parties du jour ici. L'app te donne des parties gratuites chaque jour, avec le Défi du jour en plus.",
       ctaIos: "Continuer sur l'App Store",
       ctaAndroid: "Continuer sur Google Play",
       subscribeHere: "Ou joue sans limite ici",
@@ -401,7 +401,7 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
     },
     handoff: {
       title: "Keep playing free in the app",
-      sub: "You've played today's games here. In the app, you start right away with new free games.",
+      sub: "You've played today's games here. The app gives you free games every day, plus the Daily Challenge.",
       ctaIos: "Continue on the App Store",
       ctaAndroid: "Continue on Google Play",
       subscribeHere: "Or play unlimited here",
@@ -582,7 +582,7 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
     },
     handoff: {
       title: "Sigue gratis en la app",
-      sub: "Ya jugaste tus partidas de hoy aquí. En la app, empiezas ya con nuevas partidas gratis.",
+      sub: "Ya jugaste tus partidas de hoy aquí. La app te da partidas gratis cada día, además del Reto del día.",
       ctaIos: "Continuar en la App Store",
       ctaAndroid: "Continuar en Google Play",
       subscribeHere: "O juega sin límite aquí",

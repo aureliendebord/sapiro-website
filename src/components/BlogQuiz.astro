@@ -186,6 +186,7 @@ const copy = {
           ratio === 1 ? quiz.dataset.perfect! : ratio >= 0.5 ? quiz.dataset.good! : quiz.dataset.low!;
         quiz.querySelector<HTMLElement>('[data-quiz-end]')!.hidden = false;
         quiz.querySelector<HTMLElement>('.blog-quiz__head')!.hidden = true;
+        quiz.querySelector<HTMLElement>('.blog-quiz__title')!.hidden = true;
         track('blog_quiz_completed', { score, total });
       });
     });
@@ -308,6 +309,7 @@ const copy = {
     cursor: pointer;
   }
 
+  .blog-quiz__title[hidden],
   .blog-quiz__next[hidden],
   .blog-quiz__expl[hidden],
   .blog-quiz__q[hidden],
