@@ -2,6 +2,7 @@ import { BRAND, modeColor } from "@game/design/tokens";
 import { t } from "@game/lib/i18n";
 import { Icon } from "./ui/Icon";
 import { Glyph } from "./ui/Glyph";
+import { mobileStore } from "@game/lib/device";
 
 export type HomeAction = "classic" | "survival" | "daily" | "journeys";
 
@@ -42,10 +43,13 @@ interface Props {
   isPremium: boolean;
   dailyDone: boolean;
   onAction: (action: HomeAction) => void;
+  /** Quota épuisé sur téléphone : ouvre la sortie vers l'app. */
+  onContinueInApp: () => void;
 }
 
-export function HomeScreen({ ticketsLeft, isPremium, dailyDone, onAction }: Props) {
+export function HomeScreen({ ticketsLeft, isPremium, dailyDone, onAction, onContinueInApp }: Props) {
   const outOfTickets = !isPremium && ticketsLeft <= 0;
+  const onPhone = mobileStore() !== null;
 
   // Pas de titre ni de sous-titre au-dessus des modes : le header du site dit
   // déjà « Sapiro », et le <h1> de la page vit dans le bloc rendu au build
@@ -53,7 +57,22 @@ export function HomeScreen({ ticketsLeft, isPremium, dailyDone, onAction }: Prop
   // Google, et il coûtait 93px de hauteur avant la première carte.
   return (
     <>
-      {outOfTickets && <div className="game-notice">{t("web.home.quotaNotice")}</div>}
+      {outOfTickets && !onPhone && <div className="game-notice">{t("web.home.quotaNotice")}</div>}
+      {/* Sur téléphone, les modes à ticket sont grisés : sans ce bouton,
+          l'accueil n'offrait aucune sortie vers l'app une fois le quota vidé. */}
+      {outOfTickets && onPhone && (
+        <div className="game-notice">
+          {t("web.result.outOfTicketsMobile")}
+          <button
+            type="button"
+            className="game-btn game-btn--block"
+            style={{ marginTop: 10 }}
+            onClick={onContinueInApp}
+          >
+            {t("web.result.continueInApp")}
+          </button>
+        </div>
+      )}
 
       <div className="mode-list">
         {ROWS.map((row) => {

@@ -33,7 +33,9 @@ export type StoreCampaign =
   | 'inline-banner'
   | 'post-purchase'
   /** Bloc posé juste sous le jeu, avant le contenu SEO. */
-  | 'game-below';
+  | 'game-below'
+  /** Jeu web sur téléphone, parties gratuites épuisées → app. */
+  | 'quota-mobile';
 
 export function appStoreUrl(lang: Lang): string {
   return `https://apps.apple.com/${APP_STORE_STOREFRONT[lang]}/app/${APP_STORE_SLUG}/id${APP_STORE_ID}`;
@@ -61,7 +63,9 @@ export type PlayCampaign =
   | 'sticky-cta'
   | 'sticky-pillar'
   | 'inline-banner'
-  | 'download-section';
+  | 'download-section'
+  /** Fin du mini-quiz intégré aux articles de blog. */
+  | 'blog-quiz';
 
 const PLAY_PATH: Record<Lang, string> = {
   fr: '/jouer/',

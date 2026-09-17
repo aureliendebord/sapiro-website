@@ -6,6 +6,7 @@ import { Icon } from "./ui/Icon";
 import { Glyph } from "./ui/Glyph";
 import { celebrate } from "@game/lib/celebrate";
 import { play } from "@game/lib/sounds";
+import { mobileStore } from "@game/lib/device";
 
 interface Props {
   result: SessionResult;
@@ -30,6 +31,9 @@ export function ResultScreen({
 }: Props) {
   const ratio = result.totalQuestions > 0 ? result.score / result.totalQuestions : 0;
   const outOfTickets = !isPremium && ticketsLeft <= 0;
+  // Sur téléphone, la sortie est l'app (cf. AppHandoffModal) : le libellé
+  // doit annoncer ce que le bouton ouvre vraiment.
+  const onPhone = mobileStore() !== null;
 
   // Célébration à l'arrivée, comme sur mobile — mais seulement quand il y a
   // quelque chose à célébrer : des confettis sur un 2/10 sonnent faux.
@@ -70,9 +74,11 @@ export function ResultScreen({
         <div className="result-actions">
           {canReplay && outOfTickets ? (
             <>
-              <p className="game-notice">{t("web.result.outOfTickets")}</p>
+              <p className="game-notice">
+                {t(onPhone ? "web.result.outOfTicketsMobile" : "web.result.outOfTickets")}
+              </p>
               <button type="button" className="game-btn game-btn--block" onClick={onSubscribe}>
-                {t("web.result.subscribe")}
+                {t(onPhone ? "web.result.continueInApp" : "web.result.subscribe")}
               </button>
             </>
           ) : canReplay ? (

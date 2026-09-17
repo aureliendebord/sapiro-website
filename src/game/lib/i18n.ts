@@ -105,6 +105,8 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
       perfectBonus: "Sans faute : +{{xp}} XP de bonus",
       outOfTickets: "Tu as utilisé tes parties du jour. Reviens demain, ou passe en illimité.",
       subscribe: "Jouer sans limite",
+      outOfTicketsMobile: "Tu as utilisé tes parties du jour ici. Continue gratuitement dans l'app.",
+      continueInApp: "Continuer dans l'app",
       replay: "Rejouer",
       home: "Retour à l'accueil",
     },
@@ -214,6 +216,15 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
       successAndroid: "Télécharger sur Google Play",
       successContinue: "Continuer à jouer ici",
     },
+    /** Sortie mobile des parties gratuites : l'app d'abord, l'abonnement web en second. */
+    handoff: {
+      title: "Continue gratuitement dans l'app",
+      sub: "Tu as joué tes parties du jour ici. Dans l'app, tu repars tout de suite avec de nouvelles parties gratuites.",
+      ctaIos: "Continuer sur l'App Store",
+      ctaAndroid: "Continuer sur Google Play",
+      subscribeHere: "Ou joue sans limite ici",
+      later: "Plus tard",
+    },
   },
   en: {
     home: {
@@ -277,6 +288,8 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
       perfectBonus: "Flawless: +{{xp}} bonus XP",
       outOfTickets: "You've used today's games. Come back tomorrow, or go unlimited.",
       subscribe: "Play unlimited",
+      outOfTicketsMobile: "You've used today's games here. Keep playing free in the app.",
+      continueInApp: "Continue in the app",
       replay: "Play again",
       home: "Back to home",
     },
@@ -384,6 +397,14 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
       successAndroid: "Get it on Google Play",
       successContinue: "Keep playing here",
     },
+    handoff: {
+      title: "Keep playing free in the app",
+      sub: "You've played today's games here. In the app, you start right away with new free games.",
+      ctaIos: "Continue on the App Store",
+      ctaAndroid: "Continue on Google Play",
+      subscribeHere: "Or play unlimited here",
+      later: "Later",
+    },
   },
   es: {
     home: {
@@ -447,6 +468,8 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
       perfectBonus: "Sin fallos: +{{xp}} XP extra",
       outOfTickets: "Has usado tus partidas de hoy. Vuelve mañana, o pásate al ilimitado.",
       subscribe: "Jugar sin límite",
+      outOfTicketsMobile: "Ya usaste tus partidas de hoy aquí. Sigue gratis en la app.",
+      continueInApp: "Continuar en la app",
       replay: "Jugar otra vez",
       home: "Volver al inicio",
     },
@@ -553,6 +576,14 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
       successIos: "Descargar en el App Store",
       successAndroid: "Disponible en Google Play",
       successContinue: "Seguir jugando aquí",
+    },
+    handoff: {
+      title: "Sigue gratis en la app",
+      sub: "Ya jugaste tus partidas de hoy aquí. En la app, empiezas ya con nuevas partidas gratis.",
+      ctaIos: "Continuar en la App Store",
+      ctaAndroid: "Continuar en Google Play",
+      subscribeHere: "O juega sin límite aquí",
+      later: "Más tarde",
     },
   },
 };
