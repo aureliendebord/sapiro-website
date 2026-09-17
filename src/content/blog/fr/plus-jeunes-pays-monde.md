@@ -12,6 +12,19 @@ translationKey: "plus-jeunes-pays-monde"
 category: "voyage"
 author: "SAPIRO"
 readingTime: 5
+quiz:
+  - question: "En quelle année est né le Soudan du Sud, le plus jeune pays du monde ?"
+    options: ["2006", "2008", "2011", "2014"]
+    answer: 2
+    explanation: "Le Soudan du Sud est indépendant depuis le 9 juillet 2011, après un référendum approuvé à près de 99 %."
+  - question: "Après le « divorce de velours », quel pays a gardé le drapeau tchécoslovaque ?"
+    options: ["Slovaquie", "Tchéquie", "Hongrie", "Autriche"]
+    answer: 1
+    explanation: "La Tchéquie a conservé le drapeau tchécoslovaque. La Slovaquie, née le même jour, en a adopté un nouveau."
+  - question: "Quelle île a voté à 98 % pour son indépendance en 2019 ?"
+    options: ["Groenland", "Nouvelle-Calédonie", "Tasmanie", "Bougainville"]
+    answer: 3
+    explanation: "Bougainville, en Papouasie-Nouvelle-Guinée, est le candidat le plus probable au titre de prochain pays du monde."
 ---
 
 Le plus jeune pays du monde est le Soudan du Sud, indépendant depuis le 9 juillet 2011. La carte politique a continué de bouger bien après la fin de la Guerre froide. Depuis 1990, des dizaines d'États sont apparus, le plus souvent par référendum ou après l'éclatement d'une fédération. Le classement qui suit part du plus récent.

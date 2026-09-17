@@ -11,6 +11,19 @@ translationKey: "100-questions-culture-generale"
 category: "culture-generale"
 author: "SAPIRO"
 readingTime: 16
+quiz:
+  - question: "Le plus grand désert du monde n'est pas le Sahara. Alors, lequel est-ce ?"
+    options: ["Le Gobi", "L'Antarctique", "Le désert d'Arabie", "Le Kalahari"]
+    answer: 1
+    explanation: "L'Antarctique est un désert froid d'environ 14 millions de km², devant le Sahara."
+  - question: "Par rapport à sa taille, ton muscle le plus puissant se trouve dans…"
+    options: ["la cuisse", "la langue", "la mâchoire", "le cœur"]
+    answer: 2
+    explanation: "C'est le masséter, un muscle de la mâchoire qui exerce une très forte pression quand tu mâches."
+  - question: "Que stocke vraiment un chameau dans ses bosses ?"
+    options: ["De l'eau", "Du sang", "Du muscle", "De la graisse"]
+    answer: 3
+    explanation: "Les bosses du chameau et du dromadaire stockent de la graisse, pas de l'eau."
 ---
 
 Cent questions, cent réponses visibles, cinq thèmes. La grande liste pour réviser à fond, préparer un quiz géant ou piocher dedans manche après manche.

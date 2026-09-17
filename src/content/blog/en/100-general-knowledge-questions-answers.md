@@ -11,6 +11,19 @@ translationKey: "100-questions-culture-generale"
 category: "culture-generale"
 author: "SAPIRO"
 readingTime: 16
+quiz:
+  - question: "The world's largest desert isn't the Sahara. So which one is it?"
+    options: ["The Gobi", "Antarctica", "The Arabian Desert", "The Kalahari"]
+    answer: 1
+    explanation: "Antarctica is a cold desert covering about 14 million km², ahead of the Sahara."
+  - question: "Relative to its size, your strongest muscle is in your..."
+    options: ["Thigh", "Tongue", "Jaw", "Heart"]
+    answer: 2
+    explanation: "It's the masseter, a jaw muscle that exerts very strong pressure when you chew."
+  - question: "What does a camel really store in its humps?"
+    options: ["Water", "Blood", "Muscle", "Fat"]
+    answer: 3
+    explanation: "The humps of camels and dromedaries store fat, not water."
 ---
 
 One hundred questions, one hundred visible answers, five fields. The big list to revise thoroughly, prepare a giant quiz, or dip into round after round.
