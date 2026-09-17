@@ -1,0 +1,370 @@
+---
+import type { Lang } from '../i18n';
+import { playGameUrl } from '../data/appLinks';
+
+export interface BlogQuizQuestion {
+  question: string;
+  options: string[];
+  answer: number;
+  explanation: string;
+}
+
+interface Props {
+  lang: Lang;
+  questions: BlogQuizQuestion[];
+}
+
+const { lang, questions } = Astro.props;
+
+/**
+ * Mini-quiz de 3 questions posé au milieu d'un article.
+ *
+ * Mesuré du 04 au 16/09/2026 : ~2 700 lecteurs du blog pour 13 clics sur
+ * l'encart « Jouer » de fin d'article. Un bouton ne donne pas envie de jouer ;
+ * répondre à une question, si. Les questions portent sur l'article lui-même
+ * (frontmatter `quiz`), et la fin amène au jeu web.
+ *
+ * Volontairement sans React ni moteur du jeu : ce bloc est sur des pages SEO,
+ * il ne doit rien coûter au chargement. Tout est rendu au build ; le script
+ * ne fait que basculer des classes.
+ */
+const copy = {
+  fr: {
+    kicker: 'Quiz express',
+    title: '3 questions sur cet article',
+    next: 'Question suivante',
+    finish: 'Voir mon score',
+    score: 'Ton score',
+    perfect: 'Sans faute ! Tu tiens la distance sur 2 000 questions ?',
+    good: 'Pas mal. Il en reste 2 000 pour progresser.',
+    low: 'Ça se travaille : 2 000 questions t\'attendent.',
+    cta: 'Continuer à jouer gratuitement',
+    ctaSub: 'Dans ton navigateur, sans installer',
+  },
+  en: {
+    kicker: 'Quick quiz',
+    title: '3 questions on this article',
+    next: 'Next question',
+    finish: 'See my score',
+    score: 'Your score',
+    perfect: 'Perfect! Can you keep it up over 2,000 questions?',
+    good: 'Not bad. 2,000 more questions to sharpen up.',
+    low: 'Room to grow: 2,000 questions are waiting.',
+    cta: 'Keep playing for free',
+    ctaSub: 'In your browser, no install',
+  },
+  es: {
+    kicker: 'Quiz exprés',
+    title: '3 preguntas sobre este artículo',
+    next: 'Siguiente pregunta',
+    finish: 'Ver mi puntuación',
+    score: 'Tu puntuación',
+    perfect: '¡Sin fallos! ¿Aguantas con 2 000 preguntas?',
+    good: 'Nada mal. Quedan 2 000 preguntas para mejorar.',
+    low: 'A practicar: te esperan 2 000 preguntas.',
+    cta: 'Seguir jugando gratis',
+    ctaSub: 'En tu navegador, sin instalar',
+  },
+}[lang];
+---
+
+<section
+  class="blog-quiz"
+  id="blog-quiz"
+  data-perfect={copy.perfect}
+  data-good={copy.good}
+  data-low={copy.low}
+  aria-label={copy.title}
+>
+  <div class="blog-quiz__head">
+    <span class="blog-quiz__kicker">{copy.kicker}</span>
+    <span class="blog-quiz__step" aria-hidden="true">
+      <span data-quiz-step>1</span>/{questions.length}
+    </span>
+  </div>
+  <p class="blog-quiz__title">{copy.title}</p>
+
+  {questions.map((q, i) => (
+    <div class="blog-quiz__q" data-quiz-q={i} data-answer={q.answer} hidden={i > 0}>
+      <p class="blog-quiz__question">{q.question}</p>
+      <div class="blog-quiz__options">
+        {q.options.map((opt, j) => (
+          <button type="button" class="blog-quiz__opt" data-opt={j}>{opt}</button>
+        ))}
+      </div>
+      <p class="blog-quiz__expl" hidden>{q.explanation}</p>
+      <button type="button" class="blog-quiz__next" data-next hidden>
+        {i < questions.length - 1 ? copy.next : copy.finish}
+      </button>
+    </div>
+  ))}
+
+  <div class="blog-quiz__end" data-quiz-end hidden>
+    <p class="blog-quiz__score-label">{copy.score}</p>
+    <p class="blog-quiz__score"><span data-quiz-score>0</span>/{questions.length}</p>
+    <p class="blog-quiz__verdict" data-quiz-verdict></p>
+    <a
+      href={playGameUrl('blog-quiz', lang)}
+      class="blog-quiz__cta"
+      data-umami-event="play-click"
+      data-umami-event-campaign="blog-quiz"
+    >
+      <strong>{copy.cta}</strong>
+      <small>{copy.ctaSub}</small>
+    </a>
+  </div>
+</section>
+
+<script is:inline>
+  // Posé juste après le bloc, pendant le parsing : le quiz est déplacé avant
+  // le 2e intertitre de l'article AVANT le premier rendu (pas de saut de mise
+  // en page). Un lecteur y arrive après l'intro et une section, accroché.
+  (() => {
+    const quiz = document.getElementById('blog-quiz');
+    const content = document.getElementById('article-content');
+    if (!quiz || !content) return;
+    const h2s = content.querySelectorAll(':scope > h2');
+    if (h2s.length >= 3) content.insertBefore(quiz, h2s[1]);
+  })();
+</script>
+
+<script>
+  import { posthog } from '../lib/posthog';
+
+  type Umami = { track: (event: string, data?: Record<string, unknown>) => void };
+
+  const quiz = document.getElementById('blog-quiz');
+  if (quiz) {
+    const total = quiz.querySelectorAll('[data-quiz-q]').length;
+    const page = window.location.pathname;
+    let score = 0;
+    let started = false;
+
+    const track = (event: string, data: Record<string, unknown> = {}) => {
+      posthog.capture(event, { page, ...data });
+      (window as unknown as { umami?: Umami }).umami?.track(event, data);
+    };
+
+    quiz.querySelectorAll<HTMLElement>('[data-quiz-q]').forEach((block, index) => {
+      const answer = Number(block.dataset.answer);
+      const options = block.querySelectorAll<HTMLButtonElement>('[data-opt]');
+
+      options.forEach((btn) => {
+        btn.addEventListener('click', () => {
+          if (block.classList.contains('is-answered')) return;
+          block.classList.add('is-answered');
+          const picked = Number(btn.dataset.opt);
+          const correct = picked === answer;
+          if (correct) score += 1;
+
+          options.forEach((o) => {
+            o.disabled = true;
+            if (Number(o.dataset.opt) === answer) o.classList.add('is-correct');
+          });
+          if (!correct) btn.classList.add('is-wrong');
+          block.querySelector<HTMLElement>('.blog-quiz__expl')!.hidden = false;
+          block.querySelector<HTMLElement>('[data-next]')!.hidden = false;
+
+          if (!started) {
+            started = true;
+            track('blog_quiz_started');
+          }
+        });
+      });
+
+      block.querySelector('[data-next]')!.addEventListener('click', () => {
+        block.hidden = true;
+        const next = quiz.querySelector<HTMLElement>(`[data-quiz-q="${index + 1}"]`);
+        if (next) {
+          next.hidden = false;
+          quiz.querySelector('[data-quiz-step]')!.textContent = String(index + 2);
+          return;
+        }
+        const ratio = score / total;
+        quiz.querySelector('[data-quiz-score]')!.textContent = String(score);
+        quiz.querySelector('[data-quiz-verdict]')!.textContent =
+          ratio === 1 ? quiz.dataset.perfect! : ratio >= 0.5 ? quiz.dataset.good! : quiz.dataset.low!;
+        quiz.querySelector<HTMLElement>('[data-quiz-end]')!.hidden = false;
+        quiz.querySelector<HTMLElement>('.blog-quiz__head')!.hidden = true;
+        track('blog_quiz_completed', { score, total });
+      });
+    });
+
+    quiz.querySelector('.blog-quiz__cta')?.addEventListener('click', () => {
+      posthog.capture('blog_quiz_play_click', { page, score, total });
+    });
+  }
+</script>
+
+<style>
+  .blog-quiz {
+    margin: 40px 0;
+    padding: 24px;
+    border-radius: var(--border-radius);
+    background: linear-gradient(135deg, #fff7ed, #fef3c7);
+    border: 2px solid rgba(255, 107, 53, 0.25);
+  }
+
+  .blog-quiz__head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .blog-quiz__head[hidden] {
+    display: none;
+  }
+
+  .blog-quiz__kicker {
+    font-size: 0.75rem;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--orange);
+  }
+
+  .blog-quiz__step {
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: var(--gris);
+  }
+
+  .blog-quiz__title {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--gris);
+    margin: 2px 0 14px;
+  }
+
+  .blog-quiz__question {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--noir);
+    line-height: 1.35;
+    margin: 0 0 14px;
+  }
+
+  .blog-quiz__options {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+
+  @media (max-width: 520px) {
+    .blog-quiz__options {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .blog-quiz__opt {
+    font: inherit;
+    font-weight: 600;
+    text-align: left;
+    padding: 12px 14px;
+    border-radius: 12px;
+    border: 2px solid #e8dfcd;
+    background: #fff;
+    color: var(--noir);
+    cursor: pointer;
+    transition: border-color 0.15s, transform 0.15s;
+  }
+
+  .blog-quiz__opt:not(:disabled):hover {
+    border-color: var(--orange);
+    transform: translateY(-1px);
+  }
+
+  .blog-quiz__opt:disabled {
+    cursor: default;
+  }
+
+  .blog-quiz__opt.is-correct {
+    border-color: #22c55e;
+    background: #dcfce7;
+  }
+
+  .blog-quiz__opt.is-wrong {
+    border-color: #ef4444;
+    background: #fee2e2;
+  }
+
+  .blog-quiz__expl {
+    margin: 14px 0 0;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: var(--noir);
+  }
+
+  .blog-quiz__next {
+    display: block;
+    margin: 14px 0 0 auto;
+    font: inherit;
+    font-weight: 700;
+    padding: 10px 18px;
+    border-radius: 12px;
+    border: 0;
+    background: var(--noir);
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .blog-quiz__next[hidden],
+  .blog-quiz__expl[hidden],
+  .blog-quiz__q[hidden],
+  .blog-quiz__end[hidden] {
+    display: none;
+  }
+
+  .blog-quiz__end {
+    text-align: center;
+  }
+
+  .blog-quiz__score-label {
+    margin: 0;
+    font-size: 0.8rem;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--gris);
+  }
+
+  .blog-quiz__score {
+    margin: 0;
+    font-size: 3rem;
+    font-weight: 800;
+    color: var(--noir);
+    line-height: 1.1;
+  }
+
+  .blog-quiz__verdict {
+    margin: 6px 0 18px;
+    font-weight: 600;
+    color: var(--noir);
+  }
+
+  .blog-quiz__cta {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 14px 28px;
+    border-radius: 14px;
+    background: linear-gradient(135deg, #ff6b35 0%, #ff8f5c 100%);
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 0 14px 30px -10px rgba(255, 107, 53, 0.55);
+    transition: transform 0.2s;
+  }
+
+  .blog-quiz__cta:hover {
+    transform: translateY(-2px);
+  }
+
+  .blog-quiz__cta strong {
+    font-size: 1.05rem;
+  }
+
+  .blog-quiz__cta small {
+    font-size: 0.8rem;
+    opacity: 0.9;
+  }
+</style>

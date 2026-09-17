@@ -4,6 +4,7 @@ import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import BlogCta from '../components/BlogCta.astro';
 import BlogInlineCta from '../components/BlogInlineCta.astro';
+import BlogQuiz, { type BlogQuizQuestion } from '../components/BlogQuiz.astro';
 import StickyMobileCta from '../components/v2/StickyMobileCta.astro';
 import type { Lang } from '../i18n';
 import { getTranslations, getLocalePath } from '../i18n';
@@ -34,9 +35,10 @@ interface Props {
   listItems?: ListItem[];
   translationSlugs?: TranslationSlugs;
   canonicalTo?: string;
+  quiz?: BlogQuizQuestion[];
 }
 
-const { title, description, date, lastModified, lang, slug, category, author, readingTime, faqItems = [], listItems = [], translationSlugs, canonicalTo, image, imageAlt, imageCredit } = Astro.props;
+const { title, description, date, lastModified, lang, slug, category, author, readingTime, faqItems = [], listItems = [], translationSlugs, canonicalTo, quiz, image, imageAlt, imageCredit } = Astro.props;
 const heroImageUrl = image ? (image.startsWith('http') ? image : `https://sapiro.app${image}`) : null;
 
 // og:image : le hero seulement s'il est assez paysage pour la fenêtre 1,91:1
@@ -225,6 +227,7 @@ const breadcrumbSchema = {
       <!-- Article Content -->
       <div class="article-content" id="article-content">
         <slot />
+        {quiz && <BlogQuiz lang={lang} questions={quiz} />}
         {clusterUrl && clusterLabel && (
           <aside class="cluster-box">
             <p>{t.blog.partOfTopic} <strong>{clusterLabel}</strong>.</p>
