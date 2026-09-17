@@ -11,6 +11,19 @@ translationKey: "100-questions-culture-generale"
 category: "culture-generale"
 author: "SAPIRO"
 readingTime: 16
+quiz:
+  - question: "El mayor desierto del mundo no es el Sahara. Entonces, ¿cuál es?"
+    options: ["El Gobi", "La Antártida", "El desierto arábigo", "El Kalahari"]
+    answer: 1
+    explanation: "La Antártida es un desierto frío de unos 14 millones de km², por delante del Sahara."
+  - question: "En relación con su tamaño, tu músculo más potente está en…"
+    options: ["el muslo", "la lengua", "la mandíbula", "el corazón"]
+    answer: 2
+    explanation: "Es el masetero, un músculo de la mandíbula que ejerce una fuerte presión al masticar."
+  - question: "¿Qué guarda de verdad un camello en sus jorobas?"
+    options: ["Agua", "Sangre", "Músculo", "Grasa"]
+    answer: 3
+    explanation: "Las jorobas del camello y del dromedario almacenan grasa, no agua."
 ---
 
 Cien preguntas, cien respuestas a la vista, cinco campos. La gran lista para repasar a fondo, preparar un quiz gigante o ir picoteando ronda tras ronda.

@@ -22,6 +22,8 @@ import { levelFromXp } from "@game/store/gameStore";
 import { Icon } from "./ui/Icon";
 import { Glyph } from "./ui/Glyph";
 import { AccountModal } from "./AccountModal";
+import { AppHandoffModal } from "./AppHandoffModal";
+import { mobileStore, type MobileStore } from "@game/lib/device";
 import { ResetPasswordModal } from "./ResetPasswordModal";
 import { completePendingMerge, ensureSession, isSignedIn, onAuthChange } from "@game/lib/auth";
 import { fetchPremiumStatus } from "@game/lib/purchases";
@@ -77,6 +79,7 @@ export default function GameApp({ lang }: Props) {
   const [user, setUser] = useState<User | null>(null);
   const [accountOpen, setAccountOpen] = useState(false);
   const [paywallSource, setPaywallSource] = useState<string | null>(null);
+  const [handoff, setHandoff] = useState<{ source: string; store: MobileStore } | null>(null);
   const [resetOpen, setResetOpen] = useState(false);
   /** Message expliquant pourquoi un bloc du sentier est fermé. */
   const [dialog, setDialog] = useState<string | null>(null);
@@ -156,6 +159,21 @@ export default function GameApp({ lang }: Props) {
     setPaywallSource(source);
   }, []);
 
+  /**
+   * Parties gratuites épuisées. Sur téléphone, on propose d'abord l'app (le
+   * paywall web n'y a converti personne) ; sur ordinateur, le paywall web.
+   * Les entrées explicites (« Passer en illimité », profil) ouvrent toujours
+   * le paywall : l'intention d'abonnement y est déjà exprimée.
+   */
+  const openOutOfGames = useCallback(
+    (source: string) => {
+      const store = mobileStore();
+      if (store) setHandoff({ source, store });
+      else openPaywall(source);
+    },
+    [openPaywall],
+  );
+
   const startQuiz = useCallback(
     async (config: SessionConfig, costsTicket: boolean) => {
       // Geste utilisateur : le bon moment pour amorcer les sons de la partie.
@@ -164,7 +182,7 @@ export default function GameApp({ lang }: Props) {
         if (!consumeTicket()) {
           // Plus de tickets : même funnel que l'app (quota_reached → paywall).
           capture("quota_reached", { mode: config.mode, journey: config.journeyId ?? "" });
-          openPaywall("quota_reached");
+          openOutOfGames("quota_reached");
           setScreen({ name: "home" });
           return;
         }
@@ -196,7 +214,7 @@ export default function GameApp({ lang }: Props) {
 
       setScreen({ name: "quiz", config });
     },
-    [consumeTicket, refundTicket, isPremium, lang, openPaywall],
+    [consumeTicket, refundTicket, isPremium, lang, openOutOfGames],
   );
 
   const handleAction = useCallback(
@@ -301,6 +319,7 @@ export default function GameApp({ lang }: Props) {
             isPremium={isPremium}
             dailyDone={dailyDone}
             onAction={handleAction}
+            onContinueInApp={() => openOutOfGames("home_quota")}
           />
         );
 
@@ -348,7 +367,7 @@ export default function GameApp({ lang }: Props) {
             canReplay={screen.config.mode !== "daily"}
             onReplay={() => void startQuiz(screen.config, true)}
             onHome={() => setScreen({ name: "home" })}
-            onSubscribe={() => openPaywall("quiz_result")}
+            onSubscribe={() => openOutOfGames("quiz_result")}
           />
         );
     }
@@ -367,6 +386,7 @@ export default function GameApp({ lang }: Props) {
     handleQuit,
     startQuiz,
     openPaywall,
+    openOutOfGames,
   ]);
 
   // Pendant une question, la barre de navigation s'efface : rien ne doit
@@ -462,6 +482,17 @@ export default function GameApp({ lang }: Props) {
 
       {accountOpen && <AccountModal user={user} onClose={() => setAccountOpen(false)} />}
       {resetOpen && <ResetPasswordModal onClose={() => setResetOpen(false)} />}
+      {handoff && (
+        <AppHandoffModal
+          store={handoff.store}
+          source={handoff.source}
+          onClose={() => setHandoff(null)}
+          onSubscribeHere={() => {
+            setHandoff(null);
+            openPaywall(handoff.source);
+          }}
+        />
+      )}
       {paywallSource !== null && (
         <Suspense fallback={null}>
           <PaywallModal

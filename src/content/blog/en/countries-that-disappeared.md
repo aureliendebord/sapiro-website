@@ -12,6 +12,19 @@ translationKey: "pays-disparus"
 category: "voyage"
 author: "SAPIRO"
 readingTime: 6
+quiz:
+  - question: "Into how many independent republics did the USSR split in 1991?"
+    options: ["9", "12", "15", "17"]
+    answer: 2
+    explanation: "In 1991 the USSR gave birth to 15 republics, from Russia to Estonia, including Ukraine and Kazakhstan."
+  - question: "Which country ceased to exist in 1975 when India annexed it?"
+    options: ["Tibet", "Sikkim", "Bhutan", "Nepal"]
+    answer: 1
+    explanation: "Sikkim was annexed by India in 1975. Tibet, for its part, had been annexed by China in 1950."
+  - question: "The Papal States lasted over 1,100 years. What is left of them today?"
+    options: ["San Marino", "Monaco", "Malta", "The Vatican"]
+    answer: 3
+    explanation: "Founded in 756, the Papal States were reduced to the Vatican in 1870, after Italian unification."
 ---
 
 The world has seen dozens of countries vanish in a century. Here are the main ones, by era, with what they became.

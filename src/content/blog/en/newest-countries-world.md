@@ -12,6 +12,19 @@ translationKey: "plus-jeunes-pays-monde"
 category: "voyage"
 author: "SAPIRO"
 readingTime: 5
+quiz:
+  - question: "In which year was South Sudan, the world's newest country, born?"
+    options: ["2006", "2008", "2011", "2014"]
+    answer: 2
+    explanation: "South Sudan has been independent since July 9, 2011, after a referendum approved by nearly 99% of voters."
+  - question: "After the Velvet Divorce, which country kept the Czechoslovak flag?"
+    options: ["Slovakia", "Czechia", "Hungary", "Austria"]
+    answer: 1
+    explanation: "Czechia kept the Czechoslovak flag. Slovakia, born the same day, adopted a new one."
+  - question: "Which island voted 98% in favor of independence in 2019?"
+    options: ["Greenland", "New Caledonia", "Tasmania", "Bougainville"]
+    answer: 3
+    explanation: "Bougainville, in Papua New Guinea, is the most likely candidate to become the world's next country."
 ---
 
 The newest country in the world is South Sudan, independent since July 9, 2011. The political map kept shifting long after the Cold War ended. Since 1990, dozens of states have appeared, usually through a referendum or the breakup of a federation. The ranking below starts with the most recent.

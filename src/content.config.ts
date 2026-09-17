@@ -24,6 +24,14 @@ const blog = defineCollection({
     // lisible, mais sort du sitemap, perd ses hreflang et pointe son canonical
     // vers la page a favoriser.
     canonicalTo: z.string().url().optional(),
+    // Mini-quiz de 3 questions sur l'article, affiché avant le 2e intertitre
+    // (composant BlogQuiz). `answer` = index de la bonne option.
+    quiz: z.array(z.object({
+      question: z.string(),
+      options: z.array(z.string()).length(4),
+      answer: z.number().int().min(0).max(3),
+      explanation: z.string(),
+    })).length(3).optional(),
     faqItems: z.array(z.object({
       question: z.string(),
       answer: z.string(),

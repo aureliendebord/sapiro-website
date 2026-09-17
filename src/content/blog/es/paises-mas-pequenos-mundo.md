@@ -12,6 +12,19 @@ translationKey: "plus-petits-pays"
 category: "voyage"
 author: "SAPIRO"
 readingTime: 5
+quiz:
+  - question: "¿Quién hace de ejército en el Vaticano, el país más pequeño del mundo?"
+    options: ["Los carabineros", "La Legión Extranjera", "La Armada Pontificia", "La Guardia Suiza"]
+    answer: 3
+    explanation: "En el Vaticano, la Guardia Suiza Pontificia hace de ejército, en apenas 0,49 km²."
+  - question: "¿Qué diminuto país gana millones con su dominio de internet .tv?"
+    options: ["Tonga", "Tuvalu", "Nauru", "Trinidad y Tobago"]
+    answer: 1
+    explanation: "Tuvalu, nueve atolones y 26 km², obtiene ingresos importantes de su dominio .tv, vendido por millones."
+  - question: "¿Cuál es la altitud máxima de las Maldivas, el país más plano del mundo?"
+    options: ["12 metros", "240 metros", "2,4 metros", "24 metros"]
+    answer: 2
+    explanation: "La altitud máxima de las Maldivas es de solo 2,4 metros. El país tiene 26 atolones en el océano Índico."
 ---
 
 Los países más pequeños del mundo tienen menos de 1 000 km², menos que la superficie de Madrid (605 km²) para los más minúsculos. Aquí va el top 10.

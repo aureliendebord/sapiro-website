@@ -12,6 +12,19 @@ translationKey: "plus-jeunes-pays-monde"
 category: "voyage"
 author: "SAPIRO"
 readingTime: 5
+quiz:
+  - question: "¿En qué año nació Sudán del Sur, el país más joven del mundo?"
+    options: ["2006", "2008", "2011", "2014"]
+    answer: 2
+    explanation: "Sudán del Sur es independiente desde el 9 de julio de 2011, tras un referéndum aprobado por casi el 99 % de los votos."
+  - question: "Tras el «divorcio de terciopelo», ¿qué país se quedó con la bandera checoslovaca?"
+    options: ["Eslovaquia", "Chequia", "Hungría", "Austria"]
+    answer: 1
+    explanation: "Chequia conservó la bandera checoslovaca. Eslovaquia, nacida el mismo día, adoptó una nueva."
+  - question: "¿Qué isla votó en un 98 % a favor de su independencia en 2019?"
+    options: ["Groenlandia", "Nueva Caledonia", "Tasmania", "Bougainville"]
+    answer: 3
+    explanation: "Bougainville, en Papúa Nueva Guinea, es el candidato más probable a convertirse en el próximo país del mundo."
 ---
 
 El país más joven del mundo es Sudán del Sur, independiente desde el 9 de julio de 2011. El mapa político siguió cambiando mucho después del final de la Guerra Fría. Desde 1990 han aparecido decenas de Estados, casi siempre mediante un referéndum o tras la ruptura de una federación. El ranking que sigue empieza por el más reciente.

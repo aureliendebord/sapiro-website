@@ -12,6 +12,19 @@ translationKey: "plus-petits-pays"
 category: "voyage"
 author: "SAPIRO"
 readingTime: 5
+quiz:
+  - question: "Who serves as the army of the Vatican, the world's smallest country?"
+    options: ["The Carabinieri", "The Foreign Legion", "The Papal Navy", "The Swiss Guard"]
+    answer: 3
+    explanation: "In the Vatican, the Pontifical Swiss Guard serves as the army, on just 0.49 km²."
+  - question: "Which tiny country earns millions from its .tv internet domain?"
+    options: ["Tonga", "Tuvalu", "Nauru", "Trinidad and Tobago"]
+    answer: 1
+    explanation: "Tuvalu, nine atolls and 26 km², earns significant income from its .tv domain, sold for millions."
+  - question: "What is the highest elevation in the Maldives, the flattest country on Earth?"
+    options: ["12 meters", "240 meters", "2.4 meters", "24 meters"]
+    answer: 2
+    explanation: "The Maldives' maximum elevation is just 2.4 meters. The country is made of 26 atolls in the Indian Ocean."
 ---
 
 The smallest countries in the world are under 1,000 km², smaller than the size of Paris (105 km²) for the tiniest ones. Here is the top 10.

@@ -1193,3 +1193,61 @@
   text-align: center;
   line-height: 1.35;
 }
+
+/* Sortie mobile vers l'app (AppHandoffModal). */
+.handoff {
+  text-align: center;
+}
+
+.handoff__hero {
+  display: block;
+  width: 100%;
+  max-height: 160px;
+  object-fit: cover;
+  border-radius: 18px;
+  margin: 0 0 16px;
+}
+
+.handoff__subscribe {
+  display: block;
+  margin: 14px auto 10px;
+  padding: 6px 8px;
+  font: inherit;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--ink-mid);
+  text-decoration: underline;
+  background: none;
+  border: 0;
+  cursor: pointer;
+}
+
+/* QR code « joue sur ton téléphone », paywall sur ordinateur seulement. */
+.paywall__phone {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 14px;
+  padding: 10px 12px;
+  border-radius: 16px;
+  border: 2px solid var(--rule-light);
+}
+
+.paywall__phone-qr {
+  flex: none;
+  width: 64px;
+  height: 64px;
+}
+
+.paywall__phone-qr svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.paywall__phone-txt {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--ink-mid);
+  text-align: left;
+}

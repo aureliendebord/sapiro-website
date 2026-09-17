@@ -12,6 +12,19 @@ translationKey: "plus-petits-pays"
 category: "voyage"
 author: "SAPIRO"
 readingTime: 5
+quiz:
+  - question: "Qui fait office d'armée au Vatican, le plus petit pays du monde ?"
+    options: ["Les carabiniers", "La Légion étrangère", "La marine pontificale", "La garde suisse"]
+    answer: 3
+    explanation: "Au Vatican, c'est la garde suisse pontificale qui sert d'armée, sur à peine 0,49 km²."
+  - question: "Quel minuscule pays gagne des millions grâce à son nom de domaine .tv ?"
+    options: ["Tonga", "Tuvalu", "Nauru", "Trinité-et-Tobago"]
+    answer: 1
+    explanation: "Tuvalu, neuf atolls et 26 km², tire d'importants revenus de son domaine internet .tv, vendu pour des millions."
+  - question: "Quelle est l'altitude maximale des Maldives, le pays le plus plat du monde ?"
+    options: ["12 mètres", "240 mètres", "2,4 mètres", "24 mètres"]
+    answer: 2
+    explanation: "L'altitude maximale des Maldives n'est que de 2,4 mètres. Le pays compte 26 atolls dans l'océan Indien."
 ---
 
 Les plus petits pays du monde font moins de 1 000 km², soit moins que la superficie de Paris (105 km²) en ce qui concerne les plus minuscules. Voici le top 10.

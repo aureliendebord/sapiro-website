@@ -15,6 +15,7 @@ import { capture } from "@game/lib/analytics";
 import { getLanguage, t } from "@game/lib/i18n";
 import { Icon } from "./ui/Icon";
 import { appStoreUrl, playStoreUrl } from "../../data/appLinks";
+import { mobileStore } from "@game/lib/device";
 
 interface Props {
   user: User | null;
@@ -42,6 +43,10 @@ interface Props {
  *  - la résiliation passe par le portail RevenueCat, pas par l'App Store ;
  *  - l'essai n'est annoncé que si l'offering web en expose réellement un.
  */
+/** Le QR du paywall mène à l'accueil (liens stores), campagne mesurable. */
+const PHONE_QR_TARGET =
+  "https://sapiro.app/?utm_source=sapiro.app&utm_medium=qr&utm_campaign=paywall-desktop";
+
 export function PaywallModal({ user, source, onClose, onPurchased, onNeedAccount }: Props) {
   const [plans, setPlans] = useState<SubscriptionPlan[] | null>(null);
   const [selected, setSelected] = useState<string | null>(null);
@@ -83,6 +88,32 @@ export function PaywallModal({ user, source, onClose, onPurchased, onNeedAccount
       cancelled = true;
     };
   }, [source]);
+
+  // Ordinateur uniquement : l'app ne s'y installe pas, le QR code l'amène sur
+  // le téléphone. Généré à l'ouverture (chunk déjà différé du paywall).
+  const [qrSvg, setQrSvg] = useState<string | null>(null);
+  useEffect(() => {
+    if (mobileStore()) return;
+    let cancelled = false;
+    void import("qrcode")
+      .then((QRCode) =>
+        QRCode.toString(PHONE_QR_TARGET, {
+          type: "svg",
+          margin: 0,
+          errorCorrectionLevel: "M",
+          color: { dark: "#1a1816", light: "#ffffff" },
+        }),
+      )
+      .then((svg) => {
+        if (!cancelled) setQrSvg(svg);
+      })
+      .catch(() => {
+        // QR facultatif : sans lui, le paywall reste complet.
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, []);
 
   const anchor = useMemo(
     () => (plans ? yearlyAnchor(plans, getLanguage()) : null),
@@ -296,6 +327,14 @@ export function PaywallModal({ user, source, onClose, onPurchased, onNeedAccount
 
               <p className="paywall__legal">{t("web.paywall.legal")}</p>
             </>
+          )}
+
+          {/* Hors du bloc des offres : utile aussi quand elles ne chargent pas. */}
+          {qrSvg && (
+            <div className="paywall__phone">
+              <span className="paywall__phone-qr" dangerouslySetInnerHTML={{ __html: qrSvg }} />
+              <span className="paywall__phone-txt">{t("web.paywall.phoneQr")}</span>
+            </div>
           )}
         </div>
 

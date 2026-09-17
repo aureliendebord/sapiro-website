@@ -12,6 +12,19 @@ translationKey: "pays-disparus"
 category: "voyage"
 author: "SAPIRO"
 readingTime: 6
+quiz:
+  - question: "¿En cuántas repúblicas independientes se dividió la URSS en 1991?"
+    options: ["9", "12", "15", "17"]
+    answer: 2
+    explanation: "En 1991 la URSS dio lugar a 15 repúblicas, de Rusia a Estonia, pasando por Ucrania y Kazajistán."
+  - question: "¿Qué país dejó de existir en 1975 al ser anexado por India?"
+    options: ["Tíbet", "Sikkim", "Bután", "Nepal"]
+    answer: 1
+    explanation: "Sikkim fue anexado por India en 1975. El Tíbet, en cambio, había sido anexado por China en 1950."
+  - question: "Los Estados Pontificios duraron más de 1100 años. ¿Qué queda de ellos hoy?"
+    options: ["San Marino", "Mónaco", "Malta", "El Vaticano"]
+    answer: 3
+    explanation: "Nacidos en 756, los Estados Pontificios quedaron reducidos al Vaticano en 1870, tras la unificación italiana."
 ---
 
 El mundo ha visto decenas de países desaparecer en un siglo. Aquí van los principales, por época, con lo que llegaron a ser.
