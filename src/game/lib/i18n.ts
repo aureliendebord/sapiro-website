@@ -215,6 +215,7 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
       successIos: "Télécharger sur l'App Store",
       successAndroid: "Télécharger sur Google Play",
       successContinue: "Continuer à jouer ici",
+      phoneQr: "Ou scanne pour jouer gratuitement sur ton téléphone",
     },
     /** Sortie mobile des parties gratuites : l'app d'abord, l'abonnement web en second. */
     handoff: {
@@ -396,6 +397,7 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
       successIos: "Download on the App Store",
       successAndroid: "Get it on Google Play",
       successContinue: "Keep playing here",
+      phoneQr: "Or scan to play free on your phone",
     },
     handoff: {
       title: "Keep playing free in the app",
@@ -576,6 +578,7 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
       successIos: "Descargar en el App Store",
       successAndroid: "Disponible en Google Play",
       successContinue: "Seguir jugando aquí",
+      phoneQr: "O escanea para jugar gratis en tu teléfono",
     },
     handoff: {
       title: "Sigue gratis en la app",
