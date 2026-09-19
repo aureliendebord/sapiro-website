@@ -431,14 +431,14 @@ const breadcrumbSchema = {
     color: var(--noir);
   }
 
-  .article-content :global(a:not(.btn):not(.store)) {
+  .article-content :global(a:not(.btn):not(.store):not(.play-btn)) {
     color: var(--orange);
     text-decoration: underline;
     text-underline-offset: 2px;
     transition: color 0.2s;
   }
 
-  .article-content :global(a:not(.btn):not(.store):hover) {
+  .article-content :global(a:not(.btn):not(.store):not(.play-btn):hover) {
     color: var(--orange-dark);
   }
 
