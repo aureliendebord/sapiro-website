@@ -1,0 +1,317 @@
+---
+/**
+ * Page « widget » : aperçu du quiz embarquable + code à copier.
+ *
+ * Le code copié contient DEUX choses : l'iframe, et sous elle un lien HTML
+ * normal vers sapiro.app. C'est ce lien-là qui constitue le backlink (un lien
+ * à l'intérieur d'une iframe ne transmet rien) — il fait partie du snippet,
+ * pas d'une option.
+ */
+import { EMBED_THEMES, embedPath, type EmbedTheme } from '../data/appLinks';
+import { routes } from '../i18n/routes';
+import type { Lang } from '../i18n';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+
+const COPY = {
+  fr: {
+    h1: 'Un quiz de géographie à intégrer sur votre site',
+    lede: "Drapeaux ou capitales, 5 questions tirées au hasard parmi 197 pays, une explication après chaque réponse. Gratuit, sans publicité, sans cookie, sans inscription. Un copier-coller suffit.",
+    themeLabel: 'Thème',
+    themes: { flags: 'Drapeaux', capitals: 'Capitales' },
+    codeLabel: 'Code à copier dans votre page',
+    copy: 'Copier le code',
+    copied: 'Copié',
+    credit: 'Quiz de géographie par SAPIRO',
+    iframeTitle: { flags: 'Quiz drapeaux SAPIRO', capitals: 'Quiz capitales SAPIRO' },
+    whoTitle: 'Pour qui',
+    who: [
+      "Enseignants d'histoire-géographie : une activité de 2 minutes en début de séance ou sur l'ENT, sans compte élève.",
+      'Blogs de voyage et sites de culture générale : un contenu interactif qui retient le lecteur sur la page.',
+      'Associations, médiathèques, sites de révision de concours.',
+    ],
+    howTitle: 'Comment ça marche',
+    how: [
+      'Choisissez le thème, copiez le code, collez-le dans un bloc HTML (WordPress, Moodle, Notion, Google Sites…).',
+      'Le quiz se met à jour tout seul : les questions changent à chaque partie.',
+      "Rien n'est déposé chez vos visiteurs : pas de cookie, pas de publicité, pas de collecte de données personnelles.",
+    ],
+    terms: 'Usage libre et gratuit, y compris en classe. Merci de conserver le lien « Quiz par SAPIRO » sous le widget.',
+  },
+  en: {
+    h1: 'A geography quiz you can embed on your site',
+    lede: 'Flags or capitals, 5 random questions drawn from 197 countries, with an explanation after every answer. Free, no ads, no cookies, no sign-up. One copy-paste and it runs.',
+    themeLabel: 'Theme',
+    themes: { flags: 'Flags', capitals: 'Capitals' },
+    codeLabel: 'Code to paste into your page',
+    copy: 'Copy the code',
+    copied: 'Copied',
+    credit: 'Geography quiz by SAPIRO',
+    iframeTitle: { flags: 'SAPIRO flag quiz', capitals: 'SAPIRO capitals quiz' },
+    whoTitle: 'Who it is for',
+    who: [
+      'Geography and social studies teachers: a 2-minute warm-up for class or your LMS, no student account needed.',
+      'Travel blogs and trivia sites: interactive content that keeps readers on the page.',
+      'Libraries, clubs and exam-prep sites.',
+    ],
+    howTitle: 'How it works',
+    how: [
+      'Pick a theme, copy the code, paste it into an HTML block (WordPress, Moodle, Notion, Google Sites…).',
+      'The quiz refreshes itself: questions change every round.',
+      'Nothing is stored on your visitors: no cookies, no ads, no personal data collected.',
+    ],
+    terms: 'Free to use, including in class. Please keep the "Quiz by SAPIRO" link under the widget.',
+  },
+  es: {
+    h1: 'Un quiz de geografía para insertar en tu web',
+    lede: 'Banderas o capitales, 5 preguntas al azar entre 197 países, con una explicación después de cada respuesta. Gratis, sin anuncios, sin cookies, sin registro. Basta con copiar y pegar.',
+    themeLabel: 'Tema',
+    themes: { flags: 'Banderas', capitals: 'Capitales' },
+    codeLabel: 'Código para pegar en tu página',
+    copy: 'Copiar el código',
+    copied: 'Copiado',
+    credit: 'Quiz de geografía de SAPIRO',
+    iframeTitle: { flags: 'Quiz de banderas SAPIRO', capitals: 'Quiz de capitales SAPIRO' },
+    whoTitle: 'Para quién',
+    who: [
+      'Docentes de geografía e historia: una actividad de 2 minutos para empezar la clase o para el aula virtual, sin cuenta de alumno.',
+      'Blogs de viajes y webs de cultura general: contenido interactivo que retiene al lector en la página.',
+      'Bibliotecas, asociaciones y webs de preparación de oposiciones.',
+    ],
+    howTitle: 'Cómo funciona',
+    how: [
+      'Elige el tema, copia el código y pégalo en un bloque HTML (WordPress, Moodle, Notion, Google Sites…).',
+      'El quiz se renueva solo: las preguntas cambian en cada partida.',
+      'No se guarda nada de tus visitantes: sin cookies, sin anuncios, sin datos personales.',
+    ],
+    terms: 'Uso libre y gratuito, también en clase. Por favor, conserva el enlace «Quiz de SAPIRO» debajo del widget.',
+  },
+}[lang];
+
+const SITE = 'https://sapiro.app';
+
+function snippet(theme: EmbedTheme): string {
+  return [
+    `<iframe src="${SITE}${embedPath(lang, theme)}" title="${COPY.iframeTitle[theme]}" width="100%" height="520" style="border:0;border-radius:16px;max-width:560px" loading="lazy"></iframe>`,
+    `<p style="font-size:13px"><a href="${SITE}${routes.home[lang]}">${COPY.credit}</a></p>`,
+  ].join('\n');
+}
+
+const snippets = Object.fromEntries(EMBED_THEMES.map((theme) => [theme, snippet(theme)]));
+const paths = Object.fromEntries(EMBED_THEMES.map((theme) => [theme, embedPath(lang, theme)]));
+---
+
+<section class="widget-page" data-widget data-snippets={JSON.stringify(snippets)} data-paths={JSON.stringify(paths)} data-copied={COPY.copied} data-copy={COPY.copy}>
+  <h1>{COPY.h1}</h1>
+  <p class="widget-lede">{COPY.lede}</p>
+
+  <div class="widget-grid">
+    <div class="widget-preview">
+      <iframe src={paths.flags} title={COPY.iframeTitle.flags} width="100%" height="520" loading="lazy" data-preview></iframe>
+    </div>
+
+    <div class="widget-setup">
+      <fieldset class="widget-themes">
+        <legend>{COPY.themeLabel}</legend>
+        {EMBED_THEMES.map((theme, i) => (
+          <label>
+            <input type="radio" name="widget-theme" value={theme} checked={i === 0} />
+            <span>{COPY.themes[theme]}</span>
+          </label>
+        ))}
+      </fieldset>
+
+      <label class="widget-code-label" for="widget-code">{COPY.codeLabel}</label>
+      <textarea id="widget-code" class="widget-code" readonly rows="7" spellcheck="false" data-code>{snippets.flags}</textarea>
+      <button type="button" class="btn btn-primary" data-copy-btn data-umami-event="widget-code-copied">{COPY.copy}</button>
+      <p class="widget-terms">{COPY.terms}</p>
+    </div>
+  </div>
+
+  <div class="widget-cols">
+    <div>
+      <h2>{COPY.whoTitle}</h2>
+      <ul>{COPY.who.map((line) => <li>{line}</li>)}</ul>
+    </div>
+    <div>
+      <h2>{COPY.howTitle}</h2>
+      <ul>{COPY.how.map((line) => <li>{line}</li>)}</ul>
+    </div>
+  </div>
+</section>
+
+<script>
+  import { posthog } from '../lib/posthog';
+
+  const root = document.querySelector<HTMLElement>('[data-widget]');
+  if (root) {
+    const snippets = JSON.parse(root.dataset.snippets!) as Record<string, string>;
+    const paths = JSON.parse(root.dataset.paths!) as Record<string, string>;
+    const code = root.querySelector<HTMLTextAreaElement>('[data-code]')!;
+    const preview = root.querySelector<HTMLIFrameElement>('[data-preview]')!;
+    const button = root.querySelector<HTMLButtonElement>('[data-copy-btn]')!;
+    let theme = 'flags';
+
+    root.querySelectorAll<HTMLInputElement>('input[name="widget-theme"]').forEach((input) => {
+      input.addEventListener('change', () => {
+        theme = input.value;
+        code.value = snippets[theme];
+        preview.src = paths[theme];
+      });
+    });
+
+    code.addEventListener('focus', () => code.select());
+
+    button.addEventListener('click', async () => {
+      try {
+        await navigator.clipboard.writeText(code.value);
+      } catch {
+        // Presse-papiers refusé : le texte est sélectionné, Ctrl+C reste possible.
+        code.select();
+        return;
+      }
+      posthog.capture('widget_code_copied', { theme });
+      button.textContent = root.dataset.copied!;
+      setTimeout(() => (button.textContent = root.dataset.copy!), 2000);
+    });
+  }
+</script>
+
+<style>
+  .widget-page {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 120px 20px 64px;
+  }
+
+  h1 {
+    font-size: clamp(1.8rem, 4vw, 2.6rem);
+    line-height: 1.15;
+    margin: 0 0 12px;
+  }
+
+  .widget-lede {
+    font-size: 1.1rem;
+    line-height: 1.55;
+    color: var(--gris);
+    max-width: 720px;
+    margin: 0 0 32px;
+  }
+
+  .widget-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 560px) minmax(0, 1fr);
+    gap: 32px;
+    align-items: start;
+  }
+
+  @media (max-width: 860px) {
+    .widget-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .widget-preview iframe {
+    display: block;
+    border: 0;
+    border-radius: 16px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  }
+
+  .widget-themes {
+    border: 0;
+    padding: 0;
+    margin: 0 0 20px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  .widget-themes legend,
+  .widget-code-label {
+    display: block;
+    font-weight: 700;
+    margin-bottom: 8px;
+    padding: 0;
+  }
+
+  .widget-themes label {
+    cursor: pointer;
+  }
+
+  .widget-themes input {
+    position: absolute;
+    opacity: 0;
+  }
+
+  .widget-themes span {
+    display: inline-block;
+    padding: 10px 18px;
+    border-radius: 999px;
+    border: 2px solid #e5e7eb;
+    font-weight: 700;
+  }
+
+  .widget-themes input:checked + span {
+    border-color: var(--orange);
+    background: #fff7ed;
+    color: var(--orange-dark);
+  }
+
+  .widget-themes input:focus-visible + span {
+    outline: 2px solid var(--orange);
+    outline-offset: 2px;
+  }
+
+  .widget-code {
+    width: 100%;
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    font-size: 0.82rem;
+    line-height: 1.5;
+    padding: 14px;
+    border-radius: 12px;
+    border: 2px solid #e5e7eb;
+    background: #fafaf9;
+    color: inherit;
+    resize: vertical;
+    margin-bottom: 12px;
+  }
+
+  .widget-terms {
+    font-size: 0.9rem;
+    color: var(--gris);
+    margin: 14px 0 0;
+  }
+
+  .widget-cols {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    margin-top: 48px;
+  }
+
+  @media (max-width: 720px) {
+    .widget-cols {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .widget-cols h2 {
+    font-size: 1.3rem;
+    margin: 0 0 12px;
+  }
+
+  .widget-cols ul {
+    margin: 0;
+    padding-left: 20px;
+    line-height: 1.6;
+  }
+
+  .widget-cols li + li {
+    margin-top: 8px;
+  }
+</style>

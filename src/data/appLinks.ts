@@ -76,3 +76,19 @@ export const PLAY_PATH: Record<Lang, string> = {
 export function playGameUrl(campaign: PlayCampaign, lang: Lang): string {
   return `${PLAY_PATH[lang]}?utm_source=sapiro.app&utm_medium=website&utm_campaign=${campaign}`;
 }
+
+/**
+ * Widget de quiz embarquable sur des sites tiers (`/embed/<lang>/<theme>/`,
+ * code à copier sur `/widget/`). Ici le lien part d'un AUTRE site : URL
+ * absolue, et `utm_source=embed` pour séparer ce trafic de celui du site.
+ */
+export const EMBED_THEMES = ['flags', 'capitals'] as const;
+export type EmbedTheme = (typeof EMBED_THEMES)[number];
+
+export function embedPath(lang: Lang, theme: EmbedTheme): string {
+  return `/embed/${lang}/${theme}/`;
+}
+
+export function embedPlayUrl(lang: Lang, theme: EmbedTheme): string {
+  return `https://sapiro.app${PLAY_PATH[lang]}?utm_source=embed&utm_medium=widget&utm_campaign=${theme}`;
+}

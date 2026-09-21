@@ -17,7 +17,8 @@ export type RouteKey =
   | 'play'
   | 'blog'
   | 'about'
-  | 'credits';
+  | 'credits'
+  | 'widget';
 
 export const routes: Record<RouteKey, Record<Lang, string>> = {
   home: { fr: '/', en: '/en/', es: '/es/' },
@@ -37,6 +38,7 @@ export const routes: Record<RouteKey, Record<Lang, string>> = {
   blog: { fr: '/blog/', en: '/en/blog/', es: '/es/blog/' },
   about: { fr: '/about/', en: '/en/about/', es: '/es/about/' },
   credits: { fr: '/credits/', en: '/en/credits/', es: '/es/credits/' },
+  widget: { fr: '/widget/', en: '/en/widget/', es: '/es/widget/' },
 };
 
 const PATH_TO_KEY = new Map<string, RouteKey>();

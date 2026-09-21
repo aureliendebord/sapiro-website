@@ -30,6 +30,7 @@ const FIXED_ROUTES = [
   { fr: '/blog/', en: '/en/blog/', es: '/es/blog/' },
   { fr: '/about/', en: '/en/about/', es: '/es/about/' },
   { fr: '/credits/', en: '/en/credits/', es: '/es/credits/' },
+  { fr: '/widget/', en: '/en/widget/', es: '/es/widget/' },
 ];
 
 // Lecture minimale du frontmatter YAML d'un fichier markdown.
@@ -137,7 +138,8 @@ export default defineConfig({
     ],
     // Une page qui pointe son canonical ailleurs ne doit pas figurer au
     // sitemap : l'y laisser contredit le signal qu'on vient d'emettre.
-    filter: (page) => !BLOG_CANONICALIZED.has(page),
+    // /embed/* : pages nues servies en iframe chez des tiers, en noindex.
+    filter: (page) => !BLOG_CANONICALIZED.has(page) && !page.includes('/embed/'),
     // hreflang corrects (slugs traduits) + lastmod reel par article.
     serialize(item) {
       const links = ALTERNATES.get(item.url);
