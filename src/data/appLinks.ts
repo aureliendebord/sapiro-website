@@ -67,7 +67,7 @@ export type PlayCampaign =
   /** Fin du mini-quiz intégré aux articles de blog. */
   | 'blog-quiz';
 
-const PLAY_PATH: Record<Lang, string> = {
+export const PLAY_PATH: Record<Lang, string> = {
   fr: '/jouer/',
   en: '/en/play/',
   es: '/es/jugar/',

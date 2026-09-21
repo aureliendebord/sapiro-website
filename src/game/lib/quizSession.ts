@@ -399,6 +399,8 @@ export interface SessionResult {
   durationSeconds: number;
   xp: XPBreakdown;
   misses: MissedQuestion[];
+  /** Vrai/faux par question, première passe — sert à la grille de partage. */
+  answers: boolean[];
 }
 
 /** Résultat final : score, durée et XP détaillée (mêmes bonus que l'app). */
@@ -439,5 +441,6 @@ export function finishSession(
     durationSeconds: Math.max(0, Math.round((Date.now() - state.startedAt) / 1000)),
     xp,
     misses: state.misses,
+    answers: state.answers,
   };
 }

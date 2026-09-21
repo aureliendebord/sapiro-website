@@ -534,6 +534,20 @@
 
 /* Bornées : sur un plateau large, des boutons pleine largeur s'étirent sur
    plusieurs centaines de pixels et ne ressemblent plus à des boutons. */
+.result-challenge {
+  font-weight: 800;
+  color: var(--accent-deep);
+  margin: 0 0 12px;
+}
+
+.result-share-notice {
+  margin: -2px 0 0;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--ink);
+  text-align: center;
+}
+
 .result-actions {
   display: grid;
   gap: 10px;

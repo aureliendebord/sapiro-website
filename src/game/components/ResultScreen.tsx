@@ -1,12 +1,14 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import type { SessionResult } from "@game/lib/quizSession";
 import { accentVars } from "@game/design/tokens";
-import { t } from "@game/lib/i18n";
+import { getLanguage, t } from "@game/lib/i18n";
 import { Icon } from "./ui/Icon";
 import { Glyph } from "./ui/Glyph";
 import { celebrate } from "@game/lib/celebrate";
 import { play } from "@game/lib/sounds";
 import { mobileStore } from "@game/lib/device";
+import { capture } from "@game/lib/analytics";
+import { challengeUrl, shareChallenge, shareText, type Challenge } from "@game/lib/share";
 
 interface Props {
   result: SessionResult;
@@ -15,6 +17,10 @@ interface Props {
   isPremium: boolean;
   /** Le Défi du jour ne se rejoue pas : une seule partie par jour, comme l'app. */
   canReplay: boolean;
+  /** Jour du Défi joué (YYYY-MM-DD) : rend le résultat partageable. */
+  dailyKey?: string;
+  /** Score annoncé par le lien de défi qui a amené le joueur, s'il y en a un. */
+  challenge?: Challenge | null;
   onReplay: () => void;
   onHome: () => void;
   onSubscribe: () => void;
@@ -25,6 +31,8 @@ export function ResultScreen({
   ticketsLeft,
   isPremium,
   canReplay,
+  dailyKey,
+  challenge,
   onReplay,
   onHome,
   onSubscribe,
@@ -34,6 +42,21 @@ export function ResultScreen({
   // Sur téléphone, la sortie est l'app (cf. AppHandoffModal) : le libellé
   // doit annoncer ce que le bouton ouvre vraiment.
   const onPhone = mobileStore() !== null;
+  const [shareNotice, setShareNotice] = useState<string | null>(null);
+
+  const handleShare = async () => {
+    if (!dailyKey) return;
+    const lang = getLanguage();
+    const mine: Challenge = { dayKey: dailyKey, score: result.score, total: result.totalQuestions };
+    const outcome = await shareChallenge(
+      shareText(lang, mine, result.answers),
+      challengeUrl(lang, mine),
+      onPhone,
+    );
+    capture("daily_shared", { outcome, score: result.score, total: result.totalQuestions });
+    if (outcome === "copied") setShareNotice(t("web.share.copied"));
+    else if (outcome === "failed") setShareNotice(t("web.share.failed"));
+  };
 
   // Célébration à l'arrivée, comme sur mobile — mais seulement quand il y a
   // quelque chose à célébrer : des confettis sur un 2/10 sonnent faux.
@@ -58,6 +81,15 @@ export function ResultScreen({
         </p>
         <p className="result-label">{commentFor(ratio, result.mode)}</p>
 
+        {dailyKey && challenge && (
+          <p className="result-challenge">
+            {t(`web.share.${duelOutcome(result.score, challenge.score)}`, {
+              score: challenge.score,
+              total: challenge.total,
+            })}
+          </p>
+        )}
+
         <span className="result-xp">+{result.xp.totalXP} XP</span>
 
         {bonusLines(result).length > 0 && (
@@ -72,6 +104,21 @@ export function ResultScreen({
         )}
 
         <div className="result-actions">
+          {/* Le Défi ne se rejoue pas : le partage prend la place du bouton
+              principal, c'est la seule suite possible à cette partie. */}
+          {dailyKey && (
+            <>
+              <button type="button" className="game-btn game-btn--block" onClick={handleShare}>
+                {t("web.share.button")}
+              </button>
+              {shareNotice && (
+                <p className="result-share-notice" role="status">
+                  {shareNotice}
+                </p>
+              )}
+            </>
+          )}
+
           {canReplay && outOfTickets ? (
             <>
               <p className="game-notice">
@@ -128,6 +175,11 @@ function bonusLines(result: SessionResult): { key: string; xp: number }[] {
     { key: "bonusDailyStreak", xp: xp.dailyStreakBonus },
     { key: "bonusDailyPerfect", xp: xp.dailyPerfectBonus },
   ].filter((line) => line.xp > 0);
+}
+
+function duelOutcome(mine: number, theirs: number): "won" | "tied" | "lost" {
+  if (mine > theirs) return "won";
+  return mine === theirs ? "tied" : "lost";
 }
 
 /** Médaille selon la réussite — même palier que l'écran de résultat de l'app. */

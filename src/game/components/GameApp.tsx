@@ -28,6 +28,7 @@ import { ResetPasswordModal } from "./ResetPasswordModal";
 import { completePendingMerge, ensureSession, isSignedIn, onAuthChange } from "@game/lib/auth";
 import { fetchPremiumStatus } from "@game/lib/purchases";
 import { capture, identifyAnalytics } from "@game/lib/analytics";
+import { readChallenge, type Challenge } from "@game/lib/share";
 import type { User } from "@supabase/supabase-js";
 import "@game/styles/game.css";
 
@@ -84,6 +85,8 @@ export default function GameApp({ lang }: Props) {
   /** Message expliquant pourquoi un bloc du sentier est fermé. */
   const [dialog, setDialog] = useState<string | null>(null);
   const [isPremium, setIsPremium] = useState(false);
+  /** Lien « bats mon score » par lequel le joueur est arrivé, s'il y en a un. */
+  const [challenge, setChallenge] = useState<Challenge | null>(null);
 
   const dailyDone = lastDailyKey === todayKey();
 
@@ -107,6 +110,18 @@ export default function GameApp({ lang }: Props) {
     // déjà ouverte (detectSessionInUrl), il reste à demander le nouveau mot de
     // passe. Le paramètre est consommé pour qu'un rechargement ne rouvre rien.
     const params = new URLSearchParams(window.location.search);
+    // Lien de défi : lu une fois à l'arrivée. Les paramètres restent dans
+    // l'URL — PostHog y lit les utm, et un rechargement garde le bandeau.
+    const incoming = readChallenge(window.location.search);
+    if (incoming) {
+      setChallenge(incoming);
+      capture("daily_challenge_opened", {
+        is_today: incoming.dayKey === todayKey(),
+        already_played: useGameStore.getState().lastDailyKey === todayKey(),
+        score: incoming.score,
+        total: incoming.total,
+      });
+    }
     if (params.has("reset")) {
       setResetOpen(true);
       params.delete("reset");
@@ -318,6 +333,8 @@ export default function GameApp({ lang }: Props) {
             ticketsLeft={tickets}
             isPremium={isPremium}
             dailyDone={dailyDone}
+            challenge={challenge}
+            challengeIsToday={challenge?.dayKey === todayKey()}
             onAction={handleAction}
             onContinueInApp={() => openOutOfGames("home_quota")}
           />
@@ -365,6 +382,10 @@ export default function GameApp({ lang }: Props) {
             ticketsLeft={tickets}
             isPremium={isPremium}
             canReplay={screen.config.mode !== "daily"}
+            dailyKey={screen.result.mode === "daily" ? todayKey() : undefined}
+            // Un défi d'un autre jour ne portait pas sur les mêmes questions :
+            // comparer les scores n'aurait aucun sens.
+            challenge={challenge?.dayKey === todayKey() ? challenge : null}
             onReplay={() => void startQuiz(screen.config, true)}
             onHome={() => setScreen({ name: "home" })}
             onSubscribe={() => openOutOfGames("quiz_result")}
@@ -379,6 +400,7 @@ export default function GameApp({ lang }: Props) {
     isPremium,
     dailyDone,
     dailyStreak,
+    challenge,
     handleAction,
     handlePlayBlock,
     user,
