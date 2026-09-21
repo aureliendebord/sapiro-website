@@ -48,7 +48,7 @@ Les deux valent la peine si on aime la géographie, mais ils ne remplissent pas 
 
 En revanche, si l'objectif est d'apprendre, c'est-à-dire de savoir nommer les capitales, reconnaître les drapeaux, situer les pays et retenir quelque chose de précis sur chacun, SAPIRO est mieux calibré. Les explications après chaque question, la couverture équilibrée des 197 pays, la possibilité de jouer hors ligne et l'ouverture vers l'histoire, l'art et la nature en font un outil plus large. L'application est notée 5/5 sur Google Play et sert de complément dans certaines classes.
 
-Beaucoup de joueurs finissent par garder les deux sur leur téléphone. GeoGuessr pour les soirées où l'on veut explorer le monde à l'aveugle, SAPIRO pour les trajets et les moments calmes où l'on a envie d'apprendre quelque chose de concret. Ce sont des usages compatibles, pas des rivaux.
+Beaucoup de joueurs finissent par garder les deux sur leur téléphone. GeoGuessr pour les soirées où l'on veut explorer le monde à l'aveugle, SAPIRO pour les trajets et les moments calmes où l'on a envie d'apprendre quelque chose de concret. Ce sont des usages compatibles, pas des rivaux. Et si c'est surtout la version gratuite de GeoGuessr qui vous a déçu, on a listé les [alternatives à GeoGuessr](/blog/alternatives-geoguessr/) qui se jouent gratuitement.
 
 Pour aller plus loin, consultez notre sélection des [meilleures applications de géographie](/blog/meilleures-apps-geographie/), notre guide des [meilleures applications de quiz de culture générale](/blog/meilleures-apps-quiz-culture-generale/) et notre [comparatif SAPIRO vs Kahoot](/blog/sapiro-vs-kahoot/).
 

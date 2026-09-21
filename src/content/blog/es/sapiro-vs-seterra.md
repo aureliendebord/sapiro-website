@@ -62,7 +62,7 @@ SAPIRO y Seterra son dos apps de geografía, pero con enfoques distintos. Aquí 
 
 Sí, se complementan. Seterra para el dominio cartográfico puro. SAPIRO para la cultura general ampliada con geografía incluida.
 
-Para profundizar: [mejores apps de geografía](/es/blog/mejores-apps-geografia/) para el panorama completo.
+Para profundizar: [mejores apps de geografía](/es/blog/mejores-apps-geografia/) para el panorama completo. Y si buscas más opciones del mismo estilo, mira nuestras [alternativas a Seterra](/es/blog/alternativas-seterra/).
 
 <figure>
   <img src="/images/blog/apps/etudier-smartphone.jpg" alt="Personas mayores asistiendo a una formación en un aula" loading="lazy" />

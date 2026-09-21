@@ -62,7 +62,7 @@ Si on veut défier des amis autour d'un quiz rapide, avec des notifications qui 
 
 Si l'objectif est d'apprendre en jouant, ou de donner à un enfant une alternative sérieuse au temps d'écran passif, SAPIRO est construit pour ça. Explications après chaque question, pas de pub, pas de collecte, fonctionnement hors ligne, achat à vie moins cher qu'un an d'abonnement Trivia Crack Premium. Le produit ne cherche pas à rivaliser sur le terrain multijoueur, il propose un autre contrat : moins d'adrénaline sociale, plus de connaissances qui restent.
 
-Pour aller plus loin, consultez notre guide des [meilleures applications de quiz de culture générale](/blog/meilleures-apps-quiz-culture-generale/), nos comparatifs [SAPIRO vs GeoGuessr](/blog/sapiro-vs-geoguessr/) et [SAPIRO vs Kahoot](/blog/sapiro-vs-kahoot/), et notre article sur la [gamification dans l'éducation](/blog/gamification-education/).
+Pour aller plus loin, consultez notre guide des [meilleures applications de quiz de culture générale](/blog/meilleures-apps-quiz-culture-generale/), nos comparatifs [SAPIRO vs GeoGuessr](/blog/sapiro-vs-geoguessr/) et [SAPIRO vs Kahoot](/blog/sapiro-vs-kahoot/), et notre article sur la [gamification dans l'éducation](/blog/gamification-education/). Et si aucune des deux ne vous convient, on a listé d'autres [alternatives à Trivia Crack](/blog/alternatives-trivia-crack/).
 
 <figure>
   <img src="/images/blog/apps/apprendre-mobile.jpg" alt="Une femme assise dans une bibliothèque, un téléphone à la main" loading="lazy" />
