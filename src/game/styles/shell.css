@@ -26,15 +26,9 @@
 .game-main {
   /* Le header du site est fixed : chaque page paie son offset (convention du repo). */
   padding-top: var(--header-h);
-  /* Fond texturé de l'app (`components/ScreenBackground.tsx`) : dégradé
-     vertical crème → pêche, plus deux halos orange flous en haut-droite et
-     bas-gauche. Positions et rayons repris du SVG (viewBox 1320×2868), en
-     pourcentages. `fixed` garde les halos calés sur la fenêtre : sur une page
-     longue, attachés au document ils se seraient étirés hors de vue. */
-  background:
-    radial-gradient(49% 23% at 89% 14%, rgb(255 107 0 / 28%), rgb(255 107 0 / 0) 70%),
-    radial-gradient(55% 25% at 8% 78%, rgb(255 150 70 / 32%), rgb(255 150 70 / 0) 70%),
-    linear-gradient(180deg, #fff5e8 0%, #ffd6b0 100%);
+  /* Fond crème DA V3 de l'app (`V3.cream`) : la baie illustrée se pose
+     par-dessus, derrière le seul plateau de jeu (`.game-backdrop`). */
+  background: linear-gradient(180deg, #fffdfa 0%, #fbf1e8 45%, #f6dccb 100%);
   background-attachment: fixed;
   min-height: 100dvh;
   padding-bottom: 0;
@@ -47,7 +41,56 @@
   min-height: 660px;
 }
 
+/* Porte le fond illustré ; ne crée PAS de contexte d'empilement (pas de
+   z-index) : les modales du jeu restent au niveau de la page. */
+.sapiro-game {
+  position: relative;
+}
+
+/**
+ * Fond DA V3 (`components/ScreenBackground.tsx` de l'app) : la baie illustrée
+ * en cover, centrée, sous un voile crème. Voile léger à l'accueil (0,25), plus
+ * épais sur les autres écrans (0,55), et pendant une question la baie n'est
+ * plus qu'une ambiance floutée sous un voile épais (0,72) : rien d'illustré ne
+ * dispute l'attention à une œuvre ou un drapeau.
+ *
+ * Posée derrière le plateau seulement (elle remonte sous le header) et fondue
+ * en bas dans le crème de la page : le bloc SEO qui suit reste sur fond uni.
+ */
+.game-backdrop {
+  --veil: 0.55;
+  position: absolute;
+  top: calc(-1 * var(--header-h));
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  background:
+    linear-gradient(rgb(255 253 250 / var(--veil)), rgb(255 253 250 / var(--veil))),
+    url("/images/bg/baie.webp") center 30% / cover no-repeat;
+  -webkit-mask-image: linear-gradient(180deg, #000 78%, transparent 100%);
+  mask-image: linear-gradient(180deg, #000 78%, transparent 100%);
+}
+
+/* Paysage : la baie (portrait) est recadrée plus haut, sur les collines et le
+   village, plutôt qu'au milieu du port. */
+@media (min-width: 768px) {
+  .game-backdrop {
+    background-position: center, center 12%;
+  }
+}
+
+.game-backdrop[data-variant="home"] {
+  --veil: 0.25;
+}
+
+.game-backdrop[data-variant="quiz"] {
+  --veil: 0.72;
+  filter: blur(14px);
+}
+
 .game-shell {
+  position: relative;
   max-width: 720px;
   margin: 0 auto;
   padding: 12px var(--game-gutter) calc(12px + env(safe-area-inset-bottom, 0px));
@@ -75,7 +118,7 @@
   }
 }
 
-/* ---------- Barre d'état de l'accueil (niveau, parties, illimité) ---------- */
+/* ---------- Barre d'état de l'accueil (série, parties, illimité) ---------- */
 
 .game-statusbar {
   display: flex;
@@ -101,7 +144,6 @@
 
 .game-statusbar__cta:hover {
   transform: translateY(-1px);
-  box-shadow: 0 8px 18px -8px var(--accent);
 }
 
 /* Sous 420px, niveau + parties + CTA passaient à la ligne : la barre d'état
@@ -126,8 +168,8 @@
 /* Posée EN TÊTE du plateau : c'est la carte du jeu, elle passe avant le compte
    du joueur et avant le contenu de l'écran. Masquée pendant une question.
 
-   Traitement de la tab bar de l'app : une surface blanche sobre, pas une
-   pastille par onglet. Les illustrations ne se teintent pas — l'état actif
+   Traitement de la tab bar de l'app : un dock crème, pas une pastille par
+   onglet. Les illustrations ne se teintent pas — l'état actif
    passe donc par l'opacité de l'icône et la couleur du libellé, exactement
    comme `TabIcon` dans `app/(tabs)/_layout.tsx`. */
 .game-bottomnav {
@@ -138,10 +180,11 @@
   align-items: stretch;
   justify-content: space-around;
   padding: 8px 6px;
-  background: var(--surface);
-  border: 2px solid var(--rule-light);
-  border-radius: 24px;
-  box-shadow: 0 6px 16px -12px rgb(26 24 22 / 35%);
+  /* Dock DA V3 de l'app : crème opaque, liseré blanc, ombre chaude. */
+  background: var(--key-face);
+  border: 1px solid #ffffff;
+  border-radius: 999px;
+  box-shadow: var(--shadow-warm);
   /* Écrans étroits : la barre défile horizontalement plutôt que de comprimer
      les libellés jusqu'à l'illisible. */
   overflow-x: auto;
@@ -168,7 +211,7 @@
   padding: 2px 8px;
   border: none;
   background: transparent;
-  color: var(--ink-faint);
+  color: var(--ink-mid);
   cursor: pointer;
   white-space: nowrap;
   transition: color 140ms ease;
@@ -182,7 +225,7 @@
 }
 
 .game-bottomnav__item:hover {
-  color: var(--ink-mid);
+  color: var(--ink);
 }
 
 .game-bottomnav__item:hover > :first-child {

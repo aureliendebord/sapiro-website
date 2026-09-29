@@ -382,8 +382,13 @@ export default function GameApp({ lang }: Props) {
   // distraire du quiz — c'est tout l'intérêt du plateau central unique.
   const focusMode = screen.name === "quiz";
 
+  // Fond DA V3 de l'app (`ScreenBackground`) : la baie illustrée sous un voile
+  // crème léger à l'accueil, plus épais ailleurs, floutée pendant une question.
+  const backdrop = screen.name === "home" ? "home" : focusMode ? "quiz" : "screen";
+
   return (
     <div className="sapiro-game">
+      <div className="game-backdrop" data-variant={backdrop} aria-hidden="true" />
       <div className="game-shell">
         <div className="game-board">
           {/* La navigation ouvre le plateau : c'est la carte du jeu, elle passe

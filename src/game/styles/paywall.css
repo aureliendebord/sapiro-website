@@ -3,8 +3,9 @@
  * hero illustré en haut, feuille crème qui remonte par-dessus, CTA épinglé
  * en bas hors du défilement.
  *
- * Le dégradé du hero n'devient opaque qu'en dessous de la moitié haute, pour
- * ne pas délaver l'illustration.
+ * DA V3 (paywall de l'app 2.1.0) : hero crème (la baie, le pingouin et les
+ * icônes fondent d'eux-mêmes vers le crème), titres en encre, et l'orange
+ * réservé au seul bouton d'achat.
  */
 
 .paywall {
@@ -33,13 +34,13 @@
 
 /* ---------- Hero ---------- */
 
+/* L'illustration occupe le haut ; le texte se pose sous le pingouin, sur le
+   crème dans lequel l'image se fond. */
 .paywall__hero {
   position: relative;
   flex: none;
-  min-height: clamp(280px, 40dvh, 380px);
-  background: #ff5e3a;
-  display: flex;
-  align-items: flex-end;
+  padding-top: clamp(160px, 40vw, 205px);
+  background: #faf5ec;
 }
 
 .paywall__hero-img {
@@ -51,31 +52,13 @@
   object-position: top;
 }
 
-/**
- * Le dégradé laisse respirer l'illustration en haut puis devient opaque avant
- * le bloc de texte. Sur mobile il bascule à 70 % parce que le hero fait
- * jusqu'à 480 px ; ici il est plus court, donc la bascule est plus haute —
- * sinon les titres se lisent par-dessus le pingouin.
- */
-.paywall__hero::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(
-    180deg,
-    rgb(255 94 58 / 0%) 0%,
-    rgb(255 94 58 / 25%) 26%,
-    rgb(255 94 58 / 92%) 48%,
-    #ff5e3a 62%
-  );
-}
-
 .paywall__hero-content {
   position: relative;
   z-index: 1;
-  padding: 20px 20px 22px;
-  color: #fff;
+  padding: 12px 20px 30px;
+  color: var(--ink);
   width: 100%;
+  text-align: center;
 }
 
 /* Pastille de preuve : un chiffre vérifiable, jamais un avis inventé. */
@@ -85,8 +68,9 @@
   gap: 7px;
   padding: 5px 12px 5px 6px;
   border-radius: 999px;
-  background: rgb(255 255 255 / 22%);
-  backdrop-filter: blur(6px);
+  background: rgb(255 255 255 / 80%);
+  border: 1px solid #ffffff;
+  color: var(--ink-mid);
   font-size: 12px;
   font-weight: 800;
   margin-bottom: 10px;
@@ -98,14 +82,13 @@
   line-height: 1.18;
   letter-spacing: -0.4px;
   margin: 0 0 4px;
-  text-shadow: 0 2px 8px rgb(120 30 10 / 25%);
   text-wrap: balance;
 }
 
 .paywall__sub {
   font-size: 14px;
   font-weight: 600;
-  color: rgb(255 255 255 / 92%);
+  color: var(--ink-mid);
   margin: 0 0 14px;
 }
 
@@ -115,6 +98,8 @@
   padding: 0;
   display: grid;
   gap: 7px;
+  justify-content: center;
+  text-align: left;
 }
 
 .paywall__features li {
@@ -136,8 +121,8 @@
   width: 18px;
   height: 18px;
   border-radius: 6px;
-  background: rgb(255 255 255 / 24%)
-    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='3.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='20 6 9 17 4 12'/%3E%3C/svg%3E")
+  background: var(--correct-soft)
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%232B8F5E' stroke-width='3.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='20 6 9 17 4 12'/%3E%3C/svg%3E")
     center / 12px no-repeat;
 }
 
@@ -148,9 +133,7 @@
   z-index: 2;
   flex: 1;
   overflow-y: auto;
-  margin-top: -20px;
-  padding: 22px 20px 16px;
-  border-radius: 24px 24px 0 0;
+  padding: 8px 20px 16px;
   background: var(--canvas);
 }
 
@@ -177,10 +160,11 @@
   transition: border-color 140ms ease, background 140ms ease, box-shadow 140ms ease;
 }
 
+/* Formule choisie : liseré orange (la sélection), face blanche. */
 .plan--on {
   border: 2.5px solid var(--accent);
-  background: var(--accent-tint);
-  box-shadow: 0 6px 18px -8px var(--accent-deep);
+  background: #ffffff;
+  box-shadow: 0 10px 18px rgb(120 50 20 / 14%);
 }
 
 .plan__badge {
@@ -264,14 +248,17 @@
   font: inherit;
   cursor: pointer;
   border: none;
-  border-radius: 18px;
+  border-radius: 30px;
   padding: 13px 20px;
+  margin-bottom: 4px;
   display: grid;
   gap: 2px;
   color: #fff;
-  background: linear-gradient(135deg, #ff7a4d, #ff5e3a 55%, #e84a28);
-  box-shadow: 0 8px 16px -4px rgb(255 94 58 / 40%);
-  transition: transform 120ms ease, filter 120ms ease;
+  /* Bouton 3D DA V3 : face orange pleine sur son socle, le seul orange de
+     l'écran. */
+  background: #ff5e3a;
+  box-shadow: 0 4px 0 #c9441f;
+  transition: transform 110ms ease, box-shadow 110ms ease, filter 120ms ease;
 }
 
 .paywall__cta:hover:not(:disabled) {
@@ -279,7 +266,8 @@
 }
 
 .paywall__cta:active:not(:disabled) {
-  transform: scale(0.99);
+  transform: translateY(4px);
+  box-shadow: 0 0 0 #c9441f;
 }
 
 .paywall__cta:disabled {

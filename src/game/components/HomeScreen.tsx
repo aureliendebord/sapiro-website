@@ -1,4 +1,3 @@
-import { BRAND, modeColor } from "@game/design/tokens";
 import { t } from "@game/lib/i18n";
 import { Icon } from "./ui/Icon";
 import { Glyph } from "./ui/Glyph";
@@ -12,8 +11,6 @@ interface ModeRow {
   icon: string;
   nameKey: string;
   descKey: string;
-  /** Clé de couleur dans MODE_COLOR — sert aux pastilles de la ligne. */
-  color: string;
   costsTicket: boolean;
 }
 
@@ -23,8 +20,8 @@ interface ModeRow {
  * Le bento de la V2 (blocs de couleur pleine, carte héros sur deux colonnes)
  * donnait quatre hiérarchies concurrentes : on ne savait plus par où entrer.
  * L'app empile des lignes identiques — illustration, titre, une phrase — et
- * c'est ça qui se lit d'un coup d'œil. On reprend la même grammaire
- * (`ModeTileHorizontal` / `AdventureCard`), relief 3D compris.
+ * c'est ça qui se lit d'un coup d'œil. On reprend la même grammaire : les
+ * panneaux de verre de l'accueil V3 (`Glass` + `PanelRow`).
  *
  * Les emojis sont ceux de l'app (`THEME_EMOJI` / `MODE_ICONS`) : ils désignent
  * des illustrations synchronisées, pas des caractères à afficher.
@@ -32,10 +29,10 @@ interface ModeRow {
 const ROWS: ModeRow[] = [
   // La ligne NAVIGUE vers le sentier (le ticket se consomme au lancement d'un
   // bloc) : elle reste cliquable même à quota épuisé.
-  { action: "journeys", icon: "🧭", nameKey: "journeys", descKey: "journeysDesc", color: "classic", costsTicket: false },
-  { action: "daily", icon: "📅", nameKey: "daily", descKey: "dailyDesc", color: "daily", costsTicket: false },
-  { action: "classic", icon: "🎮", nameKey: "classic", descKey: "classicDesc", color: "classic", costsTicket: true },
-  { action: "survival", icon: "❤️", nameKey: "survival", descKey: "survivalDesc", color: "survival", costsTicket: true },
+  { action: "journeys", icon: "🧭", nameKey: "journeys", descKey: "journeysDesc", costsTicket: false },
+  { action: "daily", icon: "📅", nameKey: "daily", descKey: "dailyDesc", costsTicket: false },
+  { action: "classic", icon: "🔀", nameKey: "classic", descKey: "classicDesc", costsTicket: true },
+  { action: "survival", icon: "❤️", nameKey: "survival", descKey: "survivalDesc", costsTicket: true },
 ];
 
 interface Props {
@@ -76,11 +73,8 @@ export function HomeScreen({ ticketsLeft, isPremium, dailyDone, onAction, onCont
 
       <div className="mode-list">
         {ROWS.map((row) => {
-          const colors = modeColor(row.color);
           const disabled = (row.action === "daily" && dailyDone) || (row.costsTicket && outOfTickets);
-          // Aventure ouvre le sentier : elle porte la couleur de marque et une
-          // face teintée, comme la carte de tête de l'app. Les autres lignes
-          // restent blanches — une seule entrée dominante.
+          // Aventure ouvre le sentier : seule ligne qui navigue (chevron).
           const hero = row.action === "journeys";
 
           const desc =
@@ -92,22 +86,9 @@ export function HomeScreen({ ticketsLeft, isPremium, dailyDone, onAction, onCont
             <button
               type="button"
               key={row.action}
-              className={`mode-row ${hero ? "mode-row--hero" : ""}`}
+              className="mode-row"
               disabled={disabled}
               onClick={() => onAction(row.action)}
-              style={
-                {
-                  // Le liseré coloré est réservé à Aventure : dans l'app, seule
-                  // `AdventureCard` passe un faceColor/edgeColor à
-                  // `PressableCard`. Les autres cartes gardent le liseré beige
-                  // par défaut — c'est ce qui fait ressortir la carte de tête.
-                  "--row-edge": hero ? BRAND.primary : "var(--rule)",
-                  "--row-face": hero ? BRAND.tint : "var(--surface)",
-                  "--row-ink": hero ? BRAND.tintDeep : "var(--ink)",
-                  "--row-tint": colors.tint,
-                  "--row-tint-deep": colors.tintDeep,
-                } as React.CSSProperties
-              }
             >
               <Icon emoji={row.icon} size={56} eager className="mode-row__icon" />
 
