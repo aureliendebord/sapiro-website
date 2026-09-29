@@ -20,7 +20,7 @@ La sortie est commitée : la CI du site n'a pas accès au repo de l'app. Le scri
 lit `~/Projets/sapiro` par défaut, surchargeable avec `SAPIRO_APP_PATH`.
 
 Le reste de `src/game/` est du code web écrit ici : l'interface React, l'état
-local (quota, XP, révision), l'auth et le paiement. L'UI est donc maintenue à
+local (quota, statistiques, série), l'auth et le paiement. L'UI est donc maintenue à
 deux endroits (React Native pour l'app, React pour le web) — c'est assumé ; ce
 qui compte, la logique de jeu, ne l'est pas.
 
@@ -28,7 +28,7 @@ qui compte, la logique de jeu, ne l'est pas.
 
 | Étage | Source unique | Arrivée côté site |
 |---|---|---|
-| **Logique** (tirage, distracteurs, scoring, parcours) | `domain/` + `lib/content/` de l'app | copiés verbatim dans `core/` |
+| **Logique** (tirage, distracteurs, parcours) | `domain/` + `lib/content/` de l'app | copiés verbatim dans `core/` |
 | **Contenu** (entités, traductions, catalogue) | `cdn.sapiro.app/content/` | `src/game/lib/loadContent.ts` |
 
 Le site ne réimplémente **ni l'un ni l'autre**. `core/lib/content/state.ts` est

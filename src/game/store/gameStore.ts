@@ -1,17 +1,17 @@
 /**
  * État de jeu du joueur web — pendant allégé de `stores/gameStore.ts` de l'app.
  *
- * Porte ce dont le jeu web a besoin : XP et niveau, historique local des
- * parties, deck de révision (questions ratées), parcours terminés. Les données
- * lourdes de l'app (badges, ligues, session de survie sauvegardée) restent hors
- * périmètre de la V1 web.
+ * Porte ce dont le jeu web a besoin : statistiques, série du Défi du jour,
+ * historique local des parties, parcours terminés. L'XP, les niveaux, les
+ * badges et le classement ont quitté l'app en 2.1.0 (place aux duels) : ils ont
+ * quitté le web avec elle.
  *
  * La synchronisation cloud passe par `lib/gameResults.ts` : ce store est l'état
  * local, `game_results` est la source de vérité partagée avec le mobile.
  */
 import { create } from "zustand";
 import { persist } from "zustand/middleware";
-import { calculateNewStreak, formatDateKey } from "@/utils/dailyChallenge";
+import { calculateNewStreak } from "@/utils/dailyChallenge";
 
 export interface LocalGameRecord {
   id: string;
@@ -20,13 +20,11 @@ export interface LocalGameRecord {
   theme?: string;
   score: number;
   totalQuestions: number;
-  xpEarned: number;
   duration: number;
   playedAt: number;
 }
 
 interface GameState {
-  xp: number;
   gamesPlayed: number;
   history: LocalGameRecord[];
   completedJourneys: string[];
@@ -34,17 +32,13 @@ interface GameState {
 
   /**
    * Statistiques — mêmes champs que `UserStats` de l'app (`stores/gameStore.ts`).
-   * Elles conditionnent le bonus de série du Défi du jour, les badges, le profil
-   * et le nudge de création de compte : sans elles, tout ce qui suit est aveugle.
+   * Elles alimentent le profil et la série du Défi du jour.
    */
   correctAnswers: number;
   totalAnswers: number;
   bestSurvivalStreak: number;
   /** Série du Défi du jour, en jours consécutifs. */
   dailyStreak: number;
-  /** Jours de JEU consécutifs, tous modes — la métrique des badges « Assidu ». */
-  playStreak: number;
-  lastPlayedDate: string | null;
 
   recordGame: (record: LocalGameRecord) => void;
   markDailyDone: (dayKey: string) => void;
@@ -56,8 +50,7 @@ const HISTORY_LIMIT = 100;
 
 export const useGameStore = create<GameState>()(
   persist(
-    (set, get) => ({
-      xp: 0,
+    (set) => ({
       gamesPlayed: 0,
       history: [],
       completedJourneys: [],
@@ -66,16 +59,9 @@ export const useGameStore = create<GameState>()(
       totalAnswers: 0,
       bestSurvivalStreak: 0,
       dailyStreak: 0,
-      playStreak: 0,
-      lastPlayedDate: null,
 
       recordGame: (record) =>
         set((s) => ({
-          // Série de jours de jeu : même règle calendaire que le Défi
-          // (calculateNewStreak, synchronisé), appliquée à toute partie.
-          playStreak: calculateNewStreak(s.playStreak, s.lastPlayedDate),
-          lastPlayedDate: formatDateKey(new Date()),
-          xp: s.xp + record.xpEarned,
           gamesPlayed: s.gamesPlayed + 1,
           history: [record, ...s.history].slice(0, HISTORY_LIMIT),
           correctAnswers: s.correctAnswers + record.score,
@@ -104,7 +90,6 @@ export const useGameStore = create<GameState>()(
 
       reset: () =>
         set({
-          xp: 0,
           gamesPlayed: 0,
           history: [],
           completedJourneys: [],
@@ -113,64 +98,28 @@ export const useGameStore = create<GameState>()(
           totalAnswers: 0,
           bestSurvivalStreak: 0,
           dailyStreak: 0,
-          playStreak: 0,
-          lastPlayedDate: null,
         }),
     }),
     {
       name: "sapiro-web-game",
-      version: 4,
+      version: 5,
       // Les états persistés en v1 n'ont pas les statistiques : on les crée à
       // zéro plutôt que de laisser `undefined` se propager dans les calculs.
       migrate: (persisted, version) => {
-        const state = persisted as GameState;
-        if (version >= 4) return state;
-        return {
-          ...state,
-          ...(version < 2
-            ? { correctAnswers: 0, totalAnswers: 0, bestSurvivalStreak: 0, dailyStreak: 0 }
-            : {}),
-          ...(version < 3 ? { playStreak: 0, lastPlayedDate: null } : {}),
-          // Le mode Révision a été retiré du jeu web : le champ `review` des
-          // états persistés n'est plus lu. Pas de bump de version — ignorer un
-          // champ ne casse rien, et une migration pour l'effacer ferait
-          // réécrire tous les stockages locaux pour rien.
-        };
+        let state = (persisted ?? {}) as Record<string, unknown>;
+        if (version < 2) {
+          state = { ...state, correctAnswers: 0, totalAnswers: 0, bestSurvivalStreak: 0, dailyStreak: 0 };
+        }
+        // Le mode Révision a été retiré du jeu web : le champ `review` des
+        // états persistés n'est plus lu (ignoré, pas purgé).
+        if (version < 5) {
+          // v5 : plus d'XP ni de niveaux, comme l'app 2.1.0 (sa migration
+          // persist v3) ; la série de jours de jeu ne servait qu'aux badges.
+          const { xp: _xp, playStreak: _ps, lastPlayedDate: _lp, ...rest } = state;
+          state = rest;
+        }
+        return state as unknown as GameState;
       },
     },
   ),
 );
-
-/**
- * Paliers de niveau — identiques à `LEVELS` de `stores/gameStore.ts` de l'app.
- * Les noms affichés viennent des locales (`levels.json`), pas d'ici.
- */
-export const LEVEL_THRESHOLDS = [0, 100, 300, 600, 1000, 1500, 2500, 4000, 6000, 10000] as const;
-
-/** Numéro de niveau (1-10) pour un total d'XP — miroir de `levelForXP`. */
-export function levelFromXp(xp: number): number {
-  let level = 1;
-  for (let i = 0; i < LEVEL_THRESHOLDS.length; i++) {
-    if (xp >= LEVEL_THRESHOLDS[i]) level = i + 1;
-  }
-  return level;
-}
-
-/** XP restant avant le niveau suivant, `null` au niveau maximum. */
-export function xpToNextLevel(xp: number): number | null {
-  const next = LEVEL_THRESHOLDS.find((threshold) => xp < threshold);
-  return next === undefined ? null : next - xp;
-}
-
-/**
- * Part du niveau courant déjà parcourue, en % (0-100). LA formule unique des
- * barres d'XP : les paliers sont non linéaires (100 → 4000 XP), toute
- * arithmétique locale du style `xp % 100` est fausse dès le niveau 2.
- */
-export function levelProgress(xp: number): number {
-  const level = levelFromXp(xp);
-  if (level >= LEVEL_THRESHOLDS.length) return 100;
-  const floor = LEVEL_THRESHOLDS[level - 1];
-  const ceil = LEVEL_THRESHOLDS[level];
-  return Math.max(0, Math.min(100, Math.round(((xp - floor) / (ceil - floor)) * 100)));
-}

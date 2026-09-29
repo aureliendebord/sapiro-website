@@ -1,11 +1,6 @@
-import { useMemo, useState } from "react";
+import { useState } from "react";
 import type { User } from "@supabase/supabase-js";
-import {
-  BADGE_DEFINITIONS,
-  isBadgeConditionMet,
-  type BadgeEvalInput,
-} from "@/domain/progress/badges";
-import { useGameStore, levelFromXp, levelProgress, xpToNextLevel } from "@game/store/gameStore";
+import { useGameStore } from "@game/store/gameStore";
 import { usePathStore } from "@game/store/pathStore";
 import { isSignedIn } from "@game/lib/auth";
 import { openCustomerPortal } from "@game/lib/purchases";
@@ -21,58 +16,22 @@ interface Props {
 }
 
 /**
- * Profil — ce que le joueur a accumulé.
- *
- * Les badges viennent du catalogue synchronisé depuis l'app : mêmes 23 badges,
- * mêmes icônes. Leur déblocage, lui, reste calculé côté mobile ; ici on montre
- * ceux que la progression web a déjà atteints, à partir des mêmes seuils.
- * C'est volontairement en lecture seule — la logique d'attribution est liée à
- * l'état persisté des joueurs en production, on n'en fait pas une copie.
+ * Profil — ce que le joueur a accumulé : la grille de statistiques, comme
+ * l'app 2.1.0 (plus de niveau ni de badges, retirés de l'app).
  */
 export function ProfileScreen({ user, isPremium, onAccount, onSubscribe }: Props) {
   // Le profil est le seul endroit où un abonné revient : c'est donc ici que
   // vivent le changement de moyen de paiement et la résiliation, promis par les
   // mentions du paywall. Sans ça, un abonné n'avait aucune sortie dans le jeu.
   const [portalNotice, setPortalNotice] = useState<string | null>(null);
-  const xp = useGameStore((s) => s.xp);
   const gamesPlayed = useGameStore((s) => s.gamesPlayed);
   const correctAnswers = useGameStore((s) => s.correctAnswers);
   const totalAnswers = useGameStore((s) => s.totalAnswers);
   const bestSurvival = useGameStore((s) => s.bestSurvivalStreak);
   const dailyStreak = useGameStore((s) => s.dailyStreak);
-  const playStreak = useGameStore((s) => s.playStreak);
-  const history = useGameStore((s) => s.history);
   const pathCleared = usePathStore((s) => s.cleared());
 
-  const level = levelFromXp(xp);
-  const remaining = xpToNextLevel(xp);
   const accuracy = totalAnswers > 0 ? Math.round((correctAnswers / totalAnswers) * 100) : 0;
-
-  /**
-   * Badges atteints — évalués par isBadgeConditionMet, LA règle partagée avec
-   * l'app (domain/progress/badges.ts) : plus de copie locale qui diverge.
-   * `badge_count` dépend des autres : deux passes suffisent (pas de badge
-   * badge_count en cascade dans le catalogue).
-   */
-  const unlocked = useMemo(() => {
-    const input: BadgeEvalInput = {
-      gamesPlayed,
-      bestSurvivalStreak: bestSurvival,
-      currentDailyStreak: playStreak,
-      dailyChallengeStreak: dailyStreak,
-      unlockedCount: 0,
-      history,
-    };
-    const first = new Set(
-      BADGE_DEFINITIONS.filter((b) => isBadgeConditionMet(b.condition, input)).map((b) => b.id),
-    );
-    const second = new Set(
-      BADGE_DEFINITIONS.filter((b) =>
-        isBadgeConditionMet(b.condition, { ...input, unlockedCount: first.size }),
-      ).map((b) => b.id),
-    );
-    return second;
-  }, [gamesPlayed, bestSurvival, dailyStreak, playStreak, history]);
 
   return (
     <>
@@ -91,19 +50,6 @@ export function ProfileScreen({ user, isPremium, onAccount, onSubscribe }: Props
       </div>
 
       <section className="profile-card">
-        <div className="profile-level">
-          <Icon emoji="⭐" size={48} eager />
-          <div style={{ flex: 1, minWidth: 0 }}>
-            <strong style={{ fontSize: 18 }}>{t("web.home.level", { level })}</strong>
-            <p className="game-rail__xp" style={{ margin: "2px 0 6px" }}>
-              {remaining === null ? `${xp} XP` : t("web.home.xpToNext", { xp: remaining })}
-            </p>
-            <div className="game-rail__bar">
-              <span style={{ width: `${levelProgress(xp)}%` }} />
-            </div>
-          </div>
-        </div>
-
         <div className="profile-stats">
           <Stat icon="🎮" label={t("web.home.statGames")} value={gamesPlayed} />
           <Stat icon="✅" label={t("web.profile.accuracy")} value={`${accuracy} %`} />
@@ -144,26 +90,6 @@ export function ProfileScreen({ user, isPremium, onAccount, onSubscribe }: Props
         )}
       </section>
 
-      <section style={{ marginTop: 24 }}>
-        <h2 className="journey-section__title">
-          {t("web.profile.badges", { done: unlocked.size, total: BADGE_DEFINITIONS.length })}
-        </h2>
-
-        <div className="badge-grid">
-          {BADGE_DEFINITIONS.map((badge) => {
-            const on = unlocked.has(badge.id);
-            return (
-              <div key={badge.id} className={`badge-card ${on ? "badge-card--on" : ""}`}>
-                <Icon emoji={badge.icon} size={48} />
-                <span className="badge-card__name">{t(`badges.items.${badge.id}.name`)}</span>
-                <span className="badge-card__desc">
-                  {t(`badges.items.${badge.id}.description`)}
-                </span>
-              </div>
-            );
-          })}
-        </div>
-      </section>
     </>
   );
 }

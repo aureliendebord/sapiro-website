@@ -13,7 +13,6 @@ import {
   nextBlockId,
   nodeStatus,
 } from "@/domain/journeys/pathProgress";
-import { themeColor } from "@game/design/tokens";
 import { t } from "@game/lib/i18n";
 import { Icon } from "../ui/Icon";
 import { Glyph } from "../ui/Glyph";
@@ -127,7 +126,6 @@ export function PathScreen({ isPremium, onPlay, onLocked }: Props) {
           const status = nodeStatus(blocks, node.blockId, currentBlock);
           const journey = getJourneyById(node.blockId);
           const mixed = isMixedBlockId(node.blockId);
-          const colors = themeColor(journey?.theme);
           // `journeys.items.<id>` = titre localisé des locales synchronisées ;
           // repli sur le titre FR du catalogue si la clé manque.
           const localized = t(`journeys.items.${node.blockId}`);
@@ -163,12 +161,7 @@ export function PathScreen({ isPremium, onPlay, onLocked }: Props) {
                 type="button"
                 ref={status === "current" ? currentRef : undefined}
                 className={`path-node path-node--${status} ${mixed ? "path-node--mixed" : ""}`}
-                style={
-                  {
-                    width: node.size,
-                    "--node-accent": colors.primary,
-                  } as React.CSSProperties
-                }
+                style={{ width: node.size }}
                 aria-label={`${label} — ${t(`web.path.status.${status}`)}`}
                 onClick={() => {
                   if (status === "locked" || status === "closed") {
@@ -178,12 +171,15 @@ export function PathScreen({ isPremium, onPlay, onLocked }: Props) {
                   onPlay(node.blockId);
                 }}
               >
-                {/* L'illustration remplit le disque, comme dans l'app : elle
-                    n'a plus de large cerne blanc autour d'elle, et le tracé
-                    pointillé ne peut plus transparaître au travers. */}
-                {/* L'illustration EST le nœud : plus de disque blanc derrière
-                    elle, qui rognait le dessin et posait un rond de plus. */}
-                <Icon emoji={journey?.icon ?? "🧭"} size={node.size} className="path-node__icon" />
+                {/* DA V3 de l'app (`PathSection`) : l'illustration détourée
+                    posée dans un disque crème opaque cerclé à la couleur de
+                    l'état ; un drapeau y est découpé en rond. */}
+                <Icon
+                  emoji={journey?.icon ?? "🧭"}
+                  size={node.size - 22}
+                  radius={(node.size - 22) / 2}
+                  className="path-node__icon"
+                />
                 {status === "done" && <span className="path-node__check" aria-hidden="true">✓</span>}
               </button>
 

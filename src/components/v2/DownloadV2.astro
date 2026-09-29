@@ -14,39 +14,39 @@ const qrSvg = await QRCode.toString(qrTarget, {
   type: 'svg',
   margin: 0,
   errorCorrectionLevel: 'M',
-  color: { dark: '#0a0a0f', light: '#ffffff' },
+  color: { dark: '#2A1A14', light: '#ffffff' },
 });
 
 const copy = {
   fr: {
     kicker: 'Prêt ?',
     title: 'Télécharge SAPIRO.\nPuis va te coucher plus cultivé.',
-    subtitle: 'Gratuit. Sans pub. Sans data. 2 000+ questions attendent.',
+    subtitle: 'Gratuit. Sans pub. 2 000+ questions et des duels t\'attendent.',
     ios: 'App Store',
     android: 'Google Play',
     iosSub: 'Télécharger sur',
     androidSub: 'Disponible sur',
-    social: '🔒 Zéro data · 🚫 Zéro pub · ✅ 2 000+ questions',
+    social: '🚫 Zéro pub · 🔒 Données jamais revendues · ✅ 2 000+ questions',
   },
   en: {
     kicker: 'Ready?',
     title: 'Download SAPIRO.\nGo to bed a little smarter.',
-    subtitle: 'Free. No ads. No data. 2,000+ questions waiting.',
+    subtitle: 'Free. No ads. 2,000+ questions and duels waiting.',
     ios: 'App Store',
     android: 'Google Play',
     iosSub: 'Download on the',
     androidSub: 'Get it on',
-    social: '🔒 Zero data · 🚫 Zero ads · ✅ 2,000+ questions',
+    social: '🚫 Zero ads · 🔒 Data never sold · ✅ 2,000+ questions',
   },
   es: {
     kicker: 'Listo?',
     title: 'Descarga SAPIRO.\nVete a dormir un poco mas culto.',
-    subtitle: 'Gratis. Sin anuncios. Sin datos. 2 000+ preguntas te esperan.',
+    subtitle: 'Gratis. Sin anuncios. 2 000+ preguntas y duelos te esperan.',
     ios: 'App Store',
     android: 'Google Play',
     iosSub: 'Descargar en',
     androidSub: 'Disponible en',
-    social: '🔒 Cero datos · 🚫 Cero anuncios · ✅ 2 000+ preguntas',
+    social: '🚫 Cero anuncios · 🔒 Datos nunca vendidos · ✅ 2 000+ preguntas',
   },
 };
 
@@ -54,12 +54,7 @@ const t = copy[lang];
 ---
 
 <section class="download-v2" id="download">
-  <div class="bg-gradient" aria-hidden="true"></div>
-  <div class="bg-orbs" aria-hidden="true">
-    <span class="orb orb-1"></span>
-    <span class="orb orb-2"></span>
-    <span class="orb orb-3"></span>
-  </div>
+  <div class="bg-bay" aria-hidden="true"></div>
 
   <div class="container content">
     <div class="left">
@@ -104,40 +99,19 @@ const t = copy[lang];
     overflow: hidden;
     padding: 120px 0;
     isolation: isolate;
-    color: #fff;
-    background: #0a0a0f;
+    color: #2A1A14;
+    background: linear-gradient(180deg, #FBF1E8 0%, #F6DCCB 100%);
   }
 
-  .bg-gradient {
-    position: absolute;
-    inset: 0;
-    z-index: -2;
-    background:
-      radial-gradient(circle at 20% 30%, rgba(255, 107, 53, 0.4), transparent 55%),
-      radial-gradient(circle at 80% 70%, rgba(168, 85, 247, 0.35), transparent 55%),
-      radial-gradient(circle at 50% 50%, rgba(251, 191, 36, 0.15), transparent 60%);
-  }
-
-  .bg-orbs {
+  /* La baie de l'app, comme sur son accueil (voile crème léger) */
+  .bg-bay {
     position: absolute;
     inset: 0;
     z-index: -1;
-    pointer-events: none;
-  }
-
-  .orb {
-    position: absolute;
-    border-radius: 50%;
-    filter: blur(60px);
-  }
-
-  .orb-1 { width: 300px; height: 300px; background: rgba(255, 107, 53, 0.35); top: -100px; right: -50px; animation: orbFloat 8s ease-in-out infinite; }
-  .orb-2 { width: 260px; height: 260px; background: rgba(168, 85, 247, 0.3); bottom: -80px; left: -50px; animation: orbFloat 9s ease-in-out infinite 1s; }
-  .orb-3 { width: 200px; height: 200px; background: rgba(251, 191, 36, 0.2); top: 50%; left: 40%; animation: orbFloat 7s ease-in-out infinite 2s; }
-
-  @keyframes orbFloat {
-    0%, 100% { transform: translate(0,0); }
-    50% { transform: translate(20px, -30px); }
+    background: url('/images/bg/baie.webp') right 45% / max(55%, 700px) auto no-repeat;
+    -webkit-mask-image: linear-gradient(90deg, transparent 45%, rgba(0, 0, 0, 0.5) 65%, #000 85%);
+    mask-image: linear-gradient(90deg, transparent 45%, rgba(0, 0, 0, 0.5) 65%, #000 85%);
+    opacity: 0.85;
   }
 
   .content {
@@ -152,11 +126,11 @@ const t = copy[lang];
   .kicker {
     display: inline-block;
     padding: 6px 14px;
-    background: rgba(255, 255, 255, 0.1);
-    border: 1px solid rgba(255, 255, 255, 0.15);
+    background: #FFE4DB;
+    color: #B13818;
     border-radius: 999px;
     font-size: 13px;
-    font-weight: 600;
+    font-weight: 800;
     letter-spacing: 0.02em;
     margin-bottom: 24px;
   }
@@ -172,7 +146,8 @@ const t = copy[lang];
 
   .subtitle {
     font-size: 1.15rem;
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(42, 26, 20, 0.72);
+    font-weight: 600;
     line-height: 1.55;
     margin-bottom: 32px;
     max-width: 520px;
@@ -190,17 +165,17 @@ const t = copy[lang];
     align-items: center;
     gap: 14px;
     padding: 14px 24px;
-    background: rgba(255, 255, 255, 0.95);
-    color: #0a0a0f;
+    background: #2A1A14;
+    color: #fff;
     border-radius: 16px;
     font-weight: 600;
     transition: transform 0.2s, box-shadow 0.2s;
-    box-shadow: 0 10px 30px -8px rgba(0, 0, 0, 0.35);
+    box-shadow: 0 12px 26px -12px rgba(120, 50, 20, 0.5);
   }
 
   .store:hover {
     transform: translateY(-3px);
-    box-shadow: 0 16px 40px -8px rgba(0, 0, 0, 0.45);
+    box-shadow: 0 18px 32px -12px rgba(120, 50, 20, 0.55);
   }
 
   .store-txt {
@@ -211,7 +186,7 @@ const t = copy[lang];
 
   .store-txt small {
     font-size: 10px;
-    color: #6b7280;
+    color: rgba(255, 255, 255, 0.7);
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 0.1em;
@@ -224,7 +199,8 @@ const t = copy[lang];
 
   .social {
     font-size: 13px;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(42, 26, 20, 0.6);
+    font-weight: 600;
     letter-spacing: 0.02em;
   }
 
@@ -234,11 +210,11 @@ const t = copy[lang];
   .qr-card {
     padding: 24px;
     background: rgba(255, 255, 255, 0.98);
-    color: #0a0a0f;
+    color: #2A1A14;
     border-radius: 24px;
     width: 260px;
     text-align: center;
-    box-shadow: 0 40px 80px -20px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 30px 60px -24px rgba(120, 50, 20, 0.45);
     transform: rotate(-3deg);
     transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1);
   }
@@ -248,7 +224,7 @@ const t = copy[lang];
   .qr-head {
     font-size: 13px;
     font-weight: 600;
-    color: #6b7280;
+    color: #6E665C;
     margin-bottom: 14px;
     letter-spacing: 0.05em;
   }
@@ -271,7 +247,7 @@ const t = copy[lang];
   .qr-foot {
     font-size: 14px;
     font-weight: 700;
-    color: #0a0a0f;
+    color: #2A1A14;
   }
 
   @media (max-width: 840px) {

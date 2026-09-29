@@ -5,7 +5,7 @@
 // Constantes du jeu — source de verite unique
 // ============================================
 
-/** Nombre de questions en mode classique / capital */
+/** Nombre de questions en mode classique */
 export const CLASSIC_QUESTION_COUNT = 10;
 
 /** Nombre de questions pour le defi du jour */
@@ -16,34 +16,6 @@ export const OPTIONS_COUNT = 4;
 
 /** Nombre de vies en mode survie */
 export const SURVIVAL_LIVES = 3;
-
-// ============================================
-// XP et scoring
-// ============================================
-
-/** XP par bonne reponse */
-export const XP_PER_CORRECT = 10;
-
-/** Bonus score parfait (si score === total ET total >= seuil) */
-export const PERFECT_BONUS = 20;
-export const PERFECT_BONUS_MIN_QUESTIONS = 10;
-
-/** Bonus survie (score >= seuil) */
-export const SURVIVAL_BONUS = 30;
-export const SURVIVAL_BONUS_MIN_SCORE = 10;
-
-/** Bonus survie complete (tout le pool epuise) */
-export const SURVIVAL_COMPLETE_BONUS = 100;
-
-/** Bonus survie parfaite (complete sans perdre de vie) */
-export const SURVIVAL_PERFECT_BONUS = 200;
-
-/** Bonus streak daily (streak >= seuil) */
-export const DAILY_STREAK_BONUS = 10;
-export const DAILY_STREAK_BONUS_MIN = 7;
-
-/** Bonus defi quotidien parfait */
-export const DAILY_PERFECT_BONUS = 20;
 
 // ============================================
 // Couleurs par mode de jeu
@@ -66,13 +38,6 @@ export const QUIZ_MODE_COLORS: Record<string, ModeColorScheme> = {
     background: "#FFE4DB",
     buttonColor: "#FF5E3A",
   },
-  capital: {
-    gradient: ["#FBF4EB", "#FBF4EB", "#FBF4EB"],
-    primary: "#F4B740",
-    light: "#FDEBC3",
-    background: "#FDEBC3",
-    buttonColor: "#F4B740",
-  },
   survival: {
     gradient: ["#FBF4EB", "#FBF4EB", "#FBF4EB"],
     primary: "#E5435A",
@@ -80,12 +45,20 @@ export const QUIZ_MODE_COLORS: Record<string, ModeColorScheme> = {
     background: "#FBDDE2",
     buttonColor: "#E5435A",
   },
+  // Défi du jour : orange de marque (DA V3, 24/09).
   daily: {
     gradient: ["#FBF4EB", "#FBF4EB", "#FBF4EB"],
-    primary: "#4C9A6B",
-    light: "#DDEDDF",
-    background: "#DDEDDF",
-    buttonColor: "#4C9A6B",
+    primary: "#FF5E3A",
+    light: "#FFE4DB",
+    background: "#FFE4DB",
+    buttonColor: "#FF5E3A",
+  },
+  duel: {
+    gradient: ["#FBF4EB", "#FBF4EB", "#FBF4EB"],
+    primary: "#FF5E3A",
+    light: "#FFE4DB",
+    background: "#FFE4DB",
+    buttonColor: "#FF5E3A",
   },
   review: {
     gradient: ["#FBF4EB", "#FBF4EB", "#FBF4EB"],
@@ -107,12 +80,6 @@ export const RESULT_MODE_COLORS: Record<
     light: "#FFE4DB",
     background: "#FFE4DB",
   },
-  capital: {
-    gradient: ["#FBF4EB", "#FBF4EB", "#FBF4EB"],
-    primary: "#F4B740",
-    light: "#FDEBC3",
-    background: "#FDEBC3",
-  },
   survival: {
     gradient: ["#FBF4EB", "#FBF4EB", "#FBF4EB"],
     primary: "#E5435A",
@@ -121,9 +88,15 @@ export const RESULT_MODE_COLORS: Record<
   },
   daily: {
     gradient: ["#FBF4EB", "#FBF4EB", "#FBF4EB"],
-    primary: "#4C9A6B",
-    light: "#DDEDDF",
-    background: "#DDEDDF",
+    primary: "#FF5E3A",
+    light: "#FFE4DB",
+    background: "#FFE4DB",
+  },
+  duel: {
+    gradient: ["#FBF4EB", "#FBF4EB", "#FBF4EB"],
+    primary: "#FF5E3A",
+    light: "#FFE4DB",
+    background: "#FFE4DB",
   },
   review: {
     gradient: ["#FBF4EB", "#FBF4EB", "#FBF4EB"],

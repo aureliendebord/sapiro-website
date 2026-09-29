@@ -7,7 +7,7 @@
  * Vocabulaire (attention, il a changé) :
  *  - un **bloc** = une partie sur un parcours du catalogue (10 questions) ;
  *  - une **étape** = 5 blocs thématiques (un par univers) + 1 **bloc mixte**
- *    de clôture à 20 questions, tirées uniquement des 5 parcours de l'étape.
+ *    de clôture à 10 questions, tirées uniquement des 5 parcours de l'étape.
  *
  * Progression : les 5 blocs thématiques d'une étape ouvrent son bloc mixte,
  * et le bloc mixte ouvre l'étape suivante. Le mixte n'est jamais un raccourci
@@ -36,19 +36,29 @@ export const THEME_ORDER: readonly ThemeType[] = [
   "monument",
 ];
 
-/** Questions d'un bloc thématique, puis du bloc mixte de clôture. */
+/**
+ * Questions d'un bloc thématique, puis du bloc mixte de clôture.
+ *
+ * Mixte ramené de 20 à 10 questions (décision 2026-09-09) : à 20 questions et
+ * 5 erreurs tolérées, le Grand mélange de l'étape 1 ne passait qu'à 28 % par
+ * tentative sur 2.0.4-2.0.5 (35 réussites / 91 échecs, médiane 7 erreurs) et
+ * 95 % des joueurs n'ont jamais quitté l'étape 1 en 30 jours.
+ */
 export const BLOCK_QUESTIONS = 10;
-export const MIXED_QUESTIONS = 20;
+export const MIXED_QUESTIONS = 10;
 
 /**
- * Erreurs tolérées sur le bloc MIXTE uniquement (décision 2026-08-15, sur les
- * données de la première semaine : 87 % d'échec au mélange, 2 joueurs sur 92
- * au-delà de l'étape 1). Les blocs thématiques n'échouent plus jamais : les
- * erreurs sont repassées en fin de bloc jusqu'à réussite (mécanique Duolingo,
- * cf. l'écran quiz) — le mélange reste le seul examen, donc le seul verrou
- * anti-speedrun du chemin.
+ * Erreurs tolérées sur le bloc MIXTE uniquement. Les blocs thématiques
+ * n'échouent plus jamais : les erreurs sont repassées en fin de bloc jusqu'à
+ * réussite (mécanique Duolingo, cf. l'écran quiz) — le mélange reste le seul
+ * examen, donc le seul verrou anti-speedrun du chemin.
+ *
+ * 3 sur 10 : le taux d'erreur par question mesuré au mélange est ~35 % ; avec
+ * 10 questions, 3 erreurs tolérées donnent ~50 % de réussite par tentative
+ * (cible), 2 en donneraient ~40 %, 4 ~75 %. Historique : 2 sur 20 à la sortie
+ * (87 % d'échec), 5 sur 20 le 2026-08-15 (72 % d'échec).
  */
-export const MIXED_MAX_MISTAKES = 5;
+export const MIXED_MAX_MISTAKES = 3;
 
 // ============================================
 // Les étapes

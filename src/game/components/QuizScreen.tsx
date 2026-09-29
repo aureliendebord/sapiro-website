@@ -33,16 +33,11 @@ const PALIER_STEP = 10;
 
 interface Props {
   config: SessionConfig;
-  /**
-   * Série du Défi du jour AVANT cette partie : `calculateXP` en a besoin pour
-   * accorder le bonus de série. Sans elle, le bonus n'était jamais versé.
-   */
-  previousDailyStreak: number;
   onFinish: (result: SessionResult, answered: number) => void;
   onQuit: (answered: number) => void;
 }
 
-export function QuizScreen({ config, previousDailyStreak, onFinish, onQuit }: Props) {
+export function QuizScreen({ config, onFinish, onQuit }: Props) {
   const [session, setSession] = useState<SessionState>(() => startSession(config));
   const [picked, setPicked] = useState<string | null>(null);
   const [muted, setMutedState] = useState(() => getMuted());
@@ -81,7 +76,7 @@ export function QuizScreen({ config, previousDailyStreak, onFinish, onQuit }: Pr
           setPicked(null);
           setSession(state);
           if (state.finished) {
-            onFinish(finishSession(state, { previousDailyStreak }), state.questionIndex);
+            onFinish(finishSession(state), state.questionIndex);
           }
         };
 
@@ -94,7 +89,7 @@ export function QuizScreen({ config, previousDailyStreak, onFinish, onQuit }: Pr
         }
       }, FEEDBACK_MS);
     },
-    [picked, session, onFinish, previousDailyStreak, config.language],
+    [picked, session, onFinish, config.language],
   );
 
   // Clavier : 1-4 pour répondre, Échap pour quitter. Le jeu est jouable au

@@ -20,7 +20,7 @@ export const CDN_BASE_URL = "https://cdn.sapiro.app";
  * d'images : le cache CDN Cloudflare est immuable (1 an) ; changer le `?v=`
  * crée une nouvelle clé de cache et force le rafraîchissement sans purge manuelle.
  */
-export const MONUMENT_IMAGE_VERSION = 7;
+export const MONUMENT_IMAGE_VERSION = 8;
 
 /**
  * Version des images d'œuvres d'art. Bumper après un re-téléchargement pour

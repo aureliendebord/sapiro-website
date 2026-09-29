@@ -84,6 +84,7 @@ export const EMOJI_TO_ICON: Record<string, string> = {
   "📡": "satellite-dish",
   "📱": "smartphone",
   "📻": "contemporary-era",
+  "🔀": "quick-play",
   "🔍": "magnifier",
   "🔎": "magnifier",
   "🔓": "unlocked",

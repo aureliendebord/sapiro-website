@@ -9,14 +9,17 @@ import { FLAG_FILES } from "@game/design/flags.generated";
  * illustration → drapeau SVG → emoji natif. Il n'y a jamais de trou visuel.
  *
  * Les `.webp` sont servis depuis `public/images/icons/` (synchronisés depuis
- * l'app par `npm run sync:game`) : rien n'entre dans le bundle JS.
+ * l'app par `npm run sync:game`) : rien n'entre dans le bundle JS. Depuis la
+ * DA V3 ce sont des détourages sur fond transparent (plus de tuile orange) :
+ * aucun arrondi ne leur est appliqué, il rognerait le dessin. Seuls les
+ * drapeaux, rectangulaires, gardent des coins arrondis.
  */
 interface IconProps {
   /** Emoji source, tel que stocké dans les données (`journey.icon`, badge…). */
   emoji: string;
   /** Côté en pixels (largeur = hauteur). */
   size?: number;
-  /** Rayon des coins. Par défaut 22 % du côté, comme l'app (look « icône d'app »). */
+  /** Rayon des coins d'un DRAPEAU. Par défaut 22 % du côté, comme l'app. Sans effet sur une illustration détourée. */
   radius?: number;
   /** Force l'emoji natif — pour les mini-icônes au fil du texte. */
   inline?: boolean;
@@ -68,7 +71,7 @@ export function Icon({
         decoding="async"
         loading={eager ? "eager" : "lazy"}
         className={`sapiro-ico ${className ?? ""}`.trim()}
-        style={{ borderRadius: radius ?? Math.round(size * 0.22), ...style }}
+        style={{ borderRadius: slug ? 0 : radius ?? Math.round(size * 0.22), ...style }}
       />
     );
   }

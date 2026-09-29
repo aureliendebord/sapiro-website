@@ -7,6 +7,7 @@ import { Glyph } from "./ui/Glyph";
 import { celebrate } from "@game/lib/celebrate";
 import { play } from "@game/lib/sounds";
 import { mobileStore } from "@game/lib/device";
+import { useGameStore } from "@game/store/gameStore";
 
 interface Props {
   result: SessionResult;
@@ -34,6 +35,8 @@ export function ResultScreen({
   // Sur téléphone, la sortie est l'app (cf. AppHandoffModal) : le libellé
   // doit annoncer ce que le bouton ouvre vraiment.
   const onPhone = mobileStore() !== null;
+  // Déjà avancée par markDailyDone avant l'affichage du résultat.
+  const dailyStreak = useGameStore((s) => s.dailyStreak);
 
   // Célébration à l'arrivée, comme sur mobile — mais seulement quand il y a
   // quelque chose à célébrer : des confettis sur un 2/10 sonnent faux.
@@ -58,17 +61,12 @@ export function ResultScreen({
         </p>
         <p className="result-label">{commentFor(ratio, result.mode)}</p>
 
-        <span className="result-xp">+{result.xp.totalXP} XP</span>
-
-        {bonusLines(result).length > 0 && (
-          <ul className="result-bonuses">
-            {bonusLines(result).map(({ key, xp }) => (
-              <li key={key}>
-                <span>{t(`web.result.${key}`)}</span>
-                <strong>+{xp} XP</strong>
-              </li>
-            ))}
-          </ul>
+        {/* Défi du jour : pastille de série sous le score, comme l'app 2.1.0
+            (l'XP a disparu, le score parle seul). */}
+        {result.mode === "daily" && (
+          <span className="result-streak">
+            <Icon emoji="🔥" size={16} /> {dailyStreak}
+          </span>
         )}
 
         <div className="result-actions">
@@ -112,22 +110,6 @@ export function ResultScreen({
       </div>
     </div>
   );
-}
-
-/**
- * Détail des bonus obtenus. Le calcul vient de `calculateXP` du cœur
- * synchronisé : on ne fait qu'afficher ce qu'il a déjà décidé.
- */
-function bonusLines(result: SessionResult): { key: string; xp: number }[] {
-  const { xp } = result;
-  return [
-    { key: "bonusPerfect", xp: xp.perfectBonus },
-    { key: "bonusSurvival", xp: xp.survivalBonus },
-    { key: "bonusSurvivalComplete", xp: xp.survivalCompleteBonus },
-    { key: "bonusSurvivalPerfect", xp: xp.survivalPerfectBonus },
-    { key: "bonusDailyStreak", xp: xp.dailyStreakBonus },
-    { key: "bonusDailyPerfect", xp: xp.dailyPerfectBonus },
-  ].filter((line) => line.xp > 0);
 }
 
 /** Médaille selon la réussite — même palier que l'écran de résultat de l'app. */

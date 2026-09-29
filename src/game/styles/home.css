@@ -1,12 +1,8 @@
 /**
  * Accueil du jeu : une ligne par mode.
  *
- * La V1 alignait 5 lignes blanches identiques et les modes étaient invisibles ;
- * la V2 a répondu par un bento de blocs de couleur pleine, qui donnait quatre
- * hiérarchies concurrentes et aucun point d'entrée clair. On revient à des
- * lignes, mais avec la grammaire de l'app (`ModeTileHorizontal`) : illustration,
- * titre, une phrase, relief 3D, et le liseré à la couleur du mode. C'est la
- * couleur du LISERÉ qui distingue les modes, pas un aplat par carte.
+ * Des lignes avec la grammaire de l'accueil V3 de l'app : illustration
+ * détourée, titre, une phrase, sur un panneau de verre.
  */
 
 /* L'accueil doit tenir dans une fenêtre de téléphone : la navigation vit
@@ -19,9 +15,9 @@
 }
 
 /**
- * Relief 3D de l'app (`PressableCard`) : la face repose sur un liseré bas plus
- * foncé, rendu par un `box-shadow` plein — pas de calque supplémentaire, et la
- * hauteur ne bouge pas quand la face s'enfonce au clic.
+ * DA V3 de l'accueil de l'app : chaque mode est un panneau de VERRE posé sur la
+ * baie (`Glass` + `PanelRow`) — face blanche translucide, flou du fond, liseré
+ * clair, ombre chaude. Aucun aplat orange : l'orange est réservé à l'action.
  */
 .mode-row {
   position: relative;
@@ -29,32 +25,33 @@
   align-items: center;
   gap: 14px;
   width: 100%;
-  padding: 14px;
-  border: 2px solid var(--row-edge);
-  border-radius: 24px;
-  background: var(--row-face);
-  color: var(--row-ink);
+  padding: 12px 14px;
+  border: 1px solid var(--glass-edge);
+  border-radius: 28px;
+  background: var(--glass-bg);
+  -webkit-backdrop-filter: blur(16px);
+  backdrop-filter: blur(16px);
+  color: var(--ink);
   text-align: left;
   font: inherit;
   cursor: pointer;
-  box-shadow: 0 5px 0 var(--row-edge);
-  transition: transform 140ms ease, box-shadow 140ms ease;
+  box-shadow: var(--shadow-warm);
+  transition: transform 140ms ease, box-shadow 140ms ease, background 140ms ease;
 }
 
 .mode-row:hover:not(:disabled) {
   transform: translateY(-2px);
-  box-shadow: 0 7px 0 var(--row-edge);
+  background: rgb(255 255 255 / 78%);
+  box-shadow: 0 14px 22px rgb(120 50 20 / 18%);
 }
 
-/* Au clic la face s'enfonce sur son liseré, qui disparaît — la sensation
-   « touche de jeu » de l'app. */
 .mode-row:active:not(:disabled) {
-  transform: translateY(5px);
-  box-shadow: 0 0 0 var(--row-edge);
+  transform: translateY(1px);
+  opacity: 0.85;
 }
 
 .mode-row:disabled {
-  opacity: 0.55;
+  opacity: 0.5;
   cursor: not-allowed;
 }
 
@@ -65,7 +62,6 @@
   flex: none;
   width: 56px;
   height: 56px;
-  border-radius: 14px;
 }
 
 .mode-row__body {
@@ -93,17 +89,12 @@
   font-size: 13.5px;
   font-weight: 600;
   line-height: 1.35;
-  /* Sur la ligne héros, la teinte de marque porte aussi le sous-titre. */
-  color: var(--row-desc, var(--ink-mid));
-}
-
-.mode-row--hero .mode-row__desc {
-  --row-desc: var(--row-ink);
+  color: var(--ink-mid);
 }
 
 .mode-row__chevron {
   flex: none;
-  color: var(--row-edge);
+  color: var(--ink-mid);
 }
 
 @media (min-width: 560px) {
@@ -116,15 +107,15 @@
   }
 }
 
-/* Pastille douce à la couleur du mode, comme les chips de `DailyCard` :
-   fond `tint`, texte `tintDeep`. Le liseré de la ligne étant beige, c'est ici
-   que la couleur du mode se voit. */
+/* Pastille « Offert » du Défi : crème sur le verre, encre — une étiquette,
+   pas une action. */
 .mode-row__badge {
   flex: none;
   padding: 4px 10px;
   border-radius: 999px;
-  background: var(--row-tint);
-  color: var(--row-tint-deep);
+  background: rgb(255 253 250 / 90%);
+  border: 1px solid var(--glass-edge);
+  color: var(--ink-mid);
   font-size: 12px;
   font-weight: 800;
   white-space: nowrap;

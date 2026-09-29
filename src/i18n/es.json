@@ -121,7 +121,7 @@
     "sections": [
       {
         "title": "Recopilación de datos",
-        "content": "SAPIRO no recopila ningún dato personal. Todos tus datos de progreso (puntuaciones, insignias, estadísticas) se almacenan localmente en tu dispositivo."
+        "content": "SAPIRO no recopila ningún dato personal. Todos tus datos de progreso (puntuaciones, rachas, estadísticas) se almacenan localmente en tu dispositivo."
       },
       {
         "title": "Cookies y seguimiento",
@@ -238,7 +238,7 @@
         "name": "Tomás D.",
         "role": "Profesor de secundaria",
         "rating": 5,
-        "text": "Lo uso como apoyo en clase de geografía. Los alumnos se motivan con el sistema de XP y los desafíos. Que no tenga publicidad es una ventaja real en el contexto escolar.",
+        "text": "Lo uso como apoyo en clase de geografía. Los alumnos se motivan con los desafíos. Que no tenga publicidad es una ventaja real en el contexto escolar.",
         "store": "App Store"
       },
       {
@@ -252,7 +252,7 @@
         "name": "Carlos M.",
         "role": "Padre tecnológico",
         "rating": 5,
-        "text": "Hacemos el desafío diario en familia los domingos por la mañana. Se ha convertido en un ritual. La app es limpia, rápida, sin recopilación de datos. Justo lo que buscaba para los niños.",
+        "text": "Hacemos el desafío diario en familia los domingos por la mañana. Se ha convertido en un ritual. La app es limpia, rápida, sin venta de datos. Justo lo que buscaba para los niños.",
         "store": "App Store"
       },
       {
@@ -278,15 +278,15 @@
     "items": [
       {
         "question": "¿SAPIRO es realmente gratis?",
-        "answer": "Sí. La versión gratuita da acceso a los 4 universos (geografía, historia, arte, naturaleza), una docena de recorridos, los modos Clásico y Supervivencia ilimitados, y el Desafío diario. Sin publicidad."
+        "answer": "Sí, y sin publicidad. Cada día tienes 3 partidas gratis (duelos incluidos) y el Reto del día, en los 5 mundos. Sapiro+ desbloquea partidas ilimitadas y todos los recorridos."
       },
       {
         "question": "¿Mi hijo puede jugar sin riesgo?",
-        "answer": "SAPIRO no contiene publicidad y no recopila ningún dato personal. Sin tracking, sin cuenta obligatoria, sin contenido de terceros. Tu hijo puede jugar con total autonomía."
+        "answer": "SAPIRO no contiene publicidad y no vende ningún dato. Sin cookies publicitarias, sin cuenta obligatoria, sin contenido de terceros. Tu hijo puede jugar con total autonomía."
       },
       {
         "question": "¿SAPIRO funciona sin conexión a internet?",
-        "answer": "Los quizzes funcionan sin conexión: todo el contenido se descarga con la aplicación. Puedes jugar en el avión, en el metro o de camping. Solo las actualizaciones de contenido y las clasificaciones en línea requieren red."
+        "answer": "Los quizzes funcionan sin conexión: todo el contenido se descarga con la aplicación. Puedes jugar en el avión, en el metro o de camping. Solo los duelos y las actualizaciones de contenido requieren red."
       },
       {
         "question": "¿Qué temas cubre SAPIRO?",
@@ -294,7 +294,7 @@
       },
       {
         "question": "¿SAPIRO recopila mis datos?",
-        "answer": "No. Cero recopilación de datos. Sin cookies, sin tracking, sin transmisión a terceros. Tus datos de progresión se quedan en tu dispositivo."
+        "answer": "Solo lo necesario, y no vendemos nada. Sin publicidad ni cookies publicitarias. Medimos el uso (partidas jugadas, páginas vistas) para mejorar Sapiro. La cuenta es opcional: solo guarda tu progreso y tu suscripción."
       },
       {
         "question": "¿SAPIRO está disponible en iOS y Android?",
