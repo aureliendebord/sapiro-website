@@ -2,7 +2,7 @@
   "lang": "en",
   "meta": {
     "title": "SAPIRO - General Knowledge Quiz",
-    "description": "SAPIRO: free quiz app on geography, history, art and nature. 2000+ questions to learn while having fun. No ads, no data collection. For kids and adults."
+    "description": "SAPIRO: free quiz app on geography, history, art and nature. 2000+ questions to learn while having fun. No ads, data never sold. For kids and adults."
   },
   "header": {
     "home": "Home",
@@ -121,7 +121,7 @@
     "sections": [
       {
         "title": "Data Collection",
-        "content": "SAPIRO does not collect any personal data. All your progress data (scores, badges, statistics) are stored locally on your device."
+        "content": "SAPIRO does not collect any personal data. All your progress data (scores, streaks, statistics) are stored locally on your device."
       },
       {
         "title": "Cookies and Tracking",
@@ -238,7 +238,7 @@
         "name": "James T.",
         "role": "Middle school teacher",
         "rating": 5,
-        "text": "I use it as a geography class supplement. Students love the XP system and challenges. The fact that it's ad-free is a real advantage in a school setting.",
+        "text": "I use it as a geography class supplement. Students love the challenges. The fact that it's ad-free is a real advantage in a school setting.",
         "store": "App Store"
       },
       {
@@ -252,7 +252,7 @@
         "name": "David K.",
         "role": "Tech-savvy dad",
         "rating": 5,
-        "text": "We do the daily challenge as a family on Sunday mornings. It's become a ritual. The app is clean, fast, no data collection. Exactly what I wanted for the kids.",
+        "text": "We do the daily challenge as a family on Sunday mornings. It's become a ritual. The app is clean, fast, data never sold. Exactly what I wanted for the kids.",
         "store": "App Store"
       },
       {
@@ -278,11 +278,11 @@
     "items": [
       {
         "question": "Is SAPIRO really free?",
-        "answer": "Yes. The free version gives you access to all 4 universes (geography, history, art, nature), about a dozen paths, unlimited Classic and Survival modes, and the Daily Challenge. No ads."
+        "answer": "Yes, and ad-free. Every day you get 3 free games (duels included) and the Daily Challenge, across all 5 worlds. Sapiro+ unlocks unlimited games and every path."
       },
       {
         "question": "Is it safe for my child?",
-        "answer": "SAPIRO contains no ads and collects no personal data. No tracking, no required account, no third-party content. Your child can play independently."
+        "answer": "SAPIRO contains no ads and never sells data. No advertising cookies, no required account, no third-party content. Your child can play independently."
       },
       {
         "question": "Does SAPIRO work offline?",
@@ -294,7 +294,7 @@
       },
       {
         "question": "Does SAPIRO collect my data?",
-        "answer": "No. Zero data collection. No cookies, no tracking, no sharing with third parties. Your progress data stays on your device."
+        "answer": "Only what's needed, and we never sell anything. No ads, no advertising cookies. We measure usage (games played, pages viewed) to improve Sapiro. An account is optional: it only saves your progress and subscription."
       },
       {
         "question": "Is SAPIRO available on iOS and Android?",
@@ -312,7 +312,7 @@
   },
   "about": {
     "title": "About SAPIRO",
-    "text": "SAPIRO is a free, ad-free educational quiz app for iOS and Android, developed by Agence Debord EURL (Paris, France). It covers five domains: geography (197 countries), history (500+ historical figures), art (553 major artworks), nature (600 animal species), and monuments (500 monuments). The app includes over 2,000 manually verified questions, each with an explanation. No personal data is collected. The app is available in French, English, and Spanish.",
+    "text": "SAPIRO is a free, ad-free educational quiz app for iOS and Android, developed by Agence Debord EURL (Paris, France). It covers five domains: geography (197 countries), history (500+ historical figures), art (553 major artworks), nature (600 animal species), and monuments (500 monuments). The app includes over 2,000 manually verified questions, each with an explanation. It includes a Duel mode against other players. No ads, and data is never sold. The app is available in French, English, and Spanish.",
     "stats": {
       "questions": "2,000+ questions",
       "countries": "197 countries",

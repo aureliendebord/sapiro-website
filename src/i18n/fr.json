@@ -121,7 +121,7 @@
     "sections": [
       {
         "title": "Collecte de données",
-        "content": "SAPIRO ne collecte aucune donnée personnelle. Toutes vos données de progression (scores, badges, statistiques) sont stockées localement sur votre appareil."
+        "content": "SAPIRO ne collecte aucune donnée personnelle. Toutes vos données de progression (scores, séries, statistiques) sont stockées localement sur votre appareil."
       },
       {
         "title": "Cookies et tracking",
@@ -238,7 +238,7 @@
         "name": "Thomas D.",
         "role": "Enseignant en collège",
         "rating": 5,
-        "text": "Je l'utilise comme support en cours de géographie. Les élèves sont motivés par le système de XP et les défis. Le fait que ce soit sans pub, c'est un vrai plus en contexte scolaire.",
+        "text": "Je l'utilise comme support en cours de géographie. Les élèves sont motivés par les défis. Le fait que ce soit sans pub, c'est un vrai plus en contexte scolaire.",
         "store": "App Store"
       },
       {
@@ -252,7 +252,7 @@
         "name": "Laurent M.",
         "role": "Papa geek",
         "rating": 5,
-        "text": "On fait le défi quotidien en famille le dimanche matin. C'est devenu un rituel. L'app est propre, rapide, pas de collecte de données. Exactement ce que je cherchais pour les enfants.",
+        "text": "On fait le défi quotidien en famille le dimanche matin. C'est devenu un rituel. L'app est propre, rapide, aucune revente de données. Exactement ce que je cherchais pour les enfants.",
         "store": "App Store"
       },
       {
@@ -278,11 +278,11 @@
     "items": [
       {
         "question": "SAPIRO est-il vraiment gratuit ?",
-        "answer": "Oui. La version gratuite donne accès aux 4 univers (géographie, histoire, art, nature), à une douzaine de parcours, aux modes Classique et Survie en illimité, et au Défi quotidien. Sans publicité."
+        "answer": "Oui, et sans publicité. Chaque jour, tu as 3 parties gratuites (duels compris) et le Défi du jour, sur les 5 univers. Sapiro+ débloque les parties illimitées et tous les parcours."
       },
       {
         "question": "Mon enfant peut-il jouer sans risque ?",
-        "answer": "SAPIRO ne contient aucune publicité et ne collecte aucune donnée personnelle. Pas de tracking, pas de compte obligatoire, pas de contenu tiers. Votre enfant peut jouer en toute autonomie."
+        "answer": "SAPIRO ne contient aucune publicité et ne revend aucune donnée. Pas de cookie publicitaire, pas de compte obligatoire, pas de contenu tiers. Votre enfant peut jouer en toute autonomie."
       },
       {
         "question": "SAPIRO fonctionne-t-il sans connexion internet ?",
@@ -294,7 +294,7 @@
       },
       {
         "question": "SAPIRO collecte-t-il mes données ?",
-        "answer": "Non. Zéro collecte de données. Pas de cookies, pas de tracking, pas de transmission à des tiers. Vos données de progression restent sur votre appareil."
+        "answer": "Le strict nécessaire, et on ne revend rien. Pas de publicité ni de cookie publicitaire. On mesure l'usage (parties jouées, pages vues) pour améliorer Sapiro. Le compte est facultatif : il sert à sauvegarder ta progression et ton abonnement."
       },
       {
         "question": "SAPIRO est-il disponible sur iOS et Android ?",

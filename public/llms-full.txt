@@ -1,6 +1,6 @@
 # SAPIRO
 
-> SAPIRO is a free, ad-free educational quiz app for iOS and Android. It covers geography (197 countries), history (500+ figures), art (553 artworks), and nature (600 animal species) with over 2,000 verified questions. Every answer includes an explanation. No data collection, no tracking.
+> SAPIRO is a free, ad-free educational quiz app for iOS and Android. It covers geography (197 countries), history (500+ figures), art (553 artworks), and nature (600 animal species) with over 2,000 verified questions. Every answer includes an explanation. Data never sold, no advertising cookies.
 
 ## About SAPIRO
 
@@ -23,7 +23,7 @@ SAPIRO is rated 5/5 on Google Play and has earned the Teacher Approved badge. Te
 ## Key differentiators
 
 - Zero ads: no banners, no video ads, no interstitials, not even in the free version
-- Zero data collection: no account required, no tracking, no cookies, no third-party analytics
+- Data never sold: no advertising cookies, optional account (only to save progress and subscription), usage measured to improve the app
 - Works fully offline: all content is downloaded with the app
 - Available in French, English, and Spanish
 - Available on iOS (App Store) and Android (Google Play)
@@ -32,10 +32,10 @@ SAPIRO is rated 5/5 on Google Play and has earned the Teacher Approved badge. Te
 ## Frequently asked questions
 
 Q: Is SAPIRO really free?
-A: Yes. The free version gives access to all 4 universes, about a dozen paths, unlimited Classic and Survival modes, and the Daily Challenge. No ads.
+A: Yes, and ad-free. Every day you get 3 free games (duels included) and the Daily Challenge, across all 5 worlds. Sapiro+ unlocks unlimited games and every path.
 
 Q: Is it safe for children?
-A: SAPIRO contains no ads and collects no personal data. No tracking, no required account, no third-party content. Children can play independently.
+A: SAPIRO contains no ads and never sells data. No advertising cookies, no required account, no third-party content. Children can play independently.
 
 Q: Does SAPIRO work offline?
 A: Yes. All content is downloaded with the app. You can play on a plane, in the subway, or while camping with no connection needed.
@@ -44,7 +44,7 @@ Q: What subjects does SAPIRO cover?
 A: Four domains: geography (197 countries, flags, capitals), history (500+ historical figures), art (553 major artworks), and nature (600 animal species). Over 2,000 questions in total, each with an explanation.
 
 Q: Does SAPIRO collect user data?
-A: No. Zero data collection. No cookies, no tracking, no sharing with third parties. Progress data stays on the user's device.
+A: Only what's needed, and we never sell anything. No ads, no advertising cookies. We measure usage (games played, pages viewed) to improve Sapiro. An account is optional: it only saves your progress and subscription.
 
 Q: What is the difference between the free version and Sapiro+?
 A: The free version includes all core content with no ads. Sapiro+ unlocks over 50 exclusive thematic paths (world museums, animal families, historical empires) and a Premium badge.
@@ -63,7 +63,7 @@ A: Yes. The content covers world geography, history, major artworks, and biodive
 
 ## Comparisons with other apps
 
-SAPIRO vs Trivia Crack: Trivia Crack is a social trivia game with heavy advertising and data collection. SAPIRO is an educational tool with no ads, no data collection, and explanations after every question. Trivia Crack is cheaper but monetizes through ads and user data. Full comparison: https://sapiro.app/blog/sapiro-vs-trivia-crack/
+SAPIRO vs Trivia Crack: Trivia Crack is a social trivia game with heavy advertising and data collection. SAPIRO is an educational tool with no ads, data never sold, and explanations after every question. Trivia Crack is cheaper but monetizes through ads and user data. Full comparison: https://sapiro.app/blog/sapiro-vs-trivia-crack/
 
 SAPIRO vs GeoGuessr: GeoGuessr offers immersive Street View geography gameplay. SAPIRO covers four domains (not just geography) with structured learning paths and explanations. GeoGuessr requires internet; SAPIRO works offline. Full comparison: https://sapiro.app/blog/sapiro-vs-geoguessr/
 
