@@ -146,7 +146,8 @@ const t = content[lang];
     text-align: center;
     position: relative;
     padding: 32px 24px;
-    background: var(--blanc);
+    background: rgba(255, 255, 255, 0.72);
+    border: 1px solid rgba(255, 255, 255, 0.95);
     border-radius: var(--border-radius);
     box-shadow: var(--shadow);
     transition: transform 0.3s, box-shadow 0.3s;
@@ -172,7 +173,7 @@ const t = content[lang];
     justify-content: center;
     font-weight: 800;
     font-size: 1.25rem;
-    box-shadow: 0 4px 12px rgba(255, 107, 53, 0.3);
+    box-shadow: 0 4px 12px rgba(255, 94, 58, 0.3);
   }
 
   .step-emoji {
@@ -207,7 +208,7 @@ const t = content[lang];
     width: 120px;
     height: 120px;
     border-radius: 28px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 14px 30px -12px rgba(120, 50, 20, 0.35);
     animation: mascotBounce 2s ease-in-out infinite;
   }
 
@@ -218,11 +219,12 @@ const t = content[lang];
 
   .mascot-speech {
     margin-top: 16px;
-    background: var(--orange);
-    color: var(--blanc);
+    background: var(--blanc);
+    color: var(--ink);
     padding: 12px 24px;
     border-radius: 20px;
-    font-weight: 600;
+    font-weight: 800;
+    box-shadow: var(--shadow);
     position: relative;
     animation: fadeInUp 0.5s ease-out;
   }
@@ -235,7 +237,7 @@ const t = content[lang];
     transform: translateX(-50%);
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
-    border-bottom: 10px solid var(--orange);
+    border-bottom: 10px solid var(--blanc);
   }
 
   @keyframes fadeInUp {

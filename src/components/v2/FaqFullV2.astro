@@ -26,7 +26,7 @@ const { items } = Astro.props;
 
 <style>
   .faq-full {
-    background: #F9FAFB;
+    background: #FBF4EB;
     padding: 80px 0;
   }
 
@@ -41,7 +41,7 @@ const { items } = Astro.props;
   .item {
     background: #fff;
     border-radius: 16px;
-    border: 1px solid #e5e7eb;
+    border: 1px solid #E8DFCD;
     overflow: hidden;
     transition: box-shadow 0.2s, border-color 0.2s;
   }
@@ -51,8 +51,8 @@ const { items } = Astro.props;
   }
 
   .item[open] {
-    border-color: #ff6b35;
-    box-shadow: 0 20px 40px -20px rgba(255, 107, 53, 0.2);
+    border-color: #FF5E3A;
+    box-shadow: 0 20px 40px -20px rgba(255, 94, 58, 0.2);
   }
 
   summary {
@@ -64,7 +64,7 @@ const { items } = Astro.props;
     cursor: pointer;
     font-weight: 600;
     font-size: 16px;
-    color: #0a0a0f;
+    color: #2A1A14;
     list-style: none;
   }
 
@@ -76,23 +76,23 @@ const { items } = Astro.props;
     justify-content: center;
     width: 28px;
     height: 28px;
-    background: #f3f4f6;
+    background: #F3EADA;
     border-radius: 50%;
-    color: #6b7280;
+    color: #6E665C;
     transition: transform 0.3s, background 0.2s;
     flex-shrink: 0;
   }
 
   .item[open] .toggle {
     transform: rotate(180deg);
-    background: #ff6b35;
+    background: #FF5E3A;
     color: #fff;
   }
 
   .item p {
     padding: 0 26px 24px;
     font-size: 15px;
-    color: #4b5563;
+    color: #5A4E45;
     line-height: 1.65;
     margin: 0;
   }

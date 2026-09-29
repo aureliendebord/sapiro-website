@@ -10,7 +10,7 @@ const { lang } = Astro.props;
 const copy = {
   fr: [
     { icon: '🚫', value: '0 pub', label: 'jamais, promis' },
-    { icon: '🔒', value: '0 donnée', label: 'tout reste chez toi' },
+    { icon: '🔒', value: 'Aucune revente', label: 'de tes données' },
     { img: 'check', value: '2 000+', label: 'questions vérifiées' },
     { img: 'globe-grid', value: '197', label: 'pays' },
     { img: 'palette', value: '553', label: 'œuvres' },
@@ -19,7 +19,7 @@ const copy = {
   ],
   en: [
     { icon: '🚫', value: '0 ads', label: 'ever, promise' },
-    { icon: '🔒', value: '0 data', label: 'stays on your device' },
+    { icon: '🔒', value: 'Never sold', label: 'your data stays yours' },
     { img: 'check', value: '2,000+', label: 'verified questions' },
     { img: 'globe-grid', value: '197', label: 'countries' },
     { img: 'palette', value: '553', label: 'artworks' },
@@ -28,7 +28,7 @@ const copy = {
   ],
   es: [
     { icon: '🚫', value: '0 anuncios', label: 'nunca, promesa' },
-    { icon: '🔒', value: '0 datos', label: 'todo se queda contigo' },
+    { icon: '🔒', value: 'Nunca vendemos', label: 'tus datos' },
     { img: 'check', value: '2 000+', label: 'preguntas verificadas' },
     { img: 'globe-grid', value: '197', label: 'paises' },
     { img: 'palette', value: '553', label: 'obras' },
@@ -64,12 +64,12 @@ const marqueeItems = [...items, ...items];
 
 <style>
   .trust-bar {
-    background: #fff;
-    color: #1f2937;
+    background: #FFFDFA;
+    color: #2A1A14;
     padding: 26px 0;
     overflow: hidden;
-    border-top: 1px solid rgba(31, 41, 55, 0.07);
-    border-bottom: 1px solid rgba(31, 41, 55, 0.07);
+    border-top: 1px solid rgba(42, 26, 20, 0.07);
+    border-bottom: 1px solid rgba(42, 26, 20, 0.07);
     position: relative;
   }
 
@@ -86,12 +86,12 @@ const marqueeItems = [...items, ...items];
 
   .trust-bar::before {
     left: 0;
-    background: linear-gradient(90deg, #fff, transparent);
+    background: linear-gradient(90deg, #FFFDFA, transparent);
   }
 
   .trust-bar::after {
     right: 0;
-    background: linear-gradient(-90deg, #fff, transparent);
+    background: linear-gradient(-90deg, #FFFDFA, transparent);
   }
 
   .marquee { width: 100%; }
@@ -122,12 +122,12 @@ const marqueeItems = [...items, ...items];
   .value {
     font-weight: 800;
     letter-spacing: -0.01em;
-    background: linear-gradient(135deg, #ff6b35, #fbbf24);
+    background: #FF5E3A;
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
   }
-  .label { color: #6b7280; }
+  .label { color: #6E665C; }
 
   /* Le défilement reste actif même en "reduced motion" : c'est un choix
      produit assumé. On le ralentit simplement pour limiter la gêne. */

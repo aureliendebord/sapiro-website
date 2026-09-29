@@ -136,7 +136,8 @@ const colorMap: Record<string, string> = {
   }
 
   .mode-card {
-    background: var(--blanc);
+    background: rgba(255, 255, 255, 0.72);
+    border: 1px solid rgba(255, 255, 255, 0.95);
     padding: 32px 24px;
     border-radius: var(--border-radius);
     text-align: center;
@@ -144,16 +145,6 @@ const colorMap: Record<string, string> = {
     transition: transform 0.3s, box-shadow 0.3s;
     position: relative;
     overflow: hidden;
-  }
-
-  .mode-card::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 4px;
-    background: var(--card-color);
   }
 
   .mode-card:hover {

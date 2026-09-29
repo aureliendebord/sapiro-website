@@ -10,75 +10,63 @@ const { lang } = Astro.props;
 
 const copy = {
   fr: {
-    badge: 'Nouveau thème • Découvre les monuments du monde',
+    badge: 'Nouveau • Les duels sont arrivés',
     titleA: 'Deviens',
     titleHighlight: 'incollable',
     titleB: 'en culture générale.',
-    subtitle: 'Géographie, histoire, art, nature, monuments. 2 000+ questions vérifiées. Sans pub, sans data.',
+    subtitle: 'Géographie, histoire, art, nature, monuments. 2 000+ questions vérifiées. Sans pub, et tes données ne sont jamais revendues.',
     ctaPrimary: 'Télécharger gratuitement',
     ctaSecondary: 'Jouer en ligne',
-    proofQuestions: '2 000+',
-    proofQuestionsLabel: 'questions vérifiées',
-    proofPrice: 'Gratuit',
-    proofPriceLabel: 'Zéro pub, zéro data',
-    xpAmount: '+120 XP',
-    xpLabel: 'Série de 5',
-    badgeTitle: 'Badge débloqué',
-    badgeName: 'Explorateur',
+    trophyAmount: '+30',
+    trophyLabel: 'Duel gagné',
+    streakTitle: '21 jours',
+    streakLabel: 'Série du défi du jour',
     slideAlts: {
+      home: 'Accueil de l\'app SAPIRO',
+      duel: 'Écran de duel SAPIRO',
       flags: 'Quiz Drapeaux SAPIRO',
-      portraits: 'Quiz Personnages SAPIRO',
       paintings: 'Quiz Tableaux SAPIRO',
-      animals: 'Quiz Animaux SAPIRO',
-      monuments: 'Quiz Monuments SAPIRO',
+      trail: 'Parcours SAPIRO',
     },
   },
   en: {
-    badge: 'New theme • Discover the world\'s monuments',
+    badge: 'New • Duels are here',
     titleA: 'Become',
     titleHighlight: 'unbeatable',
     titleB: 'at general knowledge.',
-    subtitle: 'Geography, history, art, nature, monuments. 2,000+ verified questions. No ads, no data.',
+    subtitle: 'Geography, history, art, nature, monuments. 2,000+ verified questions. No ads, and your data is never sold.',
     ctaPrimary: 'Download for free',
     ctaSecondary: 'Play online',
-    proofQuestions: '2,000+',
-    proofQuestionsLabel: 'verified questions',
-    proofPrice: 'Free',
-    proofPriceLabel: 'Zero ads, zero data',
-    xpAmount: '+120 XP',
-    xpLabel: '5-streak',
-    badgeTitle: 'Badge unlocked',
-    badgeName: 'Explorer',
+    trophyAmount: '+30',
+    trophyLabel: 'Duel won',
+    streakTitle: '21 days',
+    streakLabel: 'Daily challenge streak',
     slideAlts: {
+      home: 'SAPIRO app home',
+      duel: 'SAPIRO duel screen',
       flags: 'Flags Quiz SAPIRO',
-      portraits: 'Portraits Quiz SAPIRO',
       paintings: 'Paintings Quiz SAPIRO',
-      animals: 'Animals Quiz SAPIRO',
-      monuments: 'Monuments Quiz SAPIRO',
+      trail: 'SAPIRO trail',
     },
   },
   es: {
-    badge: 'Nuevo tema • Descubre los monumentos del mundo',
+    badge: 'Novedad • Llegan los duelos',
     titleA: 'Hazte',
     titleHighlight: 'imbatible',
     titleB: 'en cultura general.',
-    subtitle: 'Geografia, historia, arte, naturaleza, monumentos. 2 000+ preguntas verificadas. Sin anuncios, sin datos.',
+    subtitle: 'Geografia, historia, arte, naturaleza, monumentos. 2 000+ preguntas verificadas. Sin anuncios, y tus datos nunca se venden.',
     ctaPrimary: 'Descargar gratis',
     ctaSecondary: 'Jugar en línea',
-    proofQuestions: '2 000+',
-    proofQuestionsLabel: 'preguntas verificadas',
-    proofPrice: 'Gratis',
-    proofPriceLabel: 'Cero anuncios, cero datos',
-    xpAmount: '+120 XP',
-    xpLabel: 'Racha de 5',
-    badgeTitle: 'Insignia desbloqueada',
-    badgeName: 'Explorador',
+    trophyAmount: '+30',
+    trophyLabel: 'Duelo ganado',
+    streakTitle: '21 días',
+    streakLabel: 'Racha del reto diario',
     slideAlts: {
+      home: 'Inicio de la app SAPIRO',
+      duel: 'Pantalla de duelo SAPIRO',
       flags: 'Quiz Banderas SAPIRO',
-      portraits: 'Quiz Personajes SAPIRO',
       paintings: 'Quiz Cuadros SAPIRO',
-      animals: 'Quiz Animales SAPIRO',
-      monuments: 'Quiz Monumentos SAPIRO',
+      trail: 'Recorrido SAPIRO',
     },
   },
 };
@@ -87,25 +75,18 @@ const t = copy[lang];
 ---
 
 <section class="hero-v2">
-  <div class="bg-mesh" aria-hidden="true"></div>
-  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="bg-bay" aria-hidden="true"></div>
 
   <div class="container hero-inner">
     <div class="hero-left">
       <div class="badge">
-        <span class="badge-dot"></span>
+        <img src="/images/v3/swords.webp" class="badge-ico" alt="" aria-hidden="true" width="22" height="22" />
         <span>{t.badge}</span>
-        <img src="/images/icons/classical-building.webp" class="app-ico" alt="" aria-hidden="true" />
       </div>
 
       <h1 class="title">
         {t.titleA}<br />
-        <span class="highlight">
-          {t.titleHighlight}
-          <svg class="underline" viewBox="0 0 300 14" preserveAspectRatio="none" aria-hidden="true">
-            <path d="M2 9 Q 80 2, 150 7 T 298 6" stroke="currentColor" stroke-width="4" fill="none" stroke-linecap="round"/>
-          </svg>
-        </span><br />
+        <span class="highlight">{t.titleHighlight}</span><br />
         {t.titleB}
       </h1>
 
@@ -121,31 +102,10 @@ const t = copy[lang];
           <span>{t.ctaSecondary}</span>
         </a>
       </div>
-
-      <div class="proof-row">
-        <div class="proof-item">
-          <div class="proof-icon"><img src="/images/icons/check.webp" class="app-ico" alt="" aria-hidden="true" /></div>
-          <div class="proof-text">
-            <strong>{t.proofQuestions}</strong>
-            <span>{t.proofQuestionsLabel}</span>
-          </div>
-        </div>
-        <div class="proof-divider" aria-hidden="true"></div>
-        <div class="proof-item">
-          <div class="proof-icon"><img src="/images/icons/gift.webp" class="app-ico" alt="" aria-hidden="true" /></div>
-          <div class="proof-text">
-            <strong>{t.proofPrice}</strong>
-            <span>{t.proofPriceLabel}</span>
-          </div>
-        </div>
-      </div>
     </div>
 
     <div class="hero-right">
       <div class="phone-stage">
-        <div class="glow glow-1"></div>
-        <div class="glow glow-2"></div>
-
         <div class="orbit" aria-hidden="true">
           <span class="orbit-emoji orbit-emoji-1" style="--a:0deg; --r:180px">🇫🇷</span>
           <span class="orbit-emoji orbit-emoji-2" style="--a:60deg; --r:190px"><img src="/images/icons/moai.webp" class="app-ico" alt="" aria-hidden="true" /></span>
@@ -157,30 +117,29 @@ const t = copy[lang];
 
         <div class="phone-tilt">
           <div class="phone">
-            <div class="phone-notch"></div>
             <div class="phone-screen">
-              <img src={`/images/screenshots/${lang}/quiz/01.png`} alt={t.slideAlts.flags} class="slide slide-1" loading="eager" />
-              <img src={`/images/screenshots/${lang}/quiz/02.png`} alt={t.slideAlts.portraits} class="slide slide-2" loading="eager" />
-              <img src={`/images/screenshots/${lang}/quiz/03.png`} alt={t.slideAlts.paintings} class="slide slide-3" loading="eager" />
-              <img src={`/images/screenshots/${lang}/quiz/04.png`} alt={t.slideAlts.animals} class="slide slide-4" loading="eager" />
-              <img src={`/images/screenshots/${lang}/quiz/05.png`} alt={t.slideAlts.monuments} class="slide slide-5" loading="eager" />
+              <img src={`/images/screenshots/${lang}/v3/02-home.webp`} alt={t.slideAlts.home} class="slide slide-1" loading="eager" width="560" height="1217" />
+              <img src={`/images/screenshots/${lang}/v3/10-duel-vs.webp`} alt={t.slideAlts.duel} class="slide slide-2" loading="lazy" width="560" height="1217" />
+              <img src={`/images/screenshots/${lang}/v3/04-quiz-geography.webp`} alt={t.slideAlts.flags} class="slide slide-3" loading="lazy" width="560" height="1217" />
+              <img src={`/images/screenshots/${lang}/v3/01-quiz-art.webp`} alt={t.slideAlts.paintings} class="slide slide-4" loading="lazy" width="560" height="1217" />
+              <img src={`/images/screenshots/${lang}/v3/09-journeys.webp`} alt={t.slideAlts.trail} class="slide slide-5" loading="lazy" width="560" height="1217" />
             </div>
           </div>
         </div>
 
         <div class="floating-card card-top">
-          <div class="card-emoji"><img src="/images/icons/lightning.webp" class="app-ico" alt="" aria-hidden="true" /></div>
+          <img src="/images/v3/cup.webp" class="card-ico" alt="" aria-hidden="true" width="30" height="34" />
           <div class="card-content">
-            <div class="card-num">{t.xpAmount}</div>
-            <div class="card-label">{t.xpLabel}</div>
+            <div class="card-num">{t.trophyAmount}</div>
+            <div class="card-label">{t.trophyLabel}</div>
           </div>
         </div>
 
         <div class="floating-card card-bottom">
-          <div class="card-emoji"><img src="/images/icons/trophy.webp" class="app-ico" alt="" aria-hidden="true" /></div>
+          <img src="/images/v3/flame.webp" class="card-ico" alt="" aria-hidden="true" width="28" height="34" />
           <div class="card-content">
-            <div class="card-num">{t.badgeTitle}</div>
-            <div class="card-label">{t.badgeName}</div>
+            <div class="card-num">{t.streakTitle}</div>
+            <div class="card-label">{t.streakLabel}</div>
           </div>
         </div>
       </div>
@@ -189,40 +148,25 @@ const t = copy[lang];
 </section>
 
 <style>
+  /* DA V3 de l'app (2.1.0) : la baie illustrée en plein cadre sous un voile
+     crème, texte encre, orange réservé aux boutons d'action. */
   .hero-v2 {
     position: relative;
     overflow: hidden;
     padding: 120px 0 80px;
-    background: #FAF3E9;
-    color: #1f2937;
+    background: linear-gradient(180deg, #FFFDFA 0%, #FBF1E8 60%, #F6DCCB 100%);
+    color: #2A1A14;
     isolation: isolate;
   }
 
-  .bg-mesh {
-    position: absolute;
-    inset: -10%;
-    z-index: -2;
-    background:
-      radial-gradient(600px circle at 15% 20%, rgba(255, 107, 53, 0.16), transparent 55%),
-      radial-gradient(700px circle at 85% 30%, rgba(168, 85, 247, 0.12), transparent 55%),
-      radial-gradient(500px circle at 60% 90%, rgba(251, 191, 36, 0.16), transparent 55%),
-      radial-gradient(400px circle at 10% 100%, rgba(20, 184, 166, 0.12), transparent 55%);
-    filter: blur(20px);
-    animation: meshDrift 18s ease-in-out infinite alternate;
-  }
-
-  @keyframes meshDrift {
-    0% { transform: translate(0, 0) scale(1); }
-    100% { transform: translate(-3%, 2%) scale(1.05); }
-  }
-
-  .bg-grid {
+  .bg-bay {
     position: absolute;
     inset: 0;
     z-index: -1;
-    background-image: radial-gradient(rgba(31, 41, 55, 0.05) 1.5px, transparent 1.5px);
-    background-size: 26px 26px;
-    mask-image: radial-gradient(ellipse at center, black 30%, transparent 78%);
+    background: url('/images/bg/baie.webp') right 38% / max(60%, 780px) auto no-repeat;
+    -webkit-mask-image: linear-gradient(90deg, transparent 42%, rgba(0, 0, 0, 0.5) 62%, #000 82%);
+    mask-image: linear-gradient(90deg, transparent 42%, rgba(0, 0, 0, 0.5) 62%, #000 82%);
+    opacity: 0.9;
   }
 
   .hero-inner {
@@ -234,106 +178,81 @@ const t = copy[lang];
     z-index: 1;
   }
 
-  /* Badge */
+  /* Pastille « Nouveau » en verre dépoli, comme les cartes de l'accueil de l'app */
   .badge {
     display: inline-flex;
     align-items: center;
     gap: 10px;
-    padding: 8px 16px;
-    background: rgba(255, 255, 255, 0.7);
+    padding: 8px 16px 8px 10px;
+    background: rgba(255, 255, 255, 0.6);
     backdrop-filter: blur(10px);
-    border: 1px solid rgba(31, 41, 55, 0.08);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.9);
     border-radius: 999px;
-    font-size: 13px;
-    font-weight: 500;
-    letter-spacing: 0.02em;
+    font-size: 14px;
+    font-weight: 700;
     margin-bottom: 28px;
-    box-shadow: 0 4px 14px -6px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 6px 18px -10px rgba(120, 50, 20, 0.28);
   }
 
-  .badge-dot {
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    background: #22c55e;
-    box-shadow: 0 0 12px rgba(34, 197, 94, 0.8);
-    animation: pulse 2s ease-in-out infinite;
-  }
+  .badge-ico { width: 22px; height: 22px; object-fit: contain; }
 
-  @keyframes pulse {
-    0%, 100% { opacity: 1; }
-    50% { opacity: 0.5; }
-  }
-
-  /* Title */
   .title {
-    font-size: clamp(2.8rem, 6.5vw, 5.5rem);
+    font-size: clamp(2.8rem, 6.5vw, 5.2rem);
     font-weight: 800;
-    letter-spacing: -0.03em;
-    line-height: 1.02;
+    letter-spacing: -0.02em;
+    line-height: 1.04;
     margin-bottom: 28px;
   }
 
+  /* Mot surligné pêche, comme les accroches des captures stores V3 */
   .highlight {
-    position: relative;
     display: inline-block;
-    background: linear-gradient(135deg, #ff6b35 0%, #fbbf24 50%, #ff6b35 100%);
-    background-size: 200% auto;
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-    animation: gradientShift 4s ease-in-out infinite;
-    padding-right: 6px;
-  }
-
-  @keyframes gradientShift {
-    0%, 100% { background-position: 0% center; }
-    50% { background-position: 100% center; }
-  }
-
-  .underline {
-    position: absolute;
-    left: 0;
-    bottom: -10px;
-    width: 100%;
-    height: 14px;
-    color: #ff6b35;
-    opacity: 0.9;
+    background: #FAD3C4;
+    border-radius: 0.2em;
+    padding: 0 0.14em;
+    margin: 0.04em 0;
   }
 
   .subtitle {
     font-size: clamp(1.05rem, 1.5vw, 1.25rem);
-    color: #4b5563;
+    color: rgba(42, 26, 20, 0.72);
+    font-weight: 600;
     line-height: 1.6;
     max-width: 540px;
     margin-bottom: 36px;
   }
 
-  /* CTAs */
   .ctas {
     display: flex;
     gap: 14px;
     flex-wrap: wrap;
-    margin-bottom: 40px;
+    margin-bottom: 0;
   }
 
+  /* Bouton 3D orange de l'app (V3.button) */
   .cta-primary {
     display: inline-flex;
     align-items: center;
     gap: 10px;
     padding: 16px 28px;
-    background: linear-gradient(135deg, #ff6b35 0%, #ff8f5c 100%);
+    background: linear-gradient(180deg, #FF8A5B 0%, #FF5E3A 55%, #E9401F 100%);
     color: #fff;
-    border-radius: 14px;
-    font-weight: 600;
+    border-radius: 999px;
+    font-weight: 800;
     font-size: 16px;
-    box-shadow: 0 10px 30px -8px rgba(255, 107, 53, 0.6), inset 0 1px 0 rgba(255, 255, 255, 0.2);
-    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 5px 0 #C9441F, 0 14px 26px -12px rgba(201, 68, 31, 0.6);
+    transition: transform 0.15s, box-shadow 0.15s;
   }
 
   .cta-primary:hover {
     transform: translateY(-2px);
-    box-shadow: 0 16px 40px -8px rgba(255, 107, 53, 0.7), inset 0 1px 0 rgba(255, 255, 255, 0.25);
+    box-shadow: 0 7px 0 #C9441F, 0 18px 30px -12px rgba(201, 68, 31, 0.65);
+  }
+
+  .cta-primary:active {
+    transform: translateY(3px);
+    box-shadow: 0 2px 0 #C9441F;
   }
 
   .cta-secondary {
@@ -341,13 +260,15 @@ const t = copy[lang];
     align-items: center;
     gap: 10px;
     padding: 16px 24px;
-    background: #fff;
-    border: 1px solid rgba(31, 41, 55, 0.1);
-    color: #1f2937;
-    border-radius: 14px;
-    font-weight: 600;
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.95);
+    color: #2A1A14;
+    border-radius: 999px;
+    font-weight: 800;
     font-size: 15px;
-    box-shadow: 0 6px 18px -10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 6px 18px -10px rgba(120, 50, 20, 0.28);
     transition: background 0.2s, transform 0.2s;
   }
 
@@ -356,41 +277,8 @@ const t = copy[lang];
     transform: translateY(-2px);
   }
 
-  .cta-secondary svg {
-    color: #ff6b35;
-  }
+  .cta-secondary svg { color: #FF5E3A; }
 
-  /* Proof row */
-  .proof-row {
-    display: inline-flex;
-    align-items: center;
-    gap: 20px;
-    padding: 14px 20px;
-    background: #fff;
-    border: 1px solid rgba(31, 41, 55, 0.07);
-    border-radius: 16px;
-    box-shadow: 0 6px 20px -12px rgba(0, 0, 0, 0.2);
-  }
-
-  .proof-item {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-  }
-
-  .proof-icon { font-size: 22px; }
-
-  .proof-text { display: flex; flex-direction: column; }
-  .proof-text strong { font-size: 14px; font-weight: 700; }
-  .proof-text span { font-size: 12px; color: #6b7280; }
-
-  .proof-divider {
-    width: 1px;
-    height: 36px;
-    background: rgba(31, 41, 55, 0.12);
-  }
-
-  /* Phone stage */
   .hero-right { display: flex; justify-content: center; align-items: center; }
 
   .phone-stage {
@@ -402,58 +290,28 @@ const t = copy[lang];
     align-items: center;
   }
 
-  .glow {
-    position: absolute;
-    border-radius: 50%;
-    filter: blur(60px);
-  }
-
-  .glow-1 {
-    width: 300px;
-    height: 300px;
-    background: radial-gradient(circle, rgba(255, 107, 53, 0.28), transparent 70%);
-    top: 10%;
-    left: 5%;
-    animation: glowFloat 6s ease-in-out infinite;
-  }
-
-  .glow-2 {
-    width: 280px;
-    height: 280px;
-    background: radial-gradient(circle, rgba(168, 85, 247, 0.22), transparent 70%);
-    bottom: 10%;
-    right: 5%;
-    animation: glowFloat 7s ease-in-out infinite 1s;
-  }
-
-  @keyframes glowFloat {
-    0%, 100% { transform: translate(0, 0); }
-    50% { transform: translate(20px, -15px); }
-  }
-
-  /* Orbit */
   .orbit {
     position: absolute;
     inset: 0;
-    animation: orbitRotate 30s linear infinite;
+    animation: orbitRotate 40s linear infinite;
   }
 
   .orbit-emoji {
     position: absolute;
     top: 50%;
     left: 50%;
-    font-size: 32px;
+    font-size: 38px;
     transform: translate(-50%, -50%) rotate(var(--a)) translateY(calc(var(--r) * -1)) rotate(calc(var(--a) * -1));
-    filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.4)) brightness(1);
-    animation: orbitBob 3.6s ease-in-out infinite, orbitGlow 4.2s ease-in-out infinite;
+    filter: drop-shadow(0 6px 10px rgba(120, 50, 20, 0.22));
+    animation: orbitBob 3.6s ease-in-out infinite;
   }
 
-  .orbit-emoji-1 { animation-delay: 0s, 0s; }
-  .orbit-emoji-2 { animation-delay: 0.4s, 0.7s; }
-  .orbit-emoji-3 { animation-delay: 0.9s, 1.4s; }
-  .orbit-emoji-4 { animation-delay: 1.3s, 2.1s; }
-  .orbit-emoji-5 { animation-delay: 1.8s, 2.8s; }
-  .orbit-emoji-6 { animation-delay: 2.2s, 3.5s; }
+  .orbit-emoji-1 { animation-delay: 0s; }
+  .orbit-emoji-2 { animation-delay: 0.4s; }
+  .orbit-emoji-3 { animation-delay: 0.9s; }
+  .orbit-emoji-4 { animation-delay: 1.3s; }
+  .orbit-emoji-5 { animation-delay: 1.8s; }
+  .orbit-emoji-6 { animation-delay: 2.2s; }
 
   @keyframes orbitRotate {
     from { transform: rotate(0deg); }
@@ -462,61 +320,36 @@ const t = copy[lang];
 
   @keyframes orbitBob {
     0%, 100% { scale: 1; }
-    50% { scale: 1.18; }
+    50% { scale: 1.12; }
   }
 
-  @keyframes orbitGlow {
-    0%, 100% {
-      filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.4)) drop-shadow(0 0 6px rgba(255, 255, 255, 0.05)) brightness(0.85);
-    }
-    50% {
-      filter: drop-shadow(0 6px 18px rgba(0, 0, 0, 0.5)) drop-shadow(0 0 20px rgba(255, 200, 120, 0.7)) brightness(1.25);
-    }
-  }
-
-  /* Phone */
   .phone-tilt {
-    transform: perspective(1400px) rotateY(-14deg) rotateX(6deg) rotateZ(-2deg);
+    transform: perspective(1400px) rotateY(-12deg) rotateX(5deg) rotateZ(-2deg);
     transition: transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
-    filter: drop-shadow(0 40px 60px rgba(0, 0, 0, 0.5));
+    filter: drop-shadow(0 34px 44px rgba(120, 50, 20, 0.32));
   }
 
   .phone-stage:hover .phone-tilt {
-    transform: perspective(1400px) rotateY(-8deg) rotateX(3deg) rotateZ(-1deg);
+    transform: perspective(1400px) rotateY(-6deg) rotateX(3deg) rotateZ(-1deg);
   }
 
   .phone {
     position: relative;
     width: 280px;
-    height: 570px;
-    background: #0a0a0a;
+    height: 600px;
+    background: #1A1816;
     border-radius: 48px;
-    padding: 10px;
-    border: 2px solid #1f1f1f;
-    box-shadow:
-      inset 0 0 0 2px rgba(255, 255, 255, 0.05),
-      0 0 0 8px rgba(255, 255, 255, 0.03);
-  }
-
-  .phone-notch {
-    position: absolute;
-    top: 14px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100px;
-    height: 28px;
-    background: #000;
-    border-radius: 999px;
-    z-index: 2;
+    padding: 9px;
+    box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.08);
   }
 
   .phone-screen {
     position: relative;
     width: 100%;
     height: 100%;
-    border-radius: 38px;
+    border-radius: 40px;
     overflow: hidden;
-    background: #000;
+    background: #FBF4EB;
   }
 
   .slide {
@@ -525,6 +358,7 @@ const t = copy[lang];
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: top;
     opacity: 0;
     animation: slideShow 20s cubic-bezier(0.65, 0, 0.35, 1) infinite;
   }
@@ -543,30 +377,33 @@ const t = copy[lang];
     100% { opacity: 0; transform: translateX(8%) scale(1.02); }
   }
 
-  /* Floating cards */
+  /* Cartes flottantes en verre, trophées et série comme sur l'accueil de l'app */
   .floating-card {
     position: absolute;
     display: flex;
     align-items: center;
     gap: 10px;
-    padding: 12px 16px;
-    background: rgba(255, 255, 255, 0.98);
-    color: #1f2937;
-    border-radius: 14px;
-    box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.4);
+    padding: 10px 16px 10px 12px;
+    background: rgba(255, 255, 255, 0.82);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.95);
+    color: #2A1A14;
+    border-radius: 20px;
+    box-shadow: 0 18px 34px -14px rgba(120, 50, 20, 0.4);
     z-index: 3;
   }
 
   .card-top {
     top: 12%;
     right: -10px;
-    animation: floatCardTop 5s ease-in-out infinite, cardGlow 4s ease-in-out infinite;
+    animation: floatCardTop 5s ease-in-out infinite;
   }
 
   .card-bottom {
     bottom: 18%;
     left: -30px;
-    animation: floatCardBottom 5.5s ease-in-out infinite 1.2s, cardGlow 4.5s ease-in-out infinite 2s;
+    animation: floatCardBottom 5.5s ease-in-out infinite 1.2s;
   }
 
   @keyframes floatCardTop {
@@ -579,43 +416,29 @@ const t = copy[lang];
     50% { transform: translateY(-12px) rotate(-1.5deg); }
   }
 
-  @keyframes cardGlow {
-    0%, 100% {
-      box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.4), 0 0 0 0 rgba(255, 107, 53, 0);
-    }
-    50% {
-      box-shadow: 0 24px 48px -10px rgba(0, 0, 0, 0.45), 0 0 32px 4px rgba(255, 107, 53, 0.35);
-    }
-  }
+  .card-ico { width: 30px; height: 34px; object-fit: contain; }
 
-  .card-emoji {
-    font-size: 22px;
-    animation: emojiPulse 2.4s ease-in-out infinite;
-  }
+  .card-num { font-family: var(--font-display); font-size: 18px; font-weight: 800; line-height: 1.1; }
+  .card-top .card-num { color: #E9960C; }
+  .card-label { font-size: 12px; font-weight: 600; color: rgba(42, 26, 20, 0.6); }
 
-  .card-bottom .card-emoji { animation-delay: 1.2s; }
-
-  @keyframes emojiPulse {
-    0%, 100% { transform: scale(1) rotate(0deg); filter: brightness(1); }
-    50% { transform: scale(1.18) rotate(-6deg); filter: brightness(1.2) drop-shadow(0 0 8px rgba(255, 191, 36, 0.6)); }
-  }
-
-  .card-num { font-size: 14px; font-weight: 700; }
-  .card-label { font-size: 11px; color: #6b7280; }
-
-  /* Responsive */
   @media (max-width: 968px) {
     .hero-v2 { padding: 96px 0 60px; }
+    .bg-bay {
+      background: url('/images/bg/baie.webp') center 40% / cover no-repeat;
+      -webkit-mask-image: linear-gradient(180deg, transparent 38%, rgba(0, 0, 0, 0.6) 62%, #000 85%);
+      mask-image: linear-gradient(180deg, transparent 38%, rgba(0, 0, 0, 0.6) 62%, #000 85%);
+    }
     .hero-inner {
       grid-template-columns: 1fr;
       gap: 48px;
       text-align: center;
     }
     .subtitle { margin-left: auto; margin-right: auto; }
-    .ctas, .proof-row, .badge { justify-content: center; }
-    .proof-row { display: inline-flex; }
-    .phone-stage { width: 340px; height: 480px; }
-    .phone { width: 240px; height: 490px; }
+    .ctas, .badge { justify-content: center; }
+    .phone-stage { width: 340px; height: 500px; }
+    .phone { width: 230px; height: 494px; border-radius: 40px; }
+    .phone-screen { border-radius: 32px; }
     .card-top { right: -30px; }
     .card-bottom { left: -40px; }
   }
@@ -624,19 +447,14 @@ const t = copy[lang];
     .hero-v2 { padding: 80px 0 48px; }
     .ctas { flex-direction: column; align-items: stretch; }
     .cta-primary, .cta-secondary { justify-content: center; }
-    .proof-row { flex-direction: column; gap: 12px; align-items: flex-start; }
-    .proof-divider { width: 100%; height: 1px; }
-    .phone-stage { width: 280px; height: 420px; }
-    .phone { width: 210px; height: 430px; border-radius: 38px; }
-    .phone-notch { width: 80px; height: 22px; }
+    .phone-stage { width: 280px; height: 440px; }
+    .phone { width: 200px; height: 430px; border-radius: 36px; padding: 7px; }
     .phone-screen { border-radius: 30px; }
-    .orbit-emoji { font-size: 24px; }
+    .orbit-emoji { font-size: 28px; }
     .card-top, .card-bottom { display: none; }
   }
 
   @media (prefers-reduced-motion: reduce) {
-    .bg-mesh, .glow-1, .glow-2, .orbit {
-      animation-duration: 60s !important;
-    }
+    .orbit { animation-duration: 120s !important; }
   }
 </style>

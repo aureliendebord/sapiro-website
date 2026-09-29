@@ -15,30 +15,30 @@ const { lang } = Astro.props;
  * et un iPhone incliné à droite, à moitié cropé, qui fait défiler les vrais
  * screens in-game localisés (pattern repris du mockup de la home).
  */
-const copy: Record<Lang, { titleBefore: string; titleHl: string; sub: string; play: string; xpAmount: string; xpLabel: string }> = {
+const copy: Record<Lang, { titleBefore: string; titleHl: string; sub: string; play: string; trophyAmount: string; trophyLabel: string }> = {
   fr: {
     titleBefore: 'Apprends',
     titleHl: 'en jouant',
     sub: 'Drapeaux, tableaux, animaux… 2 000+ quiz photo. Gratuit, sans pub.',
     play: 'Jouer maintenant',
-    xpAmount: '+120 XP',
-    xpLabel: 'Série de 5',
+    trophyAmount: '+30',
+    trophyLabel: 'Duel gagné',
   },
   en: {
     titleBefore: 'Learn',
     titleHl: 'by playing',
     sub: 'Flags, paintings, animals… 2,000+ photo quizzes. Free, no ads.',
     play: 'Play now',
-    xpAmount: '+120 XP',
-    xpLabel: '5-streak',
+    trophyAmount: '+30',
+    trophyLabel: 'Duel won',
   },
   es: {
     titleBefore: 'Aprende',
     titleHl: 'jugando',
     sub: 'Banderas, cuadros, animales… 2 000+ quiz con fotos. Gratis, sin anuncios.',
     play: 'Jugar ahora',
-    xpAmount: '+120 XP',
-    xpLabel: 'Racha de 5',
+    trophyAmount: '+30',
+    trophyLabel: 'Duelo ganado',
   },
 };
 
@@ -83,10 +83,10 @@ const slides = ['01', '02', '03', '04', '05'].map(n => `/images/banner/screen-${
         </div>
       </div>
       <div class="floating-card card-top">
-        <div class="card-emoji"><img src="/images/icons/lightning.webp" class="app-ico" alt="" aria-hidden="true" /></div>
+        <div class="card-emoji"><img src="/images/v3/cup.webp" class="app-ico" alt="" aria-hidden="true" /></div>
         <div class="card-content">
-          <div class="card-num">{t.xpAmount}</div>
-          <div class="card-label">{t.xpLabel}</div>
+          <div class="card-num">{t.trophyAmount}</div>
+          <div class="card-label">{t.trophyLabel}</div>
         </div>
       </div>
     </div>
@@ -202,7 +202,7 @@ const slides = ['01', '02', '03', '04', '05'].map(n => `/images/banner/screen-${
     width: 220px;
     height: 220px;
     border-radius: 50%;
-    background: radial-gradient(circle, rgba(255, 107, 53, 0.28), transparent 70%);
+    background: radial-gradient(circle, rgba(255, 94, 58, 0.28), transparent 70%);
     filter: blur(60px);
     animation: glowFloat 6s ease-in-out infinite;
   }
@@ -331,7 +331,7 @@ const slides = ['01', '02', '03', '04', '05'].map(n => `/images/banner/screen-${
     gap: 10px;
     padding: 12px 16px;
     background: rgba(255, 255, 255, 0.98);
-    color: #1f2937;
+    color: #2A1A14;
     border-radius: 14px;
     box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.4);
     z-index: 3;
@@ -359,7 +359,7 @@ const slides = ['01', '02', '03', '04', '05'].map(n => `/images/banner/screen-${
   }
 
   .card-num { font-size: 14px; font-weight: 700; }
-  .card-label { font-size: 11px; color: #6b7280; }
+  .card-label { font-size: 11px; color: #6E665C; }
 
   /* --- Boutons stores --- */
   .cta-stores {
@@ -374,19 +374,19 @@ const slides = ['01', '02', '03', '04', '05'].map(n => `/images/banner/screen-${
     align-items: center;
     gap: 8px;
     padding: 10px 20px;
-    background: linear-gradient(135deg, #ff6b35 0%, #ff8f5c 100%);
+    background: linear-gradient(180deg, #FF8A5B 0%, #FF5E3A 55%, #E9401F 100%);
     color: #fff;
     border-radius: 12px;
     font-size: 15px;
     font-weight: 700;
     text-decoration: none;
-    box-shadow: 0 12px 26px -10px rgba(255, 107, 53, 0.55);
+    box-shadow: 0 12px 26px -10px rgba(255, 94, 58, 0.55);
     transition: transform 0.2s, box-shadow 0.2s;
   }
 
   .inline-cta .play-btn:hover {
     transform: translateY(-2px);
-    box-shadow: 0 16px 32px -10px rgba(255, 107, 53, 0.6);
+    box-shadow: 0 16px 32px -10px rgba(255, 94, 58, 0.6);
   }
 
   /* Stores en secondaire : le CTA principal de la bannière est le jeu. */

@@ -94,10 +94,11 @@ const languages: Lang[] = ['fr', 'en', 'es'];
     top: 0;
     left: 0;
     right: 0;
-    background: rgba(255, 255, 255, 0.95);
+    background: rgba(255, 253, 250, 0.85);
+    -webkit-backdrop-filter: blur(12px);
     backdrop-filter: blur(10px);
     z-index: 100;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    border-bottom: 1px solid rgba(120, 50, 20, 0.08);
   }
 
   .header-content {
@@ -157,19 +158,19 @@ const languages: Lang[] = ['fr', 'en', 'es'];
     justify-content: center;
     padding: 10px 22px;
     border-radius: 999px;
-    background: var(--orange);
+    background: linear-gradient(180deg, #FF8A5B 0%, var(--orange) 55%, var(--orange-dark) 100%);
     color: var(--blanc);
     font-weight: 800;
     font-size: 15px;
     white-space: nowrap;
-    box-shadow: 0 8px 18px -10px var(--orange);
+    box-shadow: 0 3px 0 var(--orange-base);
     transition: transform 0.18s, box-shadow 0.18s, filter 0.18s;
   }
 
   .nav-cta:hover {
     transform: translateY(-2px);
     filter: brightness(1.05);
-    box-shadow: 0 12px 22px -10px var(--orange);
+    box-shadow: 0 5px 0 var(--orange-base);
   }
 
   .nav-cta--block {
@@ -251,7 +252,7 @@ const languages: Lang[] = ['fr', 'en', 'es'];
     padding: 12px 0;
     font-weight: 500;
     color: var(--noir);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    border-bottom: 1px solid rgba(120, 50, 20, 0.08);
     transition: color 0.2s;
   }
 
