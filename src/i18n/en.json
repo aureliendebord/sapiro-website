@@ -286,7 +286,7 @@
       },
       {
         "question": "Does SAPIRO work offline?",
-        "answer": "Quizzes work without a connection: all content is downloaded with the app. You can play on a plane, in the subway, or while camping. Only content updates and online leaderboards require the network."
+        "answer": "Quizzes work without a connection: all content is downloaded with the app. You can play on a plane, in the subway, or while camping. Only duels and content updates require the network."
       },
       {
         "question": "What subjects does SAPIRO cover?",

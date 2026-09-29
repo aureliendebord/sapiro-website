@@ -4,7 +4,9 @@
 
 ## About SAPIRO
 
-SAPIRO is an educational quiz application developed by Agence Debord EURL, based in Paris, France. The app is designed for curious minds of all ages, from children (8+) to adults. It uses gamification mechanics to make learning engaging: Classic mode, Survival mode, Daily Challenges, XP progression, and badges.
+SAPIRO is an educational quiz application developed by Agence Debord EURL, based in Paris, France. The app is designed for curious minds of all ages, from children (8+) to adults. It uses gamification mechanics to make learning engaging: Duels against other players (with trophies), 10-question games, Record mode, a Daily Challenge with streaks, and a Trail that climbs from the bay to the summit.
+
+New in version 2.1 (September 2026): Duel mode. Players replay other players' real games question by question, 10 questions of 10 seconds each, and win or lose trophies. When nobody has played a topic yet, a clearly labelled practice bot steps in. The first 20 duels never cost trophies.
 
 The app covers four domains:
 - Geography: 197 countries with flags, capitals, maps, and key facts

@@ -286,7 +286,7 @@
       },
       {
         "question": "SAPIRO fonctionne-t-il sans connexion internet ?",
-        "answer": "Les quiz fonctionnent sans connexion : tout le contenu est téléchargé avec l'application. Vous pouvez jouer dans l'avion, le métro ou en camping. Seules les mises à jour de contenu et les classements en ligne nécessitent du réseau."
+        "answer": "Les quiz fonctionnent sans connexion : tout le contenu est téléchargé avec l'application. Vous pouvez jouer dans l'avion, le métro ou en camping. Seuls les duels et les mises à jour de contenu nécessitent du réseau."
       },
       {
         "question": "Quels sujets sont couverts ?",

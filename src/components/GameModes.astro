@@ -10,85 +10,91 @@ const { lang } = Astro.props;
 const content = {
   fr: {
     title: "Joue comme tu veux",
-    subtitle: "3 modes de jeu pour chaque envie",
+    subtitle: "4 façons de jouer, dont les duels",
     modes: [
       {
-        icon: "books",
-        title: "Mode Classique",
-        description: "10 questions pour apprendre à ton rythme. Le mode idéal pour découvrir et progresser.",
-        color: "orange"
+        icon: "/images/v3/swords.webp",
+        title: "Duel",
+        description: "Affronte les vraies parties d'autres joueurs, question par question, et gagne des trophées. Personne sur ton thème ? Tu t'entraînes contre le bot Sapiro.",
+        isNew: true
       },
       {
-        icon: "lightning",
-        title: "Mode Survie",
-        description: "3 vies, zéro erreur permise. Jusqu'où iras-tu ? Compare-toi au classement mondial.",
-        color: "coral"
+        icon: "/images/icons/quick-play.webp",
+        title: "10 questions",
+        description: "10 questions à la suite, sans filet. Le mode idéal pour découvrir un thème et progresser."
       },
       {
-        icon: "calendar",
-        title: "Défi quotidien",
-        description: "Un nouveau thème chaque jour, un seul essai. Maintiens ta série !",
-        color: "violet"
+        icon: "/images/icons/heart.webp",
+        title: "Record",
+        description: "Tiens le plus longtemps possible : à la première erreur, c'est fini. Jusqu'où iras-tu ?"
+      },
+      {
+        icon: "/images/icons/calendar.webp",
+        title: "Défi du jour",
+        description: "Un nouveau thème chaque jour, un seul essai. Garde ta série en vie !"
       }
     ]
   },
   en: {
     title: "Play your way",
-    subtitle: "3 game modes for every mood",
+    subtitle: "4 ways to play, duels included",
     modes: [
       {
-        icon: "books",
-        title: "Classic Mode",
-        description: "10 questions to learn at your own pace. The perfect mode to discover and progress.",
-        color: "orange"
+        icon: "/images/v3/swords.webp",
+        title: "Duel",
+        description: "Take on other players' real games, question by question, and win trophies. Nobody on your topic yet? You practice against the Sapiro bot.",
+        isNew: true
       },
       {
-        icon: "lightning",
-        title: "Survival Mode",
-        description: "3 lives, no mistakes allowed. How far can you go? Compare yourself on the world leaderboard.",
-        color: "coral"
+        icon: "/images/icons/quick-play.webp",
+        title: "10 questions",
+        description: "10 questions in a row, no safety net. The perfect mode to discover a topic and improve."
       },
       {
-        icon: "calendar",
+        icon: "/images/icons/heart.webp",
+        title: "Record",
+        description: "Last as long as you can: one mistake and it's over. How far can you go?"
+      },
+      {
+        icon: "/images/icons/calendar.webp",
         title: "Daily Challenge",
-        description: "A new theme every day, one try only. Keep your streak going!",
-        color: "violet"
+        description: "A new topic every day, one try only. Keep your streak alive!"
       }
     ]
   },
   es: {
     title: "Juega a tu manera",
-    subtitle: "3 modos de juego para cada momento",
+    subtitle: "4 maneras de jugar, duelos incluidos",
     modes: [
       {
-        icon: "books",
-        title: "Modo Clásico",
-        description: "10 preguntas para aprender a tu ritmo. El modo ideal para descubrir y progresar.",
-        color: "orange"
+        icon: "/images/v3/swords.webp",
+        title: "Duelo",
+        description: "Enfréntate a las partidas reales de otros jugadores, pregunta a pregunta, y gana trofeos. ¿Nadie en tu tema? Entrenas contra el bot Sapiro.",
+        isNew: true
       },
       {
-        icon: "lightning",
-        title: "Modo Supervivencia",
-        description: "3 vidas, cero errores permitidos. ¿Hasta dónde llegarás? Compárate en el ranking mundial.",
-        color: "coral"
+        icon: "/images/icons/quick-play.webp",
+        title: "10 preguntas",
+        description: "10 preguntas seguidas, sin red. El modo ideal para descubrir un tema y progresar."
       },
       {
-        icon: "calendar",
-        title: "Desafío diario",
-        description: "Un nuevo tema cada día, un solo intento. ¡Mantén tu racha!",
-        color: "violet"
+        icon: "/images/icons/heart.webp",
+        title: "Récord",
+        description: "Aguanta lo máximo posible: al primer error, se acabó. ¿Hasta dónde llegarás?"
+      },
+      {
+        icon: "/images/icons/calendar.webp",
+        title: "Reto del día",
+        description: "Un tema nuevo cada día, un solo intento. ¡Mantén viva tu racha!"
       }
     ]
   }
 };
 
+const newLabel = { fr: "Nouveau", en: "New", es: "Nuevo" }[lang];
+
 const t = content[lang];
 
-const colorMap: Record<string, string> = {
-  orange: 'var(--orange)',
-  coral: 'var(--coral)',
-  violet: 'var(--violet)'
-};
 ---
 
 <section class="game-modes section">
@@ -100,8 +106,9 @@ const colorMap: Record<string, string> = {
 
     <div class="modes-grid">
       {t.modes.map((mode) => (
-        <div class="mode-card" style={`--card-color: ${colorMap[mode.color]}`}>
-          <div class="mode-emoji"><img src={`/images/icons/${mode.icon}.webp`} class="app-ico" alt="" aria-hidden="true" /></div>
+        <div class={`mode-card${mode.isNew ? ' mode-card--new' : ''}`}>
+          {mode.isNew && <span class="mode-new">{newLabel}</span>}
+          <div class="mode-emoji"><img src={mode.icon} class="mode-ico" alt="" aria-hidden="true" width="64" height="64" /></div>
           <h3>{mode.title}</h3>
           <p>{mode.description}</p>
         </div>
@@ -131,7 +138,7 @@ const colorMap: Record<string, string> = {
 
   .modes-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 24px;
   }
 
@@ -153,9 +160,34 @@ const colorMap: Record<string, string> = {
   }
 
   .mode-emoji {
-    font-size: 3rem;
     margin-bottom: 16px;
-    display: block;
+    display: flex;
+    justify-content: center;
+  }
+
+  .mode-ico {
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+    filter: drop-shadow(0 6px 10px rgba(120, 50, 20, 0.18));
+  }
+
+  /* Le duel, nouveauté 2.1.0 : liseré orange et pastille « Nouveau » */
+  .mode-card--new {
+    background: linear-gradient(180deg, #fff 0%, #FFF3EC 100%);
+    border: 2px solid rgba(255, 94, 58, 0.45);
+  }
+
+  .mode-new {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    padding: 3px 10px;
+    border-radius: 999px;
+    background: var(--orange);
+    color: #fff;
+    font-size: 12px;
+    font-weight: 800;
   }
 
   .mode-card h3 {
@@ -170,7 +202,13 @@ const colorMap: Record<string, string> = {
     font-size: 0.95rem;
   }
 
-  @media (max-width: 968px) {
+  @media (max-width: 1100px) {
+    .modes-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 640px) {
     .modes-grid {
       grid-template-columns: 1fr;
       max-width: 400px;
