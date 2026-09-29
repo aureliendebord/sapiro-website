@@ -118,10 +118,33 @@ export interface UserProfile {
   createdAt: string;
 }
 
+// Réponses du questionnaire d'onboarding. Locales (pas de synchro cloud) : elles
+// adaptent l'app (prénom, accords, objectif, heure du rappel) et, sauf le prénom,
+// segmentent PostHog. Chaque champ est facultatif : chaque question se passe.
+export type AgeRange =
+  | "13_17"
+  | "18_24"
+  | "25_34"
+  | "35_44"
+  | "45_54"
+  | "55_plus"
+  | "undisclosed";
+export type Gender = "female" | "male" | "other" | "undisclosed";
+export type Motivation = "shine" | "lifelong" | "kids" | "challenge";
+export type WeeklyGoal = 3 | 5 | 7;
+
+export interface AboutMe {
+  firstName?: string;
+  ageRange?: AgeRange;
+  gender?: Gender;
+  motivation?: Motivation;
+  weeklyGoal?: WeeklyGoal;
+  /** Heure locale (0-23) du rappel quotidien. Absent = heure par défaut. */
+  reminderHour?: number;
+}
+
 // User Stats
 export interface UserStats {
-  totalXP: number;
-  level: number;
   gamesPlayed: number;
   correctAnswers: number;
   totalAnswers: number;
@@ -140,33 +163,6 @@ export interface UserStats {
   bestDailyChallengeScore: number;
 }
 
-// Badge
-export interface Badge {
-  id: string;
-  name: string;
-  description: string;
-  icon: string;
-  category: "achievement" | "streak" | "mastery";
-  condition: BadgeCondition;
-  unlockedAt?: string;
-}
-
-export interface BadgeCondition {
-  type:
-    | "games_played"
-    | "perfect_score"
-    | "survival_streak"
-    | "survival_complete"
-    | "survival_perfect"
-    | "daily_streak"
-    | "continent_mastery"
-    | "badge_count"
-    | "daily_challenge_streak"
-    | "daily_challenge_perfect";
-  value: number;
-  continent?: string;
-}
-
 // Game Mode type
 export type GameMode = "classic" | "survival" | "daily" | "review";
 
@@ -181,7 +177,6 @@ export interface GameResult {
   theme?: AppTheme;
   score: number;
   totalQuestions: number;
-  xpEarned: number;
   playedAt: string;
   duration: number; // seconds
 }
@@ -204,73 +199,6 @@ export interface SurvivalSession {
   lives: number;
   elapsedSeconds: number;
   updatedAt: string; // ISO — arbitre le merge cloud (le plus récent gagne)
-}
-
-// Leaderboard
-export type LeaderboardMetric = "xp" | "survival";
-export type LeaderboardPeriod = "all" | "month" | "week";
-// "all" = tous thèmes confondus ; les autres correspondent à AppTheme (mix inclus).
-export type LeaderboardTheme = "all" | AppTheme;
-
-export interface LeaderboardEntry {
-  rank: number;
-  user_id: string;
-  pseudo: string;
-  avatar: string;
-  // Présent uniquement pour les abonnés Sapiro+ (peut être null/undefined).
-  pro_badge?: string | null;
-  value: number;
-  is_me: boolean;
-}
-
-export interface MyRank {
-  rank: number;
-  value: number;
-  total_players: number;
-}
-
-// Leagues (classement hebdomadaire façon Duolingo)
-export type LeagueZone = "promote" | "stay" | "relegate";
-
-// Une ligne de la standing de poule. Étend LeaderboardEntry (value = XP de la
-// semaine) avec la zone de promotion/relégation calculée serveur.
-export interface LeagueStandingEntry extends LeaderboardEntry {
-  zone: LeagueZone;
-}
-
-// Résultat agrégé de get_my_league : ma poule de la semaine + sa standing live.
-export interface MyLeague {
-  season: number;
-  endsAt: string; // ISO — fin de la semaine (clôture)
-  tier: number; // 0=étoile … 4=galaxie
-  pool: number;
-  entries: LeagueStandingEntry[];
-}
-
-// Issue de la rotation de fin de semaine (écran de résultat).
-export type LeagueOutcome = "promote" | "stay" | "relegate" | "dropped";
-
-// Dernier résultat de ligue de l'appelant (get_latest_league_result).
-export interface LeagueResult {
-  endedSeason: number;
-  fromTier: number;
-  toTier: number | null; // null si sorti de l'échelle (dropped)
-  outcome: LeagueOutcome;
-  rank: number;
-  poolSize: number;
-  weeklyXp: number;
-  endsAt: string; // ISO — clôture de la semaine concernée
-}
-
-// Une entrée du « mur des records » survie (top 10 par thème).
-export interface SurvivalRecord {
-  theme: AppTheme;
-  rank: number;
-  user_id: string;
-  pseudo: string;
-  avatar: string;
-  pro_badge?: string | null;
-  value: number;
 }
 
 // Country (étend FlagEntity)
@@ -721,18 +649,10 @@ export interface Answer {
   timeSpent: number; // milliseconds
 }
 
-// Level
-export interface Level {
-  level: number;
-  name: string;
-  xpRequired: number;
-}
-
 // App State
 export interface AppState {
   isOnboarded: boolean;
   profile: UserProfile | null;
   stats: UserStats;
-  badges: Badge[];
   gameHistory: GameResult[];
 }

@@ -209,29 +209,6 @@
   }
 }
 
-/* ---------- Restes partagés (le profil réutilise la barre d'XP) ---------- */
-
-.game-rail__xp {
-  color: var(--ink-faint);
-  font-size: 12px;
-  font-weight: 700;
-}
-
-.game-rail__bar {
-  height: 6px;
-  border-radius: 999px;
-  background: var(--rule-light);
-  overflow: hidden;
-  margin-top: 6px;
-}
-
-.game-rail__bar span {
-  display: block;
-  height: 100%;
-  border-radius: 999px;
-  background: var(--accent);
-}
-
 /* Le bloc SEO se met en page tout seul (styles scopés dans GameSeoIntro.astro,
    grammaire des sections du site) : il n'a plus rien à faire ici. */
 

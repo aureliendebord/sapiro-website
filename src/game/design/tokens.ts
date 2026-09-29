@@ -55,11 +55,38 @@ export const THEMES: Record<string, ColorScheme> = {
 /** Accent par mode de jeu. */
 export const MODE_COLOR: Record<string, ColorScheme> = {
   classic: { primary: "#FF5E3A", onPrimary: "#FFFFFF", tint: "#FFE4DB", tintDeep: "#B13818" },
-  capital: { primary: "#F4B740", onPrimary: "#1A1816", tint: "#FDEBC3", tintDeep: "#8E6410" },
   survival: { primary: "#E5435A", onPrimary: "#FFFFFF", tint: "#FBDDE2", tintDeep: "#9A1B30" },
-  daily: { primary: "#4C9A6B", onPrimary: "#FFFFFF", tint: "#DDEDDF", tintDeep: "#275E3E" },
+  // Défi du jour : orange de marque (DA V3 de l'app — le vert détonnait).
+  daily: { primary: "#FF5E3A", onPrimary: "#FFFFFF", tint: "#FFE4DB", tintDeep: "#B13818" },
   review: { primary: "#7C5CE0", onPrimary: "#FFFFFF", tint: "#E7E0FA", tintDeep: "#4A35A0" },
+  // Duel : l'orange de la marque, c'est LE mode de l'app 2.1.0.
+  duel: { primary: "#FF5E3A", onPrimary: "#FFFFFF", tint: "#FFE4DB", tintDeep: "#B13818" },
 };
+
+/**
+ * Typographie DA V3 : Nunito pour le texte, Baloo 2 ExtraBold pour les
+ * chiffres et les mots qui claquent (score, verdict) — jamais une phrase.
+ */
+export const FONTS = {
+  text: '"Nunito", system-ui, sans-serif',
+  display: '"Baloo 2", "Nunito", system-ui, sans-serif',
+} as const;
+
+/** DA V3 — fond crème, encre chaude, verre (miroir de `V3` de l'app). */
+export const V3 = {
+  /** Dégradé du fond crème, du haut vers le bas. */
+  cream: ["#FFFDFA", "#FBF1E8", "#F6DCCB"] as const,
+  /** Voile crème posé sur l'illustration de fond (accueil). */
+  veil: "rgba(255,253,250,0.25)",
+  ink: "#2A1A14",
+  inkSoft: "rgba(42,26,20,0.6)",
+  glass: ["rgba(255,255,255,0.55)", "rgba(255,255,255,0.25)", "rgba(255,255,255,0.4)"] as const,
+  glassEdge: "rgba(255,255,255,0.9)",
+  /** Bouton 3D orange : face (haut → bas) + socle. */
+  button: { face: ["#FF8A5B", "#FF5E3A", "#E9401F"] as const, base: "#C9441F" },
+  /** Ombre chaude et floue (teinte brune) sous le verre et les objets illustrés. */
+  warmShadow: "0 10px 18px rgb(120 50 20 / 16%)",
+} as const;
 
 export const RADIUS = {
   sm: 10,

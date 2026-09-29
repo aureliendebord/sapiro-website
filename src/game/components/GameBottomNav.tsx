@@ -4,7 +4,7 @@ import { t } from "@game/lib/i18n";
 import { Icon } from "./ui/Icon";
 import { Glyph } from "./ui/Glyph";
 
-export type NavSection = "home" | "journeys" | "board" | "profile";
+export type NavSection = "home" | "journeys" | "profile";
 
 interface Props {
   user: User | null;
@@ -24,14 +24,13 @@ interface Props {
  * libellé — pas de pastille de fond. Les illustrations ne se teintent pas,
  * c'est le seul état actif qui se lise sur elles.
  *
- * L'app a cinq onglets dont un dédié aux Badges (🏵️) ; le web les affiche dans
- * le Profil, qui reprend donc l'icône de l'onglet Profil de l'app (👤).
+ * Mêmes trois onglets que l'app 2.1.0 (Accueil, Parcours, Profil) : le
+ * classement et les badges ont disparu de l'app, et donc d'ici.
  */
 export function GameBottomNav({ user, current, onNavigate, onAccount }: Props) {
   const tabs: Array<{ section: NavSection; emoji: string; label: string }> = [
     { section: "home", emoji: "🏠", label: t("web.nav.home") },
     { section: "journeys", emoji: "🧭", label: t("web.nav.journeys") },
-    { section: "board", emoji: "🏆", label: t("web.nav.board") },
     { section: "profile", emoji: "👤", label: t("web.nav.profile") },
   ];
 

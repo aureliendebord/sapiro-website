@@ -7,7 +7,6 @@ import { warmGameSounds } from "@game/lib/sounds";
 import { loadContent } from "@game/lib/loadContent";
 import { HomeScreen, type HomeAction } from "./HomeScreen";
 import { PathScreen } from "./path/PathScreen";
-import { LeaderboardScreen } from "./leaderboard/LeaderboardScreen";
 import { ProfileScreen } from "./profile/ProfileScreen";
 import { QuizScreen } from "./QuizScreen";
 import { ResultScreen } from "./ResultScreen";
@@ -18,7 +17,6 @@ import { useGameStore } from "@game/store/gameStore";
 import { recordGameResult, flushPendingResults } from "@game/lib/gameResults";
 import type { SessionConfig, SessionResult } from "@game/lib/quizSession";
 import { GameBottomNav } from "./GameBottomNav";
-import { levelFromXp } from "@game/store/gameStore";
 import { Icon } from "./ui/Icon";
 import { Glyph } from "./ui/Glyph";
 import { AccountModal } from "./AccountModal";
@@ -40,7 +38,6 @@ const PaywallModal = lazy(() =>
 type Screen =
   | { name: "home" }
   | { name: "journeys" }
-  | { name: "board" }
   | { name: "profile" }
   | { name: "quiz"; config: SessionConfig }
   // `config` est conservé pour que « Rejouer » relance exactement la même
@@ -69,7 +66,6 @@ export default function GameApp({ lang }: Props) {
   const earnDailyBonus = useTicketStore((s) => s.earnDailyBonus);
   const refreshRemoteConfig = useTicketStore((s) => s.refreshRemoteConfig);
 
-  const xp = useGameStore((s) => s.xp);
   const lastDailyKey = useGameStore((s) => s.lastDailyKey);
   const dailyStreak = useGameStore((s) => s.dailyStreak);
   const recordGame = useGameStore((s) => s.recordGame);
@@ -264,7 +260,6 @@ export default function GameApp({ lang }: Props) {
         theme: result.theme,
         score: result.score,
         totalQuestions: result.totalQuestions,
-        xpEarned: result.xp.totalXP,
         duration: result.durationSeconds,
         playedAt: Date.now(),
       });
@@ -287,7 +282,6 @@ export default function GameApp({ lang }: Props) {
         journey: result.journeyId ?? "",
         score: result.score,
         total: result.totalQuestions,
-        xp: result.xp.totalXP,
       });
       void recordGameResult(result);
       setScreen({ name: "result", result, config });
@@ -323,9 +317,6 @@ export default function GameApp({ lang }: Props) {
           />
         );
 
-      case "board":
-        return <LeaderboardScreen user={user} onSignIn={() => setAccountOpen(true)} />;
-
       case "profile":
         return (
           <ProfileScreen
@@ -351,7 +342,6 @@ export default function GameApp({ lang }: Props) {
           <QuizScreen
             key={`${screen.config.mode}-${screen.config.journeyId ?? "random"}`}
             config={screen.config}
-            previousDailyStreak={dailyStreak}
             onFinish={(result) => handleFinish(result, screen.config)}
             onQuit={(answered) => handleQuit(answered, costsTicket)}
           />
@@ -378,7 +368,6 @@ export default function GameApp({ lang }: Props) {
     tickets,
     isPremium,
     dailyDone,
-    dailyStreak,
     handleAction,
     handlePlayBlock,
     user,
@@ -398,14 +387,14 @@ export default function GameApp({ lang }: Props) {
       <div className="game-shell">
         <div className="game-board">
           {/* La navigation ouvre le plateau : c'est la carte du jeu, elle passe
-              donc avant le compte du joueur (niveau, parties) et avant le
+              donc avant le compte du joueur (série, parties) et avant le
               contenu de l'écran. Flottante et posée en bas, elle recouvrait le
               jeu sans appartenir à rien. */}
           {!focusMode && (
             <GameBottomNav
               user={user}
               current={
-                screen.name === "journeys" || screen.name === "board" || screen.name === "profile"
+                screen.name === "journeys" || screen.name === "profile"
                   ? screen.name
                   : "home"
               }
@@ -417,7 +406,7 @@ export default function GameApp({ lang }: Props) {
           {screen.name === "home" && (
             <div className="game-statusbar">
               <span className="game-pill">
-                <Icon emoji="⭐" size={18} /> {t("web.home.level", { level: levelFromXp(xp) })}
+                <Icon emoji="🔥" size={18} /> {dailyStreak}
               </span>
               {isPremium ? (
                 <>

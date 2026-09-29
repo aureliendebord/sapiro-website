@@ -434,22 +434,6 @@ export const DAILY_CHALLENGE_THEMES: DailyChallengeTheme[] = [
 export const THEMES_COUNT = DAILY_CHALLENGE_THEMES.length;
 
 /**
- * Paliers de streak pour les badges du défi du jour
+ * Paliers de streak du défi du jour
  */
 export const DAILY_STREAK_MILESTONES = [3, 7, 14, 30, 60, 100, 200, 365, 500, 1000] as const;
-
-/**
- * Configuration des badges de streak du défi du jour
- */
-export const DAILY_STREAK_BADGES = [
-  { milestone: 3, id: "daily_3", name: "Jeune pousse", icon: "🌱" },
-  { milestone: 7, id: "daily_7", name: "En feu", icon: "🔥" },
-  { milestone: 14, id: "daily_14", name: "Électrique", icon: "⚡" },
-  { milestone: 30, id: "daily_30", name: "Diamant", icon: "💎" },
-  { milestone: 60, id: "daily_60", name: "Champion", icon: "🏆" },
-  { milestone: 100, id: "daily_100", name: "Royal", icon: "👑" },
-  { milestone: 200, id: "daily_200", name: "Légendaire", icon: "🦁" },
-  { milestone: 365, id: "daily_365", name: "Annuel", icon: "🌟" },
-  { milestone: 500, id: "daily_500", name: "Astronaute", icon: "🚀" },
-  { milestone: 1000, id: "daily_1000", name: "Immortel", icon: "🏅" },
-] as const;
