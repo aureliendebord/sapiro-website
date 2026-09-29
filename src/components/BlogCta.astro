@@ -118,11 +118,11 @@ const clusterCopy: Record<string, Record<Lang, CtaCopy>> = {
   famille: {
     fr: {
       title: 'Le prochain quiz, faites-le à deux.',
-      subtitle: 'SAPIRO, c\'est le quiz à partager en famille : ludique, éducatif, sans pub ni collecte de données.',
+      subtitle: 'SAPIRO, c\'est le quiz à partager en famille : ludique, éducatif, sans pub, sans revente de données.',
     },
     en: {
       title: 'Make the next quiz a family game.',
-      subtitle: 'SAPIRO is the quiz to share at home: fun, educational, no ads, no data collection.',
+      subtitle: 'SAPIRO is the quiz to share at home: fun, educational, no ads, data never sold.',
     },
     es: {
       title: 'El próximo quiz, jugadlo en familia.',
@@ -146,11 +146,11 @@ const clusterCopy: Record<string, Record<Lang, CtaCopy>> = {
   comparatifs: {
     fr: {
       title: 'Le plus simple : essaie SAPIRO.',
-      subtitle: 'Gratuit, sans pub, sans collecte de données. Juge par toi-même en 2 minutes.',
+      subtitle: 'Gratuit, sans pub, sans revente de données. Juge par toi-même en 2 minutes.',
     },
     en: {
       title: 'The easiest way to decide: try SAPIRO.',
-      subtitle: 'Free, no ads, no data collection. Judge for yourself in 2 minutes.',
+      subtitle: 'Free, no ads, data never sold. Judge for yourself in 2 minutes.',
     },
     es: {
       title: 'Lo más sencillo: prueba SAPIRO.',
@@ -257,12 +257,12 @@ const play = playLabels[lang];
     text-decoration: none;
     text-align: left;
     transition: transform 0.2s, box-shadow 0.2s;
-    box-shadow: 0 14px 30px -10px rgba(255, 94, 58, 0.55);
+    box-shadow: 0 4px 0 #C9441F;
   }
 
   .play-btn:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 18px 38px -10px rgba(255, 94, 58, 0.6);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 0 #C9441F;
   }
 
   .play-txt {
@@ -271,13 +271,16 @@ const play = playLabels[lang];
     line-height: 1.2;
   }
 
-  .play-txt strong {
+  /* Sélecteur renforcé : sinon le `strong` des articles (couleur encre) gagne */
+  .play-btn .play-txt strong {
     font-size: 17px;
-    font-weight: 700;
+    font-weight: 800;
+    color: #fff;
   }
 
   .play-txt small {
     font-size: 11px;
+    color: #fff;
     opacity: 0.9;
     font-weight: 500;
   }
