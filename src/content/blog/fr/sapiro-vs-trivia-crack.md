@@ -28,7 +28,7 @@ SAPIRO tient quatre domaines travaillés en profondeur : géographie (197 pays a
 
 C'est ici que les deux applications s'éloignent le plus.
 
-Trivia Crack est financé par la publicité, et ça se voit. Vidéos obligatoires de 30 secondes entre les parties, bannières permanentes, interstitiels plein écran après chaque manche. La version premium à ~3,99 €/mois réduit la fréquence des pubs mais ne les supprime pas, ce qui est révélateur du modèle. Pour un enfant, certaines pubs renvoient vers des jeux d'argent ou du contenu inadapté, et chaque interruption casse la chaîne mentale qui venait de se former avec la question précédente.
+Trivia Crack est financé par la publicité, et ça se voit. Vidéos obligatoires de 30 secondes entre les parties, bannières permanentes, interstitiels plein écran après chaque manche. L'offre payante Trivia Crack Prime (à partir de 6 € environ) retire les pubs imposées ; seules restent les pubs récompensées, facultatives. Il faut donc payer pour retrouver une expérience propre, ce qui est révélateur du modèle. Pour un enfant, certaines pubs renvoient vers des jeux d'argent ou du contenu inadapté, et chaque interruption casse la chaîne mentale qui venait de se former avec la question précédente.
 
 Côté données, Trivia Crack a une réputation qui précède l'appli. TIME l'a classée parmi les plus intrusives du marché. Common Sense Media a documenté une collecte active : données personnelles partagées avec des tiers publicitaires, tracking via Facebook, géolocalisation utilisée pour cibler les annonces. Quand un enfant joue, ses habitudes, sa position et ses identifiants partent alimenter des réseaux publicitaires.
 
@@ -47,7 +47,7 @@ L'appli est notée 5/5 sur Google Play et recommandée par des enseignants comme
 | | **SAPIRO** | **Trivia Crack** |
 |---|---|---|
 | **Version gratuite** | Oui, sans pub | Oui, avec pubs intensives |
-| **Publicités** | Aucune | Omniprésentes en gratuit, réduites en premium |
+| **Publicités** | Aucune | Omniprésentes en gratuit, retirées avec Prime (payant) |
 | **Données collectées** | Aucune | Données personnelles, géoloc, tracking tiers |
 | **Multijoueur asynchrone** | Non | Oui (point fort) |
 | **Explications après réponse** | Oui | Non |

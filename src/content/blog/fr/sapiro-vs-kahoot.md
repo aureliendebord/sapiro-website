@@ -52,7 +52,7 @@ Oui, surtout pour les enfants. Kahoot collecte des données à des fins d'analys
 | **Explications après réponse** | Oui | Non |
 
 **Kahoot est-il gratuit pour les enseignants ?**
-La version de base, oui. Pour les fonctions pédagogiques avancées (rapports détaillés, modes de jeu étendus), les plans école vont d'environ 3 à 19 $/mois. SAPIRO propose de son côté une version gratuite sans publicité.
+La version de base, oui. Pour les fonctions pédagogiques avancées (rapports détaillés, modes de jeu étendus), les plans école vont d'environ 3 à 19 $/mois (facturation annuelle). SAPIRO propose de son côté une version gratuite sans publicité.
 
 **Ça fonctionne sans internet ?**
 SAPIRO oui, Kahoot non. Logique pour une plateforme collaborative en temps réel, mais ça limite Kahoot pour un usage individuel dans les transports ou en voyage.

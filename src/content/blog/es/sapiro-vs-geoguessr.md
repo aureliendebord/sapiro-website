@@ -28,7 +28,7 @@ SAPIRO también ofrece más de 50 recorridos temáticos. Puedes seguir una secue
 
 ## Publicidad y privacidad
 
-GeoGuessr no te bombardea con anuncios. La versión gratuita simplemente es muy limitada: una partida al día y se acabó. Para jugar sin restricciones necesitas la suscripción Pro, que cuesta unos 3,99 €/mes. En cuanto a datos, GeoGuessr requiere una cuenta y recopila datos de uso. Funciona sobre Google Maps, lo que implica el ecosistema de datos de Google.
+GeoGuessr no te bombardea con anuncios. La versión gratuita simplemente es muy limitada: una partida al día y se acabó. Para jugar sin restricciones necesitas la suscripción Pro, que cuesta unos 7 €/mes (menos con el plan anual). En cuanto a datos, GeoGuessr requiere una cuenta y recopila datos de uso. Funciona sobre Google Maps, lo que implica el ecosistema de datos de Google.
 
 SAPIRO no tiene publicidad en ninguna versión, incluida la gratuita. Ni banners, ni vídeos, ni intersticiales. La app no recopila ningún dato personal. No necesitas cuenta, no hay tracking, no hay transmisión a terceros. Para los padres que buscan una app educativa segura para sus hijos, esta diferencia importa mucho. En el contexto del RGPD europeo, una app que simplemente no recopila nada simplifica bastante la decisión.
 

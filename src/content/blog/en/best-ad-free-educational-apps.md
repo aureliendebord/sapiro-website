@@ -46,7 +46,7 @@ Advertising in educational apps breaks learning. Here is a selection of truly ad
 
 **Anki.** Free on computer and Android, paid on iOS. Spaced repetition flashcard system, ad-free.
 
-**Duolingo Super.** $8-14/month to remove ads.
+**Duolingo Super.** Roughly $8-14/month to remove ads.
 
 ## Reading and comprehension
 

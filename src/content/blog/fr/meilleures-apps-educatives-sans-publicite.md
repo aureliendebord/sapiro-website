@@ -46,7 +46,7 @@ La publicité dans les apps éducatives casse l'apprentissage. Voici une sélect
 
 **Anki.** Gratuit sur ordinateur et Android, payant sur iOS. Système de flashcards à répétition espacée, sans pub.
 
-**Duolingo Super.** 8-14 euros/mois pour supprimer publicités.
+**Duolingo Super.** Environ 8 à 14 euros/mois pour supprimer les publicités.
 
 ## Lecture et compréhension
 

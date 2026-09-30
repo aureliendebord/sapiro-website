@@ -28,7 +28,7 @@ SAPIRO also offers 50+ thematic paths: curated sequences of questions organized 
 
 ## Ads and User Experience
 
-Trivia Crack is free to download, but the free experience is heavily monetized through advertising. Video ads play between rounds. Banner ads sit at the bottom of the screen. Interstitial ads pop up during transitions. For younger users especially, the constant interruptions break concentration and create frustration. Even Trivia Crack's premium tier, priced at roughly $3.99, does not eliminate ads entirely. It only reduces them.
+Trivia Crack is free to download, but the free experience is heavily monetized through advertising. Video ads play between rounds. Banner ads sit at the bottom of the screen. Interstitial ads pop up during transitions. For younger users especially, the constant interruptions break concentration and create frustration. Trivia Crack's paid tier, Trivia Crack Prime (from about €6 on the EU App Store), removes the forced ads; only optional rewarded ads remain. In other words, you have to pay to get a clean experience.
 
 SAPIRO contains zero ads. No video ads, no banners, no interstitials, no sponsored content. The interface is clean and designed entirely around the content. This matters more than it might seem: when you are trying to remember that the Uffizi Gallery houses Botticelli's "Birth of Venus," a thirty-second ad for a mobile game kills the momentum.
 

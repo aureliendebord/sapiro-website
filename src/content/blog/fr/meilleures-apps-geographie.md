@@ -38,7 +38,7 @@ Pour qui ? Les étudiants qui révisent une carte précise, les profs, et tous c
 
 GeoGuessr a inventé son propre genre. On vous lâche quelque part sur Google Street View et vous devez deviner où vous êtes. Pas de carte, pas d'indice, juste vos yeux : la forme d'un panneau routier, le style des maisons, la végétation, l'inscription sur une devanture.
 
-Addictif, franchement addictif. Plus de 50 millions de joueurs, un mode multijoueur qui transforme chaque partie en duel, et un contenu quasi infini grâce à Google Street View. Mais l'abonnement Pro (autour de 3,99 euros par mois) pique pour un jeu mobile, la version gratuite se limite à une partie par jour, et il faut une bonne connexion. Pour apprendre de façon structurée avec des fiches, ce n'est pas l'outil. Pour le fun pur et le défi, rien d'équivalent.
+Addictif, franchement addictif. Plus de 50 millions de joueurs, un mode multijoueur qui transforme chaque partie en duel, et un contenu quasi infini grâce à Google Street View. Mais l'abonnement Pro (autour de 7 euros par mois, moins à l'année) pique pour un jeu mobile, la version gratuite se limite à une partie par jour, et il faut une bonne connexion. Pour apprendre de façon structurée avec des fiches, ce n'est pas l'outil. Pour le fun pur et le défi, rien d'équivalent.
 
 Si le format intrigue, notre article sur [la gamification dans l'éducation](/blog/gamification-education/) explique pourquoi ça accroche autant.
 
@@ -52,7 +52,7 @@ Bémols : le design a l'air d'avoir dix ans et les pubs reviennent vite dans la 
 
 StudyGe fonctionne comme un atlas interactif couplé à des quiz. On explore le monde pays par pays (population, superficie, PIB, langues), puis on teste ses connaissances. La carte a un design moderne, le mode hors ligne fonctionne bien, et l'équilibre exploration-quiz est plutôt bien dosé.
 
-En revanche, certaines fonctions sont verrouillées derrière la version premium (environ 4,99 euros par an), le volet culture générale reste maigre, et au bout de quelques semaines on tourne en rond sur les mêmes questions.
+En revanche, certaines fonctions sont verrouillées derrière la version premium (environ 30 euros par an), le volet culture générale reste maigre, et au bout de quelques semaines on tourne en rond sur les mêmes questions.
 
 ## 6. Geography Quiz Game, minimaliste
 

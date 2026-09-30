@@ -30,7 +30,7 @@ SAPIRO y Duolingo son dos apps de aprendizaje, pero en terrenos distintos. Duoli
 
 ## La gratuidad
 
-**Duolingo.** Gratis con publicidad y límite de corazones (recarga larga tras errores). Super Duolingo (8 a 14 euros/mes) elimina eso.
+**Duolingo.** Gratis con publicidad y límite de corazones (recarga larga tras errores). Super Duolingo (unos 8 a 14 euros/mes) elimina eso.
 
 **SAPIRO.** Versión gratuita sin publicidad.
 

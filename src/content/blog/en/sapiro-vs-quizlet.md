@@ -30,7 +30,7 @@ SAPIRO and Quizlet are both learning apps, but they do different things. Quizlet
 
 ## Free tier
 
-**Quizlet.** Free for basic features. Quizlet Plus ($4/month) for advanced features (ChatGPT for question generation, offline modes, statistics).
+**Quizlet.** Free for basic features. Quizlet Plus (roughly $8-10/month, less on an annual plan) for advanced features (ChatGPT for question generation, offline modes, statistics).
 
 **SAPIRO.** Free version with no ads and no data collection.
 

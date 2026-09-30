@@ -34,7 +34,7 @@ SAPIRO's thematic paths (world museums, historical empires, Renaissance painters
 
 ## Ads, Privacy, and Data
 
-Kahoot's basic plan is free for teachers, but school plans range from $3 to $19 per month. The platform collects educational analytics: student results, response times, success rates. This is genuinely useful for teachers tracking class performance. But the data exists, it gets stored, and it feeds a commercial ecosystem. Kahoot also has a separate Kahoot! Kids app with its own policies.
+Kahoot's basic plan is free for teachers, but paid plans range from roughly $3 to $19 per month, billed annually. The platform collects educational analytics: student results, response times, success rates. This is genuinely useful for teachers tracking class performance. But the data exists, it gets stored, and it feeds a commercial ecosystem. Kahoot also has a separate Kahoot! Kids app with its own policies.
 
 SAPIRO collects zero personal data. No account required, no tracking, no third-party sharing. The app shows zero ads, including in the free version. What happens in SAPIRO stays on your device. For parents looking for an educational app that respects their children's privacy, this matters. Our guide to the [best quiz apps for general knowledge](/en/blog/best-quiz-apps-general-knowledge/) covers this point across several apps.
 

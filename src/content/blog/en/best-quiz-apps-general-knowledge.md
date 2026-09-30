@@ -48,21 +48,21 @@ Large player base, fun multiplayer, wide category range. But heavy ads, aggressi
 
 Kahoot! turned classroom quizzes into live competitive events, and it works. A teacher creates a quiz, shares a PIN, students join from their devices. The music, leaderboards, and time pressure create real energy, as anyone who's been in a Kahoot! session knows.
 
-The problem: Kahoot! is a platform, not a quiz app. You need someone to create and host the quiz. If you just want to pick up your phone and learn something on the train, this isn't it. The free tier is limited, and teacher/business plans run $3 to $19 per month, which adds up fast.
+The problem: Kahoot! is a platform, not a quiz app. You need someone to create and host the quiz. If you just want to pick up your phone and learn something on the train, this isn't it. The free tier is limited, and paid plans run roughly $3 to $19 per month (billed annually), which adds up fast.
 
 Great for classrooms and group settings. Not suited for solo learning, and the pricing can get steep.
 
-**Price:** Free tier. Plans from $3 to $19/month.
+**Price:** Free tier. Plans from roughly $3 to $19/month, billed annually.
 
-## 4. Quizizz — Quiz Platform for Schools
+## 4. Quizizz (now Wayground) — Quiz Platform for Schools
 
-Quizizz covers similar ground to Kahoot! but adds asynchronous play: students complete quizzes at their own pace, which teachers appreciate. The meme-based feedback after each question is a nice touch, and the reporting tools for tracking student progress are solid.
+Quizizz, rebranded as Wayground in 2025, covers similar ground to Kahoot! but adds asynchronous play: students complete quizzes at their own pace, which teachers appreciate. The meme-based feedback after each question is a nice touch, and the reporting tools for tracking student progress are solid.
 
-Same core limitation though: it depends on teacher-created content. The public quiz library is large but uneven. If you're an individual learner, the whole experience feels like you wandered into a classroom app that wasn't designed for you. Plans for educators run $5 to $10 per month.
+Same core limitation though: it depends on teacher-created content. The public quiz library is large but uneven. If you're an individual learner, the whole experience feels like you wandered into a classroom app that wasn't designed for you. Paid plans target schools and districts, priced on request.
 
 Good teacher analytics, flexible async mode. But firmly a classroom tool, not a solo learning app.
 
-**Price:** Free tier. Plans from $5 to $10/month.
+**Price:** Free tier. School and district plans on request.
 
 ## 5. Erudite — Trivia With a Spin Wheel
 
@@ -88,13 +88,13 @@ The Elo mechanic is clever. But French-only, no structured learning, and a dated
 
 GeoGuessr drops you into a random Google Street View location and asks: where are you? It's a brilliantly simple concept. You learn to read road signs, vegetation, architecture, sun position: the kind of observational geography no textbook teaches. The community is passionate and the game is genuinely addictive.
 
-The scope is narrow by design: geography only, and specifically location-guessing. No capitals, no historical facts, no cultural knowledge. The free tier is restrictive, and Pro at ~$3.99/month is basically required. You also need a constant internet connection since it streams Street View imagery.
+The scope is narrow by design: geography only, and specifically location-guessing. No capitals, no historical facts, no cultural knowledge. The free tier is restrictive, and Pro, at about €7/month at list price (less on an annual plan), is basically required. You also need a constant internet connection since it streams Street View imagery.
 
 For a broader look at geography apps specifically, see our [comparison of the best geography apps](/en/blog/best-geography-apps/).
 
 Unique, immersive, and teaches you to see the world differently. But geography-only, always-online, and the free tier barely lets you play.
 
-**Price:** Free tier. Pro ~$3.99/month.
+**Price:** Free tier. Pro ~€6.99/month (less billed annually).
 
 ## 8. Seterra — Classic Map Quizzes
 
@@ -118,13 +118,13 @@ Fun duel format, strategic category picks. But ads, no explanations, and the bot
 
 ## 10. StudyGe — Interactive Atlas and Quiz
 
-StudyGe combines an interactive world atlas with geography quizzes covering countries, capitals, flags, and more. The atlas view is useful for visual learners who want to explore before testing themselves. Premium pricing is very affordable at around $4.99 per year, easily the cheapest paid option on this list.
+StudyGe combines an interactive world atlas with geography quizzes covering countries, capitals, flags, and more. The atlas view is useful for visual learners who want to explore before testing themselves. Removing ads is a small one-time purchase (about €2); the full premium plan runs around €30 per year.
 
 Like several others here, StudyGe is geography-only. No history, art, nature, or broader knowledge. The quiz mechanics are straightforward without being memorable, and wrong answers don't come with explanations.
 
-Affordable, solid atlas feature. But limited scope and no explanations.
+Solid atlas feature. But limited scope and no explanations.
 
-**Price:** Free with ads. Premium ~$4.99/year.
+**Price:** Free with ads. Premium ~€29.99/year.
 
 ## Comparison Table
 
@@ -132,14 +132,14 @@ Affordable, solid atlas feature. But limited scope and no explanations.
 |-----|---------|---------|---------|--------------|-------|
 | **SAPIRO** | Geography, History, Art, Nature | Yes | No data collection | Yes, detailed | Free version, no ads |
 | **Trivia Crack** | 6 categories (entertainment focus) | No (heavy ads) | Data sold to third parties | No | Free with ads |
-| **Kahoot!** | Custom (teacher-created) | Varies by plan | Collects user data | Depends on quiz creator | Free / $3-19/mo |
-| **Quizizz** | Custom (teacher-created) | No | Collects user data | Depends on quiz creator | Free / $5-10/mo |
+| **Kahoot!** | Custom (teacher-created) | Varies by plan | Collects user data | Depends on quiz creator | Free / ~$3-19/mo |
+| **Quizizz (Wayground)** | Custom (teacher-created) | No | Collects user data | Depends on quiz creator | Free / on request |
 | **Erudite** | General knowledge | No (adult ads reported) | Collects user data | Limited | Free with ads |
 | **Quiz Sans Fin** | General knowledge | No | Collects user data | Wikipedia links | Free with ads |
-| **GeoGuessr** | Geography only | Pro plan only | Collects user data | No | Free / Pro ~$3.99/mo |
+| **GeoGuessr** | Geography only | Pro plan only | Collects user data | No | Free / Pro ~€6.99/mo |
 | **Seterra** | Geography only | Yes (mobile app) | Collects user data | No | Free |
 | **QuizDuel** | General trivia | No | Collects user data | No | Free with ads |
-| **StudyGe** | Geography only | Premium only | Collects user data | No | Free / Premium ~$4.99/yr |
+| **StudyGe** | Geography only | Premium only | Collects user data | No | Free / Premium ~€29.99/yr |
 
 ## Our Verdict
 

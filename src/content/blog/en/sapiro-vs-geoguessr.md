@@ -28,7 +28,7 @@ SAPIRO also offers 50+ thematic paths. You can work through a sequence on Africa
 
 ## Ads and Privacy
 
-GeoGuessr is not an ad-heavy app. The free version is simply very restricted: one game per day, then you are done. To play freely, you need the Pro subscription at roughly $3.99/month. On the data side, GeoGuessr requires an account and collects usage data. It runs on Google Maps, which means Google's data ecosystem is involved.
+GeoGuessr is not an ad-heavy app. The free version is simply very restricted: one game per day, then you are done. To play freely, you need the Pro subscription at roughly €7/month (less on an annual plan). On the data side, GeoGuessr requires an account and collects usage data. It runs on Google Maps, which means Google's data ecosystem is involved.
 
 SAPIRO has zero ads, including in the free version. No banners, no videos, no interstitials. The app collects no personal data whatsoever. No account required, no tracking, no third-party sharing. For parents looking for a safe educational app, this distinction matters. In a world where most free apps monetize through advertising or data harvesting, an app that does neither is unusual.
 

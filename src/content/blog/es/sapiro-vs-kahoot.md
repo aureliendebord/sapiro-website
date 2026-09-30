@@ -34,7 +34,7 @@ Los recorridos temáticos de SAPIRO (museos del mundo, imperios históricos, pin
 
 ## Publicidad, privacidad y datos
 
-El plan básico de Kahoot es gratuito para profesores, pero los planes para centros educativos cuestan entre 3 y 19 $/mes. La plataforma recopila datos analíticos educativos: resultados de los alumnos, tiempos de respuesta, tasas de acierto. Esto es genuinamente útil para los profesores que quieren hacer seguimiento del rendimiento de sus clases. Pero esos datos existen, se almacenan y alimentan un ecosistema comercial. Kahoot también tiene una app separada, Kahoot! Kids, con sus propias políticas.
+El plan básico de Kahoot es gratuito para profesores, pero los planes para centros educativos cuestan entre unos 3 y 19 $/mes (facturación anual). La plataforma recopila datos analíticos educativos: resultados de los alumnos, tiempos de respuesta, tasas de acierto. Esto es genuinamente útil para los profesores que quieren hacer seguimiento del rendimiento de sus clases. Pero esos datos existen, se almacenan y alimentan un ecosistema comercial. Kahoot también tiene una app separada, Kahoot! Kids, con sus propias políticas.
 
 SAPIRO no recopila ningún dato personal. No requiere cuenta, no hace tracking, no comparte información con terceros. La app no muestra ninguna publicidad, ni siquiera en la versión gratuita. Lo que pasa en SAPIRO se queda en tu dispositivo. Para los padres que buscan una app educativa que respete la privacidad de sus hijos, esto pesa. Nuestra guía de las [mejores apps de quiz de cultura general](/es/blog/mejores-apps-quiz-cultura-general/) cubre este punto para varias aplicaciones.
 

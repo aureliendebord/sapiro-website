@@ -44,7 +44,7 @@ Who is it for? Students and teachers who want straightforward, map-based drillin
 
 ## 3. GeoGuessr — Explore the World Through Street View
 
-Available on Web, iOS, and Android. Free tier with daily limits; Pro subscription around $3.99/month.
+Available on Web, iOS, and Android. Free tier with daily limits; Pro subscription around €7/month at list price, less on an annual plan.
 
 GeoGuessr drops you into a random Google Street View location and challenges you to figure out where on Earth you are. Road signs, vegetation, architecture, sun position: everything becomes a clue. It is part geography quiz, part detective game, and the multiplayer modes, daily challenges, and themed maps keep it from getting stale.
 

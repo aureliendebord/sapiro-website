@@ -30,7 +30,7 @@ SAPIRO and Duolingo are both learning apps, but on different territory. Duolingo
 
 ## Free tier
 
-**Duolingo.** Free with ads and heart limit (long recharge after errors). Super Duolingo ($8-14/month) removes that.
+**Duolingo.** Free with ads and heart limit (long recharge after errors). Super Duolingo (roughly $8-14/month) removes that.
 
 **SAPIRO.** Free version with no ads.
 

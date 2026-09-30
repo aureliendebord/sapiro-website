@@ -35,7 +35,7 @@ SAPIRO también ofrece más de 50 recorridos temáticos (museos del mundo, famil
 
 Aquí la diferencia es enorme.
 
-**Trivia Crack** es gratuita, pero a cambio impone mucha publicidad: anuncios de vídeo entre partidas, banners permanentes en pantalla e intersticiales que interrumpen el flujo de juego. La experiencia se fragmenta constantemente. Puedes pagar por la versión Premium (~3,99 €), pero incluso así algunos usuarios reportan que no se elimina toda la publicidad.
+**Trivia Crack** es gratuita, pero a cambio impone mucha publicidad: anuncios de vídeo entre partidas, banners permanentes en pantalla e intersticiales que interrumpen el flujo de juego. La experiencia se fragmenta constantemente. Puedes pagar por Trivia Crack Prime (desde unos 6 €), que quita los anuncios impuestos; solo quedan los anuncios con recompensa, que son opcionales. Es decir, hay que pagar para tener una experiencia limpia.
 
 **SAPIRO** no tiene publicidad. Ni un banner, ni un vídeo, ni un anuncio intersticial. La pantalla está dedicada al contenido. Para una app que usan niños y familias, esto importa mucho: puedes dejar a tu hijo jugando sin preocuparte de qué anuncio va a aparecer.
 
@@ -71,7 +71,7 @@ Para entender mejor cómo los mecanismos de juego pueden potenciar el aprendizaj
 | | **SAPIRO** | **Trivia Crack** |
 |---|---|---|
 | Versión gratuita | Sí, sin publicidad | Sí, con mucha publicidad |
-| Sin publicidad | Siempre | Solo en Premium (parcial) |
+| Sin publicidad | Siempre | Solo con Prime (de pago) |
 | Explicaciones | Incluidas | No disponibles |
 | Funciona sin conexión | Sí | No |
 

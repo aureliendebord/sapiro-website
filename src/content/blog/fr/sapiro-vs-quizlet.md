@@ -30,7 +30,7 @@ SAPIRO et Quizlet sont deux apps d'apprentissage, mais elles ne font pas la mêm
 
 ## La gratuité
 
-**Quizlet.** Gratuit pour le basique. Quizlet Plus (4 euros/mois) pour les fonctionnalités avancées (ChatGPT pour générer des questions, modes hors ligne, statistiques).
+**Quizlet.** Gratuit pour le basique. Quizlet Plus (environ 8 à 10 $/mois, moins cher à l'année) pour les fonctionnalités avancées (ChatGPT pour générer des questions, modes hors ligne, statistiques).
 
 **SAPIRO.** Version gratuite sans publicité, sans collecte de données.
 
@@ -77,7 +77,7 @@ Oui, SAPIRO propose une version gratuite, sans publicité ni collecte de donnée
 
 ### Quizlet est-il gratuit ?
 
-Quizlet propose une version gratuite avec des publicités et des fonctionnalités limitées. Quizlet Plus coûte environ 4 euros par mois et débloque les fonctionnalités avancées comme la génération de questions par IA, le mode hors-ligne et les statistiques.
+Quizlet propose une version gratuite avec des publicités et des fonctionnalités limitées. Quizlet Plus coûte environ 8 à 10 dollars par mois (moins cher à l'année) et débloque les fonctionnalités avancées comme la génération de questions par IA, le mode hors-ligne et les statistiques.
 
 ### Quelle app utiliser pour réviser un cours d'anglais ?
 

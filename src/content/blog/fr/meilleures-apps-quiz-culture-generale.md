@@ -30,17 +30,17 @@ Prix : gratuit avec publicités, version sans pub payante.
 
 Kahoot! s'est imposé comme référence des quiz en classe. L'enseignant crée un quiz, le projette, les élèves répondent en temps réel depuis leur téléphone. Ça marche : l'ambiance est festive, la compétition pousse à participer, les outils de suivi sont solides.
 
-Seulement Kahoot! n'est pas conçu pour jouer seul. Sans hôte pour lancer le quiz, l'app ne sert quasiment à rien. Les plans payants vont de 3 à 19 $/mois, ce qui représente un budget réel pour un établissement. Pour un parent qui cherche une app de quiz pour ses enfants le week-end, ce n'est pas la bonne porte.
+Seulement Kahoot! n'est pas conçu pour jouer seul. Sans hôte pour lancer le quiz, l'app ne sert quasiment à rien. Les plans payants vont d'environ 3 à 19 $/mois (facturés à l'année), ce qui représente un budget réel pour un établissement. Pour un parent qui cherche une app de quiz pour ses enfants le week-end, ce n'est pas la bonne porte.
 
-Prix : gratuit (basique), plans 3 à 19 $/mois.
+Prix : gratuit (basique), plans d'environ 3 à 19 $/mois (facturés à l'année).
 
-## 3. Quizizz, l'alternative asynchrone à Kahoot!
+## 3. Quizizz (devenu Wayground), l'alternative asynchrone à Kahoot!
 
-Quizizz joue la même partition que Kahoot! avec un avantage concret : les élèves répondent à leur rythme, sans synchronisation forcée avec le groupe. Les enseignants créent leurs quiz ou piochent dans une bibliothèque communautaire. L'interface est moderne, les rapports de progression détaillés.
+Quizizz, rebaptisé Wayground en 2025, joue la même partition que Kahoot! avec un avantage concret : les élèves répondent à leur rythme, sans synchronisation forcée avec le groupe. Les enseignants créent leurs quiz ou piochent dans une bibliothèque communautaire. L'interface est moderne, les rapports de progression détaillés.
 
-Le défaut est le même que Kahoot! : c'est un outil scolaire, pas une app de culture générale pour le grand public. Il faut qu'un enseignant crée ou sélectionne les contenus. Les plans payants (5 à 10 $/mois) débloquent les fonctions complètes.
+Le défaut est le même que Kahoot! : c'est un outil scolaire, pas une app de culture générale pour le grand public. Il faut qu'un enseignant crée ou sélectionne les contenus. Les offres payantes, pensées pour les établissements, sont sur devis.
 
-Prix : gratuit (limité), plans 5 à 10 $/mois.
+Prix : gratuit (limité), offres établissements sur devis.
 
 ## 4. Érudit, la roue de la fortune en français
 
@@ -66,9 +66,9 @@ Prix : gratuit avec publicités.
 
 GeoGuessr est la référence des amateurs de géo. Le concept est imparable : deviner sa position dans le monde à partir d'images Google Street View. Le jeu est addictif, la communauté énorme, et les modes multijoueurs apportent une dimension sociale qu'on voit peu ailleurs.
 
-Deux limites : l'app ne fait que de la géographie (rien en histoire, art ou sciences naturelles), et il faut un abonnement Pro à environ 3,99 €/mois pour jouer sans restriction. Connexion internet permanente obligatoire. Si vous cherchez un apprentissage structuré avec des explications, ce n'est pas l'outil. Si vous cherchez une passion pour localiser des pays à partir d'un panneau de signalisation, foncez.
+Deux limites : l'app ne fait que de la géographie (rien en histoire, art ou sciences naturelles), et il faut un abonnement Pro à environ 7 €/mois (moins cher à l'année) pour jouer sans restriction. Connexion internet permanente obligatoire. Si vous cherchez un apprentissage structuré avec des explications, ce n'est pas l'outil. Si vous cherchez une passion pour localiser des pays à partir d'un panneau de signalisation, foncez.
 
-Prix : gratuit (très limité), Pro ~3,99 €/mois.
+Prix : gratuit (très limité), Pro ~6,99 €/mois.
 
 Pour creuser le sujet, voir notre [comparatif des apps de géographie](/blog/meilleures-apps-geographie/).
 
@@ -94,9 +94,9 @@ Prix : gratuit avec publicités, version premium disponible.
 
 StudyGe combine un atlas interactif et des quiz géographiques. L'app est bien faite pour apprendre pays, capitales, drapeaux et monnaies. Le mode hors ligne est un vrai plus pour réviser dans le train.
 
-Même limite que GeoGuessr et Seterra : que de la géo. Pas d'histoire, pas d'art, pas de sciences naturelles. L'abonnement premium à environ 4,99 €/an est en revanche très abordable, difficile de faire moins cher.
+Même limite que GeoGuessr et Seterra : que de la géo. Pas d'histoire, pas d'art, pas de sciences naturelles. Retirer les pubs coûte environ 2 €, le premium complet autour de 30 €/an.
 
-Prix : gratuit (limité), premium ~4,99 €/an.
+Prix : gratuit (limité), premium ~29,99 €/an.
 
 ## 10. SAPIRO, notre app
 
@@ -114,20 +114,20 @@ Prix : version gratuite sans publicité.
 |-----|----------|----------|------------|--------------|------|
 | **SAPIRO** | Géo, Histoire, Art, Nature | Oui | Aucune collecte | Oui | Version gratuite sans pub |
 | **Trivia Crack** | 6 catégories trivia | Non | Données revendues | Non | Gratuit avec pubs |
-| **Kahoot!** | Personnalisable | Oui (payant) | Correcte | Variable | 3-19 $/mois |
-| **Quizizz** | Personnalisable | Oui (payant) | Correcte | Variable | 5-10 $/mois |
+| **Kahoot!** | Personnalisable | Oui (payant) | Correcte | Variable | ~3-19 $/mois |
+| **Quizizz (Wayground)** | Personnalisable | Oui (payant) | Correcte | Variable | Gratuit / sur devis |
 | **Érudit** | Culture générale | Non | Non précisée | Non | Gratuit avec pubs |
 | **Quiz Sans Fin** | Culture générale | Non | Non précisée | Lien Wikipédia | Gratuit avec pubs |
-| **GeoGuessr** | Géographie | Non (gratuit) | Correcte | Non | 3,99 €/mois |
+| **GeoGuessr** | Géographie | Non (gratuit) | Correcte | Non | ~6,99 €/mois |
 | **Seterra** | Géographie | Oui (app mobile) | Correcte | Non | Gratuit |
 | **QuizDuel** | Trivia générale | Non | Non précisée | Non | Gratuit avec pubs |
-| **StudyGe** | Géographie | Correcte | Correcte | Partielles | 4,99 €/an |
+| **StudyGe** | Géographie | Correcte | Correcte | Partielles | ~29,99 €/an |
 
 ## Notre avis, sans détour
 
 Il n'y a pas de meilleure app dans l'absolu, il y a celle qui colle à votre usage.
 
-Pour la classe, Kahoot! et Quizizz restent les outils les plus aboutis, à condition d'assumer le coût annuel. Pour de la géo pure et dure, GeoGuessr est imbattable sur le concept, Seterra sur la simplicité, StudyGe sur le rapport qualité-prix. Pour du multijoueur de salon, Trivia Crack et QuizDuel feront l'affaire si les pubs ne vous dérangent pas.
+Pour la classe, Kahoot! et Quizizz restent les outils les plus aboutis, à condition d'assumer le coût annuel. Pour de la géo pure et dure, GeoGuessr est imbattable sur le concept, Seterra sur la simplicité, StudyGe sur l'atlas interactif. Pour du multijoueur de salon, Trivia Crack et QuizDuel feront l'affaire si les pubs ne vous dérangent pas.
 
 Notre biais d'éditeur mis à part, le vrai choix dépend d'une question : est-ce que vous cherchez un jeu, ou est-ce que vous cherchez à apprendre quelque chose ? La majorité des apps de ce comparatif sont conçues pour le divertissement, c'est parfaitement respectable, mais il ne faut pas attendre plus. Si vous voulez sortir d'une session en ayant retenu trois faits que vous ignoriez, orientez-vous vers une app qui explique ses réponses, quelle qu'elle soit.
 
