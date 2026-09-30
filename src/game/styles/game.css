@@ -176,6 +176,13 @@
   box-shadow: 0 0 0 var(--key-base);
 }
 
+/* Action irréversible (suppression du compte) : rouge « mauvaise réponse ». */
+.game-btn--danger {
+  background: var(--wrong, #d14836);
+  color: #ffffff;
+  box-shadow: 0 4px 0 #771f14;
+}
+
 .game-btn--block {
   width: 100%;
 }

@@ -75,6 +75,7 @@ export default function GameApp({ lang }: Props) {
 
   const [user, setUser] = useState<User | null>(null);
   const [accountOpen, setAccountOpen] = useState(false);
+  const [deleteIntent, setDeleteIntent] = useState(false);
   const [paywallSource, setPaywallSource] = useState<string | null>(null);
   const [handoff, setHandoff] = useState<{ source: string; store: MobileStore } | null>(null);
   const [resetOpen, setResetOpen] = useState(false);
@@ -118,8 +119,16 @@ export default function GameApp({ lang }: Props) {
         total: incoming.total,
       });
     }
-    if (params.has("reset")) {
-      setResetOpen(true);
+    // Lien public de suppression de compte (politique de confidentialité, fiche
+    // Play) : ouvre directement la fenêtre Compte sur la suppression.
+    const wantsDelete = params.has("delete-account");
+    if (wantsDelete) {
+      setDeleteIntent(true);
+      setAccountOpen(true);
+      params.delete("delete-account");
+    }
+    if (params.has("reset") || wantsDelete) {
+      if (params.has("reset")) setResetOpen(true);
       params.delete("reset");
       const query = params.toString();
       window.history.replaceState(null, "", window.location.pathname + (query ? `?${query}` : ""));
@@ -496,7 +505,16 @@ export default function GameApp({ lang }: Props) {
         </div>
       )}
 
-      {accountOpen && <AccountModal user={user} onClose={() => setAccountOpen(false)} />}
+      {accountOpen && (
+        <AccountModal
+          user={user}
+          deleteIntent={deleteIntent}
+          onClose={() => {
+            setAccountOpen(false);
+            setDeleteIntent(false);
+          }}
+        />
+      )}
       {resetOpen && <ResetPasswordModal onClose={() => setResetOpen(false)} />}
       {handoff && (
         <AppHandoffModal

@@ -155,6 +155,17 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
       errorCredentials: "Adresse ou mot de passe incorrect.",
       errorPassword: "Le mot de passe doit faire au moins 6 caractères.",
       errorRateLimit: "Trop de tentatives. Réessaie dans quelques minutes.",
+      deleteLink: "Supprimer mon compte",
+      deleteTitle: "Supprimer ton compte ?",
+      deleteWarn:
+        "C'est définitif. Ton compte, ton pseudo, ta progression, tes duels et tes trophées seront effacés, ici et sur l'app mobile.",
+      deleteSub:
+        "Un abonnement Sapiro+ en cours n'est pas annulé par la suppression : annule-le d'abord là où tu l'as pris.",
+      deleteConfirm: "Supprimer définitivement",
+      deleteCancel: "Annuler",
+      deleteDone: "Ton compte est supprimé.",
+      deleteNeedSignIn:
+        "Connecte-toi pour supprimer ton compte. Tu n'y arrives pas ? Écris à bonjour@agencedebord.com.",
     },
     reset: {
       title: "Nouveau mot de passe",
@@ -330,6 +341,17 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
       errorCredentials: "Wrong email or password.",
       errorPassword: "Password must be at least 6 characters.",
       errorRateLimit: "Too many attempts. Try again in a few minutes.",
+      deleteLink: "Delete my account",
+      deleteTitle: "Delete your account?",
+      deleteWarn:
+        "This is permanent. Your account, username, progress, duels and trophies will be erased, here and on the mobile app.",
+      deleteSub:
+        "An active Sapiro+ subscription is not cancelled by deleting your account: cancel it first where you bought it.",
+      deleteConfirm: "Delete permanently",
+      deleteCancel: "Cancel",
+      deleteDone: "Your account has been deleted.",
+      deleteNeedSignIn:
+        "Sign in to delete your account. Can't sign in? Write to bonjour@agencedebord.com.",
     },
     reset: {
       title: "New password",
@@ -502,6 +524,17 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
       errorCredentials: "Email o contraseña incorrectos.",
       errorPassword: "La contraseña debe tener al menos 6 caracteres.",
       errorRateLimit: "Demasiados intentos. Vuelve a intentarlo en unos minutos.",
+      deleteLink: "Eliminar mi cuenta",
+      deleteTitle: "¿Eliminar tu cuenta?",
+      deleteWarn:
+        "Es definitivo. Tu cuenta, tu seudónimo, tu progreso, tus duelos y tus trofeos se borrarán, aquí y en la app móvil.",
+      deleteSub:
+        "Eliminar la cuenta no cancela una suscripción Sapiro+ activa: cancélala primero donde la contrataste.",
+      deleteConfirm: "Eliminar definitivamente",
+      deleteCancel: "Cancelar",
+      deleteDone: "Tu cuenta ha sido eliminada.",
+      deleteNeedSignIn:
+        "Inicia sesión para eliminar tu cuenta. ¿No puedes? Escribe a bonjour@agencedebord.com.",
     },
     reset: {
       title: "Nueva contraseña",
