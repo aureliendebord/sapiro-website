@@ -14,7 +14,7 @@ author: "SAPIRO"
 readingTime: 8
 ---
 
-Hemos pasado varias semanas con ambas aplicaciones. SAPIRO es un quiz educativo que cubre geografía, historia, arte y naturaleza, sin publicidad ni recopilación de datos. GeoGuessr te lanza a un punto aleatorio de Google Street View y tienes que adivinar dónde estás. Las dos tocan la geografía, pero lo hacen de formas radicalmente distintas.
+Hemos pasado varias semanas con ambas aplicaciones. SAPIRO es un quiz educativo que cubre geografía, historia, arte y naturaleza, sin publicidad ni venta de datos. GeoGuessr te lanza a un punto aleatorio de Google Street View y tienes que adivinar dónde estás. Las dos tocan la geografía, pero lo hacen de formas radicalmente distintas.
 
 ## Contenido y dominios
 
@@ -30,7 +30,7 @@ SAPIRO también ofrece más de 50 recorridos temáticos. Puedes seguir una secue
 
 GeoGuessr no te bombardea con anuncios. La versión gratuita simplemente es muy limitada: una partida al día y se acabó. Para jugar sin restricciones necesitas la suscripción Pro, que cuesta unos 7 €/mes (menos con el plan anual). En cuanto a datos, GeoGuessr requiere una cuenta y recopila datos de uso. Funciona sobre Google Maps, lo que implica el ecosistema de datos de Google.
 
-SAPIRO no tiene publicidad en ninguna versión, incluida la gratuita. Ni banners, ni vídeos, ni intersticiales. La app no recopila ningún dato personal. No necesitas cuenta, no hay tracking, no hay transmisión a terceros. Para los padres que buscan una app educativa segura para sus hijos, esta diferencia importa mucho. En el contexto del RGPD europeo, una app que simplemente no recopila nada simplifica bastante la decisión.
+SAPIRO no tiene publicidad en ninguna versión, incluida la gratuita. Ni banners, ni vídeos, ni intersticiales. La app no vende ningún dato. No necesitas cuenta y no hay cookies publicitarias. Para los padres que buscan una app educativa segura para sus hijos, esta diferencia importa mucho. En el contexto del RGPD europeo, una app sin publicidad ni venta de datos simplifica bastante la decisión.
 
 ## Valor educativo
 
@@ -52,7 +52,7 @@ SAPIRO tiene una nota de 5/5 en Google Play y cuenta con la certificación Teach
 |---|---|---|
 | **Versión gratuita** | Sí, sin publicidad | Muy limitada (1 partida/día) |
 | **Publicidad** | Ninguna | Ninguna |
-| **Datos recopilados** | Ninguno | Cuenta obligatoria, datos de uso |
+| **Datos** | Nunca vendidos, cuenta opcional | Cuenta obligatoria, datos de uso |
 | **Funciona sin conexión** | Sí | No |
 | **Dominios cubiertos** | Geografía, historia, arte, naturaleza | Solo geografía |
 
@@ -66,7 +66,7 @@ GeoGuessr ofrece una experiencia inmersiva que ninguna otra app reproduce. Encon
 
 Pero GeoGuessr no te enseñará las capitales del mundo, la historia de los imperios, los cuadros del Louvre ni los animales de la Amazonia. No te explicará nada después de una ronda. Y necesita una conexión a internet rápida para funcionar.
 
-SAPIRO es la opción más completa si tu objetivo es aprender de verdad. Cuatro dominios en lugar de uno. Explicaciones después de cada pregunta. Recorridos estructurados. Cero publicidad. Cero recopilación de datos. Funciona sin conexión. Para familias, estudiantes y cualquier persona que quiera ampliar su cultura general, es la mejor elección.
+SAPIRO es la opción más completa si tu objetivo es aprender de verdad. Cuatro dominios en lugar de uno. Explicaciones después de cada pregunta. Recorridos estructurados. Cero publicidad. Cero venta de datos. Funciona sin conexión. Para familias, estudiantes y cualquier persona que quiera ampliar su cultura general, es la mejor elección.
 
 Hay quien usará las dos, y probablemente sea la mejor combinación: GeoGuessr para la exploración inmersiva, SAPIRO para el aprendizaje estructurado.
 

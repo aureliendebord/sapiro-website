@@ -18,7 +18,7 @@ La publicité dans les apps éducatives casse l'apprentissage. Voici une sélect
 
 ## Culture générale
 
-**SAPIRO.** Gratuit, sans publicité, sans collecte de données. 2 000+ questions sur géographie, histoire, art, nature. Tous âges.
+**SAPIRO.** Gratuit, sans publicité, données jamais revendues. 2 000+ questions sur géographie, histoire, art, nature. Tous âges.
 
 **Duolingo (partiellement).** Gratuit mais avec publicité. Premium pour la version sans pub.
 
@@ -80,7 +80,7 @@ Trois raisons.
 
 **Famille.** L'app doit être sûre pour les enfants. Pas de pub douteuse.
 
-**Données.** Aucune publicité signifie aucune collecte de données comportementales. Voir notre article sur les [apps quiz sans collecte de données](/blog/apps-quiz-sans-collecte-donnees/).
+**Données.** Aucune publicité signifie aucune raison de revendre des données comportementales. Voir notre article sur les [apps quiz sans collecte de données](/blog/apps-quiz-sans-collecte-donnees/).
 
 ## Comment savoir si une app a vraiment "pas de pub"
 

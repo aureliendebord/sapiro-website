@@ -66,7 +66,7 @@ SAPIRO propose plus de 500 questions sur les personnages historiques, organisée
 
 Chaque question est suivie d'une explication. Ça compte beaucoup : le feedback après chaque réponse transforme chaque erreur en moment d'apprentissage. On ne se contente pas de dire "mauvaise réponse", on explique pourquoi c'est Léonard de Vinci et pas Michel-Ange.
 
-Avec plus de 50 parcours et trois modes de jeu (Classique, Survie, Défi du jour), l'application varie les angles d'approche. L'histoire croise la géographie (197 pays), l'art ([553 œuvres](/blog/oeuvres-art-incontournables/)) et la nature (600 animaux). Version gratuite sans publicité, pas de collecte de données, fonctionne hors ligne.
+Avec plus de 50 parcours et trois modes de jeu (Classique, Survie, Défi du jour), l'application varie les angles d'approche. L'histoire croise la géographie (197 pays), l'art ([553 œuvres](/blog/oeuvres-art-incontournables/)) et la nature (600 animaux). Version gratuite sans publicité, données jamais revendues, fonctionne hors ligne.
 
 ## Apprendre l'histoire en famille
 

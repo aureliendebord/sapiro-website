@@ -47,7 +47,7 @@ Este es probablemente el punto más importante de la comparación. Y donde las d
 
 **Trivia Crack** tiene un historial problemático en materia de privacidad. Según investigaciones de TIME y evaluaciones de Common Sense Media, la app recopila datos personales de forma agresiva: información del dispositivo, geolocalización, hábitos de uso y datos demográficos que se comparten con terceros para publicidad dirigida. Utiliza tracking de Facebook y otros servicios de analítica. Para una app que usan millones de menores, es preocupante.
 
-**SAPIRO** hace lo contrario: cero recopilación de datos personales. No hay tracking, no hay perfiles publicitarios, no hay venta de información a terceros. Los datos de progresión se quedan en el dispositivo del usuario. Si buscas una app segura para tus hijos, esto pesa.
+**SAPIRO** hace lo contrario: no hay publicidad, no hay perfiles publicitarios, no hay venta de información a terceros. La cuenta es opcional y solo sirve para guardar tu progreso. Si buscas una app segura para tus hijos, esto pesa.
 
 En un contexto donde la protección de datos de menores es cada vez más regulada (RGPD en Europa, COPPA en Estados Unidos), la diferencia de enfoque entre ambas apps es significativa.
 
@@ -75,13 +75,13 @@ Para entender mejor cómo los mecanismos de juego pueden potenciar el aprendizaj
 | Explicaciones | Incluidas | No disponibles |
 | Funciona sin conexión | Sí | No |
 
-La versión gratuita de SAPIRO no tiene publicidad y los datos se quedan en tu dispositivo. Trivia Crack también es gratuita, pero a cambio de anuncios constantes y de compartir tus datos.
+La versión gratuita de SAPIRO no tiene publicidad y no vende tus datos. Trivia Crack también es gratuita, pero a cambio de anuncios constantes y de compartir tus datos.
 
 ## Veredicto
 
 **Trivia Crack** tiene méritos reales. Su sistema de ruleta es adictivo, el modo multijugador con amigos genera buenos momentos y su base de usuarios es enorme. Si lo que buscas es un juego social casual para echar partidas rápidas con amigos, cumple su función. Pero su modelo económico basado en publicidad agresiva y recopilación de datos hace que la experiencia se desgaste, especialmente si la usan menores.
 
-**SAPIRO** destaca en contenido más profundo y estructurado, explicaciones después de cada respuesta, cero publicidad, privacidad total y funcionamiento sin conexión. Es una mejor opción si buscas una app de quiz que realmente enseñe algo, tanto para adultos curiosos como para familias con hijos en edad escolar.
+**SAPIRO** destaca en contenido más profundo y estructurado, explicaciones después de cada respuesta, cero publicidad, datos nunca vendidos y funcionamiento sin conexión. Es una mejor opción si buscas una app de quiz que realmente enseñe algo, tanto para adultos curiosos como para familias con hijos en edad escolar.
 
 La elección depende de lo que busques. Pero si tu prioridad es aprender de verdad mientras juegas, en un entorno sin publicidad y respetuoso con tus datos, SAPIRO merece que le eches un vistazo.
 

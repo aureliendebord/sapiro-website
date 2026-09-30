@@ -32,7 +32,7 @@ SAPIRO et Quizlet sont deux apps d'apprentissage, mais elles ne font pas la mêm
 
 **Quizlet.** Gratuit pour le basique. Quizlet Plus (environ 8 à 10 $/mois, moins cher à l'année) pour les fonctionnalités avancées (ChatGPT pour générer des questions, modes hors ligne, statistiques).
 
-**SAPIRO.** Version gratuite sans publicité, sans collecte de données.
+**SAPIRO.** Version gratuite sans publicité, données jamais revendues.
 
 ## La publicité
 
@@ -44,7 +44,7 @@ SAPIRO et Quizlet sont deux apps d'apprentissage, mais elles ne font pas la mêm
 
 **Quizlet.** Collecte les données utilisateur pour personnalisation et publicité. Politique standard d'app numérique.
 
-**SAPIRO.** Aucune collecte de données. Ni création de compte obligatoire, ni cookies traçants, ni partage avec des tiers. Voir notre article sur les [apps quiz sans collecte de données](/blog/apps-quiz-sans-collecte-donnees/).
+**SAPIRO.** Données jamais revendues. Ni création de compte obligatoire, ni cookie publicitaire. Voir notre article sur les [apps quiz sans collecte de données](/blog/apps-quiz-sans-collecte-donnees/).
 
 ## Le public cible
 
@@ -73,7 +73,7 @@ SAPIRO et Quizlet sont deux apps d'apprentissage, mais elles ne font pas la mêm
 
 ### SAPIRO est-il vraiment gratuit ?
 
-Oui, SAPIRO propose une version gratuite, sans publicité ni collecte de données.
+Oui, SAPIRO propose une version gratuite sans publicité, et ne revend aucune donnée.
 
 ### Quizlet est-il gratuit ?
 
@@ -85,6 +85,6 @@ Quizlet est plus adapté pour réviser un cours spécifique grâce à sa bibliot
 
 ### SAPIRO collecte-t-il des données personnelles ?
 
-Non. SAPIRO ne collecte aucune donnée personnelle, ne demande pas de création de compte obligatoire, n'utilise pas de cookies traçants et ne partage rien avec des tiers. C'est l'une des rares apps éducatives à ce niveau de respect de la vie privée.
+Le strict nécessaire, et rien n'est revendu. Pas de publicité ni de cookie publicitaire. Le compte est facultatif : il sert à sauvegarder la progression. L'usage est mesuré (parties jouées) pour améliorer l'app.
 
 Pour creuser : [meilleures apps quiz culture générale](/blog/meilleures-apps-quiz-culture-generale/) pour étendre le comparatif.

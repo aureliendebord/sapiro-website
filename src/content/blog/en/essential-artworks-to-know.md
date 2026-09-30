@@ -2,7 +2,7 @@
 title: "12 Essential Artworks Everyone Should Recognize"
 description: "From the Mona Lisa to Guernica, the artworks worth knowing and the surprising stories behind each one. A journey across 5 centuries of human creation."
 date: 2026-03-16
-lastModified: 2026-06-15
+lastModified: 2026-09-30
 image: "/images/blog/monde/la-joconde.jpg"
 imageAlt: "The Mona Lisa by Leonardo da Vinci"
 imageCredit: "Photo: Leonardo da Vinci · public domain · Wikimedia Commons"
@@ -85,7 +85,7 @@ For more on effective learning methods, see our [general knowledge guide](/en/bl
 | **Documentaries** | Free-$15/month | Medium | Medium | Very good | Low |
 | **SAPIRO** | Free | 10-15 min/day | Good | Very good (offline) | Strong (quizzes + repetition) |
 
-Each method has its strengths. Museums give you the emotion of seeing the real thing, since no reproduction conveys the scale of Guernica or the texture of Van Gogh's brushstrokes. Books let you go deep on a single topic. Documentaries show historical context in an immersive way. And quiz apps like SAPIRO lock in knowledge through active recall, with no ads and no data collection.
+Each method has its strengths. Museums give you the emotion of seeing the real thing, since no reproduction conveys the scale of Guernica or the texture of Van Gogh's brushstrokes. Books let you go deep on a single topic. Documentaries show historical context in an immersive way. And quiz apps like SAPIRO lock in knowledge through active recall, with no ads and no data ever sold.
 
 The most effective approach is combining them. Visit a museum after reviewing its collection on SAPIRO, and the experience changes completely.
 

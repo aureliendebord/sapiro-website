@@ -18,7 +18,7 @@ Advertising in educational apps breaks learning. Here is a selection of truly ad
 
 ## General knowledge
 
-**SAPIRO.** Free, no ads, no data collection. 2,000+ questions on geography, history, art, nature. All ages.
+**SAPIRO.** Free, no ads, no data ever sold. 2,000+ questions on geography, history, art, nature. All ages.
 
 **Duolingo (partially).** Free with ads. Premium for ad-free version.
 
@@ -80,7 +80,7 @@ Three reasons.
 
 **Family.** The app must be safe for children. No questionable ads.
 
-**Data.** No advertising means no behavioral data collection. See our article on [quiz apps without data collection](/en/blog/quiz-apps-no-data-collection/).
+**Data.** No advertising means no reason to sell behavioral data. See our article on [quiz apps without data collection](/en/blog/quiz-apps-no-data-collection/).
 
 ## How to know if an app is really "ad-free"
 

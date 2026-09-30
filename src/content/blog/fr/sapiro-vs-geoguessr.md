@@ -37,7 +37,7 @@ Autre différence pratique : SAPIRO fonctionne hors connexion. GeoGuessr dépend
 | **Hors connexion** | Oui | Non |
 | **Domaines couverts** | Géographie, histoire, art, nature | Géographie |
 
-GeoGuessr est construit sur Google Street View, ce qui implique un compte obligatoire et l'écosystème de données qui va avec. La version gratuite se limite à une partie par jour, le reste passe par l'abonnement Pro. SAPIRO n'a pas de compte obligatoire, pas de tracking, pas de bannière, et sa version gratuite est sans publicité.
+GeoGuessr est construit sur Google Street View, ce qui implique un compte obligatoire et l'écosystème de données qui va avec. La version gratuite se limite à une partie par jour, le reste passe par l'abonnement Pro. SAPIRO n'a pas de compte obligatoire, pas de cookie publicitaire, pas de bannière, et sa version gratuite est sans publicité.
 
 ## Alors, lequel choisir
 

@@ -22,7 +22,7 @@ Here's what we found, rated on content quality, privacy, ad experience, educatio
 
 SAPIRO covers geography, history, art, nature, and general culture through over 2,000 curated questions. Every answer comes with a real explanation, not just "correct" or "wrong," but the context behind it. The adaptive difficulty tracks your weak spots and adjusts, which genuinely helps over time rather than just letting you coast on what you already know.
 
-The privacy angle is where SAPIRO pulls ahead of nearly everything else on this list. No ads at all. No data collection. No account required to start playing. For parents, that last part matters more than most app descriptions let on: you can hand your phone to a kid without worrying about what's being tracked or what ad they'll see next. The app holds a Teacher Approved badge on Google Play, and the user ratings back it up at 5 out of 5 stars.
+The privacy angle is where SAPIRO pulls ahead of nearly everything else on this list. No ads at all. No data ever sold. No account required to start playing. For parents, that last part matters more than most app descriptions let on: you can hand your phone to a kid without worrying about what's being tracked or what ad they'll see next. The app holds a Teacher Approved badge on Google Play, and the user ratings back it up at 5 out of 5 stars.
 
 The free version has plenty to work with and shows no ads. Offline mode works well, and the app supports English, French, and Spanish.
 
@@ -130,7 +130,7 @@ Solid atlas feature. But limited scope and no explanations.
 
 | App | Domains | Ad-free | Privacy | Explanations | Price |
 |-----|---------|---------|---------|--------------|-------|
-| **SAPIRO** | Geography, History, Art, Nature | Yes | No data collection | Yes, detailed | Free version, no ads |
+| **SAPIRO** | Geography, History, Art, Nature | Yes | No data ever sold | Yes, detailed | Free version, no ads |
 | **Trivia Crack** | 6 categories (entertainment focus) | No (heavy ads) | Data sold to third parties | No | Free with ads |
 | **Kahoot!** | Custom (teacher-created) | Varies by plan | Collects user data | Depends on quiz creator | Free / ~$3-19/mo |
 | **Quizizz (Wayground)** | Custom (teacher-created) | No | Collects user data | Depends on quiz creator | Free / on request |
@@ -147,11 +147,11 @@ The right app depends on what you actually need.
 
 For live classroom energy, Kahoot! and Quizizz are hard to beat. For geography nerds who want something genuinely different, GeoGuessr is in a league of its own. For casual trivia with friends, Trivia Crack and QuizDuel have the player bases, but know what you're giving up in privacy and ad tolerance.
 
-SAPIRO wins on the criteria that matter most for education and families: multi-domain content, real explanations, no ads, and no data collection. It's the only app on this list that covers geography, history, art, and nature in one place without selling your attention or your data. That combination doesn't exist elsewhere.
+SAPIRO wins on the criteria that matter most for education and families: multi-domain content, real explanations, no ads, and no data ever sold. It's the only app on this list that covers geography, history, art, and nature in one place without selling your attention or your data. That combination doesn't exist elsewhere.
 
 It's not the app for everyone. If you want multiplayer battles against strangers, Trivia Crack has a bigger pool. If you want location-guessing gameplay, GeoGuessr does something SAPIRO doesn't try to do. And if you need a classroom platform, Kahoot! was built for that.
 
-But if you want to actually learn at your own pace, without ads and without being tracked, SAPIRO is the strongest option we tested. The adaptive difficulty keeps it challenging as you improve, and the explanations mean you walk away knowing more, not just scoring higher.
+But if you want to actually learn at your own pace, without ads and without your data being sold, SAPIRO is the strongest option we tested. The adaptive difficulty keeps it challenging as you improve, and the explanations mean you walk away knowing more, not just scoring higher.
 
 For deeper comparisons, check out our head-to-head reviews: [SAPIRO vs Trivia Crack](/en/blog/sapiro-vs-trivia-crack/), [SAPIRO vs GeoGuessr](/en/blog/sapiro-vs-geoguessr/), and [SAPIRO vs Kahoot](/en/blog/sapiro-vs-kahoot/). And if geography is your thing, see our [best geography apps](/en/blog/best-geography-apps/) guide.
 

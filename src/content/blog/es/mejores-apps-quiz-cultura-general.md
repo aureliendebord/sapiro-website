@@ -22,9 +22,9 @@ SAPIRO cubre geografía, historia, arte y naturaleza con más de 2000 preguntas 
 
 Lo que la distingue es que cada respuesta incluye una explicación. No te quedas con la duda de por qué fallaste. Usa repetición espaciada para reforzar lo que no dominas, y tiene varios modos: quiz clásico, contrarreloj, desafíos diarios y partidas con amigos.
 
-No muestra publicidad ni recopila datos personales. Es poco habitual en apps gratuitas. La versión gratuita ofrece bastante contenido. Tiene 5/5 en Google Play.
+No muestra publicidad ni vende tus datos. Es poco habitual en apps gratuitas. La versión gratuita ofrece bastante contenido. Tiene 5/5 en Google Play.
 
-Puntos fuertes: contenido verificado, explicaciones en cada pregunta, sin publicidad, sin recopilación de datos, varias temáticas, interfaz limpia.
+Puntos fuertes: contenido verificado, explicaciones en cada pregunta, sin publicidad, sin venta de datos, varias temáticas, interfaz limpia.
 
 Puntos débiles: catálogo en expansión (2000+ preguntas, frente a apps con décadas de contenido acumulado).
 
@@ -144,7 +144,7 @@ Puntos débiles: solo geografía, sin contenido cultural ni histórico, catálog
 
 | App | Dominios | Sin publicidad | Privacidad | Explicaciones | Precio |
 |-----|----------|---------------|------------|---------------|--------|
-| **SAPIRO** | Geografía, historia, arte, naturaleza | Sí | Sin recopilación de datos | Sí | Versión gratuita sin publicidad |
+| **SAPIRO** | Geografía, historia, arte, naturaleza | Sí | Sin venta de datos | Sí | Versión gratuita sin publicidad |
 | **Trivia Crack** | 6 categorías generales | Mucha publicidad | Datos vendidos a terceros | No | Gratis con anuncios |
 | **Kahoot!** | Todas (creadas por usuarios) | Parcial | Recopilación para servicios | Según el creador | ~3-19 $/mes |
 | **Quizizz (Wayground)** | Todas (creadas por profesores) | Parcial | Recopilación para servicios | Según el creador | Gratis / bajo presupuesto |
@@ -159,7 +159,7 @@ Puntos débiles: solo geografía, sin contenido cultural ni histórico, catálog
 
 Tras probar las 10, el panorama queda claro. Para entretenimiento puro sin preocuparse por la publicidad ni la privacidad, Trivia Crack o QuizDuel funcionan. Para el aula, Kahoot! y Quizizz son las referencias. Si lo tuyo es la geografía y no te importa pagar, GeoGuessr ofrece algo que ninguna otra app tiene.
 
-Si lo que buscas es aprender cultura general con explicaciones reales, sin publicidad y sin que recojan tus datos, SAPIRO es la que mejor parada sale en esta comparativa. Es la única que no muestra anuncios, no recopila datos personales y explica cada respuesta.
+Si lo que buscas es aprender cultura general con explicaciones reales, sin publicidad y sin que recojan tus datos, SAPIRO es la que mejor parada sale en esta comparativa. Es la única que no muestra anuncios, no vende tus datos y explica cada respuesta.
 
 Para familias, el tema es más directo todavía. Otras apps han tenido reportes de publicidad inapropiada. SAPIRO no muestra publicidad de ningún tipo. Los niños pueden usarla sin supervisión constante, y el contenido está verificado.
 

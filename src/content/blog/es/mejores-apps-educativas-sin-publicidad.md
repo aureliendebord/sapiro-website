@@ -18,7 +18,7 @@ La publicidad en las apps educativas rompe el aprendizaje. Aquí va una selecci�
 
 ## Cultura general
 
-**SAPIRO.** Gratis, sin publicidad, sin recolección de datos. 2 000+ preguntas sobre geografía, historia, arte, naturaleza. Todas las edades.
+**SAPIRO.** Gratis, sin publicidad, sin venta de datos. 2 000+ preguntas sobre geografía, historia, arte, naturaleza. Todas las edades.
 
 **Duolingo (parcialmente).** Gratis con publicidad. Premium para versión sin publi.
 
@@ -80,7 +80,7 @@ Tres razones.
 
 **Familia.** La app debe ser segura para niños. Sin publi dudosa.
 
-**Datos.** Sin publicidad significa sin recolección de datos de comportamiento. Ver nuestro artículo sobre [apps de quiz sin recolección de datos](/es/blog/apps-quiz-sin-recoleccion-datos/).
+**Datos.** Sin publicidad no hay ningún motivo para vender datos de comportamiento. Ver nuestro artículo sobre [apps de quiz sin recolección de datos](/es/blog/apps-quiz-sin-recoleccion-datos/).
 
 ## Cómo saber si una app es realmente "sin publi"
 

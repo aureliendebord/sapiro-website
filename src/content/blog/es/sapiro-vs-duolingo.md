@@ -44,7 +44,7 @@ SAPIRO y Duolingo son dos apps de aprendizaje, pero en terrenos distintos. Duoli
 
 **Duolingo.** Importante recolección de datos para personalización y publicidad. Cuenta obligatoria.
 
-**SAPIRO.** Sin recolección de datos. Sin cuenta obligatoria. Ver nuestro artículo sobre [apps de quiz sin recolección de datos](/es/blog/apps-quiz-sin-recoleccion-datos/).
+**SAPIRO.** Sin venta de datos. Sin cuenta obligatoria. Ver nuestro artículo sobre [apps de quiz sin recolección de datos](/es/blog/apps-quiz-sin-recoleccion-datos/).
 
 ## El público objetivo
 

@@ -68,7 +68,7 @@ Cada pregunta va seguida de una explicación detallada. Esto importa mucho: el f
 
 Con más de 50 recorridos temáticos y tres modos de juego (Clásico, Supervivencia, Desafío del día), la aplicación permite variar los ángulos de aproximación. Y la historia no está aislada del resto: se cruza con la geografía (197 países), el arte ([553 obras imprescindibles](/es/blog/obras-arte-imprescindibles/)) y la naturaleza (600 animales). Porque la historia no se entiende aislada de todo lo demás.
 
-Sin publicidad, sin recopilación de datos. La aplicación funciona sin conexión y la versión gratuita no tiene publicidad.
+Sin publicidad, sin venta de datos. La aplicación funciona sin conexión y la versión gratuita no tiene publicidad.
 
 ## Aprender historia en familia: consejos prácticos
 

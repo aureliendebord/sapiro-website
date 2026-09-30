@@ -32,7 +32,7 @@ Trivia Crack est financé par la publicité, et ça se voit. Vidéos obligatoire
 
 Côté données, Trivia Crack a une réputation qui précède l'appli. TIME l'a classée parmi les plus intrusives du marché. Common Sense Media a documenté une collecte active : données personnelles partagées avec des tiers publicitaires, tracking via Facebook, géolocalisation utilisée pour cibler les annonces. Quand un enfant joue, ses habitudes, sa position et ses identifiants partent alimenter des réseaux publicitaires.
 
-SAPIRO prend l'inverse de ce modèle. Aucune publicité, y compris dans la version gratuite. Aucune collecte de données personnelles, pas de compte obligatoire, pas de tracking. Ce qui se passe dans l'appli reste sur l'appareil. Dans un contexte RGPD et quand l'utilisateur final est un enfant, l'écart est difficile à ignorer.
+SAPIRO prend l'inverse de ce modèle. Aucune publicité, y compris dans la version gratuite. Données jamais revendues, pas de compte obligatoire, pas de cookie publicitaire. Dans un contexte RGPD et quand l'utilisateur final est un enfant, l'écart est difficile à ignorer.
 
 ## Divertir ou enseigner : deux objectifs, deux produits
 
@@ -48,7 +48,7 @@ L'appli est notée 5/5 sur Google Play et recommandée par des enseignants comme
 |---|---|---|
 | **Version gratuite** | Oui, sans pub | Oui, avec pubs intensives |
 | **Publicités** | Aucune | Omniprésentes en gratuit, retirées avec Prime (payant) |
-| **Données collectées** | Aucune | Données personnelles, géoloc, tracking tiers |
+| **Données** | Jamais revendues | Données personnelles, géoloc, tracking tiers |
 | **Multijoueur asynchrone** | Non | Oui (point fort) |
 | **Explications après réponse** | Oui | Non |
 | **Hors connexion** | Oui | Non |
@@ -57,7 +57,7 @@ L'appli est notée 5/5 sur Google Play et recommandée par des enseignants comme
 
 Si on veut défier des amis autour d'un quiz rapide, avec des notifications qui font revenir et un aspect compétitif multijoueur bien fichu, Trivia Crack remplit son contrat. Le format reste efficace, la roue amuse, et les duels asynchrones sont un des meilleurs du genre. À accepter avec : les pubs intrusives et une collecte de données que peu de parents liraient en détail avant d'installer l'appli sur le téléphone de leurs enfants.
 
-Si l'objectif est d'apprendre en jouant, ou de donner à un enfant une alternative sérieuse au temps d'écran passif, SAPIRO est construit pour ça. Explications après chaque question, pas de pub, pas de collecte, fonctionnement hors ligne. Le produit ne cherche pas à rivaliser sur le terrain multijoueur, il propose un autre contrat : moins d'adrénaline sociale, plus de connaissances qui restent.
+Si l'objectif est d'apprendre en jouant, ou de donner à un enfant une alternative sérieuse au temps d'écran passif, SAPIRO est construit pour ça. Explications après chaque question, pas de pub, pas de revente de données, fonctionnement hors ligne. Le produit ne cherche pas à rivaliser sur le terrain multijoueur, il propose un autre contrat : moins d'adrénaline sociale, plus de connaissances qui restent.
 
 Pour aller plus loin, consultez notre guide des [meilleures applications de quiz de culture générale](/blog/meilleures-apps-quiz-culture-generale/), nos comparatifs [SAPIRO vs GeoGuessr](/blog/sapiro-vs-geoguessr/) et [SAPIRO vs Kahoot](/blog/sapiro-vs-kahoot/), et notre article sur la [gamification dans l'éducation](/blog/gamification-education/).
 

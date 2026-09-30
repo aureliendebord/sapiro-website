@@ -40,7 +40,7 @@ SAPIRO, QuizUp et HQ Trivia sont trois approches très différentes du quiz. Voi
 
 **Le concept.** Quiz culture générale pré-construit avec explication didactique derrière chaque réponse. Quatre univers : géographie, histoire, art, nature.
 
-**Forces.** Apprentissage réel. Pas de publicité. Pas de collecte de données. Convient à tous âges, en famille comme en solo.
+**Forces.** Apprentissage réel. Pas de publicité. Données jamais revendues. Convient à tous âges, en famille comme en solo.
 
 **Limites.** Pas de compétition en direct. Pas de mode multijoueur. Approche plus calme.
 
@@ -53,7 +53,6 @@ SAPIRO, QuizUp et HQ Trivia sont trois approches très différentes du quiz. Voi
 | Multijoueur live | Oui | Oui | Non |
 | Explication pédagogique | Non | Non | Oui |
 | Sans publicité | Non | Non | Oui |
-| Sans collecte de données | Non | Non | Oui |
 | Cagnotte / récompense | Non | Oui | Non |
 | Statut actif | Fermé (2021) | Mort | Actif |
 

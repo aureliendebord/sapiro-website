@@ -38,7 +38,7 @@ Beyond ads, SAPIRO offers three game modes (Classic, Survival, and Daily Challen
 
 This difference gets less attention than it deserves.
 
-SAPIRO collects zero personal data. No account is required. No tracking. No analytics beyond what is needed to make the app function. Your quiz history stays on your device.
+SAPIRO never sells your data. No account is required (an optional one only saves your progress). No advertising cookies. Usage is measured only to improve the app.
 
 Trivia Crack's data practices are a different story. TIME Magazine and Common Sense Media have both reported on the app's aggressive data collection. Trivia Crack collects personal information and shares it with third-party advertisers. The app integrates Facebook tracking, meaning your activity can be linked to your social media profile. Location data is collected and used for targeted advertising. For an app widely used by children and teenagers, these practices raise serious concerns.
 
@@ -60,17 +60,17 @@ For families looking for apps that combine screen time with actual learning, the
 |---|---|---|
 | Free version | Yes, no ads | Yes (ad-heavy) |
 | Ads in free version | None | Video ads, banners, interstitials |
-| Data collection | None | Extensive (third-party sharing) |
+| Data | Never sold | Extensive collection, third-party sharing |
 | Offline access | Yes | No |
 
-SAPIRO's free version has no ads and keeps your data on your device. Trivia Crack is free to play too, but the trade-off is constant advertising and extensive data sharing.
+SAPIRO's free version has no ads and never sells your data. Trivia Crack is free to play too, but the trade-off is constant advertising and extensive data sharing.
 
 
 ## Verdict
 
 Choose Trivia Crack if you want a casual, social trivia experience. It has a massive global community, strong multiplayer features, and the competitive wheel-spinning format is genuinely fun. If your main goal is to challenge friends across pop culture and general trivia topics, Trivia Crack does that well. It is a social game first, and a good one.
 
-Choose SAPIRO if you want to learn something. If you care about building real knowledge in geography, history, art, and nature, or if you are a parent looking for an educational app that respects your family's privacy, SAPIRO is the stronger pick. Zero ads, zero data collection, explanations after every question, structured learning paths, and offline access.
+Choose SAPIRO if you want to learn something. If you care about building real knowledge in geography, history, art, and nature, or if you are a parent looking for an educational app that respects your family's privacy, SAPIRO is the stronger pick. Zero ads, no data ever sold, explanations after every question, structured learning paths, and offline access.
 
 For more comparisons, see [SAPIRO vs GeoGuessr](/en/blog/sapiro-vs-geoguessr/), [SAPIRO vs Kahoot](/en/blog/sapiro-vs-kahoot/), and our [best quiz apps for general knowledge](/en/blog/best-quiz-apps-general-knowledge/) guide.
 

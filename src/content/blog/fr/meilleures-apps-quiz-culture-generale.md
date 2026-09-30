@@ -102,7 +102,7 @@ Prix : gratuit (limité), premium ~29,99 €/an.
 
 On la met en dernier pour éviter l'effet vitrine. SAPIRO couvre quatre domaines (géographie, histoire, art, nature) avec plus de 2 000 questions, chacune accompagnée d'une explication. On répond, on lit pourquoi, on passe à la suivante.
 
-Pas de pub dans l'app. Pas de tracking. C'est un choix assumé. Sur Google Play, l'app affiche une note de 5/5 à ce jour.
+Pas de pub dans l'app. Pas de cookie publicitaire. C'est un choix assumé. Sur Google Play, l'app affiche une note de 5/5 à ce jour.
 
 Ce qu'elle n'a pas : la communauté multijoueur massive de Trivia Crack ou QuizDuel. Ce qu'elle a : des explications pédagogiques et un modèle qui ne vit pas de vos données. À vous de voir ce qui compte dans votre usage.
 
@@ -112,7 +112,7 @@ Prix : version gratuite sans publicité.
 
 | App | Domaines | Sans pub | Vie privée | Explications | Prix |
 |-----|----------|----------|------------|--------------|------|
-| **SAPIRO** | Géo, Histoire, Art, Nature | Oui | Aucune collecte | Oui | Version gratuite sans pub |
+| **SAPIRO** | Géo, Histoire, Art, Nature | Oui | Données jamais revendues | Oui | Version gratuite sans pub |
 | **Trivia Crack** | 6 catégories trivia | Non | Données revendues | Non | Gratuit avec pubs |
 | **Kahoot!** | Personnalisable | Oui (payant) | Correcte | Variable | ~3-19 $/mois |
 | **Quizizz (Wayground)** | Personnalisable | Oui (payant) | Correcte | Variable | Gratuit / sur devis |

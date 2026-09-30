@@ -40,7 +40,7 @@ SAPIRO, QuizUp and HQ Trivia are three very different approaches to quizzes. Her
 
 **The concept.** Pre-built general knowledge quiz with an educational explanation behind each answer. Four universes: geography, history, art, nature.
 
-**Strengths.** Real learning. No ads. No data collection. Suitable for all ages, family or solo.
+**Strengths.** Real learning. No ads. No data ever sold. Suitable for all ages, family or solo.
 
 **Limits.** No live multiplayer. No multiplayer mode. Calmer approach.
 
@@ -53,7 +53,6 @@ SAPIRO, QuizUp and HQ Trivia are three very different approaches to quizzes. Her
 | Live multiplayer | Yes | Yes | No |
 | Educational explanation | No | No | Yes |
 | Ad-free | No | No | Yes |
-| No data collection | No | No | Yes |
 | Cash prize | No | Yes | No |
 | Active status | Shut down (2021) | Dead | Active |
 

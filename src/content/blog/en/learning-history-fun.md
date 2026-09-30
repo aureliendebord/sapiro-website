@@ -68,7 +68,7 @@ Each question is followed by a detailed explanation. This matters a lot: feedbac
 
 With over 50 thematic paths and three game modes (Classic, Survival, Daily Challenge), the app lets you approach history from different angles. And history is not isolated from everything else: it intersects with geography (197 countries), art ([553 essential artworks](/en/blog/essential-artworks-to-know/)), and nature (600 animals). Because history does not exist in a vacuum.
 
-No ads, no data collection. The app works offline, and the free version has no ads.
+No ads, no data ever sold. The app works offline, and the free version has no ads.
 
 ## Learning History as a Family: Practical Tips
 

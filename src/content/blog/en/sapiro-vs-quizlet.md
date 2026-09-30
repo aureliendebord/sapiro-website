@@ -32,7 +32,7 @@ SAPIRO and Quizlet are both learning apps, but they do different things. Quizlet
 
 **Quizlet.** Free for basic features. Quizlet Plus (roughly $8-10/month, less on an annual plan) for advanced features (ChatGPT for question generation, offline modes, statistics).
 
-**SAPIRO.** Free version with no ads and no data collection.
+**SAPIRO.** Free version with no ads and no data ever sold.
 
 ## Advertising
 
@@ -44,7 +44,7 @@ SAPIRO and Quizlet are both learning apps, but they do different things. Quizlet
 
 **Quizlet.** Collects user data for personalization and advertising. Standard digital app policy.
 
-**SAPIRO.** No data collection. No mandatory account, no tracking cookies, no sharing with third parties. See our article on [quiz apps without data collection](/en/blog/quiz-apps-no-data-collection/).
+**SAPIRO.** Data never sold. No mandatory account, no advertising cookies. See our article on [quiz apps without data collection](/en/blog/quiz-apps-no-data-collection/).
 
 ## Target audience
 

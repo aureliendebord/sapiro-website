@@ -36,7 +36,7 @@ SAPIRO's thematic paths (world museums, historical empires, Renaissance painters
 
 Kahoot's basic plan is free for teachers, but paid plans range from roughly $3 to $19 per month, billed annually. The platform collects educational analytics: student results, response times, success rates. This is genuinely useful for teachers tracking class performance. But the data exists, it gets stored, and it feeds a commercial ecosystem. Kahoot also has a separate Kahoot! Kids app with its own policies.
 
-SAPIRO collects zero personal data. No account required, no tracking, no third-party sharing. The app shows zero ads, including in the free version. What happens in SAPIRO stays on your device. For parents looking for an educational app that respects their children's privacy, this matters. Our guide to the [best quiz apps for general knowledge](/en/blog/best-quiz-apps-general-knowledge/) covers this point across several apps.
+SAPIRO never sells your data. No account required, no advertising cookies. The app shows zero ads, including in the free version. Usage is measured only to improve the app. For parents looking for an educational app that respects their children's privacy, this matters. Our guide to the [best quiz apps for general knowledge](/en/blog/best-quiz-apps-general-knowledge/) covers this point across several apps.
 
 ## Educational Value
 
@@ -62,7 +62,7 @@ Kahoot and SAPIRO do not replace each other. They complement each other.
 
 Kahoot remains a fantastic tool for teachers. Running an interactive quiz during a lesson, checking comprehension in real time, engaging a room of 30 students: Kahoot does this better than anything else on the market. If you teach, Kahoot deserves a spot in your toolkit.
 
-SAPIRO is built for a different moment. The one where a child comes home and wants to keep learning while having fun. The one where an adult wants to sharpen their general knowledge during a commute. The one where the whole family takes on a challenge together on the weekend. No ads, no data collection, and explanations after every question. SAPIRO holds a 5/5 star rating and Teacher Approved status on Google Play.
+SAPIRO is built for a different moment. The one where a child comes home and wants to keep learning while having fun. The one where an adult wants to sharpen their general knowledge during a commute. The one where the whole family takes on a challenge together on the weekend. No ads, no data ever sold, and explanations after every question. SAPIRO holds a 5/5 star rating and Teacher Approved status on Google Play.
 
 The choice is not either/or. It depends on the context. In the classroom, Kahoot. At home, SAPIRO.
 

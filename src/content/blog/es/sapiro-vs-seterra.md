@@ -38,7 +38,7 @@ SAPIRO y Seterra son dos apps de geografía, pero con enfoques distintos. Aquí 
 
 **Seterra.** Gratis en la web y en el móvil (la app, antes de pago, ahora es gratuita).
 
-**SAPIRO.** Gratis sin publicidad, sin recolección de datos. Ver nuestro artículo sobre [mejores apps educativas sin publicidad](/es/blog/mejores-apps-educativas-sin-publicidad/).
+**SAPIRO.** Gratis sin publicidad, sin venta de datos. Ver nuestro artículo sobre [mejores apps educativas sin publicidad](/es/blog/mejores-apps-educativas-sin-publicidad/).
 
 ## La diversidad de contenido
 
@@ -56,7 +56,7 @@ SAPIRO y Seterra son dos apps de geografía, pero con enfoques distintos. Aquí 
 
 **Elegir Seterra si** quieres especializarte en geografía pura (mapas mudos, estados federados, ríos, montañas). Referencia mundial del género.
 
-**Elegir SAPIRO si** quieres la geografía en contexto cultural más amplio, con historia, arte y naturaleza además. Sin publicidad, sin recolección de datos.
+**Elegir SAPIRO si** quieres la geografía en contexto cultural más amplio, con historia, arte y naturaleza además. Sin publicidad, sin venta de datos.
 
 ## ¿Pueden coexistir?
 

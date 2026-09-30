@@ -36,7 +36,7 @@ Los recorridos temáticos de SAPIRO (museos del mundo, imperios históricos, pin
 
 El plan básico de Kahoot es gratuito para profesores, pero los planes para centros educativos cuestan entre unos 3 y 19 $/mes (facturación anual). La plataforma recopila datos analíticos educativos: resultados de los alumnos, tiempos de respuesta, tasas de acierto. Esto es genuinamente útil para los profesores que quieren hacer seguimiento del rendimiento de sus clases. Pero esos datos existen, se almacenan y alimentan un ecosistema comercial. Kahoot también tiene una app separada, Kahoot! Kids, con sus propias políticas.
 
-SAPIRO no recopila ningún dato personal. No requiere cuenta, no hace tracking, no comparte información con terceros. La app no muestra ninguna publicidad, ni siquiera en la versión gratuita. Lo que pasa en SAPIRO se queda en tu dispositivo. Para los padres que buscan una app educativa que respete la privacidad de sus hijos, esto pesa. Nuestra guía de las [mejores apps de quiz de cultura general](/es/blog/mejores-apps-quiz-cultura-general/) cubre este punto para varias aplicaciones.
+SAPIRO no vende ningún dato. No requiere cuenta ni usa cookies publicitarias. La app no muestra ninguna publicidad, ni siquiera en la versión gratuita. El uso solo se mide para mejorar la app. Para los padres que buscan una app educativa que respete la privacidad de sus hijos, esto pesa. Nuestra guía de las [mejores apps de quiz de cultura general](/es/blog/mejores-apps-quiz-cultura-general/) cubre este punto para varias aplicaciones.
 
 ## Valor educativo
 
@@ -62,7 +62,7 @@ Kahoot y SAPIRO no se sustituyen. Se complementan.
 
 Kahoot sigue siendo una herramienta fantástica para profesores. Hacer un quiz interactivo durante una clase, comprobar la comprensión en tiempo real, movilizar a 30 alumnos: Kahoot hace esto mejor que nadie. Si eres docente, Kahoot merece un lugar en tu caja de herramientas pedagógica.
 
-SAPIRO está hecho para otro momento. El de cuando un niño llega a casa y quiere seguir aprendiendo mientras se divierte. El de cuando un adulto quiere enriquecer su cultura general durante el trayecto al trabajo. El de cuando toda la familia se lanza un desafío el fin de semana. Sin publicidad, sin recopilación de datos y con explicaciones en cada pregunta. SAPIRO tiene una nota de 5/5 estrellas en Google Play y está recomendada por profesores.
+SAPIRO está hecho para otro momento. El de cuando un niño llega a casa y quiere seguir aprendiendo mientras se divierte. El de cuando un adulto quiere enriquecer su cultura general durante el trayecto al trabajo. El de cuando toda la familia se lanza un desafío el fin de semana. Sin publicidad, sin venta de datos y con explicaciones en cada pregunta. SAPIRO tiene una nota de 5/5 estrellas en Google Play y está recomendada por profesores.
 
 La elección no es una u otra. Depende del contexto. En el aula, Kahoot. En casa, SAPIRO.
 
