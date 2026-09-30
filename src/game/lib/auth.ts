@@ -236,6 +236,29 @@ export async function signOut(): Promise<void> {
   await ensureSession();
 }
 
+/**
+ * Supprime le compte (même RPC que l'app : `delete_my_account` efface
+ * l'utilisateur et, en cascade, sa progression, ses duels et ses trophées).
+ * La progression locale du navigateur est effacée aussi : sur le web, il n'y a
+ * pas d'appareil « à soi » où la conserver aurait du sens. Le quota de parties
+ * du jour est gardé, sinon supprimer un compte offrirait des parties.
+ */
+export async function deleteAccount(): Promise<void> {
+  const supabase = await requireSupabase();
+  const { error } = await supabase.rpc("delete_my_account");
+  if (error) throw error;
+  // Le compte n'existe plus côté serveur : on ne ferme que la session locale.
+  await supabase.auth.signOut({ scope: "local" }).catch(() => {});
+  resetAnalytics();
+  try {
+    for (const key of ["sapiro-web-game", "sapiro-web-path", "sapiro-web-pending-results"]) {
+      localStorage.removeItem(key);
+    }
+  } catch {
+    // Stockage indisponible (navigation privée) : rien à effacer.
+  }
+}
+
 export function onAuthChange(callback: (user: User | null) => void): () => void {
   let unsubscribe: (() => void) | null = null;
   let disposed = false;

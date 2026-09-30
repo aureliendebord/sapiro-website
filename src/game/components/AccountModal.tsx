@@ -1,6 +1,7 @@
 import { useState } from "react";
 import type { User } from "@supabase/supabase-js";
 import {
+  deleteAccount,
   isSignedIn,
   resetPassword,
   signInWithEmail,
@@ -15,6 +16,8 @@ type Tab = "signin" | "signup" | "forgot";
 interface Props {
   user: User | null;
   onClose: () => void;
+  /** Arrivée par le lien de suppression de compte (`?delete-account`). */
+  deleteIntent?: boolean;
 }
 
 /** Messages Supabase traduits — un code d'erreur brut n'aide personne. */
@@ -35,8 +38,10 @@ function humanError(error: unknown): string {
   return message;
 }
 
-export function AccountModal({ user, onClose }: Props) {
-  const [tab, setTab] = useState<Tab>("signup");
+export function AccountModal({ user, onClose, deleteIntent = false }: Props) {
+  const [tab, setTab] = useState<Tab>(deleteIntent ? "signin" : "signup");
+  const [confirmDelete, setConfirmDelete] = useState(deleteIntent);
+  const [deleted, setDeleted] = useState(false);
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [busy, setBusy] = useState(false);
@@ -52,7 +57,22 @@ export function AccountModal({ user, onClose }: Props) {
     try {
       await action();
       if (successNotice) setNotice(successNotice);
-      else onClose();
+      // Venu pour supprimer son compte : après connexion, on reste sur la fenêtre.
+      else if (!deleteIntent) onClose();
+    } catch (e) {
+      setError(humanError(e));
+    } finally {
+      setBusy(false);
+    }
+  };
+
+  // Hors de `run` : en cas de succès, la fenêtre reste ouverte sur la confirmation.
+  const confirmAndDelete = async () => {
+    setBusy(true);
+    setError(null);
+    try {
+      await deleteAccount();
+      setDeleted(true);
     } catch (e) {
       setError(humanError(e));
     } finally {
@@ -77,7 +97,40 @@ export function AccountModal({ user, onClose }: Props) {
           ✕
         </button>
 
-        {signedIn ? (
+        {deleted ? (
+          <>
+            <h2 className="game-modal__title">{t("web.account.deleteDone")}</h2>
+            <button
+              type="button"
+              className="game-btn game-btn--block"
+              // Rechargement : les stores en mémoire repartent de zéro, comme le stockage.
+              onClick={() => window.location.reload()}
+            >
+              {t("web.account.close")}
+            </button>
+          </>
+        ) : signedIn && confirmDelete ? (
+          <>
+            <h2 className="game-modal__title">{t("web.account.deleteTitle")}</h2>
+            <p className="game-modal__sub">{user?.email}</p>
+            <p className="game-modal__sub">{t("web.account.deleteWarn")}</p>
+            <p className="game-modal__sub">{t("web.account.deleteSub")}</p>
+            {error && <p className="game-modal__error">{error}</p>}
+            <button
+              type="button"
+              className="game-btn game-btn--danger game-btn--block"
+              onClick={() => void confirmAndDelete()}
+              disabled={busy}
+            >
+              {busy ? t("web.account.wait") : t("web.account.deleteConfirm")}
+            </button>
+            <div className="game-modal__links">
+              <button type="button" onClick={() => setConfirmDelete(false)} disabled={busy}>
+                {t("web.account.deleteCancel")}
+              </button>
+            </div>
+          </>
+        ) : signedIn ? (
           <>
             <h2 className="game-modal__title">{t("web.account.title")}</h2>
             <p className="game-modal__sub">{user?.email}</p>
@@ -90,14 +143,27 @@ export function AccountModal({ user, onClose }: Props) {
             >
               {t("web.account.signOut")}
             </button>
+            <div className="game-modal__links">
+              <button type="button" onClick={() => setConfirmDelete(true)} disabled={busy}>
+                {t("web.account.deleteLink")}
+              </button>
+            </div>
           </>
         ) : (
           <>
             <h2 className="game-modal__title">
-              {tab === "forgot" ? t("web.account.forgotTitle") : t("web.account.saveTitle")}
+              {tab === "forgot"
+                ? t("web.account.forgotTitle")
+                : deleteIntent
+                  ? t("web.account.deleteLink")
+                  : t("web.account.saveTitle")}
             </h2>
             <p className="game-modal__sub">
-              {tab === "forgot" ? t("web.account.forgotSub") : t("web.account.saveSub")}
+              {tab === "forgot"
+                ? t("web.account.forgotSub")
+                : deleteIntent
+                  ? t("web.account.deleteNeedSignIn")
+                  : t("web.account.saveSub")}
             </p>
 
             {tab !== "forgot" && (
