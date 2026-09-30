@@ -2,7 +2,7 @@
 title: "SAPIRO vs QuizUp and HQ Trivia: Different Approaches"
 description: "SAPIRO vs QuizUp and HQ Trivia comparison: live competitive quiz or calm learning? Pros and cons of each format."
 date: 2026-03-02
-lastModified: 2026-06-15
+lastModified: 2026-09-30
 image: "/images/blog/apps/smartphone-app.jpg"
 imageAlt: "A smartphone showing a social media post"
 imageCredit: "Photo: Mictlancihuatl · CC BY-SA 4.0 · Wikimedia Commons"
@@ -24,7 +24,7 @@ SAPIRO, QuizUp and HQ Trivia are three very different approaches to quizzes. Her
 
 **Limits.** No educational explanation behind questions. Lots of repetitive questions. Ads present.
 
-**Status.** The app has declined and its future is uncertain (sold and relaunched several times).
+**Status.** Shut down for good: Glu Mobile announced the closure in January 2021 and switched off the servers in March 2021.
 
 ## HQ Trivia: live televised quiz
 
@@ -55,11 +55,11 @@ SAPIRO, QuizUp and HQ Trivia are three very different approaches to quizzes. Her
 | Ad-free | No | No | Yes |
 | No data collection | No | No | Yes |
 | Cash prize | No | Yes | No |
-| Active status | Uncertain | Dead | Active |
+| Active status | Shut down (2021) | Dead | Active |
 
 ## When to choose what
 
-**QuizUp if** you love pure dueling competition. Though its future is uncertain.
+**QuizUp if** you love pure dueling competition. But the app shut down in 2021, so you will have to look at its successors.
 
 **HQ Trivia if** you enjoy the live experience (if the app returns stable).
 

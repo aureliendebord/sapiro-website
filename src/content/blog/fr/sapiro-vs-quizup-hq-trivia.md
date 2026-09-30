@@ -2,7 +2,7 @@
 title: "Sapiro vs QuizUp et HQ Trivia : approches différentes"
 description: "Comparatif Sapiro avec QuizUp et HQ Trivia : quiz compétitif live ou apprentissage tranquille ? Avantages et limites de chaque format."
 date: 2026-03-02
-lastModified: 2026-06-15
+lastModified: 2026-09-30
 image: "/images/blog/apps/smartphone-app.jpg"
 imageAlt: "Un smartphone affichant une publication sur un réseau social"
 imageCredit: "Photo : Mictlancihuatl · CC BY-SA 4.0 · Wikimedia Commons"
@@ -24,7 +24,7 @@ SAPIRO, QuizUp et HQ Trivia sont trois approches très différentes du quiz. Voi
 
 **Limites.** Pas d'explication pédagogique derrière les questions. Beaucoup de questions répétitives. Publicité présente.
 
-**Statut.** L'app a connu un déclin et son avenir est incertain (rachetée et relancée plusieurs fois).
+**Statut.** Fermée définitivement : Glu Mobile a annoncé l'arrêt en janvier 2021 et coupé les serveurs en mars 2021.
 
 ## HQ Trivia : quiz live télévisé
 
@@ -55,11 +55,11 @@ SAPIRO, QuizUp et HQ Trivia sont trois approches très différentes du quiz. Voi
 | Sans publicité | Non | Non | Oui |
 | Sans collecte de données | Non | Non | Oui |
 | Cagnotte / récompense | Non | Oui | Non |
-| Statut actif | Incertain | Mort | Actif |
+| Statut actif | Fermé (2021) | Mort | Actif |
 
 ## Quand choisir quoi
 
-**QuizUp si** vous aimez la compétition pure en duel. Quoique son avenir soit incertain.
+**QuizUp si** vous aimez la compétition pure en duel. Mais l'app a fermé en 2021 : il faut se tourner vers ses héritiers.
 
 **HQ Trivia si** vous appréciez l'expérience live (si l'app revient stable).
 

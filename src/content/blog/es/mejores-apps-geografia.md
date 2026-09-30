@@ -58,13 +58,13 @@ Buena opción para preparar concursos de cultura general o para reforzar un áre
 
 Nota: 6,5/10
 
-## 6. QuizUp Geography: competición social en tiempo real
+## 6. QuizUp Geography: el referente de los duelos, cerrado en 2021
 
-QuizUp fue en su momento la app de quiz más popular del mundo. Su sección de geografía sigue siendo sólida para quienes disfrutan compitiendo. El formato: te enfrentas a otro jugador, preguntas rápidas, gana quien responda bien en menos tiempo. Rápido, adictivo, perfecto para ratos cortos.
+QuizUp fue en su momento la app de quiz más popular del mundo, y su sección de geografía era de las más jugadas. El formato: te enfrentabas a otro jugador, preguntas rápidas, ganaba quien respondiera bien en menos tiempo. La app original cerró en 2021 (Glu Mobile apagó los servidores en marzo), así que ya no se puede descargar; el formato sobrevive en apps sucesoras e intentos de relanzamiento de la comunidad, de calidad desigual.
 
-La gracia de QuizUp es la dimensión social: desafiar amigos, unirse a comunidades, subir en rankings. Pero no está pensada para aprender de forma sistemática. No hay repetición espaciada, no hay fichas de estudio, y las preguntas rápidas no favorecen la retención a largo plazo. Es un juego social, no una herramienta educativa. Funciona bien como complemento para practicar bajo presión.
+La gracia de QuizUp era la dimensión social: desafiar amigos, unirse a comunidades, subir en rankings. Pero no estaba pensada para aprender de forma sistemática. No había repetición espaciada ni fichas de estudio, y las preguntas rápidas no favorecen la retención a largo plazo. Era un juego social, no una herramienta educativa.
 
-Nota: 6,5/10
+Nota: sin nota (app cerrada)
 
 ## 7. Google Earth: exploración geográfica inmersiva
 
@@ -86,7 +86,7 @@ Nota: 7/10 (para su público objetivo)
 
 Para facilitar la decisión, un resumen rápido de lo que ofrece cada app.
 
-Las apps con repetición espaciada (como SAPIRO) son las que mejor funcionan para retener información a largo plazo. Las de exploración (GeoGuessr, Google Earth) desarrollan la intuición geográfica, ese sexto sentido para reconocer dónde estás en el mundo. Las de competición (QuizUp) van bien para motivarte con amigos. La combinación ideal: una app de aprendizaje estructurado como base, complementada con una de exploración para los días que te apetezca algo diferente.
+Las apps con repetición espaciada (como SAPIRO) son las que mejor funcionan para retener información a largo plazo. Las de exploración (GeoGuessr, Google Earth) desarrollan la intuición geográfica, ese sexto sentido para reconocer dónde estás en el mundo. Las de competición (duelos al estilo QuizUp) van bien para motivarte con amigos. La combinación ideal: una app de aprendizaje estructurado como base, complementada con una de exploración para los días que te apetezca algo diferente.
 
 ## ¿Cómo elegir la mejor app de geografía para ti?
 
