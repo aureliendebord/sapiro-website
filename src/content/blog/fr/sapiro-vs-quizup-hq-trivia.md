@@ -32,9 +32,9 @@ SAPIRO, QuizUp et HQ Trivia sont trois approches très différentes du quiz. Voi
 
 **Forces.** Sensation unique de quiz télévisé en direct. Communauté massive sur les pics de popularité.
 
-**Limites.** L'app a fermé en 2020 puis a tenté un retour. Modèle économique incertain. Pas pédagogique.
+**Limites.** L'app a fermé une première fois en février 2020, a été relancée le mois suivant, puis s'est arrêtée pour de bon. Pas pédagogique.
 
-**Statut.** Mort en 2020, tentatives de relance instables.
+**Statut.** Fermée : dernière partie en novembre 2022, app retirée des stores en août 2023.
 
 ## SAPIRO : quiz pédagogique à son rythme
 
@@ -60,7 +60,7 @@ SAPIRO, QuizUp et HQ Trivia sont trois approches très différentes du quiz. Voi
 
 **QuizUp si** vous aimez la compétition pure en duel. Mais l'app a fermé en 2021 : il faut se tourner vers ses héritiers.
 
-**HQ Trivia si** vous appréciez l'expérience live (si l'app revient stable).
+**HQ Trivia si** vous appréciez l'expérience live. Mais l'app n'existe plus depuis 2023.
 
 **SAPIRO si** vous voulez apprendre sereinement, sans publicité ni pression, en solo ou en famille.
 

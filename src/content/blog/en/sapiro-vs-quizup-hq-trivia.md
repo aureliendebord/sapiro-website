@@ -32,9 +32,9 @@ SAPIRO, QuizUp and HQ Trivia are three very different approaches to quizzes. Her
 
 **Strengths.** Unique sensation of a live TV quiz. Massive community during popularity peaks.
 
-**Limits.** The app shut down in 2020 then attempted a comeback. Uncertain business model. Not educational.
+**Limits.** The app first shut down in February 2020, relaunched the following month, then stopped for good. Not educational.
 
-**Status.** Dead in 2020, unstable revival attempts.
+**Status.** Shut down: last game in November 2022, app removed from the stores in August 2023.
 
 ## SAPIRO: educational quiz at your own pace
 
@@ -60,7 +60,7 @@ SAPIRO, QuizUp and HQ Trivia are three very different approaches to quizzes. Her
 
 **QuizUp if** you love pure dueling competition. But the app shut down in 2021, so you will have to look at its successors.
 
-**HQ Trivia if** you enjoy the live experience (if the app returns stable).
+**HQ Trivia if** you enjoy the live experience. But the app has been gone since 2023.
 
 **SAPIRO if** you want to learn calmly, without ads or pressure, alone or with family.
 
