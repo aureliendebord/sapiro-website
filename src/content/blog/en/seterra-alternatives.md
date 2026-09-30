@@ -2,6 +2,7 @@
 title: "Seterra Alternatives: 5 Apps for Flags, Capitals and Maps"
 description: "Looking for apps like Seterra? Five alternatives for learning flags, capitals and maps: more topics, no ads, or playable in your browser with nothing to install."
 date: 2026-09-21
+lastModified: 2026-09-30
 image: "/images/blog/apps/carte-monde-app.jpg"
 imageAlt: "A 16th-century map of Hungary"
 imageCredit: "Photo: Lázár deák (Lazarus secretarius) · public domain · Wikimedia Commons"
@@ -30,7 +31,7 @@ Fair warning: this is SAPIRO's website and we make the app. That is why it comes
 
 Seterra does one thing very well. It shows you a map and you click the right spot: countries, capitals and flags, but also regions, federal states, rivers, mountains, deserts and lakes. If your goal is to master the world map in detail, it is the reference, and our [SAPIRO vs Seterra comparison](/en/blog/sapiro-vs-seterra/) says so plainly.
 
-The reasons to look elsewhere tend to be the same. It is geography only. The format rarely moves away from map-clicking against a score and a timer. The interface looks dated next to newer apps. And what you get for free is not the same on the web and on mobile, which catches people out.
+The reasons to look elsewhere tend to be the same. It is geography only. The format rarely moves away from map-clicking against a score and a timer. And the interface looks dated next to newer apps.
 
 ## 1. SAPIRO: flags, capitals and maps, with the explanation included
 
@@ -50,7 +51,7 @@ The quiz modes feel basic next to dedicated quiz apps, some content is unlocked 
 
 World Geography is a no-nonsense quiz app covering countries, capitals, flags, populations and currencies, with a standard quiz, a time attack and a learning mode. It is lightweight, loads fast, tracks your progress by category and works offline. Handy for a few minutes on a commute.
 
-The tradeoffs: the free version is heavy on ads, the interface feels generic and questions can get repetitive. If ads are the reason you are leaving Seterra's free mobile tier, this will not fix it.
+The tradeoffs: the free version is heavy on ads, the interface feels generic and questions can get repetitive. If you are trying to get away from ads, this will not fix it.
 
 ## 4. GeoGuessr: work out where you are
 
@@ -69,11 +70,11 @@ It is a paid app, adults will find it too simple, and the content does not updat
 | App | Topics covered | Free? | Ads? | Browser / mobile |
 |---|---|---|---|---|
 | **SAPIRO** | Geography, history, art, nature | Yes, free version | No | Browser, iOS, Android |
-| Seterra | Geography only | Free on the web; mobile: check the store listing | Check the store listing | Browser, iOS, Android |
+| Seterra | Geography only | Yes, web and mobile | No in the mobile app | Browser, iOS, Android |
 | StudyGe | Geography (atlas and quizzes) | Yes, with in-app purchases | Check the store listing | iOS, Android |
-| World Geography | Geography (countries, flags, currencies) | Yes | Yes in the free version | Mobile (check the store listing for platforms) |
+| World Geography | Geography (countries, flags, currencies) | Yes | Yes in the free version | iOS, Android |
 | GeoGuessr | Street View exploration | Limited free tier | Check the store listing | Browser, iOS, Android |
-| Stack the Countries | Geography for kids | No, paid app | No | Mobile (check the store listing for platforms) |
+| Stack the Countries | Geography for kids | No, paid app | No | iOS, Android |
 
 ## Which one should you pick?
 

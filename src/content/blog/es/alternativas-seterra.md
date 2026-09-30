@@ -2,6 +2,7 @@
 title: "Alternativas a Seterra: 5 apps para aprender banderas, capitales y mapas"
 description: "¿Buscas una app como Seterra? Cinco alternativas para practicar banderas, capitales y mapas: más temas, sin publicidad o para jugar en el navegador sin instalar nada."
 date: 2026-09-21
+lastModified: 2026-09-30
 image: "/images/blog/apps/carte-monde-app.jpg"
 imageAlt: "Un mapa antiguo de Hungría del siglo XVI"
 imageCredit: "Foto: Lázár deák (Lazarus secretarius) · dominio público · Wikimedia Commons"
@@ -30,7 +31,7 @@ Una aclaración antes de seguir: este sitio es el de SAPIRO y la app es nuestra.
 
 Seterra hace muy bien una cosa: te muestra un mapa y tú haces clic en el lugar correcto. Países, capitales y banderas, pero también regiones, estados federados, ríos, montañas, desiertos y lagos. Para dominar el mapamundi en detalle es la referencia del género, y así lo decimos en nuestra [comparativa SAPIRO vs Seterra](/es/blog/sapiro-vs-seterra/).
 
-Los motivos para mirar otras opciones suelen repetirse. Solo hay geografía. El formato casi no cambia y gira en torno al puntaje y al tiempo. El diseño se quedó anticuado. Y la versión gratuita incluye publicidad.
+Los motivos para mirar otras opciones suelen repetirse. Solo hay geografía. El formato casi no cambia y gira en torno al puntaje y al tiempo. Y el diseño se quedó anticuado.
 
 ## 1. SAPIRO: banderas, capitales y mapas, con la explicación incluida
 
@@ -69,11 +70,11 @@ La pega importante para quien lee esto en español: la app solo está en inglés
 | App | Temas | ¿Gratis? | ¿Publicidad? | Navegador / móvil |
 |---|---|---|---|---|
 | **SAPIRO** | Geografía, historia, arte, naturaleza | Sí, versión gratuita | No | Navegador, iOS, Android |
-| Seterra | Solo geografía | Sí, versión gratuita | Sí en la versión gratuita | Navegador, iOS, Android |
+| Seterra | Solo geografía | Sí, web y móvil | No en la app móvil | Navegador, iOS, Android |
 | StudyGe | Geografía (mapa y quiz) | A verificar en la ficha de la tienda | A verificar en la ficha de la tienda | Móvil |
-| World Geography | Geografía (capitales, banderas, monedas, idiomas) | A verificar en la ficha de la tienda | A verificar en la ficha de la tienda | Móvil |
+| World Geography | Geografía (capitales, banderas, monedas, idiomas) | Sí | Sí en la versión gratuita | iOS, Android |
 | GeoGuessr | Exploración con Street View | Limitado; suscripción para jugar sin límites | A verificar en la ficha de la tienda | Navegador y móvil |
-| Stack the Countries | Geografía para niños | A verificar en la ficha de la tienda | A verificar en la ficha de la tienda | Móvil (plataformas a verificar en la ficha de la tienda) |
+| Stack the Countries | Geografía para niños | No, app de pago | No | iOS, Android |
 
 ## Cuál elegir según tu perfil
 
