@@ -94,6 +94,20 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
       replay: "Rejouer",
       home: "Retour à l'accueil",
     },
+    share: {
+      title: "Sapiro · Défi du jour {{date}} · {{score}}/{{total}}",
+      beatMe: "Tu fais mieux ?",
+      button: "Défier un ami",
+      copied: "Copié, colle-le où tu veux",
+      failed: "Impossible de copier le lien",
+      bannerToday: "On te défie : {{score}}/{{total}} au Défi du jour. Tu fais mieux ?",
+      bannerPlay: "Relever le défi",
+      bannerDone: "On te défie : {{score}}/{{total}} au Défi du jour. Tu l'as déjà relevé aujourd'hui.",
+      bannerPast: "Ce défi est passé ({{score}}/{{total}}). Celui du jour t'attend.",
+      won: "Défi gagné : {{score}}/{{total}} à battre",
+      tied: "Égalité : {{score}}/{{total}} en face aussi",
+      lost: "Défi perdu : il fallait battre {{score}}/{{total}}",
+    },
     profile: {
       title: "Mon profil",
       anonymous: "Progression enregistrée sur cet appareil",
@@ -141,6 +155,17 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
       errorCredentials: "Adresse ou mot de passe incorrect.",
       errorPassword: "Le mot de passe doit faire au moins 6 caractères.",
       errorRateLimit: "Trop de tentatives. Réessaie dans quelques minutes.",
+      deleteLink: "Supprimer mon compte",
+      deleteTitle: "Supprimer ton compte ?",
+      deleteWarn:
+        "C'est définitif. Ton compte, ton pseudo, ta progression, tes duels et tes trophées seront effacés, ici et sur l'app mobile.",
+      deleteSub:
+        "Un abonnement Sapiro+ en cours n'est pas annulé par la suppression : annule-le d'abord là où tu l'as pris.",
+      deleteConfirm: "Supprimer définitivement",
+      deleteCancel: "Annuler",
+      deleteDone: "Ton compte est supprimé.",
+      deleteNeedSignIn:
+        "Connecte-toi pour supprimer ton compte. Tu n'y arrives pas ? Écris à bonjour@agencedebord.com.",
     },
     reset: {
       title: "Nouveau mot de passe",
@@ -255,6 +280,20 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
       replay: "Play again",
       home: "Back to home",
     },
+    share: {
+      title: "Sapiro · Daily Challenge {{date}} · {{score}}/{{total}}",
+      beatMe: "Can you beat that?",
+      button: "Challenge a friend",
+      copied: "Copied, paste it anywhere",
+      failed: "Couldn't copy the link",
+      bannerToday: "You've been challenged: {{score}}/{{total}} on the Daily Challenge. Can you beat that?",
+      bannerPlay: "Take the challenge",
+      bannerDone: "You've been challenged: {{score}}/{{total}} on the Daily Challenge. You already played today.",
+      bannerPast: "That challenge is over ({{score}}/{{total}}). Today's is waiting.",
+      won: "Challenge won: {{score}}/{{total}} to beat",
+      tied: "It's a tie: {{score}}/{{total}} on the other side too",
+      lost: "Challenge lost: {{score}}/{{total}} was the score to beat",
+    },
     profile: {
       title: "My profile",
       anonymous: "Progress saved on this device",
@@ -302,6 +341,17 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
       errorCredentials: "Wrong email or password.",
       errorPassword: "Password must be at least 6 characters.",
       errorRateLimit: "Too many attempts. Try again in a few minutes.",
+      deleteLink: "Delete my account",
+      deleteTitle: "Delete your account?",
+      deleteWarn:
+        "This is permanent. Your account, username, progress, duels and trophies will be erased, here and on the mobile app.",
+      deleteSub:
+        "An active Sapiro+ subscription is not cancelled by deleting your account: cancel it first where you bought it.",
+      deleteConfirm: "Delete permanently",
+      deleteCancel: "Cancel",
+      deleteDone: "Your account has been deleted.",
+      deleteNeedSignIn:
+        "Sign in to delete your account. Can't sign in? Write to bonjour@agencedebord.com.",
     },
     reset: {
       title: "New password",
@@ -413,6 +463,20 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
       replay: "Jugar otra vez",
       home: "Volver al inicio",
     },
+    share: {
+      title: "Sapiro · Desafío del día {{date}} · {{score}}/{{total}}",
+      beatMe: "¿Lo superas?",
+      button: "Retar a un amigo",
+      copied: "Copiado, pégalo donde quieras",
+      failed: "No se pudo copiar el enlace",
+      bannerToday: "Te han retado: {{score}}/{{total}} en el Desafío del día. ¿Lo superas?",
+      bannerPlay: "Aceptar el reto",
+      bannerDone: "Te han retado: {{score}}/{{total}} en el Desafío del día. Ya lo has jugado hoy.",
+      bannerPast: "Ese reto ya pasó ({{score}}/{{total}}). El de hoy te espera.",
+      won: "Reto ganado: había que superar {{score}}/{{total}}",
+      tied: "Empate: {{score}}/{{total}} también al otro lado",
+      lost: "Reto perdido: había que superar {{score}}/{{total}}",
+    },
     profile: {
       title: "Mi perfil",
       anonymous: "Progreso guardado en este dispositivo",
@@ -460,6 +524,17 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
       errorCredentials: "Email o contraseña incorrectos.",
       errorPassword: "La contraseña debe tener al menos 6 caracteres.",
       errorRateLimit: "Demasiados intentos. Vuelve a intentarlo en unos minutos.",
+      deleteLink: "Eliminar mi cuenta",
+      deleteTitle: "¿Eliminar tu cuenta?",
+      deleteWarn:
+        "Es definitivo. Tu cuenta, tu seudónimo, tu progreso, tus duelos y tus trofeos se borrarán, aquí y en la app móvil.",
+      deleteSub:
+        "Eliminar la cuenta no cancela una suscripción Sapiro+ activa: cancélala primero donde la contrataste.",
+      deleteConfirm: "Eliminar definitivamente",
+      deleteCancel: "Cancelar",
+      deleteDone: "Tu cuenta ha sido eliminada.",
+      deleteNeedSignIn:
+        "Inicia sesión para eliminar tu cuenta. ¿No puedes? Escribe a bonjour@agencedebord.com.",
     },
     reset: {
       title: "Nueva contraseña",
@@ -507,7 +582,7 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
     },
     handoff: {
       title: "Sigue gratis en la app",
-      sub: "Ya jugaste tus partidas de hoy aquí. La app te da partidas gratis cada día, además del Reto del día.",
+      sub: "Ya jugaste tus partidas de hoy aquí. La app te da partidas gratis cada día, además del Desafío del día.",
       ctaIos: "Continuar en la App Store",
       ctaAndroid: "Continuar en Google Play",
       subscribeHere: "O juega sin límite aquí",

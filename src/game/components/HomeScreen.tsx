@@ -2,6 +2,7 @@ import { t } from "@game/lib/i18n";
 import { Icon } from "./ui/Icon";
 import { Glyph } from "./ui/Glyph";
 import { mobileStore } from "@game/lib/device";
+import type { Challenge } from "@game/lib/share";
 
 export type HomeAction = "classic" | "survival" | "daily" | "journeys";
 
@@ -39,12 +40,23 @@ interface Props {
   ticketsLeft: number;
   isPremium: boolean;
   dailyDone: boolean;
+  /** Lien « bats mon score » par lequel le joueur est arrivé. */
+  challenge?: Challenge | null;
+  challengeIsToday?: boolean;
   onAction: (action: HomeAction) => void;
   /** Quota épuisé sur téléphone : ouvre la sortie vers l'app. */
   onContinueInApp: () => void;
 }
 
-export function HomeScreen({ ticketsLeft, isPremium, dailyDone, onAction, onContinueInApp }: Props) {
+export function HomeScreen({
+  ticketsLeft,
+  isPremium,
+  dailyDone,
+  challenge,
+  challengeIsToday,
+  onAction,
+  onContinueInApp,
+}: Props) {
   const outOfTickets = !isPremium && ticketsLeft <= 0;
   const onPhone = mobileStore() !== null;
 
@@ -54,6 +66,32 @@ export function HomeScreen({ ticketsLeft, isPremium, dailyDone, onAction, onCont
   // Google, et il coûtait 93px de hauteur avant la première carte.
   return (
     <>
+      {/* Arrivée par un lien de défi : le bandeau passe avant tout le reste,
+          c'est pour ça que le joueur est là. Le Défi reste lancé par un clic
+          (pas d'auto-démarrage) : les sons exigent un geste utilisateur. */}
+      {challenge && (
+        <div className="game-notice">
+          {t(
+            !challengeIsToday
+              ? "web.share.bannerPast"
+              : dailyDone
+                ? "web.share.bannerDone"
+                : "web.share.bannerToday",
+            { score: challenge.score, total: challenge.total },
+          )}
+          {!dailyDone && (
+            <button
+              type="button"
+              className="game-btn game-btn--block"
+              style={{ marginTop: 10 }}
+              onClick={() => onAction("daily")}
+            >
+              {t("web.share.bannerPlay")}
+            </button>
+          )}
+        </div>
+      )}
+
       {outOfTickets && !onPhone && <div className="game-notice">{t("web.home.quotaNotice")}</div>}
       {/* Sur téléphone, les modes à ticket sont grisés : sans ce bouton,
           l'accueil n'offrait aucune sortie vers l'app une fois le quota vidé. */}

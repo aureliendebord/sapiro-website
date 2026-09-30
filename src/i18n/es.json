@@ -115,33 +115,73 @@
   },
   "privacy": {
     "title": "Política de privacidad",
-    "metaDescription": "Política de privacidad de SAPIRO: sin datos personales, sin cookies, sin tracking. Tu progreso se queda en tu dispositivo. Seguro para niños y adultos.",
+    "metaDescription": "Política de privacidad de SAPIRO: qué datos tratan la app, el juego en línea y el sitio web, por qué, con qué proveedores y cuáles son tus derechos.",
     "lastUpdate": "Última actualización",
-    "intro": "En SAPIRO, respetamos tu privacidad. Esta política explica cómo tratamos tus datos.",
+    "intro": "Sapiro es una app editada por Agence Debord EURL (París, Francia). Esta política explica, sin tecnicismos, qué datos tratan la app, el juego en línea de sapiro.app y el sitio web, por qué y qué puedes hacer al respecto. No vendemos ningún dato ni mostramos publicidad.",
     "sections": [
       {
-        "title": "Recopilación de datos",
-        "content": "SAPIRO no recopila ningún dato personal. Todos tus datos de progreso (puntuaciones, rachas, estadísticas) se almacenan localmente en tu dispositivo."
+        "title": "Tu cuenta y tu progreso",
+        "content": "Al abrir la app (o el juego en línea) por primera vez, se crea una cuenta anónima. Después puedes iniciar sesión con Apple, Google o un correo electrónico y una contraseña: en ese caso recibimos tu correo electrónico y el identificador que nos transmiten esos servicios, para que recuperes tu progreso en todos tus dispositivos. Tu seudónimo, tu avatar, el país de tu dispositivo y tu progreso (partidas, puntuaciones, rachas, trofeos, etapas del recorrido) se guardan en nuestros servidores, situados en Alemania (Unión Europea)."
       },
       {
-        "title": "Cookies y seguimiento",
-        "content": "No utilizamos cookies de seguimiento, herramientas de análisis ni servicios de recopilación de datos de terceros. Tu experiencia es 100% privada."
+        "title": "Los duelos",
+        "content": "Cuando juegas una partida de duelo, tus respuestas (acierto o fallo, tiempo de respuesta) se guardan para que otros jugadores puedan jugar contra ellas durante 90 días como máximo. Tu rival ve entonces tu seudónimo, tu avatar, la bandera de tu país y tu número de trofeos. Nunca ve tu nombre ni tu correo electrónico."
       },
       {
-        "title": "Compartir datos",
-        "content": "Como no recopilamos ningún dato, no tenemos nada que compartir con terceros. Tu información permanece en tu dispositivo."
+        "title": "El cuestionario de bienvenida",
+        "content": "Al empezar, la app te hace algunas preguntas opcionales: tu nombre, tu franja de edad, tu género, lo que te motiva, cuántos quiz quieres hacer a la semana y la hora de tu recordatorio. Puedes saltarte cualquier pregunta. Tu nombre se queda en tu dispositivo y nunca se envía. Las demás respuestas se asocian a un identificador seudónimo en nuestra herramienta de medición de audiencia, para entender quién usa Sapiro y mejorar la app."
       },
       {
-        "title": "Datos de menores",
-        "content": "SAPIRO es una aplicación educativa adecuada para niños. No recopilamos ninguna información sobre los usuarios, independientemente de su edad."
+        "title": "Medición de audiencia",
+        "content": "Usamos PostHog, alojado en la Unión Europea, para medir el uso de la app, del juego en línea y del sitio web: pantallas y páginas vistas, partidas jugadas, pantallas de suscripción, compras, errores técnicos, modelo de dispositivo, idioma, versión, página de llegada y procedencia (enlace, campaña). Estos datos se asocian a un identificador seudónimo, nunca a tu nombre ni a tu correo. No grabamos tus sesiones. En el sitio web también usamos Umami, una herramienta de estadísticas de visitas alojada por nosotros. Ninguna de las dos usa cookies."
+      },
+      {
+        "title": "Medición de campañas",
+        "content": "Para saber qué campañas publicitarias traen instalaciones y suscripciones, la app usa Singular. Singular recibe información técnica del dispositivo (modelo, sistema, dirección IP, identificador propio de la app) y algunos pasos clave (instalación, registro, primera partida, inicio de la prueba, suscripción); transmite a las redes publicitarias (Meta, TikTok, Apple) resultados de conversión, sin tu nombre ni tu correo. En iOS, la medición pasa por SKAdNetwork de Apple: no pedimos permiso de seguimiento ni usamos el identificador publicitario. En Android, la app no accede al identificador publicitario. En iPhone, RevenueCat también recibe el token de atribución de Apple Search Ads."
+      },
+      {
+        "title": "Suscripción y compras",
+        "content": "En la app, las compras se hacen a través de App Store o Google Play. En el juego en línea, el pago lo gestionan RevenueCat y Stripe: les transmitimos el correo de tu cuenta para el recibo. Nunca vemos tus datos bancarios. RevenueCat guarda el historial de compras y el estado de tu suscripción para activar Sapiro+ en todos tus dispositivos."
+      },
+      {
+        "title": "Tus mensajes",
+        "content": "Cuando nos escribes desde «Escríbenos», recibimos tu mensaje, su tipo (error, idea, dato falso), la versión de la app, la plataforma y el idioma. Solo los usamos para corregir y mejorar Sapiro."
+      },
+      {
+        "title": "Notificaciones",
+        "content": "Si las aceptas, los recordatorios (reto del día, racha, fin de la prueba) se programan localmente en tu dispositivo. No se envía ningún dato para mostrarlos. Puedes desactivarlos en cualquier momento en los ajustes del teléfono."
+      },
+      {
+        "title": "En tu dispositivo",
+        "content": "La app y el juego en línea guardan localmente tu sesión, tus ajustes, tus respuestas al cuestionario y tu progreso sin conexión. En el sitio web y el juego en línea, esta información se guarda en el almacenamiento local del navegador, no en cookies."
+      },
+      {
+        "title": "Con quién se comparten los datos",
+        "content": "Solo con nuestros proveedores, para los usos descritos: Supabase (base de datos, nuestros servidores en Alemania), PostHog (medición de audiencia, UE), Singular (medición de campañas), RevenueCat y Stripe (suscripciones), Apple y Google (inicio de sesión, compras), Cloudflare (alojamiento del sitio). Algunos de estos proveedores pueden tratar datos fuera de la Unión Europea; lo hacen con las garantías previstas por el RGPD (cláusulas contractuales tipo o Data Privacy Framework)."
+      },
+      {
+        "title": "Conservación",
+        "content": "Tu cuenta, tu progreso y tus partidas de duelo se conservan mientras exista la cuenta; una partida deja de ofrecerse como duelo pasados 90 días. Los datos de medición de audiencia se conservan dos años como máximo. Los datos de compra se conservan el tiempo que exigen nuestras obligaciones contables."
+      },
+      {
+        "title": "Eliminar tu cuenta",
+        "content": "En la app: pestaña Perfil, «Eliminar mi cuenta». En la web: abre sapiro.app/es/jugar/?delete-account, inicia sesión y confirma la eliminación (o, en el juego en línea, ventana Cuenta y «Eliminar mi cuenta»). Esto borra de inmediato tu cuenta, tu seudónimo, tu progreso, tus partidas de duelo y tus trofeos. Los mensajes enviados desde «Escríbenos» se conservan sin estar vinculados a ti. Eliminar la cuenta no cancela una suscripción activa: cancélala primero donde la contrataste. Para borrar también los datos de medición, de campañas y de compras, escribe a bonjour@agencedebord.com: atendemos la solicitud en un plazo de 30 días."
+      },
+      {
+        "title": "Niños",
+        "content": "Sapiro está pensado para toda la familia, niños incluidos. Para los más pequeños hemos tomado decisiones sencillas: sin publicidad, sin identificador publicitario, sin mensajería entre jugadores, cuenta opcional, y el nombre introducido en la bienvenida nunca sale del dispositivo. En los duelos, un jugador solo aparece ante los demás con su seudónimo, su avatar, la bandera de su país y sus trofeos. Las compras pasan por App Store o Google Play, con sus controles parentales. Un padre o una madre puede pedir en cualquier momento el acceso a los datos de su hijo o su eliminación escribiendo a bonjour@agencedebord.com."
+      },
+      {
+        "title": "Tus derechos",
+        "content": "Según el RGPD, puedes acceder a tus datos, corregirlos, eliminarlos, oponerte a su tratamiento o pedir su portabilidad. Escribe a bonjour@agencedebord.com. Si consideras que no se respetan tus derechos, puedes presentar una reclamación ante la CNIL (cnil.fr), la autoridad francesa de protección de datos, o ante la AEPD en España."
       },
       {
         "title": "Cambios",
-        "content": "Esta política puede actualizarse. Los cambios se publicarán en esta página con una nueva fecha de actualización."
+        "content": "Esta política puede actualizarse. La fecha al principio de la página indica la última versión."
       },
       {
         "title": "Contacto",
-        "content": "Para cualquier pregunta sobre esta política, contáctanos a través del formulario de contacto en nuestro sitio web."
+        "content": "Agence Debord EURL, 9 rue des Colonnes, 75002 París, Francia — bonjour@agencedebord.com."
       }
     ]
   },
@@ -211,14 +251,14 @@
     "director": "Director de publicación",
     "directorName": "Aurélien Debord",
     "host": "Alojamiento web",
-    "hostName": "OVH SAS",
-    "hostAddress": "2 rue Kellermann, 59100 Roubaix, Francia",
+    "hostName": "Cloudflare, Inc.",
+    "hostAddress": "101 Townsend St, San Francisco, CA 94107, Estados Unidos",
     "hostPhone": "Teléfono: 1007",
-    "hostWebsite": "www.ovh.com",
+    "hostWebsite": "www.cloudflare.com",
     "intellectualProperty": "Propiedad intelectual",
     "intellectualPropertyText": "Todo el contenido de este sitio web (textos, imágenes, vídeos, logotipos, gráficos, iconos, etc.) es propiedad exclusiva de Agence Debord o de sus socios y está protegido por las leyes francesas e internacionales de propiedad intelectual. Queda prohibida cualquier reproducción, representación, modificación, publicación o adaptación de todo o parte de los elementos del sitio sin autorización previa por escrito de Agence Debord.",
     "personalData": "Datos personales",
-    "personalDataText": "Este sitio web no recopila ningún dato personal y no utiliza cookies.",
+    "personalDataText": "Este sitio web mide su audiencia sin cookies. Los datos que tratan el sitio, el juego en línea y la app, así como tus derechos, se detallan en nuestra política de privacidad.",
     "close": "Cerrar"
   },
   "reviews": {

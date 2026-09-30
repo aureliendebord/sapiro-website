@@ -62,7 +62,7 @@ SAPIRO and Seterra are both geography apps, but with different approaches. Here 
 
 Yes, they complement each other. Seterra for pure map mastery. SAPIRO for broader general knowledge with geography included.
 
-Worth reading: [best geography apps](/en/blog/best-geography-apps/) for the full panorama.
+Worth reading: [best geography apps](/en/blog/best-geography-apps/) for the full panorama. And if you want more options in the same vein, see our list of [Seterra alternatives](/en/blog/seterra-alternatives/).
 
 <figure>
   <img src="/images/blog/apps/etudier-smartphone.jpg" alt="Seniors attending a training class in a classroom" loading="lazy" />

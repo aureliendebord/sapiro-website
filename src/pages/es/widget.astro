@@ -1,0 +1,20 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import WidgetPage from '../../components/WidgetPage.astro';
+import { getTranslations } from '../../i18n';
+
+const lang = 'es';
+const t = getTranslations(lang);
+---
+
+<Layout title="Widget de quiz de geografía gratis para tu web | SAPIRO" description="Inserta un quiz de banderas o capitales en tu web o aula virtual: gratis, sin anuncios, sin cookies. Basta con copiar y pegar." lang={lang}>
+  <Header lang={lang} t={t} />
+
+  <main class="page-main">
+    <WidgetPage lang={lang} />
+  </main>
+
+  <Footer lang={lang} t={t} />
+</Layout>

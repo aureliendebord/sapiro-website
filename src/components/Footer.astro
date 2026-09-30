@@ -1,4 +1,5 @@
 ---
+import { SOCIAL_PROFILES } from '../data/brand';
 import type { Lang } from '../i18n';
 import { getLocalePath, localeFlags } from '../i18n';
 import { clusters } from '../data/clusters';
@@ -25,24 +26,24 @@ const pillars = clusters.map((c) => ({ href: c.pillarSlug[lang], label: c.label[
       </a>
       <p class="footer-tagline">Quiz Culture Generale</p>
       <div class="footer-social">
-        <a href="https://www.instagram.com/sapiro_en" class="footer-social-link" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+        <a href={SOCIAL_PROFILES.instagram} class="footer-social-link" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
             <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
             <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
           </svg>
         </a>
-        <a href="https://www.tiktok.com/@sapiro_en" class="footer-social-link" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
+        <a href={SOCIAL_PROFILES.tiktok} class="footer-social-link" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
             <path d="M16.6 5.82A4.28 4.28 0 0 1 15.54 3h-3.09v12.4a2.59 2.59 0 0 1-2.59 2.5 2.6 2.6 0 0 1-2.6-2.6 2.6 2.6 0 0 1 3.35-2.49V9.66a5.73 5.73 0 0 0-.75-.05A5.68 5.68 0 0 0 4.18 15.3 5.68 5.68 0 0 0 9.86 21a5.68 5.68 0 0 0 5.68-5.68V9.01a7.35 7.35 0 0 0 4.3 1.38V7.3a4.3 4.3 0 0 1-3.24-1.48z"/>
           </svg>
         </a>
-        <a href="https://www.facebook.com/profile.php?id=61591072345953" class="footer-social-link" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+        <a href={SOCIAL_PROFILES.facebook} class="footer-social-link" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
           </svg>
         </a>
-        <a href="https://www.youtube.com/@sapiroapp" class="footer-social-link" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+        <a href={SOCIAL_PROFILES.youtube} class="footer-social-link" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/>
             <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"/>
@@ -58,6 +59,7 @@ const pillars = clusters.map((c) => ({ href: c.pillarSlug[lang], label: c.label[
       ))}
       <a href={getLocalePath('/blog', lang)} class="footer-link">{t.header.blog}</a>
       <a href={getLocalePath('/about', lang)} class="footer-link">{lang === 'fr' ? 'À propos' : lang === 'es' ? 'Acerca de' : 'About'}</a>
+      <a href={getLocalePath('/widget', lang)} class="footer-link">{lang === 'fr' ? 'Widget quiz pour votre site' : lang === 'es' ? 'Widget de quiz para tu web' : 'Quiz widget for your site'}</a>
     </div>
 
     <div class="footer-col">

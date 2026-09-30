@@ -1,0 +1,20 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import WidgetPage from '../../components/WidgetPage.astro';
+import { getTranslations } from '../../i18n';
+
+const lang = 'en';
+const t = getTranslations(lang);
+---
+
+<Layout title="Free geography quiz widget for your website | SAPIRO" description="Embed a flag or capitals quiz on your website or LMS: free, no ads, no cookies. One copy-paste and it runs." lang={lang}>
+  <Header lang={lang} t={t} />
+
+  <main class="page-main">
+    <WidgetPage lang={lang} />
+  </main>
+
+  <Footer lang={lang} t={t} />
+</Layout>

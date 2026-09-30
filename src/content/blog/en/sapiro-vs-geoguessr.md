@@ -68,7 +68,7 @@ But GeoGuessr will not teach you world capitals, the history of empires, paintin
 
 SAPIRO is the more complete choice if your goal is actual learning. Four domains instead of one. Explanations after every question. Structured learning paths. Zero ads. No data ever sold. Full offline support. For families, students, and anyone who wants to build real knowledge, it is the stronger option.
 
-Some people will use both, and that is probably the ideal setup: GeoGuessr for immersive exploration, SAPIRO for structured learning.
+Some people will use both, and that is probably the ideal setup: GeoGuessr for immersive exploration, SAPIRO for structured learning. And if it is mainly GeoGuessr's free tier that let you down, we listed the [GeoGuessr alternatives](/en/blog/geoguessr-alternatives/) you can play for free.
 
 For more geography app recommendations, check out our guide to the [best geography apps](/en/blog/best-geography-apps/), our [SAPIRO vs Kahoot comparison](/en/blog/sapiro-vs-kahoot/), and our roundup of the [best quiz apps for general knowledge](/en/blog/best-quiz-apps-general-knowledge/).
 

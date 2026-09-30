@@ -72,7 +72,7 @@ Choose Trivia Crack if you want a casual, social trivia experience. It has a mas
 
 Choose SAPIRO if you want to learn something. If you care about building real knowledge in geography, history, art, and nature, or if you are a parent looking for an educational app that respects your family's privacy, SAPIRO is the stronger pick. Zero ads, no data ever sold, explanations after every question, structured learning paths, and offline access.
 
-For more comparisons, see [SAPIRO vs GeoGuessr](/en/blog/sapiro-vs-geoguessr/), [SAPIRO vs Kahoot](/en/blog/sapiro-vs-kahoot/), and our [best quiz apps for general knowledge](/en/blog/best-quiz-apps-general-knowledge/) guide.
+For more comparisons, see [SAPIRO vs GeoGuessr](/en/blog/sapiro-vs-geoguessr/), [SAPIRO vs Kahoot](/en/blog/sapiro-vs-kahoot/), and our [best quiz apps for general knowledge](/en/blog/best-quiz-apps-general-knowledge/) guide. If neither app feels right, we have also rounded up other [Trivia Crack alternatives](/en/blog/trivia-crack-alternatives/).
 
 <figure>
   <img src="/images/blog/apps/apprendre-mobile.jpg" alt="A woman sitting in a library holding a phone" loading="lazy" />

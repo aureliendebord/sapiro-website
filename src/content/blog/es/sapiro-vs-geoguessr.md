@@ -68,7 +68,7 @@ Pero GeoGuessr no te enseñará las capitales del mundo, la historia de los impe
 
 SAPIRO es la opción más completa si tu objetivo es aprender de verdad. Cuatro dominios en lugar de uno. Explicaciones después de cada pregunta. Recorridos estructurados. Cero publicidad. Cero venta de datos. Funciona sin conexión. Para familias, estudiantes y cualquier persona que quiera ampliar su cultura general, es la mejor elección.
 
-Hay quien usará las dos, y probablemente sea la mejor combinación: GeoGuessr para la exploración inmersiva, SAPIRO para el aprendizaje estructurado.
+Hay quien usará las dos, y probablemente sea la mejor combinación: GeoGuessr para la exploración inmersiva, SAPIRO para el aprendizaje estructurado. Y si lo que te decepcionó fue sobre todo la versión gratuita de GeoGuessr, reunimos las [alternativas a GeoGuessr](/es/blog/alternativas-geoguessr/) que se juegan gratis.
 
 Para descubrir más apps de geografía, consulta nuestra guía de las [mejores apps de geografía](/es/blog/mejores-apps-geografia/), nuestro [comparativo SAPIRO vs Kahoot](/es/blog/sapiro-vs-kahoot/) y nuestra selección de las [mejores apps de quiz de cultura general](/es/blog/mejores-apps-quiz-cultura-general/).
 

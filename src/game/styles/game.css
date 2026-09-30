@@ -176,6 +176,13 @@
   box-shadow: 0 0 0 var(--key-base);
 }
 
+/* Action irréversible (suppression du compte) : rouge « mauvaise réponse ». */
+.game-btn--danger {
+  background: var(--wrong, #d14836);
+  color: #ffffff;
+  box-shadow: 0 4px 0 #771f14;
+}
+
 .game-btn--block {
   width: 100%;
 }
@@ -588,6 +595,20 @@
 
 /* Bornées : sur un plateau large, des boutons pleine largeur s'étirent sur
    plusieurs centaines de pixels et ne ressemblent plus à des boutons. */
+.result-challenge {
+  font-weight: 800;
+  color: var(--accent-deep);
+  margin: 0 0 12px;
+}
+
+.result-share-notice {
+  margin: -2px 0 0;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--ink);
+  text-align: center;
+}
+
 .result-actions {
   display: grid;
   gap: 10px;

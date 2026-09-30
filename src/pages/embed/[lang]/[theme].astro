@@ -1,0 +1,293 @@
+---
+/**
+ * Quiz embarquable en <iframe> sur un site tiers (profs, blogs voyage…).
+ *
+ * Page NUE, volontairement hors `Layout.astro` : ni header, ni footer, ni
+ * PostHog — elle s'affiche chez quelqu'un d'autre, elle doit peser le moins
+ * possible et ne rien poser chez ses visiteurs. Seul Umami (sans cookie) est
+ * chargé : `document.referrer` y donne la page hôte, c'est le seul moyen de
+ * savoir QUI a intégré le widget.
+ *
+ * Le lien qui compte pour le référencement n'est pas ici (un lien DANS une
+ * iframe ne transmet rien) mais dans le code à copier de la page /widget,
+ * sous l'iframe.
+ *
+ * Données : les pays du cœur de jeu synchronisé + les locales de l'app, lus
+ * au build. Aucune dépendance runtime, script inline, comme `BlogQuiz`.
+ */
+import { countries } from '@/data/countries';
+import fr from '@/locales/fr/countries.json';
+import en from '@/locales/en/countries.json';
+import es from '@/locales/es/countries.json';
+import { embedPlayUrl, EMBED_THEMES, PLAY_PATH, type EmbedTheme } from '../../../data/appLinks';
+import type { Lang } from '../../../i18n';
+
+export const prerender = true;
+
+export function getStaticPaths() {
+  return (['fr', 'en', 'es'] as const).flatMap((lang) =>
+    EMBED_THEMES.map((theme) => ({ params: { lang, theme } })),
+  );
+}
+
+const lang = Astro.params.lang as Lang;
+const theme = Astro.params.theme as EmbedTheme;
+
+type CountryLocale = Record<string, { name: string; capital?: string; descriptions?: string[] }>;
+const LOCALES: Record<Lang, CountryLocale> = { fr, en, es } as Record<Lang, CountryLocale>;
+
+// n = nom, c = capitale, k = continent (les mauvaises réponses sont tirées du
+// même continent : « Tchad ou Japon ? » n'apprend rien), f = fait affiché
+// après la réponse. Clés courtes : ce JSON part inline dans la page.
+const pool = countries
+  .map((country) => {
+    const loc = LOCALES[lang][country.id];
+    if (!loc?.name || !loc.capital) return null;
+    return { i: country.id, n: loc.name, c: loc.capital, k: country.continent, f: loc.descriptions?.[0] ?? '' };
+  })
+  .filter((entry) => entry !== null);
+
+const COPY = {
+  fr: {
+    title: { flags: 'Quiz drapeaux', capitals: 'Quiz capitales' },
+    ask: { flags: 'À quel pays appartient ce drapeau ?', capitals: 'Quelle est la capitale de ce pays ?' },
+    next: 'Question suivante',
+    finish: 'Voir mon score',
+    verdict: ['Il y a de la marge', 'Bien joué', 'Sans faute'],
+    replay: 'Rejouer',
+    cta: 'Le quiz complet sur Sapiro',
+    by: 'Quiz par',
+  },
+  en: {
+    title: { flags: 'Flag quiz', capitals: 'Capitals quiz' },
+    ask: { flags: 'Which country does this flag belong to?', capitals: 'What is the capital of this country?' },
+    next: 'Next question',
+    finish: 'See my score',
+    verdict: ['Room to improve', 'Well played', 'Flawless'],
+    replay: 'Play again',
+    cta: 'The full quiz on Sapiro',
+    by: 'Quiz by',
+  },
+  es: {
+    title: { flags: 'Quiz de banderas', capitals: 'Quiz de capitales' },
+    ask: { flags: '¿De qué país es esta bandera?', capitals: '¿Cuál es la capital de este país?' },
+    next: 'Siguiente pregunta',
+    finish: 'Ver mi puntuación',
+    verdict: ['Hay margen de mejora', 'Bien jugado', 'Sin fallos'],
+    replay: 'Jugar otra vez',
+    cta: 'El quiz completo en Sapiro',
+    by: 'Quiz de',
+  },
+}[lang];
+
+const playUrl = embedPlayUrl(lang, theme);
+---
+
+<!doctype html>
+<html lang={lang}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, follow" />
+    <title>{COPY.title[theme]} · SAPIRO</title>
+    <link rel="preload" href="/fonts/nunito-latin.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="canonical" href={`https://sapiro.app${PLAY_PATH[lang]}`} />
+    <script defer src="https://trafic.debord.eu/script.js" data-website-id="32b4fd6e-17a1-465a-b2ee-fe09c0f6dad7"></script>
+  </head>
+  <body>
+    <main
+      id="embed-quiz"
+      data-theme={theme}
+      data-next={COPY.next}
+      data-finish={COPY.finish}
+      data-verdicts={JSON.stringify(COPY.verdict)}
+    >
+      <header class="eq-head">
+        <span class="eq-kicker">{COPY.title[theme]}</span>
+        <span class="eq-step"><span data-step>1</span>/5</span>
+      </header>
+
+      <section data-play>
+        <p class="eq-question">{COPY.ask[theme]}</p>
+        <div class="eq-subject">
+          <img data-flag alt="" width="160" height="107" hidden />
+          <p data-country class="eq-country" hidden></p>
+        </div>
+        <div class="eq-options" data-options></div>
+        <p class="eq-fact" data-fact hidden></p>
+        <button type="button" class="eq-btn" data-next-btn hidden></button>
+      </section>
+
+      <section data-end hidden>
+        <p class="eq-score"><span data-score>0</span>/5</p>
+        <p class="eq-verdict" data-verdict></p>
+        <a class="eq-btn" href={playUrl} target="_blank" rel="noopener" data-cta>{COPY.cta}</a>
+        <button type="button" class="eq-btn eq-btn--ghost" data-replay>{COPY.replay}</button>
+      </section>
+
+      <footer class="eq-foot">
+        {COPY.by} <a href={playUrl} target="_blank" rel="noopener">SAPIRO</a>
+      </footer>
+    </main>
+
+    <script type="application/json" id="embed-pool" set:html={JSON.stringify(pool)} />
+    <script is:inline>
+      (function () {
+        var root = document.getElementById('embed-quiz');
+        var pool = JSON.parse(document.getElementById('embed-pool').textContent);
+        var theme = root.dataset.theme;
+        var verdicts = JSON.parse(root.dataset.verdicts);
+        var TOTAL = 5;
+        var $ = function (sel) { return root.querySelector(sel); };
+        var track = function (event, data) {
+          if (window.umami) window.umami.track(event, Object.assign({ theme: theme }, data || {}));
+        };
+
+        function shuffle(list) {
+          var a = list.slice();
+          for (var i = a.length - 1; i > 0; i--) {
+            var j = Math.floor(Math.random() * (i + 1));
+            var tmp = a[i]; a[i] = a[j]; a[j] = tmp;
+          }
+          return a;
+        }
+
+        var questions, index, score, started = false;
+
+        function start() {
+          questions = shuffle(pool).slice(0, TOTAL);
+          index = 0;
+          score = 0;
+          $('[data-end]').hidden = true;
+          $('[data-play]').hidden = false;
+          $('.eq-head').hidden = false;
+          show();
+        }
+
+        function show() {
+          var target = questions[index];
+          var label = theme === 'flags' ? 'n' : 'c';
+          var sameContinent = pool.filter(function (p) { return p.k === target.k && p.i !== target.i; });
+          var options = shuffle(shuffle(sameContinent).slice(0, 3).concat([target]));
+
+          $('[data-step]').textContent = String(index + 1);
+          var flag = $('[data-flag]');
+          var name = $('[data-country]');
+          flag.hidden = theme !== 'flags';
+          name.hidden = theme === 'flags';
+          if (theme === 'flags') flag.src = '/flags/countries/' + target.i + '.svg';
+          else name.textContent = target.n;
+
+          $('[data-fact]').hidden = true;
+          $('[data-next-btn]').hidden = true;
+          var box = $('[data-options]');
+          box.innerHTML = '';
+          options.forEach(function (option) {
+            var btn = document.createElement('button');
+            btn.type = 'button';
+            btn.className = 'eq-opt';
+            btn.textContent = option[label];
+            btn.addEventListener('click', function () { answer(btn, option.i === target.i, target); });
+            if (option.i === target.i) btn.dataset.correct = '1';
+            box.appendChild(btn);
+          });
+        }
+
+        function answer(picked, correct, target) {
+          if (!started) { started = true; track('embed-quiz-started'); }
+          if (correct) score += 1;
+          root.querySelectorAll('.eq-opt').forEach(function (btn) {
+            btn.disabled = true;
+            if (btn.dataset.correct) btn.classList.add('is-correct');
+          });
+          if (!correct) picked.classList.add('is-wrong');
+          if (target.f) {
+            var fact = $('[data-fact]');
+            fact.textContent = '';
+            var name = document.createElement('strong');
+            name.textContent = target.n + '. ';
+            fact.appendChild(name);
+            fact.appendChild(document.createTextNode(target.f));
+            fact.hidden = false;
+          }
+          var next = $('[data-next-btn]');
+          next.textContent = index + 1 < TOTAL ? root.dataset.next : root.dataset.finish;
+          next.hidden = false;
+        }
+
+        $('[data-next-btn]').addEventListener('click', function () {
+          index += 1;
+          if (index < TOTAL) return show();
+          $('[data-play]').hidden = true;
+          $('.eq-head').hidden = true;
+          $('[data-score]').textContent = String(score);
+          $('[data-verdict]').textContent = verdicts[score === TOTAL ? 2 : score >= 3 ? 1 : 0];
+          $('[data-end]').hidden = false;
+          track('embed-quiz-completed', { score: score });
+        });
+        $('[data-replay]').addEventListener('click', start);
+        $('[data-cta]').addEventListener('click', function () { track('embed-play-click', { score: score }); });
+
+        start();
+      })();
+    </script>
+
+    <style is:global>
+      /* Nunito de l'app (DA V3), servie par sapiro.app : aucun appel à Google. */
+      @font-face {
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400 800;
+        font-display: swap;
+        src: url('/fonts/nunito-latin.woff2') format('woff2');
+      }
+      * { box-sizing: border-box; }
+      html, body { margin: 0; height: 100%; }
+      body {
+        font-family: 'Nunito', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+        color: #2a1a14;
+        background: linear-gradient(180deg, #fffdfa, #f6dccb);
+      }
+      [hidden] { display: none !important; }
+      #embed-quiz {
+        min-height: 100%;
+        max-width: 560px;
+        margin: 0 auto;
+        padding: 18px 18px 12px;
+        display: flex;
+        flex-direction: column;
+      }
+      .eq-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
+      .eq-kicker { font-size: 0.75rem; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase; color: #6e665c; }
+      .eq-step { font-size: 0.85rem; font-weight: 700; color: #6e665c; }
+      .eq-question { font-size: 1.1rem; font-weight: 700; line-height: 1.35; margin: 0 0 12px; }
+      .eq-subject { display: flex; justify-content: center; align-items: center; min-height: 116px; margin-bottom: 14px; }
+      .eq-subject img { height: 107px; width: auto; max-width: 100%; border-radius: 8px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.18); }
+      .eq-country { font-size: 1.7rem; font-weight: 800; margin: 0; text-align: center; }
+      .eq-options { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+      @media (max-width: 420px) { .eq-options { grid-template-columns: 1fr; } }
+      .eq-opt {
+        font: inherit; font-weight: 600; padding: 12px 10px; border-radius: 12px; cursor: pointer;
+        background: #fff; color: inherit; border: 2px solid #e8dfcd; min-height: 48px;
+      }
+      .eq-opt:hover:not(:disabled) { border-color: #ff5e3a; }
+      .eq-opt:disabled { cursor: default; opacity: 0.75; }
+      .eq-opt.is-correct { background: #d9ede2; border-color: #2b8f5e; opacity: 1; }
+      .eq-opt.is-wrong { background: #f7ddd7; border-color: #d14836; opacity: 1; }
+      .eq-fact { font-size: 0.9rem; line-height: 1.45; color: #2a1a14; margin: 12px 0 0; }
+      .eq-btn {
+        display: block; width: 100%; margin-top: 12px; padding: 13px 16px; border: 0; border-radius: 999px;
+        font: inherit; font-weight: 800; text-align: center; text-decoration: none; cursor: pointer;
+        background: #ff5e3a; color: #fff;
+      }
+      .eq-btn:hover { background: #e9401f; }
+      .eq-btn--ghost { background: transparent; color: #2a1a14; border: 2px solid #e8dfcd; }
+      .eq-btn--ghost:hover { background: #fff; }
+      [data-end] { text-align: center; margin: auto 0; }
+      .eq-score { font-size: 3rem; font-weight: 800; margin: 0; }
+      .eq-verdict { font-weight: 700; color: #6e665c; margin: 4px 0 8px; }
+      .eq-foot { margin-top: auto; padding-top: 12px; text-align: center; font-size: 0.78rem; color: #6e665c; }
+      .eq-foot a { color: #c9441f; font-weight: 800; text-decoration: none; }
+    </style>
+  </body>
+</html>
