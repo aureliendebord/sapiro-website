@@ -2,6 +2,7 @@
 title: "Alternatives à Seterra : 5 apps pour apprendre drapeaux, capitales et cartes"
 description: "Vous cherchez une application comme Seterra ? Cinq alternatives pour réviser drapeaux, capitales et cartes : plus de thèmes, sans publicité, ou jouables dans le navigateur."
 date: 2026-09-21
+lastModified: 2026-09-30
 image: "/images/blog/apps/carte-monde-app.jpg"
 imageAlt: "Une carte ancienne de la Hongrie du XVIe siècle"
 imageCredit: "Photo : Lázár deák (Lazarus secretarius) · domaine public · Wikimedia Commons"
@@ -30,7 +31,7 @@ Précision honnête : ce site est celui de SAPIRO, que nous éditons. Elle est d
 
 Seterra fait très bien une chose : on vous montre une carte et vous cliquez au bon endroit. Pays, capitales, drapeaux, mais aussi régions, États fédérés, fleuves, montagnes, déserts et lacs. Pour maîtriser la carte du monde dans le détail, c'est la référence du genre, et notre [comparatif SAPIRO vs Seterra](/blog/sapiro-vs-seterra/) le dit sans détour.
 
-Les raisons d'aller voir ailleurs sont toujours les mêmes. L'app ne traite que la géographie. Le format varie peu et tourne beaucoup autour du score et du chrono. L'interface accuse son âge. Et la version mobile gratuite affiche de la publicité.
+Les raisons d'aller voir ailleurs sont toujours les mêmes. L'app ne traite que la géographie. Le format varie peu et tourne beaucoup autour du score et du chrono. Et l'interface accuse son âge.
 
 ## 1. SAPIRO : drapeaux, capitales et cartes, avec l'explication en plus
 
@@ -50,7 +51,7 @@ En revanche, une partie des fonctions se débloque par achat intégré, le volet
 
 World Geography va droit au but : des quiz sur les pays, les capitales, les drapeaux, les monnaies et les langues, avec un mode apprentissage qui fournit une fiche détaillée par pays. Les statistiques de progression sont correctes et l'app fonctionne hors ligne. C'est un bon choix pour préparer un concours ou renforcer un point précis.
 
-Le revers : un design daté et, dans la version gratuite, des publicités qui reviennent vite. Si la publicité est justement ce qui vous fait quitter Seterra, ce n'est pas la bonne porte.
+Le revers : un design daté et, dans la version gratuite, des publicités qui reviennent vite. Si vous cherchez à fuir la publicité, ce n'est pas la bonne porte.
 
 ## 4. GeoGuessr : deviner où l'on est
 
@@ -62,18 +63,18 @@ Pour apprendre de façon structurée, ce n'est pas l'outil : pas de fiches, pas 
 
 Ici on répond à des questions pour gagner des pays transformés en blocs, qu'on empile jusqu'à une ligne d'arrivée. Moitié quiz, moitié jeu d'adresse, et ça marche très bien avec les enfants. Le contenu couvre pays, capitales, drapeaux et formes des pays. Aucune publicité ni achat intégré une fois l'app achetée, ce qui rassure les parents.
 
-Deux réserves : l'app est payante, et elle n'a pas été mise à jour depuis un moment. Un adulte en fera vite le tour. D'autres pistes pour les plus jeunes dans notre guide [géographie pour les enfants](/blog/geographie-enfants/).
+Deux réserves : l'app est payante (environ 2,99 € en achat unique), et un adulte en fera vite le tour. D'autres pistes pour les plus jeunes dans notre guide [géographie pour les enfants](/blog/geographie-enfants/).
 
 ## Le comparatif en un coup d'œil
 
 | Application | Thèmes couverts | Gratuit ? | Publicité ? | Navigateur / mobile |
 |---|---|---|---|---|
 | **SAPIRO** | Géographie, histoire, art, nature | Oui, version gratuite | Non | Navigateur, iOS, Android |
-| Seterra | Géographie uniquement | Oui sur le web ; mobile à vérifier sur la fiche store | Oui dans la version mobile gratuite | Navigateur, iOS, Android |
+| Seterra | Géographie uniquement | Oui, web et mobile | Non dans l'app mobile | Navigateur, iOS, Android |
 | StudyGe | Géographie (atlas et quiz) | Oui, avec achats intégrés | À vérifier sur la fiche store | Mobile |
-| World Geography | Géographie (pays, drapeaux, monnaies, langues) | Oui | Oui dans la version gratuite | Mobile (plateformes à vérifier sur la fiche store) |
+| World Geography | Géographie (pays, drapeaux, monnaies, langues) | Oui | Oui dans la version gratuite | iOS, Android |
 | GeoGuessr | Exploration via Street View | Version gratuite limitée | À vérifier sur la fiche store | Navigateur, iOS, Android |
-| Stack the Countries | Géographie pour enfants | Non, app payante | Non | Mobile (plateformes à vérifier sur la fiche store) |
+| Stack the Countries | Géographie pour enfants | Non, app payante | Non | iOS, Android |
 
 ## Laquelle choisir selon votre profil
 
