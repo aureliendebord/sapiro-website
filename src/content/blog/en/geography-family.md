@@ -2,7 +2,7 @@
 title: "Family Quiz Night: Plan a Geography Evening"
 description: "Plan the perfect family geography quiz night with our complete guide: 3 proven formats, team-balancing tips, 20 ready-made questions, and visual round ideas."
 date: 2025-10-20
-lastModified: 2026-06-15
+lastModified: 2026-09-30
 image: "/images/blog/famille/globe-atlas-table.jpg"
 imageAlt: "An antique Greek world map in two hemispheres"
 imageCredit: "Photo: Ánthimos Gazís · public domain · Wikimedia Commons"
@@ -181,6 +181,6 @@ Balance teams by mixing ages deliberately, with at least one adult and one child
 
 ## Use SAPIRO as Your Question Bank
 
-Preparing fresh questions every time gets exhausting. SAPIRO solves that: project it on a screen and run rounds directly through the app's timed challenge mode, or use it as a question source while you play quiz master. Between quiz nights, family members can practice on the app individually, and the adaptive difficulty adjusts to each player's level, so a ten-year-old and a grandparent both get questions that challenge them.
+Preparing fresh questions every time gets exhausting. SAPIRO solves that: project it on a screen and run rounds directly through the app's 10-question mode, or use it as a question source while you play quiz master. Between quiz nights, family members can practice on the app individually, and the adaptive difficulty adjusts to each player's level, so a ten-year-old and a grandparent both get questions that challenge them.
 
 Download it free before your next family evening and skip the question-writing homework.

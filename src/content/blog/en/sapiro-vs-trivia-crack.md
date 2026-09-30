@@ -32,7 +32,7 @@ Trivia Crack is free to download, but the free experience is heavily monetized t
 
 SAPIRO contains zero ads. No video ads, no banners, no interstitials, no sponsored content. The interface is clean and designed entirely around the content. This matters more than it might seem: when you are trying to remember that the Uffizi Gallery houses Botticelli's "Birth of Venus," a thirty-second ad for a mobile game kills the momentum.
 
-Beyond ads, SAPIRO offers three game modes (Classic, Survival, and Daily Challenge) and works fully offline. You can quiz yourself on a plane, in a subway, or anywhere without cell service. Trivia Crack requires an internet connection, which limits when and where you can use it.
+Beyond ads, SAPIRO offers four game modes (Duel, 10 questions, Record, and Daily Challenge) and works offline, duels aside. You can quiz yourself on a plane, in a subway, or anywhere without cell service. Trivia Crack requires an internet connection, which limits when and where you can use it.
 
 ## Privacy and Data
 

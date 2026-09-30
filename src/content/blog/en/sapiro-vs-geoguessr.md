@@ -40,7 +40,7 @@ GeoGuessr develops something interesting: a kind of visual geographic intelligen
 
 GeoGuessr also has a coverage problem. Street View is uneven. Excellent coverage in Europe and North America, sparse in much of Africa and parts of Asia. You end up learning more about wealthy countries with good Street View coverage, which creates a bias.
 
-SAPIRO takes the opposite approach. Every question is designed to teach something, with an explanation that gives context to the answer. All 197 countries get equal coverage. The three game modes (Classic, Survival, Daily Challenge) engage different skills. The thematic paths allow progressive, coherent learning. [Gamification in education](/en/blog/gamification-education/) is built into every layer of the app, not bolted on as an afterthought.
+SAPIRO takes the opposite approach. Every question is designed to teach something, with an explanation that gives context to the answer. All 197 countries get equal coverage. The four game modes (Duel, 10 questions, Record, Daily Challenge) engage different skills. The thematic paths allow progressive, coherent learning. [Gamification in education](/en/blog/gamification-education/) is built into every layer of the app, not bolted on as an afterthought.
 
 The app works fully offline. GeoGuessr, which depends on Google Street View, requires a fast internet connection and uses significant data to load panoramic images.
 

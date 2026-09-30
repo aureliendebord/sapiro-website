@@ -22,7 +22,7 @@ Kahoot genuinely changed how teachers run their classrooms. That deserves recogn
 
 But Kahoot requires a host. Someone has to build the quiz, launch the session, and control the pace. Without that person, nothing happens. It is a group activity by design. You cannot just open Kahoot on a Tuesday evening and spend 20 minutes learning geography on your own. That is not what it was built for.
 
-SAPIRO works the other way around. Open the app, pick a domain (geography, history, art, nature), and start playing. Alone on the bus, with your family on a Sunday afternoon, in the back seat during a road trip. No code needed, no internet required, no adult running the show. The app offers three game modes (Classic, Survival, Daily Challenge) and 50+ thematic paths you can explore at your own pace. It is a self-contained learning experience designed for individual use.
+SAPIRO works the other way around. Open the app, pick a domain (geography, history, art, nature), and start playing. Alone on the bus, with your family on a Sunday afternoon, in the back seat during a road trip. No code needed, no internet required, no adult running the show. The app offers four game modes (Duel, 10 questions, Record, Daily Challenge) and 50+ thematic paths you can explore at your own pace. It is a self-contained learning experience designed for individual use.
 
 ## Content: User-Generated vs Curated
 
@@ -42,7 +42,7 @@ SAPIRO never sells your data. No account required, no advertising cookies. The a
 
 Kahoot is brilliant at collective engagement. The competitive format, the music, the real-time leaderboard: everything is designed to capture the attention of a full classroom. It works. But the model rewards speed. The fastest correct answer earns the most points. This favors reflexes over reflection. And there are no explanations after answers. You find out if you were right or wrong, but not necessarily why. In a classroom, the teacher fills that gap verbally. Outside the classroom, that layer is missing entirely.
 
-SAPIRO focuses on lasting learning. Every question includes an explanation that helps you understand and remember. Confuse the flag of Chad with Romania's? The app explains the difference and adds historical context. The three game modes engage different cognitive skills. The thematic paths create logical progression where one fact leads to the next. After a few weeks of regular use, the cumulative effect on general knowledge is noticeable.
+SAPIRO focuses on lasting learning. Every question includes an explanation that helps you understand and remember. Confuse the flag of Chad with Romania's? The app explains the difference and adds historical context. The four game modes engage different cognitive skills. The thematic paths create logical progression where one fact leads to the next. After a few weeks of regular use, the cumulative effect on general knowledge is noticeable.
 
 The app works fully offline, which makes it usable anywhere. Kahoot needs an internet connection, which makes sense for a real-time collaborative platform but limits individual use.
 

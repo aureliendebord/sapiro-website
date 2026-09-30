@@ -22,7 +22,7 @@ Kahoot cambió de verdad la forma en que los profesores dan clase. Eso hay que r
 
 Pero Kahoot necesita un moderador. Alguien tiene que crear el quiz, iniciar la sesión y gestionar el ritmo. Sin esa persona, no hay partida. Es una plataforma colectiva por diseño. No puedes abrir Kahoot un martes por la noche y dedicar 20 minutos a aprender geografía por tu cuenta. Simplemente no está hecho para eso.
 
-SAPIRO funciona al revés. Abres la app, eliges un dominio (geografía, historia, arte, naturaleza) y empiezas a jugar. Solo en el metro, en familia un domingo por la tarde, en el coche durante un viaje largo. Sin código, sin conexión a internet, sin necesidad de que un adulto organice nada. La app ofrece tres modos de juego (Clásico, Supervivencia, Desafío diario) y más de 50 recorridos temáticos que puedes explorar a tu ritmo. Es una experiencia autónoma, pensada para el aprendizaje individual.
+SAPIRO funciona al revés. Abres la app, eliges un dominio (geografía, historia, arte, naturaleza) y empiezas a jugar. Solo en el metro, en familia un domingo por la tarde, en el coche durante un viaje largo. Sin código, sin conexión a internet, sin necesidad de que un adulto organice nada. La app ofrece cuatro modos de juego (Duelo, 10 preguntas, Récord, Reto del día) y más de 50 recorridos temáticos que puedes explorar a tu ritmo. Es una experiencia autónoma, pensada para el aprendizaje individual.
 
 ## Contenido: creado por usuarios vs verificado
 
@@ -42,7 +42,7 @@ SAPIRO no vende ningún dato. No requiere cuenta ni usa cookies publicitarias. L
 
 Kahoot es brillante para el engagement colectivo. El formato competitivo, la música, la clasificación en tiempo real: todo está diseñado para capturar la atención de un aula entera. Funciona. Pero el modelo premia la velocidad. La respuesta correcta más rápida gana más puntos. Esto favorece los reflejos por encima de la reflexión. Y no hay explicaciones después de las respuestas. Sabes si acertaste o fallaste, pero no necesariamente por qué. En clase, el profesor completa esa información verbalmente. Fuera del aula, esa capa desaparece por completo.
 
-SAPIRO se centra en el aprendizaje duradero. Cada pregunta incluye una explicación que ayuda a comprender y recordar. ¿Confundes la bandera de Chad con la de Rumanía? La app te explica la diferencia y añade contexto histórico. Los tres modos de juego trabajan habilidades cognitivas diferentes. Los recorridos temáticos crean una progresión lógica donde un dato lleva al siguiente. Después de unas semanas de uso regular, el efecto acumulativo sobre la cultura general se nota.
+SAPIRO se centra en el aprendizaje duradero. Cada pregunta incluye una explicación que ayuda a comprender y recordar. ¿Confundes la bandera de Chad con la de Rumanía? La app te explica la diferencia y añade contexto histórico. Los cuatro modos de juego trabajan habilidades cognitivas diferentes. Los recorridos temáticos crean una progresión lógica donde un dato lleva al siguiente. Después de unas semanas de uso regular, el efecto acumulativo sobre la cultura general se nota.
 
 La app funciona sin conexión, lo que la hace utilizable en cualquier sitio. Kahoot necesita internet para funcionar, algo lógico para una plataforma colaborativa en tiempo real, pero que limita el uso individual.
 

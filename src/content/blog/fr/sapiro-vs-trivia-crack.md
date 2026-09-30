@@ -38,7 +38,7 @@ SAPIRO prend l'inverse de ce modèle. Aucune publicité, y compris dans la versi
 
 Trivia Crack assume d'être un jeu de trivia, pas un outil éducatif. Ses créateurs ne prétendent pas l'inverse, et c'est honnête. Les questions défilent sans contexte ni explication, ce qui est parfait pour une ambiance "tu savais ça ?" en soirée, moins efficace pour retenir quelque chose à moyen terme. On glane des faits, on les oublie la semaine suivante.
 
-SAPIRO a l'objectif inverse : la rétention. Chaque question est suivie d'une explication qui contextualise la réponse. Les trois modes (Classique, Survie, Défi quotidien) sollicitent des compétences différentes. Les parcours thématiques créent une progression logique. Après quelques semaines d'usage régulier, la culture générale s'étoffe de façon tangible. La [gamification au service de l'éducation](/blog/gamification-education/) est un axe de conception, pas un argument marketing ajouté après coup.
+SAPIRO a l'objectif inverse : la rétention. Chaque question est suivie d'une explication qui contextualise la réponse. Les quatre modes (Duel, 10 questions, Record, Défi du jour) sollicitent des compétences différentes. Les parcours thématiques créent une progression logique. Après quelques semaines d'usage régulier, la culture générale s'étoffe de façon tangible. La [gamification au service de l'éducation](/blog/gamification-education/) est un axe de conception, pas un argument marketing ajouté après coup.
 
 L'appli est notée 5/5 sur Google Play et recommandée par des enseignants comme complément pédagogique.
 

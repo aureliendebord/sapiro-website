@@ -66,7 +66,7 @@ SAPIRO offers more than 500 questions on historical figures, organized by era an
 
 Each question is followed by a detailed explanation. This matters a lot: feedback after every answer turns each mistake into a learning moment. The app does not just say "wrong answer." It explains why it is Leonardo da Vinci and not Michelangelo, why it is the Ottoman Empire and not the Persian Empire.
 
-With over 50 thematic paths and three game modes (Classic, Survival, Daily Challenge), the app lets you approach history from different angles. And history is not isolated from everything else: it intersects with geography (197 countries), art ([553 essential artworks](/en/blog/essential-artworks-to-know/)), and nature (600 animals). Because history does not exist in a vacuum.
+With over 50 thematic paths and four game modes (Duel, 10 questions, Record, Daily Challenge), the app lets you approach history from different angles. And history is not isolated from everything else: it intersects with geography (197 countries), art ([553 essential artworks](/en/blog/essential-artworks-to-know/)), and nature (600 animals). Because history does not exist in a vacuum.
 
 No ads, no data ever sold. The app works offline, and the free version has no ads.
 

@@ -24,7 +24,7 @@ Available on iOS and Android. Free version with no ads.
 
 SAPIRO goes well beyond simple [capital-city drills](/en/blog/world-capitals-quiz/). It covers flags, country outlines, capitals, cultural trivia, landmarks, and more, all in a clean, modern interface. What makes it stand out is the adaptive difficulty system: the app tracks which topics give you trouble and feeds you more questions in those areas, so you actually improve instead of repeating what you already know.
 
-The content range is wide: geography, flags, culture, and general knowledge live under one roof. Timed challenge modes add a competitive edge, and detailed explanations after every answer turn mistakes into learning moments. The app is available in French, English, and Spanish, and it works offline, which is a relief if you are studying on a plane or a subway with no signal.
+The content range is wide: geography, flags, culture, and general knowledge live under one roof. Duel and Record modes add a competitive edge, and detailed explanations after every answer turn mistakes into learning moments. The app is available in French, English, and Spanish, and it works offline, which is a relief if you are studying on a plane or a subway with no signal.
 
 On the downside, SAPIRO is newer than some of the established names on this list, so its question library is still growing.
 

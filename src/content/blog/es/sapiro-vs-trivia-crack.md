@@ -39,7 +39,7 @@ Aquí la diferencia es enorme.
 
 **SAPIRO** no tiene publicidad. Ni un banner, ni un vídeo, ni un anuncio intersticial. La pantalla está dedicada al contenido. Para una app que usan niños y familias, esto importa mucho: puedes dejar a tu hijo jugando sin preocuparte de qué anuncio va a aparecer.
 
-SAPIRO ofrece 3 modos de juego (Clásico, Supervivencia y Desafío diario) y funciona sin conexión a internet. Trivia Crack necesita estar conectada para jugar, ya que depende de servidores para el multijugador y la entrega de anuncios.
+SAPIRO ofrece 4 modos de juego (Duelo, 10 preguntas, Récord y Reto del día) y funciona sin conexión a internet, salvo los duelos. Trivia Crack necesita estar conectada para jugar, ya que depende de servidores para el multijugador y la entrega de anuncios.
 
 ## Privacidad y datos
 
