@@ -16,7 +16,7 @@ faqItems:
   - question: "Quelle est la meilleure alternative à Seterra ?"
     answer: "Tout dépend de ce qui vous manque. Pour des quiz drapeaux et capitales avec une explication après chaque réponse, sans publicité et avec d'autres thèmes (histoire, art, nature), SAPIRO. Pour rester sur la carte, StudyGe. Pour jouer plus que réviser, GeoGuessr. Pour un enfant de 6 à 12 ans, Stack the Countries."
   - question: "Existe-t-il une application comme Seterra sans publicité ?"
-    answer: "Oui. La version gratuite de SAPIRO ne contient aucune publicité, et Stack the Countries n'en affiche pas non plus. Pour les autres apps, la présence de publicité dépend de la version : vérifiez la fiche store avant d'installer."
+    answer: "Oui. La version gratuite de SAPIRO ne contient aucune publicité, et Stack the Countries n'en affiche pas non plus. L'app mobile de Seterra et GeoGuessr n'en affichent pas davantage. StudyGe et World Geography en affichent dans leur version gratuite."
   - question: "Peut-on réviser les drapeaux et les capitales sur ordinateur, sans rien installer ?"
     answer: "Oui. Seterra a une version web, GeoGuessr se joue dans le navigateur, et SAPIRO propose un jeu gratuit en ligne sur sapiro.app/jouer/, sans installation, avec un Défi du jour identique pour tout le monde."
   - question: "Faut-il remplacer Seterra ou le compléter ?"
@@ -71,9 +71,9 @@ Deux réserves : l'app est payante (environ 2,99 € en achat unique), et un adu
 |---|---|---|---|---|
 | **SAPIRO** | Géographie, histoire, art, nature | Oui, version gratuite | Non | Navigateur, iOS, Android |
 | Seterra | Géographie uniquement | Oui, web et mobile | Non dans l'app mobile | Navigateur, iOS, Android |
-| StudyGe | Géographie (atlas et quiz) | Oui, avec achats intégrés | À vérifier sur la fiche store | Mobile |
+| StudyGe | Géographie (atlas et quiz) | Oui, avec achats intégrés | Oui dans la version gratuite | iOS, Android |
 | World Geography | Géographie (pays, drapeaux, monnaies, langues) | Oui | Oui dans la version gratuite | iOS, Android |
-| GeoGuessr | Exploration via Street View | Version gratuite limitée | À vérifier sur la fiche store | Navigateur, iOS, Android |
+| GeoGuessr | Exploration via Street View | Version gratuite limitée | Non | Navigateur, iOS, Android |
 | Stack the Countries | Géographie pour enfants | Non, app payante | Non | iOS, Android |
 
 ## Laquelle choisir selon votre profil
