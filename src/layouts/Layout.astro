@@ -104,10 +104,8 @@ if (routeUrls) {
     </>
   )}
 
-  <!-- Polices de l'app (DA V3) : Nunito pour le texte, Baloo 2 pour les chiffres et accroches -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@800&family=Nunito:wght@400;500;600;700;800&display=swap" />
+  <!-- Polices de l'app (DA V3), auto-hébergées : voir global.css -->
+  <link rel="preload" href="/fonts/nunito-latin.woff2" as="font" type="font/woff2" crossorigin />
 
   <title>{title}</title>
   <slot name="head" />
