@@ -34,7 +34,7 @@ SAPIRO covers four areas: geography (197 countries), history, art, and nature. T
 
 Besides the iOS and Android apps, you can [play in the browser](/en/play/) for free with no download. It is the quickest way to see whether the format suits you before putting anything on your phone.
 
-What SAPIRO does not have is real-time matches against strangers, which is the heart of Trivia Crack. The social side runs through the Daily Challenge, which is free and identical for everyone. When you finish, you share your score with a link and dare a friend to beat it, and a leaderboard shows where you stand. It is a quieter experience than a wheel and six games running in parallel, and you should know that going in.
+For head-to-head play, the app has had a Duel mode since version 2.1: you replay another player's real game question by question and win trophies. It is not real time, since your opponent played before you did. The Daily Challenge is free and identical for everyone: when you finish, you share your score with a link and dare a friend to beat it. It is a quieter experience than a wheel and six games running in parallel, and you should know that going in.
 
 For the point-by-point breakdown, read [SAPIRO vs Trivia Crack](/en/blog/sapiro-vs-trivia-crack/).
 
@@ -87,7 +87,7 @@ Both names still come up when people look for competitive trivia. QuizUp was bui
 
 **You are done with ads.** SAPIRO. It is the only one on this list with an ad-free free version. Start with a round [in the browser](/en/play/) and you will know within two minutes whether it is for you.
 
-**You want to beat someone.** QuizDuel for pure duels, ads included. If a long-distance challenge is enough, SAPIRO's Daily Challenge does the job: everybody gets the same questions, you send your score, and your friend tries to top it.
+**You want to beat someone.** QuizDuel for live duels, ads included. Without ads, Duel mode in the SAPIRO app puts you up against another player's recorded game. And to challenge a friend from a distance, the Daily Challenge does the job: everybody gets the same questions, you send your score, and your friend tries to top it.
 
 **You are choosing for your kids.** Skip Erudite until the ad problem is fixed, and go with an ad-free app. Our list of the [best ad-free educational apps](/en/blog/best-ad-free-educational-apps/) has more options by subject.
 

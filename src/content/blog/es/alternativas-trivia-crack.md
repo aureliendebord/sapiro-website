@@ -34,7 +34,7 @@ SAPIRO cubre cuatro áreas: geografía (197 países), historia, arte y naturalez
 
 Además de las apps para iOS y Android, se puede [jugar desde el navegador](/es/jugar/), gratis y sin descargas. Es la forma más rápida de saber si el formato te convence antes de instalar nada en el móvil.
 
-Lo que SAPIRO no tiene son partidas en tiempo real contra desconocidos, que son el corazón de Preguntados. La parte social pasa por el Desafío del día, gratuito e idéntico para todos los jugadores. Al terminar, compartes tu puntuación con un enlace para retar a un amigo, y una clasificación te dice en qué puesto quedaste. Es una experiencia más tranquila que una ruleta con seis partidas abiertas a la vez, y conviene saberlo antes de probar.
+Para enfrentarte a alguien, la app tiene un modo duelo desde la versión 2.1: vuelves a jugar, pregunta por pregunta, la partida real de otro jugador y ganas trofeos. No es en tiempo real, porque tu rival jugó antes que tú. El Desafío del día es gratuito e idéntico para todos los jugadores: al terminar, compartes tu puntuación con un enlace para retar a un amigo. Es una experiencia más tranquila que una ruleta con seis partidas abiertas a la vez, y conviene saberlo antes de probar.
 
 Para la comparación punto por punto, lee [SAPIRO vs Trivia Crack](/es/blog/sapiro-vs-trivia-crack/).
 
@@ -87,7 +87,7 @@ Los dos nombres siguen apareciendo cuando se busca trivia competitivo. QuizUp gi
 
 **No soportas más anuncios.** SAPIRO. Es la única de la lista cuya versión gratuita no tiene publicidad. Empieza con una partida [en el navegador](/es/jugar/) y en dos minutos sabrás si es lo tuyo.
 
-**Quieres ganarle a alguien.** QuizDuel para el duelo puro, anuncios incluidos. Si te basta con un reto a distancia, el Desafío del día de SAPIRO cumple: todos reciben las mismas preguntas, envías tu puntuación y tu amigo intenta superarla.
+**Quieres ganarle a alguien.** QuizDuel para el duelo en directo, anuncios incluidos. Sin anuncios, el modo duelo de la app de SAPIRO te enfrenta a la partida grabada de otro jugador. Y para retar a un amigo a distancia, el Desafío del día cumple: todos reciben las mismas preguntas, envías tu puntuación y tu amigo intenta superarla.
 
 **Buscas algo para tus hijos.** Descarta Erudite mientras siga el problema de los anuncios y elige una app sin publicidad. En nuestra selección de [apps educativas sin publicidad](/es/blog/mejores-apps-educativas-sin-publicidad/) hay más opciones por materia.
 

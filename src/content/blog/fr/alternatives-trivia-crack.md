@@ -34,7 +34,7 @@ SAPIRO couvre quatre domaines : la géographie (197 pays), l'histoire, l'art et 
 
 L'app existe sur iOS et Android, mais on peut aussi [jouer directement dans le navigateur](/jouer/), gratuitement et sans téléchargement. C'est pratique pour tester avant d'installer quoi que ce soit.
 
-Ce que SAPIRO n'a pas : le duel en temps réel contre des inconnus, qui fait le sel de Trivia Crack. Le côté social passe par le Défi du jour, identique pour tous les joueurs et gratuit. Une fois la partie finie, on partage son score par un lien pour défier un ami, et un classement permet de se situer. C'est plus calme qu'une roue et six adversaires en parallèle, il faut le savoir avant de venir.
+Côté affrontement, l'application a un mode duel depuis la version 2.1 : on rejoue, question par question, la vraie partie d'un autre joueur, et on gagne des trophées. Ce n'est pas du temps réel, l'adversaire a joué avant vous. Le Défi du jour, lui, est identique pour tous les joueurs et gratuit : une fois la partie finie, on partage son score par un lien pour défier un ami. C'est plus calme qu'une roue et six adversaires en parallèle, il faut le savoir avant de venir.
 
 Pour le détail point par point, voir notre comparatif [SAPIRO vs Trivia Crack](/blog/sapiro-vs-trivia-crack/).
 
@@ -87,7 +87,7 @@ Ces deux noms reviennent souvent quand on cherche un quiz compétitif. QuizUp pr
 
 **Vous ne supportez plus les pubs.** SAPIRO. C'est la seule de la liste sans publicité dans sa version gratuite. Commencez par une partie [dans le navigateur](/jouer/), vous saurez en deux minutes si le format vous convient.
 
-**Vous voulez battre quelqu'un.** QuizDuel pour le duel pur, en acceptant la publicité. Si un défi à distance vous suffit, le Défi du jour de SAPIRO fait l'affaire : tout le monde a les mêmes questions, vous envoyez votre score et l'autre essaie de faire mieux.
+**Vous voulez battre quelqu'un.** QuizDuel pour le duel en direct, en acceptant la publicité. Sans publicité, le mode duel de l'application SAPIRO vous oppose à la partie enregistrée d'un autre joueur. Et pour défier un ami à distance, le Défi du jour fait l'affaire : tout le monde a les mêmes questions, vous envoyez votre score et l'autre essaie de faire mieux.
 
 **Vous cherchez un quiz pour vos enfants.** Évitez Érudit tant que le problème des publicités n'est pas réglé, et préférez une app sans pub. Notre sélection d'[apps éducatives sans publicité](/blog/meilleures-apps-educatives-sans-publicite/) donne d'autres pistes par matière.
 
