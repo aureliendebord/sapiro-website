@@ -38,7 +38,7 @@ const COPY = {
     how: [
       'Choisissez le thème, copiez le code, collez-le dans un bloc HTML (WordPress, Moodle, Notion, Google Sites…).',
       'Le quiz se met à jour tout seul : les questions changent à chaque partie.',
-      "Rien n'est déposé chez vos visiteurs : pas de cookie, pas de publicité, pas de collecte de données personnelles.",
+      "Rien n'est déposé chez vos visiteurs : pas de cookie, pas de publicité. Seule une mesure d'audience anonyme compte les parties jouées.",
     ],
     terms: 'Usage libre et gratuit, y compris en classe. Merci de conserver le lien « Quiz par SAPIRO » sous le widget.',
   },
@@ -62,7 +62,7 @@ const COPY = {
     how: [
       'Pick a theme, copy the code, paste it into an HTML block (WordPress, Moodle, Notion, Google Sites…).',
       'The quiz refreshes itself: questions change every round.',
-      'Nothing is stored on your visitors: no cookies, no ads, no personal data collected.',
+      'Nothing is stored on your visitors\' devices: no cookies, no ads. Only anonymous audience measurement counts the rounds played.',
     ],
     terms: 'Free to use, including in class. Please keep the "Quiz by SAPIRO" link under the widget.',
   },
@@ -86,7 +86,7 @@ const COPY = {
     how: [
       'Elige el tema, copia el código y pégalo en un bloque HTML (WordPress, Moodle, Notion, Google Sites…).',
       'El quiz se renueva solo: las preguntas cambian en cada partida.',
-      'No se guarda nada de tus visitantes: sin cookies, sin anuncios, sin datos personales.',
+      'No se guarda nada en el dispositivo de tus visitantes: sin cookies ni anuncios. Solo una medición de audiencia anónima cuenta las partidas jugadas.',
     ],
     terms: 'Uso libre y gratuito, también en clase. Por favor, conserva el enlace «Quiz de SAPIRO» debajo del widget.',
   },
@@ -219,7 +219,7 @@ const paths = Object.fromEntries(EMBED_THEMES.map((theme) => [theme, embedPath(l
     display: block;
     border: 0;
     border-radius: 16px;
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: var(--shadow-lg);
   }
 
   .widget-themes {
@@ -252,13 +252,13 @@ const paths = Object.fromEntries(EMBED_THEMES.map((theme) => [theme, embedPath(l
     display: inline-block;
     padding: 10px 18px;
     border-radius: 999px;
-    border: 2px solid #e5e7eb;
+    border: 2px solid var(--rule);
     font-weight: 700;
   }
 
   .widget-themes input:checked + span {
     border-color: var(--orange);
-    background: #fff7ed;
+    background: var(--orange-tint);
     color: var(--orange-dark);
   }
 
@@ -274,8 +274,8 @@ const paths = Object.fromEntries(EMBED_THEMES.map((theme) => [theme, embedPath(l
     line-height: 1.5;
     padding: 14px;
     border-radius: 12px;
-    border: 2px solid #e5e7eb;
-    background: #fafaf9;
+    border: 2px solid var(--rule);
+    background: var(--cream-top);
     color: inherit;
     resize: vertical;
     margin-bottom: 12px;
