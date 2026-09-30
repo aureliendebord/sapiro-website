@@ -2,6 +2,7 @@
 title: "6 Trivia Crack Alternatives (Including One With No Ads)"
 description: "Tired of the ads in Trivia Crack? Six games like Trivia Crack for general knowledge: ad-free, head-to-head, classroom-style, or playable right in your browser."
 date: 2026-09-21
+lastModified: 2026-09-30
 image: "/images/blog/apps/smartphone-app.jpg"
 imageAlt: "A smartphone showing a social media post"
 imageCredit: "Photo: Mictlancihuatl · CC BY-SA 4.0 · Wikimedia Commons"
@@ -77,11 +78,11 @@ Both names still come up when people look for competitive trivia. QuizUp was bui
 | App | Type of quiz | Ads? | Explanations after answers? | Browser / mobile |
 |---|---|---|---|---|
 | **SAPIRO** | Solo general knowledge, shareable Daily Challenge | No, not even in the free version | Yes, every question | Browser, iOS, and Android |
-| **QuizDuel** | One-on-one duels | Yes in the free version | No | Mobile; check the store listing for browser play |
-| **Erudite** | General knowledge with a spin wheel | Yes, inappropriate ads reported | No | Mobile; check the store listing for browser play |
-| **Quiz Sans Fin** | Elo-rated general knowledge, mostly in French | Yes | No, links to Wikipedia | Check the store listing |
-| **Kahoot!** | Hosted group quizzes | Check the store listing | Depends on the quiz | Browser and mobile |
-| **Quizizz** | Self-paced school quizzes | Check the store listing | Depends on the quiz | Browser and mobile |
+| **QuizDuel** | One-on-one duels | Yes in the free version | No | iOS, Android |
+| **Erudite** | General knowledge with a spin wheel | Yes, inappropriate ads reported | No | iOS, Android |
+| **Quiz Sans Fin** | Elo-rated general knowledge, mostly in French | Yes | No, links to Wikipedia | Browser, iOS, Android |
+| **Kahoot!** | Hosted group quizzes | No | Depends on the quiz | Browser and mobile |
+| **Quizizz** | Self-paced school quizzes | No | Depends on the quiz | Browser and mobile |
 
 ## Which One Should You Pick?
 

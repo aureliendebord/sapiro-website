@@ -2,6 +2,7 @@
 title: "6 alternatives à Trivia Crack (dont une sans pub)"
 description: "Lassé des publicités de Trivia Crack ? Six alternatives pour jouer à des quiz de culture générale : sans pub, en duel, en classe ou directement dans le navigateur."
 date: 2026-09-21
+lastModified: 2026-09-30
 image: "/images/blog/apps/smartphone-app.jpg"
 imageAlt: "Un smartphone affichant une publication sur un réseau social"
 imageCredit: "Photo : Mictlancihuatl · CC BY-SA 4.0 · Wikimedia Commons"
@@ -77,11 +78,11 @@ Ces deux noms reviennent souvent quand on cherche un quiz compétitif. QuizUp pr
 | App | Type de quiz | Publicité ? | Explications après réponse ? | Navigateur / mobile |
 |---|---|---|---|---|
 | **SAPIRO** | Culture générale en solo, Défi du jour à partager | Non, même en gratuit | Oui, à chaque question | Navigateur, iOS et Android |
-| **QuizDuel** | Duels en un contre un | Oui en version gratuite | Non | Mobile ; navigateur à vérifier sur la fiche store |
-| **Quiz Sans Fin** | Culture générale avec classement Elo | Oui en version gratuite | Non, lien vers Wikipédia | À vérifier sur la fiche store |
-| **Érudit** | Culture générale avec roue | Oui, pubs inappropriées signalées | Non | Mobile ; navigateur à vérifier sur la fiche store |
-| **Kahoot!** | Quiz en groupe animé par un hôte | À vérifier sur la fiche store | Variable selon le quiz | Navigateur et mobile |
-| **Quizizz** | Quiz scolaire à son rythme | À vérifier sur la fiche store | Variable selon le quiz | Navigateur et mobile |
+| **QuizDuel** | Duels en un contre un | Oui en version gratuite | Non | iOS, Android |
+| **Quiz Sans Fin** | Culture générale avec classement Elo | Oui en version gratuite | Non, lien vers Wikipédia | Navigateur, iOS, Android |
+| **Érudit** | Culture générale avec roue | Oui, pubs inappropriées signalées | Non | iOS, Android |
+| **Kahoot!** | Quiz en groupe animé par un hôte | Non | Variable selon le quiz | Navigateur et mobile |
+| **Quizizz** | Quiz scolaire à son rythme | Non | Variable selon le quiz | Navigateur et mobile |
 
 ## Laquelle choisir
 

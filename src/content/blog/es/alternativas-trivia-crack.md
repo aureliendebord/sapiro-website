@@ -2,6 +2,7 @@
 title: "6 alternativas a Preguntados (Trivia Crack), una de ellas sin anuncios"
 description: "¿Cansado de los anuncios de Preguntados (Trivia Crack)? Seis juegos parecidos de cultura general: sin publicidad, en duelo, para el aula o directamente en el navegador."
 date: 2026-09-21
+lastModified: 2026-09-30
 image: "/images/blog/apps/smartphone-app.jpg"
 imageAlt: "Un smartphone mostrando una publicación en una red social"
 imageCredit: "Foto: Mictlancihuatl · CC BY-SA 4.0 · Wikimedia Commons"
@@ -77,11 +78,11 @@ Los dos nombres siguen apareciendo cuando se busca trivia competitivo. QuizUp gi
 | App | Tipo de quiz | ¿Publicidad? | ¿Explicaciones tras la respuesta? | Navegador / móvil |
 |---|---|---|---|---|
 | **SAPIRO** | Cultura general individual, Desafío del día para compartir | No, tampoco en la versión gratuita | Sí, en cada pregunta | Navegador, iOS y Android |
-| **QuizDuel** | Duelos uno contra uno | Sí en la versión gratuita | No | Móvil; navegador, a verificar en la ficha de la tienda |
-| **Erudite** | Cultura general con ruleta | Sí, con anuncios inapropiados reportados | No | Móvil; navegador, a verificar en la ficha de la tienda |
-| **Quiz Sans Fin** | Cultura general con sistema Elo, sobre todo en francés | Sí | No, enlaces a Wikipedia | A verificar en la ficha de la tienda |
-| **Kahoot!** | Quiz en grupo con anfitrión | A verificar en la ficha de la tienda | Depende del quiz | Navegador y móvil |
-| **Quizizz** | Quiz escolar asíncrono | A verificar en la ficha de la tienda | Depende del quiz | Navegador y móvil |
+| **QuizDuel** | Duelos uno contra uno | Sí en la versión gratuita | No | iOS, Android |
+| **Erudite** | Cultura general con ruleta | Sí, con anuncios inapropiados reportados | No | iOS, Android |
+| **Quiz Sans Fin** | Cultura general con sistema Elo, sobre todo en francés | Sí | No, enlaces a Wikipedia | Navegador, iOS, Android |
+| **Kahoot!** | Quiz en grupo con anfitrión | No | Depende del quiz | Navegador y móvil |
+| **Quizizz** | Quiz escolar asíncrono | No | Depende del quiz | Navegador y móvil |
 
 ## Cuál elegir
 
