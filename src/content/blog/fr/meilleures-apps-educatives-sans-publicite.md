@@ -26,7 +26,7 @@ La publicité dans les apps éducatives casse l'apprentissage. Voici une sélect
 
 **SAPIRO.** Couverture des 197 pays avec drapeaux et capitales. Pas de pub.
 
-**Seterra Premium.** Référence cartographique. Premium (3 euros/mois) sans pub.
+**Seterra (app mobile).** Référence cartographique. App gratuite, sans pub.
 
 **GeoGuessr.** Premium uniquement, mais l'expérience est unique.
 

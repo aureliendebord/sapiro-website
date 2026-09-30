@@ -114,7 +114,7 @@ Puntos fuertes: catálogo enorme de quiz geográficos, versión web y móvil, fi
 
 Puntos débiles: diseño anticuado, solo geografía, sin repetición espaciada, sin contenido cultural, experiencia desfasada.
 
-**Precio:** gratis con publicidad. Versión premium sin anuncios.
+**Precio:** gratis (web y app móvil).
 
 ## 9. QuizDuel — Duelos de trivia 1v1
 
@@ -151,7 +151,7 @@ Puntos débiles: solo geografía, sin contenido cultural ni histórico, catálog
 | **Erudite** | Varias categorías | Publicidad inadecuada | Datos publicitarios | No | Gratis con anuncios |
 | **Quiz Sans Fin** | Cultura general | Publicidad | No detallada | Vía Wikipedia | Gratis con anuncios |
 | **GeoGuessr** | Solo geografía | Versión Pro | Correcta | No | 3,99 €/mes |
-| **Seterra** | Solo geografía | Versión premium | Publicidad con rastreo | No | Gratis / premium |
+| **Seterra** | Solo geografía | Sí (app móvil) | Publicidad con rastreo | No | Gratis |
 | **QuizDuel** | Varias categorías | Publicidad | Datos publicitarios | No | Gratis con anuncios |
 | **StudyGe** | Solo geografía | Versión premium | No detallada | No | 4,99 €/año |
 

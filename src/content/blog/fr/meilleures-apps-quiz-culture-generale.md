@@ -78,7 +78,7 @@ Seterra existe depuis 1997. Presque trente ans. L'app propose des quiz sur carte
 
 Le design accuse son âge, clairement. L'interface est datée et le contenu se limite à la géo. Pas d'explications, pas de culture générale au-delà de la localisation sur carte. Mais pour un enfant qui veut apprendre les capitales d'Asie, ça fait le job depuis 25 ans, et ça continuera.
 
-Prix : gratuit (web), version mobile premium ~2,99 €.
+Prix : gratuit (web et app mobile).
 
 ## 8. QuizDuel, duel de trivia en 1v1
 
@@ -119,7 +119,7 @@ Prix : version gratuite sans publicité.
 | **Érudit** | Culture générale | Non | Non précisée | Non | Gratuit avec pubs |
 | **Quiz Sans Fin** | Culture générale | Non | Non précisée | Lien Wikipédia | Gratuit avec pubs |
 | **GeoGuessr** | Géographie | Non (gratuit) | Correcte | Non | 3,99 €/mois |
-| **Seterra** | Géographie | Non (mobile) | Correcte | Non | Gratuit / ~2,99 € |
+| **Seterra** | Géographie | Oui (app mobile) | Correcte | Non | Gratuit |
 | **QuizDuel** | Trivia générale | Non | Non précisée | Non | Gratuit avec pubs |
 | **StudyGe** | Géographie | Correcte | Correcte | Partielles | 4,99 €/an |
 

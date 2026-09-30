@@ -38,7 +38,7 @@ Nota: 7,5/10
 
 Seterra lleva ahí desde 1997. Empezó como aplicación de escritorio y ahora tiene versión web, iOS y Android. Su catálogo impresiona: más de 300 quiz que cubren los 195 países reconocidos por la ONU, además de capitales, ríos, montañas, océanos, estados y provincias de todo el mundo.
 
-El formato es simple: mapa en pantalla, haz clic en la ubicación correcta. Funciona especialmente bien para preparar exámenes de cole porque puedes filtrar por continente o región. La versión gratuita es bastante completa aunque con publicidad; la premium quita anuncios y añade estadísticas. Lo que le falta: el diseño se ha quedado anticuado, no usa repetición espaciada, y no hay nada de contenido cultural.
+El formato es simple: mapa en pantalla, haz clic en la ubicación correcta. Funciona especialmente bien para preparar exámenes de cole porque puedes filtrar por continente o región. Es gratuita tanto en la web como en el móvil (la app, antes de pago, ahora es gratis). Lo que le falta: el diseño se ha quedado anticuado, no usa repetición espaciada, y no hay nada de contenido cultural.
 
 Nota: 7/10
 
@@ -78,7 +78,7 @@ Nota: 8/10 (como herramienta complementaria)
 
 Diseñada para niños de 6 a 12 años. El concepto mola: al responder preguntas de geografía correctamente, ganas países que tienes que apilar (con físicas de juego reales) hasta alcanzar una línea. Es colorido, divertido y mantiene la atención de los niños durante rato.
 
-Las preguntas cubren capitales, banderas, continentes, idiomas y monumentos, todo adaptado a nivel infantil. Ideal para complementar la escuela y para [organizar actividades de geografía en familia](/es/blog/geografia-familia/). La investigación en psicología cognitiva confirma que practicar con quiz mejora la retención frente a releer el material, algo que aplica tanto para niños como para adultos. Pega importante: solo está en inglés, solo en iOS, y el contenido resulta demasiado básico para adolescentes y adultos.
+Las preguntas cubren capitales, banderas, continentes, idiomas y monumentos, todo adaptado a nivel infantil. Ideal para complementar la escuela y para [organizar actividades de geografía en familia](/es/blog/geografia-familia/). La investigación en psicología cognitiva confirma que practicar con quiz mejora la retención frente a releer el material, algo que aplica tanto para niños como para adultos. Está disponible en iOS y Android (compra única de unos 2,99 €). Pega importante: solo está en inglés y el contenido resulta demasiado básico para adolescentes y adultos.
 
 Nota: 7/10 (para su público objetivo)
 
@@ -103,7 +103,7 @@ Para niños: gráficos atractivos, mecánicas de juego que enganchen y contenido
 
 ### ¿Cuál es la mejor app para aprender geografía gratis?
 
-SAPIRO ofrece una versión gratuita bastante completa con quiz de países, capitales, banderas y cultura general. Seterra también tiene una versión gratuita con más de 300 quiz, aunque con publicidad.
+SAPIRO ofrece una versión gratuita bastante completa con quiz de países, capitales, banderas y cultura general. Seterra también es gratuita, con más de 300 quiz.
 
 ### ¿Se puede aprender geografía solo con una app?
 

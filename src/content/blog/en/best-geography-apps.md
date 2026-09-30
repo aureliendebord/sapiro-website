@@ -34,11 +34,11 @@ If you are curious about how quiz-based learning boosts retention, our [ultimate
 
 ## 2. Seterra — The Classic Map Quiz
 
-Available on Web, iOS, and Android. Free on the web; paid app or subscription on mobile.
+Available on Web, iOS, and Android. Free on the web and on mobile.
 
 Seterra has been a staple of geography education since 1997 and is used in classrooms across more than 40 countries. Its core mechanic is simple: you see a map and click or tap the correct country, capital, river, or region. The quiz library is enormous, covering every continent with quizzes on U.S. states, European countries, African capitals, world flags, and more. Schools use it widely, and for good reason: it works.
 
-The interface, though, has not aged gracefully. It looks dated next to newer competitors, and the format rarely varies from map-clicking. There is no adaptive difficulty; you pick your own quizzes and go. And while the web version is free, the mobile version requires payment, which feels inconsistent.
+The interface, though, has not aged gracefully. It looks dated next to newer competitors, and the format rarely varies from map-clicking. There is no adaptive difficulty; you pick your own quizzes and go.
 
 Who is it for? Students and teachers who want straightforward, map-based drilling with comprehensive global coverage.
 
@@ -129,7 +129,7 @@ If you want to see why quiz-based apps are so effective for building lasting kno
 
 ### What is the best free geography app?
 
-SAPIRO offers the most comprehensive free tier, covering flags, capitals, country outlines, and cultural trivia with adaptive difficulty. Seterra is free on the web for map-based quizzes, and GeoGuessr offers a limited free tier for Street View exploration.
+SAPIRO offers the most comprehensive free tier, covering flags, capitals, country outlines, and cultural trivia with adaptive difficulty. Seterra is free on the web and on mobile for map-based quizzes, and GeoGuessr offers a limited free tier for Street View exploration.
 
 ### Are geography apps effective for learning?
 
@@ -144,7 +144,7 @@ Most geography apps work well for ages 8 and up. Stack the Countries is designed
 | App | Best for | Offline | Adaptive | Free tier |
 |---|---|---|---|---|
 | SAPIRO | All-round geography + culture | Yes | Yes | Yes |
-| Seterra | Map-based drilling | No | No | Web only |
+| Seterra | Map-based drilling | No | No | Yes |
 | GeoGuessr | Street View exploration | No | No | Limited |
 | World Geography | Quick casual sessions | Yes | No | Yes (ads) |
 | StudyGe | Visual map learning | Partial | No | Partial |

@@ -26,7 +26,7 @@ Advertising in educational apps breaks learning. Here is a selection of truly ad
 
 **SAPIRO.** Coverage of 197 countries with flags and capitals. No ads.
 
-**Seterra Premium.** Map reference. Premium ($3/month) ad-free.
+**Seterra (mobile app).** Map reference. Free app, no ads.
 
 **GeoGuessr.** Premium only, but the experience is unique.
 

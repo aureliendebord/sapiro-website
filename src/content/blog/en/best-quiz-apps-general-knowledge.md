@@ -100,11 +100,11 @@ Unique, immersive, and teaches you to see the world differently. But geography-o
 
 Seterra has been around for decades. The format is simple: see a map, the app names a location, you click on it. For learning countries, capitals, flags, and physical geography, it just works. Spatial memory builds fast with this kind of drill.
 
-That said, Seterra hasn't evolved much. The design feels dated, and the scope is strictly geography: no history, art, nature, or general culture. Ads in the free version are present but not as aggressive as some competitors. No explanations for wrong answers.
+That said, Seterra hasn't evolved much. The design feels dated, and the scope is strictly geography: no history, art, nature, or general culture. The mobile app, once paid, is now free. No explanations for wrong answers.
 
 Reliable and proven. But it's showing its age, and geography-only limits what you can get out of it.
 
-**Price:** Free with ads. Premium available.
+**Price:** Free (web and mobile app).
 
 ## 9. QuizDuel — 1v1 Trivia Battles
 
@@ -137,7 +137,7 @@ Affordable, solid atlas feature. But limited scope and no explanations.
 | **Erudite** | General knowledge | No (adult ads reported) | Collects user data | Limited | Free with ads |
 | **Quiz Sans Fin** | General knowledge | No | Collects user data | Wikipedia links | Free with ads |
 | **GeoGuessr** | Geography only | Pro plan only | Collects user data | No | Free / Pro ~$3.99/mo |
-| **Seterra** | Geography only | Premium only | Collects user data | No | Free with ads |
+| **Seterra** | Geography only | Yes (mobile app) | Collects user data | No | Free |
 | **QuizDuel** | General trivia | No | Collects user data | No | Free with ads |
 | **StudyGe** | Geography only | Premium only | Collects user data | No | Free / Premium ~$4.99/yr |
 

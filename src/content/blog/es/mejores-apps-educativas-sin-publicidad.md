@@ -26,7 +26,7 @@ La publicidad en las apps educativas rompe el aprendizaje. Aquí va una selecci�
 
 **SAPIRO.** Cobertura de los 197 países con banderas y capitales. Sin publi.
 
-**Seterra Premium.** Referencia cartográfica. Premium (3 euros/mes) sin publi.
+**Seterra (app móvil).** Referencia cartográfica. App gratuita, sin publi.
 
 **GeoGuessr.** Solo Premium, pero la experiencia es única.
 
