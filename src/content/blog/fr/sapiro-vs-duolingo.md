@@ -2,7 +2,7 @@
 title: "Sapiro vs Duolingo : apprendre quoi exactement ?"
 description: "Comparatif Sapiro et Duolingo : culture générale ou langues étrangères ? Avantages, inconvénients et publics de chaque application."
 date: 2026-02-28
-lastModified: 2026-06-15
+lastModified: 2026-09-30
 image: "/images/blog/apps/smartphone-app.jpg"
 imageAlt: "Un smartphone affichant une publication sur un réseau social"
 imageCredit: "Photo : Mictlancihuatl · CC BY-SA 4.0 · Wikimedia Commons"
@@ -30,9 +30,9 @@ SAPIRO et Duolingo sont deux apps d'apprentissage, mais sur des terrains différ
 
 ## La gratuité
 
-**Duolingo.** Gratuit avec publicité et limite de cœurs (recharge longue après erreurs). Super Duolingo (8 à 14 euros/mois) supprime tout ça.
+**Duolingo.** Gratuit avec publicité et limite de cœurs (recharge longue après erreurs). Super Duolingo (environ 8 à 14 euros/mois) supprime tout ça.
 
-**SAPIRO.** Gratuit avec toutes les fonctionnalités, sans publicité, sans limite. Sapiro+ (1,99 euros/mois ou 39,99 à vie) pour des fonctionnalités étendues.
+**SAPIRO.** Version gratuite sans publicité.
 
 ## La publicité
 
@@ -44,7 +44,7 @@ SAPIRO et Duolingo sont deux apps d'apprentissage, mais sur des terrains différ
 
 **Duolingo.** Collecte de données importante pour personnalisation et publicité. Compte obligatoire.
 
-**SAPIRO.** Aucune collecte de données. Pas de compte obligatoire. Voir notre article sur les [apps quiz sans collecte de données](/blog/apps-quiz-sans-collecte-donnees/).
+**SAPIRO.** Données jamais revendues. Pas de compte obligatoire. Voir notre article sur les [apps quiz sans collecte de données](/blog/apps-quiz-sans-collecte-donnees/).
 
 ## Le public cible
 

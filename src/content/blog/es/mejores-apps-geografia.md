@@ -2,7 +2,7 @@
 title: "Top 8 apps para aprender geografía en 2025"
 description: "Comparativa de las 8 mejores aplicaciones de geografía en 2025: notas del 1 al 10, pros, contras y para quién va cada una. ¿Cuál se adapta mejor a tu nivel?"
 date: 2025-11-10
-lastModified: 2026-06-15
+lastModified: 2026-09-30
 image: "/images/blog/apps/carte-monde-app.jpg"
 imageAlt: "Un mapa antiguo de Hungría del siglo XVI"
 imageCredit: "Foto: Lázár deák (Lazarus secretarius) · dominio público · Wikimedia Commons"
@@ -22,7 +22,7 @@ SAPIRO cubre países, capitales, banderas, monumentos, gastronomía y tradicione
 
 Lo que la distingue del resto es su sistema de repetición espaciada. El algoritmo analiza dónde fallas (esos [errores clásicos de geografía](/es/blog/errores-geografia/) que arrastramos todos) y te propone sesiones que atacan justo tus puntos débiles. No pierdes tiempo repasando Japón si ya lo dominas.
 
-Tiene varios modos de juego (quiz clásico, contrarreloj, desafíos diarios, competiciones con amigos) y el contenido va desde nivel principiante hasta experto. La interfaz está cuidada: mapas interactivos, fichas por país, diseño limpio. Es gratuita, con una opción premium que desbloquea contenido avanzado y estadísticas detalladas. La versión gratuita limita las sesiones diarias, que es su principal pega.
+Tiene varios modos de juego (Duelo, 10 preguntas, Récord, Reto del día) y el contenido va desde nivel principiante hasta experto. La interfaz está cuidada: mapas interactivos, fichas por país, diseño limpio. Tiene una versión gratuita sin publicidad.
 
 Nota: 9,5/10
 
@@ -38,7 +38,7 @@ Nota: 7,5/10
 
 Seterra lleva ahí desde 1997. Empezó como aplicación de escritorio y ahora tiene versión web, iOS y Android. Su catálogo impresiona: más de 300 quiz que cubren los 195 países reconocidos por la ONU, además de capitales, ríos, montañas, océanos, estados y provincias de todo el mundo.
 
-El formato es simple: mapa en pantalla, haz clic en la ubicación correcta. Funciona especialmente bien para preparar exámenes de cole porque puedes filtrar por continente o región. La versión gratuita es bastante completa aunque con publicidad; la premium quita anuncios y añade estadísticas. Lo que le falta: el diseño se ha quedado anticuado, no usa repetición espaciada, y no hay nada de contenido cultural.
+El formato es simple: mapa en pantalla, haz clic en la ubicación correcta. Funciona especialmente bien para preparar exámenes de cole porque puedes filtrar por continente o región. Es gratuita tanto en la web como en el móvil (la app, antes de pago, ahora es gratis). Lo que le falta: el diseño se ha quedado anticuado, no usa repetición espaciada, y no hay nada de contenido cultural.
 
 Nota: 7/10
 
@@ -58,13 +58,13 @@ Buena opción para preparar concursos de cultura general o para reforzar un áre
 
 Nota: 6,5/10
 
-## 6. QuizUp Geography: competición social en tiempo real
+## 6. QuizUp Geography: el referente de los duelos, cerrado en 2021
 
-QuizUp fue en su momento la app de quiz más popular del mundo. Su sección de geografía sigue siendo sólida para quienes disfrutan compitiendo. El formato: te enfrentas a otro jugador, preguntas rápidas, gana quien responda bien en menos tiempo. Rápido, adictivo, perfecto para ratos cortos.
+QuizUp fue en su momento la app de quiz más popular del mundo, y su sección de geografía era de las más jugadas. El formato: te enfrentabas a otro jugador, preguntas rápidas, ganaba quien respondiera bien en menos tiempo. La app original cerró en 2021 (Glu Mobile apagó los servidores en marzo), así que ya no se puede descargar; el formato sobrevive en apps sucesoras e intentos de relanzamiento de la comunidad, de calidad desigual.
 
-La gracia de QuizUp es la dimensión social: desafiar amigos, unirse a comunidades, subir en rankings. Pero no está pensada para aprender de forma sistemática. No hay repetición espaciada, no hay fichas de estudio, y las preguntas rápidas no favorecen la retención a largo plazo. Es un juego social, no una herramienta educativa. Funciona bien como complemento para practicar bajo presión.
+La gracia de QuizUp era la dimensión social: desafiar amigos, unirse a comunidades, subir en rankings. Pero no estaba pensada para aprender de forma sistemática. No había repetición espaciada ni fichas de estudio, y las preguntas rápidas no favorecen la retención a largo plazo. Era un juego social, no una herramienta educativa.
 
-Nota: 6,5/10
+Nota: sin nota (app cerrada)
 
 ## 7. Google Earth: exploración geográfica inmersiva
 
@@ -78,7 +78,7 @@ Nota: 8/10 (como herramienta complementaria)
 
 Diseñada para niños de 6 a 12 años. El concepto mola: al responder preguntas de geografía correctamente, ganas países que tienes que apilar (con físicas de juego reales) hasta alcanzar una línea. Es colorido, divertido y mantiene la atención de los niños durante rato.
 
-Las preguntas cubren capitales, banderas, continentes, idiomas y monumentos, todo adaptado a nivel infantil. Ideal para complementar la escuela y para [organizar actividades de geografía en familia](/es/blog/geografia-familia/). La investigación en psicología cognitiva confirma que practicar con quiz mejora la retención frente a releer el material, algo que aplica tanto para niños como para adultos. Pega importante: solo está en inglés, solo en iOS, y el contenido resulta demasiado básico para adolescentes y adultos.
+Las preguntas cubren capitales, banderas, continentes, idiomas y monumentos, todo adaptado a nivel infantil. Ideal para complementar la escuela y para [organizar actividades de geografía en familia](/es/blog/geografia-familia/). La investigación en psicología cognitiva confirma que practicar con quiz mejora la retención frente a releer el material, algo que aplica tanto para niños como para adultos. Está disponible en iOS y Android (compra única de unos 2,99 €). Pega importante: solo está en inglés y el contenido resulta demasiado básico para adolescentes y adultos.
 
 Nota: 7/10 (para su público objetivo)
 
@@ -86,7 +86,7 @@ Nota: 7/10 (para su público objetivo)
 
 Para facilitar la decisión, un resumen rápido de lo que ofrece cada app.
 
-Las apps con repetición espaciada (como SAPIRO) son las que mejor funcionan para retener información a largo plazo. Las de exploración (GeoGuessr, Google Earth) desarrollan la intuición geográfica, ese sexto sentido para reconocer dónde estás en el mundo. Las de competición (QuizUp) van bien para motivarte con amigos. La combinación ideal: una app de aprendizaje estructurado como base, complementada con una de exploración para los días que te apetezca algo diferente.
+Las apps con repetición espaciada (como SAPIRO) son las que mejor funcionan para retener información a largo plazo. Las de exploración (GeoGuessr, Google Earth) desarrollan la intuición geográfica, ese sexto sentido para reconocer dónde estás en el mundo. Las de competición (duelos al estilo QuizUp) van bien para motivarte con amigos. La combinación ideal: una app de aprendizaje estructurado como base, complementada con una de exploración para los días que te apetezca algo diferente.
 
 ## ¿Cómo elegir la mejor app de geografía para ti?
 
@@ -103,7 +103,7 @@ Para niños: gráficos atractivos, mecánicas de juego que enganchen y contenido
 
 ### ¿Cuál es la mejor app para aprender geografía gratis?
 
-SAPIRO ofrece una versión gratuita bastante completa con quiz de países, capitales, banderas y cultura general. Seterra también tiene una versión gratuita con más de 300 quiz, aunque con publicidad.
+SAPIRO ofrece una versión gratuita bastante completa con quiz de países, capitales, banderas y cultura general. Seterra también es gratuita, con más de 300 quiz.
 
 ### ¿Se puede aprender geografía solo con una app?
 

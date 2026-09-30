@@ -2,7 +2,7 @@
 title: "Las 10 mejores apps de quiz de cultura general en 2026"
 description: "Comparativa de las mejores aplicaciones de quiz y cultura general: Trivia Crack, Kahoot, SAPIRO... ¿Cuál elegir? Nuestro análisis completo."
 date: 2026-03-20
-lastModified: 2026-06-15
+lastModified: 2026-09-30
 image: "/images/blog/apps/smartphone-app.jpg"
 imageAlt: "Un smartphone mostrando una publicación en una red social"
 imageCredit: "Foto: Mictlancihuatl · CC BY-SA 4.0 · Wikimedia Commons"
@@ -20,15 +20,15 @@ Encontrar una app de quiz de cultura general que valga la pena no es tan fácil.
 
 SAPIRO cubre geografía, historia, arte y naturaleza con más de 2000 preguntas verificadas, disponible en iOS y Android. Está pensada para adultos curiosos y para familias.
 
-Lo que la distingue es que cada respuesta incluye una explicación. No te quedas con la duda de por qué fallaste. Usa repetición espaciada para reforzar lo que no dominas, y tiene varios modos: quiz clásico, contrarreloj, desafíos diarios y partidas con amigos.
+Lo que la distingue es que cada respuesta incluye una explicación. No te quedas con la duda de por qué fallaste. Usa repetición espaciada para reforzar lo que no dominas, y tiene varios modos: Duelo, 10 preguntas, Récord y Reto del día.
 
-No muestra publicidad ni recopila datos personales. Es poco habitual en apps gratuitas. La versión gratuita ofrece bastante contenido, y Sapiro+ (desde 1,99 €/mes) da acceso a preguntas avanzadas y estadísticas detalladas. Tiene 5/5 en Google Play.
+No muestra publicidad ni vende tus datos. Es poco habitual en apps gratuitas. La versión gratuita ofrece bastante contenido. Tiene 5/5 en Google Play.
 
-Puntos fuertes: contenido verificado, explicaciones en cada pregunta, sin publicidad, sin recopilación de datos, varias temáticas, interfaz limpia.
+Puntos fuertes: contenido verificado, explicaciones en cada pregunta, sin publicidad, sin venta de datos, varias temáticas, interfaz limpia.
 
 Puntos débiles: catálogo en expansión (2000+ preguntas, frente a apps con décadas de contenido acumulado).
 
-**Precio:** gratis + Sapiro+ desde 1,99 €/mes.
+**Precio:** versión gratuita sin publicidad.
 
 ## 2. Trivia Crack (Preguntados) — El clásico del trivia social
 
@@ -48,25 +48,25 @@ Puntos débiles: publicidad agresiva, datos compartidos con terceros, sin valor 
 
 Kahoot! cambió la dinámica de los quiz en clase. Un profesor crea el quiz, lo proyecta en pantalla y los participantes responden desde sus móviles. Es eficaz para dinamizar una clase, eso nadie lo discute.
 
-El problema es que no funciona como app individual. Necesitas un anfitrión que lance la sesión, así que si quieres jugar solo o en familia sin preparación, queda descartada. Los planes de pago (de 3 a 19 $/mes) están pensados para instituciones, no para usuarios sueltos.
+El problema es que no funciona como app individual. Necesitas un anfitrión que lance la sesión, así que si quieres jugar solo o en familia sin preparación, queda descartada. Los planes de pago (de unos 3 a 19 $/mes, con facturación anual) están pensados para instituciones, no para usuarios sueltos.
 
 Puntos fuertes: excelente para aulas y formaciones, experiencia colectiva motivante, enorme biblioteca comunitaria.
 
 Puntos débiles: necesita un anfitrión, no sirve como quiz individual, precios orientados a instituciones, depende de conexión a internet.
 
-**Precio:** versión básica gratuita. Planes de pago de 3 a 19 $/mes.
+**Precio:** versión básica gratuita. Planes de pago de unos 3 a 19 $/mes (facturación anual).
 
-## 4. Quizizz — Quiz escolar con toque de gamificación
+## 4. Quizizz (ahora Wayground) — Quiz escolar con toque de gamificación
 
-Quizizz ocupa un nicho similar a Kahoot!, pero tiene una ventaja real: permite quiz asíncronos. Los alumnos los completan a su ritmo, sin que todos estén conectados a la vez. Los profesores asignan tareas y consultan informes de progreso.
+Quizizz, rebautizado Wayground en 2025, ocupa un nicho similar a Kahoot!, pero tiene una ventaja real: permite quiz asíncronos. Los alumnos los completan a su ritmo, sin que todos estén conectados a la vez. Los profesores asignan tareas y consultan informes de progreso.
 
-Para un usuario individual, tiene poco sentido. Depende de que alguien haya creado el quiz. La biblioteca pública es amplia pero desigual. Los planes (5-10 $/mes) apuntan a centros educativos.
+Para un usuario individual, tiene poco sentido. Depende de que alguien haya creado el quiz. La biblioteca pública es amplia pero desigual. Los planes de pago apuntan a centros educativos y se cotizan bajo presupuesto.
 
 Puntos fuertes: modo asíncrono, informes para profesores, gamificación con memes y power-ups.
 
 Puntos débiles: requiere que alguien cree el contenido, poco útil fuera del contexto escolar, calidad variable, precios para escuelas.
 
-**Precio:** versión básica gratuita. Planes de pago de 5 a 10 $/mes.
+**Precio:** versión básica gratuita. Planes para centros bajo presupuesto.
 
 ## 5. Erudite (Erudit) — Trivia con mecánica de ruleta
 
@@ -96,13 +96,13 @@ Puntos débiles: sin recorridos temáticos, publicidad, principalmente en franc�
 
 GeoGuessr te suelta en un punto aleatorio de Google Street View y tienes que deducir dónde estás. Observas señales, vegetación, arquitectura, el tipo de carretera. Es tremendamente adictivo y desarrolla una intuición geográfica que pocas apps consiguen.
 
-Pero es solo geografía. Nada de historia, ni arte, ni [cultura general en sentido amplio](/es/blog/cultura-general-guia/). Necesita conexión permanente y la suscripción Pro ronda los 3,99 €/mes. Es más un juego de exploración que una herramienta educativa.
+Pero es solo geografía. Nada de historia, ni arte, ni [cultura general en sentido amplio](/es/blog/cultura-general-guia/). Necesita conexión permanente y la suscripción Pro ronda los 7 €/mes (menos con el plan anual). Es más un juego de exploración que una herramienta educativa.
 
 Puntos fuertes: experiencia inmersiva única, desarrolla intuición geográfica, comunidad activa, competiciones.
 
 Puntos débiles: solo geografía, necesita internet permanente, suscripción para jugar sin límites, sin explicaciones.
 
-**Precio:** versión limitada gratuita. Pro ~3,99 €/mes.
+**Precio:** versión limitada gratuita. Pro ~6,99 €/mes.
 
 ## 8. Seterra — El veterano de los quiz de mapas
 
@@ -114,7 +114,7 @@ Puntos fuertes: catálogo enorme de quiz geográficos, versión web y móvil, fi
 
 Puntos débiles: diseño anticuado, solo geografía, sin repetición espaciada, sin contenido cultural, experiencia desfasada.
 
-**Precio:** gratis con publicidad. Versión premium sin anuncios.
+**Precio:** gratis (web y app móvil).
 
 ## 9. QuizDuel — Duelos de trivia 1v1
 
@@ -138,28 +138,28 @@ Puntos fuertes: atlas interactivo completo, funciona offline, interfaz limpia, b
 
 Puntos débiles: solo geografía, sin contenido cultural ni histórico, catálogo temático limitado.
 
-**Precio:** gratis con publicidad. Premium ~4,99 €/año.
+**Precio:** gratis con publicidad. Premium ~29,99 €/año.
 
 ## Tabla comparativa
 
 | App | Dominios | Sin publicidad | Privacidad | Explicaciones | Precio |
 |-----|----------|---------------|------------|---------------|--------|
-| **SAPIRO** | Geografía, historia, arte, naturaleza | Sí | Sin recopilación de datos | Sí | Gratis + 1,99 €/mes |
+| **SAPIRO** | Geografía, historia, arte, naturaleza | Sí | Sin venta de datos | Sí | Versión gratuita sin publicidad |
 | **Trivia Crack** | 6 categorías generales | Mucha publicidad | Datos vendidos a terceros | No | Gratis con anuncios |
-| **Kahoot!** | Todas (creadas por usuarios) | Parcial | Recopilación para servicios | Según el creador | 3-19 $/mes |
-| **Quizizz** | Todas (creadas por profesores) | Parcial | Recopilación para servicios | Según el creador | 5-10 $/mes |
+| **Kahoot!** | Todas (creadas por usuarios) | Parcial | Recopilación para servicios | Según el creador | ~3-19 $/mes |
+| **Quizizz (Wayground)** | Todas (creadas por profesores) | Parcial | Recopilación para servicios | Según el creador | Gratis / bajo presupuesto |
 | **Erudite** | Varias categorías | Publicidad inadecuada | Datos publicitarios | No | Gratis con anuncios |
 | **Quiz Sans Fin** | Cultura general | Publicidad | No detallada | Vía Wikipedia | Gratis con anuncios |
-| **GeoGuessr** | Solo geografía | Versión Pro | Correcta | No | 3,99 €/mes |
-| **Seterra** | Solo geografía | Versión premium | Publicidad con rastreo | No | Gratis / premium |
+| **GeoGuessr** | Solo geografía | Versión Pro | Correcta | No | ~6,99 €/mes |
+| **Seterra** | Solo geografía | Sí (app móvil) | Publicidad con rastreo | No | Gratis |
 | **QuizDuel** | Varias categorías | Publicidad | Datos publicitarios | No | Gratis con anuncios |
-| **StudyGe** | Solo geografía | Versión premium | No detallada | No | 4,99 €/año |
+| **StudyGe** | Solo geografía | Versión premium | No detallada | No | ~29,99 €/año |
 
 ## Nuestro veredicto
 
 Tras probar las 10, el panorama queda claro. Para entretenimiento puro sin preocuparse por la publicidad ni la privacidad, Trivia Crack o QuizDuel funcionan. Para el aula, Kahoot! y Quizizz son las referencias. Si lo tuyo es la geografía y no te importa pagar, GeoGuessr ofrece algo que ninguna otra app tiene.
 
-Si lo que buscas es aprender cultura general con explicaciones reales, sin publicidad y sin que recojan tus datos, SAPIRO es la que mejor parada sale en esta comparativa. Es la única que no muestra anuncios, no recopila datos personales y explica cada respuesta.
+Si lo que buscas es aprender cultura general con explicaciones reales, sin publicidad y sin que recojan tus datos, SAPIRO es la que mejor parada sale en esta comparativa. Es la única que no muestra anuncios, no vende tus datos y explica cada respuesta.
 
 Para familias, el tema es más directo todavía. Otras apps han tenido reportes de publicidad inapropiada. SAPIRO no muestra publicidad de ningún tipo. Los niños pueden usarla sin supervisión constante, y el contenido está verificado.
 

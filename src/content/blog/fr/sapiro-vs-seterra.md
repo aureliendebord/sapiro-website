@@ -2,7 +2,7 @@
 title: "Sapiro vs Seterra : quelle app géographie choisir ?"
 description: "Comparatif Sapiro et Seterra : quelle app de géographie est la meilleure ? Avantages, inconvénients et public cible de chaque outil."
 date: 2026-03-01
-lastModified: 2026-06-15
+lastModified: 2026-09-30
 image: "/images/blog/apps/carte-monde-app.jpg"
 imageAlt: "Une carte ancienne de la Hongrie du XVIe siècle"
 imageCredit: "Photo : Lázár deák (Lazarus secretarius) · domaine public · Wikimedia Commons"
@@ -36,9 +36,9 @@ SAPIRO et Seterra sont deux apps de géographie, mais avec des approches différ
 
 ## La gratuité
 
-**Seterra.** Gratuit avec publicité. Premium (3 euros/mois environ) sans pub.
+**Seterra.** Gratuit sur le web comme sur mobile (l'app, autrefois payante, est désormais gratuite).
 
-**SAPIRO.** Gratuit sans publicité, sans collecte de données. Voir notre article sur les [meilleures apps éducatives sans publicité](/blog/meilleures-apps-educatives-sans-publicite/).
+**SAPIRO.** Gratuit sans publicité, données jamais revendues. Voir notre article sur les [meilleures apps éducatives sans publicité](/blog/meilleures-apps-educatives-sans-publicite/).
 
 ## La diversité de contenu
 
@@ -56,7 +56,7 @@ SAPIRO et Seterra sont deux apps de géographie, mais avec des approches différ
 
 **Choisir Seterra si** vous voulez vous spécialiser en géographie pure (cartes muettes, États fédérés, fleuves, montagnes). Référence mondiale du genre.
 
-**Choisir SAPIRO si** vous voulez la géographie en contexte culturel plus large, avec histoire, art et nature en plus. Pas de publicité, pas de collecte de données.
+**Choisir SAPIRO si** vous voulez la géographie en contexte culturel plus large, avec histoire, art et nature en plus. Pas de publicité, données jamais revendues.
 
 ## Peuvent-ils coexister ?
 

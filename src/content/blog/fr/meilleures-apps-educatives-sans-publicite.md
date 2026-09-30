@@ -2,7 +2,7 @@
 title: "Meilleures apps éducatives sans publicité"
 description: "Sélection des meilleures applications éducatives sans publicité : géographie, langues, histoire, sciences. Apprendre sans interruptions."
 date: 2026-03-03
-lastModified: 2026-06-15
+lastModified: 2026-09-30
 image: "/images/blog/apps/tablette-education.jpg"
 imageAlt: "Un enfant jouant avec un ordinateur jouet en bois à lettres cyrilliques"
 imageCredit: "Photo : Shixart1985 · CC BY 2.0 · Wikimedia Commons"
@@ -18,7 +18,7 @@ La publicité dans les apps éducatives casse l'apprentissage. Voici une sélect
 
 ## Culture générale
 
-**SAPIRO.** Gratuit, sans publicité, sans collecte de données. 2 000+ questions sur géographie, histoire, art, nature. Tous âges.
+**SAPIRO.** Gratuit, sans publicité, données jamais revendues. 2 000+ questions sur géographie, histoire, art, nature. Tous âges.
 
 **Duolingo (partiellement).** Gratuit mais avec publicité. Premium pour la version sans pub.
 
@@ -26,7 +26,7 @@ La publicité dans les apps éducatives casse l'apprentissage. Voici une sélect
 
 **SAPIRO.** Couverture des 197 pays avec drapeaux et capitales. Pas de pub.
 
-**Seterra Premium.** Référence cartographique. Premium (3 euros/mois) sans pub.
+**Seterra (app mobile).** Référence cartographique. App gratuite, sans pub.
 
 **GeoGuessr.** Premium uniquement, mais l'expérience est unique.
 
@@ -46,7 +46,7 @@ La publicité dans les apps éducatives casse l'apprentissage. Voici une sélect
 
 **Anki.** Gratuit sur ordinateur et Android, payant sur iOS. Système de flashcards à répétition espacée, sans pub.
 
-**Duolingo Super.** 8-14 euros/mois pour supprimer publicités.
+**Duolingo Super.** Environ 8 à 14 euros/mois pour supprimer les publicités.
 
 ## Lecture et compréhension
 
@@ -66,7 +66,7 @@ Trois raisons.
 
 ## Le modèle économique sans pub : trois options
 
-**Le freemium honnête.** Version gratuite complète, premium pour fonctionnalités avancées. C'est le modèle SAPIRO.
+**Le freemium honnête.** Une version gratuite réellement utilisable, sans publicité. C'est le choix de SAPIRO.
 
 **L'abonnement payant.** Pas de version gratuite. Modèle Anki sur iOS, certaines apps de méditation.
 
@@ -80,7 +80,7 @@ Trois raisons.
 
 **Famille.** L'app doit être sûre pour les enfants. Pas de pub douteuse.
 
-**Données.** Aucune publicité signifie aucune collecte de données comportementales. Voir notre article sur les [apps quiz sans collecte de données](/blog/apps-quiz-sans-collecte-donnees/).
+**Données.** Aucune publicité signifie aucune raison de revendre des données comportementales. Voir notre article sur les [apps quiz sans collecte de données](/blog/apps-quiz-sans-collecte-donnees/).
 
 ## Comment savoir si une app a vraiment "pas de pub"
 

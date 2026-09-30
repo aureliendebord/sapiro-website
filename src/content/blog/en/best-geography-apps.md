@@ -2,7 +2,7 @@
 title: "The 8 Best Apps to Learn Geography in 2025"
 description: "We tested and ranked the 8 best geography apps for 2025, from adaptive quiz drills to Street View exploration. Find out which one fits your learning style."
 date: 2025-11-10
-lastModified: 2026-06-15
+lastModified: 2026-09-30
 image: "/images/blog/apps/carte-monde-app.jpg"
 imageAlt: "A 16th-century map of Hungary"
 imageCredit: "Photo: Lázár deák (Lazarus secretarius) · public domain · Wikimedia Commons"
@@ -20,13 +20,13 @@ I downloaded, compared, and ranked eight that are actually worth your time. Here
 
 ## 1. SAPIRO — The Complete Geography and Culture Quiz
 
-Available on iOS and Android. Free with an optional premium subscription.
+Available on iOS and Android. Free version with no ads.
 
 SAPIRO goes well beyond simple [capital-city drills](/en/blog/world-capitals-quiz/). It covers flags, country outlines, capitals, cultural trivia, landmarks, and more, all in a clean, modern interface. What makes it stand out is the adaptive difficulty system: the app tracks which topics give you trouble and feeds you more questions in those areas, so you actually improve instead of repeating what you already know.
 
-The content range is wide: geography, flags, culture, and general knowledge live under one roof. Timed challenge modes add a competitive edge, and detailed explanations after every answer turn mistakes into learning moments. The app is available in French, English, and Spanish, and it works offline, which is a relief if you are studying on a plane or a subway with no signal.
+The content range is wide: geography, flags, culture, and general knowledge live under one roof. Duel and Record modes add a competitive edge, and detailed explanations after every answer turn mistakes into learning moments. The app is available in French, English, and Spanish, and it works offline, which is a relief if you are studying on a plane or a subway with no signal.
 
-On the downside, some advanced content sits behind the premium subscription, and SAPIRO is newer than some of the established names on this list, so its question library is still growing.
+On the downside, SAPIRO is newer than some of the established names on this list, so its question library is still growing.
 
 Who is it for? Anyone who wants a well-rounded geography and culture education with real quiz depth, from casual learners to serious trivia competitors.
 
@@ -34,17 +34,17 @@ If you are curious about how quiz-based learning boosts retention, our [ultimate
 
 ## 2. Seterra — The Classic Map Quiz
 
-Available on Web, iOS, and Android. Free on the web; paid app or subscription on mobile.
+Available on Web, iOS, and Android. Free on the web and on mobile.
 
 Seterra has been a staple of geography education since 1997 and is used in classrooms across more than 40 countries. Its core mechanic is simple: you see a map and click or tap the correct country, capital, river, or region. The quiz library is enormous, covering every continent with quizzes on U.S. states, European countries, African capitals, world flags, and more. Schools use it widely, and for good reason: it works.
 
-The interface, though, has not aged gracefully. It looks dated next to newer competitors, and the format rarely varies from map-clicking. There is no adaptive difficulty; you pick your own quizzes and go. And while the web version is free, the mobile version requires payment, which feels inconsistent.
+The interface, though, has not aged gracefully. It looks dated next to newer competitors, and the format rarely varies from map-clicking. There is no adaptive difficulty; you pick your own quizzes and go.
 
 Who is it for? Students and teachers who want straightforward, map-based drilling with comprehensive global coverage.
 
 ## 3. GeoGuessr — Explore the World Through Street View
 
-Available on Web, iOS, and Android. Free tier with daily limits; Pro subscription around $3.99/month.
+Available on Web, iOS, and Android. Free tier with daily limits; Pro subscription around €7/month at list price, less on an annual plan.
 
 GeoGuessr drops you into a random Google Street View location and challenges you to figure out where on Earth you are. Road signs, vegetation, architecture, sun position: everything becomes a clue. It is part geography quiz, part detective game, and the multiplayer modes, daily challenges, and themed maps keep it from getting stale.
 
@@ -108,7 +108,7 @@ Who is it for? Competitive trivia fans who thrive on head-to-head pressure and e
 
 With eight solid options on the table, here is a quick framework to find your match.
 
-If you want comprehensive learning that blends geography, culture, and quizzes, SAPIRO offers the widest range of content with smart, adaptive difficulty. For pure map skills, Seterra remains the gold standard. If immersive exploration is more your style, GeoGuessr turns geography into a detective game using real Street View imagery. Families with kids should look at Stack the Countries, which combines learning with a game mechanic children actually enjoy. For casual daily practice, World Geography or Geography Quiz provide quick, low-commitment sessions. Visual learners will appreciate StudyGe's map-first approach. And for competitive multiplayer, QuizUp revivals (along with SAPIRO's timed modes) deliver the head-to-head adrenaline.
+If you want comprehensive learning that blends geography, culture, and quizzes, SAPIRO offers the widest range of content with smart, adaptive difficulty. For pure map skills, Seterra remains the gold standard. If immersive exploration is more your style, GeoGuessr turns geography into a detective game using real Street View imagery. Families with kids should look at Stack the Countries, which combines learning with a game mechanic children actually enjoy. For casual daily practice, World Geography or Geography Quiz provide quick, low-commitment sessions. Visual learners will appreciate StudyGe's map-first approach. And for competitive multiplayer, QuizUp revivals (along with SAPIRO's duel mode) deliver the head-to-head adrenaline.
 
 Consider pairing two apps for the best results: one for structured quiz practice (like SAPIRO) and one for immersive exploration (like GeoGuessr). The variety keeps your brain engaged and covers different types of geographic knowledge. For the science behind why this works, read our piece on [gamification in education](/en/blog/gamification-education/).
 
@@ -129,7 +129,7 @@ If you want to see why quiz-based apps are so effective for building lasting kno
 
 ### What is the best free geography app?
 
-SAPIRO offers the most comprehensive free tier, covering flags, capitals, country outlines, and cultural trivia with adaptive difficulty. Seterra is free on the web for map-based quizzes, and GeoGuessr offers a limited free tier for Street View exploration.
+SAPIRO offers the most comprehensive free tier, covering flags, capitals, country outlines, and cultural trivia with adaptive difficulty. Seterra is free on the web and on mobile for map-based quizzes, and GeoGuessr offers a limited free tier for Street View exploration.
 
 ### Are geography apps effective for learning?
 
@@ -144,7 +144,7 @@ Most geography apps work well for ages 8 and up. Stack the Countries is designed
 | App | Best for | Offline | Adaptive | Free tier |
 |---|---|---|---|---|
 | SAPIRO | All-round geography + culture | Yes | Yes | Yes |
-| Seterra | Map-based drilling | No | No | Web only |
+| Seterra | Map-based drilling | No | No | Yes |
 | GeoGuessr | Street View exploration | No | No | Limited |
 | World Geography | Quick casual sessions | Yes | No | Yes (ads) |
 | StudyGe | Visual map learning | Partial | No | Partial |

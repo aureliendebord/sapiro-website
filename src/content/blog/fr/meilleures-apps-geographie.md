@@ -2,7 +2,7 @@
 title: "Top 8 des apps pour apprendre la géographie"
 description: "Comparatif des 8 meilleures applications pour apprendre la géographie en 2025 : quiz, cartes interactives et jeux éducatifs. Laquelle vous correspond ?"
 date: 2025-11-10
-lastModified: 2026-06-15
+lastModified: 2026-09-30
 image: "/images/blog/apps/carte-monde-app.jpg"
 imageAlt: "Une carte ancienne de la Hongrie du XVIe siècle"
 imageCredit: "Photo : Lázár deák (Lazarus secretarius) · domaine public · Wikimedia Commons"
@@ -22,7 +22,7 @@ Avertissement d'entrée de jeu : on édite SAPIRO, donc on l'a mise dans la list
 
 Notre application mélange géographie et culture générale dans un même parcours. Capitales, drapeaux, monuments, gastronomie, langues : les questions viennent avec une explication courte, ce qui change du quiz sec où l'on clique et on passe à la suivante. Le système de progression tient sur la durée, et l'interface ne fatigue pas les yeux.
 
-Les limites : SAPIRO est récente et la communauté se construit encore. Si vous cherchez un travail pur sur la localisation cartographique, d'autres apps de cette liste font mieux. Gratuit, avec des options premium. Disponible iOS et Android.
+Les limites : SAPIRO est récente et la communauté se construit encore. Si vous cherchez un travail pur sur la localisation cartographique, d'autres apps de cette liste font mieux. Version gratuite sans publicité. Disponible iOS et Android.
 
 Pour éviter les [erreurs de géographie les plus courantes](/blog/erreurs-geographie/), c'est un bon point de départ.
 
@@ -30,7 +30,7 @@ Pour éviter les [erreurs de géographie les plus courantes](/blog/erreurs-geogr
 
 Seterra existe depuis 1997. Vingt-huit ans sur la même idée, ça mérite une médaille. On clique sur une carte pour placer un pays, une capitale, un fleuve ou une montagne. Base de données énorme, plus de 40 langues, quiz pour chaque région du monde.
 
-La version web gratuite reste la meilleure porte d'entrée, et beaucoup d'enseignants l'utilisent en classe pour créer leurs propres quiz. Revers de la médaille : l'interface date, il n'y a rien au-delà de la géographie pure, et la version mobile gratuite affiche pas mal de pubs. La version premium tourne autour de 2,99 euros.
+La version web gratuite reste la meilleure porte d'entrée, et beaucoup d'enseignants l'utilisent en classe pour créer leurs propres quiz. Revers de la médaille : l'interface date et il n'y a rien au-delà de la géographie pure. L'app mobile, autrefois payante, est désormais gratuite.
 
 Pour qui ? Les étudiants qui révisent une carte précise, les profs, et tous ceux qui veulent bosser la localisation.
 
@@ -38,21 +38,21 @@ Pour qui ? Les étudiants qui révisent une carte précise, les profs, et tous c
 
 GeoGuessr a inventé son propre genre. On vous lâche quelque part sur Google Street View et vous devez deviner où vous êtes. Pas de carte, pas d'indice, juste vos yeux : la forme d'un panneau routier, le style des maisons, la végétation, l'inscription sur une devanture.
 
-Addictif, franchement addictif. Plus de 50 millions de joueurs, un mode multijoueur qui transforme chaque partie en duel, et un contenu quasi infini grâce à Google Street View. Mais l'abonnement Pro (autour de 3,99 euros par mois) pique pour un jeu mobile, la version gratuite se limite à une partie par jour, et il faut une bonne connexion. Pour apprendre de façon structurée avec des fiches, ce n'est pas l'outil. Pour le fun pur et le défi, rien d'équivalent.
+Addictif, franchement addictif. Plus de 50 millions de joueurs, un mode multijoueur qui transforme chaque partie en duel, et un contenu quasi infini grâce à Google Street View. Mais l'abonnement Pro (autour de 7 euros par mois, moins à l'année) pique pour un jeu mobile, la version gratuite se limite à une partie par jour, et il faut une bonne connexion. Pour apprendre de façon structurée avec des fiches, ce n'est pas l'outil. Pour le fun pur et le défi, rien d'équivalent.
 
 Si le format intrigue, notre article sur [la gamification dans l'éducation](/blog/gamification-education/) explique pourquoi ça accroche autant.
 
-## 4. World Geography, l'outil complet côté Android
+## 4. World Geography, l'outil complet et gratuit
 
-Application Android qui va droit au but : quiz sur pays, capitales, drapeaux, monnaies, religions, langues. Le mode apprentissage fournit une fiche détaillée pour chaque pays, les statistiques de progression sont correctes, et tout fonctionne hors ligne. Pour un outil gratuit sur Android, difficile de faire mieux.
+Application iOS et Android qui va droit au but : quiz sur pays, capitales, drapeaux, monnaies, religions, langues. Le mode apprentissage fournit une fiche détaillée pour chaque pays, les statistiques de progression sont correctes, et tout fonctionne hors ligne. Pour un outil gratuit, difficile de faire mieux.
 
-Gros bémol : rien sur iPhone. Le design a l'air d'avoir dix ans et les pubs reviennent vite dans la version gratuite. La version sans pub coûte environ 3,49 euros.
+Bémols : le design a l'air d'avoir dix ans et les pubs reviennent vite dans la version gratuite. La version sans pub coûte environ 2,99 euros.
 
 ## 5. StudyGe, atlas interactif et quiz
 
 StudyGe fonctionne comme un atlas interactif couplé à des quiz. On explore le monde pays par pays (population, superficie, PIB, langues), puis on teste ses connaissances. La carte a un design moderne, le mode hors ligne fonctionne bien, et l'équilibre exploration-quiz est plutôt bien dosé.
 
-En revanche, certaines fonctions sont verrouillées derrière la version premium (environ 4,99 euros par an), le volet culture générale reste maigre, et au bout de quelques semaines on tourne en rond sur les mêmes questions.
+En revanche, certaines fonctions sont verrouillées derrière la version premium (environ 30 euros par an), le volet culture générale reste maigre, et au bout de quelques semaines on tourne en rond sur les mêmes questions.
 
 ## 6. Geography Quiz Game, minimaliste
 
@@ -64,7 +64,7 @@ La contrepartie : pas d'explication après les réponses, pas de suivi sérieux 
 
 Stack the Countries prend le problème à l'envers. Au lieu d'un quiz classique, on répond à des questions pour gagner des pays transformés en blocs, puis on les empile jusqu'à une ligne d'arrivée. Moitié quiz, moitié jeu d'adresse. Ça marche vraiment bien avec les 6-12 ans, testé en famille.
 
-Visuels colorés, animations soignées, aucune pub ni achat intégré, ce qui rassure les parents. Le contenu couvre pays, capitales, drapeaux, monuments, formes des pays. Deux réserves : c'est uniquement iOS, et l'application n'a pas été mise à jour depuis un moment. Environ 3,99 euros en achat unique.
+Visuels colorés, animations soignées, aucune pub ni achat intégré, ce qui rassure les parents. Le contenu couvre pays, capitales, drapeaux, monuments, formes des pays. Disponible sur iOS et Android, environ 2,99 euros en achat unique.
 
 Pour une [soirée quiz géographie en famille](/blog/geographie-famille/), Stack the Countries pour les petits et SAPIRO pour les grands fonctionne bien.
 
@@ -78,7 +78,7 @@ Le piège : sans objectif précis, on passe une heure à survoler la Patagonie e
 
 | Application | Quiz | Carte interactive | Culture générale | Hors ligne | Multijoueur |
 |---|---|---|---|---|---|
-| **SAPIRO** | Oui | - | Oui | Oui | - |
+| **SAPIRO** | Oui | - | Oui | Oui | Duel |
 | Seterra | Oui | Oui | Non | Partiel | Non |
 | GeoGuessr | Partiel | Oui | Non | Non | Oui |
 | World Geography | Oui | Partiel | Non | Oui | Non |

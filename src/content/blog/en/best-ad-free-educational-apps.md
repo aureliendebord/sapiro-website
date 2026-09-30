@@ -2,7 +2,7 @@
 title: "Best Ad-Free Educational Apps"
 description: "Selection of the best ad-free educational applications: geography, languages, history, science. Learning without interruptions."
 date: 2026-03-03
-lastModified: 2026-06-15
+lastModified: 2026-09-30
 image: "/images/blog/apps/tablette-education.jpg"
 imageAlt: "A child playing with a wooden toy laptop with Cyrillic letters"
 imageCredit: "Photo: Shixart1985 · CC BY 2.0 · Wikimedia Commons"
@@ -18,7 +18,7 @@ Advertising in educational apps breaks learning. Here is a selection of truly ad
 
 ## General knowledge
 
-**SAPIRO.** Free, no ads, no data collection. 2,000+ questions on geography, history, art, nature. All ages.
+**SAPIRO.** Free, no ads, no data ever sold. 2,000+ questions on geography, history, art, nature. All ages.
 
 **Duolingo (partially).** Free with ads. Premium for ad-free version.
 
@@ -26,7 +26,7 @@ Advertising in educational apps breaks learning. Here is a selection of truly ad
 
 **SAPIRO.** Coverage of 197 countries with flags and capitals. No ads.
 
-**Seterra Premium.** Map reference. Premium ($3/month) ad-free.
+**Seterra (mobile app).** Map reference. Free app, no ads.
 
 **GeoGuessr.** Premium only, but the experience is unique.
 
@@ -46,7 +46,7 @@ Advertising in educational apps breaks learning. Here is a selection of truly ad
 
 **Anki.** Free on computer and Android, paid on iOS. Spaced repetition flashcard system, ad-free.
 
-**Duolingo Super.** $8-14/month to remove ads.
+**Duolingo Super.** Roughly $8-14/month to remove ads.
 
 ## Reading and comprehension
 
@@ -66,7 +66,7 @@ Three reasons.
 
 ## The ad-free business model: three options
 
-**Honest freemium.** Complete free version, premium for advanced features. That is the SAPIRO model.
+**Honest freemium.** A genuinely usable free version with no ads. That is SAPIRO's choice.
 
 **Paid subscription.** No free version. Anki model on iOS, some meditation apps.
 
@@ -80,7 +80,7 @@ Three reasons.
 
 **Family.** The app must be safe for children. No questionable ads.
 
-**Data.** No advertising means no behavioral data collection. See our article on [quiz apps without data collection](/en/blog/quiz-apps-no-data-collection/).
+**Data.** No advertising means no reason to sell behavioral data. See our article on [quiz apps without data collection](/en/blog/quiz-apps-no-data-collection/).
 
 ## How to know if an app is really "ad-free"
 

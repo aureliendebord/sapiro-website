@@ -1,8 +1,8 @@
 ---
 title: "Quiz Apps Without Data Collection: Comparison"
-description: "Which quiz apps truly respect your data? Comparison of applications that do not collect your personal data."
+description: "Which quiz apps truly respect your data? Comparison of quiz applications by what they do with your personal data."
 date: 2026-03-04
-lastModified: 2026-06-15
+lastModified: 2026-09-30
 image: "/images/blog/apps/smartphone-app.jpg"
 imageAlt: "A smartphone showing a social media post"
 imageCredit: "Photo: Mictlancihuatl · CC BY-SA 4.0 · Wikimedia Commons"
@@ -42,7 +42,7 @@ Five points to check.
 
 ## The quiz app landscape
 
-**SAPIRO.** No mandatory account, no social login, no third-party tracker, minimal permissions (nothing beyond local storage), short privacy policy. 100% respectful model.
+**SAPIRO.** Optional account (it only saves your progress), no ads or advertising cookies, data never sold. Usage is measured (games played) to improve the app, nothing more.
 
 **Quizlet.** Mandatory account, social logins, many trackers, long privacy policy.
 
@@ -52,11 +52,11 @@ Five points to check.
 
 **Anki (desktop, open source).** No collection. Ultra-respectful model but more austere.
 
-## How SAPIRO can be free and collection-free
+## How SAPIRO can be free without selling data
 
 That is the legitimate question. The business model rests on:
 
-**Paid Sapiro+.** $1.99/month, $19.99/year or $39.99 lifetime. Voluntary, no pressure. Users who value the service support it.
+**No ad network.** With no ads to target, the app has no reason to profile its users or sell their data.
 
 **No massive marketing investment.** Word of mouth replaces paid advertising.
 

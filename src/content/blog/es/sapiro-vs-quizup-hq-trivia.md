@@ -2,7 +2,7 @@
 title: "Sapiro vs QuizUp y HQ Trivia: enfoques distintos"
 description: "Comparativa Sapiro con QuizUp y HQ Trivia: ¿quiz competitivo en vivo o aprendizaje tranquilo? Ventajas y límites de cada formato."
 date: 2026-03-02
-lastModified: 2026-06-15
+lastModified: 2026-09-30
 image: "/images/blog/apps/smartphone-app.jpg"
 imageAlt: "Un smartphone mostrando una publicación en una red social"
 imageCredit: "Foto: Mictlancihuatl · CC BY-SA 4.0 · Wikimedia Commons"
@@ -24,7 +24,7 @@ SAPIRO, QuizUp y HQ Trivia son tres enfoques muy distintos del quiz. Aquí van l
 
 **Límites.** Sin explicación pedagógica detrás de las preguntas. Muchas preguntas repetitivas. Publicidad presente.
 
-**Estado.** La app ha decaído y su futuro es incierto (vendida y relanzada varias veces).
+**Estado.** Cerrada definitivamente: Glu Mobile anunció el cierre en enero de 2021 y apagó los servidores en marzo de 2021.
 
 ## HQ Trivia: quiz en vivo televisado
 
@@ -32,17 +32,17 @@ SAPIRO, QuizUp y HQ Trivia son tres enfoques muy distintos del quiz. Aquí van l
 
 **Fortalezas.** Sensación única de quiz televisado en directo. Comunidad masiva en picos de popularidad.
 
-**Límites.** La app cerró en 2020 y luego intentó volver. Modelo de negocio incierto. No pedagógico.
+**Límites.** La app cerró por primera vez en febrero de 2020, se relanzó al mes siguiente y luego se detuvo definitivamente. No pedagógico.
 
-**Estado.** Muerta en 2020, intentos de relanzamiento inestables.
+**Estado.** Cerrada: última partida en noviembre de 2022, app retirada de las tiendas en agosto de 2023.
 
-## SAPIRO: quiz pedagógico en solo
+## SAPIRO: quiz pedagógico a tu ritmo
 
 **El concepto.** Quiz cultura general pre-construido con explicación didáctica detrás de cada respuesta. Cuatro universos: geografía, historia, arte, naturaleza.
 
-**Fortalezas.** Aprendizaje real. Sin publicidad. Sin recolección de datos. Apto para todas las edades, en familia o solo.
+**Fortalezas.** Aprendizaje real. Sin publicidad. Sin venta de datos. Apto para todas las edades, en familia o solo.
 
-**Límites.** Sin multijugador en vivo. Sin modo multijugador. Enfoque más tranquilo.
+**Límites.** Sin multijugador en vivo: el modo duelo es asíncrono (repites la partida de otro jugador para ganar trofeos). Enfoque más tranquilo.
 
 **Estado.** App activa, gratuita, sin publi.
 
@@ -53,15 +53,14 @@ SAPIRO, QuizUp y HQ Trivia son tres enfoques muy distintos del quiz. Aquí van l
 | Multijugador en vivo | Sí | Sí | No |
 | Explicación pedagógica | No | No | Sí |
 | Sin publicidad | No | No | Sí |
-| Sin recolección de datos | No | No | Sí |
 | Premio en dinero | No | Sí | No |
-| Estado activo | Incierto | Muerta | Activa |
+| Estado activo | Cerrada (2021) | Muerta | Activa |
 
 ## Cuándo elegir qué
 
-**QuizUp si** te gusta la competencia pura en duelo. Aunque su futuro sea incierto.
+**QuizUp si** te gusta la competencia pura en duelo. Pero la app cerró en 2021: toca mirar hacia sus sucesoras.
 
-**HQ Trivia si** disfrutas la experiencia en vivo (si la app vuelve estable).
+**HQ Trivia si** disfrutas la experiencia en vivo. Pero la app ya no existe desde 2023.
 
 **SAPIRO si** quieres aprender tranquilamente, sin publicidad ni presión, solo o en familia.
 

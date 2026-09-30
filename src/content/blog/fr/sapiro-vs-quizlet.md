@@ -2,7 +2,7 @@
 title: "Sapiro vs Quizlet : quelle app choisir ?"
 description: "Comparatif Sapiro et Quizlet : quiz culture générale ou flashcards ? Avantages, inconvénients et public cible de chaque application."
 date: 2026-02-27
-lastModified: 2026-06-15
+lastModified: 2026-09-30
 image: "/images/blog/apps/etudier-smartphone.jpg"
 imageAlt: "Des seniors suivant une formation en salle de cours"
 imageCredit: "Photo : ONBag · CC0 · Wikimedia Commons"
@@ -30,9 +30,9 @@ SAPIRO et Quizlet sont deux apps d'apprentissage, mais elles ne font pas la mêm
 
 ## La gratuité
 
-**Quizlet.** Gratuit pour le basique. Quizlet Plus (4 euros/mois) pour les fonctionnalités avancées (ChatGPT pour générer des questions, modes hors ligne, statistiques).
+**Quizlet.** Gratuit pour le basique. Quizlet Plus (environ 8 à 10 $/mois, moins cher à l'année) pour les fonctionnalités avancées (ChatGPT pour générer des questions, modes hors ligne, statistiques).
 
-**SAPIRO.** Gratuit avec toutes les fonctionnalités essentielles, sans publicité, sans collecte de données. Sapiro+ (1,99 euros/mois, 19,99 par an ou 39,99 à vie) pour fonctionnalités étendues (statistiques détaillées, modes spéciaux).
+**SAPIRO.** Version gratuite sans publicité, données jamais revendues.
 
 ## La publicité
 
@@ -44,7 +44,7 @@ SAPIRO et Quizlet sont deux apps d'apprentissage, mais elles ne font pas la mêm
 
 **Quizlet.** Collecte les données utilisateur pour personnalisation et publicité. Politique standard d'app numérique.
 
-**SAPIRO.** Aucune collecte de données. Ni création de compte obligatoire, ni cookies traçants, ni partage avec des tiers. Voir notre article sur les [apps quiz sans collecte de données](/blog/apps-quiz-sans-collecte-donnees/).
+**SAPIRO.** Données jamais revendues. Ni création de compte obligatoire, ni cookie publicitaire. Voir notre article sur les [apps quiz sans collecte de données](/blog/apps-quiz-sans-collecte-donnees/).
 
 ## Le public cible
 
@@ -73,11 +73,11 @@ SAPIRO et Quizlet sont deux apps d'apprentissage, mais elles ne font pas la mêm
 
 ### SAPIRO est-il vraiment gratuit ?
 
-Oui, SAPIRO est gratuit avec toutes les fonctionnalités essentielles, sans publicité ni collecte de données. La version Sapiro+ (1,99 euros/mois, 19,99 euros/an ou 39,99 euros à vie) débloque des fonctionnalités étendues comme les statistiques détaillées et certains modes spéciaux.
+Oui, SAPIRO propose une version gratuite sans publicité, et ne revend aucune donnée.
 
 ### Quizlet est-il gratuit ?
 
-Quizlet propose une version gratuite avec des publicités et des fonctionnalités limitées. Quizlet Plus coûte environ 4 euros par mois et débloque les fonctionnalités avancées comme la génération de questions par IA, le mode hors-ligne et les statistiques.
+Quizlet propose une version gratuite avec des publicités et des fonctionnalités limitées. Quizlet Plus coûte environ 8 à 10 dollars par mois (moins cher à l'année) et débloque les fonctionnalités avancées comme la génération de questions par IA, le mode hors-ligne et les statistiques.
 
 ### Quelle app utiliser pour réviser un cours d'anglais ?
 
@@ -85,6 +85,6 @@ Quizlet est plus adapté pour réviser un cours spécifique grâce à sa bibliot
 
 ### SAPIRO collecte-t-il des données personnelles ?
 
-Non. SAPIRO ne collecte aucune donnée personnelle, ne demande pas de création de compte obligatoire, n'utilise pas de cookies traçants et ne partage rien avec des tiers. C'est l'une des rares apps éducatives à ce niveau de respect de la vie privée.
+Le strict nécessaire, et rien n'est revendu. Pas de publicité ni de cookie publicitaire. Le compte est facultatif : il sert à sauvegarder la progression. L'usage est mesuré (parties jouées) pour améliorer l'app.
 
 Pour creuser : [meilleures apps quiz culture générale](/blog/meilleures-apps-quiz-culture-generale/) pour étendre le comparatif.
