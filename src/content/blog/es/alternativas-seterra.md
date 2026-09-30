@@ -16,7 +16,7 @@ faqItems:
   - question: "¿Cuál es la mejor alternativa a Seterra?"
     answer: "Depende de lo que eches en falta. Para quiz de banderas y capitales con una explicación después de cada respuesta, sin publicidad y con más temas (historia, arte, naturaleza), SAPIRO. Para seguir trabajando sobre el mapa, StudyGe. Para jugar más que estudiar, GeoGuessr. Para un niño de 6 a 12 años, Stack the Countries."
   - question: "¿Hay alguna app como Seterra sin publicidad?"
-    answer: "Sí. La versión gratuita de SAPIRO no tiene publicidad. En las demás apps, los anuncios dependen de la versión que elijas, así que conviene revisar la ficha de la tienda antes de instalar."
+    answer: "Sí. La versión gratuita de SAPIRO no tiene publicidad. Stack the Countries, la app móvil de Seterra y GeoGuessr tampoco muestran anuncios. StudyGe y World Geography sí, en su versión gratuita."
   - question: "¿Se pueden practicar banderas y capitales en la computadora sin instalar nada?"
     answer: "Sí. Seterra tiene versión web y SAPIRO ofrece un juego gratuito en línea en sapiro.app/es/jugar/, sin instalación, con un Desafío del día que es el mismo para todo el mundo."
   - question: "¿Conviene reemplazar Seterra o complementarlo?"
@@ -71,9 +71,9 @@ La pega importante para quien lee esto en español: la app solo está en inglés
 |---|---|---|---|---|
 | **SAPIRO** | Geografía, historia, arte, naturaleza | Sí, versión gratuita | No | Navegador, iOS, Android |
 | Seterra | Solo geografía | Sí, web y móvil | No en la app móvil | Navegador, iOS, Android |
-| StudyGe | Geografía (mapa y quiz) | A verificar en la ficha de la tienda | A verificar en la ficha de la tienda | Móvil |
+| StudyGe | Geografía (mapa y quiz) | Sí, con compras integradas | Sí en la versión gratuita | iOS, Android |
 | World Geography | Geografía (capitales, banderas, monedas, idiomas) | Sí | Sí en la versión gratuita | iOS, Android |
-| GeoGuessr | Exploración con Street View | Limitado; suscripción para jugar sin límites | A verificar en la ficha de la tienda | Navegador y móvil |
+| GeoGuessr | Exploración con Street View | Limitado; suscripción para jugar sin límites | No | Navegador, iOS, Android |
 | Stack the Countries | Geografía para niños | No, app de pago | No | iOS, Android |
 
 ## Cuál elegir según tu perfil

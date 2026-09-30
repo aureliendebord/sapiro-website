@@ -16,7 +16,7 @@ faqItems:
   - question: "What is the best alternative to Seterra?"
     answer: "It depends on what you feel is missing. For flag and capital quizzes with an explanation after every answer, no ads, and topics beyond geography (history, art, nature), try SAPIRO. To stay map-first, StudyGe. To play rather than study, GeoGuessr. For a child aged 6 to 12, Stack the Countries."
   - question: "Is there an app like Seterra with no ads?"
-    answer: "Yes. The free version of SAPIRO has no ads at all, and Stack the Countries does not show any either. For the other apps, ads depend on the version you pick, so check the store listing before you install."
+    answer: "Yes. The free version of SAPIRO has no ads at all, and Stack the Countries does not show any either. Seterra's mobile app and GeoGuessr do not show ads either. StudyGe and World Geography do in their free versions."
   - question: "Can I practice flags and capitals on a computer without installing anything?"
     answer: "Yes. Seterra has a web version, GeoGuessr runs in the browser, and SAPIRO offers a free online game at sapiro.app/en/play/ with no install, including a Daily Challenge that is the same for everyone."
   - question: "Should I replace Seterra or use something alongside it?"
@@ -71,9 +71,9 @@ It is a paid app, adults will find it too simple, and the content does not updat
 |---|---|---|---|---|
 | **SAPIRO** | Geography, history, art, nature | Yes, free version | No | Browser, iOS, Android |
 | Seterra | Geography only | Yes, web and mobile | No in the mobile app | Browser, iOS, Android |
-| StudyGe | Geography (atlas and quizzes) | Yes, with in-app purchases | Check the store listing | iOS, Android |
+| StudyGe | Geography (atlas and quizzes) | Yes, with in-app purchases | Yes in the free version | iOS, Android |
 | World Geography | Geography (countries, flags, currencies) | Yes | Yes in the free version | iOS, Android |
-| GeoGuessr | Street View exploration | Limited free tier | Check the store listing | Browser, iOS, Android |
+| GeoGuessr | Street View exploration | Limited free tier | No | Browser, iOS, Android |
 | Stack the Countries | Geography for kids | No, paid app | No | iOS, Android |
 
 ## Which one should you pick?
