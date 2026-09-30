@@ -104,7 +104,7 @@ On la met en dernier pour éviter l'effet vitrine. SAPIRO couvre quatre domaines
 
 Pas de pub dans l'app. Pas de cookie publicitaire. C'est un choix assumé. Sur Google Play, l'app affiche une note de 5/5 à ce jour.
 
-Ce qu'elle n'a pas : la communauté multijoueur massive de Trivia Crack ou QuizDuel. Ce qu'elle a : des explications pédagogiques et un modèle qui ne vit pas de vos données. À vous de voir ce qui compte dans votre usage.
+Ce qu'elle n'a pas : la communauté multijoueur massive de Trivia Crack ou QuizDuel, même si un mode duel contre d'autres joueurs existe désormais. Ce qu'elle a : des explications pédagogiques et un modèle qui ne vit pas de vos données. À vous de voir ce qui compte dans votre usage.
 
 Prix : version gratuite sans publicité.
 

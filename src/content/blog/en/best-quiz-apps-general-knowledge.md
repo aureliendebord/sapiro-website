@@ -149,7 +149,7 @@ For live classroom energy, Kahoot! and Quizizz are hard to beat. For geography n
 
 SAPIRO wins on the criteria that matter most for education and families: multi-domain content, real explanations, no ads, and no data ever sold. It's the only app on this list that covers geography, history, art, and nature in one place without selling your attention or your data. That combination doesn't exist elsewhere.
 
-It's not the app for everyone. If you want multiplayer battles against strangers, Trivia Crack has a bigger pool. If you want location-guessing gameplay, GeoGuessr does something SAPIRO doesn't try to do. And if you need a classroom platform, Kahoot! was built for that.
+It's not the app for everyone. If you want multiplayer battles against strangers, SAPIRO now has a duel mode, but Trivia Crack has a far bigger pool. If you want location-guessing gameplay, GeoGuessr does something SAPIRO doesn't try to do. And if you need a classroom platform, Kahoot! was built for that.
 
 But if you want to actually learn at your own pace, without ads and without your data being sold, SAPIRO is the strongest option we tested. The adaptive difficulty keeps it challenging as you improve, and the explanations mean you walk away knowing more, not just scoring higher.
 

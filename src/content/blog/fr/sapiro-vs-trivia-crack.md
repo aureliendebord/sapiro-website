@@ -22,7 +22,7 @@ Le choix entre les deux se joue surtout sur une question simple : qu'est-ce qu'o
 
 Trivia Crack fonctionne sur une roue à six catégories (divertissement, art, sports, histoire, sciences, géographie) et un format rapide : question, quatre choix, on enchaîne. Le volume de questions est énorme, largement issu de la communauté, avec les qualités et les défauts du format participatif. On trouve des questions brillantes et des questions franchement mal tournées, souvent marquées par un fort biais pop culture américaine. Le duel asynchrone contre un ami reste le meilleur aspect du jeu, plutôt bien rodé depuis dix ans.
 
-SAPIRO tient quatre domaines travaillés en profondeur : géographie (197 pays avec drapeaux, capitales, cartes), histoire (500+ personnages), art (553 œuvres) et nature (600 espèces). Moins de catégories que Trivia Crack, mais 2 000+ questions vérifiées, toutes accompagnées d'une explication après la réponse. 50+ parcours thématiques structurent l'apprentissage (musées du monde, familles animales, empires, peintres de la Renaissance). L'appli fonctionne hors connexion. Pas de duel multijoueur en revanche, c'est une appli conçue pour apprendre, pas pour affronter 20 amis en simultané.
+SAPIRO tient quatre domaines travaillés en profondeur : géographie (197 pays avec drapeaux, capitales, cartes), histoire (500+ personnages), art (553 œuvres) et nature (600 espèces). Moins de catégories que Trivia Crack, mais 2 000+ questions vérifiées, toutes accompagnées d'une explication après la réponse. 50+ parcours thématiques structurent l'apprentissage (musées du monde, familles animales, empires, peintres de la Renaissance). L'appli fonctionne hors connexion. Côté compétition, un mode duel permet de rejouer la partie d'un autre joueur, question par question, pour gagner des trophées. Ça reste plus sobre que Trivia Crack : l'appli est conçue pour apprendre, pas pour affronter 20 amis en simultané.
 
 ## La vraie ligne de fracture : publicités et données
 
@@ -49,7 +49,7 @@ L'appli est notée 5/5 sur Google Play et recommandée par des enseignants comme
 | **Version gratuite** | Oui, sans pub | Oui, avec pubs intensives |
 | **Publicités** | Aucune | Omniprésentes en gratuit, retirées avec Prime (payant) |
 | **Données** | Jamais revendues | Données personnelles, géoloc, tracking tiers |
-| **Multijoueur asynchrone** | Non | Oui (point fort) |
+| **Multijoueur asynchrone** | Oui (mode duel) | Oui (point fort) |
 | **Explications après réponse** | Oui | Non |
 | **Hors connexion** | Oui | Non |
 
@@ -57,7 +57,7 @@ L'appli est notée 5/5 sur Google Play et recommandée par des enseignants comme
 
 Si on veut défier des amis autour d'un quiz rapide, avec des notifications qui font revenir et un aspect compétitif multijoueur bien fichu, Trivia Crack remplit son contrat. Le format reste efficace, la roue amuse, et les duels asynchrones sont un des meilleurs du genre. À accepter avec : les pubs intrusives et une collecte de données que peu de parents liraient en détail avant d'installer l'appli sur le téléphone de leurs enfants.
 
-Si l'objectif est d'apprendre en jouant, ou de donner à un enfant une alternative sérieuse au temps d'écran passif, SAPIRO est construit pour ça. Explications après chaque question, pas de pub, pas de revente de données, fonctionnement hors ligne. Le produit ne cherche pas à rivaliser sur le terrain multijoueur, il propose un autre contrat : moins d'adrénaline sociale, plus de connaissances qui restent.
+Si l'objectif est d'apprendre en jouant, ou de donner à un enfant une alternative sérieuse au temps d'écran passif, SAPIRO est construit pour ça. Explications après chaque question, pas de pub, pas de revente de données, fonctionnement hors ligne. Le mode duel existe, mais le produit ne cherche pas à rivaliser sur le terrain du multijoueur social, il propose un autre contrat : moins d'adrénaline sociale, plus de connaissances qui restent.
 
 Pour aller plus loin, consultez notre guide des [meilleures applications de quiz de culture générale](/blog/meilleures-apps-quiz-culture-generale/), nos comparatifs [SAPIRO vs GeoGuessr](/blog/sapiro-vs-geoguessr/) et [SAPIRO vs Kahoot](/blog/sapiro-vs-kahoot/), et notre article sur la [gamification dans l'éducation](/blog/gamification-education/).
 

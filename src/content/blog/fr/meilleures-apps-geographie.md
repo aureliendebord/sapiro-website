@@ -78,7 +78,7 @@ Le piège : sans objectif précis, on passe une heure à survoler la Patagonie e
 
 | Application | Quiz | Carte interactive | Culture générale | Hors ligne | Multijoueur |
 |---|---|---|---|---|---|
-| **SAPIRO** | Oui | - | Oui | Oui | - |
+| **SAPIRO** | Oui | - | Oui | Oui | Duel |
 | Seterra | Oui | Oui | Non | Partiel | Non |
 | GeoGuessr | Partiel | Oui | Non | Non | Oui |
 | World Geography | Oui | Partiel | Non | Oui | Non |

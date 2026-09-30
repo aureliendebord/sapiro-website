@@ -36,13 +36,13 @@ SAPIRO, QuizUp y HQ Trivia son tres enfoques muy distintos del quiz. Aquí van l
 
 **Estado.** Muerta en 2020, intentos de relanzamiento inestables.
 
-## SAPIRO: quiz pedagógico en solo
+## SAPIRO: quiz pedagógico a tu ritmo
 
 **El concepto.** Quiz cultura general pre-construido con explicación didáctica detrás de cada respuesta. Cuatro universos: geografía, historia, arte, naturaleza.
 
 **Fortalezas.** Aprendizaje real. Sin publicidad. Sin venta de datos. Apto para todas las edades, en familia o solo.
 
-**Límites.** Sin multijugador en vivo. Sin modo multijugador. Enfoque más tranquilo.
+**Límites.** Sin multijugador en vivo: el modo duelo es asíncrono (repites la partida de otro jugador para ganar trofeos). Enfoque más tranquilo.
 
 **Estado.** App activa, gratuita, sin publi.
 

@@ -20,7 +20,7 @@ Encontrar una app de quiz de cultura general que valga la pena no es tan fácil.
 
 SAPIRO cubre geografía, historia, arte y naturaleza con más de 2000 preguntas verificadas, disponible en iOS y Android. Está pensada para adultos curiosos y para familias.
 
-Lo que la distingue es que cada respuesta incluye una explicación. No te quedas con la duda de por qué fallaste. Usa repetición espaciada para reforzar lo que no dominas, y tiene varios modos: quiz clásico, contrarreloj, desafíos diarios y partidas con amigos.
+Lo que la distingue es que cada respuesta incluye una explicación. No te quedas con la duda de por qué fallaste. Usa repetición espaciada para reforzar lo que no dominas, y tiene varios modos: quiz clásico, contrarreloj, desafíos diarios y duelos contra otros jugadores.
 
 No muestra publicidad ni vende tus datos. Es poco habitual en apps gratuitas. La versión gratuita ofrece bastante contenido. Tiene 5/5 en Google Play.
 

@@ -22,7 +22,7 @@ SAPIRO cubre países, capitales, banderas, monumentos, gastronomía y tradicione
 
 Lo que la distingue del resto es su sistema de repetición espaciada. El algoritmo analiza dónde fallas (esos [errores clásicos de geografía](/es/blog/errores-geografia/) que arrastramos todos) y te propone sesiones que atacan justo tus puntos débiles. No pierdes tiempo repasando Japón si ya lo dominas.
 
-Tiene varios modos de juego (quiz clásico, contrarreloj, desafíos diarios, competiciones con amigos) y el contenido va desde nivel principiante hasta experto. La interfaz está cuidada: mapas interactivos, fichas por país, diseño limpio. Tiene una versión gratuita sin publicidad.
+Tiene varios modos de juego (quiz clásico, contrarreloj, desafíos diarios, duelos contra otros jugadores) y el contenido va desde nivel principiante hasta experto. La interfaz está cuidada: mapas interactivos, fichas por país, diseño limpio. Tiene una versión gratuita sin publicidad.
 
 Nota: 9,5/10
 

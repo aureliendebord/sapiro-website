@@ -36,13 +36,13 @@ SAPIRO, QuizUp and HQ Trivia are three very different approaches to quizzes. Her
 
 **Status.** Dead in 2020, unstable revival attempts.
 
-## SAPIRO: educational solo quiz
+## SAPIRO: educational quiz at your own pace
 
 **The concept.** Pre-built general knowledge quiz with an educational explanation behind each answer. Four universes: geography, history, art, nature.
 
 **Strengths.** Real learning. No ads. No data ever sold. Suitable for all ages, family or solo.
 
-**Limits.** No live multiplayer. No multiplayer mode. Calmer approach.
+**Limits.** No live multiplayer: the duel mode is asynchronous (you replay another player's game to win trophies). Calmer approach.
 
 **Status.** Active, free, ad-free app.
 
