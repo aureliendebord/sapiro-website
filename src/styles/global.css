@@ -1,24 +1,70 @@
-/* Variables de couleurs - Palette SAPIRO */
-:root {
-  --orange: #FF6B35;
-  --orange-dark: #E55A2B;
-  --violet: #A855F7;
-  --violet-light: #C084FC;
-  --jaune: #FBBF24;
-  --teal: #14B8A6;
-  --teal-dark: #0D9488;
-  --coral: #F87171;
-  --vert: #22C55E;
-  --blanc: #FFFFFF;
-  --noir: #1F2937;
-  --gris: #6B7280;
-  --gris-clair: #F3F4F6;
+/* Polices de l'app (DA V3), hébergées sur sapiro.app : aucune requête vers
+   Google, donc aucune IP de visiteur transmise. Nunito est variable (400-800). */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400 800;
+  font-display: swap;
+  src: url('/fonts/nunito-latin-ext.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400 800;
+  font-display: swap;
+  src: url('/fonts/nunito-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Baloo 2';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url('/fonts/baloo2-800-latin-ext.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Baloo 2';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url('/fonts/baloo2-800-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
 
-  --font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
-  --border-radius: 16px;
+/* Palette SAPIRO — DA V3 de l'app (constants/design.ts, 2.1.0) :
+   fond crème, texte encre brun, orange réservé aux actions. */
+:root {
+  --orange: #FF5E3A;
+  --orange-dark: #E9401F;
+  --orange-base: #C9441F;
+  --orange-tint: #FFE4DB;
+  --cream: #FBF4EB;
+  --cream-top: #FFFDFA;
+  --cream-mid: #FBF1E8;
+  --cream-deep: #F6DCCB;
+  --ink: #2A1A14;
+  --ink-soft: rgba(42, 26, 20, 0.6);
+  --rule: #E8DFCD;
+  --violet: #7C5CE0;
+  --violet-light: #E7E0FA;
+  --jaune: #F4B740;
+  --teal: #2E9AA8;
+  --teal-dark: #155E68;
+  --coral: #E5435A;
+  --vert: #4C9A6B;
+  --blanc: #FFFFFF;
+  --noir: #2A1A14;
+  --gris: #6E665C;
+  --gris-clair: #F3EADA;
+
+  --font-family: 'Nunito', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+  --border-radius: 22px;
   --border-radius-sm: 8px;
-  --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --shadow: 0 10px 28px -18px rgba(120, 50, 20, 0.35);
+  --shadow-lg: 0 22px 40px -20px rgba(120, 50, 20, 0.42);
+  --font-display: 'Baloo 2', 'Nunito', system-ui, sans-serif;
   --max-width: 1200px;
 }
 
@@ -39,8 +85,8 @@ html {
 body {
   font-family: var(--font-family);
   line-height: 1.6;
-  color: var(--noir);
-  background: var(--blanc);
+  color: var(--ink);
+  background: var(--cream);
   -webkit-font-smoothing: antialiased;
 }
 
@@ -51,14 +97,14 @@ img {
 }
 
 /* Icônes de l'app utilisées à la place des emojis.
-   Taille calée sur le contexte (1em) et alignée sur le texte. */
+   Taille calée sur le contexte (1em) et alignée sur le texte. Depuis la V3
+   elles sont détourées (fond transparent) : pas de tuile arrondie. */
 .app-ico {
   display: inline-block;
   width: 1em;
   height: 1em;
   vertical-align: -0.15em;
   object-fit: contain;
-  border-radius: 22%;
   flex-shrink: 0;
 }
 
@@ -119,12 +165,13 @@ button {
 }
 
 .btn-orange {
-  background: var(--orange);
+  background: linear-gradient(180deg, #FF8A5B 0%, var(--orange) 55%, var(--orange-dark) 100%);
   color: var(--blanc);
+  box-shadow: 0 4px 0 var(--orange-base);
 }
 
 .btn-orange:hover {
-  background: var(--orange-dark);
+  box-shadow: 0 6px 0 var(--orange-base);
 }
 
 /* Cartes */
@@ -144,7 +191,8 @@ button {
 /* Titres */
 h1, h2, h3, h4 {
   line-height: 1.2;
-  font-weight: 700;
+  font-weight: 800;
+  color: var(--ink);
 }
 
 h1 {

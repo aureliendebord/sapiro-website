@@ -31,8 +31,6 @@ export {
   type SurvivalEntry,
 } from "./mixedQuestions";
 
-export { calculateXP, type XPBreakdown, type ScoreInput } from "./scoring";
-
 export {
   CLASSIC_QUESTION_COUNT,
   DAILY_CHALLENGE_QUESTIONS,

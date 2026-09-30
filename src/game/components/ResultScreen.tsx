@@ -9,6 +9,7 @@ import { play } from "@game/lib/sounds";
 import { mobileStore } from "@game/lib/device";
 import { capture } from "@game/lib/analytics";
 import { challengeUrl, shareChallenge, shareText, type Challenge } from "@game/lib/share";
+import { useGameStore } from "@game/store/gameStore";
 
 interface Props {
   result: SessionResult;
@@ -57,6 +58,8 @@ export function ResultScreen({
     if (outcome === "copied") setShareNotice(t("web.share.copied"));
     else if (outcome === "failed") setShareNotice(t("web.share.failed"));
   };
+  // Déjà avancée par markDailyDone avant l'affichage du résultat.
+  const dailyStreak = useGameStore((s) => s.dailyStreak);
 
   // Célébration à l'arrivée, comme sur mobile — mais seulement quand il y a
   // quelque chose à célébrer : des confettis sur un 2/10 sonnent faux.
@@ -83,24 +86,19 @@ export function ResultScreen({
 
         {dailyKey && challenge && (
           <p className="result-challenge">
-            {t(`web.share.${duelOutcome(result.score, challenge.score)}`, {
+            {t(`web.share.${challengeOutcome(result.score, challenge.score)}`, {
               score: challenge.score,
               total: challenge.total,
             })}
           </p>
         )}
 
-        <span className="result-xp">+{result.xp.totalXP} XP</span>
-
-        {bonusLines(result).length > 0 && (
-          <ul className="result-bonuses">
-            {bonusLines(result).map(({ key, xp }) => (
-              <li key={key}>
-                <span>{t(`web.result.${key}`)}</span>
-                <strong>+{xp} XP</strong>
-              </li>
-            ))}
-          </ul>
+        {/* Défi du jour : pastille de série sous le score, comme l'app 2.1.0
+            (l'XP a disparu, le score parle seul). */}
+        {result.mode === "daily" && (
+          <span className="result-streak">
+            <Icon emoji="🔥" size={16} /> {dailyStreak}
+          </span>
         )}
 
         <div className="result-actions">
@@ -161,23 +159,7 @@ export function ResultScreen({
   );
 }
 
-/**
- * Détail des bonus obtenus. Le calcul vient de `calculateXP` du cœur
- * synchronisé : on ne fait qu'afficher ce qu'il a déjà décidé.
- */
-function bonusLines(result: SessionResult): { key: string; xp: number }[] {
-  const { xp } = result;
-  return [
-    { key: "bonusPerfect", xp: xp.perfectBonus },
-    { key: "bonusSurvival", xp: xp.survivalBonus },
-    { key: "bonusSurvivalComplete", xp: xp.survivalCompleteBonus },
-    { key: "bonusSurvivalPerfect", xp: xp.survivalPerfectBonus },
-    { key: "bonusDailyStreak", xp: xp.dailyStreakBonus },
-    { key: "bonusDailyPerfect", xp: xp.dailyPerfectBonus },
-  ].filter((line) => line.xp > 0);
-}
-
-function duelOutcome(mine: number, theirs: number): "won" | "tied" | "lost" {
+function challengeOutcome(mine: number, theirs: number): "won" | "tied" | "lost" {
   if (mine > theirs) return "won";
   return mine === theirs ? "tied" : "lost";
 }

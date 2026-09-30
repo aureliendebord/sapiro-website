@@ -12,6 +12,7 @@ import { APP_STORE_ID, APP_STORE_SLUG, PLAY_STORE_URL } from './appLinks';
 
 export const SOCIAL_PROFILES = {
   instagram: 'https://www.instagram.com/sapiro_en',
+  tiktok: 'https://www.tiktok.com/@sapiro_en',
   facebook: 'https://www.facebook.com/profile.php?id=61591072345953',
   youtube: 'https://www.youtube.com/@sapiroapp',
 } as const;

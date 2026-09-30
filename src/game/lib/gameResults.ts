@@ -4,7 +4,7 @@
  *
  * Même table, mêmes colonnes, même idempotence par `(user_id, client_id)` :
  * une partie jouée sur le web et une partie jouée sur mobile sont
- * indistinguables en base, ce qui rend le classement et le comptage
+ * indistinguables en base, ce qui rend les statistiques et le comptage
  * de parties par jour cohérents entre les deux plateformes.
  *
  * L'insertion est best-effort : sans session ou hors-ligne, la partie part en
@@ -55,7 +55,8 @@ function toRow(result: SessionResult): PendingResult {
     theme: result.theme ?? null,
     score: result.score,
     total_questions: result.totalQuestions,
-    xp_earned: result.xp.totalXP,
+    // Colonne NOT NULL conservée côté backend : l'app 2.1.0 y envoie 0.
+    xp_earned: 0,
     duration: result.durationSeconds,
     played_at: new Date().toISOString(),
   };

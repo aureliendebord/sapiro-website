@@ -13,10 +13,10 @@ const copy = {
     kicker: 'On répond',
     title: 'Les questions\nqu\'on nous pose le plus.',
     items: [
-      { q: 'SAPIRO est-il vraiment gratuit ?', a: 'Oui. La version gratuite donne accès aux 4 univers, à une douzaine de parcours, aux modes Classique et Survie illimités, et au défi quotidien. Zéro publicité.' },
-      { q: 'Vous collectez mes données ?', a: 'Non. Zéro collecte. Pas de cookies, pas de tracking, pas de partage tiers. Toutes tes données de progression restent sur ton appareil.' },
-      { q: 'L\'app fonctionne hors ligne ?', a: 'Les quiz fonctionnent sans connexion : tout le contenu est téléchargé avec l\'app. Seules les mises à jour de contenu et les classements en ligne nécessitent du réseau.' },
-      { q: 'C\'est adapté aux enfants ?', a: 'Parfaitement. Aucune publicité, aucun contenu tiers, aucun compte obligatoire, aucune donnée collectée. Les enfants peuvent jouer seuls en toute autonomie.' },
+      { q: 'SAPIRO est-il vraiment gratuit ?', a: 'Oui, et sans publicité. Chaque jour, tu as 3 parties gratuites (duels compris) et le Défi du jour, sur les 5 univers. Sapiro+ débloque les parties illimitées et tous les parcours.' },
+      { q: 'Vous collectez mes données ?', a: 'Le strict nécessaire, et on ne revend rien. Pas de publicité ni de cookie publicitaire. On mesure l\'usage (parties jouées, pages vues) pour améliorer Sapiro. Le compte est facultatif : il sert à sauvegarder ta progression et ton abonnement.' },
+      { q: 'L\'app fonctionne hors ligne ?', a: 'Les quiz fonctionnent sans connexion : tout le contenu est téléchargé avec l\'app. Seuls les duels et les mises à jour de contenu nécessitent du réseau.' },
+      { q: 'C\'est adapté aux enfants ?', a: 'Parfaitement. Aucune publicité, aucun contenu tiers, aucun compte obligatoire, aucune donnée revendue. Les enfants peuvent jouer seuls en toute autonomie.' },
     ],
     more: 'Voir toutes les questions',
   },
@@ -24,10 +24,10 @@ const copy = {
     kicker: 'We answer',
     title: 'The questions\nwe get most.',
     items: [
-      { q: 'Is SAPIRO really free?', a: 'Yes. The free version gives access to all 4 universes, a dozen paths, unlimited Classic and Survival modes, and the daily challenge. Zero ads.' },
-      { q: 'Do you collect my data?', a: 'No. Zero collection. No cookies, no tracking, no third-party sharing. All your progress stays on your device.' },
-      { q: 'Does the app work offline?', a: 'Quizzes work without a connection: all content is bundled with the app. Only content updates and online leaderboards require the network.' },
-      { q: 'Is it kid-friendly?', a: 'Perfectly. No ads, no third-party content, no mandatory account, no data collection. Kids can play solo in full autonomy.' },
+      { q: 'Is SAPIRO really free?', a: 'Yes, and ad-free. Every day you get 3 free games (duels included) and the Daily Challenge, across all 5 worlds. Sapiro+ unlocks unlimited games and every path.' },
+      { q: 'Do you collect my data?', a: 'Only what\'s needed, and we never sell anything. No ads, no advertising cookies. We measure usage (games played, pages viewed) to improve Sapiro. An account is optional: it only saves your progress and subscription.' },
+      { q: 'Does the app work offline?', a: 'Quizzes work without a connection: all content is bundled with the app. Only duels and content updates require the network.' },
+      { q: 'Is it kid-friendly?', a: 'Perfectly. No ads, no third-party content, no mandatory account, no data ever sold. Kids can play solo in full autonomy.' },
     ],
     more: 'See all questions',
   },
@@ -35,10 +35,10 @@ const copy = {
     kicker: 'Respondemos',
     title: 'Las preguntas\nque mas nos hacen.',
     items: [
-      { q: 'SAPIRO es realmente gratis?', a: 'Si. La version gratuita da acceso a los 4 universos, a una docena de recorridos, a los modos Clasico y Supervivencia sin limite, y al desafio diario. Cero anuncios.' },
-      { q: 'Recolectan mis datos?', a: 'No. Cero recoleccion. Sin cookies, sin tracking, sin intercambio con terceros. Toda tu progresion se queda en tu dispositivo.' },
-      { q: 'Funciona sin conexion?', a: 'Los quizzes funcionan sin conexion: todo el contenido se descarga con la app. Solo las actualizaciones de contenido y las clasificaciones en linea requieren red.' },
-      { q: 'Apta para ninos?', a: 'Perfectamente. Sin anuncios, sin contenido de terceros, sin cuenta obligatoria, sin datos recolectados. Los ninos pueden jugar solos con total autonomia.' },
+      { q: 'SAPIRO es realmente gratis?', a: 'Sí, y sin publicidad. Cada día tienes 3 partidas gratis (duelos incluidos) y el Reto del día, en los 5 mundos. Sapiro+ desbloquea partidas ilimitadas y todos los recorridos.' },
+      { q: 'Recolectan mis datos?', a: 'Solo lo necesario, y no vendemos nada. Sin publicidad ni cookies publicitarias. Medimos el uso (partidas jugadas, páginas vistas) para mejorar Sapiro. La cuenta es opcional: solo guarda tu progreso y tu suscripción.' },
+      { q: 'Funciona sin conexion?', a: 'Los quizzes funcionan sin conexion: todo el contenido se descarga con la app. Solo los duelos y las actualizaciones de contenido requieren red.' },
+      { q: 'Apta para ninos?', a: 'Perfectamente. Sin anuncios, sin contenido de terceros, sin cuenta obligatoria, ningún dato vendido. Los ninos pueden jugar solos con total autonomia.' },
     ],
     more: 'Ver todas las preguntas',
   },
@@ -76,7 +76,7 @@ const t = copy[lang];
 
 <style>
   .faq-v2 {
-    background: #F9FAFB;
+    background: #FBF4EB;
     padding: 96px 0;
   }
 
@@ -89,8 +89,8 @@ const t = copy[lang];
   .kicker {
     display: inline-block;
     padding: 6px 14px;
-    background: rgba(168, 85, 247, 0.1);
-    color: #a855f7;
+    background: #FFE4DB;
+    color: #B13818;
     border-radius: 999px;
     font-size: 13px;
     font-weight: 600;
@@ -102,7 +102,7 @@ const t = copy[lang];
     font-weight: 800;
     letter-spacing: -0.025em;
     line-height: 1.1;
-    color: #0a0a0f;
+    color: #2A1A14;
     white-space: pre-line;
   }
 
@@ -117,7 +117,7 @@ const t = copy[lang];
   .item {
     background: #fff;
     border-radius: 16px;
-    border: 1px solid #e5e7eb;
+    border: 1px solid #E8DFCD;
     overflow: hidden;
     transition: box-shadow 0.2s, border-color 0.2s;
   }
@@ -127,8 +127,8 @@ const t = copy[lang];
   }
 
   .item[open] {
-    border-color: #ff6b35;
-    box-shadow: 0 20px 40px -20px rgba(255, 107, 53, 0.2);
+    border-color: #FF5E3A;
+    box-shadow: 0 20px 40px -20px rgba(255, 94, 58, 0.2);
   }
 
   summary {
@@ -140,7 +140,7 @@ const t = copy[lang];
     cursor: pointer;
     font-weight: 600;
     font-size: 16px;
-    color: #0a0a0f;
+    color: #2A1A14;
     list-style: none;
   }
 
@@ -152,23 +152,23 @@ const t = copy[lang];
     justify-content: center;
     width: 28px;
     height: 28px;
-    background: #f3f4f6;
+    background: #F3EADA;
     border-radius: 50%;
-    color: #6b7280;
+    color: #6E665C;
     transition: transform 0.3s, background 0.2s;
     flex-shrink: 0;
   }
 
   .item[open] .toggle {
     transform: rotate(180deg);
-    background: #ff6b35;
+    background: #FF5E3A;
     color: #fff;
   }
 
   .item p {
     padding: 0 24px 22px;
     font-size: 15px;
-    color: #4b5563;
+    color: #5A4E45;
     line-height: 1.65;
     margin: 0;
   }
@@ -179,13 +179,13 @@ const t = copy[lang];
   }
 
   .more-link {
-    color: #ff6b35;
+    color: #FF5E3A;
     font-weight: 600;
     font-size: 15px;
     transition: color 0.2s;
   }
 
-  .more-link:hover { color: #E55A2B; }
+  .more-link:hover { color: #E9401F; }
 
   @media (max-width: 520px) {
     .faq-v2 { padding: 64px 0; }

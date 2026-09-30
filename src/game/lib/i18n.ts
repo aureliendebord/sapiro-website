@@ -2,7 +2,7 @@
  * Traductions de l'interface de jeu.
  *
  * Les textes viennent des locales synchronisées depuis l'app (`game.json`,
- * `common.json`, `levels.json`) : mêmes libellés de question et mêmes termes
+ * `common.json`) : mêmes libellés de question et mêmes termes
  * que sur mobile. La langue est imposée par la route Astro (/jouer, /en/play,
  * /es/jugar), pas détectée — le SEO du site pilote déjà la langue de la page.
  *
@@ -18,20 +18,14 @@ const BUNDLES: Record<GameLang, () => Promise<Dict[]>> = {
   fr: async () => [
     (await import("@/locales/fr/game.json")).default,
     (await import("@/locales/fr/common.json")).default,
-    (await import("@/locales/fr/levels.json")).default,
-    { badges: (await import("@/locales/fr/badges.json")).default },
   ],
   en: async () => [
     (await import("@/locales/en/game.json")).default,
     (await import("@/locales/en/common.json")).default,
-    (await import("@/locales/en/levels.json")).default,
-    { badges: (await import("@/locales/en/badges.json")).default },
   ],
   es: async () => [
     (await import("@/locales/es/game.json")).default,
     (await import("@/locales/es/common.json")).default,
-    (await import("@/locales/es/levels.json")).default,
-    { badges: (await import("@/locales/es/badges.json")).default },
   ],
 };
 
@@ -46,7 +40,6 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
     home: {
       quotaNotice:
         "Plus de parties aujourd'hui. Le Défi du jour reste jouable, et l'illimité t'attend.",
-      level: "Niveau {{level}}",
       account: "Mon compte",
       signIn: "Se connecter",
       journeys: "Aventure",
@@ -60,7 +53,6 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
       survival: "Record",
       survivalDesc: "3 vies, jusqu'où iras-tu ?",
       nav: "Navigation du jeu",
-      xpToNext: "{{xp}} XP avant le niveau suivant",
       tickets: "Parties du jour",
       unlimited: "Passer en illimité",
       linkSubscription: "Lier à un compte",
@@ -74,7 +66,6 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
     nav: {
       home: "Accueil",
       journeys: "Aventure",
-      board: "Classement",
       profile: "Profil",
       account: "Compte",
       signIn: "Connexion",
@@ -91,18 +82,11 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
       livesLeft: "{{count}} vies restantes",
     },
     result: {
-      bonusPerfect: "Sans faute",
-      bonusSurvival: "Belle série",
-      bonusSurvivalComplete: "Pool épuisé",
-      bonusSurvivalPerfect: "Record parfait",
-      bonusDailyStreak: "Série de défis",
-      bonusDailyPerfect: "Défi parfait",
       survivalDone: "Partie Record terminée",
       perfect: "Parfait, rien à redire",
       great: "Bien joué",
       close: "Ça se joue de peu",
       keepGoing: "Il y a de la marge de progression",
-      perfectBonus: "Sans faute : +{{xp}} XP de bonus",
       outOfTickets: "Tu as utilisé tes parties du jour. Reviens demain, ou passe en illimité.",
       subscribe: "Jouer sans limite",
       outOfTicketsMobile: "Tu as utilisé tes parties du jour ici. Continue gratuitement dans l'app.",
@@ -134,19 +118,6 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
       bestSurvival: "Meilleur record",
       streak: "Série",
       pathBlocks: "Sentier",
-      badges: "Badges — {{done}}/{{total}}",
-    },
-    board: {
-      title: "Classement",
-      sub: "Web et mobile jouent dans le même classement.",
-      tab: { week: "Semaine", all: "Général", records: "Records" },
-      anonymous: "Crée un compte pour apparaître au classement et garder ta progression.",
-      yourRank: "Tu es {{rank}}e avec {{value}} XP",
-      noRank: "Joue une partie pour entrer au classement.",
-      loading: "Chargement du classement…",
-      empty: "Personne ici pour l'instant. À toi d'ouvrir le bal.",
-      xp: "{{count}} XP",
-      streak: "{{count}} d'affilée",
     },
     path: {
       cleared: "{{done}}/{{total}}",
@@ -245,7 +216,6 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
     home: {
       quotaNotice:
         "No games left today. The Daily Challenge is still playable, and unlimited is waiting.",
-      level: "Level {{level}}",
       account: "My account",
       signIn: "Sign in",
       journeys: "Adventure",
@@ -259,7 +229,6 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
       survival: "Record",
       survivalDesc: "3 lives, how far can you go?",
       nav: "Game navigation",
-      xpToNext: "{{xp}} XP to next level",
       tickets: "Today's games",
       unlimited: "Go unlimited",
       linkSubscription: "Link to an account",
@@ -272,7 +241,6 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
     nav: {
       home: "Home",
       journeys: "Adventure",
-      board: "Ranking",
       profile: "Profile",
       account: "Account",
       signIn: "Sign in",
@@ -289,18 +257,11 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
       livesLeft: "{{count}} lives left",
     },
     result: {
-      bonusPerfect: "Flawless",
-      bonusSurvival: "Strong run",
-      bonusSurvivalComplete: "Pool cleared",
-      bonusSurvivalPerfect: "Perfect run",
-      bonusDailyStreak: "Daily streak",
-      bonusDailyPerfect: "Perfect challenge",
       survivalDone: "Record run over",
       perfect: "Perfect, nothing to add",
       great: "Well played",
       close: "So close",
       keepGoing: "Room to improve",
-      perfectBonus: "Flawless: +{{xp}} bonus XP",
       outOfTickets: "You've used today's games. Come back tomorrow, or go unlimited.",
       subscribe: "Play unlimited",
       outOfTicketsMobile: "You've used today's games here. Keep playing free in the app.",
@@ -332,19 +293,6 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
       bestSurvival: "Best record",
       streak: "Streak",
       pathBlocks: "Trail",
-      badges: "Badges — {{done}}/{{total}}",
-    },
-    board: {
-      title: "Leaderboard",
-      sub: "Web and mobile share the same leaderboard.",
-      tab: { week: "Week", all: "All time", records: "Records" },
-      anonymous: "Create an account to appear on the leaderboard and keep your progress.",
-      yourRank: "You're #{{rank}} with {{value}} XP",
-      noRank: "Play a game to enter the leaderboard.",
-      loading: "Loading leaderboard…",
-      empty: "Nobody here yet. Be the first.",
-      xp: "{{count}} XP",
-      streak: "{{count}} in a row",
     },
     path: {
       cleared: "{{done}}/{{total}}",
@@ -440,7 +388,6 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
     home: {
       quotaNotice:
         "No te quedan partidas hoy. El Desafío del día sigue jugable, y el ilimitado te espera.",
-      level: "Nivel {{level}}",
       account: "Mi cuenta",
       signIn: "Iniciar sesión",
       journeys: "Aventura",
@@ -454,7 +401,6 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
       survival: "Récord",
       survivalDesc: "3 vidas, ¿hasta dónde llegarás?",
       nav: "Navegación del juego",
-      xpToNext: "{{xp}} XP para el siguiente nivel",
       tickets: "Partidas de hoy",
       unlimited: "Pasar a ilimitado",
       linkSubscription: "Vincular a una cuenta",
@@ -467,7 +413,6 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
     nav: {
       home: "Inicio",
       journeys: "Aventura",
-      board: "Ranking",
       profile: "Perfil",
       account: "Cuenta",
       signIn: "Entrar",
@@ -484,18 +429,11 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
       livesLeft: "{{count}} vidas restantes",
     },
     result: {
-      bonusPerfect: "Sin fallos",
-      bonusSurvival: "Buena racha",
-      bonusSurvivalComplete: "Grupo completado",
-      bonusSurvivalPerfect: "Récord perfecto",
-      bonusDailyStreak: "Racha de desafíos",
-      bonusDailyPerfect: "Desafío perfecto",
       survivalDone: "Partida Récord terminada",
       perfect: "Perfecto, nada que decir",
       great: "Bien jugado",
       close: "Por muy poco",
       keepGoing: "Hay margen de mejora",
-      perfectBonus: "Sin fallos: +{{xp}} XP extra",
       outOfTickets: "Has usado tus partidas de hoy. Vuelve mañana, o pásate al ilimitado.",
       subscribe: "Jugar sin límite",
       outOfTicketsMobile: "Ya usaste tus partidas de hoy aquí. Sigue gratis en la app.",
@@ -527,19 +465,6 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
       bestSurvival: "Mejor récord",
       streak: "Racha",
       pathBlocks: "Sendero",
-      badges: "Insignias — {{done}}/{{total}}",
-    },
-    board: {
-      title: "Clasificación",
-      sub: "Web y móvil comparten la misma clasificación.",
-      tab: { week: "Semana", all: "General", records: "Récords" },
-      anonymous: "Crea una cuenta para aparecer en la clasificación y conservar tu progreso.",
-      yourRank: "Eres el {{rank}}º con {{value}} XP",
-      noRank: "Juega una partida para entrar en la clasificación.",
-      loading: "Cargando la clasificación…",
-      empty: "Aún no hay nadie. Empieza tú.",
-      xp: "{{count}} XP",
-      streak: "{{count}} seguidas",
     },
     path: {
       cleared: "{{done}}/{{total}}",
@@ -639,7 +564,7 @@ let dict: Dict = {};
 export async function loadLanguage(lang: GameLang): Promise<void> {
   const bundles = await BUNDLES[lang]();
   current = lang;
-  // Les fichiers ont des racines disjointes (questions, modes, levels…),
+  // Les fichiers ont des racines disjointes (questions, modes…),
   // un merge de surface suffit — les textes web sous `web.*`.
   dict = Object.assign({}, ...bundles, { web: WEB_STRINGS[lang] });
 }

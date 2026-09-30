@@ -2,7 +2,7 @@
   "lang": "en",
   "meta": {
     "title": "SAPIRO - General Knowledge Quiz",
-    "description": "SAPIRO: free quiz app on geography, history, art and nature. 2000+ questions to learn while having fun. No ads, no data collection. For kids and adults."
+    "description": "SAPIRO: free quiz app on geography, history, art and nature. 2000+ questions to learn while having fun. No ads, data never sold. For kids and adults."
   },
   "header": {
     "home": "Home",
@@ -115,33 +115,73 @@
   },
   "privacy": {
     "title": "Privacy Policy",
-    "metaDescription": "SAPIRO privacy policy: no personal data collected, no cookies, no tracking. All your progress stays on your device. Safe for kids and adults.",
+    "metaDescription": "SAPIRO privacy policy: what data the app, the online game and the website process, why, with which providers, and your rights.",
     "lastUpdate": "Last updated",
-    "intro": "At SAPIRO, we respect your privacy. This policy explains how we handle your data.",
+    "intro": "Sapiro is published by Agence Debord EURL (Paris, France). This policy explains, without jargon, what data the app, the online game on sapiro.app and the website process, why, and what you can do about it. We never sell data and we show no ads.",
     "sections": [
       {
-        "title": "Data Collection",
-        "content": "SAPIRO does not collect any personal data. All your progress data (scores, badges, statistics) are stored locally on your device."
+        "title": "Your account and progress",
+        "content": "When you first open the app (or the online game), an anonymous account is created. You can then sign in with Apple, Google or an email address and password: we then receive your email address and the identifier provided by these services, so you can find your progress on all your devices. Your username, avatar, your device's country and your progress (games, scores, streaks, trophies, trail steps) are stored on our servers, located in Germany (European Union)."
       },
       {
-        "title": "Cookies and Tracking",
-        "content": "We do not use any tracking cookies, analytics tools, or third-party data collection services. Your experience remains 100% private."
+        "title": "Duels",
+        "content": "When you play a duel game, your answers (right or wrong, response time) are recorded so they can be replayed against other players for up to 90 days. Your opponent then sees your username, avatar, your country's flag and your number of trophies. They never see your name or email address."
       },
       {
-        "title": "Data Sharing",
-        "content": "Since we do not collect any data, we have nothing to share with third parties. Your information stays on your device."
+        "title": "The welcome questionnaire",
+        "content": "At first launch, the app asks a few optional questions: your first name, age range, gender, what motivates you, how many quizzes you aim for each week and your reminder time. Every question can be skipped. Your first name stays on your device and is never sent. The other answers are linked to a pseudonymous identifier in our analytics tool, to understand who uses Sapiro and improve the app."
       },
       {
-        "title": "Children's Data",
-        "content": "SAPIRO is an educational application suitable for children. We do not collect any information about users, regardless of their age."
+        "title": "Analytics",
+        "content": "We use PostHog, hosted in the European Union, to measure how the app, the online game and the website are used: screens and pages viewed, games played, subscription screens, purchases, technical errors, device model, language, version, landing page and source (link, campaign). This data is linked to a pseudonymous identifier, never to your name or email address. We do not record your sessions. On the website, we also use Umami, a visit statistics tool we host ourselves. Neither sets cookies."
+      },
+      {
+        "title": "Campaign measurement",
+        "content": "To know which ad campaigns bring installs and subscriptions, the app uses Singular. Singular receives technical information about the device (model, system, IP address, app-specific identifier) and a few key steps (install, sign-up, first game, trial start, subscription); it passes conversion results to ad networks (Meta, TikTok, Apple), without your name or email. On iOS, measurement goes through Apple's SKAdNetwork: we do not ask for tracking permission and do not use the advertising identifier. On Android, the app does not access the advertising identifier. On iPhone, RevenueCat also receives the Apple Search Ads attribution token."
+      },
+      {
+        "title": "Subscriptions and purchases",
+        "content": "In the app, purchases are made through the App Store or Google Play. In the online game, payment is processed by RevenueCat and Stripe: we pass your account email address for the receipt. We never see your bank details. RevenueCat keeps your purchase history and subscription status to activate Sapiro+ on all your devices."
+      },
+      {
+        "title": "Your messages",
+        "content": "When you write to us from “Contact us”, we receive your message, its type (bug, idea, mistake), the app version, platform and language. We use them only to fix and improve Sapiro."
+      },
+      {
+        "title": "Notifications",
+        "content": "If you allow them, reminders (daily challenge, streak, end of trial) are scheduled locally on your device. No data is sent to deliver them. You can turn them off at any time in your phone settings."
+      },
+      {
+        "title": "On your device",
+        "content": "The app and the online game store your session, settings, questionnaire answers and offline progress locally. On the website and the online game, this information is kept in the browser's local storage, not in cookies."
+      },
+      {
+        "title": "Who we share data with",
+        "content": "Only our service providers, for the uses described above: Supabase (database, our servers in Germany), PostHog (analytics, EU), Singular (campaign measurement), RevenueCat and Stripe (subscriptions), Apple and Google (sign-in, purchases), Cloudflare (website hosting). Some of these providers may process data outside the European Union; they do so under the safeguards provided by the GDPR (standard contractual clauses or the Data Privacy Framework)."
+      },
+      {
+        "title": "Retention",
+        "content": "Your account, progress and duel games are kept as long as the account exists; a game is no longer offered as a duel after 90 days. Analytics data is kept for at most two years. Purchase data is kept for as long as our accounting obligations require."
+      },
+      {
+        "title": "Deleting your account",
+        "content": "In the app: Profile tab, “Delete my account”. This immediately erases your account, username, progress, duel games and trophies. Messages sent through “Contact us” are kept without being linked to you. To also erase analytics, campaign and purchase data, or if you only play online, write to bonjour@agencedebord.com: we handle requests within 30 days."
+      },
+      {
+        "title": "Children",
+        "content": "Sapiro is made for the whole family, children included. For younger players, we made simple choices: no ads, no advertising identifier, no messaging between players, an optional account, and the first name entered at welcome never leaves the device. In duels, a player appears to others only through their username, avatar, country flag and trophies. Purchases go through the App Store or Google Play, with their parental controls. A parent can at any time request access to or deletion of their child's data by writing to bonjour@agencedebord.com."
+      },
+      {
+        "title": "Your rights",
+        "content": "Under the GDPR, you can access, correct or delete your data, object to its processing or request its portability. Write to bonjour@agencedebord.com. If you believe your rights are not respected, you can lodge a complaint with the CNIL (cnil.fr), the French data protection authority."
       },
       {
         "title": "Changes",
-        "content": "This policy may be updated. Changes will be posted on this page with a new update date."
+        "content": "This policy may be updated. The date at the top of the page shows the latest version."
       },
       {
         "title": "Contact",
-        "content": "For any questions about this policy, contact us via the contact form on our website."
+        "content": "Agence Debord EURL, 9 rue des Colonnes, 75002 Paris, France — bonjour@agencedebord.com."
       }
     ]
   },
@@ -211,14 +251,14 @@
     "director": "Publication Director",
     "directorName": "Aurelien Debord",
     "host": "Web Host",
-    "hostName": "OVH SAS",
-    "hostAddress": "2 rue Kellermann, 59100 Roubaix, France",
+    "hostName": "Cloudflare, Inc.",
+    "hostAddress": "101 Townsend St, San Francisco, CA 94107, United States",
     "hostPhone": "Phone: 1007",
-    "hostWebsite": "www.ovh.com",
+    "hostWebsite": "www.cloudflare.com",
     "intellectualProperty": "Intellectual Property",
     "intellectualPropertyText": "All content on this website (texts, images, videos, logos, graphics, icons, etc.) is the exclusive property of Agence Debord or its partners and is protected by French and international intellectual property laws. Any reproduction, representation, modification, publication or adaptation of all or part of the website elements is prohibited without prior written authorization from Agence Debord.",
     "personalData": "Personal Data",
-    "personalDataText": "This website does not collect any personal data and does not use cookies.",
+    "personalDataText": "This website measures its audience without cookies. The data processed by the website, the online game and the app, and your rights, are detailed in our privacy policy.",
     "close": "Close"
   },
   "reviews": {
@@ -238,7 +278,7 @@
         "name": "James T.",
         "role": "Middle school teacher",
         "rating": 5,
-        "text": "I use it as a geography class supplement. Students love the XP system and challenges. The fact that it's ad-free is a real advantage in a school setting.",
+        "text": "I use it as a geography class supplement. Students love the challenges. The fact that it's ad-free is a real advantage in a school setting.",
         "store": "App Store"
       },
       {
@@ -252,7 +292,7 @@
         "name": "David K.",
         "role": "Tech-savvy dad",
         "rating": 5,
-        "text": "We do the daily challenge as a family on Sunday mornings. It's become a ritual. The app is clean, fast, no data collection. Exactly what I wanted for the kids.",
+        "text": "We do the daily challenge as a family on Sunday mornings. It's become a ritual. The app is clean, fast, data never sold. Exactly what I wanted for the kids.",
         "store": "App Store"
       },
       {
@@ -278,15 +318,15 @@
     "items": [
       {
         "question": "Is SAPIRO really free?",
-        "answer": "Yes. The free version gives you access to all 4 universes (geography, history, art, nature), about a dozen paths, unlimited Classic and Survival modes, and the Daily Challenge. No ads."
+        "answer": "Yes, and ad-free. Every day you get 3 free games (duels included) and the Daily Challenge, across all 5 worlds. Sapiro+ unlocks unlimited games and every path."
       },
       {
         "question": "Is it safe for my child?",
-        "answer": "SAPIRO contains no ads and collects no personal data. No tracking, no required account, no third-party content. Your child can play independently."
+        "answer": "SAPIRO contains no ads and never sells data. No advertising cookies, no required account, no third-party content. Your child can play independently."
       },
       {
         "question": "Does SAPIRO work offline?",
-        "answer": "Quizzes work without a connection: all content is downloaded with the app. You can play on a plane, in the subway, or while camping. Only content updates and online leaderboards require the network."
+        "answer": "Quizzes work without a connection: all content is downloaded with the app. You can play on a plane, in the subway, or while camping. Only duels and content updates require the network."
       },
       {
         "question": "What subjects does SAPIRO cover?",
@@ -294,7 +334,7 @@
       },
       {
         "question": "Does SAPIRO collect my data?",
-        "answer": "No. Zero data collection. No cookies, no tracking, no sharing with third parties. Your progress data stays on your device."
+        "answer": "Only what's needed, and we never sell anything. No ads, no advertising cookies. We measure usage (games played, pages viewed) to improve Sapiro. An account is optional: it only saves your progress and subscription."
       },
       {
         "question": "Is SAPIRO available on iOS and Android?",
@@ -312,7 +352,7 @@
   },
   "about": {
     "title": "About SAPIRO",
-    "text": "SAPIRO is a free, ad-free educational quiz app for iOS and Android, developed by Agence Debord EURL (Paris, France). It covers five domains: geography (197 countries), history (500+ historical figures), art (553 major artworks), nature (600 animal species), and monuments (500 monuments). The app includes over 2,000 manually verified questions, each with an explanation. No personal data is collected. The app is available in French, English, and Spanish.",
+    "text": "SAPIRO is a free, ad-free educational quiz app for iOS and Android, developed by Agence Debord EURL (Paris, France). It covers five domains: geography (197 countries), history (500+ historical figures), art (553 major artworks), nature (600 animal species), and monuments (500 monuments). The app includes over 2,000 manually verified questions, each with an explanation. It includes a Duel mode against other players. No ads, and data is never sold. The app is available in French, English, and Spanish.",
     "stats": {
       "questions": "2,000+ questions",
       "countries": "197 countries",

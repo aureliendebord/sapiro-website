@@ -52,6 +52,21 @@ export interface QuizQuestion {
   correctAnswer: string;
   options: string[];
   type: QuizQuestionType;
+  /**
+   * Ids des entités derrière chaque option, dans l'ordre de `options`. C'est ce
+   * qui rend une partie rejouable dans une autre langue (fantômes du duel,
+   * cf. domain/duel/questionSpec.ts). Absent seulement pour un appelant qui construit
+   * ses options à la main.
+   */
+  optionEntityIds?: string[];
+  /** Figures, question « secondary » : champ visé (nationalité, pays de naissance…). */
+  secondaryField?: FigureSecondaryField;
+}
+
+/** Option de réponse avec l'entité dont elle est tirée. */
+interface OptionCandidate {
+  value: string;
+  entity: AnyFlagEntity;
 }
 
 // ============================================
@@ -115,7 +130,7 @@ export function getEntityImageUrl(entity: AnyFlagEntity): string {
  * Retourne la bonne reponse pour une question donnee.
  * Pour les artworks : "name" = artiste, "secondary" = titre (via getSecondaryValue).
  */
-function getCorrectAnswer(
+export function getCorrectAnswer(
   entity: AnyFlagEntity,
   type: QuizQuestionType,
   secondaryField: FigureSecondaryField = "nationality",
@@ -227,13 +242,21 @@ export function generateQuestions(
       secondaryField,
     );
 
-    const optionsArray = [correctAnswer, ...wrongOptions];
-    const options =
+    const optionsArray: OptionCandidate[] = [{ value: correctAnswer, entity }, ...wrongOptions];
+    const shuffledOptions =
       seed !== undefined
         ? shuffleWithSeed(optionsArray, seed + index)
         : shuffleArray(optionsArray);
 
-    return { id: index, entity, correctAnswer, options, type };
+    return {
+      id: index,
+      entity,
+      correctAnswer,
+      options: shuffledOptions.map((o) => o.value),
+      type,
+      optionEntityIds: shuffledOptions.map((o) => o.entity.id),
+      ...(entity.type === "figure" && type === "secondary" ? { secondaryField } : {}),
+    };
   });
 }
 
@@ -298,9 +321,20 @@ export function generateSingleQuestion(
     undefined,
     secondaryField,
   );
-  const options = shuffleArray([correctAnswer, ...wrongOptions]);
+  const shuffledOptions = shuffleArray<OptionCandidate>([
+    { value: correctAnswer, entity },
+    ...wrongOptions,
+  ]);
 
-  return { id: 0, entity, correctAnswer, options, type };
+  return {
+    id: 0,
+    entity,
+    correctAnswer,
+    options: shuffledOptions.map((o) => o.value),
+    type,
+    optionEntityIds: shuffledOptions.map((o) => o.entity.id),
+    ...(entity.type === "figure" && type === "secondary" ? { secondaryField } : {}),
+  };
 }
 
 // ============================================
@@ -343,8 +377,8 @@ function collectWrongOptions(
   seed?: number,
   fallbackPool?: AnyFlagEntity[],
   secondaryField: FigureSecondaryField = "nationality",
-): string[] {
-  const wrongOptions: string[] = [];
+): OptionCandidate[] {
+  const wrongOptions: OptionCandidate[] = [];
   const usedValues = new Set<string>([correctAnswer]);
 
   let candidates = seed !== undefined ? shuffleWithSeed(pool, seed) : shuffleArray([...pool]);
@@ -381,7 +415,7 @@ function collectWrongOptions(
 
     const value = getCandidateValue(e, type, secondaryField);
     if (!usedValues.has(value)) {
-      wrongOptions.push(value);
+      wrongOptions.push({ value, entity: e });
       usedValues.add(value);
     }
   }
@@ -426,7 +460,7 @@ function collectWrongOptions(
 
       const value = getCandidateValue(e, type, secondaryField);
       if (!usedValues.has(value)) {
-        wrongOptions.push(value);
+        wrongOptions.push({ value, entity: e });
         usedValues.add(value);
       }
     }

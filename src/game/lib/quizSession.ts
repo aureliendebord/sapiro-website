@@ -1,9 +1,9 @@
 /**
  * Machine à états d'une partie — orchestre le cœur synchronisé pour le web.
  *
- * Toute la génération de questions et le calcul d'XP viennent de `@/domain`,
- * donc d'exactement le même code que l'app : mêmes questions, mêmes options,
- * mêmes bonus. Ce module ne fait qu'enchaîner les questions et tenir le score.
+ * Toute la génération de questions vient de `@/domain`, donc d'exactement le
+ * même code que l'app : mêmes questions, mêmes options. Ce module ne fait
+ * qu'enchaîner les questions et tenir le score.
  *
  * Deux familles de parties :
  * - classic/survival : questions générées à la volée depuis le pool du parcours.
@@ -18,7 +18,6 @@ import { getEntityPool, getFullPool } from "@/domain/quiz/entityPool";
 import { buildReviewQuestions } from "@/domain/quiz/reviewQuestions";
 import { buildMixedQuestions, type PoolPreparer } from "@/domain/quiz/mixedQuestions";
 import { FLAG_FILES } from "@game/design/flags.generated";
-import { calculateXP, type XPBreakdown } from "@/domain/quiz/scoring";
 import {
   CLASSIC_QUESTION_COUNT,
   DAILY_CHALLENGE_QUESTIONS,
@@ -397,30 +396,17 @@ export interface SessionResult {
   score: number;
   totalQuestions: number;
   durationSeconds: number;
-  xp: XPBreakdown;
   misses: MissedQuestion[];
   /** Vrai/faux par question, première passe — sert à la grille de partage. */
   answers: boolean[];
 }
 
-/** Résultat final : score, durée et XP détaillée (mêmes bonus que l'app). */
-export function finishSession(
-  state: SessionState,
-  opts: { previousDailyStreak?: number } = {},
-): SessionResult {
+/** Résultat final : score et durée (l'app 2.1.0 n'a plus d'XP). */
+export function finishSession(state: SessionState): SessionResult {
   const totalQuestions =
     state.config.mode === "survival"
       ? state.questionIndex
       : state.totalQuestions ?? state.questionIndex;
-
-  const xp = calculateXP({
-    score: state.score,
-    total: totalQuestions,
-    mode: state.config.mode,
-    isSurvivalComplete: state.survivalComplete,
-    isSurvivalPerfect: state.survivalComplete && state.lives === SURVIVAL_LIVES,
-    previousDailyStreak: opts.previousDailyStreak,
-  });
 
   // Un bloc mixte n'a pas de parcours au catalogue : son thème est « mix »,
   // comme sur mobile — sinon ses parties sont invisibles dans le classement
@@ -439,7 +425,6 @@ export function finishSession(
     score: state.score,
     totalQuestions,
     durationSeconds: Math.max(0, Math.round((Date.now() - state.startedAt) / 1000)),
-    xp,
     misses: state.misses,
     answers: state.answers,
   };

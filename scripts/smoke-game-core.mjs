@@ -66,13 +66,12 @@ try {
   let session = startSession({ mode: 'classic', journeyId: 'europe', entityType: 'country', language: 'fr' });
   let guard = 0;
   while (!session.finished && guard++ < 50) {
-    // Répond toujours juste : vérifie le compte de questions et l'XP parfaite.
+    // Répond toujours juste : vérifie le compte de questions et le score parfait.
     session = answer(session, session.question.correctAnswer).state;
   }
   const result = finishSession(session);
   console.log(
-    `\npartie classique : ${result.score}/${result.totalQuestions} — ${result.xp.totalXP} XP` +
-      ` (base ${result.xp.baseXP} + parfait ${result.xp.perfectBonus})`,
+    `\npartie classique : ${result.score}/${result.totalQuestions} en ${result.durationSeconds} s`,
   );
   if (result.totalQuestions !== 10) throw new Error('une partie classique doit faire 10 questions');
   if (result.score !== 10) throw new Error('score attendu 10/10');
@@ -85,7 +84,7 @@ try {
     sv = answer(sv, wrong).state;
   }
   const svResult = finishSession(sv);
-  console.log(`partie survie (que des erreurs) : ${svResult.totalQuestions} questions, ${svResult.xp.totalXP} XP`);
+  console.log(`partie survie (que des erreurs) : ${svResult.totalQuestions} questions`);
   if (svResult.totalQuestions !== 3) throw new Error('la survie doit s\'arrêter après 3 vies perdues');
 
   // Défi du jour : déterministe (même quiz pour tous) et thémé comme sur mobile.

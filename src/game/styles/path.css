@@ -83,37 +83,34 @@
   transform: translate(-50%, -50%);
 }
 
-/* Aucun fond, aucune bordure : le nœud EST son illustration. Le disque blanc
-   mangeait le bord des dessins et posait un rond de plus sur un fond déjà
-   texturé. Les anneaux d'état (doré, accent) sont rendus par `box-shadow`,
-   qui ne prend pas de place dans la boîte. */
+/* DA V3 de l'app (`PathSection`) : disque crème TOUJOURS opaque (le pointillé
+   du tracé ne transparaît pas), cerclé à la couleur de l'état — blanc ouvert,
+   doré réussi, orange en cours — et posé sur une ombre chaude. Les
+   illustrations étant détourées, c'est le disque qui donne sa forme au nœud. */
 .path-node {
+  --ring: #ffffff;
   position: relative;
   font: inherit;
   cursor: pointer;
   display: grid;
   place-items: center;
+  aspect-ratio: 1;
   padding: 0;
-  border: none;
+  border: 3px solid var(--ring);
   border-radius: 50%;
-  background: transparent;
+  background: #fffdfa;
   color: var(--ink);
-  filter: drop-shadow(0 6px 12px rgb(26 24 22 / 18%));
-  transition: transform 140ms ease, filter 140ms ease;
+  box-shadow: 0 8px 12px rgb(120 50 20 / 22%);
+  transition: transform 140ms ease, box-shadow 140ms ease;
 }
 
-/* L'illustration porte son propre arrondi (posé en style inline par `Icon`) ;
-   les anneaux d'état sont des `box-shadow` sur elle, donc ils épousent sa
-   forme — y compris pour un drapeau, qui est en 3:2 et non carré. */
 .path-node__icon {
   display: block;
-  width: 100%;
-  height: auto;
 }
 
 .path-node:hover:not(.path-node--locked):not(.path-node--closed) {
   transform: translateY(-3px);
-  filter: drop-shadow(0 12px 18px rgb(26 24 22 / 26%));
+  box-shadow: 0 12px 18px rgb(120 50 20 / 26%);
 }
 
 /* Nom de la thématique, posé sous le nœud et centré sur lui. C'est le seul
@@ -137,8 +134,8 @@
 }
 
 /* Réussi : anneau doré + coche, la trace de ce qui est acquis. */
-.path-node--done .path-node__icon {
-  box-shadow: 0 0 0 3px #e0a82e;
+.path-node--done {
+  --ring: #e0a82e;
 }
 
 .path-node__check {
@@ -156,17 +153,20 @@
   font-weight: 800;
 }
 
-/* En cours : le seul nœud qui appelle, avec son anneau qui respire. */
-.path-node--current .path-node__icon {
-  box-shadow: 0 0 0 4px var(--node-accent, var(--accent));
+/* En cours : le seul nœud qui appelle, fond teinté, anneau épaissi qui
+   respire. Orange de marque, comme l'app : c'est l'action de l'écran. */
+.path-node--current {
+  --ring: var(--accent);
+  border-width: 4px;
+  background: #ffe4db;
 }
 
 .path-node--current::after {
   content: "";
   position: absolute;
   inset: -8px;
-  border-radius: 32px;
-  border: 3px solid var(--node-accent, var(--accent));
+  border-radius: 50%;
+  border: 3px solid var(--ring);
   animation: path-pulse 1.5s ease-out infinite;
   pointer-events: none;
 }
@@ -194,7 +194,6 @@
   color: var(--on-accent);
   font-size: 11px;
   font-weight: 800;
-  box-shadow: 0 4px 12px rgb(255 94 58 / 40%);
 }
 
 /* Ouverts mais pas encore atteints, ou verrouillés : présents mais éteints —
@@ -204,13 +203,15 @@
    travers. On décolore l'illustration, le disque reste opaque. */
 .path-node--closed,
 .path-node--locked {
+  --ring: #e3d3c4;
   cursor: default;
-  filter: drop-shadow(0 4px 8px rgb(26 24 22 / 10%));
+  background: #f4ece3;
+  box-shadow: 0 4px 8px rgb(120 50 20 / 10%);
 }
 
 .path-node--closed .path-node__icon,
 .path-node--locked .path-node__icon {
-  opacity: 0.42;
+  opacity: 0.35;
   filter: grayscale(0.85);
 }
 
