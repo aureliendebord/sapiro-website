@@ -2,7 +2,7 @@
 title: "Las 10 mejores apps de quiz de cultura general en 2026"
 description: "Comparativa de las mejores aplicaciones de quiz y cultura general: Trivia Crack, Kahoot, SAPIRO... ¿Cuál elegir? Nuestro análisis completo."
 date: 2026-03-20
-lastModified: 2026-06-15
+lastModified: 2026-09-30
 image: "/images/blog/apps/smartphone-app.jpg"
 imageAlt: "Un smartphone mostrando una publicación en una red social"
 imageCredit: "Foto: Mictlancihuatl · CC BY-SA 4.0 · Wikimedia Commons"
@@ -22,13 +22,13 @@ SAPIRO cubre geografía, historia, arte y naturaleza con más de 2000 preguntas 
 
 Lo que la distingue es que cada respuesta incluye una explicación. No te quedas con la duda de por qué fallaste. Usa repetición espaciada para reforzar lo que no dominas, y tiene varios modos: quiz clásico, contrarreloj, desafíos diarios y partidas con amigos.
 
-No muestra publicidad ni recopila datos personales. Es poco habitual en apps gratuitas. La versión gratuita ofrece bastante contenido, y Sapiro+ (desde 1,99 €/mes) da acceso a preguntas avanzadas y estadísticas detalladas. Tiene 5/5 en Google Play.
+No muestra publicidad ni recopila datos personales. Es poco habitual en apps gratuitas. La versión gratuita ofrece bastante contenido. Tiene 5/5 en Google Play.
 
 Puntos fuertes: contenido verificado, explicaciones en cada pregunta, sin publicidad, sin recopilación de datos, varias temáticas, interfaz limpia.
 
 Puntos débiles: catálogo en expansión (2000+ preguntas, frente a apps con décadas de contenido acumulado).
 
-**Precio:** gratis + Sapiro+ desde 1,99 €/mes.
+**Precio:** versión gratuita sin publicidad.
 
 ## 2. Trivia Crack (Preguntados) — El clásico del trivia social
 
@@ -144,7 +144,7 @@ Puntos débiles: solo geografía, sin contenido cultural ni histórico, catálog
 
 | App | Dominios | Sin publicidad | Privacidad | Explicaciones | Precio |
 |-----|----------|---------------|------------|---------------|--------|
-| **SAPIRO** | Geografía, historia, arte, naturaleza | Sí | Sin recopilación de datos | Sí | Gratis + 1,99 €/mes |
+| **SAPIRO** | Geografía, historia, arte, naturaleza | Sí | Sin recopilación de datos | Sí | Versión gratuita sin publicidad |
 | **Trivia Crack** | 6 categorías generales | Mucha publicidad | Datos vendidos a terceros | No | Gratis con anuncios |
 | **Kahoot!** | Todas (creadas por usuarios) | Parcial | Recopilación para servicios | Según el creador | 3-19 $/mes |
 | **Quizizz** | Todas (creadas por profesores) | Parcial | Recopilación para servicios | Según el creador | 5-10 $/mes |

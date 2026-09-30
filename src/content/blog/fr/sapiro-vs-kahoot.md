@@ -1,8 +1,8 @@
 ---
 title: "Sapiro vs Kahoot : deux outils, deux usages"
-description: "Comparatif entre SAPIRO et Kahoot : l'un est conçu pour la salle de classe, l'autre pour apprendre seul ou en famille. Contenu, vie privée, prix, pédagogie."
+description: "Comparatif entre SAPIRO et Kahoot : l'un est conçu pour la salle de classe, l'autre pour apprendre seul ou en famille. Contenu, vie privée, pédagogie."
 date: 2026-03-20
-lastModified: 2026-06-15
+lastModified: 2026-09-30
 image: "/images/blog/apps/tablette-education.jpg"
 imageAlt: "Un enfant jouant avec un ordinateur jouet en bois à lettres cyrilliques"
 imageCredit: "Photo : Shixart1985 · CC BY 2.0 · Wikimedia Commons"
@@ -42,19 +42,17 @@ Non. Kahoot reste un outil d'animation de classe solide pour vérifier la compr�
 **Et la vie privée, c'est important ?**
 Oui, surtout pour les enfants. Kahoot collecte des données à des fins d'analyse éducative : résultats, temps de réponse, taux de réussite. Utile pour un enseignant, mais ces données existent et alimentent un écosystème commercial. SAPIRO ne demande pas de compte et ne collecte aucune donnée personnelle. Dans le contexte du RGPD, c'est une différence concrète. Voir notre guide des [meilleures applications de quiz de culture générale](/blog/meilleures-apps-quiz-culture-generale/) pour comparer sur ce point.
 
-**Combien ça coûte ?**
+**Concrètement, qu'est-ce qui change ?**
 
 | | **SAPIRO** | **Kahoot** |
 |---|---|---|
 | **Version gratuite** | Oui, sans pub | Oui (usage basique en classe) |
-| **Abonnement mensuel** | 1,99 €/mois (Sapiro+) | 3-19 $/mois (plans éducation) |
-| **Achat à vie** | 39,99 € | Non disponible |
 | **Hors ligne** | Oui | Non |
 | **Besoin d'un animateur** | Non | Oui |
 | **Explications après réponse** | Oui | Non |
 
 **Kahoot est-il gratuit pour les enseignants ?**
-La version de base, oui. Pour les fonctions pédagogiques avancées (rapports détaillés, modes de jeu étendus), les plans école vont de 3 à 19 $/mois. SAPIRO reste plafonné à 39,99 € en achat à vie, sans abonnement contraint.
+La version de base, oui. Pour les fonctions pédagogiques avancées (rapports détaillés, modes de jeu étendus), les plans école vont d'environ 3 à 19 $/mois. SAPIRO propose de son côté une version gratuite sans publicité.
 
 **Ça fonctionne sans internet ?**
 SAPIRO oui, Kahoot non. Logique pour une plateforme collaborative en temps réel, mais ça limite Kahoot pour un usage individuel dans les transports ou en voyage.

@@ -1,8 +1,8 @@
 ---
 title: "Sapiro vs GeoGuessr : quelle app de géographie ?"
-description: "Comparatif entre SAPIRO et GeoGuessr : contenu, vie privée, valeur éducative, prix. Deux approches très différentes de la géographie sur mobile."
+description: "Comparatif entre SAPIRO et GeoGuessr : contenu, vie privée, valeur éducative. Deux approches très différentes de la géographie sur mobile."
 date: 2026-03-24
-lastModified: 2026-06-15
+lastModified: 2026-09-30
 image: "/images/blog/apps/carte-monde-app.jpg"
 imageAlt: "Une carte ancienne de la Hongrie du XVIe siècle"
 imageCredit: "Photo : Lázár deák (Lazarus secretarius) · domaine public · Wikimedia Commons"
@@ -33,14 +33,11 @@ Autre différence pratique : SAPIRO fonctionne hors connexion. GeoGuessr dépend
 | | **SAPIRO** | **GeoGuessr** |
 |---|---|---|
 | **Version gratuite** | Oui, sans publicités | 1 partie par jour |
-| **Abonnement mensuel** | 1,99 €/mois (Sapiro+) | ~3,99 €/mois (Pro) |
-| **Abonnement annuel** | 19,99 €/an | ~29,99 €/an |
-| **Achat à vie** | 39,99 € | Non disponible |
 | **Compte obligatoire** | Non | Oui |
 | **Hors connexion** | Oui | Non |
 | **Domaines couverts** | Géographie, histoire, art, nature | Géographie |
 
-GeoGuessr est construit sur Google Street View, ce qui implique un compte obligatoire et l'écosystème de données qui va avec. La version gratuite se limite à une partie par jour, le reste passe par l'abonnement Pro. SAPIRO n'a pas de compte, pas de tracking, pas de bannière, et l'achat à vie à 39,99 € revient grosso modo à un an d'abonnement Pro chez le concurrent.
+GeoGuessr est construit sur Google Street View, ce qui implique un compte obligatoire et l'écosystème de données qui va avec. La version gratuite se limite à une partie par jour, le reste passe par l'abonnement Pro. SAPIRO n'a pas de compte obligatoire, pas de tracking, pas de bannière, et sa version gratuite est sans publicité.
 
 ## Alors, lequel choisir
 

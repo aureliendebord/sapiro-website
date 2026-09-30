@@ -2,7 +2,7 @@
 title: "Apps de quiz sin recolección de datos: comparativa"
 description: "¿Qué apps de quiz respetan de verdad tus datos? Comparativa de aplicaciones que no recogen tus datos personales."
 date: 2026-03-04
-lastModified: 2026-06-15
+lastModified: 2026-09-30
 image: "/images/blog/apps/smartphone-app.jpg"
 imageAlt: "Un smartphone mostrando una publicación en una red social"
 imageCredit: "Foto: Mictlancihuatl · CC BY-SA 4.0 · Wikimedia Commons"
@@ -56,7 +56,7 @@ Cinco puntos que verificar.
 
 Es la pregunta legítima. El modelo de negocio se basa en:
 
-**Sapiro+ de pago.** 1,99 euros/mes, 19,99/año o 39,99 a vida. Voluntario, sin presión. Los usuarios que valoran el servicio lo apoyan.
+**Ninguna red publicitaria.** Sin anuncios que segmentar, la app no tiene ningún motivo para recopilar datos de comportamiento.
 
 **Sin inversión masiva en marketing.** El boca a boca reemplaza la publicidad de pago.
 

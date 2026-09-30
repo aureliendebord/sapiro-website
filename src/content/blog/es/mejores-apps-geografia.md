@@ -2,7 +2,7 @@
 title: "Top 8 apps para aprender geografía en 2025"
 description: "Comparativa de las 8 mejores aplicaciones de geografía en 2025: notas del 1 al 10, pros, contras y para quién va cada una. ¿Cuál se adapta mejor a tu nivel?"
 date: 2025-11-10
-lastModified: 2026-06-15
+lastModified: 2026-09-30
 image: "/images/blog/apps/carte-monde-app.jpg"
 imageAlt: "Un mapa antiguo de Hungría del siglo XVI"
 imageCredit: "Foto: Lázár deák (Lazarus secretarius) · dominio público · Wikimedia Commons"
@@ -22,7 +22,7 @@ SAPIRO cubre países, capitales, banderas, monumentos, gastronomía y tradicione
 
 Lo que la distingue del resto es su sistema de repetición espaciada. El algoritmo analiza dónde fallas (esos [errores clásicos de geografía](/es/blog/errores-geografia/) que arrastramos todos) y te propone sesiones que atacan justo tus puntos débiles. No pierdes tiempo repasando Japón si ya lo dominas.
 
-Tiene varios modos de juego (quiz clásico, contrarreloj, desafíos diarios, competiciones con amigos) y el contenido va desde nivel principiante hasta experto. La interfaz está cuidada: mapas interactivos, fichas por país, diseño limpio. Es gratuita, con una opción premium que desbloquea contenido avanzado y estadísticas detalladas. La versión gratuita limita las sesiones diarias, que es su principal pega.
+Tiene varios modos de juego (quiz clásico, contrarreloj, desafíos diarios, competiciones con amigos) y el contenido va desde nivel principiante hasta experto. La interfaz está cuidada: mapas interactivos, fichas por país, diseño limpio. Tiene una versión gratuita sin publicidad.
 
 Nota: 9,5/10
 

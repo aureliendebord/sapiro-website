@@ -2,7 +2,7 @@
 title: "Les 10 meilleures apps de quiz culture générale en 2026"
 description: "Comparatif des meilleures applications de quiz et culture générale : Trivia Crack, Kahoot, QuizUp, SAPIRO... Laquelle choisir ? Notre analyse complète."
 date: 2026-03-20
-lastModified: 2026-06-15
+lastModified: 2026-09-30
 image: "/images/blog/apps/smartphone-app.jpg"
 imageAlt: "Un smartphone affichant une publication sur un réseau social"
 imageCredit: "Photo : Mictlancihuatl · CC BY-SA 4.0 · Wikimedia Commons"
@@ -102,17 +102,17 @@ Prix : gratuit (limité), premium ~4,99 €/an.
 
 On la met en dernier pour éviter l'effet vitrine. SAPIRO couvre quatre domaines (géographie, histoire, art, nature) avec plus de 2 000 questions, chacune accompagnée d'une explication. On répond, on lit pourquoi, on passe à la suivante.
 
-Pas de pub dans l'app. Pas de tracking. C'est un choix assumé, avec un modèle économique freemium : gratuit avec une partie du contenu, Sapiro+ à 1,99 €/mois pour l'intégralité. Sur Google Play, l'app affiche une note de 5/5 à ce jour.
+Pas de pub dans l'app. Pas de tracking. C'est un choix assumé. Sur Google Play, l'app affiche une note de 5/5 à ce jour.
 
 Ce qu'elle n'a pas : la communauté multijoueur massive de Trivia Crack ou QuizDuel. Ce qu'elle a : des explications pédagogiques et un modèle qui ne vit pas de vos données. À vous de voir ce qui compte dans votre usage.
 
-Prix : gratuit, Sapiro+ dès 1,99 €/mois.
+Prix : version gratuite sans publicité.
 
 ## Tableau comparatif
 
 | App | Domaines | Sans pub | Vie privée | Explications | Prix |
 |-----|----------|----------|------------|--------------|------|
-| **SAPIRO** | Géo, Histoire, Art, Nature | Oui | Aucune collecte | Oui | Gratuit / 1,99 €/mois |
+| **SAPIRO** | Géo, Histoire, Art, Nature | Oui | Aucune collecte | Oui | Version gratuite sans pub |
 | **Trivia Crack** | 6 catégories trivia | Non | Données revendues | Non | Gratuit avec pubs |
 | **Kahoot!** | Personnalisable | Oui (payant) | Correcte | Variable | 3-19 $/mois |
 | **Quizizz** | Personnalisable | Oui (payant) | Correcte | Variable | 5-10 $/mois |

@@ -2,7 +2,7 @@
 title: "SAPIRO vs Quizlet: Which App to Choose?"
 description: "SAPIRO vs Quizlet comparison: general knowledge quiz or flashcards? Pros, cons and target audience for each app."
 date: 2026-02-27
-lastModified: 2026-06-15
+lastModified: 2026-09-30
 image: "/images/blog/apps/etudier-smartphone.jpg"
 imageAlt: "Seniors attending a training class in a classroom"
 imageCredit: "Photo: ONBag · CC0 · Wikimedia Commons"
@@ -32,7 +32,7 @@ SAPIRO and Quizlet are both learning apps, but they do different things. Quizlet
 
 **Quizlet.** Free for basic features. Quizlet Plus ($4/month) for advanced features (ChatGPT for question generation, offline modes, statistics).
 
-**SAPIRO.** Free with all essential features, no ads, no data collection. Sapiro+ ($1.99/month, $19.99/year or $39.99 lifetime) for extended features (detailed stats, special modes).
+**SAPIRO.** Free version with no ads and no data collection.
 
 ## Advertising
 

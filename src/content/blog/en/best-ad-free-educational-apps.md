@@ -2,7 +2,7 @@
 title: "Best Ad-Free Educational Apps"
 description: "Selection of the best ad-free educational applications: geography, languages, history, science. Learning without interruptions."
 date: 2026-03-03
-lastModified: 2026-06-15
+lastModified: 2026-09-30
 image: "/images/blog/apps/tablette-education.jpg"
 imageAlt: "A child playing with a wooden toy laptop with Cyrillic letters"
 imageCredit: "Photo: Shixart1985 · CC BY 2.0 · Wikimedia Commons"
@@ -66,7 +66,7 @@ Three reasons.
 
 ## The ad-free business model: three options
 
-**Honest freemium.** Complete free version, premium for advanced features. That is the SAPIRO model.
+**Honest freemium.** A genuinely usable free version with no ads. That is SAPIRO's choice.
 
 **Paid subscription.** No free version. Anki model on iOS, some meditation apps.
 

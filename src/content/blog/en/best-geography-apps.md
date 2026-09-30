@@ -2,7 +2,7 @@
 title: "The 8 Best Apps to Learn Geography in 2025"
 description: "We tested and ranked the 8 best geography apps for 2025, from adaptive quiz drills to Street View exploration. Find out which one fits your learning style."
 date: 2025-11-10
-lastModified: 2026-06-15
+lastModified: 2026-09-30
 image: "/images/blog/apps/carte-monde-app.jpg"
 imageAlt: "A 16th-century map of Hungary"
 imageCredit: "Photo: Lázár deák (Lazarus secretarius) · public domain · Wikimedia Commons"
@@ -20,13 +20,13 @@ I downloaded, compared, and ranked eight that are actually worth your time. Here
 
 ## 1. SAPIRO — The Complete Geography and Culture Quiz
 
-Available on iOS and Android. Free with an optional premium subscription.
+Available on iOS and Android. Free version with no ads.
 
 SAPIRO goes well beyond simple [capital-city drills](/en/blog/world-capitals-quiz/). It covers flags, country outlines, capitals, cultural trivia, landmarks, and more, all in a clean, modern interface. What makes it stand out is the adaptive difficulty system: the app tracks which topics give you trouble and feeds you more questions in those areas, so you actually improve instead of repeating what you already know.
 
 The content range is wide: geography, flags, culture, and general knowledge live under one roof. Timed challenge modes add a competitive edge, and detailed explanations after every answer turn mistakes into learning moments. The app is available in French, English, and Spanish, and it works offline, which is a relief if you are studying on a plane or a subway with no signal.
 
-On the downside, some advanced content sits behind the premium subscription, and SAPIRO is newer than some of the established names on this list, so its question library is still growing.
+On the downside, SAPIRO is newer than some of the established names on this list, so its question library is still growing.
 
 Who is it for? Anyone who wants a well-rounded geography and culture education with real quiz depth, from casual learners to serious trivia competitors.
 

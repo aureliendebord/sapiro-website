@@ -2,7 +2,7 @@
 title: "Apprendre l'histoire en s'amusant : méthodes"
 description: "Comment apprendre l'histoire sans mémoriser des dates ? Quiz, récits, parcours thématiques : les méthodes qui ancrent les connaissances pour de bon."
 date: 2026-03-18
-lastModified: 2026-06-15
+lastModified: 2026-09-30
 image: "/images/blog/famille/livres-histoire.jpg"
 imageAlt: "Des livres d'histoire pour apprendre en s'amusant"
 imageCredit: "Photo : Tom Woodward from Richmond, VA, US · CC BY-SA 2.0 · Wikimedia Commons"
@@ -66,7 +66,7 @@ SAPIRO propose plus de 500 questions sur les personnages historiques, organisée
 
 Chaque question est suivie d'une explication. Ça compte beaucoup : le feedback après chaque réponse transforme chaque erreur en moment d'apprentissage. On ne se contente pas de dire "mauvaise réponse", on explique pourquoi c'est Léonard de Vinci et pas Michel-Ange.
 
-Avec plus de 50 parcours et trois modes de jeu (Classique, Survie, Défi du jour), l'application varie les angles d'approche. L'histoire croise la géographie (197 pays), l'art ([553 œuvres](/blog/oeuvres-art-incontournables/)) et la nature (600 animaux). Pas de publicité, pas de collecte de données, fonctionne hors ligne. Gratuite, option Sapiro+ à 1,99 €/mois.
+Avec plus de 50 parcours et trois modes de jeu (Classique, Survie, Défi du jour), l'application varie les angles d'approche. L'histoire croise la géographie (197 pays), l'art ([553 œuvres](/blog/oeuvres-art-incontournables/)) et la nature (600 animaux). Version gratuite sans publicité, pas de collecte de données, fonctionne hors ligne.
 
 ## Apprendre l'histoire en famille
 

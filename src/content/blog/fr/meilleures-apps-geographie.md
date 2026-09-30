@@ -2,7 +2,7 @@
 title: "Top 8 des apps pour apprendre la géographie"
 description: "Comparatif des 8 meilleures applications pour apprendre la géographie en 2025 : quiz, cartes interactives et jeux éducatifs. Laquelle vous correspond ?"
 date: 2025-11-10
-lastModified: 2026-06-15
+lastModified: 2026-09-30
 image: "/images/blog/apps/carte-monde-app.jpg"
 imageAlt: "Une carte ancienne de la Hongrie du XVIe siècle"
 imageCredit: "Photo : Lázár deák (Lazarus secretarius) · domaine public · Wikimedia Commons"
@@ -22,7 +22,7 @@ Avertissement d'entrée de jeu : on édite SAPIRO, donc on l'a mise dans la list
 
 Notre application mélange géographie et culture générale dans un même parcours. Capitales, drapeaux, monuments, gastronomie, langues : les questions viennent avec une explication courte, ce qui change du quiz sec où l'on clique et on passe à la suivante. Le système de progression tient sur la durée, et l'interface ne fatigue pas les yeux.
 
-Les limites : SAPIRO est récente et la communauté se construit encore. Si vous cherchez un travail pur sur la localisation cartographique, d'autres apps de cette liste font mieux. Gratuit, avec des options premium. Disponible iOS et Android.
+Les limites : SAPIRO est récente et la communauté se construit encore. Si vous cherchez un travail pur sur la localisation cartographique, d'autres apps de cette liste font mieux. Version gratuite sans publicité. Disponible iOS et Android.
 
 Pour éviter les [erreurs de géographie les plus courantes](/blog/erreurs-geographie/), c'est un bon point de départ.
 

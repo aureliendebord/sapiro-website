@@ -1,8 +1,8 @@
 ---
 title: "Sapiro vs Kahoot: dos herramientas, dos usos"
-description: "Comparativa entre SAPIRO y Kahoot: uno está diseñado para el aula, el otro para aprender solo o en familia. Contenido, privacidad, precios, pedagogía."
+description: "Comparativa entre SAPIRO y Kahoot: uno está diseñado para el aula, el otro para aprender solo o en familia. Contenido, privacidad, pedagogía."
 date: 2026-03-20
-lastModified: 2026-06-15
+lastModified: 2026-09-30
 image: "/images/blog/apps/tablette-education.jpg"
 imageAlt: "Un niño jugando con un ordenador de juguete de madera con letras cirílicas"
 imageCredit: "Foto: Shixart1985 · CC BY 2.0 · Wikimedia Commons"
@@ -46,14 +46,11 @@ SAPIRO se centra en el aprendizaje duradero. Cada pregunta incluye una explicaci
 
 La app funciona sin conexión, lo que la hace utilizable en cualquier sitio. Kahoot necesita internet para funcionar, algo lógico para una plataforma colaborativa en tiempo real, pero que limita el uso individual.
 
-## Precios
+## De un vistazo
 
 | | **SAPIRO** | **Kahoot** |
 |---|---|---|
 | **Versión gratuita** | Sí, sin publicidad | Sí (uso básico en clase) |
-| **Suscripción mensual** | 1,99 €/mes (Sapiro+) | 3-19 $/mes (planes educación) |
-| **Suscripción anual** | 19,99 €/año | Variable según el plan |
-| **Compra única** | 39,99 € de por vida | No disponible |
 | **Publicidad** | Ninguna | No (pero datos recopilados) |
 | **Funciona sin conexión** | Sí | No |
 | **Necesita moderador** | No | Sí |
@@ -65,7 +62,7 @@ Kahoot y SAPIRO no se sustituyen. Se complementan.
 
 Kahoot sigue siendo una herramienta fantástica para profesores. Hacer un quiz interactivo durante una clase, comprobar la comprensión en tiempo real, movilizar a 30 alumnos: Kahoot hace esto mejor que nadie. Si eres docente, Kahoot merece un lugar en tu caja de herramientas pedagógica.
 
-SAPIRO está hecho para otro momento. El de cuando un niño llega a casa y quiere seguir aprendiendo mientras se divierte. El de cuando un adulto quiere enriquecer su cultura general durante el trayecto al trabajo. El de cuando toda la familia se lanza un desafío el fin de semana. Sin publicidad, sin recopilación de datos, con explicaciones en cada pregunta y un precio accesible. SAPIRO tiene una nota de 5/5 estrellas en Google Play y está recomendada por profesores.
+SAPIRO está hecho para otro momento. El de cuando un niño llega a casa y quiere seguir aprendiendo mientras se divierte. El de cuando un adulto quiere enriquecer su cultura general durante el trayecto al trabajo. El de cuando toda la familia se lanza un desafío el fin de semana. Sin publicidad, sin recopilación de datos y con explicaciones en cada pregunta. SAPIRO tiene una nota de 5/5 estrellas en Google Play y está recomendada por profesores.
 
 La elección no es una u otra. Depende del contexto. En el aula, Kahoot. En casa, SAPIRO.
 

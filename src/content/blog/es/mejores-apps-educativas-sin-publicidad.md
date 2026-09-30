@@ -2,7 +2,7 @@
 title: "Mejores apps educativas sin publicidad"
 description: "Selección de las mejores aplicaciones educativas sin publicidad: geografía, idiomas, historia, ciencias. Aprender sin interrupciones."
 date: 2026-03-03
-lastModified: 2026-06-15
+lastModified: 2026-09-30
 image: "/images/blog/apps/tablette-education.jpg"
 imageAlt: "Un niño jugando con un ordenador de juguete de madera con letras cirílicas"
 imageCredit: "Foto: Shixart1985 · CC BY 2.0 · Wikimedia Commons"
@@ -66,7 +66,7 @@ Tres razones.
 
 ## El modelo económico sin publi: tres opciones
 
-**El freemium honesto.** Versión gratuita completa, premium para funcionalidades avanzadas. Es el modelo SAPIRO.
+**El freemium honesto.** Una versión gratuita realmente utilizable, sin publicidad. Es la elección de SAPIRO.
 
 **La suscripción de pago.** Sin versión gratuita. Modelo Anki en iOS, algunas apps de meditación.
 

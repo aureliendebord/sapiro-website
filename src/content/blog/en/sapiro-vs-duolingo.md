@@ -2,7 +2,7 @@
 title: "SAPIRO vs Duolingo: Learn What Exactly?"
 description: "SAPIRO vs Duolingo comparison: general knowledge or foreign languages? Pros, cons and audiences for each app."
 date: 2026-02-28
-lastModified: 2026-06-15
+lastModified: 2026-09-30
 image: "/images/blog/apps/smartphone-app.jpg"
 imageAlt: "A smartphone showing a social media post"
 imageCredit: "Photo: Mictlancihuatl · CC BY-SA 4.0 · Wikimedia Commons"
@@ -32,7 +32,7 @@ SAPIRO and Duolingo are both learning apps, but on different territory. Duolingo
 
 **Duolingo.** Free with ads and heart limit (long recharge after errors). Super Duolingo ($8-14/month) removes that.
 
-**SAPIRO.** Free with all features, no ads, no limits. Sapiro+ ($1.99/month or $39.99 lifetime) for extended features.
+**SAPIRO.** Free version with no ads.
 
 ## Advertising
 

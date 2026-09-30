@@ -2,7 +2,7 @@
 title: "Apps quiz sans collecte de données : comparatif"
 description: "Quelles apps de quiz respectent vraiment vos données ? Comparatif des applications qui ne collectent pas vos données personnelles."
 date: 2026-03-04
-lastModified: 2026-06-15
+lastModified: 2026-09-30
 image: "/images/blog/apps/smartphone-app.jpg"
 imageAlt: "Un smartphone affichant une publication sur un réseau social"
 imageCredit: "Photo : Mictlancihuatl · CC BY-SA 4.0 · Wikimedia Commons"
@@ -54,9 +54,9 @@ Cinq points à vérifier.
 
 ## Comment SAPIRO peut être gratuit et sans collecte
 
-C'est la question légitime. Le modèle économique repose sur :
+C'est la question légitime. Le modèle repose sur :
 
-**Sapiro+ payant.** 1,99 euros/mois, 19,99/an ou 39,99 à vie. Volontaire, sans pression. Les utilisateurs qui apprécient le service le soutiennent.
+**Aucune régie publicitaire.** Sans publicité à cibler, l'app n'a aucune raison de collecter des données comportementales.
 
 **Pas d'investissement marketing massif.** Le bouche-à-oreille remplace la publicité payante.
 
