@@ -1,8 +1,8 @@
 ---
-title: "The 10 Smallest Countries in Africa, from the Seychelles to Burundi"
-description: "The Seychelles (459 km²) is the smallest country in Africa, ahead of São Tomé and Príncipe. The 10 smallest African countries, including the smallest on the mainland."
+title: "What Is the Smallest Country in Africa? Top 20 Ranking (2026)"
+description: "The Seychelles (459 km²) is the smallest country in Africa, and the Gambia the smallest on the mainland. The 20 smallest African countries ranked by area, with a full table."
 date: 2026-08-17
-lastModified: 2026-08-17
+lastModified: 2026-10-01
 image: "/images/blog/monde/carte-monde-ancienne.jpg"
 imageAlt: "An old world map"
 imageCredit: "Photo: Reginald Lane Poole · public domain · Wikimedia Commons"
@@ -38,7 +38,7 @@ Ten volcanic islands off the coast of Senegal. With no notable natural resources
 
 ## 6. The Gambia (11,295 km²)
 
-The smallest country on the African mainland. The Gambia is a strip of land 25 to 50 km wide that follows the river of the same name, entirely surrounded by Senegal except for its Atlantic coastline.
+The smallest country on the African mainland. The Gambia is a strip of land no more than about 50 km wide that follows the river of the same name, entirely surrounded by Senegal except for its Atlantic coastline.
 
 ## 7. Eswatini (17,364 km²)
 
@@ -56,7 +56,7 @@ The land of a thousand hills is one of Africa's most densely populated countries
 
 Rwanda's neighbor and near geographic twin, Burundi closes this ranking. Like Rwanda, it borders Lake Tanganyika, one of the deepest lakes in the world.
 
-## The smallest countries in Africa at a glance
+## The 20 smallest countries in Africa at a glance
 
 | Rank | Country | Area (km²) | Type |
 |---|---|---|---|
@@ -70,8 +70,18 @@ Rwanda's neighbor and near geographic twin, Burundi closes this ranking. Like Rw
 | 8 | Djibouti | 23,200 | Mainland |
 | 9 | Rwanda | 26,338 | Mainland |
 | 10 | Burundi | 27,834 | Mainland |
+| 11 | Equatorial Guinea | 28,051 | Mainland and islands |
+| 12 | Lesotho | 30,355 | Mainland |
+| 13 | Guinea-Bissau | 36,125 | Mainland and islands |
+| 14 | Togo | 56,785 | Mainland |
+| 15 | Sierra Leone | 71,740 | Mainland |
+| 16 | Liberia | 111,369 | Mainland |
+| 17 | Benin | 114,763 | Mainland |
+| 18 | Eritrea | 117,600 | Mainland |
+| 19 | Malawi | 118,484 | Mainland |
+| 20 | Tunisia | 163,610 | Mainland |
 
-The top five are all islands or archipelagos: on the mainland, the race for smallest comes down to the Gambia and Eswatini. To compare with other continents, see the [smallest countries in the world](/en/blog/smallest-countries-world/), the [smallest countries in Asia](/en/blog/smallest-countries-asia/), the [smallest countries in Europe](/en/blog/smallest-countries-europe/), the [smallest countries in the Americas](/en/blog/smallest-countries-americas/) and the [smallest countries in Oceania](/en/blog/smallest-countries-oceania/). And to stay on the continent, our tour of [Africa's iconic wildlife](/en/blog/african-wildlife/) completes the trip.
+The top five are all islands or archipelagos: on the mainland, the race for smallest comes down to the Gambia and Eswatini. Beyond the top 10, Lesotho stands out: it is entirely surrounded by South Africa, one of only three countries in the world enclosed within a single other state. To compare with other continents, see the [smallest countries in the world](/en/blog/smallest-countries-world/), the [smallest countries in Asia](/en/blog/smallest-countries-asia/), the [smallest countries in Europe](/en/blog/smallest-countries-europe/), the [smallest countries in the Americas](/en/blog/smallest-countries-americas/) and the [smallest countries in Oceania](/en/blog/smallest-countries-oceania/). And to stay on the continent, our tour of [Africa's iconic wildlife](/en/blog/african-wildlife/) completes the trip.
 
 ## Frequently asked questions
 
