@@ -2,7 +2,7 @@
 title: "Los 10 países más pequeños del mundo: del Vaticano a Malta"
 description: "El Vaticano (0,49 km²) encabeza la lista. Ranking 2026 de los 10 países más pequeños por superficie, con población, comparaciones y los que se quedan cerca."
 date: 2026-03-06
-lastModified: 2026-07-12
+lastModified: 2026-10-01
 image: "/images/blog/monde/vatican.jpg"
 imageAlt: "La Ciudad del Vaticano vista desde el cielo"
 imageCredit: "Foto: CAPTAIN RAJU · CC0 · Wikimedia Commons"
@@ -27,17 +27,17 @@ quiz:
     explanation: "La altitud máxima de las Maldivas es de solo 2,4 metros. El país tiene 26 atolones en el océano Índico."
 ---
 
-Los países más pequeños del mundo tienen menos de 1 000 km², menos que la superficie de Madrid (605 km²) para los más minúsculos. Aquí va el top 10.
+Los 10 países más pequeños del mundo miden todos menos de 320 km², y los dos más pequeños, el Vaticano y Mónaco, cabrían cientos de veces en el municipio de Madrid (604 km²). Aquí va el top 10.
 
 ## 1. Vaticano (0,49 km²)
 
-[El país más pequeño del mundo](https://es.wikipedia.org/wiki/Ciudad_del_Vaticano). 825 habitantes. Teocracia electiva dirigida por el Papa. Enclavado en Roma.
+[El país más pequeño del mundo](https://es.wikipedia.org/wiki/Ciudad_del_Vaticano). Unos 800 habitantes. Teocracia electiva dirigida por el Papa. Enclavado en Roma.
 
-**Curiosidades.** País más pequeño pero también el más denso (1 700 hab/km²). Guardia Suiza Pontificia como ejército.
+**Curiosidades.** País más pequeño, pero no el más denso: unos 1 700 hab/km², diez veces menos que Mónaco. Guardia Suiza Pontificia como ejército.
 
 ## 2. Mónaco (2,02 km²)
 
-Principado mediterráneo. 36 000 habitantes. Monarquía constitucional de la familia Grimaldi desde 1297.
+Principado mediterráneo. Unos 38 000 habitantes. Monarquía constitucional de la familia Grimaldi desde 1297.
 
 **Curiosidades.** País más denso del mundo (18 000 hab/km²). Sin impuesto sobre la renta. Gran Premio de Fórmula 1 y Casino de Montecarlo.
 
@@ -63,11 +63,11 @@ Enclavado en Italia. 33 000 habitantes. Una de las repúblicas más antiguas del
 
 Entre Suiza y Austria. 39 000 habitantes.
 
-**Curiosidades.** Monarquía constitucional. País más rico del mundo por PIB per cápita.
+**Curiosidades.** Monarquía constitucional. Uno de los países más ricos del mundo por PIB per cápita, junto con Mónaco.
 
 ## 7. Islas Marshall (181 km²)
 
-29 atolones en el Pacífico. 60 000 habitantes. Pacto de libre asociación con EEUU.
+29 atolones en el Pacífico. Unos 42 000 habitantes. Pacto de libre asociación con EEUU.
 
 ## 8. San Cristóbal y Nieves (261 km²)
 
@@ -75,11 +75,11 @@ Dos islas en el Caribe. 47 000 habitantes. País más pequeño de las Américas.
 
 ## 9. Maldivas (298 km²)
 
-26 atolones en el océano Índico. 540 000 habitantes. También el país más plano (altitud máxima 2,4 metros).
+26 atolones en el océano Índico. Unos 520 000 habitantes. También el país más plano (altitud máxima 2,4 metros).
 
 ## 10. Malta (316 km²)
 
-Isla mediterránea. 530 000 habitantes. Miembro de la UE.
+Archipiélago mediterráneo. Unos 540 000 habitantes. Miembro de la UE.
 
 ## Países ligeramente más grandes que conocer
 
@@ -105,11 +105,11 @@ Tres razones históricas.
 
 ## Comparaciones útiles
 
-- Vaticano = Plaza de España de Madrid x 6
-- Mónaco = Casa de Campo de Madrid en superficie
-- San Marino = Manhattan aproximadamente
-- Liechtenstein = Madrid intramuros aproximadamente
-- Malta = 3 veces la ciudad de Granada
+- Vaticano = unos 60 campos de fútbol
+- Mónaco = algo más de 1,7 veces el parque del Retiro (118 ha)
+- San Marino = Manhattan (59 km²) aproximadamente
+- Liechtenstein = una cuarta parte del municipio de Madrid (604 km²)
+- Malta = unas 3,5 veces la ciudad de Granada (88 km²)
 
 Por continente: los [países más pequeños de Europa](/es/blog/paises-mas-pequenos-europa/), los [países más pequeños de Asia](/es/blog/paises-mas-pequenos-asia/), los [países más pequeños de África](/es/blog/paises-mas-pequenos-africa/), los [países más pequeños de América](/es/blog/paises-mas-pequenos-america/), los [países más pequeños de Oceanía](/es/blog/paises-mas-pequenos-oceania/) y los [seis microestados europeos](/es/blog/microestados-europeos/).
 

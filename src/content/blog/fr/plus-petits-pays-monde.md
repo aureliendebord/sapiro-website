@@ -2,7 +2,7 @@
 title: "Quel est le plus petit pays du monde ? Top 10 (2026)"
 description: "Le Vatican (0,49 km²) est le plus petit pays du monde. Classement 2026 des 10 plus petits pays par superficie, avec population et faits surprenants."
 date: 2026-03-06
-lastModified: 2026-07-12
+lastModified: 2026-10-01
 image: "/images/blog/monde/vatican.jpg"
 imageAlt: "La cité du Vatican vue du ciel"
 imageCredit: "Photo : CAPTAIN RAJU · CC0 · Wikimedia Commons"
@@ -27,17 +27,17 @@ quiz:
     explanation: "L'altitude maximale des Maldives n'est que de 2,4 mètres. Le pays compte 26 atolls dans l'océan Indien."
 ---
 
-Les plus petits pays du monde font moins de 1 000 km², soit moins que la superficie de Paris (105 km²) en ce qui concerne les plus minuscules. Voici le top 10.
+Les 10 plus petits pays du monde font tous moins de 320 km², et les deux plus petits, le Vatican et Monaco, tiendraient des dizaines de fois dans Paris (105 km²). Voici le top 10.
 
 ## 1. Vatican (0,49 km²)
 
-[Le plus petit pays au monde](https://fr.wikipedia.org/wiki/Vatican). 825 habitants. Théocratie élective dirigée par le Pape. Enclavé dans Rome.
+[Le plus petit pays au monde](https://fr.wikipedia.org/wiki/Vatican). Environ 800 habitants. Théocratie élective dirigée par le Pape. Enclavé dans Rome.
 
-**Particularités.** Pays le plus petit, mais aussi le plus dense (1 700 hab/km²). Garde suisse pontificale comme armée.
+**Particularités.** Pays le plus petit, mais pas le plus dense : environ 1 700 hab/km², dix fois moins que Monaco. Garde suisse pontificale comme armée.
 
 ## 2. Monaco (2,02 km²)
 
-Principauté méditerranéenne. 36 000 habitants. Monarchie constitutionnelle de la famille Grimaldi depuis 1297.
+Principauté méditerranéenne. Environ 38 000 habitants. Monarchie constitutionnelle de la famille Grimaldi depuis 1297.
 
 **Particularités.** Pays le plus dense au monde (18 000 hab/km²). Pas d'impôt sur le revenu. Grand Prix de Formule 1 et Casino de Monte-Carlo.
 
@@ -63,11 +63,11 @@ Enclavé dans l'Italie. 33 000 habitants. Une des plus anciennes républiques du
 
 Entre la Suisse et l'Autriche. 39 000 habitants.
 
-**Particularités.** Monarchie constitutionnelle. Pays le plus riche au monde par PIB par habitant.
+**Particularités.** Monarchie constitutionnelle. L'un des pays les plus riches au monde par PIB par habitant, avec Monaco.
 
 ## 7. Îles Marshall (181 km²)
 
-29 atolls dans le Pacifique. 60 000 habitants. Compact d'association libre avec les USA.
+29 atolls dans le Pacifique. Environ 42 000 habitants. Compact d'association libre avec les USA.
 
 ## 8. Saint-Christophe-et-Niévès (261 km²)
 
@@ -75,11 +75,11 @@ Deux îles aux Caraïbes. 47 000 habitants. Plus petit pays des Amériques.
 
 ## 9. Maldives (298 km²)
 
-26 atolls dans l'océan Indien. 540 000 habitants. Aussi le pays le plus plat (altitude maximale 2,4 mètres).
+26 atolls dans l'océan Indien. Environ 520 000 habitants. Aussi le pays le plus plat (altitude maximale 2,4 mètres).
 
 ## 10. Malte (316 km²)
 
-Île méditerranéenne. 530 000 habitants. Membre de l'UE.
+Archipel méditerranéen. Environ 540 000 habitants. Membre de l'UE.
 
 ## Pays légèrement plus grands à connaître
 
@@ -105,11 +105,11 @@ Trois raisons historiques.
 
 ## Comparaisons utiles
 
-- Vatican = Place de la Concorde × 6
-- Monaco = Bois de Vincennes en superficie
-- Saint-Marin = Manhattan environ
-- Liechtenstein = Paris intra-muros environ
-- Malte = 3 fois la ville de Lyon
+- Vatican = environ 60 terrains de football
+- Monaco = un cinquième du bois de Vincennes (10 km²)
+- Saint-Marin = Manhattan (59 km²) environ
+- Liechtenstein = une fois et demie Paris intra-muros (105 km²)
+- Malte = un peu plus de six fois la ville de Lyon (48 km²)
 
 Par continent : les [plus petits pays d'Europe](/blog/plus-petits-pays-europe/), les [plus petits pays d'Asie](/blog/plus-petits-pays-asie/), les [plus petits pays d'Afrique](/blog/plus-petits-pays-afrique/), les [plus petits pays d'Amérique](/blog/plus-petits-pays-amerique/), les [plus petits pays d'Océanie](/blog/plus-petits-pays-oceanie/) et les [six micro-États européens](/blog/micro-etats-europeens/).
 
