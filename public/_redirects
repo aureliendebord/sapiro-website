@@ -13,3 +13,26 @@
 /en/pricing/          /en/                    301
 /es/pricing           /es/                    301
 /es/pricing/          /es/                    301
+
+# URLs mortes signalées en 404 par la Search Console (2026-10-01)
+# Slugs FR utilisés par erreur sous /es/ et /en/ -> article traduit
+/es/blog/personnages-historiques/   /es/blog/personajes-historicos/   301
+/es/blog/personnages-historiques    /es/blog/personajes-historicos/   301
+/es/blog/drapeaux-difficiles/       /es/blog/banderas-dificiles/      301
+/es/blog/drapeaux-difficiles        /es/blog/banderas-dificiles/      301
+/es/blog/culture-generale-guide/    /es/blog/cultura-general-guia/    301
+/es/blog/culture-generale-guide     /es/blog/cultura-general-guia/    301
+/en/blog/geographie-enfants/        /en/blog/geography-for-kids/      301
+/en/blog/geographie-enfants         /en/blog/geography-for-kids/      301
+
+# Page avis supprimée -> accueil
+/reviews       /        301
+/reviews/      /        301
+/en/reviews    /en/     301
+/en/reviews/   /en/     301
+/es/reviews    /es/     301
+/es/reviews/   /es/     301
+
+# Ancienne URL de téléchargement -> section téléchargement de l'accueil
+/download      /#download   301
+/download/     /#download   301
