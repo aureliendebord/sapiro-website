@@ -120,7 +120,7 @@ Pensar por grandes "rupturas". Neolítico, Antigüedad (Roma), caída de Roma (4
 
 Cruzar con la geografía. Las civilizaciones se solapan. Roma existe a la vez que la China Han, la India maurya. La línea europea no es la línea mundial.
 
-Para profundizar: [personajes históricos mayores](/es/blog/personajes-historicos/) y el de [grandes batallas de la historia](/es/blog/grandes-batallas-historia/). SAPIRO propone quizzes de historia mundial con explicación contextualizada detrás de cada pregunta.
+Para profundizar: [personajes históricos mayores](/es/blog/personajes-historicos/) y el de [grandes batallas de la historia](/es/blog/grandes-batallas-historia/). SAPIRO propone quizzes de historia mundial con explicación contextualizada detrás de cada pregunta. Y para ponerte a prueba, nuestras [20 preguntas de cultura general](/es/blog/20-preguntas-cultura-general-respuestas/) incluyen cuatro de historia, de la independencia de Estados Unidos a la Gran Muralla.
 
 <figure>
   <img src="/images/blog/histoire/artefact-antique.jpg" alt="Una cerámica griega antigua" loading="lazy" />

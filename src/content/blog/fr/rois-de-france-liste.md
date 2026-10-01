@@ -94,7 +94,7 @@ Croiser avec les guerres. Guerre de Cent Ans = Charles V, Charles VII, Louis XI.
 
 Croiser avec les lieux de pouvoir. De Versailles au Louvre, les [châteaux et palais célèbres](/blog/chateaux-palais-celebres-monde/) racontent concrètement le règne de ces souverains.
 
-Pour aller plus loin, voir notre [frise chronologique mondiale](/blog/frise-chronologique-mondiale/) et notre article sur les [personnages historiques majeurs](/blog/personnages-historiques/). SAPIRO propose des quiz sur les souverains et l'histoire de France avec explication contextualisée derrière chaque question.
+Pour aller plus loin, voir notre [frise chronologique mondiale](/blog/frise-chronologique-mondiale/) et notre article sur les [personnages historiques majeurs](/blog/personnages-historiques/). SAPIRO propose des quiz sur les souverains et l'histoire de France avec explication contextualisée derrière chaque question. Pour se tester au-delà de l'histoire de France : nos [20 questions de culture générale](/blog/20-questions-culture-generale-reponses/), dont quatre en histoire.
 
 <figure>
   <img src="/images/blog/histoire/louis-xiv.jpg" alt="Portrait de Louis XIV" loading="lazy" />
