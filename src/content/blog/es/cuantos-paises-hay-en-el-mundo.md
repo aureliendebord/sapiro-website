@@ -1,8 +1,8 @@
 ---
-title: "¿Cuántos países hay en el mundo? 193, 195 o 197"
-description: "Hay 195 países según el recuento más habitual: 193 miembros de la ONU más 2 estados observadores. Por qué 193, 197, 206 y 249 también son respuestas correctas."
+title: "¿Cuántos países hay en el mundo en 2026? Las 6 cifras oficiales"
+description: "195 según el recuento habitual, 193 para la ONU, 197 con Kosovo y Taiwán, y hasta 249 para la ISO. Quién cuenta qué, en una tabla, y qué país podría ser el próximo."
 date: 2026-08-17
-lastModified: 2026-08-17
+lastModified: 2026-10-01
 image: "/images/blog/apprentissage/carte-monde.jpg"
 imageAlt: "Un mapa político del mundo"
 imageCredit: "Foto: JanitoalevicOriginal map by: CIA World Factbook · dominio público · Wikimedia Commons"
