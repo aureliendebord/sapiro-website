@@ -1,5 +1,5 @@
 ---
-title: "10 questions de culture générale (avec réponses)"
+title: "10 questions de culture générale avec réponse, par niveau"
 description: "10 questions de culture générale avec réponses expliquées, classées par thème et par difficulté. De quoi se tester seul ou animer une soirée entre amis."
 date: 2026-06-24
 image: "/images/blog/art/galerie-musee.jpg"

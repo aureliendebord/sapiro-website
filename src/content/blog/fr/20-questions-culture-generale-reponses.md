@@ -1,5 +1,5 @@
 ---
-title: "20 questions de culture générale (avec réponses)"
+title: "20 questions de culture générale avec réponse (gratuit)"
 description: "20 questions de culture générale avec réponses expliquées, par thème et par niveau. Le format idéal pour se tester sans y passer la soirée."
 date: 2026-06-24
 image: "/images/blog/monde/livres-anciens.jpg"
