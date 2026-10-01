@@ -2,7 +2,7 @@
 title: "10 pays non reconnus (ou partiellement) qui existent vraiment"
 description: "Taïwan, Kosovo, Somaliland : une dizaine de territoires fonctionnent comme des États sans siège à l'ONU. Les 10 pays non reconnus, ou partiellement reconnus."
 date: 2026-07-21
-lastModified: 2026-07-21
+lastModified: 2026-10-01
 image: "/images/blog/apprentissage/carte-monde.jpg"
 imageAlt: "Une carte politique du monde"
 imageCredit: "Photo : JanitoalevicOriginal map by: CIA World Factbook · domaine public · Wikimedia Commons"
@@ -36,9 +36,9 @@ La République arabe sahraouie démocratique (RASD) est membre de l'Union africa
 
 La République turque de Chypre du Nord a été proclamée en 1983, dans le nord de l'île divisée depuis 1974. Elle n'est reconnue que par la Turquie. Le reste de la communauté internationale considère la zone comme une partie de la République de Chypre.
 
-## 6. Somaliland (reconnu par aucun État membre de l'ONU)
+## 6. Somaliland (reconnu par Israël depuis 2025)
 
-Le Somaliland a autoproclamé son indépendance de la Somalie en 1991. Il possède ses propres institutions, sa monnaie et organise des élections régulières. Aucun État membre de l'ONU ne le reconnaît.
+Le Somaliland a autoproclamé son indépendance de la Somalie en 1991. Il possède ses propres institutions, sa monnaie et organise des élections régulières. Pendant plus de trente ans, aucun État membre de l'ONU ne l'a reconnu, jusqu'à Israël, premier à le faire en décembre 2025. La Somalie, l'Union africaine et la plupart des pays le considèrent toujours comme une partie de la Somalie.
 
 ## 7. Transnistrie (sécession de fait)
 
@@ -65,7 +65,7 @@ La république autoproclamée d'Artsakh, peuplée majoritairement d'Arméniens, 
 | Palestine | 1988 | environ 150 pays |
 | Sahara occidental | 1976 | environ 40 pays |
 | Chypre du Nord | 1983 | 1 (la Turquie) |
-| Somaliland | 1991 | aucun État membre de l'ONU |
+| Somaliland | 1991 | 1 (Israël, depuis 2025) |
 | Transnistrie | 1992 | aucun État membre de l'ONU |
 | Abkhazie | 2008 | environ 5 pays |
 | Ossétie du Sud | 2008 | environ 5 pays |
@@ -77,7 +77,7 @@ La disparition d'un État est un cas voisin, décrit dans les [pays qui n'existe
 
 ### Combien de pays ne sont pas reconnus par l'ONU ?
 
-Une dizaine de territoires fonctionnent comme des États sans être membres de l'ONU. Leur degré de reconnaissance varie beaucoup : environ 150 pays pour la Palestine, une centaine pour le Kosovo, un seul pour Chypre du Nord, aucun pour le Somaliland.
+Une dizaine de territoires fonctionnent comme des États sans être membres de l'ONU. Leur degré de reconnaissance varie beaucoup : environ 150 pays pour la Palestine, une centaine pour le Kosovo, un seul pour Chypre du Nord (la Turquie) et pour le Somaliland (Israël), aucun pour la Transnistrie.
 
 ### Pourquoi Taïwan n'est-il pas membre de l'ONU ?
 
@@ -85,7 +85,7 @@ En 1971, la résolution 2758 de l'ONU a attribué le siège de la Chine à la R�
 
 ### Quel pays n'est reconnu par absolument personne ?
 
-Le Somaliland n'est reconnu par aucun État membre de l'ONU. Il fonctionne pourtant comme un État depuis 1991, avec ses institutions, sa monnaie et des élections régulières.
+La Transnistrie. Aucun État membre de l'ONU ne la reconnaît, seulement l'Abkhazie et l'Ossétie du Sud, elles-mêmes à peine reconnues. Le Somaliland détenait aussi ce record, jusqu'à sa reconnaissance par Israël en décembre 2025.
 
 ### Le Kosovo est-il un pays ?
 

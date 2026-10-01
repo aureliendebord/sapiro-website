@@ -2,7 +2,7 @@
 title: "10 países no reconocidos (o parcialmente) que existen de verdad"
 description: "Taiwán, Kosovo, Somalilandia: una decena de territorios funcionan como Estados sin asiento en la ONU. Los 10 países no reconocidos o parcialmente reconocidos."
 date: 2026-07-21
-lastModified: 2026-07-21
+lastModified: 2026-10-01
 image: "/images/blog/apprentissage/carte-monde.jpg"
 imageAlt: "Un mapa político del mundo"
 imageCredit: "Foto: JanitoalevicOriginal map by: CIA World Factbook · dominio público · Wikimedia Commons"
@@ -36,9 +36,9 @@ La República Árabe Saharaui Democrática (RASD) es miembro de la Unión Africa
 
 La República Turca del Norte de Chipre fue proclamada en 1983, en el norte de una isla dividida desde 1974. Solo Turquía la reconoce. El resto de la comunidad internacional considera la zona parte de la República de Chipre.
 
-## 6. Somalilandia (reconocida por ningún Estado miembro de la ONU)
+## 6. Somalilandia (reconocida por Israel desde 2025)
 
-Somalilandia autoproclamó su independencia de Somalia en 1991. Tiene sus propias instituciones, su moneda y celebra elecciones regulares. Ningún Estado miembro de la ONU la reconoce.
+Somalilandia autoproclamó su independencia de Somalia en 1991. Tiene sus propias instituciones, su moneda y celebra elecciones regulares. Durante más de treinta años ningún Estado miembro de la ONU la reconoció, hasta que Israel lo hizo en diciembre de 2025. Somalia, la Unión Africana y la mayoría de los países la siguen considerando parte de Somalia.
 
 ## 7. Transnistria (secesión de hecho)
 
@@ -65,7 +65,7 @@ La república autoproclamada de Artsaj, poblada mayoritariamente por armenios, s
 | Palestina | 1988 | unos 150 países |
 | Sáhara Occidental | 1976 | unos 40 países |
 | Chipre del Norte | 1983 | 1 (Turquía) |
-| Somalilandia | 1991 | ningún Estado miembro de la ONU |
+| Somalilandia | 1991 | 1 (Israel, desde 2025) |
 | Transnistria | 1992 | ningún Estado miembro de la ONU |
 | Abjasia | 2008 | unos 5 países |
 | Osetia del Sur | 2008 | unos 5 países |
@@ -77,7 +77,7 @@ La desaparición de un Estado es un caso vecino, descrito en los [países que ya
 
 ### ¿Cuántos países no están reconocidos por la ONU?
 
-Una decena de territorios funcionan como Estados sin ser miembros de la ONU. Su grado de reconocimiento varía mucho: unos 150 países para Palestina, un centenar para Kosovo, uno solo para Chipre del Norte, ninguno para Somalilandia.
+Una decena de territorios funcionan como Estados sin ser miembros de la ONU. Su grado de reconocimiento varía mucho: unos 150 países para Palestina, un centenar para Kosovo, uno solo para Chipre del Norte (Turquía) y para Somalilandia (Israel), ninguno para Transnistria.
 
 ### ¿Por qué Taiwán no es miembro de la ONU?
 
@@ -85,7 +85,7 @@ En 1971, la resolución 2758 de la ONU atribuyó el asiento de China a la Repúb
 
 ### ¿Qué país no está reconocido por absolutamente nadie?
 
-Somalilandia no está reconocida por ningún Estado miembro de la ONU. Sin embargo, funciona como un Estado desde 1991, con sus instituciones, su moneda y elecciones regulares.
+Transnistria. Ningún Estado miembro de la ONU la reconoce, solo Abjasia y Osetia del Sur, a su vez apenas reconocidas. Somalilandia también tuvo ese récord, hasta que Israel la reconoció en diciembre de 2025.
 
 ### ¿Es Kosovo un país?
 

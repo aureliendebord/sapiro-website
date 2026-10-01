@@ -2,7 +2,7 @@
 title: "Countries that don't exist: 10 unrecognized states that are real"
 description: "Taiwan, Kosovo, Somaliland: about ten territories function as states without a UN seat. The 10 unrecognized (or partially recognized) countries, explained."
 date: 2026-07-21
-lastModified: 2026-07-21
+lastModified: 2026-10-01
 image: "/images/blog/apprentissage/carte-monde.jpg"
 imageAlt: "A political world map"
 imageCredit: "Photo: JanitoalevicOriginal map by: CIA World Factbook · public domain · Wikimedia Commons"
@@ -36,9 +36,9 @@ The Sahrawi Arab Democratic Republic (SADR) is a member of the African Union. Th
 
 The Turkish Republic of Northern Cyprus was proclaimed in 1983, in the north of an island divided since 1974. It is recognized only by Turkey. The rest of the international community considers the area part of the Republic of Cyprus.
 
-## 6. Somaliland (recognized by no UN member state)
+## 6. Somaliland (recognized by Israel since 2025)
 
-Somaliland declared its independence from Somalia in 1991. It has its own institutions, its own currency, and holds regular elections. No UN member state recognizes it.
+Somaliland declared its independence from Somalia in 1991. It has its own institutions, its own currency, and holds regular elections. For more than thirty years no UN member state recognized it, until Israel became the first to do so in December 2025. Somalia, the African Union and most countries still consider it part of Somalia.
 
 ## 7. Transnistria (de facto secession)
 
@@ -65,7 +65,7 @@ The self-proclaimed republic of Artsakh, populated mostly by Armenians, was offi
 | Palestine | 1988 | around 150 countries |
 | Western Sahara | 1976 | around 40 countries |
 | Northern Cyprus | 1983 | 1 (Turkey) |
-| Somaliland | 1991 | no UN member state |
+| Somaliland | 1991 | 1 (Israel, since 2025) |
 | Transnistria | 1992 | no UN member state |
 | Abkhazia | 2008 | around 5 countries |
 | South Ossetia | 2008 | around 5 countries |
@@ -77,7 +77,7 @@ The disappearance of a state is a related case, covered in the [countries that n
 
 ### How many countries are not recognized by the UN?
 
-About ten territories function as states without being UN members. Their degree of recognition varies widely: around 150 countries for Palestine, about a hundred for Kosovo, a single one for Northern Cyprus, none for Somaliland.
+About ten territories function as states without being UN members. Their degree of recognition varies widely: around 150 countries for Palestine, about a hundred for Kosovo, a single one for Northern Cyprus (Turkey) and for Somaliland (Israel), none for Transnistria.
 
 ### Why is Taiwan not a member of the UN?
 
@@ -85,7 +85,7 @@ In 1971, UN Resolution 2758 assigned China's seat to the People's Republic of Ch
 
 ### Which country is recognized by absolutely no one?
 
-Somaliland is recognized by no UN member state. Yet it has functioned as a state since 1991, with its own institutions, its own currency and regular elections.
+Transnistria. No UN member state recognizes it, only Abkhazia and South Ossetia, which are themselves barely recognized. Somaliland long held this record too, until Israel recognized it in December 2025.
 
 ### Is Kosovo a country?
 
