@@ -2,7 +2,7 @@
 title: "What Is the Smallest Country in the World? Top 10 (2026)"
 description: "The Vatican (0.49 km²) is the smallest country on Earth. Full 2026 ranking of the 10 smallest countries by area, with population and surprising facts."
 date: 2026-03-06
-lastModified: 2026-07-12
+lastModified: 2026-10-01
 image: "/images/blog/monde/vatican.jpg"
 imageAlt: "Vatican City seen from above"
 imageCredit: "Photo: CAPTAIN RAJU · CC0 · Wikimedia Commons"
@@ -27,17 +27,17 @@ quiz:
     explanation: "The Maldives' maximum elevation is just 2.4 meters. The country is made of 26 atolls in the Indian Ocean."
 ---
 
-The smallest countries in the world are under 1,000 km², smaller than the size of Paris (105 km²) for the tiniest ones. Here is the top 10.
+The 10 smallest countries in the world all cover less than 320 km², and the two smallest, Vatican City and Monaco, would fit inside Paris (105 km²) dozens of times over. Here is the top 10.
 
 ## 1. Vatican (0.49 km²)
 
-[The smallest country in the world](https://en.wikipedia.org/wiki/Vatican_City). 825 inhabitants. Elective theocracy ruled by the Pope. Enclaved within Rome.
+[The smallest country in the world](https://en.wikipedia.org/wiki/Vatican_City). About 800 inhabitants. Elective theocracy ruled by the Pope. Enclaved within Rome.
 
-**Quirks.** Smallest country but also densest (1,700 inhabitants/km²). Pontifical Swiss Guard as army.
+**Quirks.** Smallest country, but not the densest: about 1,700 inhabitants/km², ten times less than Monaco. Pontifical Swiss Guard as army.
 
 ## 2. Monaco (2.02 km²)
 
-Mediterranean principality. 36,000 inhabitants. Constitutional monarchy of the Grimaldi family since 1297.
+Mediterranean principality. About 38,000 inhabitants. Constitutional monarchy of the Grimaldi family since 1297.
 
 **Quirks.** Densest country in the world (18,000 inhabitants/km²). No income tax. Formula 1 Grand Prix and Monte-Carlo Casino.
 
@@ -63,35 +63,65 @@ Enclaved in Italy. 33,000 inhabitants. One of the oldest republics in the world,
 
 Between Switzerland and Austria. 39,000 inhabitants.
 
-**Quirks.** Constitutional monarchy. Richest country in the world by GDP per capita.
+**Quirks.** Constitutional monarchy. Among the richest countries in the world by GDP per capita, alongside Monaco. One of only two doubly landlocked countries, with Uzbekistan.
 
 ## 7. Marshall Islands (181 km²)
 
-29 atolls in the Pacific. 60,000 inhabitants. Compact of free association with the US.
+29 atolls in the Pacific. About 42,000 inhabitants. Compact of free association with the US.
+
+**Quirks.** The United States carried out 67 nuclear tests there between 1946 and 1958, including at Bikini Atoll.
 
 ## 8. Saint Kitts and Nevis (261 km²)
 
-Two islands in the Caribbean. 47,000 inhabitants. Smallest country in the Americas.
+Two islands in the Caribbean. About 47,000 inhabitants. Smallest country in the Americas.
+
+**Quirks.** Its citizenship-by-investment programme, launched in 1984, is the oldest in the world.
 
 ## 9. Maldives (298 km²)
 
-26 atolls in the Indian Ocean. 540,000 inhabitants. Also the flattest country (maximum elevation 2.4 meters).
+26 atolls in the Indian Ocean. About 520,000 inhabitants.
+
+**Quirks.** The flattest country in the world (maximum elevation 2.4 meters), spread over some 1,190 coral islands, about 200 of them inhabited.
 
 ## 10. Malta (316 km²)
 
-Mediterranean island. 530,000 inhabitants. EU member.
+Mediterranean archipelago. About 540,000 inhabitants. EU member.
 
-## Slightly larger countries to know
+**Quirks.** The most densely populated country in the European Union, and Valletta is the EU's smallest capital.
 
-**Grenada (344 km²).** Caribbean.
+## All countries smaller than 1,000 km²
 
-**Saint Vincent and the Grenadines (389 km²).** Caribbean.
+25 sovereign states cover less than 1,000 km². Beyond the top 10, most are Caribbean or Pacific islands, with two exceptions far more populated than the rest: Singapore and Bahrain.
 
-**Barbados (430 km²).** Caribbean.
+| Rank | Country | Area (km²) | Population (approx.) | Continent |
+|---|---|---|---|---|
+| 1 | Vatican City | 0.49 | 800 | Europe |
+| 2 | Monaco | 2.02 | 38,000 | Europe |
+| 3 | Nauru | 21 | 12,000 | Oceania |
+| 4 | Tuvalu | 26 | 11,000 | Oceania |
+| 5 | San Marino | 61 | 33,000 | Europe |
+| 6 | Liechtenstein | 160 | 39,000 | Europe |
+| 7 | Marshall Islands | 181 | 42,000 | Oceania |
+| 8 | Saint Kitts and Nevis | 261 | 47,000 | Americas |
+| 9 | Maldives | 298 | 520,000 | Asia |
+| 10 | Malta | 316 | 540,000 | Europe |
+| 11 | Grenada | 344 | 117,000 | Americas |
+| 12 | Saint Vincent and the Grenadines | 389 | 104,000 | Americas |
+| 13 | Barbados | 430 | 280,000 | Americas |
+| 14 | Antigua and Barbuda | 442 | 94,000 | Americas |
+| 15 | Seychelles | 459 | 120,000 | Africa |
+| 16 | Palau | 459 | 18,000 | Oceania |
+| 17 | Andorra | 468 | 85,000 | Europe |
+| 18 | Saint Lucia | 617 | 180,000 | Americas |
+| 19 | Micronesia | 702 | 105,000 | Oceania |
+| 20 | Singapore | 735 | 5,900,000 | Asia |
+| 21 | Tonga | 747 | 100,000 | Oceania |
+| 22 | Dominica | 751 | 72,000 | Americas |
+| 23 | Bahrain | 786 | 1,600,000 | Asia |
+| 24 | Kiribati | 811 | 130,000 | Oceania |
+| 25 | São Tomé and Príncipe | 964 | 230,000 | Africa |
 
-**Antigua and Barbuda (442 km²).** Caribbean.
-
-**Andorra (468 km²).** Between France and Spain.
+Areas from the CIA World Factbook; populations are rounded recent estimates. Singapore and Bahrain keep growing through land reclamation, so their area changes slightly from year to year.
 
 ## Why such small countries?
 
@@ -105,11 +135,11 @@ Three historical reasons.
 
 ## Useful comparisons
 
-- Vatican = Central Park / 100 roughly
-- Monaco = Central Park × 2
-- San Marino = Manhattan roughly
-- Liechtenstein = Inner Paris roughly
-- Malta = 3 times the city of Brussels
+- Vatican City = about 60 football pitches, or one seventh of New York's Central Park (3.4 km²)
+- Monaco = about three fifths of Central Park
+- San Marino = Manhattan (59 km²) roughly
+- Liechtenstein = about one and a half times Paris (105 km²)
+- Malta = about two fifths of New York City (784 km²)
 
 By continent: the [smallest countries in Europe](/en/blog/smallest-countries-europe/), the [smallest countries in Asia](/en/blog/smallest-countries-asia/), the [smallest countries in Africa](/en/blog/smallest-countries-africa/), the [smallest countries in the Americas](/en/blog/smallest-countries-americas/), the [smallest countries in Oceania](/en/blog/smallest-countries-oceania/) and the [six European microstates](/en/blog/european-microstates/).
 
@@ -141,4 +171,4 @@ The smallest country in Europe is Vatican City (0.49 km²). In Asia it is the Ma
 
 ### How many countries are smaller than 1,000 km²?
 
-More than twenty sovereign states are smaller than 1,000 km², most of them island nations in the Caribbean and the Pacific, plus the European microstates (Vatican, Monaco, San Marino, Liechtenstein).
+25 sovereign states are smaller than 1,000 km² (full table above), most of them island nations in the Caribbean and the Pacific, plus the European microstates (Vatican, Monaco, San Marino, Liechtenstein, Andorra) and Malta.
