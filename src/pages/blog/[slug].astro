@@ -18,11 +18,11 @@ export async function getStaticPaths() {
       params: { slug: post.data.urlSlug },
       props: {
         post,
-        // Une traduction canonicalisee ailleurs sort de la grappe hreflang.
+        // Une traduction absente ou canonicalisee ailleurs sort de la grappe hreflang.
         translationSlugs: {
           fr: post.data.urlSlug,
-          en: enPost ? (enPost.data.canonicalTo ? undefined : enPost.data.urlSlug) : post.data.urlSlug,
-          es: esPost ? (esPost.data.canonicalTo ? undefined : esPost.data.urlSlug) : post.data.urlSlug,
+          en: enPost && !enPost.data.canonicalTo ? enPost.data.urlSlug : undefined,
+          es: esPost && !esPost.data.canonicalTo ? esPost.data.urlSlug : undefined,
         },
       },
     };
