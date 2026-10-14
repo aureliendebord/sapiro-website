@@ -1,0 +1,64 @@
+---
+/**
+ * Lien intelligent vers l'app : cible des QR codes affichés sur ordinateur.
+ *
+ * Un QR code ne peut porter qu'une URL, alors que le téléphone qui le scanne
+ * peut être un iPhone ou un Android. Cette page choisit le store à la place du
+ * joueur : un QR qui mène à l'accueil du site obligeait à y chercher les badges,
+ * et seuls 2 joueurs sur ordinateur ont rejoint un store entre le 18/09 et le
+ * 14/10/2026.
+ *
+ * Le scan est compté (événement Umami `qr-scan`, campagne lue dans
+ * `utm_campaign`) avant la redirection. Page hors index et hors sitemap.
+ */
+import { appStoreUrl, playStoreUrl } from '../data/appLinks';
+
+const ios = appStoreUrl('en');
+const android = playStoreUrl('qr-desktop', 'en');
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex" />
+    <title>Sapiro</title>
+    <script defer src="https://trafic.debord.eu/script.js" data-website-id="32b4fd6e-17a1-465a-b2ee-fe09c0f6dad7" data-auto-track="false"></script>
+    <style>
+      body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: #f7f1e6; color: #1a1816; font-family: system-ui, sans-serif; text-align: center; }
+      a { display: block; margin: 12px auto; padding: 14px 22px; border-radius: 14px; background: #1a1816; color: #fff; text-decoration: none; font-weight: 700; max-width: 260px; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <p>Sapiro</p>
+      <a href={ios} data-store="app-store">App Store</a>
+      <a href={android} data-store="play-store">Google Play</a>
+    </main>
+    <script is:inline define:vars={{ ios, android }}>
+      const ua = navigator.userAgent;
+      const isAndroid = /Android/i.test(ua);
+      const isIos = /iPhone|iPad|iPod/i.test(ua) || (/Macintosh/i.test(ua) && navigator.maxTouchPoints > 1);
+      const target = isAndroid ? android : isIos ? ios : null;
+      if (target) {
+        const campaign = new URLSearchParams(location.search).get('utm_campaign') || 'direct';
+        let gone = false;
+        const go = () => {
+          if (gone) return;
+          gone = true;
+          location.replace(target);
+        };
+        // Compter le scan sans retenir le joueur : 800 ms maximum.
+        const track = () => {
+          if (window.umami) {
+            window.umami
+              .track('qr-scan', { campaign, store: isAndroid ? 'play-store' : 'app-store' })
+              .finally(go);
+          }
+        };
+        window.addEventListener('load', track);
+        setTimeout(go, 800);
+      }
+    </script>
+  </body>
+</html>

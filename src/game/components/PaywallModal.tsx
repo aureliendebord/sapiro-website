@@ -14,7 +14,7 @@ import { isSignedIn } from "@game/lib/auth";
 import { capture } from "@game/lib/analytics";
 import { getLanguage, t } from "@game/lib/i18n";
 import { Icon } from "./ui/Icon";
-import { appStoreUrl, playStoreUrl } from "../../data/appLinks";
+import { appQrUrl, appStoreUrl, playStoreUrl } from "../../data/appLinks";
 import { mobileStore } from "@game/lib/device";
 
 interface Props {
@@ -43,9 +43,8 @@ interface Props {
  *  - la résiliation passe par le portail RevenueCat, pas par l'App Store ;
  *  - l'essai n'est annoncé que si l'offering web en expose réellement un.
  */
-/** Le QR du paywall mène à l'accueil (liens stores), campagne mesurable. */
-const PHONE_QR_TARGET =
-  "https://sapiro.app/?utm_source=sapiro.app&utm_medium=qr&utm_campaign=paywall-desktop";
+/** Le QR du paywall mène droit au store du téléphone qui le scanne (page /app/). */
+const PHONE_QR_TARGET = appQrUrl("paywall-desktop");
 
 export function PaywallModal({ user, source, onClose, onPurchased, onNeedAccount }: Props) {
   const [plans, setPlans] = useState<SubscriptionPlan[] | null>(null);
