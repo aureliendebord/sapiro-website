@@ -32,6 +32,9 @@ const blog = defineCollection({
       answer: z.number().int().min(0).max(3),
       explanation: z.string(),
     })).length(3).optional(),
+    // Pages de questions : bouton « Imprimer / PDF » et mise en page d'impression
+    // (composant PrintSheet).
+    printable: z.boolean().optional(),
     faqItems: z.array(z.object({
       question: z.string(),
       answer: z.string(),
