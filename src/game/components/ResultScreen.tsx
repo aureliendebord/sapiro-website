@@ -119,11 +119,9 @@ export function ResultScreen({
 
           {canReplay && outOfTickets ? (
             <>
-              <p className="game-notice">
-                {t(onPhone ? "web.result.outOfTicketsMobile" : "web.result.outOfTickets")}
-              </p>
+              <p className="game-notice">{t("web.result.outOfTicketsMobile")}</p>
               <button type="button" className="game-btn game-btn--block" onClick={onSubscribe}>
-                {t(onPhone ? "web.result.continueInApp" : "web.result.subscribe")}
+                {t("web.result.continueInApp")}
               </button>
             </>
           ) : canReplay ? (

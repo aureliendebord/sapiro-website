@@ -38,8 +38,6 @@ const BUNDLES: Record<GameLang, () => Promise<Dict[]>> = {
 const WEB_STRINGS: Record<GameLang, Dict> = {
   fr: {
     home: {
-      quotaNotice:
-        "Plus de parties aujourd'hui. Le Défi du jour reste jouable, et l'illimité t'attend.",
       account: "Mon compte",
       signIn: "Se connecter",
       journeys: "Aventure",
@@ -87,8 +85,6 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
       great: "Bien joué",
       close: "Ça se joue de peu",
       keepGoing: "Il y a de la marge de progression",
-      outOfTickets: "Tu as utilisé tes parties du jour. Reviens demain, ou passe en illimité.",
-      subscribe: "Jouer sans limite",
       outOfTicketsMobile: "Tu as utilisé tes parties du jour ici. Continue gratuitement dans l'app.",
       continueInApp: "Continuer dans l'app",
       replay: "Rejouer",
@@ -221,12 +217,13 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
       ctaAndroid: "Continuer sur Google Play",
       subscribeHere: "Ou joue sans limite ici",
       later: "Plus tard",
+      subDesktop:
+        "Tu as joué tes parties du jour. L'app te donne des parties gratuites chaque jour, avec le Défi du jour en plus.",
+      scan: "Scanne avec ton téléphone pour l'installer",
     },
   },
   en: {
     home: {
-      quotaNotice:
-        "No games left today. The Daily Challenge is still playable, and unlimited is waiting.",
       account: "My account",
       signIn: "Sign in",
       journeys: "Adventure",
@@ -273,8 +270,6 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
       great: "Well played",
       close: "So close",
       keepGoing: "Room to improve",
-      outOfTickets: "You've used today's games. Come back tomorrow, or go unlimited.",
-      subscribe: "Play unlimited",
       outOfTicketsMobile: "You've used today's games here. Keep playing free in the app.",
       continueInApp: "Continue in the app",
       replay: "Play again",
@@ -404,12 +399,13 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
       ctaAndroid: "Continue on Google Play",
       subscribeHere: "Or play unlimited here",
       later: "Later",
+      subDesktop:
+        "You've played today's games. The app gives you free games every day, plus the Daily Challenge.",
+      scan: "Scan with your phone to get it",
     },
   },
   es: {
     home: {
-      quotaNotice:
-        "No te quedan partidas hoy. El Desafío del día sigue jugable, y el ilimitado te espera.",
       account: "Mi cuenta",
       signIn: "Iniciar sesión",
       journeys: "Aventura",
@@ -456,8 +452,6 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
       great: "Bien jugado",
       close: "Por muy poco",
       keepGoing: "Hay margen de mejora",
-      outOfTickets: "Has usado tus partidas de hoy. Vuelve mañana, o pásate al ilimitado.",
-      subscribe: "Jugar sin límite",
       outOfTicketsMobile: "Ya usaste tus partidas de hoy aquí. Sigue gratis en la app.",
       continueInApp: "Continuar en la app",
       replay: "Jugar otra vez",
@@ -587,6 +581,9 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
       ctaAndroid: "Continuar en Google Play",
       subscribeHere: "O juega sin límite aquí",
       later: "Más tarde",
+      subDesktop:
+        "Ya jugaste tus partidas de hoy. La app te da partidas gratis cada día, además del Desafío del día.",
+      scan: "Escanea con tu teléfono para instalarla",
     },
   },
 };

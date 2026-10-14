@@ -77,7 +77,7 @@ export default function GameApp({ lang }: Props) {
   const [accountOpen, setAccountOpen] = useState(false);
   const [deleteIntent, setDeleteIntent] = useState(false);
   const [paywallSource, setPaywallSource] = useState<string | null>(null);
-  const [handoff, setHandoff] = useState<{ source: string; store: MobileStore } | null>(null);
+  const [handoff, setHandoff] = useState<{ source: string; store: MobileStore | null } | null>(null);
   const [resetOpen, setResetOpen] = useState(false);
   /** Message expliquant pourquoi un bloc du sentier est fermé. */
   const [dialog, setDialog] = useState<string | null>(null);
@@ -180,19 +180,16 @@ export default function GameApp({ lang }: Props) {
   }, []);
 
   /**
-   * Parties gratuites épuisées. Sur téléphone, on propose d'abord l'app (le
-   * paywall web n'y a converti personne) ; sur ordinateur, le paywall web.
+   * Parties gratuites épuisées : on propose d'abord l'app, sur téléphone comme
+   * sur ordinateur (QR code). Le paywall web n'a converti personne, et sur
+   * ordinateur il ne menait vers un store que 2 joueurs sur 47 journées de
+   * quota épuisé (18/09 → 14/10/2026). L'abonnement web reste en second choix.
    * Les entrées explicites (« Passer en illimité », profil) ouvrent toujours
    * le paywall : l'intention d'abonnement y est déjà exprimée.
    */
-  const openOutOfGames = useCallback(
-    (source: string) => {
-      const store = mobileStore();
-      if (store) setHandoff({ source, store });
-      else openPaywall(source);
-    },
-    [openPaywall],
-  );
+  const openOutOfGames = useCallback((source: string) => {
+    setHandoff({ source, store: mobileStore() });
+  }, []);
 
   const startQuiz = useCallback(
     async (config: SessionConfig, costsTicket: boolean) => {
