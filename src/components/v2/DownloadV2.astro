@@ -1,7 +1,7 @@
 ---
 import type { Lang } from '../../i18n';
 import QRCode from 'qrcode';
-import { appStoreUrl, playStoreUrl } from '../../data/appLinks';
+import { appStoreUrl, playStoreUrl, appQrUrl } from '../../data/appLinks';
 
 interface Props {
   lang: Lang;
@@ -9,7 +9,7 @@ interface Props {
 
 const { lang } = Astro.props;
 
-const qrTarget = 'https://sapiro.app';
+const qrTarget = appQrUrl('download-section');
 const qrSvg = await QRCode.toString(qrTarget, {
   type: 'svg',
   margin: 0,

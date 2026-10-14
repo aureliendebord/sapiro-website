@@ -57,7 +57,12 @@ export function playStoreUrl(campaign: StoreCampaign, lang: Lang): string {
  * téléphone qui scanne vers son store. `campaign` = emplacement du QR, compté
  * à l'arrivée (événement Umami `qr-scan`).
  */
-export type QrCampaign = 'quota-desktop' | 'result-desktop' | 'paywall-desktop';
+export type QrCampaign =
+  | 'quota-desktop'
+  | 'result-desktop'
+  | 'paywall-desktop'
+  | 'game-below'
+  | 'download-section';
 
 export function appQrUrl(campaign: QrCampaign): string {
   return `https://sapiro.app/app/?utm_source=sapiro.app&utm_medium=qr&utm_campaign=${campaign}`;
