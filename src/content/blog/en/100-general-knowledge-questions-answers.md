@@ -10,6 +10,7 @@ urlSlug: "100-general-knowledge-questions-answers"
 translationKey: "100-questions-culture-generale"
 category: "culture-generale"
 author: "SAPIRO"
+printable: true
 readingTime: 16
 quiz:
   - question: "The world's largest desert isn't the Sahara. So which one is it?"

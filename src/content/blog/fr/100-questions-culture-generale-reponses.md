@@ -10,6 +10,7 @@ urlSlug: "100-questions-culture-generale-reponses"
 translationKey: "100-questions-culture-generale"
 category: "culture-generale"
 author: "SAPIRO"
+printable: true
 readingTime: 16
 quiz:
   - question: "Le plus grand désert du monde n'est pas le Sahara. Alors, lequel est-ce ?"

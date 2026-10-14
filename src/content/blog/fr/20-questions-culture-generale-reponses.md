@@ -10,6 +10,7 @@ urlSlug: "20-questions-culture-generale-reponses"
 translationKey: "20-questions-culture-generale"
 category: "culture-generale"
 author: "SAPIRO"
+printable: true
 readingTime: 6
 ---
 

@@ -11,6 +11,7 @@ urlSlug: "preguntas-cultura-general-dificiles"
 translationKey: "preguntas-cultura-general-dificiles"
 category: "culture-generale"
 author: "SAPIRO"
+printable: true
 readingTime: 8
 ---
 
