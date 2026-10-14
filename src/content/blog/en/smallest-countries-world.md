@@ -159,7 +159,7 @@ Vatican City, at 0.49 km² (about 44 hectares), is the smallest country in the w
 
 ### What is the smallest country by population?
 
-Vatican City is also the smallest by population, with around 800 inhabitants. Among United Nations member states (the Vatican is not one), Tuvalu is the smallest, with about 11,000 people.
+Vatican City is also the smallest by population, with around 800 inhabitants. Among United Nations member states (the Vatican is not one), Tuvalu is the smallest, with about 11,000 people. The full ranking is in our list of the [least populated countries in the world](/en/blog/least-populated-countries-world/).
 
 ### Is Sealand a real country?
 

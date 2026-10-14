@@ -129,7 +129,7 @@ Le Vatican, avec 0,49 km² (environ 44 hectares), est le plus petit pays du mond
 
 ### Quel est le plus petit pays par population ?
 
-Le Vatican est aussi le plus petit par la population, avec environ 800 habitants. Parmi les États membres de l'ONU (le Vatican n'en fait pas partie), le plus petit est Tuvalu, avec près de 11 000 habitants.
+Le Vatican est aussi le plus petit par la population, avec environ 800 habitants. Parmi les États membres de l'ONU (le Vatican n'en fait pas partie), le plus petit est Tuvalu, avec près de 11 000 habitants. Le classement complet est dans notre liste des [pays les moins peuplés du monde](/blog/pays-moins-peuples-monde/).
 
 ### Le Sealand est-il un vrai pays ?
 

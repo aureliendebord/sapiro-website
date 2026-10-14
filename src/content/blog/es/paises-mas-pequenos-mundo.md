@@ -130,7 +130,7 @@ El Vaticano, con 0,49 km² (unas 44 hectáreas), es el país más pequeño del m
 
 ### ¿Cuál es el país más pequeño por población?
 
-El Vaticano también es el más pequeño por población, con unos 800 habitantes. Entre los Estados miembros de la ONU (el Vaticano no lo es), el más pequeño es Tuvalu, con cerca de 11 000 habitantes.
+El Vaticano también es el más pequeño por población, con unos 800 habitantes. Entre los Estados miembros de la ONU (el Vaticano no lo es), el más pequeño es Tuvalu, con cerca de 11 000 habitantes. El ranking completo está en nuestra lista de los [países menos poblados del mundo](/es/blog/paises-menos-poblados-mundo/).
 
 ### ¿Es Sealand un país de verdad?
 
