@@ -38,8 +38,6 @@ const BUNDLES: Record<GameLang, () => Promise<Dict[]>> = {
 const WEB_STRINGS: Record<GameLang, Dict> = {
   fr: {
     home: {
-      quotaNotice:
-        "Plus de parties aujourd'hui. Le Défi du jour reste jouable, et l'illimité t'attend.",
       account: "Mon compte",
       signIn: "Se connecter",
       journeys: "Aventure",
@@ -87,8 +85,6 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
       great: "Bien joué",
       close: "Ça se joue de peu",
       keepGoing: "Il y a de la marge de progression",
-      outOfTickets: "Tu as utilisé tes parties du jour. Reviens demain, ou passe en illimité.",
-      subscribe: "Jouer sans limite",
       outOfTicketsMobile: "Tu as utilisé tes parties du jour ici. Continue gratuitement dans l'app.",
       continueInApp: "Continuer dans l'app",
       replay: "Rejouer",
@@ -214,6 +210,12 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
       phoneQr: "Ou scanne pour jouer gratuitement sur ton téléphone",
     },
     /** Sortie mobile des parties gratuites : l'app d'abord, l'abonnement web en second. */
+    resultApp: {
+      title: "Sapiro existe aussi en app",
+      sub: "Gratuite, des parties chaque jour et le Défi du jour.",
+      cta: "Installer",
+      scan: "Gratuite. Scanne avec ton téléphone pour l'installer.",
+    },
     handoff: {
       title: "Continue gratuitement dans l'app",
       sub: "Tu as joué tes parties du jour ici. L'app te donne des parties gratuites chaque jour, avec le Défi du jour en plus.",
@@ -221,12 +223,13 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
       ctaAndroid: "Continuer sur Google Play",
       subscribeHere: "Ou joue sans limite ici",
       later: "Plus tard",
+      subDesktop:
+        "Tu as joué tes parties du jour. L'app te donne des parties gratuites chaque jour, avec le Défi du jour en plus.",
+      scan: "Scanne avec ton téléphone pour l'installer",
     },
   },
   en: {
     home: {
-      quotaNotice:
-        "No games left today. The Daily Challenge is still playable, and unlimited is waiting.",
       account: "My account",
       signIn: "Sign in",
       journeys: "Adventure",
@@ -273,8 +276,6 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
       great: "Well played",
       close: "So close",
       keepGoing: "Room to improve",
-      outOfTickets: "You've used today's games. Come back tomorrow, or go unlimited.",
-      subscribe: "Play unlimited",
       outOfTicketsMobile: "You've used today's games here. Keep playing free in the app.",
       continueInApp: "Continue in the app",
       replay: "Play again",
@@ -397,6 +398,12 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
       successContinue: "Keep playing here",
       phoneQr: "Or scan to play free on your phone",
     },
+    resultApp: {
+      title: "Sapiro is also an app",
+      sub: "Free, with daily games and the Daily Challenge.",
+      cta: "Get it",
+      scan: "Free. Scan with your phone to get it.",
+    },
     handoff: {
       title: "Keep playing free in the app",
       sub: "You've played today's games here. The app gives you free games every day, plus the Daily Challenge.",
@@ -404,12 +411,13 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
       ctaAndroid: "Continue on Google Play",
       subscribeHere: "Or play unlimited here",
       later: "Later",
+      subDesktop:
+        "You've played today's games. The app gives you free games every day, plus the Daily Challenge.",
+      scan: "Scan with your phone to get it",
     },
   },
   es: {
     home: {
-      quotaNotice:
-        "No te quedan partidas hoy. El Desafío del día sigue jugable, y el ilimitado te espera.",
       account: "Mi cuenta",
       signIn: "Iniciar sesión",
       journeys: "Aventura",
@@ -456,8 +464,6 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
       great: "Bien jugado",
       close: "Por muy poco",
       keepGoing: "Hay margen de mejora",
-      outOfTickets: "Has usado tus partidas de hoy. Vuelve mañana, o pásate al ilimitado.",
-      subscribe: "Jugar sin límite",
       outOfTicketsMobile: "Ya usaste tus partidas de hoy aquí. Sigue gratis en la app.",
       continueInApp: "Continuar en la app",
       replay: "Jugar otra vez",
@@ -580,6 +586,12 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
       successContinue: "Seguir jugando aquí",
       phoneQr: "O escanea para jugar gratis en tu teléfono",
     },
+    resultApp: {
+      title: "Sapiro también es una app",
+      sub: "Gratis, con partidas cada día y el Desafío del día.",
+      cta: "Instalar",
+      scan: "Gratis. Escanea con tu teléfono para instalarla.",
+    },
     handoff: {
       title: "Sigue gratis en la app",
       sub: "Ya jugaste tus partidas de hoy aquí. La app te da partidas gratis cada día, además del Desafío del día.",
@@ -587,6 +599,9 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
       ctaAndroid: "Continuar en Google Play",
       subscribeHere: "O juega sin límite aquí",
       later: "Más tarde",
+      subDesktop:
+        "Ya jugaste tus partidas de hoy. La app te da partidas gratis cada día, además del Desafío del día.",
+      scan: "Escanea con tu teléfono para instalarla",
     },
   },
 };

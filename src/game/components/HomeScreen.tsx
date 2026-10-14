@@ -1,7 +1,6 @@
 import { t } from "@game/lib/i18n";
 import { Icon } from "./ui/Icon";
 import { Glyph } from "./ui/Glyph";
-import { mobileStore } from "@game/lib/device";
 import type { Challenge } from "@game/lib/share";
 
 export type HomeAction = "classic" | "survival" | "daily" | "journeys";
@@ -58,7 +57,6 @@ export function HomeScreen({
   onContinueInApp,
 }: Props) {
   const outOfTickets = !isPremium && ticketsLeft <= 0;
-  const onPhone = mobileStore() !== null;
 
   // Pas de titre ni de sous-titre au-dessus des modes : le header du site dit
   // déjà « Sapiro », et le <h1> de la page vit dans le bloc rendu au build
@@ -92,10 +90,9 @@ export function HomeScreen({
         </div>
       )}
 
-      {outOfTickets && !onPhone && <div className="game-notice">{t("web.home.quotaNotice")}</div>}
-      {/* Sur téléphone, les modes à ticket sont grisés : sans ce bouton,
-          l'accueil n'offrait aucune sortie vers l'app une fois le quota vidé. */}
-      {outOfTickets && onPhone && (
+      {/* Quota vidé : les modes à ticket sont grisés, ce bouton est la sortie
+          vers l'app (store sur téléphone, QR code sur ordinateur). */}
+      {outOfTickets && (
         <div className="game-notice">
           {t("web.result.outOfTicketsMobile")}
           <button

@@ -10,6 +10,7 @@ import { mobileStore } from "@game/lib/device";
 import { capture } from "@game/lib/analytics";
 import { challengeUrl, shareChallenge, shareText, type Challenge } from "@game/lib/share";
 import { useGameStore } from "@game/store/gameStore";
+import { ResultAppTeaser } from "./ResultAppTeaser";
 
 interface Props {
   result: SessionResult;
@@ -119,11 +120,9 @@ export function ResultScreen({
 
           {canReplay && outOfTickets ? (
             <>
-              <p className="game-notice">
-                {t(onPhone ? "web.result.outOfTicketsMobile" : "web.result.outOfTickets")}
-              </p>
+              <p className="game-notice">{t("web.result.outOfTicketsMobile")}</p>
               <button type="button" className="game-btn game-btn--block" onClick={onSubscribe}>
-                {t(onPhone ? "web.result.continueInApp" : "web.result.subscribe")}
+                {t("web.result.continueInApp")}
               </button>
             </>
           ) : canReplay ? (
@@ -154,6 +153,9 @@ export function ResultScreen({
             {t("web.result.home")}
           </button>
         </div>
+        {/* Abonnés exclus ; quota vidé exclu aussi : le bouton principal
+            mène déjà vers l'app. */}
+        {!isPremium && !(canReplay && outOfTickets) && <ResultAppTeaser />}
       </div>
     </div>
   );

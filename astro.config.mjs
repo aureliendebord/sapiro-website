@@ -139,7 +139,7 @@ export default defineConfig({
     // Une page qui pointe son canonical ailleurs ne doit pas figurer au
     // sitemap : l'y laisser contredit le signal qu'on vient d'emettre.
     // /embed/* : pages nues servies en iframe chez des tiers, en noindex.
-    filter: (page) => !BLOG_CANONICALIZED.has(page) && !page.includes('/embed/'),
+    filter: (page) => !BLOG_CANONICALIZED.has(page) && !page.includes('/embed/') && !page.endsWith('sapiro.app/app/'),
     // hreflang corrects (slugs traduits) + lastmod reel par article.
     serialize(item) {
       const links = ALTERNATES.get(item.url);

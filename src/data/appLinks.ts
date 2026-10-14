@@ -35,7 +35,11 @@ export type StoreCampaign =
   /** Bloc posé juste sous le jeu, avant le contenu SEO. */
   | 'game-below'
   /** Jeu web sur téléphone, parties gratuites épuisées → app. */
-  | 'quota-mobile';
+  | 'quota-mobile'
+  /** QR code affiché sur ordinateur, scanné par un téléphone (page /app/). */
+  | 'qr-desktop'
+  /** Jeu web sur téléphone, encart sous le résultat de chaque partie. */
+  | 'result-mobile';
 
 export function appStoreUrl(lang: Lang): string {
   return `https://apps.apple.com/${APP_STORE_STOREFRONT[lang]}/app/${APP_STORE_SLUG}/id${APP_STORE_ID}`;
@@ -46,6 +50,22 @@ export function playStoreUrl(campaign: StoreCampaign, lang: Lang): string {
     `utm_source=sapiro.app&utm_medium=website&utm_campaign=${campaign}`
   );
   return `${PLAY_STORE_URL}&hl=${lang}&referrer=${referrer}`;
+}
+
+/**
+ * Cible des QR codes affichés sur ordinateur : la page /app/ envoie le
+ * téléphone qui scanne vers son store. `campaign` = emplacement du QR, compté
+ * à l'arrivée (événement Umami `qr-scan`).
+ */
+export type QrCampaign =
+  | 'quota-desktop'
+  | 'result-desktop'
+  | 'paywall-desktop'
+  | 'game-below'
+  | 'download-section';
+
+export function appQrUrl(campaign: QrCampaign): string {
+  return `https://sapiro.app/app/?utm_source=sapiro.app&utm_medium=qr&utm_campaign=${campaign}`;
 }
 
 /**
