@@ -210,6 +210,12 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
       phoneQr: "Ou scanne pour jouer gratuitement sur ton téléphone",
     },
     /** Sortie mobile des parties gratuites : l'app d'abord, l'abonnement web en second. */
+    resultApp: {
+      title: "Sapiro existe aussi en app",
+      sub: "Gratuite, des parties chaque jour et le Défi du jour.",
+      cta: "Installer",
+      scan: "Gratuite. Scanne avec ton téléphone pour l'installer.",
+    },
     handoff: {
       title: "Continue gratuitement dans l'app",
       sub: "Tu as joué tes parties du jour ici. L'app te donne des parties gratuites chaque jour, avec le Défi du jour en plus.",
@@ -392,6 +398,12 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
       successContinue: "Keep playing here",
       phoneQr: "Or scan to play free on your phone",
     },
+    resultApp: {
+      title: "Sapiro is also an app",
+      sub: "Free, with daily games and the Daily Challenge.",
+      cta: "Get it",
+      scan: "Free. Scan with your phone to get it.",
+    },
     handoff: {
       title: "Keep playing free in the app",
       sub: "You've played today's games here. The app gives you free games every day, plus the Daily Challenge.",
@@ -573,6 +585,12 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
       successAndroid: "Disponible en Google Play",
       successContinue: "Seguir jugando aquí",
       phoneQr: "O escanea para jugar gratis en tu teléfono",
+    },
+    resultApp: {
+      title: "Sapiro también es una app",
+      sub: "Gratis, con partidas cada día y el Desafío del día.",
+      cta: "Instalar",
+      scan: "Gratis. Escanea con tu teléfono para instalarla.",
     },
     handoff: {
       title: "Sigue gratis en la app",

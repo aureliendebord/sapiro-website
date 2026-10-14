@@ -37,7 +37,9 @@ export type StoreCampaign =
   /** Jeu web sur téléphone, parties gratuites épuisées → app. */
   | 'quota-mobile'
   /** QR code affiché sur ordinateur, scanné par un téléphone (page /app/). */
-  | 'qr-desktop';
+  | 'qr-desktop'
+  /** Jeu web sur téléphone, encart sous le résultat de chaque partie. */
+  | 'result-mobile';
 
 export function appStoreUrl(lang: Lang): string {
   return `https://apps.apple.com/${APP_STORE_STOREFRONT[lang]}/app/${APP_STORE_SLUG}/id${APP_STORE_ID}`;
