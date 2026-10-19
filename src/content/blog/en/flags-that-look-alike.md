@@ -20,41 +20,96 @@ Several pairs of national flags are almost impossible to tell apart, with Chad a
 
 A vertical blue-yellow-red tricolor that is identical on both sides, or nearly so. The only difference: Chad's blue is slightly darker than Romania's. Chad even took the matter to the UN in 2004 to contest the similarity, without result.
 
+<div class="flag-row">
+  <figure><img src="/flags/countries/td.svg" alt="Flag of Chad" loading="lazy" /><figcaption>Chad</figcaption></figure>
+  <figure><img src="/flags/countries/ro.svg" alt="Flag of Romania" loading="lazy" /><figcaption>Romania</figcaption></figure>
+</div>
+
 ## 2. Indonesia and Monaco
 
 Red over white, in two horizontal bands, on both. Only the proportions differ: Monaco's flag is more square (4:5) than Indonesia's (2:3). Poland uses the same colors reversed, white over red.
+
+<div class="flag-row">
+  <figure><img src="/flags/countries/id.svg" alt="Flag of Indonesia" loading="lazy" /><figcaption>Indonesia</figcaption></figure>
+  <figure><img src="/flags/countries/mc.svg" alt="Flag of Monaco" loading="lazy" /><figcaption>Monaco</figcaption></figure>
+  <figure><img src="/flags/countries/pl.svg" alt="Flag of Poland" loading="lazy" /><figcaption>Poland</figcaption></figure>
+</div>
 
 ## 3. Netherlands and Luxembourg
 
 The same horizontal red-white-blue tricolor for both countries. Luxembourg's blue is noticeably lighter than the Dutch blue, and Luxembourg's flag is slightly more elongated.
 
+<div class="flag-row">
+  <figure><img src="/flags/countries/nl.svg" alt="Flag of Netherlands" loading="lazy" /><figcaption>Netherlands</figcaption></figure>
+  <figure><img src="/flags/countries/lu.svg" alt="Flag of Luxembourg" loading="lazy" /><figcaption>Luxembourg</figcaption></figure>
+</div>
+
 ## 4. Ireland and Ivory Coast
 
 The same colors, but mirrored: green sits at the hoist for Ireland, orange for Ivory Coast. The proportions also differ: Ireland's flag is more elongated.
+
+<div class="flag-row">
+  <figure><img src="/flags/countries/ie.svg" alt="Flag of Ireland" loading="lazy" /><figcaption>Ireland</figcaption></figure>
+  <figure><img src="/flags/countries/ci.svg" alt="Flag of Ivory Coast" loading="lazy" /><figcaption>Ivory Coast</figcaption></figure>
+</div>
 
 ## 5. Mali and Senegal
 
 Two vertical green-yellow-red tricolors in Pan-African colors. Senegal adds a green star at the center of the yellow band, absent from Mali's flag. Guinea uses the same colors in reverse order.
 
+<div class="flag-row">
+  <figure><img src="/flags/countries/ml.svg" alt="Flag of Mali" loading="lazy" /><figcaption>Mali</figcaption></figure>
+  <figure><img src="/flags/countries/sn.svg" alt="Flag of Senegal" loading="lazy" /><figcaption>Senegal</figcaption></figure>
+  <figure><img src="/flags/countries/gn.svg" alt="Flag of Guinea" loading="lazy" /><figcaption>Guinea</figcaption></figure>
+</div>
+
 ## 6. Norway and Iceland
 
 The colors are exactly inverted between the two Nordic crosses. Norway has a red field with a white-bordered blue cross; Iceland a blue field with a white-bordered red cross.
+
+<div class="flag-row">
+  <figure><img src="/flags/countries/no.svg" alt="Flag of Norway" loading="lazy" /><figcaption>Norway</figcaption></figure>
+  <figure><img src="/flags/countries/is.svg" alt="Flag of Iceland" loading="lazy" /><figcaption>Iceland</figcaption></figure>
+</div>
 
 ## 7. Australia and New Zealand
 
 Union Jack in the canton, Southern Cross on a blue field: both flags share the same base. New Zealand has 4 red stars bordered in white; Australia has 6 white stars, including the large Commonwealth Star below the Union Jack.
 
+<div class="flag-row">
+  <figure><img src="/flags/countries/au.svg" alt="Flag of Australia" loading="lazy" /><figcaption>Australia</figcaption></figure>
+  <figure><img src="/flags/countries/nz.svg" alt="Flag of New Zealand" loading="lazy" /><figcaption>New Zealand</figcaption></figure>
+</div>
+
 ## 8. Venezuela, Colombia and Ecuador
 
 These three yellow-blue-red tricolors are inherited from the flag of Gran Colombia, the state founded by Simón Bolívar. Venezuela adds an arc of stars in the center, Ecuador places its coat of arms in the middle; Colombia's flag carries no emblem.
+
+<div class="flag-row">
+  <figure><img src="/flags/countries/ve.svg" alt="Flag of Venezuela" loading="lazy" /><figcaption>Venezuela</figcaption></figure>
+  <figure><img src="/flags/countries/co.svg" alt="Flag of Colombia" loading="lazy" /><figcaption>Colombia</figcaption></figure>
+  <figure><img src="/flags/countries/ec.svg" alt="Flag of Ecuador" loading="lazy" /><figcaption>Ecuador</figcaption></figure>
+</div>
 
 ## 9. Slovenia, Slovakia and Russia
 
 Three horizontal white-blue-red tricolors in Pan-Slavic colors. Tell them apart by the coat of arms: Slovenia places its own in the upper hoist corner, Slovakia its own toward the hoist, and Russia's flag carries none.
 
+<div class="flag-row">
+  <figure><img src="/flags/countries/si.svg" alt="Flag of Slovenia" loading="lazy" /><figcaption>Slovenia</figcaption></figure>
+  <figure><img src="/flags/countries/sk.svg" alt="Flag of Slovakia" loading="lazy" /><figcaption>Slovakia</figcaption></figure>
+  <figure><img src="/flags/countries/ru.svg" alt="Flag of Russia" loading="lazy" /><figcaption>Russia</figcaption></figure>
+</div>
+
 ## 10. United States, Liberia and Malaysia
 
 Three flags with red and white stripes and a canton in the upper hoist corner. Liberia, founded by former American slaves, has a single star in its blue canton; Malaysia places a crescent and a 14-pointed star on a blue field.
+
+<div class="flag-row">
+  <figure><img src="/flags/countries/us.svg" alt="Flag of United States" loading="lazy" /><figcaption>United States</figcaption></figure>
+  <figure><img src="/flags/countries/lr.svg" alt="Flag of Liberia" loading="lazy" /><figcaption>Liberia</figcaption></figure>
+  <figure><img src="/flags/countries/my.svg" alt="Flag of Malaysia" loading="lazy" /><figcaption>Malaysia</figcaption></figure>
+</div>
 
 ## Look-alike flags at a glance
 

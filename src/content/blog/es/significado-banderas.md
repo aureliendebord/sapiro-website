@@ -28,13 +28,35 @@ Tres colores dominan las banderas del mundo. Más del 75% de las banderas nacion
 
 El rojo es el más frecuente. Suele representar valor, sangre derramada por la libertad, revolución o sacrificio. En la bandera japonesa, el círculo rojo (hinomaru) es el sol naciente, símbolo central de la identidad del país. En China, evoca la revolución comunista. En Suiza, el rojo con la cruz blanca tiene raíces medievales vinculadas al Sacro Imperio Romano Germánico.
 
+<div class="flag-row">
+  <figure><img src="/flags/countries/jp.svg" alt="Bandera de Japón" loading="lazy" /><figcaption>Japón</figcaption></figure>
+  <figure><img src="/flags/countries/cn.svg" alt="Bandera de China" loading="lazy" /><figcaption>China</figcaption></figure>
+  <figure><img src="/flags/countries/ch.svg" alt="Bandera de Suiza" loading="lazy" /><figcaption>Suiza</figcaption></figure>
+</div>
+
 El blanco generalmente representa paz, pureza o unidad. En la bandera de Francia, el blanco central representaba la monarquía, flanqueado por el azul y el rojo de París. En Japón, el fondo blanco simboliza honestidad e integridad. En las banderas nórdicas (Dinamarca, Suecia, Noruega, Finlandia, Islandia), la cruz blanca o sobre fondo blanco evoca la cristiandad y la nieve.
 
+<div class="flag-row">
+  <figure><img src="/flags/countries/fr.svg" alt="Bandera de Francia" loading="lazy" /><figcaption>Francia</figcaption></figure>
+</div>
+
 El azul suele asociarse al cielo, el mar, la libertad o la justicia. En la bandera de la Unión Europea, el azul es el color del cielo occidental, y las doce estrellas doradas representan la unidad, no el número de países miembros como mucha gente cree. En la bandera argentina, el azul celeste y el Sol de Mayo tienen su origen en la escarapela de las guerras de independencia.
+
+<div class="flag-row">
+  <figure><img src="/flags/organizations/eu.svg" alt="Bandera de Unión Europea" loading="lazy" /><figcaption>Unión Europea</figcaption></figure>
+  <figure><img src="/flags/countries/ar.svg" alt="Bandera de Argentina" loading="lazy" /><figcaption>Argentina</figcaption></figure>
+</div>
 
 ## Los colores panafricanos: verde, amarillo y rojo
 
 Una de las historias de color más interesantes del mundo de las banderas. El verde, el amarillo (o dorado) y el rojo aparecen en montones de banderas africanas: Etiopía, Ghana, Mali, Senegal, Guinea, Camerún, y la lista sigue.
+
+<div class="flag-row">
+  <figure><img src="/flags/countries/et.svg" alt="Bandera de Etiopía" loading="lazy" /><figcaption>Etiopía</figcaption></figure>
+  <figure><img src="/flags/countries/gh.svg" alt="Bandera de Ghana" loading="lazy" /><figcaption>Ghana</figcaption></figure>
+  <figure><img src="/flags/countries/ml.svg" alt="Bandera de Malí" loading="lazy" /><figcaption>Malí</figcaption></figure>
+  <figure><img src="/flags/countries/sn.svg" alt="Bandera de Senegal" loading="lazy" /><figcaption>Senegal</figcaption></figure>
+</div>
 
 Todo empezó con Etiopía, uno de los pocos países africanos que nunca fue colonizado por una potencia europea (salvo una breve ocupación italiana entre 1936 y 1941). Etiopía se convirtió en símbolo de independencia para todo el continente, y sus colores fueron adoptados por los movimientos panafricanos.
 
@@ -44,9 +66,21 @@ En la interpretación más extendida, el verde representa la fertilidad de la ti
 
 La medialuna acompañada de una estrella es uno de los símbolos más reconocibles en las banderas del mundo. Aparece en Turquía, Túnez, Argelia, Libia, Pakistán, Malasia, Mauritania y varios países más de mayoría musulmana.
 
+<div class="flag-row">
+  <figure><img src="/flags/countries/tr.svg" alt="Bandera de Turquía" loading="lazy" /><figcaption>Turquía</figcaption></figure>
+  <figure><img src="/flags/countries/tn.svg" alt="Bandera de Túnez" loading="lazy" /><figcaption>Túnez</figcaption></figure>
+  <figure><img src="/flags/countries/dz.svg" alt="Bandera de Argelia" loading="lazy" /><figcaption>Argelia</figcaption></figure>
+  <figure><img src="/flags/countries/ly.svg" alt="Bandera de Libia" loading="lazy" /><figcaption>Libia</figcaption></figure>
+</div>
+
 Lo curioso es que la medialuna no es un símbolo originalmente islámico. Su asociación con el Islam se remonta al Imperio Otomano. Cuenta la leyenda que el sultán Osman I soñó con una medialuna que se extendía de un extremo al otro de la tierra y lo interpretó como presagio de conquista. Con la expansión otomana, la medialuna quedó ligada al Islam hasta convertirse en su emblema más reconocido.
 
 La estrella que la acompaña cambia de significado según el país. En Turquía, sus cinco puntas representan los cinco pilares del Islam. En Pakistán, la medialuna simboliza el progreso y la estrella el conocimiento, mientras que el verde representa la mayoría musulmana y la franja blanca las minorías religiosas. Cada bandera cuenta su propia versión.
+
+<div class="flag-row">
+  <figure><img src="/flags/countries/tr.svg" alt="Bandera de Turquía" loading="lazy" /><figcaption>Turquía</figcaption></figure>
+  <figure><img src="/flags/countries/pk.svg" alt="Bandera de Pakistán" loading="lazy" /><figcaption>Pakistán</figcaption></figure>
+</div>
 
 ## Cruces, leones y águilas: la heráldica en las banderas
 
@@ -54,9 +88,32 @@ Muchas banderas arrastran elementos de la heráldica medieval. Cruces, leones, �
 
 Las cruces dominan las banderas europeas. La cruz nórdica aparece en Dinamarca, Suecia, Noruega, Finlandia e Islandia. La [bandera danesa (Dannebrog)](https://es.wikipedia.org/wiki/Bandera_de_Dinamarca) está considerada la bandera nacional más antigua en uso continuo, con orígenes que se remontan al 15 de junio de 1219, según la tradición. La Cruz de San Jorge (roja sobre blanco) es la de Inglaterra. La Cruz de San Andrés (aspa blanca sobre azul) es la de Escocia. Las dos se combinan con la Cruz de San Patricio para formar el Union Jack del Reino Unido.
 
+<div class="flag-row">
+  <figure><img src="/flags/countries/dk.svg" alt="Bandera de Dinamarca" loading="lazy" /><figcaption>Dinamarca</figcaption></figure>
+  <figure><img src="/flags/countries/se.svg" alt="Bandera de Suecia" loading="lazy" /><figcaption>Suecia</figcaption></figure>
+  <figure><img src="/flags/countries/no.svg" alt="Bandera de Noruega" loading="lazy" /><figcaption>Noruega</figcaption></figure>
+  <figure><img src="/flags/countries/fi.svg" alt="Bandera de Finlandia" loading="lazy" /><figcaption>Finlandia</figcaption></figure>
+  <figure><img src="/flags/countries/is.svg" alt="Bandera de Islandia" loading="lazy" /><figcaption>Islandia</figcaption></figure>
+</div>
+
+<div class="flag-row">
+  <figure><img src="/flags/countries/gb.svg" alt="Bandera de Reino Unido" loading="lazy" /><figcaption>Reino Unido</figcaption></figure>
+</div>
+
 Los leones aparecen en Sri Lanka (un león dorado con una espada), en el escudo de España y en varios países africanos. Simbolizan coraje, fuerza y realeza. En Sri Lanka, el león representa la etnia cingalesa y su espada la soberanía.
 
+<div class="flag-row">
+  <figure><img src="/flags/countries/lk.svg" alt="Bandera de Sri Lanka" loading="lazy" /><figcaption>Sri Lanka</figcaption></figure>
+  <figure><img src="/flags/countries/es.svg" alt="Bandera de España" loading="lazy" /><figcaption>España</figcaption></figure>
+</div>
+
 Las águilas son símbolos de poder imperial. En México, un águila devora una serpiente sobre un nopal (según la leyenda azteca que también explica la fundación de Tenochtitlan, como cuentan los [personajes históricos](/es/blog/personajes-historicos/) que forjaron América). Albania lleva el águila bicéfala heredada del Imperio Bizantino. Egipto muestra el águila de Saladino. El águila de dos cabezas, en particular, tiene raíces romanas y fue adoptada tanto por el Sacro Imperio como por Bizancio.
+
+<div class="flag-row">
+  <figure><img src="/flags/countries/mx.svg" alt="Bandera de México" loading="lazy" /><figcaption>México</figcaption></figure>
+  <figure><img src="/flags/countries/al.svg" alt="Bandera de Albania" loading="lazy" /><figcaption>Albania</figcaption></figure>
+  <figure><img src="/flags/countries/eg.svg" alt="Bandera de Egipto" loading="lazy" /><figcaption>Egipto</figcaption></figure>
+</div>
 
 ## ¿Qué banderas del mundo tienen historias más sorprendentes?
 
@@ -64,11 +121,27 @@ Algunas banderas guardan historias que, una vez que las conoces, no se olvidan.
 
 Nepal tiene la única [bandera nacional que no es rectangular](https://es.wikipedia.org/wiki/Bandera_de_Nepal). Su forma de doble pendón triangular evoca las montañas del Himalaya, y los dos triángulos representaban originalmente las dos ramas de la familia real. El sol y la medialuna expresan el deseo de que Nepal dure tanto como esos astros.
 
+<div class="flag-row">
+  <figure><img src="/flags/countries/np.svg" alt="Bandera de Nepal" loading="lazy" /><figcaption>Nepal</figcaption></figure>
+</div>
+
 Mozambique incluye un fusil AK-47 cruzado con una azada sobre un libro abierto. El fusil representa la defensa, la azada la agricultura, el libro la educación. Se ha propuesto cambiarla varias veces, pero sigue ahí como símbolo de la lucha por la independencia. Es la única bandera del mundo con un arma de fuego moderna.
+
+<div class="flag-row">
+  <figure><img src="/flags/countries/mz.svg" alt="Bandera de Mozambique" loading="lazy" /><figcaption>Mozambique</figcaption></figure>
+</div>
 
 Paraguay es la única bandera nacional con emblemas diferentes en cada cara. Por delante, el escudo nacional con una estrella, palma y olivo. Por detrás, el sello del tesoro con un león y un gorro frigio. Flip. Dos banderas en una.
 
+<div class="flag-row">
+  <figure><img src="/flags/countries/py.svg" alt="Bandera de Paraguay" loading="lazy" /><figcaption>Paraguay</figcaption></figure>
+</div>
+
 Filipinas tiene una bandera que se voltea según el contexto. En tiempos de paz, la franja azul va arriba. En tiempos de guerra, la roja pasa al frente. Es la única bandera del mundo con esa característica.
+
+<div class="flag-row">
+  <figure><img src="/flags/countries/ph.svg" alt="Bandera de Filipinas" loading="lazy" /><figcaption>Filipinas</figcaption></figure>
+</div>
 
 ## Los cambios de bandera más recientes
 
@@ -76,9 +149,17 @@ Las banderas cambian con los países. No son piezas de museo.
 
 Libia pasó de tener una bandera completamente verde (la más simple del mundo, sin ningún símbolo) durante el régimen de Gadafi a su diseño actual con franjas roja, negra y verde con medialuna y estrella, recuperando el de la época monárquica.
 
+<div class="flag-row">
+  <figure><img src="/flags/countries/ly.svg" alt="Bandera de Libia" loading="lazy" /><figcaption>Libia</figcaption></figure>
+</div>
+
 Afganistán ha cambiado de bandera más veces que cualquier otro país en el siglo XX. Cada cambio de régimen trajo un diseño nuevo. La bandera como barómetro político.
 
 Nueva Zelanda celebró un referendum en 2016 para cambiar su bandera. Se propuso un diseño con un helecho plateado, pero la población votó por mantener la actual con el Union Jack. El debate sobre identidad nacional fue intenso y sigue abierto.
+
+<div class="flag-row">
+  <figure><img src="/flags/countries/nz.svg" alt="Bandera de Nueva Zelanda" loading="lazy" /><figcaption>Nueva Zelanda</figcaption></figure>
+</div>
 
 Cada cambio de bandera es un recordatorio de que estos símbolos están vivos. Estudiarlos es una forma directa de mejorar la [cultura general](/es/blog/cultura-general-guia/). Si quieres aprender a distinguir las banderas que más se confunden, nuestro artículo sobre las [banderas más difíciles de reconocer](/es/blog/banderas-dificiles/) te será muy útil. Y los [errores de geografía comunes](/es/blog/errores-geografia/) sobre África y Europa cobran otro sentido cuando entiendes los colores de sus banderas.
 
