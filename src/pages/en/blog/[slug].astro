@@ -1,31 +1,12 @@
 ---
-import { getCollection, render } from 'astro:content';
+import { render } from 'astro:content';
 import BlogPost from '../../../layouts/BlogPost.astro';
 import { extractFaqFromMarkdown } from '../../../utils/faq';
 import { extractListFromMarkdown } from '../../../utils/list';
+import { blogStaticPaths } from '../../../utils/blogPaths';
 
 export async function getStaticPaths() {
-  const allPosts = await getCollection('blog');
-  const enPosts = allPosts.filter(p => p.data.lang === 'en');
-
-  return enPosts.map((post) => {
-    const key = post.data.translationKey;
-    const frPost = allPosts.find(p => p.data.lang === 'fr' && p.data.translationKey === key);
-    const esPost = allPosts.find(p => p.data.lang === 'es' && p.data.translationKey === key);
-
-    return {
-      params: { slug: post.data.urlSlug },
-      props: {
-        post,
-        // Une traduction absente ou canonicalisee ailleurs sort de la grappe hreflang.
-        translationSlugs: {
-          fr: frPost && !frPost.data.canonicalTo ? frPost.data.urlSlug : undefined,
-          en: post.data.urlSlug,
-          es: esPost && !esPost.data.canonicalTo ? esPost.data.urlSlug : undefined,
-        },
-      },
-    };
-  });
+  return blogStaticPaths('en');
 }
 
 const { post, translationSlugs } = Astro.props;

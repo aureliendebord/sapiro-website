@@ -40,11 +40,21 @@ const copy: Record<Lang, { titleBefore: string; titleHl: string; sub: string; pl
     trophyAmount: '+30',
     trophyLabel: 'Duelo ganado',
   },
+  de: {
+    titleBefore: 'Werde',
+    titleHl: 'unschlagbar',
+    sub: 'Flaggen, Gemälde, Tiere … über 2.000 Bilderquiz. Kostenlos, ohne Werbung.',
+    play: 'Jetzt spielen',
+    trophyAmount: '+30',
+    trophyLabel: 'Duell gewonnen',
+  },
 };
 
 const t = copy[lang];
 
-const slides = ['01', '02', '03', '04', '05'].map(n => `/images/banner/screen-${lang}-${n}.webp`);
+// Pas encore de captures in-game en allemand : on montre les anglaises.
+const slideLang: Record<Lang, string> = { fr: 'fr', en: 'en', es: 'es', de: 'en' };
+const slides = ['01', '02', '03', '04', '05'].map(n => `/images/banner/screen-${slideLang[lang]}-${n}.webp`);
 ---
 
 <template id="inline-cta-template">

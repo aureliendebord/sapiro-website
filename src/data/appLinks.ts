@@ -23,6 +23,7 @@ const APP_STORE_STOREFRONT: Record<Lang, string> = {
   fr: 'fr',
   en: 'us',
   es: 'es',
+  de: 'de',
 };
 
 export type StoreCampaign =
@@ -69,7 +70,7 @@ export function appQrUrl(campaign: QrCampaign): string {
 }
 
 /**
- * Lien vers le jeu jouable en ligne (`/jouer/`, `/en/play/`, `/es/jugar/`).
+ * Lien vers le jeu jouable en ligne (`/jouer/`, `/en/play/`, `/es/jugar/`, `/de/spielen/`).
  *
  * Contrairement aux liens store, la destination est interne : l'`utm_campaign`
  * sert ici à mesurer quels emplacements du site amènent réellement à jouer,
@@ -91,6 +92,7 @@ export const PLAY_PATH: Record<Lang, string> = {
   fr: '/jouer/',
   en: '/en/play/',
   es: '/es/jugar/',
+  de: '/de/spielen/',
 };
 
 export function playGameUrl(campaign: PlayCampaign, lang: Lang): string {

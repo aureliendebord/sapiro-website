@@ -88,10 +88,37 @@ const content = {
         description: "Un tema nuevo cada día, un solo intento. ¡Mantén viva tu racha!"
       }
     ]
+  },
+  de: {
+    title: "Spiel, wie du willst",
+    subtitle: "4 Spielarten, Duelle inklusive",
+    modes: [
+      {
+        icon: "/images/v3/swords.webp",
+        title: "Duell",
+        description: "Tritt gegen echte Partien anderer Spieler an, Frage für Frage, und gewinne Trophäen. Noch niemand bei deinem Thema? Dann trainierst du gegen den Sapiro-Bot.",
+        isNew: true
+      },
+      {
+        icon: "/images/icons/quick-play.webp",
+        title: "10 Fragen",
+        description: "10 Fragen am Stück, ohne Netz. Der ideale Modus, um ein Thema zu entdecken und besser zu werden."
+      },
+      {
+        icon: "/images/icons/heart.webp",
+        title: "Rekord",
+        description: "Halte so lange durch wie möglich: Beim ersten Fehler ist Schluss. Wie weit kommst du?"
+      },
+      {
+        icon: "/images/icons/calendar.webp",
+        title: "Tägliche Herausforderung",
+        description: "Jeden Tag ein neues Thema, nur ein Versuch. Halte deine Serie am Leben!"
+      }
+    ]
   }
 };
 
-const newLabel = { fr: "Nouveau", en: "New", es: "Nuevo" }[lang];
+const newLabel = ({ fr: "Nouveau", en: "New", es: "Nuevo", de: "Neu" } as Record<Lang, string>)[lang];
 
 const t = content[lang];
 

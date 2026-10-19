@@ -1,6 +1,7 @@
 import type { APIRoute } from 'astro';
 import { getCollection } from 'astro:content';
 import template from '../data/llms-template.txt?raw';
+import type { Lang } from '../i18n';
 
 export const prerender = true;
 
@@ -24,10 +25,11 @@ const SECTIONS: [string, string][] = [
   ['voyage', 'Travel & geography curiosity'],
 ];
 
-const LANGS: { code: 'fr' | 'en' | 'es'; label: string; prefix: string }[] = [
+const LANGS: { code: Lang; label: string; prefix: string }[] = [
   { code: 'fr', label: 'French', prefix: '/blog/' },
   { code: 'en', label: 'English', prefix: '/en/blog/' },
   { code: 'es', label: 'Spanish', prefix: '/es/blog/' },
+  { code: 'de', label: 'German', prefix: '/de/blog/' },
 ];
 
 export const GET: APIRoute = async () => {

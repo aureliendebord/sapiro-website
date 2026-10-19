@@ -69,9 +69,31 @@ const copy = {
       trail: 'Recorrido SAPIRO',
     },
   },
+  de: {
+    badge: 'Neu • Die Duelle sind da',
+    titleA: 'Werde',
+    titleHighlight: 'unschlagbar',
+    titleB: 'in Allgemeinbildung.',
+    subtitle: 'Geografie, Geschichte, Kunst, Natur, Monumente. 2.000+ geprüfte Fragen. Ohne Werbung, und deine Daten werden niemals verkauft.',
+    ctaPrimary: 'Kostenlos laden',
+    ctaSecondary: 'Online spielen',
+    trophyAmount: '+30',
+    trophyLabel: 'Duell gewonnen',
+    streakTitle: '21 Tage',
+    streakLabel: 'Serie der täglichen Herausforderung',
+    slideAlts: {
+      home: 'Startseite der SAPIRO-App',
+      duel: 'Duell-Bildschirm in SAPIRO',
+      flags: 'Flaggen-Quiz in SAPIRO',
+      paintings: 'Gemälde-Quiz in SAPIRO',
+      trail: 'Routen in SAPIRO',
+    },
+  },
 };
 
 const t = copy[lang];
+// Pas encore de captures allemandes : repli sur les captures anglaises.
+const shotLang = lang === 'de' ? 'en' : lang;
 ---
 
 <section class="hero-v2">
@@ -118,11 +140,11 @@ const t = copy[lang];
         <div class="phone-tilt">
           <div class="phone">
             <div class="phone-screen">
-              <img src={`/images/screenshots/${lang}/v3/02-home.webp`} alt={t.slideAlts.home} class="slide slide-1" loading="eager" width="560" height="1217" />
-              <img src={`/images/screenshots/${lang}/v3/10-duel-vs.webp`} alt={t.slideAlts.duel} class="slide slide-2" loading="lazy" width="560" height="1217" />
-              <img src={`/images/screenshots/${lang}/v3/04-quiz-geography.webp`} alt={t.slideAlts.flags} class="slide slide-3" loading="lazy" width="560" height="1217" />
-              <img src={`/images/screenshots/${lang}/v3/01-quiz-art.webp`} alt={t.slideAlts.paintings} class="slide slide-4" loading="lazy" width="560" height="1217" />
-              <img src={`/images/screenshots/${lang}/v3/09-journeys.webp`} alt={t.slideAlts.trail} class="slide slide-5" loading="lazy" width="560" height="1217" />
+              <img src={`/images/screenshots/${shotLang}/v3/02-home.webp`} alt={t.slideAlts.home} class="slide slide-1" loading="eager" width="560" height="1217" />
+              <img src={`/images/screenshots/${shotLang}/v3/10-duel-vs.webp`} alt={t.slideAlts.duel} class="slide slide-2" loading="lazy" width="560" height="1217" />
+              <img src={`/images/screenshots/${shotLang}/v3/04-quiz-geography.webp`} alt={t.slideAlts.flags} class="slide slide-3" loading="lazy" width="560" height="1217" />
+              <img src={`/images/screenshots/${shotLang}/v3/01-quiz-art.webp`} alt={t.slideAlts.paintings} class="slide slide-4" loading="lazy" width="560" height="1217" />
+              <img src={`/images/screenshots/${shotLang}/v3/09-journeys.webp`} alt={t.slideAlts.trail} class="slide slide-5" loading="lazy" width="560" height="1217" />
             </div>
           </div>
         </div>
@@ -203,7 +225,12 @@ const t = copy[lang];
     letter-spacing: -0.02em;
     line-height: 1.04;
     margin-bottom: 28px;
+    /* Mots composés allemands (« Allgemeinbildung ») plus larges qu'un écran de téléphone */
+    hyphens: auto;
+    overflow-wrap: break-word;
   }
+
+  .hero-inner > * { min-width: 0; }
 
   /* Mot surligné pêche, comme les accroches des captures stores V3 */
   .highlight {

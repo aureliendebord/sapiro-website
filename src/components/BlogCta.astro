@@ -28,6 +28,10 @@ const defaultCopy: Record<Lang, CtaCopy> = {
     title: '¡Pon a prueba tus conocimientos con SAPIRO!',
     subtitle: 'Geografía, historia, arte, naturaleza... Aprende divirtiéndote con quizzes lúdicos y educativos.',
   },
+  de: {
+    title: 'Teste dein Wissen mit SAPIRO!',
+    subtitle: 'Geografie, Geschichte, Kunst, Natur … Lerne spielerisch mit Quiz, die Spaß machen und dich schlauer machen.',
+  },
 };
 
 const clusterCopy: Record<string, Record<Lang, CtaCopy>> = {
@@ -44,6 +48,10 @@ const clusterCopy: Record<string, Record<Lang, CtaCopy>> = {
       title: 'Acabas de llenarte de geografía.',
       subtitle: '197 países, banderas y capitales para adivinar en SAPIRO. Veamos cuántos reconoces.',
     },
+    de: {
+      title: 'Jetzt bist du voll im Geografie-Modus.',
+      subtitle: '197 Länder, Flaggen und Hauptstädte zum Erraten in SAPIRO. Mal sehen, wie viele du erkennst.',
+    },
   },
   histoire: {
     fr: {
@@ -57,6 +65,10 @@ const clusterCopy: Record<string, Record<Lang, CtaCopy>> = {
     es: {
       title: 'La historia, ¿la lees o la retienes?',
       subtitle: 'Personajes, batallas, grandes fechas: SAPIRO lo convierte todo en quiz. Gratis, sin anuncios.',
+    },
+    de: {
+      title: 'Geschichte: nur gelesen oder auch behalten?',
+      subtitle: 'Persönlichkeiten, Schlachten, wichtige Daten: SAPIRO macht aus allem ein Quiz. Kostenlos, ohne Werbung.',
     },
   },
   art: {
@@ -72,6 +84,10 @@ const clusterCopy: Record<string, Record<Lang, CtaCopy>> = {
       title: '¿Y si pones a prueba tu ojo?',
       subtitle: 'Cuadros, esculturas, movimientos: ¿los reconocerías en un quiz? 2 000+ preguntas en SAPIRO.',
     },
+    de: {
+      title: 'Wie gut ist dein Blick für Kunst?',
+      subtitle: 'Gemälde, Skulpturen, Kunstrichtungen: Würdest du sie im Quiz erkennen? Über 2.000 Fragen in SAPIRO.',
+    },
   },
   nature: {
     fr: {
@@ -85,6 +101,10 @@ const clusterCopy: Record<string, Record<Lang, CtaCopy>> = {
     es: {
       title: '600 especies por reconocer. ¿Te atreves?',
       subtitle: 'Animales, biodiversidad, récords de la naturaleza: ponte a prueba en SAPIRO. Gratis, sin anuncios.',
+    },
+    de: {
+      title: '600 Tierarten zum Erkennen. Traust du dich?',
+      subtitle: 'Tiere, Artenvielfalt, Rekorde der Natur: Teste dich im Quiz mit SAPIRO. Kostenlos, ohne Werbung.',
     },
   },
   monuments: {
@@ -100,6 +120,10 @@ const clusterCopy: Record<string, Record<Lang, CtaCopy>> = {
       title: '¿Los reconocerías en una foto?',
       subtitle: 'Maravillas del mundo, sitios UNESCO, monumentos: SAPIRO te hace adivinar cientos de ellos.',
     },
+    de: {
+      title: 'Würdest du sie auf einem Foto erkennen?',
+      subtitle: 'Weltwunder, UNESCO-Stätten, Monumente: In SAPIRO gibt es Hunderte davon zu erraten.',
+    },
   },
   concours: {
     fr: {
@@ -113,6 +137,10 @@ const clusterCopy: Record<string, Record<Lang, CtaCopy>> = {
     es: {
       title: 'Repasar 3 minutos al día, sí existe.',
       subtitle: 'La cultura general de las oposiciones en quizzes rápidos. Gratis, sin anuncios, sin cuenta.',
+    },
+    de: {
+      title: '3 Minuten Lernen am Tag? Geht wirklich.',
+      subtitle: 'Allgemeinwissen auf Prüfungsniveau in schnellen Quizrunden. Kostenlos, ohne Werbung, ohne Konto.',
     },
   },
   famille: {
@@ -128,6 +156,10 @@ const clusterCopy: Record<string, Record<Lang, CtaCopy>> = {
       title: 'El próximo quiz, jugadlo en familia.',
       subtitle: 'SAPIRO es el quiz para compartir en casa: lúdico, educativo, sin anuncios ni recogida de datos.',
     },
+    de: {
+      title: 'Das nächste Quiz spielt ihr zusammen.',
+      subtitle: 'SAPIRO ist das Quiz für die ganze Familie: spielerisch, lehrreich, ohne Werbung und ohne Verkauf deiner Daten.',
+    },
   },
   quiz: {
     fr: {
@@ -141,6 +173,10 @@ const clusterCopy: Record<string, Record<Lang, CtaCopy>> = {
     es: {
       title: '¿Te gustan los quizzes? Aquí tienes 2 000+.',
       subtitle: 'Geografía, historia, arte, naturaleza: la auténtica mecánica del quiz, en tu bolsillo.',
+    },
+    de: {
+      title: 'Du liebst Quiz? Hier sind über 2.000.',
+      subtitle: 'Geografie, Geschichte, Kunst, Natur: echtes Quiz-Feeling für die Hosentasche.',
     },
   },
   comparatifs: {
@@ -156,6 +192,10 @@ const clusterCopy: Record<string, Record<Lang, CtaCopy>> = {
       title: 'Lo más sencillo: prueba SAPIRO.',
       subtitle: 'Gratis, sin anuncios, sin recogida de datos. Júzgalo tú mismo en 2 minutos.',
     },
+    de: {
+      title: 'Am einfachsten: Probier SAPIRO aus.',
+      subtitle: 'Kostenlos, ohne Werbung, ohne Verkauf deiner Daten. Überzeug dich selbst in 2 Minuten.',
+    },
   },
 };
 
@@ -163,6 +203,7 @@ const storeLabels: Record<Lang, { iosSub: string; androidSub: string }> = {
   fr: { iosSub: 'Télécharger sur', androidSub: 'Disponible sur' },
   en: { iosSub: 'Download on the', androidSub: 'Get it on' },
   es: { iosSub: 'Descargar en', androidSub: 'Disponible en' },
+  de: { iosSub: 'Laden im', androidSub: 'Jetzt bei' },
 };
 
 // Le CTA principal mène au jeu en ligne (zéro friction, attribution complète) ;
@@ -171,6 +212,7 @@ const playLabels: Record<Lang, { play: string; playSub: string; orStores: string
   fr: { play: 'Jouer maintenant', playSub: 'Gratuit, dans ton navigateur', orStores: 'Ou télécharge l\'app :' },
   en: { play: 'Play now', playSub: 'Free, in your browser', orStores: 'Or get the app:' },
   es: { play: 'Jugar ahora', playSub: 'Gratis, en tu navegador', orStores: 'O descarga la app:' },
+  de: { play: 'Jetzt spielen', playSub: 'Kostenlos, im Browser', orStores: 'Oder hol dir die App:' },
 };
 
 const cta = (clusterKey && clusterCopy[clusterKey]?.[lang]) || defaultCopy[lang];

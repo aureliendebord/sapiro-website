@@ -1,0 +1,178 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import StickyMobileCta from '../../components/v2/StickyMobileCta.astro';
+import { getTranslations } from '../../i18n';
+import { getCollection } from 'astro:content';
+
+const lang = 'de';
+const t = getTranslations(lang);
+
+// Nur ein Teil der Artikel ist auf Deutsch übersetzt: Jede kuratierte Liste
+// wird über translationKey aufgelöst, Einträge ohne deutschen Artikel fallen weg,
+// leere Abschnitte werden ausgeblendet.
+const allPosts = await getCollection('blog');
+const dePosts = allPosts
+  .filter(p => p.data.lang === 'de')
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+const byKey = new Map(dePosts.map(p => [p.data.translationKey, p]));
+
+const curated = [
+  {
+    title: 'Das Wichtigste',
+    items: [
+      { key: 'tableaux-celebres', label: '30 berühmte Gemälde, die man kennen sollte' },
+      { key: 'oeuvres-art-incontournables', label: 'Kunstwerke, die man kennen muss' },
+      { key: 'sculptures-celebres', label: '15 berühmte Skulpturen' },
+      { key: 'mouvements-artistiques', label: '15 Kunstepochen einfach erklärt' },
+      { key: 'reconnaitre-peintre', label: 'So erkennst du einen Maler' },
+      { key: 'monuments-celebres', label: '30 berühmte Monumente der Welt' },
+    ],
+  },
+  {
+    title: 'Museen und Orte',
+    items: [
+      { key: 'musees-plus-visites', label: 'Die 15 meistbesuchten Museen' },
+      { key: 'histoire-art-nuls', label: 'Kunstgeschichte für Einsteiger' },
+    ],
+  },
+  {
+    title: 'Kunst wiederholen',
+    items: [
+      { key: 'quiz-histoire-art-bac', label: 'Kunstgeschichte-Quiz auf Prüfungsniveau' },
+      { key: 'apprendre-art-enfants', label: 'Kindern Kunst näherbringen' },
+    ],
+  },
+];
+
+const sections = curated
+  .map(s => ({
+    title: s.title,
+    items: s.items
+      .flatMap(i => {
+        const post = byKey.get(i.key);
+        return post ? [{ label: i.label, post }] : [];
+      }),
+  }))
+  .filter(s => s.items.length > 0);
+
+const shownKeys = new Set(curated.flatMap(s => s.items.map(i => i.key)));
+const artCategories = ['art'];
+const moreArticles = dePosts.filter(
+  p => artCategories.includes(p.data.category) && !shownKeys.has(p.data.translationKey),
+);
+
+const collectionPageSchema = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Kunstgeschichte: Gemälde, Maler, Kunstepochen, Skulpturen",
+  "description": "Kunstgeschichte entdecken: 553 Werke, berühmte Maler, Kunstepochen, Skulpturen und die Museen der Welt.",
+  "url": "https://sapiro.app/de/kunst/",
+  "inLanguage": "de"
+};
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "Welche Gemälde sind die berühmtesten der Welt?", "acceptedAnswer": { "@type": "Answer", "text": "Die 10 berühmtesten Gemälde: Mona Lisa (Leonardo da Vinci), Sternennacht (Van Gogh), Der Schrei (Munch), Guernica (Picasso), Les Demoiselles d'Avignon (Picasso), Die Geburt der Venus (Botticelli), Las Meninas (Velázquez), Die Nachtwache (Rembrandt), Die Freiheit führt das Volk (Delacroix), Sonnenblumen (Van Gogh)." } },
+    { "@type": "Question", "name": "Wer hat die Mona Lisa gemalt?", "acceptedAnswer": { "@type": "Answer", "text": "Die Mona Lisa wurde von Leonardo da Vinci zwischen 1503 und 1519 gemalt. Das Gemälde hängt im Louvre in Paris. Modell war wahrscheinlich Lisa Gherardini, die Frau eines Florentiner Kaufmanns." } },
+    { "@type": "Question", "name": "Was sind die großen Kunstepochen?", "acceptedAnswer": { "@type": "Answer", "text": "Die 15 großen Kunstepochen: Mittelalter, Renaissance, Manierismus, Barock, Rokoko, Klassizismus, Romantik, Realismus, Impressionismus, Postimpressionismus, Fauvismus, Kubismus, Surrealismus, Abstrakter Expressionismus, Pop-Art." } },
+    { "@type": "Question", "name": "Welches Museum ist das meistbesuchte der Welt?", "acceptedAnswer": { "@type": "Answer", "text": "Der Louvre in Paris ist mit 8,7 Millionen Besuchern im Jahr 2024 das meistbesuchte Museum der Welt. Danach folgen die Vatikanischen Museen (6,8 Millionen) und das British Museum (6,4 Millionen)." } }
+  ]
+};
+---
+
+<Layout title="Kunstgeschichte: Maler, Epochen, Museen | SAPIRO" description="Kunstgeschichte mit SAPIRO: 553 bedeutende Werke, berühmte Maler, Kunstepochen von der Renaissance bis zur Pop-Art und die wichtigsten Museen der Welt. Ratgeber und Quiz." lang={lang}>
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(collectionPageSchema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+  </Fragment>
+
+  <Header lang={lang} t={t} />
+
+  <main class="pillar-page">
+    <article class="container">
+      <header class="pillar-header">
+        <h1>Kunstgeschichte</h1>
+        <p class="lede">553 Werke, von den Höhlen von Lascaux bis Banksy. Maler, Epochen, Museen: alles, um die westliche Kunst ohne Fachchinesisch zu verstehen.</p>
+      </header>
+
+      <section class="pillar-intro">
+        <p>Kunst und Literatur verändern den Blick auf die Welt. Wer etwas über die Medici gelesen hat, besucht Florenz mit anderen Augen. Die großen Epochen (Renaissance, Impressionismus, Art déco) und die bedeutenden Werke sind ein nützliches Fundament für alle, die neugierig sind.</p>
+        <p>SAPIRO umfasst 553 Kunstwerke, geordnet nach Epoche und Zeitraum, mit einer Erklärung zum Kontext zu jeder Frage.</p>
+      </section>
+
+      <section class="pillar-stats">
+        <h2>Kunst in Zahlen</h2>
+        <ul>
+          <li><strong>553</strong> Kunstwerke in SAPIRO</li>
+          <li><strong>15</strong> große Kunstepochen, vom Mittelalter bis zur Pop-Art</li>
+          <li><strong>8,7 Millionen</strong> Besucher im Louvre im Jahr 2024 (meistbesuchtes Museum)</li>
+          <li><strong>450 Millionen Dollar</strong>: Rekordpreis für da Vincis Salvator Mundi (2017)</li>
+          <li><strong>40.000 Jahre</strong> alt: die ältesten bekannten Höhlenmalereien (Chauvet, Lascaux)</li>
+        </ul>
+      </section>
+
+      {sections.map(s => (
+        <section class="pillar-sub">
+          <h2>{s.title}</h2>
+          <ul class="pillar-grid">
+            {s.items.map(i => (
+              <li><a href={`/de/blog/${i.post.data.urlSlug}/`}>{i.label}</a></li>
+            ))}
+          </ul>
+        </section>
+      ))}
+
+      {moreArticles.length > 0 && (
+        <section class="pillar-sub">
+          <h2>Weitere Artikel</h2>
+          <ul class="pillar-grid">
+            {moreArticles.map(p => (
+              <li><a href={`/de/blog/${p.data.urlSlug}/`}>{p.data.title}</a></li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      <section class="pillar-faq">
+        <h2>Häufige Fragen zur Kunst</h2>
+
+        <h3>Welche Gemälde sind die berühmtesten der Welt?</h3>
+        <p>Die 10 berühmtesten Gemälde: Mona Lisa (Leonardo da Vinci), Sternennacht (Van Gogh), Der Schrei (Munch), Guernica (Picasso), Les Demoiselles d'Avignon (Picasso), Die Geburt der Venus (Botticelli), Las Meninas (Velázquez), Die Nachtwache (Rembrandt), Die Freiheit führt das Volk (Delacroix), Sonnenblumen (Van Gogh).</p>
+
+        <h3>Wer hat die Mona Lisa gemalt?</h3>
+        <p>Die Mona Lisa wurde von Leonardo da Vinci zwischen 1503 und 1519 gemalt. Das Gemälde hängt im Louvre in Paris. Modell war wahrscheinlich Lisa Gherardini, die Frau eines Florentiner Kaufmanns.</p>
+
+        <h3>Was sind die großen Kunstepochen?</h3>
+        <p>Die 15 großen Kunstepochen: Mittelalter, Renaissance, Manierismus, Barock, Rokoko, Klassizismus, Romantik, Realismus, Impressionismus, Postimpressionismus, Fauvismus, Kubismus, Surrealismus, Abstrakter Expressionismus, Pop-Art.</p>
+
+        <h3>Welches Museum ist das meistbesuchte der Welt?</h3>
+        <p>Der Louvre in Paris ist mit 8,7 Millionen Besuchern im Jahr 2024 das meistbesuchte Museum der Welt. Danach folgen die Vatikanischen Museen (6,8 Millionen) und das British Museum (6,4 Millionen).</p>
+      </section>
+    </article>
+  </main>
+
+  <Footer lang={lang} t={t} />
+  <StickyMobileCta lang={lang} campaign="sticky-pillar" />
+</Layout>
+
+<style>
+  .pillar-page { padding-top: 100px; padding-bottom: 60px; }
+  .pillar-header { text-align: center; padding-bottom: 32px; margin-bottom: 32px; border-bottom: 1px solid var(--gris-clair); }
+  .pillar-header h1 { font-size: clamp(2.25rem, 4.5vw, 3.25rem); margin-bottom: 16px; }
+  .lede { font-size: 1.25rem; color: var(--gris); max-width: 720px; margin: 0 auto; }
+  .pillar-intro, .pillar-stats, .pillar-sub, .pillar-faq { max-width: 800px; margin: 0 auto 48px; }
+  .pillar-intro p { line-height: 1.75; margin-bottom: 16px; font-size: 1.05rem; }
+  .pillar-stats ul { padding-left: 24px; }
+  .pillar-stats li { margin-bottom: 8px; line-height: 1.7; }
+  .pillar-sub h2, .pillar-stats h2, .pillar-faq h2 { font-size: 1.75rem; margin-bottom: 20px; }
+  .pillar-grid { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 12px; }
+  .pillar-grid li { padding: 14px 18px; background: var(--gris-clair); border-radius: 8px; }
+  .pillar-grid a { color: var(--noir); text-decoration: none; font-weight: 500; }
+  .pillar-grid a:hover { color: var(--orange); }
+  .pillar-faq h3 { font-size: 1.1rem; margin-top: 24px; margin-bottom: 8px; }
+  .pillar-faq p { line-height: 1.7; margin-bottom: 16px; }
+</style>

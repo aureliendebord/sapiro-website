@@ -1,0 +1,371 @@
+{
+  "lang": "de",
+  "meta": {
+    "title": "SAPIRO - Allgemeinwissen-Quiz",
+    "description": "SAPIRO: kostenlose Quiz-App zu Geografie, Geschichte, Kunst und Natur. Über 2000 Fragen, um spielerisch zu lernen. Ohne Werbung, Daten werden nie verkauft. Für Kinder und Erwachsene."
+  },
+  "header": {
+    "home": "Startseite",
+    "features": "Funktionen",
+    "blog": "Blog",
+    "download": "Herunterladen",
+    "playCta": "Teste dein Wissen"
+  },
+  "hero": {
+    "title": "Spielend lernen!",
+    "subtitle": "Entdecke die Welt mit Quiz zu Geografie, Geschichte, Kunst und Natur. Über 2000 Fragen, damit dich keiner mehr aus dem Konzept bringt!",
+    "downloadIos": "Laden im App Store",
+    "downloadAndroid": "Jetzt bei Google Play"
+  },
+  "universes": {
+    "title": "4 Welten zum Entdecken",
+    "subtitle": "Über 50 Themenrouten, um in deinem eigenen Tempo zu lernen",
+    "items": [
+      {
+        "emoji": "🌍",
+        "title": "Geografie",
+        "description": "Flaggen, Hauptstädte, Kontinente, historische Reiche und internationale Organisationen.",
+        "stat": "197 Länder",
+        "color": "orange"
+      },
+      {
+        "emoji": "👤",
+        "title": "Geschichte",
+        "description": "Erkenne große Persönlichkeiten von der Antike bis heute, nach Epoche oder nach Kontinent.",
+        "stat": "500+ Persönlichkeiten",
+        "color": "violet"
+      },
+      {
+        "emoji": "🎨",
+        "title": "Kunst",
+        "description": "Vom Louvre bis zum MoMA, von der Renaissance bis zum Surrealismus. Gemälde und Skulpturen zum Erkennen.",
+        "stat": "553 Kunstwerke",
+        "color": "teal"
+      },
+      {
+        "emoji": "🦁",
+        "title": "Natur",
+        "description": "Säugetiere, Vögel, Reptilien, Insekten … Entdecke die Vielfalt der Tierwelt.",
+        "stat": "600 Tiere",
+        "color": "vert",
+        "badge": "Demnächst"
+      }
+    ]
+  },
+  "screenshots": {
+    "title": "Entdecke SAPIRO",
+    "subtitle": "Eine farbenfrohe, intuitive Oberfläche"
+  },
+  "download": {
+    "title": "Bereit zum Lernen?",
+    "subtitle": "Lade SAPIRO kostenlos herunter und starte dein Abenteuer!",
+    "downloadIos": "Laden im App Store",
+    "downloadAndroid": "Jetzt bei Google Play"
+  },
+  "contact": {
+    "title": "Hast du eine Frage?",
+    "subtitle": "Schreib uns einfach",
+    "name": "Name",
+    "email": "E-Mail",
+    "message": "Nachricht",
+    "send": "Senden",
+    "namePlaceholder": "Dein Name",
+    "emailPlaceholder": "deine@email.de",
+    "messagePlaceholder": "Deine Nachricht …",
+    "success": "Nachricht erfolgreich gesendet!",
+    "error": "Es ist ein Fehler aufgetreten. Versuch es später noch einmal."
+  },
+  "footer": {
+    "copyright": "SAPIRO. Alle Rechte vorbehalten.",
+    "privacy": "Datenschutzerklärung",
+    "terms": "Nutzungsbedingungen",
+    "credits": "Bildnachweise",
+    "legal": "Impressum",
+    "reviews": "Bewertungen",
+    "faq": "FAQ",
+    "themes": "Themen"
+  },
+  "blog": {
+    "title": "SAPIRO Blog",
+    "subtitle": "Tipps, Quiz und Artikel zu Allgemeinwissen, Weltgeografie und Flaggen. Spielend lernen mit SAPIRO, der Lern-App für alle.",
+    "readMore": "Weiterlesen",
+    "backToBlog": "Zurück zum Blog",
+    "publishedOn": "Veröffentlicht am",
+    "readingTime": "Min. Lesezeit",
+    "allArticles": "Alle Artikel",
+    "categories": {
+      "geographie": "Geografie",
+      "culture-generale": "Allgemeinwissen",
+      "education": "Bildung",
+      "drapeaux": "Flaggen",
+      "apps": "Apps",
+      "art": "Kunst",
+      "histoire": "Geschichte",
+      "nature": "Natur",
+      "concours": "Prüfungen",
+      "famille": "Familie",
+      "formats-quiz": "Quiz",
+      "comparatifs": "Vergleiche",
+      "voyage": "Reisen"
+    },
+    "exploreByTheme": "Nach Thema entdecken",
+    "articlesWord": "Artikel",
+    "partOfTopic": "Dieser Artikel gehört zum Thema",
+    "seeAllTopic": "Das ganze Thema ansehen"
+  },
+  "privacy": {
+    "title": "Datenschutzerklärung",
+    "metaDescription": "Datenschutzerklärung von SAPIRO: welche Daten die App, das Online-Spiel und die Website verarbeiten, warum, mit welchen Dienstleistern, und deine Rechte.",
+    "lastUpdate": "Zuletzt aktualisiert",
+    "intro": "Sapiro wird von der Agence Debord EURL (Paris, Frankreich) herausgegeben. Diese Erklärung beschreibt ohne Fachchinesisch, welche Daten die App, das Online-Spiel auf sapiro.app und die Website verarbeiten, warum, und was du dagegen tun kannst. Wir verkaufen keine Daten und zeigen keine Werbung.",
+    "sections": [
+      {
+        "title": "Dein Konto und dein Fortschritt",
+        "content": "Beim ersten Öffnen der App (oder des Online-Spiels) wird ein anonymes Konto erstellt. Danach kannst du dich mit Apple, Google oder einer E-Mail-Adresse und einem Passwort anmelden: Wir erhalten dann deine E-Mail-Adresse und die von diesen Diensten übermittelte Kennung, damit du deinen Fortschritt auf all deinen Geräten wiederfindest. Dein Nutzername, dein Avatar, das Land deines Geräts und dein Fortschritt (Runden, Punktzahlen, Serien, Trophäen, Etappen der Route) werden auf unseren Servern in Deutschland (Europäische Union) gespeichert."
+      },
+      {
+        "title": "Duelle",
+        "content": "Wenn du eine Runde im Duell spielst, werden deine Antworten (richtig oder falsch, Antwortzeit) gespeichert, damit sie bis zu 90 Tage lang gegen andere Spieler erneut abgespielt werden können. Dein Gegner sieht dann deinen Nutzernamen, deinen Avatar, die Flagge deines Landes und die Zahl deiner Trophäen. Deinen Namen und deine E-Mail-Adresse sieht er nie."
+      },
+      {
+        "title": "Der Willkommensfragebogen",
+        "content": "Beim ersten Start stellt dir die App ein paar freiwillige Fragen: deinen Vornamen, deine Altersgruppe, dein Geschlecht, was dich motiviert, wie viele Quiz du pro Woche spielen möchtest und die Uhrzeit deiner Erinnerung. Jede Frage kann übersprungen werden. Dein Vorname bleibt auf deinem Gerät und wird nie übermittelt. Die übrigen Antworten werden in unserem Analyse-Tool mit einer pseudonymen Kennung verknüpft, um zu verstehen, wer Sapiro nutzt, und die App zu verbessern."
+      },
+      {
+        "title": "Nutzungsanalyse",
+        "content": "Wir nutzen PostHog, gehostet in der Europäischen Union, um zu messen, wie die App, das Online-Spiel und die Website genutzt werden: aufgerufene Bildschirme und Seiten, gespielte Runden, Abo-Bildschirme, Käufe, technische Fehler, Gerätemodell, Sprache, Version, Einstiegsseite und Herkunft (Link, Kampagne). Diese Daten sind mit einer pseudonymen Kennung verknüpft, nie mit deinem Namen oder deiner E-Mail-Adresse. Wir zeichnen deine Sitzungen nicht auf. Auf der Website nutzen wir außerdem Umami, ein Statistik-Tool, das wir selbst hosten. Keines der beiden setzt Cookies."
+      },
+      {
+        "title": "Kampagnenmessung",
+        "content": "Um zu wissen, welche Werbekampagnen Installationen und Abos bringen, nutzt die App Singular. Singular erhält technische Informationen über das Gerät (Modell, System, IP-Adresse, app-eigene Kennung) und einige wichtige Schritte (Installation, Registrierung, erste Runde, Beginn des Probezeitraums, Abo); es übermittelt Konversionsergebnisse an Werbenetzwerke (Meta, TikTok, Apple), ohne deinen Namen oder deine E-Mail-Adresse. Unter iOS läuft die Messung über Apples SKAdNetwork: Wir fragen nicht nach einer Tracking-Erlaubnis und nutzen die Werbe-ID nicht. Unter Android greift die App nicht auf die Werbe-ID zu. Auf dem iPhone erhält RevenueCat außerdem das Attributions-Token von Apple Search Ads."
+      },
+      {
+        "title": "Abos und Käufe",
+        "content": "In der App laufen Käufe über den App Store oder Google Play. Im Online-Spiel wird die Zahlung von RevenueCat und Stripe abgewickelt: Wir übermitteln die E-Mail-Adresse deines Kontos für den Beleg. Deine Bankdaten sehen wir nie. RevenueCat speichert deinen Kaufverlauf und den Status deines Abos, um Sapiro+ auf all deinen Geräten freizuschalten."
+      },
+      {
+        "title": "Deine Nachrichten",
+        "content": "Wenn du uns über „Schreib uns“ kontaktierst, erhalten wir deine Nachricht, ihre Art (Fehler, Idee, inhaltlicher Fehler), die App-Version, die Plattform und die Sprache. Wir nutzen sie ausschließlich, um Sapiro zu korrigieren und zu verbessern."
+      },
+      {
+        "title": "Benachrichtigungen",
+        "content": "Wenn du sie erlaubst, werden Erinnerungen (Tägliche Herausforderung, Serie, Ende des Probezeitraums) lokal auf deinem Gerät geplant. Für ihre Zustellung werden keine Daten übermittelt. Du kannst sie jederzeit in den Einstellungen deines Handys ausschalten."
+      },
+      {
+        "title": "Auf deinem Gerät",
+        "content": "Die App und das Online-Spiel speichern deine Sitzung, deine Einstellungen, deine Antworten auf den Fragebogen und deinen Offline-Fortschritt lokal. Auf der Website und im Online-Spiel liegen diese Informationen im lokalen Speicher des Browsers, nicht in Cookies."
+      },
+      {
+        "title": "Mit wem wir Daten teilen",
+        "content": "Nur mit unseren Dienstleistern, für die oben beschriebenen Zwecke: Supabase (Datenbank, unsere Server in Deutschland), PostHog (Nutzungsanalyse, EU), Singular (Kampagnenmessung), RevenueCat und Stripe (Abos), Apple und Google (Anmeldung, Käufe), Cloudflare (Hosting der Website). Einige dieser Dienstleister können Daten außerhalb der Europäischen Union verarbeiten; sie tun dies mit den von der DSGVO vorgesehenen Garantien (Standardvertragsklauseln oder Data Privacy Framework)."
+      },
+      {
+        "title": "Speicherdauer",
+        "content": "Dein Konto, dein Fortschritt und deine Duell-Runden werden gespeichert, solange das Konto besteht; nach 90 Tagen wird eine Runde nicht mehr als Duell angeboten. Analysedaten werden höchstens zwei Jahre aufbewahrt. Kaufdaten werden so lange aufbewahrt, wie es unsere Buchhaltungspflichten verlangen."
+      },
+      {
+        "title": "Dein Konto löschen",
+        "content": "In der App: Tab Profil, „Mein Konto löschen“. Im Web: Öffne sapiro.app/de/spielen/?delete-account, melde dich an und bestätige dann die Löschung (oder öffne im Online-Spiel das Fenster Konto und wähle „Mein Konto löschen“). Damit werden dein Konto, dein Nutzername, dein Fortschritt, deine Duell-Runden und deine Trophäen sofort gelöscht. Nachrichten, die du über „Schreib uns“ gesendet hast, bleiben erhalten, ohne mit dir verknüpft zu sein. Das Löschen des Kontos kündigt kein laufendes Abo: Kündige es zuerst dort, wo du es abgeschlossen hast. Um auch Analyse-, Kampagnen- und Kaufdaten löschen zu lassen, schreib an bonjour@agencedebord.com: Wir bearbeiten Anfragen innerhalb von 30 Tagen."
+      },
+      {
+        "title": "Kinder",
+        "content": "Sapiro ist für die ganze Familie gemacht, Kinder eingeschlossen. Für die Jüngsten haben wir einfache Entscheidungen getroffen: keine Werbung, keine Werbe-ID, keine Nachrichten zwischen Spielern, ein freiwilliges Konto, und der beim Start eingegebene Vorname verlässt nie das Gerät. Im Duell sehen andere einen Spieler nur über seinen Nutzernamen, seinen Avatar, die Flagge seines Landes und seine Trophäen. Käufe laufen über den App Store oder Google Play, mit deren Jugendschutzeinstellungen. Eltern können jederzeit Auskunft über die Daten ihres Kindes oder deren Löschung verlangen, indem sie an bonjour@agencedebord.com schreiben."
+      },
+      {
+        "title": "Deine Rechte",
+        "content": "Nach der DSGVO kannst du auf deine Daten zugreifen, sie berichtigen oder löschen lassen, der Verarbeitung widersprechen oder ihre Übertragung verlangen. Schreib an bonjour@agencedebord.com. Wenn du der Meinung bist, dass deine Rechte nicht gewahrt werden, kannst du dich bei der CNIL (cnil.fr), der französischen Datenschutzbehörde, beschweren."
+      },
+      {
+        "title": "Änderungen",
+        "content": "Diese Erklärung kann aktualisiert werden. Das Datum oben auf der Seite zeigt die aktuelle Fassung."
+      },
+      {
+        "title": "Kontakt",
+        "content": "Agence Debord EURL, 9 rue des Colonnes, 75002 Paris, Frankreich — bonjour@agencedebord.com."
+      }
+    ]
+  },
+  "terms": {
+    "title": "Nutzungsbedingungen",
+    "metaDescription": "Nutzungsbedingungen von SAPIRO: Lizenz, geistiges Eigentum, Sapiro+-Abos und Kündigung. Es gilt französisches Recht.",
+    "lastUpdate": "Zuletzt aktualisiert",
+    "intro": "Diese Endbenutzer-Lizenzvereinbarung (EULA) ist eine rechtliche Vereinbarung zwischen dir und SAPIRO über die Nutzung der App SAPIRO.",
+    "sections": [
+      {
+        "title": "1. Annahme der Bedingungen",
+        "content": "Indem du die App SAPIRO herunterlädst, installierst oder nutzt, erklärst du dich mit diesen Nutzungsbedingungen einverstanden. Wenn du mit diesen Bedingungen nicht einverstanden bist, nutze die App nicht."
+      },
+      {
+        "title": "2. Lizenzgewährung",
+        "content": "SAPIRO gewährt dir eine eingeschränkte, nicht exklusive, nicht übertragbare und widerrufliche Lizenz zur Nutzung der App auf deinen Apple-Geräten gemäß den Nutzungsregeln des App Store. Diese Lizenz erlaubt es dir nicht, die App zu kopieren, zu verändern, zu verbreiten, zu verkaufen oder zu vermieten."
+      },
+      {
+        "title": "3. Einschränkungen",
+        "content": "Du verpflichtest dich, Folgendes zu unterlassen: (a) die App zu kopieren oder zu verändern; (b) zu versuchen, die App zu dekompilieren oder zurückzuentwickeln; (c) Urheberrechts- oder Eigentumshinweise zu entfernen; (d) die App an eine andere Person weiterzugeben; (e) die App auf rechtswidrige oder unbefugte Weise zu nutzen."
+      },
+      {
+        "title": "4. Geistiges Eigentum",
+        "content": "Die App, einschließlich aller daran bestehenden Rechte an geistigem Eigentum, ist und bleibt Eigentum von SAPIRO. Diese Bedingungen gewähren dir keinerlei Rechte an geistigem Eigentum an der App."
+      },
+      {
+        "title": "5. Inhalte der App",
+        "content": "SAPIRO ist eine Lern-App mit Quiz zum Allgemeinwissen. Die Inhalte dienen der Information und der Bildung. Wir bemühen uns um korrekte Angaben, können aber nicht garantieren, dass sie fehlerfrei sind."
+      },
+      {
+        "title": "6. Updates",
+        "content": "SAPIRO kann Updates der App veröffentlichen. Diese Updates können für die weitere Nutzung der App erforderlich sein und unterliegen diesen Bedingungen."
+      },
+      {
+        "title": "7. Haftungsbeschränkung",
+        "content": "Soweit gesetzlich zulässig, haftet SAPIRO nicht für indirekte, zufällige, besondere oder Folgeschäden, die aus der Nutzung oder der Unmöglichkeit der Nutzung der App entstehen."
+      },
+      {
+        "title": "8. Beendigung",
+        "content": "Diese Lizenz gilt, bis sie beendet wird. Deine Rechte aus dieser Lizenz enden automatisch, wenn du gegen eine ihrer Bedingungen verstößt. Nach der Beendigung musst du jede Nutzung der App einstellen."
+      },
+      {
+        "title": "9. Anwendbares Recht",
+        "content": "Diese Bedingungen unterliegen französischem Recht. Für alle Streitigkeiten sind ausschließlich die Gerichte in Paris, Frankreich, zuständig."
+      },
+      {
+        "title": "10. Kontakt",
+        "content": "Bei Fragen zu diesen Nutzungsbedingungen kontaktiere uns über das Kontaktformular auf unserer Website."
+      },
+      {
+        "title": "11. Abos und In-App-Käufe",
+        "content": "<p>SAPIRO bietet optionale Premium-Abos an, die zusätzliche Funktionen freischalten.</p><h3>Verfügbare Abos</h3><ul><li><strong>Monatsabo</strong></li><li><strong>Jahresabo</strong></li></ul><p>Der Preis jedes Abos hängt von Land und Währung ab. Er wird in der App oder auf sapiro.app angezeigt, bevor du einen Kauf bestätigst.</p><h3>Abrechnung</h3><p>Die Zahlung wird bei der Bestätigung des Kaufs von deinem Apple-ID-Konto (iOS) bzw. deinem Google-Play-Konto (Android) abgebucht.</p><h3>Abos über sapiro.app</h3><p>Im Online-Spiel ist für ein Abo ein Konto nötig. Kartenzahlungen werden von Stripe über RevenueCat abgewickelt; SAPIRO hat nie Zugriff auf deine Bankdaten. Das Abo ist an dein Konto gebunden: Es gilt auch in der mobilen App, wenn du dich mit demselben Konto anmeldest.</p><h3>Automatische Verlängerung</h3><p>Monats- und Jahresabos verlängern sich automatisch. Die Verlängerung wird innerhalb von 24 Stunden vor Ende des laufenden Zeitraums zum jeweils gültigen Abopreis von deinem Konto abgebucht.</p><h3>Kündigung</h3><p>Du kannst die automatische Verlängerung jederzeit kündigen, spätestens 24 Stunden vor Ende des laufenden Zeitraums:</p><ul><li><strong>Unter iOS</strong>: Einstellungen > [dein Name] > Abonnements</li><li><strong>Unter Android</strong>: Google Play Store > Menü > Abos</li><li><strong>Auf sapiro.app</strong>: Tab Profil > „Mein Abo verwalten“</li></ul><p>Ein Abo wird dort gekündigt, wo es abgeschlossen wurde (App Store, Google Play oder sapiro.app). Die Kündigung wird zum Ende des laufenden Zeitraums wirksam. Bis dahin behältst du Zugriff auf die Premium-Funktionen.</p><h3>Kostenloser Probezeitraum</h3><p>Ein nicht genutzter Teil eines kostenlosen Probezeitraums (falls angeboten) verfällt mit dem Kauf eines Abos.</p>"
+      }
+    ]
+  },
+  "legal": {
+    "title": "Impressum",
+    "editor": "Herausgeber der Website",
+    "editorName": "AGENCE DEBORD EURL",
+    "editorType": "Einpersonengesellschaft mit beschränkter Haftung (EURL)",
+    "capital": "Stammkapital: 100.000 Euro",
+    "address": "9 rue des Colonnes, 75002 Paris, Frankreich",
+    "siren": "SIREN: 801 339 151",
+    "siret": "SIRET: 801 339 151 00038",
+    "ape": "APE-Code: 6201Z",
+    "tva": "USt-IdNr.: FR20801339151",
+    "director": "Verantwortlich für den Inhalt",
+    "directorName": "Aurélien Debord",
+    "host": "Hosting",
+    "hostName": "Cloudflare, Inc.",
+    "hostAddress": "101 Townsend St, San Francisco, CA 94107, USA",
+    "hostPhone": "Telefon: 1007",
+    "hostWebsite": "www.cloudflare.com",
+    "intellectualProperty": "Geistiges Eigentum",
+    "intellectualPropertyText": "Alle Inhalte dieser Website (Texte, Bilder, Videos, Logos, Grafiken, Icons usw.) sind ausschließliches Eigentum der Agence Debord oder ihrer Partner und durch französisches und internationales Urheberrecht geschützt. Jede Vervielfältigung, Darstellung, Änderung, Veröffentlichung oder Bearbeitung der Website oder einzelner ihrer Bestandteile ist ohne vorherige schriftliche Genehmigung der Agence Debord untersagt.",
+    "personalData": "Personenbezogene Daten",
+    "personalDataText": "Diese Website misst ihre Besucherzahlen ohne Cookies. Welche Daten die Website, das Online-Spiel und die App verarbeiten und welche Rechte du hast, steht in unserer Datenschutzerklärung.",
+    "close": "Schließen"
+  },
+  "reviews": {
+    "title": "Das sagen unsere Nutzer",
+    "metaDescription": "Bewertungen und Erfahrungsberichte zu SAPIRO: Eltern, Lehrkräfte und Wissbegierige erzählen von ihren Erfahrungen mit der Quiz-Lern-App.",
+    "subtitle": "SAPIRO hat 5/5 Sterne bei Google Play",
+    "cta": "Teste SAPIRO kostenlos",
+    "items": [
+      {
+        "name": "Sarah M.",
+        "role": "Mutter von 2 Kindern",
+        "rating": 5,
+        "text": "Meine Kinder (8 und 11) lieben die App. Dank der Erklärungen merken sie sich die Antworten wirklich. Und abends spiele ich auch – ich habe so viel über Kunst gelernt, das ich nicht wusste.",
+        "store": "Google Play"
+      },
+      {
+        "name": "James T.",
+        "role": "Lehrer an einer weiterführenden Schule",
+        "rating": 5,
+        "text": "Ich nutze die App als Ergänzung im Erdkundeunterricht. Die Herausforderungen motivieren die Schüler. Dass sie werbefrei ist, ist im Schulalltag ein echter Vorteil.",
+        "store": "App Store"
+      },
+      {
+        "name": "Emily R.",
+        "role": "Wissbegierig aus Leidenschaft",
+        "rating": 5,
+        "text": "Endlich eine Quiz-App, die mich nicht mit Werbung zuschüttet. Die Fragen sind gut gemacht, die Erklärungen klar. Ich spiele jeden Morgen auf dem Weg zur Arbeit.",
+        "store": "Google Play"
+      },
+      {
+        "name": "David K.",
+        "role": "Technikbegeisterter Vater",
+        "rating": 5,
+        "text": "Sonntagmorgens machen wir die Tägliche Herausforderung als Familie. Das ist zum Ritual geworden. Die App ist aufgeräumt, schnell, und Daten werden nie verkauft. Genau das, was ich für die Kinder wollte.",
+        "store": "App Store"
+      },
+      {
+        "name": "Claire B.",
+        "role": "Geschichtsstudentin",
+        "rating": 5,
+        "text": "Die Routen zu historischen Persönlichkeiten sind super. Ich habe Menschen entdeckt, die in meinen Vorlesungen nie vorkamen.",
+        "store": "Google Play"
+      },
+      {
+        "name": "Robert W.",
+        "role": "Reiselustiger Rentner",
+        "rating": 5,
+        "text": "Mit 67 trainiere ich mein Gedächtnis mit Flaggen und Hauptstädten. Leicht und schnell gestartet, perfekt für meine Zugfahrten. Einfach, wirkungsvoll, ohne Schnickschnack.",
+        "store": "App Store"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Häufige Fragen",
+    "metaDescription": "Antworten auf häufige Fragen zu SAPIRO: Ist die App wirklich kostenlos? Ist sie sicher für Kinder? Datenschutz, Inhalte",
+    "subtitle": "Alles, was du über SAPIRO wissen musst",
+    "items": [
+      {
+        "question": "Ist SAPIRO wirklich kostenlos?",
+        "answer": "Ja, und ohne Werbung. Jeden Tag hast du 3 kostenlose Runden (Duelle inklusive) und die Tägliche Herausforderung, in allen 5 Welten. Sapiro+ schaltet unbegrenzte Runden und alle Routen frei."
+      },
+      {
+        "question": "Ist die App sicher für mein Kind?",
+        "answer": "SAPIRO enthält keine Werbung und verkauft keine Daten. Keine Werbe-Cookies, kein Konto nötig, keine Inhalte von Dritten. Dein Kind kann ganz selbstständig spielen."
+      },
+      {
+        "question": "Funktioniert SAPIRO offline?",
+        "answer": "Die Quiz funktionieren ohne Internetverbindung: Alle Inhalte werden mit der App heruntergeladen. Du kannst im Flugzeug, in der U-Bahn oder beim Camping spielen. Nur Duelle und Inhalts-Updates brauchen eine Verbindung."
+      },
+      {
+        "question": "Welche Themen deckt SAPIRO ab?",
+        "answer": "Vier Bereiche: Geografie (197 Länder, Flaggen, Hauptstädte), Geschichte (500+ historische Persönlichkeiten), Kunst (553 bedeutende Kunstwerke) und Natur (600 Tierarten). Insgesamt über 2.000 Fragen, jede mit einer Erklärung."
+      },
+      {
+        "question": "Sammelt SAPIRO meine Daten?",
+        "answer": "Nur das Nötigste, und wir verkaufen nichts. Keine Werbung, keine Werbe-Cookies. Wir messen die Nutzung (gespielte Runden, aufgerufene Seiten), um Sapiro zu verbessern. Ein Konto ist freiwillig: Es sichert nur deinen Fortschritt und dein Abo."
+      },
+      {
+        "question": "Gibt es SAPIRO für iOS und Android?",
+        "answer": "Ja. SAPIRO gibt es im App Store (iPhone, iPad) und bei Google Play (Android). Die App ist auf beiden Plattformen identisch."
+      },
+      {
+        "question": "Werden die Fragen geprüft?",
+        "answer": "Ja. Jede Frage wird von Hand geschrieben und geprüft. Die Inhalte stammen nicht aus der Community: Sie werden kontrolliert, damit die Angaben stimmen."
+      },
+      {
+        "question": "Ist SAPIRO auch etwas für Erwachsene?",
+        "answer": "SAPIRO ist für alle Altersgruppen gemacht. Die Inhalte reichen von Weltgeografie über Geschichte und große Kunstwerke bis zur Artenvielfalt. Viele Erwachsene nutzen die App, um ihr Allgemeinwissen zu testen und zu erweitern."
+      }
+    ]
+  },
+  "about": {
+    "title": "Über SAPIRO",
+    "text": "SAPIRO ist eine kostenlose, werbefreie Quiz-Lern-App für iOS und Android, entwickelt von der Agence Debord EURL (Paris, Frankreich). Sie deckt fünf Bereiche ab: Geografie (197 Länder), Geschichte (500+ historische Persönlichkeiten), Kunst (553 bedeutende Kunstwerke), Natur (600 Tierarten) und Denkmäler (500 Denkmäler). Die App enthält über 2.000 von Hand geprüfte Fragen, jede mit einer Erklärung. Dazu gibt es einen Duell-Modus gegen andere Spieler. Keine Werbung, und Daten werden nie verkauft. Die App ist unter anderem auf Deutsch, Englisch, Französisch und Spanisch verfügbar.",
+    "stats": {
+      "questions": "2.000+ Fragen",
+      "countries": "197 Länder",
+      "artworks": "553 Kunstwerke",
+      "species": "600 Arten",
+      "rating": "5/5 bei Google Play"
+    }
+  },
+  "notFound": {
+    "title": "Seite nicht gefunden | SAPIRO",
+    "heading": "Diese Seite gibt es nicht",
+    "intro": "Der Link, dem du gefolgt bist, ist kaputt oder die Seite ist umgezogen. Kein Problem, es gibt noch jede Menge zu entdecken.",
+    "backHome": "Zurück zur Startseite",
+    "backBlog": "Alle Artikel ansehen"
+  }
+}

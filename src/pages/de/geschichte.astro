@@ -1,0 +1,180 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import StickyMobileCta from '../../components/v2/StickyMobileCta.astro';
+import { getTranslations } from '../../i18n';
+import { getCollection } from 'astro:content';
+
+const lang = 'de';
+const t = getTranslations(lang);
+
+// Nur ein Teil der Artikel ist auf Deutsch übersetzt: Jede kuratierte Liste
+// wird über translationKey aufgelöst, Einträge ohne deutschen Artikel fallen weg,
+// leere Abschnitte werden ausgeblendet.
+const allPosts = await getCollection('blog');
+const dePosts = allPosts
+  .filter(p => p.data.lang === 'de')
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+const byKey = new Map(dePosts.map(p => [p.data.translationKey, p]));
+
+const curated = [
+  {
+    title: 'Die großen Epochen',
+    items: [
+      { key: 'antiquite-moyen-age-renaissance', label: 'Antike, Mittelalter, Renaissance' },
+      { key: 'frise-chronologique', label: 'Zeitleiste der Weltgeschichte' },
+      { key: 'grandes-batailles', label: 'Die 15 großen Schlachten der Geschichte' },
+      { key: 'monuments-antiquite', label: 'Die Monumente der Antike' },
+    ],
+  },
+  {
+    title: 'Historische Persönlichkeiten',
+    items: [
+      { key: 'personnages-historiques', label: 'Die wichtigsten historischen Persönlichkeiten' },
+      { key: 'rois-monarchies-europe', label: 'Könige und Monarchien Europas' },
+      { key: 'presidents-usa', label: 'Die Präsidenten der USA' },
+      { key: 'femmes-histoire', label: '20 Frauen, die Geschichte geschrieben haben' },
+      { key: 'dictateurs-xxe-siecle', label: 'Diktatoren des 20. Jahrhunderts' },
+    ],
+  },
+  {
+    title: 'Geschichte wiederholen',
+    items: [
+      { key: 'quiz-histoire-france', label: 'Geschichtsquiz auf Prüfungsniveau' },
+      { key: 'apprendre-histoire', label: 'Geschichte spielerisch lernen' },
+      { key: 'histoire-primaire-college', label: 'Geschichte in Grundschule und Unterstufe' },
+    ],
+  },
+];
+
+const sections = curated
+  .map(s => ({
+    title: s.title,
+    items: s.items
+      .flatMap(i => {
+        const post = byKey.get(i.key);
+        return post ? [{ label: i.label, post }] : [];
+      }),
+  }))
+  .filter(s => s.items.length > 0);
+
+const shownKeys = new Set(curated.flatMap(s => s.items.map(i => i.key)));
+const histCategories = ['histoire'];
+const moreArticles = dePosts.filter(
+  p => histCategories.includes(p.data.category) && !shownKeys.has(p.data.translationKey),
+);
+
+const collectionPageSchema = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Weltgeschichte: große Epochen, Persönlichkeiten, Schlachten",
+  "description": "Alles über die Weltgeschichte: Antike, Mittelalter, Renaissance, Moderne. Über 500 Persönlichkeiten, große Schlachten, Zeitleisten.",
+  "url": "https://sapiro.app/de/geschichte/",
+  "inLanguage": "de"
+};
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "Was sind die großen Epochen der Geschichte?", "acceptedAnswer": { "@type": "Answer", "text": "Die westliche Geschichte wird traditionell in fünf Epochen eingeteilt: Urgeschichte (bis 3000 v. Chr.), Antike (3000 v. Chr. bis 476), Mittelalter (476–1492), Frühe Neuzeit (1492–1789) und Moderne (1789 bis heute)." } },
+    { "@type": "Question", "name": "Welche Jahreszahlen sollte man sich merken?", "acceptedAnswer": { "@type": "Answer", "text": "Die 10 wichtigsten Daten: 3000 v. Chr. (Schrift), 476 (Fall Roms), 1066 (Hastings), 1492 (Kolumbus), 1776 (Unabhängigkeit der USA), 1789 (Französische Revolution), 1914–1918 (Erster Weltkrieg), 1939–1945 (Zweiter Weltkrieg), 1969 (Mondlandung), 1989 (Berliner Mauer)." } },
+    { "@type": "Question", "name": "Wer sind die wichtigsten historischen Persönlichkeiten?", "acceptedAnswer": { "@type": "Answer", "text": "Zu den am häufigsten genannten gehören: Julius Caesar, Karl der Große, Leonardo da Vinci, Christoph Kolumbus, Napoleon, Abraham Lincoln, Marie Curie, Winston Churchill, Mahatma Gandhi, Nelson Mandela." } },
+    { "@type": "Question", "name": "Welche Schlacht war die verlustreichste der Geschichte?", "acceptedAnswer": { "@type": "Answer", "text": "Die Schlacht von Stalingrad (1942–1943) gilt als die verlustreichste, mit fast 2 Millionen Toten auf beiden Seiten. Verdun (1916) ist in Frankreich bis heute das Symbol für den Schrecken des Stellungskriegs, mit rund 700.000 Toten." } }
+  ]
+};
+---
+
+<Layout title="Weltgeschichte: Ratgeber und Quiz | SAPIRO" description="Weltgeschichte: Antike, Mittelalter, Renaissance, Moderne. Über 500 Persönlichkeiten, große Schlachten, Zeitleisten. Ratgeber und Quiz." lang={lang}>
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(collectionPageSchema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+  </Fragment>
+
+  <Header lang={lang} t={t} />
+
+  <main class="pillar-page">
+    <article class="container">
+      <header class="pillar-header">
+        <h1>Weltgeschichte</h1>
+        <p class="lede">Von der Antike bis heute: über 500 Persönlichkeiten, große Schlachten, Zeitleisten. Alles, um zu verstehen, wie die Welt entstanden ist.</p>
+      </header>
+
+      <section class="pillar-intro">
+        <p>Geschichte gibt der Gegenwart einen Sinn. Die großen Epochen (Antike, Mittelalter, Renaissance, Industrialisierung, Weltkriege, Dekolonisierung) erklären, warum die Welt so ist, wie sie ist. Wer die wichtigsten Persönlichkeiten kennt, von Kleopatra bis Turing, versteht Zusammenhänge, statt nur einzelne Jahreszahlen aufzusagen.</p>
+        <p>SAPIRO bietet Quiz zu über 500 historischen Persönlichkeiten, sortiert nach Epoche und Zivilisation, mit einer Erklärung zum Kontext hinter jeder Frage.</p>
+      </section>
+
+      <section class="pillar-stats">
+        <h2>Geschichte in Zahlen</h2>
+        <ul>
+          <li><strong>5.000 Jahre</strong> geschriebene Geschichte, seit der Erfindung der Schrift in Mesopotamien (3000 v. Chr.)</li>
+          <li><strong>500+</strong> bedeutende historische Persönlichkeiten in SAPIRO</li>
+          <li><strong>5</strong> klassische Epochen: Urgeschichte, Antike, Mittelalter, Frühe Neuzeit, Moderne</li>
+          <li><strong>50–70 Millionen</strong> Tote im Zweiten Weltkrieg (dem verlustreichsten Krieg)</li>
+          <li><strong>1989</strong>: Fall der Berliner Mauer, Ende des Kalten Krieges</li>
+        </ul>
+      </section>
+
+      {sections.map(s => (
+        <section class="pillar-sub">
+          <h2>{s.title}</h2>
+          <ul class="pillar-grid">
+            {s.items.map(i => (
+              <li><a href={`/de/blog/${i.post.data.urlSlug}/`}>{i.label}</a></li>
+            ))}
+          </ul>
+        </section>
+      ))}
+
+      {moreArticles.length > 0 && (
+        <section class="pillar-sub">
+          <h2>Weitere Artikel</h2>
+          <ul class="pillar-grid">
+            {moreArticles.map(p => (
+              <li><a href={`/de/blog/${p.data.urlSlug}/`}>{p.data.title}</a></li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      <section class="pillar-faq">
+        <h2>Häufige Fragen zur Geschichte</h2>
+
+        <h3>Was sind die großen Epochen der Geschichte?</h3>
+        <p>Die westliche Geschichte wird traditionell in fünf Epochen eingeteilt: Urgeschichte (bis 3000 v. Chr.), Antike (3000 v. Chr. bis 476), Mittelalter (476–1492), Frühe Neuzeit (1492–1789) und Moderne (1789 bis heute).</p>
+
+        <h3>Welche Jahreszahlen sollte man sich merken?</h3>
+        <p>Die 10 wichtigsten Daten: 3000 v. Chr. (Schrift), 476 (Fall Roms), 1066 (Hastings), 1492 (Kolumbus), 1776 (Unabhängigkeit der USA), 1789 (Französische Revolution), 1914–1918 (Erster Weltkrieg), 1939–1945 (Zweiter Weltkrieg), 1969 (Mondlandung), 1989 (Berliner Mauer).</p>
+
+        <h3>Wer sind die wichtigsten historischen Persönlichkeiten?</h3>
+        <p>Zu den am häufigsten genannten gehören: Julius Caesar, Karl der Große, Leonardo da Vinci, Christoph Kolumbus, Napoleon, Abraham Lincoln, Marie Curie, Winston Churchill, Mahatma Gandhi, Nelson Mandela.</p>
+
+        <h3>Welche Schlacht war die verlustreichste der Geschichte?</h3>
+        <p>Die Schlacht von Stalingrad (1942–1943) gilt als die verlustreichste, mit fast 2 Millionen Toten auf beiden Seiten. Verdun (1916) ist in Frankreich bis heute das Symbol für den Schrecken des Stellungskriegs, mit rund 700.000 Toten.</p>
+      </section>
+    </article>
+  </main>
+
+  <Footer lang={lang} t={t} />
+  <StickyMobileCta lang={lang} campaign="sticky-pillar" />
+</Layout>
+
+<style>
+  .pillar-page { padding-top: 100px; padding-bottom: 60px; }
+  .pillar-header { text-align: center; padding-bottom: 32px; margin-bottom: 32px; border-bottom: 1px solid var(--gris-clair); }
+  .pillar-header h1 { font-size: clamp(2.25rem, 4.5vw, 3.25rem); margin-bottom: 16px; }
+  .lede { font-size: 1.25rem; color: var(--gris); max-width: 720px; margin: 0 auto; }
+  .pillar-intro, .pillar-stats, .pillar-sub, .pillar-faq { max-width: 800px; margin: 0 auto 48px; }
+  .pillar-intro p { line-height: 1.75; margin-bottom: 16px; font-size: 1.05rem; }
+  .pillar-stats ul { padding-left: 24px; }
+  .pillar-stats li { margin-bottom: 8px; line-height: 1.7; }
+  .pillar-sub h2, .pillar-stats h2, .pillar-faq h2 { font-size: 1.75rem; margin-bottom: 20px; }
+  .pillar-grid { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 12px; }
+  .pillar-grid li { padding: 14px 18px; background: var(--gris-clair); border-radius: 8px; }
+  .pillar-grid a { color: var(--noir); text-decoration: none; font-weight: 500; }
+  .pillar-grid a:hover { color: var(--orange); }
+  .pillar-faq h3 { font-size: 1.1rem; margin-top: 24px; margin-bottom: 8px; }
+  .pillar-faq p { line-height: 1.7; margin-bottom: 16px; }
+</style>

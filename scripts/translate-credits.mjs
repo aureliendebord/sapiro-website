@@ -1,4 +1,4 @@
-// Traduit /credits/index.html (FR, genere par le repo sapiro/app) vers EN et ES.
+// Traduit /credits/index.html (FR, genere par le repo sapiro/app) vers EN, ES et DE.
 // A relancer apres chaque mise a jour du fichier source FR :
 //   node scripts/translate-credits.mjs
 //
@@ -95,14 +95,66 @@ const translations = {
     privacyHref: 'https://sapiro.app/es/privacy/',
     termsHref: 'https://sapiro.app/es/terms/',
   },
+  de: {
+    htmlLang: 'de',
+    title: 'Sapiro – Bildnachweise',
+    metaDescription:
+      'Bildnachweise und Lizenzen der in Sapiro verwendeten Bilder. Alle Bilder stammen von Wikimedia Commons und sind einzeln ihren Urhebern zugeordnet.',
+    ogDescription:
+      'Vollständige Quellenangaben der in der Sapiro-App verwendeten Bilder von Wikimedia Commons.',
+    ogUrl: 'https://sapiro.app/de/credits/',
+    // Pas encore de visuel OG allemand : l'anglais en attendant.
+    ogImage: 'https://sapiro.app/images/og/default-en.png',
+    ogLocale: 'de_DE',
+    canonicalUrl: 'https://sapiro.app/de/credits/',
+    h1: 'Bildnachweise',
+    lede: `Alle in Sapiro verwendeten Bilder stammen von <strong>Wikimedia Commons</strong>
+        und stehen unter freien Lizenzen (CC-BY, CC-BY-SA oder gemeinfrei).
+        Jedes Bild ist unten einzeln aufgeführt, mit Urheber, Lizenz
+        und einem Link zur Originalseite auf Wikimedia.`,
+    metaCount: (n, date) => `${n} Bilder mit Nachweis · Zuletzt aktualisiert: ${date}`,
+    tocHeading: 'Kategorien',
+    sections: {
+      animaux: { id: 'tiere', label: 'Tiere' },
+      '-uvres-d-art': { id: 'kunstwerke', label: 'Kunstwerke' },
+      monuments: { id: 'monumente', label: 'Monumente' },
+      drapeaux: { id: 'flaggen', label: 'Flaggen' },
+    },
+    sectionTitleFallback: {
+      Animaux: 'Tiere',
+      "Œuvres d'art": 'Kunstwerke',
+      'Œuvres d&#39;art': 'Kunstwerke',
+      Monuments: 'Monumente',
+      Drapeaux: 'Flaggen',
+    },
+    unknownAuthor: 'Unbekannter Urheber',
+    undocumentedLicense: 'Lizenz nicht dokumentiert',
+    footerClaim:
+      "Du hast ein Anliegen zu einem Bild? Schreib uns an <!--email_off--><a href=\"mailto:bonjour@agencedebord.com\">bonjour@agencedebord.com</a><!--/email_off-->.",
+    privacyLabel: 'Datenschutz',
+    termsLabel: 'Nutzungsbedingungen',
+    privacyHref: 'https://sapiro.app/de/privacy/',
+    termsHref: 'https://sapiro.app/de/terms/',
+  },
 };
 
 function escapeRegex(s) {
   return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 }
 
+// La source FR (generee par le repo de l'app) ne connait que fr/en/es : on
+// ajoute l'alternate allemand, idempotent.
+const DE_ALTERNATE = '<link rel="alternate" hreflang="de" href="https://sapiro.app/de/credits/">';
+function withGermanAlternate(html) {
+  if (html.includes(DE_ALTERNATE)) return html;
+  return html.replace(
+    /(<link rel="alternate" hreflang="es" href="https:\/\/sapiro\.app\/es\/credits\/">)/,
+    `$1\n  ${DE_ALTERNATE}`
+  );
+}
+
 function translate(src, t) {
-  let out = src;
+  let out = withGermanAlternate(src);
 
   // <html lang="fr"> -> <html lang="en"|"es">
   out = out.replace(/<html lang="fr">/, `<html lang="${t.htmlLang}">`);
@@ -249,7 +301,8 @@ function ensureDir(p) {
 }
 
 function main() {
-  const src = readFileSync(SRC, 'utf8');
+  const src = withGermanAlternate(readFileSync(SRC, 'utf8'));
+  writeFileSync(SRC, src, 'utf8');
   console.log(`[translate-credits] source: ${SRC} (${src.length} chars)`);
 
   for (const lang of Object.keys(translations)) {

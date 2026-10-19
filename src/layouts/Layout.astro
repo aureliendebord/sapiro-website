@@ -20,44 +20,34 @@ const { title, description, lang = 'fr', noDefaultHreflang = false, noCanonical 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const canonicalHref = canonicalOverride || canonicalURL.toString();
 // || et non ?? : une chaîne vide doit retomber sur le visuel par défaut
-const ogImageURL = new URL(ogImage || `/images/og/default-${lang}.png`, Astro.site);
+// Visuels OG par défaut disponibles (pas encore d'allemand : repli anglais).
+const DEFAULT_OG_LANGS = ['fr', 'en', 'es'];
+const ogDefaultLang = DEFAULT_OG_LANGS.includes(lang) ? lang : 'en';
+const ogImageURL = new URL(ogImage || `/images/og/default-${ogDefaultLang}.png`, Astro.site);
 
-// Build hreflang URLs using the centralized route map (handles slug translations)
+// Build hreflang URLs using the centralized route map (handles slug translations).
+// Seules les versions qui existent sont annoncées : l'allemand n'a pas toutes
+// les pages (pas de concours, famille, comparatifs).
 const pathname = Astro.url.pathname;
 const routeUrls = getHreflangUrls(pathname);
 
-let hrefFr: string;
-let hrefEn: string;
-let hrefEs: string;
+let hreflangLinks: Array<{ lang: string; href: string }>;
 
 if (routeUrls) {
-  hrefFr = `https://sapiro.app${routeUrls.fr}`;
-  hrefEn = `https://sapiro.app${routeUrls.en}`;
-  hrefEs = `https://sapiro.app${routeUrls.es}`;
+  hreflangLinks = routeUrls.map((r) => ({ lang: r.lang, href: `https://sapiro.app${r.path}` }));
+} else if (pathname.startsWith('/de/')) {
+  // Page allemande hors table : pas d'équivalent connu dans les autres langues.
+  hreflangLinks = [];
 } else {
   // Fallback for unmapped pages (e.g., blog posts that pass noDefaultHreflang)
-  let frPath: string;
-  let enPath: string;
-  let esPath: string;
-  if (pathname.startsWith('/en/')) {
-    const basePath = pathname.replace(/^\/en/, '');
-    frPath = basePath;
-    enPath = `/en${basePath}`;
-    esPath = `/es${basePath}`;
-  } else if (pathname.startsWith('/es/')) {
-    const basePath = pathname.replace(/^\/es/, '');
-    frPath = basePath;
-    enPath = `/en${basePath}`;
-    esPath = `/es${basePath}`;
-  } else {
-    frPath = pathname;
-    enPath = `/en${pathname}`;
-    esPath = `/es${pathname}`;
-  }
-  hrefFr = `https://sapiro.app${frPath}`;
-  hrefEn = `https://sapiro.app${enPath}`;
-  hrefEs = `https://sapiro.app${esPath}`;
+  const basePath = pathname.replace(/^\/(en|es)(?=\/)/, '');
+  hreflangLinks = [
+    { lang: 'fr', href: `https://sapiro.app${basePath}` },
+    { lang: 'en', href: `https://sapiro.app/en${basePath}` },
+    { lang: 'es', href: `https://sapiro.app/es${basePath}` },
+  ];
 }
+const xDefaultLink = hreflangLinks.find((h) => h.lang === 'fr') ?? hreflangLinks[0];
 ---
 
 <!DOCTYPE html>
@@ -97,10 +87,8 @@ if (routeUrls) {
   <!-- Alternate languages (dynamic per page) -->
   {!noDefaultHreflang && (
     <>
-      <link rel="alternate" hreflang="fr" href={hrefFr} />
-      <link rel="alternate" hreflang="en" href={hrefEn} />
-      <link rel="alternate" hreflang="es" href={hrefEs} />
-      <link rel="alternate" hreflang="x-default" href={hrefFr} />
+      {hreflangLinks.map((h) => <link rel="alternate" hreflang={h.lang} href={h.href} />)}
+      {xDefaultLink && <link rel="alternate" hreflang="x-default" href={xDefaultLink.href} />}
     </>
   )}
 

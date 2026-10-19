@@ -1,8 +1,8 @@
 ---
 import { SOCIAL_PROFILES } from '../data/brand';
 import type { Lang } from '../i18n';
-import { getLocalePath, localeFlags } from '../i18n';
-import { clusters } from '../data/clusters';
+import { getLocalePath, localeFlags, LANGS } from '../i18n';
+import { clustersFor } from '../data/clusters';
 
 interface Props {
   lang: Lang;
@@ -10,11 +10,23 @@ interface Props {
 }
 
 const { lang, t } = Astro.props;
-const languages: Lang[] = ['fr', 'en', 'es'];
 const currentYear = new Date().getFullYear();
 
-// Pages piliers thematiques (les 8 clusters)
-const pillars = clusters.map((c) => ({ href: c.pillarSlug[lang], label: c.label[lang] }));
+// Pages piliers thematiques (les clusters qui existent dans la langue)
+const pillars = clustersFor(lang).map((c) => ({ href: c.pillarSlug[lang]!, label: c.label[lang]! }));
+
+const aboutLabel: Record<Lang, string> = {
+  fr: 'À propos',
+  en: 'About',
+  es: 'Acerca de',
+  de: 'Über uns',
+};
+const widgetLabel: Record<Lang, string> = {
+  fr: 'Widget quiz pour votre site',
+  en: 'Quiz widget for your site',
+  es: 'Widget de quiz para tu web',
+  de: 'Quiz-Widget für deine Website',
+};
 ---
 
 <footer class="footer">
@@ -58,8 +70,8 @@ const pillars = clusters.map((c) => ({ href: c.pillarSlug[lang], label: c.label[
         <a href={p.href} class="footer-link">{p.label}</a>
       ))}
       <a href={getLocalePath('/blog', lang)} class="footer-link">{t.header.blog}</a>
-      <a href={getLocalePath('/about', lang)} class="footer-link">{lang === 'fr' ? 'À propos' : lang === 'es' ? 'Acerca de' : 'About'}</a>
-      <a href={getLocalePath('/widget', lang)} class="footer-link">{lang === 'fr' ? 'Widget quiz pour votre site' : lang === 'es' ? 'Widget de quiz para tu web' : 'Quiz widget for your site'}</a>
+      <a href={getLocalePath('/about', lang)} class="footer-link">{aboutLabel[lang]}</a>
+      <a href={getLocalePath('/widget', lang)} class="footer-link">{widgetLabel[lang]}</a>
     </div>
 
     <div class="footer-col">
@@ -72,7 +84,7 @@ const pillars = clusters.map((c) => ({ href: c.pillarSlug[lang], label: c.label[
     </div>
 
     <div class="footer-lang">
-      {languages.map((l) => (
+      {LANGS.map((l) => (
         <a
           href={getLocalePath('/', l)}
           class={`lang-link ${l === lang ? 'active' : ''}`}

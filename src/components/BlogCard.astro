@@ -1,6 +1,6 @@
 ---
 import type { Lang } from '../i18n';
-import { getLocalePath, getTranslations } from '../i18n';
+import { dateLocales, getLocalePath, getTranslations } from '../i18n';
 
 interface Props {
   title: string;
@@ -16,7 +16,7 @@ const { title, description, date, slug, category, readingTime, lang } = Astro.pr
 const t = getTranslations(lang);
 const href = getLocalePath(`/blog/${slug}`, lang);
 
-const formattedDate = date.toLocaleDateString(lang === 'fr' ? 'fr-FR' : lang === 'en' ? 'en-US' : 'es-ES', {
+const formattedDate = date.toLocaleDateString(dateLocales[lang], {
   year: 'numeric',
   month: 'long',
   day: 'numeric'

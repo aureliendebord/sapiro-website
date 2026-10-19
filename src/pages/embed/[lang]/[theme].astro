@@ -19,13 +19,14 @@ import { countries } from '@/data/countries';
 import fr from '@/locales/fr/countries.json';
 import en from '@/locales/en/countries.json';
 import es from '@/locales/es/countries.json';
+import de from '@/locales/de/countries.json';
 import { embedPlayUrl, EMBED_THEMES, PLAY_PATH, type EmbedTheme } from '../../../data/appLinks';
-import type { Lang } from '../../../i18n';
+import { LANGS, type Lang } from '../../../i18n';
 
 export const prerender = true;
 
 export function getStaticPaths() {
-  return (['fr', 'en', 'es'] as const).flatMap((lang) =>
+  return LANGS.flatMap((lang) =>
     EMBED_THEMES.map((theme) => ({ params: { lang, theme } })),
   );
 }
@@ -34,7 +35,7 @@ const lang = Astro.params.lang as Lang;
 const theme = Astro.params.theme as EmbedTheme;
 
 type CountryLocale = Record<string, { name: string; capital?: string; descriptions?: string[] }>;
-const LOCALES: Record<Lang, CountryLocale> = { fr, en, es } as Record<Lang, CountryLocale>;
+const LOCALES: Record<Lang, CountryLocale> = { fr, en, es, de } as Record<Lang, CountryLocale>;
 
 // n = nom, c = capitale, k = continent (les mauvaises réponses sont tirées du
 // même continent : « Tchad ou Japon ? » n'apprend rien), f = fait affiché
@@ -77,6 +78,16 @@ const COPY = {
     replay: 'Jugar otra vez',
     cta: 'El quiz completo en Sapiro',
     by: 'Quiz de',
+  },
+  de: {
+    title: { flags: 'Flaggen-Quiz', capitals: 'Hauptstädte-Quiz' },
+    ask: { flags: 'Zu welchem Land gehört diese Flagge?', capitals: 'Wie heißt die Hauptstadt dieses Landes?' },
+    next: 'Nächste Frage',
+    finish: 'Mein Ergebnis',
+    verdict: ['Da geht noch was', 'Gut gemacht', 'Fehlerfrei'],
+    replay: 'Nochmal spielen',
+    cta: 'Das komplette Quiz auf Sapiro',
+    by: 'Quiz von',
   },
 }[lang];
 
