@@ -21,7 +21,7 @@ interface Props {
 
 const { lang } = Astro.props;
 const t = getTranslations(lang).blog.stickyStore;
-const ios = appStoreUrl(lang);
+const ios = appStoreUrl(lang, 'blog-sticky');
 const android = playStoreUrl('blog-sticky', lang);
 ---
 

@@ -202,7 +202,7 @@ export function PaywallModal({ user, source, onClose, onPurchased, onNeedAccount
           <div className="paywall-stores">
             <a
               className={`game-btn game-btn--block ${needsAccount ? "game-btn--ghost" : ""}`}
-              href={appStoreUrl(lang)}
+              href={appStoreUrl(lang, "post-purchase")}
               target="_blank"
               rel="noopener"
               data-store-campaign="post-purchase"

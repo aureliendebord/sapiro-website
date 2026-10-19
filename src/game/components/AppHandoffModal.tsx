@@ -69,7 +69,7 @@ export function AppHandoffModal({ store, source, onClose, onSubscribeHere }: Pro
              lisent la campagne sur le lien lui-même. */
           <a
             className="game-btn game-btn--block"
-            href={store === "app_store" ? appStoreUrl(lang) : playStoreUrl("quota-mobile", lang)}
+            href={store === "app_store" ? appStoreUrl(lang, "quota-mobile") : playStoreUrl("quota-mobile", lang)}
             target="_blank"
             rel="noopener"
             data-umami-event="store-click"
