@@ -6,7 +6,7 @@
  * du cœur synchronisé.
  *
  * L'app importe 11 langues de JSON d'entités en statique (~13 Mo, acceptable
- * dans un binaire). Le site n'en sert que 3 et les charge à la demande : le
+ * dans un binaire). Le site n'en sert que 4 et les charge à la demande : le
  * bundle initial ne porte aucune locale d'entité, et une partie sur les pays
  * ne télécharge pas les 436 Ko d'œuvres d'art.
  *
@@ -55,8 +55,8 @@ export type LocalizedEntityJson = Record<string, LocalizedEntityEntry>;
 
 type LangCode = string;
 
-/** Les 3 langues du site (l'app en sert 11). */
-const SUPPORTED_LANGS = ["fr", "en", "es"] as const;
+/** Les 4 langues du site (l'app en sert 11). */
+const SUPPORTED_LANGS = ["fr", "en", "es", "de"] as const;
 
 /** Locales bundlées déjà chargées : `${lang}/${file}` -> contenu. */
 const loaded = new Map<string, LocalizedEntityJson>();
@@ -90,6 +90,14 @@ const LOADERS: Record<string, () => Promise<{ default: LocalizedEntityJson }>> =
   "es/organizations": () => import("@/locales/es/organizations.json"),
   "es/regions-fr": () => import("@/locales/es/regions-fr.json"),
   "es/artworks": () => import("@/locales/es/artworks.json"),
+  "de/figures": () => import("@/locales/de/figures.json"),
+  "de/animals": () => import("@/locales/de/animals.json"),
+  "de/monuments": () => import("@/locales/de/monuments.json"),
+  "de/countries": () => import("@/locales/de/countries.json"),
+  "de/empires": () => import("@/locales/de/empires.json"),
+  "de/organizations": () => import("@/locales/de/organizations.json"),
+  "de/regions-fr": () => import("@/locales/de/regions-fr.json"),
+  "de/artworks": () => import("@/locales/de/artworks.json"),
 };
 
 export function normalizeLang(lang: string): string {
@@ -142,7 +150,7 @@ export function getLocalizedEntry(
 ): LocalizedEntityEntry | null {
   const file = FILE_BY_ENTITY_TYPE[entityType];
   // La langue distante est celle DEMANDÉE (le manifest sert `locales/{lang}/`),
-  // la langue bundlée est normalisée aux 3 du site.
+  // la langue bundlée est normalisée aux 4 du site.
   const bundledLang = normalizeLang(lang);
 
   const candidates: (LocalizedEntityEntry | undefined)[] = [

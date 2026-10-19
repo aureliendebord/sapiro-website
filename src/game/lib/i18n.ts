@@ -4,13 +4,13 @@
  * Les textes viennent des locales synchronisées depuis l'app (`game.json`,
  * `common.json`) : mêmes libellés de question et mêmes termes
  * que sur mobile. La langue est imposée par la route Astro (/jouer, /en/play,
- * /es/jugar), pas détectée — le SEO du site pilote déjà la langue de la page.
+ * /es/jugar, /de/spielen), pas détectée — le SEO du site pilote déjà la langue de la page.
  *
  * Volontairement minimal : pas de react-i18next côté web. Le jeu ne change
  * jamais de langue en cours de session, un module d'état simple suffit.
  */
 
-export type GameLang = "fr" | "en" | "es";
+export type GameLang = "fr" | "en" | "es" | "de";
 
 type Dict = Record<string, unknown>;
 
@@ -26,6 +26,10 @@ const BUNDLES: Record<GameLang, () => Promise<Dict[]>> = {
   es: async () => [
     (await import("@/locales/es/game.json")).default,
     (await import("@/locales/es/common.json")).default,
+  ],
+  de: async () => [
+    (await import("@/locales/de/game.json")).default,
+    (await import("@/locales/de/common.json")).default,
   ],
 };
 
@@ -602,6 +606,194 @@ const WEB_STRINGS: Record<GameLang, Dict> = {
       subDesktop:
         "Ya jugaste tus partidas de hoy. La app te da partidas gratis cada día, además del Desafío del día.",
       scan: "Escanea con tu teléfono para instalarla",
+    },
+  },
+  de: {
+    home: {
+      account: "Mein Konto",
+      signIn: "Anmelden",
+      journeys: "Die Route",
+      journeysDesc: "Eine Route mit 54 Etappen, vom Kontinent bis ins Museum.",
+      daily: "Tägliche Herausforderung",
+      dailyDesc: "Das gleiche Quiz für alle, jeden Tag.",
+      dailyFree: "Gratis",
+      dailyDone: "Heute schon erledigt, bis morgen",
+      classic: "Schnelle Runde",
+      classicDesc: "10 zufällige Fragen.",
+      survival: "Rekord",
+      survivalDesc: "3 Leben – wie weit kommst du?",
+      nav: "Spielnavigation",
+      tickets: "Runden für heute",
+      unlimited: "Unbegrenzt spielen",
+      linkSubscription: "Mit einem Konto verknüpfen",
+      statsTitle: "Dein Fortschritt",
+      statGames: "Gespielte Runden",
+      shortcuts: "Tastenkürzel",
+      shortcutAnswer: "antworten",
+      shortcutQuit: "beenden",
+    },
+    nav: {
+      home: "Start",
+      journeys: "Route",
+      profile: "Profil",
+      account: "Konto",
+      signIn: "Anmelden",
+    },
+    quiz: {
+      retry: "Wir korrigieren die Fehler",
+      loadFailed: "Die Runde konnte nicht geladen werden. Prüf deine Verbindung – die Runde wurde nicht abgezogen.",
+      soundOn: "Ton aus",
+      soundOff: "Ton an",
+      loading: "Runde wird geladen …",
+      preparing: "Runde wird vorbereitet …",
+      quit: "Runde beenden",
+      progress: "Fortschritt der Runde",
+      livesLeft: "Noch {{count}} Leben",
+    },
+    result: {
+      survivalDone: "Rekord-Runde beendet",
+      perfect: "Perfekt, nichts zu meckern",
+      great: "Gut gespielt",
+      close: "Das war knapp",
+      keepGoing: "Da geht noch was",
+      outOfTicketsMobile: "Du hast deine Runden für heute hier gespielt. Spiel kostenlos in der App weiter.",
+      continueInApp: "In der App weiterspielen",
+      replay: "Nochmal spielen",
+      home: "Zurück zum Start",
+    },
+    share: {
+      title: "Sapiro · Tägliche Herausforderung {{date}} · {{score}}/{{total}}",
+      beatMe: "Schaffst du mehr?",
+      button: "Freund herausfordern",
+      copied: "Kopiert – füg es ein, wo du willst",
+      failed: "Link konnte nicht kopiert werden",
+      bannerToday: "Du wurdest herausgefordert: {{score}}/{{total}} bei der Täglichen Herausforderung. Schaffst du mehr?",
+      bannerPlay: "Herausforderung annehmen",
+      bannerDone: "Du wurdest herausgefordert: {{score}}/{{total}} bei der Täglichen Herausforderung. Du hast sie heute schon gespielt.",
+      bannerPast: "Diese Herausforderung ist vorbei ({{score}}/{{total}}). Die von heute wartet auf dich.",
+      won: "Herausforderung gewonnen: {{score}}/{{total}} geschlagen",
+      tied: "Unentschieden: {{score}}/{{total}} auf beiden Seiten",
+      lost: "Herausforderung verloren: {{score}}/{{total}} war zu schlagen",
+    },
+    profile: {
+      title: "Mein Profil",
+      anonymous: "Fortschritt auf diesem Gerät gespeichert",
+      accuracy: "Trefferquote",
+      manage: "Mein Abo verwalten",
+      manageUnavailable:
+        "Die Verwaltung ist von hier aus nicht erreichbar. Wenn du das Abo in der mobilen App abgeschlossen hast, kündigst du es im App Store oder bei Google Play.",
+      bestSurvival: "Bester Rekord",
+      streak: "Serie",
+      pathBlocks: "Route",
+    },
+    path: {
+      cleared: "{{done}}/{{total}}",
+      status: {
+        done: "geschafft",
+        current: "jetzt spielen",
+        open: "verfügbar",
+        closed: "noch freizuschalten",
+        locked: "gesperrt",
+      },
+    },
+    account: {
+      close: "Schließen",
+      title: "Mein Konto",
+      synced: "Dein Fortschritt ist gesichert und mit deinem Konto in der mobilen App verbunden.",
+      signOut: "Abmelden",
+      saveTitle: "Sichere deinen Fortschritt",
+      forgotTitle: "Passwort vergessen",
+      forgotSub: "Wir schicken dir einen Link, um ein neues Passwort festzulegen.",
+      saveSub: "Mit einem Konto findest du deinen Fortschritt auf dem Handy wieder – und umgekehrt.",
+      google: "Mit Google fortfahren",
+      googleRedirect: "Weiterleitung zu Google …",
+      or: "oder",
+      email: "E-Mail-Adresse",
+      password: "Passwort",
+      forgotSent: "Falls es ein Konto gibt, ist der Link unterwegs. Schau auch im Spam-Ordner nach.",
+      wait: "Einen Moment …",
+      signUp: "Mein Konto erstellen",
+      signIn: "Anmelden",
+      sendLink: "Link senden",
+      signUpLink: "Konto erstellen",
+      signInLink: "Ich habe schon ein Konto",
+      forgotLink: "Passwort vergessen",
+      errorExists: "Zu dieser Adresse gibt es schon ein Konto. Melde dich lieber an.",
+      errorCredentials: "E-Mail-Adresse oder Passwort falsch.",
+      errorPassword: "Das Passwort muss mindestens 6 Zeichen lang sein.",
+      errorRateLimit: "Zu viele Versuche. Probier es in ein paar Minuten noch einmal.",
+      deleteLink: "Mein Konto löschen",
+      deleteTitle: "Konto löschen?",
+      deleteWarn:
+        "Das ist endgültig. Dein Konto, dein Nutzername, dein Fortschritt, deine Duelle und deine Trophäen werden gelöscht, hier und in der mobilen App.",
+      deleteSub:
+        "Ein laufendes Sapiro+-Abo wird durch das Löschen nicht gekündigt: Kündige es zuerst dort, wo du es abgeschlossen hast.",
+      deleteConfirm: "Endgültig löschen",
+      deleteCancel: "Abbrechen",
+      deleteDone: "Dein Konto wurde gelöscht.",
+      deleteNeedSignIn:
+        "Melde dich an, um dein Konto zu löschen. Klappt nicht? Schreib an bonjour@agencedebord.com.",
+    },
+    reset: {
+      title: "Neues Passwort",
+      sub: "Wähle ein neues Passwort für diese Adresse.",
+      newPassword: "Neues Passwort",
+      submit: "Passwort ändern",
+      done: "Passwort geändert. Du bist angemeldet.",
+      invalid:
+        "Dieser Link ist abgelaufen oder wurde schon benutzt. Fordere über „Passwort vergessen“ einen neuen an.",
+    },
+    paywall: {
+      title: "Werde unschlagbar, ohne Limit",
+      titleTrial: "{{days}} Tage gratis, dann entscheidest du",
+      sub: "Dein Abo gilt auch in der mobilen App, mit demselben Konto.",
+      proof: "2.000+ geprüfte Fragen",
+      f1: "Unbegrenzt spielen, jeden Tag",
+      f2: "Rekord-Runde fortsetzen",
+      f3: "Weiterhin ohne Werbung, ohne Datenhandel",
+      loading: "Angebote werden geladen …",
+      unavailable:
+        "Das Online-Abo ist noch nicht verfügbar. Bis dahin kannst du in der mobilen App schon unbegrenzt spielen.",
+      yearly: "Jährlich",
+      monthly: "Monatlich",
+      popular: "Beliebt",
+      trialThen: "{{days}} Tage gratis, dann {{price}}",
+      anchor: "also {{perMonth}}/Monat · −{{percent}} %",
+      cta: "Weiter",
+      ctaTrial: "Meine {{days}} Tage starten",
+      thenPrice: "dann {{price}}",
+      wait: "Einen Moment …",
+      noThanks: "Nein danke",
+      alreadySubscribed: "Ich habe schon ein Abo",
+      legal:
+        "Das Abo verlängert sich automatisch und ist jederzeit in deinem Konto kündbar. Sichere Zahlung über Stripe.",
+      successTitle: "Willkommen bei Sapiro Pro!",
+      successSub:
+        "Dein Abo ist hier und in der mobilen App aktiv: Installiere sie und melde dich mit demselben Konto an.",
+      successSubNoAccount:
+        "Letzter Schritt: Erstelle dein Konto, um dein Abo in der mobilen App zu nutzen – und es zu behalten, wenn du das Gerät wechselst.",
+      successAccount: "Mein Konto erstellen",
+      successIos: "Laden im App Store",
+      successAndroid: "Jetzt bei Google Play",
+      successContinue: "Hier weiterspielen",
+      phoneQr: "Oder scannen und gratis auf dem Handy spielen",
+    },
+    resultApp: {
+      title: "Sapiro gibt es auch als App",
+      sub: "Gratis, mit Runden jeden Tag und der Täglichen Herausforderung.",
+      cta: "Installieren",
+      scan: "Gratis. Scanne mit deinem Handy, um sie zu installieren.",
+    },
+    handoff: {
+      title: "Spiel gratis in der App weiter",
+      sub: "Du hast deine Runden für heute hier gespielt. In der App bekommst du jeden Tag gratis Runden, dazu die Tägliche Herausforderung.",
+      ctaIos: "Weiter im App Store",
+      ctaAndroid: "Weiter bei Google Play",
+      subscribeHere: "Oder hier unbegrenzt spielen",
+      later: "Später",
+      subDesktop:
+        "Du hast deine Runden für heute gespielt. In der App bekommst du jeden Tag gratis Runden, dazu die Tägliche Herausforderung.",
+      scan: "Scanne mit deinem Handy, um sie zu installieren",
     },
   },
 };
