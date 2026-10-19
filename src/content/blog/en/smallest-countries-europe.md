@@ -17,42 +17,62 @@ readingTime: 5
 The smallest country in Europe is Vatican City, at just 0.49 km². Europe packs an unusual number of tiny states: four of the ten smallest countries in the world are here. Below is the ranking of the 10 smallest European countries by area, from the Vatican to Montenegro.
 
 ## 1. Vatican City (0.49 km²)
+<img class="flag-badge" src="/flags/countries/va.svg" alt="Flag of Vatican City" loading="lazy" />
+
 
 The smallest country in Europe and in the world. Around 800 residents, enclaved within Rome, ruled by the Pope. An elective theocracy with its own post office and the Swiss Guard for an army.
 
 ## 2. Monaco (2.02 km²)
+<img class="flag-badge" src="/flags/countries/mc.svg" alt="Flag of Monaco" loading="lazy" />
+
 
 A Mediterranean principality of roughly 36,000 people, ruled by the Grimaldi family since 1297. The most densely populated country on Earth, famous for its Formula 1 Grand Prix and the Monte-Carlo casino.
 
 ## 3. San Marino (61 km²)
+<img class="flag-badge" src="/flags/countries/sm.svg" alt="Flag of San Marino" loading="lazy" />
+
 
 Landlocked inside Italy, San Marino claims to be the world's oldest surviving republic, founded in 301. About 34,000 inhabitants perched around Monte Titano.
 
 ## 4. Liechtenstein (160 km²)
+<img class="flag-badge" src="/flags/countries/li.svg" alt="Flag of Liechtenstein" loading="lazy" />
+
 
 A doubly landlocked Alpine principality between Switzerland and Austria, with around 39,000 people. Wealthy, German-speaking, and one of the world's leading exporters of false teeth.
 
 ## 5. Malta (316 km²)
+<img class="flag-badge" src="/flags/countries/mt.svg" alt="Flag of Malta" loading="lazy" />
+
 
 An archipelago south of Sicily and the smallest member state of the European Union. Around 540,000 people and a history running from the Knights of St John to British rule.
 
 ## 6. Andorra (468 km²)
+<img class="flag-badge" src="/flags/countries/ad.svg" alt="Flag of Andorra" loading="lazy" />
+
 
 A Pyrenean co-principality between France and Spain, jointly headed by the French president and the Bishop of Urgell. Roughly 80,000 residents, no airport, and a tourism-and-shopping economy.
 
 ## 7. Luxembourg (2,586 km²)
+<img class="flag-badge" src="/flags/countries/lu.svg" alt="Flag of Luxembourg" loading="lazy" />
+
 
 A landlocked grand duchy and one of the founding members of the European Union. Around 660,000 people, three official languages, and one of the highest GDP-per-capita figures in the world.
 
 ## 8. Cyprus (9,251 km²)
+<img class="flag-badge" src="/flags/countries/cy.svg" alt="Flag of Cyprus" loading="lazy" />
+
 
 An eastern Mediterranean island, an EU member since 2004, divided since 1974 between the Republic of Cyprus and the self-declared north. About 1.2 million inhabitants.
 
 ## 9. Kosovo (10,887 km²)
+<img class="flag-badge" src="/flags/countries/xk.svg" alt="Flag of Kosovo" loading="lazy" />
+
 
 Europe's youngest country, having declared independence from Serbia in 2008. Around 1.8 million people; its statehood is recognised by many countries but not all.
 
 ## 10. Montenegro (13,812 km²)
+<img class="flag-badge" src="/flags/countries/me.svg" alt="Flag of Montenegro" loading="lazy" />
+
 
 A mountainous Adriatic country of roughly 620,000 people, independent from Serbia since 2006 and a candidate for European Union membership.
 

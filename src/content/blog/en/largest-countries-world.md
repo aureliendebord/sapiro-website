@@ -17,42 +17,62 @@ readingTime: 5
 The largest country in the world is Russia, at about 17.1 million km², nearly double the size of second-placed Canada. On its own it covers more than a tenth of the planet's land and spans 11 time zones. Here is the ranking of the ten largest countries, with a disputed third place.
 
 ## 1. Russia (17,098,242 km²)
+<img class="flag-badge" src="/flags/countries/ru.svg" alt="Flag of Russia" loading="lazy" />
+
 
 Thirty-one times the size of France. Russia stretches from the Kaliningrad exclave on the Baltic to the Bering Strait, facing Alaska. Most of its territory is sparsely populated: Siberia holds three quarters of the area but less than a quarter of the inhabitants.
 
 ## 2. Canada (9,984,670 km²)
+<img class="flag-badge" src="/flags/countries/ca.svg" alt="Flag of Canada" loading="lazy" />
+
 
 The largest country in the Americas owes part of its rank to fresh water: lakes and rivers cover close to 9% of its territory, a world record. Its border with the United States, 8,891 km long, is the longest land border in the world.
 
 ## 3. United States (9,833,517 km²)
+<img class="flag-badge" src="/flags/countries/us.svg" alt="Flag of United States" loading="lazy" />
+
 
 Third place is the disputed spot of this ranking. By total area, waters included, the United States edges out China thanks to the Great Lakes and its coastal waters. By land area alone, China wins. Both readings are defensible, and atlases split between the two.
 
 ## 4. China (9,596,960 km²)
+<img class="flag-badge" src="/flags/countries/cn.svg" alt="Flag of China" loading="lazy" />
+
 
 Third by land area, fourth by total area. China shares borders with 14 countries, a record it holds jointly with Russia. Its territory runs from the Himalayan peaks to the Pacific coastal plains.
 
 ## 5. Brazil (8,515,767 km²)
+<img class="flag-badge" src="/flags/countries/br.svg" alt="Flag of Brazil" loading="lazy" />
+
 
 The giant of the southern hemisphere occupies nearly half of South America and touches every country on the continent except Chile and Ecuador. The Brazilian Amazon alone accounts for about 60% of the world's largest rainforest.
 
 ## 6. Australia (7,741,220 km²)
+<img class="flag-badge" src="/flags/countries/au.svg" alt="Flag of Australia" loading="lazy" />
+
 
 The only country that is also a continent. Most of the population lives on the east and south coasts; the interior, the outback, remains one of the least densely populated areas on Earth.
 
 ## 7. India (3,287,263 km²)
+<img class="flag-badge" src="/flags/countries/in.svg" alt="Flag of India" loading="lazy" />
+
 
 Less than half the size of Australia, India has nonetheless been the world's most populous country since 2023. No other territory in this ranking packs so many inhabitants into so little space.
 
 ## 8. Argentina (2,780,400 km²)
+<img class="flag-badge" src="/flags/countries/ar.svg" alt="Flag of Argentina" loading="lazy" />
+
 
 South America's second country stretches 3,700 km from the subtropical north to Tierra del Fuego. That span in latitude gives it nearly every climate on Earth.
 
 ## 9. Kazakhstan (2,724,900 km²)
+<img class="flag-badge" src="/flags/countries/kz.svg" alt="Flag of Kazakhstan" loading="lazy" />
+
 
 The largest landlocked country in the world, if you set aside the Caspian, which is a lake. It logically tops our article on [landlocked countries](/en/blog/landlocked-countries/).
 
 ## 10. Algeria (2,381,741 km²)
+<img class="flag-badge" src="/flags/countries/dz.svg" alt="Flag of Algeria" loading="lazy" />
+
 
 The largest country in Africa since 2011: the partition of Sudan, previously first, moved it to the top of the continent. More than 80% of its territory is covered by the Sahara.
 

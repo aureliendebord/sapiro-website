@@ -25,14 +25,20 @@ Le plus vieux pays du monde est Saint-Marin si l'on cherche l'État encore exist
 | Plus ancienne monarchie continue | Japon | ~660 av. J.-C. (traditionnel) |
 
 ## Saint-Marin, la doyenne des républiques
+<img class="flag-badge" src="/flags/countries/sm.svg" alt="Drapeau : Saint-Marin" loading="lazy" />
+
 
 Selon la tradition, le tailleur de pierre Marin fonde la communauté le 3 septembre 301 pour fuir les persécutions romaines. La république n'a jamais été durablement conquise ni absorbée depuis : ses statuts de 1600 comptent parmi les plus anciens textes constitutionnels encore en vigueur. Napoléon lui-même a préféré la laisser en paix. C'est l'État souverain continu le plus ancien du monde, et il figure aussi parmi les [plus petits pays du monde](/blog/plus-petits-pays-monde/).
 
 ## L'Égypte, le plus vieil État de l'histoire
+<img class="flag-badge" src="/flags/countries/eg.svg" alt="Drapeau : Égypte" loading="lazy" />
+
 
 Vers 3100 av. J.-C., le roi Narmer unifie la Haute et la Basse-Égypte : c'est la plus ancienne construction étatique documentée, avec administration, impôts et frontières. L'Égypte moderne n'est évidemment pas ce royaume-là, entre conquêtes perses, grecques, romaines, arabes, ottomanes et britanniques. Mais aucun autre territoire ne peut revendiquer cinq millénaires d'existence étatique quasi ininterrompue sur les mêmes rives.
 
 ## Le Japon, la plus vieille monarchie
+<img class="flag-badge" src="/flags/countries/jp.svg" alt="Drapeau : Japon" loading="lazy" />
+
 
 La tradition fait remonter la fondation de l'empire à l'an 660 av. J.-C. avec l'empereur Jimmu. Les historiens datent plutôt les premiers souverains attestés vers le Ve siècle de notre ère, ce qui suffit à faire de la dynastie impériale japonaise la plus ancienne lignée régnante continue du monde : l'empereur actuel en est, selon le décompte traditionnel, le 126e.
 

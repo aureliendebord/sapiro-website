@@ -17,14 +17,20 @@ readingTime: 6
 About ten territories function today as states (a government, a currency, sometimes an army) without a seat at the UN. International recognition among them is very uneven: around a hundred countries for some, a single one or none for others. The ten cases below set out where each one stands.
 
 ## 1. Taiwan (recognized by about a dozen states)
+<img class="flag-badge" src="/flags/countries/tw.svg" alt="Flag of Taiwan" loading="lazy" />
+
 
 Around 23 million inhabitants, its own government since 1949, a currency and an army. Taiwan is recognized by only about a dozen UN member states. China considers it one of its provinces.
 
 ## 2. Kosovo (recognized by about a hundred countries)
+<img class="flag-badge" src="/flags/countries/xk.svg" alt="Flag of Kosovo" loading="lazy" />
+
 
 Kosovo declared independence from Serbia in 2008. Around a hundred countries recognize it, but it is not a UN member. Serbia still considers it part of its territory.
 
 ## 3. Palestine (UN observer state)
+<img class="flag-badge" src="/flags/countries/ps.svg" alt="Flag of Palestine" loading="lazy" />
+
 
 Palestine has been a non-member observer state at the UN since 2012. Around 150 countries recognize it as a state. Its borders and final status remain the subject of unresolved negotiations.
 

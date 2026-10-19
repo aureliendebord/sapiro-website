@@ -17,14 +17,20 @@ readingTime: 6
 Rund zehn Gebiete funktionieren heute wie Staaten (mit Regierung, Währung, teils sogar Armee), haben aber keinen Sitz in den Vereinten Nationen. Ihre internationale Anerkennung ist sehr unterschiedlich: Manche werden von rund hundert Ländern anerkannt, andere von einem einzigen oder von gar keinem. Die zehn Fälle unten zeigen, wo jedes dieser Gebiete steht.
 
 ## 1. Taiwan (von etwa einem Dutzend Staaten anerkannt)
+<img class="flag-badge" src="/flags/countries/tw.svg" alt="Flagge: Taiwan" loading="lazy" />
+
 
 Rund 23 Millionen Einwohner, eine eigene Regierung seit 1949, eine Währung und eine Armee. Trotzdem wird Taiwan nur von etwa einem Dutzend UN-Mitgliedstaaten anerkannt. China betrachtet es als eine seiner Provinzen.
 
 ## 2. Kosovo (von rund hundert Ländern anerkannt)
+<img class="flag-badge" src="/flags/countries/xk.svg" alt="Flagge: Kosovo" loading="lazy" />
+
 
 Der Kosovo erklärte 2008 seine Unabhängigkeit von Serbien. Rund hundert Länder erkennen ihn an, Mitglied der UN ist er aber nicht. Serbien betrachtet ihn weiterhin als Teil seines Staatsgebiets.
 
 ## 3. Palästina (Beobachterstaat bei der UN)
+<img class="flag-badge" src="/flags/countries/ps.svg" alt="Flagge: Palästina" loading="lazy" />
+
 
 Palästina ist seit 2012 Beobachterstaat ohne Mitgliedschaft bei den Vereinten Nationen. Rund 150 Länder erkennen es als Staat an. Seine Grenzen und sein endgültiger Status sind weiterhin Gegenstand ungelöster Verhandlungen.
 

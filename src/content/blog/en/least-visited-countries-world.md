@@ -17,6 +17,8 @@ readingTime: 6
 The least visited countries in the world sometimes receive fewer than 5,000 tourists a year. Here is the ranking of the most confidential destinations with their reasons.
 
 ## 1. Tuvalu (3,700 tourists per year)
+<img class="flag-badge" src="/flags/countries/tv.svg" alt="Flag of Tuvalu" loading="lazy" />
+
 
 The least visited country in the world. [Fourth smallest country by area](https://en.wikipedia.org/wiki/Tuvalu) (26 km²). Nine atolls in the Pacific. Population: 11,000.
 
@@ -25,6 +27,8 @@ The least visited country in the world. [Fourth smallest country by area](https:
 **What to see.** The only airport doubles as a football pitch in the evening. Unique Pacific atmosphere.
 
 ## 2. Kiribati (6,000 tourists per year)
+<img class="flag-badge" src="/flags/countries/ki.svg" alt="Flag of Kiribati" loading="lazy" />
+
 
 33 atolls and islands in the Pacific. Straddling the equator and the date line.
 
@@ -33,12 +37,16 @@ The least visited country in the world. [Fourth smallest country by area](https:
 **What to see.** First country to see the sun every morning. Exceptional diving spots.
 
 ## 3. Marshall Islands (6,100 tourists per year)
+<img class="flag-badge" src="/flags/countries/mh.svg" alt="Flag of Marshall Islands" loading="lazy" />
+
 
 29 atolls and 5 isolated islands in the Pacific. Population: 60,000.
 
 **Why so few?** Very isolated, US nuclear testing legacy, limited infrastructure.
 
 ## 4. Sao Tome and Principe (8,000 tourists per year)
+<img class="flag-badge" src="/flags/countries/st.svg" alt="Flag of Sao Tome and Principe" loading="lazy" />
+
 
 Two islands off the coast of Gabon in Africa. Lusophone country.
 
@@ -47,12 +55,16 @@ Two islands off the coast of Gabon in Africa. Lusophone country.
 **What to see.** Exceptional beaches, cocoa plantations, tropical biodiversity.
 
 ## 5. Comoros (24,000 tourists per year)
+<img class="flag-badge" src="/flags/countries/km.svg" alt="Flag of Comoros" loading="lazy" />
+
 
 Archipelago between East Africa and Madagascar.
 
 **Why so few?** Past political instability, limited infrastructure.
 
 ## 6. Turkmenistan (8,000-12,000 tourists per year)
+<img class="flag-badge" src="/flags/countries/tm.svg" alt="Flag of Turkmenistan" loading="lazy" />
+
 
 Central Asian republic, former USSR. Closed regime.
 
@@ -61,28 +73,38 @@ Central Asian republic, former USSR. Closed regime.
 **What to see.** Ashgabat with its white marble buildings, the ["Darvaza Crater"](https://en.wikipedia.org/wiki/Darvaza_gas_crater) (gas pit burning for 50 years).
 
 ## 7. Bhutan (270,000 tourists per year before Covid, much less after)
+<img class="flag-badge" src="/flags/countries/bt.svg" alt="Flag of Bhutan" loading="lazy" />
+
 
 Himalayan kingdom between India and China. Limited tourism policy with the "Sustainable Development Fee" ($200/day).
 
 **What to see.** Himalayan monasteries, including the famous Tiger's Nest.
 
 ## 8. Nauru (200 tourists per year)
+<img class="flag-badge" src="/flags/countries/nr.svg" alt="Flag of Nauru" loading="lazy" />
+
 
 The smallest island country in the world (21 km²) and least populated after the Vatican.
 
 **Why so few?** Rare flights, few attractions, country largely destroyed by past phosphate mining.
 
 ## 9. Liechtenstein (90,000 tourists per year)
+<img class="flag-badge" src="/flags/countries/li.svg" alt="Flag of Liechtenstein" loading="lazy" />
+
 
 Microstate between Switzerland and Austria. 160 km².
 
 **Why few despite European proximity?** Small, many come just for a day from Switzerland without counting as a "visit."
 
 ## 10. Eritrea (87,000 tourists per year)
+<img class="flag-badge" src="/flags/countries/er.svg" alt="Flag of Eritrea" loading="lazy" />
+
 
 On the Horn of Africa. Authoritarian regime that heavily restricts tourism.
 
 ## 11. Algeria (3.5 million, but few for its size)
+<img class="flag-badge" src="/flags/countries/dz.svg" alt="Flag of Algeria" loading="lazy" />
+
 
 The largest country in Africa. Limited tourism policy until recently.
 

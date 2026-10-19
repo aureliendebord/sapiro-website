@@ -30,42 +30,62 @@ quiz:
 El país más joven del mundo es Sudán del Sur, independiente desde el 9 de julio de 2011. El mapa político siguió cambiando mucho después del final de la Guerra Fría. Desde 1990 han aparecido decenas de Estados, casi siempre mediante un referéndum o tras la ruptura de una federación. El ranking que sigue empieza por el más reciente.
 
 ## 1. Sudán del Sur (2011)
+<img class="flag-badge" src="/flags/countries/ss.svg" alt="Bandera de Sudán del Sur" loading="lazy" />
+
 
 Independiente de Sudán tras un referéndum aprobado por casi el 99 % de los votos. Se convirtió en el 193.º Estado miembro de la ONU. Su nacimiento puso fin a décadas de guerra civil entre el norte y el sur de Sudán.
 
 ## 2. Kosovo (2008)
+<img class="flag-badge" src="/flags/countries/xk.svg" alt="Bandera de Kosovo" loading="lazy" />
+
 
 Declaró su independencia de Serbia en febrero de 2008. Está reconocido por un centenar de países, pero no es miembro de la ONU. Serbia y varias grandes potencias, entre ellas Rusia y China, no lo reconocen.
 
 ## 3. Montenegro (2006)
+<img class="flag-badge" src="/flags/countries/me.svg" alt="Bandera de Montenegro" loading="lazy" />
+
 
 Se separó pacíficamente de Serbia tras un referéndum ganado con alrededor del 55,5 % de los votos. Este pequeño país balcánico, abierto al Adriático, ingresó en la ONU el mismo año.
 
 ## 4. Serbia (2006)
+<img class="flag-badge" src="/flags/countries/rs.svg" alt="Bandera de Serbia" loading="lazy" />
+
 
 Técnicamente un nuevo Estado: Serbia se convirtió en país independiente con la disolución de la unión de Serbia y Montenegro. Sin embargo, se la considera el Estado continuador de esa unión.
 
 ## 5. Timor Oriental (2002)
+<img class="flag-badge" src="/flags/countries/tl.svg" alt="Bandera de Timor Oriental" loading="lazy" />
+
 
 Antigua colonia portuguesa, el territorio pasó por la ocupación indonesia y después por una administración transitoria de la ONU que condujo a la independencia. Es uno de los países más jóvenes de Asia.
 
 ## 6. Palaos (1994)
+<img class="flag-badge" src="/flags/countries/pw.svg" alt="Bandera de Palaos" loading="lazy" />
+
 
 Este archipiélago del Pacífico de unos 18 000 habitantes se independizó al terminar la tutela estadounidense. Sigue vinculado a Estados Unidos por un acuerdo de libre asociación.
 
 ## 7. Eritrea (1993)
+<img class="flag-badge" src="/flags/countries/er.svg" alt="Bandera de Eritrea" loading="lazy" />
+
 
 Tras tres décadas de guerra de independencia, Eritrea se separó de Etiopía. El referéndum de 1993 fue aprobado de forma casi unánime.
 
 ## 8. Chequia (1993)
+<img class="flag-badge" src="/flags/countries/cz.svg" alt="Bandera de Chequia" loading="lazy" />
+
 
 Nació del «divorcio de terciopelo»: Checoslovaquia se dividió en dos Estados el 1 de enero de 1993, sin un solo disparo. Chequia conservó la bandera checoslovaca.
 
 ## 9. Eslovaquia (1993)
+<img class="flag-badge" src="/flags/countries/sk.svg" alt="Bandera de Eslovaquia" loading="lazy" />
+
 
 La otra mitad del divorcio de terciopelo, independiente el mismo día que Chequia. Adoptó una nueva bandera e ingresó en la ONU unas semanas después.
 
 ## 10. Bosnia y Herzegovina (1992)
+<img class="flag-badge" src="/flags/countries/ba.svg" alt="Bandera de Bosnia y Herzegovina" loading="lazy" />
+
 
 El país se independizó durante la desintegración de Yugoslavia, tras un referéndum en 1992. Le siguió una guerra que duró hasta los acuerdos de Dayton en 1995.
 

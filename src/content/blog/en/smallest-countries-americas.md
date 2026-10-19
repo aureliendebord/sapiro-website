@@ -17,42 +17,62 @@ readingTime: 5
 The smallest country in the Americas is Saint Kitts and Nevis, at about 261 km², roughly the size of Edinburgh. The ranking has one striking feature: the ten smallest countries of the American continent are all Caribbean islands. On the mainland, the smallest is El Salvador. Here is the full ranking.
 
 ## 1. Saint Kitts and Nevis (261 km²)
+<img class="flag-badge" src="/flags/countries/kn.svg" alt="Flag of Saint Kitts and Nevis" loading="lazy" />
+
 
 Two volcanic islands and about 47,000 inhabitants: it is also the smallest country in the entire Western Hemisphere, and the eighth smallest in the world. Independent from the United Kingdom since 1983, it lives off tourism and one of the world's oldest citizenship-by-investment programs.
 
 ## 2. Grenada (344 km²)
+<img class="flag-badge" src="/flags/countries/gd.svg" alt="Flag of Grenada" loading="lazy" />
+
 
 The spice island produces a notable share of the world's nutmeg, which appears on its flag. Grenada has been independent since 1974.
 
 ## 3. Saint Vincent and the Grenadines (389 km²)
+<img class="flag-badge" src="/flags/countries/vc.svg" alt="Flag of Saint Vincent and the Grenadines" loading="lazy" />
+
 
 One main island and some thirty islets, several of them privately owned. La Soufrière, the volcano in the north of Saint Vincent, erupted in 2021 and forced some 20,000 residents to evacuate.
 
 ## 4. Barbados (430 km²)
+<img class="flag-badge" src="/flags/countries/bb.svg" alt="Flag of Barbados" loading="lazy" />
+
 
 The easternmost Caribbean island became a republic in 2021, replacing the Queen with a president while staying in the Commonwealth. It is one of the most densely populated countries in the Americas.
 
 ## 5. Antigua and Barbuda (442 km²)
+<img class="flag-badge" src="/flags/countries/ag.svg" alt="Flag of Antigua and Barbuda" loading="lazy" />
+
 
 The country claims 365 beaches, one for every day of the year. Barbuda, the second island, was almost entirely evacuated after Hurricane Irma in 2017.
 
 ## 6. Saint Lucia (616 km²)
+<img class="flag-badge" src="/flags/countries/lc.svg" alt="Flag of Saint Lucia" loading="lazy" />
+
 
 The island's two volcanic Pitons are a UNESCO World Heritage site. Saint Lucia holds an unusual record: two Nobel Prize winners for about 180,000 inhabitants, the best per-capita ratio in the world.
 
 ## 7. Dominica (751 km²)
+<img class="flag-badge" src="/flags/countries/dm.svg" alt="Flag of Dominica" loading="lazy" />
+
 
 Not to be confused with the Dominican Republic, its far larger neighbor. The Caribbean's nature island counts nine active volcanoes and holds the world's second-largest boiling lake.
 
 ## 8. Trinidad and Tobago (5,128 km²)
+<img class="flag-badge" src="/flags/countries/tt.svg" alt="Flag of Trinidad and Tobago" loading="lazy" />
+
 
 The big jump of the ranking: ten times the size of Dominica. Sitting 11 km off Venezuela, the country lives off oil and gas more than tourism, and invented the steelpan.
 
 ## 9. Jamaica (10,991 km²)
+<img class="flag-badge" src="/flags/countries/jm.svg" alt="Flag of Jamaica" loading="lazy" />
+
 
 The third-largest Caribbean island is still a small country at the continent's scale. Its cultural reach, from reggae to sprinting, far exceeds its size.
 
 ## 10. The Bahamas (13,943 km²)
+<img class="flag-badge" src="/flags/countries/bs.svg" alt="Flag of The Bahamas" loading="lazy" />
+
 
 About 700 islands and islets resting on sandbanks north of the Caribbean, only some thirty of them inhabited. The archipelago closes this ranking a few kilometers off the Florida coast.
 

@@ -17,42 +17,62 @@ readingTime: 5
 Le plus petit pays d'Océanie est Nauru, avec 21 km², soit le cinquième de Paris. C'est aussi la plus petite république du monde et le troisième plus petit État de la planète. L'Océanie ne compte que 14 pays : en classer les dix plus petits revient à citer tout le continent sauf l'Australie, la Papouasie-Nouvelle-Guinée, la Nouvelle-Zélande et les îles Salomon. Voici le classement.
 
 ## 1. Nauru (21 km²)
+<img class="flag-badge" src="/flags/countries/nr.svg" alt="Drapeau : Nauru" loading="lazy" />
+
 
 Une seule île de corail, sans capitale officielle, peuplée d'environ 12 000 habitants. Le phosphate a fait de Nauru l'un des pays les plus riches du monde par habitant dans les années 1970, avant l'épuisement du gisement et l'effondrement de son économie.
 
 ## 2. Tuvalu (26 km²)
+<img class="flag-badge" src="/flags/countries/tv.svg" alt="Drapeau : Tuvalu" loading="lazy" />
+
 
 Neuf atolls dont le point culminant dépasse à peine 4 mètres, ce qui en fait l'un des premiers pays menacés par la montée des eaux. Sa ressource la plus rentable est inattendue : le domaine internet .tv, loué aux plateformes de vidéo du monde entier.
 
 ## 3. Îles Marshall (181 km²)
+<img class="flag-badge" src="/flags/countries/mh.svg" alt="Drapeau : Îles Marshall" loading="lazy" />
+
 
 Environ 1 200 îles et îlots répartis sur 29 atolls. L'atoll de Bikini, dont le nom a inspiré le maillot de bain, a servi de site aux essais nucléaires américains entre 1946 et 1958.
 
 ## 4. Palaos (459 km²)
+<img class="flag-badge" src="/flags/countries/pw.svg" alt="Drapeau : Palaos" loading="lazy" />
+
 
 Exactement la superficie des Seychelles, le plus petit pays d'Afrique. Indépendant depuis 1994, c'est l'un des plus jeunes États du monde, et son lagon sud est classé au patrimoine mondial de l'UNESCO.
 
 ## 5. Micronésie (702 km²)
+<img class="flag-badge" src="/flags/countries/fm.svg" alt="Drapeau : Micronésie" loading="lazy" />
+
 
 Les États fédérés de Micronésie regroupent 607 îles éparpillées sur 2 700 km d'océan, quatre États fédérés et environ 105 000 habitants. La superficie marine du pays est 4 000 fois sa superficie terrestre.
 
 ## 6. Tonga (747 km²)
+<img class="flag-badge" src="/flags/countries/to.svg" alt="Drapeau : Tonga" loading="lazy" />
+
 
 Le dernier royaume du Pacifique, et le seul pays d'Océanie jamais formellement colonisé : il fut protectorat britannique sans perdre sa monarchie. Environ 170 îles, dont une quarantaine habitées.
 
 ## 7. Kiribati (811 km²)
+<img class="flag-badge" src="/flags/countries/ki.svg" alt="Drapeau : Kiribati" loading="lazy" />
+
 
 Le seul pays du monde présent dans les quatre hémisphères : ses 33 atolls chevauchent l'équateur et l'antiméridien. Ses îles de la Ligne vivent en UTC+14, le fuseau horaire le plus avancé de la planète.
 
 ## 8. Samoa (2 842 km²)
+<img class="flag-badge" src="/flags/countries/ws.svg" alt="Drapeau : Samoa" loading="lazy" />
+
 
 L'État polynésien a changé de fuseau horaire en 2011 en supprimant le 30 décembre de son calendrier, pour s'aligner sur ses partenaires australiens et néo-zélandais de l'autre côté de la ligne de changement de date.
 
 ## 9. Vanuatu (12 189 km²)
+<img class="flag-badge" src="/flags/countries/vu.svg" alt="Drapeau : Vanuatu" loading="lazy" />
+
 
 Un archipel de plus de 80 îles volcaniques, ancien condominium franco-britannique où les deux administrations coexistaient jusqu'à l'indépendance de 1980. Le saut du Gol, ancêtre du saut à l'élastique, vient de l'île de Pentecôte.
 
 ## 10. Fidji (18 272 km²)
+<img class="flag-badge" src="/flags/countries/fj.svg" alt="Drapeau : Fidji" loading="lazy" />
+
 
 Environ 330 îles, dont une centaine habitées, et le poids lourd de ce classement avec près de 900 000 habitants. Le premier pays d'Océanie hors de ce top 10, les îles Salomon, ne fait que 1,6 fois leur taille ; ensuite l'écart se creuse, la Nouvelle-Zélande étant quinze fois plus grande.
 

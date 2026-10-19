@@ -17,6 +17,8 @@ readingTime: 6
 Die am wenigsten besuchten Länder der Welt empfangen teils weniger als 5.000 Touristen im Jahr. Hier das Ranking der verschwiegensten Reiseziele, jeweils mit den Gründen.
 
 ## 1. Tuvalu (3.700 Touristen pro Jahr)
+<img class="flag-badge" src="/flags/countries/tv.svg" alt="Flagge: Tuvalu" loading="lazy" />
+
 
 Das am wenigsten besuchte Land der Welt. [Viertkleinstes Land nach Fläche](https://de.wikipedia.org/wiki/Tuvalu) (26 km²). Neun Atolle im Pazifik. Einwohner: 11.000.
 
@@ -25,6 +27,8 @@ Das am wenigsten besuchte Land der Welt. [Viertkleinstes Land nach Fläche](http
 **Was es zu sehen gibt.** Der einzige Flughafen wird abends zum Fußballplatz. Einzigartige Pazifik-Atmosphäre.
 
 ## 2. Kiribati (6.000 Touristen pro Jahr)
+<img class="flag-badge" src="/flags/countries/ki.svg" alt="Flagge: Kiribati" loading="lazy" />
+
 
 33 Atolle und Inseln im Pazifik. Beiderseits des Äquators und der Datumsgrenze.
 
@@ -33,12 +37,16 @@ Das am wenigsten besuchte Land der Welt. [Viertkleinstes Land nach Fläche](http
 **Was es zu sehen gibt.** Das erste Land, das jeden Morgen die Sonne sieht. Außergewöhnliche Tauchspots.
 
 ## 3. Marshallinseln (6.100 Touristen pro Jahr)
+<img class="flag-badge" src="/flags/countries/mh.svg" alt="Flagge: Marshallinseln" loading="lazy" />
+
 
 29 Atolle und 5 einzelne Inseln im Pazifik. Einwohner: 60.000.
 
 **Warum so wenige?** Sehr abgelegen, Erbe der amerikanischen Atomtests, wenig Infrastruktur.
 
 ## 4. São Tomé und Príncipe (8.000 Touristen pro Jahr)
+<img class="flag-badge" src="/flags/countries/st.svg" alt="Flagge: São Tomé und Príncipe" loading="lazy" />
+
 
 Zwei Inseln vor der Küste Gabuns in Afrika. Portugiesischsprachiges Land.
 
@@ -47,12 +55,16 @@ Zwei Inseln vor der Küste Gabuns in Afrika. Portugiesischsprachiges Land.
 **Was es zu sehen gibt.** Traumhafte Strände, Kakaoplantagen, tropische Artenvielfalt.
 
 ## 5. Komoren (24.000 Touristen pro Jahr)
+<img class="flag-badge" src="/flags/countries/km.svg" alt="Flagge: Komoren" loading="lazy" />
+
 
 Archipel zwischen Ostafrika und Madagaskar.
 
 **Warum so wenige?** Politische Instabilität in der Vergangenheit, wenig Infrastruktur.
 
 ## 6. Turkmenistan (8.000–12.000 Touristen pro Jahr)
+<img class="flag-badge" src="/flags/countries/tm.svg" alt="Flagge: Turkmenistan" loading="lazy" />
+
 
 Zentralasiatische Republik, ehemals Teil der UdSSR. Abgeschottetes Regime.
 
@@ -61,28 +73,38 @@ Zentralasiatische Republik, ehemals Teil der UdSSR. Abgeschottetes Regime.
 **Was es zu sehen gibt.** Aşgabat mit seinen Gebäuden aus weißem Marmor, der [„Krater von Darvaza“](https://de.wikipedia.org/wiki/Krater_von_Derweze) (ein Gaskrater, der seit 50 Jahren brennt).
 
 ## 7. Bhutan (270.000 Touristen pro Jahr vor Corona, danach deutlich weniger)
+<img class="flag-badge" src="/flags/countries/bt.svg" alt="Flagge: Bhutan" loading="lazy" />
+
 
 Himalaya-Königreich zwischen Indien und China. Begrenzte Tourismuspolitik mit der „Sustainable Development Fee“ (200 $/Tag).
 
 **Was es zu sehen gibt.** Himalaya-Klöster, darunter das berühmte Tigernest.
 
 ## 8. Nauru (200 Touristen pro Jahr)
+<img class="flag-badge" src="/flags/countries/nr.svg" alt="Flagge: Nauru" loading="lazy" />
+
 
 Der kleinste Inselstaat der Welt (21 km²) und nach dem Vatikan das bevölkerungsärmste Land.
 
 **Warum so wenige?** Seltene Flüge, wenige Sehenswürdigkeiten, ein Land, das der frühere Phosphatabbau weitgehend zerstört hat.
 
 ## 9. Liechtenstein (90.000 Touristen pro Jahr)
+<img class="flag-badge" src="/flags/countries/li.svg" alt="Flagge: Liechtenstein" loading="lazy" />
+
 
 Mikrostaat zwischen der Schweiz und Österreich. 160 km².
 
 **Warum so wenige, obwohl mitten in Europa?** Klein, und viele kommen nur für einen Tag aus der Schweiz, ohne als „Besuch“ gezählt zu werden.
 
 ## 10. Eritrea (87.000 Touristen pro Jahr)
+<img class="flag-badge" src="/flags/countries/er.svg" alt="Flagge: Eritrea" loading="lazy" />
+
 
 Am Horn von Afrika. Autoritäres Regime, das den Tourismus stark einschränkt.
 
 ## 11. Algerien (3,5 Millionen, aber wenig für seine Größe)
+<img class="flag-badge" src="/flags/countries/dz.svg" alt="Flagge: Algerien" loading="lazy" />
+
 
 Das größte Land Afrikas. Bis vor Kurzem sehr zurückhaltende Tourismuspolitik.
 

@@ -17,6 +17,8 @@ readingTime: 6
 Los países menos visitados del mundo reciben a veces menos de 5 000 turistas al año. Aquí va el ranking de los destinos más confidenciales con sus razones.
 
 ## 1. Tuvalu (3 700 turistas al año)
+<img class="flag-badge" src="/flags/countries/tv.svg" alt="Bandera de Tuvalu" loading="lazy" />
+
 
 El país menos visitado del mundo. [Cuarto país más pequeño por superficie](https://es.wikipedia.org/wiki/Tuvalu) (26 km²). Nueve atolones en el Pacífico. Población: 11 000.
 
@@ -25,6 +27,8 @@ El país menos visitado del mundo. [Cuarto país más pequeño por superficie](h
 **Qué ver.** El único aeropuerto sirve de campo de fútbol por la tarde. Ambiente pacífico único.
 
 ## 2. Kiribati (6 000 turistas al año)
+<img class="flag-badge" src="/flags/countries/ki.svg" alt="Bandera de Kiribati" loading="lazy" />
+
 
 33 atolones e islas en el Pacífico. A caballo del ecuador y la línea de cambio de fecha.
 
@@ -33,12 +37,16 @@ El país menos visitado del mundo. [Cuarto país más pequeño por superficie](h
 **Qué ver.** Primer país en ver el sol cada mañana. Sitios de buceo excepcionales.
 
 ## 3. Islas Marshall (6 100 turistas al año)
+<img class="flag-badge" src="/flags/countries/mh.svg" alt="Bandera de Islas Marshall" loading="lazy" />
+
 
 29 atolones y 5 islas aisladas en el Pacífico. Población: 60 000.
 
 **¿Por qué tan pocos?** Muy aislado, legado de pruebas nucleares estadounidenses, infraestructura limitada.
 
 ## 4. Santo Tomé y Príncipe (8 000 turistas al año)
+<img class="flag-badge" src="/flags/countries/st.svg" alt="Bandera de Santo Tomé y Príncipe" loading="lazy" />
+
 
 Dos islas frente a la costa de Gabón en África. País lusófono.
 
@@ -47,12 +55,16 @@ Dos islas frente a la costa de Gabón en África. País lusófono.
 **Qué ver.** Playas excepcionales, plantaciones de cacao, biodiversidad tropical.
 
 ## 5. Comoras (24 000 turistas al año)
+<img class="flag-badge" src="/flags/countries/km.svg" alt="Bandera de Comoras" loading="lazy" />
+
 
 Archipiélago entre el Este de África y Madagascar.
 
 **¿Por qué tan pocos?** Inestabilidad política pasada, infraestructura limitada.
 
 ## 6. Turkmenistán (8 000-12 000 turistas al año)
+<img class="flag-badge" src="/flags/countries/tm.svg" alt="Bandera de Turkmenistán" loading="lazy" />
+
 
 República de Asia Central, ex URSS. Régimen cerrado.
 
@@ -61,28 +73,38 @@ República de Asia Central, ex URSS. Régimen cerrado.
 **Qué ver.** Asjabad con sus edificios de mármol blanco, el ["Cráter de Darvaza"](https://es.wikipedia.org/wiki/Cr%C3%A1ter_de_Darvaza) (pozo de gas ardiendo desde hace 50 años).
 
 ## 7. Bután (270 000 turistas al año antes del Covid, mucho menos después)
+<img class="flag-badge" src="/flags/countries/bt.svg" alt="Bandera de Bután" loading="lazy" />
+
 
 Reino del Himalaya entre India y China. Política de turismo limitado con la "Sustainable Development Fee" (200 dólares/día).
 
 **Qué ver.** Monasterios himalayos, incluido el famoso Nido del Tigre.
 
 ## 8. Nauru (200 turistas al año)
+<img class="flag-badge" src="/flags/countries/nr.svg" alt="Bandera de Nauru" loading="lazy" />
+
 
 El país insular más pequeño del mundo (21 km²) y menos poblado tras el Vaticano.
 
 **¿Por qué tan pocos?** Vuelos escasos, pocas atracciones, país en gran parte destruido por la explotación pasada de fosfato.
 
 ## 9. Liechtenstein (90 000 turistas al año)
+<img class="flag-badge" src="/flags/countries/li.svg" alt="Bandera de Liechtenstein" loading="lazy" />
+
 
 Microestado entre Suiza y Austria. 160 km².
 
 **¿Por qué pocos pese a la proximidad europea?** Pequeño, muchos vienen solo por el día desde Suiza sin contar como "visita".
 
 ## 10. Eritrea (87 000 turistas al año)
+<img class="flag-badge" src="/flags/countries/er.svg" alt="Bandera de Eritrea" loading="lazy" />
+
 
 En el Cuerno de África. Régimen autoritario que restringe mucho el turismo.
 
 ## 11. Argelia (3,5 millones, pero pocos para su tamaño)
+<img class="flag-badge" src="/flags/countries/dz.svg" alt="Bandera de Argelia" loading="lazy" />
+
 
 El país más grande de África. Política turística limitada hasta hace poco.
 

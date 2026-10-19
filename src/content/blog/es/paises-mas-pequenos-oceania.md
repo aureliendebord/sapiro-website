@@ -17,42 +17,62 @@ readingTime: 5
 El país más pequeño de Oceanía es Nauru, con 21 km², la quinta parte de la ciudad de Barcelona. Es también la república más pequeña del mundo y el tercer estado más pequeño del planeta. Oceanía solo tiene 14 países: clasificar los diez más pequeños equivale a citar todo el continente salvo Australia, Papúa Nueva Guinea, Nueva Zelanda y las Islas Salomón. Aquí va el ranking.
 
 ## 1. Nauru (21 km²)
+<img class="flag-badge" src="/flags/countries/nr.svg" alt="Bandera de Nauru" loading="lazy" />
+
 
 Una sola isla de coral, sin capital oficial, con unos 12 000 habitantes. El fosfato hizo de Nauru uno de los países más ricos del mundo por habitante en los años setenta, antes de que el yacimiento se agotara y su economía se hundiera.
 
 ## 2. Tuvalu (26 km²)
+<img class="flag-badge" src="/flags/countries/tv.svg" alt="Bandera de Tuvalu" loading="lazy" />
+
 
 Nueve atolones cuyo punto más alto apenas supera los 4 metros, lo que lo convierte en uno de los primeros países amenazados por la subida del mar. Su recurso más rentable es inesperado: el dominio de internet .tv, alquilado a plataformas de vídeo de todo el mundo.
 
 ## 3. Islas Marshall (181 km²)
+<img class="flag-badge" src="/flags/countries/mh.svg" alt="Bandera de Islas Marshall" loading="lazy" />
+
 
 Unas 1 200 islas e islotes repartidos en 29 atolones. El atolón Bikini, cuyo nombre inspiró el traje de baño, acogió los ensayos nucleares estadounidenses entre 1946 y 1958.
 
 ## 4. Palaos (459 km²)
+<img class="flag-badge" src="/flags/countries/pw.svg" alt="Bandera de Palaos" loading="lazy" />
+
 
 Exactamente la superficie de Seychelles, el país más pequeño de África. Independiente desde 1994, es uno de los estados más jóvenes del mundo, y su laguna sur es patrimonio mundial de la UNESCO.
 
 ## 5. Micronesia (702 km²)
+<img class="flag-badge" src="/flags/countries/fm.svg" alt="Bandera de Micronesia" loading="lazy" />
+
 
 Los Estados Federados de Micronesia reúnen 607 islas dispersas en 2 700 km de océano, cuatro estados federados y unos 105 000 habitantes. La superficie marina del país es 4 000 veces su superficie terrestre.
 
 ## 6. Tonga (747 km²)
+<img class="flag-badge" src="/flags/countries/to.svg" alt="Bandera de Tonga" loading="lazy" />
+
 
 El último reino del Pacífico, y el único país de Oceanía nunca colonizado formalmente: fue protectorado británico sin perder su monarquía. Unas 170 islas, de las que una cuarentena están habitadas.
 
 ## 7. Kiribati (811 km²)
+<img class="flag-badge" src="/flags/countries/ki.svg" alt="Bandera de Kiribati" loading="lazy" />
+
 
 El único país del mundo presente en los cuatro hemisferios: sus 33 atolones cruzan el ecuador y el antimeridiano. Sus islas de la Línea viven en UTC+14, el huso horario más adelantado del planeta.
 
 ## 8. Samoa (2 842 km²)
+<img class="flag-badge" src="/flags/countries/ws.svg" alt="Bandera de Samoa" loading="lazy" />
+
 
 El estado polinesio cambió de huso horario en 2011 borrando el 30 de diciembre de su calendario, para alinearse con sus socios australianos y neozelandeses del otro lado de la línea de cambio de fecha.
 
 ## 9. Vanuatu (12 189 km²)
+<img class="flag-badge" src="/flags/countries/vu.svg" alt="Bandera de Vanuatu" loading="lazy" />
+
 
 Un archipiélago de más de 80 islas volcánicas, antiguo condominio franco-británico donde ambas administraciones coexistieron hasta la independencia de 1980. El salto del Gol, antepasado del puenting, viene de la isla de Pentecostés.
 
 ## 10. Fiyi (18 272 km²)
+<img class="flag-badge" src="/flags/countries/fj.svg" alt="Bandera de Fiyi" loading="lazy" />
+
 
 Unas 330 islas, un centenar habitadas, y el peso pesado de este ranking con cerca de 900 000 habitantes. El primer país de Oceanía fuera de este top 10, las Islas Salomón, solo es 1,6 veces mayor; después la distancia se dispara, con Nueva Zelanda quince veces más grande.
 

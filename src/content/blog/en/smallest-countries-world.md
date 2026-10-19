@@ -30,60 +30,80 @@ quiz:
 The 10 smallest countries in the world all cover less than 320 km², and the two smallest, Vatican City and Monaco, would fit inside Paris (105 km²) dozens of times over. Here is the top 10.
 
 ## 1. Vatican (0.49 km²)
+<img class="flag-badge" src="/flags/countries/va.svg" alt="Flag of Vatican" loading="lazy" />
+
 
 [The smallest country in the world](https://en.wikipedia.org/wiki/Vatican_City). About 800 inhabitants. Elective theocracy ruled by the Pope. Enclaved within Rome.
 
 **Quirks.** Smallest country, but not the densest: about 1,700 inhabitants/km², ten times less than Monaco. Pontifical Swiss Guard as army.
 
 ## 2. Monaco (2.02 km²)
+<img class="flag-badge" src="/flags/countries/mc.svg" alt="Flag of Monaco" loading="lazy" />
+
 
 Mediterranean principality. About 38,000 inhabitants. Constitutional monarchy of the Grimaldi family since 1297.
 
 **Quirks.** Densest country in the world (18,000 inhabitants/km²). No income tax. Formula 1 Grand Prix and Monte-Carlo Casino.
 
 ## 3. Nauru (21 km²)
+<img class="flag-badge" src="/flags/countries/nr.svg" alt="Flag of Nauru" loading="lazy" />
+
 
 Pacific island. 12,000 inhabitants. Smallest island country.
 
 **Quirks.** Former phosphate wealth made it one of the world's richest countries in the 1970s, then total collapse after exhaustion.
 
 ## 4. Tuvalu (26 km²)
+<img class="flag-badge" src="/flags/countries/tv.svg" alt="Flag of Tuvalu" loading="lazy" />
+
 
 Nine atolls in the Pacific. 11,000 inhabitants.
 
 **Quirks.** Country most exposed to sea level rise. The .tv internet domain brings in significant income (sold for millions).
 
 ## 5. San Marino (61 km²)
+<img class="flag-badge" src="/flags/countries/sm.svg" alt="Flag of San Marino" loading="lazy" />
+
 
 Enclaved in Italy. 33,000 inhabitants. One of the oldest republics in the world, [founded in 301](https://en.wikipedia.org/wiki/San_Marino).
 
 **Quirks.** Three medieval fortresses accessible on foot.
 
 ## 6. Liechtenstein (160 km²)
+<img class="flag-badge" src="/flags/countries/li.svg" alt="Flag of Liechtenstein" loading="lazy" />
+
 
 Between Switzerland and Austria. 39,000 inhabitants.
 
 **Quirks.** Constitutional monarchy. Among the richest countries in the world by GDP per capita, alongside Monaco. One of only two doubly landlocked countries, with Uzbekistan.
 
 ## 7. Marshall Islands (181 km²)
+<img class="flag-badge" src="/flags/countries/mh.svg" alt="Flag of Marshall Islands" loading="lazy" />
+
 
 29 atolls in the Pacific. About 42,000 inhabitants. Compact of free association with the US.
 
 **Quirks.** The United States carried out 67 nuclear tests there between 1946 and 1958, including at Bikini Atoll.
 
 ## 8. Saint Kitts and Nevis (261 km²)
+<img class="flag-badge" src="/flags/countries/kn.svg" alt="Flag of Saint Kitts and Nevis" loading="lazy" />
+
 
 Two islands in the Caribbean. About 47,000 inhabitants. Smallest country in the Americas.
 
 **Quirks.** Its citizenship-by-investment programme, launched in 1984, is the oldest in the world.
 
 ## 9. Maldives (298 km²)
+<img class="flag-badge" src="/flags/countries/mv.svg" alt="Flag of Maldives" loading="lazy" />
+
 
 26 atolls in the Indian Ocean. About 520,000 inhabitants.
 
 **Quirks.** The flattest country in the world (maximum elevation 2.4 meters), spread over some 1,190 coral islands, about 200 of them inhabited.
 
 ## 10. Malta (316 km²)
+<img class="flag-badge" src="/flags/countries/mt.svg" alt="Flag of Malta" loading="lazy" />
+
 
 Mediterranean archipelago. About 540,000 inhabitants. EU member.
 

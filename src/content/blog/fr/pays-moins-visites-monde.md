@@ -17,6 +17,8 @@ readingTime: 6
 Les pays les moins visités du monde reçoivent parfois moins de 5 000 touristes par an. Voici le classement des destinations les plus confidentielles avec leurs raisons.
 
 ## 1. Tuvalu (3 700 touristes par an)
+<img class="flag-badge" src="/flags/countries/tv.svg" alt="Drapeau : Tuvalu" loading="lazy" />
+
 
 Le pays le moins visité au monde. [Quatrième plus petit pays](https://fr.wikipedia.org/wiki/Tuvalu) par la superficie (26 km²). Neuf atolls dans le Pacifique. Population : 11 000 habitants.
 
@@ -25,6 +27,8 @@ Le pays le moins visité au monde. [Quatrième plus petit pays](https://fr.wikip
 **À voir.** Le seul aéroport sert de terrain de football le soir. Ambiance pacifique unique.
 
 ## 2. Kiribati (6 000 touristes par an)
+<img class="flag-badge" src="/flags/countries/ki.svg" alt="Drapeau : Kiribati" loading="lazy" />
+
 
 33 atolls et îles dans le Pacifique. À cheval sur l'équateur et la ligne de changement de date.
 
@@ -33,12 +37,16 @@ Le pays le moins visité au monde. [Quatrième plus petit pays](https://fr.wikip
 **À voir.** Premier pays à voir le soleil chaque matin. Spots de plongée exceptionnels.
 
 ## 3. Îles Marshall (6 100 touristes par an)
+<img class="flag-badge" src="/flags/countries/mh.svg" alt="Drapeau : Îles Marshall" loading="lazy" />
+
 
 29 atolls et 5 îles isolées dans le Pacifique. Population : 60 000 habitants.
 
 **Pourquoi si peu ?** Très isolé, héritage de tests nucléaires américains, infrastructures limitées.
 
 ## 4. Sao Tomé-et-Principe (8 000 touristes par an)
+<img class="flag-badge" src="/flags/countries/st.svg" alt="Drapeau : Sao Tomé-et-Principe" loading="lazy" />
+
 
 Deux îles au large du Gabon en Afrique. Pays lusophone.
 
@@ -47,12 +55,16 @@ Deux îles au large du Gabon en Afrique. Pays lusophone.
 **À voir.** Plages exceptionnelles, plantations de cacao, biodiversité tropicale.
 
 ## 5. Comores (24 000 touristes par an)
+<img class="flag-badge" src="/flags/countries/km.svg" alt="Drapeau : Comores" loading="lazy" />
+
 
 Archipel entre l'Afrique de l'Est et Madagascar.
 
 **Pourquoi si peu ?** Instabilité politique passée, infrastructures limitées.
 
 ## 6. Turkménistan (8 000-12 000 touristes par an)
+<img class="flag-badge" src="/flags/countries/tm.svg" alt="Drapeau : Turkménistan" loading="lazy" />
+
 
 République d'Asie centrale, ex-URSS. Régime fermé.
 
@@ -61,28 +73,38 @@ République d'Asie centrale, ex-URSS. Régime fermé.
 **À voir.** Achgabat avec ses bâtiments en marbre blanc, le ["Cratère de Darvaza"](https://fr.wikipedia.org/wiki/Cratère_de_Darvaza) (puits de gaz en feu depuis 50 ans).
 
 ## 7. Bhoutan (270 000 touristes par an avant Covid, beaucoup moins après)
+<img class="flag-badge" src="/flags/countries/bt.svg" alt="Drapeau : Bhoutan" loading="lazy" />
+
 
 Royaume himalayen entre l'Inde et la Chine. Politique de tourisme limité par la "Sustainable Development Fee" (200 dollars/jour).
 
 **À voir.** Monastères himalayens, dont le célèbre Tigre's Nest.
 
 ## 8. Nauru (200 touristes par an)
+<img class="flag-badge" src="/flags/countries/nr.svg" alt="Drapeau : Nauru" loading="lazy" />
+
 
 Le plus petit pays insulaire du monde (21 km²) et le moins peuplé après le Vatican.
 
 **Pourquoi si peu ?** Vols rares, peu d'attractions, pays largement détruit par l'exploitation passée du phosphate.
 
 ## 9. Liechtenstein (90 000 touristes par an)
+<img class="flag-badge" src="/flags/countries/li.svg" alt="Drapeau : Liechtenstein" loading="lazy" />
+
 
 Micro-État entre la Suisse et l'Autriche. 160 km².
 
 **Pourquoi peu malgré sa proximité européenne ?** Petit, beaucoup viennent juste pour la journée depuis la Suisse sans compter comme "visite".
 
 ## 10. Erythrée (87 000 touristes par an)
+<img class="flag-badge" src="/flags/countries/er.svg" alt="Drapeau : Erythrée" loading="lazy" />
+
 
 Sur la Corne de l'Afrique. Régime autoritaire qui restreint fortement le tourisme.
 
 ## 11. Algérie (3,5 millions, mais peu pour sa taille)
+<img class="flag-badge" src="/flags/countries/dz.svg" alt="Drapeau : Algérie" loading="lazy" />
+
 
 Le plus grand pays d'Afrique. Politique touristique limitée jusqu'à récemment.
 

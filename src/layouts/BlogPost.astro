@@ -435,6 +435,17 @@ const breadcrumbSchema = {
     color: inherit;
   }
 
+  /* Drapeau sous le titre d'une entrée de classement (## 1. Vatican). */
+  .article-content :global(.flag-badge) {
+    display: block;
+    height: 56px;
+    width: auto;
+    max-width: 100%;
+    border-radius: 4px;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.12);
+    margin: 4px 0 16px;
+  }
+
   .article-content :global(h2) {
     font-size: 1.75rem;
     margin: 40px 0 16px;

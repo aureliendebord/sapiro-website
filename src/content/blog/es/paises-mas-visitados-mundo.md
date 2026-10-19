@@ -17,44 +17,64 @@ readingTime: 6
 Francia es el país más visitado del mundo, con cerca de 100 millones de turistas internacionales al año, por delante de España y Estados Unidos. Los diez primeros concentran casi la mitad del turismo mundial, y la lista apenas se mueve de un año para otro. Aquí va el ranking, con lo que explica cada puesto.
 
 ## 1. Francia (unos 100 millones de turistas)
+<img class="flag-badge" src="/flags/countries/fr.svg" alt="Bandera de Francia" loading="lazy" />
+
 
 Nadie le ha quitado el primer puesto en más de treinta años. Francia acumula tres ventajas raras: una posición de paso entre el norte y el sur de Europa, una densidad de sitios reconocidos que va de París a la Provenza, y un país lo bastante compacto para cruzarlo en unas horas.
 
 **Un matiz sobre la cifra.** Muchos de esos visitantes solo atraviesan el país camino de España o Italia. Por gasto turístico, Francia queda detrás de Estados Unidos y España.
 
 ## 2. España (unos 85 millones)
+<img class="flag-badge" src="/flags/countries/es.svg" alt="Bandera de España" loading="lazy" />
+
 
 El sol, la costa y una infraestructura hotelera construida durante sesenta años. Baleares y Canarias por sí solas reciben más visitantes que la mayoría de los países de este ranking.
 
 ## 3. Estados Unidos (unos 66 millones)
+<img class="flag-badge" src="/flags/countries/us.svg" alt="Bandera de Estados Unidos" loading="lazy" />
+
 
 Primero del mundo por ingresos turísticos, muy por delante en gasto por visitante. Las distancias y el coste del visado frenan el número de entradas, pero quien va se queda más tiempo y gasta más.
 
 ## 4. Italia (unos 57 millones)
+<img class="flag-badge" src="/flags/countries/it.svg" alt="Bandera de Italia" loading="lazy" />
+
 
 Roma, Venecia, Florencia: pocos países concentran tantas ciudades que son un destino por sí mismas. Italia tiene además el mayor número de sitios del Patrimonio Mundial de la Unesco.
 
 ## 5. Turquía (unos 55 millones)
+<img class="flag-badge" src="/flags/countries/tr.svg" alt="Bandera de Turquía" loading="lazy" />
+
 
 La subida más rápida del ranking. Estambul, la costa del Egeo y una política de precios agresiva han multiplicado las llegadas en veinte años.
 
 ## 6. México (unos 42 millones)
+<img class="flag-badge" src="/flags/countries/mx.svg" alt="Bandera de México" loading="lazy" />
+
 
 Impulsado por la proximidad con Estados Unidos y por Cancún, pero también por un patrimonio prehispánico que atrae a un turismo cultural creciente.
 
 ## 7. Reino Unido (unos 38 millones)
+<img class="flag-badge" src="/flags/countries/gb.svg" alt="Bandera de Reino Unido" loading="lazy" />
+
 
 Londres concentra la mayor parte. La ciudad es una de las tres más visitadas del planeta, junto con París y Bangkok.
 
 ## 8. Alemania (unos 35 millones)
+<img class="flag-badge" src="/flags/countries/de.svg" alt="Bandera de Alemania" loading="lazy" />
+
 
 Caso aparte: buena parte de sus visitantes viene por negocios. Las ferias de Fráncfort, Múnich y Berlín pesan tanto como el turismo de ocio.
 
 ## 9. Grecia (unos 33 millones)
+<img class="flag-badge" src="/flags/countries/gr.svg" alt="Bandera de Grecia" loading="lazy" />
+
 
 Unas 6 000 islas, de las que unas 200 están habitadas. Grecia recibe cada año el triple de turistas que de habitantes, una de las proporciones más altas del mundo.
 
 ## 10. Austria (unos 32 millones)
+<img class="flag-badge" src="/flags/countries/at.svg" alt="Bandera de Austria" loading="lazy" />
+
 
 Los Alpes en invierno, Viena y Salzburgo el resto del año. Con 9 millones de habitantes, Austria es el país del ranking con más visitantes por habitante después de Grecia.
 

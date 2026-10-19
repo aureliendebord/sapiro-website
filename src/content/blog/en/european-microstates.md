@@ -17,26 +17,38 @@ readingTime: 6
 The microstates of Europe are the six smallest sovereign states of the continent: Vatican City, Monaco, San Marino, Liechtenstein, Andorra and Malta. Together they cover less land than a single large city, yet each is fully independent, with its own government, laws and, in most cases, a history stretching back centuries. Here is who they are and how they survive.
 
 ## 1. Vatican City
+<img class="flag-badge" src="/flags/countries/va.svg" alt="Flag of Vatican City" loading="lazy" />
+
 
 The seat of the Catholic Church and the smallest state in the world (0.49 km²). An absolute elective monarchy headed by the Pope, created in its current form by the 1929 Lateran Treaty with Italy. It survives on donations, museum revenue and its unique spiritual role.
 
 ## 2. Monaco
+<img class="flag-badge" src="/flags/countries/mc.svg" alt="Flag of Monaco" loading="lazy" />
+
 
 A Mediterranean principality ruled by the Grimaldi family since 1297. Around 2 km² and 36,000 people. It thrives on tourism, banking and its status as a low-tax haven, protected by a defence agreement with France.
 
 ## 3. San Marino
+<img class="flag-badge" src="/flags/countries/sm.svg" alt="Flag of San Marino" loading="lazy" />
+
 
 The oldest surviving republic in the world, traditionally founded in 301 and enclaved within Italy. About 61 km². It endures thanks to tourism, finance and a long tradition of neutrality that spared it from Italian unification.
 
 ## 4. Liechtenstein
+<img class="flag-badge" src="/flags/countries/li.svg" alt="Flag of Liechtenstein" loading="lazy" />
+
 
 A German-speaking Alpine principality between Switzerland and Austria, around 160 km². Extremely wealthy, it is closely tied to Switzerland through a customs and currency union, and specialises in finance and precision manufacturing.
 
 ## 5. Andorra
+<img class="flag-badge" src="/flags/countries/ad.svg" alt="Flag of Andorra" loading="lazy" />
+
 
 A Pyrenean co-principality jointly headed by the President of France and the Bishop of Urgell in Spain. Around 468 km². Its economy runs on tourism, skiing and duty-free shopping.
 
 ## 6. Malta
+<img class="flag-badge" src="/flags/countries/mt.svg" alt="Flag of Malta" loading="lazy" />
+
 
 The largest of the six (316 km²) and the only one that is a full member of the European Union. An archipelago south of Sicily, independent from Britain since 1964, with an economy built on tourism, shipping and financial services.
 

@@ -17,42 +17,62 @@ readingTime: 5
 Le plus petit pays d'Asie est les Maldives, avec environ 298 km². L'Asie est le plus grand continent, et pourtant elle abrite certaines des plus petites nations du monde : des îles éparses et quelques cités-États. Voici le classement des 10 plus petits pays asiatiques par superficie.
 
 ## 1. Maldives (298 km²)
+<img class="flag-badge" src="/flags/countries/mv.svg" alt="Drapeau : Maldives" loading="lazy" />
+
 
 Archipel d'environ 1 200 îles coralliennes dans l'océan Indien, peuplé d'environ 520 000 habitants. Le pays le plus bas du monde, avec une altitude moyenne d'environ 1,5 mètre.
 
 ## 2. Singapour (735 km²)
+<img class="flag-badge" src="/flags/countries/sg.svg" alt="Drapeau : Singapour" loading="lazy" />
+
 
 Cité-État à la pointe de la péninsule Malaise, avec environ 5,9 millions d'habitants. L'un des grands centres financiers et portuaires du monde, et l'un des pays les plus densément peuplés.
 
 ## 3. Bahreïn (785 km²)
+<img class="flag-badge" src="/flags/countries/bh.svg" alt="Drapeau : Bahreïn" loading="lazy" />
+
 
 Royaume insulaire du golfe Persique, relié à l'Arabie saoudite par une chaussée. Environ 1,5 million d'habitants, une économie de pétrole, de finance et d'aluminium.
 
 ## 4. Brunei (5 765 km²)
+<img class="flag-badge" src="/flags/countries/bn.svg" alt="Drapeau : Brunei" loading="lazy" />
+
 
 Petit sultanat riche en pétrole sur l'île de Bornéo, entouré par la Malaisie. Environ 450 000 habitants et l'un des plus hauts niveaux de vie d'Asie du Sud-Est.
 
 ## 5. Palestine (6 020 km²)
+<img class="flag-badge" src="/flags/countries/ps.svg" alt="Drapeau : Palestine" loading="lazy" />
+
 
 Comprend la Cisjordanie et la bande de Gaza, pour une population combinée d'environ 5 millions d'habitants. Reconnue comme État par une majorité des membres de l'ONU.
 
 ## 6. Chypre (9 251 km²)
+<img class="flag-badge" src="/flags/countries/cy.svg" alt="Drapeau : Chypre" loading="lazy" />
+
 
 Géographiquement en Asie occidentale, cette île de la Méditerranée orientale est membre de l'Union européenne. Environ 1,2 million d'habitants, divisée depuis 1974.
 
 ## 7. Liban (10 452 km²)
+<img class="flag-badge" src="/flags/countries/lb.svg" alt="Drapeau : Liban" loading="lazy" />
+
 
 Pays montagneux de la Méditerranée orientale, environ 5,5 millions d'habitants, à l'histoire de carrefour phénicien, romain, arabe et ottoman.
 
 ## 8. Qatar (11 586 km²)
+<img class="flag-badge" src="/flags/countries/qa.svg" alt="Drapeau : Qatar" loading="lazy" />
+
 
 Péninsule riche en gaz sur le golfe Persique, environ 2,7 millions d'habitants (en majorité des expatriés). Hôte de la Coupe du monde 2022.
 
 ## 9. Timor oriental (14 919 km²)
+<img class="flag-badge" src="/flags/countries/tl.svg" alt="Drapeau : Timor oriental" loading="lazy" />
+
 
 Le Timor-Leste, sur la moitié est de l'île de Timor, indépendant depuis 2002. Environ 1,4 million d'habitants ; l'une des plus jeunes nations d'Asie.
 
 ## 10. Koweït (17 818 km²)
+<img class="flag-badge" src="/flags/countries/kw.svg" alt="Drapeau : Koweït" loading="lazy" />
+
 
 Petit État riche en pétrole à la tête du golfe Persique, environ 4,3 millions d'habitants. Parmi les pays les plus riches par habitant de la région.
 

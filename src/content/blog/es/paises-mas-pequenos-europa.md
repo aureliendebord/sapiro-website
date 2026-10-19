@@ -17,42 +17,62 @@ readingTime: 5
 El país más pequeño de Europa es el Vaticano, con solo 0,49 km². Europa concentra un número inusual de Estados diminutos: cuatro de los diez países más pequeños del mundo están aquí. Este es el ranking de los 10 países europeos más pequeños por superficie, del Vaticano a Montenegro.
 
 ## 1. Vaticano (0,49 km²)
+<img class="flag-badge" src="/flags/countries/va.svg" alt="Bandera de Vaticano" loading="lazy" />
+
 
 El país más pequeño de Europa y del mundo. Unos 800 habitantes, enclavado en Roma, gobernado por el papa. Una teocracia electiva con su propia oficina de correos y la Guardia Suiza como ejército.
 
 ## 2. Mónaco (2,02 km²)
+<img class="flag-badge" src="/flags/countries/mc.svg" alt="Bandera de Mónaco" loading="lazy" />
+
 
 Principado mediterráneo de unos 36 000 habitantes, gobernado por la familia Grimaldi desde 1297. El país más densamente poblado del mundo, famoso por su Gran Premio de Fórmula 1 y el casino de Montecarlo.
 
 ## 3. San Marino (61 km²)
+<img class="flag-badge" src="/flags/countries/sm.svg" alt="Bandera de San Marino" loading="lazy" />
+
 
 Enclavado en Italia, San Marino se presenta como la república más antigua todavía existente, fundada en 301. Unos 34 000 habitantes en torno al monte Titano.
 
 ## 4. Liechtenstein (160 km²)
+<img class="flag-badge" src="/flags/countries/li.svg" alt="Bandera de Liechtenstein" loading="lazy" />
+
 
 Principado alpino doblemente sin salida al mar, entre Suiza y Austria, con unos 39 000 habitantes. Rico, germanohablante y uno de los principales exportadores mundiales de dentaduras postizas.
 
 ## 5. Malta (316 km²)
+<img class="flag-badge" src="/flags/countries/mt.svg" alt="Bandera de Malta" loading="lazy" />
+
 
 Archipiélago al sur de Sicilia y el Estado miembro más pequeño de la Unión Europea. Unos 540 000 habitantes y una historia que va de los Caballeros de San Juan al dominio británico.
 
 ## 6. Andorra (468 km²)
+<img class="flag-badge" src="/flags/countries/ad.svg" alt="Bandera de Andorra" loading="lazy" />
+
 
 Coprincipado pirenaico entre Francia y España, encabezado conjuntamente por el presidente francés y el obispo de Urgel. Unos 80 000 habitantes, sin aeropuerto, con una economía de turismo y comercio.
 
 ## 7. Luxemburgo (2 586 km²)
+<img class="flag-badge" src="/flags/countries/lu.svg" alt="Bandera de Luxemburgo" loading="lazy" />
+
 
 Gran ducado sin salida al mar y uno de los miembros fundadores de la Unión Europea. Unos 660 000 habitantes, tres lenguas oficiales y uno de los PIB per cápita más altos del mundo.
 
 ## 8. Chipre (9 251 km²)
+<img class="flag-badge" src="/flags/countries/cy.svg" alt="Bandera de Chipre" loading="lazy" />
+
 
 Isla del Mediterráneo oriental, miembro de la UE desde 2004, dividida desde 1974 entre la República de Chipre y el norte autoproclamado. Unos 1,2 millones de habitantes.
 
 ## 9. Kosovo (10 887 km²)
+<img class="flag-badge" src="/flags/countries/xk.svg" alt="Bandera de Kosovo" loading="lazy" />
+
 
 El país más joven de Europa, tras declarar su independencia de Serbia en 2008. Unos 1,8 millones de habitantes; su soberanía la reconocen muchos países, pero no todos.
 
 ## 10. Montenegro (13 812 km²)
+<img class="flag-badge" src="/flags/countries/me.svg" alt="Bandera de Montenegro" loading="lazy" />
+
 
 País montañoso del Adriático de unos 620 000 habitantes, independiente de Serbia desde 2006 y candidato a la Unión Europea.
 

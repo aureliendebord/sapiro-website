@@ -30,54 +30,74 @@ quiz:
 Les 10 plus petits pays du monde font tous moins de 320 km², et les deux plus petits, le Vatican et Monaco, tiendraient des dizaines de fois dans Paris (105 km²). Voici le top 10.
 
 ## 1. Vatican (0,49 km²)
+<img class="flag-badge" src="/flags/countries/va.svg" alt="Drapeau : Vatican" loading="lazy" />
+
 
 [Le plus petit pays au monde](https://fr.wikipedia.org/wiki/Vatican). Environ 800 habitants. Théocratie élective dirigée par le Pape. Enclavé dans Rome.
 
 **Particularités.** Pays le plus petit, mais pas le plus dense : environ 1 700 hab/km², dix fois moins que Monaco. Garde suisse pontificale comme armée.
 
 ## 2. Monaco (2,02 km²)
+<img class="flag-badge" src="/flags/countries/mc.svg" alt="Drapeau : Monaco" loading="lazy" />
+
 
 Principauté méditerranéenne. Environ 38 000 habitants. Monarchie constitutionnelle de la famille Grimaldi depuis 1297.
 
 **Particularités.** Pays le plus dense au monde (18 000 hab/km²). Pas d'impôt sur le revenu. Grand Prix de Formule 1 et Casino de Monte-Carlo.
 
 ## 3. Nauru (21 km²)
+<img class="flag-badge" src="/flags/countries/nr.svg" alt="Drapeau : Nauru" loading="lazy" />
+
 
 Île du Pacifique. 12 000 habitants. Plus petit pays insulaire.
 
 **Particularités.** Ancienne richesse phosphate qui a fait du pays l'un des plus riches du monde dans les années 1970, puis effondrement total après épuisement.
 
 ## 4. Tuvalu (26 km²)
+<img class="flag-badge" src="/flags/countries/tv.svg" alt="Drapeau : Tuvalu" loading="lazy" />
+
 
 Neuf atolls dans le Pacifique. 11 000 habitants.
 
 **Particularités.** Pays le plus exposé à la montée des eaux. Domaine internet .tv lui rapporte beaucoup (vendu pour des millions).
 
 ## 5. Saint-Marin (61 km²)
+<img class="flag-badge" src="/flags/countries/sm.svg" alt="Drapeau : Saint-Marin" loading="lazy" />
+
 
 Enclavé dans l'Italie. 33 000 habitants. Une des plus anciennes républiques du monde, [fondée en 301](https://fr.wikipedia.org/wiki/Saint-Marin).
 
 **Particularités.** Trois forteresses médiévales accessibles à pied.
 
 ## 6. Liechtenstein (160 km²)
+<img class="flag-badge" src="/flags/countries/li.svg" alt="Drapeau : Liechtenstein" loading="lazy" />
+
 
 Entre la Suisse et l'Autriche. 39 000 habitants.
 
 **Particularités.** Monarchie constitutionnelle. L'un des pays les plus riches au monde par PIB par habitant, avec Monaco.
 
 ## 7. Îles Marshall (181 km²)
+<img class="flag-badge" src="/flags/countries/mh.svg" alt="Drapeau : Îles Marshall" loading="lazy" />
+
 
 29 atolls dans le Pacifique. Environ 42 000 habitants. Compact d'association libre avec les USA.
 
 ## 8. Saint-Christophe-et-Niévès (261 km²)
+<img class="flag-badge" src="/flags/countries/kn.svg" alt="Drapeau : Saint-Christophe-et-Niévès" loading="lazy" />
+
 
 Deux îles aux Caraïbes. 47 000 habitants. Plus petit pays des Amériques.
 
 ## 9. Maldives (298 km²)
+<img class="flag-badge" src="/flags/countries/mv.svg" alt="Drapeau : Maldives" loading="lazy" />
+
 
 26 atolls dans l'océan Indien. Environ 520 000 habitants. Aussi le pays le plus plat (altitude maximale 2,4 mètres).
 
 ## 10. Malte (316 km²)
+<img class="flag-badge" src="/flags/countries/mt.svg" alt="Drapeau : Malte" loading="lazy" />
+
 
 Archipel méditerranéen. Environ 540 000 habitants. Membre de l'UE.
 

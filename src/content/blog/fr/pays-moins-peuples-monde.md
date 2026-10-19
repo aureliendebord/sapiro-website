@@ -17,42 +17,62 @@ readingTime: 6
 Le pays le moins peuplé du monde est le Vatican, avec environ 800 habitants. Parmi les États membres de l'ONU, le record revient à Tuvalu, avec environ 11 000 habitants. Une douzaine de pays comptent moins de 100 000 habitants : moins que la capacité d'un grand stade de football. Voici le classement, du plus vide au moins vide.
 
 ## 1. Vatican (environ 800 habitants)
+<img class="flag-badge" src="/flags/countries/va.svg" alt="Drapeau : Vatican" loading="lazy" />
+
 
 La cité-État du pape, enclavée dans Rome, ne connaît pour ainsi dire pas de naissances : ses résidents sont des membres du clergé, des gardes suisses et quelques employés laïcs, qui gardent pour la plupart leur nationalité d'origine. La citoyenneté vaticane va avec la fonction et se perd en général quand la fonction prend fin. Le Vatican n'est pas membre de l'ONU, mais observateur permanent.
 
 ## 2. Tuvalu (environ 11 000)
+<img class="flag-badge" src="/flags/countries/tv.svg" alt="Drapeau : Tuvalu" loading="lazy" />
+
 
 Neuf atolls dans le Pacifique, et le membre de l'ONU le moins peuplé. La moitié de la population vit sur Funafuti, l'atoll-capitale. La montée des eaux menace le pays tout entier, dont le point culminant atteint à peine 5 mètres.
 
 ## 3. Nauru (environ 12 000)
+<img class="flag-badge" src="/flags/countries/nr.svg" alt="Drapeau : Nauru" loading="lazy" />
+
 
 Une seule île de 21 km², sans capitale officielle : les bureaux du gouvernement sont installés dans le district de Yaren. L'exploitation du phosphate a fait de Nauru l'un des pays les plus riches par habitant dans les années 1970, avant l'épuisement des gisements.
 
 ## 4. Palaos (environ 18 000)
+<img class="flag-badge" src="/flags/countries/pw.svg" alt="Drapeau : Palaos" loading="lazy" />
+
 
 Un archipel de plus de 300 îles à l'est des Philippines. Les Palaos montrent que population et superficie sont deux classements différents : avec 459 km², elles ne figurent même pas dans le top 15 des plus petits pays par la superficie, et pourtant seuls trois pays sont moins peuplés.
 
 ## 5. Saint-Marin (environ 33 000)
+<img class="flag-badge" src="/flags/countries/sm.svg" alt="Drapeau : Saint-Marin" loading="lazy" />
+
 
 Enclavée dans l'Italie, Saint-Marin revendique le titre de plus ancienne république encore existante, fondée en 301 selon la tradition. Ses habitants se répartissent entre neuf communes, les castelli.
 
 ## 6. Monaco (environ 38 000)
+<img class="flag-badge" src="/flags/countries/mc.svg" alt="Drapeau : Monaco" loading="lazy" />
+
 
 Le pays le plus dense du monde, avec environ 18 000 habitants au km². Les Monégasques sont minoritaires dans leur propre pays : environ un quart de la population, le reste étant des résidents étrangers.
 
 ## 7. Liechtenstein (environ 39 000)
+<img class="flag-badge" src="/flags/countries/li.svg" alt="Drapeau : Liechtenstein" loading="lazy" />
+
 
 Une principauté entre la Suisse et l'Autriche, où environ un tiers des habitants sont de nationalité étrangère. Des milliers de frontaliers y viennent travailler chaque jour : la population active dépasse de loin la population résidente.
 
 ## 8. Îles Marshall (environ 42 000)
+<img class="flag-badge" src="/flags/countries/mh.svg" alt="Drapeau : Îles Marshall" loading="lazy" />
+
 
 29 atolls dans le Pacifique central. La population diminue : un accord de libre association avec les États-Unis permet aux Marshallais d'y vivre et d'y travailler sans visa, et beaucoup partent. Le recensement de 2021 comptait environ 42 000 habitants, contre plus de 50 000 dix ans plus tôt.
 
 ## 9. Saint-Kitts-et-Nevis (environ 47 000)
+<img class="flag-badge" src="/flags/countries/kn.svg" alt="Drapeau : Saint-Kitts-et-Nevis" loading="lazy" />
+
 
 Deux îles des Caraïbes, et le pays le moins peuplé des Amériques, en plus d'être le plus petit par la superficie. Nevis, la plus petite des deux îles, a sa propre assemblée et le droit constitutionnel de faire sécession.
 
 ## 10. Dominique (environ 72 000)
+<img class="flag-badge" src="/flags/countries/dm.svg" alt="Drapeau : Dominique" loading="lazy" />
+
 
 L'« île Nature » des Caraïbes est l'exemple type du grand pays vide à cette échelle : 751 km² de montagnes et de forêt tropicale, plus de dix fois la superficie de Saint-Marin, pour environ deux fois plus d'habitants.
 

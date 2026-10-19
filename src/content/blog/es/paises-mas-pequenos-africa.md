@@ -17,42 +17,62 @@ readingTime: 5
 El país más pequeño de África es Seychelles, con unos 459 km², poco más que la ciudad de Viena. El continente de gigantes como Argelia alberga también una serie de microestados, casi todos insulares. En el continente propiamente dicho, el más pequeño es Gambia. Aquí va el ranking de los diez países africanos más pequeños.
 
 ## 1. Seychelles (459 km²)
+<img class="flag-badge" src="/flags/countries/sc.svg" alt="Bandera de Seychelles" loading="lazy" />
+
 
 Un archipiélago de 115 islas en el océano Índico, con unos 100 000 habitantes, el país menos poblado de África. Su economía se basa en el turismo y la pesca, y su dominio marítimo es enorme: 1,3 millones de km² de zona económica exclusiva, casi 3 000 veces su superficie terrestre.
 
 ## 2. Santo Tomé y Príncipe (964 km²)
+<img class="flag-badge" src="/flags/countries/st.svg" alt="Bandera de Santo Tomé y Príncipe" loading="lazy" />
+
 
 Dos islas volcánicas en el golfo de Guinea, antigua colonia portuguesa independiente desde 1975. Primer productor mundial de cacao a principios del siglo XX, el país aún vive en parte de él.
 
 ## 3. Comoras (1 861 km²)
+<img class="flag-badge" src="/flags/countries/km.svg" alt="Bandera de Comoras" loading="lazy" />
+
 
 Un archipiélago entre Madagascar y Mozambique. La unión reclama una cuarta isla, Mayotte, que siguió siendo francesa tras el referéndum de 1974, uno de los contenciosos territoriales más duraderos del continente.
 
 ## 4. Mauricio (2 040 km²)
+<img class="flag-badge" src="/flags/countries/mu.svg" alt="Bandera de Mauricio" loading="lazy" />
+
 
 Mauricio es una de las economías más desarrolladas de África, impulsada por el turismo, las finanzas y el textil. Fue también el único hogar del dodo, extinguido en el siglo XVII.
 
 ## 5. Cabo Verde (4 033 km²)
+<img class="flag-badge" src="/flags/countries/cv.svg" alt="Bandera de Cabo Verde" loading="lazy" />
+
 
 Diez islas volcánicas frente a las costas de Senegal. Sin recursos naturales destacables, el país apuesta por los servicios y el turismo, y su diáspora supera con creces a su población residente.
 
 ## 6. Gambia (11 295 km²)
+<img class="flag-badge" src="/flags/countries/gm.svg" alt="Bandera de Gambia" loading="lazy" />
+
 
 El país más pequeño del continente africano propiamente dicho. Gambia es una franja de tierra de 25 a 50 km de ancho que sigue el río del mismo nombre, rodeada por Senegal salvo en su corta fachada atlántica.
 
 ## 7. Esuatini (17 364 km²)
+<img class="flag-badge" src="/flags/countries/sz.svg" alt="Bandera de Esuatini" loading="lazy" />
+
 
 La antigua Suazilandia, rebautizada en 2018, es una de las últimas monarquías absolutas del mundo. El reino está encajado entre Sudáfrica y Mozambique.
 
 ## 8. Yibuti (23 200 km²)
+<img class="flag-badge" src="/flags/countries/dj.svg" alt="Bandera de Yibuti" loading="lazy" />
+
 
 Pequeño en tamaño, estratégico en posición: el país custodia el estrecho de Bab el-Mandeb, paso obligado entre el mar Rojo y el océano Índico, y acoge bases militares de varias potencias.
 
 ## 9. Ruanda (26 338 km²)
+<img class="flag-badge" src="/flags/countries/rw.svg" alt="Bandera de Ruanda" loading="lazy" />
+
 
 El país de las mil colinas es uno de los más densamente poblados de África, con unos 14 millones de habitantes en una superficie comparable a Bélgica.
 
 ## 10. Burundi (27 834 km²)
+<img class="flag-badge" src="/flags/countries/bi.svg" alt="Bandera de Burundi" loading="lazy" />
+
 
 Vecino y casi gemelo geográfico de Ruanda, Burundi cierra este ranking. Como él, bordea el lago Tanganica, uno de los más profundos del mundo.
 

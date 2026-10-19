@@ -17,6 +17,8 @@ readingTime: 6
 The largest empire in history is the British Empire, with about 35.5 million km² at its peak around 1920, nearly a quarter of the world's land area. Next come the Mongols, then the Russians, before the gaps start to narrow. Empire sizes from earlier eras are estimates, but historians broadly agree on the orders of magnitude. The ranking below covers the top ten, by maximum land area.
 
 ## 1. British Empire (~35.5 M km², around 1920)
+<img class="flag-badge" src="/flags/empires/british.svg" alt="Flag of British Empire" loading="lazy" />
+
 
 At its peak after the First World War, the British Empire covered about 35.5 million km² and held close to a quarter of the world's land and population. It was known as "the empire on which the sun never sets," since its territories spanned every time zone.
 
@@ -25,6 +27,8 @@ At its peak after the First World War, the British Empire covered about 35.5 mil
 Founded by Genghis Khan, the Mongol Empire reached about 24 million km² in the 13th century. It is the largest contiguous empire in history: its territory ran without interruption from Korea to Hungary.
 
 ## 3. Russian Empire (~22.8 M km², around 1895)
+<img class="flag-badge" src="/flags/empires/russian.svg" alt="Flag of Russian Empire" loading="lazy" />
+
 
 The Russian Empire covered about 22.8 million km² around 1895, from Poland to the Pacific. It even included Alaska, sold to the United States in 1867.
 
@@ -33,14 +37,20 @@ The Russian Empire covered about 22.8 million km² around 1895, from Poland to t
 China's last imperial dynasty reached about 14.7 million km² in the 18th century. Its borders largely match those of modern China.
 
 ## 5. Spanish Empire (~13.7 M km², 18th century)
+<img class="flag-badge" src="/flags/empires/spanish.svg" alt="Flag of Spanish Empire" loading="lazy" />
+
 
 The Spanish Empire covered about 13.7 million km² in the 18th century, from the Americas to the Philippines. It is considered the first global empire, present in both hemispheres.
 
 ## 6. Second French Colonial Empire (~11.5 M km², around 1920)
+<img class="flag-badge" src="/flags/empires/french-colonial.svg" alt="Flag of Second French Colonial Empire" loading="lazy" />
+
 
 The second French colonial empire reached about 11.5 million km² around 1920. Its holdings were concentrated mainly in Africa and Indochina.
 
 ## 7. Abbasid Caliphate (~11.1 M km², 8th-9th century)
+<img class="flag-badge" src="/flags/empires/abbasid.svg" alt="Flag of Abbasid Caliphate" loading="lazy" />
+
 
 The Abbasid Caliphate covered about 11.1 million km² between the 8th and 9th centuries, with Baghdad as its capital. It is associated with a scientific and intellectual golden age of the Muslim world.
 
@@ -53,6 +63,8 @@ Barely a century after its founding, the Umayyad Caliphate already stretched fro
 The Yuan Dynasty, founded by Kublai Khan, grandson of Genghis Khan, covered about 11 million km² between the 13th and 14th centuries. It was China under Mongol rule.
 
 ## 10. Portuguese Empire (~10.4 M km² at its peak)
+<img class="flag-badge" src="/flags/empires/portuguese.svg" alt="Flag of Portuguese Empire" loading="lazy" />
+
 
 The Portuguese Empire reached about 10.4 million km² at its peak, Brazil included. It is the longest-lasting of the colonial empires: from the capture of Ceuta in 1415 to the handover of Macau in 1999.
 

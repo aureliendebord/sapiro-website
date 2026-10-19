@@ -17,26 +17,38 @@ readingTime: 6
 Los microestados de Europa son los seis Estados soberanos más pequeños del continente: Vaticano, Mónaco, San Marino, Liechtenstein, Andorra y Malta. Juntos ocupan menos terreno que una sola gran ciudad y, aun así, cada uno es plenamente independiente, con su propio gobierno, sus leyes y, casi siempre, una historia de varios siglos. Estos son y así sobreviven.
 
 ## 1. Vaticano
+<img class="flag-badge" src="/flags/countries/va.svg" alt="Bandera de Vaticano" loading="lazy" />
+
 
 La sede de la Iglesia católica y el Estado más pequeño del mundo (0,49 km²). Una monarquía electiva absoluta encabezada por el papa, creada en su forma actual por los Pactos de Letrán de 1929 con Italia. Vive de donaciones, de los ingresos de sus museos y de su papel espiritual único.
 
 ## 2. Mónaco
+<img class="flag-badge" src="/flags/countries/mc.svg" alt="Bandera de Mónaco" loading="lazy" />
+
 
 Principado mediterráneo gobernado por la familia Grimaldi desde 1297. Unos 2 km² y 36 000 habitantes. Prospera gracias al turismo, la banca y su condición de paraíso fiscal, protegido por un acuerdo de defensa con Francia.
 
 ## 3. San Marino
+<img class="flag-badge" src="/flags/countries/sm.svg" alt="Bandera de San Marino" loading="lazy" />
+
 
 La república más antigua todavía existente del mundo, fundada por tradición en 301 y enclavada en Italia. Unos 61 km². Perdura gracias al turismo, las finanzas y una larga tradición de neutralidad que la libró de la unificación italiana.
 
 ## 4. Liechtenstein
+<img class="flag-badge" src="/flags/countries/li.svg" alt="Bandera de Liechtenstein" loading="lazy" />
+
 
 Principado alpino germanohablante entre Suiza y Austria, unos 160 km². Muy rico, está estrechamente ligado a Suiza mediante una unión aduanera y monetaria, y se especializa en finanzas e industria de precisión.
 
 ## 5. Andorra
+<img class="flag-badge" src="/flags/countries/ad.svg" alt="Bandera de Andorra" loading="lazy" />
+
 
 Coprincipado pirenaico encabezado conjuntamente por el presidente de Francia y el obispo de Urgel en España. Unos 468 km². Su economía se basa en el turismo, el esquí y el comercio libre de impuestos.
 
 ## 6. Malta
+<img class="flag-badge" src="/flags/countries/mt.svg" alt="Bandera de Malta" loading="lazy" />
+
 
 El mayor de los seis (316 km²) y el único miembro de pleno derecho de la Unión Europea. Archipiélago al sur de Sicilia, independiente del Reino Unido desde 1964, con una economía de turismo, transporte marítimo y servicios financieros.
 

@@ -30,60 +30,80 @@ quiz:
 Die 10 kleinsten Länder der Welt sind alle kleiner als 320 km², und die beiden allerkleinsten, Vatikanstadt und Monaco, würden dutzendfach in Paris (105 km²) hineinpassen. Hier sind die Top 10.
 
 ## 1. Vatikan (0,49 km²)
+<img class="flag-badge" src="/flags/countries/va.svg" alt="Flagge: Vatikan" loading="lazy" />
+
 
 [Das kleinste Land der Welt](https://de.wikipedia.org/wiki/Vatikanstadt). Rund 800 Einwohner. Eine Wahlmonarchie mit theokratischem Charakter, regiert vom Papst. Vollständig von Rom umschlossen.
 
 **Besonderheiten.** Das kleinste Land, aber nicht das am dichtesten besiedelte: rund 1.700 Einwohner/km², zehnmal weniger als Monaco. Die Päpstliche Schweizergarde dient als Armee.
 
 ## 2. Monaco (2,02 km²)
+<img class="flag-badge" src="/flags/countries/mc.svg" alt="Flagge: Monaco" loading="lazy" />
+
 
 Fürstentum am Mittelmeer. Rund 38.000 Einwohner. Konstitutionelle Monarchie der Familie Grimaldi seit 1297.
 
 **Besonderheiten.** Das am dichtesten besiedelte Land der Welt (18.000 Einwohner/km²). Keine Einkommensteuer. Formel-1-Grand-Prix und Casino von Monte-Carlo.
 
 ## 3. Nauru (21 km²)
+<img class="flag-badge" src="/flags/countries/nr.svg" alt="Flagge: Nauru" loading="lazy" />
+
 
 Insel im Pazifik. 12.000 Einwohner. Der kleinste Inselstaat.
 
 **Besonderheiten.** Dank seines Phosphatreichtums gehörte Nauru in den 1970er-Jahren zu den reichsten Ländern der Welt, nach dem Erschöpfen der Vorkommen folgte der totale Absturz.
 
 ## 4. Tuvalu (26 km²)
+<img class="flag-badge" src="/flags/countries/tv.svg" alt="Flagge: Tuvalu" loading="lazy" />
+
 
 Neun Atolle im Pazifik. 11.000 Einwohner.
 
 **Besonderheiten.** Das Land, das am stärksten vom Anstieg des Meeresspiegels bedroht ist. Die Internetendung .tv bringt beträchtliche Einnahmen (für Millionen verkauft).
 
 ## 5. San Marino (61 km²)
+<img class="flag-badge" src="/flags/countries/sm.svg" alt="Flagge: San Marino" loading="lazy" />
+
 
 Von Italien umschlossen. 33.000 Einwohner. Eine der ältesten Republiken der Welt, [gegründet im Jahr 301](https://de.wikipedia.org/wiki/San_Marino).
 
 **Besonderheiten.** Drei mittelalterliche Festungen, die du zu Fuß erreichen kannst.
 
 ## 6. Liechtenstein (160 km²)
+<img class="flag-badge" src="/flags/countries/li.svg" alt="Flagge: Liechtenstein" loading="lazy" />
+
 
 Zwischen der Schweiz und Österreich. 39.000 Einwohner.
 
 **Besonderheiten.** Konstitutionelle Monarchie. Gehört zusammen mit Monaco zu den reichsten Ländern der Welt nach BIP pro Kopf. Neben Usbekistan eines von nur zwei doppelten Binnenländern.
 
 ## 7. Marshallinseln (181 km²)
+<img class="flag-badge" src="/flags/countries/mh.svg" alt="Flagge: Marshallinseln" loading="lazy" />
+
 
 29 Atolle im Pazifik. Rund 42.000 Einwohner. Durch einen Vertrag über freie Assoziierung mit den USA verbunden.
 
 **Besonderheiten.** Die Vereinigten Staaten führten hier zwischen 1946 und 1958 67 Atomtests durch, unter anderem auf dem Bikini-Atoll.
 
 ## 8. St. Kitts und Nevis (261 km²)
+<img class="flag-badge" src="/flags/countries/kn.svg" alt="Flagge: St. Kitts und Nevis" loading="lazy" />
+
 
 Zwei Inseln in der Karibik. Rund 47.000 Einwohner. Das kleinste Land Amerikas.
 
 **Besonderheiten.** Das 1984 gestartete Programm „Staatsbürgerschaft durch Investition“ ist das älteste der Welt.
 
 ## 9. Malediven (298 km²)
+<img class="flag-badge" src="/flags/countries/mv.svg" alt="Flagge: Malediven" loading="lazy" />
+
 
 26 Atolle im Indischen Ozean. Rund 520.000 Einwohner.
 
 **Besonderheiten.** Das flachste Land der Welt (höchster Punkt 2,4 Meter), verteilt auf rund 1.190 Koralleninseln, von denen etwa 200 bewohnt sind.
 
 ## 10. Malta (316 km²)
+<img class="flag-badge" src="/flags/countries/mt.svg" alt="Flagge: Malta" loading="lazy" />
+
 
 Archipel im Mittelmeer. Rund 540.000 Einwohner. Mitglied der EU.
 

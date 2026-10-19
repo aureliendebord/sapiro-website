@@ -30,42 +30,62 @@ quiz:
 Le plus jeune pays du monde est le Soudan du Sud, indépendant depuis le 9 juillet 2011. La carte politique a continué de bouger bien après la fin de la Guerre froide. Depuis 1990, des dizaines d'États sont apparus, le plus souvent par référendum ou après l'éclatement d'une fédération. Le classement qui suit part du plus récent.
 
 ## 1. Soudan du Sud (2011)
+<img class="flag-badge" src="/flags/countries/ss.svg" alt="Drapeau : Soudan du Sud" loading="lazy" />
+
 
 Indépendant du Soudan après un référendum approuvé à près de 99 % des voix. Il est devenu le 193e État membre de l'ONU. Sa naissance a mis fin à des décennies de guerre civile entre le nord et le sud du Soudan.
 
 ## 2. Kosovo (2008)
+<img class="flag-badge" src="/flags/countries/xk.svg" alt="Drapeau : Kosovo" loading="lazy" />
+
 
 A déclaré son indépendance de la Serbie en février 2008. Il est reconnu par une centaine de pays, mais n'est pas membre de l'ONU. La Serbie et plusieurs grandes puissances, dont la Russie et la Chine, ne le reconnaissent pas.
 
 ## 3. Monténégro (2006)
+<img class="flag-badge" src="/flags/countries/me.svg" alt="Drapeau : Monténégro" loading="lazy" />
+
 
 S'est séparé pacifiquement de la Serbie après un référendum gagné avec environ 55,5 % des voix. Ce petit pays des Balkans, tourné vers l'Adriatique, a rejoint l'ONU la même année.
 
 ## 4. Serbie (2006)
+<img class="flag-badge" src="/flags/countries/rs.svg" alt="Drapeau : Serbie" loading="lazy" />
+
 
 Techniquement un nouvel État : la Serbie est devenue un pays indépendant à la dissolution de l'union Serbie-et-Monténégro. Elle est toutefois considérée comme l'État continuateur de cette union.
 
 ## 5. Timor oriental (2002)
+<img class="flag-badge" src="/flags/countries/tl.svg" alt="Drapeau : Timor oriental" loading="lazy" />
+
 
 Ancienne colonie portugaise, le territoire a connu l'occupation indonésienne, puis une administration transitoire de l'ONU qui a débouché sur l'indépendance. C'est l'un des plus jeunes pays d'Asie.
 
 ## 6. Palaos (1994)
+<img class="flag-badge" src="/flags/countries/pw.svg" alt="Drapeau : Palaos" loading="lazy" />
+
 
 Cet archipel du Pacifique d'environ 18 000 habitants est devenu indépendant à la fin de la tutelle américaine. Il reste lié aux États-Unis par un accord de libre association.
 
 ## 7. Érythrée (1993)
+<img class="flag-badge" src="/flags/countries/er.svg" alt="Drapeau : Érythrée" loading="lazy" />
+
 
 Après trois décennies de guerre d'indépendance, l'Érythrée a fait sécession de l'Éthiopie. Le référendum de 1993 a été approuvé de façon quasi unanime.
 
 ## 8. Tchéquie (1993)
+<img class="flag-badge" src="/flags/countries/cz.svg" alt="Drapeau : Tchéquie" loading="lazy" />
+
 
 Née du « divorce de velours » : la Tchécoslovaquie s'est scindée en deux États le 1er janvier 1993, sans un coup de feu. La Tchéquie a conservé le drapeau tchécoslovaque.
 
 ## 9. Slovaquie (1993)
+<img class="flag-badge" src="/flags/countries/sk.svg" alt="Drapeau : Slovaquie" loading="lazy" />
+
 
 L'autre moitié du divorce de velours, indépendante le même jour que la Tchéquie. Elle a adopté un nouveau drapeau et rejoint l'ONU quelques semaines plus tard.
 
 ## 10. Bosnie-Herzégovine (1992)
+<img class="flag-badge" src="/flags/countries/ba.svg" alt="Drapeau : Bosnie-Herzégovine" loading="lazy" />
+
 
 Le pays est devenu indépendant lors de l'éclatement de la Yougoslavie, après un référendum en 1992. Une guerre a suivi et a duré jusqu'aux accords de Dayton en 1995.
 

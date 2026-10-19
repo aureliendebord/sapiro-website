@@ -17,26 +17,38 @@ readingTime: 6
 Les micro-États d'Europe sont les six plus petits États souverains du continent : Vatican, Monaco, Saint-Marin, Liechtenstein, Andorre et Malte. Ensemble, ils couvrent moins de terrain qu'une seule grande ville, et pourtant chacun est pleinement indépendant, avec son gouvernement, ses lois et, le plus souvent, une histoire de plusieurs siècles. Voici qui ils sont et comment ils survivent.
 
 ## 1. Vatican
+<img class="flag-badge" src="/flags/countries/va.svg" alt="Drapeau : Vatican" loading="lazy" />
+
 
 Le siège de l'Église catholique et le plus petit État du monde (0,49 km²). Une monarchie élective absolue dirigée par le pape, créée sous sa forme actuelle par les accords du Latran de 1929 avec l'Italie. Il vit de dons, des recettes de ses musées et de son rôle spirituel unique.
 
 ## 2. Monaco
+<img class="flag-badge" src="/flags/countries/mc.svg" alt="Drapeau : Monaco" loading="lazy" />
+
 
 Principauté méditerranéenne dirigée par la famille Grimaldi depuis 1297. Environ 2 km² et 36 000 habitants. Elle prospère grâce au tourisme, à la banque et à son statut de paradis fiscal, protégée par un accord de défense avec la France.
 
 ## 3. Saint-Marin
+<img class="flag-badge" src="/flags/countries/sm.svg" alt="Drapeau : Saint-Marin" loading="lazy" />
+
 
 La plus ancienne république encore existante au monde, traditionnellement fondée en 301 et enclavée dans l'Italie. Environ 61 km². Elle perdure grâce au tourisme, à la finance et à une longue tradition de neutralité qui l'a épargnée de l'unification italienne.
 
 ## 4. Liechtenstein
+<img class="flag-badge" src="/flags/countries/li.svg" alt="Drapeau : Liechtenstein" loading="lazy" />
+
 
 Principauté alpine germanophone entre la Suisse et l'Autriche, environ 160 km². Très riche, elle est étroitement liée à la Suisse par une union douanière et monétaire, et spécialisée dans la finance et l'industrie de précision.
 
 ## 5. Andorre
+<img class="flag-badge" src="/flags/countries/ad.svg" alt="Drapeau : Andorre" loading="lazy" />
+
 
 Co-principauté pyrénéenne dirigée conjointement par le président de la France et l'évêque d'Urgell en Espagne. Environ 468 km². Son économie repose sur le tourisme, le ski et le commerce hors taxes.
 
 ## 6. Malte
+<img class="flag-badge" src="/flags/countries/mt.svg" alt="Drapeau : Malte" loading="lazy" />
+
 
 Le plus grand des six (316 km²) et le seul membre à part entière de l'Union européenne. Archipel au sud de la Sicile, indépendant du Royaume-Uni depuis 1964, avec une économie de tourisme, de transport maritime et de services financiers.
 

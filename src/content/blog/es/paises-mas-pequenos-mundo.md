@@ -30,54 +30,74 @@ quiz:
 Los 10 países más pequeños del mundo miden todos menos de 320 km², y los dos más pequeños, el Vaticano y Mónaco, cabrían cientos de veces en el municipio de Madrid (604 km²). Aquí va el top 10.
 
 ## 1. Vaticano (0,49 km²)
+<img class="flag-badge" src="/flags/countries/va.svg" alt="Bandera de Vaticano" loading="lazy" />
+
 
 [El país más pequeño del mundo](https://es.wikipedia.org/wiki/Ciudad_del_Vaticano). Unos 800 habitantes. Teocracia electiva dirigida por el Papa. Enclavado en Roma.
 
 **Curiosidades.** País más pequeño, pero no el más denso: unos 1 700 hab/km², diez veces menos que Mónaco. Guardia Suiza Pontificia como ejército.
 
 ## 2. Mónaco (2,02 km²)
+<img class="flag-badge" src="/flags/countries/mc.svg" alt="Bandera de Mónaco" loading="lazy" />
+
 
 Principado mediterráneo. Unos 38 000 habitantes. Monarquía constitucional de la familia Grimaldi desde 1297.
 
 **Curiosidades.** País más denso del mundo (18 000 hab/km²). Sin impuesto sobre la renta. Gran Premio de Fórmula 1 y Casino de Montecarlo.
 
 ## 3. Nauru (21 km²)
+<img class="flag-badge" src="/flags/countries/nr.svg" alt="Bandera de Nauru" loading="lazy" />
+
 
 Isla del Pacífico. 12 000 habitantes. El país insular más pequeño.
 
 **Curiosidades.** Antigua riqueza por fosfato hizo del país uno de los más ricos del mundo en los años 1970, después colapso total tras el agotamiento.
 
 ## 4. Tuvalu (26 km²)
+<img class="flag-badge" src="/flags/countries/tv.svg" alt="Bandera de Tuvalu" loading="lazy" />
+
 
 Nueve atolones en el Pacífico. 11 000 habitantes.
 
 **Curiosidades.** País más expuesto a la subida del nivel del mar. El dominio internet .tv le aporta ingresos importantes (vendido por millones).
 
 ## 5. San Marino (61 km²)
+<img class="flag-badge" src="/flags/countries/sm.svg" alt="Bandera de San Marino" loading="lazy" />
+
 
 Enclavado en Italia. 33 000 habitantes. Una de las repúblicas más antiguas del mundo, [fundada en 301](https://es.wikipedia.org/wiki/San_Marino).
 
 **Curiosidades.** Tres fortalezas medievales accesibles a pie.
 
 ## 6. Liechtenstein (160 km²)
+<img class="flag-badge" src="/flags/countries/li.svg" alt="Bandera de Liechtenstein" loading="lazy" />
+
 
 Entre Suiza y Austria. 39 000 habitantes.
 
 **Curiosidades.** Monarquía constitucional. Uno de los países más ricos del mundo por PIB per cápita, junto con Mónaco.
 
 ## 7. Islas Marshall (181 km²)
+<img class="flag-badge" src="/flags/countries/mh.svg" alt="Bandera de Islas Marshall" loading="lazy" />
+
 
 29 atolones en el Pacífico. Unos 42 000 habitantes. Pacto de libre asociación con EEUU.
 
 ## 8. San Cristóbal y Nieves (261 km²)
+<img class="flag-badge" src="/flags/countries/kn.svg" alt="Bandera de San Cristóbal y Nieves" loading="lazy" />
+
 
 Dos islas en el Caribe. 47 000 habitantes. País más pequeño de las Américas.
 
 ## 9. Maldivas (298 km²)
+<img class="flag-badge" src="/flags/countries/mv.svg" alt="Bandera de Maldivas" loading="lazy" />
+
 
 26 atolones en el océano Índico. Unos 520 000 habitantes. También el país más plano (altitud máxima 2,4 metros).
 
 ## 10. Malta (316 km²)
+<img class="flag-badge" src="/flags/countries/mt.svg" alt="Bandera de Malta" loading="lazy" />
+
 
 Archipiélago mediterráneo. Unos 540 000 habitantes. Miembro de la UE.
 

@@ -30,42 +30,62 @@ quiz:
 Das jüngste Land der Welt ist der Südsudan, unabhängig seit dem 9. Juli 2011. Die politische Landkarte hat sich auch lange nach dem Ende des Kalten Kriegs weiter verändert. Seit 1990 sind Dutzende Staaten entstanden, meist durch ein Referendum oder den Zerfall eines Bundesstaats. Das Ranking unten beginnt mit dem jüngsten.
 
 ## 1. Südsudan (2011)
+<img class="flag-badge" src="/flags/countries/ss.svg" alt="Flagge: Südsudan" loading="lazy" />
+
 
 Unabhängig vom Sudan nach einem Referendum, bei dem fast 99 % der Wähler zustimmten. Der Südsudan wurde der 193. Mitgliedstaat der UNO. Seine Gründung beendete jahrzehntelangen Bürgerkrieg zwischen dem Norden und dem Süden des Sudan.
 
 ## 2. Kosovo (2008)
+<img class="flag-badge" src="/flags/countries/xk.svg" alt="Flagge: Kosovo" loading="lazy" />
+
 
 Erklärte im Februar 2008 die Unabhängigkeit von Serbien. Rund hundert Länder erkennen das Kosovo an, Mitglied der UNO ist es aber nicht. Serbien und mehrere Großmächte, darunter Russland und China, erkennen es nicht an.
 
 ## 3. Montenegro (2006)
+<img class="flag-badge" src="/flags/countries/me.svg" alt="Flagge: Montenegro" loading="lazy" />
+
 
 Trennte sich friedlich von Serbien, nach einem Referendum mit rund 55,5 % Zustimmung. Das kleine Balkanland an der Adria trat noch im selben Jahr der UNO bei.
 
 ## 4. Serbien (2006)
+<img class="flag-badge" src="/flags/countries/rs.svg" alt="Flagge: Serbien" loading="lazy" />
+
 
 Formal ein neuer Staat: Serbien wurde mit der Auflösung des Staatenbunds Serbien und Montenegro ein unabhängiges Land. Es gilt allerdings als Fortsetzerstaat dieser Union.
 
 ## 5. Osttimor (2002)
+<img class="flag-badge" src="/flags/countries/tl.svg" alt="Flagge: Osttimor" loading="lazy" />
+
 
 Die ehemalige portugiesische Kolonie erlebte die indonesische Besatzung und dann eine Übergangsverwaltung der UNO, die zur Unabhängigkeit führte. Osttimor ist eines der jüngsten Länder Asiens.
 
 ## 6. Palau (1994)
+<img class="flag-badge" src="/flags/countries/pw.svg" alt="Flagge: Palau" loading="lazy" />
+
 
 Der Pazifik-Archipel mit rund 18.000 Einwohnern wurde mit dem Ende der amerikanischen Treuhandverwaltung unabhängig. Durch einen Vertrag über freie Assoziierung bleibt er mit den Vereinigten Staaten verbunden.
 
 ## 7. Eritrea (1993)
+<img class="flag-badge" src="/flags/countries/er.svg" alt="Flagge: Eritrea" loading="lazy" />
+
 
 Nach drei Jahrzehnten Unabhängigkeitskrieg spaltete sich Eritrea von Äthiopien ab. Das Referendum von 1993 wurde fast einstimmig angenommen.
 
 ## 8. Tschechien (1993)
+<img class="flag-badge" src="/flags/countries/cz.svg" alt="Flagge: Tschechien" loading="lazy" />
+
 
 Entstanden aus der „Samtenen Scheidung“: Die Tschechoslowakei teilte sich am 1. Januar 1993 in zwei Staaten, ohne dass ein einziger Schuss fiel. Tschechien behielt die tschechoslowakische Flagge.
 
 ## 9. Slowakei (1993)
+<img class="flag-badge" src="/flags/countries/sk.svg" alt="Flagge: Slowakei" loading="lazy" />
+
 
 Die andere Hälfte der Samtenen Scheidung, am selben Tag wie Tschechien unabhängig. Sie führte eine neue Flagge ein und trat wenige Wochen später der UNO bei.
 
 ## 10. Bosnien und Herzegowina (1992)
+<img class="flag-badge" src="/flags/countries/ba.svg" alt="Flagge: Bosnien und Herzegowina" loading="lazy" />
+
 
 Das Land wurde beim Zerfall Jugoslawiens nach einem Referendum 1992 unabhängig. Es folgte ein Krieg, der bis zum Abkommen von Dayton 1995 dauerte.
 

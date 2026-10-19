@@ -17,42 +17,62 @@ readingTime: 6
 44 países, incluidos 2 doblemente aislados, no tienen acceso directo al océano. Son los llamados países sin litoral. Sin una costa propia, cada uno depende de sus vecinos para llegar a un puerto y sacar sus mercancías. Algunos perdieron su costa en una guerra; muchos nunca la tuvieron. Estos son diez que se salen de lo común.
 
 ## 1. Kazajistán (el país sin litoral más grande)
+<img class="flag-badge" src="/flags/countries/kz.svg" alt="Bandera de Kazajistán" loading="lazy" />
+
 
 Con unos 2,7 millones de km², Kazajistán es el país sin litoral más grande del mundo. Bordea el mar Caspio, un mar cerrado que no da a ningún océano.
 
 ## 2. Etiopía (el país sin litoral más poblado)
+<img class="flag-badge" src="/flags/countries/et.svg" alt="Bandera de Etiopía" loading="lazy" />
+
 
 Con cerca de 130 millones de habitantes, Etiopía es el país sin litoral más poblado del mundo. Perdió su costa en 1993, cuando Eritrea se independizó. Desde entonces, la mayor parte de su comercio pasa por el puerto de Yibuti.
 
 ## 3. Bolivia (una marina sin mar)
+<img class="flag-badge" src="/flags/countries/bo.svg" alt="Bandera de Bolivia" loading="lazy" />
+
 
 Bolivia perdió su litoral frente a Chile en la guerra del Pacífico (1879-1884). Sin embargo, conserva una marina, que se entrena en el lago Titicaca.
 
 ## 4. Liechtenstein (doblemente aislado)
+<img class="flag-badge" src="/flags/countries/li.svg" alt="Bandera de Liechtenstein" loading="lazy" />
+
 
 Uno de los dos únicos países doblemente aislados del mundo. Sus dos vecinos, Suiza y Austria, tampoco tienen litoral: hay que cruzar al menos dos fronteras para llegar al mar.
 
 ## 5. Uzbekistán (el otro país doblemente aislado)
+<img class="flag-badge" src="/flags/countries/uz.svg" alt="Bandera de Uzbekistán" loading="lazy" />
+
 
 El segundo país doblemente aislado del planeta. Está rodeado por cinco Estados que tampoco tienen acceso al mar.
 
 ## 6. Mongolia (solo dos vecinos)
+<img class="flag-badge" src="/flags/countries/mn.svg" alt="Bandera de Mongolia" loading="lazy" />
+
 
 El segundo país sin litoral más grande del mundo. Mongolia está encajada entre solo dos vecinos: Rusia al norte y China al sur.
 
 ## 7. Suiza (una flota mercante sin costa)
+<img class="flag-badge" src="/flags/countries/ch.svg" alt="Bandera de Suiza" loading="lazy" />
+
 
 Suiza no tiene costa y, aun así, figura entre las grandes naciones de la marina mercante. Llega al mar del Norte por el Rin, desde el puerto de Basilea.
 
 ## 8. Nepal (el techo del mundo)
+<img class="flag-badge" src="/flags/countries/np.svg" alt="Bandera de Nepal" loading="lazy" />
+
 
 Atrapado entre la India y China, Nepal alberga ocho de las diez cumbres más altas del mundo, incluido el Everest.
 
 ## 9. Paraguay (el acceso por los ríos)
+<img class="flag-badge" src="/flags/countries/py.svg" alt="Bandera de Paraguay" loading="lazy" />
+
 
 Paraguay no tiene litoral, pero una inmensa fachada fluvial lo conecta con el Atlántico. La represa de Itaipú, compartida con Brasil, es una de las más potentes del mundo.
 
 ## 10. Vaticano (el país sin litoral más pequeño)
+<img class="flag-badge" src="/flags/countries/va.svg" alt="Bandera de Vaticano" loading="lazy" />
+
 
 El país sin litoral más pequeño del mundo, con 0,44 km². Está enclavado en una sola ciudad: Roma.
 

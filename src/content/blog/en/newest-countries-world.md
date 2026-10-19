@@ -30,42 +30,62 @@ quiz:
 The newest country in the world is South Sudan, independent since July 9, 2011. The political map kept shifting long after the Cold War ended. Since 1990, dozens of states have appeared, usually through a referendum or the breakup of a federation. The ranking below starts with the most recent.
 
 ## 1. South Sudan (2011)
+<img class="flag-badge" src="/flags/countries/ss.svg" alt="Flag of South Sudan" loading="lazy" />
+
 
 Independent from Sudan after a referendum approved by nearly 99% of voters. It became the 193rd member state of the UN. Its birth ended decades of civil war between northern and southern Sudan.
 
 ## 2. Kosovo (2008)
+<img class="flag-badge" src="/flags/countries/xk.svg" alt="Flag of Kosovo" loading="lazy" />
+
 
 Declared independence from Serbia in February 2008. It is recognized by around a hundred countries, but is not a UN member. Serbia and several major powers, including Russia and China, do not recognize it.
 
 ## 3. Montenegro (2006)
+<img class="flag-badge" src="/flags/countries/me.svg" alt="Flag of Montenegro" loading="lazy" />
+
 
 Separated peacefully from Serbia after a referendum won with about 55.5% of the vote. This small Balkan country on the Adriatic joined the UN the same year.
 
 ## 4. Serbia (2006)
+<img class="flag-badge" src="/flags/countries/rs.svg" alt="Flag of Serbia" loading="lazy" />
+
 
 Technically a new state: Serbia became an independent country upon the dissolution of the union of Serbia and Montenegro. It is, however, considered the continuator state of that union.
 
 ## 5. East Timor (2002)
+<img class="flag-badge" src="/flags/countries/tl.svg" alt="Flag of East Timor" loading="lazy" />
+
 
 A former Portuguese colony, the territory went through Indonesian occupation and then a transitional UN administration that led to independence. It is one of the youngest countries in Asia.
 
 ## 6. Palau (1994)
+<img class="flag-badge" src="/flags/countries/pw.svg" alt="Flag of Palau" loading="lazy" />
+
 
 This Pacific archipelago of about 18,000 inhabitants became independent at the end of the American trusteeship. It remains linked to the United States through a Compact of Free Association.
 
 ## 7. Eritrea (1993)
+<img class="flag-badge" src="/flags/countries/er.svg" alt="Flag of Eritrea" loading="lazy" />
+
 
 After three decades of war for independence, Eritrea seceded from Ethiopia. The 1993 referendum was approved almost unanimously.
 
 ## 8. Czechia (1993)
+<img class="flag-badge" src="/flags/countries/cz.svg" alt="Flag of Czechia" loading="lazy" />
+
 
 Born from the "Velvet Divorce": Czechoslovakia split into two states on January 1, 1993, without a single shot fired. Czechia kept the Czechoslovak flag.
 
 ## 9. Slovakia (1993)
+<img class="flag-badge" src="/flags/countries/sk.svg" alt="Flag of Slovakia" loading="lazy" />
+
 
 The other half of the Velvet Divorce, independent on the same day as Czechia. It adopted a new flag and joined the UN a few weeks later.
 
 ## 10. Bosnia and Herzegovina (1992)
+<img class="flag-badge" src="/flags/countries/ba.svg" alt="Flag of Bosnia and Herzegovina" loading="lazy" />
+
 
 The country became independent during the breakup of Yugoslavia, after a referendum in 1992. A war followed and lasted until the Dayton Agreement in 1995.
 

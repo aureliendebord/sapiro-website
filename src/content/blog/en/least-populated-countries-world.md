@@ -17,42 +17,62 @@ readingTime: 6
 The least populated country in the world is Vatican City, with about 800 residents. Among United Nations member states, the record goes to Tuvalu, with about 11,000 people. A dozen countries have fewer than 100,000 inhabitants: fewer people than a large football stadium can seat. Here is the ranking, from the emptiest upward.
 
 ## 1. Vatican City (about 800 residents)
+<img class="flag-badge" src="/flags/countries/va.svg" alt="Flag of Vatican City" loading="lazy" />
+
 
 The Pope's city-state, enclaved in Rome, has no births to speak of: its residents are clergy, Swiss Guards and a few lay employees, most of whom keep their original nationality. Vatican citizenship comes with the job and is usually lost when the job ends. It is not a UN member, but a permanent observer.
 
 ## 2. Tuvalu (about 11,000)
+<img class="flag-badge" src="/flags/countries/tv.svg" alt="Flag of Tuvalu" loading="lazy" />
+
 
 Nine atolls in the Pacific, and the least populated member of the United Nations. Half the population lives on Funafuti, the capital atoll. Rising sea levels threaten the whole country, whose highest point barely reaches 5 meters.
 
 ## 3. Nauru (about 12,000)
+<img class="flag-badge" src="/flags/countries/nr.svg" alt="Flag of Nauru" loading="lazy" />
+
 
 A single island of 21 km², with no official capital: government offices sit in the district of Yaren. Phosphate mining made Nauru one of the richest countries per person in the 1970s, before the deposits ran out.
 
 ## 4. Palau (about 18,000)
+<img class="flag-badge" src="/flags/countries/pw.svg" alt="Flag of Palau" loading="lazy" />
+
 
 An archipelago of more than 300 islands east of the Philippines. Palau shows that population and area are two different rankings: at 459 km², it does not even make the top 15 of the smallest countries by area, yet only three countries have fewer people.
 
 ## 5. San Marino (about 33,000)
+<img class="flag-badge" src="/flags/countries/sm.svg" alt="Flag of San Marino" loading="lazy" />
+
 
 Enclaved in Italy, San Marino claims to be the oldest surviving republic in the world, founded in 301 according to tradition. Its residents are spread across nine municipalities called castelli.
 
 ## 6. Monaco (about 38,000)
+<img class="flag-badge" src="/flags/countries/mc.svg" alt="Flag of Monaco" loading="lazy" />
+
 
 The densest country in the world, with about 18,000 inhabitants per km². Monegasque citizens are a minority in their own country: about a quarter of the population, the rest being foreign residents.
 
 ## 7. Liechtenstein (about 39,000)
+<img class="flag-badge" src="/flags/countries/li.svg" alt="Flag of Liechtenstein" loading="lazy" />
+
 
 A principality between Switzerland and Austria, where roughly a third of residents are foreign nationals. Thousands of cross-border workers commute in every day, so the working population is much larger than the resident one.
 
 ## 8. Marshall Islands (about 42,000)
+<img class="flag-badge" src="/flags/countries/mh.svg" alt="Flag of Marshall Islands" loading="lazy" />
+
 
 29 atolls in the central Pacific. The population is shrinking: a free association agreement with the United States lets Marshallese live and work there without a visa, and many do. The 2021 census counted about 42,000 residents, against more than 50,000 ten years earlier.
 
 ## 9. Saint Kitts and Nevis (about 47,000)
+<img class="flag-badge" src="/flags/countries/kn.svg" alt="Flag of Saint Kitts and Nevis" loading="lazy" />
+
 
 Two Caribbean islands, and the least populated country in the Americas, as well as the smallest by area. Nevis, the smaller island, has its own local assembly and the constitutional right to secede.
 
 ## 10. Dominica (about 72,000)
+<img class="flag-badge" src="/flags/countries/dm.svg" alt="Flag of Dominica" loading="lazy" />
+
 
 The "Nature Isle" of the Caribbean is a good example of a large, empty country at this scale: 751 km² of mountains and rainforest, more than ten times the area of San Marino, for about twice the population.
 

@@ -17,42 +17,62 @@ readingTime: 5
 Le plus grand pays du monde est la Russie, avec environ 17,1 millions de km², soit près du double du deuxième, le Canada. À elle seule, elle couvre plus d'un dixième des terres émergées et traverse 11 fuseaux horaires. Voici le classement des dix pays les plus vastes, avec un cas litigieux à la troisième place.
 
 ## 1. Russie (17 098 242 km²)
+<img class="flag-badge" src="/flags/countries/ru.svg" alt="Drapeau : Russie" loading="lazy" />
+
 
 Trente et une fois la France. La Russie s'étend de l'enclave de Kaliningrad, sur la Baltique, au détroit de Béring, face à l'Alaska. La majorité de son territoire reste très peu peuplée : la Sibérie concentre les trois quarts de la superficie mais moins d'un quart des habitants.
 
 ## 2. Canada (9 984 670 km²)
+<img class="flag-badge" src="/flags/countries/ca.svg" alt="Drapeau : Canada" loading="lazy" />
+
 
 Le plus grand pays des Amériques doit une partie de son rang à l'eau douce : lacs et rivières couvrent près de 9 % de son territoire, un record mondial. Sa frontière avec les États-Unis, longue de 8 891 km, est la plus longue frontière terrestre du monde.
 
 ## 3. États-Unis (9 833 517 km²)
+<img class="flag-badge" src="/flags/countries/us.svg" alt="Drapeau : États-Unis" loading="lazy" />
+
 
 La troisième place est le point disputé du classement. En superficie totale, eaux comprises, les États-Unis passent devant la Chine grâce aux Grands Lacs et à leurs eaux côtières. En terres émergées seules, c'est la Chine qui l'emporte. Les deux lectures se défendent, et les atlas se partagent entre les deux.
 
 ## 4. Chine (9 596 960 km²)
+<img class="flag-badge" src="/flags/countries/cn.svg" alt="Drapeau : Chine" loading="lazy" />
+
 
 Troisième en terres émergées, quatrième en superficie totale. La Chine partage ses frontières avec 14 pays, un record qu'elle codétient avec la Russie. Son territoire va des sommets de l'Himalaya aux plaines côtières du Pacifique.
 
 ## 5. Brésil (8 515 767 km²)
+<img class="flag-badge" src="/flags/countries/br.svg" alt="Drapeau : Brésil" loading="lazy" />
+
 
 Le géant de l'hémisphère sud occupe près de la moitié de l'Amérique du Sud et touche tous les pays du continent sauf le Chili et l'Équateur. L'Amazonie brésilienne représente à elle seule environ 60 % de la plus grande forêt tropicale du monde.
 
 ## 6. Australie (7 741 220 km²)
+<img class="flag-badge" src="/flags/countries/au.svg" alt="Drapeau : Australie" loading="lazy" />
+
 
 Le seul pays qui est aussi un continent. L'essentiel de la population vit sur les côtes est et sud ; l'intérieur, l'outback, reste l'une des zones les moins denses de la planète.
 
 ## 7. Inde (3 287 263 km²)
+<img class="flag-badge" src="/flags/countries/in.svg" alt="Drapeau : Inde" loading="lazy" />
+
 
 Deux fois plus petite que l'Australie, l'Inde est pourtant le pays le plus peuplé du monde depuis 2023. Aucun autre territoire ne concentre autant d'habitants sur une superficie aussi réduite parmi les géants de ce classement.
 
 ## 8. Argentine (2 780 400 km²)
+<img class="flag-badge" src="/flags/countries/ar.svg" alt="Drapeau : Argentine" loading="lazy" />
+
 
 Le deuxième pays d'Amérique du Sud s'étire sur 3 700 km du nord subtropical à la Terre de Feu. Cette étendue en latitude lui donne presque tous les climats existants.
 
 ## 9. Kazakhstan (2 724 900 km²)
+<img class="flag-badge" src="/flags/countries/kz.svg" alt="Drapeau : Kazakhstan" loading="lazy" />
+
 
 Le plus grand pays du monde sans accès à la mer, si l'on excepte la Caspienne, qui est un lac. Il figure logiquement en tête de notre article sur les [pays sans accès à la mer](/blog/pays-sans-acces-mer/).
 
 ## 10. Algérie (2 381 741 km²)
+<img class="flag-badge" src="/flags/countries/dz.svg" alt="Drapeau : Algérie" loading="lazy" />
+
 
 Le plus grand pays d'Afrique depuis 2011 : la partition du Soudan, alors premier, l'a fait passer en tête du continent. Plus de 80 % de son territoire est couvert par le Sahara.
 

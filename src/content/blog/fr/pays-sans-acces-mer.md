@@ -17,42 +17,62 @@ readingTime: 6
 44 pays, dont 2 doublement enclavés, n'ont aucun accès direct à l'océan. On les dit « enclavés ». Sans façade maritime, chacun dépend de ses voisins pour rejoindre un port et exporter ses marchandises. Certains ont perdu leur côte au cours d'une guerre ; beaucoup n'en ont jamais eu. En voici dix qui sortent du lot.
 
 ## 1. Kazakhstan (le plus grand pays enclavé)
+<img class="flag-badge" src="/flags/countries/kz.svg" alt="Drapeau : Kazakhstan" loading="lazy" />
+
 
 Avec environ 2,7 millions de km², le Kazakhstan est le plus grand pays enclavé du monde. Il borde pourtant la mer Caspienne, une mer fermée qui n'ouvre sur aucun océan.
 
 ## 2. Éthiopie (le pays enclavé le plus peuplé)
+<img class="flag-badge" src="/flags/countries/et.svg" alt="Drapeau : Éthiopie" loading="lazy" />
+
 
 Avec près de 130 millions d'habitants, l'Éthiopie est le pays enclavé le plus peuplé du monde. Elle a perdu sa côte en 1993, quand l'Érythrée est devenue indépendante. Depuis, l'essentiel de son commerce passe par le port de Djibouti.
 
 ## 3. Bolivie (une marine sans mer)
+<img class="flag-badge" src="/flags/countries/bo.svg" alt="Drapeau : Bolivie" loading="lazy" />
+
 
 La Bolivie a perdu son littoral face au Chili lors de la guerre du Pacifique (1879-1884). Elle conserve pourtant une marine, qui s'entraîne sur le lac Titicaca.
 
 ## 4. Liechtenstein (doublement enclavé)
+<img class="flag-badge" src="/flags/countries/li.svg" alt="Drapeau : Liechtenstein" loading="lazy" />
+
 
 L'un des deux seuls pays doublement enclavés du monde. Ses deux voisins, la Suisse et l'Autriche, sont eux-mêmes enclavés : il faut traverser au moins deux frontières pour atteindre la mer.
 
 ## 5. Ouzbékistan (l'autre doublement enclavé)
+<img class="flag-badge" src="/flags/countries/uz.svg" alt="Drapeau : Ouzbékistan" loading="lazy" />
+
 
 Le second pays doublement enclavé de la planète. Il est entouré de cinq États eux-mêmes sans accès à la mer.
 
 ## 6. Mongolie (deux voisins seulement)
+<img class="flag-badge" src="/flags/countries/mn.svg" alt="Drapeau : Mongolie" loading="lazy" />
+
 
 Le deuxième plus grand pays enclavé du monde. La Mongolie est coincée entre deux voisins seulement : la Russie au nord et la Chine au sud.
 
 ## 7. Suisse (une flotte marchande sans côte)
+<img class="flag-badge" src="/flags/countries/ch.svg" alt="Drapeau : Suisse" loading="lazy" />
+
 
 La Suisse n'a pas de côte, et pourtant elle compte parmi les grandes nations du transport maritime marchand. Elle rejoint la mer du Nord par le Rhin, depuis le port de Bâle.
 
 ## 8. Népal (le toit du monde)
+<img class="flag-badge" src="/flags/countries/np.svg" alt="Drapeau : Népal" loading="lazy" />
+
 
 Pris entre l'Inde et la Chine, le Népal abrite huit des dix plus hauts sommets du monde, dont l'Everest.
 
 ## 9. Paraguay (l'accès par les fleuves)
+<img class="flag-badge" src="/flags/countries/py.svg" alt="Drapeau : Paraguay" loading="lazy" />
+
 
 Le Paraguay n'a pas de littoral, mais une immense façade fluviale le relie à l'Atlantique. Le barrage d'Itaipú, partagé avec le Brésil, est l'un des plus puissants du monde.
 
 ## 10. Vatican (le plus petit pays enclavé)
+<img class="flag-badge" src="/flags/countries/va.svg" alt="Drapeau : Vatican" loading="lazy" />
+
 
 Le plus petit pays enclavé du monde, avec 0,44 km². Il est enclavé dans une seule ville : Rome.
 

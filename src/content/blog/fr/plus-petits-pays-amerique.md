@@ -17,42 +17,62 @@ readingTime: 5
 Le plus petit pays d'Amérique est Saint-Christophe-et-Niévès, avec environ 261 km², soit deux fois et demie Paris. Le classement a une particularité : les dix plus petits pays du continent américain sont tous des îles des Caraïbes. Sur la terre ferme, le plus petit est le Salvador. Voici le classement complet.
 
 ## 1. Saint-Christophe-et-Niévès (261 km²)
+<img class="flag-badge" src="/flags/countries/kn.svg" alt="Drapeau : Saint-Christophe-et-Niévès" loading="lazy" />
+
 
 Deux îles volcaniques et environ 47 000 habitants : c'est aussi le plus petit pays de tout l'hémisphère occidental, et le huitième plus petit du monde. Indépendant du Royaume-Uni depuis 1983, il vit du tourisme et d'un programme de citoyenneté par investissement parmi les plus anciens du monde.
 
 ## 2. Grenade (344 km²)
+<img class="flag-badge" src="/flags/countries/gd.svg" alt="Drapeau : Grenade" loading="lazy" />
+
 
 L'île aux épices produit une part notable de la noix de muscade mondiale, qui figure sur son drapeau. Grenade est indépendante depuis 1974.
 
 ## 3. Saint-Vincent-et-les-Grenadines (389 km²)
+<img class="flag-badge" src="/flags/countries/vc.svg" alt="Drapeau : Saint-Vincent-et-les-Grenadines" loading="lazy" />
+
 
 Une île principale et une trentaine d'îlots, dont certains privés. Le volcan de la Soufrière, au nord de Saint-Vincent, est entré en éruption en 2021 et a forcé l'évacuation d'environ 20 000 habitants.
 
 ## 4. La Barbade (430 km²)
+<img class="flag-badge" src="/flags/countries/bb.svg" alt="Drapeau : La Barbade" loading="lazy" />
+
 
 L'île la plus orientale des Caraïbes est devenue une république en 2021, en remplaçant la reine d'Angleterre par une présidente tout en restant dans le Commonwealth. C'est l'un des pays les plus densément peuplés des Amériques.
 
 ## 5. Antigua-et-Barbuda (442 km²)
+<img class="flag-badge" src="/flags/countries/ag.svg" alt="Drapeau : Antigua-et-Barbuda" loading="lazy" />
+
 
 Le pays revendique 365 plages, une par jour de l'année. Barbuda, la seconde île, a été presque entièrement évacuée après l'ouragan Irma en 2017.
 
 ## 6. Sainte-Lucie (616 km²)
+<img class="flag-badge" src="/flags/countries/lc.svg" alt="Drapeau : Sainte-Lucie" loading="lazy" />
+
 
 Les deux pitons volcaniques de l'île sont classés au patrimoine mondial de l'UNESCO. Sainte-Lucie détient un record insolite : deux prix Nobel pour environ 180 000 habitants, le meilleur ratio par tête du monde.
 
 ## 7. La Dominique (751 km²)
+<img class="flag-badge" src="/flags/countries/dm.svg" alt="Drapeau : La Dominique" loading="lazy" />
+
 
 À ne pas confondre avec la République dominicaine, sa voisine bien plus grande. L'île nature des Caraïbes compte neuf volcans actifs et abrite le deuxième lac bouillant du monde.
 
 ## 8. Trinité-et-Tobago (5 128 km²)
+<img class="flag-badge" src="/flags/countries/tt.svg" alt="Drapeau : Trinité-et-Tobago" loading="lazy" />
+
 
 Le grand écart du classement : dix fois plus vaste que la Dominique. Situé à 11 km du Venezuela, le pays vit du pétrole et du gaz plus que du tourisme, et a inventé le steelpan, le tambour d'acier.
 
 ## 9. Jamaïque (10 991 km²)
+<img class="flag-badge" src="/flags/countries/jm.svg" alt="Drapeau : Jamaïque" loading="lazy" />
+
 
 La troisième plus grande île des Caraïbes reste un petit pays à l'échelle du continent. Son influence culturelle, du reggae au sprint, dépasse de très loin sa taille.
 
 ## 10. Bahamas (13 943 km²)
+<img class="flag-badge" src="/flags/countries/bs.svg" alt="Drapeau : Bahamas" loading="lazy" />
+
 
 Environ 700 îles et îlots posés sur des bancs de sable au nord des Caraïbes, dont une trentaine seulement sont habités. L'archipel ferme ce classement à quelques kilomètres des côtes de Floride.
 

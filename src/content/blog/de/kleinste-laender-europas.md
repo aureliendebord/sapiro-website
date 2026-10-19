@@ -17,42 +17,62 @@ readingTime: 5
 Das kleinste Land Europas ist die Vatikanstadt mit gerade einmal 0,49 km². Europa hat ungewöhnlich viele Zwergstaaten: Vier der zehn kleinsten Länder der Welt liegen hier. Hier ist die Rangliste der 10 kleinsten Länder Europas nach Fläche, vom Vatikan bis Montenegro.
 
 ## 1. Vatikanstadt (0,49 km²)
+<img class="flag-badge" src="/flags/countries/va.svg" alt="Flagge: Vatikanstadt" loading="lazy" />
+
 
 Das kleinste Land Europas und der Welt. Rund 800 Einwohner, eine Enklave mitten in Rom, regiert vom Papst. Eine Theokratie mit gewähltem Oberhaupt, eigener Post und der Schweizergarde als Armee.
 
 ## 2. Monaco (2,02 km²)
+<img class="flag-badge" src="/flags/countries/mc.svg" alt="Flagge: Monaco" loading="lazy" />
+
 
 Ein Fürstentum am Mittelmeer mit rund 36.000 Einwohnern, seit 1297 von der Familie Grimaldi regiert. Das am dichtesten besiedelte Land der Erde, berühmt für seinen Formel-1-Grand-Prix und das Casino von Monte-Carlo.
 
 ## 3. San Marino (61 km²)
+<img class="flag-badge" src="/flags/countries/sm.svg" alt="Flagge: San Marino" loading="lazy" />
+
 
 San Marino liegt komplett von Italien umschlossen und gilt nach eigenen Angaben als älteste noch bestehende Republik der Welt, gegründet im Jahr 301. Rund 34.000 Einwohner leben rund um den Monte Titano.
 
 ## 4. Liechtenstein (160 km²)
+<img class="flag-badge" src="/flags/countries/li.svg" alt="Flagge: Liechtenstein" loading="lazy" />
+
 
 Ein Fürstentum in den Alpen und doppelter Binnenstaat zwischen der Schweiz und Österreich, mit rund 39.000 Einwohnern. Wohlhabend, deutschsprachig und einer der weltweit führenden Exporteure von künstlichen Zähnen.
 
 ## 5. Malta (316 km²)
+<img class="flag-badge" src="/flags/countries/mt.svg" alt="Flagge: Malta" loading="lazy" />
+
 
 Ein Archipel südlich von Sizilien und der kleinste Mitgliedstaat der Europäischen Union. Rund 540.000 Einwohner und eine Geschichte, die von den Johannitern bis zur britischen Herrschaft reicht.
 
 ## 6. Andorra (468 km²)
+<img class="flag-badge" src="/flags/countries/ad.svg" alt="Flagge: Andorra" loading="lazy" />
+
 
 Ein Kofürstentum in den Pyrenäen zwischen Frankreich und Spanien, gemeinsam geführt vom französischen Präsidenten und dem Bischof von Urgell. Rund 80.000 Einwohner, kein Flughafen und eine Wirtschaft, die von Tourismus und Einkaufsreisen lebt.
 
 ## 7. Luxemburg (2.586 km²)
+<img class="flag-badge" src="/flags/countries/lu.svg" alt="Flagge: Luxemburg" loading="lazy" />
+
 
 Ein Großherzogtum ohne Meerzugang und eines der Gründungsmitglieder der Europäischen Union. Rund 660.000 Einwohner, drei Amtssprachen und eines der höchsten Pro-Kopf-BIP der Welt.
 
 ## 8. Zypern (9.251 km²)
+<img class="flag-badge" src="/flags/countries/cy.svg" alt="Flagge: Zypern" loading="lazy" />
+
 
 Eine Insel im östlichen Mittelmeer, seit 2004 Mitglied der EU und seit 1974 geteilt zwischen der Republik Zypern und dem selbst ausgerufenen Norden. Rund 1,2 Millionen Einwohner.
 
 ## 9. Kosovo (10.887 km²)
+<img class="flag-badge" src="/flags/countries/xk.svg" alt="Flagge: Kosovo" loading="lazy" />
+
 
 Das jüngste Land Europas, das 2008 seine Unabhängigkeit von Serbien erklärt hat. Rund 1,8 Millionen Einwohner; seine Eigenstaatlichkeit wird von vielen Ländern anerkannt, aber nicht von allen.
 
 ## 10. Montenegro (13.812 km²)
+<img class="flag-badge" src="/flags/countries/me.svg" alt="Flagge: Montenegro" loading="lazy" />
+
 
 Ein gebirgiges Land an der Adria mit rund 620.000 Einwohnern, seit 2006 unabhängig von Serbien und Beitrittskandidat der Europäischen Union.
 

@@ -17,42 +17,62 @@ readingTime: 6
 44 countries, including 2 doubly landlocked ones, have no direct access to the ocean. They are the landlocked states. Without a coast of their own, each one relies on a neighbour to reach a port and ship its goods abroad. Some lost their coastline in a war; many never had one. Here are ten that stand out.
 
 ## 1. Kazakhstan (the largest landlocked country)
+<img class="flag-badge" src="/flags/countries/kz.svg" alt="Flag of Kazakhstan" loading="lazy" />
+
 
 At around 2.7 million km², Kazakhstan is the largest landlocked country in the world. It does border the Caspian Sea, a closed sea that opens onto no ocean.
 
 ## 2. Ethiopia (the most populous landlocked country)
+<img class="flag-badge" src="/flags/countries/et.svg" alt="Flag of Ethiopia" loading="lazy" />
+
 
 With close to 130 million inhabitants, Ethiopia is the most populous landlocked country in the world. It lost its coastline in 1993, when Eritrea became independent. Since then, most of its trade has passed through the port of Djibouti.
 
 ## 3. Bolivia (a navy without a sea)
+<img class="flag-badge" src="/flags/countries/bo.svg" alt="Flag of Bolivia" loading="lazy" />
+
 
 Bolivia lost its coastline to Chile in the War of the Pacific (1879-1884). It still maintains a navy, which trains on Lake Titicaca.
 
 ## 4. Liechtenstein (doubly landlocked)
+<img class="flag-badge" src="/flags/countries/li.svg" alt="Flag of Liechtenstein" loading="lazy" />
+
 
 One of only two doubly landlocked countries in the world. Its two neighbours, Switzerland and Austria, are themselves landlocked: you must cross at least two borders to reach the sea.
 
 ## 5. Uzbekistan (the other doubly landlocked country)
+<img class="flag-badge" src="/flags/countries/uz.svg" alt="Flag of Uzbekistan" loading="lazy" />
+
 
 The planet's second doubly landlocked country. It is surrounded by five states that have no sea access themselves.
 
 ## 6. Mongolia (only two neighbours)
+<img class="flag-badge" src="/flags/countries/mn.svg" alt="Flag of Mongolia" loading="lazy" />
+
 
 The second-largest landlocked country in the world. Mongolia is wedged between just two neighbours: Russia to the north and China to the south.
 
 ## 7. Switzerland (a merchant fleet without a coast)
+<img class="flag-badge" src="/flags/countries/ch.svg" alt="Flag of Switzerland" loading="lazy" />
+
 
 Switzerland has no coast, yet it ranks among the great merchant shipping nations. It reaches the North Sea along the Rhine, from the port of Basel.
 
 ## 8. Nepal (the roof of the world)
+<img class="flag-badge" src="/flags/countries/np.svg" alt="Flag of Nepal" loading="lazy" />
+
 
 Hemmed in between India and China, Nepal is home to eight of the ten highest peaks on Earth, including Everest.
 
 ## 9. Paraguay (access through rivers)
+<img class="flag-badge" src="/flags/countries/py.svg" alt="Flag of Paraguay" loading="lazy" />
+
 
 Paraguay has no coastline, but a vast river frontage connects it to the Atlantic. The Itaipú dam, shared with Brazil, is one of the most powerful in the world.
 
 ## 10. Vatican City (the smallest landlocked country)
+<img class="flag-badge" src="/flags/countries/va.svg" alt="Flag of Vatican City" loading="lazy" />
+
 
 The smallest landlocked country in the world, at 0.44 km². It is enclosed within a single city: Rome.
 

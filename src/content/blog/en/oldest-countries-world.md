@@ -25,14 +25,20 @@ The oldest country in the world is San Marino if you are looking for a state sti
 | Oldest continuous monarchy | Japan | ~660 BC (traditional) |
 
 ## San Marino, the dean of republics
+<img class="flag-badge" src="/flags/countries/sm.svg" alt="Flag of San Marino" loading="lazy" />
+
 
 According to tradition, the stonemason Marinus founded the community on September 3, 301, fleeing Roman persecution. The republic has never been durably conquered or absorbed since: its statutes of 1600 are among the oldest constitutional texts still in force. Even Napoleon preferred to leave it alone. It is the oldest continuously sovereign state in the world, and it also appears among the [smallest countries in the world](/en/blog/smallest-countries-world/).
 
 ## Egypt, the oldest state in history
+<img class="flag-badge" src="/flags/countries/eg.svg" alt="Flag of Egypt" loading="lazy" />
+
 
 Around 3100 BC, King Narmer unified Upper and Lower Egypt: the oldest documented state construction, with an administration, taxes and borders. Modern Egypt is obviously not that kingdom, after Persian, Greek, Roman, Arab, Ottoman and British conquests. But no other territory can claim five millennia of near-continuous statehood on the same riverbanks.
 
 ## Japan, the oldest monarchy
+<img class="flag-badge" src="/flags/countries/jp.svg" alt="Flag of Japan" loading="lazy" />
+
 
 Tradition dates the founding of the empire to 660 BC under Emperor Jimmu. Historians place the first attested sovereigns around the 5th century AD, which is enough to make the Japanese imperial line the oldest continuous reigning dynasty in the world: the current emperor is, by the traditional count, the 126th.
 

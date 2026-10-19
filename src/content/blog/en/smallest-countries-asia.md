@@ -17,42 +17,62 @@ readingTime: 5
 The smallest country in Asia is the Maldives, at about 298 km². Asia is the largest continent, yet it holds some of the world's tiniest nations: scattered islands and a couple of city-states. Here is the ranking of the 10 smallest Asian countries by area.
 
 ## 1. Maldives (298 km²)
+<img class="flag-badge" src="/flags/countries/mv.svg" alt="Flag of Maldives" loading="lazy" />
+
 
 An archipelago of around 1,200 coral islands in the Indian Ocean, home to roughly 520,000 people. The lowest-lying country on Earth, with an average elevation of about 1.5 metres.
 
 ## 2. Singapore (735 km²)
+<img class="flag-badge" src="/flags/countries/sg.svg" alt="Flag of Singapore" loading="lazy" />
+
 
 A city-state at the tip of the Malay Peninsula, with around 5.9 million people. One of the world's leading financial and shipping hubs, and among the most densely populated countries.
 
 ## 3. Bahrain (785 km²)
+<img class="flag-badge" src="/flags/countries/bh.svg" alt="Flag of Bahrain" loading="lazy" />
+
 
 An island kingdom in the Persian Gulf, connected to Saudi Arabia by a causeway. Around 1.5 million inhabitants and an economy built on oil, finance and aluminium.
 
 ## 4. Brunei (5,765 km²)
+<img class="flag-badge" src="/flags/countries/bn.svg" alt="Flag of Brunei" loading="lazy" />
+
 
 A small, oil-rich sultanate on the island of Borneo, surrounded by Malaysia. Around 450,000 people and one of the highest living standards in Southeast Asia.
 
 ## 5. Palestine (6,020 km²)
+<img class="flag-badge" src="/flags/countries/ps.svg" alt="Flag of Palestine" loading="lazy" />
+
 
 Comprising the West Bank and the Gaza Strip, with a combined population of roughly 5 million. Recognised as a state by a majority of UN members.
 
 ## 6. Cyprus (9,251 km²)
+<img class="flag-badge" src="/flags/countries/cy.svg" alt="Flag of Cyprus" loading="lazy" />
+
 
 Geographically in West Asia, this eastern Mediterranean island is a member of the European Union. About 1.2 million inhabitants, divided since 1974.
 
 ## 7. Lebanon (10,452 km²)
+<img class="flag-badge" src="/flags/countries/lb.svg" alt="Flag of Lebanon" loading="lazy" />
+
 
 A mountainous country on the eastern Mediterranean, around 5.5 million people, with a long history as a crossroads of Phoenician, Roman, Arab and Ottoman cultures.
 
 ## 8. Qatar (11,586 km²)
+<img class="flag-badge" src="/flags/countries/qa.svg" alt="Flag of Qatar" loading="lazy" />
+
 
 A gas-rich peninsula on the Persian Gulf, around 2.7 million residents (mostly expatriates). Host of the 2022 FIFA World Cup.
 
 ## 9. East Timor (14,919 km²)
+<img class="flag-badge" src="/flags/countries/tl.svg" alt="Flag of East Timor" loading="lazy" />
+
 
 Timor-Leste, on the eastern half of the island of Timor, independent since 2002. Around 1.4 million people; one of Asia's youngest nations.
 
 ## 10. Kuwait (17,818 km²)
+<img class="flag-badge" src="/flags/countries/kw.svg" alt="Flag of Kuwait" loading="lazy" />
+
 
 A small, oil-rich state at the head of the Persian Gulf, around 4.3 million residents. Among the wealthiest countries per capita in the region.
 

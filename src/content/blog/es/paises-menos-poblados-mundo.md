@@ -17,42 +17,62 @@ readingTime: 6
 El país menos poblado del mundo es el Vaticano, con unos 800 habitantes. Entre los Estados miembros de la ONU, el récord es de Tuvalu, con unos 11 000 habitantes. Una docena de países tienen menos de 100 000 habitantes: menos de lo que cabe en un gran estadio de fútbol. Este es el ranking, del más vacío al menos vacío.
 
 ## 1. Vaticano (unos 800 habitantes)
+<img class="flag-badge" src="/flags/countries/va.svg" alt="Bandera de Vaticano" loading="lazy" />
+
 
 La ciudad-Estado del papa, enclavada en Roma, prácticamente no registra nacimientos: sus residentes son clérigos, guardias suizos y algunos empleados laicos, que en su mayoría conservan su nacionalidad de origen. La ciudadanía vaticana va ligada al cargo y suele perderse cuando el cargo termina. El Vaticano no es miembro de la ONU, sino observador permanente.
 
 ## 2. Tuvalu (unos 11 000)
+<img class="flag-badge" src="/flags/countries/tv.svg" alt="Bandera de Tuvalu" loading="lazy" />
+
 
 Nueve atolones en el Pacífico, y el miembro de la ONU menos poblado. La mitad de la población vive en Funafuti, el atolón capital. La subida del nivel del mar amenaza a todo el país, cuyo punto más alto apenas llega a los 5 metros.
 
 ## 3. Nauru (unos 12 000)
+<img class="flag-badge" src="/flags/countries/nr.svg" alt="Bandera de Nauru" loading="lazy" />
+
 
 Una sola isla de 21 km², sin capital oficial: las oficinas del gobierno están en el distrito de Yaren. La explotación del fosfato convirtió a Nauru en uno de los países más ricos por habitante en los años setenta, antes de que se agotaran los yacimientos.
 
 ## 4. Palaos (unos 18 000)
+<img class="flag-badge" src="/flags/countries/pw.svg" alt="Bandera de Palaos" loading="lazy" />
+
 
 Un archipiélago de más de 300 islas al este de Filipinas. Palaos demuestra que población y superficie son dos rankings distintos: con 459 km², ni siquiera entra en el top 15 de los países más pequeños por superficie, y sin embargo solo tres países tienen menos habitantes.
 
 ## 5. San Marino (unos 33 000)
+<img class="flag-badge" src="/flags/countries/sm.svg" alt="Bandera de San Marino" loading="lazy" />
+
 
 Enclavada en Italia, San Marino reivindica el título de república más antigua que sigue existiendo, fundada en el año 301 según la tradición. Sus habitantes se reparten entre nueve municipios, los castelli.
 
 ## 6. Mónaco (unos 38 000)
+<img class="flag-badge" src="/flags/countries/mc.svg" alt="Bandera de Mónaco" loading="lazy" />
+
 
 El país más denso del mundo, con unos 18 000 habitantes por km². Los monegascos son minoría en su propio país: alrededor de una cuarta parte de la población, mientras que el resto son residentes extranjeros.
 
 ## 7. Liechtenstein (unos 39 000)
+<img class="flag-badge" src="/flags/countries/li.svg" alt="Bandera de Liechtenstein" loading="lazy" />
+
 
 Un principado entre Suiza y Austria, donde cerca de un tercio de los habitantes son extranjeros. Miles de trabajadores transfronterizos llegan cada día: la población activa supera con creces a la residente.
 
 ## 8. Islas Marshall (unos 42 000)
+<img class="flag-badge" src="/flags/countries/mh.svg" alt="Bandera de Islas Marshall" loading="lazy" />
+
 
 29 atolones en el Pacífico central. La población disminuye: un acuerdo de libre asociación con Estados Unidos permite a los marshaleses vivir y trabajar allí sin visado, y muchos se van. El censo de 2021 contó unos 42 000 habitantes, frente a más de 50 000 diez años antes.
 
 ## 9. San Cristóbal y Nieves (unos 47 000)
+<img class="flag-badge" src="/flags/countries/kn.svg" alt="Bandera de San Cristóbal y Nieves" loading="lazy" />
+
 
 Dos islas del Caribe, y el país menos poblado de América, además del más pequeño por superficie. Nieves, la isla más pequeña, tiene su propia asamblea y el derecho constitucional a separarse.
 
 ## 10. Dominica (unos 72 000)
+<img class="flag-badge" src="/flags/countries/dm.svg" alt="Bandera de Dominica" loading="lazy" />
+
 
 La «isla Naturaleza» del Caribe es el ejemplo típico de país grande y vacío a esta escala: 751 km² de montañas y selva tropical, más de diez veces la superficie de San Marino, con alrededor del doble de habitantes.
 

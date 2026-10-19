@@ -17,6 +17,8 @@ readingTime: 6
 Das größte Reich der Geschichte ist das Britische Weltreich: Auf seinem Höhepunkt um 1920 umfasste es rund 35,5 Millionen km², fast ein Viertel der Landfläche der Erde. Danach folgen die Mongolen und die Russen, erst dahinter werden die Abstände kleiner. Die Flächen älterer Reiche sind Schätzungen, über die Größenordnungen sind sich Historiker aber weitgehend einig. Die folgende Rangliste zeigt die zehn größten Reiche nach maximaler Landfläche.
 
 ## 1. Britisches Weltreich (~35,5 Mio. km², um 1920)
+<img class="flag-badge" src="/flags/empires/british.svg" alt="Flagge: Britisches Weltreich" loading="lazy" />
+
 
 Auf seinem Höhepunkt nach dem Ersten Weltkrieg umfasste das Britische Weltreich rund 35,5 Millionen km² und vereinte fast ein Viertel der Landfläche und der Bevölkerung der Welt. Man nannte es „das Reich, in dem die Sonne nie untergeht“, weil sich seine Gebiete über alle Zeitzonen verteilten.
 
@@ -25,6 +27,8 @@ Auf seinem Höhepunkt nach dem Ersten Weltkrieg umfasste das Britische Weltreich
 Das von Dschingis Khan gegründete Mongolische Reich erreichte im 13. Jahrhundert rund 24 Millionen km². Es ist das größte zusammenhängende Reich der Geschichte: Sein Gebiet reichte ohne Unterbrechung von Korea bis nach Ungarn.
 
 ## 3. Russisches Kaiserreich (~22,8 Mio. km², um 1895)
+<img class="flag-badge" src="/flags/empires/russian.svg" alt="Flagge: Russisches Kaiserreich" loading="lazy" />
+
 
 Das Russische Kaiserreich umfasste um 1895 rund 22,8 Millionen km², von Polen bis zum Pazifik. Sogar Alaska gehörte dazu, bis es 1867 an die Vereinigten Staaten verkauft wurde.
 
@@ -33,14 +37,20 @@ Das Russische Kaiserreich umfasste um 1895 rund 22,8 Millionen km², von Polen b
 Die letzte Kaiserdynastie Chinas erreichte im 18. Jahrhundert rund 14,7 Millionen km². Ihre Grenzen entsprechen weitgehend denen des heutigen China.
 
 ## 5. Spanisches Kolonialreich (~13,7 Mio. km², 18. Jahrhundert)
+<img class="flag-badge" src="/flags/empires/spanish.svg" alt="Flagge: Spanisches Kolonialreich" loading="lazy" />
+
 
 Das Spanische Kolonialreich umfasste im 18. Jahrhundert rund 13,7 Millionen km², von Amerika bis zu den Philippinen. Es gilt als erstes globales Weltreich, das auf beiden Erdhalbkugeln präsent war.
 
 ## 6. Zweites französisches Kolonialreich (~11,5 Mio. km², um 1920)
+<img class="flag-badge" src="/flags/empires/french-colonial.svg" alt="Flagge: Zweites französisches Kolonialreich" loading="lazy" />
+
 
 Das zweite französische Kolonialreich erreichte um 1920 rund 11,5 Millionen km². Seine Besitzungen lagen vor allem in Afrika und Indochina.
 
 ## 7. Abbasiden-Kalifat (~11,1 Mio. km², 8.–9. Jahrhundert)
+<img class="flag-badge" src="/flags/empires/abbasid.svg" alt="Flagge: Abbasiden-Kalifat" loading="lazy" />
+
 
 Das Abbasiden-Kalifat umfasste zwischen dem 8. und 9. Jahrhundert rund 11,1 Millionen km², mit Bagdad als Hauptstadt. Es steht für ein goldenes Zeitalter von Wissenschaft und Gelehrsamkeit in der islamischen Welt.
 
@@ -53,6 +63,8 @@ Kaum ein Jahrhundert nach seiner Gründung reichte das Umayyaden-Kalifat bereits
 Die Yuan-Dynastie, gegründet von Kublai Khan, einem Enkel Dschingis Khans, umfasste zwischen dem 13. und 14. Jahrhundert rund 11 Millionen km². Sie war China unter mongolischer Herrschaft.
 
 ## 10. Portugiesisches Kolonialreich (~10,4 Mio. km² auf seinem Höhepunkt)
+<img class="flag-badge" src="/flags/empires/portuguese.svg" alt="Flagge: Portugiesisches Kolonialreich" loading="lazy" />
+
 
 Das Portugiesische Kolonialreich erreichte auf seinem Höhepunkt rund 10,4 Millionen km², Brasilien eingeschlossen. Es ist das langlebigste aller Kolonialreiche: von der Eroberung Ceutas 1415 bis zur Rückgabe Macaus 1999.
 

@@ -25,14 +25,20 @@ El país más antiguo del mundo es San Marino si se busca el estado que sigue ex
 | Monarquía continua más antigua | Japón | ~660 a. C. (tradicional) |
 
 ## San Marino, la decana de las repúblicas
+<img class="flag-badge" src="/flags/countries/sm.svg" alt="Bandera de San Marino" loading="lazy" />
+
 
 Según la tradición, el cantero Marino fundó la comunidad el 3 de septiembre de 301, huyendo de las persecuciones romanas. La república nunca ha sido conquistada ni absorbida de forma duradera: sus estatutos de 1600 están entre los textos constitucionales más antiguos aún vigentes. Hasta Napoleón prefirió dejarla en paz. Es el estado soberano continuo más antiguo del mundo, y figura también entre los [países más pequeños del mundo](/es/blog/paises-mas-pequenos-mundo/).
 
 ## Egipto, el estado más antiguo de la historia
+<img class="flag-badge" src="/flags/countries/eg.svg" alt="Bandera de Egipto" loading="lazy" />
+
 
 Hacia 3100 a. C., el rey Narmer unificó el Alto y el Bajo Egipto: la construcción estatal documentada más antigua, con administración, impuestos y fronteras. El Egipto moderno no es, obviamente, aquel reino, tras las conquistas persas, griegas, romanas, árabes, otomanas y británicas. Pero ningún otro territorio puede reivindicar cinco milenios de estatalidad casi ininterrumpida en las mismas orillas.
 
 ## Japón, la monarquía más antigua
+<img class="flag-badge" src="/flags/countries/jp.svg" alt="Bandera de Japón" loading="lazy" />
+
 
 La tradición sitúa la fundación del imperio en el año 660 a. C. con el emperador Jimmu. Los historiadores datan los primeros soberanos atestiguados hacia el siglo V de nuestra era, lo que basta para hacer de la línea imperial japonesa la dinastía reinante continua más antigua del mundo: el emperador actual es, según el cómputo tradicional, el 126.º.
 

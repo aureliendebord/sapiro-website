@@ -17,42 +17,62 @@ readingTime: 5
 Le plus petit pays d'Afrique est les Seychelles, avec environ 459 km², soit un peu plus que la superficie de la ville de Vienne. Le continent des géants comme l'Algérie abrite aussi une série de micro-États, presque tous insulaires. Sur le continent lui-même, le plus petit est la Gambie. Voici le classement des dix plus petits pays africains.
 
 ## 1. Seychelles (459 km²)
+<img class="flag-badge" src="/flags/countries/sc.svg" alt="Drapeau : Seychelles" loading="lazy" />
+
 
 Un archipel de 115 îles dans l'océan Indien, peuplé d'environ 100 000 habitants, le pays le moins peuplé d'Afrique. Son économie repose sur le tourisme et la pêche, et son territoire marin est immense : 1,3 million de km² de zone économique, près de 3 000 fois sa surface terrestre.
 
 ## 2. São Tomé-et-Principe (964 km²)
+<img class="flag-badge" src="/flags/countries/st.svg" alt="Drapeau : São Tomé-et-Principe" loading="lazy" />
+
 
 Deux îles volcaniques dans le golfe de Guinée, ancienne colonie portugaise indépendante depuis 1975. Longtemps premier producteur mondial de cacao au début du XXe siècle, le pays en vit encore en partie.
 
 ## 3. Comores (1 861 km²)
+<img class="flag-badge" src="/flags/countries/km.svg" alt="Drapeau : Comores" loading="lazy" />
+
 
 Un archipel entre Madagascar et le Mozambique. L'union revendique une quatrième île, Mayotte, restée française après le référendum de 1974, ce qui en fait l'un des contentieux territoriaux les plus durables du continent.
 
 ## 4. Maurice (2 040 km²)
+<img class="flag-badge" src="/flags/countries/mu.svg" alt="Drapeau : Maurice" loading="lazy" />
+
 
 L'île Maurice est l'une des économies les plus développées d'Afrique, portée par le tourisme, la finance et le textile. C'était aussi le seul habitat du dodo, disparu au XVIIe siècle.
 
 ## 5. Cap-Vert (4 033 km²)
+<img class="flag-badge" src="/flags/countries/cv.svg" alt="Drapeau : Cap-Vert" loading="lazy" />
+
 
 Dix îles volcaniques au large du Sénégal. Sans ressources naturelles notables, le pays mise sur les services et le tourisme, et sa diaspora dépasse largement sa population résidente.
 
 ## 6. Gambie (11 295 km²)
+<img class="flag-badge" src="/flags/countries/gm.svg" alt="Drapeau : Gambie" loading="lazy" />
+
 
 Le plus petit pays du continent africain proprement dit. La Gambie est une bande de terre de 25 à 50 km de large qui suit le fleuve du même nom, entièrement enclavée dans le Sénégal à l'exception de sa façade atlantique.
 
 ## 7. Eswatini (17 364 km²)
+<img class="flag-badge" src="/flags/countries/sz.svg" alt="Drapeau : Eswatini" loading="lazy" />
+
 
 L'ancien Swaziland, rebaptisé en 2018, est l'une des dernières monarchies absolues du monde. Le royaume est niché entre l'Afrique du Sud et le Mozambique.
 
 ## 8. Djibouti (23 200 km²)
+<img class="flag-badge" src="/flags/countries/dj.svg" alt="Drapeau : Djibouti" loading="lazy" />
+
 
 Petit par la taille, stratégique par la position : le pays garde le détroit de Bab-el-Mandeb, passage obligé entre la mer Rouge et l'océan Indien, et accueille des bases militaires de plusieurs puissances.
 
 ## 9. Rwanda (26 338 km²)
+<img class="flag-badge" src="/flags/countries/rw.svg" alt="Drapeau : Rwanda" loading="lazy" />
+
 
 Le pays des mille collines est l'un des plus densément peuplés d'Afrique, avec environ 14 millions d'habitants sur une surface comparable à la Bretagne administrative.
 
 ## 10. Burundi (27 834 km²)
+<img class="flag-badge" src="/flags/countries/bi.svg" alt="Drapeau : Burundi" loading="lazy" />
+
 
 Voisin et presque jumeau géographique du Rwanda, le Burundi ferme ce classement. Comme lui, il borde le lac Tanganyika, l'un des plus profonds du monde.
 

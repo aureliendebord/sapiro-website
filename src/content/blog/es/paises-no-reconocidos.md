@@ -17,14 +17,20 @@ readingTime: 6
 Una decena de territorios funcionan hoy como Estados (gobierno, moneda y a veces ejército) sin asiento en la ONU. Su reconocimiento internacional es muy desigual: un centenar de países para unos, uno solo o ninguno para otros. Los diez casos siguientes precisan, para cada uno, en qué punto está ese estatus.
 
 ## 1. Taiwán (reconocido por una docena de Estados)
+<img class="flag-badge" src="/flags/countries/tw.svg" alt="Bandera de Taiwán" loading="lazy" />
+
 
 Unos 23 millones de habitantes, gobierno propio desde 1949, moneda y ejército. Taiwán solo es reconocido por una docena de Estados miembros de la ONU. China lo considera una de sus provincias.
 
 ## 2. Kosovo (reconocido por un centenar de países)
+<img class="flag-badge" src="/flags/countries/xk.svg" alt="Bandera de Kosovo" loading="lazy" />
+
 
 Kosovo declaró su independencia de Serbia en 2008. Alrededor de un centenar de países lo reconocen, pero no es miembro de la ONU. Serbia sigue considerándolo parte de su territorio.
 
 ## 3. Palestina (Estado observador en la ONU)
+<img class="flag-badge" src="/flags/countries/ps.svg" alt="Bandera de Palestina" loading="lazy" />
+
 
 Palestina es un Estado observador no miembro en la ONU desde 2012. Alrededor de 150 países la reconocen como Estado. Sus fronteras y su estatus definitivo siguen siendo objeto de negociaciones sin resolver.
 

@@ -17,6 +17,8 @@ readingTime: 6
 El imperio más grande de la historia es el Imperio británico, con unos 35,5 millones de km² en su apogeo hacia 1920, casi una cuarta parte de las tierras emergidas. Detrás llegan los mongoles, luego los rusos, antes de que las diferencias se estrechen. Las superficies de los imperios antiguos son estimaciones, pero sus órdenes de magnitud cuentan con el consenso de los historiadores. El ranking que sigue recoge los diez primeros, por superficie máxima.
 
 ## 1. Imperio británico (~35,5 M km², hacia 1920)
+<img class="flag-badge" src="/flags/empires/british.svg" alt="Bandera de Imperio británico" loading="lazy" />
+
 
 En su apogeo tras la Primera Guerra Mundial, el Imperio británico cubría unos 35,5 millones de km² y reunía cerca de una cuarta parte de las tierras y de la población mundiales. Se le llamaba «el imperio en el que nunca se pone el sol», porque sus posesiones abarcaban todos los husos horarios.
 
@@ -25,6 +27,8 @@ En su apogeo tras la Primera Guerra Mundial, el Imperio británico cubría unos 
 Fundado por Gengis Kan, el Imperio mongol alcanzó unos 24 millones de km² en el siglo XIII. Es el mayor imperio contiguo de la historia: su territorio se extendía sin interrupción desde Corea hasta Hungría.
 
 ## 3. Imperio ruso (~22,8 M km², hacia 1895)
+<img class="flag-badge" src="/flags/empires/russian.svg" alt="Bandera de Imperio ruso" loading="lazy" />
+
 
 El Imperio ruso cubría unos 22,8 millones de km² hacia 1895, de Polonia al Pacífico. Llegó a incluir Alaska, vendida a Estados Unidos en 1867.
 
@@ -33,14 +37,20 @@ El Imperio ruso cubría unos 22,8 millones de km² hacia 1895, de Polonia al Pac
 La última dinastía imperial china alcanzó unos 14,7 millones de km² en el siglo XVIII. Sus fronteras coinciden en gran parte con las de la China moderna.
 
 ## 5. Imperio español (~13,7 M km², siglo XVIII)
+<img class="flag-badge" src="/flags/empires/spanish.svg" alt="Bandera de Imperio español" loading="lazy" />
+
 
 El Imperio español cubría unos 13,7 millones de km² en el siglo XVIII, de las Américas a las Filipinas. Se le considera el primer imperio global, presente en los dos hemisferios.
 
 ## 6. Segundo imperio colonial francés (~11,5 M km², hacia 1920)
+<img class="flag-badge" src="/flags/empires/french-colonial.svg" alt="Bandera de Segundo imperio colonial francés" loading="lazy" />
+
 
 El segundo imperio colonial francés alcanzó unos 11,5 millones de km² hacia 1920. Sus posesiones se concentraban sobre todo en África e Indochina.
 
 ## 7. Califato abasí (~11,1 M km², siglos VIII-IX)
+<img class="flag-badge" src="/flags/empires/abbasid.svg" alt="Bandera de Califato abasí" loading="lazy" />
+
 
 El califato abasí cubría unos 11,1 millones de km² entre los siglos VIII y IX, con Bagdad como capital. Se le asocia con una edad de oro científica e intelectual del mundo musulmán.
 
@@ -53,6 +63,8 @@ Apenas un siglo después de su fundación, el califato omeya ya se extendía de 
 La dinastía Yuan, fundada por Kublai Kan, nieto de Gengis Kan, cubría unos 11 millones de km² entre los siglos XIII y XIV. Era la China bajo dominio mongol.
 
 ## 10. Imperio portugués (~10,4 M km² en su pico)
+<img class="flag-badge" src="/flags/empires/portuguese.svg" alt="Bandera de Imperio portugués" loading="lazy" />
+
 
 El Imperio portugués alcanzó unos 10,4 millones de km² en su pico, Brasil incluido. Es el más duradero de los imperios coloniales: de la toma de Ceuta en 1415 a la devolución de Macao en 1999.
 
