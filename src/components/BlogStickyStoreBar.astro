@@ -1,0 +1,172 @@
+---
+import type { Lang } from '../i18n';
+import { getTranslations } from '../i18n';
+import { appStoreUrl, playStoreUrl } from '../data/appLinks';
+
+/**
+ * Barre store collante en bas d'écran, articles de blog, mobile uniquement.
+ *
+ * Le blog fait 93 % des visiteurs mais 0,34 % de clics store : les CTA sont
+ * en fin d'article, là où peu de lecteurs arrivent. Cette barre vise le
+ * lecteur engagé (25 % de scroll) avec un seul bouton, vers le store de SON
+ * téléphone — pas de choix à faire. Rien sur ordinateur ni OS inconnu : un
+ * bouton store sur desktop ne convertit pas et masque le contenu.
+ *
+ * Le lien porte `data-store-campaign="blog-sticky"` : c'est ce que lit
+ * `campaignFor` (lib/posthog.ts) pour `store_cta_clicked`.
+ */
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+const t = getTranslations(lang).blog.stickyStore;
+const ios = appStoreUrl(lang);
+const android = playStoreUrl('blog-sticky', lang);
+---
+
+<div class="store-bar" id="blog-store-bar" hidden data-ios={ios} data-android={android}>
+  <img src="/images/icon-180.png" alt="" aria-hidden="true" class="store-bar-icon" width="40" height="40" />
+  <p class="store-bar-text">{t.text}</p>
+  <a
+    href={ios}
+    class="store-bar-btn"
+    id="blog-store-bar-link"
+    target="_blank"
+    rel="noopener noreferrer"
+    data-umami-event="store-click"
+    data-umami-event-campaign="blog-sticky"
+    data-store-campaign="blog-sticky"
+  >{t.button}</a>
+  <button type="button" class="store-bar-close" id="blog-store-bar-close" aria-label={t.close}>
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg>
+  </button>
+</div>
+
+<script is:inline>
+(() => {
+  const bar = document.getElementById('blog-store-bar');
+  const link = document.getElementById('blog-store-bar-link');
+  const close = document.getElementById('blog-store-bar-close');
+  if (!bar || !link || !close) return;
+
+  const KEY = 'sapiro-blog-store-bar-dismissed';
+  try {
+    if (sessionStorage.getItem(KEY)) return;
+  } catch {
+    // sessionStorage indisponible (navigation privée stricte) : on affiche.
+  }
+
+  // Mobile seulement (la media query fait le reste pour le rendu).
+  if (!window.matchMedia('(max-width: 767px)').matches) return;
+
+  const ua = navigator.userAgent;
+  let href = null;
+  let store = null;
+  if (/Android/i.test(ua)) {
+    href = bar.dataset.android;
+    store = 'play-store';
+  } else if (/iPhone|iPad|iPod/i.test(ua) || (/Macintosh/i.test(ua) && navigator.maxTouchPoints > 1)) {
+    href = bar.dataset.ios;
+    store = 'app-store';
+  }
+  if (!href) return;
+
+  link.href = href;
+  link.setAttribute('data-umami-event-store', store);
+  bar.hidden = false;
+
+  let shown = false;
+  const onScroll = () => {
+    const max = document.documentElement.scrollHeight - window.innerHeight;
+    if (max <= 0 || window.scrollY / max < 0.25) return;
+    shown = true;
+    bar.classList.add('visible');
+    window.removeEventListener('scroll', onScroll);
+  };
+  // Jamais au chargement : uniquement sur un vrai scroll.
+  window.addEventListener('scroll', onScroll, { passive: true });
+
+  close.addEventListener('click', () => {
+    bar.classList.remove('visible');
+    if (shown) bar.addEventListener('transitionend', () => { bar.hidden = true; }, { once: true });
+    else { window.removeEventListener('scroll', onScroll); bar.hidden = true; }
+    try {
+      sessionStorage.setItem(KEY, '1');
+    } catch {
+      // Sans stockage, la croix ne vaut que pour cette page.
+    }
+  });
+})();
+</script>
+
+<style>
+  .store-bar {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 60;
+    display: none;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 12px calc(10px + env(safe-area-inset-bottom));
+    background: var(--blanc);
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+    box-shadow: 0 -6px 20px rgba(0, 0, 0, 0.08);
+    transform: translateY(100%);
+    transition: transform 0.3s ease;
+  }
+
+  @media (max-width: 767px) {
+    .store-bar:not([hidden]) { display: flex; }
+  }
+
+  .store-bar.visible {
+    transform: translateY(0);
+  }
+
+  .store-bar-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    flex-shrink: 0;
+  }
+
+  .store-bar-text {
+    flex: 1;
+    min-width: 0;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.25;
+    color: var(--noir);
+  }
+
+  .store-bar-btn {
+    flex-shrink: 0;
+    padding: 9px 14px;
+    background: var(--orange);
+    color: #fff;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+
+  .store-bar-close {
+    flex-shrink: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    margin-right: -4px;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    color: var(--gris);
+    cursor: pointer;
+  }
+</style>

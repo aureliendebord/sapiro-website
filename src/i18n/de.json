@@ -92,6 +92,11 @@
     "backToBlog": "Zurück zum Blog",
     "publishedOn": "Veröffentlicht am",
     "readingTime": "Min. Lesezeit",
+    "stickyStore": {
+      "text": "Spiel dieses Quiz in der App",
+      "button": "App laden",
+      "close": "Schließen"
+    },
     "allArticles": "Alle Artikel",
     "categories": {
       "geographie": "Geografie",

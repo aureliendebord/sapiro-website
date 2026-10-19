@@ -32,6 +32,8 @@ export type StoreCampaign =
   | 'sticky-cta'
   | 'sticky-pillar'
   | 'inline-banner'
+  /** Barre collante en bas des articles de blog, mobile uniquement. */
+  | 'blog-sticky'
   | 'post-purchase'
   /** Bloc posé juste sous le jeu, avant le contenu SEO. */
   | 'game-below'
