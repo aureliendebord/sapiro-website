@@ -92,6 +92,11 @@
     "backToBlog": "Volver al blog",
     "publishedOn": "Publicado el",
     "readingTime": "min de lectura",
+    "stickyStore": {
+      "text": "Juega este quiz en la app",
+      "button": "Descargar",
+      "close": "Cerrar"
+    },
     "allArticles": "Todos los artículos",
     "categories": {
       "geographie": "Geografía",

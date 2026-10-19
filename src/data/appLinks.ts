@@ -12,10 +12,14 @@ import type { Lang } from '../i18n';
  * Attribution des installs sans script analytics :
  * - Play Store : le paramètre `referrer` (UTM encodé) remonte dans
  *   Play Console > Acquisition d'utilisateurs, par campagne.
- * - App Store : App Store Connect attribue automatiquement les vues
- *   produit venant du web au referrer sapiro.app (App Analytics > Sources).
+ * - App Store : `pt` (provider token) + `ct` (campaign token) remontent
+ *   dans App Store Connect > Analyses > Acquisition > Campagnes, une ligne
+ *   par `ct`. Sans `pt`, le `ct` est ignoré. Une campagne n'apparaît qu'à
+ *   partir de cinq installs par des comptes Apple distincts.
  */
 export const APP_STORE_ID = '6757706883';
+/** Provider token ASC (lu dans « Générer un lien de campagne », App Analytics). */
+export const APPLE_PROVIDER_TOKEN = '122300794';
 export const APP_STORE_SLUG = 'sapiro-general-knowledge-quiz';
 export const PLAY_STORE_URL = 'https://play.google.com/store/apps/details?id=com.sapiro.app';
 
@@ -32,6 +36,8 @@ export type StoreCampaign =
   | 'sticky-cta'
   | 'sticky-pillar'
   | 'inline-banner'
+  /** Barre collante en bas des articles de blog, mobile uniquement. */
+  | 'blog-sticky'
   | 'post-purchase'
   /** Bloc posé juste sous le jeu, avant le contenu SEO. */
   | 'game-below'
@@ -42,8 +48,9 @@ export type StoreCampaign =
   /** Jeu web sur téléphone, encart sous le résultat de chaque partie. */
   | 'result-mobile';
 
-export function appStoreUrl(lang: Lang): string {
-  return `https://apps.apple.com/${APP_STORE_STOREFRONT[lang]}/app/${APP_STORE_SLUG}/id${APP_STORE_ID}`;
+export function appStoreUrl(lang: Lang, campaign: StoreCampaign): string {
+  const base = `https://apps.apple.com/${APP_STORE_STOREFRONT[lang]}/app/${APP_STORE_SLUG}/id${APP_STORE_ID}`;
+  return `${base}?pt=${APPLE_PROVIDER_TOKEN}&ct=${campaign}&mt=8`;
 }
 
 export function playStoreUrl(campaign: StoreCampaign, lang: Lang): string {

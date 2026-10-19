@@ -49,7 +49,7 @@ export function ResultAppTeaser() {
     return (
       <a
         className="result-app"
-        href={store === "app_store" ? appStoreUrl(lang) : playStoreUrl("result-mobile", lang)}
+        href={store === "app_store" ? appStoreUrl(lang, "result-mobile") : playStoreUrl("result-mobile", lang)}
         target="_blank"
         rel="noopener"
         data-umami-event="store-click"
