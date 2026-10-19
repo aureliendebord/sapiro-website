@@ -22,9 +22,24 @@ La primera trampa, la más clásica: dos banderas casi idénticas una al lado de
 
 Chad y Rumania, entonces. Tres franjas verticales azul, amarillo y rojo en ambos casos. La única diferencia es un matiz de azul: Chad usa un azul ligeramente más oscuro. ¿A simple vista, en condiciones reales, en un mástil con viento? Buena suerte. Es el par que provocó una auténtica crisis diplomática.
 
+<div class="flag-row">
+  <figure><img src="/flags/countries/td.svg" alt="Bandera de Chad" loading="lazy" /><figcaption>Chad</figcaption></figure>
+  <figure><img src="/flags/countries/ro.svg" alt="Bandera de Rumania" loading="lazy" /><figcaption>Rumania</figcaption></figure>
+</div>
+
 Mónaco e Indonesia plantean un problema similar. Dos franjas horizontales, rojo arriba, blanco abajo. Punto. La diferencia está en las proporciones: Mónaco adopta un ratio de 4:5, Indonesia uno de 2:3, lo que hace la bandera indonesia ligeramente más alargada. En la práctica, nunca se nota.
 
+<div class="flag-row">
+  <figure><img src="/flags/countries/mc.svg" alt="Bandera de Mónaco" loading="lazy" /><figcaption>Mónaco</figcaption></figure>
+  <figure><img src="/flags/countries/id.svg" alt="Bandera de Indonesia" loading="lazy" /><figcaption>Indonesia</figcaption></figure>
+</div>
+
 Irlanda y Costa de Marfil son más traicioneras. Tres franjas verticales verde, blanco y naranja para las dos. Solo que el orden está invertido. Irlanda pone el verde junto al asta (a la izquierda), Costa de Marfil pone ahí el naranja. Un espejo. Y cuando no se presta atención, la trampa funciona siempre.
+
+<div class="flag-row">
+  <figure><img src="/flags/countries/ie.svg" alt="Bandera de Irlanda" loading="lazy" /><figcaption>Irlanda</figcaption></figure>
+  <figure><img src="/flags/countries/ci.svg" alt="Bandera de Costa de Marfil" loading="lazy" /><figcaption>Costa de Marfil</figcaption></figure>
+</div>
 
 ## Las banderas con diseños complejos
 
@@ -32,9 +47,21 @@ Algunas banderas no se parecen a ninguna otra. Su problema es el contrario: son 
 
 Turkmenistán tiene uno de los diseños más elaborados del planeta. Fondo verde, media luna, cinco estrellas, y sobre todo una franja vertical roja junto al asta con cinco motivos de alfombras tradicionales, uno por cada gran tribu del país. Debajo, dos ramas de olivo cruzadas. Se podría pasar diez minutos examinándola sin retener ni la mitad.
 
+<div class="flag-row">
+  <figure><img src="/flags/countries/tm.svg" alt="Bandera de Turkmenistán" loading="lazy" /><figcaption>Turkmenistán</figcaption></figure>
+</div>
+
 Bután apuesta por un dragón blanco del trueno, el Druk, sobre un fondo dividido en diagonal entre amarillo y naranja. El dragón sostiene joyas en sus garras, símbolos de riqueza y perfección. Intentar dibujarlo de memoria es casi imposible.
 
+<div class="flag-row">
+  <figure><img src="/flags/countries/bt.svg" alt="Bandera de Bután" loading="lazy" /><figcaption>Bután</figcaption></figure>
+</div>
+
 Sri Lanka destaca por su originalidad. Un león dorado blandiendo una espada sobre fondo púrpura, enmarcado por franjas verticales verde y naranja, con cuatro hojas de pipal en las esquinas. El púrpura como color dominante es rarísimo en las banderas nacionales. Es hermoso. Es único. Y es una pesadilla para memorizar.
+
+<div class="flag-row">
+  <figure><img src="/flags/countries/lk.svg" alt="Bandera de Sri Lanka" loading="lazy" /><figcaption>Sri Lanka</figcaption></figure>
+</div>
 
 ## Banderas con emblemas detallados
 
@@ -42,9 +69,21 @@ Más allá de los diseños complejos en su conjunto, algunos países han inserta
 
 Belize probablemente se lleva el premio. Su emblema central muestra a dos leñadores (uno mestizo y otro criollo) flanqueando un escudo con un barco, una sierra, un hacha y una caoba. Todo rodeado de una corona de cincuenta hojas, con el lema "Sub Umbra Floreo" (Florezco a la sombra). [Doce colores diferentes](https://es.wikipedia.org/wiki/Bandera_de_Belice): el récord absoluto para una bandera nacional.
 
+<div class="flag-row">
+  <figure><img src="/flags/countries/bz.svg" alt="Bandera de Belize" loading="lazy" /><figcaption>Belize</figcaption></figure>
+</div>
+
 México coloca en su centro un águila real posada sobre un cactus nopal, devorando una serpiente. La escena proviene de la mitología azteca. Las plumas del águila, las espinas del cactus, las escamas de la serpiente: cada detalle está ahí. Se reconoce la bandera mexicana por esta escena, pero describirla con precisión es otra historia.
 
+<div class="flag-row">
+  <figure><img src="/flags/countries/mx.svg" alt="Bandera de México" loading="lazy" /><figcaption>México</figcaption></figure>
+</div>
+
 Afganistán ha cambiado de bandera un número incalculable de veces a lo largo de su historia. La versión anterior al régimen talibán mostraba una mezquita detallada, espigas de trigo y una inscripción árabe. El emblema central era tan cargado que identificarla rápidamente era todo un desafío.
+
+<div class="flag-row">
+  <figure><img src="/flags/countries/af.svg" alt="Bandera de Afganistán (2004-2021)" loading="lazy" /><figcaption>Afganistán (2004-2021)</figcaption></figure>
+</div>
 
 ## Los tríos de confusión: banderas que se confunden de tres en tres
 
@@ -52,7 +91,19 @@ A veces no se confunden dos banderas. Se confunden tres. Estos tríos son verdad
 
 Países Bajos, Luxemburgo y Paraguay: tres franjas horizontales roja, blanca y azul. Los Países Bajos y Luxemburgo son casi indistinguibles: Luxemburgo simplemente usa un azul más claro. Paraguay comparte los mismos colores pero se distingue por un emblema central. Y no uno cualquiera: un emblema diferente en cada cara, lo que la convierte en una de las pocas banderas nacionales asimétricas.
 
+<div class="flag-row">
+  <figure><img src="/flags/countries/nl.svg" alt="Bandera de Países Bajos" loading="lazy" /><figcaption>Países Bajos</figcaption></figure>
+  <figure><img src="/flags/countries/lu.svg" alt="Bandera de Luxemburgo" loading="lazy" /><figcaption>Luxemburgo</figcaption></figure>
+  <figure><img src="/flags/countries/py.svg" alt="Bandera de Paraguay" loading="lazy" /><figcaption>Paraguay</figcaption></figure>
+</div>
+
 Malí, Senegal y Guinea: tres franjas verticales verde, amarillo y rojo, los colores panafricanos. Senegal zanja el debate con una estrella verde sobre su franja amarilla. ¿Pero entre Malí y Guinea? La única distinción es el orden de los colores. Verde a la izquierda para Malí, verde a la derecha para Guinea.
+
+<div class="flag-row">
+  <figure><img src="/flags/countries/ml.svg" alt="Bandera de Malí" loading="lazy" /><figcaption>Malí</figcaption></figure>
+  <figure><img src="/flags/countries/sn.svg" alt="Bandera de Senegal" loading="lazy" /><figcaption>Senegal</figcaption></figure>
+  <figure><img src="/flags/countries/gn.svg" alt="Bandera de Guinea" loading="lazy" /><figcaption>Guinea</figcaption></figure>
+</div>
 
 ## ¿Cómo diferenciar banderas con colores idénticos?
 
@@ -60,7 +111,18 @@ Mismos colores, disposición parecida, pero detalles sutiles que escapan a la mi
 
 Australia y Nueva Zelanda. Fondo azul, Union Jack en la esquina superior izquierda, estrellas de la Cruz del Sur. La receta es común. Pero Australia añade una gran estrella de la Commonwealth de seis puntas bajo la Union Jack y colorea sus estrellas de blanco. Nueva Zelanda solo tiene cuatro estrellas, rojas con borde blanco, y sin estrella de la Commonwealth. Cuando se sabe, se ve. Cuando no se sabe, se confunden sistemáticamente.
 
+<div class="flag-row">
+  <figure><img src="/flags/countries/au.svg" alt="Bandera de Australia" loading="lazy" /><figcaption>Australia</figcaption></figure>
+  <figure><img src="/flags/countries/nz.svg" alt="Bandera de Nueva Zelanda" loading="lazy" /><figcaption>Nueva Zelanda</figcaption></figure>
+</div>
+
 Rusia, Eslovaquia y Eslovenia: tres franjas horizontales blanca, azul y roja. Rusia las presenta sin adornos. Eslovaquia y Eslovenia colocan cada una un escudo en la parte izquierda. El de Eslovaquia lleva una doble cruz sobre tres colinas. El de Eslovenia muestra el monte Triglav con dos líneas onduladas y tres estrellas. Hay que conocer estos escudos para distinguirlas.
+
+<div class="flag-row">
+  <figure><img src="/flags/countries/ru.svg" alt="Bandera de Rusia" loading="lazy" /><figcaption>Rusia</figcaption></figure>
+  <figure><img src="/flags/countries/sk.svg" alt="Bandera de Eslovaquia" loading="lazy" /><figcaption>Eslovaquia</figcaption></figure>
+  <figure><img src="/flags/countries/si.svg" alt="Bandera de Eslovenia" loading="lazy" /><figcaption>Eslovenia</figcaption></figure>
+</div>
 
 ## ¿Cuáles son las banderas más originales del mundo?
 
@@ -68,7 +130,15 @@ Algunas banderas son originales. Francamente originales. Pero como sus países s
 
 Nepal es el único país del mundo con una [bandera no rectangular](https://es.wikipedia.org/wiki/Bandera_de_Nepal). Dos pendones triangulares superpuestos forman una especie de doble gallardete. Una vez que se conoce, no se puede confundir. Pero precisamente: ¿cuántas personas piensan espontáneamente en Nepal en un quiz?
 
+<div class="flag-row">
+  <figure><img src="/flags/countries/np.svg" alt="Bandera de Nepal" loading="lazy" /><figcaption>Nepal</figcaption></figure>
+</div>
+
 Mozambique muestra un arma moderna en su bandera. Es el único país en hacerlo. Un fusil AK-47 con bayoneta cruzado con una azada sobre un libro abierto, todo colocado sobre una estrella amarilla. Una elección que dice mucho sobre la historia turbulenta del país.
+
+<div class="flag-row">
+  <figure><img src="/flags/countries/mz.svg" alt="Bandera de Mozambique" loading="lazy" /><figcaption>Mozambique</figcaption></figure>
+</div>
 
 ## Trucos para memorizar las banderas difíciles
 

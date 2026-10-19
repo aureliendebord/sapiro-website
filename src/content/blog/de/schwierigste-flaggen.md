@@ -24,6 +24,11 @@ Frag irgendeinen Flaggenquiz-Veteranen nach seinem größten Albtraum, und die A
 
 Unter den 195 anerkannten souveränen Staaten wird dieses Paar in Online-Flaggen-Communities regelmäßig zum verwirrendsten überhaupt gewählt. Die Ähnlichkeit ist kein Zufall des Designs, sondern das Ergebnis einer parallelen Entwicklung. Die rumänische Trikolore geht auf das Jahr 1848 zurück und wurzelt in den Fürstentümern Walachei und Moldau. Der Tschad führte seine Flagge 1959 ein und wollte ursprünglich wie viele andere afrikanische Staaten Grün, Gelb und Rot verwenden, wechselte aber zu Blau, um eine Verwechslung mit Mali zu vermeiden. Ironischerweise schuf genau diese Änderung ein noch größeres Erkennungsproblem.
 
+<div class="flag-row">
+  <figure><img src="/flags/countries/td.svg" alt="Flagge: Tschad" loading="lazy" /><figcaption>Tschad</figcaption></figure>
+  <figure><img src="/flags/countries/ro.svg" alt="Flagge: Rumänien" loading="lazy" /><figcaption>Rumänien</figcaption></figure>
+</div>
+
 Merk dir: „Der Tschad steht ein bisschen im Schatten“, sein Blau ist etwas dunkler. Rumänien, das europäische Land, hat das hellere, „polierte“ Blau.
 
 ## Warum haben Monaco und Indonesien dieselbe Flagge?
@@ -32,11 +37,22 @@ Ein weiteres Paar, das Quizspieler weltweit quält: Monaco und Indonesien. Beide
 
 Polen sorgt für zusätzliche Verwirrung: dieselben Farben in umgekehrter Reihenfolge, oben Weiß, unten Rot. Und als wäre das nicht genug, verwendet auch die Flagge von Hessen waagerechte Streifen in Rot und Weiß.
 
+<div class="flag-row">
+  <figure><img src="/flags/countries/mc.svg" alt="Flagge: Monaco" loading="lazy" /><figcaption>Monaco</figcaption></figure>
+  <figure><img src="/flags/countries/id.svg" alt="Flagge: Indonesien" loading="lazy" /><figcaption>Indonesien</figcaption></figure>
+  <figure><img src="/flags/countries/pl.svg" alt="Flagge: Polen" loading="lazy" /><figcaption>Polen</figcaption></figure>
+</div>
+
 Indonesien ist ein riesiger Archipel, also stell dir seine Flagge breiter und „gestreckter“ vor (Verhältnis 2:3). Monaco ist ein winziges Fürstentum, seine Flagge ist kompakter und fast quadratisch. Das hilft, zumindest ein bisschen.
 
 ## Was ist der Unterschied zwischen der Flagge Irlands und der Elfenbeinküste?
 
 Irland und die Elfenbeinküste (Côte d'Ivoire) zeigen beide drei senkrechte Streifen in Grün, Weiß und Orange. Der entscheidende Unterschied? Die Reihenfolge ist vertauscht. Irland liest sich von links nach rechts (von der Mastseite aus) Grün-Weiß-Orange, die Elfenbeinküste Orange-Weiß-Grün.
+
+<div class="flag-row">
+  <figure><img src="/flags/countries/ie.svg" alt="Flagge: Irland" loading="lazy" /><figcaption>Irland</figcaption></figure>
+  <figure><img src="/flags/countries/ci.svg" alt="Flagge: Elfenbeinküste" loading="lazy" /><figcaption>Elfenbeinküste</figcaption></figure>
+</div>
 
 Diese Umkehrung bringt viele aus dem Konzept, weil wir uns zwar die Farben einer Flagge merken, aber nicht ihre Reihenfolge. In einem Quiz auf Zeit kann dich das kurze Zögern den Punkt kosten.
 
@@ -46,11 +62,20 @@ Irland beginnt mit Grün, und Irland ist bekanntlich die „Grüne Insel“. Die
 
 Die Flaggen von Luxemburg und den Niederlanden bestehen beide aus waagerechten Streifen in Rot, Weiß und Blau. Der Unterschied liegt im Blauton: Die Niederlande verwenden ein dunkleres Kobaltblau, Luxemburg ein helleres Himmelblau. Die luxemburgische Flagge ist außerdem im Verhältnis etwas länger.
 
+<div class="flag-row">
+  <figure><img src="/flags/countries/nl.svg" alt="Flagge: Niederlande" loading="lazy" /><figcaption>Niederlande</figcaption></figure>
+  <figure><img src="/flags/countries/lu.svg" alt="Flagge: Luxemburg" loading="lazy" /><figcaption>Luxemburg</figcaption></figure>
+</div>
+
 Luxemburg ist ein kleines, helles Land in der Mitte Europas: Sein Blau ist heller, fröhlicher. Die Niederlande mit ihrer Seefahrertradition verwenden ein tieferes Ozeanblau. Ich denke dabei an niederländische Maler und ihre düsteren Seestücke. Das bleibt hängen. Die beiden zu verwechseln, gehört zu den [häufigsten Geografie-Fehlern](/en/blog/geography-mistakes/) überhaupt. Einen vollständigen Überblick über Zwillingsflaggen findest du bei den [Flaggen, die sich ähneln](/en/blog/flags-that-look-alike/).
 
 ## Bhutan: Die Komplexität des Drachen
 
 Weg von den Doppelgängern, hin zur reinen Komplexität: Bhutans Flagge gehört zu den detailreichsten der Welt. Sie zeigt einen weißen Drachen (den Druk oder Donnerdrachen), der Juwelen in seinen Klauen hält und diagonal über einem in Gelb und Orange geteilten Feld liegt. Um diese Flagge aus dem Gedächtnis zu zeichnen, musst du dich an die genaue Haltung des Drachen, die Farbe der Juwelen und die diagonale Teilung des Hintergrunds erinnern.
+
+<div class="flag-row">
+  <figure><img src="/flags/countries/bt.svg" alt="Flagge: Bhutan" loading="lazy" /><figcaption>Bhutan</figcaption></figure>
+</div>
 
 Die Symbolik reicht tief, und unser Artikel über [die Bedeutung von Flaggen, Farben und Symbolen](/en/blog/flags-meaning/) erzählt noch mehr solcher Geschichten. Das Gelb steht für die weltliche Autorität des Königs, das Orange für die buddhistische Glaubenspraxis. Der Drache symbolisiert den Namen des Landes auf Dzongkha: Druk Yul, „Land des Donnerdrachen“. Die Juwelen in seinen Klauen stehen für den Wohlstand und Reichtum der Nation. Eine wunderschöne Flagge. Und fast unmöglich zu zeichnen.
 
@@ -58,11 +83,19 @@ Die Symbolik reicht tief, und unser Artikel über [die Bedeutung von Flaggen, Fa
 
 [Die Flagge Turkmenistans](https://en.wikipedia.org/wiki/Flag_of_Turkmenistan) ist vielleicht die detailreichste Nationalflagge überhaupt. Am linken Rand verläuft ein senkrechter Streifen mit fünf traditionellen Teppichmustern (Göls), von denen jedes für einen der großen Stämme des Landes steht. Das Hauptfeld ist grün, mit einem weißen Halbmond und fünf Sternen. Unter dem Teppichstreifen befinden sich zwei Olivenzweige, die 1997 hinzugefügt wurden, um die Neutralität des Landes zu symbolisieren.
 
+<div class="flag-row">
+  <figure><img src="/flags/countries/tm.svg" alt="Flagge: Turkmenistan" loading="lazy" /><figcaption>Turkmenistan</figcaption></figure>
+</div>
+
 Jedes Teppichmuster korrekt abzurufen, schaffen nur wenige, und genau deshalb ist diese Flagge in jedem [spielerischen Quiz](/en/blog/gamification-education/) ein wiederkehrender Stolperstein. Selbst das Erkennen ist eine Herausforderung: Dein Gehirn muss ungewöhnlich viele visuelle Informationen verarbeiten, bevor es die Flagge einem Land zuordnen kann.
 
 ## Belize und sein Wappen
 
 Belize hat eines der detailreichsten Wappen auf einer Nationalflagge. Das zentrale Emblem zeigt zwei Holzfäller (einer mit Axt, der andere mit Paddel), die einen Schild flankieren, auf dem ein Segelschiff, Holzfällerwerkzeuge und ein Mahagonibaum zu sehen sind. Auf einem Band darunter steht „Sub Umbra Floreo“ (Im Schatten gedeihe ich). Das Ganze ist von einem Kranz aus fünfzig Blättern umgeben.
+
+<div class="flag-row">
+  <figure><img src="/flags/countries/bz.svg" alt="Flagge: Belize" loading="lazy" /><figcaption>Belize</figcaption></figure>
+</div>
 
 Zwei menschliche Figuren, mehrere Werkzeuge, ein Schiff, ein Baum, ein lateinisches Motto, ein Kranz. Selbst erfahrene Flaggenkenner tun sich schwer, sich an jedes Element zu erinnern. Das ist weniger eine Flagge als ein Miniaturgemälde.
 
@@ -70,13 +103,30 @@ Zwei menschliche Figuren, mehrere Werkzeuge, ein Schiff, ein Baum, ein lateinisc
 
 Afghanistans Flagge hat sich öfter geändert als die fast jedes anderen Landes, was es besonders schwer macht, auf dem Laufenden zu bleiben. Im 20. und 21. Jahrhundert hat Afghanistan Dutzende Entwürfe durchlaufen, die die bewegte politische Geschichte des Landes widerspiegeln. Die klassische Trikolore aus Schwarz, Rot und Grün mit dem Staatswappen in der Mitte ist die bekannteste Version, aber welche Version gerade gilt, weißt du nur, wenn du die aktuellen Ereignisse verfolgst. Die Flagge ist ein bewegliches Ziel, manchmal im wörtlichen Sinn.
 
+<div class="flag-row">
+  <figure><img src="/flags/countries/af.svg" alt="Flagge: Afghanistan (2004–2021)" loading="lazy" /><figcaption>Afghanistan (2004–2021)</figcaption></figure>
+</div>
+
 ## Wie haben Haiti und Liechtenstein entdeckt, dass sie dieselbe Flagge hatten?
 
 Bis zu den Olympischen Spielen 1936 in Berlin war Haiti und [Liechtenstein](https://en.wikipedia.org/wiki/Flag_of_Liechtenstein) nicht bewusst, dass ihre Flaggen praktisch identisch waren: Beide zeigten waagerechte Streifen in Blau und Rot. Die peinliche Entdeckung bei den Spielen veranlasste Liechtenstein, im Jahr darauf eine goldene Krone in die linke obere Ecke seiner Flagge zu setzen. Ich liebe diese Geschichte. Zwei Länder tauchen beim größten Sportereignis der Welt im selben Outfit auf, und eines von beiden muss nach Hause und sich umziehen.
 
+<div class="flag-row">
+  <figure><img src="/flags/countries/ht.svg" alt="Flagge: Haiti" loading="lazy" /><figcaption>Haiti</figcaption></figure>
+  <figure><img src="/flags/countries/li.svg" alt="Flagge: Liechtenstein" loading="lazy" /><figcaption>Liechtenstein</figcaption></figure>
+</div>
+
 ## Die Flaggen mit dem Nordischen Kreuz
 
 Die nordischen Länder (Dänemark, Schweden, Norwegen, Finnland und Island) verwenden alle Varianten des seitlich versetzten Kreuzes. Die Farbkombinationen unterscheiden sich zwar, aber die gleiche Struktur kann Anfänger leicht verwirren. Dänemarks weißes Kreuz auf rotem Grund ist am markantesten, doch um Norwegen (rot, weiß-blaues Kreuz) von Island (blau, weiß-rotes Kreuz mit umgekehrter Farbgewichtung) zu unterscheiden, musst du genau hinschauen.
+
+<div class="flag-row">
+  <figure><img src="/flags/countries/dk.svg" alt="Flagge: Dänemark" loading="lazy" /><figcaption>Dänemark</figcaption></figure>
+  <figure><img src="/flags/countries/se.svg" alt="Flagge: Schweden" loading="lazy" /><figcaption>Schweden</figcaption></figure>
+  <figure><img src="/flags/countries/no.svg" alt="Flagge: Norwegen" loading="lazy" /><figcaption>Norwegen</figcaption></figure>
+  <figure><img src="/flags/countries/fi.svg" alt="Flagge: Finnland" loading="lazy" /><figcaption>Finnland</figcaption></figure>
+  <figure><img src="/flags/countries/is.svg" alt="Flagge: Island" loading="lazy" /><figcaption>Island</figcaption></figure>
+</div>
 
 Für Kinder, die gerade erst mit Geografie anfangen, sind die nordischen Flaggen eine tolle Übung. Wenn du nach Wegen suchst, dieses Lernen spannend zu gestalten, findest du in unserem Ratgeber [Geografie für Kinder](/en/blog/geography-for-kids/) jede Menge Ideen.
 
@@ -84,15 +134,31 @@ Für Kinder, die gerade erst mit Geografie anfangen, sind die nordischen Flaggen
 
 Australien und Neuseeland zeigen beide den Union Jack im linken oberen Feld und Sterne auf blauem Grund. Australien hat sechs weiße Sterne, darunter den großen siebenzackigen Commonwealth-Stern unter dem Union Jack und eine Darstellung des Sternbilds Kreuz des Südens. Neuseeland zeigt nur vier rote Sterne mit weißem Rand, ebenfalls das Kreuz des Südens, aber mit weniger Zacken und anderer Farbe.
 
+<div class="flag-row">
+  <figure><img src="/flags/countries/au.svg" alt="Flagge: Australien" loading="lazy" /><figcaption>Australien</figcaption></figure>
+  <figure><img src="/flags/countries/nz.svg" alt="Flagge: Neuseeland" loading="lazy" /><figcaption>Neuseeland</figcaption></figure>
+</div>
+
 Neuseelands Flagge hat weniger Sterne (vier) und verwendet Rot. Denk an „Neuseeland: weniger ist mehr“. Australien hat mehr Sterne (sechs), und alle sind weiß. Das bleibt tatsächlich hängen, wenn du es einmal gelernt hast. Schwierig ist nur, unter Quizdruck daran zu denken, darauf zu achten.
 
 ## Paraguay: Auf jeder Seite anders
 
 Paraguay ist eines der ganz wenigen Länder, deren Flagge auf beiden Seiten unterschiedliche Embleme trägt. Die Vorderseite zeigt das Staatswappen (einen Stern, umgeben von einem Kranz), die Rückseite das Siegel des Schatzamts (einen Löwen, der eine Freiheitsmütze auf einer Stange bewacht). Dadurch ist Paraguays Flagge nicht nur schwer zu erkennen, sondern auch einzigartig schwer nachzuzeichnen: Du musst dir zwei verschiedene Motive für ein einziges Land merken.
 
+<div class="flag-row">
+  <figure><img src="/flags/countries/py.svg" alt="Flagge: Paraguay" loading="lazy" /><figcaption>Paraguay</figcaption></figure>
+</div>
+
 ## Die panafrikanischen Trikoloren
 
 Mindestens 20 der 54 Staaten Afrikas verwenden Kombinationen aus Grün, Gelb und Rot, den Farben des Panafrikanismus und der äthiopischen Flagge. Mali, Guinea, Senegal, Kamerun und andere teilen sich diese Farben in verschiedenen Anordnungen, manchmal ergänzt um Symbole wie Sterne oder mit senkrechten statt waagerechten Streifen. Herauszufinden, welche Trikolore zu welchem Land gehört, ist eine der großen Herausforderungen beim Erkennen afrikanischer Flaggen, und ehrlich gesagt stoßen die meisten von uns genau hier an ihre Grenzen.
+
+<div class="flag-row">
+  <figure><img src="/flags/countries/ml.svg" alt="Flagge: Mali" loading="lazy" /><figcaption>Mali</figcaption></figure>
+  <figure><img src="/flags/countries/gn.svg" alt="Flagge: Guinea" loading="lazy" /><figcaption>Guinea</figcaption></figure>
+  <figure><img src="/flags/countries/sn.svg" alt="Flagge: Senegal" loading="lazy" /><figcaption>Senegal</figcaption></figure>
+  <figure><img src="/flags/countries/cm.svg" alt="Flagge: Kamerun" loading="lazy" /><figcaption>Kamerun</figcaption></figure>
+</div>
 
 ## Die panarabischen Flaggen
 

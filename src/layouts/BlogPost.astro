@@ -411,6 +411,30 @@ const breadcrumbSchema = {
     text-align: center;
   }
 
+  /* Rangée de drapeaux nommés : hauteur commune, largeur libre, pour que les
+     proportions officielles (Monaco 4:5 vs Indonésie 2:3) restent visibles. */
+  .article-content :global(.flag-row) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px 20px;
+    margin: 20px 0 28px;
+  }
+  .article-content :global(.flag-row figure) {
+    margin: 0;
+  }
+  .article-content :global(.flag-row figure img) {
+    height: 72px;
+    width: auto;
+    border-radius: 4px;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.12);
+  }
+  .article-content :global(.flag-row figure figcaption) {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: inherit;
+  }
+
   .article-content :global(h2) {
     font-size: 1.75rem;
     margin: 40px 0 16px;

@@ -24,6 +24,11 @@ Ask any flag quiz veteran about their biggest nightmare and the answer is almost
 
 Of the 195 recognized sovereign states, this pair is routinely voted the most confusing in online flag communities. This similarity is not a coincidence of design but rather a story of parallel adoption. Romania's tricolor dates back to 1848, rooted in the principalities of Wallachia and Moldavia. Chad adopted its flag in 1959, originally intending to use green, yellow, and red like many other African nations, but switched to blue to avoid confusion with Mali. Ironically, the change created an even bigger identification problem.
 
+<div class="flag-row">
+  <figure><img src="/flags/countries/td.svg" alt="Flag of Chad" loading="lazy" /><figcaption>Chad</figcaption></figure>
+  <figure><img src="/flags/countries/ro.svg" alt="Flag of Romania" loading="lazy" /><figcaption>Romania</figcaption></figure>
+</div>
+
 Think "Chad is a bit in the shade": its blue is slightly darker. Romania, the European nation, uses the brighter, more "polished" blue.
 
 ## Why do Monaco and Indonesia have the same flag?
@@ -32,11 +37,22 @@ Another pair that torments quiz-takers worldwide: Monaco and Indonesia. Both fea
 
 Poland adds another layer of confusion with the same colors in reverse order: white on top, red on the bottom. And if that were not enough, the flag of Hesse (a German state) also uses red and white horizontal stripes.
 
+<div class="flag-row">
+  <figure><img src="/flags/countries/mc.svg" alt="Flag of Monaco" loading="lazy" /><figcaption>Monaco</figcaption></figure>
+  <figure><img src="/flags/countries/id.svg" alt="Flag of Indonesia" loading="lazy" /><figcaption>Indonesia</figcaption></figure>
+  <figure><img src="/flags/countries/pl.svg" alt="Flag of Poland" loading="lazy" /><figcaption>Poland</figcaption></figure>
+</div>
+
 Indonesia is a vast archipelago, so picture its flag as wider and more "stretched out" (the 2:3 ratio). Monaco is a tiny principality, so its flag is more compact, closer to square. It helps, a little.
 
 ## What is the difference between the Irish and Ivory Coast flags?
 
 Ireland and Ivory Coast (Cote d'Ivoire) both display three vertical stripes of green, white, and orange. The critical difference? The order is reversed. Ireland reads green-white-orange from left to right (hoist side), while Ivory Coast reads orange-white-green.
+
+<div class="flag-row">
+  <figure><img src="/flags/countries/ie.svg" alt="Flag of Ireland" loading="lazy" /><figcaption>Ireland</figcaption></figure>
+  <figure><img src="/flags/countries/ci.svg" alt="Flag of Ivory Coast" loading="lazy" /><figcaption>Ivory Coast</figcaption></figure>
+</div>
 
 This reversal catches people off guard because we tend to remember the colors present in a flag without locking in the sequence. In a timed quiz, the split-second hesitation can cost you.
 
@@ -46,11 +62,20 @@ Ireland starts with green, and Ireland is famously green, the Emerald Isle. Ivor
 
 The flags of Luxembourg and the Netherlands both consist of horizontal red, white, and blue stripes. The distinction lies in the shade of blue: the Netherlands uses a darker cobalt, while Luxembourg employs a lighter sky blue. The Luxembourg flag is also slightly longer in proportion.
 
+<div class="flag-row">
+  <figure><img src="/flags/countries/nl.svg" alt="Flag of Netherlands" loading="lazy" /><figcaption>Netherlands</figcaption></figure>
+  <figure><img src="/flags/countries/lu.svg" alt="Flag of Luxembourg" loading="lazy" /><figcaption>Luxembourg</figcaption></figure>
+</div>
+
 Luxembourg is a small, bright country in central Europe: its blue is lighter, more cheerful. The Netherlands, with its maritime heritage, uses a deeper ocean blue. I think of Dutch painters and their moody seascapes. It sticks. Mixing up these two is one of [the most common geography mistakes](/en/blog/geography-mistakes/) people make. For a full tour of twin banners, see the [flags that look alike](/en/blog/flags-that-look-alike/).
 
 ## Bhutan: The Dragon's Complexity
 
 Moving from look-alikes to sheer complexity, Bhutan's flag is one of the most intricate in the world. It features a white dragon (the Druk, or Thunder Dragon) clutching jewels in its claws, set diagonally across a field split between yellow and orange. Reproducing this flag from memory requires recalling the dragon's exact posture, the color of the jewels, and the diagonal division of the background.
+
+<div class="flag-row">
+  <figure><img src="/flags/countries/bt.svg" alt="Flag of Bhutan" loading="lazy" /><figcaption>Bhutan</figcaption></figure>
+</div>
 
 The symbolism runs deep, and our article on [the meaning of flags, colors, and symbols](/en/blog/flags-meaning/) covers more of these stories. The yellow represents the secular authority of the king. The orange stands for Buddhist spiritual practice. The dragon symbolizes the country's name in Dzongkha: Druk Yul, "Land of the Thunder Dragon." The jewels in its claws represent national wealth and prosperity. Beautiful flag. Nearly impossible to draw.
 
@@ -58,11 +83,19 @@ The symbolism runs deep, and our article on [the meaning of flags, colors, and s
 
 [Turkmenistan's flag](https://en.wikipedia.org/wiki/Flag_of_Turkmenistan) might be the single most detailed national flag in existence. Along the left side runs a vertical stripe containing five traditional carpet gul patterns, each representing one of the country's major tribes. The main field is green with a white crescent moon and five stars. Below the carpet stripe sit two olive branches, added in 1997 to signify the country's neutrality.
 
+<div class="flag-row">
+  <figure><img src="/flags/countries/tm.svg" alt="Flag of Turkmenistan" loading="lazy" /><figcaption>Turkmenistan</figcaption></figure>
+</div>
+
 Accurately recalling every carpet pattern is a feat few can manage, making this flag a recurring stumbling block in any [gamified quiz](/en/blog/gamification-education/) setting. Even recognizing it is a challenge: your brain has to process an unusual amount of visual information before it can match the flag to a country.
 
 ## Belize and Its Coat of Arms
 
 Belize holds the distinction of having one of the most detailed coats of arms on any national flag. The central emblem features two woodcutters (one holding an axe, the other a paddle) flanking a shield that contains a sailing ship, woodcutting tools, and a mahogany tree. A scroll beneath reads "Sub Umbra Floreo" (I Flourish in the Shade). The entire composition is encircled by a wreath of fifty leaves.
+
+<div class="flag-row">
+  <figure><img src="/flags/countries/bz.svg" alt="Flag of Belize" loading="lazy" /><figcaption>Belize</figcaption></figure>
+</div>
 
 Two human figures, multiple tools, a ship, a tree, a Latin motto, a wreath. Even seasoned flag experts struggle to recall every element. It is less a flag and more a miniature painting.
 
@@ -70,13 +103,30 @@ Two human figures, multiple tools, a ship, a tree, a Latin motto, a wreath. Even
 
 Afghanistan's flag has changed more times than almost any other nation's, making it exceptionally difficult to keep up with. Throughout the 20th and 21st centuries, Afghanistan has cycled through dozens of designs reflecting the country's turbulent political history. The classic tricolor of black, red, and green with the national emblem in the center is the most widely recognized version, but knowing which version is current requires keeping up with recent events. The flag is a moving target, sometimes literally.
 
+<div class="flag-row">
+  <figure><img src="/flags/countries/af.svg" alt="Flag of Afghanistan (2004-2021)" loading="lazy" /><figcaption>Afghanistan (2004-2021)</figcaption></figure>
+</div>
+
 ## How did Haiti and Liechtenstein discover they had the same flag?
 
 Until the 1936 Berlin Olympics, Haiti and [Liechtenstein](https://en.wikipedia.org/wiki/Flag_of_Liechtenstein) did not realize their flags were essentially identical: both used horizontal blue and red stripes. The embarrassing discovery at the Games prompted Liechtenstein to add a gold crown to the upper-left corner of its flag the following year. I love this story. Two countries show up to the world's biggest sporting event wearing the same outfit, and one of them has to go home and change.
 
+<div class="flag-row">
+  <figure><img src="/flags/countries/ht.svg" alt="Flag of Haiti" loading="lazy" /><figcaption>Haiti</figcaption></figure>
+  <figure><img src="/flags/countries/li.svg" alt="Flag of Liechtenstein" loading="lazy" /><figcaption>Liechtenstein</figcaption></figure>
+</div>
+
 ## Flags of the Nordic Cross
 
 The Nordic nations (Denmark, Sweden, Norway, Finland, and Iceland) all use variations of the offset cross design. While the color combinations differ, the structural similarity can trip up beginners. Denmark's white cross on a red background is the most distinctive, but distinguishing Norway (red, white, and blue cross) from Iceland (blue, white, and red cross with inverted color emphasis) requires careful attention.
+
+<div class="flag-row">
+  <figure><img src="/flags/countries/dk.svg" alt="Flag of Denmark" loading="lazy" /><figcaption>Denmark</figcaption></figure>
+  <figure><img src="/flags/countries/se.svg" alt="Flag of Sweden" loading="lazy" /><figcaption>Sweden</figcaption></figure>
+  <figure><img src="/flags/countries/no.svg" alt="Flag of Norway" loading="lazy" /><figcaption>Norway</figcaption></figure>
+  <figure><img src="/flags/countries/fi.svg" alt="Flag of Finland" loading="lazy" /><figcaption>Finland</figcaption></figure>
+  <figure><img src="/flags/countries/is.svg" alt="Flag of Iceland" loading="lazy" /><figcaption>Iceland</figcaption></figure>
+</div>
 
 For children just starting to learn geography, the Nordic flags are a fantastic exercise. If you are looking for ways to make this kind of learning engaging, our guide on [teaching geography to kids](/en/blog/geography-for-kids/) has plenty of ideas.
 
@@ -84,15 +134,31 @@ For children just starting to learn geography, the Nordic flags are a fantastic 
 
 Both Australia and New Zealand feature the Union Jack in the upper-left canton and stars on a blue background. Australia displays six white stars, including the large seven-pointed Commonwealth Star beneath the Union Jack and a representation of the Southern Cross constellation. New Zealand shows only four red stars with white borders, also depicting the Southern Cross but with fewer points and different coloring.
 
+<div class="flag-row">
+  <figure><img src="/flags/countries/au.svg" alt="Flag of Australia" loading="lazy" /><figcaption>Australia</figcaption></figure>
+  <figure><img src="/flags/countries/nz.svg" alt="Flag of New Zealand" loading="lazy" /><figcaption>New Zealand</figcaption></figure>
+</div>
+
 New Zealand's flag has fewer stars (four) and uses red. Think "NZ = less is more." Australia has more stars (six) and they are all white. This one actually sticks once you learn it. The hard part is remembering to look for it under quiz pressure.
 
 ## Paraguay: Different on Each Side
 
 Paraguay is one of the very few countries whose flag has different emblems on each side. The obverse shows the national coat of arms (a star surrounded by a wreath), while the reverse displays the treasury seal (a lion guarding a liberty cap on a pole). This makes Paraguay's flag not just hard to recognize but uniquely challenging to reproduce, since you need to remember two distinct designs for a single country.
 
+<div class="flag-row">
+  <figure><img src="/flags/countries/py.svg" alt="Flag of Paraguay" loading="lazy" /><figcaption>Paraguay</figcaption></figure>
+</div>
+
 ## The Pan-African Tricolors
 
 At least 20 of Africa's 54 nations use combinations of green, yellow, and red, colors associated with Pan-Africanism and the Ethiopian flag. Mali, Guinea, Senegal, Cameroon, and others share these hues in various arrangements, sometimes with added symbols like stars or vertical versus horizontal orientations. Sorting out which tricolor belongs to which country is one of the great challenges of African flag identification, and honestly, it is where most of us hit our ceiling.
+
+<div class="flag-row">
+  <figure><img src="/flags/countries/ml.svg" alt="Flag of Mali" loading="lazy" /><figcaption>Mali</figcaption></figure>
+  <figure><img src="/flags/countries/gn.svg" alt="Flag of Guinea" loading="lazy" /><figcaption>Guinea</figcaption></figure>
+  <figure><img src="/flags/countries/sn.svg" alt="Flag of Senegal" loading="lazy" /><figcaption>Senegal</figcaption></figure>
+  <figure><img src="/flags/countries/cm.svg" alt="Flag of Cameroon" loading="lazy" /><figcaption>Cameroon</figcaption></figure>
+</div>
 
 ## The Pan-Arab Flags
 

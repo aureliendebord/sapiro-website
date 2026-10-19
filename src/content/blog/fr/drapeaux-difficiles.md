@@ -22,9 +22,24 @@ Le premier piège, le plus classique : deux drapeaux quasi identiques côte à c
 
 Tchad et Roumanie, donc. Trois bandes verticales bleue, jaune et rouge, dans les deux cas. La seule différence tient à une nuance de bleu : le Tchad utilise un bleu légèrement plus sombre. À l'œil nu, en conditions réelles, sur un mât qui claque au vent ? Bonne chance. C'est la paire qui a provoqué une crise diplomatique.
 
+<div class="flag-row">
+  <figure><img src="/flags/countries/td.svg" alt="Drapeau : Tchad" loading="lazy" /><figcaption>Tchad</figcaption></figure>
+  <figure><img src="/flags/countries/ro.svg" alt="Drapeau : Roumanie" loading="lazy" /><figcaption>Roumanie</figcaption></figure>
+</div>
+
 Monaco et Indonésie posent un problème similaire. Deux bandes horizontales, rouge en haut, blanche en bas. Point. La différence réside dans les proportions : Monaco adopte un ratio de 4:5, l'Indonésie un ratio de 2:3, ce qui rend le drapeau indonésien légèrement plus allongé. En pratique, on ne le remarque jamais.
 
+<div class="flag-row">
+  <figure><img src="/flags/countries/mc.svg" alt="Drapeau : Monaco" loading="lazy" /><figcaption>Monaco</figcaption></figure>
+  <figure><img src="/flags/countries/id.svg" alt="Drapeau : Indonésie" loading="lazy" /><figcaption>Indonésie</figcaption></figure>
+</div>
+
 Irlande et Côte d'Ivoire, c'est plus vicieux. Trois bandes verticales verte, blanche et orange pour les deux. Sauf que l'ordre est inversé. L'Irlande met le vert côté mât (à gauche), la Côte d'Ivoire y met l'orange. Un miroir. Et quand on n'y prête pas attention, le piège fonctionne à chaque fois.
+
+<div class="flag-row">
+  <figure><img src="/flags/countries/ie.svg" alt="Drapeau : Irlande" loading="lazy" /><figcaption>Irlande</figcaption></figure>
+  <figure><img src="/flags/countries/ci.svg" alt="Drapeau : Côte d'Ivoire" loading="lazy" /><figcaption>Côte d'Ivoire</figcaption></figure>
+</div>
 
 ## Les drapeaux aux designs complexes
 
@@ -32,9 +47,21 @@ Certains drapeaux ne ressemblent à rien d'autre. Leur problème, c'est l'invers
 
 Le Turkménistan détient l'un des designs les plus élaborés de la planète. Fond vert, croissant de lune, cinq étoiles, et surtout une bande verticale rouge le long du mât ornée de cinq motifs de tapis traditionnels, un pour chacune des grandes tribus du pays. En dessous, deux branches d'olivier croisées. On pourrait passer dix minutes à le détailler sans en retenir la moitié.
 
+<div class="flag-row">
+  <figure><img src="/flags/countries/tm.svg" alt="Drapeau : Turkménistan" loading="lazy" /><figcaption>Turkménistan</figcaption></figure>
+</div>
+
 Le Bhoutan mise sur un dragon blanc tonnerre, le Druk, sur un fond coupé en diagonale entre jaune et orange. Le dragon tient des joyaux dans ses griffes, symboles de richesse et de perfection. Essayez de le dessiner de mémoire. C'est quasi impossible.
 
+<div class="flag-row">
+  <figure><img src="/flags/countries/bt.svg" alt="Drapeau : Bhoutan" loading="lazy" /><figcaption>Bhoutan</figcaption></figure>
+</div>
+
 Le Sri Lanka frappe par son originalité. Un lion doré brandissant une épée sur fond pourpre, encadré de bandes verticales verte et orange, avec quatre feuilles de pipal dans les coins. Le pourpre comme couleur dominante est rarissime dans les drapeaux nationaux. C'est beau. C'est unique. Et c'est un cauchemar à retenir.
+
+<div class="flag-row">
+  <figure><img src="/flags/countries/lk.svg" alt="Drapeau : Sri Lanka" loading="lazy" /><figcaption>Sri Lanka</figcaption></figure>
+</div>
 
 ## Les drapeaux avec des emblèmes détaillés
 
@@ -42,9 +69,21 @@ Au-delà des designs complexes dans leur ensemble, certains pays ont inséré de
 
 Le Belize bat probablement tout le monde sur ce terrain. Son emblème central montre deux bûcherons (un métis et un créole) encadrant un écusson où figurent un navire, une scie, une hache et un acajou. Le tout ceint d'une couronne de cinquante feuilles, avec la devise "Sub Umbra Floreo" (Je fleuris à l'ombre). [Douze couleurs différentes](https://fr.wikipedia.org/wiki/Drapeau_du_Belize), le record absolu pour un drapeau national. Qui peut honnêtement prétendre le reproduire de tête ?
 
+<div class="flag-row">
+  <figure><img src="/flags/countries/bz.svg" alt="Drapeau : Belize" loading="lazy" /><figcaption>Belize</figcaption></figure>
+</div>
+
 Le Mexique place en son centre un aigle royal perché sur un cactus nopal, en train de dévorer un serpent. La scène vient de la mythologie aztèque. Les plumes de l'aigle, les épines du cactus, les écailles du serpent : chaque détail est là. On reconnaît le drapeau mexicain à cette scène, mais la décrire précisément est une autre affaire.
 
+<div class="flag-row">
+  <figure><img src="/flags/countries/mx.svg" alt="Drapeau : Mexique" loading="lazy" /><figcaption>Mexique</figcaption></figure>
+</div>
+
 L'Afghanistan a changé de drapeau un nombre incalculable de fois au fil de son histoire. La version précédant le régime taliban montrait une mosquée détaillée, des gerbes de blé et une inscription arabe. L'emblème central était si chargé qu'une identification rapide relevait du défi.
+
+<div class="flag-row">
+  <figure><img src="/flags/countries/af.svg" alt="Drapeau : Afghanistan (2004-2021)" loading="lazy" /><figcaption>Afghanistan (2004-2021)</figcaption></figure>
+</div>
 
 ## Les trios de confusion : drapeaux qui se ressemblent à trois
 
@@ -52,7 +91,19 @@ Parfois, on ne confond pas deux drapeaux. On en confond trois. Ces trios sont de
 
 Pays-Bas, Luxembourg et Paraguay : trois bandes horizontales rouge, blanche et bleue. Les Pays-Bas et le Luxembourg sont presque indiscernables : le Luxembourg utilise simplement un bleu plus clair. Le Paraguay partage les mêmes couleurs mais se distingue par un emblème central. Et pas n'importe lequel : un emblème différent sur chaque face, ce qui en fait l'un des rares drapeaux nationaux asymétriques.
 
+<div class="flag-row">
+  <figure><img src="/flags/countries/nl.svg" alt="Drapeau : Pays-Bas" loading="lazy" /><figcaption>Pays-Bas</figcaption></figure>
+  <figure><img src="/flags/countries/lu.svg" alt="Drapeau : Luxembourg" loading="lazy" /><figcaption>Luxembourg</figcaption></figure>
+  <figure><img src="/flags/countries/py.svg" alt="Drapeau : Paraguay" loading="lazy" /><figcaption>Paraguay</figcaption></figure>
+</div>
+
 Mali, Sénégal et Guinée : trois bandes verticales verte, jaune et rouge, les couleurs panafricaines. Le Sénégal tranche le débat avec une étoile verte sur sa bande jaune. Mais entre le Mali et la Guinée ? La seule distinction, c'est l'ordre des couleurs. Vert à gauche pour le Mali, vert à droite pour la Guinée. On respire un grand coup et on essaie de s'en souvenir.
+
+<div class="flag-row">
+  <figure><img src="/flags/countries/ml.svg" alt="Drapeau : Mali" loading="lazy" /><figcaption>Mali</figcaption></figure>
+  <figure><img src="/flags/countries/sn.svg" alt="Drapeau : Sénégal" loading="lazy" /><figcaption>Sénégal</figcaption></figure>
+  <figure><img src="/flags/countries/gn.svg" alt="Drapeau : Guinée" loading="lazy" /><figcaption>Guinée</figcaption></figure>
+</div>
 
 ## Comment différencier les drapeaux aux couleurs identiques ?
 
@@ -60,7 +111,18 @@ Mêmes couleurs, disposition proche, mais des détails subtils qui échappent au
 
 Australie et Nouvelle-Zélande. Fond bleu, Union Jack dans le canton supérieur gauche, étoiles de la Croix du Sud. La recette est commune. Mais l'Australie ajoute une grande étoile du Commonwealth à six branches sous l'Union Jack et colore ses étoiles en blanc. La Nouvelle-Zélande n'a que quatre étoiles, rouges bordées de blanc, et pas d'étoile du Commonwealth. Quand on le sait, ça se voit. Quand on ne le sait pas, on mélange systématiquement.
 
+<div class="flag-row">
+  <figure><img src="/flags/countries/au.svg" alt="Drapeau : Australie" loading="lazy" /><figcaption>Australie</figcaption></figure>
+  <figure><img src="/flags/countries/nz.svg" alt="Drapeau : Nouvelle-Zélande" loading="lazy" /><figcaption>Nouvelle-Zélande</figcaption></figure>
+</div>
+
 Russie, Slovaquie et Slovénie : trois bandes horizontales blanche, bleue et rouge. La Russie les présente sans ajout. La Slovaquie et la Slovénie placent chacune un écusson dans la partie gauche. Celui de la Slovaquie porte une double croix sur trois collines. Celui de la Slovénie montre le mont Triglav avec deux lignes ondulées et trois étoiles. Il faut vraiment connaître ces écussons pour trancher.
+
+<div class="flag-row">
+  <figure><img src="/flags/countries/ru.svg" alt="Drapeau : Russie" loading="lazy" /><figcaption>Russie</figcaption></figure>
+  <figure><img src="/flags/countries/sk.svg" alt="Drapeau : Slovaquie" loading="lazy" /><figcaption>Slovaquie</figcaption></figure>
+  <figure><img src="/flags/countries/si.svg" alt="Drapeau : Slovénie" loading="lazy" /><figcaption>Slovénie</figcaption></figure>
+</div>
 
 ## Quels sont les drapeaux les plus originaux du monde ?
 
@@ -68,7 +130,15 @@ Certains drapeaux sont originaux. Franchement originaux. Mais comme leurs pays s
 
 Le Népal est le seul pays au monde avec un [drapeau non rectangulaire](https://fr.wikipedia.org/wiki/Drapeau_du_N%C3%A9pal). Deux pennons triangulaires superposés forment une sorte de double fanion. Une fois qu'on le connaît, on ne peut plus le confondre. Mais justement : combien de personnes pensent spontanément au Népal dans un quiz ?
 
+<div class="flag-row">
+  <figure><img src="/flags/countries/np.svg" alt="Drapeau : Népal" loading="lazy" /><figcaption>Népal</figcaption></figure>
+</div>
+
 Le Mozambique affiche une arme moderne sur son drapeau. C'est le seul pays à le faire. Un fusil AK-47 avec baïonnette croisé une houe sur un livre ouvert, le tout posé sur une étoile jaune. Un choix qui en dit long sur l'histoire tourmentée du pays et qui ne laisse personne indifférent.
+
+<div class="flag-row">
+  <figure><img src="/flags/countries/mz.svg" alt="Drapeau : Mozambique" loading="lazy" /><figcaption>Mozambique</figcaption></figure>
+</div>
 
 ## Astuces pour mémoriser les drapeaux difficiles
 
