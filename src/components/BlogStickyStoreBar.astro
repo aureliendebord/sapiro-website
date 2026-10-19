@@ -50,7 +50,9 @@ const android = playStoreUrl('blog-sticky', lang);
   const close = document.getElementById('blog-store-bar-close');
   if (!bar || !link || !close) return;
 
-  const KEY = 'sapiro-blog-store-bar-dismissed';
+  // La croix ne vaut que pour CET article : un onglet mobile vit des semaines,
+  // une croix mémorisée pour tout l'onglet cachait la barre partout, pour toujours.
+  const KEY = 'sapiro-blog-store-bar-dismissed:' + location.pathname;
   try {
     if (sessionStorage.getItem(KEY)) return;
   } catch {
