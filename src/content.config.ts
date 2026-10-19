@@ -8,7 +8,7 @@ const blog = defineCollection({
     description: z.string(),
     date: z.coerce.date(),
     lastModified: z.coerce.date().optional(),
-    lang: z.enum(['fr', 'en', 'es']),
+    lang: z.enum(['fr', 'en', 'es', 'de']),
     urlSlug: z.string(),
     translationKey: z.string(),
     // Enum verrouillé : une nouvelle catégorie doit aussi être ajoutée aux

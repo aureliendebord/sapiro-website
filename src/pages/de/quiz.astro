@@ -1,0 +1,38 @@
+---
+import PillarLayout from '../../layouts/PillarLayout.astro';
+import { getCollection } from 'astro:content';
+
+const articles = (await getCollection('blog'))
+  .filter((p) => p.data.lang === 'de' && p.data.category === 'formats-quiz')
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
+  .map((p) => ({ title: p.data.title, url: `/de/blog/${p.data.urlSlug}/` }));
+---
+
+<PillarLayout
+  lang="de"
+  title="Allgemeinwissen-Quiz: alle Formate"
+  description="Flaggenquiz, Hauptstädtequiz, Allgemeinwissen nach Schwierigkeitsgrad, Quiz fürs Büro oder für die Party: alle Quizformate zum Lernen und Moderieren."
+  collectionName="Allgemeinwissen-Quiz: alle Formate"
+  h1="Quiz und Spielformate"
+  lede="Flaggenquiz, Hauptstädtequiz, Quiz nach Niveau, fürs Büro oder für die Party: Das Quizformat passt in jede Situation."
+  intro={[
+    "Das Quiz ist eines der besten Lernwerkzeuge: kurz, spielerisch und beim Einprägen viel wirksamer als passives Lesen. Gleichzeitig ist es eine der besten Gruppenaktivitäten, weil alle mit denselben Chancen starten.",
+    "Diese Sammlung vereint alle Formate: Themenquiz (Flaggen, Hauptstädte), Quiz nach Schwierigkeitsgrad, saisonale Quiz, Quiz fürs Büro und für die Party. Jedes Format hat seine eigenen Regeln und sein eigenes Publikum.",
+  ]}
+  statsTitle="Das Quiz als Werkzeug: die Eckdaten"
+  stats={[
+    "<strong>+50 %</strong> Behaltensleistung mit Quiz im Vergleich zum erneuten Lesen",
+    "<strong>15 Minuten</strong> am Tag, das richtige Tempo, um voranzukommen",
+    "<strong>15–20 Fragen</strong> pro Runde, danach lässt die Aufmerksamkeit nach",
+    "<strong>2.000+</strong> geprüfte Fragen in SAPIRO aus 4 Welten",
+    "<strong>4 Bereiche</strong>: Geografie, Geschichte, Kunst, Natur",
+  ]}
+  articlesTitle="Alle Artikel dieser Sammlung"
+  articles={articles}
+  faqTitle="Häufige Fragen"
+  faq={[
+    { q: "Warum helfen Quiz beim Einprägen?", a: "Aktives Abfragen, also sich zu zwingen, eine Antwort aus dem Gedächtnis abzurufen, verankert Wissen viel besser als erneutes Lesen. Die Kognitionswissenschaft misst einen Zugewinn beim Behalten von etwa 50 %." },
+    { q: "Wie viele Fragen braucht ein gutes Quiz?", a: "15 bis 20 Fragen pro Runde. Danach lässt die Aufmerksamkeit nach. Ein kurzes Quiz, das regelmäßig wiederholt wird, schlägt ein langes, ermüdendes." },
+    { q: "Wie moderiert man ein Quiz in der Gruppe?", a: "Schwierigkeitsgrade mischen, nach jeder Antwort eine Erklärung geben, die Dauer begrenzen und eine symbolische Belohnung vorsehen. Die Moderation (Tonfall, Spannung) zählt genauso viel wie die Fragen." },
+  ]}
+/>

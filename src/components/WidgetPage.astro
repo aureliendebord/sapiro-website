@@ -90,6 +90,30 @@ const COPY = {
     ],
     terms: 'Uso libre y gratuito, también en clase. Por favor, conserva el enlace «Quiz de SAPIRO» debajo del widget.',
   },
+  de: {
+    h1: 'Ein Geografie-Quiz für deine Website',
+    lede: 'Flaggen oder Hauptstädte: 5 zufällige Fragen aus 197 Ländern, nach jeder Antwort eine kurze Erklärung. Kostenlos, ohne Werbung, ohne Cookies, ohne Anmeldung. Einmal kopieren und einfügen – fertig.',
+    themeLabel: 'Thema',
+    themes: { flags: 'Flaggen', capitals: 'Hauptstädte' },
+    codeLabel: 'Code zum Einfügen in deine Seite',
+    copy: 'Code kopieren',
+    copied: 'Kopiert',
+    credit: 'Geografie-Quiz von SAPIRO',
+    iframeTitle: { flags: 'SAPIRO Flaggen-Quiz', capitals: 'SAPIRO Hauptstädte-Quiz' },
+    whoTitle: 'Für wen',
+    who: [
+      'Lehrkräfte für Erdkunde und Geschichte: eine 2-Minuten-Aktivität zum Stundenbeginn oder auf der Lernplattform, ohne Schülerkonto.',
+      'Reiseblogs und Wissensseiten: interaktiver Inhalt, der Leser auf der Seite hält.',
+      'Bibliotheken, Vereine und Seiten zur Prüfungsvorbereitung.',
+    ],
+    howTitle: 'So funktioniert’s',
+    how: [
+      'Wähle ein Thema, kopiere den Code und füge ihn in einen HTML-Block ein (WordPress, Moodle, Notion, Google Sites …).',
+      'Das Quiz aktualisiert sich selbst: Die Fragen wechseln bei jeder Runde.',
+      'Auf den Geräten deiner Besucher wird nichts gespeichert: keine Cookies, keine Werbung. Nur eine anonyme Reichweitenmessung zählt die gespielten Runden.',
+    ],
+    terms: 'Frei und kostenlos nutzbar, auch im Unterricht. Bitte lass den Link „Quiz von SAPIRO“ unter dem Widget stehen.',
+  },
 }[lang];
 
 const SITE = 'https://sapiro.app';
@@ -97,7 +121,7 @@ const SITE = 'https://sapiro.app';
 function snippet(theme: EmbedTheme): string {
   return [
     `<iframe src="${SITE}${embedPath(lang, theme)}" title="${COPY.iframeTitle[theme]}" width="100%" height="520" style="border:0;border-radius:16px;max-width:560px" loading="lazy"></iframe>`,
-    `<p style="font-size:13px"><a href="${SITE}${routes.home[lang]}">${COPY.credit}</a></p>`,
+    `<p style="font-size:13px"><a href="${SITE}${routes.home[lang] ?? routes.home.fr}">${COPY.credit}</a></p>`,
   ].join('\n');
 }
 

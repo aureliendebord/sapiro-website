@@ -54,7 +54,8 @@ export function readChallenge(search: string): Challenge | null {
 /** Grille de résultat façon Wordle : lisible sans ouvrir le lien, sans spoiler. */
 export function shareText(lang: GameLang, challenge: Challenge, answers: boolean[]): string {
   const [year, month, day] = challenge.dayKey.split("-");
-  const date = lang === "en" ? `${month}/${day}/${year}` : `${day}/${month}/${year}`;
+  const date =
+    lang === "en" ? `${month}/${day}/${year}` : lang === "de" ? `${day}.${month}.${year}` : `${day}/${month}/${year}`;
   const grid = answers.map((ok) => (ok ? "🟩" : "🟥")).join("");
   return [
     t("web.share.title", { date, score: challenge.score, total: challenge.total }),

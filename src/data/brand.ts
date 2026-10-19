@@ -6,7 +6,7 @@
  * d'URL du tout.
  *
  * Pour ajouter une fiche (Product Hunt, AlternativeTo, Wikidata…) : une ligne
- * dans `DIRECTORY_PROFILES`, elle part dans le `sameAs` des trois accueils.
+ * dans `DIRECTORY_PROFILES`, elle part dans le `sameAs` des accueils.
  */
 import { APP_STORE_ID, APP_STORE_SLUG, PLAY_STORE_URL } from './appLinks';
 
@@ -52,5 +52,5 @@ export const WEBSITE_SCHEMA = {
   '@type': 'WebSite',
   name: 'SAPIRO',
   url: 'https://sapiro.app',
-  inLanguage: ['fr', 'en', 'es'],
+  inLanguage: ['fr', 'en', 'es', 'de'],
 };

@@ -7,7 +7,7 @@ import BlogInlineCta from '../components/BlogInlineCta.astro';
 import BlogQuiz, { type BlogQuizQuestion } from '../components/BlogQuiz.astro';
 import StickyMobileCta from '../components/v2/StickyMobileCta.astro';
 import type { Lang } from '../i18n';
-import { getTranslations, getLocalePath } from '../i18n';
+import { getTranslations, getLocalePath, dateLocales, LANGS } from '../i18n';
 import type { FaqItem } from '../utils/faq';
 import type { ListItem } from '../utils/list';
 import { getClusterForCategory } from '../data/clusters';
@@ -16,11 +16,7 @@ import RelatedPosts from '../components/RelatedPosts.astro';
 import PrintSheet from '../components/PrintSheet.astro';
 import { imageSize } from '../lib/image-size';
 
-interface TranslationSlugs {
-  fr?: string;
-  en?: string;
-  es?: string;
-}
+type TranslationSlugs = Partial<Record<Lang, string>>;
 
 interface Props {
   title: string;
@@ -38,6 +34,9 @@ interface Props {
   canonicalTo?: string;
   quiz?: BlogQuizQuestion[];
   printable?: boolean;
+  image?: string;
+  imageAlt?: string;
+  imageCredit?: string;
 }
 
 const { title, description, date, lastModified, lang, slug, category, author, readingTime, faqItems = [], listItems = [], translationSlugs, canonicalTo, quiz, printable, image, imageAlt, imageCredit } = Astro.props;
@@ -52,7 +51,7 @@ const ogImage = heroIsLandscape ? heroImageUrl : undefined;
 const t = getTranslations(lang);
 const modifiedDate = lastModified || date;
 
-const formattedDate = date.toLocaleDateString(lang === 'fr' ? 'fr-FR' : lang === 'en' ? 'en-US' : 'es-ES', {
+const formattedDate = date.toLocaleDateString(dateLocales[lang], {
   year: 'numeric',
   month: 'long',
   day: 'numeric'
@@ -63,8 +62,10 @@ const blogUrl = getLocalePath('/blog', lang);
 
 // Cluster thematique de l'article (tete de silo)
 const cluster = getClusterForCategory(category);
-const clusterLabel = cluster ? cluster.label[lang] : null;
-const clusterUrl = cluster ? cluster.pillarSlug[lang] : null;
+// Pas de page pilier allemande pour certains clusters (concours, famille,
+// comparatifs) : le niveau cluster disparaît alors du fil d'Ariane.
+const clusterLabel = cluster?.label[lang] ?? null;
+const clusterUrl = cluster?.pillarSlug[lang] ?? null;
 
 // Hreflang pour cet article (avec trailing slash et slugs par langue). Une
 // langue absente de translationSlugs est une version canonicalisee ailleurs :
@@ -73,10 +74,20 @@ const clusterUrl = cluster ? cluster.pillarSlug[lang] : null;
 // quitte.
 const hreflangPaths: Array<{ lang: string; href: string }> = [];
 if (!canonicalTo) {
-  if (translationSlugs?.fr) hreflangPaths.push({ lang: 'fr', href: `https://sapiro.app/blog/${translationSlugs.fr}/` });
-  if (translationSlugs?.en) hreflangPaths.push({ lang: 'en', href: `https://sapiro.app/en/blog/${translationSlugs.en}/` });
-  if (translationSlugs?.es) hreflangPaths.push({ lang: 'es', href: `https://sapiro.app/es/blog/${translationSlugs.es}/` });
+  for (const l of LANGS) {
+    const tslug = translationSlugs?.[l];
+    if (tslug) hreflangPaths.push({ lang: l, href: `https://sapiro.app${getLocalePath(`/blog/${tslug}`, l)}` });
+  }
 }
+
+// Sélecteur de langue : la traduction de l'article, sinon l'accueil du blog
+// de cette langue (l'allemand ne traduit qu'une partie des articles).
+const langAlternates = Object.fromEntries(
+  LANGS.map((l) => {
+    const tslug = translationSlugs?.[l];
+    return [l, tslug ? getLocalePath(`/blog/${tslug}`, l) : getLocalePath('/blog', l)];
+  }),
+) as Partial<Record<Lang, string>>;
 const hreflangs = hreflangPaths;
 const xDefault = hreflangs.find(h => h.lang === 'fr') || hreflangs[0];
 
@@ -164,7 +175,7 @@ const breadcrumbSchema = {
   noDefaultHreflang={true}
   canonicalOverride={canonicalTo}
   ogType="article"
-  ogImage={ogImage}
+  ogImage={ogImage ?? undefined}
   ogImageAlt={ogImage ? imageAlt : undefined}
   ogImageWidth={ogImage ? heroDims!.width : undefined}
   ogImageHeight={ogImage ? heroDims!.height : undefined}
@@ -187,7 +198,7 @@ const breadcrumbSchema = {
     {schemaList && <script type="application/ld+json" set:html={JSON.stringify(schemaList)} />}
   </Fragment>
 
-  <Header lang={lang} t={t} />
+  <Header lang={lang} t={t} alternates={langAlternates} />
 
   <main class="blog-post">
     <article class="container">

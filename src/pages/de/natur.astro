@@ -1,0 +1,177 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import StickyMobileCta from '../../components/v2/StickyMobileCta.astro';
+import { getTranslations } from '../../i18n';
+import { getCollection } from 'astro:content';
+
+const lang = 'de';
+const t = getTranslations(lang);
+
+// Nur ein Teil der Artikel ist auf Deutsch übersetzt: Jede kuratierte Liste
+// wird über translationKey aufgelöst, Einträge ohne deutschen Artikel fallen weg,
+// leere Abschnitte werden ausgeblendet.
+const allPosts = await getCollection('blog');
+const dePosts = allPosts
+  .filter(p => p.data.lang === 'de')
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+const byKey = new Map(dePosts.map(p => [p.data.translationKey, p]));
+
+const curated = [
+  {
+    title: 'Das Wichtigste',
+    items: [
+      { key: 'quiz-animaux-monde', label: '50 Tierarten, die du erkennen solltest' },
+      { key: 'animaux-ressemblants', label: '20 Tierpaare, die sich zum Verwechseln ähneln' },
+      { key: 'animaux-dangereux', label: 'Die 15 gefährlichsten Tiere' },
+      { key: 'animaux-disparition', label: 'Vom Aussterben bedrohte Tiere' },
+      { key: 'animaux-etranges', label: '20 seltsame und unbekannte Tiere' },
+    ],
+  },
+  {
+    title: 'Nach Region und Familie',
+    items: [
+      { key: 'animaux-afrique', label: '40 typische Tiere Afrikas' },
+      { key: 'races-chiens', label: '30 Hunderassen erkennen' },
+    ],
+  },
+  {
+    title: 'Lernen mit der Familie',
+    items: [
+      { key: 'quiz-nature-enfants', label: 'Naturquiz für Kinder' },
+      { key: 'identifier-animaux-enfants', label: 'Tiere bestimmen mit Kindern' },
+    ],
+  },
+];
+
+const sections = curated
+  .map(s => ({
+    title: s.title,
+    items: s.items
+      .flatMap(i => {
+        const post = byKey.get(i.key);
+        return post ? [{ label: i.label, post }] : [];
+      }),
+  }))
+  .filter(s => s.items.length > 0);
+
+const shownKeys = new Set(curated.flatMap(s => s.items.map(i => i.key)));
+const natCategories = ['nature'];
+const moreArticles = dePosts.filter(
+  p => natCategories.includes(p.data.category) && !shownKeys.has(p.data.translationKey),
+);
+
+const collectionPageSchema = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Natur und Tiere: Arten der Welt, Artenschutz, Biodiversität",
+  "description": "Natur und Tierwelt: 600 Tierarten, die gefährlichsten Tiere, bedrohte Arten, Tiere bestimmen.",
+  "url": "https://sapiro.app/de/natur/",
+  "inLanguage": "de"
+};
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "Welches ist das gefährlichste Tier der Welt?", "acceptedAnswer": { "@type": "Answer", "text": "Die Stechmücke ist das gefährlichste Tier der Welt, mit rund 725.000 Todesfällen pro Jahr, vor allem durch Malaria und Dengue. Kein Tier hat in der Geschichte mehr Menschen getötet (50 bis 70 Milliarden Todesfälle insgesamt)." } },
+    { "@type": "Question", "name": "Was ist der Unterschied zwischen Gepard und Leopard?", "acceptedAnswer": { "@type": "Answer", "text": "Der Gepard ist schlank, hat volle Tupfen (nie Rosetten) und schwarze „Tränenstreifen“ unter den Augen. Der Leopard ist kräftiger und trägt Rosetten (blütenförmige Flecken). Der Gepard klettert nicht auf Bäume, der Leopard schon." } },
+    { "@type": "Question", "name": "Wie viele Tierarten gibt es auf der Welt?", "acceptedAnswer": { "@type": "Answer", "text": "Schätzungen zufolge gibt es rund 8 Millionen Arten auf der Erde, von denen 1,5 Millionen wissenschaftlich beschrieben sind. Die Artenvielfalt ist zum großen Teil noch unerforscht: 86 % der Landarten und 91 % der Meeresarten sind noch nicht beschrieben." } },
+    { "@type": "Question", "name": "Welche Tiere sind vom Aussterben bedroht?", "acceptedAnswer": { "@type": "Answer", "text": "Laut der Roten Liste der IUCN 2025 sind über 47.000 Arten bedroht. Kritische Fälle: Java-Nashorn (76 Tiere), Kalifornischer Schweinswal (Vaquita, 10 Tiere), Chinesisches Schuppentier, Sumatra-Tiger (weniger als 400), Tapanuli-Orang-Utan (800 Tiere)." } }
+  ]
+};
+---
+
+<Layout title="Natur und Tiere: Arten, Artenschutz, Biodiversität | SAPIRO" description="Natur und Tierwelt: 600 Tierarten, die gefährlichsten Tiere der Welt, vom Aussterben bedrohte Arten. Ratgeber und Quiz." lang={lang}>
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(collectionPageSchema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+  </Fragment>
+
+  <Header lang={lang} t={t} />
+
+  <main class="pillar-page">
+    <article class="container">
+      <header class="pillar-header">
+        <h1>Natur und Tiere</h1>
+        <p class="lede">600 Tierarten, vom Blauwal bis zum Bärtierchen. Bestimmen, schützen, Artenvielfalt verstehen: alles über das Tierreich.</p>
+      </header>
+
+      <section class="pillar-intro">
+        <p>Das Tierreich umfasst rund 8 Millionen Arten, von denen 1,5 Millionen beschrieben sind. Niemand kennt sie alle. Aber mit 50 bis 100 Schlüsselarten verstehst du die Artenvielfalt, ihre Dynamik und ihre Bedrohungen. Und verwechselst nie wieder einen Gepard mit einem Leoparden.</p>
+        <p>SAPIRO umfasst 600 Tierarten, geordnet nach Kontinent, Lebensraum und Familie, mit einer Erklärung zum Kontext zu jeder Frage.</p>
+      </section>
+
+      <section class="pillar-stats">
+        <h2>Natur in Zahlen</h2>
+        <ul>
+          <li><strong>8 Millionen</strong> geschätzte Arten auf der Erde, davon 1,5 Millionen beschrieben</li>
+          <li><strong>47.000+</strong> bedrohte Arten laut der Roten Liste der IUCN 2025</li>
+          <li><strong>725.000</strong> Todesfälle pro Jahr durch Stechmücken (das gefährlichste Tier)</li>
+          <li><strong>70 %</strong> Rückgang der afrikanischen Tierbestände seit 1970 (WWF)</li>
+          <li><strong>600</strong> Tierarten in SAPIRO, von den bekanntesten bis zu den seltsamsten</li>
+        </ul>
+      </section>
+
+      {sections.map(s => (
+        <section class="pillar-sub">
+          <h2>{s.title}</h2>
+          <ul class="pillar-grid">
+            {s.items.map(i => (
+              <li><a href={`/de/blog/${i.post.data.urlSlug}/`}>{i.label}</a></li>
+            ))}
+          </ul>
+        </section>
+      ))}
+
+      {moreArticles.length > 0 && (
+        <section class="pillar-sub">
+          <h2>Weitere Artikel</h2>
+          <ul class="pillar-grid">
+            {moreArticles.map(p => (
+              <li><a href={`/de/blog/${p.data.urlSlug}/`}>{p.data.title}</a></li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      <section class="pillar-faq">
+        <h2>Häufige Fragen zu Tieren</h2>
+
+        <h3>Welches ist das gefährlichste Tier der Welt?</h3>
+        <p>Die Stechmücke ist das gefährlichste Tier der Welt, mit rund 725.000 Todesfällen pro Jahr, vor allem durch Malaria und Dengue. Kein Tier hat in der Geschichte mehr Menschen getötet (50 bis 70 Milliarden Todesfälle insgesamt).</p>
+
+        <h3>Was ist der Unterschied zwischen Gepard und Leopard?</h3>
+        <p>Der Gepard ist schlank, hat volle Tupfen (nie Rosetten) und schwarze „Tränenstreifen“ unter den Augen. Der Leopard ist kräftiger und trägt Rosetten (blütenförmige Flecken). Der Gepard klettert nicht auf Bäume, der Leopard schon.</p>
+
+        <h3>Wie viele Tierarten gibt es auf der Welt?</h3>
+        <p>Schätzungen zufolge gibt es rund 8 Millionen Arten auf der Erde, von denen 1,5 Millionen wissenschaftlich beschrieben sind. Die Artenvielfalt ist zum großen Teil noch unerforscht: 86 % der Landarten und 91 % der Meeresarten sind noch nicht beschrieben.</p>
+
+        <h3>Welche Tiere sind vom Aussterben bedroht?</h3>
+        <p>Laut der Roten Liste der IUCN 2025 sind über 47.000 Arten bedroht. Kritische Fälle: Java-Nashorn (76 Tiere), Kalifornischer Schweinswal (Vaquita, 10 Tiere), Chinesisches Schuppentier, Sumatra-Tiger (weniger als 400), Tapanuli-Orang-Utan (800 Tiere).</p>
+      </section>
+    </article>
+  </main>
+
+  <Footer lang={lang} t={t} />
+  <StickyMobileCta lang={lang} campaign="sticky-pillar" />
+</Layout>
+
+<style>
+  .pillar-page { padding-top: 100px; padding-bottom: 60px; }
+  .pillar-header { text-align: center; padding-bottom: 32px; margin-bottom: 32px; border-bottom: 1px solid var(--gris-clair); }
+  .pillar-header h1 { font-size: clamp(2.25rem, 4.5vw, 3.25rem); margin-bottom: 16px; }
+  .lede { font-size: 1.25rem; color: var(--gris); max-width: 720px; margin: 0 auto; }
+  .pillar-intro, .pillar-stats, .pillar-sub, .pillar-faq { max-width: 800px; margin: 0 auto 48px; }
+  .pillar-intro p { line-height: 1.75; margin-bottom: 16px; font-size: 1.05rem; }
+  .pillar-stats ul { padding-left: 24px; }
+  .pillar-stats li { margin-bottom: 8px; line-height: 1.7; }
+  .pillar-sub h2, .pillar-stats h2, .pillar-faq h2 { font-size: 1.75rem; margin-bottom: 20px; }
+  .pillar-grid { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 12px; }
+  .pillar-grid li { padding: 14px 18px; background: var(--gris-clair); border-radius: 8px; }
+  .pillar-grid a { color: var(--noir); text-decoration: none; font-weight: 500; }
+  .pillar-grid a:hover { color: var(--orange); }
+  .pillar-faq h3 { font-size: 1.1rem; margin-top: 24px; margin-bottom: 8px; }
+  .pillar-faq p { line-height: 1.7; margin-bottom: 16px; }
+</style>

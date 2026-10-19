@@ -10,7 +10,7 @@
  *
  * UNE seule exception au copier-coller, générée depuis `scripts/templates/` :
  *  - `lib/content/locales.ts` : l'app importe 11 langues de JSON en statique
- *    (~13 Mo). Le web n'en sert que 3 (fr/en/es), chargées à la demande. Même
+ *    (~13 Mo). Le web n'en sert que 4 (fr/en/es/de), chargées à la demande. Même
  *    API publique et surtout MÊME ordre de repli que l'app.
  *
  * Usage :
@@ -69,8 +69,8 @@ const COPY = [
   { from: 'lib/content/artworks.ts', to: 'lib/content/artworks.ts' },
 ];
 
-/** Locales : seulement les 3 langues du site, et seulement les JSON utiles. */
-const LOCALE_LANGS = ['fr', 'en', 'es'];
+/** Locales : seulement les 4 langues du site, et seulement les JSON utiles. */
+const LOCALE_LANGS = ['fr', 'en', 'es', 'de'];
 const LOCALE_FILES = [
   'animals.json', 'artworks.json', 'countries.json', 'empires.json',
   'figures.json', 'game.json', 'monuments.json', 'organizations.json',

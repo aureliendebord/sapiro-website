@@ -1,6 +1,6 @@
 #!/usr/bin/env node
-// Vérifie que les articles markdown EN/ES ne contiennent pas de liens internes
-// pointant vers des slugs FR sous /en/blog/ ou /es/blog/.
+// Vérifie que les articles markdown EN/ES/DE ne contiennent pas de liens internes
+// pointant vers des slugs FR (ou inexistants) sous /en/blog/, /es/blog/ ou /de/blog/.
 //
 // Le moindre lien zombie crée une URL servie en 200 OK qui ressemble à du
 // duplicate content pour Googlebot. Voir commit 687c25e pour le contexte.
@@ -13,10 +13,11 @@ import { join, basename, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'content', 'blog');
-const LANGS = ['fr', 'en', 'es'];
+const LANGS = ['fr', 'en', 'es', 'de'];
 
 async function listSlugs(lang) {
-  const files = await readdir(join(ROOT, lang));
+  // L'allemand ne traduit qu'une partie des articles : le dossier peut manquer.
+  const files = await readdir(join(ROOT, lang)).catch(() => []);
   return new Set(files.filter((f) => f.endsWith('.md')).map((f) => f.replace(/\.md$/, '')));
 }
 
@@ -26,9 +27,9 @@ async function main() {
 
   const issues = [];
 
-  for (const lang of ['en', 'es']) {
+  for (const lang of ['en', 'es', 'de']) {
     const dir = join(ROOT, lang);
-    const files = await readdir(dir);
+    const files = await readdir(dir).catch(() => []);
     for (const file of files) {
       if (!file.endsWith('.md')) continue;
       const path = join(dir, file);
@@ -54,7 +55,7 @@ async function main() {
     console.error(`  ${i.file} -> ${i.brokenLink}`);
   }
   console.error(
-    '\nFix: replace each FR slug with the matching EN/ES slug in the markdown.\n' +
+    '\nFix: replace each FR slug with the matching EN/ES/DE slug in the markdown.\n' +
       'Use the translationKey frontmatter to find the right target.\n',
   );
   process.exit(1);

@@ -1,0 +1,103 @@
+---
+import { ORGANIZATION_SCHEMA, WEBSITE_SCHEMA } from '../../data/brand';
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+
+import HeroV2 from '../../components/v2/HeroV2.astro';
+import TrustBarV2 from '../../components/v2/TrustBarV2.astro';
+import DemoQuizV2 from '../../components/v2/DemoQuizV2.astro';
+import UniversesV2 from '../../components/v2/UniversesV2.astro';
+import FaqCompactV2 from '../../components/v2/FaqCompactV2.astro';
+import DownloadV2 from '../../components/v2/DownloadV2.astro';
+import StickyMobileCta from '../../components/v2/StickyMobileCta.astro';
+
+import HowItWorks from '../../components/HowItWorks.astro';
+import GameModes from '../../components/GameModes.astro';
+import ForWho from '../../components/ForWho.astro';
+
+import { getTranslations } from '../../i18n';
+
+const lang = 'de';
+const t = getTranslations(lang);
+---
+
+<Layout title={t.meta.title} description={t.meta.description} lang={lang}>
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "MobileApplication",
+      "name": "SAPIRO",
+      "applicationCategory": "EducationalApplication",
+      "operatingSystem": "iOS, Android",
+      "description": "SAPIRO ist eine kostenlose, werbefreie Lern-Quiz-App zu Geografie (197 Länder), Geschichte (500+ Persönlichkeiten), Kunst (553 Werke) und Natur (600 Tierarten). Über 2000 geprüfte Fragen, jede mit einer Erklärung. Duell-Modus gegen andere Spieler, tägliche Herausforderung, Routen und Rekordmodus.",
+      "url": "https://sapiro.app/de/",
+      "inLanguage": ["fr", "en", "es", "de"],
+      "image": "https://sapiro.app/images/icon-1024.png",
+      "installUrl": "https://apps.apple.com/app/sapiro-general-knowledge-quiz/id6757706883"
+    })} />
+    <script type="application/ld+json" set:html={JSON.stringify(ORGANIZATION_SCHEMA)} />
+    <script type="application/ld+json" set:html={JSON.stringify(WEBSITE_SCHEMA)} />
+  </Fragment>
+  <Header lang={lang} t={t} />
+  <main class="v2-main">
+    <HeroV2 lang={lang} />
+    <TrustBarV2 lang={lang} />
+    <DemoQuizV2 lang={lang} />
+    <UniversesV2 lang={lang} />
+    <HowItWorks lang={lang} />
+    <GameModes lang={lang} />
+    <ForWho lang={lang} />
+    <FaqCompactV2 lang={lang} />
+    <DownloadV2 lang={lang} />
+  </main>
+  <Footer lang={lang} t={t} />
+  <StickyMobileCta lang={lang} mode="anchor" />
+</Layout>
+
+<style is:global>
+  .v2-main .how-it-works,
+  .v2-main .game-modes,
+  .v2-main .for-who {
+    background: #FBF4EB;
+  }
+
+  .v2-main > section {
+    opacity: 0;
+    transform: translateY(24px);
+    transition: opacity 0.7s cubic-bezier(0.22, 1, 0.36, 1), transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  .v2-main > section.revealed,
+  .v2-main > section:first-child {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .v2-main > section {
+      opacity: 1 !important;
+      transform: none !important;
+      transition: none !important;
+    }
+  }
+</style>
+
+<script is:inline>
+(() => {
+  const sections = document.querySelectorAll('.v2-main > section');
+  if (!('IntersectionObserver' in window)) {
+    sections.forEach((s) => s.classList.add('revealed'));
+    return;
+  }
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach((e) => {
+      if (e.isIntersecting) {
+        e.target.classList.add('revealed');
+        io.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
+  sections.forEach((s) => io.observe(s));
+})();
+</script>

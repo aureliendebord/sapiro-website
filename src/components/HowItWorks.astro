@@ -79,10 +79,35 @@ const content = {
         icon: "crossed-swords"
       }
     ]
+  },
+  de: {
+    title: "Wie funktioniert's?",
+    subtitle: "In 3 Schritten zum Allwissenden",
+    steps: [
+      {
+        number: "1",
+        title: "Wähle dein Quiz",
+        description: "Geografie, Geschichte, Kunst oder Natur. Du hast die Wahl!",
+        icon: "target"
+      },
+      {
+        number: "2",
+        title: "Beantworte die Fragen",
+        description: "10 Fragen pro Quiz. Jede richtige Antwort bringt dir Punkte!",
+        icon: "bulb"
+      },
+      {
+        number: "3",
+        title: "Fordere andere heraus",
+        description: "Tritt im Duell gegen andere Spieler an, gewinne Trophäen und halte deine Serie am Leben!",
+        icon: "crossed-swords"
+      }
+    ]
   }
 };
 
 const t = content[lang];
+const readyLabel: Record<Lang, string> = { fr: 'Prêt à jouer ?', en: 'Ready to play?', es: '¿Listo para jugar?', de: 'Bereit zum Spielen?' };
 ---
 
 <section class="how-it-works section">
@@ -108,7 +133,7 @@ const t = content[lang];
     <div class="mascot-container">
       <img src="/images/icon-180.png" alt="SAPIRO Mascot" class="mascot" />
       <div class="mascot-speech">
-        <span>{lang === 'fr' ? 'Prêt à jouer ?' : lang === 'en' ? 'Ready to play?' : '¿Listo para jugar?'}</span>
+        <span>{readyLabel[lang]}</span>
       </div>
     </div>
   </div>

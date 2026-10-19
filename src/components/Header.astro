@@ -1,15 +1,25 @@
 ---
 import type { Lang } from '../i18n';
-import { getLocalePath, localeFlags } from '../i18n';
+import { getLocalePath, localeFlags, localeNames, LANGS } from '../i18n';
+import { getHreflangUrls } from '../i18n/routes';
 import { playGameUrl } from '../data/appLinks';
 
 interface Props {
   lang: Lang;
   t: any;
+  /**
+   * Version de la page courante dans chaque langue (ex. traductions d'un
+   * article). Par défaut : la table des routes. Une langue sans équivalent
+   * renvoie vers son accueil — l'allemand n'a pas toutes les pages.
+   */
+  alternates?: Partial<Record<Lang, string>>;
 }
 
-const { lang, t } = Astro.props;
-const languages: Lang[] = ['fr', 'en', 'es'];
+const { lang, t, alternates } = Astro.props;
+const routeAlternates = Object.fromEntries(
+  (getHreflangUrls(Astro.url.pathname) ?? []).map((r) => [r.lang, r.path]),
+) as Partial<Record<Lang, string>>;
+const switchHref = (l: Lang) => (alternates ?? routeAlternates)[l] ?? getLocalePath('/', l);
 ---
 
 <header class="header">
@@ -37,11 +47,12 @@ const languages: Lang[] = ['fr', 'en', 'es'];
     >{t.header.playCta}</a>
 
     <div class="lang-switcher">
-      {languages.map((l) => (
+      {LANGS.map((l) => (
         <a
-          href={getLocalePath('/', l)}
+          href={switchHref(l)}
           class={`lang-btn ${l === lang ? 'active' : ''}`}
-          aria-label={l === 'fr' ? 'Francais' : l === 'en' ? 'English' : 'Espanol'}
+          aria-label={localeNames[l]}
+          hreflang={l}
         >
           {localeFlags[l]}
         </a>
@@ -291,6 +302,27 @@ const languages: Lang[] = ['fr', 'en', 'es'];
 
     .nav-cta--block {
       display: flex;
+    }
+  }
+
+  /* Quatre langues : sur les plus petits téléphones, le sélecteur se resserre
+     pour que logo, langues et burger tiennent sur une ligne. */
+  @media (max-width: 420px) {
+    .header-content {
+      gap: 8px;
+    }
+
+    .logo {
+      gap: 8px;
+    }
+
+    .logo-text {
+      font-size: 1.25rem;
+    }
+
+    .lang-btn {
+      padding: 6px 7px;
+      font-size: 13px;
     }
   }
 </style>

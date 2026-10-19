@@ -18,7 +18,6 @@ interface Props {
   lang: Lang;
   title: string;
   description: string;
-  hreflang: { fr: string; en: string; es: string };
   h1: string;
   lede: string;
   intro: string[];
@@ -32,12 +31,14 @@ interface Props {
 }
 
 const {
-  lang, title, description, hreflang, h1, lede, intro,
+  lang, title, description, h1, lede, intro,
   statsTitle, stats, articlesTitle, articles, faqTitle, faq, collectionName,
 } = Astro.props;
 
 const t = getTranslations(lang);
-const canonical = hreflang[lang];
+// Canonical et hreflang : émis par Layout depuis la table des routes
+// (src/i18n/routes.ts), qui sait quelles langues existent pour la page.
+const canonical = new URL(Astro.url.pathname, Astro.site).toString();
 
 const collectionSchema = {
   '@context': 'https://schema.org',
@@ -61,13 +62,8 @@ const faqSchema = faq.length > 0 ? {
 } : null;
 ---
 
-<Layout title={`${title} | SAPIRO`} description={description} lang={lang} noDefaultHreflang={true}>
+<Layout title={`${title} | SAPIRO`} description={description} lang={lang}>
   <Fragment slot="head">
-    <link rel="canonical" href={canonical} />
-    <link rel="alternate" hreflang="fr" href={hreflang.fr} />
-    <link rel="alternate" hreflang="en" href={hreflang.en} />
-    <link rel="alternate" hreflang="es" href={hreflang.es} />
-    <link rel="alternate" hreflang="x-default" href={hreflang.fr} />
     <script type="application/ld+json" set:html={JSON.stringify(collectionSchema)} />
     {faqSchema && <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />}
   </Fragment>
@@ -92,14 +88,16 @@ const faqSchema = faq.length > 0 ? {
         </ul>
       </section>
 
-      <section class="pillar-sub">
-        <h2>{articlesTitle}</h2>
-        <ul class="pillar-grid">
-          {articles.map((a) => (
-            <li><a href={a.url}>{a.title}</a></li>
-          ))}
-        </ul>
-      </section>
+      {articles.length > 0 && (
+        <section class="pillar-sub">
+          <h2>{articlesTitle}</h2>
+          <ul class="pillar-grid">
+            {articles.map((a) => (
+              <li><a href={a.url}>{a.title}</a></li>
+            ))}
+          </ul>
+        </section>
+      )}
 
       {faq.length > 0 && (
         <section class="pillar-faq">
