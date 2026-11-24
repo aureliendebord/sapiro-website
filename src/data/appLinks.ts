@@ -46,7 +46,9 @@ export type StoreCampaign =
   /** QR code affiché sur ordinateur, scanné par un téléphone (page /app/). */
   | 'qr-desktop'
   /** Jeu web sur téléphone, encart sous le résultat de chaque partie. */
-  | 'result-mobile';
+  | 'result-mobile'
+  /** Page du défi d'un ami (/d/<id>), ouverte depuis un lien partagé dans l'app. */
+  | 'duel-invite';
 
 export function appStoreUrl(lang: Lang, campaign: StoreCampaign): string {
   const base = `https://apps.apple.com/${APP_STORE_STOREFRONT[lang]}/app/${APP_STORE_SLUG}/id${APP_STORE_ID}`;

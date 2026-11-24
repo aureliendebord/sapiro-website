@@ -1,0 +1,129 @@
+---
+/**
+ * Page du défi d'un ami : cible du lien « Défier un ami » partagé depuis l'app
+ * (https://sapiro.app/d/<id de la partie>).
+ *
+ * App installée : le lien universel ouvre directement le duel, cette page
+ * n'est jamais vue. App absente : on montre qui défie et avec quel score, puis
+ * on envoie vers le bon store. « J'ai déjà Sapiro » couvre le cas où le lien
+ * s'est ouvert dans le navigateur malgré l'app (navigateur intégré d'une
+ * messagerie, Android sans vérification du domaine).
+ *
+ * Rendue à la demande : le score est lu sur le serveur (RPC publique
+ * get_duel_invite_card, migration 0029 de l'app), ce qui donne aussi un aperçu
+ * correct dans les messageries. Hors index.
+ */
+import { appStoreUrl, playStoreUrl } from '../../data/appLinks';
+
+export const prerender = false;
+
+type Lang = 'fr' | 'en' | 'es' | 'de';
+type Card = { pseudo: string; theme: string; is_mix: boolean; points: number; total: number };
+
+const { run = '' } = Astro.params;
+const valid = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(run);
+
+const accept = (Astro.request.headers.get('accept-language') ?? '').slice(0, 2).toLowerCase();
+const lang: Lang = (['fr', 'en', 'es', 'de'] as const).includes(accept as Lang) ? (accept as Lang) : 'en';
+
+let card: Card | null = null;
+const url = import.meta.env.PUBLIC_SUPABASE_URL;
+const key = import.meta.env.PUBLIC_SUPABASE_ANON_KEY;
+if (valid && url && key) {
+  try {
+    const res = await fetch(`${url}/rest/v1/rpc/get_duel_invite_card`, {
+      method: 'POST',
+      headers: { apikey: key, Authorization: `Bearer ${key}`, 'Content-Type': 'application/json' },
+      body: JSON.stringify({ p_run_id: run }),
+      signal: AbortSignal.timeout(3000),
+    });
+    if (res.ok) {
+      const rows = (await res.json()) as Card[];
+      card = Array.isArray(rows) && rows[0] ? rows[0] : null;
+    }
+  } catch {
+    card = null;
+  }
+}
+
+const THEMES: Record<string, Record<Lang, string>> = {
+  geography: { fr: 'Géographie', en: 'Geography', es: 'Geografía', de: 'Geografie' },
+  history: { fr: 'Histoire', en: 'History', es: 'Historia', de: 'Geschichte' },
+  art: { fr: 'Art', en: 'Art', es: 'Arte', de: 'Kunst' },
+  nature: { fr: 'Nature', en: 'Nature', es: 'Naturaleza', de: 'Natur' },
+  monument: { fr: 'Monuments', en: 'Monuments', es: 'Monumentos', de: 'Monumente' },
+  mix: { fr: 'Culture générale', en: 'General knowledge', es: 'Cultura general', de: 'Allgemeinwissen' },
+};
+const T = {
+  fr: { dares: 'te défie', generic: 'Un ami te défie sur Sapiro', beat: 'Tu fais mieux ?', cta: 'Relever le défi', free: "Gratuit sur l'App Store et Google Play", have: "J'ai déjà Sapiro" },
+  en: { dares: 'challenges you', generic: 'A friend challenges you on Sapiro', beat: 'Can you beat that?', cta: 'Take the challenge', free: 'Free on the App Store and Google Play', have: 'I already have Sapiro' },
+  es: { dares: 'te reta', generic: 'Un amigo te reta en Sapiro', beat: '¿Lo superas?', cta: 'Aceptar el reto', free: 'Gratis en App Store y Google Play', have: 'Ya tengo Sapiro' },
+  de: { dares: 'fordert dich heraus', generic: 'Ein Freund fordert dich auf Sapiro heraus', beat: 'Schaffst du mehr?', cta: 'Herausforderung annehmen', free: 'Kostenlos im App Store und bei Google Play', have: 'Ich habe Sapiro schon' },
+}[lang];
+
+const theme = card ? (THEMES[card.is_mix ? 'mix' : card.theme]?.[lang] ?? THEMES.mix[lang]) : null;
+const title = card ? `${card.pseudo} ${T.dares}` : T.generic;
+const description = card && theme ? `${card.points}/${card.total} · ${theme}. ${T.beat}` : T.beat;
+const ios = appStoreUrl(lang, 'duel-invite');
+const android = playStoreUrl('duel-invite', lang);
+const appLink = valid ? `sapiro://d/${run}` : 'sapiro://';
+---
+<!doctype html>
+<html lang={lang}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex" />
+    <title>{title} · Sapiro</title>
+    <meta name="description" content={description} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:site_name" content="Sapiro" />
+    <meta name="apple-itunes-app" content="app-id=6757706883" />
+    <script defer src="https://trafic.debord.eu/script.js" data-website-id="32b4fd6e-17a1-465a-b2ee-fe09c0f6dad7"></script>
+    <style>
+      * { box-sizing: border-box; }
+      body { margin: 0; min-height: 100vh; min-height: 100dvh; display: grid; place-items: center; background: #fbf4eb; color: #1a1816; font-family: system-ui, -apple-system, 'Segoe UI', sans-serif; text-align: center; }
+      main { width: 100%; max-width: 380px; padding: 32px 24px; }
+      .medal { width: 104px; height: 104px; margin: 0 auto; border-radius: 50%; background: #2f6fed; display: grid; place-items: center; }
+      .medal span { width: 84px; height: 84px; border-radius: 50%; background: #fbf4eb; display: grid; place-items: center; font-size: 40px; font-weight: 800; }
+      h1 { margin: 18px 0 0; font-size: 30px; line-height: 1.15; font-weight: 800; }
+      .score { margin: 6px 0 0; font-size: 84px; line-height: 1; font-weight: 800; letter-spacing: -2px; }
+      .score small { font-size: 36px; letter-spacing: 0; color: #6e665c; }
+      .sub { margin: 10px 0 0; font-size: 17px; color: #6e665c; }
+      .cta { display: block; margin: 36px 0 0; padding: 16px 22px; border-radius: 16px; background: #ff5e3a; color: #fff; text-decoration: none; font-size: 19px; font-weight: 800; }
+      .free { margin: 12px 0 0; font-size: 14px; color: #6e665c; }
+      .have { display: inline-block; margin: 18px 0 0; padding: 8px; font-size: 15px; color: #1a1816; }
+      .stores { display: none; gap: 10px; margin: 36px 0 0; }
+      .stores a { flex: 1; padding: 14px 10px; border-radius: 14px; background: #1a1816; color: #fff; text-decoration: none; font-weight: 700; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="medal"><span>{card ? card.pseudo.slice(0, 1).toUpperCase() : '?'}</span></div>
+      <h1>{title}</h1>
+      {card && <p class="score">{card.points}<small>/{card.total}</small></p>}
+      <p class="sub">{card && theme ? `${theme}. ${T.beat}` : T.beat}</p>
+      <a class="cta" id="cta" href={ios} data-umami-event="duel-invite-cta">{T.cta}</a>
+      <div class="stores" id="stores">
+        <a href={ios} data-umami-event="duel-invite-cta" data-umami-event-store="app-store">App Store</a>
+        <a href={android} data-umami-event="duel-invite-cta" data-umami-event-store="play-store">Google Play</a>
+      </div>
+      <p class="free">{T.free}</p>
+      <a class="have" href={appLink} data-umami-event="duel-invite-open-app">{T.have}</a>
+    </main>
+    <script is:inline define:vars={{ ios, android }}>
+      const ua = navigator.userAgent;
+      const isAndroid = /Android/i.test(ua);
+      const isIos = /iPhone|iPad|iPod/i.test(ua) || (/Macintosh/i.test(ua) && navigator.maxTouchPoints > 1);
+      const cta = document.getElementById('cta');
+      if (isAndroid) cta.href = android;
+      else if (isIos) cta.href = ios;
+      else {
+        // Ordinateur : pas de store à deviner, on propose les deux.
+        cta.style.display = 'none';
+        document.getElementById('stores').style.display = 'flex';
+      }
+    </script>
+  </body>
+</html>

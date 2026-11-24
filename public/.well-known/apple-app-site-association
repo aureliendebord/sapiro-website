@@ -1,0 +1,10 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["R9CD69UNH9.com.sapiro.app"],
+        "components": [{ "/": "/d/*", "comment": "Défi d'un ami : ouvre le duel dans l'app" }]
+      }
+    ]
+  }
+}

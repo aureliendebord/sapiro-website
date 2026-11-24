@@ -29,3 +29,8 @@
 /es/credits/*
   Content-Type: text/html; charset=utf-8
   Cache-Control: public, max-age=3600
+
+# Liens universels iOS (defi d'un ami, /d/<id>) : Apple exige du JSON, sans redirection
+/.well-known/apple-app-site-association
+  Content-Type: application/json; charset=utf-8
+  Cache-Control: public, max-age=3600
