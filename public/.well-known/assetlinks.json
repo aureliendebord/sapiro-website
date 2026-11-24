@@ -1,0 +1,10 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.sapiro.app",
+      "sha256_cert_fingerprints": ["66:CD:1F:13:6F:5F:53:33:0F:C4:74:90:A7:84:D8:E0:34:C3:B2:A0:28:73:90:7C:21:61:76:CD:FC:9E:87:1D"]
+    }
+  }
+]
