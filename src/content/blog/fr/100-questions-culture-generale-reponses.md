@@ -2,6 +2,7 @@
 title: "100 questions de culture générale (avec réponses)"
 description: "100 questions de culture générale avec réponses expliquées, par thème et par niveau. La grande liste pour réviser à fond ou animer un quiz géant."
 date: 2026-06-24
+lastModified: 2026-11-27
 image: "/images/blog/monde/capitale-paris.jpg"
 imageAlt: "Vue aérienne de Paris"
 imageCredit: "Photo : Drew Coffman drewcoffman · CC0 · Wikimedia Commons"
@@ -43,22 +44,22 @@ Les questions sont rangées par thème (géographie, histoire, art et culture, s
 **L'Antarctique.** Ce désert froid couvre environ 14 millions de km², devant le Sahara.
 
 **4. Quel est le pays le plus peuplé du monde ?** *(moyen)*
-**L'Inde.** Elle a dépassé la Chine vers 2023 avec plus de 1,4 milliard d'habitants.
+**L'Inde.** Elle a dépassé la Chine [en avril 2023, selon les projections de l'ONU](https://www.un.org/en/desa/india-overtake-china-world-most-populous-country-april-2023-united-nations-projects), avec plus de 1,4 milliard d'habitants.
 
 **5. Quelle est la capitale de l'Égypte ?** *(facile)*
 **Le Caire.** C'est la plus grande ville du monde arabe, traversée par le Nil.
 
 **6. Quel pays est le plus peuplé d'Afrique ?** *(moyen)*
-**Le Nigeria.** Avec plus de 200 millions d'habitants, il devance largement l'Éthiopie et l'Égypte.
+**Le Nigeria.** Avec environ 233 millions d'habitants en 2024 selon la Banque mondiale, il devance largement l'Éthiopie (132 millions) et l'Égypte (117 millions).
 
 **7. Sur quel continent se trouve la cordillère des Andes ?** *(facile)*
-**L'Amérique du Sud.** Cette chaîne longe la façade ouest du continent sur près de 7 000 km.
+**L'Amérique du Sud.** Cette chaîne longe la façade ouest du continent sur plus de 7 000 km.
 
 **8. Quel est le plus grand lac d'eau douce du monde par superficie ?** *(moyen)*
-**Le lac Supérieur.** Entre le Canada et les États-Unis, il s'étend sur plus de 82 000 km².
+**Le lac Supérieur.** Entre le Canada et les États-Unis, il s'étend sur [plus de 82 000 km²](https://www.epa.gov/greatlakes/physical-features-great-lakes).
 
 **9. Quelle mer sépare l'Europe de l'Afrique ?** *(facile)*
-**La Méditerranée.** Elle relie l'Atlantique à l'Asie via le canal de Suez.
+**La Méditerranée.** Elle communique avec l'Atlantique par le détroit de Gibraltar et avec la mer Rouge par le canal de Suez.
 
 **10. Quelle est la capitale de l'Argentine ?** *(facile)*
 **Buenos Aires.** Elle est située sur la rive du Río de la Plata.
@@ -67,7 +68,7 @@ Les questions sont rangées par thème (géographie, histoire, art et culture, s
 **L'Océanie.** C'est aussi le moins peuplé après l'Antarctique.
 
 **12. Quel pays compte le plus de volcans actifs au monde ?** *(difficile)*
-**L'Indonésie.** Posée sur la ceinture de feu du Pacifique, elle en compte plus de 120.
+**L'Indonésie.** Posée sur la ceinture de feu du Pacifique, elle arrive [en tête pour le nombre de volcans ayant connu une éruption historique, devant le Japon et les États-Unis, selon l'USGS](https://www.usgs.gov/faqs/where-does-united-states-rank-number-volcanoes). Son agence géologique en recense 127 actifs.
 
 **13. Quelle chaîne de montagnes sépare la France de l'Espagne ?** *(facile)*
 **Les Pyrénées.** Elles s'étendent de l'Atlantique à la Méditerranée.
@@ -121,8 +122,8 @@ Pour continuer en géo : nos [capitales par continent](/blog/quiz-capitales-mond
 **28. Quelle reine a régné sur le Royaume-Uni de 1837 à 1901, donnant son nom à une époque ?** *(moyen)*
 **La reine Victoria.** L'ère victorienne correspond à l'apogée de l'Empire britannique.
 
-**29. Quel mur antique défendait l'Empire romain au nord de l'actuelle Grande-Bretagne ?** *(difficile)*
-**Le mur d'Hadrien.** Construit vers 122 apr. J.-C., il marquait la frontière nord de la province romaine.
+**29. Quel mur antique défendait l'Empire romain dans le nord de l'actuelle Grande-Bretagne ?** *(difficile)*
+**Le mur d'Hadrien.** Construit à partir de 122 apr. J.-C., il marquait la frontière nord de la province romaine.
 
 **30. Quelle dynastie a unifié la Chine et lui a donné son nom ?** *(difficile)*
 **La dynastie Qin.** Son fondateur, Qin Shi Huang, devint le premier empereur en 221 av. J.-C.
@@ -189,7 +190,7 @@ Pour mettre des visages sur ces époques : nos [personnages qui ont marqué l'hi
 **Le violon.** Ses instruments de Crémone comptent parmi les plus prisés au monde.
 
 **50. Qui a sculpté la statue du « David » à Florence ?** *(facile)*
-**Michel-Ange.** Cette sculpture de marbre de plus de 5 mètres fut achevée en 1504.
+**Michel-Ange.** Cette sculpture de marbre de [5,17 mètres](https://www.galleriaaccademiafirenze.it/en/artworks/david-michelangelo/) fut achevée en 1504.
 
 **51. Quel poète grec de l'Antiquité a composé « L'Iliade » et « L'Odyssée » ?** *(moyen)*
 **Homère.** Ces deux épopées fondatrices remontent au VIIIe siècle av. J.-C.
@@ -207,13 +208,13 @@ Pour mettre des visages sur ces époques : nos [personnages qui ont marqué l'hi
 **Le surréalisme.** Ce mouvement explore le rêve et l'inconscient.
 
 **56. Quel dramaturge français du XVIIe siècle a écrit « Tartuffe » et « Le Misanthrope » ?** *(moyen)*
-**Molière.** Ce maître de la comédie est mort sur scène en 1673.
+**Molière.** Ce maître de la comédie meurt en 1673 [à l'issue d'une représentation du « Malade imaginaire »](https://www.comedie-francaise.fr/fr/moliere), chez lui et non sur scène comme le veut la légende.
 
 **57. Quel écrivain américain a écrit « Le Vieil Homme et la Mer » ?** *(moyen)*
-**Ernest Hemingway.** Ce court roman de 1952 lui valut le prix Pulitzer.
+**Ernest Hemingway.** Ce court roman de 1952 lui valut le prix Pulitzer en 1953.
 
 **58. Quel compositeur italien a écrit « Les Quatre Saisons » ?** *(moyen)*
-**Antonio Vivaldi.** Ces quatre concertos pour violon datent d'environ 1725.
+**Antonio Vivaldi.** Ces quatre concertos pour violon furent publiés en 1725.
 
 **59. Dans la mythologie égyptienne, quel dieu à tête de chacal préside à la momification ?** *(difficile)*
 **Anubis.** Il accompagne les morts et veille à la pesée du cœur.
@@ -229,7 +230,7 @@ Pour reconnaître les grands tableaux : nos [œuvres d'art incontournables](/blo
 **Le fémur.** Cet os de la cuisse mesure environ un quart de la taille d'une personne.
 
 **62. Quel muscle est le plus puissant du corps humain par rapport à sa taille ?** *(difficile)*
-**Le masséter.** Ce muscle de la mâchoire exerce une très forte pression lors de la mastication.
+**Le masséter.** Ce muscle de la mâchoire, [que le Guinness World Records retient comme le plus puissant du corps humain](https://www.guinnessworldrecords.com/world-records/67575-strongest-muscle), exerce une très forte pression lors de la mastication.
 
 **63. Quel scientifique a formulé la théorie de la relativité ?** *(facile)*
 **Albert Einstein.** Relativité restreinte en 1905, relativité générale en 1915.
@@ -296,7 +297,7 @@ Pour relier les sciences au reste : le [guide de la culture générale](/blog/cu
 **Un omnivore.** L'ours et l'humain en sont des exemples.
 
 **83. Quel est le plus grand poisson du monde ?** *(moyen)*
-**Le requin-baleine.** Inoffensif pour l'homme, il atteint 12 mètres et se nourrit de plancton.
+**Le requin-baleine.** Inoffensif pour l'homme, il [peut dépasser 12 mètres](https://www.nationalgeographic.com/animals/fish/facts/whale-shark) et se nourrit de plancton.
 
 **84. Quel arbre produit les noisettes ?** *(moyen)*
 **Le noisetier.** Aussi appelé coudrier, il pousse souvent dans les haies.
@@ -341,7 +342,7 @@ Pour relier les sciences au reste : le [guide de la culture générale](/blog/cu
 **Le lion.** C'est le seul félin vraiment social, contrairement aux autres grands félins solitaires.
 
 **98. Quel conifère garde ses aiguilles toute l'année ?** *(facile)*
-**Le sapin.** Ses aiguilles, persistantes, restent en place plusieurs années.
+**Le sapin**, comme la plupart des conifères (épicéa, pin). Ses aiguilles persistantes restent en place plusieurs années ; le mélèze, lui, perd les siennes à l'automne.
 
 **99. Quel animal réalise la plus longue migration annuelle, d'un pôle à l'autre ?** *(difficile)*
 **La sterne arctique.** Elle migre chaque année entre l'Arctique et l'Antarctique.
@@ -385,3 +386,44 @@ L'application SAPIRO propose des centaines de questions classées par thème et 
   <img src="/images/blog/art/ecole-athenes.jpg" alt="L'École d'Athènes de Raphaël" loading="lazy" />
   <figcaption>Photo : Raphael · domaine public · Wikimedia Commons</figcaption>
 </figure>
+
+## Sources
+
+**Géographie**
+
+- [ONU, département des affaires économiques et sociales, « India to overtake China as world's most populous country in April 2023 »](https://www.un.org/en/desa/india-overtake-china-world-most-populous-country-april-2023-united-nations-projects) : l'Inde devient le pays le plus peuplé, projection d'avril 2023.
+- [Banque mondiale, indicateur « Population, total » (SP.POP.TOTL), Nigeria](https://api.worldbank.org/v2/country/NGA/indicator/SP.POP.TOTL?date=2024&format=json) : population du Nigeria, donnée 2024 (les chiffres de l'Éthiopie et de l'Égypte viennent du même indicateur).
+- [Agence américaine de protection de l'environnement (EPA), Physical Features of the Great Lakes](https://www.epa.gov/greatlakes/physical-features-great-lakes) : superficie du lac Supérieur, 82 100 km².
+- [Institut d'études géologiques des États-Unis (USGS), « Where does the United States rank in the number of volcanoes? »](https://www.usgs.gov/faqs/where-does-united-states-rank-number-volcanoes) : l'Indonésie première pour les volcans à éruption historique, devant le Japon et les États-Unis.
+- [RRI, radio publique indonésienne, « Indonesia's 127 Active Volcanoes Require Broader Monitoring »](https://rri.co.id/en/national/2734295/indonesias-127-active-volcanoes-require-broader-monitoring) : 127 volcans actifs recensés en Indonésie.
+- [Guinness World Records, Longest continental mountain range](https://www.guinnessworldrecords.com/world-records/longest-continental-mountain-range) : longueur de la cordillère des Andes, 7 600 km.
+- [Ministère de l'Europe et des Affaires étrangères, dossier Antarctique](https://www.diplomatie.gouv.fr/fr/dossiers-pays/antarctique/) : superficie de l'Antarctique, 14 millions de km², page mise à jour en 2026.
+
+**Histoire**
+
+- [Château de Versailles, Louis XIV](https://www.chateauversailles.fr/decouvrir/histoire/grands-personnages/louis-xiv) : 72 années de règne, mort le 1er septembre 1715.
+- [English Heritage, History of Hadrian's Wall](https://www.english-heritage.org.uk/visit/places/hadrians-wall/hadrians-wall-history-and-stories/history/) : mur construit sur ordre d'Hadrien après sa venue en Bretagne en 122.
+- [Institut Pasteur, Notre histoire](https://www.pasteur.fr/fr/institut-pasteur/notre-histoire) : vaccination de Joseph Meister contre la rage, juillet 1885.
+
+**Art et culture**
+
+- [Galleria dell'Accademia de Florence, David de Michel-Ange](https://www.galleriaaccademiafirenze.it/en/artworks/david-michelangelo/) : hauteur de 517 cm, œuvre réalisée de 1501 à 1504.
+- [Comédie-Française, Molière](https://www.comedie-francaise.fr/fr/moliere) : mort de Molière à l'issue de la quatrième représentation du « Malade imaginaire », 1673.
+- [Rijksmuseum, La Ronde de nuit](https://www.rijksmuseum.nl/en/collection/SK-C-5) : tableau de Rembrandt daté de 1642.
+- [Musée Marmottan Monet, notice d'« Impression, soleil levant »](https://www.marmottan.fr/notice/4014/) : toile de Claude Monet peinte en 1872.
+- [Fondation Nobel, Ernest Hemingway](https://www.nobelprize.org/prizes/literature/1954/hemingway/facts/) : « Le Vieil Homme et la Mer » publié en 1952.
+
+**Sciences**
+
+- [Guinness World Records, Strongest muscle](https://www.guinnessworldrecords.com/world-records/67575-strongest-muscle) : le masséter, muscle le plus puissant du corps humain.
+- [Fondation Nobel, Alexander Fleming](https://www.nobelprize.org/prizes/medicine/1945/fleming/facts/) : découverte de la pénicilline en 1928.
+- [American Heart Association, All About Heart Rate](https://www.heart.org/en/health-topics/high-blood-pressure/the-facts-about-high-blood-pressure/all-about-heart-rate-pulse) : fréquence cardiaque normale au repos, de 60 à 100 battements par minute.
+- [NASA, Saturn: Facts](https://science.nasa.gov/saturn/facts/) : anneaux de Saturne faits de glace et de roche couvertes de poussières.
+
+**Nature**
+
+- [National Geographic, Whale shark](https://www.nationalgeographic.com/animals/fish/facts/whale-shark) : plus grand poisson du monde, 12 mètres ou plus, se nourrit de plancton.
+- [National Geographic, Arctic tern](https://www.nationalgeographic.com/animals/birds/facts/arctic-tern) : la sterne arctique, plus longue migration du règne animal, de l'Arctique à l'Antarctique.
+- [Programme antarctique australien, Emperor penguin](https://www.antarctica.gov.au/about-antarctica/animals/penguins/emperor-penguin/) : le manchot empereur, plus grande des espèces de manchots.
+- [Smithsonian's National Zoo, Western lowland gorilla](https://nationalzoo.si.edu/animals/western-lowland-gorilla) : les gorilles, plus grands des grands singes.
+- [Woodland Trust, European larch](https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/european-larch/) : le mélèze, seul conifère d'Europe à perdre ses aiguilles.
