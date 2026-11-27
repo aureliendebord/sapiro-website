@@ -50,11 +50,10 @@ const ogImage = heroIsLandscape ? heroImageUrl : undefined;
 const t = getTranslations(lang);
 const modifiedDate = lastModified || date;
 
-const formattedDate = date.toLocaleDateString(dateLocales[lang], {
-  year: 'numeric',
-  month: 'long',
-  day: 'numeric'
-});
+const dateFormat: Intl.DateTimeFormatOptions = { year: 'numeric', month: 'long', day: 'numeric' };
+const formattedDate = date.toLocaleDateString(dateLocales[lang], dateFormat);
+const updatedDate = lastModified && lastModified > date ? lastModified : undefined;
+const formattedUpdated = updatedDate?.toLocaleDateString(dateLocales[lang], dateFormat);
 
 const categoryLabel = t.blog.categories[category] || category;
 const blogUrl = getLocalePath('/blog', lang);
@@ -225,6 +224,7 @@ const breadcrumbSchema = {
         <h1>{title}</h1>
         <div class="article-info">
           <span>{t.blog.publishedOn} <time datetime={date.toISOString()}>{formattedDate}</time></span>
+          {updatedDate && <span>· {t.blog.updatedOn} <time datetime={updatedDate.toISOString()}>{formattedUpdated}</time></span>}
           <span class="article-author">— <a href={getLocalePath('/about', lang)} rel="author">{AUTHOR.name}</a></span>
         </div>
       </header>
