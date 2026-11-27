@@ -1,8 +1,7 @@
 ---
 title: "African Wildlife: 40 Emblematic Species"
 description: "Lion, wildebeest, fennec, oryx: 40 emblematic animals from Africa with their habitat, diet and conservation status. Complete guide by region."
-date: 2026-01-20
-lastModified: 2026-06-15
+date: 2026-05-17
 image: "/images/blog/nature/elephant-afrique.jpg"
 imageAlt: "A herd of African elephants crossing a river"
 imageCredit: "Photo: Geoff Gallice · CC BY 2.0 · Wikimedia Commons"

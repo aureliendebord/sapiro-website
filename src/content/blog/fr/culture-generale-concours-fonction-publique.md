@@ -1,8 +1,7 @@
 ---
 title: "Culture générale aux concours de la fonction publique"
 description: "Réviser la culture générale pour les concours de la fonction publique : programme officiel, thèmes récurrents et méthode pour préparer l'épreuve."
-date: 2026-02-07
-lastModified: 2026-06-15
+date: 2026-05-17
 image: "/images/blog/famille/salle-classe.jpg"
 imageAlt: "Une salle de classe avec un tableau noir"
 imageCredit: "Photo : AKA MBG · CC0 · Wikimedia Commons"

@@ -2,7 +2,6 @@
 title: "Least Populated Countries in the World: Top 20 (2026)"
 description: "Vatican City has about 800 residents, Tuvalu about 11,000: the least populated country and the least populated UN member. The 20 countries with the fewest people, ranked."
 date: 2026-10-14
-lastModified: 2026-10-14
 image: "/images/blog/monde/vatican.jpg"
 imageAlt: "Vatican City seen from above"
 imageCredit: "Photo: CAPTAIN RAJU · CC0 · Wikimedia Commons"

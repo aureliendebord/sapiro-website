@@ -1,8 +1,7 @@
 ---
 title: "Quels sont les pays les moins visités du monde ? Top 15 (2026)"
 description: "Découvrez les 15 pays les moins visités au monde : Tuvalu, Kiribati, Turkménistan... Pourquoi si peu de touristes et que faut-il y voir ?"
-date: 2026-03-05
-lastModified: 2026-06-15
+date: 2026-05-17
 image: "/images/blog/monde/carte-monde-ancienne.jpg"
 imageAlt: "Une vieille carte du monde"
 imageCredit: "Photo : Reginald Lane Poole · domaine public · Wikimedia Commons"

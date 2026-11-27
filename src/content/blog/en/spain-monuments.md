@@ -1,8 +1,7 @@
 ---
 title: "Monuments of Spain: 8 Sites You Need to Know"
 description: "From the Sagrada Família to the Alhambra, a tour of Spain's great monuments, with their city, style and Roman, Muslim and Christian heritage."
-date: 2026-03-02
-lastModified: 2026-06-15
+date: 2026-06-15
 image: "/images/blog/monuments/sagrada-familia.jpg"
 imageAlt: "Inside the Sagrada Família in Barcelona, with its columns and spiral staircases"
 imageCredit: "Photo: Alvesgaspar · CC BY-SA 4.0 · Wikimedia Commons"

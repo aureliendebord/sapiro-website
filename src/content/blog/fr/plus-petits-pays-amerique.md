@@ -2,7 +2,6 @@
 title: "Les 10 plus petits pays d'Amérique, tous dans les Caraïbes"
 description: "Saint-Christophe-et-Niévès (261 km²) est le plus petit pays d'Amérique. Les 10 plus petits pays américains, tous insulaires, et le plus petit du continent."
 date: 2026-08-17
-lastModified: 2026-08-17
 image: "/images/blog/famille/globe-atlas-table.jpg"
 imageAlt: "Une carte du monde grecque ancienne en deux hémisphères"
 imageCredit: "Photo : Ánthimos Gazís · domaine public · Wikimedia Commons"

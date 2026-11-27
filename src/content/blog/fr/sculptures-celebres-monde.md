@@ -1,7 +1,7 @@
 ---
 title: "Les 15 sculptures les plus célèbres du monde (et où les voir)"
 description: "Le David, Le Penseur, la Vénus de Milo : les 15 sculptures les plus célèbres du monde, ce qui les rend incontournables et où les voir aujourd'hui."
-date: 2026-01-26
+date: 2026-05-17
 image: "/images/blog/art/david-michel-ange.jpg"
 imageAlt: "Le David de Michel-Ange"
 imageCredit: "Photo : Commonists · CC BY-SA 4.0 · Wikimedia Commons"

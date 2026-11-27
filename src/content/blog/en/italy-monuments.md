@@ -1,8 +1,7 @@
 ---
 title: "Monuments of Italy: Rome, Florence, Venice and Pompeii"
 description: "From Rome to Venice, here are the monuments of Italy worth knowing: the Colosseum, St Peter's, Florence's Duomo, the Pisa tower and Pompeii."
-date: 2026-02-25
-lastModified: 2026-06-15
+date: 2026-06-15
 image: "/images/blog/monuments/colisee-rome.jpg"
 imageAlt: "The Colosseum in Rome"
 imageCredit: "Photo: Wilfredor · CC0 · Wikimedia Commons"

@@ -1,8 +1,7 @@
 ---
 title: "Quiz cultura general nivel secundaria y bachillerato"
 description: "Entrenarse en cultura general a nivel secundaria y bachillerato: temas recurrentes, preguntas tipo y método para superar exámenes."
-date: 2026-02-09
-lastModified: 2026-06-15
+date: 2026-05-17
 image: "/images/blog/famille/salle-classe.jpg"
 imageAlt: "Un aula con una pizarra"
 imageCredit: "Foto: AKA MBG · CC0 · Wikimedia Commons"

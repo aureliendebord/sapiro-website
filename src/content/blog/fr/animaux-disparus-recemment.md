@@ -2,7 +2,6 @@
 title: "10 animaux disparus à cause de l'homme (du dodo au rhinocéros)"
 description: "Dodo, vache de mer de Steller, grand pingouin, pigeon migrateur, thylacine : 10 animaux disparus à l'époque moderne, avec leur date et la cause de leur extinction."
 date: 2026-07-21
-lastModified: 2026-07-21
 image: "/images/blog/nature/rhinoceros.jpg"
 imageAlt: "Crâne de rhinocéros avec ses deux cornes, exposé dans un musée"
 imageCredit: "Photo : Jebulon · CC0 · Wikimedia Commons"

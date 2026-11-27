@@ -1,8 +1,7 @@
 ---
 title: "What Do Flags Mean? Colors and Symbols Explained"
 description: "What do flag colors actually represent? Explore the meaning of flags colors and symbols, from Japan's red sun to Nepal's unique shape and Brazil's sky."
-date: 2025-11-05
-lastModified: 2026-06-15
+date: 2026-03-01
 image: "/images/blog/monde/mur-drapeaux.jpg"
 imageAlt: "A 17th-century marine painting: ships flying their colours in a Mediterranean port"
 imageCredit: "Photo: Willem van de Velde the Younger · public domain · Wikimedia Commons"

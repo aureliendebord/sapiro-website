@@ -1,8 +1,7 @@
 ---
 title: "Monumentos de Italia: Roma, Florencia, Venecia y Pompeya"
 description: "De Roma a Venecia, estos son los monumentos de Italia que hay que conocer: Coliseo, San Pedro, Duomo de Florencia, torre de Pisa y Pompeya."
-date: 2026-02-25
-lastModified: 2026-06-15
+date: 2026-06-15
 image: "/images/blog/monuments/colisee-rome.jpg"
 imageAlt: "El Coliseo de Roma"
 imageCredit: "Foto: Wilfredor · CC0 · Wikimedia Commons"

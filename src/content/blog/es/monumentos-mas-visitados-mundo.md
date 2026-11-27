@@ -1,8 +1,7 @@
 ---
 title: "Los monumentos más visitados del mundo: la clasificación"
 description: "Ciudad Prohibida, Gran Muralla, Torre Eiffel… ¿Qué monumentos atraen más visitantes cada año? La clasificación, las cifras y por qué los recuentos no cuadran."
-date: 2026-02-06
-lastModified: 2026-06-15
+date: 2026-06-15
 image: "/images/blog/monuments/cite-interdite.jpg"
 imageAlt: "La Ciudad Prohibida en Pekín"
 imageCredit: "Foto: Kallgan · CC BY-SA 3.0 · Wikimedia Commons"

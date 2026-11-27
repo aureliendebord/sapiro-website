@@ -1,8 +1,7 @@
 ---
 title: "Diktatoren des 20. Jahrhunderts einfach erklärt (für Jugendliche)"
 description: "Hitler, Stalin, Mao, Franco, Pol Pot: die wichtigsten Diktatoren des 20. Jahrhunderts einfach erklärt, mit ihren Ideologien und deren Folgen."
-date: 2026-02-06
-lastModified: 2026-06-15
+date: 2026-10-19
 image: "/images/blog/histoire/mur-de-berlin.jpg"
 imageAlt: "Reste der Berliner Mauer"
 imageCredit: "Photo: Slaunger · CC BY-SA 3.0 · Wikimedia Commons"

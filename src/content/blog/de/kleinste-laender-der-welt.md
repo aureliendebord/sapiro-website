@@ -1,8 +1,7 @@
 ---
 title: "Kleinstes Land der Welt? Die Top 10 (2026)"
 description: "Der Vatikan (0,49 km²) ist das kleinste Land der Welt. Das Ranking 2026 der 10 kleinsten Länder nach Fläche, mit Einwohnerzahl und überraschenden Fakten."
-date: 2026-03-06
-lastModified: 2026-10-01
+date: 2026-10-19
 image: "/images/blog/monde/vatican.jpg"
 imageAlt: "Die Vatikanstadt von oben"
 imageCredit: "Photo: CAPTAIN RAJU · CC0 · Wikimedia Commons"

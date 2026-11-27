@@ -2,7 +2,6 @@
 title: "The 10 Smallest Countries in Oceania, from Nauru to Fiji"
 description: "Nauru (21 km²) is the smallest country in Oceania and the world's smallest republic. The 10 smallest Oceanian countries, out of just 14 states in total."
 date: 2026-08-17
-lastModified: 2026-08-17
 image: "/images/blog/monde/carte-monde-ancienne.jpg"
 imageAlt: "An old world map"
 imageCredit: "Photo: Reginald Lane Poole · public domain · Wikimedia Commons"

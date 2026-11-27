@@ -1,8 +1,7 @@
 ---
 title: "Les 6 micro-États d'Europe : liste complète et comment ils survivent"
 description: "Vatican, Monaco, Saint-Marin, Liechtenstein, Andorre, Malte : les six micro-États européens, leur statut, leur histoire et comment ils restent indépendants."
-date: 2026-07-13
-lastModified: 2026-07-13
+date: 2026-07-15
 image: "/images/blog/famille/globe-atlas-table.jpg"
 imageAlt: "Une carte du monde grecque ancienne en deux hémisphères"
 imageCredit: "Photo : Ánthimos Gazís · domaine public · Wikimedia Commons"

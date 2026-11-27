@@ -2,7 +2,6 @@
 title: "The 10 Newest Countries in the World (None Since 2011)"
 description: "South Sudan, independent since July 2011, is the newest country in the world. The 10 youngest states, with the referendum or breakup behind each independence."
 date: 2026-07-21
-lastModified: 2026-07-21
 image: "/images/blog/monde/globe-terrestre.jpg"
 imageAlt: "An antique circular map projection showing two thirds of the globe"
 imageCredit: "Photo: Henry James · public domain · Wikimedia Commons"

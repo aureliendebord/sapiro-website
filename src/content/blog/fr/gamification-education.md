@@ -1,8 +1,7 @@
 ---
 title: "Gamification et éducation : le pouvoir des quiz"
 description: "Gamification et éducation : comment les quiz et les mécaniques de jeu boostent la mémorisation de 50 %. La science derrière ce qui fonctionne vraiment."
-date: 2025-11-20
-lastModified: 2026-06-15
+date: 2026-03-01
 image: "/images/blog/famille/jeu-societe-famille.jpg"
 imageAlt: "Une famille réunie autour d'un jeu de société"
 imageCredit: "Photo : Bill Branson (Photographer) · domaine public · Wikimedia Commons"

@@ -1,7 +1,7 @@
 ---
 title: "Quiz Apps Without Data Collection: Comparison"
 description: "Which quiz apps truly respect your data? Comparison of quiz applications by what they do with your personal data."
-date: 2026-03-04
+date: 2026-05-17
 lastModified: 2026-09-30
 image: "/images/blog/apps/smartphone-app.jpg"
 imageAlt: "A smartphone showing a social media post"

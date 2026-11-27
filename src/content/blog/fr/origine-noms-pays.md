@@ -1,8 +1,7 @@
 ---
 title: "L'origine du nom des pays : étymologies surprenantes"
 description: "France, Argentine, Pakistan, Australie : l'origine du nom des pays révèle leur histoire et leurs cultures. 20 étymologies surprenantes."
-date: 2026-03-09
-lastModified: 2026-06-15
+date: 2026-05-17
 image: "/images/blog/monde/carte-monde-ancienne.jpg"
 imageAlt: "Une vieille carte du monde"
 imageCredit: "Photo : Reginald Lane Poole · domaine public · Wikimedia Commons"

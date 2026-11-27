@@ -1,8 +1,7 @@
 ---
 title: "Los 15 museos más visitados del mundo"
 description: "Louvre, British Museum, MoMA, Vaticano: top 15 de museos más visitados con sus cifras, obras clave y consejos para visitar."
-date: 2026-01-27
-lastModified: 2026-06-15
+date: 2026-05-17
 image: "/images/blog/art/pyramide-louvre.jpg"
 imageAlt: "La pirámide del Louvre en París"
 imageCredit: "Foto: Benh LIEU SONG (Flickr) · CC BY-SA 3.0 · Wikimedia Commons"

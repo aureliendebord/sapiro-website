@@ -1,8 +1,7 @@
 ---
 title: "Quiz animaux : reconnaître 50 espèces du monde"
 description: "Sauriez-vous distinguer un guépard d'un léopard, un lama d'un alpaga ? 50 espèces animales à reconnaître avec leurs traits clés."
-date: 2026-01-15
-lastModified: 2026-06-15
+date: 2026-05-17
 image: "/images/blog/nature/tigre.jpg"
 imageAlt: "Un tigre du Bengale dans son habitat"
 imageCredit: "Photo : Charles J. Sharp · CC BY-SA 4.0 · Wikimedia Commons"

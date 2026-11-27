@@ -2,7 +2,6 @@
 title: "Les 10 pays les plus visités du monde, la France en tête"
 description: "La France reçoit près de 100 millions de touristes par an, plus qu'aucun autre pays. Le classement des 10 pays les plus visités du monde et ce qui explique leur rang."
 date: 2026-09-09
-lastModified: 2026-09-09
 image: "/images/blog/monde/capitale-paris.jpg"
 imageAlt: "Vue aérienne de Paris"
 imageCredit: "Photo : Drew Coffman drewcoffman · CC0 · Wikimedia Commons"

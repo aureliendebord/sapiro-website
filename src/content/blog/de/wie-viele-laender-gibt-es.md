@@ -1,8 +1,7 @@
 ---
 title: "Wie viele Länder gibt es auf der Welt? 193, 195 oder 197"
 description: "Nach der gängigsten Zählung gibt es 195 Länder: 193 UN-Mitglieder plus 2 Beobachterstaaten. Warum auch 193, 197, 206 und 249 richtig sind."
-date: 2026-08-17
-lastModified: 2026-08-17
+date: 2026-10-19
 image: "/images/blog/apprentissage/carte-monde.jpg"
 imageAlt: "Eine politische Weltkarte"
 imageCredit: "Photo: JanitoalevicOriginal map by: CIA World Factbook · public domain · Wikimedia Commons"

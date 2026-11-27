@@ -1,7 +1,7 @@
 ---
 title: "Los 10 países más pequeños del mundo: del Vaticano a Malta"
 description: "El Vaticano (0,49 km²) encabeza la lista. Ranking 2026 de los 10 países más pequeños por superficie, con población, comparaciones y los que se quedan cerca."
-date: 2026-03-06
+date: 2026-05-17
 lastModified: 2026-10-01
 image: "/images/blog/monde/vatican.jpg"
 imageAlt: "La Ciudad del Vaticano vista desde el cielo"

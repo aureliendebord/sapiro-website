@@ -2,7 +2,6 @@
 title: "The 10 Smallest Countries in the Americas, All in the Caribbean"
 description: "Saint Kitts and Nevis (261 km²) is the smallest country in the Americas. The 10 smallest American countries, all islands, plus the smallest on the mainland."
 date: 2026-08-17
-lastModified: 2026-08-17
 image: "/images/blog/famille/globe-atlas-table.jpg"
 imageAlt: "An antique Greek world map in two hemispheres"
 imageCredit: "Photo: Ánthimos Gazís · public domain · Wikimedia Commons"

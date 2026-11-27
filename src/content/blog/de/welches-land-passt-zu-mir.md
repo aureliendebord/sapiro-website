@@ -1,8 +1,7 @@
 ---
 title: "Welches Land passt zu mir? Der Persönlichkeitstest"
 description: "Spielerischer Test: Welches Land passt zu deiner Persönlichkeit? Eine Reise durch Kultur, Geografie und Charakter zu deinem Spiegelland."
-date: 2026-03-10
-lastModified: 2026-06-15
+date: 2026-10-19
 image: "/images/blog/monde/globe-terrestre.jpg"
 imageAlt: "Eine antike kreisförmige Kartenprojektion, die zwei Drittel des Globus zeigt"
 imageCredit: "Photo: Henry James · public domain · Wikimedia Commons"

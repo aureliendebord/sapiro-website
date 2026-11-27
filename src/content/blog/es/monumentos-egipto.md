@@ -1,8 +1,7 @@
 ---
 title: "Los monumentos de Egipto: pirámides, templos y tesoros del Nilo"
 description: "Pirámides de Guiza, Karnak, el valle de los Reyes, Abu Simbel: un recorrido por los grandes monumentos del antiguo Egipto, con su lugar, datación y lo esencial."
-date: 2026-02-27
-lastModified: 2026-06-15
+date: 2026-06-15
 image: "/images/blog/monuments/pyramides-gizeh.jpg"
 imageAlt: "Una escultura de manos gigantes que enmarca las pirámides de Guiza"
 imageCredit: "Foto: Mona Hassan Abo-Abda · CC BY-SA 4.0 · Wikimedia Commons"

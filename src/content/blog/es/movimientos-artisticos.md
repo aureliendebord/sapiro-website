@@ -1,8 +1,7 @@
 ---
 title: "15 movimientos artísticos explicados simple"
 description: "Renacimiento, Impresionismo, Cubismo, Pop Art: 15 grandes movimientos artísticos explicados con sus fechas, rasgos y figuras."
-date: 2026-01-25
-lastModified: 2026-06-15
+date: 2026-05-17
 image: "/images/blog/art/nuit-etoilee.jpg"
 imageAlt: "La noche estrellada de Vincent van Gogh"
 imageCredit: "Foto: Vincent van Gogh · dominio público · Wikimedia Commons"

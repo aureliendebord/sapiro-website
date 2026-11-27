@@ -1,8 +1,7 @@
 ---
 title: "Annales culture générale et corrigés : où trouver"
 description: "Trouver des annales corrigées de culture générale pour préparer un concours : sources officielles, livres et entraînement aux questions types."
-date: 2026-02-11
-lastModified: 2026-06-15
+date: 2026-05-17
 image: "/images/blog/famille/salle-classe.jpg"
 imageAlt: "Une salle de classe avec un tableau noir"
 imageCredit: "Photo : AKA MBG · CC0 · Wikimedia Commons"

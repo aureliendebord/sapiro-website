@@ -2,7 +2,6 @@
 title: "Los 10 países más grandes del mundo, de Rusia a Argelia"
 description: "Rusia (17,1 M km²) es el país más grande del mundo, por delante de Canadá y Estados Unidos. El ranking de los 10 países más extensos, con la disputa EE. UU./China."
 date: 2026-08-17
-lastModified: 2026-08-17
 image: "/images/blog/famille/carte-monde-drapeaux.jpg"
 imageAlt: "Un mapa del mundo con los países y las banderas"
 imageCredit: "Foto: Transparent 6lue · dominio público · Wikimedia Commons"

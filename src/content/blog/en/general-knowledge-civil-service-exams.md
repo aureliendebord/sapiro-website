@@ -1,8 +1,7 @@
 ---
 title: "General Knowledge for Civil Service Exams"
 description: "Review general knowledge for civil service or government exams: official syllabus, recurring themes and method to prepare the test."
-date: 2026-02-07
-lastModified: 2026-06-15
+date: 2026-05-17
 image: "/images/blog/famille/salle-classe.jpg"
 imageAlt: "A classroom with a blackboard"
 imageCredit: "Photo: AKA MBG · CC0 · Wikimedia Commons"

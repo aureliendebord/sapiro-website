@@ -1,8 +1,7 @@
 ---
 title: "Was ist das kleinste Land Afrikas? Top-20-Rangliste (2026)"
 description: "Die Seychellen (459 km²) sind das kleinste Land Afrikas, Gambia das kleinste auf dem Festland. Die 20 kleinsten Länder Afrikas nach Fläche, mit Tabelle."
-date: 2026-08-17
-lastModified: 2026-10-01
+date: 2026-10-19
 image: "/images/blog/monde/carte-monde-ancienne.jpg"
 imageAlt: "Eine alte Weltkarte"
 imageCredit: "Photo: Reginald Lane Poole · public domain · Wikimedia Commons"

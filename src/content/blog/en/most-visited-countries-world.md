@@ -2,7 +2,6 @@
 title: "The 10 Most Visited Countries in the World, France First"
 description: "France welcomes close to 100 million tourists a year, more than any other country. The ranking of the 10 most visited countries in the world and what explains each rank."
 date: 2026-09-09
-lastModified: 2026-09-09
 image: "/images/blog/monde/capitale-paris.jpg"
 imageAlt: "Aerial view of Paris"
 imageCredit: "Photo: Drew Coffman drewcoffman · CC0 · Wikimedia Commons"

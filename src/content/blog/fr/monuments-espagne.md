@@ -1,8 +1,7 @@
 ---
 title: "Monuments d'Espagne : 8 sites à connaître absolument"
 description: "De la Sagrada Família à l'Alhambra, un tour des grands monuments d'Espagne, avec leur ville, leur style et l'héritage romain, musulman et chrétien."
-date: 2026-03-02
-lastModified: 2026-06-15
+date: 2026-06-15
 image: "/images/blog/monuments/sagrada-familia.jpg"
 imageAlt: "L'intérieur de la Sagrada Família à Barcelone, ses colonnes et ses escaliers en colimaçon"
 imageCredit: "Photo : Alvesgaspar · CC BY-SA 4.0 · Wikimedia Commons"

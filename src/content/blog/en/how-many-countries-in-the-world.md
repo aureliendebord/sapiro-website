@@ -2,7 +2,6 @@
 title: "How Many Countries Are There in the World? 193, 195 or 197"
 description: "There are 195 countries by the most common count: 193 UN members plus 2 observer states. Why 193, 197, 206 and 249 are also correct answers."
 date: 2026-08-17
-lastModified: 2026-08-17
 image: "/images/blog/apprentissage/carte-monde.jpg"
 imageAlt: "A political world map"
 imageCredit: "Photo: JanitoalevicOriginal map by: CIA World Factbook · public domain · Wikimedia Commons"

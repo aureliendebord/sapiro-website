@@ -1,8 +1,7 @@
 ---
 title: "Quiz historia nivel examen: entrenamiento"
 description: "Repasar historia para exámenes y oposiciones: programa oficial, fechas imprescindibles y quizzes para entrenarse."
-date: 2026-02-05
-lastModified: 2026-06-15
+date: 2026-05-17
 image: "/images/blog/histoire/chateau-versailles.jpg"
 imageAlt: "El palacio de Versalles"
 imageCredit: "Foto: Basile Morin · CC BY-SA 4.0 · Wikimedia Commons"

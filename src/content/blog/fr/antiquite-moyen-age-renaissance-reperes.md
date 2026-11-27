@@ -1,8 +1,7 @@
 ---
 title: "Antiquité, Moyen Âge, Renaissance : repères essentiels"
 description: "Trois grandes périodes qui structurent l'histoire occidentale. Dates, civilisations, mouvements et figures pour s'y retrouver simplement."
-date: 2026-02-04
-lastModified: 2026-06-15
+date: 2026-05-17
 image: "/images/blog/monuments/colisee-rome.jpg"
 imageAlt: "Le Colisée de Rome"
 imageCredit: "Photo : Wilfredor · CC0 · Wikimedia Commons"

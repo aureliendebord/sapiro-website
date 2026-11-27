@@ -1,8 +1,7 @@
 ---
 title: "30 cuadros célebres: las obras maestras que conocer"
 description: "La Gioconda, La Noche estrellada, Las Señoritas de Avignon: 30 cuadros célebres con su historia, autor y lo que los hace imprescindibles."
-date: 2026-01-23
-lastModified: 2026-06-15
+date: 2026-05-17
 image: "/images/blog/art/joconde.jpg"
 imageAlt: "La Gioconda de Leonardo da Vinci"
 imageCredit: "Foto: Leonardo da Vinci · dominio público · Wikimedia Commons"

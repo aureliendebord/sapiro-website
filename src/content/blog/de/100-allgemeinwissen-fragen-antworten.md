@@ -1,7 +1,7 @@
 ---
 title: "100 Allgemeinwissen-Fragen (mit Antworten)"
 description: "100 Allgemeinwissen-Fragen mit erklärten Antworten, nach Thema und Schwierigkeit. Die große Liste zum gründlichen Lernen oder für ein Riesenquiz."
-date: 2026-06-24
+date: 2026-10-19
 image: "/images/blog/monde/capitale-paris.jpg"
 imageAlt: "Luftaufnahme von Paris"
 imageCredit: "Photo: Drew Coffman drewcoffman · CC0 · Wikimedia Commons"

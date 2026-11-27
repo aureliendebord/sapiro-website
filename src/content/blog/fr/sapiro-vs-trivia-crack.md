@@ -1,7 +1,7 @@
 ---
 title: "SAPIRO vs Trivia Crack : quelle app de quiz choisir ?"
 description: "Comparatif SAPIRO vs Trivia Crack : publicités, vie privée, contenu éducatif. Quelle app de quiz est la meilleure pour votre famille ?"
-date: 2026-03-22
+date: 2026-03-24
 lastModified: 2026-09-30
 image: "/images/blog/apps/smartphone-app.jpg"
 imageAlt: "Un smartphone affichant une publication sur un réseau social"

@@ -1,8 +1,7 @@
 ---
 title: "Quiz banderas del mundo gratis online"
 description: "Pon a prueba tu conocimiento de banderas del mundo con quizzes gratis online, por continente y nivel. Aprendizaje progresivo."
-date: 2026-02-21
-lastModified: 2026-06-15
+date: 2026-05-17
 image: "/images/blog/famille/carte-monde-drapeaux.jpg"
 imageAlt: "Un mapa del mundo con los países y las banderas"
 imageCredit: "Foto: Transparent 6lue · dominio público · Wikimedia Commons"

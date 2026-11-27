@@ -1,8 +1,7 @@
 ---
 title: "Gamification in Education: Why Quizzes Work So Well"
 description: "How does gamification in education actually work? The science behind quizzes, spaced repetition, and why game mechanics boost long-term retention so well."
-date: 2025-11-20
-lastModified: 2026-06-15
+date: 2026-03-01
 image: "/images/blog/famille/jeu-societe-famille.jpg"
 imageAlt: "A family gathered around a board game"
 imageCredit: "Photo: Bill Branson (Photographer) · public domain · Wikimedia Commons"

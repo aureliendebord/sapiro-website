@@ -2,7 +2,6 @@
 title: "What Is the Oldest Country in the World? Three Possible Answers"
 description: "San Marino (founded in 301) is the oldest state still existing, Egypt the oldest state entity, Japan the oldest monarchy. It all depends on the criterion."
 date: 2026-08-18
-lastModified: 2026-08-18
 image: "/images/blog/monde/carte-monde-ancienne.jpg"
 imageAlt: "An old world map"
 imageCredit: "Photo: Reginald Lane Poole · public domain · Wikimedia Commons"

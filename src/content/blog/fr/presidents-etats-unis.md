@@ -1,8 +1,7 @@
 ---
 title: "Présidents des États-Unis : liste complète"
 description: "De George Washington à aujourd'hui : liste complète des présidents des États-Unis avec dates, parti et faits marquants de chaque mandat."
-date: 2026-02-02
-lastModified: 2026-06-15
+date: 2026-05-17
 image: "/images/blog/histoire/maison-blanche.jpg"
 imageAlt: "Plan de l'étage principal de la Maison-Blanche par Latrobe, 1807"
 imageCredit: "Photo : Benjamin Henry Latrobe · domaine public · Wikimedia Commons"

@@ -2,7 +2,6 @@
 title: "30 preguntas de cultura general difíciles (con respuestas)"
 description: "30 preguntas de cultura general difíciles con sus respuestas explicadas: geografía, historia, arte, ciencias y naturaleza. Para quien ya domina lo básico y quiere un reto de verdad."
 date: 2026-10-14
-lastModified: 2026-10-14
 image: "/images/blog/apprentissage/equipe-soiree-quiz.jpg"
 imageAlt: "Un equipo reunido alrededor de una mesa en una noche de quiz"
 imageCredit: "Foto: Hilary Murugu · CC BY-SA 4.0 · Wikimedia Commons"

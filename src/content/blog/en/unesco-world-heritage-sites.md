@@ -1,8 +1,7 @@
 ---
 title: "UNESCO World Heritage Sites Explained"
 description: "Over 1,200 listed sites, ten criteria, three categories: a clear guide to UNESCO World Heritage, its figures, and the places worth knowing."
-date: 2026-02-13
-lastModified: 2026-06-15
+date: 2026-06-15
 image: "/images/blog/monuments/machu-picchu.jpg"
 imageAlt: "Machu Picchu in Peru"
 imageCredit: "Photo: Diego Delso · CC BY-SA 4.0 · Wikimedia Commons"

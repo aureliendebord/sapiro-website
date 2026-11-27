@@ -1,8 +1,7 @@
 ---
 title: "Les monuments de l'Antiquité : le guide complet"
 description: "Pyramides, Parthénon, Colisée, Pétra, Persépolis : un tour des grands monuments de l'Antiquité, avec leur datation et ce qu'il faut retenir sur chacun."
-date: 2026-02-16
-lastModified: 2026-06-15
+date: 2026-06-15
 image: "/images/blog/monuments/acropole-parthenon.jpg"
 imageAlt: "Le Parthénon sur l'Acropole d'Athènes"
 imageCredit: "Photo : A.Savin · CC BY-SA 3.0 · Wikimedia Commons"

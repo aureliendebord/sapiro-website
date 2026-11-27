@@ -1,8 +1,7 @@
 ---
 title: "20 ideas de regalos para niños curiosos (6, 8, 10 años)"
 description: "Veinte ideas de regalos educativos y lúdicos para niños curiosos de 6 a 12 años: juegos, libros, apps, instrumentos de observación."
-date: 2026-02-20
-lastModified: 2026-06-15
+date: 2026-05-17
 image: "/images/blog/famille/globe-enfant.jpg"
 imageAlt: "Un globo terráqueo para enseñar geografía a los niños"
 imageCredit: "Foto: Shixart1985 · CC BY 2.0 · Wikimedia Commons"

@@ -1,7 +1,7 @@
 ---
 title: "What Is the Smallest Country in the World? Top 10 (2026)"
 description: "The Vatican (0.49 km²) is the smallest country on Earth. Full 2026 ranking of the 10 smallest countries by area, with population and surprising facts."
-date: 2026-03-06
+date: 2026-05-17
 lastModified: 2026-10-01
 image: "/images/blog/monde/vatican.jpg"
 imageAlt: "Vatican City seen from above"

@@ -1,8 +1,7 @@
 ---
 title: "Identificar animales con los niños: guía práctica"
 description: "¿Cómo enseñar a tu hijo a identificar animales? Métodos, salidas y recursos para desarrollar el ojo naturalista."
-date: 2026-02-17
-lastModified: 2026-06-15
+date: 2026-05-17
 image: "/images/blog/famille/enfant-jumelles.jpg"
 imageAlt: "Un niño observa la naturaleza con prismáticos"
 imageCredit: "Foto: Shixart1985 · CC BY 2.0 · Wikimedia Commons"

@@ -1,8 +1,7 @@
 ---
 title: "The Monuments of Egypt: Pyramids, Temples and Nile Treasures"
 description: "Pyramids of Giza, Karnak, the Valley of the Kings, Abu Simbel: a tour of ancient Egypt's great monuments, with their location, dates and key facts."
-date: 2026-02-27
-lastModified: 2026-06-15
+date: 2026-06-15
 image: "/images/blog/monuments/pyramides-gizeh.jpg"
 imageAlt: "A giant sculpture of hands framing the pyramids of Giza"
 imageCredit: "Photo: Mona Hassan Abo-Abda · CC BY-SA 4.0 · Wikimedia Commons"

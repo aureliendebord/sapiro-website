@@ -2,7 +2,6 @@
 title: "Les 10 plus petits pays d'Afrique, des Seychelles au Burundi"
 description: "Les Seychelles (459 km²) sont le plus petit pays d'Afrique, devant São Tomé-et-Principe. Le classement des 10 plus petits pays africains, avec le plus petit du continent."
 date: 2026-08-17
-lastModified: 2026-08-17
 image: "/images/blog/monde/carte-monde-ancienne.jpg"
 imageAlt: "Une vieille carte du monde"
 imageCredit: "Photo : Reginald Lane Poole · domaine public · Wikimedia Commons"

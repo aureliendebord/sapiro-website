@@ -1,8 +1,7 @@
 ---
 title: "General Knowledge Quiz: Easy, Medium, Hard, Expert"
 description: "General knowledge quizzes by level: easy, medium, hard, expert. To assess your level and progress step by step."
-date: 2026-02-23
-lastModified: 2026-06-15
+date: 2026-05-17
 image: "/images/blog/apprentissage/bureau-revision.jpg"
 imageAlt: "A 19th-century study with bookshelves and a fireplace"
 imageCredit: "Photo: Miscellaneous Items in High Demand, PPOC, Library of Congress · public domain · Wikimedia Commons"

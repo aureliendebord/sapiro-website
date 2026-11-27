@@ -1,7 +1,7 @@
 ---
 title: "The 15 Most Famous Sculptures in the World, Antiquity to Today"
 description: "David, The Thinker, Venus de Milo and 12 more: what makes each sculpture essential, who carved it, and where to see it today."
-date: 2026-01-26
+date: 2026-05-17
 image: "/images/blog/art/david-michel-ange.jpg"
 imageAlt: "The David by Michelangelo"
 imageCredit: "Photo: Commonists · CC BY-SA 4.0 · Wikimedia Commons"

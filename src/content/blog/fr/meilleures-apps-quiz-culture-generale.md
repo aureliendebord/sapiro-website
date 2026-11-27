@@ -1,7 +1,7 @@
 ---
 title: "Les 10 meilleures apps de quiz culture générale en 2026"
 description: "Comparatif des meilleures applications de quiz et culture générale : Trivia Crack, Kahoot, GeoGuessr, SAPIRO... Laquelle choisir ? Notre analyse complète."
-date: 2026-03-20
+date: 2026-03-24
 lastModified: 2026-09-30
 image: "/images/blog/apps/smartphone-app.jpg"
 imageAlt: "Un smartphone affichant une publication sur un réseau social"

@@ -2,7 +2,6 @@
 title: "Los 10 países más pequeños de América, todos en el Caribe"
 description: "San Cristóbal y Nieves (261 km²) es el país más pequeño de América. Los 10 países americanos más pequeños, todos insulares, y el menor del continente."
 date: 2026-08-17
-lastModified: 2026-08-17
 image: "/images/blog/famille/globe-atlas-table.jpg"
 imageAlt: "Un antiguo mapamundi griego en dos hemisferios"
 imageCredit: "Foto: Ánthimos Gazís · dominio público · Wikimedia Commons"

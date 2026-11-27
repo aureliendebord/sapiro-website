@@ -2,7 +2,6 @@
 title: "30 Hard General Knowledge Questions (With Answers)"
 description: "30 hard general knowledge questions with explained answers: geography, history, art, science and nature. For players who already know the basics and want a real challenge."
 date: 2026-10-14
-lastModified: 2026-10-14
 image: "/images/blog/apprentissage/equipe-soiree-quiz.jpg"
 imageAlt: "A team gathered around a table on a quiz night"
 imageCredit: "Photo: Hilary Murugu · CC BY-SA 4.0 · Wikimedia Commons"

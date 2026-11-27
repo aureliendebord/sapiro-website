@@ -2,7 +2,6 @@
 title: "Les 10 plus grands pays du monde, de la Russie à l'Algérie"
 description: "La Russie (17,1 M km²) est le plus grand pays du monde, devant le Canada et les États-Unis. Le classement des 10 pays les plus vastes, avec le débat États-Unis/Chine."
 date: 2026-08-17
-lastModified: 2026-08-17
 image: "/images/blog/famille/carte-monde-drapeaux.jpg"
 imageAlt: "Une carte du monde avec les pays et les drapeaux"
 imageCredit: "Photo : Transparent 6lue · domaine public · Wikimedia Commons"

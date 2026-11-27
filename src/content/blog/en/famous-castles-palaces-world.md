@@ -1,8 +1,7 @@
 ---
 title: "Famous Castles and Palaces Around the World"
 description: "Versailles, Neuschwanstein, the Alhambra, the Forbidden City, the Potala: a tour of the world's greatest castles and palaces, with their style, era and what sets them apart."
-date: 2026-02-18
-lastModified: 2026-06-15
+date: 2026-06-15
 image: "/images/blog/monuments/neuschwanstein.jpg"
 imageAlt: "Neuschwanstein Castle in Bavaria"
 imageCredit: "Photo: Ximonic, Simo Räsänen & Tauno Räsänen · CC BY-SA 3.0 · Wikimedia Commons"

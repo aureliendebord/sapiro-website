@@ -1,8 +1,7 @@
 ---
 title: "Les 15 animaux les plus dangereux du monde"
 description: "Lion, requin, ours blanc ? Les vrais animaux les plus dangereux ne sont pas ceux qu'on imagine. Classement par nombre de morts humaines chaque année."
-date: 2026-01-16
-lastModified: 2026-06-15
+date: 2026-05-17
 image: "/images/blog/nature/requin-blanc.jpg"
 imageAlt: "Un grand requin blanc dans l'océan"
 imageCredit: "Photo : Pterantula (Terry Goss) at en.wikipedia · CC BY 2.5 · Wikimedia Commons"

@@ -1,8 +1,7 @@
 ---
 title: "Réviser la culture générale en 30 jours : programme"
 description: "Un planning de 30 jours pour réviser la culture générale efficacement avant un concours ou un examen, jour par jour, thème par thème."
-date: 2026-02-12
-lastModified: 2026-06-15
+date: 2026-05-17
 image: "/images/blog/apprentissage/bureau-revision.jpg"
 imageAlt: "Un cabinet de travail du XIXe siècle avec bibliothèque et cheminée"
 imageCredit: "Photo : Miscellaneous Items in High Demand, PPOC, Library of Congress · domaine public · Wikimedia Commons"

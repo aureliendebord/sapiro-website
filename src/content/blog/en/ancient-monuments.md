@@ -1,8 +1,7 @@
 ---
 title: "Monuments of Antiquity: The Complete Guide"
 description: "Pyramids, the Parthenon, the Colosseum, Petra, Persepolis: a tour of the great monuments of antiquity, with dates and the key facts to remember about each."
-date: 2026-02-16
-lastModified: 2026-06-15
+date: 2026-06-15
 image: "/images/blog/monuments/acropole-parthenon.jpg"
 imageAlt: "The Parthenon on the Acropolis of Athens"
 imageCredit: "Photo: A.Savin · CC BY-SA 3.0 · Wikimedia Commons"

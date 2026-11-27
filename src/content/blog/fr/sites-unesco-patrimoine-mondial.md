@@ -1,8 +1,7 @@
 ---
 title: "Sites UNESCO : comprendre le patrimoine mondial"
 description: "Plus de 1 200 sites inscrits, dix critères, trois catégories : le point complet sur le patrimoine mondial de l'UNESCO, ses chiffres et ses lieux à connaître."
-date: 2026-02-13
-lastModified: 2026-06-15
+date: 2026-06-15
 image: "/images/blog/monuments/machu-picchu.jpg"
 imageAlt: "Le Machu Picchu au Pérou"
 imageCredit: "Photo : Diego Delso · CC BY-SA 4.0 · Wikimedia Commons"

@@ -1,8 +1,7 @@
 ---
 title: "Die 8 besten Geografie-Apps zum Lernen 2025"
 description: "Wir haben die 8 besten Geografie-Apps 2025 getestet und bewertet, vom adaptiven Quiz bis zur Street-View-Erkundung. Finde die App, die zu deinem Lernstil passt."
-date: 2025-11-10
-lastModified: 2026-09-30
+date: 2026-10-19
 image: "/images/blog/apps/carte-monde-app.jpg"
 imageAlt: "Eine Karte Ungarns aus dem 16. Jahrhundert"
 imageCredit: "Photo: Lázár deák (Lazarus secretarius) · public domain · Wikimedia Commons"

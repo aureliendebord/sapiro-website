@@ -2,7 +2,6 @@
 title: "Les 10 plus jeunes pays du monde (2026)"
 description: "Le Soudan du Sud (2011) est le plus jeune pays du monde. Le classement des 10 pays les plus récents, avec l'année et le contexte de chaque indépendance."
 date: 2026-07-21
-lastModified: 2026-07-21
 image: "/images/blog/monde/globe-terrestre.jpg"
 imageAlt: "Une carte ancienne en projection circulaire montrant les deux tiers du globe"
 imageCredit: "Photo : Henry James · domaine public · Wikimedia Commons"

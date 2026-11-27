@@ -2,7 +2,6 @@
 title: "Los países menos poblados del mundo: top 20 (2026)"
 description: "El Vaticano tiene unos 800 habitantes y Tuvalu unos 11 000: el país menos poblado del mundo y el miembro de la ONU menos poblado. Los 20 países con menos habitantes, en orden."
 date: 2026-10-14
-lastModified: 2026-10-14
 image: "/images/blog/monde/vatican.jpg"
 imageAlt: "La Ciudad del Vaticano vista desde el aire"
 imageCredit: "Foto: CAPTAIN RAJU · CC0 · Wikimedia Commons"

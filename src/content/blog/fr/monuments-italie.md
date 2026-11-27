@@ -1,8 +1,7 @@
 ---
 title: "Les monuments d'Italie : Rome, Florence, Venise et Pompéi"
 description: "De Rome à Venise, voici les monuments d'Italie à connaître : Colisée, Saint-Pierre, Duomo de Florence, tour de Pise et Pompéi."
-date: 2026-02-25
-lastModified: 2026-06-15
+date: 2026-06-15
 image: "/images/blog/monuments/colisee-rome.jpg"
 imageAlt: "Le Colisée de Rome"
 imageCredit: "Photo : Wilfredor · CC0 · Wikimedia Commons"

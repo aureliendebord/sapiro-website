@@ -1,7 +1,7 @@
 ---
 title: "Family Quiz Night: Plan a Geography Evening"
 description: "Plan the perfect family geography quiz night with our complete guide: 3 proven formats, team-balancing tips, 20 ready-made questions, and visual round ideas."
-date: 2025-10-20
+date: 2026-03-01
 lastModified: 2026-09-30
 image: "/images/blog/famille/globe-atlas-table.jpg"
 imageAlt: "An antique Greek world map in two hemispheres"

@@ -1,8 +1,7 @@
 ---
 title: "The Monuments of Paris: A Guide That Actually Helps"
 description: "The Eiffel Tower, Notre-Dame (reopened late 2024), the Louvre, the Panthéon, Garnier… The great monuments of Paris explained, with dates, styles and standout facts."
-date: 2026-02-09
-lastModified: 2026-06-15
+date: 2026-06-15
 image: "/images/blog/monuments/tour-eiffel.jpg"
 imageAlt: "The Eiffel Tower in Paris"
 imageCredit: "Photo: Benh Lieu Song · public domain · Wikimedia Commons"

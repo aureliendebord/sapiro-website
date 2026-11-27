@@ -1,8 +1,7 @@
 ---
 title: "Les monuments de Paris : le guide pour s'y retrouver"
 description: "Tour Eiffel, Notre-Dame rouverte fin 2024, Louvre, Panthéon, Garnier… Les grands monuments de Paris expliqués, avec dates, styles et faits marquants."
-date: 2026-02-09
-lastModified: 2026-06-15
+date: 2026-06-15
 image: "/images/blog/monuments/tour-eiffel.jpg"
 imageAlt: "La tour Eiffel à Paris"
 imageCredit: "Photo : Benh Lieu Song · domaine public · Wikimedia Commons"

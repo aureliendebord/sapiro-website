@@ -1,7 +1,7 @@
 ---
 title: "Quel est le plus petit pays du monde ? Top 10 (2026)"
 description: "Le Vatican (0,49 km²) est le plus petit pays du monde. Classement 2026 des 10 plus petits pays par superficie, avec population et faits surprenants."
-date: 2026-03-06
+date: 2026-05-17
 lastModified: 2026-10-01
 image: "/images/blog/monde/vatican.jpg"
 imageAlt: "La cité du Vatican vue du ciel"

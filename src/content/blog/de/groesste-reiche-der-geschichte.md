@@ -1,8 +1,7 @@
 ---
 title: "Die 10 größten Reiche der Geschichte, vom Britischen Weltreich bis Portugal"
 description: "Das Britische Weltreich (~35,5 Mio. km²) ist das größte Reich der Geschichte, vor den Mongolen und Russland. Die 10 größten Reiche nach maximaler Fläche."
-date: 2026-07-21
-lastModified: 2026-07-21
+date: 2026-10-19
 image: "/images/blog/monde/carte-monde-ancienne.jpg"
 imageAlt: "Eine alte Weltkarte"
 imageCredit: "Photo: Reginald Lane Poole · public domain · Wikimedia Commons"

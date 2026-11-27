@@ -1,8 +1,7 @@
 ---
 title: "Revise General Knowledge in 30 Days: Daily Plan"
 description: "A 30-day plan to revise general knowledge efficiently before an exam: day by day, theme by theme, with a daily schedule and the right method to retain it for good."
-date: 2026-02-12
-lastModified: 2026-06-15
+date: 2026-05-17
 image: "/images/blog/apprentissage/bureau-revision.jpg"
 imageAlt: "A 19th-century study with bookshelves and a fireplace"
 imageCredit: "Photo: Miscellaneous Items in High Demand, PPOC, Library of Congress · public domain · Wikimedia Commons"

@@ -1,8 +1,7 @@
 ---
 title: "Drapeaux de pays disparus : 10 bannières qui n'existent plus"
 description: "URSS, Yougoslavie, RDA, Sud-Vietnam : 10 drapeaux de pays qui n'existent plus, l'histoire de chaque bannière et la date de disparition de l'État."
-date: 2026-07-13
-lastModified: 2026-07-13
+date: 2026-07-15
 image: "/images/blog/monde/mappemonde.jpg"
 imageAlt: "Planche de 1850 : pavillons et cocardes des principales puissances du globe"
 imageCredit: "Photo : Various authors. · domaine public · Wikimedia Commons"

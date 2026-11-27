@@ -1,8 +1,7 @@
 ---
 title: "Past Exam Papers and Solutions: Where to Find Them"
 description: "Find past papers and solutions for general knowledge exams: official sources, books and training on typical questions."
-date: 2026-02-11
-lastModified: 2026-06-15
+date: 2026-05-17
 image: "/images/blog/famille/salle-classe.jpg"
 imageAlt: "A classroom with a blackboard"
 imageCredit: "Photo: AKA MBG · CC0 · Wikimedia Commons"

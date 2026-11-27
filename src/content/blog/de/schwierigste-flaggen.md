@@ -1,8 +1,7 @@
 ---
 title: "Die 15 schwierigsten Flaggen der Welt (und wie du sie erkennst)"
 description: "Tschad oder Rumänien, Indonesien oder Monaco: die 15 Flaggen der Welt, die am schwersten zu erkennen sind, plus Eselsbrücken, mit denen du sie dir merkst."
-date: 2025-12-15
-lastModified: 2026-06-15
+date: 2026-10-19
 image: "/images/blog/monde/mur-drapeaux.jpg"
 imageAlt: "Ein Marinegemälde aus dem 17. Jahrhundert: Schiffe unter Flagge in einem Mittelmeerhafen"
 imageCredit: "Photo: Willem van de Velde the Younger · public domain · Wikimedia Commons"

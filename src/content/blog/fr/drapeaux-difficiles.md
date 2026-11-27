@@ -1,8 +1,7 @@
 ---
 title: "15 drapeaux difficiles à reconnaître au monde"
 description: "Tchad ou Roumanie, Monaco ou Indonésie : voici les 15 drapeaux les plus difficiles à reconnaître au monde, avec des astuces pour les distinguer enfin."
-date: 2025-12-15
-lastModified: 2026-06-15
+date: 2026-03-01
 image: "/images/blog/monde/mur-drapeaux.jpg"
 imageAlt: "Une marine du XVIIe siècle : des navires pavoisés dans un port méditerranéen"
 imageCredit: "Photo : Willem van de Velde the Younger · domaine public · Wikimedia Commons"

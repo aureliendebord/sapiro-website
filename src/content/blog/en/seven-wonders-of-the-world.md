@@ -1,8 +1,7 @@
 ---
 title: "The Seven Wonders of the World: Ancient and New"
 description: "The 7 wonders of the ancient world and the 7 new wonders chosen in 2007: what survives, their history, and where to find them today."
-date: 2026-02-02
-lastModified: 2026-06-15
+date: 2026-06-15
 image: "/images/blog/monuments/pyramides-gizeh.jpg"
 imageAlt: "A giant sculpture of hands framing the pyramids of Giza"
 imageCredit: "Photo: Mona Hassan Abo-Abda · CC BY-SA 4.0 · Wikimedia Commons"

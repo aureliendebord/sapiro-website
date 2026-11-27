@@ -2,7 +2,6 @@
 title: "Quiz: 20 países desaparecidos, ¿cuántos puedes recordar?"
 description: "URSS, Yugoslavia, Prusia, el reino de Hawái: 20 preguntas sobre países borrados del mapa, de calentamiento a experto, con respuestas y puntuación."
 date: 2026-08-18
-lastModified: 2026-08-18
 image: "/images/blog/monde/carte-monde-ancienne.jpg"
 imageAlt: "Un mapa del mundo antiguo"
 imageCredit: "Foto: Reginald Lane Poole · dominio público · Wikimedia Commons"

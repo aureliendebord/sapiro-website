@@ -1,8 +1,7 @@
 ---
 title: "Cómo enseñar arte a los niños: guía práctica"
 description: "¿Cómo acercar el arte a los niños? Museos, libros, métodos por edad y recursos para despertar la curiosidad artística."
-date: 2026-02-16
-lastModified: 2026-06-15
+date: 2026-05-17
 image: "/images/blog/famille/enfant-peinture.jpg"
 imageAlt: "Pinturas infantiles de paisajes"
 imageCredit: "Foto: Vyacheslav Argenberg · CC BY 4.0 · Wikimedia Commons"

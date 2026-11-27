@@ -1,8 +1,7 @@
 ---
 title: "Monuments of the United Kingdom: the essential guide"
 description: "Big Ben, Tower Bridge, Stonehenge, Edinburgh Castle: a clear tour of the UK's great monuments, with dates, places and common myths set straight."
-date: 2026-03-04
-lastModified: 2026-06-15
+date: 2026-06-15
 image: "/images/blog/monuments/westminster-big-ben.jpg"
 imageAlt: "Big Ben and the Palace of Westminster in London"
 imageCredit: "Photo: Colin · CC BY-SA 4.0 · Wikimedia Commons"

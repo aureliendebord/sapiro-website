@@ -1,8 +1,7 @@
 ---
 title: "Les merveilles du monde : antiques et modernes"
 description: "Les 7 merveilles du monde antique et les 7 nouvelles merveilles élues en 2007 : ce qu'il en reste, leur histoire et où les trouver aujourd'hui."
-date: 2026-02-02
-lastModified: 2026-06-15
+date: 2026-06-15
 image: "/images/blog/monuments/pyramides-gizeh.jpg"
 imageAlt: "Une sculpture de mains géantes encadrant les pyramides de Gizeh"
 imageCredit: "Photo : Mona Hassan Abo-Abda · CC BY-SA 4.0 · Wikimedia Commons"

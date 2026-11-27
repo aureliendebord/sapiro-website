@@ -1,8 +1,7 @@
 ---
 title: "Bedrohte Tierarten Liste: Stand 2026"
 description: "Welche Tiere sind in den nächsten Jahrzehnten wirklich vom Aussterben bedroht? Aktuelle Liste nach IUCN-Kategorie, mit echten Bestandszahlen und Ursachen."
-date: 2026-01-17
-lastModified: 2026-06-15
+date: 2026-10-19
 image: "/images/blog/nature/panda-geant.jpg"
 imageAlt: "Ein Großer Panda, der Bambus frisst"
 imageCredit: "Photo: KQuhen · CC BY-SA 4.0 · Wikimedia Commons"

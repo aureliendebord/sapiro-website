@@ -2,7 +2,6 @@
 title: "Los 10 países más jóvenes del mundo (2026)"
 description: "Sudán del Sur (2011) es el país más joven del mundo. El ranking de los 10 países más recientes, con el año y el contexto de cada independencia."
 date: 2026-07-21
-lastModified: 2026-07-21
 image: "/images/blog/monde/globe-terrestre.jpg"
 imageAlt: "Un mapa antiguo en proyección circular que muestra dos tercios del globo"
 imageCredit: "Foto: Henry James · dominio público · Wikimedia Commons"
