@@ -2,6 +2,7 @@
 title: "Los 10 países más pequeños de América, todos en el Caribe"
 description: "San Cristóbal y Nieves (261 km²) es el país más pequeño de América. Los 10 países americanos más pequeños, todos insulares, y el menor del continente."
 date: 2026-08-17
+lastModified: 2026-11-27
 image: "/images/blog/famille/globe-atlas-table.jpg"
 imageAlt: "Un antiguo mapamundi griego en dos hemisferios"
 imageCredit: "Foto: Ánthimos Gazís · dominio público · Wikimedia Commons"
@@ -21,7 +22,7 @@ El país más pequeño de América es San Cristóbal y Nieves, con unos 261 km²
 
 Dos islas volcánicas y unos 47 000 habitantes: es también el país más pequeño de todo el hemisferio occidental, y el octavo más pequeño del mundo. Independiente del Reino Unido desde 1983, vive del turismo y de uno de los programas de ciudadanía por inversión más antiguos del mundo.
 
-## 2. Granada (344 km²)
+## 2. Granada (345 km²)
 <img class="flag-badge" src="/flags/countries/gd.svg" alt="Bandera de Granada" loading="lazy" />
 
 
@@ -31,9 +32,9 @@ La isla de las especias produce una parte notable de la nuez moscada mundial, qu
 <img class="flag-badge" src="/flags/countries/vc.svg" alt="Bandera de San Vicente y las Granadinas" loading="lazy" />
 
 
-Una isla principal y una treintena de islotes, algunos privados. La Soufrière, el volcán del norte de San Vicente, entró en erupción en 2021 y obligó a evacuar a unas 20 000 personas.
+Una isla principal y una treintena de islotes, algunos privados. La Soufrière, el volcán del norte de San Vicente, entró en erupción en 2021 y [obligó a evacuar a unos 16 000 residentes](https://news.un.org/en/story/2021/04/1089592), según la ONU.
 
-## 4. Barbados (430 km²)
+## 4. Barbados (431 km²)
 <img class="flag-badge" src="/flags/countries/bb.svg" alt="Bandera de Barbados" loading="lazy" />
 
 
@@ -49,19 +50,19 @@ El país presume de 365 playas, una por cada día del año. Barbuda, la segunda 
 <img class="flag-badge" src="/flags/countries/lc.svg" alt="Bandera de Santa Lucía" loading="lazy" />
 
 
-Los dos pitones volcánicos de la isla son patrimonio mundial de la UNESCO. Santa Lucía tiene un récord curioso: dos premios Nobel para unos 180 000 habitantes, la mejor proporción per cápita del mundo.
+Los dos pitones volcánicos de la isla son patrimonio mundial de la UNESCO. Santa Lucía tiene un récord curioso: dos premios Nobel para unos 180 000 habitantes, una de las proporciones per cápita más altas del mundo.
 
-## 7. Dominica (751 km²)
+## 7. Dominica (750 km²)
 <img class="flag-badge" src="/flags/countries/dm.svg" alt="Bandera de Dominica" loading="lazy" />
 
 
-No confundir con la República Dominicana, su vecina mucho mayor. La isla natural del Caribe cuenta nueve volcanes activos y alberga el segundo lago hirviente del mundo.
+No confundir con la República Dominicana, su vecina mucho mayor. La isla natural del Caribe cuenta con varios volcanes activos y alberga el Boiling Lake, uno de los mayores lagos hirvientes del mundo.
 
-## 8. Trinidad y Tobago (5 128 km²)
+## 8. Trinidad y Tobago (5 127 km²)
 <img class="flag-badge" src="/flags/countries/tt.svg" alt="Bandera de Trinidad y Tobago" loading="lazy" />
 
 
-El gran salto del ranking: diez veces más extenso que Dominica. A 11 km de Venezuela, el país vive del petróleo y el gas más que del turismo, e inventó el steelpan, el tambor de acero.
+El gran salto del ranking: casi siete veces más extenso que Dominica. A 11 km de Venezuela, el país vive del petróleo y el gas más que del turismo, e inventó el steelpan, el tambor de acero.
 
 ## 9. Jamaica (10 991 km²)
 <img class="flag-badge" src="/flags/countries/jm.svg" alt="Bandera de Jamaica" loading="lazy" />
@@ -69,26 +70,28 @@ El gran salto del ranking: diez veces más extenso que Dominica. A 11 km de Vene
 
 La tercera isla más grande del Caribe sigue siendo un país pequeño a escala del continente. Su influencia cultural, del reggae al sprint, supera con mucho su tamaño.
 
-## 10. Bahamas (13 943 km²)
+## 10. Bahamas (13 940 km²)
 <img class="flag-badge" src="/flags/countries/bs.svg" alt="Bandera de Bahamas" loading="lazy" />
 
 
-Unas 700 islas e islotes sobre bancos de arena al norte del Caribe, de las que solo una treintena están habitadas. El archipiélago cierra este ranking a pocos kilómetros de las costas de Florida.
+[Unas 700 islas e islotes](https://www.bahamas.com/blog/bahamian-out-islands-our-best-kept-secret) sobre bancos de arena al norte del Caribe, de las que solo una treintena están habitadas. El archipiélago cierra este ranking frente a las costas de Florida.
 
 ## Los países más pequeños de América de un vistazo
 
 | Puesto | País | Superficie (km²) | Habitantes (aprox.) |
 |---|---|---|---|
 | 1 | San Cristóbal y Nieves | 261 | 47 000 |
-| 2 | Granada | 344 | 112 000 |
-| 3 | San Vicente y las Granadinas | 389 | 110 000 |
-| 4 | Barbados | 430 | 282 000 |
+| 2 | Granada | 345 | 117 000 |
+| 3 | San Vicente y las Granadinas | 389 | 101 000 |
+| 4 | Barbados | 431 | 282 000 |
 | 5 | Antigua y Barbuda | 442 | 94 000 |
 | 6 | Santa Lucía | 616 | 180 000 |
-| 7 | Dominica | 751 | 72 000 |
-| 8 | Trinidad y Tobago | 5 128 | 1 400 000 |
+| 7 | Dominica | 750 | 66 000 |
+| 8 | Trinidad y Tobago | 5 127 | 1 400 000 |
 | 9 | Jamaica | 10 991 | 2 800 000 |
-| 10 | Bahamas | 13 943 | 400 000 |
+| 10 | Bahamas | 13 940 | 400 000 |
+
+Superficies: [Anuario Demográfico 2025 de la ONU](https://unstats.un.org/unsd/demographic-social/products/dyb/documents/dyb2025/table03.pdf). Poblaciones: estimaciones de 2024 del [Banco Mundial](https://datos.bancomundial.org/indicator/SP.POP.TOTL), redondeadas.
 
 En el continente propiamente dicho, el país más pequeño es El Salvador (21 041 km²), seguido de Belice. La serie continúa con los [países más pequeños del mundo](/es/blog/paises-mas-pequenos-mundo/), los [países más pequeños de Asia](/es/blog/paises-mas-pequenos-asia/), los [países más pequeños de Europa](/es/blog/paises-mas-pequenos-europa/) y los [países más pequeños de África](/es/blog/paises-mas-pequenos-africa/). Y para el extremo opuesto, mira los [países más grandes del mundo](/es/blog/paises-mas-grandes-mundo/), donde América coloca a Canadá, Estados Unidos, Brasil y Argentina.
 
@@ -108,4 +111,11 @@ Cada isla o pequeño archipiélago colonizado por separado se convirtió en un e
 
 ### ¿Qué diferencia hay entre Dominica y la República Dominicana?
 
-Dos países sin relación: Dominica es una pequeña isla anglófona de 751 km², independiente desde 1978; la República Dominicana, hispanohablante, ocupa 48 671 km² en la isla de La Española, compartida con Haití.
+Dos países sin relación: Dominica es una pequeña isla anglófona de 750 km², independiente desde 1978; la República Dominicana, hispanohablante, ocupa 48 671 km² en la isla de La Española, compartida con Haití.
+
+## Fuentes
+
+- [ONU, División de Estadística, Anuario Demográfico 2025, cuadro 3](https://unstats.un.org/unsd/demographic-social/products/dyb/documents/dyb2025/table03.pdf): superficie de cada país citado (km²), edición 2025.
+- [Banco Mundial, Población, total](https://datos.bancomundial.org/indicator/SP.POP.TOTL): poblaciones de la tabla, estimaciones de 2024.
+- [Noticias ONU, Volcanic eruption leaves 'entire population' of Saint Vincent without clean water](https://news.un.org/en/story/2021/04/1089592): unos 16 000 residentes evacuados tras la erupción de La Soufrière, abril de 2021.
+- [Oficina de Turismo de Bahamas, Bahamian Out Islands](https://www.bahamas.com/blog/bahamian-out-islands-our-best-kept-secret): 700 islas y cayos, de los que unos 30 están habitados.
