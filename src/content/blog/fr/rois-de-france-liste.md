@@ -2,7 +2,7 @@
 title: "Liste des rois de France par ordre chronologique, de Clovis à Louis-Philippe"
 description: "Tous les rois de France dans l'ordre, de Clovis à Louis-Philippe : tableau chronologique avec dates de règne et dynasties, puis les faits majeurs des souverains à connaître."
 date: 2026-05-17
-lastModified: 2026-10-01
+lastModified: 2026-11-27
 image: "/images/blog/histoire/galerie-des-glaces.jpg"
 imageAlt: "La galerie des Glaces du château de Versailles"
 imageCredit: "Photo : Myrabella · CC BY-SA 3.0 · Wikimedia Commons"
@@ -14,7 +14,7 @@ author: "SAPIRO"
 readingTime: 8
 ---
 
-Près de treize siècles, de Clovis (481) à Louis-Philippe (1848), et plus de 70 rois selon la façon de compter. Voici d'abord la liste chronologique complète, dynastie par dynastie, puis les souverains à connaître absolument et ce qui a marqué leur règne.
+Près de quatorze siècles, de Clovis (481) à Louis-Philippe (1848), et plusieurs dizaines de rois, dont le total dépend de la façon de compter. Voici d'abord la liste chronologique complète, dynastie par dynastie, puis les souverains à connaître absolument et ce qui a marqué leur règne.
 
 ## Tous les rois de France dans l'ordre chronologique
 
@@ -83,7 +83,7 @@ Entre 1792 et 1814, puis de 1848 à 1870, la France est une république ou un em
 
 ## Mérovingiens (481-751)
 
-**Clovis Ier (481-511).** Fondateur du royaume franc. Premier roi franc converti au christianisme (baptême à Reims, vers 496-499). Fait de Paris sa capitale.
+**Clovis Ier (481-511).** Fondateur du royaume franc. Premier roi franc converti au christianisme : baptême à Reims un jour de Noël, en 498, 499 ou 506 selon le [Larousse](https://www.larousse.fr/encyclopedie/personnage/Clovis/187404), l'année restant incertaine. Fait de Paris sa capitale.
 
 **Dagobert Ier (629-639).** Le bon roi Dagobert de la chanson. Restaure l'autorité royale.
 
@@ -103,11 +103,11 @@ Entre 1792 et 1814, puis de 1848 à 1870, la France est une république ou un em
 
 **Hugues Capet (987-996).** Fondateur de la dynastie capétienne. Élu roi en 987.
 
-**Philippe Auguste (1180-1223).** Triple la superficie du royaume. Construit le Louvre. Bataille de Bouvines en 1214.
+**Philippe Auguste (1180-1223).** Agrandit fortement le domaine royal. Fait bâtir la forteresse du Louvre. Bataille de Bouvines en 1214.
 
 **Saint Louis (1226-1270).** Réputé pour sa justice. Septième croisade. Canonisé.
 
-**Philippe le Bel (1285-1314).** Conflit avec la papauté. Dissolution des Templiers en 1307.
+**Philippe le Bel (1285-1314).** Conflit avec la papauté. Fait arrêter les Templiers en 1307. L'ordre est supprimé en 1312 par le pape, sous sa pression, au [concile de Vienne](https://www.universalis.fr/encyclopedie/concile-de-vienne/) (bulle Vox in excelso).
 
 ## Valois (1328-1589)
 
@@ -131,7 +131,7 @@ Entre 1792 et 1814, puis de 1848 à 1870, la France est une république ou un em
 
 **Louis XIII (1610-1643).** Règne avec Richelieu.
 
-**Louis XIV (1643-1715).** Le Roi-Soleil. Règne le plus long de l'histoire de France (72 ans). Construit le [château de Versailles](https://fr.wikipedia.org/wiki/Ch%C3%A2teau_de_Versailles). Apogée de la monarchie absolue.
+**Louis XIV (1643-1715).** Le Roi-Soleil. Règne le plus long de l'histoire de France ([72 ans](https://www.chateauversailles.fr/decouvrir/histoire/grands-personnages/louis-xiv)). Installe la cour au château de Versailles en 1682. Apogée de la monarchie absolue.
 
 **Louis XV (1715-1774).** Le Bien-Aimé. Règne marqué par des défaites (guerre de Sept Ans).
 
@@ -145,7 +145,7 @@ Entre 1792 et 1814, puis de 1848 à 1870, la France est une république ou un em
 
 **Charles X (1824-1830).** Renversé par la révolution de 1830.
 
-**Louis-Philippe (1830-1848).** Le roi citoyen, « roi des Français ». Dernier roi de France, renversé par la révolution de 1848.
+**Louis-Philippe (1830-1848).** Le roi citoyen, « roi des Français ». Dernier roi à avoir régné en France, renversé par la révolution de 1848.
 
 **Napoléon III (1852-1870).** Dernier empereur.
 
@@ -155,7 +155,7 @@ Mémoriser d'abord les dynasties. Mérovingiens, Carolingiens, Capétiens, Valoi
 
 Associer chaque roi à un événement-clé. Clovis = baptême. Charlemagne = couronnement à Rome. Philippe Auguste = Bouvines. Saint Louis = croisades. Henri IV = édit de Nantes. Louis XIV = Versailles. Louis XVI = guillotine.
 
-Croiser avec les guerres. Guerre de Cent Ans = Charles V, Charles VII, Louis XI. Guerres de religion = Charles IX, Henri III, Henri IV. Révolution = Louis XVI.
+Croiser avec les guerres. Guerre de Cent Ans = Charles V, Charles VI, Charles VII. Guerres de religion = Charles IX, Henri III, Henri IV. Révolution = Louis XVI.
 
 Croiser avec les lieux de pouvoir. De Versailles au Louvre, les [châteaux et palais célèbres](/blog/chateaux-palais-celebres-monde/) racontent concrètement le règne de ces souverains.
 
@@ -173,14 +173,19 @@ Louis-Philippe Ier, qui règne de 1830 à 1848 avec le titre de « roi des Fran�
 
 ### Combien y a-t-il eu de rois de France ?
 
-Plus de 70 depuis Clovis, mais le chiffre varie selon la façon de compter les partages mérovingiens et les rois concurrents. Depuis Hugues Capet (987), le décompte est net : 36 rois jusqu'à Louis-Philippe.
+Il n'existe pas de chiffre unique avant les Capétiens : le total dépend de la façon de compter les partages mérovingiens et les rois concurrents. Depuis Hugues Capet (987), le décompte est net : 36 rois jusqu'à Louis-Philippe.
 
 ### Quel roi de France a régné le plus longtemps ?
 
-Louis XIV, 72 ans de règne (1643-1715), un record en Europe. Le règne le plus court est celui de Jean Ier le Posthume, roi dès sa naissance en novembre 1316 et mort cinq jours plus tard.
+Louis XIV, 72 ans de règne (1643-1715). Le règne le plus court est celui de Jean Ier le Posthume, roi dès sa naissance en novembre 1316 et mort cinq jours plus tard.
 
 <figure>
   <img src="/images/blog/histoire/louis-xiv.jpg" alt="Portrait de Louis XIV" loading="lazy" />
   <figcaption>Photo : Hyacinthe Rigaud · CC0 · Wikimedia Commons</figcaption>
 </figure>
 
+## Sources
+
+- [Larousse, « Clovis »](https://www.larousse.fr/encyclopedie/personnage/Clovis/187404) : roi des Francs de 481 ou 482 à 511, baptême à Reims daté de 498, 499 ou 506, transfert de la capitale à Paris.
+- [Encyclopædia Universalis, « Concile de Vienne (1311-1312) », par Marcel Pacaut](https://www.universalis.fr/encyclopedie/concile-de-vienne/) : suppression de l'ordre du Temple en mars 1312 sous la pression de Philippe le Bel.
+- [Château de Versailles, « Louis XIV »](https://www.chateauversailles.fr/decouvrir/histoire/grands-personnages/louis-xiv) : 72 années de règne, installation de la cour à Versailles le 6 mai 1682, mort le 1er septembre 1715.
