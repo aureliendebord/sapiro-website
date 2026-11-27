@@ -5,7 +5,6 @@ import Footer from '../components/Footer.astro';
 import BlogCta from '../components/BlogCta.astro';
 import BlogInlineCta from '../components/BlogInlineCta.astro';
 import BlogQuiz, { type BlogQuizQuestion } from '../components/BlogQuiz.astro';
-import BlogStickyStoreBar from '../components/BlogStickyStoreBar.astro';
 import type { Lang } from '../i18n';
 import { getTranslations, getLocalePath, dateLocales, LANGS } from '../i18n';
 import type { FaqItem } from '../utils/faq';
@@ -289,7 +288,6 @@ const breadcrumbSchema = {
   </main>
 
   <Footer lang={lang} t={t} />
-  <BlogStickyStoreBar lang={lang} />
 </Layout>
 
 <style>
