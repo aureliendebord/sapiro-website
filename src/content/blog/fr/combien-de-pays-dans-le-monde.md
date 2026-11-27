@@ -2,7 +2,6 @@
 title: "Combien de pays y a-t-il dans le monde ? 193, 195 ou 197"
 description: "Il y a 195 pays selon le décompte le plus courant : 193 membres de l'ONU plus 2 observateurs. Pourquoi 193, 197, 206 et 249 sont aussi des réponses justes."
 date: 2026-08-17
-lastModified: 2026-08-17
 image: "/images/blog/apprentissage/carte-monde.jpg"
 imageAlt: "Une carte politique du monde"
 imageCredit: "Photo : JanitoalevicOriginal map by: CIA World Factbook · domaine public · Wikimedia Commons"
@@ -12,7 +11,6 @@ translationKey: "combien-pays-monde"
 category: "voyage"
 author: "SAPIRO"
 readingTime: 5
-canonicalTo: "https://sapiro.app/blog/pays-disparus/"
 ---
 
 Il y a 195 pays dans le monde selon le décompte le plus courant : les 193 États membres de l'ONU, plus 2 États observateurs (le Vatican et la Palestine). Mais 193, 197 ou même 249 sont des réponses tout aussi défendables : tout dépend de qui compte, et selon quel critère. Voici chaque chiffre et ce qu'il recouvre.
