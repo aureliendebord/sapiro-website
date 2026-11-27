@@ -77,7 +77,7 @@ La trampa de los nombres idénticos: Ciudad de Guatemala es la capital de Guatem
 
 ## Técnicas de memorización
 
-Se pueden retener estas capitales. Hace falta método, no talento innato. Los principios son los mismos que los de la [gamificación en el aprendizaje](/es/blog/gamificacion-educacion/), y funcionan igual para [enseñar geografía a los niños](/es/blog/geografia-ninos/).
+Se pueden retener estas capitales. Hace falta método, no talento innato. Los principios son los mismos que los de la gamificación en el aprendizaje, y funcionan igual para [enseñar geografía a los niños](/es/blog/geografia-ninos/).
 
 Los recursos mnemotécnicos: inventa asociaciones absurdas. Para recordar Canberra, piensa en "Can Bear a", un canguro que puede cargar con algo. Cuanto más ridículo, mejor se queda en la memoria.
 

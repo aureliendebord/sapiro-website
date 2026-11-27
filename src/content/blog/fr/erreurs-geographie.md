@@ -99,7 +99,7 @@ Cette erreur de perception vient de la projection cartographique déjà évoqué
 
 Ces erreurs ne sont pas une fatalité. Quelques habitudes simples suffisent.
 
-Faites des quiz réguliers, même courts. Cinq minutes par jour valent mieux qu'une heure par mois. La [répétition espacée et le rappel actif](/blog/gamification-education/) sont les deux piliers de la mémorisation durable. Manipulez des cartes interactives plutôt que de simplement les regarder : ça renforce la mémoire spatiale bien plus efficacement. Et si les drapeaux vous intéressent aussi, découvrez les [drapeaux les plus difficiles à reconnaître](/blog/drapeaux-difficiles/).
+Faites des quiz réguliers, même courts. Cinq minutes par jour valent mieux qu'une heure par mois. La répétition espacée et le rappel actif sont les deux piliers de la mémorisation durable. Manipulez des cartes interactives plutôt que de simplement les regarder : ça renforce la mémoire spatiale bien plus efficacement. Et si les drapeaux vous intéressent aussi, découvrez les [drapeaux les plus difficiles à reconnaître](/blog/drapeaux-difficiles/).
 
 Quand un pays passe aux infos, localisez-le immédiatement sur une carte. Organisez une [soirée quiz géographie](/blog/geographie-famille/) avec vos proches : on retient mieux quand on apprend en s'amusant. Et surtout, inventez vos propres moyens mnémotechniques. Les associations les plus absurdes sont souvent celles qui collent le mieux.
 

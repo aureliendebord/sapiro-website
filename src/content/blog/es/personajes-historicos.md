@@ -109,7 +109,7 @@ Matemático, criptoanalista, padre de la informática. Su trabajo para descifrar
 
 El interés va más allá de la [cultura general](/es/blog/cultura-general-guia/) de sobremesa. Conocer estas vidas es entender cómo el mundo llegó a ser lo que es. El Código Civil de Napoleón estructura el derecho de más de 40 países. La teoría de Darwin fundamenta nuestra biología. La no violencia de Gandhi inspira los movimientos sociales contemporáneos. No son figuras del pasado. Su influencia está en el presente.
 
-Para niños y adolescentes, descubrir a estos personajes desarrolla el espíritu crítico y la empatía. Y el método lúdico de los [quiz y juegos educativos](/es/blog/geografia-ninos/) vuelve estas figuras vivas y accesibles, lejos de los párrafos grises de un manual escolar. Los [principios de la gamificación](/es/blog/gamificacion-educacion/) explican por qué el formato quiz ancla tan bien estos conocimientos, y las [mejores aplicaciones de geografía](/es/blog/mejores-apps-geografia/) extienden el juego a mapas y banderas.
+Para niños y adolescentes, descubrir a estos personajes desarrolla el espíritu crítico y la empatía. Y el método lúdico de los [quiz y juegos educativos](/es/blog/geografia-ninos/) vuelve estas figuras vivas y accesibles, lejos de los párrafos grises de un manual escolar. El formato quiz ancla muy bien estos conocimientos, y las [mejores aplicaciones de geografía](/es/blog/mejores-apps-geografia/) extienden el juego a mapas y banderas.
 
 <figure>
   <img src="/images/blog/monde/bibliotheque.jpg" alt="Una antigua biblioteca llena de libros" loading="lazy" />

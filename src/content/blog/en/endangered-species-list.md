@@ -55,7 +55,7 @@ Before the list, a useful reminder. The IUCN classifies species into seven level
 
 **Black rhino**: 6,500 individuals, recovering after falling to 2,400 in 1995.
 
-**Cheetah**: 7,100 individuals, against 100,000 a century ago. The African sprinter mostly suffers from habitat loss. To tell it apart from the leopard, see our [guide to 50 animal species](/en/blog/quiz-animals-world-species/).
+**Cheetah**: 7,100 individuals, against 100,000 a century ago. The African sprinter mostly suffers from habitat loss.
 
 **Polar bear**: 22,000 to 31,000 individuals. Stable population for now but threatened long-term by melting sea ice.
 
@@ -107,7 +107,7 @@ Ecology is not just a story of collapse. A few successes.
 
 The **California condor**, the **American bison** (recovered from 750 to 30,000 individuals), the **mountain gorilla**, the **northern bald ibis**, the **Arabian oryx** (reintroduced to the wild after being extinct in the wild) show that conservation can reverse the trajectory. But each case takes decades of coordinated effort and massive resources.
 
-For more on nature, see also our article on [strange and lesser-known animals](/en/blog/strange-unknown-animals/) and the one on [the most dangerous animals in the world](/en/blog/most-dangerous-animals-world/). And for the species we failed to save: the [recently extinct animals](/en/blog/recently-extinct-animals/). SAPIRO lets you test knowledge on 600 species, with an explanation behind every question.
+For more on nature, see also our article on [strange and lesser-known animals](/en/blog/strange-unknown-animals/). And for the species we failed to save: the [recently extinct animals](/en/blog/recently-extinct-animals/). SAPIRO lets you test knowledge on 600 species, with an explanation behind every question.
 
 <figure>
   <img src="/images/blog/nature/rhinoceros.jpg" alt="Rhinoceros skull with its two horns, on museum display" loading="lazy" />

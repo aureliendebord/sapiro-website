@@ -81,7 +81,7 @@ Sydney holds two silhouettes that have become the face of Australia.
 - **Sydney Opera House** — Sydney, Australia — a performance venue with concrete sail-shaped roofs, opened in 1973 and designed by Jørn Utzon.
 - **Sydney Harbour Bridge** — Sydney, Australia — a steel arch bridge nicknamed "the Coathanger", opened in 1932.
 
-To go further, browse our [guide to the world's monuments](/en/monuments/), compare these sites with [the Seven Wonders of the World](/en/blog/seven-wonders-of-the-world/), or check the ranking of the [most visited monuments](/en/blog/most-visited-monuments-world/). To move from buildings to artworks, see our tour of the [famous sculptures](/en/blog/famous-sculptures-world/) that often adorn these sites. And to test what you remember, try the [world monuments quiz](/en/blog/world-monuments-quiz/).
+To go further, browse our [guide to the world's monuments](/en/monuments/) or check the ranking of the [most visited monuments](/en/blog/most-visited-monuments-world/). To move from buildings to artworks, see our tour of the [famous sculptures](/en/blog/famous-sculptures-world/) that often adorn these sites. And to test what you remember, try the [world monuments quiz](/en/blog/world-monuments-quiz/).
 
 <figure>
   <img src="/images/blog/monuments/taj-mahal.jpg" alt="The Taj Mahal in Agra, India" loading="lazy" />

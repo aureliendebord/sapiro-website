@@ -29,7 +29,7 @@ quiz:
 
 One hundred questions, one hundred visible answers, five fields. The big list to revise thoroughly, prepare a giant quiz, or dip into round after round.
 
-The questions are sorted by theme (geography, history, art and culture, science, nature), with a level marked on each. Count one point per correct answer; the scale is at the bottom. For a shorter format, see our [10](/en/blog/50-general-knowledge-questions-answers/), [20](/en/blog/50-general-knowledge-questions-answers/) or [50 questions](/en/blog/50-general-knowledge-questions-answers/).
+The questions are sorted by theme (geography, history, art and culture, science, nature), with a level marked on each. Count one point per correct answer; the scale is at the bottom. For a shorter format, see our [50 questions](/en/blog/50-general-knowledge-questions-answers/).
 
 ## Geography
 
@@ -93,7 +93,7 @@ The questions are sorted by theme (geography, history, art and culture, science,
 **20. Which South American country has the longest Pacific coastline?** *(hard)*
 **Chile.** This narrow country stretches over 4,000 km from north to south.
 
-To go further in geography: our [capitals quiz by continent](/en/blog/world-capitals-quiz/).
+To go further in geography: our [world capitals quiz](/en/blog/world-capitals-quiz/).
 
 ## History
 
@@ -359,13 +359,13 @@ Count one point per correct answer, out of 100.
 
 **41 to 70:** solid general level. You hold your own anywhere, with gaps on the sharper questions.
 
-**71 to 100:** excellent. Measure yourself against the expert tiers in our [quiz by level](/en/blog/general-knowledge-quiz-levels/).
+**71 to 100:** excellent.
 
 ## Going further
 
 One hundred questions is a real marathon. But general knowledge is built in small, regular doses, not in one sitting.
 
-That's the idea behind SAPIRO: hundreds of quizzes on geography (197 countries), history, art and nature, with an explanation behind every answer. Free, no ads. For a structured month-long plan, follow our method to [revise general knowledge in 30 days](/en/blog/revise-general-knowledge-30-days/).
+That's the idea behind SAPIRO: hundreds of quizzes on geography (197 countries), history, art and nature, with an explanation behind every answer. Free, no ads.
 
 ## Frequently asked questions
 

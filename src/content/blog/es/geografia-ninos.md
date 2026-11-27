@@ -25,7 +25,7 @@ Un consejo concreto: cuelga un gran mapa del mundo en la habitación o el aula. 
 
 ## 2. ¿Cómo organizar un quiz de geografía para niños?
 
-El quiz es una de las formas de aprendizaje más eficaces. ¿Por qué? Porque activa el recuerdo activo: en vez de leer una información, el niño tiene que encontrarla en su cabeza. Ese esfuerzo de recuperación ancla los conocimientos con mucha más solidez que la simple lectura. Los [principios de la gamificación](/es/blog/gamificacion-educacion/) explican en detalle este mecanismo.
+El quiz es una de las formas de aprendizaje más eficaces. ¿Por qué? Porque activa el recuerdo activo: en vez de leer una información, el niño tiene que encontrarla en su cabeza. Ese esfuerzo de recuperación ancla los conocimientos con mucha más solidez que la simple lectura.
 
 En concreto: organiza sesiones de quiz después de cenar o a fin de semana. Se empieza sencillo. "¿En qué continente está Francia?" "¿Cuál es el océano más grande?" Luego se sube. "¿Cuál es la capital de Tailandia?" "¿Qué país tiene forma de bota?"
 

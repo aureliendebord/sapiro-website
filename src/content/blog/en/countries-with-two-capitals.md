@@ -70,7 +70,7 @@ Santiago is the capital and concentrates the executive and the judiciary. The Na
 | Eswatini | Mbabane, Lobamba | Administrative capital / royal and legislative capital |
 | Chile | Santiago, Valparaíso | Capital / seat of Congress |
 
-Mixing up these capitals is one of the [common geography mistakes](/en/blog/geography-mistakes/) worth knowing. The [world capitals quiz](/en/blog/world-capitals-quiz/) covers the full set, while the [capitals quiz by continent](/en/blog/world-capitals-quiz/) lets you work through one region at a time.
+Mixing up these capitals is one of the [common geography mistakes](/en/blog/geography-mistakes/) worth knowing. The [world capitals quiz](/en/blog/world-capitals-quiz/) covers the full set and includes a quick tour continent by continent.
 
 ## Frequently asked questions
 

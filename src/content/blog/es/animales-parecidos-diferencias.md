@@ -61,8 +61,6 @@ El malamute es más grande (30 a 40 kilos), con ojos siempre marrones. Cabeza m�
 
 El samoyedo tiene pelaje blanco inmaculado y una "sonrisa" característica.
 
-Para profundizar, ver nuestra [guía de razas de perros](/es/blog/razas-perros-reconocer/).
-
 ## Delfín y marsopa
 
 El delfín tiene un hocico largo en forma de pico y dientes cónicos.
@@ -151,7 +149,7 @@ La trucha es más pequeña y vive toda su vida en agua dulce (salvo la trucha ma
 
 Tres técnicas funcionan. La comparación en pareja (aprender dos especies juntas). La identificación por rasgo discriminante. El anclaje geográfico (qué continente, qué hábitat).
 
-Para profundizar: [50 especies animales que reconocer](/es/blog/quiz-animales-especies-mundo/) y el de [razas de perros](/es/blog/razas-perros-reconocer/). SAPIRO propone quizzes sobre 600 especies, incluidas muchas parejas tramposas, con explicación didáctica detrás de cada respuesta.
+SAPIRO propone quizzes sobre 600 especies, incluidas muchas parejas tramposas, con explicación didáctica detrás de cada respuesta.
 
 <figure>
   <img src="/images/blog/nature/guepard.jpg" alt="Un guepardo reconocible por sus marcas lacrimales negras" loading="lazy" />

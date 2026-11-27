@@ -32,7 +32,7 @@ Autant le dire tout de suite : SAPIRO, c'est nous, et c'est pour ça qu'il est e
 
 SAPIRO est un quiz de culture générale. La géographie couvre les 197 pays, avec drapeaux, capitales et cartes, et s'ajoutent l'histoire, l'art et la nature. La différence avec un quiz classique tient à ce qui se passe après la réponse : chaque question est suivie d'une explication, donc on retient pourquoi N'Djamena et pas seulement que c'était N'Djamena. Il n'y a pas de publicité, y compris dans la version gratuite.
 
-On peut [jouer gratuitement dans le navigateur](/jouer/), sans rien installer, ou prendre l'app sur iOS et Android. Le Défi du jour propose la même série de questions à tout le monde, gratuitement, et on peut partager son score pour défier un ami. Pour la comparaison point par point, voir notre [SAPIRO vs GeoGuessr](/blog/alternatives-geoguessr/).
+On peut [jouer gratuitement dans le navigateur](/jouer/), sans rien installer, ou prendre l'app sur iOS et Android. Le Défi du jour propose la même série de questions à tout le monde, gratuitement, et on peut partager son score pour défier un ami.
 
 ## 2. OpenGuessr, le plus proche de l'original
 
@@ -50,7 +50,7 @@ Le format est plus vivant qu'une image fixe et fonctionne très bien à plusieur
 
 Seterra existe depuis 1997 et n'a jamais changé d'idée : on clique sur une carte pour placer un pays, une capitale, un fleuve ou une montagne. La base est énorme, traduite dans plus de 40 langues, avec des quiz pour chaque région du monde.
 
-La version web gratuite est la meilleure porte d'entrée, et beaucoup d'enseignants s'en servent pour créer leurs propres quiz. L'interface date et la version mobile gratuite affiche de la publicité. Pour maîtriser la localisation pure, personne n'a fait mieux. On a détaillé les différences dans notre [comparatif SAPIRO vs Seterra](/blog/alternatives-seterra/).
+La version web gratuite est la meilleure porte d'entrée, et beaucoup d'enseignants s'en servent pour créer leurs propres quiz. L'interface date et la version mobile gratuite affiche de la publicité. Pour maîtriser la localisation pure, personne n'a fait mieux. Si son format ne vous convient pas, on a aussi listé les [alternatives à Seterra](/blog/alternatives-seterra/).
 
 ## 5. Worldle, un pays par jour
 

@@ -55,7 +55,7 @@ Para una velada estándar con amigos.
 
 **Deporte.** Eventos hito, leyendas por disciplina.
 
-**Geografía y viaje.** Banderas, capitales, monumentos. Ver nuestro [quiz capitales por continente](/es/blog/quiz-capitales-mundo/).
+**Geografía y viaje.** Banderas, capitales, monumentos. Ver nuestro [quiz de capitales del mundo](/es/blog/quiz-capitales-mundo/).
 
 **Quiz "Quién soy" (personajes históricos).** Ver nuestro artículo sobre [personajes históricos mayores](/es/blog/personajes-historicos/).
 
@@ -93,7 +93,7 @@ Tres principios.
 
 ## Para preparar rápido
 
-SAPIRO propone 2 000+ preguntas por categoría (geografía, historia, arte, naturaleza). Ideal para coger rápido preguntas de calidad con explicación. Para profundizar: [actividades culturales en familia](/es/blog/actividades-culturales-familia/) para profundizar.
+SAPIRO propone 2 000+ preguntas por categoría (geografía, historia, arte, naturaleza). Ideal para coger rápido preguntas de calidad con explicación.
 
 <figure>
   <img src="/images/blog/apprentissage/jeu-societe-amis.jpg" alt="Una familia jugando al Monopoly en el salón" loading="lazy" />

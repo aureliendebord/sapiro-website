@@ -61,11 +61,11 @@ Trois piliers.
 
 **Annales + méthode + actualité.** Les trois ensemble. Un seul ne suffit pas.
 
-**Quizzes pour la mémorisation.** Voir notre article sur la [gamification de l'apprentissage](/blog/gamification-education/). SAPIRO propose 2 000+ questions de culture générale parfaites pour des sessions courtes quotidiennes.
+**Quizzes pour la mémorisation.** SAPIRO propose 2 000+ questions de culture générale parfaites pour des sessions courtes quotidiennes.
 
 **Échanges humains.** Trouver un binôme de révision ou un mentor. C'est gratuit et accélère l'apprentissage.
 
-Pour creuser : [culture générale aux concours](/blog/culture-generale-concours-fonction-publique/) et [comment réviser en 30 jours](/blog/reviser-culture-generale-30-jours/).
+Pour creuser : [culture générale aux concours](/blog/culture-generale-concours-fonction-publique/).
 
 <figure>
   <img src="/images/blog/apprentissage/bureau-revision.jpg" alt="Un cabinet de travail du XIXe siècle avec bibliothèque et cheminée" loading="lazy" />

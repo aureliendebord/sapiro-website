@@ -63,11 +63,11 @@ Three pillars.
 
 **Past papers + method + current events.** All three together. None alone is enough.
 
-**Quizzes for memorization.** See our article on [gamification of learning](/en/blog/gamification-education/). SAPIRO offers 2,000+ general knowledge questions perfect for short daily sessions.
+**Quizzes for memorization.** SAPIRO offers 2,000+ general knowledge questions perfect for short daily sessions.
 
 **Human exchanges.** Find a study partner or a mentor. Free and accelerates learning.
 
-Worth reading: [general knowledge for civil service exams](/en/blog/general-knowledge-civil-service-exams/) and [how to revise in 30 days](/en/blog/revise-general-knowledge-30-days/).
+Worth reading: [general knowledge for civil service exams](/en/blog/general-knowledge-civil-service-exams/).
 
 <figure>
   <img src="/images/blog/apprentissage/bureau-revision.jpg" alt="A 19th-century study with bookshelves and a fireplace" loading="lazy" />

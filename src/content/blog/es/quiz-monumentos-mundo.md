@@ -85,11 +85,11 @@ El contexto geográfico, por último, resuelve los casos dudosos. Un templo rode
 
 Repasar al azar no lleva a ninguna parte. Un método en tres pasos da resultados mucho mejores.
 
-Avanza continente por continente. En vez de tragarte una lista mundial de golpe, ataca Europa, luego Asia, luego América, y así sucesivamente. Tu cerebro retiene mejor lo que está ordenado. Puedes seguir esta lógica con las [maravillas del mundo](/es/blog/maravillas-del-mundo/), que ofrecen una primera base de referencias imprescindibles.
+Avanza continente por continente. En vez de tragarte una lista mundial de golpe, ataca Europa, luego Asia, luego América, y así sucesivamente. Tu cerebro retiene mejor lo que está ordenado. Puedes seguir esta lógica con las maravillas del mundo, que ofrecen una primera base de referencias imprescindibles.
 
 Crea fichas breves. Para cada monumento: nombre, lugar, época aproximada, un detalle memorable. El detalle es la clave de la memorización. «El mayor monumento religioso del mundo» se pega a Angkor Wat mucho mejor que una ficha sobrecargada.
 
-Ponte a prueba a menudo. Releer de forma pasiva crea la ilusión de saber; ponerse a prueba revela los huecos reales. Aquí es donde una app de quiz cobra todo su sentido. **SAPIRO** propone quizzes de cultura general, con una categoría dedicada a los monumentos, y una explicación después de cada respuesta, útil para entender un error en lugar de limitarse a sufrirlo. Unos minutos al día fijan las referencias mejor que una larga sesión antes de una oposición. Si justo apuntas a un examen, nuestra selección de [monumentos para oposiciones](/es/blog/monumentos-cultura-general/) se centra en los sitios que más se preguntan. Y para explorar el tema entero, todo parte de nuestra [página de monumentos](/es/monumentos/).
+Ponte a prueba a menudo. Releer de forma pasiva crea la ilusión de saber; ponerse a prueba revela los huecos reales. Aquí es donde una app de quiz cobra todo su sentido. **SAPIRO** propone quizzes de cultura general, con una categoría dedicada a los monumentos, y una explicación después de cada respuesta, útil para entender un error en lugar de limitarse a sufrirlo. Unos minutos al día fijan las referencias mejor que una larga sesión antes de una oposición. Y para explorar el tema entero, todo parte de nuestra [página de monumentos](/es/monumentos/).
 
 <figure>
   <img src="/images/blog/monuments/tour-eiffel.jpg" alt="La Torre Eiffel en París" loading="lazy" />

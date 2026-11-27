@@ -109,7 +109,7 @@ Mit acht soliden Optionen auf dem Tisch hier eine schnelle Orientierung, um dein
 
 Wenn du umfassend lernen willst, mit Geografie, Kultur und Quizzen kombiniert, bietet SAPIRO die größte inhaltliche Bandbreite mit einem klugen, adaptiven Schwierigkeitsgrad. Für reine Kartenkenntnis bleibt Seterra der Goldstandard. Wenn dir immersives Erkunden mehr liegt, macht GeoGuessr aus Geografie ein Detektivspiel mit echten Street-View-Bildern. Familien mit Kindern sollten sich Stack the Countries ansehen, das Lernen mit einem Spielprinzip verbindet, das Kinder wirklich mögen. Für lockeres tägliches Üben bieten World Geography oder Geography Quiz kurze, unverbindliche Runden. Visuelle Lerntypen werden StudyGes kartenbasierten Ansatz schätzen. Und für Mehrspieler-Wettkampf liefern die QuizUp-Neuauflagen (zusammen mit dem Duellmodus von SAPIRO) das Adrenalin im direkten Duell.
 
-Für die besten Ergebnisse lohnt es sich, zwei Apps zu kombinieren: eine für strukturiertes Quiz-Training (etwa SAPIRO) und eine für immersives Erkunden (etwa GeoGuessr). Die Abwechslung hält dein Gehirn bei der Sache und deckt verschiedene Arten von Geografiewissen ab. Warum das funktioniert, erklärt unser Artikel über [Gamification in der Bildung](/en/blog/gamification-education/).
+Für die besten Ergebnisse lohnt es sich, zwei Apps zu kombinieren: eine für strukturiertes Quiz-Training (etwa SAPIRO) und eine für immersives Erkunden (etwa GeoGuessr). Die Abwechslung hält dein Gehirn bei der Sache und deckt verschiedene Arten von Geografiewissen ab.
 
 ## Wie oft solltest du Geografie üben, um Ergebnisse zu sehen?
 
@@ -153,4 +153,4 @@ Die meisten Geografie-Apps funktionieren gut ab 8 Jahren. Stack the Countries is
 
 Jede App auf dieser Liste hat etwas zu bieten. SAPIRO ist die einzige, die Geografie, Flaggen, Kulturwissen und adaptiven Schwierigkeitsgrad in einer App vereint, kostenlos herunterzuladen, offline nutzbar und auf Deutsch und in zehn weiteren Sprachen verfügbar.
 
-Wenn du zwischen SAPIRO und GeoGuessr schwankst, zeigt unser [Vergleich SAPIRO vs. GeoGuessr](/en/blog/geoguessr-alternatives/) die Unterschiede im Detail. Einen breiteren Blick auf Quiz-Apps jenseits der Geografie bietet unser Ratgeber zu den [besten Quiz-Apps für Allgemeinwissen](/de/blog/beste-quiz-apps-allgemeinwissen/).
+Wenn dich GeoGuessr reizt, zeigt unsere Übersicht der [GeoGuessr-Alternativen](/en/blog/geoguessr-alternatives/), was es sonst noch gibt. Einen breiteren Blick auf Quiz-Apps jenseits der Geografie bietet unser Ratgeber zu den [besten Quiz-Apps für Allgemeinwissen](/de/blog/beste-quiz-apps-allgemeinwissen/).

@@ -23,7 +23,7 @@ En réalité, les sujets se regroupent en grandes thématiques récurrentes.
 
 **Institutions et vie politique.** Constitution de la Cinquième République, séparation des pouvoirs, processus législatif, droits fondamentaux, organisation territoriale (communes, départements, régions), Union européenne.
 
-**Histoire.** Surtout XIXe et XXe siècles. Révolutions, République, guerres mondiales, décolonisation, Cinquième République. Pour creuser : [quiz histoire de France niveau bac](/blog/quiz-histoire-france-bac/) et [frise chronologique mondiale](/blog/frise-chronologique-mondiale/).
+**Histoire.** Surtout XIXe et XXe siècles. Révolutions, République, guerres mondiales, décolonisation, Cinquième République. Pour creuser : [frise chronologique mondiale](/blog/frise-chronologique-mondiale/).
 
 **Géographie.** France métropolitaine et outre-mer, capitales européennes, grands repères mondiaux, enjeux climatiques.
 
@@ -59,7 +59,7 @@ Trois formats principaux.
 
 **Faire des fiches thématiques.** Une fiche par grand sujet (éducation, santé, climat, Europe). À relire régulièrement, à enrichir par les actualités.
 
-**S'entraîner aux quiz.** La [science de l'apprentissage actif](/blog/gamification-education/) montre qu'on retient 50% mieux en se testant. Les quiz culture G sont parfaits pour calibrer son niveau et identifier les lacunes.
+**S'entraîner aux quiz.** La science de l'apprentissage actif montre qu'on retient 50% mieux en se testant. Les quiz culture G sont parfaits pour calibrer son niveau et identifier les lacunes.
 
 ## Les pièges classiques
 

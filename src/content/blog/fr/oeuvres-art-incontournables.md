@@ -89,7 +89,7 @@ Connaître ces douze œuvres, c'est un bon début. Mais la vraie richesse vient 
 
 C'est là qu'une approche structurée aide. SAPIRO couvre 553 œuvres à travers des quiz avec explications. L'application propose des parcours par musée (Louvre, Orsay, MoMA, Prado, Offices), par mouvement (Renaissance, Impressionnisme, Art moderne) et par technique. Chaque question relie l'artiste à son époque, ce qui construit progressivement une carte mentale de l'histoire de l'art.
 
-Pour approfondir, voir notre [guide de culture générale](/blog/culture-generale-guide/) et notre article sur [la gamification dans l'éducation](/blog/gamification-education/).
+Pour approfondir, voir notre [guide de culture générale](/blog/culture-generale-guide/).
 
 Le plus efficace reste de combiner les approches : visiter un musée après avoir révisé ses collections sur SAPIRO change complètement l'expérience. Aucune reproduction ne rend la taille de Guernica ni la texture des empâtements de Van Gogh. Mais sans préparation, on passe devant sans voir.
 

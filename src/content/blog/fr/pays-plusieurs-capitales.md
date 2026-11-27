@@ -70,7 +70,7 @@ Santiago est la capitale et concentre l'exécutif et la justice. Le Congrès nat
 | Eswatini | Mbabane, Lobamba | Capitale administrative / capitale royale et législative |
 | Chili | Santiago, Valparaíso | Capitale / siège du Congrès |
 
-Confondre ces capitales fait partie des [erreurs de géographie courantes](/blog/erreurs-geographie/). Pour les retenir, le [quiz capitales du monde](/blog/quiz-capitales-monde/) passe en revue l'ensemble, tandis que le [quiz capitales par continent](/blog/quiz-capitales-monde/) permet de travailler région par région.
+Confondre ces capitales fait partie des [erreurs de géographie courantes](/blog/erreurs-geographie/). Pour les retenir, le [quiz capitales du monde](/blog/quiz-capitales-monde/) passe en revue l'ensemble, continent par continent.
 
 ## Questions fréquentes
 

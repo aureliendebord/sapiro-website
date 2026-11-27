@@ -109,7 +109,7 @@ Three techniques.
 
 **Test knowledge.** SAPIRO offers quizzes on world geography and history, with contextualized explanations. Worth reading: [world history timeline](/en/blog/world-timeline-history/), the [smallest countries still standing today](/en/blog/smallest-countries-world/) and the [flags of countries that no longer exist](/en/blog/flags-of-disappeared-countries/). For a broader warm-up, try our [50 general knowledge questions](/en/blog/50-general-knowledge-questions-answers/), from time zones to enclaves.
 
-The logical next reads: our [20-question quiz on disappeared countries](/en/blog/countries-that-disappeared/), [countries that changed their names](/en/blog/countries-that-changed-names/), [unrecognized countries](/en/blog/unrecognized-countries/) and the [newest countries in the world](/en/blog/newest-countries-world/).
+The logical next reads: [countries that changed their names](/en/blog/countries-that-changed-names/), [unrecognized countries](/en/blog/unrecognized-countries/) and the [newest countries in the world](/en/blog/newest-countries-world/).
 
 <figure>
   <img src="/images/blog/monde/globe-terrestre.jpg" alt="An antique circular map projection showing two thirds of the globe" loading="lazy" />

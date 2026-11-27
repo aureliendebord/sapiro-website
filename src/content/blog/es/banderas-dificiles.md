@@ -141,7 +141,7 @@ Mozambique muestra un arma moderna en su bandera. Es el único país en hacerlo.
 
 ## Trucos para memorizar las banderas difíciles
 
-Quince banderas complicadas son un buen reto. ¿Cómo orientarse? Hay técnicas que funcionan, cercanas a las que se usan en la [gamificación educativa](/es/blog/gamificacion-educacion/) y en la [enseñanza de la geografía para niños](/es/blog/geografia-ninos/).
+Quince banderas complicadas son un buen reto. ¿Cómo orientarse? Hay técnicas que funcionan, cercanas a las que se usan en la gamificación educativa y en la [enseñanza de la geografía para niños](/es/blog/geografia-ninos/).
 
 La técnica de las asociaciones consiste en crear un vínculo mental entre la bandera y el país. Para Irlanda vs Costa de Marfil, por ejemplo: Irlanda está al oeste, y el verde (su color emblemático) está a la izquierda, es decir, al oeste de la bandera. Cabe en una frase y no se olvida.
 

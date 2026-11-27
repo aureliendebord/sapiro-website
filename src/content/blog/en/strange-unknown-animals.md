@@ -73,7 +73,7 @@ Nature sometimes has more imagination than any science fiction movie. Here are 2
 
 Most of these animals share three traits. They live in habitats hard to access (great depths, dense forests, underground). They are rare or very localized. Their discovery is recent, sometimes less than 50 years ago. Biodiversity remains largely unexplored: an estimated 86% of land species and 91% of marine species have not yet been described.
 
-Worth reading: [50 animal species worth knowing](/en/blog/quiz-animals-world-species/), [endangered species](/en/blog/endangered-species-list/) and [the most dangerous animals in the world](/en/blog/most-dangerous-animals-world/). SAPIRO offers quizzes on 600 species, from the most familiar to the strangest, with an explanation behind each question.
+Worth reading: [endangered species](/en/blog/endangered-species-list/). SAPIRO offers quizzes on 600 species, from the most familiar to the strangest, with an explanation behind each question.
 
 <figure>
   <img src="/images/blog/nature/ornithorynque.jpg" alt="A platypus, an egg-laying mammal" loading="lazy" />

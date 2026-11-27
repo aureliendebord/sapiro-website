@@ -129,7 +129,7 @@ Use the story, not the date. Our brains remember narratives far better than isol
 
 Group by theme. Revolutionaries (Toussaint, Napoleon, Gandhi, Mandela), scientists (Newton, Curie, Einstein), cultural icons (Leonardo, Confucius, de Beauvoir). Thematic grouping aids recall because your brain can walk through categories instead of scrolling through a random list.
 
-Test yourself regularly. As research on [gamification in learning](/en/blog/gamification-education/) shows, active retrieval practice is far more effective than passive review. Read the name, cover the description, and try to recall what they did. That moment of effort is where learning actually happens.
+Test yourself regularly. As research on gamification in learning shows, active retrieval practice is far more effective than passive review. Read the name, cover the description, and try to recall what they did. That moment of effort is where learning actually happens.
 
 <figure>
   <img src="/images/blog/monde/bibliotheque.jpg" alt="An old library full of books" loading="lazy" />

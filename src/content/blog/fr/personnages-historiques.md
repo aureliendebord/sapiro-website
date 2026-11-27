@@ -69,7 +69,7 @@ Alan Turing (1912-1954) — mathématicien, cryptanalyste, père de l'informatiq
 
 L'intérêt dépasse la [culture générale](/blog/culture-generale-guide/) de dîner. Comprendre ces trajectoires, c'est comprendre comment le monde actuel s'est construit. Le Code civil de Napoléon structure le droit de plus de 40 pays. La théorie de Darwin fonde notre biologie. La non-violence de Gandhi irrigue encore les mouvements sociaux.
 
-Pour les plus jeunes, découvrir ces vies développe l'esprit critique et l'empathie. Et la voie ludique des [quiz et jeux éducatifs](/blog/geographie-enfants/) rend ces figures vivantes, loin des paragraphes ternes d'un manuel. Pour aller plus loin, voyez notre guide sur [apprendre l'histoire en s'amusant](/blog/apprendre-histoire-en-samusant/) et les [principes de la gamification](/blog/gamification-education/) qui expliquent pourquoi le format quiz ancre si bien la mémoire.
+Pour les plus jeunes, découvrir ces vies développe l'esprit critique et l'empathie. Et la voie ludique des [quiz et jeux éducatifs](/blog/geographie-enfants/) rend ces figures vivantes, loin des paragraphes ternes d'un manuel. Pour aller plus loin, voyez notre guide sur [apprendre l'histoire en s'amusant](/blog/apprendre-histoire-en-samusant/).
 
 ## Tester ses connaissances
 

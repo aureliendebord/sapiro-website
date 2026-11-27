@@ -25,8 +25,6 @@ La materia que más moviliza la cultura general es la de historia-geografía-cí
 
 **Cívica.** Valores y símbolos de la democracia, derechos y deberes, defensa nacional, identidad digital, vida democrática.
 
-Ver también nuestro [quiz historia nivel examen](/es/blog/quiz-historia-examen/) para profundizar fechas.
-
 ## Nivel bachillerato
 
 Varias materias recurren a la cultura general.

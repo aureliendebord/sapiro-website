@@ -85,11 +85,11 @@ Geography settles the close calls. A temple swallowed by dense jungle leans towa
 
 Random revision goes nowhere. A three-step method works far better.
 
-Go continent by continent. Rather than swallowing a global list in one gulp, tackle Europe, then Asia, then the Americas, and so on. Your brain holds on to what is sorted. You can follow the same logic with the [seven wonders of the world](/en/blog/seven-wonders-of-the-world/), a solid first set of landmarks to anchor.
+Go continent by continent. Rather than swallowing a global list in one gulp, tackle Europe, then Asia, then the Americas, and so on. Your brain holds on to what is sorted. You can follow the same logic with the seven wonders of the world, a solid first set of landmarks to anchor.
 
 Build short flashcards. For each monument: name, place, rough period, one memorable detail. The detail is the key to recall. "Largest religious monument in the world" sticks to Angkor Wat far better than an overloaded card.
 
-Test yourself often. Passive rereading creates the illusion of knowing; testing reveals the real gaps. This is where a quiz app earns its place. **SAPIRO** offers general-knowledge quizzes, including a category devoted to monuments, with an explanation after each answer, handy for understanding a mistake instead of just suffering it. A few minutes a day anchors the landmarks better than one long cram session before an exam. If you're aiming for a test, our selection of [monuments for exams](/en/blog/monuments-general-knowledge/) targets the most frequently asked sites. And to explore the whole topic, it all starts on our [monuments page](/en/monuments/).
+Test yourself often. Passive rereading creates the illusion of knowing; testing reveals the real gaps. This is where a quiz app earns its place. **SAPIRO** offers general-knowledge quizzes, including a category devoted to monuments, with an explanation after each answer, handy for understanding a mistake instead of just suffering it. A few minutes a day anchors the landmarks better than one long cram session before an exam. And to explore the whole topic, it all starts on our [monuments page](/en/monuments/).
 
 <figure>
   <img src="/images/blog/monuments/tour-eiffel.jpg" alt="The Eiffel Tower in Paris" loading="lazy" />

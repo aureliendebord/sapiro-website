@@ -82,7 +82,7 @@ Trois raisons expliquent que deux listes sérieuses donnent des ordres différen
 
 **La datation a une marge.** Le carbone 14 donne des fourchettes de plusieurs siècles pour ces périodes. Un « 9000 av. J.-C. » est une estimation centrale, pas une date.
 
-Pour continuer : les [cités perdues du monde](/blog/cites-perdues-monde/) racontent le destin inverse, celui de celles qui n'ont pas survécu ; les [monuments de l'Antiquité](/blog/monuments-antiquite/) et les [plus grands empires de l'histoire](/blog/plus-grands-empires-histoire/) replacent ces villes dans leur contexte politique.
+Pour continuer : les [monuments de l'Antiquité](/blog/monuments-antiquite/) et les [plus grands empires de l'histoire](/blog/plus-grands-empires-histoire/) replacent ces villes dans leur contexte politique.
 
 ## Questions fréquentes
 

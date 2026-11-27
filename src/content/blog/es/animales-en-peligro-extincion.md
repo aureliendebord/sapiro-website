@@ -55,7 +55,7 @@ Antes de la lista, un recordatorio útil. La UICN clasifica las especies en siet
 
 **Rinoceronte negro**: 6 500 individuos, en remonte tras caer a 2 400 en 1995.
 
-**Guepardo**: 7 100 individuos, frente a 100 000 hace un siglo. El sprinter africano sufre sobre todo por la pérdida de hábitat. Para distinguirlo del leopardo, ver nuestra [guía de 50 especies animales](/es/blog/quiz-animales-especies-mundo/).
+**Guepardo**: 7 100 individuos, frente a 100 000 hace un siglo. El sprinter africano sufre sobre todo por la pérdida de hábitat.
 
 **Oso polar**: 22 000 a 31 000 individuos. Población estable por ahora pero amenazada a largo plazo por el deshielo.
 
@@ -107,7 +107,7 @@ La ecología no es solo un relato de colapso. Algunos éxitos.
 
 El **cóndor de California**, el **bisonte americano** (recuperado de 750 a 30 000 individuos), el **gorila de montaña**, el **ibis eremita**, el **órix de Arabia** (reintroducido en libertad tras estar extinto en estado salvaje) muestran que la conservación puede invertir la trayectoria. Pero cada vez se necesitan décadas de esfuerzo coordinado y recursos masivos.
 
-Para profundizar sobre naturaleza, ver también nuestro artículo sobre [animales extraños y desconocidos](/es/blog/animales-extranos-desconocidos/) y el de [animales más peligrosos del mundo](/es/blog/animales-mas-peligrosos-mundo/). Y para las especies que no supimos salvar: los [animales extinguidos recientemente](/es/blog/animales-extintos-recientemente/). SAPIRO permite poner a prueba conocimientos sobre 600 especies, con una explicación didáctica detrás de cada pregunta.
+Para profundizar sobre naturaleza, ver también nuestro artículo sobre [animales extraños y desconocidos](/es/blog/animales-extranos-desconocidos/). Y para las especies que no supimos salvar: los [animales extinguidos recientemente](/es/blog/animales-extintos-recientemente/). SAPIRO permite poner a prueba conocimientos sobre 600 especies, con una explicación didáctica detrás de cada pregunta.
 
 <figure>
   <img src="/images/blog/nature/rhinoceros.jpg" alt="Cráneo de rinoceronte con sus dos cuernos, expuesto en un museo" loading="lazy" />

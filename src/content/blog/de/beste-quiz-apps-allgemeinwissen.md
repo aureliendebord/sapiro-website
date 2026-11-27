@@ -29,7 +29,7 @@ Es ist eine noch junge App, die Fragensammlung wächst also weiter, ist aber sch
 
 **Preis:** Kostenlose Version, ohne Werbung.
 
-Wer mehr darüber wissen will, wie [Gamification Lernerfolge steigert](/en/blog/gamification-education/): SAPIRO ist ein gutes Beispiel für diesen Ansatz, sauber umgesetzt.
+SAPIRO ist ein gutes Beispiel dafür, wie sauber umgesetzte Gamification Lernerfolge steigert.
 
 ## 2. Trivia Crack — Der Social-Quiz-Klassiker
 
@@ -152,7 +152,7 @@ Sie ist nicht für jeden die richtige App. Wenn du Mehrspieler-Duelle gegen Frem
 
 Wenn du aber in deinem eigenen Tempo wirklich etwas lernen willst, ohne Werbung und ohne dass deine Daten verkauft werden, ist SAPIRO die stärkste Option, die wir getestet haben. Der adaptive Schwierigkeitsgrad hält die Herausforderung hoch, während du besser wirst, und dank der Erklärungen gehst du mit mehr Wissen raus, nicht nur mit einer höheren Punktzahl.
 
-Für genauere Vergleiche lies unsere direkten Gegenüberstellungen: [SAPIRO vs. Trivia Crack](/en/blog/trivia-crack-alternatives/), [SAPIRO vs. GeoGuessr](/en/blog/geoguessr-alternatives/) und [SAPIRO vs. Kahoot](/en/blog/best-quiz-apps-general-knowledge/). Und wenn Geografie dein Ding ist, wirf einen Blick auf unseren Ratgeber zu den [besten Geografie-Apps](/de/blog/beste-geografie-apps/).
+Zum Weiterlesen: unsere [Alternativen zu Trivia Crack](/en/blog/trivia-crack-alternatives/) und unsere [GeoGuessr-Alternativen](/en/blog/geoguessr-alternatives/). Und wenn Geografie dein Ding ist, wirf einen Blick auf unseren Ratgeber zu den [besten Geografie-Apps](/de/blog/beste-geografie-apps/).
 
 <figure>
   <img src="/images/blog/apps/etudier-smartphone.jpg" alt="Senioren bei einer Schulung in einem Klassenzimmer" loading="lazy" />

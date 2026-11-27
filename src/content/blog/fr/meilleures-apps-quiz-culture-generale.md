@@ -133,9 +133,9 @@ Notre biais d'éditeur mis à part, le vrai choix dépend d'une question : est-c
 
 Un dernier point qui compte quand on confie un téléphone à un enfant : lisez les politiques de confidentialité. Beaucoup d'apps gratuites se financent sur la revente de données, et les pubs ne sont pas toujours triées selon l'âge de l'utilisateur. C'est le genre de détail qu'on voit rarement dans un comparatif et qui pèse sur l'expérience réelle.
 
-Pour aller plus loin, nos comparatifs détaillés [SAPIRO vs Trivia Crack](/blog/alternatives-trivia-crack/), [SAPIRO vs GeoGuessr](/blog/alternatives-geoguessr/) et [SAPIRO vs Kahoot](/blog/meilleures-apps-quiz-culture-generale/), ou le [guide des meilleures apps de géographie](/blog/meilleures-apps-geographie/).
+Pour aller plus loin, nos sélections d'[alternatives à Trivia Crack](/blog/alternatives-trivia-crack/) et d'[alternatives à GeoGuessr](/blog/alternatives-geoguessr/), ou le [guide des meilleures apps de géographie](/blog/meilleures-apps-geographie/).
 
-Et si le sujet vous intéresse au-delà des apps : notre [guide complet de la culture générale](/blog/culture-generale-guide/) et un papier sur [la gamification dans l'éducation](/blog/gamification-education/) pour comprendre pourquoi le format quiz fonctionne aussi bien.
+Et si le sujet vous intéresse au-delà des apps : notre [guide complet de la culture générale](/blog/culture-generale-guide/).
 
 <figure>
   <img src="/images/blog/apps/etudier-smartphone.jpg" alt="Des seniors suivant une formation en salle de cours" loading="lazy" />

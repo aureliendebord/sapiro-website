@@ -25,8 +25,6 @@ L'épreuve qui mobilise le plus la culture générale est celle d'histoire-géog
 
 **EMC.** Valeurs et symboles de la République, droits et devoirs, défense nationale, identité numérique, vie démocratique.
 
-Voir aussi notre [quiz histoire de France niveau brevet et bac](/blog/quiz-histoire-france-bac/) pour creuser les dates.
-
 ## Au bac (Première et Terminale)
 
 Plusieurs épreuves font appel à la culture générale.

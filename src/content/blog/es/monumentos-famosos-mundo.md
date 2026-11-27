@@ -81,7 +81,7 @@ Sídney reúne dos siluetas que se han convertido en el rostro de Australia.
 - **Ópera de Sídney** — Sídney, Australia — sala de espectáculos con cubiertas de hormigón en forma de velas, inaugurada en 1973 y obra de Jørn Utzon.
 - **Harbour Bridge** — Sídney, Australia — puente de arco de acero apodado «la percha», inaugurado en 1932.
 
-Para profundizar, explora nuestra [guía de los monumentos del mundo](/es/monumentos/), compara estos lugares con [las siete maravillas del mundo](/es/blog/maravillas-del-mundo/) o consulta el ranking de los [monumentos más visitados](/es/blog/monumentos-mas-visitados-mundo/). Para pasar de los edificios a las obras, mira también nuestro recorrido por las [esculturas célebres](/es/blog/esculturas-celebres-mundo/) que suelen adornar estos lugares. Y para comprobar lo que has retenido, lánzate al [quiz de monumentos del mundo](/es/blog/quiz-monumentos-mundo/).
+Para profundizar, explora nuestra [guía de los monumentos del mundo](/es/monumentos/) o consulta el ranking de los [monumentos más visitados](/es/blog/monumentos-mas-visitados-mundo/). Para pasar de los edificios a las obras, mira también nuestro recorrido por las [esculturas célebres](/es/blog/esculturas-celebres-mundo/) que suelen adornar estos lugares. Y para comprobar lo que has retenido, lánzate al [quiz de monumentos del mundo](/es/blog/quiz-monumentos-mundo/).
 
 <figure>
   <img src="/images/blog/monuments/taj-mahal.jpg" alt="El Taj Mahal en Agra, India" loading="lazy" />

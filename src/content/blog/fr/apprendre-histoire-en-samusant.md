@@ -48,7 +48,7 @@ La recherche en sciences cognitives a démontré l'efficacité du rappel actif (
 
 Les quiz ajoutent la dimension ludique. Un bon quiz d'histoire ne demande pas "En quelle année Gutenberg a-t-il inventé l'imprimerie ?" mais plutôt "Quel inventeur a rendu possible la diffusion massive des livres en Europe au XVe siècle ?" La nuance est importante. Le premier teste un chiffre, le second teste la compréhension d'un impact.
 
-La [gamification en éducation](/blog/gamification-education/) repose sur trois mécanismes : la répétition espacée (revoir les questions ratées à intervalles croissants), le feedback immédiat (savoir tout de suite si on a bon, et surtout pourquoi), et la progression visible. Rien de révolutionnaire, mais appliqué systématiquement, ça marche.
+La gamification en éducation repose sur trois mécanismes : la répétition espacée (revoir les questions ratées à intervalles croissants), le feedback immédiat (savoir tout de suite si on a bon, et surtout pourquoi), et la progression visible. Rien de révolutionnaire, mais appliqué systématiquement, ça marche.
 
 ## Comprendre les causes plutôt que mémoriser les dates
 

@@ -41,7 +41,7 @@ Leer y esperar que se te quede no funciona. La ciencia cognitiva ha identificado
 
 La repetición espaciada es el más potente para la retención a largo plazo. Consiste en repasar la información a intervalos crecientes: al día siguiente, a los tres días, a la semana, al mes. Cada repaso refuerza la conexión neuronal. Las [mejores aplicaciones de geografía](/es/blog/mejores-apps-geografia/) lo usan como base de su sistema de aprendizaje, y el efecto es notable.
 
-El aprendizaje activo gana por goleada al pasivo. Hacerte preguntas (quiz, flashcards) es mucho más eficaz que releer un texto. El esfuerzo de buscar la respuesta en tu propia memoria fortalece el recuerdo. Por eso los quiz funcionan tan bien como herramienta de estudio, no solo como juego. Para probarte ahora mismo, prueba nuestras [10 preguntas de cultura general](/es/blog/50-preguntas-cultura-general-respuestas/) o la serie completa de [50 preguntas](/es/blog/50-preguntas-cultura-general-respuestas/).
+El aprendizaje activo gana por goleada al pasivo. Hacerte preguntas (quiz, flashcards) es mucho más eficaz que releer un texto. El esfuerzo de buscar la respuesta en tu propia memoria fortalece el recuerdo. Por eso los quiz funcionan tan bien como herramienta de estudio, no solo como juego. Para probarte ahora mismo, prueba nuestras [50 preguntas de cultura general](/es/blog/50-preguntas-cultura-general-respuestas/).
 
 La elaboración consiste en conectar lo nuevo con lo que ya sabes. ¿Aprendes que Canberra es la capital de Australia? Elabora: fue elegida como compromiso entre Sydney y Melbourne, es una ciudad planificada como Brasilia o Washington D.C., y está a medio camino entre las dos. Esas conexiones crean una red mucho más sólida que un dato suelto.
 

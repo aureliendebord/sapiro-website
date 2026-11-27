@@ -74,7 +74,7 @@ Knowing these twelve works is a solid start. But the real value comes when you u
 
 That is where a structured approach helps. SAPIRO covers 553 artworks through quizzes with detailed explanations. The app offers thematic paths organized by museum (Louvre, Orsay, MoMA, Prado, Uffizi), by movement (Renaissance, Impressionism, Modern Art), and by medium (painting, sculpture, architecture). Each question connects the artist to their era and movement, which gradually builds a mental map of art history.
 
-For more on effective learning methods, see our [general knowledge guide](/en/blog/general-knowledge-guide/) and our article on [gamification in education](/en/blog/gamification-education/).
+For more on effective learning methods, see our [general knowledge guide](/en/blog/general-knowledge-guide/).
 
 ## How to Learn Art: A Comparison
 

@@ -29,7 +29,7 @@ quiz:
 
 Hundert Fragen, hundert sichtbare Antworten, fünf Themengebiete. Die große Liste zum gründlichen Lernen, für ein Riesenquiz oder für eine Runde nach der anderen.
 
-Die Fragen sind nach Thema sortiert (Geografie, Geschichte, Kunst und Kultur, Wissenschaft, Natur), jede mit Schwierigkeitsgrad. Zähl einen Punkt pro richtiger Antwort; die Auswertung steht ganz unten. Lieber etwas Kürzeres? Probier unsere [10](/en/blog/50-general-knowledge-questions-answers/), [20](/en/blog/50-general-knowledge-questions-answers/) oder [50 Fragen](/de/blog/50-allgemeinwissen-fragen-antworten/).
+Die Fragen sind nach Thema sortiert (Geografie, Geschichte, Kunst und Kultur, Wissenschaft, Natur), jede mit Schwierigkeitsgrad. Zähl einen Punkt pro richtiger Antwort; die Auswertung steht ganz unten. Lieber etwas Kürzeres? Probier unsere [50 Fragen](/de/blog/50-allgemeinwissen-fragen-antworten/).
 
 ## Geografie
 
@@ -93,7 +93,7 @@ Die Fragen sind nach Thema sortiert (Geografie, Geschichte, Kunst und Kultur, Wi
 **20. Welches südamerikanische Land hat die längste Pazifikküste?** *(schwer)*
 **Chile.** Das schmale Land erstreckt sich über mehr als 4.000 km von Nord nach Süd.
 
-Mehr Geografie: unser [Hauptstädte-Quiz nach Kontinent](/en/blog/world-capitals-quiz/).
+Mehr Geografie: unser [Quiz zu den Hauptstädten der Welt](/en/blog/world-capitals-quiz/).
 
 ## Geschichte
 
@@ -359,13 +359,13 @@ Zähl einen Punkt pro richtiger Antwort, maximal 100.
 
 **41 bis 70:** Solides Allgemeinwissen. Du kannst überall mitreden, mit Lücken bei den kniffligeren Fragen.
 
-**71 bis 100:** Ausgezeichnet. Miss dich mit den Expertenstufen in unserem [Quiz nach Schwierigkeitsgrad](/en/blog/general-knowledge-quiz-levels/).
+**71 bis 100:** Ausgezeichnet. Du bist bereit für Fragen auf Expertenniveau.
 
 ## Weiterkommen
 
 Hundert Fragen sind ein echter Marathon. Aber Allgemeinwissen baut man in kleinen, regelmäßigen Portionen auf, nicht an einem Stück.
 
-Genau das ist die Idee hinter SAPIRO: Hunderte Quiz zu Geografie (197 Länder), Geschichte, Kunst und Natur, mit einer Erklärung zu jeder Antwort. Kostenlos, ohne Werbung. Für einen strukturierten Plan über einen Monat folge unserer Methode, um [Allgemeinwissen in 30 Tagen aufzufrischen](/en/blog/revise-general-knowledge-30-days/).
+Genau das ist die Idee hinter SAPIRO: Hunderte Quiz zu Geografie (197 Länder), Geschichte, Kunst und Natur, mit einer Erklärung zu jeder Antwort. Kostenlos, ohne Werbung.
 
 ## Häufige Fragen
 

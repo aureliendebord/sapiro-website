@@ -29,7 +29,7 @@ quiz:
 
 Cent questions, cent réponses visibles, cinq thèmes. La grande liste pour réviser à fond, préparer un quiz géant ou piocher dedans manche après manche.
 
-Les questions sont rangées par thème (géographie, histoire, art et culture, sciences, nature), avec un niveau indiqué à chaque fois. Comptez un point par bonne réponse, le barème est en bas. Pour un format plus court, voyez nos [10](/blog/50-questions-culture-generale-reponses/), [20](/blog/50-questions-culture-generale-reponses/) ou [50 questions](/blog/50-questions-culture-generale-reponses/).
+Les questions sont rangées par thème (géographie, histoire, art et culture, sciences, nature), avec un niveau indiqué à chaque fois. Comptez un point par bonne réponse, le barème est en bas. Pour un format plus court, voyez nos [50 questions](/blog/50-questions-culture-generale-reponses/).
 
 ## Géographie
 
@@ -359,13 +359,13 @@ Comptez un point par bonne réponse, sur 100.
 
 **41 à 70 :** bon niveau général. Vous tenez la conversation partout, avec des trous sur les questions pointues.
 
-**71 à 100 :** excellent. Mesurez-vous aux paliers experts du [quiz par niveau](/blog/quiz-culture-generale-niveau/).
+**71 à 100 :** excellent.
 
 ## Pour aller plus loin
 
 Cent questions, c'est un vrai marathon. Mais la culture générale se construit par petites touches régulières, pas en une seule session.
 
-C'est l'idée de SAPIRO : des centaines de quiz sur la géographie (197 pays), l'histoire, l'art et la nature, avec une explication derrière chaque réponse. Gratuit, sans publicité. Pour un entraînement cadré sur un mois, suivez notre méthode pour [réviser sa culture générale en 30 jours](/blog/reviser-culture-generale-30-jours/).
+C'est l'idée de SAPIRO : des centaines de quiz sur la géographie (197 pays), l'histoire, l'art et la nature, avec une explication derrière chaque réponse. Gratuit, sans publicité.
 
 ## Questions fréquentes
 

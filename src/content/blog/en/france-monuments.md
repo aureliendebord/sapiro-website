@@ -70,7 +70,7 @@ With more than fifty sites on the [UNESCO World Heritage list](https://whc.unesc
 
 Want to test your knowledge? The SAPIRO app offers general knowledge quizzes that cover these monuments and many more.
 
-To go further, browse our [complete guide to monuments of the world](/en/monuments/). And depending on your taste, continue with the [monuments of Paris](/en/blog/paris-monuments/), a tour of the [world's famous castles and palaces](/en/blog/famous-castles-palaces-world/), or the list of [UNESCO World Heritage sites](/en/blog/unesco-world-heritage-sites/).
+To go further, browse our [complete guide to monuments of the world](/en/monuments/). And depending on your taste, continue with the [monuments of Paris](/en/blog/paris-monuments/) or a tour of the [world's famous castles and palaces](/en/blog/famous-castles-palaces-world/).
 
 <figure>
   <img src="/images/blog/monuments/chateau-chambord.jpg" alt="The Château de Chambord" loading="lazy" />

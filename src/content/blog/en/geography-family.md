@@ -133,7 +133,7 @@ Prizes need to be fun, not expensive. Some ideas:
 
 A reusable Geography Champion Trophy (or even a decorated cardboard crown) that the winning team displays until the next quiz night. First pick of dessert for the winners. A "homework pass" for younger players: one chore or assignment they can skip, negotiated with the other parent first. A humorous certificate declaring the winner "Supreme World Expert" with the date and quiz theme.
 
-And make sure everyone gets something: a small chocolate, a sticker, enthusiastic applause. Research on [gamification in education](/en/blog/gamification-education/) confirms that positive reinforcement is far more effective than punishment. The goal is to make everyone want to play again next time.
+And make sure everyone gets something: a small chocolate, a sticker, enthusiastic applause. Research on gamification in education confirms that positive reinforcement is far more effective than punishment. The goal is to make everyone want to play again next time.
 
 ## Sample Questions to Get You Started
 

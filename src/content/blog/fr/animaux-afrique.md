@@ -21,7 +21,7 @@ Le terme "Big Five" vient des safaris coloniaux. Il désignait les cinq animaux 
 
 **Le lion.** Le seul félin social, vit en groupes appelés "fierté" de 10 à 30 individus. Présent dans une dizaine de pays africains, surtout en Afrique de l'Est et du Sud. Population : 20 000 à 25 000.
 
-**Le léopard.** Plus discret et solitaire. Vit dans toute l'Afrique subsaharienne, du désert aux forêts denses. Le plus adaptable des grands félins. Pour le distinguer du guépard et du jaguar, voir notre [guide des 50 espèces animales](/blog/quiz-animaux-especes-monde/).
+**Le léopard.** Plus discret et solitaire. Vit dans toute l'Afrique subsaharienne, du désert aux forêts denses. Le plus adaptable des grands félins.
 
 **L'éléphant de savane.** Le plus gros animal terrestre, jusqu'à 6 tonnes. Les troupeaux sont matriarcaux, conduits par la femelle la plus âgée. Mémoire et intelligence exceptionnelles.
 
@@ -49,7 +49,7 @@ Le terme "Big Five" vient des safaris coloniaux. Il désignait les cinq animaux 
 
 **Le gnou.** Connu pour sa migration annuelle de 1,5 million d'individus entre le Serengeti (Tanzanie) et le Masai Mara (Kenya). L'un des plus grands spectacles naturels au monde.
 
-**L'hippopotame.** Plus dangereux qu'il en a l'air, 500 morts humaines par an. Pour creuser, voir notre [classement des animaux les plus dangereux](/blog/animaux-plus-dangereux-monde/).
+**L'hippopotame.** Plus dangereux qu'il en a l'air, 500 morts humaines par an.
 
 **Les antilopes.** Une diversité énorme : impala (le plus commun en Afrique de l'Est), gazelle de Thomson, gazelle de Grant, koudou, élan du Cap (la plus grande antilope, 700 kilos), oryx, springbok.
 

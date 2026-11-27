@@ -23,7 +23,7 @@ En la práctica, los temas se agrupan en bloques recurrentes.
 
 **Instituciones y vida política.** Constitución española, separación de poderes, proceso legislativo, derechos fundamentales, organización territorial (autonomías, provincias, municipios), Unión Europea.
 
-**Historia.** Sobre todo siglos XIX y XX. Revoluciones, guerras, descolonización, mundo de posguerra, España contemporánea. Para profundizar: [quiz historia nivel examen](/es/blog/quiz-historia-examen/) y [línea de tiempo mundial](/es/blog/linea-tiempo-historia-mundial/).
+**Historia.** Sobre todo siglos XIX y XX. Revoluciones, guerras, descolonización, mundo de posguerra, España contemporánea. Para profundizar: [línea de tiempo mundial](/es/blog/linea-tiempo-historia-mundial/).
 
 **Geografía.** España, capitales europeas, hitos mundiales mayores, retos climáticos.
 
@@ -59,7 +59,7 @@ Tres formatos principales.
 
 **Fichas temáticas.** Una ficha por gran tema (educación, salud, clima, política exterior). Releer regularmente, enriquecer con actualidad.
 
-**Entrenarse con quizzes.** [La ciencia del aprendizaje activo](/es/blog/gamificacion-educacion/) muestra que se retiene 50% mejor autoexaminándose. Los quizzes de cultura general son perfectos para calibrar nivel y detectar lagunas.
+**Entrenarse con quizzes.** La ciencia del aprendizaje activo muestra que se retiene 50% mejor autoexaminándose. Los quizzes de cultura general son perfectos para calibrar nivel y detectar lagunas.
 
 ## Trampas clásicas
 

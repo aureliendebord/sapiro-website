@@ -17,7 +17,7 @@ Trouver un cadeau qui plaise à un enfant curieux et qui dure, c'est rare. Voici
 
 ## Pour les 6-7 ans
 
-**1. Globe terrestre lumineux pour enfants.** À 30-50 euros. La géographie devient tangible. Voir notre article sur [comment apprendre les pays aux enfants](/blog/geographie-enfants/).
+**1. Globe terrestre lumineux pour enfants.** À 30-50 euros. La géographie devient tangible. Voir nos [méthodes ludiques pour apprendre la géographie aux enfants](/blog/geographie-enfants/).
 
 **2. Atlas illustré.** Édition jeunesse. Larousse, Gallimard Jeunesse, Usborne. 15-25 euros.
 
@@ -73,7 +73,7 @@ Trouver un cadeau qui plaise à un enfant curieux et qui dure, c'est rare. Voici
 
 **Qui correspond à un intérêt déjà manifesté.** Inutile d'offrir un microscope à un enfant passionné d'histoire. Observer ce qui attire l'enfant.
 
-Pour creuser : [quiz nature pour enfants](/blog/quiz-nature-enfants/) et les [activités culturelles en famille](/blog/activites-culturelles-famille/) pour prolonger.
+Pour creuser : [quiz nature pour enfants](/blog/quiz-nature-enfants/).
 
 <figure>
   <img src="/images/blog/famille/jouets-bois-educatifs.jpg" alt="Des jouets éducatifs en bois pour enfants" loading="lazy" />

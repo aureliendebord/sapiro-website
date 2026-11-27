@@ -29,7 +29,7 @@ Aucun parent ne vous le dira, mais le seul sujet qui tient en haleine à la fois
 
 L'enfant peut désormais associer les animaux à leur continent et comprendre la notion d'habitat. C'est l'âge où on peut introduire les premières classifications (mammifère, oiseau, poisson, reptile, insecte).
 
-**Quiz adaptés.** Cinquante animaux : ajouter les espèces emblématiques par continent. Kangourou et koala (Australie), panda et tigre (Asie), lama et toucan (Amérique du Sud), ours brun et loup (Europe), bison et raton laveur (Amérique du Nord). Voir notre [guide des 50 espèces animales](/blog/quiz-animaux-especes-monde/).
+**Quiz adaptés.** Cinquante animaux : ajouter les espèces emblématiques par continent. Kangourou et koala (Australie), panda et tigre (Asie), lama et toucan (Amérique du Sud), ours brun et loup (Europe), bison et raton laveur (Amérique du Nord).
 
 **Notions à introduire.** Carnivore, herbivore, omnivore. Pourquoi le lion mange-t-il de la viande et la girafe des feuilles. La chaîne alimentaire simple.
 
@@ -63,7 +63,7 @@ Trois principes valent pour tous les âges.
 
 **Associer aux histoires.** Une anecdote retient mieux qu'une fiche. Que le komodo soit le seul lézard qui chasse des humains, que la mante religieuse mange le mâle après l'accouplement, qu'un caméléon peut tourner ses yeux indépendamment : ces faits "fous" s'ancrent.
 
-**Tester régulièrement.** La [science de l'apprentissage actif](/blog/gamification-education/) montre que les enfants retiennent 50% mieux quand ils se testent que quand ils lisent passivement. Les quiz sont l'outil idéal.
+**Tester régulièrement.** La science de l'apprentissage actif montre que les enfants retiennent 50% mieux quand ils se testent que quand ils lisent passivement. Les quiz sont l'outil idéal.
 
 ## Les pièges à éviter
 

@@ -25,8 +25,6 @@ The subject that most uses general knowledge is history-geography-civics. The ca
 
 **Civics.** Values and symbols of democracy, rights and duties, national defense, digital identity, democratic life.
 
-See also our [history quiz exam level](/en/blog/history-quiz-exam-level/) to dig into dates.
-
 ## High school level
 
 Several papers draw on general knowledge.

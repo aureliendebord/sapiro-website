@@ -16,7 +16,7 @@ readingTime: 8
 
 Treinta preguntas de cultura general difíciles, con la respuesta justo debajo. No son preguntas trampa: todas tienen una respuesta clara, pero piden algo más que lo que se aprende en el colegio. Seis preguntas por campo (geografía, historia, arte y cultura, ciencias, naturaleza). Tapa la respuesta, cuenta un punto por acierto y mira el baremo al final.
 
-¿Prefieres empezar por algo más asequible? Nuestras [20 preguntas de cultura general](/es/blog/50-preguntas-cultura-general-respuestas/) mezclan niveles, y la gran serie de [100 preguntas](/es/blog/100-preguntas-cultura-general-respuestas/) cubre todo el abanico.
+¿Prefieres empezar por algo más asequible? Nuestras [50 preguntas de cultura general](/es/blog/50-preguntas-cultura-general-respuestas/) mezclan niveles, y la gran serie de [100 preguntas](/es/blog/100-preguntas-cultura-general-respuestas/) cubre todo el abanico.
 
 ## Geografía
 
@@ -124,7 +124,7 @@ Para seguir con la historia: la [línea de tiempo de la historia mundial](/es/bl
 
 ## Baremo
 
-**De 0 a 10:** normal, son preguntas difíciles. Empieza por nuestro [quiz de cultura general por niveles](/es/blog/quiz-cultura-general-nivel/) para subir poco a poco.
+**De 0 a 10:** normal, son preguntas difíciles. Empieza por series más asequibles para subir poco a poco.
 
 **De 11 a 20:** muy buen nivel. Tienes una cultura general por encima de la media.
 
@@ -132,7 +132,7 @@ Para seguir con la historia: la [línea de tiempo de la historia mundial](/es/bl
 
 ## Para seguir aprendiendo
 
-Estas treinta preguntas son una buena medida de tu nivel, pero la cultura general se construye a base de pequeñas dosis regulares. Esa es la idea de SAPIRO: cientos de preguntas de geografía, historia, arte y naturaleza, con una explicación detrás de cada respuesta. Para un entrenamiento pautado, sigue nuestro método para [repasar cultura general en 30 días](/es/blog/repasar-cultura-general-30-dias/).
+Estas treinta preguntas son una buena medida de tu nivel, pero la cultura general se construye a base de pequeñas dosis regulares. Esa es la idea de SAPIRO: cientos de preguntas de geografía, historia, arte y naturaleza, con una explicación detrás de cada respuesta.
 
 ## Preguntas frecuentes
 

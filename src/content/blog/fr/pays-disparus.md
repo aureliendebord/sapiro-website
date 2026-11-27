@@ -107,9 +107,9 @@ Trois techniques.
 
 **Connaître les "enfants"** issus de chaque pays disparu. URSS → 15. Yougoslavie → 7 avec le Kosovo.
 
-**Tester ses connaissances.** SAPIRO propose des quiz sur la géographie et l'histoire mondiale, avec une explication contextualisée. Pour creuser : [frise chronologique mondiale](/blog/frise-chronologique-mondiale/), les [plus petits pays encore debout aujourd'hui](/blog/plus-petits-pays-monde/) et les [drapeaux de pays disparus](/blog/drapeaux-pays-disparus/). La chute du mur de Berlin figure aussi dans nos [10 questions de culture générale](/blog/50-questions-culture-generale-reponses/).
+**Tester ses connaissances.** SAPIRO propose des quiz sur la géographie et l'histoire mondiale, avec une explication contextualisée. Pour creuser : [frise chronologique mondiale](/blog/frise-chronologique-mondiale/), les [plus petits pays encore debout aujourd'hui](/blog/plus-petits-pays-monde/) et les [drapeaux de pays disparus](/blog/drapeaux-pays-disparus/). Et pour vous tester sur d'autres thèmes, voyez nos [50 questions de culture générale](/blog/50-questions-culture-generale-reponses/).
 
-La suite logique : notre [quiz de 20 questions sur les pays disparus](/blog/pays-disparus/), les [pays qui ont changé de nom](/blog/pays-qui-ont-change-de-nom/), les [pays non reconnus](/blog/pays-non-reconnus/) et les [plus jeunes pays du monde](/blog/plus-jeunes-pays-monde/).
+La suite logique : les [pays qui ont changé de nom](/blog/pays-qui-ont-change-de-nom/), les [pays non reconnus](/blog/pays-non-reconnus/) et les [plus jeunes pays du monde](/blog/plus-jeunes-pays-monde/).
 
 <figure>
   <img src="/images/blog/monde/globe-terrestre.jpg" alt="Une carte ancienne en projection circulaire montrant les deux tiers du globe" loading="lazy" />

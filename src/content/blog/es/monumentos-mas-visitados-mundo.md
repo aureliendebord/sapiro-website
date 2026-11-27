@@ -63,7 +63,7 @@ La gran tendencia de los últimos años ya no es el crecimiento, sino la **regul
 
 ¿Quieres comprobar cuánto de todo esto se te ha quedado? Los cuestionarios de cultura general de SAPIRO convierten estas cifras y lugares en partidas rápidas, ideales para ver si sabrías situar la Ciudad Prohibida o datar el Coliseo.
 
-Para profundizar, recorre nuestro [dosier completo sobre monumentos](/es/monumentos/), nuestra selección de los [30 monumentos famosos del mundo](/es/blog/monumentos-famosos-mundo/), nuestra guía de los [monumentos de París](/es/blog/monumentos-paris/) y nuestro repaso a los [sitios del Patrimonio Mundial de la UNESCO](/es/blog/sitios-unesco-patrimonio-mundial/).
+Para profundizar, recorre nuestro [dosier completo sobre monumentos](/es/monumentos/), nuestra selección de los [30 monumentos famosos del mundo](/es/blog/monumentos-famosos-mundo/) y nuestra guía de los [monumentos de París](/es/blog/monumentos-paris/).
 
 <figure>
   <img src="/images/blog/monuments/grande-muraille.jpg" alt="La Gran Muralla China" loading="lazy" />

@@ -73,7 +73,7 @@ Un animal qui survit dans le vide spatial. Une salamandre qui repousse son cœur
 
 Ces animaux ont en commun trois choses qui les rendent invisibles à nos yeux. Ils vivent dans des habitats difficiles d'accès : grandes profondeurs, forêts denses, sous-sol. Ils sont rares ou très localisés (parfois une seule île, une seule grotte). Leur découverte est récente, parfois moins de 50 ans. Le saola a été découvert en 1992. L'orang-outan de Tapanuli en 2017. La biodiversité reste largement à explorer : on estime que 86% des espèces terrestres et 91% des espèces marines n'ont pas encore été décrites. Autrement dit, on ne connaît même pas un quart de ce qui vit sur Terre. Ça donne le vertige.
 
-Pour creuser : [50 espèces animales à reconnaître](/blog/quiz-animaux-especes-monde/), les [animaux en voie de disparition](/blog/animaux-en-voie-disparition/) et les [animaux les plus dangereux du monde](/blog/animaux-plus-dangereux-monde/). SAPIRO propose des quiz sur 600 espèces, des plus connues aux plus étranges, avec une explication derrière chaque question.
+Pour creuser : les [animaux en voie de disparition](/blog/animaux-en-voie-disparition/). SAPIRO propose des quiz sur 600 espèces, des plus connues aux plus étranges, avec une explication derrière chaque question.
 
 <figure>
   <img src="/images/blog/nature/ornithorynque.jpg" alt="Un ornithorynque, mammifère pondeur d'œufs" loading="lazy" />

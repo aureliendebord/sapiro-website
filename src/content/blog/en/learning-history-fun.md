@@ -48,7 +48,7 @@ Cognitive science research has thoroughly demonstrated the power of active recal
 
 Quizzes add a playful dimension on top. A good history quiz does not ask "In what year did Gutenberg invent the printing press?" It asks "Which inventor made the mass distribution of books possible in 15th-century Europe?" The difference matters. The first tests a number. The second tests understanding of a historical impact.
 
-[Gamification in education](/en/blog/gamification-education/) relies on proven mechanisms: spaced repetition (reviewing missed questions at increasing intervals), immediate feedback (knowing right away whether you got it right and, more importantly, why), and visible progression (levels, badges, scores). These are not gimmicks. They replicate what researchers consider the most effective combination for long-term memorization.
+Gamification in education relies on proven mechanisms: spaced repetition (reviewing missed questions at increasing intervals), immediate feedback (knowing right away whether you got it right and, more importantly, why), and visible progression (levels, badges, scores). These are not gimmicks. They replicate what researchers consider the most effective combination for long-term memorization.
 
 ## Understanding Causes Instead of Memorizing Dates
 

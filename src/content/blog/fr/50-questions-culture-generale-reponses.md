@@ -16,7 +16,7 @@ readingTime: 10
 
 Cinquante questions, cinquante réponses, toutes visibles sur la page. De quoi tester sa culture générale pour de bon, réviser, ou alimenter une soirée quiz sans rien préparer.
 
-Les questions sont rangées en cinq thèmes (géographie, histoire, art et culture, sciences, nature), avec un niveau indiqué à chaque fois. Comptez un point par bonne réponse, le barème est en bas de page. Si dix questions suffisent à vous échauffer, commencez par nos [10](/blog/50-questions-culture-generale-reponses/) ou [20 questions de culture générale](/blog/50-questions-culture-generale-reponses/). Et pour la grande série, voyez nos [100 questions](/blog/100-questions-culture-generale-reponses/).
+Les questions sont rangées en cinq thèmes (géographie, histoire, art et culture, sciences, nature), avec un niveau indiqué à chaque fois. Comptez un point par bonne réponse, le barème est en bas de page. Pour la grande série, voyez nos [100 questions](/blog/100-questions-culture-generale-reponses/).
 
 ## Géographie
 
@@ -196,13 +196,13 @@ Comptez un point par bonne réponse, sur 50.
 
 **21 à 35 :** bon niveau général. Vous tenez la conversation partout, avec quelques trous sur les questions pointues.
 
-**36 à 50 :** excellent. Calibrez-vous sur les paliers experts du [quiz par niveau](/blog/quiz-culture-generale-niveau/).
+**36 à 50 :** excellent.
 
 ## Pour aller plus loin
 
 Cinquante questions, c'est déjà un bon marathon. Mais la culture générale se construit par petites touches régulières, pas en une seule session.
 
-C'est l'idée de SAPIRO : des centaines de quiz sur la géographie (197 pays), l'histoire, l'art et la nature, avec une explication derrière chaque réponse. Gratuit, sans publicité. Pour un entraînement cadré sur un mois, suivez notre méthode pour [réviser sa culture générale en 30 jours](/blog/reviser-culture-generale-30-jours/).
+C'est l'idée de SAPIRO : des centaines de quiz sur la géographie (197 pays), l'histoire, l'art et la nature, avec une explication derrière chaque réponse. Gratuit, sans publicité.
 
 ## Questions fréquentes
 

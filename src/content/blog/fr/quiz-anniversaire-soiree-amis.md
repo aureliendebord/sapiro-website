@@ -55,7 +55,7 @@ Pour une soirée standard avec des amis.
 
 **Sport.** Évènements marquants, légendes par discipline.
 
-**Géographie et voyage.** Drapeaux, capitales, monuments. Voir notre [quiz capitales par continent](/blog/quiz-capitales-monde/).
+**Géographie et voyage.** Drapeaux, capitales, monuments. Voir notre [quiz capitales du monde](/blog/quiz-capitales-monde/).
 
 **Quiz "Qui suis-je" (personnages historiques).** Voir notre article sur les [personnages historiques majeurs](/blog/personnages-historiques/).
 
@@ -93,7 +93,7 @@ Trois principes.
 
 ## Pour préparer rapidement
 
-SAPIRO propose 2 000+ questions par catégorie (géographie, histoire, art, nature). Idéal pour piocher rapidement des questions de qualité avec une explication. Pour creuser : [activités culturelles en famille](/blog/activites-culturelles-famille/) pour étendre.
+SAPIRO propose 2 000+ questions par catégorie (géographie, histoire, art, nature). Idéal pour piocher rapidement des questions de qualité avec une explication.
 
 <figure>
   <img src="/images/blog/apprentissage/jeu-societe-amis.jpg" alt="Une famille jouant au Monopoly dans son salon" loading="lazy" />

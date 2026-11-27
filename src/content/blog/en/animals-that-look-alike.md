@@ -61,8 +61,6 @@ The malamute is bigger (30 to 40 kilos), with always brown eyes. Wider head, sho
 
 The samoyed has an immaculate white coat and a characteristic "smile."
 
-For more, see our [dog breed guide](/en/blog/dog-breeds-identify/).
-
 ## Dolphin and porpoise
 
 The dolphin has a long beak-like snout and conical teeth.
@@ -149,7 +147,7 @@ The trout is smaller and lives its whole life in fresh water (except sea trout, 
 
 Three techniques work. Pair comparison (always learn two species together). Identification by a single discriminating trait. Geographic anchoring (which continent, which habitat).
 
-Worth reading: [50 animal species worth knowing](/en/blog/quiz-animals-world-species/) and the one on [dog breeds](/en/blog/dog-breeds-identify/). SAPIRO offers quizzes on 600 species, including many tricky pairs, with an educational explanation behind each answer.
+SAPIRO offers quizzes on 600 species, including many tricky pairs, with an educational explanation behind each answer.
 
 <figure>
   <img src="/images/blog/nature/guepard.jpg" alt="A cheetah recognizable by its black tear marks" loading="lazy" />

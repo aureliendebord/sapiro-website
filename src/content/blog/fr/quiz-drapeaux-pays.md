@@ -112,7 +112,7 @@ L'île Maurice. Une rareté : presque aucun drapeau national n'aligne quatre ban
 | 11-15 | Bon niveau : vous distinguez l'Indonésie de Monaco |
 | 16-20 | Niveau vexillologue |
 
-Pour continuer : les [drapeaux difficiles](/blog/drapeaux-difficiles/) rassemblent ceux que presque tout le monde rate, les [drapeaux qui se ressemblent](/blog/drapeaux-qui-se-ressemblent/) expliquent pourquoi on les confond, et la [signification des drapeaux](/blog/signification-drapeaux/) raconte ce qu'il y a derrière chaque symbole. Si le format vous plaît, le quiz des [pays disparus](/blog/pays-disparus/) suit le même principe.
+Pour continuer : les [drapeaux difficiles](/blog/drapeaux-difficiles/) rassemblent ceux que presque tout le monde rate, les [drapeaux qui se ressemblent](/blog/drapeaux-qui-se-ressemblent/) expliquent pourquoi on les confond, et la [signification des drapeaux](/blog/signification-drapeaux/) raconte ce qu'il y a derrière chaque symbole. Si le format vous plaît, notre liste des [pays disparus](/blog/pays-disparus/) se termine par un quiz sur le même principe.
 
 ## Questions fréquentes
 

@@ -29,7 +29,7 @@ At this age, kids learn through simple categories: farm, savanna, sea, jungle. N
 
 The child can now link animals to their continent and grasp the idea of habitat. This is when you can introduce the first classifications (mammal, bird, fish, reptile, insect).
 
-**Adapted quizzes.** Fifty animals: add emblematic species by continent. Kangaroo and koala (Australia), panda and tiger (Asia), llama and toucan (South America), brown bear and wolf (Europe), bison and raccoon (North America). See our [guide to 50 animal species](/en/blog/quiz-animals-world-species/).
+**Adapted quizzes.** Fifty animals: add emblematic species by continent. Kangaroo and koala (Australia), panda and tiger (Asia), llama and toucan (South America), brown bear and wolf (Europe), bison and raccoon (North America).
 
 **Concepts to introduce.** Carnivore, herbivore, omnivore. Why the lion eats meat and the giraffe leaves. The simple food chain.
 
@@ -63,7 +63,7 @@ Three principles apply at all ages.
 
 **Tie to stories.** An anecdote sticks better than a fact sheet. That the Komodo dragon is the only lizard that hunts humans, that the praying mantis eats the male after mating, that a chameleon can turn its eyes independently: these "wild" facts anchor.
 
-**Test regularly.** [The science of active learning](/en/blog/gamification-education/) shows kids remember 50% better when self-testing than reading passively. Quizzes are the ideal tool.
+**Test regularly.** The science of active learning shows kids remember 50% better when self-testing than reading passively. Quizzes are the ideal tool.
 
 ## Pitfalls to avoid
 

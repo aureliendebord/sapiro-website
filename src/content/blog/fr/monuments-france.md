@@ -70,7 +70,7 @@ Avec plus de cinquante sites [inscrits au patrimoine mondial de l'UNESCO](https:
 
 Envie de tester vos connaissances ? L'application SAPIRO propose des quiz de culture générale qui passent en revue ces monuments et bien d'autres.
 
-Pour aller plus loin, parcourez notre [guide complet des monuments du monde](/monuments/). Et selon vos envies, prolongez avec les [monuments de Paris](/blog/monuments-paris/), un tour des [châteaux et palais célèbres du monde](/blog/chateaux-palais-celebres-monde/), ou la liste des [sites du patrimoine mondial de l'UNESCO](/blog/sites-unesco-patrimoine-mondial/).
+Pour aller plus loin, parcourez notre [guide complet des monuments du monde](/monuments/). Et selon vos envies, prolongez avec les [monuments de Paris](/blog/monuments-paris/) ou un tour des [châteaux et palais célèbres du monde](/blog/chateaux-palais-celebres-monde/).
 
 <figure>
   <img src="/images/blog/monuments/chateau-chambord.jpg" alt="Le château de Chambord" loading="lazy" />

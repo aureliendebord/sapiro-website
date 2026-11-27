@@ -37,8 +37,6 @@ Besides the iOS and Android apps, you can [play in the browser](/en/play/) for f
 
 For head-to-head play, the app has had a Duel mode since version 2.1: you replay another player's real game question by question and win trophies. It is not real time, since your opponent played before you did. The Daily Challenge is free and identical for everyone: when you finish, you share your score with a link and dare a friend to beat it. It is a quieter experience than a wheel and six games running in parallel, and you should know that going in.
 
-For the point-by-point breakdown, read [SAPIRO vs Trivia Crack](/en/blog/trivia-crack-alternatives/).
-
 ## 2. QuizDuel: If You Miss the Duels
 
 QuizDuel, sold as QuizClash in some markets, is the closest thing to Trivia Crack in spirit. It is head-to-head trivia, and players take turns picking the category, which adds a bit of strategy: play to your strengths, push your opponent into their weak spots. The player base is large, so finding a match is quick.
@@ -61,7 +59,7 @@ The big caveat for most readers here: the app is primarily in French. It also ha
 
 Kahoot! turned classroom quizzes into live events. Someone creates a quiz, shares a PIN, and everyone joins from their own device. The music, the leaderboard, and the time pressure create real energy.
 
-It does not replace Trivia Crack for solo play on the train, though. Kahoot! is a platform, and it needs someone to create and host the quiz. For a party, a class, or a training session it is a strong pick. We compare the two approaches in [SAPIRO vs Kahoot](/en/blog/best-quiz-apps-general-knowledge/).
+It does not replace Trivia Crack for solo play on the train, though. Kahoot! is a platform, and it needs someone to create and host the quiz. For a party, a class, or a training session it is a strong pick. It also features in our ranking of the [best general knowledge quiz apps](/en/blog/best-quiz-apps-general-knowledge/).
 
 ## 6. Quizizz: Same Idea, at Your Own Pace
 
@@ -71,7 +69,7 @@ The limitation is the same. It depends on content that a teacher created or pick
 
 ## What About QuizUp and HQ Trivia?
 
-Both names still come up when people look for competitive trivia. QuizUp was built around real-time duels by category, and HQ Trivia ran live shows at a fixed time. The original QuizUp app shut down, and HQ Trivia closed before a few unstable attempts at a comeback. We cover both formats in [SAPIRO vs QuizUp and HQ Trivia](/en/blog/trivia-crack-alternatives/), but we would not plan a daily habit around either.
+Both names still come up when people look for competitive trivia. QuizUp was built around real-time duels by category, and HQ Trivia ran live shows at a fixed time. The original QuizUp app shut down, and HQ Trivia closed before a few unstable attempts at a comeback. We would not plan a daily habit around either.
 
 ## Comparison Table
 
@@ -90,7 +88,7 @@ Both names still come up when people look for competitive trivia. QuizUp was bui
 
 **You want to beat someone.** QuizDuel for live duels, ads included. Without ads, Duel mode in the SAPIRO app puts you up against another player's recorded game. And to challenge a friend from a distance, the Daily Challenge does the job: everybody gets the same questions, you send your score, and your friend tries to top it.
 
-**You are choosing for your kids.** Skip Erudite until the ad problem is fixed, and go with an ad-free app. Our list of the [best ad-free educational apps](/en/blog/best-quiz-apps-general-knowledge/) has more options by subject.
+**You are choosing for your kids.** Skip Erudite until the ad problem is fixed, and go with an ad-free app. Our ranking of the [best general knowledge quiz apps](/en/blog/best-quiz-apps-general-knowledge/) shows which ones are ad-free.
 
 **You like watching a rating climb.** Quiz Sans Fin, as long as you read French.
 

@@ -37,8 +37,6 @@ Además de las apps para iOS y Android, se puede [jugar desde el navegador](/es/
 
 Para enfrentarte a alguien, la app tiene un modo duelo desde la versión 2.1: vuelves a jugar, pregunta por pregunta, la partida real de otro jugador y ganas trofeos. No es en tiempo real, porque tu rival jugó antes que tú. El Desafío del día es gratuito e idéntico para todos los jugadores: al terminar, compartes tu puntuación con un enlace para retar a un amigo. Es una experiencia más tranquila que una ruleta con seis partidas abiertas a la vez, y conviene saberlo antes de probar.
 
-Para la comparación punto por punto, lee [SAPIRO vs Trivia Crack](/es/blog/alternativas-trivia-crack/).
-
 ## 2. QuizDuel: si echas de menos los duelos
 
 QuizDuel es lo más parecido a Preguntados en espíritu. Va al grano: enfrentamientos directos entre dos jugadores, en seis rondas de tres preguntas. La base de jugadores es enorme, así que encontrar rival es inmediato, y las partidas son rápidas.
@@ -61,7 +59,7 @@ El gran pero para quien lee esto en español: está orientada al mercado francó
 
 Kahoot! cambió la dinámica de los quiz en clase. Alguien crea el quiz, lo proyecta en pantalla y los participantes responden desde sus móviles. Para dinamizar una clase o una formación funciona muy bien.
 
-No sustituye a Preguntados para jugar solo en el metro. Necesita un anfitrión que lance la sesión, así que sin preparación previa queda descartada. Comparamos los dos enfoques en [SAPIRO vs Kahoot](/es/blog/mejores-apps-quiz-cultura-general/).
+No sustituye a Preguntados para jugar solo en el metro. Necesita un anfitrión que lance la sesión, así que sin preparación previa queda descartada. Lo situamos frente al resto en nuestra selección de las [mejores apps de quiz de cultura general](/es/blog/mejores-apps-quiz-cultura-general/).
 
 ## 6. Quizizz: la misma idea, a tu ritmo
 
@@ -71,7 +69,7 @@ El límite es el mismo. Depende de que alguien haya creado el quiz, y fuera del 
 
 ## ¿Y QuizUp o HQ Trivia?
 
-Los dos nombres siguen apareciendo cuando se busca trivia competitivo. QuizUp giraba en torno a duelos en tiempo real por categoría, y HQ Trivia era un concurso en vivo a una hora fija. La app original de QuizUp cerró, y HQ Trivia dejó de funcionar antes de varios intentos de regreso poco estables. Hablamos de ambos formatos en [SAPIRO vs QuizUp y HQ Trivia](/es/blog/alternativas-trivia-crack/), pero no te recomendamos construir una rutina diaria sobre ninguno de los dos.
+Los dos nombres siguen apareciendo cuando se busca trivia competitivo. QuizUp giraba en torno a duelos en tiempo real por categoría, y HQ Trivia era un concurso en vivo a una hora fija. La app original de QuizUp cerró, y HQ Trivia dejó de funcionar antes de varios intentos de regreso poco estables. No te recomendamos construir una rutina diaria sobre ninguno de los dos.
 
 ## Tabla comparativa
 
@@ -90,7 +88,7 @@ Los dos nombres siguen apareciendo cuando se busca trivia competitivo. QuizUp gi
 
 **Quieres ganarle a alguien.** QuizDuel para el duelo en directo, anuncios incluidos. Sin anuncios, el modo duelo de la app de SAPIRO te enfrenta a la partida grabada de otro jugador. Y para retar a un amigo a distancia, el Desafío del día cumple: todos reciben las mismas preguntas, envías tu puntuación y tu amigo intenta superarla.
 
-**Buscas algo para tus hijos.** Descarta Erudite mientras siga el problema de los anuncios y elige una app sin publicidad. En nuestra selección de [apps educativas sin publicidad](/es/blog/mejores-apps-quiz-cultura-general/) hay más opciones por materia.
+**Buscas algo para tus hijos.** Descarta Erudite mientras siga el problema de los anuncios y elige una app sin publicidad. En nuestra selección de las [mejores apps de quiz de cultura general](/es/blog/mejores-apps-quiz-cultura-general/) indicamos cuáles llevan publicidad y cuáles no.
 
 **Te motiva ver subir tu ranking.** Quiz Sans Fin, siempre que leas francés.
 
