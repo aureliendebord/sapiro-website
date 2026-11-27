@@ -13,7 +13,7 @@ import BlogAllPosts from '../../../components/BlogAllPosts.astro';
 const lang = 'es';
 const t = getTranslations(lang);
 
-const allPosts = (await getCollection('blog', ({ data }) => data.lang === 'es'))
+const allPosts = (await getCollection('blog', ({ data }) => data.lang === 'es' && !data.noindex))
   .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
 
 const clusterCards = clusters.map((c) => ({

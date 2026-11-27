@@ -9,7 +9,7 @@ import { getTranslations } from '../i18n';
 const lang = 'fr';
 const t = getTranslations(lang);
 
-const allPosts = await getCollection('blog');
+const allPosts = await getCollection('blog', ({ data }) => !data.noindex);
 const monumentsCategories = ['monuments'];
 const articles = allPosts
   .filter(p => p.data.lang === 'fr' && monumentsCategories.includes(p.data.category))

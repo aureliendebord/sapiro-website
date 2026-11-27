@@ -60,7 +60,8 @@ function buildBlogData() {
   const byKey = {};
   const lastmodByUrl = {};
   // URLs canonicalisees vers une autre page : exclues du sitemap et des
-  // grappes hreflang (voir le champ canonicalTo du frontmatter).
+  // grappes hreflang (voir le champ canonicalTo du frontmatter). Meme
+  // traitement pour les articles en noindex.
   const canonicalized = new Set();
   for (const lang of LANGS) {
     const dir = path.join(base, lang);
@@ -70,7 +71,7 @@ function buildBlogData() {
       const fm = readFrontmatter(path.join(dir, file));
       if (!fm.urlSlug || !fm.translationKey) continue;
       const url = `${SITE}${blogPath(lang, fm.urlSlug)}`;
-      if (fm.canonicalTo) {
+      if (fm.canonicalTo || fm.noindex === 'true') {
         canonicalized.add(url);
         continue;
       }

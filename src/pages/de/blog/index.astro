@@ -13,7 +13,7 @@ import BlogCard from '../../../components/BlogCard.astro';
 const lang = 'de';
 const t = getTranslations(lang);
 
-const allPosts = (await getCollection('blog', ({ data }) => data.lang === 'de'))
+const allPosts = (await getCollection('blog', ({ data }) => data.lang === 'de' && !data.noindex))
   .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
 
 // Seuls les thèmes qui ont une page pilier allemande (pas de concours,

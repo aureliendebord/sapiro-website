@@ -12,7 +12,7 @@ interface Props {
 
 const { lang, slug, category } = Astro.props;
 
-const all = await getCollection('blog');
+const all = await getCollection('blog', ({ data }) => !data.noindex);
 const sameLang = all.filter(p => p.data.lang === lang);
 
 const cluster = getClusterForCategory(category);

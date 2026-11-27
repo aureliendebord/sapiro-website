@@ -30,6 +30,7 @@ interface Props {
   listItems?: ListItem[];
   translationSlugs?: TranslationSlugs;
   canonicalTo?: string;
+  noindex?: boolean;
   quiz?: BlogQuizQuestion[];
   printable?: boolean;
   image?: string;
@@ -37,7 +38,7 @@ interface Props {
   imageCredit?: string;
 }
 
-const { title, description, date, lastModified, lang, slug, category, author, readingTime, faqItems = [], listItems = [], translationSlugs, canonicalTo, quiz, printable, image, imageAlt, imageCredit } = Astro.props;
+const { title, description, date, lastModified, lang, slug, category, author, readingTime, faqItems = [], listItems = [], translationSlugs, canonicalTo, noindex, quiz, printable, image, imageAlt, imageCredit } = Astro.props;
 const heroImageUrl = image ? (image.startsWith('http') ? image : `https://sapiro.app${image}`) : null;
 
 // og:image : le hero seulement s'il est assez paysage pour la fenêtre 1,91:1
@@ -70,7 +71,7 @@ const clusterUrl = cluster?.pillarSlug[lang] ?? null;
 // aucun hreflang — elle ne peut pas etre la reference d'une grappe qu'elle
 // quitte.
 const hreflangPaths: Array<{ lang: string; href: string }> = [];
-if (!canonicalTo) {
+if (!canonicalTo && !noindex) {
   for (const l of LANGS) {
     const tslug = translationSlugs?.[l];
     if (tslug) hreflangPaths.push({ lang: l, href: `https://sapiro.app${getLocalePath(`/blog/${tslug}`, l)}` });
@@ -178,6 +179,7 @@ const breadcrumbSchema = {
   ogImageHeight={ogImage ? heroDims!.height : undefined}
 >
   <Fragment slot="head">
+    {noindex && <meta name="robots" content="noindex, follow" />}
     <!-- Hreflang spécifique à l'article -->
     {hreflangs.map(h => (
       <link rel="alternate" hreflang={h.lang} href={h.href} />

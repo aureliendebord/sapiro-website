@@ -9,7 +9,7 @@ import { getCollection } from 'astro:content';
 const lang = 'es';
 const t = getTranslations(lang);
 
-const allPosts = await getCollection('blog');
+const allPosts = await getCollection('blog', ({ data }) => !data.noindex);
 const natCategories = ['nature'];
 const articles = allPosts
   .filter(p => p.data.lang === 'es' && natCategories.includes(p.data.category))

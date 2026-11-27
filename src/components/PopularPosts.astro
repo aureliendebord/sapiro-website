@@ -24,7 +24,7 @@ const POPULAR_KEYS = [
   'test-pays-personnalite',
 ];
 
-const posts = await getCollection('blog', ({ data }) => data.lang === lang && !data.canonicalTo);
+const posts = await getCollection('blog', ({ data }) => data.lang === lang && !data.canonicalTo && !data.noindex);
 const popular = POPULAR_KEYS
   .map((key) => posts.find((p) => p.data.translationKey === key))
   .filter((p) => p !== undefined)
