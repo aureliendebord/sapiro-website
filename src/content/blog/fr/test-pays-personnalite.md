@@ -11,13 +11,14 @@ translationKey: "test-pays-personnalite"
 category: "voyage"
 author: "SAPIRO"
 readingTime: 6
+lastModified: 2026-11-27
 ---
 
 Quel pays vous ressemble ? Voici un test ludique en 10 questions qui croise personnalité, valeurs et culture pour révéler le pays qui vous correspond le mieux.
 
 ## Le test
 
-Notez votre réponse à chaque question, puis comptez les points à la fin.
+Notez la lettre de votre réponse à chaque question, puis comptez vos A, B, C et D à la fin.
 
 **1. Votre rapport au temps.**
 - A) Je suis toujours à l'heure
@@ -77,41 +78,27 @@ Notez votre réponse à chaque question, puis comptez les points à la fin.
 
 ## Les profils-pays
 
-Comptez vos A, B, C, D dominants.
+Repérez la lettre qui revient le plus souvent dans vos dix réponses, puis lisez le profil correspondant. En cas d'égalité entre deux lettres, lisez les deux : vous êtes à cheval sur deux profils. La lettre D n'est proposée que dans six questions : si elle arrive en tête, ou à égalité, retenez le profil D.
 
-**Profil "France" :** valeurs républicaines, esprit critique, gastronomie, refus de l'autorité, art de vivre, café-terrasse, débats animés.
+C'est un jeu, sans aucune prétention scientifique. Les pays cités le sont pour des faits vérifiables, pas pour le caractère supposé de leurs habitants.
 
-**Profil "Italie" :** famille, beauté, gastronomie hédoniste, art, dolce vita, expressivité.
+**Majorité de A : le méthodique raffiné. Vos pays-miroirs : le Japon et la Suisse.** Ponctualité, goût du détail, sens de la tradition et de l'épargne. Au Japon, le washoku, la cuisine traditionnelle, est inscrit au [patrimoine culturel immatériel de l'UNESCO](https://ich.unesco.org/en/RL/washoku-traditional-dietary-cultures-of-the-japanese-notably-for-the-celebration-of-new-year-00869) depuis 2013, entre autres pour le soin apporté à la présentation des plats. En Suisse, les chemins de fer fédéraux ont affiché [94,1 % de trains de voyageurs à l'heure en 2025](https://www.swissinfo.ch/eng/swiss-politics/swiss-federal-railways-reports-record-punctuality-in-2025/90842888), un record.
 
-**Profil "Japon" :** discipline, précision, esthétisme, respect, technologie, gastronomie raffinée, calme.
+**Majorité de B : l'amoureux du grand air. Vos pays-miroirs : la Norvège, la Nouvelle-Zélande et la Finlande.** Nature au quotidien, randonnée, repas partagés, goût de la nouveauté. En Norvège, le [droit d'accès à la nature](https://www.environmentagency.no/areas-of-activity/right-to-roam/about-right-to-roam/) permet à chacun de marcher, de skier et de camper librement en pleine nature. En Nouvelle-Zélande, le ministère de la Conservation encadre les activités sur [environ un tiers du territoire](https://www.doc.govt.nz/get-involved/apply-for-permits/how-we-regulate/). La Finlande occupe la première place du [World Happiness Report](https://data.worldhappiness.report/table) publié en 2026, la Norvège la sixième.
 
-**Profil "Espagne" :** convivialité, fête, gastronomie partagée, tradition catholique, sieste, sociabilité.
+**Majorité de C : l'adepte de l'équilibre. Vos pays-miroirs : le Danemark, les Pays-Bas et le Costa Rica.** Du temps pour soi, pour la famille et pour la plage, sans courir après la montre. Le Danemark et les Pays-Bas figurent parmi les pays de l'OCDE où l'on travaille [le moins d'heures par an](https://www.oecd.org/en/data/indicators/hours-worked.html) (données 2023, que l'OCDE invite à comparer avec prudence d'un pays à l'autre). Dans le World Happiness Report publié en 2026, le Danemark est troisième, le Costa Rica quatrième et les Pays-Bas septièmes.
 
-**Profil "Allemagne" :** organisation, ponctualité, écologie, ingéniérie, rationalité.
-
-**Profil "Suède" :** modération, équilibre travail-vie, démocratie sociale, design, écologie, simplicité.
-
-**Profil "Brésil" :** chaleur humaine, musique, danse, plage, sourire, famille élargie.
-
-**Profil "Argentine" :** [tango](https://fr.wikipedia.org/wiki/Tango), viande, mélancolie, fierté, gauchos, esprit de groupe.
-
-**Profil "Maroc" :** hospitalité, gastronomie épicée, traditions familiales, art de vivre, marchandage.
-
-**Profil "Inde" :** spiritualité, diversité, intensité, philosophie, gastronomie épicée, contrastes.
-
-**Profil "Canada" :** politesse, multiculturalisme, nature, modération, hiver, écologie.
-
-**Profil "Australie" :** détente, sport, plage, ouverture, optimisme, nature.
+**Majorité de D : l'esprit libre. Vos pays-miroirs : la Tchéquie et le Mexique.** Liberté individuelle, sorties culturelles entre amis, villes historiques à taille humaine, cuisine relevée. En Tchéquie, [72 % des adultes](https://www.pewresearch.org/short-reads/2017/06/19/unlike-their-central-and-eastern-european-neighbors-most-czechs-dont-believe-in-god/) déclaraient n'appartenir à aucune religion dans une enquête du Pew Research Center publiée en 2017. Au Mexique, la cuisine traditionnelle, fondée sur le maïs, le haricot et le piment, est inscrite au [patrimoine culturel immatériel de l'UNESCO](https://ich.unesco.org/en/RL/traditional-mexican-cuisine-ancestral-ongoing-community-culture-the-michoacan-paradigm-00400) depuis 2010. Le pays est douzième du World Happiness Report publié en 2026.
 
 ## Comment interpréter
 
 Le pays-miroir n'est pas forcément celui où vous voudriez vivre. C'est celui dont les valeurs culturelles dominantes résonnent le plus avec votre personnalité.
 
-Beaucoup de gens découvrent qu'ils sont culturellement plus "japonais" qu'ils ne le pensaient, ou plus "italien" malgré leur origine nordique. La culture nationale n'est pas un destin biologique.
+Beaucoup de gens tombent sur un profil auquel ils ne s'attendaient pas. La culture nationale n'est pas un destin biologique.
 
 ## Pour aller plus loin
 
-Voyager dans le pays-miroir révélé par le test peut être une expérience particulière : on s'y sent souvent en harmonie sans savoir pourquoi.
+Le pays-miroir révélé par le test peut donner une idée de voyage : c'est une bonne occasion de vérifier sur place si le portrait vous ressemble.
 
 SAPIRO propose des quiz pour mieux connaître les 197 pays du monde, leur culture, leur histoire, leur géographie. Pour creuser : [pays les moins visités du monde](/blog/pays-moins-visites-monde/) et l'[origine des noms de pays](/blog/origine-noms-pays/).
 
@@ -122,3 +109,13 @@ Ce test est volontairement simplifié et ludique. Les stéréotypes culturels so
   <figcaption>Photo : Reginald Lane Poole · domaine public · Wikimedia Commons</figcaption>
 </figure>
 
+## Sources
+
+- [World Happiness Report, classement par pays](https://data.worldhappiness.report/table) : rangs de la Finlande, du Danemark, du Costa Rica, de la Norvège, des Pays-Bas et du Mexique, édition publiée en 2026.
+- [UNESCO, washoku, traditions culinaires des Japonais](https://ich.unesco.org/en/RL/washoku-traditional-dietary-cultures-of-the-japanese-notably-for-the-celebration-of-new-year-00869) : inscription au patrimoine culturel immatériel, 2013.
+- [UNESCO, cuisine traditionnelle mexicaine](https://ich.unesco.org/en/RL/traditional-mexican-cuisine-ancestral-ongoing-community-culture-the-michoacan-paradigm-00400) : inscription au patrimoine culturel immatériel, 2010.
+- [Swissinfo, ponctualité des CFF](https://www.swissinfo.ch/eng/swiss-politics/swiss-federal-railways-reports-record-punctuality-in-2025/90842888) : 94,1 % de trains de voyageurs à l'heure, 2025.
+- [Agence norvégienne pour l'environnement, droit d'accès à la nature](https://www.environmentagency.no/areas-of-activity/right-to-roam/about-right-to-roam/) : ce que le droit autorise et où il s'applique.
+- [Ministère néo-zélandais de la Conservation (DOC)](https://www.doc.govt.nz/get-involved/apply-for-permits/how-we-regulate/) : activités encadrées sur environ un tiers du territoire.
+- [OCDE, heures travaillées](https://www.oecd.org/en/data/indicators/hours-worked.html) : heures annuelles par travailleur, données 2023.
+- [Pew Research Center](https://www.pewresearch.org/short-reads/2017/06/19/unlike-their-central-and-eastern-european-neighbors-most-czechs-dont-believe-in-god/) : 72 % des adultes tchèques sans affiliation religieuse, 2017.
