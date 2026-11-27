@@ -125,15 +125,10 @@ export default defineConfig({
     },
   },
   integrations: [react(), sitemap({
-    customPages: [
-      `${SITE}/credits/`,
-      `${SITE}/en/credits/`,
-      `${SITE}/es/credits/`,
-      `${SITE}/de/credits/`,
-    ],
     // Une page qui pointe son canonical ailleurs ne doit pas figurer au
     // sitemap : l'y laisser contredit le signal qu'on vient d'emettre.
     // /embed/* : pages nues servies en iframe chez des tiers, en noindex.
+    // /credits/ (pages statiques de public/) : noindex par en-tete, voir public/_headers.
     filter: (page) => !BLOG_CANONICALIZED.has(page) && !page.includes('/embed/') && !page.endsWith('sapiro.app/app/'),
     // hreflang corrects (slugs traduits) + lastmod reel par article.
     serialize(item) {
