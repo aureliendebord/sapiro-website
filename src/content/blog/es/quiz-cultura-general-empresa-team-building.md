@@ -1,8 +1,7 @@
 ---
 title: "Quiz cultura general empresa y team building"
 description: "Organizar un quiz cultura general en empresa o team building: formato, temas, reglas y herramientas para clavar el evento."
-date: 2026-02-25
-lastModified: 2026-06-15
+date: 2026-05-17
 image: "/images/blog/apprentissage/atelier-equipe.jpg"
 imageAlt: "Un taller de equipo en una sala de reuniones, frente a una presentación"
 imageCredit: "Foto: Ndahiro derrick · CC BY 4.0 · Wikimedia Commons"

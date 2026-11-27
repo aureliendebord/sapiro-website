@@ -1,7 +1,7 @@
 ---
 title: "Aprender historia divirtiéndose: métodos"
 description: "Cómo aprender historia sin memorizar fechas. Quiz, relatos, recorridos temáticos: los métodos que anclan los conocimientos históricos para siempre."
-date: 2026-03-18
+date: 2026-03-24
 lastModified: 2026-09-30
 image: "/images/blog/famille/livres-histoire.jpg"
 imageAlt: "Libros de historia para aprender divirtiéndose"

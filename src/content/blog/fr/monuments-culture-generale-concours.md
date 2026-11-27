@@ -1,8 +1,7 @@
 ---
 title: "Réviser les monuments pour les concours et le bac"
 description: "Quels monuments tombent aux concours de la fonction publique et au bac ? La liste à mémoriser, les confusions à éviter et une méthode de révision qui tient."
-date: 2026-02-23
-lastModified: 2026-06-15
+date: 2026-06-15
 image: "/images/blog/monuments/notre-dame-paris.jpg"
 imageAlt: "La cathédrale Notre-Dame de Paris"
 imageCredit: "Photo : Antonin Subtil · CC BY-SA 4.0 · Wikimedia Commons"

@@ -1,8 +1,7 @@
 ---
 title: "Am wenigsten besuchte Länder der Welt? Top 15 (2026)"
 description: "Die 15 am wenigsten besuchten Länder der Welt: Tuvalu, Kiribati, Turkmenistan … Warum kommen so wenige Touristen, und was gibt es dort zu sehen?"
-date: 2026-03-05
-lastModified: 2026-06-15
+date: 2026-10-19
 image: "/images/blog/monde/carte-monde-ancienne.jpg"
 imageAlt: "Eine alte Weltkarte"
 imageCredit: "Photo: Reginald Lane Poole · public domain · Wikimedia Commons"

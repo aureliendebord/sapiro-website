@@ -1,7 +1,7 @@
 ---
 title: "The 8 Best Apps to Learn Geography in 2025"
 description: "We tested and ranked the 8 best geography apps for 2025, from adaptive quiz drills to Street View exploration. Find out which one fits your learning style."
-date: 2025-11-10
+date: 2026-03-01
 lastModified: 2026-09-30
 image: "/images/blog/apps/carte-monde-app.jpg"
 imageAlt: "A 16th-century map of Hungary"

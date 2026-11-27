@@ -1,8 +1,7 @@
 ---
 title: "Die 10 jüngsten Länder der Welt (keines seit 2011)"
 description: "Der Südsudan, unabhängig seit Juli 2011, ist das jüngste Land der Welt. Die 10 jüngsten Staaten, mit dem Referendum oder Zerfall hinter jeder Unabhängigkeit."
-date: 2026-07-21
-lastModified: 2026-07-21
+date: 2026-10-19
 image: "/images/blog/monde/globe-terrestre.jpg"
 imageAlt: "Eine antike kreisförmige Kartenprojektion, die zwei Drittel der Erdkugel zeigt"
 imageCredit: "Photo: Henry James · public domain · Wikimedia Commons"

@@ -1,8 +1,7 @@
 ---
 title: "World Flags Quiz: Free Online Practice"
 description: "Test your knowledge of world flags with free online quizzes, by continent and level. Progressive learning."
-date: 2026-02-21
-lastModified: 2026-06-15
+date: 2026-05-17
 image: "/images/blog/famille/carte-monde-drapeaux.jpg"
 imageAlt: "A world map with countries and flags"
 imageCredit: "Photo: Transparent 6lue · public domain · Wikimedia Commons"

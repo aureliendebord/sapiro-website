@@ -1,8 +1,7 @@
 ---
 title: "Los monumentos de la Antigüedad: la guía completa"
 description: "Pirámides, el Partenón, el Coliseo, Petra, Persépolis: un recorrido por los grandes monumentos de la Antigüedad, con su datación y lo esencial sobre cada uno."
-date: 2026-02-16
-lastModified: 2026-06-15
+date: 2026-06-15
 image: "/images/blog/monuments/acropole-parthenon.jpg"
 imageAlt: "El Partenón en la Acrópolis de Atenas"
 imageCredit: "Foto: A.Savin · CC BY-SA 3.0 · Wikimedia Commons"

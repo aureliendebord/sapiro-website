@@ -2,7 +2,6 @@
 title: "¿Cuál es el país más antiguo del mundo? Tres respuestas posibles"
 description: "San Marino (fundado en 301) es el estado más antiguo que sigue existiendo, Egipto el estado más antiguo de la historia y Japón la monarquía más vieja."
 date: 2026-08-18
-lastModified: 2026-08-18
 image: "/images/blog/monde/carte-monde-ancienne.jpg"
 imageAlt: "Un mapa del mundo antiguo"
 imageCredit: "Foto: Reginald Lane Poole · dominio público · Wikimedia Commons"

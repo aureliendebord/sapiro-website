@@ -1,8 +1,7 @@
 ---
 title: "Art History Quiz: Exam-Level Practice"
 description: "Reviewing art history for exams, competitive tests or college: official syllabus, key works and practice quizzes by level."
-date: 2026-01-29
-lastModified: 2026-06-15
+date: 2026-05-17
 image: "/images/blog/art/ecole-athenes.jpg"
 imageAlt: "The School of Athens by Raphael"
 imageCredit: "Photo: Raphael · public domain · Wikimedia Commons"

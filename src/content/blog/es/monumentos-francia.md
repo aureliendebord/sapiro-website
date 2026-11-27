@@ -1,8 +1,7 @@
 ---
 title: "Monumentos de Francia que debes conocer (fuera de París)"
 description: "Mont-Saint-Michel, los castillos del Loira, el Pont du Gard, el viaducto de Millau: un recorrido por los monumentos imprescindibles de Francia, región por región, lejos de la capital."
-date: 2026-02-11
-lastModified: 2026-06-15
+date: 2026-06-15
 image: "/images/blog/monuments/mont-saint-michel.jpg"
 imageAlt: "El Mont-Saint-Michel"
 imageCredit: "Foto: Lynx1211 · CC BY-SA 4.0 · Wikimedia Commons"

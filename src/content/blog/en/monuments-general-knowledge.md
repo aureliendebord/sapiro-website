@@ -1,8 +1,7 @@
 ---
 title: "Revising Monuments for General Knowledge and Exams"
 description: "Which monuments come up in pub quizzes, general knowledge tests and school exams? The must-know list, the easy mix-ups to dodge, and a revision method that sticks."
-date: 2026-02-23
-lastModified: 2026-06-15
+date: 2026-06-15
 image: "/images/blog/monuments/notre-dame-paris.jpg"
 imageAlt: "Notre-Dame Cathedral in Paris"
 imageCredit: "Photo: Antonin Subtil · CC BY-SA 4.0 · Wikimedia Commons"

@@ -1,8 +1,7 @@
 ---
 title: "Castillos y palacios famosos del mundo"
 description: "Versalles, Neuschwanstein, la Alhambra, la Ciudad Prohibida, el Potala: un recorrido por los grandes castillos y palacios del mundo, con su estilo, su época y lo que los distingue."
-date: 2026-02-18
-lastModified: 2026-06-15
+date: 2026-06-15
 image: "/images/blog/monuments/neuschwanstein.jpg"
 imageAlt: "El castillo de Neuschwanstein en Baviera"
 imageCredit: "Foto: Ximonic, Simo Räsänen & Tauno Räsänen · CC BY-SA 3.0 · Wikimedia Commons"

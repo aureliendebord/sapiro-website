@@ -2,7 +2,6 @@
 title: "10 países que cambiaron de nombre (y por qué)"
 description: "Esuatini (ex Suazilandia), Türkiye, Chequia, Myanmar: 10 países que cambiaron de nombre, con el nombre anterior, el año y la razón de cada cambio."
 date: 2026-07-21
-lastModified: 2026-07-21
 image: "/images/blog/apprentissage/carte-monde.jpg"
 imageAlt: "Un mapa político del mundo"
 imageCredit: "Foto: JanitoalevicOriginal map by: CIA World Factbook · dominio público · Wikimedia Commons"

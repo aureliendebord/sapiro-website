@@ -1,7 +1,7 @@
 ---
 title: "50 Allgemeinwissen-Fragen mit Antworten"
 description: "50 Allgemeinwissen-Fragen mit erklärten Antworten, nach Thema und Niveau sortiert. Zum Testen, Wiederholen oder für deinen nächsten Quizabend."
-date: 2026-06-24
+date: 2026-10-19
 image: "/images/blog/art/ecole-athenes.jpg"
 imageAlt: "Die Schule von Athen von Raffael"
 imageCredit: "Photo: Raphael · public domain · Wikimedia Commons"

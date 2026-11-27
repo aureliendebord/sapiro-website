@@ -1,0 +1,97 @@
+---
+import { getCollection } from 'astro:content';
+import BlogCard from './BlogCard.astro';
+import type { Lang } from '../i18n';
+import { getLocalePath, getTranslations } from '../i18n';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+const t = getTranslations(lang);
+
+// Articles les plus lus depuis Google (Search Console, 20/09 → 18/10/2026),
+// désignés par leur clé de traduction pour valoir dans toutes les langues.
+const POPULAR_KEYS = [
+  'plus-petits-pays-afrique',
+  '100-questions-culture-generale',
+  '50-questions-culture-generale',
+  'pays-disparus',
+  'rois-monarchies-europe',
+  'pays-moins-visites',
+  'plus-petits-pays',
+  'test-pays-personnalite',
+];
+
+const posts = await getCollection('blog', ({ data }) => data.lang === lang && !data.canonicalTo);
+const popular = POPULAR_KEYS
+  .map((key) => posts.find((p) => p.data.translationKey === key))
+  .filter((p) => p !== undefined)
+  .slice(0, 6);
+
+const title: Record<Lang, string> = {
+  fr: 'Les articles les plus lus',
+  en: 'Most-read articles',
+  es: 'Los artículos más leídos',
+  de: 'Meistgelesene Artikel',
+};
+---
+
+{popular.length >= 3 && (
+  <section class="popular-posts">
+    <div class="container">
+      <h2 class="popular-title">{title[lang]}</h2>
+      <div class="popular-grid">
+        {popular.map((p) => (
+          <BlogCard
+            title={p.data.title}
+            description={p.data.description}
+            date={p.data.date}
+            slug={p.data.urlSlug}
+            category={p.data.category}
+            readingTime={p.data.readingTime}
+            lang={lang}
+          />
+        ))}
+      </div>
+      <p class="popular-more">
+        <a href={getLocalePath('/blog', lang)}>{t.blog.allArticles} &rarr;</a>
+      </p>
+    </div>
+  </section>
+)}
+
+<style>
+  .popular-posts {
+    padding: 72px 0;
+    background: #fff;
+  }
+
+  .popular-title {
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    text-align: center;
+    margin-bottom: 32px;
+  }
+
+  .popular-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+  .popular-more {
+    text-align: center;
+    margin-top: 28px;
+    font-weight: 600;
+  }
+
+  .popular-more a { color: var(--orange); }
+  .popular-more a:hover { text-decoration: underline; }
+
+  @media (max-width: 1024px) { .popular-grid { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 640px) {
+    .popular-grid { grid-template-columns: 1fr; }
+    .popular-posts { padding: 48px 0; }
+  }
+</style>

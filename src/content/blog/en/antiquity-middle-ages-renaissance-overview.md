@@ -1,8 +1,7 @@
 ---
 title: "Antiquity, Middle Ages, Renaissance: Essential Overview"
 description: "Three major periods that structure Western history. Dates, civilizations, movements and figures to navigate them simply."
-date: 2026-02-04
-lastModified: 2026-06-15
+date: 2026-05-17
 image: "/images/blog/monuments/colisee-rome.jpg"
 imageAlt: "The Colosseum in Rome"
 imageCredit: "Photo: Wilfredor · CC0 · Wikimedia Commons"

@@ -1,8 +1,7 @@
 ---
 title: "Monumentos de España: 8 lugares que debes conocer"
 description: "De la Sagrada Família a la Alhambra, un recorrido por los grandes monumentos de España, con su ciudad, su estilo y su herencia romana, musulmana y cristiana."
-date: 2026-03-02
-lastModified: 2026-06-15
+date: 2026-06-15
 image: "/images/blog/monuments/sagrada-familia.jpg"
 imageAlt: "El interior de la Sagrada Família en Barcelona, con sus columnas y escaleras de caracol"
 imageCredit: "Foto: Alvesgaspar · CC BY-SA 4.0 · Wikimedia Commons"

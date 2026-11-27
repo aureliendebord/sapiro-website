@@ -1,8 +1,7 @@
 ---
 title: "Repasar cultura general en 30 días: plan diario"
 description: "Un plan de 30 días para repasar cultura general antes de un examen: día a día, tema a tema, con un programa diario y el método adecuado para que se quede."
-date: 2026-02-12
-lastModified: 2026-06-15
+date: 2026-05-17
 image: "/images/blog/apprentissage/bureau-revision.jpg"
 imageAlt: "Un gabinete de estudio del siglo XIX con biblioteca y chimenea"
 imageCredit: "Foto: Miscellaneous Items in High Demand, PPOC, Library of Congress · dominio público · Wikimedia Commons"

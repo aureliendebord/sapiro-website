@@ -1,8 +1,7 @@
 ---
 title: "Quiz capitales du monde : combien peux-tu en nommer ?"
 description: "Quiz capitales du monde : de Canberra à Naypyidaw, les capitales les plus surprenantes et les pièges à éviter. Combien pouvez-vous en nommer sur 195 ?"
-date: 2025-12-10
-lastModified: 2026-06-15
+date: 2026-03-01
 image: "/images/blog/monuments/westminster-big-ben.jpg"
 imageAlt: "Big Ben et le palais de Westminster à Londres"
 imageCredit: "Photo : Colin · CC BY-SA 4.0 · Wikimedia Commons"

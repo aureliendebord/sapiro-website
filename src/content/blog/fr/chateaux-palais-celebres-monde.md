@@ -1,8 +1,7 @@
 ---
 title: "Châteaux et palais célèbres du monde"
 description: "Versailles, Neuschwanstein, l'Alhambra, la Cité interdite, le Potala : un tour des plus grands châteaux et palais du monde, avec leur style, leur époque et ce qui les distingue."
-date: 2026-02-18
-lastModified: 2026-06-15
+date: 2026-06-15
 image: "/images/blog/monuments/neuschwanstein.jpg"
 imageAlt: "Le château de Neuschwanstein en Bavière"
 imageCredit: "Photo : Ximonic, Simo Räsänen & Tauno Räsänen · CC BY-SA 3.0 · Wikimedia Commons"

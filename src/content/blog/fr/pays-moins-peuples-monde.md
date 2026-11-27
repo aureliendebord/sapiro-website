@@ -2,7 +2,6 @@
 title: "Les pays les moins peuplés du monde : le top 20 (2026)"
 description: "Le Vatican compte environ 800 habitants, Tuvalu environ 11 000 : le pays le moins peuplé du monde et le membre de l'ONU le moins peuplé. Le classement des 20 pays les moins peuplés."
 date: 2026-10-14
-lastModified: 2026-10-14
 image: "/images/blog/monde/vatican.jpg"
 imageAlt: "La cité du Vatican vue du ciel"
 imageCredit: "Photo : CAPTAIN RAJU · CC0 · Wikimedia Commons"

@@ -1,8 +1,7 @@
 ---
 title: "Les monuments de France à connaître (hors Paris)"
 description: "Mont-Saint-Michel, châteaux de la Loire, pont du Gard, viaduc de Millau : un tour de France des monuments incontournables, région par région, loin de la capitale."
-date: 2026-02-11
-lastModified: 2026-06-15
+date: 2026-06-15
 image: "/images/blog/monuments/mont-saint-michel.jpg"
 imageAlt: "Le Mont-Saint-Michel"
 imageCredit: "Photo : Lynx1211 · CC BY-SA 4.0 · Wikimedia Commons"

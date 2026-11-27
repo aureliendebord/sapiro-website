@@ -2,7 +2,6 @@
 title: "Quiz drapeaux : à quel pays appartiennent ces 20 drapeaux ?"
 description: "Vingt drapeaux décrits, vingt pays à retrouver, des plus évidents à ceux qui piègent tout le monde. Avec les réponses et votre score à la fin."
 date: 2026-09-09
-lastModified: 2026-09-09
 image: "/images/blog/famille/carte-monde-drapeaux.jpg"
 imageAlt: "Une carte du monde avec les pays et les drapeaux"
 imageCredit: "Photo : Transparent 6lue · domaine public · Wikimedia Commons"

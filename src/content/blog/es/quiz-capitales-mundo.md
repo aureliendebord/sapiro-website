@@ -1,8 +1,7 @@
 ---
 title: "Quiz de capitales del mundo: ¿cuántas puedes nombrar?"
 description: "Acepta el quiz capitales del mundo: trampas clásicas, capitales sorprendentes y trucos para memorizar las 195. ¿Cuántas eres capaz de nombrar sin mirar?"
-date: 2025-12-10
-lastModified: 2026-06-15
+date: 2026-03-01
 image: "/images/blog/monuments/westminster-big-ben.jpg"
 imageAlt: "El Big Ben y el Palacio de Westminster en Londres"
 imageCredit: "Foto: Colin · CC BY-SA 4.0 · Wikimedia Commons"

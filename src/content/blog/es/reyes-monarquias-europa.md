@@ -1,8 +1,7 @@
 ---
 title: "Monarquías de Europa hoy: lista completa por país (2026)"
 description: "De Carlomagno a Isabel II: los monarcas esenciales de Europa por país y dinastía, con fechas de reinado y eventos mayores."
-date: 2026-02-01
-lastModified: 2026-06-15
+date: 2026-05-17
 image: "/images/blog/histoire/galerie-des-glaces.jpg"
 imageAlt: "La galería de los Espejos del palacio de Versalles"
 imageCredit: "Foto: Myrabella · CC BY-SA 3.0 · Wikimedia Commons"

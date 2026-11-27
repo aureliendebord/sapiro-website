@@ -3,9 +3,7 @@ import Layout from './Layout.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import BlogCta from '../components/BlogCta.astro';
-import BlogInlineCta from '../components/BlogInlineCta.astro';
 import BlogQuiz, { type BlogQuizQuestion } from '../components/BlogQuiz.astro';
-import BlogStickyStoreBar from '../components/BlogStickyStoreBar.astro';
 import type { Lang } from '../i18n';
 import { getTranslations, getLocalePath, dateLocales, LANGS } from '../i18n';
 import type { FaqItem } from '../utils/faq';
@@ -51,11 +49,10 @@ const ogImage = heroIsLandscape ? heroImageUrl : undefined;
 const t = getTranslations(lang);
 const modifiedDate = lastModified || date;
 
-const formattedDate = date.toLocaleDateString(dateLocales[lang], {
-  year: 'numeric',
-  month: 'long',
-  day: 'numeric'
-});
+const dateFormat: Intl.DateTimeFormatOptions = { year: 'numeric', month: 'long', day: 'numeric' };
+const formattedDate = date.toLocaleDateString(dateLocales[lang], dateFormat);
+const updatedDate = lastModified && lastModified > date ? lastModified : undefined;
+const formattedUpdated = updatedDate?.toLocaleDateString(dateLocales[lang], dateFormat);
 
 const categoryLabel = t.blog.categories[category] || category;
 const blogUrl = getLocalePath('/blog', lang);
@@ -226,6 +223,7 @@ const breadcrumbSchema = {
         <h1>{title}</h1>
         <div class="article-info">
           <span>{t.blog.publishedOn} <time datetime={date.toISOString()}>{formattedDate}</time></span>
+          {updatedDate && <span>· {t.blog.updatedOn} <time datetime={updatedDate.toISOString()}>{formattedUpdated}</time></span>}
           <span class="article-author">— <a href={getLocalePath('/about', lang)} rel="author">{AUTHOR.name}</a></span>
         </div>
       </header>
@@ -250,8 +248,6 @@ const breadcrumbSchema = {
         )}
         <BlogCta lang={lang} clusterKey={cluster?.key} />
       </div>
-
-      <BlogInlineCta lang={lang} />
 
       <RelatedPosts lang={lang} slug={slug} category={category} />
 
@@ -289,7 +285,6 @@ const breadcrumbSchema = {
   </main>
 
   <Footer lang={lang} t={t} />
-  <BlogStickyStoreBar lang={lang} />
 </Layout>
 
 <style>

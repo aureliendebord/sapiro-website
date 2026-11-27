@@ -1,7 +1,7 @@
 ---
 title: "Meilleures apps éducatives sans publicité"
 description: "Sélection des meilleures applications éducatives sans publicité : géographie, langues, histoire, sciences. Apprendre sans interruptions."
-date: 2026-03-03
+date: 2026-05-17
 lastModified: 2026-09-30
 image: "/images/blog/apps/tablette-education.jpg"
 imageAlt: "Un enfant jouant avec un ordinateur jouet en bois à lettres cyrilliques"

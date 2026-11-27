@@ -1,8 +1,7 @@
 ---
 title: "Quel pays correspond à ta personnalité ? Le test"
 description: "Test ludique : quel pays correspond à ta personnalité ? Un voyage entre culture, géographie et caractère pour découvrir ton pays-miroir."
-date: 2026-03-10
-lastModified: 2026-06-15
+date: 2026-05-17
 image: "/images/blog/monde/globe-terrestre.jpg"
 imageAlt: "Une carte ancienne en projection circulaire montrant les deux tiers du globe"
 imageCredit: "Photo : Henry James · domaine public · Wikimedia Commons"

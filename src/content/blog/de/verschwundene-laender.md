@@ -1,8 +1,7 @@
 ---
 title: "Länder, die es nicht mehr gibt: die Liste der verschwundenen Staaten"
 description: "Jugoslawien, UdSSR, Tschechoslowakei, DDR: die Liste der Länder, die es nicht mehr gibt, und die Geschichte ihres Verschwindens."
-date: 2026-03-07
-lastModified: 2026-06-15
+date: 2026-10-19
 image: "/images/blog/monde/carte-monde-ancienne.jpg"
 imageAlt: "Eine alte Weltkarte"
 imageCredit: "Photo: Reginald Lane Poole · public domain · Wikimedia Commons"

@@ -2,7 +2,6 @@
 title: "10 ciudades perdidas reencontradas (Pompeya, Machu Picchu, Angkor…)"
 description: "Pompeya, Machu Picchu, Angkor, Petra, Troya: 10 ciudades sepultadas o abandonadas y luego redescubiertas, con fechas de desaparición y redescubrimiento."
 date: 2026-07-21
-lastModified: 2026-07-21
 image: "/images/blog/monuments/machu-picchu.jpg"
 imageAlt: "El Machu Picchu en Perú"
 imageCredit: "Foto: Diego Delso · CC BY-SA 4.0 · Wikimedia Commons"

@@ -1,8 +1,7 @@
 ---
 title: "Les monuments du Royaume-Uni : guide des incontournables"
 description: "Big Ben, Tower Bridge, Stonehenge, le château d'Édimbourg : un tour clair des grands monuments du Royaume-Uni, avec dates, lieux et idées reçues corrigées."
-date: 2026-03-04
-lastModified: 2026-06-15
+date: 2026-06-15
 image: "/images/blog/monuments/westminster-big-ben.jpg"
 imageAlt: "Big Ben et le palais de Westminster à Londres"
 imageCredit: "Photo : Colin · CC BY-SA 4.0 · Wikimedia Commons"

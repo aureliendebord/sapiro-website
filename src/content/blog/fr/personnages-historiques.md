@@ -1,8 +1,7 @@
 ---
 title: "20 personnages historiques incontournables"
 description: "Quiz personnages historiques : de Cléopâtre à Turing, 20 figures incontournables qui ont façonné le monde. Combien pouvez-vous replacer dans leur époque ?"
-date: 2025-11-28
-lastModified: 2026-06-15
+date: 2026-03-01
 image: "/images/blog/monde/buste-antique.jpg"
 imageAlt: "Un buste antique en marbre"
 imageCredit: "Photo : J. Paul Getty Museum · CC0 · Wikimedia Commons"

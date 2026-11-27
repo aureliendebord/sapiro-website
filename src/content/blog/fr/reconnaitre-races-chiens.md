@@ -1,8 +1,7 @@
 ---
 title: "Reconnaître 30 races de chiens : guide visuel"
 description: "Berger australien ou border collie, husky ou malamute : 30 races de chiens avec leurs traits distinctifs pour ne plus jamais les confondre."
-date: 2026-01-19
-lastModified: 2026-06-15
+date: 2026-05-17
 image: "/images/blog/nature/golden-retriever.jpg"
 imageAlt: "Un golden retriever, race de chien populaire"
 imageCredit: "Photo : Dietmar Rabich · CC BY-SA 4.0 · Wikimedia Commons"

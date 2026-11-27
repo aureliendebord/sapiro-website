@@ -226,7 +226,7 @@ const play = playLabels[lang];
   </div>
   <h3 class="blog-cta-title">{cta.title}</h3>
   <p class="blog-cta-text">{cta.subtitle}</p>
-  <a href={playGameUrl('blog-cta', lang)} class="play-btn" data-umami-event="play-click" data-umami-event-campaign="blog-cta">
+  <a href={playGameUrl(lang)} class="play-btn" data-umami-event="play-click" data-umami-event-campaign="blog-cta">
     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="5 3 19 12 5 21 5 3"/></svg>
     <span class="play-txt">
       <strong>{play.play}</strong>

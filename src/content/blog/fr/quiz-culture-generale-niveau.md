@@ -1,8 +1,7 @@
 ---
 title: "Quiz culture générale : facile à expert"
 description: "Quiz culture générale par niveau : facile, moyen, difficile, expert. Pour évaluer son niveau et progresser étape par étape."
-date: 2026-02-23
-lastModified: 2026-06-15
+date: 2026-05-17
 image: "/images/blog/apprentissage/bureau-revision.jpg"
 imageAlt: "Un cabinet de travail du XIXe siècle avec bibliothèque et cheminée"
 imageCredit: "Photo : Miscellaneous Items in High Demand, PPOC, Library of Congress · domaine public · Wikimedia Commons"

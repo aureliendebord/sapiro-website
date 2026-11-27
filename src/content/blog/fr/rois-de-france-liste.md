@@ -1,7 +1,7 @@
 ---
 title: "Liste des rois de France par ordre chronologique, de Clovis à Louis-Philippe"
 description: "Tous les rois de France dans l'ordre, de Clovis à Louis-Philippe : tableau chronologique avec dates de règne et dynasties, puis les faits majeurs des souverains à connaître."
-date: 2026-02-01
+date: 2026-05-17
 lastModified: 2026-10-01
 image: "/images/blog/histoire/galerie-des-glaces.jpg"
 imageAlt: "La galerie des Glaces du château de Versailles"

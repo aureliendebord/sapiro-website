@@ -1,8 +1,7 @@
 ---
 title: "Cultura general en oposiciones públicas"
 description: "Repasar cultura general para oposiciones: temario, temas recurrentes y método para preparar la prueba con eficacia."
-date: 2026-02-07
-lastModified: 2026-06-15
+date: 2026-05-17
 image: "/images/blog/famille/salle-classe.jpg"
 imageAlt: "Un aula con una pizarra"
 imageCredit: "Foto: AKA MBG · CC0 · Wikimedia Commons"

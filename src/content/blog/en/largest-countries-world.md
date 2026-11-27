@@ -2,7 +2,6 @@
 title: "The 10 Largest Countries in the World, from Russia to Algeria"
 description: "Russia (17.1 M km²) is the largest country in the world, ahead of Canada and the United States. The 10 biggest countries by area, with the US/China dispute explained."
 date: 2026-08-17
-lastModified: 2026-08-17
 image: "/images/blog/famille/carte-monde-drapeaux.jpg"
 imageAlt: "A world map with countries and flags"
 imageCredit: "Photo: Transparent 6lue · public domain · Wikimedia Commons"

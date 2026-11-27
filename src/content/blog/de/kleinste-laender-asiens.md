@@ -1,8 +1,7 @@
 ---
 title: "Die 10 kleinsten Länder Asiens, von den Malediven bis Kuwait"
 description: "Die Malediven (298 km²) sind das kleinste Land Asiens, Singapur folgt auf Platz 2. Die 10 kleinsten Staaten Asiens nach Fläche, mit Einwohnerzahl."
-date: 2026-07-13
-lastModified: 2026-07-13
+date: 2026-10-19
 image: "/images/blog/apprentissage/carte-monde.jpg"
 imageAlt: "Eine politische Weltkarte"
 imageCredit: "Photo: JanitoalevicOriginal map by: CIA World Factbook · public domain · Wikimedia Commons"

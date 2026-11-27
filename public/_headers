@@ -17,18 +17,27 @@
 
 # Page d'attribution des images (statique, generee depuis le repo sapiro)
 # Cache 1h : la liste evolue uniquement entre releases de l'app
-# FR a la racine, EN/ES traduits via scripts/translate-credits.mjs
+# FR a la racine, EN/ES/DE traduits via scripts/translate-credits.mjs
+# noindex par en-tete : le HTML FR est regenere par le repo de l'app
 /credits/*
   Content-Type: text/html; charset=utf-8
   Cache-Control: public, max-age=3600
+  X-Robots-Tag: noindex, follow
 
 /en/credits/*
   Content-Type: text/html; charset=utf-8
   Cache-Control: public, max-age=3600
+  X-Robots-Tag: noindex, follow
 
 /es/credits/*
   Content-Type: text/html; charset=utf-8
   Cache-Control: public, max-age=3600
+  X-Robots-Tag: noindex, follow
+
+/de/credits/*
+  Content-Type: text/html; charset=utf-8
+  Cache-Control: public, max-age=3600
+  X-Robots-Tag: noindex, follow
 
 # Liens universels iOS (defi d'un ami, /d/<id>) : Apple exige du JSON, sans redirection
 /.well-known/apple-app-site-association

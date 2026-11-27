@@ -1,8 +1,7 @@
 ---
 title: "Antigüedad, Edad Media, Renacimiento: hitos esenciales"
 description: "Tres grandes periodos que estructuran la historia occidental. Fechas, civilizaciones, movimientos y figuras para orientarse simple."
-date: 2026-02-04
-lastModified: 2026-06-15
+date: 2026-05-17
 image: "/images/blog/monuments/colisee-rome.jpg"
 imageAlt: "El Coliseo de Roma"
 imageCredit: "Foto: Wilfredor · CC0 · Wikimedia Commons"

@@ -1,8 +1,7 @@
 ---
 title: "General Knowledge Quiz: High School Level"
 description: "Practice general knowledge at middle and high school level: recurring themes, sample questions and method for exam success."
-date: 2026-02-09
-lastModified: 2026-06-15
+date: 2026-05-17
 image: "/images/blog/famille/salle-classe.jpg"
 imageAlt: "A classroom with a blackboard"
 imageCredit: "Photo: AKA MBG · CC0 · Wikimedia Commons"

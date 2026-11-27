@@ -1,8 +1,7 @@
 ---
 title: "Zeitstrahl der Weltgeschichte: die wichtigsten Daten"
 description: "Antike, Mittelalter, Renaissance, Industrialisierung, Weltkriege: der Zeitstrahl der Weltgeschichte mit den Daten und Ereignissen, die du kennen solltest."
-date: 2026-01-30
-lastModified: 2026-06-15
+date: 2026-10-19
 image: "/images/blog/histoire/pyramides-gizeh.jpg"
 imageAlt: "Die Pyramiden von Gizeh in Ägypten"
 imageCredit: "Photo: Ricardo Liberato · CC BY-SA 2.0 · Wikimedia Commons"

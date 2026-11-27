@@ -1,8 +1,7 @@
 ---
 title: "Los monumentos de París: la guía para no perderse"
 description: "Torre Eiffel, Notre-Dame reabierta a finales de 2024, el Louvre, el Panteón, la Ópera Garnier… Los grandes monumentos de París explicados, con fechas, estilos y datos clave."
-date: 2026-02-09
-lastModified: 2026-06-15
+date: 2026-06-15
 image: "/images/blog/monuments/tour-eiffel.jpg"
 imageAlt: "La Torre Eiffel en París"
 imageCredit: "Foto: Benh Lieu Song · dominio público · Wikimedia Commons"

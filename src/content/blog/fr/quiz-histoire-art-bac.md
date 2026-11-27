@@ -1,8 +1,7 @@
 ---
 title: "Quiz histoire de l'art niveau bac : entraînez-vous"
 description: "Réviser l'histoire de l'art pour le bac, le brevet ou les concours : programme officiel, œuvres clefs et quiz de niveau pour s'entraîner."
-date: 2026-01-29
-lastModified: 2026-06-15
+date: 2026-05-17
 image: "/images/blog/art/ecole-athenes.jpg"
 imageAlt: "L'École d'Athènes de Raphaël"
 imageCredit: "Photo : Raphael · domaine public · Wikimedia Commons"

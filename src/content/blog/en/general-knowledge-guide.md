@@ -1,8 +1,7 @@
 ---
 title: "General Knowledge: The Guide to Know It All"
 description: "Want to improve general knowledge without cramming? Five daily habits, proven retention strategies, and the overlooked domains that make all the difference."
-date: 2025-10-28
-lastModified: 2026-06-15
+date: 2026-03-01
 image: "/images/blog/monde/bibliotheque.jpg"
 imageAlt: "An old library full of books"
 imageCredit: "Photo: Davide Cantelli cant89 · CC0 · Wikimedia Commons"

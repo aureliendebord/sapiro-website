@@ -1,8 +1,7 @@
 ---
 title: "Flags of Countries That No Longer Exist: 10 Vanished Banners"
 description: "USSR, Yugoslavia, East Germany, South Vietnam: 10 flags of countries that no longer exist, the story behind each banner and when the state disappeared."
-date: 2026-07-13
-lastModified: 2026-07-13
+date: 2026-07-15
 image: "/images/blog/monde/mappemonde.jpg"
 imageAlt: "An 1850 chart of the flags and cockades of the world's main powers"
 imageCredit: "Photo: Various authors. · public domain · Wikimedia Commons"

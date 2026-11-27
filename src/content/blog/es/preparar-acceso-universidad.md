@@ -1,8 +1,7 @@
 ---
 title: "Cómo preparar la EvAU y acceso a la universidad"
 description: "Preparar cultura general para EvAU, Selectividad y otros exámenes de acceso a la universidad: temario, lecturas, método y entrenamiento con quizzes."
-date: 2026-02-08
-lastModified: 2026-06-15
+date: 2026-05-17
 image: "/images/blog/monde/bibliotheque.jpg"
 imageAlt: "Una antigua biblioteca llena de libros"
 imageCredit: "Foto: Davide Cantelli cant89 · CC0 · Wikimedia Commons"

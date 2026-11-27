@@ -1,8 +1,7 @@
 ---
 title: "Europas Monarchen: die vollständige Liste nach Ländern (2026)"
 description: "Von Karl dem Großen bis Elisabeth II.: die wichtigsten Monarchen Europas nach Land und Dynastie, mit Regierungszeiten und prägenden Ereignissen."
-date: 2026-02-01
-lastModified: 2026-06-15
+date: 2026-10-19
 image: "/images/blog/histoire/galerie-des-glaces.jpg"
 imageAlt: "Der Spiegelsaal im Schloss von Versailles"
 imageCredit: "Photo: Myrabella · CC BY-SA 3.0 · Wikimedia Commons"

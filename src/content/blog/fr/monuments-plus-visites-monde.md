@@ -1,8 +1,7 @@
 ---
 title: "Les monuments les plus visités au monde : le classement"
 description: "Cité interdite, Grande Muraille, Tour Eiffel… Quels monuments attirent le plus de visiteurs chaque année ? Classement, chiffres et limites des comptages."
-date: 2026-02-06
-lastModified: 2026-06-15
+date: 2026-06-15
 image: "/images/blog/monuments/cite-interdite.jpg"
 imageAlt: "La Cité interdite à Pékin"
 imageCredit: "Photo : Kallgan · CC BY-SA 3.0 · Wikimedia Commons"

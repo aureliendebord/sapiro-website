@@ -2,7 +2,6 @@
 title: "Quel est le plus vieux pays du monde ? Trois réponses possibles"
 description: "Saint-Marin (fondé en 301) est le plus vieil État encore existant, l'Égypte le plus ancien État de l'histoire, le Japon la plus vieille monarchie."
 date: 2026-08-18
-lastModified: 2026-08-18
 image: "/images/blog/monde/carte-monde-ancienne.jpg"
 imageAlt: "Une vieille carte du monde"
 imageCredit: "Photo : Reginald Lane Poole · domaine public · Wikimedia Commons"

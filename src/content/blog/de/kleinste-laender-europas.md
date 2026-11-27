@@ -1,8 +1,7 @@
 ---
 title: "Die 10 kleinsten Länder Europas (2026)"
 description: "Die Vatikanstadt (0,49 km²) ist das kleinste Land Europas. Die Rangliste der 10 kleinsten Länder Europas nach Fläche, mit Einwohnerzahl und Fakten."
-date: 2026-07-13
-lastModified: 2026-07-13
+date: 2026-10-19
 image: "/images/blog/monde/vatican.jpg"
 imageAlt: "Die Vatikanstadt von oben"
 imageCredit: "Photo: CAPTAIN RAJU · CC0 · Wikimedia Commons"

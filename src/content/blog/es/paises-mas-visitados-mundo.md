@@ -2,7 +2,6 @@
 title: "Los 10 países más visitados del mundo, con Francia en cabeza"
 description: "Francia recibe unos 100 millones de turistas al año, más que ningún otro país. El ranking de los 10 países más visitados del mundo y las razones de su éxito."
 date: 2026-09-09
-lastModified: 2026-09-09
 image: "/images/blog/monde/capitale-paris.jpg"
 imageAlt: "Vista aérea de París"
 imageCredit: "Foto: Drew Coffman drewcoffman · CC0 · Wikimedia Commons"

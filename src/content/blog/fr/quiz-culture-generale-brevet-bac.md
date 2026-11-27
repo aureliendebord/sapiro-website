@@ -1,8 +1,7 @@
 ---
 title: "Quiz culture générale niveau brevet et bac"
 description: "S'entraîner à la culture générale niveau brevet et bac : thèmes récurrents, questions types et méthode pour réussir l'épreuve."
-date: 2026-02-09
-lastModified: 2026-06-15
+date: 2026-05-17
 image: "/images/blog/famille/salle-classe.jpg"
 imageAlt: "Une salle de classe avec un tableau noir"
 imageCredit: "Photo : AKA MBG · CC0 · Wikimedia Commons"

@@ -1,8 +1,7 @@
 ---
 title: "Nicht anerkannte Staaten: 10 Länder ohne UN-Sitz (2026)"
 description: "Wie viele nicht anerkannte Staaten gibt es? Rund zehn, von Taiwan und Kosovo bis Somaliland und Transnistrien. Wer sie anerkennt, seit wann und warum."
-date: 2026-07-21
-lastModified: 2026-10-01
+date: 2026-10-19
 image: "/images/blog/apprentissage/carte-monde.jpg"
 imageAlt: "Eine politische Weltkarte"
 imageCredit: "Photo: JanitoalevicOriginal map by: CIA World Factbook · public domain · Wikimedia Commons"

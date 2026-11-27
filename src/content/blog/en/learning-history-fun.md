@@ -1,7 +1,7 @@
 ---
 title: "Learning History in a Fun Way: Methods That Actually Work"
 description: "How to learn history without just memorizing dates. Quizzes, storytelling, thematic paths: the methods that make historical knowledge stick for good."
-date: 2026-03-18
+date: 2026-03-24
 lastModified: 2026-09-30
 image: "/images/blog/famille/livres-histoire.jpg"
 imageAlt: "History books to learn while having fun"

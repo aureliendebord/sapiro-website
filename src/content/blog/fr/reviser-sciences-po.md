@@ -1,8 +1,7 @@
 ---
 title: "Réviser la culture générale pour Sciences Po"
 description: "Comment préparer l'épreuve de culture générale pour Sciences Po et les IEP : programme, lectures, méthode et entraînement aux quiz."
-date: 2026-02-08
-lastModified: 2026-06-15
+date: 2026-05-17
 image: "/images/blog/monde/bibliotheque.jpg"
 imageAlt: "Une ancienne bibliothèque remplie de livres"
 imageCredit: "Photo : Davide Cantelli cant89 · CC0 · Wikimedia Commons"

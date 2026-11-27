@@ -1,8 +1,7 @@
 ---
 title: "¿Qué significan las banderas? Colores y símbolos explicados"
 description: "Descubre el significado de las banderas del mundo: por qué Japón usa un círculo rojo, qué simboliza la medialuna islámica y más historias sorprendentes."
-date: 2025-11-05
-lastModified: 2026-06-15
+date: 2026-03-01
 image: "/images/blog/monde/mur-drapeaux.jpg"
 imageAlt: "Una marina del siglo XVII: barcos con sus pabellones en un puerto mediterráneo"
 imageCredit: "Foto: Willem van de Velde the Younger · dominio público · Wikimedia Commons"

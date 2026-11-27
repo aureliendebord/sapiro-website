@@ -1,8 +1,7 @@
 ---
 title: "Monuments of France Worth Knowing (Beyond Paris)"
 description: "Mont-Saint-Michel, the Loire châteaux, the Pont du Gard, the Millau Viaduct: a tour of France's essential monuments, region by region, far from the capital."
-date: 2026-02-11
-lastModified: 2026-06-15
+date: 2026-06-15
 image: "/images/blog/monuments/mont-saint-michel.jpg"
 imageAlt: "Mont-Saint-Michel"
 imageCredit: "Photo: Lynx1211 · CC BY-SA 4.0 · Wikimedia Commons"

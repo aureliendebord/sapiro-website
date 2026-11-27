@@ -1,8 +1,7 @@
 ---
 title: "12 erreurs de géographie que tout le monde fait"
 description: "Sydney capitale de l'Australie ? Groenland plus grand que l'Afrique ? Les 12 erreurs de géographie courantes que tout le monde fait. Combien en faites-vous ?"
-date: 2025-11-15
-lastModified: 2026-06-15
+date: 2026-03-01
 image: "/images/blog/monde/carte-monde-ancienne.jpg"
 imageAlt: "Une vieille carte du monde"
 imageCredit: "Photo : Reginald Lane Poole · domaine public · Wikimedia Commons"

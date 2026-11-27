@@ -1,7 +1,7 @@
 ---
 title: "Las 15 esculturas más célebres del mundo (y dónde verlas)"
 description: "El David, El Pensador, la Venus de Milo: las 15 esculturas más célebres del mundo, lo que las hace imprescindibles y dónde verlas hoy."
-date: 2026-01-26
+date: 2026-05-17
 image: "/images/blog/art/david-michel-ange.jpg"
 imageAlt: "El David de Miguel Ángel"
 imageCredit: "Foto: Commonists · CC BY-SA 4.0 · Wikimedia Commons"

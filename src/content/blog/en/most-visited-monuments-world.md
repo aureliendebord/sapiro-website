@@ -1,8 +1,7 @@
 ---
 title: "The Most Visited Monuments in the World: The Ranking"
 description: "Forbidden City, Great Wall, Eiffel Tower… Which monuments draw the most visitors each year? The ranking, the numbers, and why the counts rarely match."
-date: 2026-02-06
-lastModified: 2026-06-15
+date: 2026-06-15
 image: "/images/blog/monuments/cite-interdite.jpg"
 imageAlt: "The Forbidden City in Beijing"
 imageCredit: "Photo: Kallgan · CC BY-SA 3.0 · Wikimedia Commons"

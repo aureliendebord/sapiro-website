@@ -1,8 +1,7 @@
 ---
 title: "Los 30 monumentos más famosos del mundo (2026)"
 description: "Torre Eiffel, Taj Mahal, Machu Picchu, pirámides de Guiza: 30 monumentos famosos del mundo agrupados por continente, con lo esencial de cada uno."
-date: 2026-02-04
-lastModified: 2026-06-15
+date: 2026-06-15
 image: "/images/blog/monuments/tour-eiffel.jpg"
 imageAlt: "La Torre Eiffel en París"
 imageCredit: "Foto: Benh Lieu Song · dominio público · Wikimedia Commons"

@@ -2,7 +2,6 @@
 title: "10 animales extinguidos por el hombre (del dodo al rinoceronte)"
 description: "Dodo, vaca marina de Steller, alca gigante, paloma migratoria, tilacino: 10 animales extinguidos en la época moderna, con su fecha y causa de extinción."
 date: 2026-07-21
-lastModified: 2026-07-21
 image: "/images/blog/nature/rhinoceros.jpg"
 imageAlt: "Cráneo de rinoceronte con sus dos cuernos, expuesto en un museo"
 imageCredit: "Foto: Jebulon · CC0 · Wikimedia Commons"

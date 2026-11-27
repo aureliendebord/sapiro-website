@@ -1,8 +1,7 @@
 ---
 title: "Quiz drapeaux du monde gratuit en ligne"
 description: "Tester votre connaissance des drapeaux du monde avec des quiz gratuits en ligne, par continent et par niveau. Apprentissage progressif."
-date: 2026-02-21
-lastModified: 2026-06-15
+date: 2026-05-17
 image: "/images/blog/famille/carte-monde-drapeaux.jpg"
 imageAlt: "Une carte du monde avec les pays et les drapeaux"
 imageCredit: "Photo : Transparent 6lue · domaine public · Wikimedia Commons"

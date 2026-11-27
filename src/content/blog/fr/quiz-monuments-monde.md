@@ -1,8 +1,7 @@
 ---
 title: "Quiz monuments du monde : 10 questions du facile au difficile"
 description: "Un quiz de 10 questions sur les monuments du monde, du facile au corsé, avec réponses commentées. De quoi tester ta mémoire avant de jouer sur SAPIRO."
-date: 2026-02-20
-lastModified: 2026-06-15
+date: 2026-06-15
 image: "/images/blog/monuments/taj-mahal.jpg"
 imageAlt: "Le Taj Mahal à Agra, en Inde"
 imageCredit: "Photo : Yann · CC BY-SA 4.0 · Wikimedia Commons"

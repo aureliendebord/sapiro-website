@@ -1,8 +1,7 @@
 ---
 title: "How to Prepare for University Admission Tests"
 description: "Prepare general knowledge for university admission tests (UCAT, BMAT, SAT, IB, Oxbridge): program, readings, method and quiz practice."
-date: 2026-02-08
-lastModified: 2026-06-15
+date: 2026-05-17
 image: "/images/blog/monde/bibliotheque.jpg"
 imageAlt: "An old library full of books"
 imageCredit: "Photo: Davide Cantelli cant89 · CC0 · Wikimedia Commons"

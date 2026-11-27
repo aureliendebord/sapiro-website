@@ -2,7 +2,6 @@
 title: "Flag Quiz: Which Country Owns Each of These 20 Flags?"
 description: "Twenty flags described in words, twenty countries to name, from the obvious to the ones that catch everybody out. With answers and your score at the end."
 date: 2026-09-09
-lastModified: 2026-09-09
 image: "/images/blog/famille/carte-monde-drapeaux.jpg"
 imageAlt: "A world map with countries and flags"
 imageCredit: "Photo: Transparent 6lue · public domain · Wikimedia Commons"

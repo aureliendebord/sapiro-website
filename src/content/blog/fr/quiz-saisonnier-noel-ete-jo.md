@@ -1,8 +1,7 @@
 ---
 title: "Quiz saisonniers : Noël, été, JO, élections"
 description: "Quiz à thème saisonnier : Noël, été, Jeux Olympiques, élections. Idées de questions et méthode pour animer une soirée."
-date: 2026-02-24
-lastModified: 2026-06-15
+date: 2026-05-17
 image: "/images/blog/apprentissage/decorations-noel.jpg"
 imageAlt: "Des décorations de Noël illuminées"
 imageCredit: "Photo : Rhododendrites · CC BY-SA 4.0 · Wikimedia Commons"

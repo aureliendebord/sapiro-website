@@ -1,8 +1,7 @@
 ---
 title: "Identifier les animaux avec ses enfants : guide pratique"
 description: "Comment apprendre à votre enfant à identifier les animaux ? Méthodes, sorties et ressources pour développer l'œil naturaliste."
-date: 2026-02-17
-lastModified: 2026-06-15
+date: 2026-05-17
 image: "/images/blog/famille/enfant-jumelles.jpg"
 imageAlt: "Un enfant observe la nature avec des jumelles"
 imageCredit: "Photo : Shixart1985 · CC BY 2.0 · Wikimedia Commons"

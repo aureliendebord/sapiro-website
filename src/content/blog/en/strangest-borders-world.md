@@ -1,8 +1,7 @@
 ---
 title: "The 10 Strangest Borders in the World"
 description: "Baarle-Nassau, Cooch Behar enclave, quadripoint: the 10 strangest borders in the world, their history and originality."
-date: 2026-03-08
-lastModified: 2026-06-15
+date: 2026-05-17
 image: "/images/blog/apprentissage/carte-monde.jpg"
 imageAlt: "A political world map"
 imageCredit: "Photo: JanitoalevicOriginal map by: CIA World Factbook · public domain · Wikimedia Commons"

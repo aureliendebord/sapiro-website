@@ -1,7 +1,7 @@
 ---
 title: "Top 8 des apps pour apprendre la géographie"
 description: "Comparatif des 8 meilleures applications pour apprendre la géographie en 2025 : quiz, cartes interactives et jeux éducatifs. Laquelle vous correspond ?"
-date: 2025-11-10
+date: 2026-03-01
 lastModified: 2026-09-30
 image: "/images/blog/apps/carte-monde-app.jpg"
 imageAlt: "Une carte ancienne de la Hongrie du XVIe siècle"

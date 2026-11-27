@@ -1,8 +1,7 @@
 ---
 title: "Die 10 besten Quiz-Apps für Allgemeinwissen 2026"
 description: "Die besten Quiz-Apps im Vergleich: Trivia Crack, Kahoot, SAPIRO, GeoGuessr... Welche passt zu dir? Unsere ausführliche Analyse."
-date: 2026-03-20
-lastModified: 2026-09-30
+date: 2026-10-19
 image: "/images/blog/apps/smartphone-app.jpg"
 imageAlt: "Ein Smartphone mit einem Beitrag aus sozialen Netzwerken"
 imageCredit: "Photo: Mictlancihuatl · CC BY-SA 4.0 · Wikimedia Commons"
