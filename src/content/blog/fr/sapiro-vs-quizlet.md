@@ -39,13 +39,13 @@ SAPIRO et Quizlet sont deux apps d'apprentissage, mais elles ne font pas la mêm
 
 **Quizlet.** Publicités dans la version gratuite, supprimables avec Plus.
 
-**SAPIRO.** Aucune publicité, même dans la version gratuite. Voir nos articles sur les [meilleures apps éducatives sans publicité](/blog/meilleures-apps-educatives-sans-publicite/).
+**SAPIRO.** Aucune publicité, même dans la version gratuite. Voir nos articles sur les [meilleures apps éducatives sans publicité](/blog/meilleures-apps-quiz-culture-generale/).
 
 ## Les données
 
 **Quizlet.** Collecte les données utilisateur pour personnalisation et publicité. Politique standard d'app numérique.
 
-**SAPIRO.** Données jamais revendues. Ni création de compte obligatoire, ni cookie publicitaire. Voir notre article sur les [apps quiz sans collecte de données](/blog/apps-quiz-sans-collecte-donnees/).
+**SAPIRO.** Données jamais revendues. Ni création de compte obligatoire, ni cookie publicitaire. Voir notre article sur les [apps quiz sans collecte de données](/blog/meilleures-apps-quiz-culture-generale/).
 
 ## Le public cible
 

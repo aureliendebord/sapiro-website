@@ -32,7 +32,7 @@ Full disclosure: SAPIRO is ours, which is why it is first. Second disclosure: it
 
 SAPIRO is a general knowledge quiz. Geography covers all 197 countries with flags, capitals and maps, alongside history, art and nature. What sets it apart from a plain quiz is what happens after you answer: every question comes with an explanation, so you remember why the answer is N'Djamena and not just that it was. There are no ads, including in the free version.
 
-You can [play free in your browser](/en/play/) with nothing to install, or get the app on iOS and Android. The Daily Challenge gives everyone the same set of questions, for free, and you can share your score to challenge a friend. For the head-to-head, see [SAPIRO vs GeoGuessr](/en/blog/sapiro-vs-geoguessr/).
+You can [play free in your browser](/en/play/) with nothing to install, or get the app on iOS and Android. The Daily Challenge gives everyone the same set of questions, for free, and you can share your score to challenge a friend. For the head-to-head, see [SAPIRO vs GeoGuessr](/en/blog/geoguessr-alternatives/).
 
 ## 2. OpenGuessr: the closest to the original
 
@@ -50,7 +50,7 @@ Video feels more alive than a still image, and it works well with a few people a
 
 Seterra has been around since 1997 and has stuck to one idea: click on a map to locate a country, a capital, a river or a mountain. The database is huge, available in more than 40 languages, with quizzes for every region of the world.
 
-The free web version is the best way in, and many teachers use it to build their own quizzes. The interface shows its age, and the free mobile version carries ads. For pure map location, nothing beats it. We compared the two in detail in [SAPIRO vs Seterra](/en/blog/sapiro-vs-seterra/).
+The free web version is the best way in, and many teachers use it to build their own quizzes. The interface shows its age, and the free mobile version carries ads. For pure map location, nothing beats it. We compared the two in detail in [SAPIRO vs Seterra](/en/blog/seterra-alternatives/).
 
 ## 5. Worldle: one country a day
 

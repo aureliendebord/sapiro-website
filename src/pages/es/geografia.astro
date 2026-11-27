@@ -16,12 +16,11 @@ const articles = allPosts
   .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
 
 const featuredSlugs = [
-  'quiz-capitales-mundo', 'quiz-capitales-por-continente', 'banderas-dificiles',
-  'significado-banderas', 'errores-geografia', 'quiz-banderas-mundo-gratis-online',
+  'quiz-capitales-mundo', 'banderas-dificiles',
+  'significado-banderas', 'errores-geografia',
   'paises-menos-visitados-mundo', 'paises-mas-pequenos-mundo', 'paises-desaparecidos',
   'fronteras-extranas-mundo', 'origen-nombres-paises', 'test-pais-personalidad',
-  'monumentos-mas-visitados-mundo', 'geografia-ninos', 'geografia-familia',
-  'ensenar-paises-mundo-ninos', 'mejores-apps-geografia',
+  'monumentos-mas-visitados-mundo', 'geografia-ninos', 'geografia-familia', 'mejores-apps-geografia',
 ];
 const moreArticles = articles.filter(p => !featuredSlugs.includes(p.data.urlSlug));
 
@@ -82,11 +81,10 @@ const faqSchema = {
         <h2>Lo esencial</h2>
         <ul class="pillar-grid">
           <li><a href="/es/blog/quiz-capitales-mundo/">Quiz capitales del mundo</a></li>
-          <li><a href="/es/blog/quiz-capitales-por-continente/">Quiz capitales por continente</a></li>
           <li><a href="/es/blog/banderas-dificiles/">Las 15 banderas más difíciles</a></li>
           <li><a href="/es/blog/significado-banderas/">Significado de las banderas</a></li>
           <li><a href="/es/blog/errores-geografia/">Errores comunes de geografía</a></li>
-          <li><a href="/es/blog/quiz-banderas-mundo-gratis-online/">Quiz banderas gratis online</a></li>
+          <li><a href="/es/blog/quiz-banderas-paises/">Quiz banderas gratis online</a></li>
         </ul>
       </section>
 
@@ -108,7 +106,6 @@ const faqSchema = {
         <ul class="pillar-grid">
           <li><a href="/es/blog/geografia-ninos/">Geografía para niños</a></li>
           <li><a href="/es/blog/geografia-familia/">Geografía en familia</a></li>
-          <li><a href="/es/blog/ensenar-paises-mundo-ninos/">Enseñar los países a los niños</a></li>
           <li><a href="/es/blog/mejores-apps-geografia/">Las mejores apps de geografía</a></li>
         </ul>
       </section>

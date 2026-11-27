@@ -125,7 +125,7 @@ Tres banderas con franjas rojas y blancas y un cantón en la esquina superior. L
 | Eslovenia / Eslovaquia / Rusia | Tricolor blanco-azul-rojo | Escudos, ausentes en la rusa |
 | Estados Unidos / Liberia / Malasia | Franjas rojas y blancas | 1 estrella (Liberia), luna creciente (Malasia) |
 
-Estos parecidos suelen deberse a una historia común, algo que detalla el [significado de las banderas](/es/blog/significado-banderas/), como también lo recuerdan las [banderas de países desaparecidos](/es/blog/banderas-paises-desaparecidos/). Para practicar y distinguirlas, quedan las [banderas más difíciles](/es/blog/banderas-dificiles/) de reconocer y el [quiz de banderas del mundo](/es/blog/quiz-banderas-mundo-gratis-online/).
+Estos parecidos suelen deberse a una historia común, algo que detalla el [significado de las banderas](/es/blog/significado-banderas/), como también lo recuerdan las [banderas de países desaparecidos](/es/blog/banderas-paises-desaparecidos/). Para practicar y distinguirlas, quedan las [banderas más difíciles](/es/blog/banderas-dificiles/) de reconocer y el [quiz de banderas del mundo](/es/blog/quiz-banderas-paises/).
 
 ## Preguntas frecuentes
 

@@ -17,10 +17,8 @@ const articles = allPosts
 
 // Slugs déjà mis en avant dans les listes curées ci-dessous (pour ne pas les répéter).
 const featuredSlugs = [
-  'quiz-animaux-especes-monde', 'differences-animaux-ressemblants',
-  'animaux-plus-dangereux-monde', 'animaux-en-voie-disparition', 'animaux-etranges-meconnus',
-  'animaux-afrique', 'reconnaitre-races-chiens', 'quiz-nature-enfants',
-  'identifier-animaux-enfants',
+  'differences-animaux-ressemblants', 'animaux-en-voie-disparition', 'animaux-etranges-meconnus',
+  'animaux-afrique', 'quiz-nature-enfants',
 ];
 const moreArticles = articles.filter(p => !featuredSlugs.includes(p.data.urlSlug));
 
@@ -95,9 +93,7 @@ const faqSchema = {
       <section class="pillar-sub">
         <h2>Les essentiels</h2>
         <ul class="pillar-grid">
-          <li><a href="/blog/quiz-animaux-especes-monde/">50 espèces animales à reconnaître</a></li>
           <li><a href="/blog/differences-animaux-ressemblants/">20 paires d'animaux qui se ressemblent</a></li>
-          <li><a href="/blog/animaux-plus-dangereux-monde/">Les 15 animaux les plus dangereux</a></li>
           <li><a href="/blog/animaux-en-voie-disparition/">Animaux en voie de disparition</a></li>
           <li><a href="/blog/animaux-etranges-meconnus/">20 animaux étranges et méconnus</a></li>
         </ul>
@@ -107,7 +103,6 @@ const faqSchema = {
         <h2>Par région et famille</h2>
         <ul class="pillar-grid">
           <li><a href="/blog/animaux-afrique/">40 animaux d'Afrique</a></li>
-          <li><a href="/blog/reconnaitre-races-chiens/">Reconnaître 30 races de chiens</a></li>
         </ul>
       </section>
 
@@ -115,7 +110,6 @@ const faqSchema = {
         <h2>Apprendre en famille</h2>
         <ul class="pillar-grid">
           <li><a href="/blog/quiz-nature-enfants/">Quiz nature pour enfants</a></li>
-          <li><a href="/blog/identifier-animaux-enfants/">Identifier les animaux avec ses enfants</a></li>
         </ul>
       </section>
 

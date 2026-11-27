@@ -17,7 +17,7 @@ Encontrar un regalo que guste a un niño curioso y que dure es raro. Aquí van 2
 
 ## Para 6-7 años
 
-**1. Globo terráqueo luminoso para niños.** 30-50 euros. La geografía se vuelve tangible. Ver nuestro artículo sobre [cómo enseñar países a los niños](/es/blog/ensenar-paises-mundo-ninos/).
+**1. Globo terráqueo luminoso para niños.** 30-50 euros. La geografía se vuelve tangible. Ver nuestro artículo sobre [cómo enseñar países a los niños](/es/blog/geografia-ninos/).
 
 **2. Atlas ilustrado.** Edición juvenil. SM, Susaeta, Larousse Infantil. 15-25 euros.
 

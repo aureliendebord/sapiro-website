@@ -29,7 +29,7 @@ quiz:
 
 Cien preguntas, cien respuestas a la vista, cinco campos. La gran lista para repasar a fondo, preparar un quiz gigante o ir picoteando ronda tras ronda.
 
-Las preguntas están ordenadas por tema (geografía, historia, arte y cultura, ciencias, naturaleza), con un nivel indicado en cada una. Cuenta un punto por respuesta correcta; el baremo está al final. Para un formato más corto, mira nuestras [10](/es/blog/10-preguntas-cultura-general-respuestas/), [20](/es/blog/20-preguntas-cultura-general-respuestas/) o [50 preguntas](/es/blog/50-preguntas-cultura-general-respuestas/).
+Las preguntas están ordenadas por tema (geografía, historia, arte y cultura, ciencias, naturaleza), con un nivel indicado en cada una. Cuenta un punto por respuesta correcta; el baremo está al final. Para un formato más corto, mira nuestras [10](/es/blog/50-preguntas-cultura-general-respuestas/), [20](/es/blog/50-preguntas-cultura-general-respuestas/) o [50 preguntas](/es/blog/50-preguntas-cultura-general-respuestas/).
 
 ## Geografía
 
@@ -93,7 +93,7 @@ Las preguntas están ordenadas por tema (geografía, historia, arte y cultura, c
 **20. ¿Qué país sudamericano tiene el litoral pacífico más largo?** *(difícil)*
 **Chile.** Este país estrecho se extiende más de 4000 km de norte a sur.
 
-¿Quieres seguir con geografía? Nuestro [quiz de capitales por continente](/es/blog/quiz-capitales-por-continente/).
+¿Quieres seguir con geografía? Nuestro [quiz de capitales por continente](/es/blog/quiz-capitales-mundo/).
 
 ## Historia
 

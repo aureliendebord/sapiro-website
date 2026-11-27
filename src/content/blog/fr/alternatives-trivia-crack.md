@@ -37,7 +37,7 @@ L'app existe sur iOS et Android, mais on peut aussi [jouer directement dans le n
 
 Côté affrontement, l'application a un mode duel depuis la version 2.1 : on rejoue, question par question, la vraie partie d'un autre joueur, et on gagne des trophées. Ce n'est pas du temps réel, l'adversaire a joué avant vous. Le Défi du jour, lui, est identique pour tous les joueurs et gratuit : une fois la partie finie, on partage son score par un lien pour défier un ami. C'est plus calme qu'une roue et six adversaires en parallèle, il faut le savoir avant de venir.
 
-Pour le détail point par point, voir notre comparatif [SAPIRO vs Trivia Crack](/blog/sapiro-vs-trivia-crack/).
+Pour le détail point par point, voir notre comparatif [SAPIRO vs Trivia Crack](/blog/alternatives-trivia-crack/).
 
 ## 2. QuizDuel : pour retrouver les duels
 
@@ -61,7 +61,7 @@ Le problème est sérieux pour un usage familial : plusieurs utilisateurs ont si
 
 Kahoot! est la référence du quiz en classe. Quelqu'un crée un quiz, le projette, et tout le monde répond en temps réel depuis son téléphone. L'ambiance est festive et la compétition pousse à participer.
 
-Ce n'est pas un remplaçant de Trivia Crack pour jouer seul dans le métro. Sans hôte pour lancer la partie, l'app ne sert quasiment à rien. Pour une soirée, un cours ou une formation, en revanche, c'est un bon choix. On détaille les différences dans [SAPIRO vs Kahoot](/blog/sapiro-vs-kahoot/).
+Ce n'est pas un remplaçant de Trivia Crack pour jouer seul dans le métro. Sans hôte pour lancer la partie, l'app ne sert quasiment à rien. Pour une soirée, un cours ou une formation, en revanche, c'est un bon choix. On détaille les différences dans [SAPIRO vs Kahoot](/blog/meilleures-apps-quiz-culture-generale/).
 
 ## 6. Quizizz : la même idée, chacun à son rythme
 
@@ -71,7 +71,7 @@ La limite est identique. C'est un outil scolaire, qui dépend de contenus créé
 
 ## Et QuizUp ou HQ Trivia ?
 
-Ces deux noms reviennent souvent quand on cherche un quiz compétitif. QuizUp proposait des duels en temps réel par catégorie, HQ Trivia un quiz en direct à heure fixe. L'application QuizUp d'origine a fermé, et HQ Trivia s'est arrêté avant des tentatives de relance instables. On revient sur ces deux formats dans [SAPIRO vs QuizUp et HQ Trivia](/blog/sapiro-vs-quizup-hq-trivia/), mais on ne vous conseille pas de bâtir vos habitudes dessus.
+Ces deux noms reviennent souvent quand on cherche un quiz compétitif. QuizUp proposait des duels en temps réel par catégorie, HQ Trivia un quiz en direct à heure fixe. L'application QuizUp d'origine a fermé, et HQ Trivia s'est arrêté avant des tentatives de relance instables. On revient sur ces deux formats dans [SAPIRO vs QuizUp et HQ Trivia](/blog/alternatives-trivia-crack/), mais on ne vous conseille pas de bâtir vos habitudes dessus.
 
 ## Tableau comparatif
 
@@ -90,7 +90,7 @@ Ces deux noms reviennent souvent quand on cherche un quiz compétitif. QuizUp pr
 
 **Vous voulez battre quelqu'un.** QuizDuel pour le duel en direct, en acceptant la publicité. Sans publicité, le mode duel de l'application SAPIRO vous oppose à la partie enregistrée d'un autre joueur. Et pour défier un ami à distance, le Défi du jour fait l'affaire : tout le monde a les mêmes questions, vous envoyez votre score et l'autre essaie de faire mieux.
 
-**Vous cherchez un quiz pour vos enfants.** Évitez Érudit tant que le problème des publicités n'est pas réglé, et préférez une app sans pub. Notre sélection d'[apps éducatives sans publicité](/blog/meilleures-apps-educatives-sans-publicite/) donne d'autres pistes par matière.
+**Vous cherchez un quiz pour vos enfants.** Évitez Érudit tant que le problème des publicités n'est pas réglé, et préférez une app sans pub. Notre sélection d'[apps éducatives sans publicité](/blog/meilleures-apps-quiz-culture-generale/) donne d'autres pistes par matière.
 
 **Vous aimez voir votre niveau grimper.** Quiz Sans Fin et son classement Elo.
 

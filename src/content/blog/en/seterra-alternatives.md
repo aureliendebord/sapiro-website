@@ -29,7 +29,7 @@ Fair warning: this is SAPIRO's website and we make the app. That is why it comes
 
 ## Why people look beyond Seterra
 
-Seterra does one thing very well. It shows you a map and you click the right spot: countries, capitals and flags, but also regions, federal states, rivers, mountains, deserts and lakes. If your goal is to master the world map in detail, it is the reference, and our [SAPIRO vs Seterra comparison](/en/blog/sapiro-vs-seterra/) says so plainly.
+Seterra does one thing very well. It shows you a map and you click the right spot: countries, capitals and flags, but also regions, federal states, rivers, mountains, deserts and lakes. If your goal is to master the world map in detail, it is the reference, and our [SAPIRO vs Seterra comparison](/en/blog/seterra-alternatives/) says so plainly.
 
 The reasons to look elsewhere tend to be the same. It is geography only. The format rarely moves away from map-clicking against a score and a timer. And the interface looks dated next to newer apps.
 
@@ -57,7 +57,7 @@ The tradeoffs: the free version is heavy on ads, the interface feels generic and
 
 GeoGuessr drops you into a random Google Street View location and asks you to figure out where on Earth you are. Road signs, vegetation, architecture, the position of the sun: everything is a clue. Multiplayer modes and themed maps keep it fresh, and you build observation skills no flashcard app can teach.
 
-The learning is indirect, though. There is no list of capitals to drill, Street View coverage is uneven in parts of Africa and Central Asia, the free tier limits how much you can play, and you need a constant connection. More in our [SAPIRO vs GeoGuessr comparison](/en/blog/sapiro-vs-geoguessr/).
+The learning is indirect, though. There is no list of capitals to drill, Street View coverage is uneven in parts of Africa and Central Asia, the free tier limits how much you can play, and you need a constant connection. More in our [SAPIRO vs GeoGuessr comparison](/en/blog/geoguessr-alternatives/).
 
 ## 5. Stack the Countries: for ages 6 to 12
 

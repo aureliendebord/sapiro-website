@@ -125,7 +125,7 @@ Trois drapeaux à rayures rouges et blanches avec un canton en haut à gauche. L
 | Slovénie / Slovaquie / Russie | Tricolore blanc-bleu-rouge | Armoiries, absentes côté russe |
 | États-Unis / Liberia / Malaisie | Rayures rouges et blanches | 1 étoile (Liberia), croissant (Malaisie) |
 
-Ces ressemblances tiennent souvent à une histoire commune, un point que détaille la [signification des drapeaux](/blog/signification-drapeaux/), tout comme le cas des [drapeaux de pays disparus](/blog/drapeaux-pays-disparus/). Pour s'entraîner à les distinguer, restent les [drapeaux les plus difficiles](/blog/drapeaux-difficiles/) à reconnaître et le [quiz drapeaux du monde](/blog/quiz-drapeaux-monde-gratuit-en-ligne/).
+Ces ressemblances tiennent souvent à une histoire commune, un point que détaille la [signification des drapeaux](/blog/signification-drapeaux/), tout comme le cas des [drapeaux de pays disparus](/blog/drapeaux-pays-disparus/). Pour s'entraîner à les distinguer, restent les [drapeaux les plus difficiles](/blog/drapeaux-difficiles/) à reconnaître et le [quiz drapeaux du monde](/blog/quiz-drapeaux-pays/).
 
 ## Questions fréquentes
 

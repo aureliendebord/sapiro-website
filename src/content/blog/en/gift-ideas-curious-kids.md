@@ -17,7 +17,7 @@ Finding a gift that pleases a curious kid and lasts is rare. Here are 20 tested 
 
 ## For 6-7 year olds
 
-**1. Light-up world globe for kids.** $30-50. Geography becomes tangible. See our article on [teaching world countries to kids](/en/blog/teaching-world-countries-kids/).
+**1. Light-up world globe for kids.** $30-50. Geography becomes tangible. See our article on [teaching world countries to kids](/en/blog/geography-for-kids/).
 
 **2. Illustrated atlas.** Kid edition. DK, National Geographic Kids, Usborne. $15-25.
 

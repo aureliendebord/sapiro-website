@@ -16,7 +16,7 @@ readingTime: 10
 
 Fifty questions, fifty answers, all visible on the page. Enough to test your general knowledge for real, revise, or fuel a quiz night without preparing a thing.
 
-The questions are sorted into five fields (geography, history, art and culture, science, nature), with a level marked on each. Count one point per correct answer; the scale is at the bottom of the page. If ten questions are enough to warm up, start with our [10](/en/blog/10-general-knowledge-questions-answers/) or [20 general knowledge questions](/en/blog/20-general-knowledge-questions-answers/). And for the full set, see our [100 questions](/en/blog/100-general-knowledge-questions-answers/). Looking for a bigger challenge? Try our [hard general knowledge questions](/en/blog/hard-general-knowledge-questions/).
+The questions are sorted into five fields (geography, history, art and culture, science, nature), with a level marked on each. Count one point per correct answer; the scale is at the bottom of the page. If ten questions are enough to warm up, start with our [10](/en/blog/50-general-knowledge-questions-answers/) or [20 general knowledge questions](/en/blog/50-general-knowledge-questions-answers/). And for the full set, see our [100 questions](/en/blog/100-general-knowledge-questions-answers/). Looking for a bigger challenge? Try our [hard general knowledge questions](/en/blog/hard-general-knowledge-questions/).
 
 ## Geography
 
@@ -50,7 +50,7 @@ The questions are sorted into five fields (geography, history, art and culture, 
 **10. Which river runs through Paris?** *(easy)*
 **The Seine.** Around 777 km long before it flows into the English Channel at Le Havre.
 
-Want to go further in geography? Try our [capitals quiz by continent](/en/blog/capitals-quiz-by-continent/).
+Want to go further in geography? Try our [capitals quiz by continent](/en/blog/world-capitals-quiz/).
 
 ## History
 

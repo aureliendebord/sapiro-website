@@ -14,7 +14,7 @@ author: "SAPIRO"
 readingTime: 5
 ---
 
-Quizzes multinivel para evaluar tu cultura general y progresar. Aquí van ejemplos de preguntas por nivel, de más fácil a experto. Para series con respuestas explicadas, mira también nuestras [10 preguntas](/es/blog/10-preguntas-cultura-general-respuestas/) y [50 preguntas de cultura general](/es/blog/50-preguntas-cultura-general-respuestas/).
+Quizzes multinivel para evaluar tu cultura general y progresar. Aquí van ejemplos de preguntas por nivel, de más fácil a experto. Para series con respuestas explicadas, mira también nuestras [10 preguntas](/es/blog/50-preguntas-cultura-general-respuestas/) y [50 preguntas de cultura general](/es/blog/50-preguntas-cultura-general-respuestas/).
 
 ## Nivel fácil
 
@@ -124,7 +124,7 @@ Para los verdaderamente apasionados.
 
 Tres principios.
 
-**Identificar las lagunas.** Si fallas a menudo en ciencias, leer un libro de divulgación. Si fallas las capitales, ver nuestro [quiz capitales por continente](/es/blog/quiz-capitales-por-continente/).
+**Identificar las lagunas.** Si fallas a menudo en ciencias, leer un libro de divulgación. Si fallas las capitales, ver nuestro [quiz capitales por continente](/es/blog/quiz-capitales-mundo/).
 
 **Entrenarse regularmente.** Quince minutos al día ganan a una hora el fin de semana.
 

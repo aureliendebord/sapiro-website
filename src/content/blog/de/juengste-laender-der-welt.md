@@ -103,7 +103,7 @@ Das Land wurde beim Zerfall Jugoslawiens nach einem Referendum 1992 unabhängig.
 | 9 | Slowakei | 1993 | Teilung |
 | 10 | Bosnien und Herzegowina | 1992 | Zerfall |
 
-Mehrere dieser Staaten entstanden aus dem Verschwinden anderer, die du unter den [Ländern, die es nicht mehr gibt](/de/blog/verschwundene-laender/), findest. Zwei verwandte Rankings führen das Thema weiter: das [älteste Land der Welt](/en/blog/oldest-countries-world/), das genaue Gegenstück zu diesem Ranking, und die [Länder, die ihren Namen geändert haben](/en/blog/countries-that-changed-names/). Wenn du dich über Grenzen hinaus testen willst: Unsere [20 Allgemeinwissen-Fragen](/en/blog/20-general-knowledge-questions-answers/) fragen unter anderem nach dem Jahr, in dem die Vereinigten Staaten ihre Unabhängigkeit erklärten.
+Mehrere dieser Staaten entstanden aus dem Verschwinden anderer, die du unter den [Ländern, die es nicht mehr gibt](/de/blog/verschwundene-laender/), findest. Zwei verwandte Rankings führen das Thema weiter: das [älteste Land der Welt](/en/blog/oldest-countries-world/), das genaue Gegenstück zu diesem Ranking, und die [Länder, die ihren Namen geändert haben](/en/blog/countries-that-changed-names/). Wenn du dich über Grenzen hinaus testen willst: Unsere [20 Allgemeinwissen-Fragen](/en/blog/50-general-knowledge-questions-answers/) fragen unter anderem nach dem Jahr, in dem die Vereinigten Staaten ihre Unabhängigkeit erklärten.
 
 ## Häufige Fragen
 

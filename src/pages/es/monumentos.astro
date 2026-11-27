@@ -16,11 +16,9 @@ const articles = allPosts
   .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
 
 const featuredSlugs = [
-  'maravillas-del-mundo', 'monumentos-famosos-mundo', 'monumentos-mas-visitados-mundo',
-  'monumentos-francia', 'monumentos-paris', 'monumentos-italia', 'monumentos-egipto',
-  'monumentos-espana', 'monumentos-reino-unido', 'sitios-unesco-patrimonio-mundial',
+  'monumentos-famosos-mundo', 'monumentos-mas-visitados-mundo',
+  'monumentos-francia', 'monumentos-paris', 'monumentos-reino-unido',
   'monumentos-antiguedad', 'castillos-palacios-famosos-mundo', 'quiz-monumentos-mundo',
-  'monumentos-cultura-general',
 ];
 const moreArticles = articles.filter(p => !featuredSlugs.includes(p.data.urlSlug));
 
@@ -95,7 +93,6 @@ const breadcrumbSchema = {
       <section class="pillar-sub">
         <h2>Los imprescindibles</h2>
         <ul class="pillar-grid">
-          <li><a href="/es/blog/maravillas-del-mundo/">Las 7 maravillas del mundo (antiguas y modernas)</a></li>
           <li><a href="/es/blog/monumentos-famosos-mundo/">30 monumentos famosos del mundo para reconocer</a></li>
           <li><a href="/es/blog/monumentos-mas-visitados-mundo/">Los monumentos más visitados del mundo</a></li>
         </ul>
@@ -106,9 +103,6 @@ const breadcrumbSchema = {
         <ul class="pillar-grid">
           <li><a href="/es/blog/monumentos-francia/">Los monumentos más bellos de Francia</a></li>
           <li><a href="/es/blog/monumentos-paris/">Los monumentos de París que hay que conocer</a></li>
-          <li><a href="/es/blog/monumentos-italia/">Los monumentos de Italia</a></li>
-          <li><a href="/es/blog/monumentos-egipto/">Los monumentos de Egipto</a></li>
-          <li><a href="/es/blog/monumentos-espana/">Los monumentos de España</a></li>
           <li><a href="/es/blog/monumentos-reino-unido/">Los monumentos del Reino Unido</a></li>
         </ul>
       </section>
@@ -116,7 +110,6 @@ const breadcrumbSchema = {
       <section class="pillar-sub">
         <h2>Patrimonio y grandes épocas</h2>
         <ul class="pillar-grid">
-          <li><a href="/es/blog/sitios-unesco-patrimonio-mundial/">El patrimonio mundial de la UNESCO</a></li>
           <li><a href="/es/blog/monumentos-antiguedad/">Los monumentos de la Antigüedad (Egipto, Grecia, Roma)</a></li>
           <li><a href="/es/blog/castillos-palacios-famosos-mundo/">Castillos y palacios famosos del mundo</a></li>
         </ul>
@@ -126,7 +119,6 @@ const breadcrumbSchema = {
         <h2>Repasar y jugar</h2>
         <ul class="pillar-grid">
           <li><a href="/es/blog/quiz-monumentos-mundo/">Quiz de monumentos del mundo</a></li>
-          <li><a href="/es/blog/monumentos-cultura-general/">Monumentos que hay que conocer para las oposiciones</a></li>
         </ul>
       </section>
 

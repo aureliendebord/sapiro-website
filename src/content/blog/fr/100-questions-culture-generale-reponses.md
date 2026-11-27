@@ -29,7 +29,7 @@ quiz:
 
 Cent questions, cent réponses visibles, cinq thèmes. La grande liste pour réviser à fond, préparer un quiz géant ou piocher dedans manche après manche.
 
-Les questions sont rangées par thème (géographie, histoire, art et culture, sciences, nature), avec un niveau indiqué à chaque fois. Comptez un point par bonne réponse, le barème est en bas. Pour un format plus court, voyez nos [10](/blog/10-questions-culture-generale-reponses/), [20](/blog/20-questions-culture-generale-reponses/) ou [50 questions](/blog/50-questions-culture-generale-reponses/).
+Les questions sont rangées par thème (géographie, histoire, art et culture, sciences, nature), avec un niveau indiqué à chaque fois. Comptez un point par bonne réponse, le barème est en bas. Pour un format plus court, voyez nos [10](/blog/50-questions-culture-generale-reponses/), [20](/blog/50-questions-culture-generale-reponses/) ou [50 questions](/blog/50-questions-culture-generale-reponses/).
 
 ## Géographie
 
@@ -93,7 +93,7 @@ Les questions sont rangées par thème (géographie, histoire, art et culture, s
 **20. Quel pays d'Amérique du Sud possède le plus long littoral pacifique ?** *(difficile)*
 **Le Chili.** Ce pays étroit s'étire sur plus de 4 000 km du nord au sud.
 
-Pour continuer en géo : nos [capitales par continent](/blog/quiz-capitales-par-continent/).
+Pour continuer en géo : nos [capitales par continent](/blog/quiz-capitales-monde/).
 
 ## Histoire
 

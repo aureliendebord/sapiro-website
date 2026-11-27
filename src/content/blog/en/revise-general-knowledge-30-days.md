@@ -18,7 +18,7 @@ Thirty days to revise general knowledge is short but realistic if done well. Her
 
 ## Week 1: history and institutions
 
-**Day 1.** Antiquity, Middle Ages, Renaissance. See our [synthesis of the three major periods](/en/blog/antiquity-middle-ages-renaissance-overview/).
+**Day 1.** Antiquity, Middle Ages, Renaissance. See our [synthesis of the three major periods](/en/blog/world-timeline-history/).
 
 **Day 2.** 17th-18th centuries. Absolute monarchies, Enlightenment, American Revolution, French Revolution.
 

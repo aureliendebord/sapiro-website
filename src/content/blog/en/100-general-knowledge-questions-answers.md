@@ -29,7 +29,7 @@ quiz:
 
 One hundred questions, one hundred visible answers, five fields. The big list to revise thoroughly, prepare a giant quiz, or dip into round after round.
 
-The questions are sorted by theme (geography, history, art and culture, science, nature), with a level marked on each. Count one point per correct answer; the scale is at the bottom. For a shorter format, see our [10](/en/blog/10-general-knowledge-questions-answers/), [20](/en/blog/20-general-knowledge-questions-answers/) or [50 questions](/en/blog/50-general-knowledge-questions-answers/).
+The questions are sorted by theme (geography, history, art and culture, science, nature), with a level marked on each. Count one point per correct answer; the scale is at the bottom. For a shorter format, see our [10](/en/blog/50-general-knowledge-questions-answers/), [20](/en/blog/50-general-knowledge-questions-answers/) or [50 questions](/en/blog/50-general-knowledge-questions-answers/).
 
 ## Geography
 
@@ -93,7 +93,7 @@ The questions are sorted by theme (geography, history, art and culture, science,
 **20. Which South American country has the longest Pacific coastline?** *(hard)*
 **Chile.** This narrow country stretches over 4,000 km from north to south.
 
-To go further in geography: our [capitals quiz by continent](/en/blog/capitals-quiz-by-continent/).
+To go further in geography: our [capitals quiz by continent](/en/blog/world-capitals-quiz/).
 
 ## History
 

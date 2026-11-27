@@ -17,9 +17,8 @@ const articles = allPosts
 
 // Slugs déjà mis en avant dans les listes curées ci-dessous (pour ne pas les répéter).
 const featuredSlugs = [
-  'quiz-animals-world-species', 'animals-that-look-alike', 'most-dangerous-animals-world',
-  'endangered-species-list', 'strange-unknown-animals', 'african-wildlife',
-  'dog-breeds-identify', 'nature-quiz-kids', 'identifying-animals-with-kids',
+  'animals-that-look-alike',
+  'endangered-species-list', 'strange-unknown-animals', 'african-wildlife', 'nature-quiz-kids',
 ];
 const moreArticles = articles.filter(p => !featuredSlugs.includes(p.data.urlSlug));
 
@@ -78,9 +77,7 @@ const faqSchema = {
       <section class="pillar-sub">
         <h2>The essentials</h2>
         <ul class="pillar-grid">
-          <li><a href="/en/blog/quiz-animals-world-species/">50 animal species to recognize</a></li>
           <li><a href="/en/blog/animals-that-look-alike/">20 animal pairs that look alike</a></li>
-          <li><a href="/en/blog/most-dangerous-animals-world/">The 15 most dangerous animals</a></li>
           <li><a href="/en/blog/endangered-species-list/">Endangered species list</a></li>
           <li><a href="/en/blog/strange-unknown-animals/">20 strange and lesser-known animals</a></li>
         </ul>
@@ -90,7 +87,6 @@ const faqSchema = {
         <h2>By region and family</h2>
         <ul class="pillar-grid">
           <li><a href="/en/blog/african-wildlife/">40 emblematic species of Africa</a></li>
-          <li><a href="/en/blog/dog-breeds-identify/">Recognize 30 dog breeds</a></li>
         </ul>
       </section>
 
@@ -98,7 +94,6 @@ const faqSchema = {
         <h2>Family learning</h2>
         <ul class="pillar-grid">
           <li><a href="/en/blog/nature-quiz-kids/">Nature quiz for kids</a></li>
-          <li><a href="/en/blog/identifying-animals-with-kids/">Identifying animals with kids</a></li>
         </ul>
       </section>
 

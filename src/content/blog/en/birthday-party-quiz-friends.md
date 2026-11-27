@@ -55,7 +55,7 @@ For a standard evening with friends.
 
 **Sports.** Notable events, legends by discipline.
 
-**Geography and travel.** Flags, capitals, monuments. See our [capitals quiz by continent](/en/blog/capitals-quiz-by-continent/).
+**Geography and travel.** Flags, capitals, monuments. See our [capitals quiz by continent](/en/blog/world-capitals-quiz/).
 
 **"Who am I?" quiz (historical figures).** See our article on [major historical figures](/en/blog/historical-figures/).
 

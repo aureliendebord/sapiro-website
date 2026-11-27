@@ -17,7 +17,7 @@ Trouver un cadeau qui plaise à un enfant curieux et qui dure, c'est rare. Voici
 
 ## Pour les 6-7 ans
 
-**1. Globe terrestre lumineux pour enfants.** À 30-50 euros. La géographie devient tangible. Voir notre article sur [comment apprendre les pays aux enfants](/blog/apprendre-pays-monde-enfants/).
+**1. Globe terrestre lumineux pour enfants.** À 30-50 euros. La géographie devient tangible. Voir notre article sur [comment apprendre les pays aux enfants](/blog/geographie-enfants/).
 
 **2. Atlas illustré.** Édition jeunesse. Larousse, Gallimard Jeunesse, Usborne. 15-25 euros.
 

@@ -63,7 +63,7 @@ Estructurar cronológicamente. Una línea de tiempo vista y revista cada día an
 
 Vincular cada obra a su contexto histórico. La Balsa de la Medusa remite a un escándalo político de 1816. Guernica al bombardeo de 1937. Esa contextualización se espera en oral y escrito.
 
-Dominar el vocabulario. Sfumato, claroscuro, perspectiva, fresco, óleo, témpera. Ver nuestra [guía de historia del arte para principiantes](/es/blog/historia-arte-principiantes/) para las bases. Conocer 30 términos técnicos basta a nivel examen.
+Dominar el vocabulario. Sfumato, claroscuro, perspectiva, fresco, óleo, témpera. Ver nuestra [guía de historia del arte para principiantes](/es/blog/movimientos-artisticos/) para las bases. Conocer 30 términos técnicos basta a nivel examen.
 
 Entrenarse con quizzes. La ciencia de la memoria muestra que se retiene 50% mejor autoexaminándose que releyendo. SAPIRO propone 553 obras con su contexto y atribución. Para método, ver nuestro artículo sobre [gamificación del aprendizaje](/es/blog/gamificacion-educacion/).
 

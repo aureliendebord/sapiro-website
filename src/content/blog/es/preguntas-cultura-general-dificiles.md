@@ -16,7 +16,7 @@ readingTime: 8
 
 Treinta preguntas de cultura general difíciles, con la respuesta justo debajo. No son preguntas trampa: todas tienen una respuesta clara, pero piden algo más que lo que se aprende en el colegio. Seis preguntas por campo (geografía, historia, arte y cultura, ciencias, naturaleza). Tapa la respuesta, cuenta un punto por acierto y mira el baremo al final.
 
-¿Prefieres empezar por algo más asequible? Nuestras [20 preguntas de cultura general](/es/blog/20-preguntas-cultura-general-respuestas/) mezclan niveles, y la gran serie de [100 preguntas](/es/blog/100-preguntas-cultura-general-respuestas/) cubre todo el abanico.
+¿Prefieres empezar por algo más asequible? Nuestras [20 preguntas de cultura general](/es/blog/50-preguntas-cultura-general-respuestas/) mezclan niveles, y la gran serie de [100 preguntas](/es/blog/100-preguntas-cultura-general-respuestas/) cubre todo el abanico.
 
 ## Geografía
 

@@ -55,7 +55,7 @@ Para una velada estándar con amigos.
 
 **Deporte.** Eventos hito, leyendas por disciplina.
 
-**Geografía y viaje.** Banderas, capitales, monumentos. Ver nuestro [quiz capitales por continente](/es/blog/quiz-capitales-por-continente/).
+**Geografía y viaje.** Banderas, capitales, monumentos. Ver nuestro [quiz capitales por continente](/es/blog/quiz-capitales-mundo/).
 
 **Quiz "Quién soy" (personajes históricos).** Ver nuestro artículo sobre [personajes históricos mayores](/es/blog/personajes-historicos/).
 

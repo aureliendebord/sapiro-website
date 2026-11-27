@@ -16,10 +16,9 @@ const articles = allPosts
   .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
 
 const featuredSlugs = [
-  'quiz-animales-especies-mundo', 'animales-parecidos-diferencias',
-  'animales-mas-peligrosos-mundo', 'animales-en-peligro-extincion',
-  'animales-extranos-desconocidos', 'animales-africa', 'razas-perros-reconocer',
-  'quiz-naturaleza-ninos', 'identificar-animales-ninos',
+  'animales-parecidos-diferencias', 'animales-en-peligro-extincion',
+  'animales-extranos-desconocidos', 'animales-africa',
+  'quiz-naturaleza-ninos',
 ];
 const moreArticles = articles.filter(p => !featuredSlugs.includes(p.data.urlSlug));
 
@@ -78,9 +77,7 @@ const faqSchema = {
       <section class="pillar-sub">
         <h2>Lo esencial</h2>
         <ul class="pillar-grid">
-          <li><a href="/es/blog/quiz-animales-especies-mundo/">50 especies animales que reconocer</a></li>
           <li><a href="/es/blog/animales-parecidos-diferencias/">20 parejas de animales que se parecen</a></li>
-          <li><a href="/es/blog/animales-mas-peligrosos-mundo/">Los 15 animales más peligrosos</a></li>
           <li><a href="/es/blog/animales-en-peligro-extincion/">Animales en peligro de extinción</a></li>
           <li><a href="/es/blog/animales-extranos-desconocidos/">20 animales extraños y desconocidos</a></li>
         </ul>
@@ -90,7 +87,6 @@ const faqSchema = {
         <h2>Por región y familia</h2>
         <ul class="pillar-grid">
           <li><a href="/es/blog/animales-africa/">40 animales emblemáticos de África</a></li>
-          <li><a href="/es/blog/razas-perros-reconocer/">Reconocer 30 razas de perros</a></li>
         </ul>
       </section>
 
@@ -98,7 +94,6 @@ const faqSchema = {
         <h2>Aprender en familia</h2>
         <ul class="pillar-grid">
           <li><a href="/es/blog/quiz-naturaleza-ninos/">Quiz naturaleza para niños</a></li>
-          <li><a href="/es/blog/identificar-animales-ninos/">Identificar animales con los niños</a></li>
         </ul>
       </section>
 

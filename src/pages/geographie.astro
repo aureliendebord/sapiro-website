@@ -17,12 +17,11 @@ const articles = allPosts
 
 // Slugs déjà mis en avant dans les listes curées ci-dessous (pour ne pas les répéter).
 const featuredSlugs = [
-  'quiz-capitales-monde', 'quiz-capitales-par-continent', 'drapeaux-difficiles',
-  'signification-drapeaux', 'erreurs-geographie', 'quiz-drapeaux-monde-gratuit-en-ligne',
+  'quiz-capitales-monde', 'drapeaux-difficiles',
+  'signification-drapeaux', 'erreurs-geographie',
   'pays-moins-visites-monde', 'plus-petits-pays-monde', 'pays-disparus',
   'frontieres-etranges-monde', 'origine-noms-pays', 'test-pays-personnalite',
-  'monuments-plus-visites-monde', 'geographie-enfants', 'geographie-famille',
-  'apprendre-pays-monde-enfants', 'meilleures-apps-geographie',
+  'monuments-plus-visites-monde', 'geographie-enfants', 'geographie-famille', 'meilleures-apps-geographie',
 ];
 const moreArticles = articles.filter(p => !featuredSlugs.includes(p.data.urlSlug));
 
@@ -108,11 +107,10 @@ const faqSchema = {
         <h2>Les essentiels</h2>
         <ul class="pillar-grid">
           <li><a href="/blog/quiz-capitales-monde/">Quiz capitales du monde</a></li>
-          <li><a href="/blog/quiz-capitales-par-continent/">Quiz capitales par continent</a></li>
           <li><a href="/blog/drapeaux-difficiles/">Les 15 drapeaux les plus difficiles à reconnaître</a></li>
           <li><a href="/blog/signification-drapeaux/">La signification des drapeaux</a></li>
           <li><a href="/blog/erreurs-geographie/">Les erreurs de géographie les plus répandues</a></li>
-          <li><a href="/blog/quiz-drapeaux-monde-gratuit-en-ligne/">Quiz drapeaux gratuit en ligne</a></li>
+          <li><a href="/blog/quiz-drapeaux-pays/">Quiz drapeaux gratuit en ligne</a></li>
         </ul>
       </section>
 
@@ -134,7 +132,6 @@ const faqSchema = {
         <ul class="pillar-grid">
           <li><a href="/blog/geographie-enfants/">Géographie pour enfants</a></li>
           <li><a href="/blog/geographie-famille/">Géographie en famille</a></li>
-          <li><a href="/blog/apprendre-pays-monde-enfants/">Apprendre les pays du monde aux enfants</a></li>
           <li><a href="/blog/meilleures-apps-geographie/">Les meilleures apps de géographie</a></li>
         </ul>
       </section>

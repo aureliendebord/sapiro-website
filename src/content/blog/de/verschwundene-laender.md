@@ -108,7 +108,7 @@ Drei Techniken.
 
 **Teste dein Wissen.** SAPIRO bietet Quiz zu Weltgeografie und Geschichte, mit Erklärungen im Kontext. Lesenswert: der [Zeitstrahl der Weltgeschichte](/de/blog/zeitstrahl-weltgeschichte/), die [kleinsten Länder, die es heute noch gibt](/de/blog/kleinste-laender-der-welt/), und die [Flaggen verschwundener Länder](/en/blog/flags-of-disappeared-countries/). Zum breiteren Aufwärmen probier unsere [50 Allgemeinwissen-Fragen](/de/blog/50-allgemeinwissen-fragen-antworten/), von Zeitzonen bis Enklaven.
 
-Logisch als Nächstes: unser [Quiz mit 20 Fragen zu verschwundenen Ländern](/en/blog/disappeared-countries-quiz/), die [Länder, die ihren Namen geändert haben](/en/blog/countries-that-changed-names/), die [nicht anerkannten Staaten](/de/blog/nicht-anerkannte-staaten/) und die [jüngsten Länder der Welt](/de/blog/juengste-laender-der-welt/).
+Logisch als Nächstes: unser [Quiz mit 20 Fragen zu verschwundenen Ländern](/en/blog/countries-that-disappeared/), die [Länder, die ihren Namen geändert haben](/en/blog/countries-that-changed-names/), die [nicht anerkannten Staaten](/de/blog/nicht-anerkannte-staaten/) und die [jüngsten Länder der Welt](/de/blog/juengste-laender-der-welt/).
 
 <figure>
   <img src="/images/blog/monde/globe-terrestre.jpg" alt="Eine antike kreisförmige Kartenprojektion, die zwei Drittel der Erdkugel zeigt" loading="lazy" />

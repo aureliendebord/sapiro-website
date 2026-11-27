@@ -165,7 +165,7 @@ Para familias, el tema es más directo todavía. Otras apps han tenido reportes 
 
 El catálogo de SAPIRO (2000+ preguntas) es más reducido que el de apps que llevan una década acumulando contenido generado por usuarios. La diferencia está en que cada pregunta está verificada y viene con una explicación. Menos cantidad, más utilidad.
 
-Para comparativas más detalladas, consulta [SAPIRO vs Trivia Crack](/es/blog/sapiro-vs-trivia-crack/), [SAPIRO vs GeoGuessr](/es/blog/sapiro-vs-geoguessr/) y [SAPIRO vs Kahoot](/es/blog/sapiro-vs-kahoot/). Si la geografía es lo tuyo, echa un vistazo a nuestra guía de [mejores apps de geografía](/es/blog/mejores-apps-geografia/).
+Para comparativas más detalladas, consulta [SAPIRO vs Trivia Crack](/es/blog/alternativas-trivia-crack/), [SAPIRO vs GeoGuessr](/es/blog/alternativas-geoguessr/) y [SAPIRO vs Kahoot](/es/blog/mejores-apps-quiz-cultura-general/). Si la geografía es lo tuyo, echa un vistazo a nuestra guía de [mejores apps de geografía](/es/blog/mejores-apps-geografia/).
 
 <figure>
   <img src="/images/blog/apps/etudier-smartphone.jpg" alt="Personas mayores asistiendo a una formación en un aula" loading="lazy" />

@@ -55,7 +55,7 @@ Pour une soirée standard avec des amis.
 
 **Sport.** Évènements marquants, légendes par discipline.
 
-**Géographie et voyage.** Drapeaux, capitales, monuments. Voir notre [quiz capitales par continent](/blog/quiz-capitales-par-continent/).
+**Géographie et voyage.** Drapeaux, capitales, monuments. Voir notre [quiz capitales par continent](/blog/quiz-capitales-monde/).
 
 **Quiz "Qui suis-je" (personnages historiques).** Voir notre article sur les [personnages historiques majeurs](/blog/personnages-historiques/).
 

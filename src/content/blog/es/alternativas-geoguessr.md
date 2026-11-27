@@ -32,7 +32,7 @@ Lo decimos de entrada: SAPIRO es nuestro, por eso aparece primero. Segunda aclar
 
 SAPIRO es un quiz de cultura general. La geografía cubre los 197 países, con banderas, capitales y mapas, y se suman historia, arte y naturaleza. La diferencia con un quiz corriente está en lo que pasa después de responder: cada pregunta viene con una explicación, así que recuerdas por qué era Yamena y no solo que era Yamena. No hay publicidad, tampoco en la versión gratuita.
 
-Puedes [jugar gratis en el navegador](/es/jugar/), sin instalar nada, o descargar la app en iOS y Android. El Desafío del día propone las mismas preguntas para todo el mundo, gratis, y puedes compartir tu puntuación para retar a un amigo. Para la comparación punto por punto, mira nuestro [SAPIRO vs GeoGuessr](/es/blog/sapiro-vs-geoguessr/).
+Puedes [jugar gratis en el navegador](/es/jugar/), sin instalar nada, o descargar la app en iOS y Android. El Desafío del día propone las mismas preguntas para todo el mundo, gratis, y puedes compartir tu puntuación para retar a un amigo. Para la comparación punto por punto, mira nuestro [SAPIRO vs GeoGuessr](/es/blog/alternativas-geoguessr/).
 
 ## 2. OpenGuessr, la más parecida al original
 
@@ -50,7 +50,7 @@ El video resulta más vivo que una imagen fija y funciona muy bien con varias pe
 
 Seterra existe desde 1997 y nunca ha cambiado de idea: haces clic en un mapa para ubicar un país, una capital, un río o una montaña. La base de datos es enorme, está disponible en más de 40 idiomas y tiene quiz para cada región del mundo.
 
-La versión web gratuita es la mejor puerta de entrada, y muchos docentes la usan para crear sus propios quiz. La interfaz se ve antigua y la versión móvil gratuita muestra publicidad. Para dominar la localización pura, nadie lo ha hecho mejor. Detallamos las diferencias en nuestra [comparativa SAPIRO vs Seterra](/es/blog/sapiro-vs-seterra/).
+La versión web gratuita es la mejor puerta de entrada, y muchos docentes la usan para crear sus propios quiz. La interfaz se ve antigua y la versión móvil gratuita muestra publicidad. Para dominar la localización pura, nadie lo ha hecho mejor. Detallamos las diferencias en nuestra [comparativa SAPIRO vs Seterra](/es/blog/alternativas-seterra/).
 
 ## 5. Worldle, un país al día
 

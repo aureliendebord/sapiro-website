@@ -14,7 +14,7 @@ author: "SAPIRO"
 readingTime: 5
 ---
 
-Multi-level quizzes to assess your general knowledge and progress. Here are sample questions by level, from easiest to expert. For sets with explained answers, see also our [10 questions](/en/blog/10-general-knowledge-questions-answers/) and [50 general knowledge questions](/en/blog/50-general-knowledge-questions-answers/).
+Multi-level quizzes to assess your general knowledge and progress. Here are sample questions by level, from easiest to expert. For sets with explained answers, see also our [10 questions](/en/blog/50-general-knowledge-questions-answers/) and [50 general knowledge questions](/en/blog/50-general-knowledge-questions-answers/).
 
 ## Easy level
 
@@ -124,7 +124,7 @@ For the truly devoted.
 
 Three principles.
 
-**Identify your gaps.** If you often fail at science, read a popular science book. If you miss capitals, see our [capitals quiz by continent](/en/blog/capitals-quiz-by-continent/).
+**Identify your gaps.** If you often fail at science, read a popular science book. If you miss capitals, see our [capitals quiz by continent](/en/blog/world-capitals-quiz/).
 
 **Practice regularly.** Fifteen minutes a day beat an hour on the weekend.
 

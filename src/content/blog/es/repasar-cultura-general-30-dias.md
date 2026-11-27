@@ -18,7 +18,7 @@ Treinta días para repasar cultura general es corto pero realista bien planteado
 
 ## Semana 1: historia e instituciones
 
-**Día 1.** Antigüedad, Edad Media, Renacimiento. Ver nuestra [síntesis de las tres grandes periodos](/es/blog/antiguedad-edad-media-renacimiento-resumen/).
+**Día 1.** Antigüedad, Edad Media, Renacimiento. Ver nuestra [síntesis de las tres grandes periodos](/es/blog/linea-tiempo-historia-mundial/).
 
 **Día 2.** Siglos XVII-XVIII. Monarquías absolutas, Ilustración, Revolución americana, Revolución francesa.
 

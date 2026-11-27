@@ -29,7 +29,7 @@ Una aclaración antes de seguir: este sitio es el de SAPIRO y la app es nuestra.
 
 ## Por qué buscar algo distinto a Seterra
 
-Seterra hace muy bien una cosa: te muestra un mapa y tú haces clic en el lugar correcto. Países, capitales y banderas, pero también regiones, estados federados, ríos, montañas, desiertos y lagos. Para dominar el mapamundi en detalle es la referencia del género, y así lo decimos en nuestra [comparativa SAPIRO vs Seterra](/es/blog/sapiro-vs-seterra/).
+Seterra hace muy bien una cosa: te muestra un mapa y tú haces clic en el lugar correcto. Países, capitales y banderas, pero también regiones, estados federados, ríos, montañas, desiertos y lagos. Para dominar el mapamundi en detalle es la referencia del género, y así lo decimos en nuestra [comparativa SAPIRO vs Seterra](/es/blog/alternativas-seterra/).
 
 Los motivos para mirar otras opciones suelen repetirse. Solo hay geografía. El formato casi no cambia y gira en torno al puntaje y al tiempo. Y el diseño se quedó anticuado.
 
@@ -57,7 +57,7 @@ La interfaz se nota anticuada y la experiencia no es tan fluida como en apps má
 
 GeoGuessr te suelta en un punto aleatorio de Google Street View y tienes que adivinar dónde estás. Las señales de tránsito, la vegetación, la arquitectura, los autos estacionados: todo cuenta. Es adictivo y desarrolla un razonamiento geográfico que ninguna otra app te da, con una comunidad muy activa, competiciones y rankings.
 
-El inconveniente: hace falta suscripción para jugar sin límites, y el enfoque es más lúdico que pedagógico. No te enseña datos de forma estructurada. Lo analizamos a fondo en [SAPIRO vs GeoGuessr](/es/blog/sapiro-vs-geoguessr/).
+El inconveniente: hace falta suscripción para jugar sin límites, y el enfoque es más lúdico que pedagógico. No te enseña datos de forma estructurada. Lo analizamos a fondo en [SAPIRO vs GeoGuessr](/es/blog/alternativas-geoguessr/).
 
 ## 5. Stack the Countries: para niños de 6 a 12 años
 

@@ -16,7 +16,7 @@ readingTime: 8
 
 Thirty hard general knowledge questions, each with the answer right below it. None of them are trick questions: every one has a clear answer, but it takes more than what you learned at school. Six questions per field (geography, history, art and culture, science, nature). Cover the answer, score one point per correct answer and check the scale at the bottom.
 
-Prefer to start with something easier? Our [20 general knowledge questions](/en/blog/20-general-knowledge-questions-answers/) mix levels, and the big set of [100 questions](/en/blog/100-general-knowledge-questions-answers/) covers the whole range.
+Prefer to start with something easier? Our [20 general knowledge questions](/en/blog/50-general-knowledge-questions-answers/) mix levels, and the big set of [100 questions](/en/blog/100-general-knowledge-questions-answers/) covers the whole range.
 
 ## Geography
 

@@ -29,7 +29,7 @@ quiz:
 
 Hundert Fragen, hundert sichtbare Antworten, fünf Themengebiete. Die große Liste zum gründlichen Lernen, für ein Riesenquiz oder für eine Runde nach der anderen.
 
-Die Fragen sind nach Thema sortiert (Geografie, Geschichte, Kunst und Kultur, Wissenschaft, Natur), jede mit Schwierigkeitsgrad. Zähl einen Punkt pro richtiger Antwort; die Auswertung steht ganz unten. Lieber etwas Kürzeres? Probier unsere [10](/en/blog/10-general-knowledge-questions-answers/), [20](/en/blog/20-general-knowledge-questions-answers/) oder [50 Fragen](/de/blog/50-allgemeinwissen-fragen-antworten/).
+Die Fragen sind nach Thema sortiert (Geografie, Geschichte, Kunst und Kultur, Wissenschaft, Natur), jede mit Schwierigkeitsgrad. Zähl einen Punkt pro richtiger Antwort; die Auswertung steht ganz unten. Lieber etwas Kürzeres? Probier unsere [10](/en/blog/50-general-knowledge-questions-answers/), [20](/en/blog/50-general-knowledge-questions-answers/) oder [50 Fragen](/de/blog/50-allgemeinwissen-fragen-antworten/).
 
 ## Geografie
 
@@ -93,7 +93,7 @@ Die Fragen sind nach Thema sortiert (Geografie, Geschichte, Kunst und Kultur, Wi
 **20. Welches südamerikanische Land hat die längste Pazifikküste?** *(schwer)*
 **Chile.** Das schmale Land erstreckt sich über mehr als 4.000 km von Nord nach Süd.
 
-Mehr Geografie: unser [Hauptstädte-Quiz nach Kontinent](/en/blog/capitals-quiz-by-continent/).
+Mehr Geografie: unser [Hauptstädte-Quiz nach Kontinent](/en/blog/world-capitals-quiz/).
 
 ## Geschichte
 

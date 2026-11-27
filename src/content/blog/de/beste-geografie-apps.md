@@ -153,4 +153,4 @@ Die meisten Geografie-Apps funktionieren gut ab 8 Jahren. Stack the Countries is
 
 Jede App auf dieser Liste hat etwas zu bieten. SAPIRO ist die einzige, die Geografie, Flaggen, Kulturwissen und adaptiven Schwierigkeitsgrad in einer App vereint, kostenlos herunterzuladen, offline nutzbar und auf Deutsch und in zehn weiteren Sprachen verfügbar.
 
-Wenn du zwischen SAPIRO und GeoGuessr schwankst, zeigt unser [Vergleich SAPIRO vs. GeoGuessr](/en/blog/sapiro-vs-geoguessr/) die Unterschiede im Detail. Einen breiteren Blick auf Quiz-Apps jenseits der Geografie bietet unser Ratgeber zu den [besten Quiz-Apps für Allgemeinwissen](/de/blog/beste-quiz-apps-allgemeinwissen/).
+Wenn du zwischen SAPIRO und GeoGuessr schwankst, zeigt unser [Vergleich SAPIRO vs. GeoGuessr](/en/blog/geoguessr-alternatives/) die Unterschiede im Detail. Einen breiteren Blick auf Quiz-Apps jenseits der Geografie bietet unser Ratgeber zu den [besten Quiz-Apps für Allgemeinwissen](/de/blog/beste-quiz-apps-allgemeinwissen/).

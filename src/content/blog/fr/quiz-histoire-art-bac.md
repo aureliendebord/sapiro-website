@@ -67,7 +67,7 @@ Structurer chronologiquement. Une frise vue et revue chaque jour ancre les péri
 
 Lier chaque œuvre à son contexte historique. Le Radeau de la Méduse renvoie à un scandale politique de 1816. Guernica au bombardement de 1937. Cette contextualisation est attendue à l'oral et à l'écrit.
 
-Maîtriser le vocabulaire. Sfumato, clair-obscur, perspective, fresque, huile, tempera. Voir notre [guide histoire de l'art pour debutants](/blog/histoire-art-pour-les-nuls/) pour les bases. Connaître 30 termes techniques suffit largement au niveau bac.
+Maîtriser le vocabulaire. Sfumato, clair-obscur, perspective, fresque, huile, tempera. Voir notre [guide histoire de l'art pour debutants](/blog/mouvements-artistiques/) pour les bases. Connaître 30 termes techniques suffit largement au niveau bac.
 
 S'entraîner par quiz. La science de la mémorisation montre qu'on retient 50% mieux en se testant qu'en relisant. SAPIRO propose 553 œuvres avec leur contexte et leur attribution. Pour la méthode, voir notre article sur la [gamification de l'apprentissage](/blog/gamification-education/).
 
