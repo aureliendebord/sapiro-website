@@ -8,6 +8,7 @@ imageCredit: "Foto: Bill Branson (Photographer) · dominio público · Wikimedia
 lang: "es"
 urlSlug: "gamificacion-educacion"
 translationKey: "gamification-education"
+noindex: true
 category: "education"
 author: "SAPIRO"
 readingTime: 7

@@ -8,6 +8,7 @@ imageCredit: "Photo : Bill Branson (Photographer) · domaine public · Wikimedia
 lang: "fr"
 urlSlug: "activites-culturelles-famille"
 translationKey: "activites-culturelles-famille"
+noindex: true
 category: "famille"
 author: "SAPIRO"
 readingTime: 6

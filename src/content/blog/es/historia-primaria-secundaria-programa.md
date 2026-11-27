@@ -8,6 +8,7 @@ imageCredit: "Foto: AKA MBG · CC0 · Wikimedia Commons"
 lang: "es"
 urlSlug: "historia-primaria-secundaria-programa"
 translationKey: "histoire-primaire-college"
+noindex: true
 category: "famille"
 author: "SAPIRO"
 readingTime: 6

@@ -8,6 +8,7 @@ imageCredit: "Photo: Basile Morin · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "en"
 urlSlug: "history-quiz-exam-level"
 translationKey: "quiz-histoire-france"
+noindex: true
 category: "histoire"
 author: "SAPIRO"
 readingTime: 7

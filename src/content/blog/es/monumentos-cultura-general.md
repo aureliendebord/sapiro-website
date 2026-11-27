@@ -8,6 +8,7 @@ imageCredit: "Foto: Antonin Subtil · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "es"
 urlSlug: "monumentos-cultura-general"
 translationKey: "monuments-concours"
+noindex: true
 category: "monuments"
 author: "SAPIRO"
 readingTime: 7

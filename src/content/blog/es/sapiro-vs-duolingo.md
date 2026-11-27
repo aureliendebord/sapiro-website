@@ -9,6 +9,7 @@ imageCredit: "Foto: Mictlancihuatl · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "es"
 urlSlug: "sapiro-vs-duolingo"
 translationKey: "sapiro-vs-duolingo"
+noindex: true
 category: "comparatifs"
 author: "SAPIRO"
 readingTime: 5

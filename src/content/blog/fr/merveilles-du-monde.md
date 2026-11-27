@@ -8,6 +8,7 @@ imageCredit: "Photo : Mona Hassan Abo-Abda · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "fr"
 urlSlug: "merveilles-du-monde"
 translationKey: "merveilles-du-monde"
+noindex: true
 category: "monuments"
 author: "SAPIRO"
 readingTime: 8

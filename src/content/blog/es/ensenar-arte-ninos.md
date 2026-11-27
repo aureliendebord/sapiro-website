@@ -8,6 +8,7 @@ imageCredit: "Foto: Vyacheslav Argenberg · CC BY 4.0 · Wikimedia Commons"
 lang: "es"
 urlSlug: "ensenar-arte-ninos"
 translationKey: "apprendre-art-enfants"
+noindex: true
 category: "famille"
 author: "SAPIRO"
 readingTime: 6

@@ -8,6 +8,7 @@ imageCredit: "Photo: Raphael · public domain · Wikimedia Commons"
 lang: "en"
 urlSlug: "art-history-quiz-exam"
 translationKey: "quiz-histoire-art-bac"
+noindex: true
 category: "art"
 author: "SAPIRO"
 readingTime: 7

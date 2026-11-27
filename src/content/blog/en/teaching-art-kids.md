@@ -8,6 +8,7 @@ imageCredit: "Photo: Vyacheslav Argenberg · CC BY 4.0 · Wikimedia Commons"
 lang: "en"
 urlSlug: "teaching-art-kids"
 translationKey: "apprendre-art-enfants"
+noindex: true
 category: "famille"
 author: "SAPIRO"
 readingTime: 6

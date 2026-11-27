@@ -8,6 +8,7 @@ imageCredit: "Foto: Davide Cantelli cant89 · CC0 · Wikimedia Commons"
 lang: "es"
 urlSlug: "preparar-acceso-universidad"
 translationKey: "reviser-sciences-po"
+noindex: true
 category: "concours"
 author: "SAPIRO"
 readingTime: 6

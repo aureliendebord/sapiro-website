@@ -8,6 +8,7 @@ imageCredit: "Photo : Miscellaneous Items in High Demand, PPOC, Library of Congr
 lang: "fr"
 urlSlug: "quiz-culture-generale-niveau"
 translationKey: "quiz-niveau"
+noindex: true
 category: "formats-quiz"
 author: "SAPIRO"
 readingTime: 5

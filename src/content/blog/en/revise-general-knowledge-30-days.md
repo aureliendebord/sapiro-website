@@ -8,6 +8,7 @@ imageCredit: "Photo: Miscellaneous Items in High Demand, PPOC, Library of Congre
 lang: "en"
 urlSlug: "revise-general-knowledge-30-days"
 translationKey: "reviser-30-jours"
+noindex: true
 category: "concours"
 author: "SAPIRO"
 readingTime: 6

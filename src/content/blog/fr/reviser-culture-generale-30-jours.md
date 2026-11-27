@@ -8,6 +8,7 @@ imageCredit: "Photo : Miscellaneous Items in High Demand, PPOC, Library of Congr
 lang: "fr"
 urlSlug: "reviser-culture-generale-30-jours"
 translationKey: "reviser-30-jours"
+noindex: true
 category: "concours"
 author: "SAPIRO"
 readingTime: 6

@@ -8,6 +8,7 @@ imageCredit: "Photo : Wilfredor · CC0 · Wikimedia Commons"
 lang: fr
 urlSlug: monuments-italie
 translationKey: monuments-italie
+noindex: true
 category: "monuments"
 author: "SAPIRO"
 readingTime: 8

@@ -8,6 +8,7 @@ imageCredit: "Photo: Dietmar Rabich · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "en"
 urlSlug: "dog-breeds-identify"
 translationKey: "races-chiens"
+noindex: true
 category: "nature"
 author: "SAPIRO"
 readingTime: 8

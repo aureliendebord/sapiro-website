@@ -9,6 +9,7 @@ imageCredit: "Photo: ONBag · CC0 · Wikimedia Commons"
 lang: "en"
 urlSlug: "sapiro-vs-quizlet"
 translationKey: "sapiro-vs-quizlet"
+noindex: true
 category: "comparatifs"
 author: "SAPIRO"
 readingTime: 5

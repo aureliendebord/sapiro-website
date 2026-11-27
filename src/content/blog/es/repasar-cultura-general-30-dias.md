@@ -8,6 +8,7 @@ imageCredit: "Foto: Miscellaneous Items in High Demand, PPOC, Library of Congres
 lang: "es"
 urlSlug: "repasar-cultura-general-30-dias"
 translationKey: "reviser-30-jours"
+noindex: true
 category: "concours"
 author: "SAPIRO"
 readingTime: 6

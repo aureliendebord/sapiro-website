@@ -8,6 +8,7 @@ imageCredit: "Foto: Ndahiro derrick · CC BY 4.0 · Wikimedia Commons"
 lang: "es"
 urlSlug: "quiz-cultura-general-empresa-team-building"
 translationKey: "quiz-entreprise"
+noindex: true
 category: "formats-quiz"
 author: "SAPIRO"
 readingTime: 5

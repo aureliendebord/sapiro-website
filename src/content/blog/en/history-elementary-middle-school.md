@@ -8,6 +8,7 @@ imageCredit: "Photo: AKA MBG · CC0 · Wikimedia Commons"
 lang: "en"
 urlSlug: "history-elementary-middle-school"
 translationKey: "histoire-primaire-college"
+noindex: true
 category: "famille"
 author: "SAPIRO"
 readingTime: 6
