@@ -29,7 +29,7 @@ Précision honnête : ce site est celui de SAPIRO, que nous éditons. Elle est d
 
 ## Pourquoi chercher ailleurs que Seterra
 
-Seterra fait très bien une chose : on vous montre une carte et vous cliquez au bon endroit. Pays, capitales, drapeaux, mais aussi régions, États fédérés, fleuves, montagnes, déserts et lacs. Pour maîtriser la carte du monde dans le détail, c'est la référence du genre, et notre [comparatif SAPIRO vs Seterra](/blog/sapiro-vs-seterra/) le dit sans détour.
+Seterra fait très bien une chose : on vous montre une carte et vous cliquez au bon endroit. Pays, capitales, drapeaux, mais aussi régions, États fédérés, fleuves, montagnes, déserts et lacs. Pour maîtriser la carte du monde dans le détail, c'est la référence du genre.
 
 Les raisons d'aller voir ailleurs sont toujours les mêmes. L'app ne traite que la géographie. Le format varie peu et tourne beaucoup autour du score et du chrono. Et l'interface accuse son âge.
 
@@ -57,7 +57,7 @@ Le revers : un design daté et, dans la version gratuite, des publicités qui re
 
 GeoGuessr ne ressemble à rien d'autre. On vous dépose quelque part dans Google Street View et vous devez deviner où vous êtes à partir d'un panneau routier, du style des maisons ou de la végétation. C'est addictif, le multijoueur transforme chaque partie en duel, et on y développe une lecture des paysages qu'aucun quiz ne donne.
 
-Pour apprendre de façon structurée, ce n'est pas l'outil : pas de fiches, pas de liste de capitales à réviser. La version gratuite est limitée, l'abonnement est nécessaire pour jouer sans restriction, et il faut une bonne connexion. Le détail est dans notre [comparatif SAPIRO vs GeoGuessr](/blog/sapiro-vs-geoguessr/).
+Pour apprendre de façon structurée, ce n'est pas l'outil : pas de fiches, pas de liste de capitales à réviser. La version gratuite est limitée, l'abonnement est nécessaire pour jouer sans restriction, et il faut une bonne connexion. Si ce format vous attire, on a aussi listé les [alternatives à GeoGuessr](/blog/alternatives-geoguessr/).
 
 ## 5. Stack the Countries : pour les 6-12 ans
 

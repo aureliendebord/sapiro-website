@@ -21,7 +21,7 @@ The term "Big Five" comes from colonial safaris. It originally referred to the f
 
 **The lion.** The only social cat, lives in groups called prides of 10 to 30 individuals. Found in about ten African countries, mostly in East and Southern Africa. Population: 20,000 to 25,000.
 
-**The leopard.** More discreet and solitary. Lives throughout sub-Saharan Africa, from desert to dense forest. The most adaptable of the big cats. To tell it apart from cheetah and jaguar, see our [guide to 50 animal species](/en/blog/quiz-animals-world-species/).
+**The leopard.** More discreet and solitary. Lives throughout sub-Saharan Africa, from desert to dense forest. The most adaptable of the big cats.
 
 **The savanna elephant.** The largest land animal, up to 6 tons. Herds are matriarchal, led by the oldest female. Exceptional memory and intelligence.
 
@@ -49,7 +49,7 @@ The term "Big Five" comes from colonial safaris. It originally referred to the f
 
 **The wildebeest.** Famous for its annual migration of 1.5 million individuals between the Serengeti (Tanzania) and the Masai Mara (Kenya). One of the greatest natural spectacles in the world.
 
-**The hippopotamus.** More dangerous than it looks, 500 human deaths per year. For more, see our [ranking of the most dangerous animals](/en/blog/most-dangerous-animals-world/).
+**The hippopotamus.** More dangerous than it looks, 500 human deaths per year.
 
 **Antelopes.** Huge diversity: impala (the most common in East Africa), Thomson's gazelle, Grant's gazelle, kudu, eland (the largest antelope, 700 kilos), oryx, springbok.
 

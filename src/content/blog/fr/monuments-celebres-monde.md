@@ -81,7 +81,7 @@ Sydney concentre deux silhouettes devenues le visage de l'Australie.
 - **Opéra de Sydney** — Sydney, Australie — salle de spectacle aux voiles de béton inaugurée en 1973, signée Jørn Utzon.
 - **Harbour Bridge** — Sydney, Australie — pont en arc d'acier surnommé « le cintre », ouvert en 1932.
 
-Pour aller plus loin, explorez notre [guide des monuments du monde](/monuments/), comparez ces sites avec [les sept merveilles du monde](/blog/merveilles-du-monde/) ou consultez le classement des [monuments les plus visités](/blog/monuments-plus-visites-monde/). Pour passer des bâtiments aux œuvres, voyez aussi notre tour des [sculptures célèbres](/blog/sculptures-celebres-monde/) qui ornent souvent ces sites. Et pour vérifier ce que vous avez retenu, lancez-vous dans le [quiz des monuments du monde](/blog/quiz-monuments-monde/).
+Pour aller plus loin, explorez notre [guide des monuments du monde](/monuments/) ou consultez le classement des [monuments les plus visités](/blog/monuments-plus-visites-monde/). Pour passer des bâtiments aux œuvres, voyez aussi notre tour des [sculptures célèbres](/blog/sculptures-celebres-monde/) qui ornent souvent ces sites. Et pour vérifier ce que vous avez retenu, lancez-vous dans le [quiz des monuments du monde](/blog/quiz-monuments-monde/).
 
 <figure>
   <img src="/images/blog/monuments/taj-mahal.jpg" alt="Le Taj Mahal à Agra, en Inde" loading="lazy" />

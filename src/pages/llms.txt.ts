@@ -33,7 +33,7 @@ const LANGS: { code: Lang; label: string; prefix: string }[] = [
 ];
 
 export const GET: APIRoute = async () => {
-  const posts = await getCollection('blog');
+  const posts = await getCollection('blog', ({ data }) => !data.noindex);
 
   const blocks = LANGS.map((lang) => {
     const lines = [`## Blog articles (${lang.label})`, ''];

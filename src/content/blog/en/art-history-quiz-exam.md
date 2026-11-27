@@ -8,6 +8,7 @@ imageCredit: "Photo: Raphael · public domain · Wikimedia Commons"
 lang: "en"
 urlSlug: "art-history-quiz-exam"
 translationKey: "quiz-histoire-art-bac"
+noindex: true
 category: "art"
 author: "SAPIRO"
 readingTime: 7
@@ -62,7 +63,7 @@ Structure chronologically. A timeline seen and reseen daily anchors the periods.
 
 Link each work to its historical context. The Raft of the Medusa points to an 1816 political scandal. Guernica to the 1937 bombing. This contextualization is expected in both oral and written exams.
 
-Master the vocabulary. Sfumato, chiaroscuro, perspective, fresco, oil, tempera. See our [art history beginners' guide](/en/blog/art-history-beginners/) for the basics. Knowing 30 technical terms is enough at exam level.
+Master the vocabulary. Sfumato, chiaroscuro, perspective, fresco, oil, tempera. See our [art history beginners' guide](/en/blog/art-movements-explained/) for the basics. Knowing 30 technical terms is enough at exam level.
 
 Practice by quiz. The science of memory shows you remember 50% better when self-testing than re-reading. SAPIRO offers 553 works with their context and attribution. For method, see our article on [gamification of learning](/en/blog/gamification-education/).
 

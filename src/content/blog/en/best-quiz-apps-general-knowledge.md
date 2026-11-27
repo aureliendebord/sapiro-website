@@ -30,8 +30,6 @@ It's a newer app, so the question library is still growing, though it's already 
 
 **Price:** Free version, no ads.
 
-For more on how [gamification drives learning outcomes](/en/blog/gamification-education/), SAPIRO is a good example of the approach done well.
-
 ## 2. Trivia Crack — The Social Trivia Classic
 
 Trivia Crack is one of the most downloaded trivia games ever made, and the spin-the-wheel mechanic across six categories (Entertainment, Art, Science, Sports, History, Geography) is still fun. Challenging friends or strangers keeps things competitive, and user-generated questions mean the library is enormous.
@@ -153,7 +151,7 @@ It's not the app for everyone. If you want multiplayer battles against strangers
 
 But if you want to actually learn at your own pace, without ads and without your data being sold, SAPIRO is the strongest option we tested. The adaptive difficulty keeps it challenging as you improve, and the explanations mean you walk away knowing more, not just scoring higher.
 
-For deeper comparisons, check out our head-to-head reviews: [SAPIRO vs Trivia Crack](/en/blog/sapiro-vs-trivia-crack/), [SAPIRO vs GeoGuessr](/en/blog/sapiro-vs-geoguessr/), and [SAPIRO vs Kahoot](/en/blog/sapiro-vs-kahoot/). And if geography is your thing, see our [best geography apps](/en/blog/best-geography-apps/) guide.
+For deeper comparisons, check out our roundups of [Trivia Crack alternatives](/en/blog/trivia-crack-alternatives/) and [GeoGuessr alternatives](/en/blog/geoguessr-alternatives/). And if geography is your thing, see our [best geography apps](/en/blog/best-geography-apps/) guide.
 
 <figure>
   <img src="/images/blog/apps/etudier-smartphone.jpg" alt="Seniors attending a training class in a classroom" loading="lazy" />

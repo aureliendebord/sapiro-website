@@ -8,12 +8,13 @@ imageCredit: "Photo : Miscellaneous Items in High Demand, PPOC, Library of Congr
 lang: "fr"
 urlSlug: "quiz-culture-generale-niveau"
 translationKey: "quiz-niveau"
+noindex: true
 category: "formats-quiz"
 author: "SAPIRO"
 readingTime: 5
 ---
 
-Quiz à plusieurs niveaux pour évaluer votre culture générale et progresser. Voici des exemples de questions par niveau, du plus facile au plus expert. Pour des séries avec réponses expliquées, voyez aussi nos [10 questions](/blog/10-questions-culture-generale-reponses/) et [50 questions de culture générale](/blog/50-questions-culture-generale-reponses/).
+Quiz à plusieurs niveaux pour évaluer votre culture générale et progresser. Voici des exemples de questions par niveau, du plus facile au plus expert. Pour des séries avec réponses expliquées, voyez aussi nos [10 questions](/blog/50-questions-culture-generale-reponses/) et [50 questions de culture générale](/blog/50-questions-culture-generale-reponses/).
 
 ## Niveau facile
 
@@ -123,7 +124,7 @@ Pour les vraiment passionnés.
 
 Trois principes.
 
-**Identifier ses lacunes.** Si on échoue souvent en sciences, lire un livre de vulgarisation. Si on rate les capitales, voir notre [quiz capitales par continent](/blog/quiz-capitales-par-continent/).
+**Identifier ses lacunes.** Si on échoue souvent en sciences, lire un livre de vulgarisation. Si on rate les capitales, voir notre [quiz capitales par continent](/blog/quiz-capitales-monde/).
 
 **S'entraîner régulièrement.** Quinze minutes par jour battent une heure le week-end.
 

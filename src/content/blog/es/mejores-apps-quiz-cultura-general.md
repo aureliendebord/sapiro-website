@@ -108,7 +108,7 @@ Puntos débiles: solo geografía, necesita internet permanente, suscripción par
 
 Seterra lleva activo desde 1997. Su formato es directo: un mapa en pantalla y señalas la ubicación correcta. Cubre más de 300 quiz con países, capitales, ríos, montañas y divisiones administrativas.
 
-Se nota que lleva casi 30 años. El diseño está anticuado, no tiene repetición espaciada y el contenido se limita a geografía política y física. Como complemento para exámenes de geografía vale, pero no ofrece una experiencia de [aprendizaje moderna con gamificación](/es/blog/gamificacion-educacion/).
+Se nota que lleva casi 30 años. El diseño está anticuado, no tiene repetición espaciada y el contenido se limita a geografía política y física. Como complemento para exámenes de geografía vale, pero no ofrece una experiencia de aprendizaje moderna con gamificación.
 
 Puntos fuertes: catálogo enorme de quiz geográficos, versión web y móvil, fiable.
 
@@ -165,7 +165,7 @@ Para familias, el tema es más directo todavía. Otras apps han tenido reportes 
 
 El catálogo de SAPIRO (2000+ preguntas) es más reducido que el de apps que llevan una década acumulando contenido generado por usuarios. La diferencia está en que cada pregunta está verificada y viene con una explicación. Menos cantidad, más utilidad.
 
-Para comparativas más detalladas, consulta [SAPIRO vs Trivia Crack](/es/blog/sapiro-vs-trivia-crack/), [SAPIRO vs GeoGuessr](/es/blog/sapiro-vs-geoguessr/) y [SAPIRO vs Kahoot](/es/blog/sapiro-vs-kahoot/). Si la geografía es lo tuyo, echa un vistazo a nuestra guía de [mejores apps de geografía](/es/blog/mejores-apps-geografia/).
+Para ir más lejos, consulta nuestras [alternativas a Preguntados (Trivia Crack)](/es/blog/alternativas-trivia-crack/) y nuestras [alternativas a GeoGuessr](/es/blog/alternativas-geoguessr/). Si la geografía es lo tuyo, echa un vistazo a nuestra guía de [mejores apps de geografía](/es/blog/mejores-apps-geografia/).
 
 <figure>
   <img src="/images/blog/apps/etudier-smartphone.jpg" alt="Personas mayores asistiendo a una formación en un aula" loading="lazy" />

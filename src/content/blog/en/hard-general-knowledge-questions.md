@@ -16,7 +16,7 @@ readingTime: 8
 
 Thirty hard general knowledge questions, each with the answer right below it. None of them are trick questions: every one has a clear answer, but it takes more than what you learned at school. Six questions per field (geography, history, art and culture, science, nature). Cover the answer, score one point per correct answer and check the scale at the bottom.
 
-Prefer to start with something easier? Our [20 general knowledge questions](/en/blog/20-general-knowledge-questions-answers/) mix levels, and the big set of [100 questions](/en/blog/100-general-knowledge-questions-answers/) covers the whole range.
+Prefer to start with something easier? Our [50 general knowledge questions](/en/blog/50-general-knowledge-questions-answers/) mix levels, and the big set of [100 questions](/en/blog/100-general-knowledge-questions-answers/) covers the whole range.
 
 ## Geography
 
@@ -124,7 +124,7 @@ For more history: our [world history timeline](/en/blog/world-timeline-history/)
 
 ## Scoring
 
-**0 to 10:** perfectly normal, these are hard questions. Start with our [general knowledge quiz by level](/en/blog/general-knowledge-quiz-levels/) to build up step by step.
+**0 to 10:** perfectly normal, these are hard questions.
 
 **11 to 20:** a very good level. Your general knowledge is well above average.
 
@@ -132,7 +132,7 @@ For more history: our [world history timeline](/en/blog/world-timeline-history/)
 
 ## Keep learning
 
-These thirty questions are a good measure of your level, but general knowledge is built in small, regular doses. That is the idea behind SAPIRO: hundreds of questions on geography, history, art and nature, with an explanation behind every answer. For a structured routine, follow our method to [revise general knowledge in 30 days](/en/blog/revise-general-knowledge-30-days/).
+These thirty questions are a good measure of your level, but general knowledge is built in small, regular doses. That is the idea behind SAPIRO: hundreds of questions on geography, history, art and nature, with an explanation behind every answer.
 
 ## Frequently asked questions
 

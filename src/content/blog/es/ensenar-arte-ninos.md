@@ -8,6 +8,7 @@ imageCredit: "Foto: Vyacheslav Argenberg · CC BY 4.0 · Wikimedia Commons"
 lang: "es"
 urlSlug: "ensenar-arte-ninos"
 translationKey: "apprendre-art-enfants"
+noindex: true
 category: "famille"
 author: "SAPIRO"
 readingTime: 6
@@ -43,7 +44,7 @@ El niño puede situar un cuadro en una época. Renacimiento, Impresionismo, arte
 
 El niño puede empezar a analizar composición, técnica, mensaje. Es la edad de la primera historia del arte real.
 
-**Nociones a introducir.** Sfumato, perspectiva, claroscuro, impasto, abstracción. Ver nuestra [guia historia del arte para principiantes](/es/blog/historia-arte-principiantes/).
+**Nociones a introducir.** Sfumato, perspectiva, claroscuro, impasto, abstracción. Ver nuestra [guia historia del arte para principiantes](/es/blog/movimientos-artisticos/).
 
 **Actividades.** Un museo al mes. Leer una biografía corta de artista (Van Gogh, Frida Kahlo accesibles). Quiz de arte regular.
 

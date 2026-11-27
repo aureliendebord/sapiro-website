@@ -9,7 +9,7 @@ import { getCollection } from 'astro:content';
 const lang = 'en';
 const t = getTranslations(lang);
 
-const allPosts = await getCollection('blog');
+const allPosts = await getCollection('blog', ({ data }) => !data.noindex);
 const geoCategories = ['geographie', 'drapeaux', 'voyage', 'culture-generale'];
 const articles = allPosts
   .filter(p => p.data.lang === 'en' && geoCategories.includes(p.data.category))
@@ -17,12 +17,11 @@ const articles = allPosts
 
 // Slugs already featured in the curated lists below (so we don't repeat them).
 const featuredSlugs = [
-  'world-capitals-quiz', 'capitals-quiz-by-continent', 'hardest-flags',
-  'flags-meaning', 'geography-mistakes', 'world-flags-quiz-free-online',
+  'world-capitals-quiz', 'hardest-flags',
+  'flags-meaning', 'geography-mistakes',
   'least-visited-countries-world', 'smallest-countries-world', 'countries-that-disappeared',
   'strangest-borders-world', 'origin-country-names', 'which-country-matches-personality',
-  'most-visited-monuments-world', 'geography-for-kids', 'geography-family',
-  'teaching-world-countries-kids', 'best-geography-apps',
+  'most-visited-monuments-world', 'geography-for-kids', 'geography-family', 'best-geography-apps',
 ];
 const moreArticles = articles.filter(p => !featuredSlugs.includes(p.data.urlSlug));
 
@@ -83,11 +82,10 @@ const faqSchema = {
         <h2>The essentials</h2>
         <ul class="pillar-grid">
           <li><a href="/en/blog/world-capitals-quiz/">World capitals quiz</a></li>
-          <li><a href="/en/blog/capitals-quiz-by-continent/">Capitals quiz by continent</a></li>
           <li><a href="/en/blog/hardest-flags/">The 15 hardest flags to recognize</a></li>
           <li><a href="/en/blog/flags-meaning/">Flag meanings and symbolism</a></li>
           <li><a href="/en/blog/geography-mistakes/">Common geography mistakes</a></li>
-          <li><a href="/en/blog/world-flags-quiz-free-online/">Free online flags quiz</a></li>
+          <li><a href="/en/blog/quiz-flags-countries/">Free online flags quiz</a></li>
         </ul>
       </section>
 
@@ -109,7 +107,6 @@ const faqSchema = {
         <ul class="pillar-grid">
           <li><a href="/en/blog/geography-for-kids/">Geography for kids</a></li>
           <li><a href="/en/blog/geography-family/">Geography as a family</a></li>
-          <li><a href="/en/blog/teaching-world-countries-kids/">Teaching world countries to kids</a></li>
           <li><a href="/en/blog/best-geography-apps/">The best geography apps</a></li>
         </ul>
       </section>

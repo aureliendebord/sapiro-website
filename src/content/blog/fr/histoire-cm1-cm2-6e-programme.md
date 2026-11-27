@@ -8,6 +8,7 @@ imageCredit: "Photo : AKA MBG · CC0 · Wikimedia Commons"
 lang: "fr"
 urlSlug: "histoire-cm1-cm2-6e-programme"
 translationKey: "histoire-primaire-college"
+noindex: true
 category: "famille"
 author: "SAPIRO"
 readingTime: 6

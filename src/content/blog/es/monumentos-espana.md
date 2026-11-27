@@ -8,6 +8,7 @@ imageCredit: "Foto: Alvesgaspar · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "es"
 urlSlug: "monumentos-espana"
 translationKey: "monuments-espagne"
+noindex: true
 category: "monuments"
 author: "SAPIRO"
 readingTime: 8

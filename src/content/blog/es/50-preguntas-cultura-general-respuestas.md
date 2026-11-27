@@ -16,7 +16,7 @@ readingTime: 10
 
 Cincuenta preguntas, cincuenta respuestas, todas a la vista en la página. Suficiente para poner a prueba tu cultura general de verdad, repasar o animar una noche de quiz sin preparar nada.
 
-Las preguntas están ordenadas en cinco campos (geografía, historia, arte y cultura, ciencias, naturaleza), con un nivel indicado en cada una. Cuenta un punto por respuesta correcta; el baremo está al final de la página. Si con diez preguntas te basta para calentar, empieza por nuestras [10](/es/blog/10-preguntas-cultura-general-respuestas/) o [20 preguntas de cultura general](/es/blog/20-preguntas-cultura-general-respuestas/). Y para la serie completa, mira nuestras [100 preguntas](/es/blog/100-preguntas-cultura-general-respuestas/). ¿Buscas un reto mayor? Prueba nuestras [preguntas de cultura general difíciles](/es/blog/preguntas-cultura-general-dificiles/).
+Las preguntas están ordenadas en cinco campos (geografía, historia, arte y cultura, ciencias, naturaleza), con un nivel indicado en cada una. Cuenta un punto por respuesta correcta; el baremo está al final de la página. Para la serie completa, mira nuestras [100 preguntas](/es/blog/100-preguntas-cultura-general-respuestas/). ¿Buscas un reto mayor? Prueba nuestras [preguntas de cultura general difíciles](/es/blog/preguntas-cultura-general-dificiles/).
 
 ## Geografía
 
@@ -50,7 +50,7 @@ Las preguntas están ordenadas en cinco campos (geografía, historia, arte y cul
 **10. ¿Qué río atraviesa París?** *(fácil)*
 **El Sena.** Unos 777 km antes de desembocar en el canal de la Mancha, en El Havre.
 
-¿Quieres seguir con geografía? Prueba nuestro [quiz de capitales por continente](/es/blog/quiz-capitales-por-continente/).
+¿Quieres seguir con geografía? Prueba nuestro [quiz de capitales del mundo](/es/blog/quiz-capitales-mundo/).
 
 ## Historia
 
@@ -196,13 +196,13 @@ Cuenta un punto por respuesta correcta, sobre 50.
 
 **De 21 a 35:** buen nivel general. Te defiendes en cualquier conversación, con algún hueco en las preguntas más finas.
 
-**De 36 a 50:** excelente. Mídete con los niveles expertos de nuestro [quiz por niveles](/es/blog/quiz-cultura-general-nivel/).
+**De 36 a 50:** excelente. Ya puedes medirte con preguntas de nivel experto.
 
 ## Para seguir aprendiendo
 
 Cincuenta preguntas ya son un buen maratón. Pero la cultura general se construye a base de pequeñas dosis regulares, no en una sola sesión.
 
-Esa es la idea de SAPIRO: cientos de quizzes sobre geografía (197 países), historia, arte y naturaleza, con una explicación detrás de cada respuesta. Gratis, sin publicidad. Para un entrenamiento pautado de un mes, sigue nuestro método para [repasar cultura general en 30 días](/es/blog/repasar-cultura-general-30-dias/).
+Esa es la idea de SAPIRO: cientos de quizzes sobre geografía (197 países), historia, arte y naturaleza, con una explicación detrás de cada respuesta. Gratis, sin publicidad.
 
 ## Preguntas frecuentes
 

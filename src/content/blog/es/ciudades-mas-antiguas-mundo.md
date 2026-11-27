@@ -82,7 +82,7 @@ Tres razones explican que dos listas serias den órdenes distintos.
 
 **La datación tiene un margen.** El carbono 14 da horquillas de varios siglos para estos periodos. Un "9000 a. C." es una estimación central, no una fecha.
 
-Para seguir: las [ciudades perdidas del mundo](/es/blog/ciudades-perdidas-mundo/) cuentan el destino contrario, el de las que no sobrevivieron; los [monumentos de la antigüedad](/es/blog/monumentos-antiguedad/) y los [imperios más grandes de la historia](/es/blog/imperios-mas-grandes-historia/) sitúan estas ciudades en su contexto político.
+Para seguir: los [monumentos de la antigüedad](/es/blog/monumentos-antiguedad/) y los [imperios más grandes de la historia](/es/blog/imperios-mas-grandes-historia/) sitúan estas ciudades en su contexto político.
 
 ## Preguntas frecuentes
 

@@ -8,6 +8,7 @@ imageCredit: "Foto: Diego Delso · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "es"
 urlSlug: "sitios-unesco-patrimonio-mundial"
 translationKey: "sites-unesco"
+noindex: true
 category: "monuments"
 author: "SAPIRO"
 readingTime: 8

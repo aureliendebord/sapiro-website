@@ -9,6 +9,7 @@ imageCredit: "Photo: Mictlancihuatl · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "en"
 urlSlug: "sapiro-vs-duolingo"
 translationKey: "sapiro-vs-duolingo"
+noindex: true
 category: "comparatifs"
 author: "SAPIRO"
 readingTime: 5
@@ -38,13 +39,13 @@ SAPIRO and Duolingo are both learning apps, but on different territory. Duolingo
 
 **Duolingo.** Lots of ads in the free version. Can be heavy.
 
-**SAPIRO.** Zero ads. See our article on [best ad-free educational apps](/en/blog/best-ad-free-educational-apps/).
+**SAPIRO.** Zero ads. See our article on [best ad-free educational apps](/en/blog/best-quiz-apps-general-knowledge/).
 
 ## Data collection
 
 **Duolingo.** Significant data collection for personalization and advertising. Mandatory account.
 
-**SAPIRO.** No data ever sold. No mandatory account. See our article on [quiz apps without data collection](/en/blog/quiz-apps-no-data-collection/).
+**SAPIRO.** No data ever sold. No mandatory account. See our article on [quiz apps without data collection](/en/blog/best-quiz-apps-general-knowledge/).
 
 ## Target audience
 

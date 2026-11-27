@@ -8,6 +8,7 @@ imageCredit: "Photo : Shixart1985 · CC BY 2.0 · Wikimedia Commons"
 lang: "fr"
 urlSlug: "quiz-imprimer-enfants"
 translationKey: "quiz-imprimer"
+noindex: true
 category: "famille"
 author: "SAPIRO"
 readingTime: 5

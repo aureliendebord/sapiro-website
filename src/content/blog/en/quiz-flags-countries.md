@@ -112,7 +112,7 @@ Mauritius. A rarity: almost no national flag lines up four equal horizontal band
 | 11-15 | Good level: you can tell Indonesia from Monaco |
 | 16-20 | Vexillologist level |
 
-To keep going: the [hardest flags to guess](/en/blog/hardest-flags/) gather the ones almost everyone misses, [flags that look alike](/en/blog/flags-that-look-alike/) explain why they get confused, and [flag meanings](/en/blog/flags-meaning/) tell the story behind each symbol. If you like the format, the [countries that no longer exist quiz](/en/blog/disappeared-countries-quiz/) follows the same principle.
+To keep going: the [hardest flags to guess](/en/blog/hardest-flags/) gather the ones almost everyone misses, [flags that look alike](/en/blog/flags-that-look-alike/) explain why they get confused, and [flag meanings](/en/blog/flags-meaning/) tell the story behind each symbol. If you like the format, the [countries that no longer exist quiz](/en/blog/countries-that-disappeared/) follows the same principle.
 
 ## Frequently asked questions
 

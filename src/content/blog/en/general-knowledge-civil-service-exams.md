@@ -23,7 +23,7 @@ In practice, the topics group into recurring themes.
 
 **Institutions and political life.** Constitution and political system, separation of powers, legislative process, fundamental rights, territorial organization, international organizations (UN, EU, NATO).
 
-**History.** Mostly 19th and 20th centuries. Revolutions, wars, decolonization, post-war world. For more: [history exam-level practice](/en/blog/history-quiz-exam-level/) and [world history timeline](/en/blog/world-timeline-history/).
+**History.** Mostly 19th and 20th centuries. Revolutions, wars, decolonization, post-war world. For more: [world history timeline](/en/blog/world-timeline-history/).
 
 **Geography.** National territory, world capitals, major global markers, climate stakes.
 
@@ -59,7 +59,7 @@ Three main formats.
 
 **Thematic notes.** One sheet per major topic (education, health, climate, foreign policy). Reread regularly, enriched by current events.
 
-**Practice with quizzes.** [The science of active learning](/en/blog/gamification-education/) shows you retain 50% better when self-testing. General knowledge quizzes are perfect to calibrate your level and identify gaps.
+**Practice with quizzes.** The science of active learning shows you retain 50% better when self-testing. General knowledge quizzes are perfect to calibrate your level and identify gaps.
 
 ## Classic pitfalls
 

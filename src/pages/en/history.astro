@@ -9,7 +9,7 @@ import { getCollection } from 'astro:content';
 const lang = 'en';
 const t = getTranslations(lang);
 
-const allPosts = await getCollection('blog');
+const allPosts = await getCollection('blog', ({ data }) => !data.noindex);
 const historyCategories = ['histoire'];
 const articles = allPosts
   .filter(p => p.data.lang === 'en' && historyCategories.includes(p.data.category))
@@ -17,10 +17,10 @@ const articles = allPosts
 
 // Slugs déjà mis en avant dans les listes curées ci-dessous (pour ne pas les répéter).
 const featuredSlugs = [
-  'antiquity-middle-ages-renaissance-overview', 'world-timeline-history', 'great-battles-history',
+  'world-timeline-history', 'great-battles-history',
   'ancient-monuments', 'historical-figures', 'european-monarchs-list', 'us-presidents-list',
-  'women-who-shaped-history', '20th-century-dictators', 'history-quiz-exam-level',
-  'learning-history-fun', 'history-elementary-middle-school',
+  'women-who-shaped-history', '20th-century-dictators',
+  'learning-history-fun',
 ];
 const moreArticles = articles.filter(p => !featuredSlugs.includes(p.data.urlSlug));
 
@@ -79,8 +79,7 @@ const faqSchema = {
       <section class="pillar-sub">
         <h2>Major periods</h2>
         <ul class="pillar-grid">
-          <li><a href="/en/blog/antiquity-middle-ages-renaissance-overview/">Antiquity, Middle Ages, Renaissance overview</a></li>
-          <li><a href="/en/blog/world-timeline-history/">World history timeline</a></li>
+          <li><a href="/en/blog/world-timeline-history/">Antiquity, Middle Ages, Renaissance overview</a></li>
           <li><a href="/en/blog/great-battles-history/">The 15 great battles of history</a></li>
           <li><a href="/en/blog/ancient-monuments/">Monuments of Antiquity</a></li>
         </ul>
@@ -100,9 +99,7 @@ const faqSchema = {
       <section class="pillar-sub">
         <h2>Reviewing history</h2>
         <ul class="pillar-grid">
-          <li><a href="/en/blog/history-quiz-exam-level/">History quiz exam level</a></li>
           <li><a href="/en/blog/learning-history-fun/">Learning history the fun way</a></li>
-          <li><a href="/en/blog/history-elementary-middle-school/">History in elementary and middle school</a></li>
         </ul>
       </section>
 

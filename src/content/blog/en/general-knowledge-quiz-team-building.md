@@ -8,6 +8,7 @@ imageCredit: "Photo: Ndahiro derrick · CC BY 4.0 · Wikimedia Commons"
 lang: "en"
 urlSlug: "general-knowledge-quiz-team-building"
 translationKey: "quiz-entreprise"
+noindex: true
 category: "formats-quiz"
 author: "SAPIRO"
 readingTime: 5

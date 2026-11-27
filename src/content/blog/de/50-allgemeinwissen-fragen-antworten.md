@@ -16,7 +16,7 @@ readingTime: 10
 
 Fünfzig Fragen, fünfzig Antworten, alle direkt auf der Seite. Genug, um dein Allgemeinwissen richtig auf die Probe zu stellen, zu wiederholen oder einen Quizabend zu bestreiten, ohne irgendetwas vorbereiten zu müssen.
 
-Die Fragen sind in fünf Bereiche aufgeteilt (Geografie, Geschichte, Kunst und Kultur, Wissenschaft, Natur), und bei jeder steht das Niveau dabei. Zähl einen Punkt pro richtige Antwort; die Auswertung findest du ganz unten. Reichen dir zehn Fragen zum Aufwärmen, fang mit unseren [10](/en/blog/10-general-knowledge-questions-answers/) oder [20 Allgemeinwissen-Fragen](/en/blog/20-general-knowledge-questions-answers/) an. Das volle Programm gibt es in unseren [100 Fragen](/de/blog/100-allgemeinwissen-fragen-antworten/). Lust auf eine größere Herausforderung? Versuch dich an unseren [schweren Allgemeinwissen-Fragen](/en/blog/hard-general-knowledge-questions/).
+Die Fragen sind in fünf Bereiche aufgeteilt (Geografie, Geschichte, Kunst und Kultur, Wissenschaft, Natur), und bei jeder steht das Niveau dabei. Zähl einen Punkt pro richtige Antwort; die Auswertung findest du ganz unten. Das volle Programm gibt es in unseren [100 Fragen](/de/blog/100-allgemeinwissen-fragen-antworten/). Lust auf eine größere Herausforderung? Versuch dich an unseren [schweren Allgemeinwissen-Fragen](/en/blog/hard-general-knowledge-questions/).
 
 ## Geografie
 
@@ -50,7 +50,7 @@ Die Fragen sind in fünf Bereiche aufgeteilt (Geografie, Geschichte, Kunst und K
 **10. Welcher Fluss fließt durch Paris?** *(leicht)*
 **Die Seine.** Rund 777 km lang, bevor sie bei Le Havre in den Ärmelkanal mündet.
 
-Mehr Geografie gefällig? Probier unser [Hauptstädte-Quiz nach Kontinent](/en/blog/capitals-quiz-by-continent/).
+Mehr Geografie gefällig? Probier unser [Quiz zu den Hauptstädten der Welt](/en/blog/world-capitals-quiz/).
 
 ## Geschichte
 
@@ -196,13 +196,13 @@ Zähl einen Punkt pro richtige Antwort, maximal 50.
 
 **21 bis 35:** Solides Allgemeinwissen. Du kannst in jedem Gespräch mithalten, mit ein paar Lücken bei den kniffligeren Fragen.
 
-**36 bis 50:** Hervorragend. Miss dich mit den Expertenstufen in unserem [Quiz nach Niveau](/en/blog/general-knowledge-quiz-levels/).
+**36 bis 50:** Hervorragend. Du bist bereit für Fragen auf Expertenniveau.
 
 ## Weiterkommen
 
 Fünfzig Fragen sind schon ein kleiner Marathon. Allgemeinwissen baut sich aber in kleinen, regelmäßigen Portionen auf, nicht in einer einzigen Sitzung.
 
-Genau darum geht es bei SAPIRO: Hunderte Quizze zu Geografie (197 Länder), Geschichte, Kunst und Natur, mit einer Erklärung hinter jeder Antwort. Kostenlos, ohne Werbung. Für einen strukturierten Plan über einen Monat folgst du unserer Methode, um dein [Allgemeinwissen in 30 Tagen aufzufrischen](/en/blog/revise-general-knowledge-30-days/).
+Genau darum geht es bei SAPIRO: Hunderte Quizze zu Geografie (197 Länder), Geschichte, Kunst und Natur, mit einer Erklärung hinter jeder Antwort. Kostenlos, ohne Werbung.
 
 ## Häufige Fragen
 

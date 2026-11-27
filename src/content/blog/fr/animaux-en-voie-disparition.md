@@ -55,7 +55,7 @@ Avant la liste, un rappel utile. L'UICN classe les espèces en sept niveaux. Du 
 
 **Le rhinocéros noir** : 6 500 individus, en remontée après être tombé à 2 400 en 1995.
 
-**Le guépard** : 7 100 individus, contre 100 000 il y a un siècle. Le sprinteur africain souffre surtout de la perte d'habitat. Pour le distinguer du léopard, voir notre [guide des 50 espèces animales](/blog/quiz-animaux-especes-monde/).
+**Le guépard** : 7 100 individus, contre 100 000 il y a un siècle. Le sprinteur africain souffre surtout de la perte d'habitat.
 
 **L'ours polaire** : 22 000 à 31 000 individus. Population stable pour l'instant mais menacée à long terme par la fonte de la banquise.
 
@@ -109,7 +109,7 @@ Le condor de Californie, sauvé in extremis avec 27 oiseaux en 1987, en compte a
 
 Le point commun de ces réussites : décennies d'efforts coordonnés, ressources massives, volonté politique soutenue. Aucun n'a été facile. Tous prouvent que c'est faisable.
 
-Pour creuser la nature, voir [animaux étranges et méconnus](/blog/animaux-etranges-meconnus/) et [animaux les plus dangereux du monde](/blog/animaux-plus-dangereux-monde/). Et pour les espèces qu'on n'a pas su sauver : les [animaux disparus récemment](/blog/animaux-disparus-recemment/). SAPIRO permet de tester ses connaissances sur 600 espèces, avec une explication didactique derrière chaque question.
+Pour creuser la nature, voir [animaux étranges et méconnus](/blog/animaux-etranges-meconnus/). Et pour les espèces qu'on n'a pas su sauver : les [animaux disparus récemment](/blog/animaux-disparus-recemment/). SAPIRO permet de tester ses connaissances sur 600 espèces, avec une explication didactique derrière chaque question.
 
 <figure>
   <img src="/images/blog/nature/rhinoceros.jpg" alt="Crâne de rhinocéros avec ses deux cornes, exposé dans un musée" loading="lazy" />

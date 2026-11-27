@@ -141,7 +141,7 @@ Le Mozambique affiche une arme moderne sur son drapeau. C'est le seul pays à le
 
 ## Astuces pour mémoriser les drapeaux difficiles
 
-Bon. Quinze drapeaux coriaces, c'est un sacré morceau. Comment s'y retrouver ? Il existe des techniques qui marchent, proches de celles utilisées dans la [gamification éducative](/blog/gamification-education/) et dans l'[apprentissage de la géographie pour les enfants](/blog/geographie-enfants/).
+Bon. Quinze drapeaux coriaces, c'est un sacré morceau. Comment s'y retrouver ? Il existe des techniques qui marchent, proches de celles utilisées dans la gamification éducative et dans l'[apprentissage de la géographie pour les enfants](/blog/geographie-enfants/).
 
 La technique des associations consiste à créer un lien mental entre le drapeau et le pays. Pour l'Irlande vs la Côte d'Ivoire, par exemple : l'Irlande est à l'ouest, et le vert (sa couleur emblématique) est à gauche, c'est-à-dire à l'ouest du drapeau. Ça tient en une phrase et ça ne s'oublie plus.
 

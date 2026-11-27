@@ -9,7 +9,7 @@ import { getTranslations } from '../i18n';
 const lang = 'fr';
 const t = getTranslations(lang);
 
-const allPosts = await getCollection('blog');
+const allPosts = await getCollection('blog', ({ data }) => !data.noindex);
 const artCategories = ['art'];
 const articles = allPosts
   .filter(p => p.data.lang === 'fr' && artCategories.includes(p.data.category))
@@ -19,8 +19,7 @@ const articles = allPosts
 const featuredSlugs = [
   'tableaux-celebres-chefs-oeuvre', 'oeuvres-art-incontournables', 'sculptures-celebres-monde',
   'mouvements-artistiques', 'reconnaitre-peintre-style', 'monuments-celebres-monde',
-  'musees-plus-visites-monde', 'histoire-art-pour-les-nuls', 'quiz-histoire-art-bac',
-  'apprendre-art-enfants',
+  'musees-plus-visites-monde',
 ];
 const moreArticles = articles.filter(p => !featuredSlugs.includes(p.data.urlSlug));
 
@@ -108,15 +107,6 @@ const faqSchema = {
         <h2>Musées et lieux</h2>
         <ul class="pillar-grid">
           <li><a href="/blog/musees-plus-visites-monde/">Les 15 musées les plus visités au monde</a></li>
-          <li><a href="/blog/histoire-art-pour-les-nuls/">Histoire de l'art pour débutants</a></li>
-        </ul>
-      </section>
-
-      <section class="pillar-sub">
-        <h2>Réviser l'art</h2>
-        <ul class="pillar-grid">
-          <li><a href="/blog/quiz-histoire-art-bac/">Quiz histoire de l'art niveau bac</a></li>
-          <li><a href="/blog/apprendre-art-enfants/">Apprendre l'art aux enfants</a></li>
         </ul>
       </section>
 

@@ -2,6 +2,7 @@
 title: "Countries That No Longer Exist: The List of the Vanished"
 description: "Yugoslavia, USSR, Czechoslovakia, East Germany: the list of countries that no longer exist and the story of their recent disappearance."
 date: 2026-05-17
+lastModified: 2026-11-27
 image: "/images/blog/monde/carte-monde-ancienne.jpg"
 imageAlt: "An old world map"
 imageCredit: "Photo: Reginald Lane Poole · public domain · Wikimedia Commons"
@@ -108,10 +109,112 @@ Three techniques.
 
 **Test knowledge.** SAPIRO offers quizzes on world geography and history, with contextualized explanations. Worth reading: [world history timeline](/en/blog/world-timeline-history/), the [smallest countries still standing today](/en/blog/smallest-countries-world/) and the [flags of countries that no longer exist](/en/blog/flags-of-disappeared-countries/). For a broader warm-up, try our [50 general knowledge questions](/en/blog/50-general-knowledge-questions-answers/), from time zones to enclaves.
 
-The logical next reads: our [20-question quiz on disappeared countries](/en/blog/disappeared-countries-quiz/), [countries that changed their names](/en/blog/countries-that-changed-names/), [unrecognized countries](/en/blog/unrecognized-countries/) and the [newest countries in the world](/en/blog/newest-countries-world/).
+The logical next reads: [countries that changed their names](/en/blog/countries-that-changed-names/), [unrecognized countries](/en/blog/unrecognized-countries/) and the [newest countries in the world](/en/blog/newest-countries-world/).
 
 <figure>
   <img src="/images/blog/monde/globe-terrestre.jpg" alt="An antique circular map projection showing two thirds of the globe" loading="lazy" />
   <figcaption>Photo: Henry James · public domain · Wikimedia Commons</figcaption>
 </figure>
 
+## Quiz: 20 countries that no longer exist
+
+Twenty questions on states wiped off the map, in four levels of difficulty. Count one point per correct answer; the scoring table is at the bottom.
+
+### Level 1: warm-up
+
+**1. Which huge country dissolved on December 26, 1991, leaving fifteen independent states?**
+
+The USSR. Russia is its continuator state, and the fourteen other republics, from the Baltics to Kazakhstan, became independent.
+
+**2. Which Balkan country, long led by Tito, broke apart in the 1990s?**
+
+Yugoslavia. Its breakup produced seven current states, from Slovenia to Kosovo.
+
+**3. Which Central European country split in two on January 1, 1993, without a single shot?**
+
+Czechoslovakia. The "Velvet Divorce" created Czechia and Slovakia.
+
+**4. Which German state disappeared on October 3, 1990?**
+
+The GDR (East Germany), absorbed by the Federal Republic at reunification.
+
+**5. Which empire, called "the sick man of Europe", was abolished in 1922?**
+
+The Ottoman Empire. Modern Turkey was born the following year under Mustafa Kemal.
+
+### Level 2: getting harder
+
+**6. Which Central European dual monarchy was dismantled in 1918?**
+
+Austria-Hungary. Its dissolution redrew the entire map of Central Europe.
+
+**7. Which kingdom, cradle of German unification, was formally abolished by the Allies in 1947?**
+
+Prussia. The Nazis had already hollowed out the state, but its formal abolition came after the war.
+
+**8. Which great country dreamed up by Simón Bolívar fell apart in 1831?**
+
+Gran Colombia. It produced Colombia, Venezuela and Ecuador, and later Panama.
+
+**9. Which maritime republic lasted 1,100 years before Napoleon abolished it in 1797?**
+
+The Republic of Venice, founded by tradition in 697.
+
+**10. Which two countries reunified in May 1990, a few months before the two Germanies?**
+
+The two Yemens. North Yemen and South Yemen merged into a single republic.
+
+### Level 3: for connoisseurs
+
+**11. Which Southeast Asian country disappeared in 1975, at the fall of Saigon?**
+
+South Vietnam, reunified with the North the following year.
+
+**12. Which two African states merged in 1964 to form Tanzania?**
+
+Tanganyika and Zanzibar. The new country's name is a contraction of the two.
+
+**13. Which Himalayan kingdom was absorbed into India in 1975?**
+
+Sikkim, which became the 22nd Indian state after a referendum.
+
+**14. Which Pacific monarchy was overthrown in 1893 before annexation by the United States?**
+
+The Kingdom of Hawaii. Queen Liliuokalani was its last sovereign.
+
+**15. Which British dominion voted to join Canada in 1949?**
+
+Newfoundland, de facto independent between the wars, which became the tenth Canadian province.
+
+### Level 4: experts only
+
+**16. Which republic proclaimed in 1895 lived only five months before Japanese occupation?**
+
+The Republic of Formosa, on the island of Taiwan.
+
+**17. Which tiny neutral territory, between Belgium and Prussia, existed from 1816 to 1920?**
+
+Neutral Moresnet, 3.5 km², born of a disagreement over a zinc mine and assigned to Belgium by the Treaty of Versailles.
+
+**18. Which Central Asian republic, independent from 1921 to 1944, was absorbed by the USSR?**
+
+Tannu Tuva, today the Tuva republic within Russia.
+
+**19. Which North American republic existed for nine years before joining the United States in 1845?**
+
+The Republic of Texas, independent from Mexico since 1836.
+
+**20. Which kingdom of southern Italy disappeared in 1861 during Italian unification?**
+
+The Kingdom of the Two Sicilies, whose capital was Naples.
+
+### Your score
+
+| Score | Verdict |
+|---|---|
+| 0-5 | The topic is new to you, and that is good news: everything remains to be discovered |
+| 6-10 | Solid general knowledge, the 20th century is covered |
+| 11-15 | You know countries most atlases have forgotten |
+| 16-20 | Archive-cartographer level |
+
+To go further: the [flags of disappeared countries](/en/blog/flags-of-disappeared-countries/) extend the quiz in pictures, the [countries that changed their names](/en/blog/countries-that-changed-names/) cover the false disappearances, and the [newest countries in the world](/en/blog/newest-countries-world/) tell the other side of the story, the births.

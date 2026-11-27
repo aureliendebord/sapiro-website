@@ -12,7 +12,7 @@ const t = getTranslations(lang);
 // Nur ein Teil der Artikel ist auf Deutsch übersetzt: Jede kuratierte Liste
 // wird über translationKey aufgelöst, Einträge ohne deutschen Artikel fallen weg,
 // leere Abschnitte werden ausgeblendet.
-const allPosts = await getCollection('blog');
+const allPosts = await getCollection('blog', ({ data }) => !data.noindex);
 const dePosts = allPosts
   .filter(p => p.data.lang === 'de')
   .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());

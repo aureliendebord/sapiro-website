@@ -8,6 +8,7 @@ imageCredit: "Photo : Basile Morin · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "fr"
 urlSlug: "quiz-histoire-france-bac"
 translationKey: "quiz-histoire-france"
+noindex: true
 category: "histoire"
 author: "SAPIRO"
 readingTime: 7

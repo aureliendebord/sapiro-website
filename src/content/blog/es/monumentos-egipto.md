@@ -8,6 +8,7 @@ imageCredit: "Foto: Mona Hassan Abo-Abda · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "es"
 urlSlug: "monumentos-egipto"
 translationKey: "monuments-egypte"
+noindex: true
 category: "monuments"
 author: "SAPIRO"
 readingTime: 8

@@ -9,7 +9,7 @@ import { getTranslations } from '../i18n';
 const lang = 'fr';
 const t = getTranslations(lang);
 
-const allPosts = await getCollection('blog');
+const allPosts = await getCollection('blog', ({ data }) => !data.noindex);
 const histoireCategories = ['histoire'];
 const articles = allPosts
   .filter(p => p.data.lang === 'fr' && histoireCategories.includes(p.data.category))
@@ -17,11 +17,10 @@ const articles = allPosts
 
 // Slugs déjà mis en avant dans les listes curées ci-dessous (pour ne pas les répéter).
 const featuredSlugs = [
-  'antiquite-moyen-age-renaissance-reperes', 'frise-chronologique-mondiale',
+  'frise-chronologique-mondiale',
   'grandes-batailles-histoire', 'monuments-antiquite', 'personnages-historiques',
   'rois-de-france-liste', 'presidents-etats-unis', 'femmes-marque-histoire',
-  'dictateurs-xxe-siecle', 'quiz-histoire-france-bac', 'apprendre-histoire-en-samusant',
-  'histoire-cm1-cm2-6e-programme',
+  'dictateurs-xxe-siecle', 'apprendre-histoire-en-samusant',
 ];
 const moreArticles = articles.filter(p => !featuredSlugs.includes(p.data.urlSlug));
 
@@ -96,8 +95,7 @@ const faqSchema = {
       <section class="pillar-sub">
         <h2>Les grandes périodes</h2>
         <ul class="pillar-grid">
-          <li><a href="/blog/antiquite-moyen-age-renaissance-reperes/">Antiquité, Moyen Âge, Renaissance : repères essentiels</a></li>
-          <li><a href="/blog/frise-chronologique-mondiale/">Frise chronologique mondiale</a></li>
+          <li><a href="/blog/frise-chronologique-mondiale/">Antiquité, Moyen Âge, Renaissance : repères essentiels</a></li>
           <li><a href="/blog/grandes-batailles-histoire/">Les 15 grandes batailles de l'histoire</a></li>
           <li><a href="/blog/monuments-antiquite/">Les monuments de l'Antiquité</a></li>
         </ul>
@@ -117,9 +115,7 @@ const faqSchema = {
       <section class="pillar-sub">
         <h2>Réviser l'histoire</h2>
         <ul class="pillar-grid">
-          <li><a href="/blog/quiz-histoire-france-bac/">Quiz histoire de France niveau brevet et bac</a></li>
           <li><a href="/blog/apprendre-histoire-en-samusant/">Apprendre l'histoire en s'amusant</a></li>
-          <li><a href="/blog/histoire-cm1-cm2-6e-programme/">Programme d'histoire CM1, CM2, 6e</a></li>
         </ul>
       </section>
 

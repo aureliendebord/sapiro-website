@@ -8,6 +8,7 @@ imageCredit: "Foto: Pterantula (Terry Goss) at en.wikipedia · CC BY 2.5 · Wiki
 lang: "es"
 urlSlug: "animales-mas-peligrosos-mundo"
 translationKey: "animaux-dangereux"
+noindex: true
 category: "nature"
 author: "SAPIRO"
 readingTime: 8

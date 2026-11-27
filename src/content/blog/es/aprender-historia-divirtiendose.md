@@ -48,7 +48,7 @@ La investigación en ciencias cognitivas ha demostrado ampliamente la eficacia d
 
 Los quiz añaden además la dimensión lúdica. Un buen quiz de historia no pregunta "¿En qué año inventó Gutenberg la imprenta?" sino "¿Qué inventor hizo posible la difusión masiva de libros en la Europa del siglo XV?" La diferencia importa. La primera pregunta evalúa una cifra. La segunda evalúa la comprensión de un impacto histórico.
 
-La [gamificación en la educación](/es/blog/gamificacion-educacion/) se apoya en mecanismos probados: la repetición espaciada (repasar las preguntas falladas a intervalos crecientes), el feedback inmediato (saber al instante si has acertado y, sobre todo, por qué), y la progresión visible (niveles, insignias, puntuaciones). No son adornos. Replican lo que los investigadores consideran la combinación más eficaz para la memorización a largo plazo.
+La gamificación en la educación se apoya en mecanismos probados: la repetición espaciada (repasar las preguntas falladas a intervalos crecientes), el feedback inmediato (saber al instante si has acertado y, sobre todo, por qué), y la progresión visible (niveles, insignias, puntuaciones). No son adornos. Replican lo que los investigadores consideran la combinación más eficaz para la memorización a largo plazo.
 
 ## Comprender las causas en vez de memorizar fechas
 

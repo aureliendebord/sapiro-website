@@ -9,7 +9,7 @@ import { getCollection } from 'astro:content';
 const lang = 'en';
 const t = getTranslations(lang);
 
-const allPosts = await getCollection('blog');
+const allPosts = await getCollection('blog', ({ data }) => !data.noindex);
 const monumentsCategories = ['monuments'];
 const articles = allPosts
   .filter(p => p.data.lang === 'en' && monumentsCategories.includes(p.data.category))
@@ -17,10 +17,9 @@ const articles = allPosts
 
 // Slugs déjà mis en avant dans les listes curées ci-dessous (pour ne pas les répéter).
 const featuredSlugs = [
-  'seven-wonders-of-the-world', 'famous-monuments-world', 'most-visited-monuments-world',
-  'france-monuments', 'paris-monuments', 'italy-monuments', 'egypt-monuments',
-  'spain-monuments', 'uk-monuments', 'unesco-world-heritage-sites', 'ancient-monuments',
-  'famous-castles-palaces-world', 'world-monuments-quiz', 'monuments-general-knowledge',
+  'famous-monuments-world', 'most-visited-monuments-world',
+  'france-monuments', 'paris-monuments', 'uk-monuments', 'ancient-monuments',
+  'famous-castles-palaces-world', 'world-monuments-quiz',
 ];
 const moreArticles = articles.filter(p => !featuredSlugs.includes(p.data.urlSlug));
 
@@ -95,7 +94,6 @@ const breadcrumbSchema = {
       <section class="pillar-sub">
         <h2>The essentials</h2>
         <ul class="pillar-grid">
-          <li><a href="/en/blog/seven-wonders-of-the-world/">The 7 wonders of the world (ancient and modern)</a></li>
           <li><a href="/en/blog/famous-monuments-world/">30 famous monuments of the world to recognize</a></li>
           <li><a href="/en/blog/most-visited-monuments-world/">The most visited monuments in the world</a></li>
         </ul>
@@ -106,9 +104,6 @@ const breadcrumbSchema = {
         <ul class="pillar-grid">
           <li><a href="/en/blog/france-monuments/">The most beautiful monuments of France</a></li>
           <li><a href="/en/blog/paris-monuments/">The monuments of Paris to know</a></li>
-          <li><a href="/en/blog/italy-monuments/">The monuments of Italy</a></li>
-          <li><a href="/en/blog/egypt-monuments/">The monuments of Egypt</a></li>
-          <li><a href="/en/blog/spain-monuments/">The monuments of Spain</a></li>
           <li><a href="/en/blog/uk-monuments/">The monuments of the United Kingdom</a></li>
         </ul>
       </section>
@@ -116,7 +111,6 @@ const breadcrumbSchema = {
       <section class="pillar-sub">
         <h2>Heritage and great eras</h2>
         <ul class="pillar-grid">
-          <li><a href="/en/blog/unesco-world-heritage-sites/">The UNESCO World Heritage</a></li>
           <li><a href="/en/blog/ancient-monuments/">Monuments of Antiquity (Egypt, Greece, Rome)</a></li>
           <li><a href="/en/blog/famous-castles-palaces-world/">Famous castles and palaces of the world</a></li>
         </ul>
@@ -126,7 +120,6 @@ const breadcrumbSchema = {
         <h2>Revise and play</h2>
         <ul class="pillar-grid">
           <li><a href="/en/blog/world-monuments-quiz/">World monuments quiz</a></li>
-          <li><a href="/en/blog/monuments-general-knowledge/">Monuments to know for exams</a></li>
         </ul>
       </section>
 

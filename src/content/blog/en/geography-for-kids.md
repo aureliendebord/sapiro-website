@@ -15,7 +15,7 @@ readingTime: 8
 
 My daughter once told me that Africa was "near the grocery store." She was five. Geography at that age is pure vibes: everything is either close or far, big or small, and relative to whatever the child cares about. The beautiful thing is that this raw curiosity is exactly the right starting point. A lecture about longitude and latitude will put most kids to sleep, but a treasure hunt across a world map or a cooking session featuring dishes from five continents will spark real curiosity that lasts.
 
-The real challenge when you teach geography to kids is finding methods that are both fun and effective, activities that feel like play while quietly building real geographic knowledge. Here are ten approaches that work, drawn from [gamification research](/en/blog/gamification-education/) and practical experience from classrooms and homes around the world.
+The real challenge when you teach geography to kids is finding methods that are both fun and effective, activities that feel like play while quietly building real geographic knowledge. Here are ten approaches that work, drawn from gamification research and practical experience from classrooms and homes around the world.
 
 ## 1. Start with a Giant Floor Map
 
@@ -60,7 +60,7 @@ A well-designed quiz app presents questions about countries, capitals, flags, an
 
 A few tips for using quiz apps well: set a daily time limit (15-20 minutes is ideal for children). Sit with your child during the first few sessions to model how to use the app and discuss the questions together. Celebrate streaks and milestones to maintain motivation. And use the app as a supplement to hands-on activities, not a replacement.
 
-A 2019 meta-analysis in Educational Research Review, covering 46 studies, confirmed a statistically significant positive effect of gamified learning on student engagement and outcomes. The connection between quiz-based learning and [effective education through gamification](/en/blog/gamification-education/) is well-documented in research. When children earn points for correct answers and see their progress over time, they develop intrinsic motivation to keep learning. I have watched kids ask for "just five more minutes" on a geography quiz app. That never happens with a worksheet.
+A 2019 meta-analysis in Educational Research Review, covering 46 studies, confirmed a statistically significant positive effect of gamified learning on student engagement and outcomes. The connection between quiz-based learning and effective education through gamification is well-documented in research. When children earn points for correct answers and see their progress over time, they develop intrinsic motivation to keep learning. I have watched kids ask for "just five more minutes" on a geography quiz app. That never happens with a worksheet.
 
 ## 6. Pen Pal Programs and Virtual Exchanges
 

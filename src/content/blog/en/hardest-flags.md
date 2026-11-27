@@ -86,7 +86,7 @@ The symbolism runs deep, and our article on [the meaning of flags, colors, and s
   <figure><img src="/flags/countries/tm.svg" alt="Flag of Turkmenistan" loading="lazy" /><figcaption>Turkmenistan</figcaption></figure>
 </div>
 
-Accurately recalling every carpet pattern is a feat few can manage, making this flag a recurring stumbling block in any [gamified quiz](/en/blog/gamification-education/) setting. Even recognizing it is a challenge: your brain has to process an unusual amount of visual information before it can match the flag to a country.
+Accurately recalling every carpet pattern is a feat few can manage, making this flag a recurring stumbling block in any gamified quiz setting. Even recognizing it is a challenge: your brain has to process an unusual amount of visual information before it can match the flag to a country.
 
 ## Belize and Its Coat of Arms
 
@@ -171,7 +171,7 @@ First, focus on distinguishing details. Instead of trying to memorize every flag
 
 Second, use mnemonic associations. Link a flag's unique feature to something memorable about the country. Bhutan has a dragon because it is the "Land of the Thunder Dragon." Turkmenistan has carpet patterns because it is famous for its rugs. The sillier the mental image, the better it sticks.
 
-Third, practice with spaced repetition. Review tricky flags at increasing intervals: after one day, then three days, then a week. Each review resets your forgetting curve and strengthens recall. Research on [gamification and learning](/en/blog/gamification-education/) confirms that this approach significantly outperforms massed study sessions.
+Third, practice with spaced repetition. Review tricky flags at increasing intervals: after one day, then three days, then a week. Each review resets your forgetting curve and strengthens recall. Research on gamification and learning confirms that this approach significantly outperforms massed study sessions.
 
 Fourth, group flags by family. Study the Nordic crosses together, the Pan-African tricolors together, the Pan-Arab flags together. Understanding the "family" helps you narrow down options quickly during a quiz.
 

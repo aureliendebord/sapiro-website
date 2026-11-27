@@ -112,7 +112,7 @@ Mauricio. Es una rareza: casi ninguna bandera nacional alinea cuatro franjas hor
 | 11-15 | Buen nivel: distingues Indonesia de Mónaco |
 | 16-20 | Nivel vexilólogo |
 
-Para seguir: las [banderas difíciles de adivinar](/es/blog/banderas-dificiles/) reúnen las que fallan casi todos, las [banderas que se parecen](/es/blog/banderas-que-se-parecen/) explican por qué se confunden, y el [significado de las banderas](/es/blog/significado-banderas/) cuenta lo que hay detrás de cada símbolo. Si el quiz te ha gustado, el de los [países desaparecidos](/es/blog/quiz-paises-desaparecidos/) sigue el mismo formato.
+Para seguir: las [banderas difíciles de adivinar](/es/blog/banderas-dificiles/) reúnen las que fallan casi todos, las [banderas que se parecen](/es/blog/banderas-que-se-parecen/) explican por qué se confunden, y el [significado de las banderas](/es/blog/significado-banderas/) cuenta lo que hay detrás de cada símbolo. Si el quiz te ha gustado, nuestra lista de [países desaparecidos](/es/blog/paises-desaparecidos/) termina con otro en el mismo formato.
 
 ## Preguntas frecuentes
 

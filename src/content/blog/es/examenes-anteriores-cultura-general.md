@@ -61,11 +61,11 @@ Tres pilares.
 
 **Exámenes anteriores + método + actualidad.** Los tres juntos. Ninguno basta solo.
 
-**Quizzes para memorizar.** Ver nuestro artículo sobre [gamificacion del aprendizaje](/es/blog/gamificacion-educacion/). SAPIRO propone 2 000+ preguntas de cultura general perfectas para sesiones cortas diarias.
+**Quizzes para memorizar.** SAPIRO propone 2 000+ preguntas de cultura general perfectas para sesiones cortas diarias.
 
 **Intercambios humanos.** Encontrar un compañero de oposición o un mentor. Gratis y acelera el aprendizaje.
 
-Para profundizar: [cultura general en oposiciones publicas](/es/blog/cultura-general-oposiciones/) y [como repasar en 30 dias](/es/blog/repasar-cultura-general-30-dias/).
+Para profundizar: [cultura general en oposiciones publicas](/es/blog/cultura-general-oposiciones/).
 
 <figure>
   <img src="/images/blog/apprentissage/bureau-revision.jpg" alt="Un gabinete de estudio del siglo XIX con biblioteca y chimenea" loading="lazy" />

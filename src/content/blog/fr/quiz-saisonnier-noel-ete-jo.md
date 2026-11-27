@@ -8,6 +8,7 @@ imageCredit: "Photo : Rhododendrites · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "fr"
 urlSlug: "quiz-saisonnier-noel-ete-jo"
 translationKey: "quiz-saisonnier"
+noindex: true
 category: "formats-quiz"
 author: "SAPIRO"
 readingTime: 5

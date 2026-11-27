@@ -61,8 +61,6 @@ Le malamute est plus gros (30 à 40 kilos), avec des yeux toujours bruns. Tête 
 
 Le samoyède a un pelage blanc immaculé et un "sourire" caractéristique.
 
-Pour creuser, voir notre [guide des races de chiens](/blog/reconnaitre-races-chiens/).
-
 ## Dauphin et marsouin
 
 Le dauphin a un long museau en forme de bec et des dents coniques.
@@ -153,7 +151,7 @@ La truite est plus petite et vit toute sa vie en eau douce (sauf la truite de me
 
 Trois techniques marchent. La comparaison en paire (toujours apprendre deux espèces ensemble). L'identification par caractère discriminant (un seul critère qui tranche). L'ancrage géographique (quel continent, quel habitat).
 
-Pour creuser : [50 espèces animales à reconnaître](/blog/quiz-animaux-especes-monde/) et celui sur les [races de chiens](/blog/reconnaitre-races-chiens/). SAPIRO propose des quiz sur 600 espèces, dont beaucoup de paires piégeuses, avec une explication didactique derrière chaque réponse.
+SAPIRO propose des quiz sur 600 espèces, dont beaucoup de paires piégeuses, avec une explication didactique derrière chaque réponse.
 
 <figure>
   <img src="/images/blog/nature/guepard.jpg" alt="Un guépard reconnaissable à ses larmes noires" loading="lazy" />

@@ -71,7 +71,7 @@ Cierra los ojos y piensa en el Sahara. Seguro que ves dunas doradas hasta el hor
 
 La mayoría comparten raíces comunes. Nuestro sistema educativo se centra en la geografía local y deja enormes huecos sobre el resto del mundo. Los medios de comunicación refuerzan estereotipos y simplifican la información geográfica. La proyección de Mercator, usada durante siglos como mapa estándar, distorsiona nuestra percepción de tamaños y posiciones. Y luego está lo obvio: sin práctica regular, se nos olvida lo que aprendimos en la escuela.
 
-Corregir estos errores tampoco requiere volver a la escuela. Los métodos de [repeticion espaciada](/es/blog/mejores-apps-geografia/) funcionan especialmente bien para fijar información geográfica a largo plazo. Y la [gamificacion aplicada a la educacion](/es/blog/gamificacion-educacion/) muestra que los quiz mejoran la retención hasta un 50% frente a la lectura pasiva.
+Corregir estos errores tampoco requiere volver a la escuela. Los métodos de [repeticion espaciada](/es/blog/mejores-apps-geografia/) funcionan especialmente bien para fijar información geográfica a largo plazo. Y la gamificación aplicada a la educación muestra que los quiz mejoran la retención hasta un 50% frente a la lectura pasiva.
 
 <figure>
   <img src="/images/blog/monde/globe-terrestre.jpg" alt="Un mapa antiguo en proyección circular que muestra dos tercios del globo" loading="lazy" />

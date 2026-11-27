@@ -8,7 +8,7 @@ import { getCollection } from 'astro:content';
 const lang = 'en';
 const t = getTranslations(lang);
 
-const allPosts = await getCollection('blog');
+const allPosts = await getCollection('blog', ({ data }) => !data.noindex);
 const artCategories = ['art'];
 const articles = allPosts
   .filter(p => p.data.lang === 'en' && artCategories.includes(p.data.category))
@@ -18,8 +18,7 @@ const articles = allPosts
 const featuredSlugs = [
   'famous-paintings-masterpieces', 'essential-artworks-to-know', 'famous-sculptures-world',
   'art-movements-explained', 'recognize-painter-style', 'famous-monuments-world',
-  'most-visited-museums-world', 'art-history-beginners', 'art-history-quiz-exam',
-  'teaching-art-kids',
+  'most-visited-museums-world',
 ];
 const moreArticles = articles.filter(p => !featuredSlugs.includes(p.data.urlSlug));
 
@@ -91,15 +90,6 @@ const faqSchema = {
         <h2>Museums and places</h2>
         <ul class="pillar-grid">
           <li><a href="/en/blog/most-visited-museums-world/">The 15 most visited museums</a></li>
-          <li><a href="/en/blog/art-history-beginners/">Art history for beginners</a></li>
-        </ul>
-      </section>
-
-      <section class="pillar-sub">
-        <h2>Reviewing art</h2>
-        <ul class="pillar-grid">
-          <li><a href="/en/blog/art-history-quiz-exam/">Art history quiz exam level</a></li>
-          <li><a href="/en/blog/teaching-art-kids/">Teaching art to kids</a></li>
         </ul>
       </section>
 

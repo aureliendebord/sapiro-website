@@ -55,7 +55,7 @@ Vor der Liste eine kurze Erinnerung. Die IUCN ordnet Arten in sieben Stufen ein.
 
 **Spitzmaulnashorn**: 6.500 Tiere, Tendenz steigend, nachdem der Bestand 1995 auf 2.400 gefallen war.
 
-**Gepard**: 7.100 Tiere, gegenüber 100.000 vor einem Jahrhundert. Der afrikanische Sprinter leidet vor allem unter dem Verlust seines Lebensraums. Wie du ihn vom Leoparden unterscheidest, erfährst du in unserem [Leitfaden zu 50 Tierarten](/en/blog/quiz-animals-world-species/).
+**Gepard**: 7.100 Tiere, gegenüber 100.000 vor einem Jahrhundert. Der afrikanische Sprinter leidet vor allem unter dem Verlust seines Lebensraums.
 
 **Eisbär**: 22.000 bis 31.000 Tiere. Der Bestand ist vorerst stabil, langfristig aber durch das schmelzende Meereis bedroht.
 
@@ -107,7 +107,7 @@ Oft heißt es, die Wilderei sei die Hauptursache. Falsch. Hier die tatsächliche
 
 Der **Kalifornische Kondor**, der **Amerikanische Bison** (von 750 auf 30.000 Tiere erholt), der **Berggorilla**, der **Waldrapp** und die **Arabische Oryx** (nach ihrem Aussterben in freier Wildbahn wieder ausgewildert) zeigen, dass Artenschutz die Entwicklung umkehren kann. Jeder dieser Fälle erfordert aber jahrzehntelange, abgestimmte Arbeit und enorme Mittel.
 
-Mehr zum Thema Natur findest du in unserem Artikel über [seltsame und wenig bekannte Tiere](/en/blog/strange-unknown-animals/) und in dem über [die gefährlichsten Tiere der Welt](/en/blog/most-dangerous-animals-world/). Und zu den Arten, die wir nicht retten konnten: die [kürzlich ausgestorbenen Tiere](/en/blog/recently-extinct-animals/). Mit SAPIRO kannst du dein Wissen über 600 Arten testen, mit einer Erklärung zu jeder Frage.
+Mehr zum Thema Natur findest du in unserem Artikel über [seltsame und wenig bekannte Tiere](/en/blog/strange-unknown-animals/). Und zu den Arten, die wir nicht retten konnten: die [kürzlich ausgestorbenen Tiere](/en/blog/recently-extinct-animals/). Mit SAPIRO kannst du dein Wissen über 600 Arten testen, mit einer Erklärung zu jeder Frage.
 
 <figure>
   <img src="/images/blog/nature/rhinoceros.jpg" alt="Nashornschädel mit seinen zwei Hörnern, ausgestellt in einem Museum" loading="lazy" />

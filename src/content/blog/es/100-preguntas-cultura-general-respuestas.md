@@ -29,7 +29,7 @@ quiz:
 
 Cien preguntas, cien respuestas a la vista, cinco campos. La gran lista para repasar a fondo, preparar un quiz gigante o ir picoteando ronda tras ronda.
 
-Las preguntas están ordenadas por tema (geografía, historia, arte y cultura, ciencias, naturaleza), con un nivel indicado en cada una. Cuenta un punto por respuesta correcta; el baremo está al final. Para un formato más corto, mira nuestras [10](/es/blog/10-preguntas-cultura-general-respuestas/), [20](/es/blog/20-preguntas-cultura-general-respuestas/) o [50 preguntas](/es/blog/50-preguntas-cultura-general-respuestas/).
+Las preguntas están ordenadas por tema (geografía, historia, arte y cultura, ciencias, naturaleza), con un nivel indicado en cada una. Cuenta un punto por respuesta correcta; el baremo está al final. Para un formato más corto, mira nuestras [50 preguntas](/es/blog/50-preguntas-cultura-general-respuestas/).
 
 ## Geografía
 
@@ -93,7 +93,7 @@ Las preguntas están ordenadas por tema (geografía, historia, arte y cultura, c
 **20. ¿Qué país sudamericano tiene el litoral pacífico más largo?** *(difícil)*
 **Chile.** Este país estrecho se extiende más de 4000 km de norte a sur.
 
-¿Quieres seguir con geografía? Nuestro [quiz de capitales por continente](/es/blog/quiz-capitales-por-continente/).
+¿Quieres seguir con geografía? Nuestro [quiz de capitales del mundo](/es/blog/quiz-capitales-mundo/).
 
 ## Historia
 
@@ -359,13 +359,13 @@ Cuenta un punto por respuesta correcta, sobre 100.
 
 **De 41 a 70:** buen nivel general. Te defiendes en cualquier sitio, con huecos en las preguntas más finas.
 
-**De 71 a 100:** excelente. Mídete con los niveles expertos de nuestro [quiz por niveles](/es/blog/quiz-cultura-general-nivel/).
+**De 71 a 100:** excelente. Ya puedes medirte con preguntas de nivel experto.
 
 ## Para seguir aprendiendo
 
 Cien preguntas son todo un maratón. Pero la cultura general se construye a base de pequeñas dosis regulares, no de una sola sesión.
 
-Esa es la idea de SAPIRO: cientos de quizzes sobre geografía (197 países), historia, arte y naturaleza, con una explicación detrás de cada respuesta. Gratis, sin publicidad. Para un entrenamiento pautado de un mes, sigue nuestro método para [repasar cultura general en 30 días](/es/blog/repasar-cultura-general-30-dias/).
+Esa es la idea de SAPIRO: cientos de quizzes sobre geografía (197 países), historia, arte y naturaleza, con una explicación detrás de cada respuesta. Gratis, sin publicidad.
 
 ## Preguntas frecuentes
 

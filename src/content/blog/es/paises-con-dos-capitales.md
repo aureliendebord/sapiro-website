@@ -70,7 +70,7 @@ Santiago es la capital y concentra el ejecutivo y la justicia. El Congreso Nacio
 | Esuatini | Mbabane, Lobamba | Capital administrativa / capital real y legislativa |
 | Chile | Santiago, Valparaíso | Capital / sede del Congreso |
 
-Confundir estas capitales es uno de los [errores de geografía más comunes](/es/blog/errores-geografia/). El [quiz de capitales del mundo](/es/blog/quiz-capitales-mundo/) repasa el conjunto, mientras que el [quiz de capitales por continente](/es/blog/quiz-capitales-por-continente/) permite trabajar región por región.
+Confundir estas capitales es uno de los [errores de geografía más comunes](/es/blog/errores-geografia/). El [quiz de capitales del mundo](/es/blog/quiz-capitales-mundo/) repasa el conjunto y permite trabajar continente por continente.
 
 ## Preguntas frecuentes
 

@@ -63,7 +63,7 @@ The defining trend of recent years is no longer growth but **regulation**. Forbi
 
 Want to test how much of this stuck? SAPIRO's general-knowledge quizzes turn these numbers and places into quick rounds, perfect for checking whether you could locate the Forbidden City or date the Colosseum.
 
-To go further, browse our [full guide to monuments](/en/monuments/), our pick of the [30 famous monuments of the world](/en/blog/famous-monuments-world/), our guide to the [monuments of Paris](/en/blog/paris-monuments/) and our overview of [UNESCO World Heritage sites](/en/blog/unesco-world-heritage-sites/).
+To go further, browse our [full guide to monuments](/en/monuments/), our pick of the [30 famous monuments of the world](/en/blog/famous-monuments-world/) and our guide to the [monuments of Paris](/en/blog/paris-monuments/).
 
 <figure>
   <img src="/images/blog/monuments/grande-muraille.jpg" alt="The Great Wall of China" loading="lazy" />

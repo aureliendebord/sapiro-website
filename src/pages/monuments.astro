@@ -9,7 +9,7 @@ import { getTranslations } from '../i18n';
 const lang = 'fr';
 const t = getTranslations(lang);
 
-const allPosts = await getCollection('blog');
+const allPosts = await getCollection('blog', ({ data }) => !data.noindex);
 const monumentsCategories = ['monuments'];
 const articles = allPosts
   .filter(p => p.data.lang === 'fr' && monumentsCategories.includes(p.data.category))
@@ -17,11 +17,9 @@ const articles = allPosts
 
 // Slugs déjà mis en avant dans les listes curées ci-dessous (pour ne pas les répéter).
 const featuredSlugs = [
-  'merveilles-du-monde', 'monuments-celebres-monde', 'monuments-plus-visites-monde',
-  'monuments-france', 'monuments-paris', 'monuments-italie', 'monuments-egypte',
-  'monuments-espagne', 'monuments-royaume-uni', 'sites-unesco-patrimoine-mondial',
+  'monuments-celebres-monde', 'monuments-plus-visites-monde',
+  'monuments-france', 'monuments-paris', 'monuments-royaume-uni',
   'monuments-antiquite', 'chateaux-palais-celebres-monde', 'quiz-monuments-monde',
-  'monuments-culture-generale-concours',
 ];
 const moreArticles = articles.filter(p => !featuredSlugs.includes(p.data.urlSlug));
 
@@ -112,7 +110,6 @@ const breadcrumbSchema = {
       <section class="pillar-sub">
         <h2>Les incontournables</h2>
         <ul class="pillar-grid">
-          <li><a href="/blog/merveilles-du-monde/">Les 7 merveilles du monde (antiques et modernes)</a></li>
           <li><a href="/blog/monuments-celebres-monde/">30 monuments célèbres du monde à reconnaître</a></li>
           <li><a href="/blog/monuments-plus-visites-monde/">Les monuments les plus visités au monde</a></li>
         </ul>
@@ -123,9 +120,6 @@ const breadcrumbSchema = {
         <ul class="pillar-grid">
           <li><a href="/blog/monuments-france/">Les plus beaux monuments de France</a></li>
           <li><a href="/blog/monuments-paris/">Les monuments de Paris à connaître</a></li>
-          <li><a href="/blog/monuments-italie/">Les monuments d'Italie</a></li>
-          <li><a href="/blog/monuments-egypte/">Les monuments d'Égypte</a></li>
-          <li><a href="/blog/monuments-espagne/">Les monuments d'Espagne</a></li>
           <li><a href="/blog/monuments-royaume-uni/">Les monuments du Royaume-Uni</a></li>
         </ul>
       </section>
@@ -133,7 +127,6 @@ const breadcrumbSchema = {
       <section class="pillar-sub">
         <h2>Patrimoine et grandes époques</h2>
         <ul class="pillar-grid">
-          <li><a href="/blog/sites-unesco-patrimoine-mondial/">Le patrimoine mondial de l'UNESCO</a></li>
           <li><a href="/blog/monuments-antiquite/">Les monuments de l'Antiquité (Égypte, Grèce, Rome)</a></li>
           <li><a href="/blog/chateaux-palais-celebres-monde/">Châteaux et palais célèbres du monde</a></li>
         </ul>
@@ -143,7 +136,6 @@ const breadcrumbSchema = {
         <h2>Réviser et jouer</h2>
         <ul class="pillar-grid">
           <li><a href="/blog/quiz-monuments-monde/">Quiz monuments du monde</a></li>
-          <li><a href="/blog/monuments-culture-generale-concours/">Monuments à connaître pour les concours et le bac</a></li>
         </ul>
       </section>
 

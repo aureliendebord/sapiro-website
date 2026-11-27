@@ -8,6 +8,7 @@ imageCredit: "Photo: Vyacheslav Argenberg · CC BY 4.0 · Wikimedia Commons"
 lang: "en"
 urlSlug: "teaching-art-kids"
 translationKey: "apprendre-art-enfants"
+noindex: true
 category: "famille"
 author: "SAPIRO"
 readingTime: 6
@@ -43,7 +44,7 @@ The child can place a painting in an era. Renaissance, Impressionism, modern art
 
 The child can begin to analyze composition, technique, message. This is the age of real art history.
 
-**Concepts to introduce.** Sfumato, perspective, chiaroscuro, impasto, abstraction. See our [art history beginners guide](/en/blog/art-history-beginners/).
+**Concepts to introduce.** Sfumato, perspective, chiaroscuro, impasto, abstraction. See our [art history beginners guide](/en/blog/art-movements-explained/).
 
 **Activities.** One museum a month. Read a short artist biography (Van Gogh, Frida Kahlo accessible). Regular art quizzes.
 

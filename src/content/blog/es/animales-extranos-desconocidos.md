@@ -73,7 +73,7 @@ La naturaleza tiene a veces más imaginación que cualquier película de ciencia
 
 La mayoría de estos animales comparten tres rasgos. Viven en hábitats difíciles de acceso (grandes profundidades, bosques densos, subsuelo). Son raros o muy localizados. Su descubrimiento es reciente, a veces menos de 50 años. La biodiversidad sigue siendo en gran parte por explorar: se estima que el 86% de las especies terrestres y el 91% de las marinas aún no han sido descritas.
 
-Para profundizar: [50 especies animales que reconocer](/es/blog/quiz-animales-especies-mundo/), [animales en peligro de extinción](/es/blog/animales-en-peligro-extincion/) y [animales más peligrosos del mundo](/es/blog/animales-mas-peligrosos-mundo/). SAPIRO propone quizzes sobre 600 especies, de las más conocidas a las más extrañas, con explicación detrás de cada pregunta.
+Para profundizar: [animales en peligro de extinción](/es/blog/animales-en-peligro-extincion/). SAPIRO propone quizzes sobre 600 especies, de las más conocidas a las más extrañas, con explicación detrás de cada pregunta.
 
 <figure>
   <img src="/images/blog/nature/ornithorynque.jpg" alt="Un ornitorrinco, mamífero que pone huevos" loading="lazy" />

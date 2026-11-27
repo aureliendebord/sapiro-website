@@ -99,7 +99,7 @@ Pour les adultes :
 
 Pour surprendre vos joueurs et éviter la routine, variez les formats au fil de la soirée.
 
-Le quiz à choix multiples. Trois ou quatre réponses possibles. C'est le format le plus accessible : même sans connaître la réponse, on peut tenter sa chance. Parfait pour lancer la soirée avec les plus jeunes. La [gamification et ses mécaniques](/blog/gamification-education/) expliquent pourquoi ce format accroche tant.
+Le quiz à choix multiples. Trois ou quatre réponses possibles. C'est le format le plus accessible : même sans connaître la réponse, on peut tenter sa chance. Parfait pour lancer la soirée avec les plus jeunes.
 
 Le quiz musical. Jouez des musiques traditionnelles ou des hymnes nationaux et demandez de quel pays ils proviennent. YouTube ou Spotify suffisent largement pour trouver les morceaux.
 

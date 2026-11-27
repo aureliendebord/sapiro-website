@@ -107,7 +107,7 @@ SAPIRO ofrece una versión gratuita bastante completa con quiz de países, capit
 
 ### ¿Se puede aprender geografía solo con una app?
 
-Una app es una base excelente, pero combinar con otras actividades (documentales, atlas, [noches de quiz en familia](/es/blog/geografia-familia/)) mejora los resultados. La [gamificación en la educación](/es/blog/gamificacion-educacion/) funciona mejor como cierre de ciclo, no como único método.
+Una app es una base excelente, pero combinar con otras actividades (documentales, atlas, [noches de quiz en familia](/es/blog/geografia-familia/)) mejora los resultados. La gamificación en la educación funciona mejor como cierre de ciclo, no como único método.
 
 ### ¿Qué app de geografía es mejor para niños?
 
@@ -119,4 +119,4 @@ Después de probar estas ocho aplicaciones durante semanas, la que mejor equilib
 
 Ninguna app sola lo cubre todo. Complementa con GeoGuessr cuando quieras explorar y con Google Earth cuando un tema te pique la curiosidad. Entre las tres, tienes un kit bastante completo para cubrir países, capitales, banderas y cultura del mundo.
 
-Si dudas entre SAPIRO y GeoGuessr, nuestro [comparativo detallado SAPIRO vs GeoGuessr](/es/blog/sapiro-vs-geoguessr/) te ayudará a decidir. Para comparar con una herramienta de aula, consulta nuestro [comparativo SAPIRO vs Kahoot](/es/blog/sapiro-vs-kahoot/). Y para un panorama más amplio, consulta nuestra guía de las [mejores apps de quiz de cultura general](/es/blog/mejores-apps-quiz-cultura-general/).
+Si lo que te tienta es GeoGuessr, nuestra selección de [alternativas a GeoGuessr](/es/blog/alternativas-geoguessr/) te ayudará a decidir. Y para un panorama más amplio, con herramientas de aula como Kahoot incluidas, consulta nuestra guía de las [mejores apps de quiz de cultura general](/es/blog/mejores-apps-quiz-cultura-general/).

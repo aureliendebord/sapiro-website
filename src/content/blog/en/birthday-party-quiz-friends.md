@@ -55,7 +55,7 @@ For a standard evening with friends.
 
 **Sports.** Notable events, legends by discipline.
 
-**Geography and travel.** Flags, capitals, monuments. See our [capitals quiz by continent](/en/blog/capitals-quiz-by-continent/).
+**Geography and travel.** Flags, capitals, monuments. See our [world capitals quiz](/en/blog/world-capitals-quiz/).
 
 **"Who am I?" quiz (historical figures).** See our article on [major historical figures](/en/blog/historical-figures/).
 
@@ -93,7 +93,7 @@ Three principles.
 
 ## To prepare quickly
 
-SAPIRO offers 2,000+ questions by category (geography, history, art, nature). Ideal to quickly pick quality questions with an explanation. Worth reading: [family cultural activities](/en/blog/family-cultural-activities/) to extend.
+SAPIRO offers 2,000+ questions by category (geography, history, art, nature). Ideal to quickly pick quality questions with an explanation.
 
 <figure>
   <img src="/images/blog/apprentissage/jeu-societe-amis.jpg" alt="A family playing Monopoly in their living room" loading="lazy" />

@@ -47,7 +47,7 @@ La règle des quinze minutes, d'abord. Un quart d'heure par jour pour apprendre 
 
 La curiosité active. Quand vous tombez sur un mot, un nom ou un concept inconnu, cherchez la réponse dans la journée. Pas demain. Aujourd'hui. Cette habitude change tout, parce qu'elle transforme chaque friction en micro-apprentissage.
 
-La répétition espacée. Le cerveau oublie vite ce qu'il n'utilise pas. Revoir une information après 1 jour, puis 3, puis 7, puis 30 ancre la connaissance dans la mémoire à long terme. C'est le principe derrière les meilleures applis d'apprentissage, et la [science de la gamification](/blog/gamification-education/) confirme son efficacité.
+La répétition espacée. Le cerveau oublie vite ce qu'il n'utilise pas. Revoir une information après 1 jour, puis 3, puis 7, puis 30 ancre la connaissance dans la mémoire à long terme. C'est le principe derrière les meilleures applis d'apprentissage, et la science de la gamification confirme son efficacité.
 
 L'apprentissage par le jeu, ensuite. Se tromper devant une bonne réponse crée un engagement cognitif supérieur à la simple lecture. C'est pour ça qu'on retient ses erreurs. Organiser une [soirée quiz en famille](/blog/geographie-famille/) mélange apprentissage et convivialité sans effort.
 
@@ -63,7 +63,7 @@ Côté livres, quelques titres ont vraiment l'ambition d'ouvrir des portes. *Sap
 
 Les documentaires et les chaînes YouTube offrent un apprentissage visuel qui accroche. Arte reste la référence en accès libre. *Nota Bene* raconte l'histoire sans l'embaumer, *Le Dessous des Cartes* (la version Arte) décortique la géopolitique, *Dirty Biology* vulgarise la science avec un ton très peu scolaire.
 
-Les applis de quiz, enfin, sont le format idéal pour des sessions courtes et régulières. SAPIRO combine géographie et culture générale avec une explication derrière chaque question. Pour vous tester tout de suite, essayez nos [10 questions de culture générale](/blog/10-questions-culture-generale-reponses/) ou la série complète de [50 questions](/blog/50-questions-culture-generale-reponses/). Pour un comparatif complet, voyez notre article sur [les meilleures applications de géographie](/blog/meilleures-apps-geographie/).
+Les applis de quiz, enfin, sont le format idéal pour des sessions courtes et régulières. SAPIRO combine géographie et culture générale avec une explication derrière chaque question. Pour vous tester tout de suite, essayez nos [50 questions de culture générale](/blog/50-questions-culture-generale-reponses/). Pour un comparatif complet, voyez notre article sur [les meilleures applications de géographie](/blog/meilleures-apps-geographie/).
 
 ## Comment retenir ce qu'on apprend
 

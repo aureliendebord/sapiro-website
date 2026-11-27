@@ -79,7 +79,7 @@ Phonetic difficulty plays a role too. Capitals with unfamiliar pronunciations or
 
 ## How can you memorize all 195 world capitals?
 
-Memorizing all 195 capitals is entirely achievable with the right approach. Here are techniques supported by cognitive science research, several of which connect to the principles of [gamification in education](/en/blog/gamification-education/).
+Memorizing all 195 capitals is entirely achievable with the right approach. Here are techniques supported by cognitive science research.
 
 ### Spaced Repetition
 

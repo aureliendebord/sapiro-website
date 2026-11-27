@@ -29,7 +29,7 @@ A esta edad, el niño aprende por categorías simples: granja, sabana, mar, selv
 
 El niño ya puede asociar animales a su continente y entender la noción de hábitat. Es la edad para introducir las primeras clasificaciones (mamífero, ave, pez, reptil, insecto).
 
-**Quizzes adaptados.** Cincuenta animales: añadir especies emblemáticas por continente. Canguro y koala (Australia), panda y tigre (Asia), llama y tucán (América del Sur), oso pardo y lobo (Europa), bisonte y mapache (América del Norte). Ver nuestra [guía de 50 especies animales](/es/blog/quiz-animales-especies-mundo/).
+**Quizzes adaptados.** Cincuenta animales: añadir especies emblemáticas por continente. Canguro y koala (Australia), panda y tigre (Asia), llama y tucán (América del Sur), oso pardo y lobo (Europa), bisonte y mapache (América del Norte).
 
 **Nociones a introducir.** Carnívoro, herbívoro, omnívoro. Por qué el león come carne y la jirafa hojas. La cadena alimentaria simple.
 
@@ -63,7 +63,7 @@ Tres principios valen para todas las edades.
 
 **Asociar a historias.** Una anécdota se queda mejor que una ficha. Que el dragón de Komodo sea el único lagarto que caza humanos, que la mantis religiosa se coma al macho tras el apareamiento, que un camaleón pueda girar los ojos por separado: estos hechos "locos" se anclan.
 
-**Testear regularmente.** [La ciencia del aprendizaje activo](/es/blog/gamificacion-educacion/) muestra que los niños retienen un 50% mejor cuando se autoexaminan que cuando leen pasivamente. Los quizzes son la herramienta ideal.
+**Testear regularmente.** La ciencia del aprendizaje activo muestra que los niños retienen un 50% mejor cuando se autoexaminan que cuando leen pasivamente. Los quizzes son la herramienta ideal.
 
 ## Trampas a evitar
 

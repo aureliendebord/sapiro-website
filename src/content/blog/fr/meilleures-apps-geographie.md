@@ -40,8 +40,6 @@ GeoGuessr a inventé son propre genre. On vous lâche quelque part sur Google St
 
 Addictif, franchement addictif. Plus de 50 millions de joueurs, un mode multijoueur qui transforme chaque partie en duel, et un contenu quasi infini grâce à Google Street View. Mais l'abonnement Pro (autour de 7 euros par mois, moins à l'année) pique pour un jeu mobile, la version gratuite se limite à une partie par jour, et il faut une bonne connexion. Pour apprendre de façon structurée avec des fiches, ce n'est pas l'outil. Pour le fun pur et le défi, rien d'équivalent.
 
-Si le format intrigue, notre article sur [la gamification dans l'éducation](/blog/gamification-education/) explique pourquoi ça accroche autant.
-
 ## 4. World Geography, l'outil complet et gratuit
 
 Application iOS et Android qui va droit au but : quiz sur pays, capitales, drapeaux, monnaies, religions, langues. Le mode apprentissage fournit une fiche détaillée pour chaque pays, les statistiques de progression sont correctes, et tout fonctionne hors ligne. Pour un outil gratuit, difficile de faire mieux.
@@ -116,4 +114,4 @@ La plupart des apps de géographie choisissent un angle : les cartes, les drapea
 
 L'interface reste sobre, l'app s'adapte au niveau, et quinze minutes par jour suffisent. Le genre d'app qu'on ouvre dans le métro et dont on sort un peu moins ignorant, sans s'en rendre compte.
 
-Si vous hésitez entre SAPIRO et GeoGuessr, notre [comparatif détaillé SAPIRO vs GeoGuessr](/blog/sapiro-vs-geoguessr/) tranche. Pour comparer avec un outil de classe, voir notre [comparatif SAPIRO vs Kahoot](/blog/sapiro-vs-kahoot/). Et pour un panorama plus large, notre guide des [meilleures apps de quiz de culture générale](/blog/meilleures-apps-quiz-culture-generale/).
+Si vous hésitez entre SAPIRO et GeoGuessr, notre sélection d'[alternatives à GeoGuessr](/blog/alternatives-geoguessr/) aide à trancher. Et pour un panorama plus large, outils de classe compris, notre guide des [meilleures apps de quiz de culture générale](/blog/meilleures-apps-quiz-culture-generale/).

@@ -2,7 +2,7 @@
 import PillarLayout from '../../layouts/PillarLayout.astro';
 import { getCollection } from 'astro:content';
 
-const articles = (await getCollection('blog'))
+const articles = (await getCollection('blog', ({ data }) => !data.noindex))
   .filter((p) => p.data.lang === 'es' && (p.data.category === 'comparatifs' || p.data.category === 'apps'))
   .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
   .map((p) => ({ title: p.data.title, url: `/es/blog/${p.data.urlSlug}/` }));

@@ -8,6 +8,7 @@ imageCredit: "Photo: Bill Branson (Photographer) · public domain · Wikimedia C
 lang: "en"
 urlSlug: "gamification-education"
 translationKey: "gamification-education"
+noindex: true
 category: "education"
 author: "SAPIRO"
 readingTime: 7
@@ -126,4 +127,4 @@ SAPIRO builds on retrieval practice, spaced repetition, and adaptive difficulty 
 
 Whether you are a student preparing for exams, a parent looking for educational screen time, or someone who likes knowing things about the world, the cognitive science behind the app ensures that what you learn stays learned. Try a session on capitals or flags and see what sticks after a week.
 
-To see how these principles compare to a classroom tool, read our [SAPIRO vs Kahoot comparison](/en/blog/sapiro-vs-kahoot/). And for a concrete example of gamified learning in action, our guide on [learning history the fun way](/en/blog/learning-history-fun/) shows how quizzes and narrative make history stick.
+To see how these principles compare to a classroom tool, read our [SAPIRO vs Kahoot comparison](/en/blog/best-quiz-apps-general-knowledge/). And for a concrete example of gamified learning in action, our guide on [learning history the fun way](/en/blog/learning-history-fun/) shows how quizzes and narrative make history stick.

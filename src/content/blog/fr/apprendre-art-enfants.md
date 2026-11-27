@@ -8,6 +8,7 @@ imageCredit: "Photo : Vyacheslav Argenberg · CC BY 4.0 · Wikimedia Commons"
 lang: "fr"
 urlSlug: "apprendre-art-enfants"
 translationKey: "apprendre-art-enfants"
+noindex: true
 category: "famille"
 author: "SAPIRO"
 readingTime: 6
@@ -43,7 +44,7 @@ L'enfant peut situer un tableau dans une époque. Renaissance, Impressionnisme, 
 
 L'enfant peut commencer à analyser composition, technique, message. C'est l'âge de la première vraie histoire de l'art.
 
-**Notions à introduire.** Sfumato, perspective, clair-obscur, impasto, abstraction. Voir notre [guide histoire de l'art pour débutants](/blog/histoire-art-pour-les-nuls/).
+**Notions à introduire.** Sfumato, perspective, clair-obscur, impasto, abstraction. Voir notre [guide histoire de l'art pour débutants](/blog/mouvements-artistiques/).
 
 **Activités.** Visiter un musée par mois. Lire une biographie courte d'artiste (Van Gogh, Frida Kahlo accessibles). Quiz d'art régulier.
 

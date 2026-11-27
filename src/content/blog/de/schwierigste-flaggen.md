@@ -86,7 +86,7 @@ Die Symbolik reicht tief, und unser Artikel über [die Bedeutung von Flaggen, Fa
   <figure><img src="/flags/countries/tm.svg" alt="Flagge: Turkmenistan" loading="lazy" /><figcaption>Turkmenistan</figcaption></figure>
 </div>
 
-Jedes Teppichmuster korrekt abzurufen, schaffen nur wenige, und genau deshalb ist diese Flagge in jedem [spielerischen Quiz](/en/blog/gamification-education/) ein wiederkehrender Stolperstein. Selbst das Erkennen ist eine Herausforderung: Dein Gehirn muss ungewöhnlich viele visuelle Informationen verarbeiten, bevor es die Flagge einem Land zuordnen kann.
+Jedes Teppichmuster korrekt abzurufen, schaffen nur wenige, und genau deshalb ist diese Flagge in jedem spielerischen Quiz ein wiederkehrender Stolperstein. Selbst das Erkennen ist eine Herausforderung: Dein Gehirn muss ungewöhnlich viele visuelle Informationen verarbeiten, bevor es die Flagge einem Land zuordnen kann.
 
 ## Belize und sein Wappen
 
@@ -171,7 +171,7 @@ Erstens: Konzentrier dich auf die unterscheidenden Details. Statt jede Flagge is
 
 Zweitens: Nutze Eselsbrücken. Verknüpfe das besondere Merkmal einer Flagge mit etwas Einprägsamem über das Land. Bhutan hat einen Drachen, weil es das „Land des Donnerdrachen“ ist. Turkmenistan hat Teppichmuster, weil es für seine Teppiche berühmt ist. Je alberner das Bild im Kopf, desto besser bleibt es hängen.
 
-Drittens: Übe mit verteilter Wiederholung. Wiederhole schwierige Flaggen in wachsenden Abständen: nach einem Tag, dann nach drei Tagen, dann nach einer Woche. Jede Wiederholung setzt deine Vergessenskurve zurück und stärkt das Erinnern. Die Forschung zu [Gamification und Lernen](/en/blog/gamification-education/) bestätigt, dass dieser Ansatz deutlich besser funktioniert als geballtes Pauken.
+Drittens: Übe mit verteilter Wiederholung. Wiederhole schwierige Flaggen in wachsenden Abständen: nach einem Tag, dann nach drei Tagen, dann nach einer Woche. Jede Wiederholung setzt deine Vergessenskurve zurück und stärkt das Erinnern. Die Forschung zu Gamification und Lernen bestätigt, dass dieser Ansatz deutlich besser funktioniert als geballtes Pauken.
 
 Viertens: Lerne Flaggen in Familien. Nimm dir die nordischen Kreuze zusammen vor, die panafrikanischen Trikoloren zusammen, die panarabischen Flaggen zusammen. Wenn du die „Familie“ kennst, kannst du die Möglichkeiten im Quiz schnell eingrenzen.
 

@@ -8,6 +8,7 @@ imageCredit: "Photo : Diego Delso · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "fr"
 urlSlug: "cites-perdues-monde"
 translationKey: "cites-perdues-monde"
+noindex: true
 category: "monuments"
 author: "SAPIRO"
 readingTime: 6

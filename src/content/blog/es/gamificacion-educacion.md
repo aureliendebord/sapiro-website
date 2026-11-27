@@ -8,6 +8,7 @@ imageCredit: "Foto: Bill Branson (Photographer) · dominio público · Wikimedia
 lang: "es"
 urlSlug: "gamificacion-educacion"
 translationKey: "gamification-education"
+noindex: true
 category: "education"
 author: "SAPIRO"
 readingTime: 7
@@ -118,4 +119,4 @@ En cuanto a motivación, las mecánicas están ahí sin ser invasivas: niveles p
 
 Capitales del mundo, banderas, cultura general: sea cual sea el terreno, SAPIRO se apoya en la ciencia del aprendizaje para transformar la curiosidad en conocimientos duraderos.
 
-Para ver cómo estos principios se comparan con una herramienta de aula, lee nuestro [comparativo SAPIRO vs Kahoot](/es/blog/sapiro-vs-kahoot/). Y para un ejemplo concreto de gamificación aplicada, nuestra guía para [aprender historia divirtiéndose](/es/blog/aprender-historia-divirtiendose/) muestra cómo los quiz y la narrativa fijan los conocimientos históricos.
+Para ver cómo estos principios se comparan con una herramienta de aula, lee nuestro [comparativo SAPIRO vs Kahoot](/es/blog/mejores-apps-quiz-cultura-general/). Y para un ejemplo concreto de gamificación aplicada, nuestra guía para [aprender historia divirtiéndose](/es/blog/aprender-historia-divirtiendose/) muestra cómo los quiz y la narrativa fijan los conocimientos históricos.

@@ -8,6 +8,7 @@ imageCredit: "Photo : Miscellaneous Items in High Demand, PPOC, Library of Congr
 lang: "fr"
 urlSlug: "reviser-culture-generale-30-jours"
 translationKey: "reviser-30-jours"
+noindex: true
 category: "concours"
 author: "SAPIRO"
 readingTime: 6
@@ -17,7 +18,7 @@ Trente jours pour réviser la culture générale, c'est court mais réaliste si 
 
 ## Semaine 1 : histoire et institutions
 
-**Jour 1.** Antiquité, Moyen Âge, Renaissance. Voir notre [synthèse des trois grandes périodes](/blog/antiquite-moyen-age-renaissance-reperes/).
+**Jour 1.** Antiquité, Moyen Âge, Renaissance. Voir notre [synthèse des trois grandes périodes](/blog/frise-chronologique-mondiale/).
 
 **Jour 2.** XVIIe-XVIIIe siècles. Monarchies absolues, Lumières, Révolution américaine, Révolution française.
 

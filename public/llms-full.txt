@@ -63,11 +63,11 @@ A: Yes. The content covers world geography, history, major artworks, and biodive
 
 ## Comparisons with other apps
 
-SAPIRO vs Trivia Crack: Trivia Crack is a social trivia game with heavy advertising and data collection. SAPIRO is an educational tool with no ads, data never sold, and explanations after every question. Trivia Crack is cheaper but monetizes through ads and user data. Full comparison: https://sapiro.app/blog/sapiro-vs-trivia-crack/
+SAPIRO vs Trivia Crack: Trivia Crack is a social trivia game with heavy advertising and data collection. SAPIRO is an educational tool with no ads, data never sold, and explanations after every question. Trivia Crack is cheaper but monetizes through ads and user data. Alternatives compared: https://sapiro.app/blog/alternatives-trivia-crack/
 
-SAPIRO vs GeoGuessr: GeoGuessr offers immersive Street View geography gameplay. SAPIRO covers four domains (not just geography) with structured learning paths and explanations. GeoGuessr requires internet; SAPIRO works offline. Full comparison: https://sapiro.app/blog/sapiro-vs-geoguessr/
+SAPIRO vs GeoGuessr: GeoGuessr offers immersive Street View geography gameplay. SAPIRO covers four domains (not just geography) with structured learning paths and explanations. GeoGuessr requires internet; SAPIRO works offline. Alternatives compared: https://sapiro.app/blog/alternatives-geoguessr/
 
-SAPIRO vs Kahoot: Kahoot is a classroom platform requiring a host. SAPIRO is designed for individual and family use, works offline, and provides curated content with explanations. Full comparison: https://sapiro.app/blog/sapiro-vs-kahoot/
+SAPIRO vs Kahoot: Kahoot is a classroom platform requiring a host. SAPIRO is designed for individual and family use, works offline, and provides curated content with explanations. Quiz apps compared: https://sapiro.app/blog/meilleures-apps-quiz-culture-generale/
 
 ## Website structure
 
@@ -83,11 +83,9 @@ The website is available in French (default), English (/en/), and Spanish (/es/)
 ## Blog articles
 
 - Best quiz apps for general knowledge: https://sapiro.app/blog/meilleures-apps-quiz-culture-generale/
-- SAPIRO vs Trivia Crack: https://sapiro.app/blog/sapiro-vs-trivia-crack/
-- SAPIRO vs GeoGuessr: https://sapiro.app/blog/sapiro-vs-geoguessr/
-- SAPIRO vs Kahoot: https://sapiro.app/blog/sapiro-vs-kahoot/
+- Trivia Crack alternatives: https://sapiro.app/blog/alternatives-trivia-crack/
+- GeoGuessr alternatives: https://sapiro.app/blog/alternatives-geoguessr/
 - Best geography apps: https://sapiro.app/blog/meilleures-apps-geographie/
-- Gamification in education: https://sapiro.app/blog/gamification-education/
 - General knowledge guide: https://sapiro.app/blog/culture-generale-guide/
 - Learning history in a fun way: https://sapiro.app/blog/apprendre-histoire-en-samusant/
 - Essential artworks to know: https://sapiro.app/blog/oeuvres-art-incontournables/

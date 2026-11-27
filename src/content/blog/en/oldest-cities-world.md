@@ -82,7 +82,7 @@ Three reasons explain why two serious lists give different orders.
 
 **Dating carries a margin.** Radiocarbon gives ranges of several centuries for these periods. A "9000 BC" is a central estimate, not a date.
 
-To keep going: the [lost cities of the world](/en/blog/lost-cities-world/) tell the opposite story, of those that did not survive; [ancient monuments](/en/blog/ancient-monuments/) and the [largest empires in history](/en/blog/largest-empires-history/) place these cities in their political context.
+To keep going: [ancient monuments](/en/blog/ancient-monuments/) and the [largest empires in history](/en/blog/largest-empires-history/) place these cities in their political context.
 
 ## Frequently asked questions
 

@@ -8,6 +8,7 @@ imageCredit: "Photo : Charles J. Sharp · CC BY-SA 4.0 · Wikimedia Commons"
 lang: "fr"
 urlSlug: "quiz-animaux-especes-monde"
 translationKey: "quiz-animaux-monde"
+noindex: true
 category: "nature"
 author: "SAPIRO"
 readingTime: 9

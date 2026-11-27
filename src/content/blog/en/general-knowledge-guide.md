@@ -68,9 +68,9 @@ The key word here is "intention." Passive watching builds almost nothing. Active
 
 Quizzes are not just a way to test knowledge; they are one of the most effective ways to build it. The psychological principle at work is called the "testing effect": the act of retrieving information from memory strengthens that memory far more than re-reading the same material ever could.
 
-This is why quiz apps work so well for general knowledge, as we explore in depth in our article on [gamification in education](/en/blog/gamification-education/). A well-designed quiz does not just tell you whether you are right or wrong; it provides context, explanations, and connections that deepen your understanding with every question.
+This is why quiz apps work so well for general knowledge. A well-designed quiz does not just tell you whether you are right or wrong; it provides context, explanations, and connections that deepen your understanding with every question.
 
-Want to test yourself right now? Try our [10 general knowledge questions](/en/blog/10-general-knowledge-questions-answers/) or the full set of [50 questions](/en/blog/50-general-knowledge-questions-answers/). For a comparison of the best quiz apps available today, including options for geography, flags, and culture, see our [roundup of the 8 best geography apps in 2025](/en/blog/best-geography-apps/).
+Want to test yourself right now? Try our [50 general knowledge questions](/en/blog/50-general-knowledge-questions-answers/). For a comparison of the best quiz apps available today, including options for geography, flags, and culture, see our [roundup of the 8 best geography apps in 2025](/en/blog/best-geography-apps/).
 
 ### 4. Engage in Conversations and Debates
 

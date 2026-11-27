@@ -125,7 +125,7 @@ Three flags with red and white stripes and a canton in the upper hoist corner. L
 | Slovenia / Slovakia / Russia | White-blue-red tricolor | Coat of arms, none on Russia's |
 | United States / Liberia / Malaysia | Red and white stripes | 1 star (Liberia), crescent (Malaysia) |
 
-These resemblances often come down to a shared history, something the [meaning of flags](/en/blog/flags-meaning/) explains in detail, as do the [flags of disappeared countries](/en/blog/flags-of-disappeared-countries/). To practice telling them apart, there are still the [hardest flags](/en/blog/hardest-flags/) to name and the [world flags quiz](/en/blog/world-flags-quiz-free-online/).
+These resemblances often come down to a shared history, something the [meaning of flags](/en/blog/flags-meaning/) explains in detail, as do the [flags of disappeared countries](/en/blog/flags-of-disappeared-countries/). To practice telling them apart, there are still the [hardest flags](/en/blog/hardest-flags/) to name and our [20-flag quiz](/en/blog/quiz-flags-countries/).
 
 ## Frequently asked questions
 

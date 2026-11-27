@@ -63,7 +63,7 @@ La grande tendance des dernières années n'est plus la croissance, mais la **r�
 
 Envie de tester ce que vous retenez de tout ça ? Les quiz de culture générale de SAPIRO transforment ces chiffres et ces lieux en parties rapides, parfaites pour vérifier si vous sauriez situer la Cité interdite ou dater le Colisée.
 
-Pour aller plus loin, parcourez notre [dossier complet sur les monuments](/monuments/), notre sélection des [30 monuments célèbres du monde](/blog/monuments-celebres-monde/), notre guide des [monuments de Paris](/blog/monuments-paris/) et notre tour d'horizon des [sites du patrimoine mondial de l'UNESCO](/blog/sites-unesco-patrimoine-mondial/).
+Pour aller plus loin, parcourez notre [dossier complet sur les monuments](/monuments/), notre sélection des [30 monuments célèbres du monde](/blog/monuments-celebres-monde/) et notre guide des [monuments de Paris](/blog/monuments-paris/).
 
 <figure>
   <img src="/images/blog/monuments/grande-muraille.jpg" alt="La Grande Muraille de Chine" loading="lazy" />

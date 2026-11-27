@@ -9,18 +9,17 @@ import { getCollection } from 'astro:content';
 const lang = 'es';
 const t = getTranslations(lang);
 
-const allPosts = await getCollection('blog');
+const allPosts = await getCollection('blog', ({ data }) => !data.noindex);
 const histCategories = ['histoire'];
 const articles = allPosts
   .filter(p => p.data.lang === 'es' && histCategories.includes(p.data.category))
   .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
 
 const featuredSlugs = [
-  'antiguedad-edad-media-renacimiento-resumen', 'linea-tiempo-historia-mundial',
+  'linea-tiempo-historia-mundial',
   'grandes-batallas-historia', 'monumentos-antiguedad', 'personajes-historicos',
   'reyes-monarquias-europa', 'presidentes-estados-unidos', 'mujeres-marcaron-historia',
-  'dictadores-siglo-xx', 'quiz-historia-examen', 'aprender-historia-divirtiendose',
-  'historia-primaria-secundaria-programa',
+  'dictadores-siglo-xx', 'aprender-historia-divirtiendose',
 ];
 const moreArticles = articles.filter(p => !featuredSlugs.includes(p.data.urlSlug));
 
@@ -79,8 +78,7 @@ const faqSchema = {
       <section class="pillar-sub">
         <h2>Los grandes periodos</h2>
         <ul class="pillar-grid">
-          <li><a href="/es/blog/antiguedad-edad-media-renacimiento-resumen/">Antigüedad, Edad Media, Renacimiento</a></li>
-          <li><a href="/es/blog/linea-tiempo-historia-mundial/">Línea de tiempo mundial</a></li>
+          <li><a href="/es/blog/linea-tiempo-historia-mundial/">Antigüedad, Edad Media, Renacimiento</a></li>
           <li><a href="/es/blog/grandes-batallas-historia/">Las 15 grandes batallas de la historia</a></li>
           <li><a href="/es/blog/monumentos-antiguedad/">Los monumentos de la Antigüedad</a></li>
         </ul>
@@ -100,9 +98,7 @@ const faqSchema = {
       <section class="pillar-sub">
         <h2>Repasar historia</h2>
         <ul class="pillar-grid">
-          <li><a href="/es/blog/quiz-historia-examen/">Quiz historia nivel examen</a></li>
           <li><a href="/es/blog/aprender-historia-divirtiendose/">Aprender historia divirtiéndose</a></li>
-          <li><a href="/es/blog/historia-primaria-secundaria-programa/">Historia primaria y secundaria</a></li>
         </ul>
       </section>
 

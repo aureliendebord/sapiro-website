@@ -24,6 +24,9 @@ const blog = defineCollection({
     // lisible, mais sort du sitemap, perd ses hreflang et pointe son canonical
     // vers la page a favoriser.
     canonicalTo: z.string().url().optional(),
+    // Article sans demande de recherche : reste en ligne, mais en noindex, hors
+    // sitemap, sans hreflang et absent des listes d'articles.
+    noindex: z.boolean().optional(),
     // Mini-quiz de 3 questions sur l'article, affiché avant le 2e intertitre
     // (composant BlogQuiz). `answer` = index de la bonne option.
     quiz: z.array(z.object({

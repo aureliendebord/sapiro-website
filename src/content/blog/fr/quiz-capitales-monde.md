@@ -77,7 +77,7 @@ Le piège des noms identiques : Guatemala City est la capitale du Guatemala. Lux
 
 ## Techniques de mémorisation infaillibles
 
-On peut retenir ces capitales. Ça demande de la méthode, pas du talent inné. Les principes sont les mêmes que ceux de la [gamification dans l'apprentissage](/blog/gamification-education/), et fonctionnent aussi bien pour [enseigner la géographie aux enfants](/blog/geographie-enfants/).
+On peut retenir ces capitales. Ça demande de la méthode, pas du talent inné. Les principes sont les mêmes que ceux de la gamification dans l'apprentissage, et fonctionnent aussi bien pour [enseigner la géographie aux enfants](/blog/geographie-enfants/).
 
 Les moyens mnémotechniques : inventez des associations absurdes. Pour retenir Canberra, pensez à "Can Bear a", un kangourou qui peut porter quelque chose. Plus c'est ridicule, plus ça colle en mémoire.
 

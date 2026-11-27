@@ -73,7 +73,7 @@ Conocer estas doce obras es un buen punto de partida. Pero la riqueza real llega
 
 Ahí es donde un enfoque estructurado ayuda. SAPIRO cubre 553 obras de arte a través de quiz con explicaciones detalladas. La aplicación ofrece recorridos temáticos por museo (Louvre, Orsay, MoMA, Prado, Uffizi), por movimiento (Renacimiento, Impresionismo, Arte moderno) y por técnica (pintura, escultura, arquitectura). Cada pregunta conecta al artista con su época y su movimiento, lo que va construyendo un mapa mental de la historia del arte.
 
-Para profundizar en métodos de aprendizaje efectivos, consulta nuestra [guía de cultura general](/es/blog/cultura-general-guia/) y nuestro artículo sobre [gamificación en la educación](/es/blog/gamificacion-educacion/).
+Para profundizar en métodos de aprendizaje efectivos, consulta nuestra [guía de cultura general](/es/blog/cultura-general-guia/).
 
 ## Comparativa: ¿cómo aprender arte?
 
