@@ -1,0 +1,83 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import type { Lang } from '../i18n';
+import { getLocalePath, getTranslations } from '../i18n';
+import { clusters } from '../data/clusters';
+
+interface Props {
+  lang: Lang;
+  posts: CollectionEntry<'blog'>[];
+}
+
+const { lang, posts } = Astro.props;
+const t = getTranslations(lang);
+
+// Un groupe par thème, dans l'ordre des cartes ; chaque article y figure une fois.
+const groups = clusters
+  .map((c) => ({
+    label: c.label[lang] ?? c.label.en ?? c.key,
+    posts: posts.filter((p) => c.categories.includes(p.data.category)),
+  }))
+  .filter((g) => g.posts.length > 0);
+---
+
+<section class="all-posts">
+  <div class="container">
+    <h2 class="all-posts-title">{t.blog.allArticles}</h2>
+    {groups.map((g) => (
+      <div class="all-posts-group">
+        <h3>{g.label}</h3>
+        <ul>
+          {g.posts.map((p) => (
+            <li><a href={getLocalePath(`/blog/${p.data.urlSlug}`, lang)}>{p.data.title}</a></li>
+          ))}
+        </ul>
+      </div>
+    ))}
+  </div>
+</section>
+
+<style>
+  .all-posts {
+    padding: 56px 0 80px;
+    background: #FBF4EB;
+  }
+
+  .all-posts-title {
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    text-align: center;
+    margin-bottom: 32px;
+  }
+
+  .all-posts-group { margin-bottom: 32px; }
+
+  .all-posts-group h3 {
+    font-size: 1.1rem;
+    color: var(--noir);
+    margin-bottom: 12px;
+  }
+
+  .all-posts-group ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    columns: 3;
+    column-gap: 32px;
+  }
+
+  .all-posts-group li {
+    break-inside: avoid;
+    padding: 5px 0;
+    font-size: 0.95rem;
+    line-height: 1.4;
+  }
+
+  .all-posts-group a { color: var(--noir); }
+  .all-posts-group a:hover { color: var(--orange); text-decoration: underline; }
+
+  @media (max-width: 1024px) { .all-posts-group ul { columns: 2; } }
+  @media (max-width: 640px) {
+    .all-posts-group ul { columns: 1; }
+    .all-posts { padding: 40px 0 64px; }
+  }
+</style>

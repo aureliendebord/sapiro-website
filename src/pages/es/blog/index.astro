@@ -8,6 +8,7 @@ import DownloadV2 from '../../../components/v2/DownloadV2.astro';
 import StickyMobileCta from '../../../components/v2/StickyMobileCta.astro';
 import { getTranslations } from '../../../i18n';
 import { clusters } from '../../../data/clusters';
+import BlogAllPosts from '../../../components/BlogAllPosts.astro';
 
 const lang = 'es';
 const t = getTranslations(lang);
@@ -76,6 +77,8 @@ const blogSchema = {
         </div>
       </div>
     </section>
+
+    <BlogAllPosts lang={lang} posts={allPosts} />
 
     <DownloadV2 lang={lang} />
   </main>
