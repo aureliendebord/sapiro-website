@@ -13,19 +13,30 @@ interface Props {
 const { lang, slug, category } = Astro.props;
 
 const all = await getCollection('blog');
-const sameLang = all.filter(p => p.data.lang === lang && p.data.urlSlug !== slug);
+const sameLang = all.filter(p => p.data.lang === lang);
 
-// Priorite : meme categorie, puis meme cluster (categories soeurs), tri par date desc.
 const cluster = getClusterForCategory(category);
 const clusterCats = cluster ? cluster.categories : [category];
 
-const byDate = (a: typeof sameLang[number], b: typeof sameLang[number]) =>
-  b.data.date.getTime() - a.data.date.getTime();
+type Post = typeof sameLang[number];
+const byDate = (a: Post, b: Post) =>
+  b.data.date.getTime() - a.data.date.getTime() || a.data.urlSlug.localeCompare(b.data.urlSlug);
 
-const primary = sameLang.filter(p => p.data.category === category).sort(byDate);
-const secondary = sameLang
-  .filter(p => p.data.category !== category && clusterCats.includes(p.data.category))
-  .sort(byDate);
+// Les 3 articles qui suivent celui-ci dans sa categorie (ordre par date, en
+// boucle), completes par les categories soeurs du cluster. Chaque article
+// recoit ainsi autant de liens qu'il en donne, au lieu que les 3 plus recents
+// les captent tous.
+const after = (ring: Post[]) => {
+  const i = ring.findIndex(p => p.data.urlSlug === slug);
+  return [...ring.slice(i + 1), ...ring.slice(0, Math.max(i, 0))];
+};
+
+const primary = after(sameLang.filter(p => p.data.category === category).sort(byDate));
+const secondary = after(
+  sameLang
+    .filter(p => p.data.urlSlug === slug || (p.data.category !== category && clusterCats.includes(p.data.category)))
+    .sort(byDate),
+);
 
 const related = [...primary, ...secondary].slice(0, 3);
 
