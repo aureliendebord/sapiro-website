@@ -81,9 +81,9 @@ export function appQrUrl(campaign: QrCampaign): string {
 /**
  * Lien vers le jeu jouable en ligne (`/jouer/`, `/en/play/`, `/es/jugar/`, `/de/spielen/`).
  *
- * Contrairement aux liens store, la destination est interne : l'`utm_campaign`
- * sert ici à mesurer quels emplacements du site amènent réellement à jouer,
- * pas à attribuer une install.
+ * Lien interne sans paramètre (pas d'URL dupliquée à explorer) : l'emplacement
+ * se mesure au clic, via `data-umami-event="play-click"` et
+ * `data-umami-event-campaign` sur le lien.
  */
 export type PlayCampaign =
   | 'hero'
@@ -104,8 +104,8 @@ export const PLAY_PATH: Record<Lang, string> = {
   de: '/de/spielen/',
 };
 
-export function playGameUrl(campaign: PlayCampaign, lang: Lang): string {
-  return `${PLAY_PATH[lang]}?utm_source=sapiro.app&utm_medium=website&utm_campaign=${campaign}`;
+export function playGameUrl(lang: Lang): string {
+  return PLAY_PATH[lang];
 }
 
 /**

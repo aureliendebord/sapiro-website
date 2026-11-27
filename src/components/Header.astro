@@ -40,7 +40,7 @@ const switchHref = (l: Lang) => (alternates ?? routeAlternates)[l] ?? getLocaleP
         dit ce qui se passe au clic, là où « Jouer » ne promettait rien de
         précis. */}
     <a
-      href={playGameUrl('nav', lang)}
+      href={playGameUrl(lang)}
       class="nav-cta"
       data-umami-event="play-click"
       data-umami-event-campaign="nav"
@@ -68,7 +68,7 @@ const switchHref = (l: Lang) => (alternates ?? routeAlternates)[l] ?? getLocaleP
 
   <nav class="mobile-nav" id="mobile-nav">
     <a
-      href={playGameUrl('nav', lang)}
+      href={playGameUrl(lang)}
       class="nav-cta nav-cta--block"
       data-umami-event="play-click"
       data-umami-event-campaign="nav"
