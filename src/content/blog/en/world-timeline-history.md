@@ -2,6 +2,7 @@
 title: "World History Timeline: The Essential Markers"
 description: "Antiquity, Middle Ages, Renaissance, industrial era, world wars: world timeline with the dates and events to remember."
 date: 2026-05-17
+lastModified: 2026-11-27
 image: "/images/blog/histoire/pyramides-gizeh.jpg"
 imageAlt: "The pyramids of Giza in Egypt"
 imageCredit: "Photo: Ricardo Liberato · CC BY-SA 2.0 · Wikimedia Commons"
@@ -13,25 +14,25 @@ author: "SAPIRO"
 readingTime: 7
 ---
 
-A mental timeline is the most powerful tool to stop getting lost in world history. Here are the 30 dates and events to know for a coherent overview.
+A mental timeline is the most powerful tool to stop getting lost in world history. Here are some forty dates and events to know for a coherent overview.
 
 ## Prehistory (up to -3000)
 
-**-3.3 million years**: first stone tools.
+**-3.3 million years**: oldest known stone tools, [discovered in Kenya](https://anr.fr/fr/actus/details/news/lequipe-du-projet-archor-decouvre-les-plus-anciens-outils-de-pierre-au-kenya/).
 
-**-300,000**: Homo sapiens appears in Africa.
+**-300,000**: [Homo sapiens](https://humanorigins.si.edu/evidence/human-fossils/species/homo-sapiens) appears in Africa.
 
-**-40,000**: cave paintings (Chauvet, Lascaux later around -17,000).
+**-34,000**: paintings of [Chauvet Cave](https://archeologie.culture.gouv.fr/chauvet/fr), about 36,000 years old. Those of [Lascaux](https://archeologie.culture.gouv.fr/lascaux/en/dating-figures-lascaux) are more recent: between 21,000 and 23,000 years old.
 
-**-10,000**: Neolithic revolution. Humanity becomes sedentary and agricultural.
+**-10,000**: beginnings of the Neolithic revolution. Humanity starts to become sedentary and agricultural.
 
 ## Antiquity (-3000 to 476)
 
 **-3000**: birth of writing in Mesopotamia (cuneiform) and Egypt (hieroglyphs).
 
-**-2600**: Pyramid of Khufu.
+**Around -2560**: construction of the Pyramid of Khufu begins.
 
-**-1750**: Code of Hammurabi (Babylon), first major legal codification.
+**Around -1750**: [Code of Hammurabi](https://collections.louvre.fr/ark:/53355/cl010174436), a collection of laws carved on a stele under the reign of this king of Babylon (-1792 to -1750).
 
 **-509**: founding of the Roman Republic.
 
@@ -41,7 +42,7 @@ A mental timeline is the most powerful tool to stop getting lost in world histor
 
 **-44**: assassination of Julius Caesar.
 
-**0**: presumed birth of Jesus.
+**Around -7 to -5**: presumed birth of Jesus, which the Gospels place under King Herod, who died in -4 ([Encyclopædia Universalis](https://www.universalis.fr/encyclopedie/jesus-jesus-christ/)). The calendar has no year 0.
 
 **476**: [fall of the Western Roman Empire](https://en.wikipedia.org/wiki/Fall_of_the_Western_Roman_Empire).
 
@@ -59,7 +60,7 @@ A mental timeline is the most powerful tool to stop getting lost in world histor
 
 **1337-1453**: Hundred Years' War.
 
-**1348**: [Black Death](https://en.wikipedia.org/wiki/Black_Death), up to 50% of the European population dead.
+**1347-1353**: [Black Death](https://www.londonmuseum.org.uk/collections/london-stories/great-pestilence-london/). Millions of deaths across Europe, Asia and North Africa. London loses more than half of its inhabitants.
 
 **1453**: fall of Constantinople, end of the Byzantine Empire.
 
@@ -126,3 +127,13 @@ Worth reading: [major historical figures](/en/blog/historical-figures/) and the 
   <figcaption>Photo: Carlo Dell'Orto · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
 </figure>
 
+## Sources
+
+- [Agence nationale de la recherche, "L'équipe du projet ARCHOR découvre les plus anciens outils de pierre au Kenya" (in French)](https://anr.fr/fr/actus/details/news/lequipe-du-projet-archor-decouvre-les-plus-anciens-outils-de-pierre-au-kenya/): stone tools 3.3 million years old, discovery published in 2015.
+- [Smithsonian National Museum of Natural History, "Homo sapiens"](https://humanorigins.si.edu/evidence/human-fossils/species/homo-sapiens): Homo sapiens evolved in Africa 300,000 years ago.
+- [French Ministry of Culture, "La Grotte Chauvet-Pont d'Arc" (in French)](https://archeologie.culture.gouv.fr/chauvet/fr): paintings 36,000 years old.
+- [French Ministry of Culture, "Dating the figures at Lascaux"](https://archeologie.culture.gouv.fr/lascaux/en/dating-figures-lascaux): Lascaux dated to about 23,000 years ago, between 21,500 and 21,000 years according to the LAsCO programme (2018-2021).
+- [Rosicrucian Egyptian Museum, "Pyramids of Giza"](https://egyptianmuseum.org/explore/old-kingdom-monuments-pyramids-of-giza): Pyramid of Khufu built beginning around 2560 BC.
+- [Musée du Louvre, "Code de Hammurabi" (in French)](https://collections.louvre.fr/ark:/53355/cl010174436): stele dated to the reign of Hammurabi, 1792-1750 BC.
+- [Encyclopædia Universalis, "Jésus ou Jésus-Christ" (in French)](https://www.universalis.fr/encyclopedie/jesus-jesus-christ/): birth placed in 7 or 5 BC, Herod died in 4 BC.
+- [London Museum, "The Great Pestilence in London"](https://www.londonmuseum.org.uk/collections/london-stories/great-pestilence-london/): Black Death across Europe from 1347 to 1353, more than half of Londoners dead by 1352.

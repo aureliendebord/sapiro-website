@@ -2,6 +2,7 @@
 title: "100 General Knowledge Questions (With Answers)"
 description: "100 general knowledge questions with explained answers, by theme and level. The big list to revise thoroughly or host a giant quiz."
 date: 2026-06-24
+lastModified: 2026-11-27
 image: "/images/blog/monde/capitale-paris.jpg"
 imageAlt: "Aerial view of Paris"
 imageCredit: "Photo: Drew Coffman drewcoffman · CC0 · Wikimedia Commons"
@@ -43,31 +44,31 @@ The questions are sorted by theme (geography, history, art and culture, science,
 **Antarctica.** This cold desert covers about 14 million km², ahead of the Sahara.
 
 **4. Which is the most populous country in the world?** *(medium)*
-**India.** It overtook China around 2023 with more than 1.4 billion people.
+**India.** It overtook China [in April 2023, according to UN projections](https://www.un.org/en/desa/india-overtake-china-world-most-populous-country-april-2023-united-nations-projects), with more than 1.4 billion people.
 
 **5. What is the capital of Egypt?** *(easy)*
 **Cairo.** It is the largest city in the Arab world, crossed by the Nile.
 
 **6. Which is the most populous country in Africa?** *(medium)*
-**Nigeria.** With over 200 million people, it is well ahead of Ethiopia and Egypt.
+**Nigeria.** With about 233 million people in 2024 according to the World Bank, it is well ahead of Ethiopia (132 million) and Egypt (117 million).
 
 **7. On which continent are the Andes?** *(easy)*
-**South America.** The range runs down the western edge of the continent for nearly 7,000 km.
+**South America.** The range runs down the western edge of the continent for more than 7,000 km.
 
 **8. What is the largest freshwater lake in the world by area?** *(medium)*
-**Lake Superior.** Between Canada and the United States, it spans over 82,000 km².
+**Lake Superior.** Between Canada and the United States, it spans [over 82,000 km²](https://www.epa.gov/greatlakes/physical-features-great-lakes).
 
 **9. Which sea separates Europe from Africa?** *(easy)*
-**The Mediterranean.** It links the Atlantic to Asia via the Suez Canal.
+**The Mediterranean.** It opens onto the Atlantic through the Strait of Gibraltar and onto the Red Sea through the Suez Canal.
 
 **10. What is the capital of Argentina?** *(easy)*
 **Buenos Aires.** It sits on the bank of the Río de la Plata.
 
 **11. What is the smallest continent in the world?** *(easy)*
-**Oceania.** It is also the least populated after Antarctica.
+**Oceania**, often called Australia in English-speaking countries. It is also the least populated continent after Antarctica.
 
 **12. Which country has the most active volcanoes in the world?** *(hard)*
-**Indonesia.** Sitting on the Pacific Ring of Fire, it has more than 120.
+**Indonesia.** Sitting on the Pacific Ring of Fire, it [ranks first for historically active volcanoes, ahead of Japan and the United States, according to the USGS](https://www.usgs.gov/faqs/where-does-united-states-rank-number-volcanoes). Its Geological Agency counts 127 active ones.
 
 **13. Which mountain range separates France from Spain?** *(easy)*
 **The Pyrenees.** They run from the Atlantic to the Mediterranean.
@@ -122,7 +123,7 @@ To go further in geography: our [world capitals quiz](/en/blog/world-capitals-qu
 **Queen Victoria.** The Victorian era marks the height of the British Empire.
 
 **29. Which ancient wall defended the Roman Empire in the north of present-day Britain?** *(hard)*
-**Hadrian's Wall.** Built around 122 AD, it marked the northern frontier of the Roman province.
+**Hadrian's Wall.** Built from AD 122, it marked the northern frontier of the Roman province.
 
 **30. Which dynasty unified China and gave the country its name?** *(hard)*
 **The Qin dynasty.** Its founder, Qin Shi Huang, became the first emperor in 221 BC.
@@ -189,7 +190,7 @@ To put faces to these eras: our [figures who shaped history](/en/blog/historical
 **The violin.** His instruments from Cremona are among the most prized in the world.
 
 **50. Who sculpted the statue of "David" in Florence?** *(easy)*
-**Michelangelo.** This marble sculpture over 5 metres tall was finished in 1504.
+**Michelangelo.** This marble sculpture, [5.17 metres tall](https://www.galleriaaccademiafirenze.it/en/artworks/david-michelangelo/), was finished in 1504.
 
 **51. Which ancient Greek poet composed "The Iliad" and "The Odyssey"?** *(medium)*
 **Homer.** These two founding epics date back to the 8th century BC.
@@ -207,13 +208,13 @@ To put faces to these eras: our [figures who shaped history](/en/blog/historical
 **Surrealism.** This movement explores dreams and the unconscious.
 
 **56. Which 17th-century French playwright wrote "Tartuffe" and "The Misanthrope"?** *(medium)*
-**Molière.** This master of comedy died on stage in 1673.
+**Molière.** This master of comedy died in 1673 [just after a performance of "The Imaginary Invalid"](https://www.comedie-francaise.fr/fr/moliere), at home and not on stage as legend has it.
 
 **57. Which American writer wrote "The Old Man and the Sea"?** *(medium)*
-**Ernest Hemingway.** This short 1952 novel won him the Pulitzer Prize.
+**Ernest Hemingway.** This short 1952 novel won him the Pulitzer Prize in 1953.
 
 **58. Which Italian composer wrote "The Four Seasons"?** *(medium)*
-**Antonio Vivaldi.** These four violin concertos date from around 1725.
+**Antonio Vivaldi.** These four violin concertos were published in 1725.
 
 **59. In Egyptian mythology, which jackal-headed god presides over mummification?** *(hard)*
 **Anubis.** He accompanies the dead and oversees the weighing of the heart.
@@ -229,7 +230,7 @@ To recognise the great paintings: our [essential artworks to know](/en/blog/esse
 **The femur.** This thigh bone measures about a quarter of a person's height.
 
 **62. Which muscle is the strongest in the human body relative to its size?** *(hard)*
-**The masseter.** This jaw muscle exerts very strong pressure when chewing.
+**The masseter.** This jaw muscle, [listed by Guinness World Records as the strongest in the human body](https://www.guinnessworldrecords.com/world-records/67575-strongest-muscle), exerts very strong pressure when chewing.
 
 **63. Which scientist formulated the theory of relativity?** *(easy)*
 **Albert Einstein.** Special relativity in 1905, general relativity in 1915.
@@ -296,7 +297,7 @@ To connect science to the rest: the [general knowledge guide](/en/blog/general-k
 **An omnivore.** The bear and the human are examples.
 
 **83. What is the largest fish in the world?** *(medium)*
-**The whale shark.** Harmless to humans, it reaches 12 metres and feeds on plankton.
+**The whale shark.** Harmless to humans, it [can exceed 12 metres](https://www.nationalgeographic.com/animals/fish/facts/whale-shark) and feeds on plankton.
 
 **84. Which tree produces hazelnuts?** *(medium)*
 **The hazel.** Also called the cobnut tree, it often grows in hedgerows.
@@ -341,7 +342,7 @@ To connect science to the rest: the [general knowledge guide](/en/blog/general-k
 **The lion.** It is the only truly social cat, unlike other solitary big cats.
 
 **98. Which conifer keeps its needles all year round?** *(easy)*
-**The fir.** Its evergreen needles stay in place for several years.
+**The fir**, like most conifers (spruce, pine). Its evergreen needles stay in place for several years; the larch, by contrast, sheds its needles in autumn.
 
 **99. Which animal makes the longest annual migration, from pole to pole?** *(hard)*
 **The Arctic tern.** It migrates each year between the Arctic and the Antarctic.
@@ -385,3 +386,44 @@ The SAPIRO app offers hundreds of questions sorted by theme and level, free, wit
   <img src="/images/blog/art/ecole-athenes.jpg" alt="The School of Athens by Raphael" loading="lazy" />
   <figcaption>Photo: Raphael · public domain · Wikimedia Commons</figcaption>
 </figure>
+
+## Sources
+
+**Geography**
+
+- [United Nations, Department of Economic and Social Affairs, "India to overtake China as world's most populous country in April 2023"](https://www.un.org/en/desa/india-overtake-china-world-most-populous-country-april-2023-united-nations-projects): India becomes the most populous country, April 2023 projection.
+- [World Bank, "Population, total" indicator (SP.POP.TOTL), Nigeria](https://api.worldbank.org/v2/country/NGA/indicator/SP.POP.TOTL?date=2024&format=json): population of Nigeria, 2024 data (the figures for Ethiopia and Egypt come from the same indicator).
+- [US Environmental Protection Agency (EPA), Physical Features of the Great Lakes](https://www.epa.gov/greatlakes/physical-features-great-lakes): area of Lake Superior, 82,100 km².
+- [US Geological Survey (USGS), "Where does the United States rank in the number of volcanoes?"](https://www.usgs.gov/faqs/where-does-united-states-rank-number-volcanoes): Indonesia first for historically active volcanoes, ahead of Japan and the United States.
+- [RRI, Indonesian public radio, "Indonesia's 127 Active Volcanoes Require Broader Monitoring"](https://rri.co.id/en/national/2734295/indonesias-127-active-volcanoes-require-broader-monitoring): 127 active volcanoes counted in Indonesia.
+- [Guinness World Records, Longest continental mountain range](https://www.guinnessworldrecords.com/world-records/longest-continental-mountain-range): length of the Andes, 7,600 km.
+- [French Ministry for Europe and Foreign Affairs, Antarctica](https://www.diplomatie.gouv.fr/en/information-by-country/antarctica/antarctica): area of Antarctica, 14 million km², page updated in 2026.
+
+**History**
+
+- [Palace of Versailles, Louis XIV](https://en.chateauversailles.fr/discover/history/great-characters/louis-xiv): 72 years on the throne, died on 1 September 1715.
+- [English Heritage, History of Hadrian's Wall](https://www.english-heritage.org.uk/visit/places/hadrians-wall/hadrians-wall-history-and-stories/history/): wall built on Hadrian's orders after his visit to Britain in AD 122.
+- [Institut Pasteur, History](https://www.pasteur.fr/en/institut-pasteur/history): rabies vaccine given to Joseph Meister, July 1885.
+
+**Art and culture**
+
+- [Galleria dell'Accademia, Florence, Michelangelo's David](https://www.galleriaaccademiafirenze.it/en/artworks/david-michelangelo/): height of 517 cm, made from 1501 to 1504.
+- [Comédie-Française, Molière (in French)](https://www.comedie-francaise.fr/fr/moliere): Molière's death after the fourth performance of "The Imaginary Invalid", 1673.
+- [Rijksmuseum, The Night Watch](https://www.rijksmuseum.nl/en/collection/SK-C-5): Rembrandt painting dated 1642.
+- [Musée Marmottan Monet, record for "Impression, Sunrise" (in French)](https://www.marmottan.fr/notice/4014/): canvas painted by Claude Monet in 1872.
+- [Nobel Foundation, Ernest Hemingway](https://www.nobelprize.org/prizes/literature/1954/hemingway/facts/): "The Old Man and the Sea" published in 1952.
+
+**Science**
+
+- [Guinness World Records, Strongest muscle](https://www.guinnessworldrecords.com/world-records/67575-strongest-muscle): the masseter, strongest muscle in the human body.
+- [Nobel Foundation, Alexander Fleming](https://www.nobelprize.org/prizes/medicine/1945/fleming/facts/): discovery of penicillin in 1928.
+- [American Heart Association, All About Heart Rate](https://www.heart.org/en/health-topics/high-blood-pressure/the-facts-about-high-blood-pressure/all-about-heart-rate-pulse): normal resting heart rate, 60 to 100 beats per minute.
+- [NASA, Saturn: Facts](https://science.nasa.gov/saturn/facts/): Saturn's rings made of ice and rock coated with dust.
+
+**Nature**
+
+- [National Geographic, Whale shark](https://www.nationalgeographic.com/animals/fish/facts/whale-shark): largest fish in the world, 12 metres or more, feeds on plankton.
+- [National Geographic, Arctic tern](https://www.nationalgeographic.com/animals/birds/facts/arctic-tern): the Arctic tern, longest migration of any animal, from the Arctic to the Antarctic.
+- [Australian Antarctic Program, Emperor penguin](https://www.antarctica.gov.au/about-antarctica/animals/penguins/emperor-penguin/): the emperor, largest of the penguin species.
+- [Smithsonian's National Zoo, Western lowland gorilla](https://nationalzoo.si.edu/animals/western-lowland-gorilla): gorillas, largest of the great apes.
+- [Woodland Trust, European larch](https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/european-larch/): the larch, the only deciduous conifer in Europe.

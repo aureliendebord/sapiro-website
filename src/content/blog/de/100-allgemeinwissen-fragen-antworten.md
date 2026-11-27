@@ -2,6 +2,7 @@
 title: "100 Allgemeinwissen-Fragen (mit Antworten)"
 description: "100 Allgemeinwissen-Fragen mit erklärten Antworten, nach Thema und Schwierigkeit. Die große Liste zum gründlichen Lernen oder für ein Riesenquiz."
 date: 2026-10-19
+lastModified: 2026-11-27
 image: "/images/blog/monde/capitale-paris.jpg"
 imageAlt: "Luftaufnahme von Paris"
 imageCredit: "Photo: Drew Coffman drewcoffman · CC0 · Wikimedia Commons"
@@ -43,22 +44,22 @@ Die Fragen sind nach Thema sortiert (Geografie, Geschichte, Kunst und Kultur, Wi
 **Die Antarktis.** Diese Kältewüste umfasst rund 14 Millionen km² und liegt damit vor der Sahara.
 
 **4. Welches ist das bevölkerungsreichste Land der Welt?** *(mittel)*
-**Indien.** Es hat China um 2023 überholt und zählt mehr als 1,4 Milliarden Menschen.
+**Indien.** Es hat China [laut Projektionen der Vereinten Nationen im April 2023 überholt](https://www.un.org/en/desa/india-overtake-china-world-most-populous-country-april-2023-united-nations-projects) und zählt mehr als 1,4 Milliarden Menschen.
 
 **5. Was ist die Hauptstadt Ägyptens?** *(leicht)*
 **Kairo.** Die größte Stadt der arabischen Welt, durchflossen vom Nil.
 
 **6. Welches ist das bevölkerungsreichste Land Afrikas?** *(mittel)*
-**Nigeria.** Mit über 200 Millionen Einwohnern liegt es weit vor Äthiopien und Ägypten.
+**Nigeria.** Mit rund 233 Millionen Einwohnern im Jahr 2024 laut Weltbank liegt es weit vor Äthiopien (132 Millionen) und Ägypten (117 Millionen).
 
 **7. Auf welchem Kontinent liegen die Anden?** *(leicht)*
-**Südamerika.** Das Gebirge zieht sich fast 7.000 km am Westrand des Kontinents entlang.
+**Südamerika.** Das Gebirge zieht sich mehr als 7.000 km am Westrand des Kontinents entlang.
 
 **8. Welcher ist der flächenmäßig größte Süßwassersee der Welt?** *(mittel)*
-**Der Obere See (Lake Superior).** Zwischen Kanada und den USA erstreckt er sich über mehr als 82.000 km².
+**Der Obere See (Lake Superior).** Zwischen Kanada und den USA erstreckt er sich über [mehr als 82.000 km²](https://www.epa.gov/greatlakes/physical-features-great-lakes).
 
 **9. Welches Meer trennt Europa von Afrika?** *(leicht)*
-**Das Mittelmeer.** Über den Suezkanal verbindet es den Atlantik mit Asien.
+**Das Mittelmeer.** Über die Straße von Gibraltar ist es mit dem Atlantik verbunden, über den Suezkanal mit dem Roten Meer.
 
 **10. Was ist die Hauptstadt Argentiniens?** *(leicht)*
 **Buenos Aires.** Sie liegt am Ufer des Río de la Plata.
@@ -67,7 +68,7 @@ Die Fragen sind nach Thema sortiert (Geografie, Geschichte, Kunst und Kultur, Wi
 **Ozeanien.** Nach der Antarktis ist er auch der am dünnsten besiedelte.
 
 **12. Welches Land hat die meisten aktiven Vulkane der Welt?** *(schwer)*
-**Indonesien.** Am Pazifischen Feuerring gelegen, zählt es mehr als 120.
+**Indonesien.** Am Pazifischen Feuerring gelegen, hat es laut USGS [die meisten Vulkane mit historisch belegten Ausbrüchen, vor Japan und den USA](https://www.usgs.gov/faqs/where-does-united-states-rank-number-volcanoes). Die indonesische Geologiebehörde zählt 127 aktive Vulkane.
 
 **13. Welches Gebirge trennt Frankreich von Spanien?** *(leicht)*
 **Die Pyrenäen.** Sie reichen vom Atlantik bis zum Mittelmeer.
@@ -122,7 +123,7 @@ Mehr Geografie: unser [Quiz zu den Hauptstädten der Welt](/en/blog/world-capita
 **Königin Victoria.** Das Viktorianische Zeitalter markiert den Höhepunkt des Britischen Empire.
 
 **29. Welcher antike Wall schützte das Römische Reich im Norden des heutigen Großbritanniens?** *(schwer)*
-**Der Hadrianswall.** Um 122 n. Chr. erbaut, markierte er die Nordgrenze der römischen Provinz.
+**Der Hadrianswall.** Ab 122 n. Chr. erbaut, markierte er die Nordgrenze der römischen Provinz.
 
 **30. Welche Dynastie einte China und gab dem Land seinen Namen?** *(schwer)*
 **Die Qin-Dynastie.** Ihr Gründer Qin Shi Huang wurde 221 v. Chr. der erste Kaiser.
@@ -189,7 +190,7 @@ Um diesen Epochen Gesichter zu geben: unsere [Persönlichkeiten, die Geschichte 
 **Die Geige.** Seine Instrumente aus Cremona gehören zu den begehrtesten der Welt.
 
 **50. Wer schuf die Statue des „David“ in Florenz?** *(leicht)*
-**Michelangelo.** Die über 5 Meter hohe Marmorskulptur wurde 1504 vollendet.
+**Michelangelo.** Die [5,17 Meter hohe](https://www.galleriaaccademiafirenze.it/en/artworks/david-michelangelo/) Marmorskulptur wurde 1504 vollendet.
 
 **51. Welcher altgriechische Dichter verfasste die „Ilias“ und die „Odyssee“?** *(mittel)*
 **Homer.** Die beiden grundlegenden Epen stammen aus dem 8. Jahrhundert v. Chr.
@@ -207,13 +208,13 @@ Um diesen Epochen Gesichter zu geben: unsere [Persönlichkeiten, die Geschichte 
 **Zum Surrealismus.** Diese Bewegung erkundet Träume und das Unbewusste.
 
 **56. Welcher französische Dramatiker des 17. Jahrhunderts schrieb „Tartuffe“ und „Der Menschenfeind“?** *(mittel)*
-**Molière.** Der Meister der Komödie starb 1673 auf der Bühne.
+**Molière.** Der Meister der Komödie starb 1673 [nach einer Aufführung von „Der eingebildete Kranke“](https://www.comedie-francaise.fr/fr/moliere), zu Hause und nicht auf der Bühne, wie es die Legende will.
 
 **57. Welcher amerikanische Schriftsteller schrieb „Der alte Mann und das Meer“?** *(mittel)*
-**Ernest Hemingway.** Der kurze Roman von 1952 brachte ihm den Pulitzerpreis ein.
+**Ernest Hemingway.** Der kurze Roman von 1952 brachte ihm 1953 den Pulitzerpreis ein.
 
 **58. Welcher italienische Komponist schrieb „Die vier Jahreszeiten“?** *(mittel)*
-**Antonio Vivaldi.** Die vier Violinkonzerte entstanden um 1725.
+**Antonio Vivaldi.** Die vier Violinkonzerte erschienen 1725 im Druck.
 
 **59. Welcher Gott mit Schakalkopf wacht in der ägyptischen Mythologie über die Mumifizierung?** *(schwer)*
 **Anubis.** Er begleitet die Toten und überwacht das Wiegen des Herzens.
@@ -229,7 +230,7 @@ Um die großen Gemälde wiederzuerkennen: unsere [Kunstwerke, die man kennen mus
 **Der Oberschenkelknochen (Femur).** Er misst etwa ein Viertel der Körpergröße.
 
 **62. Welcher Muskel ist im Verhältnis zu seiner Größe der stärkste im menschlichen Körper?** *(schwer)*
-**Der Masseter.** Dieser Kaumuskel übt beim Kauen sehr starken Druck aus.
+**Der Masseter.** Dieser Kaumuskel, [den Guinness World Records als stärksten Muskel des menschlichen Körpers führt](https://www.guinnessworldrecords.com/world-records/67575-strongest-muscle), übt beim Kauen sehr starken Druck aus.
 
 **63. Welcher Wissenschaftler formulierte die Relativitätstheorie?** *(leicht)*
 **Albert Einstein.** Die spezielle Relativitätstheorie 1905, die allgemeine 1915.
@@ -296,7 +297,7 @@ Um die Wissenschaft mit dem Rest zu verknüpfen: der [Leitfaden zum Allgemeinwis
 **Allesfresser (Omnivore).** Der Bär und der Mensch sind Beispiele dafür.
 
 **83. Welches ist der größte Fisch der Welt?** *(mittel)*
-**Der Walhai.** Für Menschen harmlos, wird er bis zu 12 Meter lang und ernährt sich von Plankton.
+**Der Walhai.** Für Menschen harmlos, wird er [über 12 Meter lang](https://www.nationalgeographic.com/animals/fish/facts/whale-shark) und ernährt sich von Plankton.
 
 **84. Welcher Baum trägt Haselnüsse?** *(mittel)*
 **Die Hasel.** Auch Haselstrauch genannt, wächst sie oft in Hecken.
@@ -341,7 +342,7 @@ Um die Wissenschaft mit dem Rest zu verknüpfen: der [Leitfaden zum Allgemeinwis
 **Der Löwe.** Er ist die einzige wirklich gesellige Katze, im Gegensatz zu den anderen, einzelgängerischen Großkatzen.
 
 **98. Welcher Nadelbaum behält seine Nadeln das ganze Jahr?** *(leicht)*
-**Die Tanne.** Ihre immergrünen Nadeln bleiben mehrere Jahre lang am Zweig.
+**Die Tanne**, wie die meisten Nadelbäume (Fichte, Kiefer). Ihre immergrünen Nadeln bleiben mehrere Jahre lang am Zweig; die Lärche dagegen wirft ihre Nadeln im Herbst ab.
 
 **99. Welches Tier legt die längste jährliche Wanderung zurück, von Pol zu Pol?** *(schwer)*
 **Die Küstenseeschwalbe.** Sie zieht jedes Jahr zwischen Arktis und Antarktis hin und her.
@@ -385,3 +386,44 @@ Die App SAPIRO bietet Hunderte Fragen, sortiert nach Thema und Schwierigkeit, ko
   <img src="/images/blog/art/ecole-athenes.jpg" alt="Die Schule von Athen von Raffael" loading="lazy" />
   <figcaption>Photo: Raphael · public domain · Wikimedia Commons</figcaption>
 </figure>
+
+## Quellen
+
+**Geografie**
+
+- [Vereinte Nationen, Hauptabteilung Wirtschaftliche und Soziale Angelegenheiten, „India to overtake China as world's most populous country in April 2023“ (englisch)](https://www.un.org/en/desa/india-overtake-china-world-most-populous-country-april-2023-united-nations-projects): Indien wird bevölkerungsreichstes Land, Projektion vom April 2023.
+- [Weltbank, Indikator „Population, total“ (SP.POP.TOTL), Nigeria](https://api.worldbank.org/v2/country/NGA/indicator/SP.POP.TOTL?date=2024&format=json): Bevölkerung Nigerias, Stand 2024 (die Zahlen für Äthiopien und Ägypten stammen aus demselben Indikator).
+- [US-Umweltschutzbehörde (EPA), Physical Features of the Great Lakes (englisch)](https://www.epa.gov/greatlakes/physical-features-great-lakes): Fläche des Oberen Sees, 82.100 km².
+- [US Geological Survey (USGS), „Where does the United States rank in the number of volcanoes?“ (englisch)](https://www.usgs.gov/faqs/where-does-united-states-rank-number-volcanoes): Indonesien an erster Stelle bei Vulkanen mit historisch belegten Ausbrüchen, vor Japan und den USA.
+- [RRI, öffentlicher Rundfunk Indonesiens, „Indonesia's 127 Active Volcanoes Require Broader Monitoring“ (englisch)](https://rri.co.id/en/national/2734295/indonesias-127-active-volcanoes-require-broader-monitoring): 127 aktive Vulkane in Indonesien.
+- [Guinness World Records, Longest continental mountain range (englisch)](https://www.guinnessworldrecords.com/world-records/longest-continental-mountain-range): Länge der Anden, 7.600 km.
+- [Französisches Außenministerium, Antarctica (englisch)](https://www.diplomatie.gouv.fr/en/information-by-country/antarctica/antarctica): Fläche der Antarktis, 14 Millionen km², Seite 2026 aktualisiert.
+
+**Geschichte**
+
+- [Schloss Versailles, Louis XIV (englisch)](https://en.chateauversailles.fr/discover/history/great-characters/louis-xiv): 72 Jahre Herrschaft, gestorben am 1. September 1715.
+- [English Heritage, History of Hadrian's Wall (englisch)](https://www.english-heritage.org.uk/visit/places/hadrians-wall/hadrians-wall-history-and-stories/history/): Bau des Walls auf Befehl Hadrians nach seinem Besuch in Britannien im Jahr 122.
+- [Institut Pasteur, History (englisch)](https://www.pasteur.fr/en/institut-pasteur/history): Tollwutimpfung von Joseph Meister, Juli 1885.
+
+**Kunst und Kultur**
+
+- [Galleria dell'Accademia, Florenz, Michelangelos David (englisch)](https://www.galleriaaccademiafirenze.it/en/artworks/david-michelangelo/): Höhe 517 cm, entstanden 1501 bis 1504.
+- [Comédie-Française, Molière (französisch)](https://www.comedie-francaise.fr/fr/moliere): Molières Tod nach der vierten Aufführung von „Der eingebildete Kranke“, 1673.
+- [Rijksmuseum, The Night Watch (englisch)](https://www.rijksmuseum.nl/en/collection/SK-C-5): Gemälde von Rembrandt, datiert 1642.
+- [Musée Marmottan Monet, Werkeintrag „Impression, Sonnenaufgang“ (französisch)](https://www.marmottan.fr/notice/4014/): von Claude Monet 1872 gemalt.
+- [Nobelstiftung, Ernest Hemingway (englisch)](https://www.nobelprize.org/prizes/literature/1954/hemingway/facts/): „Der alte Mann und das Meer“, 1952 erschienen.
+
+**Wissenschaft**
+
+- [Guinness World Records, Strongest muscle (englisch)](https://www.guinnessworldrecords.com/world-records/67575-strongest-muscle): der Masseter als stärkster Muskel des menschlichen Körpers.
+- [Nobelstiftung, Alexander Fleming (englisch)](https://www.nobelprize.org/prizes/medicine/1945/fleming/facts/): Entdeckung des Penicillins 1928.
+- [American Heart Association, All About Heart Rate (englisch)](https://www.heart.org/en/health-topics/high-blood-pressure/the-facts-about-high-blood-pressure/all-about-heart-rate-pulse): normaler Ruhepuls, 60 bis 100 Schläge pro Minute.
+- [NASA, Saturn: Facts (englisch)](https://science.nasa.gov/saturn/facts/): Saturnringe aus Eis und Gestein, von Staub überzogen.
+
+**Natur**
+
+- [National Geographic, Whale shark (englisch)](https://www.nationalgeographic.com/animals/fish/facts/whale-shark): größter Fisch der Welt, 12 Meter und mehr, ernährt sich von Plankton.
+- [National Geographic, Arctic tern (englisch)](https://www.nationalgeographic.com/animals/birds/facts/arctic-tern): die Küstenseeschwalbe, längste Wanderung im Tierreich, von der Arktis in die Antarktis.
+- [Australisches Antarktisprogramm, Emperor penguin (englisch)](https://www.antarctica.gov.au/about-antarctica/animals/penguins/emperor-penguin/): der Kaiserpinguin, größte aller Pinguinarten.
+- [Smithsonian's National Zoo, Western lowland gorilla (englisch)](https://nationalzoo.si.edu/animals/western-lowland-gorilla): Gorillas, die größten Menschenaffen.
+- [Woodland Trust, European larch (englisch)](https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/european-larch/): die Lärche, einziger Nadelbaum Europas, der seine Nadeln abwirft.

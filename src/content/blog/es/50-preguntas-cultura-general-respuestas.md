@@ -2,6 +2,7 @@
 title: "50 preguntas de cultura general (con respuestas)"
 description: "50 preguntas de cultura general con respuestas explicadas, por tema y nivel. Para ponerte a prueba a fondo, repasar o animar una noche de quiz."
 date: 2026-06-24
+lastModified: 2026-11-27
 image: "/images/blog/art/ecole-athenes.jpg"
 imageAlt: "La Escuela de Atenas de Rafael"
 imageCredit: "Foto: Raphael · dominio público · Wikimedia Commons"
@@ -21,7 +22,7 @@ Las preguntas están ordenadas en cinco campos (geografía, historia, arte y cul
 ## Geografía
 
 **1. ¿Qué país tiene más husos horarios del mundo?** *(difícil)*
-**Francia** (12). Gracias a sus territorios de ultramar repartidos por todos los océanos, supera a Rusia y a Estados Unidos.
+**Francia** ([12 en total](https://www.timeanddate.com/time/zone/france)). Gracias a sus territorios de ultramar repartidos por todos los océanos, supera a Rusia y a Estados Unidos.
 
 **2. ¿Cuál es la capital de Canadá?** *(fácil)*
 **Ottawa.** Muchos piensan en Toronto o Montreal, pero el gobierno federal está en Ottawa, en Ontario.
@@ -36,7 +37,7 @@ Las preguntas están ordenadas en cinco campos (geografía, historia, arte y cul
 **El Kilimanjaro.** Este volcán dormido de Tanzania es además la montaña aislada más alta del mundo.
 
 **6. ¿Qué estrecho separa España de Marruecos?** *(media)*
-**El estrecho de Gibraltar.** Apenas 14 km en su punto más estrecho, une el Mediterráneo con el Atlántico.
+**El estrecho de Gibraltar.** Apenas [13 km en su punto más estrecho, según la NASA](https://science.nasa.gov/earth/earth-observatory/the-strait-of-gibraltar-151478/), une el Mediterráneo con el Atlántico.
 
 **7. ¿En qué país está Marrakech?** *(fácil)*
 **Marruecos.** Apodada la «ciudad roja», es una de las cuatro ciudades imperiales del país.
@@ -45,10 +46,10 @@ Las preguntas están ordenadas en cinco campos (geografía, historia, arte y cul
 **Tokio.** Antes llamada Edo, se convirtió en capital en 1868 en lugar de Kioto.
 
 **9. ¿Qué país está completamente rodeado por Sudáfrica?** *(difícil)*
-**[Lesoto](https://es.wikipedia.org/wiki/Lesoto).** Uno de los tres únicos Estados del mundo enclavados dentro de un solo país.
+**[Lesoto](https://thecommonwealth.org/our-member-countries/lesotho).** Uno de los tres únicos Estados del mundo enclavados dentro de un solo país.
 
 **10. ¿Qué río atraviesa París?** *(fácil)*
-**El Sena.** Unos 777 km antes de desembocar en el canal de la Mancha, en El Havre.
+**El Sena.** [776 km según la enciclopedia Larousse](https://www.larousse.fr/encyclopedie/riviere-lac/wd/143800) antes de desembocar en el canal de la Mancha, en El Havre.
 
 ¿Quieres seguir con geografía? Prueba nuestro [quiz de capitales del mundo](/es/blog/quiz-capitales-mundo/).
 
@@ -70,7 +71,7 @@ Las preguntas están ordenadas en cinco campos (geografía, historia, arte y cul
 **De la sal** (*salarium*). El término designaba en origen una suma ligada a la sal, un bien muy preciado entre los romanos.
 
 **6. ¿Qué ciudad romana quedó sepultada por la erupción del Vesubio en el año 79 d. C.?** *(media)*
-**[Pompeya](https://es.wikipedia.org/wiki/Pompeya).** Redescubierta en el siglo XVIII, congeló una instantánea de la vida romana.
+**Pompeya.** Redescubierta en el siglo XVIII, congeló una instantánea de la vida romana.
 
 **7. ¿Qué emperador francés fue derrotado en Waterloo en 1815?** *(fácil)*
 **Napoleón I.** La derrota frente a británicos y prusianos puso fin a los Cien Días.
@@ -104,7 +105,7 @@ Para poner rostro a las fechas: nuestros [personajes que marcaron la historia](/
 **Inglaterra.** Nacido en Stratford-upon-Avon, es el autor de «Hamlet» y «Romeo y Julieta».
 
 **6. ¿Qué arquitecto diseñó la Sagrada Familia de Barcelona?** *(media)*
-**Antoni Gaudí.** Comenzada en 1882, esta obra maestra del modernismo catalán sigue inacabada.
+**Antoni Gaudí.** [Las obras empezaron en 1882 y Gaudí asumió el proyecto en 1883](https://sagradafamilia.org/es/historia-del-templo). La basílica alcanzó su altura final de 172,5 m en febrero de 2026, pero esta obra maestra del modernismo catalán sigue en construcción.
 
 **7. ¿Qué artista español cofundó el cubismo y pintó «Guernica»?** *(media)*
 **Pablo Picasso.** El cuadro denuncia el bombardeo de esa localidad vasca durante la Guerra Civil española.
@@ -125,7 +126,7 @@ Para reconocer los grandes cuadros: nuestras [obras de arte imprescindibles](/es
 **1. ¿Cuál es el símbolo químico del oro?** *(media)*
 **Au**, del latín *aurum*, que significa «oro».
 
-**2. ¿Cuál es la [velocidad de la luz](https://es.wikipedia.org/wiki/Velocidad_de_la_luz) en el vacío, en cifra redonda?** *(media)*
+**2. ¿Cuál es la [velocidad de la luz](https://www.bipm.org/en/committees/cg/cgpm/17-1983/resolution-1) en el vacío, en cifra redonda?** *(media)*
 **Unos 300 000 km/s** (299 792 458 m/s exactamente). Tan fundamental que define el metro desde 1983.
 
 **3. ¿Cuántos huesos tiene el esqueleto de un ser humano adulto?** *(media)*
@@ -157,7 +158,7 @@ Para conectar las ciencias con el resto de tus saberes: la [guía de cultura gen
 ## Naturaleza
 
 **1. ¿Cuál es el felino más grande del mundo?** *(media)*
-**El tigre.** El tigre siberiano supera los 300 kg, más pesado que el león.
+**El tigre.** Un macho siberiano [puede alcanzar los 300 kg](https://nationalzoo.si.edu/animals/tiger), más que el león.
 
 **2. ¿Cuántas patas tiene una araña?** *(fácil)*
 **Ocho.** Los insectos solo tienen seis: la araña no es uno, es un arácnido.
@@ -172,7 +173,7 @@ Para conectar las ciencias con el resto de tus saberes: la [guía de cultura gen
 **El murciélago.** La ardilla voladora, en cambio, solo planea.
 
 **6. ¿Cuál es el animal terrestre más alto del mundo?** *(fácil)*
-**La jirafa.** Su cuello, de más de dos metros, tiene solo siete vértebras, como el nuestro.
+**La jirafa.** Su cuello, de unos dos metros, tiene solo siete vértebras, como el nuestro.
 
 **7. ¿De qué árbol procede la bellota?** *(fácil)*
 **El roble.** Su fruto alimenta a jabalíes, ardillas y muchos otros animales.
@@ -184,7 +185,7 @@ Para conectar las ciencias con el resto de tus saberes: la [guía de cultura gen
 **Un herbívoro.** Lo contrario del carnívoro, que solo come carne.
 
 **10. ¿Cuál es el reptil vivo más grande del mundo?** *(media)*
-**El cocodrilo marino.** El cocodrilo de estuario supera los 6 metros, del Sudeste Asiático a Oceanía.
+**El cocodrilo marino.** También llamado cocodrilo de estuario, suele medir de 3 a 5 metros y [los machos más grandes superan los 6 metros](https://australian.museum/learn/animals/reptiles/estuarine-crocodile/). Vive del Sudeste Asiático al norte de Australia.
 
 Aún más sorprendente: nuestros [animales extraños y desconocidos](/es/blog/animales-extranos-desconocidos/).
 
@@ -222,3 +223,32 @@ La aplicación SAPIRO ofrece cientos de preguntas ordenadas por tema y nivel, gr
   <img src="/images/blog/monde/livres-anciens.jpg" alt="Una pila de libros antiguos" loading="lazy" />
   <figcaption>Foto: Evan Bench from paris, france · CC BY 2.0 · Wikimedia Commons</figcaption>
 </figure>
+
+## Fuentes
+
+**Geografía**
+
+- [Time and Date, Time Zones in France (en inglés)](https://www.timeanddate.com/time/zone/france): 12 husos horarios para Francia con sus territorios de ultramar, página consultada en noviembre de 2026.
+- [NASA Earth Observatory, The Strait of Gibraltar (en inglés)](https://science.nasa.gov/earth/earth-observatory/the-strait-of-gibraltar-151478/): 13 km entre España y Marruecos en el punto más estrecho, artículo de 2023.
+- [Secretaría de la Commonwealth, Lesotho (en inglés)](https://thecommonwealth.org/our-member-countries/lesotho): país completamente rodeado por Sudáfrica.
+- [Enciclopedia Larousse, la Seine (en francés)](https://www.larousse.fr/encyclopedie/riviere-lac/wd/143800): longitud del río, 776 km.
+
+**Arte y cultura**
+
+- [Basílica de la Sagrada Familia, Historia del templo](https://sagradafamilia.org/es/historia-del-templo): primera piedra en 1882, Gaudí asume el proyecto en 1883.
+- [Vatican News, «Central tower of Barcelona's Sagrada Família completed» (en inglés)](https://www.vaticannews.va/en/church/news/2026-02/basilica-sagrada-familia-cross-completed-tower-of-jesus-christ.html): torre de Jesucristo terminada a 172,5 m en febrero de 2026, obras interiores previstas hasta 2028.
+- [Museo Rodin, The Thinker (en inglés)](https://www.musee-rodin.fr/en/musee/collections/oeuvres/thinker): figura concebida en 1880 para «La puerta del Infierno».
+
+**Ciencias**
+
+- [Oficina Internacional de Pesas y Medidas (BIPM), resolución 1 de la 17.ª CGPM (en inglés)](https://www.bipm.org/en/committees/cg/cgpm/17-1983/resolution-1): definición del metro a partir de la velocidad de la luz, 299 792 458 m/s, adoptada en 1983.
+- [Cleveland Clinic, Bones (en inglés)](https://my.clevelandclinic.org/health/body/25176-bones): 206 huesos en el adulto, unos 270 al nacer, página actualizada en 2025.
+- [Fundación Nobel, Nobel Prize awarded women (en inglés)](https://www.nobelprize.org/prizes/lists/nobel-prize-awarded-women/): Marie Curie, premio de Física 1903 y de Química 1911, única mujer galardonada dos veces.
+
+**Naturaleza**
+
+- [Smithsonian's National Zoo, Tiger (en inglés)](https://nationalzoo.si.edu/animals/tiger): tigre de Amur (siberiano), machos de hasta 300 kg.
+- [Australian Museum, Estuarine Crocodile (en inglés)](https://australian.museum/learn/animals/reptiles/estuarine-crocodile/): adultos de 3 a 5 m, mayor ejemplar medido de forma fiable de al menos 6,15 m.
+- [San Diego Zoo, Giraffe (en inglés)](https://animals.sandiegozoo.org/animals/giraffe): animal terrestre más alto, siete vértebras cervicales, cuello de unos 1,8 m.
+- [San Diego Zoo, Ostrich (en inglés)](https://animals.sandiegozoo.org/animals/ostrich): mayor ave viva, carreras de hasta 70 km/h.
+- [National Geographic, Peregrine falcon (en inglés)](https://www.nationalgeographic.com/animals/birds/facts/peregrine-falcon): picado a más de 200 millas por hora, unos 320 km/h.

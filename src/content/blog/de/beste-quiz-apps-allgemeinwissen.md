@@ -2,6 +2,7 @@
 title: "Die 10 besten Quiz-Apps für Allgemeinwissen 2026"
 description: "Die besten Quiz-Apps im Vergleich: Trivia Crack, Kahoot, SAPIRO, GeoGuessr... Welche passt zu dir? Unsere ausführliche Analyse."
 date: 2026-10-19
+lastModified: 2026-11-27
 image: "/images/blog/apps/smartphone-app.jpg"
 imageAlt: "Ein Smartphone mit einem Beitrag aus sozialen Netzwerken"
 imageCredit: "Photo: Mictlancihuatl · CC BY-SA 4.0 · Wikimedia Commons"
@@ -13,7 +14,9 @@ author: "SAPIRO"
 readingTime: 12
 ---
 
-Wir haben zehn Quiz-Apps heruntergeladen, gespielt und bezahlt, damit du deine Zeit nicht mit der falschen verschwendest. Manche waren richtig gut. Manche eher holprig. Bei ein paar haben wir uns gefragt, wie sie überhaupt durch die App-Prüfung gekommen sind.
+Wir haben zehn Quiz-Apps heruntergeladen, gespielt und bezahlt, damit du deine Zeit nicht mit der falschen verschwendest. Manche waren richtig gut. Manche eher holprig.
+
+Zur Transparenz: Dieser Vergleich wird vom SAPIRO-Team veröffentlicht, und SAPIRO steht selbst auf der Liste. Preise und Funktionen der anderen Apps wurden am 27. November 2026 mit ihren offiziellen Store-Einträgen und Websites abgeglichen.
 
 Hier sind unsere Ergebnisse, bewertet nach Qualität der Inhalte, Datenschutz, Werbung, Lernwert und Preis. Ob du Schüler oder Student bist, als Elternteil nach Bildschirmzeit suchst, bei der dein Kind tatsächlich etwas lernt, oder einfach gern zufällige Fakten über die Welt weißt: Eine dieser Apps passt zu dir. Wenn dich die Wissenschaft dahinter interessiert, warum Quizze beim Lernen helfen, erklärt unser [Leitfaden zum Allgemeinwissen](/en/blog/general-knowledge-guide/) verteilte Wiederholung und aktives Abrufen im Detail.
 
@@ -33,118 +36,120 @@ SAPIRO ist ein gutes Beispiel dafür, wie sauber umgesetzte Gamification Lernerf
 
 ## 2. Trivia Crack — Der Social-Quiz-Klassiker
 
-Trivia Crack ist eines der meistgeladenen Quizspiele überhaupt, und das Glücksrad mit sechs Kategorien (Unterhaltung, Kunst, Wissenschaft, Sport, Geschichte, Geografie) macht immer noch Spaß. Freunde oder Fremde herauszufordern hält den Wettbewerb am Laufen, und weil Nutzer selbst Fragen einreichen, ist die Sammlung riesig.
+[Trivia Crack](https://play.google.com/store/apps/details?id=com.etermax.preguntados.lite) ist eines der meistgeladenen Quizspiele, mit mehr als 100 Millionen Downloads bei Google Play, und das Glücksrad mit sechs Kategorien (Unterhaltung, Kunst, Wissenschaft, Sport, Geschichte, Geografie) macht immer noch Spaß. Freunde oder Fremde herauszufordern hält den Wettbewerb am Laufen, und weil Nutzer selbst Fragen einreichen, ist die Sammlung riesig.
 
-Ehrlich gesagt ist die Werbesituation aber schlecht. Vollbild-Videowerbung zwischen den Runden, ständig. Und die Datenschutzerklärung ist noch schlimmer: Trivia Crack gibt deine Daten ausdrücklich an Werbepartner weiter. Wenn dich das stört, lass die Finger davon.
+Die kostenlose Version enthält allerdings Werbung, und der App-Store-Eintrag gibt an, dass Daten (Käufe, Kennungen, Nutzungsdaten) für Werbe-Tracking verwendet werden. Wenn dich das stört, lass die Finger davon.
 
-Beim Lernen gibt es wenig zu holen. Du erfährst, ob deine Antwort richtig war, aber nie warum. Und da jeder Fragen einreichen kann, schwankt die Qualität stark. Wir sind auf einige gestoßen, die schlicht falsch waren.
+Beim Lernen gibt es wenig zu holen. Du erfährst, ob deine Antwort richtig war, aber nicht warum. Und da die Fragen von Spielern eingereicht werden, schwankt die Qualität.
 
-Große Spielerbasis, unterhaltsamer Mehrspielermodus, breite Kategorienauswahl. Aber viel Werbung, aggressive Datensammlung, keine Erklärungen und uneinheitliche Fragenqualität bremsen die App aus.
+Große Spielerbasis, unterhaltsamer Mehrspielermodus, breite Kategorienauswahl. Aber Werbung, Werbe-Tracking und fehlende Erklärungen bremsen die App aus.
 
-**Preis:** Kostenlos mit Werbung. Werbefreie Version und Extras per In-App-Kauf.
+**Preis:** Kostenlos mit Werbung. 365 Tage ohne Werbung kosten im französischen App Store 6,99 € (Stand November 2026); weitere Extras per In-App-Kauf.
 
 ## 3. Kahoot! — Die Quiz-Plattform fürs Klassenzimmer
 
-Kahoot! hat aus Quizzen im Unterricht Live-Wettkämpfe gemacht, und das funktioniert. Eine Lehrkraft erstellt ein Quiz, teilt eine PIN, die Schüler steigen über ihre Geräte ein. Musik, Bestenlisten und Zeitdruck erzeugen echte Energie, wie jeder weiß, der schon einmal bei einer Kahoot!-Runde dabei war.
+[Kahoot!](https://play.google.com/store/apps/details?id=no.mobitroll.kahoot.android) hat aus Quizzen im Unterricht Live-Wettkämpfe gemacht, und das funktioniert. Eine Lehrkraft erstellt ein Quiz, teilt eine PIN, die Schüler steigen über ihre Geräte ein. Musik, Bestenlisten und Zeitdruck erzeugen echte Energie, wie jeder weiß, der schon einmal bei einer Kahoot!-Runde dabei war.
 
-Das Problem: Kahoot! ist eine Plattform, keine Quiz-App. Es braucht jemanden, der das Quiz erstellt und leitet. Wenn du einfach in der Bahn dein Handy zücken und etwas lernen willst, bist du hier falsch. Die kostenlose Stufe ist eingeschränkt, und die Bezahlpläne kosten etwa 3 bis 19 $ pro Monat (jährlich abgerechnet), was sich schnell summiert.
+Der Haken: Kahoot! ist auf das Spielen in der Gruppe ausgelegt. Die App bietet zwar Lernmodi für dich allein (Karteikarten, Challenges im eigenen Tempo), ihr Reiz liegt aber vor allem in der moderierten Runde. Der kostenlose Plan erlaubt bis zu 10 Teilnehmende, und die [Bezahlpläne für Privatnutzer](https://kahoot.com/register/pricing-personal/) waren am 27. November 2026 mit 3 bis 19 $ pro Monat bei jährlicher Abrechnung ausgewiesen (Preise während einer Rabattaktion erfasst).
 
-Ideal für Schulklassen und Gruppen. Nicht fürs Lernen allein gedacht, und die Preise können happig werden.
+Ideal für Schulklassen und Gruppen. Fürs Lernen allein weniger geeignet.
 
-**Preis:** Kostenlose Stufe. Pläne ab etwa 3 bis 19 $/Monat, jährlich abgerechnet.
+**Preis:** Kostenloser Plan (bis zu 10 Teilnehmende). Pläne für Privatnutzer von 3 bis 19 $/Monat, jährlich abgerechnet (Stand November 2026).
 
 ## 4. Quizizz (jetzt Wayground) — Quiz-Plattform für Schulen
 
-Quizizz, 2025 in Wayground umbenannt, deckt ein ähnliches Feld ab wie Kahoot!, bietet aber zusätzlich zeitversetztes Spielen: Schüler bearbeiten Quizze im eigenen Tempo, was Lehrkräfte schätzen. Das Meme-Feedback nach jeder Frage ist ein netter Einfall, und die Auswertungstools, um den Lernfortschritt der Schüler zu verfolgen, sind solide.
+Quizizz, 2025 in [Wayground](https://wayground.com/home/plans) umbenannt, deckt ein ähnliches Feld ab wie Kahoot!, bietet aber zusätzlich zeitversetztes Spielen: Schüler bearbeiten Quizze im eigenen Tempo, was Lehrkräfte schätzen. Die Auswertungstools, um den Lernfortschritt der Schüler zu verfolgen, sind solide.
 
-Die Grundschwäche bleibt aber dieselbe: Alles hängt von Inhalten ab, die Lehrkräfte erstellen. Die öffentliche Quiz-Bibliothek ist groß, aber ungleichmäßig. Als Einzelperson fühlst du dich, als wärst du in eine Klassenzimmer-App geraten, die nicht für dich gemacht ist. Die Bezahlpläne richten sich an Schulen und Schulbezirke, Preise auf Anfrage.
+Die Grundschwäche bleibt aber dieselbe: Die Plattform ist auf Inhalte ausgelegt, die Lehrkräfte auswählen, auch wenn Schüler dort selbstständig lernen können. Als Einzelperson fühlst du dich, als wärst du in eine Klassenzimmer-App geraten, die nicht für dich gemacht ist. Der Basic-Plan ist für Lehrkräfte kostenlos; Pläne für Schulen und Schulbezirke gibt es auf Anfrage.
 
 Gute Auswertungen für Lehrkräfte, flexibler zeitversetzter Modus. Aber klar ein Werkzeug für den Unterricht, keine App zum Lernen für dich allein.
 
-**Preis:** Kostenlose Stufe. Pläne für Schulen und Bezirke auf Anfrage.
+**Preis:** Kostenloser Basic-Plan für Lehrkräfte. Pläne für Schulen und Bezirke auf Anfrage.
 
-## 5. Erudite — Quiz mit Glücksrad
+## 5. Erudite — Quiz mit drehbaren Kreisen
 
-Erudite setzt auf ein Glücksrad ähnlich wie Trivia Crack, mit Kategorien von Wissenschaft über Geschichte und Geografie bis Literatur. Die rund 1.834 Fragen sind überwiegend gut formuliert, und die App versteht sich als „jeden Tag etwas Neues lernen“.
+[Erudite](https://play.google.com/store/apps/details?id=com.erudite.trivia.brain.quiz.mind.game) hat ein eigenes Spielprinzip: In der Mitte steht eine Hauptfrage, darum herum sind neun Teilfragen und neun Antworten in Kreisen angeordnet, die du drehst, bis die Paare zusammenpassen. Pro Karte hast du drei Versuche. Die App ist in 19 Sprachen übersetzt.
 
-Diese App hat uns überrascht, leider negativ. Mehrere Nutzer berichten von Werbung mit Erwachseneninhalten in der App, was sie für Kinder oder die Familie sofort disqualifiziert. Die Fragensammlung ist außerdem eher klein; nach ein paar Wochen regelmäßigen Spielens tauchen Wiederholungen auf.
+Die kostenlose Version zeigt Werbung, und der App-Store-Eintrag gibt Werbe-Tracking an. Die Werbung lässt sich per In-App-Kauf oder Abo entfernen (zum Beispiel 4,99 € für sieben Tage VIP oder 14,99 € für ein dauerhaftes PRO-Konto im französischen App Store, Stand November 2026).
 
-Ordentliche Fragenqualität, sauberes Spielprinzip. Aber das Werbeproblem ist für Familien ein K.-o.-Kriterium, und die Sammlung ist dünn.
+Originelles Spielprinzip, viele Sprachen. Aber Werbung in der kostenlosen Version, Werbe-Tracking und Abos.
 
-**Preis:** Kostenlos mit Werbung.
+**Preis:** Kostenlos mit Werbung. In-App-Käufe.
 
-## 6. Quiz Sans Fin — Französisches Quiz mit Elo-Wertung
+## 6. Quiz Sans Fin (Endlos-Quiz) — Quiz mit Elo-Wertung
 
-Quiz Sans Fin verfolgt einen interessanten Ansatz: Die App wendet ein Elo-System auf Quizfragen an, sodass deine Wertung je nach Schwierigkeit der Frage steigt oder fällt. Die Fragen verlinken auf Wikipedia-Artikel, sodass du dich in Themen vertiefen kannst, die dich packen.
+[Quiz Sans Fin](https://play.google.com/store/apps/details?id=com.timleg.quiz), im deutschen App Store „Endlos-Quiz“, verfolgt einen interessanten Ansatz: Die App gibt dir eine Elo-Zahl wie im Schach, mit der du deinen Fortschritt verfolgst und dich mit anderen vergleichst. Der Store-Eintrag nennt Tausende handverlesene Fragen, die jeweils auf einen Wikipedia-Artikel verlinken, sodass du dich in Themen vertiefen kannst, die dich packen.
 
-Die App ist hauptsächlich auf Französisch, was ihr Publikum begrenzt. Das Elo-System motiviert wirklich, wenn du ehrgeizig bist, aber es gibt keine thematischen Lernpfade, dein Wissen wächst also eher verstreut, statt auf etwas hinzuarbeiten. Die Oberfläche funktioniert, wirkt aber, als wäre sie länger nicht aktualisiert worden. Durchgehend Werbung.
+Die App gibt es in sechs Sprachen, darunter Deutsch. Das Elo-System motiviert wirklich, wenn du ehrgeizig bist, aber es gibt keine thematischen Lernpfade, dein Wissen wächst also eher verstreut, statt auf etwas hinzuarbeiten. Die kostenlose Version zeigt Werbung, im App Store ist Werbe-Tracking angegeben.
 
-Das Elo-Prinzip ist clever. Aber nur Französisch, kein strukturiertes Lernen und eine veraltete Oberfläche machen sie zur Nischen-App.
+Das Elo-Prinzip ist clever. Aber kein strukturiertes Lernen, und die Erklärungen stehen bei Wikipedia statt in der App.
 
-**Preis:** Kostenlos mit Werbung.
+**Preis:** Kostenlos mit Werbung. Keine In-App-Käufe im App Store.
 
 ## 7. GeoGuessr — Errate den Ort
 
-GeoGuessr setzt dich an einem zufälligen Ort in Google Street View ab und fragt: Wo bist du? Ein genial einfaches Konzept. Du lernst, Verkehrsschilder, Vegetation, Architektur und Sonnenstand zu lesen: die Art beobachtender Geografie, die kein Schulbuch vermittelt. Die Community ist leidenschaftlich, und das Spiel macht echt süchtig.
+[GeoGuessr](https://www.geoguessr.com/) setzt dich an einem zufälligen Ort in Google Street View ab und fragt: Wo bist du? Ein genial einfaches Konzept. Du lernst, Verkehrsschilder, Vegetation, Architektur und Sonnenstand zu lesen: die Art beobachtender Geografie, die kein Schulbuch vermittelt. Die Community ist leidenschaftlich, und das Spiel macht echt süchtig.
 
-Der Umfang ist bewusst eng: nur Geografie, und zwar speziell Orte erraten. Keine Hauptstädte, keine historischen Fakten, kein kulturelles Wissen. Die kostenlose Stufe ist sehr eingeschränkt, und Pro, zum Listenpreis etwa 7 €/Monat (weniger im Jahresabo), ist praktisch Pflicht. Außerdem brauchst du ständig eine Internetverbindung, weil die Street-View-Bilder gestreamt werden.
+Der Umfang ist bewusst eng: nur Geografie, und zwar speziell Orte erraten. Keine Hauptstädte, keine historischen Fakten, kein kulturelles Wissen. Kostenlos spielst du im Wesentlichen die tägliche Challenge, und das Abo, zum Listenpreis 6,99 €/Monat oder rund 48 €/Jahr (Stand November 2026), ist praktisch Pflicht. Außerdem brauchst du ständig eine Internetverbindung, weil die Street-View-Bilder gestreamt werden.
 
 Einen breiteren Blick speziell auf Geografie-Apps bietet unser [Vergleich der besten Geografie-Apps](/de/blog/beste-geografie-apps/).
 
-Einzigartig, immersiv, und du lernst, die Welt mit anderen Augen zu sehen. Aber nur Geografie, immer online, und mit der kostenlosen Stufe kannst du kaum spielen.
+Einzigartig, immersiv, und du lernst, die Welt mit anderen Augen zu sehen. Aber nur Geografie, immer online, und kostenlos nur eingeschränkt spielbar.
 
-**Preis:** Kostenlose Stufe. Pro ca. 6,99 €/Monat (weniger bei jährlicher Abrechnung).
+**Preis:** Eingeschränkt kostenlos spielbar. Abo 6,99 €/Monat oder rund 48 €/Jahr (Stand November 2026).
 
 ## 8. Seterra — Klassische Karten-Quizze
 
-Seterra gibt es schon seit Jahrzehnten. Das Prinzip ist simpel: Du siehst eine Karte, die App nennt einen Ort, du klickst ihn an. Um Länder, Hauptstädte, Flaggen und physische Geografie zu lernen, funktioniert das einfach. Mit dieser Art Drill baut sich das räumliche Gedächtnis schnell auf.
+[Seterra](https://www.geoguessr.com/seterra) gibt es seit 1997. Das Prinzip ist simpel: Du siehst eine Karte, die App nennt einen Ort, du klickst ihn an. Um Länder, Hauptstädte, Flaggen und physische Geografie zu lernen, funktioniert das einfach. Mit dieser Art Drill baut sich das räumliche Gedächtnis schnell auf.
 
-Allerdings hat sich Seterra kaum weiterentwickelt. Das Design wirkt altbacken, und der Umfang beschränkt sich strikt auf Geografie: keine Geschichte, keine Kunst, keine Natur, keine Allgemeinbildung. Die mobile App, früher kostenpflichtig, ist inzwischen gratis. Keine Erklärungen zu falschen Antworten.
+Allerdings hat sich Seterra kaum weiterentwickelt. Das Design wirkt altbacken, und der Umfang beschränkt sich strikt auf Geografie: keine Geschichte, keine Kunst, keine Natur, keine Allgemeinbildung. Die mobile App ist kostenlos, ohne Werbung und ohne In-App-Käufe. Keine Erklärungen zu falschen Antworten.
 
 Zuverlässig und bewährt. Aber sie zeigt ihr Alter, und die reine Geografie begrenzt, was du herausholen kannst.
 
-**Preis:** Kostenlos (Web und mobile App).
+**Preis:** Mobile App kostenlos, ohne Werbung und In-App-Käufe (Stand November 2026).
 
 ## 9. QuizDuel — Quiz-Duelle eins gegen eins
 
-QuizDuel (hierzulande als Quizduell bekannt, in manchen Märkten als QuizClash) ist ein Quiz im direkten Duell gegen eine andere Person. Mit über 100 Millionen Spielern findest du immer einen Gegner. Die abwechselnde Kategoriewahl bringt eine Prise Strategie: Wähl deine Stärken und zwing dein Gegenüber in seine Schwächen.
+[QuizDuel](https://play.google.com/store/apps/details?id=se.maginteractive.quizduel2) (hierzulande als Quizduell bekannt) ist ein Quiz im direkten Duell gegen eine andere Person, gespielt über sechs Runden. Der Anbieter spricht von über 100 Millionen Spielern, du findest also immer einen Gegner, und es gibt auch einen Solo-Modus.
 
-Die üblichen Probleme gibt es auch hier: häufige Werbung, keine Erklärungen, kein echter Lerntiefgang. Und uns ist noch etwas aufgefallen: Verdächtig viele Gegner spielen in übermenschlichem Tempo. Andere Nutzer berichten dasselbe. Gut möglich, dass du öfter gegen einen Bot spielst, als dir lieb ist.
+Die üblichen Probleme gibt es auch hier: Werbung in der kostenlosen Version, im App Store angegebenes Werbe-Tracking und keine Erklärungen nach den Antworten. Ein Kauf für 30 Tage ohne Werbung und ein VIP-Abo (4,99 €/Monat im französischen App Store, Stand November 2026) entfernen die Werbung.
 
-Unterhaltsames Duellformat, strategische Kategoriewahl. Aber Werbung, fehlende Erklärungen und das Bot-Problem trüben das Erlebnis.
+Unterhaltsames Duellformat, große Spielerbasis. Aber Werbung und fehlende Erklärungen begrenzen den Lernwert.
 
-**Preis:** Kostenlos mit Werbung. Premium verfügbar.
+**Preis:** Kostenlos mit Werbung. VIP-Abo verfügbar.
 
 ## 10. StudyGe — Interaktiver Atlas und Quiz
 
-StudyGe kombiniert einen interaktiven Weltatlas mit Geografie-Quizzen zu Ländern, Hauptstädten, Flaggen und mehr. Die Atlasansicht ist praktisch für visuelle Lerntypen, die erst erkunden und sich dann testen wollen. Die Werbung entfernst du mit einem kleinen Einmalkauf (etwa 2 €); der volle Premium-Plan kostet rund 30 € pro Jahr.
+[StudyGe](https://play.google.com/store/apps/details?id=com.mileoDev.geography) kombiniert einen interaktiven Weltatlas mit Geografie-Quizzen zu Ländern, Hauptstädten, Flaggen und mehr. Die Atlasansicht ist praktisch für visuelle Lerntypen, die erst erkunden und sich dann testen wollen. Im französischen App Store kostet es im November 2026 1,99 €, die Werbung zu entfernen, und 29,99 € pro Jahr für den Premium-Plan.
 
 Wie mehrere andere hier ist StudyGe reine Geografie. Keine Geschichte, keine Kunst, keine Natur, kein breiteres Wissen. Die Quizmechanik ist geradlinig, aber wenig einprägsam, und falsche Antworten werden nicht erklärt.
 
 Gute Atlasfunktion. Aber begrenzter Umfang und keine Erklärungen.
 
-**Preis:** Kostenlos mit Werbung. Premium ca. 29,99 €/Jahr.
+**Preis:** Kostenlos mit Werbung. Premium 29,99 €/Jahr.
 
 ## Vergleichstabelle
 
 | App | Themen | Werbefrei | Datenschutz | Erklärungen | Preis |
 |-----|---------|---------|---------|--------------|-------|
 | **SAPIRO** | Geografie, Geschichte, Kunst, Natur | Ja | Niemals verkaufte Daten | Ja, ausführlich | Kostenlose Version, ohne Werbung |
-| **Trivia Crack** | 6 Kategorien (Schwerpunkt Unterhaltung) | Nein (viel Werbung) | Daten an Dritte verkauft | Nein | Kostenlos mit Werbung |
-| **Kahoot!** | Eigene (von Lehrkräften erstellt) | Je nach Plan | Sammelt Nutzerdaten | Hängt vom Quiz-Ersteller ab | Kostenlos / ca. 3–19 $/Monat |
-| **Quizizz (Wayground)** | Eigene (von Lehrkräften erstellt) | Nein | Sammelt Nutzerdaten | Hängt vom Quiz-Ersteller ab | Kostenlos / auf Anfrage |
-| **Erudite** | Allgemeinwissen | Nein (Erwachsenenwerbung gemeldet) | Sammelt Nutzerdaten | Begrenzt | Kostenlos mit Werbung |
-| **Quiz Sans Fin** | Allgemeinwissen | Nein | Sammelt Nutzerdaten | Wikipedia-Links | Kostenlos mit Werbung |
-| **GeoGuessr** | Nur Geografie | Nur mit Pro | Sammelt Nutzerdaten | Nein | Kostenlos / Pro ca. 6,99 €/Monat |
-| **Seterra** | Nur Geografie | Ja (mobile App) | Sammelt Nutzerdaten | Nein | Kostenlos |
-| **QuizDuel** | Allgemeines Quizwissen | Nein | Sammelt Nutzerdaten | Nein | Kostenlos mit Werbung |
-| **StudyGe** | Nur Geografie | Nur mit Premium | Sammelt Nutzerdaten | Nein | Kostenlos / Premium ca. 29,99 €/Jahr |
+| **Trivia Crack** | 6 Kategorien (Schwerpunkt Unterhaltung) | Nein | Werbe-Tracking angegeben | Nein | Kostenlos mit Werbung |
+| **Kahoot!** | Eigene (von Lehrkräften erstellt) | Keine Werbung ausgewiesen | Kein Tracking angegeben | Hängt vom Quiz-Ersteller ab | Kostenlos / 3–19 $/Monat |
+| **Quizizz (Wayground)** | Eigene (von Lehrkräften erstellt) | Keine Werbung ausgewiesen | Kein Tracking angegeben | Hängt vom Quiz-Ersteller ab | Kostenlos / auf Anfrage |
+| **Erudite** | Allgemeinwissen | Nein | Werbe-Tracking angegeben | Begrenzt | Kostenlos mit Werbung |
+| **Quiz Sans Fin** | Allgemeinwissen | Nein | Werbe-Tracking angegeben | Wikipedia-Links | Kostenlos mit Werbung |
+| **GeoGuessr** | Nur Geografie | Nur mit Abo | Kein Tracking angegeben | Nein | Kostenlos / 6,99 €/Monat |
+| **Seterra** | Nur Geografie | Ja (mobile App) | Kein Tracking angegeben | Nein | Kostenlos |
+| **QuizDuel** | Allgemeines Quizwissen | Nein | Werbe-Tracking angegeben | Nein | Kostenlos mit Werbung |
+| **StudyGe** | Nur Geografie | Nein (1,99 € zum Entfernen) | Werbe-Tracking angegeben | Nein | Kostenlos / Premium 29,99 €/Jahr |
+
+Für die anderen Apps gibt die Spalte „Datenschutz“ wieder, was die Anbieter im französischen App Store angeben (Rubrik zu Daten, die zum Tracking verwendet werden), Stand 27. November 2026; Apple überprüft diese Angaben nicht.
 
 ## Unser Fazit
 
 Welche App die richtige ist, hängt davon ab, was du wirklich brauchst.
 
-Für Live-Stimmung im Klassenzimmer sind Kahoot! und Quizizz kaum zu schlagen. Für Geografie-Fans, die etwas wirklich anderes wollen, spielt GeoGuessr in einer eigenen Liga. Für lockere Quizrunden mit Freunden haben Trivia Crack und QuizDuel die großen Spielerzahlen, aber sei dir bewusst, was du beim Datenschutz und bei der Werbung in Kauf nimmst.
+Für Live-Stimmung im Klassenzimmer sind Kahoot! und Quizizz kaum zu schlagen. Für Geografie-Fans, die etwas wirklich anderes wollen, spielt GeoGuessr in einer eigenen Liga. Für lockere Quizrunden mit Freunden haben Trivia Crack und QuizDuel die großen Spielerzahlen, aber rechne mit Werbung und Werbe-Tracking.
 
 SAPIRO gewinnt bei den Kriterien, die für Lernen und Familien am meisten zählen: Inhalte aus mehreren Bereichen, echte Erklärungen, keine Werbung und niemals verkaufte Daten. Es ist die einzige App auf dieser Liste, die Geografie, Geschichte, Kunst und Natur an einem Ort abdeckt, ohne deine Aufmerksamkeit oder deine Daten zu verkaufen. Diese Kombination gibt es sonst nirgends.
 
@@ -158,3 +163,27 @@ Zum Weiterlesen: unsere [Alternativen zu Trivia Crack](/en/blog/trivia-crack-alt
   <img src="/images/blog/apps/etudier-smartphone.jpg" alt="Senioren bei einer Schulung in einem Klassenzimmer" loading="lazy" />
   <figcaption>Photo: ONBag · CC0 · Wikimedia Commons</figcaption>
 </figure>
+
+## Quellen
+
+Offizielle Store-Einträge und Websites, abgerufen am 27. November 2026. Euro-Preise und Datenschutzangaben stammen aus dem französischen App Store.
+
+- [Google Play, Trivia Crack](https://play.google.com/store/apps/details?id=com.etermax.preguntados.lite): mehr als 100 Millionen Downloads, sechs Kategorien, Werbung.
+- [App Store (Frankreich), Trivia Crack](https://apps.apple.com/fr/app/trivia-crack-jeux-de-quiz/id651510680): In-App-Käufe, zum Tracking verwendete Daten.
+- [Kahoot!, Pläne für Privatnutzer](https://kahoot.com/register/pricing-personal/): kostenloser Plan und Preise im November 2026.
+- [Google Play, Kahoot!](https://play.google.com/store/apps/details?id=no.mobitroll.kahoot.android): Lernmodi, Challenges im eigenen Tempo.
+- [App Store (Frankreich), Kahoot!](https://apps.apple.com/fr/app/kahoot-quiz-jeux-%C3%A9ducatifs/id1131203560): Datenschutzangaben.
+- [Wayground, Pläne](https://wayground.com/home/plans): kostenloser Basic-Plan für Lehrkräfte, Schulen und Bezirke auf Anfrage.
+- [Google Play, Wayground](https://play.google.com/store/apps/details?id=com.quizizz_mobile): früher Quizizz, selbstständiges Lernen.
+- [App Store (Frankreich), Wayground](https://apps.apple.com/fr/app/wayground/id1160249042): Datenschutzangaben.
+- [Google Play, Erudite](https://play.google.com/store/apps/details?id=com.erudite.trivia.brain.quiz.mind.game): Anbieter Mioris LTD, Werbung, In-App-Käufe.
+- [App Store (Frankreich), Erudite](https://apps.apple.com/fr/app/erudit-jeu-de-culture-g%C3%A9n%C3%A9rale/id1506496657): Spielprinzip, 19 Sprachen, Preise der In-App-Käufe, Tracking angegeben.
+- [Google Play, Quiz Sans Fin](https://play.google.com/store/apps/details?id=com.timleg.quiz): Tausende Fragen, Wikipedia-Links, Elo-Zahl, Werbung.
+- [App Store (Frankreich), Quiz sans fin](https://apps.apple.com/fr/app/quiz-sans-fin/id1251898178): sechs Sprachen, kostenlos, Tracking angegeben.
+- [GeoGuessr, Abos](https://www.geoguessr.com/pro): Preise im November 2026.
+- [App Store (Frankreich), GeoGuessr](https://apps.apple.com/fr/app/geoguessr/id1049876497): In-App-Käufe, Datenschutzangaben.
+- [GeoGuessr, Seterra-Seite](https://www.geoguessr.com/seterra): seit 1997, über 400 Quizze.
+- [App Store (Frankreich), Seterra](https://apps.apple.com/fr/app/seterra-g%C3%A9ographie-compl%C3%A8te/id1093460065): kostenlos, ohne Werbung und In-App-Käufe.
+- [Google Play, QuizDuel](https://play.google.com/store/apps/details?id=se.maginteractive.quizduel2): über 100 Millionen Spieler laut Anbieter, Duelle über sechs Runden, Solo-Modus.
+- [App Store (Frankreich), QuizDuel](https://apps.apple.com/fr/app/duelquiz/id1484354626): VIP-Abo, Kauf ohne Werbung, Tracking angegeben.
+- [App Store (Frankreich), StudyGe](https://apps.apple.com/fr/app/studyge-g%C3%A9ographie-monde-quiz/id1444539710): Preise für Premium und Werbefreiheit, Tracking angegeben.

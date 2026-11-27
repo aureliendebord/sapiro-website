@@ -2,6 +2,7 @@
 title: "50 Allgemeinwissen-Fragen mit Antworten"
 description: "50 Allgemeinwissen-Fragen mit erklärten Antworten, nach Thema und Niveau sortiert. Zum Testen, Wiederholen oder für deinen nächsten Quizabend."
 date: 2026-10-19
+lastModified: 2026-11-27
 image: "/images/blog/art/ecole-athenes.jpg"
 imageAlt: "Die Schule von Athen von Raffael"
 imageCredit: "Photo: Raphael · public domain · Wikimedia Commons"
@@ -21,7 +22,7 @@ Die Fragen sind in fünf Bereiche aufgeteilt (Geografie, Geschichte, Kunst und K
 ## Geografie
 
 **1. Welches Land hat die meisten Zeitzonen der Welt?** *(schwer)*
-**Frankreich** (12). Dank seiner Überseegebiete, die über alle Ozeane verteilt sind, liegt es knapp vor Russland und den USA.
+**Frankreich** ([insgesamt 12](https://www.timeanddate.com/time/zone/france)). Dank seiner Überseegebiete, die über alle Ozeane verteilt sind, liegt es knapp vor Russland und den USA.
 
 **2. Was ist die Hauptstadt von Kanada?** *(leicht)*
 **Ottawa.** Viele tippen auf Toronto oder Montreal, doch die Bundesregierung sitzt in Ottawa, in der Provinz Ontario.
@@ -36,7 +37,7 @@ Die Fragen sind in fünf Bereiche aufgeteilt (Geografie, Geschichte, Kunst und K
 **Der Kilimandscharo.** Der ruhende Vulkan in Tansania ist zugleich der höchste freistehende Berg der Welt.
 
 **6. Welche Meerenge trennt Spanien von Marokko?** *(mittel)*
-**Die Straße von Gibraltar.** An ihrer schmalsten Stelle kaum 14 km breit, verbindet sie das Mittelmeer mit dem Atlantik.
+**Die Straße von Gibraltar.** An ihrer schmalsten Stelle [laut NASA nur 13 km breit](https://science.nasa.gov/earth/earth-observatory/the-strait-of-gibraltar-151478/), verbindet sie das Mittelmeer mit dem Atlantik.
 
 **7. In welchem Land liegt Marrakesch?** *(leicht)*
 **Marokko.** Die „rote Stadt“ ist eine der vier Königsstädte des Landes.
@@ -45,10 +46,10 @@ Die Fragen sind in fünf Bereiche aufgeteilt (Geografie, Geschichte, Kunst und K
 **Tokio.** Früher hieß die Stadt Edo; 1868 wurde sie anstelle von Kyoto Hauptstadt.
 
 **9. Welches Land ist vollständig von Südafrika umschlossen?** *(schwer)*
-**[Lesotho](https://en.wikipedia.org/wiki/Lesotho).** Einer von nur drei Staaten der Welt, die komplett von einem einzigen anderen Land umgeben sind.
+**[Lesotho](https://thecommonwealth.org/our-member-countries/lesotho).** Einer von nur drei Staaten der Welt, die komplett von einem einzigen anderen Land umgeben sind.
 
 **10. Welcher Fluss fließt durch Paris?** *(leicht)*
-**Die Seine.** Rund 777 km lang, bevor sie bei Le Havre in den Ärmelkanal mündet.
+**Die Seine.** [Laut Larousse-Enzyklopädie 776 km lang](https://www.larousse.fr/encyclopedie/riviere-lac/wd/143800), bevor sie bei Le Havre in den Ärmelkanal mündet.
 
 Mehr Geografie gefällig? Probier unser [Quiz zu den Hauptstädten der Welt](/en/blog/world-capitals-quiz/).
 
@@ -70,7 +71,7 @@ Mehr Geografie gefällig? Probier unser [Quiz zu den Hauptstädten der Welt](/en
 **Vom Salz** (*salarium*). Ursprünglich bezeichnete der Begriff eine Summe, die mit Salz zusammenhing, einem kostbaren Gut zur Römerzeit.
 
 **6. Welche römische Stadt wurde 79 n. Chr. beim Ausbruch des Vesuvs verschüttet?** *(mittel)*
-**[Pompeji](https://en.wikipedia.org/wiki/Pompeii).** Im 18. Jahrhundert wiederentdeckt, hält sie eine Momentaufnahme des römischen Alltags fest.
+**Pompeji.** Im 18. Jahrhundert wiederentdeckt, hält sie eine Momentaufnahme des römischen Alltags fest.
 
 **7. Welcher französische Kaiser wurde 1815 bei Waterloo besiegt?** *(leicht)*
 **Napoleon I.** Die Niederlage gegen Briten und Preußen beendete seine Herrschaft der Hundert Tage.
@@ -104,7 +105,7 @@ Um den Jahreszahlen Gesichter zu geben: unsere [Persönlichkeiten, die Geschicht
 **England.** Geboren in Stratford-upon-Avon, schrieb er Stücke wie „Hamlet“ und „Romeo und Julia“.
 
 **6. Welcher Architekt entwarf die Sagrada Família in Barcelona?** *(mittel)*
-**Antoni Gaudí.** 1882 begonnen, ist dieses Meisterwerk des katalanischen Modernisme bis heute unvollendet.
+**Antoni Gaudí.** [Der Bau begann 1882, Gaudí übernahm das Projekt 1883](https://sagradafamilia.org/en/history-of-the-temple). Im Februar 2026 erreichte die Basilika ihre endgültige Höhe von 172,5 m, doch an diesem Meisterwerk des katalanischen Modernisme wird weiter gebaut.
 
 **7. Welcher spanische Künstler begründete den Kubismus mit und malte „Guernica“?** *(mittel)*
 **Pablo Picasso.** Das Gemälde prangert die Bombardierung der baskischen Stadt im Spanischen Bürgerkrieg an.
@@ -125,7 +126,7 @@ Damit du die großen Gemälde erkennst: unsere [Kunstwerke, die man kennen muss]
 **1. Was ist das chemische Symbol für Gold?** *(mittel)*
 **Au**, vom lateinischen *aurum*, „Gold“.
 
-**2. Wie hoch ist die [Lichtgeschwindigkeit](https://en.wikipedia.org/wiki/Speed_of_light) im Vakuum, grob gerundet?** *(mittel)*
+**2. Wie hoch ist die [Lichtgeschwindigkeit](https://www.bipm.org/en/committees/cg/cgpm/17-1983/resolution-1) im Vakuum, grob gerundet?** *(mittel)*
 **Rund 300.000 km/s** (exakt 299.792.458 m/s). So grundlegend, dass sie seit 1983 den Meter definiert.
 
 **3. Wie viele Knochen hat das Skelett eines Erwachsenen?** *(mittel)*
@@ -157,7 +158,7 @@ Um Wissenschaft mit dem Rest deines Wissens zu verknüpfen: der [Leitfaden zum A
 ## Natur
 
 **1. Was ist die größte Katze der Welt?** *(mittel)*
-**Der Tiger.** Der Sibirische Tiger bringt über 300 kg auf die Waage, mehr als der Löwe.
+**Der Tiger.** Ein männlicher Sibirischer Tiger [bringt bis zu 300 kg auf die Waage](https://nationalzoo.si.edu/animals/tiger), mehr als der Löwe.
 
 **2. Wie viele Beine hat eine Spinne?** *(leicht)*
 **Acht.** Insekten haben nur sechs: Eine Spinne ist also kein Insekt, sondern ein Spinnentier.
@@ -172,7 +173,7 @@ Um Wissenschaft mit dem Rest deines Wissens zu verknüpfen: der [Leitfaden zum A
 **Die Fledermaus.** Das Gleithörnchen dagegen gleitet nur.
 
 **6. Was ist das höchste Landtier der Welt?** *(leicht)*
-**Die Giraffe.** Ihr über zwei Meter langer Hals hat trotzdem nur sieben Wirbel, genau wie unserer.
+**Die Giraffe.** Ihr rund zwei Meter langer Hals hat trotzdem nur sieben Wirbel, genau wie unserer.
 
 **7. Von welchem Baum stammt die Eichel?** *(leicht)*
 **Von der Eiche.** Ihre Früchte ernähren Wildschweine, Eichhörnchen und viele andere Tiere.
@@ -184,7 +185,7 @@ Um Wissenschaft mit dem Rest deines Wissens zu verknüpfen: der [Leitfaden zum A
 **Pflanzenfresser** (Herbivore). Das Gegenteil ist der Fleischfresser, der nur Fleisch frisst.
 
 **10. Was ist das größte lebende Reptil der Welt?** *(mittel)*
-**Das Leistenkrokodil.** Das Salzwasserkrokodil wird über 6 Meter lang und lebt von Südostasien bis Ozeanien.
+**Das Leistenkrokodil.** Das auch Salzwasserkrokodil genannte Tier wird meist 3 bis 5 Meter lang, [die größten Männchen über 6 Meter](https://australian.museum/learn/animals/reptiles/estuarine-crocodile/). Es lebt von Südostasien bis Nordaustralien.
 
 Noch überraschender: unsere [seltsamen und wenig bekannten Tiere](/en/blog/strange-unknown-animals/).
 
@@ -222,3 +223,32 @@ Die SAPIRO-App bietet Hunderte Fragen nach Thema und Niveau sortiert, kostenlos,
   <img src="/images/blog/monde/livres-anciens.jpg" alt="Ein Stapel alter Bücher" loading="lazy" />
   <figcaption>Photo: Evan Bench from paris, france · CC BY 2.0 · Wikimedia Commons</figcaption>
 </figure>
+
+## Quellen
+
+**Geografie**
+
+- [Time and Date, Time Zones in France (englisch)](https://www.timeanddate.com/time/zone/france): 12 Zeitzonen für Frankreich einschließlich der Überseegebiete, Seite abgerufen im November 2026.
+- [NASA Earth Observatory, The Strait of Gibraltar (englisch)](https://science.nasa.gov/earth/earth-observatory/the-strait-of-gibraltar-151478/): 13 km zwischen Spanien und Marokko an der schmalsten Stelle, Artikel von 2023.
+- [Commonwealth-Sekretariat, Lesotho (englisch)](https://thecommonwealth.org/our-member-countries/lesotho): vollständig von Südafrika umschlossenes Land.
+- [Larousse-Enzyklopädie, la Seine (französisch)](https://www.larousse.fr/encyclopedie/riviere-lac/wd/143800): Länge des Flusses, 776 km.
+
+**Kunst und Kultur**
+
+- [Basilika Sagrada Família, History of the Temple (englisch)](https://sagradafamilia.org/en/history-of-the-temple): Grundsteinlegung 1882, Gaudí übernimmt das Projekt 1883.
+- [Vatican News, „Central tower of Barcelona's Sagrada Família completed“ (englisch)](https://www.vaticannews.va/en/church/news/2026-02/basilica-sagrada-familia-cross-completed-tower-of-jesus-christ.html): Jesus-Christus-Turm im Februar 2026 mit 172,5 m vollendet, Innenarbeiten bis 2028 geplant.
+- [Musée Rodin, The Thinker (englisch)](https://www.musee-rodin.fr/en/musee/collections/oeuvres/thinker): 1880 für „Das Höllentor“ entworfene Figur.
+
+**Wissenschaft**
+
+- [Internationales Büro für Maß und Gewicht (BIPM), Resolution 1 der 17. CGPM (englisch)](https://www.bipm.org/en/committees/cg/cgpm/17-1983/resolution-1): Definition des Meters über die Lichtgeschwindigkeit, 299.792.458 m/s, 1983 beschlossen.
+- [Cleveland Clinic, Bones (englisch)](https://my.clevelandclinic.org/health/body/25176-bones): 206 Knochen beim Erwachsenen, etwa 270 bei der Geburt, Seite 2025 aktualisiert.
+- [Nobelstiftung, Nobel Prize awarded women (englisch)](https://www.nobelprize.org/prizes/lists/nobel-prize-awarded-women/): Marie Curie, Physikpreis 1903 und Chemiepreis 1911, einzige zweifach ausgezeichnete Frau.
+
+**Natur**
+
+- [Smithsonian's National Zoo, Tiger (englisch)](https://nationalzoo.si.edu/animals/tiger): Amurtiger (Sibirischer Tiger), Männchen bis 300 kg.
+- [Australian Museum, Estuarine Crocodile (englisch)](https://australian.museum/learn/animals/reptiles/estuarine-crocodile/): erwachsene Tiere 3 bis 5 m, größtes zuverlässig vermessenes Exemplar mindestens 6,15 m.
+- [San Diego Zoo, Giraffe (englisch)](https://animals.sandiegozoo.org/animals/giraffe): höchstes Landtier, sieben Halswirbel, Hals etwa 1,8 m lang.
+- [San Diego Zoo, Ostrich (englisch)](https://animals.sandiegozoo.org/animals/ostrich): größter lebender Vogel, Sprints bis 70 km/h.
+- [National Geographic, Peregrine falcon (englisch)](https://www.nationalgeographic.com/animals/birds/facts/peregrine-falcon): Sturzflug mit über 200 Meilen pro Stunde, rund 320 km/h.

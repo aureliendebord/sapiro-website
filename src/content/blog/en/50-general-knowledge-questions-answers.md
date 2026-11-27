@@ -2,6 +2,7 @@
 title: "50 General Knowledge Questions (With Answers)"
 description: "50 general knowledge questions with explained answers, by theme and level. To test yourself in depth, revise, or host a quiz night."
 date: 2026-06-24
+lastModified: 2026-11-27
 image: "/images/blog/art/ecole-athenes.jpg"
 imageAlt: "The School of Athens by Raphael"
 imageCredit: "Photo: Raphael · public domain · Wikimedia Commons"
@@ -21,7 +22,7 @@ The questions are sorted into five fields (geography, history, art and culture, 
 ## Geography
 
 **1. Which country has the most time zones in the world?** *(hard)*
-**France** (12). Thanks to its overseas territories spread across every ocean, it edges out Russia and the United States.
+**France** ([12 in total](https://www.timeanddate.com/time/zone/france)). Thanks to its overseas territories spread across every ocean, it edges out Russia and the United States.
 
 **2. What is the capital of Canada?** *(easy)*
 **Ottawa.** Many think of Toronto or Montreal, but the federal government sits in Ottawa, in Ontario.
@@ -36,7 +37,7 @@ The questions are sorted into five fields (geography, history, art and culture, 
 **Kilimanjaro.** This dormant volcano in Tanzania is also the tallest free-standing mountain in the world.
 
 **6. Which strait separates Spain from Morocco?** *(medium)*
-**The Strait of Gibraltar.** Barely 14 km wide at its narrowest, it links the Mediterranean to the Atlantic.
+**The Strait of Gibraltar.** Barely [13 km wide at its narrowest, according to NASA](https://science.nasa.gov/earth/earth-observatory/the-strait-of-gibraltar-151478/), it links the Mediterranean to the Atlantic.
 
 **7. In which country is Marrakech?** *(easy)*
 **Morocco.** Nicknamed the "red city", it is one of the country's four imperial cities.
@@ -45,10 +46,10 @@ The questions are sorted into five fields (geography, history, art and culture, 
 **Tokyo.** Formerly named Edo, it became the capital in 1868, replacing Kyoto.
 
 **9. Which country is entirely surrounded by South Africa?** *(hard)*
-**[Lesotho](https://en.wikipedia.org/wiki/Lesotho).** One of only three states in the world fully enclosed within a single other country.
+**[Lesotho](https://thecommonwealth.org/our-member-countries/lesotho).** One of only three states in the world fully enclosed within a single other country.
 
 **10. Which river runs through Paris?** *(easy)*
-**The Seine.** Around 777 km long before it flows into the English Channel at Le Havre.
+**The Seine.** [776 km long according to the Larousse encyclopedia](https://www.larousse.fr/encyclopedie/riviere-lac/wd/143800) before it flows into the English Channel at Le Havre.
 
 Want to go further in geography? Try our [world capitals quiz](/en/blog/world-capitals-quiz/).
 
@@ -70,7 +71,7 @@ Want to go further in geography? Try our [world capitals quiz](/en/blog/world-ca
 **From salt** (*salarium*). The term originally referred to a sum tied to salt, a precious commodity in Roman times.
 
 **6. Which Roman city was buried by the eruption of Vesuvius in 79 AD?** *(medium)*
-**[Pompeii](https://en.wikipedia.org/wiki/Pompeii).** Rediscovered in the 18th century, it froze a snapshot of Roman daily life.
+**Pompeii.** Rediscovered in the 18th century, it froze a snapshot of Roman daily life.
 
 **7. Which French emperor was defeated at Waterloo in 1815?** *(easy)*
 **Napoleon I.** The defeat against the British and the Prussians ended his Hundred Days.
@@ -104,7 +105,7 @@ To put faces to the dates: our [figures who shaped history](/en/blog/historical-
 **England.** Born in Stratford-upon-Avon, he wrote plays such as "Hamlet" and "Romeo and Juliet".
 
 **6. Which architect designed the Sagrada Família in Barcelona?** *(medium)*
-**Antoni Gaudí.** Begun in 1882, this masterpiece of Catalan modernism is still unfinished today.
+**Antoni Gaudí.** [Work began in 1882 and Gaudí took over in 1883](https://sagradafamilia.org/en/history-of-the-temple). The basilica reached its final height of 172.5 m in February 2026, but this masterpiece of Catalan modernism is still under construction.
 
 **7. Which Spanish artist co-founded Cubism and painted "Guernica"?** *(medium)*
 **Pablo Picasso.** The painting denounces the bombing of that Basque town during the Spanish Civil War.
@@ -125,7 +126,7 @@ To recognise the great paintings: our [essential artworks to know](/en/blog/esse
 **1. What is the chemical symbol for gold?** *(medium)*
 **Au**, from the Latin *aurum*, meaning "gold".
 
-**2. What is the [speed of light](https://en.wikipedia.org/wiki/Speed_of_light) in a vacuum, in round numbers?** *(medium)*
+**2. What is the [speed of light](https://www.bipm.org/en/committees/cg/cgpm/17-1983/resolution-1) in a vacuum, in round numbers?** *(medium)*
 **About 300,000 km/s** (299,792,458 m/s exactly). So fundamental that it has defined the metre since 1983.
 
 **3. How many bones are in an adult human skeleton?** *(medium)*
@@ -157,7 +158,7 @@ To connect science to the rest of what you know: the [general knowledge guide](/
 ## Nature
 
 **1. What is the largest cat in the world?** *(medium)*
-**The tiger.** The Siberian tiger tops 300 kg, heavier than the lion.
+**The tiger.** A male Siberian tiger [can weigh up to 300 kg](https://nationalzoo.si.edu/animals/tiger), more than a lion.
 
 **2. How many legs does a spider have?** *(easy)*
 **Eight.** Insects have only six: a spider isn't one, it's an arachnid.
@@ -172,7 +173,7 @@ To connect science to the rest of what you know: the [general knowledge guide](/
 **The bat.** The flying squirrel, by contrast, only glides.
 
 **6. What is the tallest land animal in the world?** *(easy)*
-**The giraffe.** Its neck, over two metres long, still has just seven vertebrae, like ours.
+**The giraffe.** Its neck, about two metres long, still has just seven vertebrae, like ours.
 
 **7. Which tree does the acorn come from?** *(easy)*
 **The oak.** Its fruit feeds wild boar, squirrels and many other animals.
@@ -184,7 +185,7 @@ To connect science to the rest of what you know: the [general knowledge guide](/
 **A herbivore.** The opposite of a carnivore, which eats only meat.
 
 **10. What is the largest living reptile in the world?** *(medium)*
-**The saltwater crocodile.** The estuarine croc tops 6 metres, from Southeast Asia to Oceania.
+**The saltwater crocodile.** Also called the estuarine crocodile, it usually measures 3 to 5 metres and [the largest males exceed 6 metres](https://australian.museum/learn/animals/reptiles/estuarine-crocodile/). It lives from Southeast Asia to northern Australia.
 
 More surprising still: our [strange and little-known animals](/en/blog/strange-unknown-animals/).
 
@@ -222,3 +223,32 @@ The SAPIRO app offers hundreds of questions sorted by theme and level, free, wit
   <img src="/images/blog/monde/livres-anciens.jpg" alt="A stack of old books" loading="lazy" />
   <figcaption>Photo: Evan Bench from paris, france · CC BY 2.0 · Wikimedia Commons</figcaption>
 </figure>
+
+## Sources
+
+**Geography**
+
+- [Time and Date, Time Zones in France](https://www.timeanddate.com/time/zone/france): 12 time zones for France including its overseas territories, page viewed in November 2026.
+- [NASA Earth Observatory, The Strait of Gibraltar](https://science.nasa.gov/earth/earth-observatory/the-strait-of-gibraltar-151478/): 13 km between Spain and Morocco at the narrowest point, 2023 article.
+- [Commonwealth Secretariat, Lesotho](https://thecommonwealth.org/our-member-countries/lesotho): country entirely surrounded by South Africa.
+- [Larousse encyclopedia, la Seine (in French)](https://www.larousse.fr/encyclopedie/riviere-lac/wd/143800): length of the river, 776 km.
+
+**Art and culture**
+
+- [Basilica of the Sagrada Família, History of the Temple](https://sagradafamilia.org/en/history-of-the-temple): cornerstone laid in 1882, Gaudí takes over the project in 1883.
+- [Vatican News, "Central tower of Barcelona's Sagrada Família completed"](https://www.vaticannews.va/en/church/news/2026-02/basilica-sagrada-familia-cross-completed-tower-of-jesus-christ.html): Tower of Jesus Christ completed at 172.5 m in February 2026, interior work planned until 2028.
+- [Musée Rodin, The Thinker](https://www.musee-rodin.fr/en/musee/collections/oeuvres/thinker): figure conceived in 1880 for "The Gates of Hell".
+
+**Science**
+
+- [International Bureau of Weights and Measures (BIPM), Resolution 1 of the 17th CGPM](https://www.bipm.org/en/committees/cg/cgpm/17-1983/resolution-1): definition of the metre by the speed of light, 299,792,458 m/s, adopted in 1983.
+- [Cleveland Clinic, Bones](https://my.clevelandclinic.org/health/body/25176-bones): 206 bones in adults, about 270 at birth, page updated in 2025.
+- [Nobel Foundation, Nobel Prize awarded women](https://www.nobelprize.org/prizes/lists/nobel-prize-awarded-women/): Marie Curie, Physics Prize 1903 and Chemistry Prize 1911, the only woman honoured twice.
+
+**Nature**
+
+- [Smithsonian's National Zoo, Tiger](https://nationalzoo.si.edu/animals/tiger): Amur (Siberian) tiger, males up to 300 kg.
+- [Australian Museum, Estuarine Crocodile](https://australian.museum/learn/animals/reptiles/estuarine-crocodile/): adults 3 to 5 m, largest reliably measured individual at least 6.15 m.
+- [San Diego Zoo, Giraffe](https://animals.sandiegozoo.org/animals/giraffe): tallest land animal, seven neck vertebrae, neck about 1.8 m long.
+- [San Diego Zoo, Ostrich](https://animals.sandiegozoo.org/animals/ostrich): largest living bird, sprints up to 70 km/h.
+- [National Geographic, Peregrine falcon](https://www.nationalgeographic.com/animals/birds/facts/peregrine-falcon): dive above 200 miles an hour, about 320 km/h.

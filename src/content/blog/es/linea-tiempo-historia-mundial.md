@@ -2,6 +2,7 @@
 title: "Línea de tiempo mundial: los hitos esenciales"
 description: "Antigüedad, Edad Media, Renacimiento, era industrial, guerras mundiales: línea de tiempo mundial con las fechas y eventos que recordar."
 date: 2026-05-17
+lastModified: 2026-11-27
 image: "/images/blog/histoire/pyramides-gizeh.jpg"
 imageAlt: "Las pirámides de Guiza en Egipto"
 imageCredit: "Foto: Ricardo Liberato · CC BY-SA 2.0 · Wikimedia Commons"
@@ -13,25 +14,25 @@ author: "SAPIRO"
 readingTime: 7
 ---
 
-Una línea de tiempo mental es la herramienta más potente para no perderse en la historia mundial. Aquí van las 30 fechas y eventos que conviene saber para tener una visión de conjunto coherente.
+Una línea de tiempo mental es la herramienta más potente para no perderse en la historia mundial. Aquí van unas cuarenta fechas y eventos que conviene saber para tener una visión de conjunto coherente.
 
 ## Prehistoria (hasta -3000)
 
-**-3,3 millones de años**: primeras herramientas de piedra tallada.
+**-3,3 millones de años**: herramientas de piedra tallada más antiguas conocidas, [descubiertas en Kenia](https://anr.fr/fr/actus/details/news/lequipe-du-projet-archor-decouvre-les-plus-anciens-outils-de-pierre-au-kenya/).
 
-**-300 000**: Homo sapiens aparece en África.
+**-300 000**: [Homo sapiens](https://humanorigins.si.edu/evidence/human-fossils/species/homo-sapiens) aparece en África.
 
-**-40 000**: pinturas rupestres (Chauvet, Lascaux más tarde hacia -17 000).
+**-34 000**: pinturas de la [cueva de Chauvet](https://archeologie.culture.gouv.fr/chauvet/fr), de unos 36 000 años de antigüedad. Las de [Lascaux](https://archeologie.culture.gouv.fr/lascaux/en/dating-figures-lascaux) son más recientes: entre 21 000 y 23 000 años.
 
-**-10 000**: revolución neolítica. La humanidad se vuelve sedentaria y agrícola.
+**-10 000**: inicios de la revolución neolítica. La humanidad empieza a volverse sedentaria y agrícola.
 
 ## Antigüedad (-3000 a 476)
 
 **-3000**: nacimiento de la escritura en Mesopotamia (cuneiforme) y Egipto (jeroglíficos).
 
-**-2600**: pirámide de Keops.
+**Hacia -2560**: comienza la construcción de la pirámide de Keops.
 
-**-1750**: código de Hammurabi (Babilonia), primera gran codificación jurídica.
+**Hacia -1750**: [código de Hammurabi](https://collections.louvre.fr/ark:/53355/cl010174436), recopilación de leyes grabada en una estela bajo el reinado de este rey de Babilonia (-1792 a -1750).
 
 **-509**: fundación de la República romana.
 
@@ -41,7 +42,7 @@ Una línea de tiempo mental es la herramienta más potente para no perderse en l
 
 **-44**: asesinato de Julio César.
 
-**0**: nacimiento presumido de Jesús.
+**Hacia -7 a -5**: nacimiento presumido de Jesús, que los Evangelios sitúan bajo el rey Herodes, muerto en -4 ([Encyclopædia Universalis](https://www.universalis.fr/encyclopedie/jesus-jesus-christ/)). El calendario no tiene año 0.
 
 **476**: [caída del Imperio Romano de Occidente](https://es.wikipedia.org/wiki/Ca%C3%ADda_del_Imperio_romano_de_Occidente).
 
@@ -59,7 +60,7 @@ Una línea de tiempo mental es la herramienta más potente para no perderse en l
 
 **1337-1453**: Guerra de los Cien Años.
 
-**1348**: [peste negra](https://es.wikipedia.org/wiki/Peste_negra), hasta el 50% de la población europea muerta.
+**1347-1353**: [peste negra](https://www.londonmuseum.org.uk/collections/london-stories/great-pestilence-london/). Millones de muertos en Europa, Asia y el norte de África. Londres pierde más de la mitad de sus habitantes.
 
 **1453**: caída de Constantinopla, fin del Imperio bizantino.
 
@@ -125,3 +126,14 @@ Para profundizar: [personajes históricos mayores](/es/blog/personajes-historico
   <img src="/images/blog/histoire/artefact-antique.jpg" alt="Una cerámica griega antigua" loading="lazy" />
   <figcaption>Foto: Carlo Dell'Orto · CC BY-SA 4.0 · Wikimedia Commons</figcaption>
 </figure>
+
+## Fuentes
+
+- [Agence nationale de la recherche, «L'équipe du projet ARCHOR découvre les plus anciens outils de pierre au Kenya» (en francés)](https://anr.fr/fr/actus/details/news/lequipe-du-projet-archor-decouvre-les-plus-anciens-outils-de-pierre-au-kenya/): herramientas de piedra de 3,3 millones de años, descubrimiento publicado en 2015.
+- [Smithsonian National Museum of Natural History, «Homo sapiens» (en inglés)](https://humanorigins.si.edu/evidence/human-fossils/species/homo-sapiens): aparición de Homo sapiens en África hace 300 000 años.
+- [Ministerio de Cultura de Francia, «La Grotte Chauvet-Pont d'Arc» (en francés)](https://archeologie.culture.gouv.fr/chauvet/fr): pinturas de 36 000 años de antigüedad.
+- [Ministerio de Cultura de Francia, «Dating the figures at Lascaux» (en inglés)](https://archeologie.culture.gouv.fr/lascaux/en/dating-figures-lascaux): Lascaux datada en unos 23 000 años, entre 21 500 y 21 000 años según el programa LAsCO (2018-2021).
+- [Rosicrucian Egyptian Museum, «Pyramids of Giza» (en inglés)](https://egyptianmuseum.org/explore/old-kingdom-monuments-pyramids-of-giza): construcción de la pirámide de Keops a partir de 2560 a. C. aproximadamente.
+- [Museo del Louvre, «Code de Hammurabi» (en francés)](https://collections.louvre.fr/ark:/53355/cl010174436): estela fechada en el reinado de Hammurabi, 1792-1750 a. C.
+- [Encyclopædia Universalis, «Jésus ou Jésus-Christ» (en francés)](https://www.universalis.fr/encyclopedie/jesus-jesus-christ/): nacimiento situado en 7 o 5 antes de nuestra era, Herodes muerto en 4 antes de nuestra era.
+- [London Museum, «The Great Pestilence in London» (en inglés)](https://www.londonmuseum.org.uk/collections/london-stories/great-pestilence-london/): peste negra en Europa de 1347 a 1353, más de la mitad de los londinenses muertos en 1352.

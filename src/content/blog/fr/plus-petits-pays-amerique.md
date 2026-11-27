@@ -2,6 +2,7 @@
 title: "Les 10 plus petits pays d'Amérique, tous dans les Caraïbes"
 description: "Saint-Christophe-et-Niévès (261 km²) est le plus petit pays d'Amérique. Les 10 plus petits pays américains, tous insulaires, et le plus petit du continent."
 date: 2026-08-17
+lastModified: 2026-11-27
 image: "/images/blog/famille/globe-atlas-table.jpg"
 imageAlt: "Une carte du monde grecque ancienne en deux hémisphères"
 imageCredit: "Photo : Ánthimos Gazís · domaine public · Wikimedia Commons"
@@ -21,7 +22,7 @@ Le plus petit pays d'Amérique est Saint-Christophe-et-Niévès, avec environ 26
 
 Deux îles volcaniques et environ 47 000 habitants : c'est aussi le plus petit pays de tout l'hémisphère occidental, et le huitième plus petit du monde. Indépendant du Royaume-Uni depuis 1983, il vit du tourisme et d'un programme de citoyenneté par investissement parmi les plus anciens du monde.
 
-## 2. Grenade (344 km²)
+## 2. Grenade (345 km²)
 <img class="flag-badge" src="/flags/countries/gd.svg" alt="Drapeau : Grenade" loading="lazy" />
 
 
@@ -31,9 +32,9 @@ L'île aux épices produit une part notable de la noix de muscade mondiale, qui 
 <img class="flag-badge" src="/flags/countries/vc.svg" alt="Drapeau : Saint-Vincent-et-les-Grenadines" loading="lazy" />
 
 
-Une île principale et une trentaine d'îlots, dont certains privés. Le volcan de la Soufrière, au nord de Saint-Vincent, est entré en éruption en 2021 et a forcé l'évacuation d'environ 20 000 habitants.
+Une île principale et une trentaine d'îlots, dont certains privés. Le volcan de la Soufrière, au nord de Saint-Vincent, est entré en éruption en 2021 et a forcé [l'évacuation de quelque 16 000 habitants](https://news.un.org/en/story/2021/04/1089592), selon l'ONU.
 
-## 4. La Barbade (430 km²)
+## 4. La Barbade (431 km²)
 <img class="flag-badge" src="/flags/countries/bb.svg" alt="Drapeau : La Barbade" loading="lazy" />
 
 
@@ -49,19 +50,19 @@ Le pays revendique 365 plages, une par jour de l'année. Barbuda, la seconde îl
 <img class="flag-badge" src="/flags/countries/lc.svg" alt="Drapeau : Sainte-Lucie" loading="lazy" />
 
 
-Les deux pitons volcaniques de l'île sont classés au patrimoine mondial de l'UNESCO. Sainte-Lucie détient un record insolite : deux prix Nobel pour environ 180 000 habitants, le meilleur ratio par tête du monde.
+Les deux pitons volcaniques de l'île sont classés au patrimoine mondial de l'UNESCO. Sainte-Lucie détient un record insolite : deux prix Nobel pour environ 180 000 habitants, l'un des ratios par habitant les plus élevés du monde.
 
-## 7. La Dominique (751 km²)
+## 7. La Dominique (750 km²)
 <img class="flag-badge" src="/flags/countries/dm.svg" alt="Drapeau : La Dominique" loading="lazy" />
 
 
-À ne pas confondre avec la République dominicaine, sa voisine bien plus grande. L'île nature des Caraïbes compte neuf volcans actifs et abrite le deuxième lac bouillant du monde.
+À ne pas confondre avec la République dominicaine, sa voisine bien plus grande. L'île nature des Caraïbes compte plusieurs volcans actifs et abrite le Boiling Lake, l'un des plus grands lacs bouillants du monde.
 
-## 8. Trinité-et-Tobago (5 128 km²)
+## 8. Trinité-et-Tobago (5 127 km²)
 <img class="flag-badge" src="/flags/countries/tt.svg" alt="Drapeau : Trinité-et-Tobago" loading="lazy" />
 
 
-Le grand écart du classement : dix fois plus vaste que la Dominique. Situé à 11 km du Venezuela, le pays vit du pétrole et du gaz plus que du tourisme, et a inventé le steelpan, le tambour d'acier.
+Le grand écart du classement : près de sept fois plus vaste que la Dominique. Situé à 11 km du Venezuela, le pays vit du pétrole et du gaz plus que du tourisme, et a inventé le steelpan, le tambour d'acier.
 
 ## 9. Jamaïque (10 991 km²)
 <img class="flag-badge" src="/flags/countries/jm.svg" alt="Drapeau : Jamaïque" loading="lazy" />
@@ -69,26 +70,28 @@ Le grand écart du classement : dix fois plus vaste que la Dominique. Situé à 
 
 La troisième plus grande île des Caraïbes reste un petit pays à l'échelle du continent. Son influence culturelle, du reggae au sprint, dépasse de très loin sa taille.
 
-## 10. Bahamas (13 943 km²)
+## 10. Bahamas (13 940 km²)
 <img class="flag-badge" src="/flags/countries/bs.svg" alt="Drapeau : Bahamas" loading="lazy" />
 
 
-Environ 700 îles et îlots posés sur des bancs de sable au nord des Caraïbes, dont une trentaine seulement sont habités. L'archipel ferme ce classement à quelques kilomètres des côtes de Floride.
+[Environ 700 îles et îlots](https://www.bahamas.com/blog/bahamian-out-islands-our-best-kept-secret) posés sur des bancs de sable au nord des Caraïbes, dont une trentaine seulement sont habités. L'archipel ferme ce classement au large des côtes de Floride.
 
 ## Les plus petits pays d'Amérique en un coup d'œil
 
 | Rang | Pays | Superficie (km²) | Habitants (approx.) |
 |---|---|---|---|
 | 1 | Saint-Christophe-et-Niévès | 261 | 47 000 |
-| 2 | Grenade | 344 | 112 000 |
-| 3 | Saint-Vincent-et-les-Grenadines | 389 | 110 000 |
-| 4 | La Barbade | 430 | 282 000 |
+| 2 | Grenade | 345 | 117 000 |
+| 3 | Saint-Vincent-et-les-Grenadines | 389 | 101 000 |
+| 4 | La Barbade | 431 | 282 000 |
 | 5 | Antigua-et-Barbuda | 442 | 94 000 |
 | 6 | Sainte-Lucie | 616 | 180 000 |
-| 7 | La Dominique | 751 | 72 000 |
-| 8 | Trinité-et-Tobago | 5 128 | 1 400 000 |
+| 7 | La Dominique | 750 | 66 000 |
+| 8 | Trinité-et-Tobago | 5 127 | 1 400 000 |
 | 9 | Jamaïque | 10 991 | 2 800 000 |
-| 10 | Bahamas | 13 943 | 400 000 |
+| 10 | Bahamas | 13 940 | 400 000 |
+
+Superficies : [Annuaire démographique 2025 de l'ONU](https://unstats.un.org/unsd/demographic-social/products/dyb/documents/dyb2025/table03.pdf). Populations : estimations 2024 de la [Banque mondiale](https://donnees.banquemondiale.org/indicator/SP.POP.TOTL), arrondies.
 
 Sur le continent proprement dit, le plus petit pays est le Salvador (21 041 km²), suivi du Belize. La série continue avec les [plus petits pays du monde](/blog/plus-petits-pays-monde/), les [plus petits pays d'Asie](/blog/plus-petits-pays-asie/), les [plus petits pays d'Europe](/blog/plus-petits-pays-europe/) et les [plus petits pays d'Afrique](/blog/plus-petits-pays-afrique/). Et pour la démesure inverse, voyez les [plus grands pays du monde](/blog/plus-grands-pays-monde/), où les Amériques placent le Canada, les États-Unis, le Brésil et l'Argentine.
 
@@ -108,4 +111,11 @@ Chaque île ou petit archipel colonisé séparément est devenu un État distinc
 
 ### Quelle différence entre la Dominique et la République dominicaine ?
 
-Deux pays sans lien : la Dominique est une petite île anglophone de 751 km² indépendante depuis 1978 ; la République dominicaine, hispanophone, occupe 48 671 km² sur l'île d'Hispaniola, partagée avec Haïti.
+Deux pays sans lien : la Dominique est une petite île anglophone de 750 km² indépendante depuis 1978 ; la République dominicaine, hispanophone, occupe 48 671 km² sur l'île d'Hispaniola, partagée avec Haïti.
+
+## Sources
+
+- [ONU, Division de statistique, Annuaire démographique 2025, tableau 3](https://unstats.un.org/unsd/demographic-social/products/dyb/documents/dyb2025/table03.pdf) : superficie de chaque pays cité (km²), édition 2025.
+- [Banque mondiale, Population, total](https://donnees.banquemondiale.org/indicator/SP.POP.TOTL) : populations du tableau, estimations 2024.
+- [ONU Info, Volcanic eruption leaves 'entire population' of Saint Vincent without clean water](https://news.un.org/en/story/2021/04/1089592) : environ 16 000 habitants évacués après l'éruption de la Soufrière, avril 2021.
+- [Office du tourisme des Bahamas, Bahamian Out Islands](https://www.bahamas.com/blog/bahamian-out-islands-our-best-kept-secret) : 700 îles et îlots, dont une trentaine habités.

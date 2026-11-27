@@ -24,18 +24,18 @@ quiz:
   - question: "The Papal States lasted over 1,100 years. What is left of them today?"
     options: ["San Marino", "Monaco", "Malta", "The Vatican"]
     answer: 3
-    explanation: "Founded in 756, the Papal States were reduced to the Vatican in 1870, after Italian unification."
+    explanation: "Founded in 756, the Papal States were annexed by Italy in 1870; Vatican City was only created in 1929."
 ---
 
 The world has seen dozens of countries vanish in a century. Here are the main ones, by era, with what they became.
 
 ## Disappeared in the 1990s-2000s
 
-**USSR (1922-1991).** [Collapsed December 25, 1991](https://en.wikipedia.org/wiki/Dissolution_of_the_Soviet_Union). 15 independent republics: Russia, Ukraine, Belarus, Kazakhstan, Uzbekistan, Turkmenistan, Tajikistan, Kyrgyzstan, Georgia, Armenia, Azerbaijan, Lithuania, Latvia, Estonia, Moldova.
+**USSR (1922-1991).** The Soviet flag came down from the Kremlin on December 25, 1991, and the [formal dissolution](https://www.britannica.com/event/the-collapse-of-the-Soviet-Union) is dated December 31. 15 independent republics: Russia, Ukraine, Belarus, Kazakhstan, Uzbekistan, Turkmenistan, Tajikistan, Kyrgyzstan, Georgia, Armenia, Azerbaijan, Lithuania, Latvia, Estonia, Moldova.
 
-**Yugoslavia (1945-1992, then 2003).** Six countries emerged: Slovenia, Croatia, Bosnia-Herzegovina, North Macedonia, Serbia, Montenegro. Later, Kosovo separated from Serbia.
+**Yugoslavia (1918-1992, then 2003).** A kingdom born in 1918, [named Yugoslavia in 1929](https://www.britannica.com/place/Yugoslavia-former-federated-nation-1929-2003), a socialist federation after 1945. Six countries emerged: Slovenia, Croatia, Bosnia-Herzegovina, North Macedonia, Serbia, Montenegro. Serbia and Montenegro kept the name until 2003, then separated in 2006. Later, Kosovo separated from Serbia.
 
-**Czechoslovakia (1918-1993).** ["Velvet divorce"](https://en.wikipedia.org/wiki/Dissolution_of_Czechoslovakia) without war. Czech Republic and Slovakia.
+**Czechoslovakia (1918-1992).** ["Velvet divorce"](https://en.wikipedia.org/wiki/Dissolution_of_Czechoslovakia) without war, effective January 1, 1993. Czech Republic and Slovakia.
 
 **East Germany (GDR, 1949-1990).** Reunified with West Germany on October 3, 1990 after the fall of the Berlin Wall.
 
@@ -43,11 +43,11 @@ The world has seen dozens of countries vanish in a century. Here are the main on
 
 **Austro-Hungarian Empire (1867-1918).** Fragmented into Austria, Hungary, Czechoslovakia (then Czech Republic and Slovakia), Yugoslavia (then 6 countries), parts annexed to Poland, Romania, Italy.
 
-**Ottoman Empire (1299-1922).** Became Turkey, and all Middle Eastern countries (Syria, Lebanon, Jordan, Iraq, Arabian Peninsula, etc.) emerged from its dismantling.
+**Ottoman Empire (c. 1300-1922).** [Replaced by the Turkish Republic](https://www.britannica.com/place/Ottoman-Empire) and by several successor states in southeastern Europe and the Middle East (Syria, Lebanon, Jordan, Iraq, among others).
 
-**Tibet (until 1950).** Annexed by China.
+**Tibet (until 1950).** Its incorporation into the People's Republic of China began in 1950.
 
-**Sikkim (until 1975).** Annexed by India.
+**Sikkim (until 1975).** An Indian protectorate from 1950, it became India's 22nd state on May 16, 1975, after a referendum.
 
 **Nazi Germany (1933-1945).** Collapsed at the end of World War II.
 
@@ -55,21 +55,21 @@ The world has seen dozens of countries vanish in a century. Here are the main on
 
 **Napoleonic Empire (1804-1815).** Collapsed after Waterloo.
 
-**Kingdom of the Two Sicilies (1816-1860).** Integrated into unified Italy.
+**Kingdom of the Two Sicilies (1816-1861).** Conquered by Garibaldi in 1860, absorbed into the Kingdom of Italy proclaimed in 1861.
 
-**German Confederation (1815-1866).** Became German Empire then modern Germany.
+**German Confederation (1815-1866).** [Dissolved in 1866](https://www.britannica.com/topic/German-Confederation) after Prussia defeated Austria, and replaced by the North German Confederation, the prelude to the German Empire of 1871.
 
-**Papal States (756-1870).** Reduced to the Vatican after Italian unification.
+**Papal States (756-1870).** [Annexed by Italy in 1870](https://www.britannica.com/place/Papal-States). Vatican City State was only created in 1929, by the Lateran Treaty.
 
 ## Older vanished countries
 
 **Western Roman Empire (476).** Became a patchwork of barbarian kingdoms then modern Europe.
 
-**Byzantine Empire (until 1453).** Became the Ottoman Empire.
+**Byzantine Empire (until 1453).** Conquered by the Ottomans.
 
 **Sumer, Akkad, Babylon, Assyria.** Successive Mesopotamian empires that became modern Iraq.
 
-**Ancient Egypt, Carthage, Hellenistic Kingdoms.** All absorbed by Rome then by Islam.
+**Ancient Egypt, Carthage, Hellenistic Kingdoms.** Mostly conquered by Rome.
 
 ## Special cases
 
@@ -79,7 +79,7 @@ The world has seen dozens of countries vanish in a century. Here are the main on
 
 **Crimea case.** Annexed by Russia in 2014, situation contested internationally.
 
-**Taiwan case.** Officially "Republic of China," exists de facto since 1949. Recognized by only 12 states.
+**Taiwan case.** Officially "Republic of China," exists de facto since 1949. Recognized by only about a dozen states.
 
 ## Countries that could disappear
 
@@ -87,7 +87,7 @@ The world has seen dozens of countries vanish in a century. Here are the main on
 
 **Countries in civil war.** Yemen, Syria, Libya: the question of their unity remains open.
 
-**South Sudan case.** Independent in 2011 after splitting from Sudan. But in civil war.
+**South Sudan case.** Independent on July 9, 2011 after splitting from Sudan. Civil war broke out there in 2013.
 
 ## Why a country disappears
 
@@ -103,7 +103,7 @@ Three reasons.
 
 Three techniques.
 
-**Tie the disappearance to an event.** USSR = 1991. Yugoslavia = Balkans war 1992-2001. GDR = fall of the wall 1989.
+**Tie the disappearance to an event.** USSR = 1991. Yugoslavia = the wars of the 1990s. GDR = fall of the wall 1989.
 
 **Know the "children"** that emerged from each vanished country. USSR → 15. Yugoslavia → 7 with Kosovo.
 
@@ -122,7 +122,7 @@ Twenty questions on states wiped off the map, in four levels of difficulty. Coun
 
 ### Level 1: warm-up
 
-**1. Which huge country dissolved on December 26, 1991, leaving fifteen independent states?**
+**1. Which huge country dissolved in December 1991, leaving fifteen independent states?**
 
 The USSR. Russia is its continuator state, and the fourteen other republics, from the Baltics to Kazakhstan, became independent.
 
@@ -152,9 +152,9 @@ Austria-Hungary. Its dissolution redrew the entire map of Central Europe.
 
 Prussia. The Nazis had already hollowed out the state, but its formal abolition came after the war.
 
-**8. Which great country dreamed up by Simón Bolívar fell apart in 1831?**
+**8. Which great country dreamed up by Simón Bolívar fell apart in 1830?**
 
-Gran Colombia. It produced Colombia, Venezuela and Ecuador, and later Panama.
+[Gran Colombia](https://www.britannica.com/place/Gran-Colombia) (1819-1830). It produced Colombia, Venezuela and Ecuador, and later Panama.
 
 **9. Which maritime republic lasted 1,100 years before Napoleon abolished it in 1797?**
 
@@ -182,9 +182,9 @@ Sikkim, which became the 22nd Indian state after a referendum.
 
 The Kingdom of Hawaii. Queen Liliuokalani was its last sovereign.
 
-**15. Which British dominion voted to join Canada in 1949?**
+**15. Which British dominion joined Canada in 1949, after a referendum?**
 
-Newfoundland, de facto independent between the wars, which became the tenth Canadian province.
+Newfoundland. Voters [chose Confederation on July 22, 1948](https://www.thecanadianencyclopedia.ca/en/article/newfoundland-and-labrador-and-confederation), by 52.3%, and the island became Canada's tenth province on March 31, 1949.
 
 ### Level 4: experts only
 
@@ -218,3 +218,16 @@ The Kingdom of the Two Sicilies, whose capital was Naples.
 | 16-20 | Archive-cartographer level |
 
 To go further: the [flags of disappeared countries](/en/blog/flags-of-disappeared-countries/) extend the quiz in pictures, the [countries that changed their names](/en/blog/countries-that-changed-names/) cover the false disappearances, and the [newest countries in the world](/en/blog/newest-countries-world/) tell the other side of the story, the births.
+
+## Sources
+
+- [Encyclopaedia Britannica, "Collapse of the Soviet Union"](https://www.britannica.com/event/the-collapse-of-the-Soviet-Union): dissolution of the USSR dated December 31, 1991.
+- [Encyclopaedia Britannica, "Flag of Union of Soviet Socialist Republics"](https://www.britannica.com/topic/flag-of-Union-of-Soviet-Socialist-Republics): Soviet flag replaced on the Kremlin on December 25, 1991.
+- [Encyclopaedia Britannica, "Yugoslavia"](https://www.britannica.com/place/Yugoslavia-former-federated-nation-1929-2003): kingdom named Yugoslavia in 1929, third Yugoslavia from 1992 to 2003, Serbia and Montenegro separated in 2006.
+- [Encyclopaedia Britannica, "Ottoman Empire"](https://www.britannica.com/place/Ottoman-Empire): founded about 1300, ended in 1922, successor states.
+- [Encyclopaedia Britannica, "German Confederation"](https://www.britannica.com/topic/German-Confederation): 39 states, created in 1815, dissolved in 1866.
+- [Encyclopaedia Britannica, "Papal States"](https://www.britannica.com/place/Papal-States): papal sovereignty from 756 to 1870, Lateran Treaty of 1929.
+- [Encyclopaedia Britannica, "Francis II"](https://www.britannica.com/biography/Francis-II-king-of-the-Two-Sicilies): last king of the Two Sicilies, deposed in 1860, capitulation of February 1861.
+- [Encyclopaedia Britannica, "Sikkim"](https://www.britannica.com/place/Sikkim): 1975 referendum, 22nd Indian state on May 16, 1975.
+- [Encyclopaedia Britannica, "Gran Colombia"](https://www.britannica.com/place/Gran-Colombia): republic from 1819 to 1830.
+- [The Canadian Encyclopedia, "Newfoundland and Labrador and Confederation"](https://www.thecanadianencyclopedia.ca/en/article/newfoundland-and-labrador-and-confederation): 1948 referendums, entry into Canada on March 31, 1949.

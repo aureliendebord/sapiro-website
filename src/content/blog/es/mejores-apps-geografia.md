@@ -1,8 +1,8 @@
 ---
-title: "Top 8 apps para aprender geografía en 2025"
-description: "Comparativa de las 8 mejores aplicaciones de geografía en 2025: notas del 1 al 10, pros, contras y para quién va cada una. ¿Cuál se adapta mejor a tu nivel?"
+title: "Top 7 apps para aprender geografía en 2026"
+description: "Comparativa de 7 aplicaciones de geografía, revisada en noviembre de 2026: notas del 1 al 10, pros, contras y para quién va cada una. ¿Cuál encaja contigo?"
 date: 2026-03-01
-lastModified: 2026-09-30
+lastModified: 2026-11-27
 image: "/images/blog/apps/carte-monde-app.jpg"
 imageAlt: "Un mapa antiguo de Hungría del siglo XVI"
 imageCredit: "Foto: Lázár deák (Lazarus secretarius) · dominio público · Wikimedia Commons"
@@ -16,6 +16,8 @@ readingTime: 8
 
 Hay un montón de apps de geografía en las tiendas. Demasiadas, probablemente. Encontrar las mejores aplicaciones de geografía entre tanta oferta no es sencillo: algunas te enseñan de verdad, otras te hacen perder el tiempo con mapas bonitos y poca sustancia. Hemos probado las más populares durante semanas para ahorrarte el trabajo. Aquí va nuestra comparativa, con lo bueno y lo malo de cada una.
 
+Un aviso de transparencia: esta comparativa la publica el equipo de SAPIRO, que figura en la lista. Los precios y las características de las demás apps se comprobaron en sus fichas oficiales y sitios web el 27 de noviembre de 2026.
+
 ## 1. SAPIRO: la experiencia de quiz de geografía más completa
 
 SAPIRO cubre países, capitales, banderas, monumentos, gastronomía y tradiciones culturales. Disponible en iOS y Android, va bastante más allá del típico quiz de capitales.
@@ -28,57 +30,49 @@ Nota: 9,5/10
 
 ## 2. StudyGe: aprender países con mapas interactivos
 
-StudyGe va directo al grano: abres la app, ves un mapa y tienes que identificar los países que te piden. Sin florituras. Ese enfoque visual funciona muy bien si eres de los que aprenden mejor situando cosas en el espacio que respondiendo preguntas de texto.
+[StudyGe](https://play.google.com/store/apps/details?id=com.mileoDev.geography) va directo al grano: abres la app, ves un mapa y tienes que identificar los países que te piden. Sin florituras. Ese enfoque visual funciona muy bien si eres de los que aprenden mejor situando cosas en el espacio que respondiendo preguntas de texto.
 
-Cubre países, capitales, banderas y territorios dependientes. Tiene modo estudio (explorar el mapa libremente) y modo quiz. Funciona sin conexión, lo cual es un punto a favor si la usas en el metro o en viajes. Su limitación: se queda en lo estrictamente geográfico, sin tocar nada cultural. Y el diseño es algo básico, sin mucha variedad en los modos de juego.
+Cubre países, capitales, banderas y escudos, con mapas temáticos (mares, ríos, montañas) y datos de cada país. Tiene modo estudio (explorar el mapa libremente), varios modos de quiz y partidas contra otros jugadores. Su limitación: se queda en lo estrictamente geográfico, sin tocar nada cultural. La versión gratuita lleva publicidad (quitarla cuesta 1,99 €) y el plan premium sale por 29,99 € al año en el App Store francés en noviembre de 2026.
 
 Nota: 7,5/10
 
 ## 3. Seterra: el clásico de los quiz de mapas
 
-Seterra lleva ahí desde 1997. Empezó como aplicación de escritorio y ahora tiene versión web, iOS y Android. Su catálogo impresiona: más de 300 quiz que cubren los 195 países reconocidos por la ONU, además de capitales, ríos, montañas, océanos, estados y provincias de todo el mundo.
+[Seterra](https://www.geoguessr.com/seterra) lleva ahí desde 1997 y hoy pertenece a GeoGuessr. Tiene versión web, iOS y Android. Su catálogo impresiona: el sitio anuncia más de 400 quiz personalizables en más de 40 idiomas, con países, capitales, ríos, montañas, océanos, estados y provincias de todo el mundo.
 
-El formato es simple: mapa en pantalla, haz clic en la ubicación correcta. Funciona especialmente bien para preparar exámenes de cole porque puedes filtrar por continente o región. Es gratuita tanto en la web como en el móvil (la app, antes de pago, ahora es gratis). Lo que le falta: el diseño se ha quedado anticuado, no usa repetición espaciada, y no hay nada de contenido cultural.
+El formato es simple: mapa en pantalla, haz clic en la ubicación correcta. Funciona especialmente bien para preparar exámenes de cole porque puedes filtrar por continente o región. La app móvil es gratuita en noviembre de 2026, sin publicidad ni compras integradas, y su ficha anuncia más de 100 ejercicios y juego sin conexión. Lo que le falta: el diseño se ha quedado anticuado, no usa repetición espaciada, y no hay nada de contenido cultural.
 
 Nota: 7/10
 
 ## 4. GeoGuessr: el juego de exploración geográfica
 
-GeoGuessr te suelta en un punto aleatorio de Google Street View y tienes que adivinar dónde estás. Puedes moverte, mirar las señales de tráfico, la vegetación, la arquitectura, los coches aparcados... todo cuenta. Cuanto más te acerques al punto real, más puntos ganas.
+[GeoGuessr](https://www.geoguessr.com/) te suelta en un punto aleatorio de Google Street View y tienes que adivinar dónde estás. Puedes moverte, mirar las señales de tráfico, la vegetación, la arquitectura, los coches aparcados... todo cuenta. Cuanto más te acerques al punto real, más puntos ganas.
 
-Es adictivo. Desarrollas un tipo de razonamiento geográfico que ninguna otra app te da: aprendes a leer paisajes, a reconocer alfabetos, estilos de carretera, tipos de vegetación. Tiene una comunidad muy activa con competiciones y rankings. El inconveniente: necesitas suscripción mensual para jugar sin límites, y el enfoque es más lúdico que pedagógico. No te enseña datos de forma estructurada, pero desarrolla una intuición geográfica que vale mucho.
+Es adictivo. Desarrollas un tipo de razonamiento geográfico que ninguna otra app te da: aprendes a leer paisajes, a reconocer alfabetos, estilos de carretera, tipos de vegetación. Tiene una comunidad muy activa con competiciones y rankings: más de 100 millones de jugadores registrados en 190 países, según la empresa. El inconveniente: gratis solo se juega cada día un contenido limitado, sobre todo el reto diario, y la suscripción cuesta 6,99 € al mes o unos 48 € al año en noviembre de 2026 (sin promociones). El enfoque es más lúdico que pedagógico. No te enseña datos de forma estructurada, pero desarrolla una intuición geográfica que vale mucho.
 
 Nota: 8/10
 
 ## 5. World Geography: quiz educativo tradicional
 
-Para quienes buscan un enfoque más académico. World Geography organiza sus quiz por temática (capitales, banderas, población, superficie, monedas, idiomas) y por región. Cada pregunta incluye una ficha con datos del país en cuestión.
+Para quienes buscan un enfoque más académico. [World Geography](https://play.google.com/store/apps/details?id=com.age.wgg.appspot) («Geografía Mundial» en las tiendas españolas) organiza sus quiz por temática: mapas, capitales, banderas, población, religión, monedas, idiomas. Su ficha anuncia 6000 preguntas en cuatro niveles de dificultad, una enciclopedia y un entrenamiento de tus puntos débiles después de cada partida.
 
-Buena opción para preparar concursos de cultura general o para reforzar un área concreta. La base de datos es amplia e incluye no solo países soberanos sino también territorios dependientes y regiones autónomas. La interfaz, sin embargo, se nota anticuada, y la experiencia de usuario no es tan fluida como en apps más recientes. Le falta gamificación y no tiene modo social.
+Buena opción para preparar concursos de cultura general o para reforzar un área concreta. La base de datos es amplia: 400 países, regiones e islas según la ficha. Tiene clasificaciones mundiales y modo multijugador. La interfaz, sin embargo, se nota anticuada, y la versión gratuita lleva publicidad: quitarla cuesta 2,99 € en el App Store francés en noviembre de 2026, y algunos temas se desbloquean con compras integradas.
 
 Nota: 6,5/10
 
-## 6. QuizUp Geography: el referente de los duelos, cerrado en 2021
+## 6. Google Earth: exploración geográfica inmersiva
 
-QuizUp fue en su momento la app de quiz más popular del mundo, y su sección de geografía era de las más jugadas. El formato: te enfrentabas a otro jugador, preguntas rápidas, ganaba quien respondiera bien en menos tiempo. La app original cerró en 2021 (Glu Mobile apagó los servidores en marzo), así que ya no se puede descargar; el formato sobrevive en apps sucesoras e intentos de relanzamiento de la comunidad, de calidad desigual.
+[Google Earth](https://play.google.com/store/apps/details?id=com.google.earth) no es una app de quiz, pero merece estar en esta lista como herramienta complementaria. Permite explorar cualquier rincón del planeta con imágenes de satélite de alta resolución, relieve y edificios en 3D en cientos de ciudades y vistas de Street View en 360°. También permite medir distancias.
 
-La gracia de QuizUp era la dimensión social: desafiar amigos, unirse a comunidades, subir en rankings. Pero no estaba pensada para aprender de forma sistemática. No había repetición espaciada ni fichas de estudio, y las preguntas rápidas no favorecen la retención a largo plazo. Era un juego social, no una herramienta educativa.
-
-Nota: sin nota (app cerrada)
-
-## 7. Google Earth: exploración geográfica inmersiva
-
-Google Earth no es una app de quiz, pero merece estar en esta lista como herramienta complementaria. Permite explorar cualquier rincón del planeta en 3D, con imágenes satelitales, Street View e información sobre monumentos. Los recorridos Voyager te llevan a descubrir patrimonios de la UNESCO, ecosistemas y fenómenos geográficos con explicaciones detalladas.
-
-Es la herramienta perfecta para complementar lo que aprendes en un quiz con exploración visual. ¿Quieres entender la [historia y el significado de las banderas](/es/blog/significado-banderas/) en su contexto geográfico real? Abre Google Earth y viaja a ese país. Es completamente gratuita, aunque consume bastantes recursos del dispositivo y necesita buena conexión.
+Es la herramienta perfecta para complementar lo que aprendes en un quiz con exploración visual. ¿Quieres entender la [historia y el significado de las banderas](/es/blog/significado-banderas/) en su contexto geográfico real? Abre Google Earth y viaja a ese país. Es gratuita y está disponible en la web, iOS y Android, aunque necesita buena conexión.
 
 Nota: 8/10 (como herramienta complementaria)
 
-## 8. Stack the Countries: geografía para los más pequeños
+## 7. Stack the Countries: geografía para los más pequeños
 
-Diseñada para niños de 6 a 12 años. El concepto mola: al responder preguntas de geografía correctamente, ganas países que tienes que apilar (con físicas de juego reales) hasta alcanzar una línea. Es colorido, divertido y mantiene la atención de los niños durante rato.
+[Stack the Countries](https://dan-russell-pinson.com/my-games/) («Un Montón de Países» en el App Store español) está diseñada para niños; el App Store la clasifica en la franja de 9 a 11 años. El concepto mola: al responder preguntas de geografía correctamente, ganas países que tienes que apilar hasta alcanzar una línea. Es colorido, divertido y mantiene la atención de los niños durante rato.
 
-Las preguntas cubren capitales, banderas, continentes, idiomas y monumentos, todo adaptado a nivel infantil. Ideal para complementar la escuela y para [organizar actividades de geografía en familia](/es/blog/geografia-familia/). La investigación en psicología cognitiva confirma que practicar con quiz mejora la retención frente a releer el material, algo que aplica tanto para niños como para adultos. Está disponible en iOS y Android (compra única de unos 2,99 €). Pega importante: solo está en inglés y el contenido resulta demasiado básico para adolescentes y adultos.
+Las preguntas cubren capitales, banderas, continentes, idiomas, países fronterizos y monumentos: más de 1000 preguntas sobre 192 países. Ideal para complementar la escuela y para [organizar actividades de geografía en familia](/es/blog/geografia-familia/). Practicar con preguntas suele ayudar a retener mejor que limitarse a releer, algo que vale tanto para niños como para adultos. Está disponible en iOS y Android en compra única: 2,99 € en el App Store y 3,19 € en Google Play en noviembre de 2026, sin publicidad ni compras integradas según la ficha de Google Play. Pega importante: el contenido resulta demasiado básico para adolescentes y adultos.
 
 Nota: 7/10 (para su público objetivo)
 
@@ -86,7 +80,7 @@ Nota: 7/10 (para su público objetivo)
 
 Para facilitar la decisión, un resumen rápido de lo que ofrece cada app.
 
-Las apps con repetición espaciada (como SAPIRO) son las que mejor funcionan para retener información a largo plazo. Las de exploración (GeoGuessr, Google Earth) desarrollan la intuición geográfica, ese sexto sentido para reconocer dónde estás en el mundo. Las de competición (duelos al estilo QuizUp) van bien para motivarte con amigos. La combinación ideal: una app de aprendizaje estructurado como base, complementada con una de exploración para los días que te apetezca algo diferente.
+Las apps con repetición espaciada (como SAPIRO) son las que mejor funcionan para retener información a largo plazo. Las de exploración (GeoGuessr, Google Earth) desarrollan la intuición geográfica, ese sexto sentido para reconocer dónde estás en el mundo. Las de competición (duelos entre jugadores) van bien para motivarte con amigos. La combinación ideal: una app de aprendizaje estructurado como base, complementada con una de exploración para los días que te apetezca algo diferente.
 
 ## ¿Cómo elegir la mejor app de geografía para ti?
 
@@ -103,11 +97,11 @@ Para niños: gráficos atractivos, mecánicas de juego que enganchen y contenido
 
 ### ¿Cuál es la mejor app para aprender geografía gratis?
 
-SAPIRO ofrece una versión gratuita bastante completa con quiz de países, capitales, banderas y cultura general. Seterra también es gratuita, con más de 300 quiz.
+SAPIRO ofrece una versión gratuita bastante completa con quiz de países, capitales, banderas y cultura general. La app de Seterra también es gratuita, sin publicidad ni compras integradas.
 
 ### ¿Se puede aprender geografía solo con una app?
 
-Una app es una base excelente, pero combinar con otras actividades (documentales, atlas, [noches de quiz en familia](/es/blog/geografia-familia/)) mejora los resultados. La gamificación en la educación funciona mejor como cierre de ciclo, no como único método.
+Una app es una base excelente, pero combinar con otras actividades (documentales, atlas, [noches de quiz en familia](/es/blog/geografia-familia/)) mejora los resultados. Funciona mejor como complemento que como único método.
 
 ### ¿Qué app de geografía es mejor para niños?
 
@@ -115,8 +109,28 @@ Para niños de 6 a 12 años, Stack the Countries y SAPIRO son las más adecuadas
 
 ## Resumen de la comparativa
 
-Después de probar estas ocho aplicaciones durante semanas, la que mejor equilibra método pedagógico, variedad de contenido y experiencia de uso es SAPIRO. La repetición espaciada marca una diferencia real frente a las apps que simplemente lanzan preguntas al azar.
+Después de probar estas siete aplicaciones durante semanas, la que mejor equilibra método pedagógico, variedad de contenido y experiencia de uso es SAPIRO. La repetición espaciada marca una diferencia real frente a las apps que simplemente lanzan preguntas al azar.
 
 Ninguna app sola lo cubre todo. Complementa con GeoGuessr cuando quieras explorar y con Google Earth cuando un tema te pique la curiosidad. Entre las tres, tienes un kit bastante completo para cubrir países, capitales, banderas y cultura del mundo.
 
 Si lo que te tienta es GeoGuessr, nuestra selección de [alternativas a GeoGuessr](/es/blog/alternativas-geoguessr/) te ayudará a decidir. Y para un panorama más amplio, con herramientas de aula como Kahoot incluidas, consulta nuestra guía de las [mejores apps de quiz de cultura general](/es/blog/mejores-apps-quiz-cultura-general/).
+
+## Fuentes
+
+Fichas y sitios oficiales consultados el 27 de noviembre de 2026. Los precios en euros proceden del App Store francés y de Google Play.
+
+- [GeoGuessr, página de Seterra](https://www.geoguessr.com/seterra): Seterra creada en 1997, más de 400 quiz personalizables, más de 40 idiomas.
+- [Google Play, Seterra](https://play.google.com/store/apps/details?id=com.seterra): app gratuita, sin publicidad, más de 100 ejercicios, juego sin conexión.
+- [App Store (Francia), Seterra](https://apps.apple.com/fr/app/seterra-g%C3%A9ographie-compl%C3%A8te/id1093460065): editor GeoGuessr AB, gratuita, sin compras integradas.
+- [GeoGuessr, colaboraciones](https://www.geoguessr.com/partnerships): más de 100 millones de jugadores registrados en 190 países, cifra de la empresa.
+- [GeoGuessr, suscripciones](https://www.geoguessr.com/pro): precios mensual y anual en noviembre de 2026.
+- [App Store (Francia), GeoGuessr](https://apps.apple.com/fr/app/geoguessr/id1049876497): compras integradas en euros, clasificación 13+.
+- [Google Play, World Geography - Quiz Game](https://play.google.com/store/apps/details?id=com.age.wgg.appspot): 6000 preguntas, cuatro niveles, 400 países, regiones e islas, publicidad.
+- [App Store (Francia), World Geography - Quiz Game](https://apps.apple.com/fr/app/monde-g%C3%A9ographie-jeu-de-quiz/id1201287741): precios de las compras integradas, modo multijugador.
+- [Google Play, StudyGe](https://play.google.com/store/apps/details?id=com.mileoDev.geography): contenido de la app, publicidad.
+- [App Store (Francia), StudyGe](https://apps.apple.com/fr/app/studyge-g%C3%A9ographie-monde-quiz/id1444539710): precios del premium y de la eliminación de anuncios, modo multijugador.
+- [Dan Russell-Pinson, lista de juegos](https://dan-russell-pinson.com/my-games/): Stack the Countries en iOS y Android.
+- [Google Play, Stack the Countries](https://play.google.com/store/apps/details?id=com.freecloud.StackTheCountries): 192 países, más de 1000 preguntas, precio.
+- [App Store (Francia), Stack the Countries](https://apps.apple.com/fr/app/un-tas-de-pays/id407838198): precio, franja de 9 a 11 años.
+- [Google Play, Google Earth](https://play.google.com/store/apps/details?id=com.google.earth): imágenes de satélite, 3D, Street View, gratuidad.
+- [Ayuda de Google Earth, medir distancias y áreas](https://support.google.com/earth/answer/9010337): herramienta de medición.

@@ -2,6 +2,7 @@
 title: "European Monarchs Today: the Complete List by Country (2026)"
 description: "From Charlemagne to Queen Elizabeth II: the essential European monarchs by country and dynasty, with reign dates and major events."
 date: 2026-05-17
+lastModified: 2026-11-27
 image: "/images/blog/histoire/galerie-des-glaces.jpg"
 imageAlt: "The Hall of Mirrors at the Palace of Versailles"
 imageCredit: "Photo: Myrabella · CC BY-SA 3.0 · Wikimedia Commons"
@@ -17,13 +18,13 @@ Europe's monarchs structure a large part of world history. Here are the rulers t
 
 ## France
 
-**Clovis I (481-511).** Founder of the Frankish kingdom. First Christian king (baptized at Reims in 496).
+**Clovis I (481-511).** Founder of the Frankish kingdom. First king of the Franks to convert to Christianity: baptized at Reims on a Christmas Day, in 498, 499 or 506 according to [Larousse](https://www.larousse.fr/encyclopedie/personnage/Clovis/187404), the year being uncertain.
 
 **Charlemagne (768-814).** Crowned emperor in 800. Extends the Frankish realm across Western Europe.
 
 **Hugh Capet (987-996).** Founder of the Capetian dynasty.
 
-**Philip II Augustus (1180-1223).** Triples the kingdom's area. Builds the Louvre.
+**Philip II Augustus (1180-1223).** Greatly enlarges the royal domain. Builds the Louvre fortress.
 
 **Saint Louis (1226-1270).** Famous for his justice. Seventh Crusade. Canonized.
 
@@ -31,7 +32,7 @@ Europe's monarchs structure a large part of world history. Here are the rulers t
 
 **Henry IV (1589-1610).** First Bourbon. Edict of Nantes (1598).
 
-**Louis XIV (1643-1715).** The Sun King. Longest reign in French history (72 years). Builds the [Palace of Versailles](https://en.wikipedia.org/wiki/Palace_of_Versailles).
+**Louis XIV (1643-1715).** The Sun King. Longest reign in French history ([72 years](https://en.chateauversailles.fr/discover/history/great-characters/louis-xiv)). Moves the court to the Palace of Versailles in 1682.
 
 **Louis XVI (1774-1792).** Guillotined in 1793.
 
@@ -61,7 +62,7 @@ Europe's monarchs structure a large part of world history. Here are the rulers t
 
 ## Spain
 
-**Isabella I of Castile and Ferdinand II of Aragon (1474-1504 / 1479-1516).** The Catholic Monarchs. Unite Spain. Finance Columbus in 1492.
+**Isabella I of Castile and Ferdinand II of Aragon (1474-1504 / 1479-1516).** The Catholic Monarchs. Their marriage unites the crowns of Castile and Aragon. Finance Columbus in 1492.
 
 **Charles V (1516-1556).** Holy Roman Emperor and king of Spain. Vast empire including Americas, Netherlands, Naples.
 
@@ -69,7 +70,7 @@ Europe's monarchs structure a large part of world history. Here are the rulers t
 
 **Juan Carlos I (1975-2014).** Restores democracy after Franco.
 
-**Felipe VI (2014-).** Current monarch.
+**Felipe VI (2014-).** Current monarch, [proclaimed king on June 19, 2014](https://www.casareal.es/ES/FamiliaReal/Rey/Paginas/rey_biografia.aspx) after his father's abdication.
 
 ## Holy Roman Empire / Germany / Austria
 
@@ -79,9 +80,9 @@ Europe's monarchs structure a large part of world history. Here are the rulers t
 
 **Maria Theresa (1740-1780).** Austrian Habsburg. Mother of Marie Antoinette.
 
-**Frederick the Great (1740-1786).** Prussia. Founder of modern German power.
+**Frederick the Great (1740-1786).** Prussia. Turns his kingdom into a major European power.
 
-**Wilhelm II (1888-1918).** Last German emperor.
+**Wilhelm II (1888-1918).** Last German emperor. His [abdication is announced on November 9, 1918](https://www.dhm.de/lemo/biografie/wilhelm-ii); he goes into exile in the Netherlands.
 
 ## Russia
 
@@ -110,3 +111,9 @@ For more, see our [world history timeline](/en/blog/world-timeline-history/) and
   <figcaption>Photo: Hyacinthe Rigaud · CC0 · Wikimedia Commons</figcaption>
 </figure>
 
+## Sources
+
+- [Larousse, "Clovis" (in French)](https://www.larousse.fr/encyclopedie/personnage/Clovis/187404): king of the Franks from 481 or 482 to 511, baptism at Reims dated to 498, 499 or 506.
+- [Palace of Versailles, "Louis XIV"](https://en.chateauversailles.fr/discover/history/great-characters/louis-xiv): 72 years on the throne, court moved to Versailles in 1682, death on September 1, 1715.
+- [Casa de Su Majestad el Rey, biography of King Juan Carlos (in Spanish)](https://www.casareal.es/ES/FamiliaReal/Rey/Paginas/rey_biografia.aspx): abdication in June 2014, Felipe VI proclaimed king on June 19, 2014.
+- [Deutsches Historisches Museum, LeMO biography of Wilhelm II (in German)](https://www.dhm.de/lemo/biografie/wilhelm-ii): German Emperor from June 15, 1888, abdication announced on November 9, 1918, exile in the Netherlands.

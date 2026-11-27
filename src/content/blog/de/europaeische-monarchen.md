@@ -2,6 +2,7 @@
 title: "Europas Monarchen: die vollständige Liste nach Ländern (2026)"
 description: "Von Karl dem Großen bis Elisabeth II.: die wichtigsten Monarchen Europas nach Land und Dynastie, mit Regierungszeiten und prägenden Ereignissen."
 date: 2026-10-19
+lastModified: 2026-11-27
 image: "/images/blog/histoire/galerie-des-glaces.jpg"
 imageAlt: "Der Spiegelsaal im Schloss von Versailles"
 imageCredit: "Photo: Myrabella · CC BY-SA 3.0 · Wikimedia Commons"
@@ -17,13 +18,13 @@ Europas Monarchen prägen einen großen Teil der Weltgeschichte. Hier sind die H
 
 ## Frankreich
 
-**Chlodwig I. (481-511).** Gründer des Frankenreichs. Erster christlicher König (496 in Reims getauft).
+**Chlodwig I. (481-511).** Gründer des Frankenreichs. Erster König der Franken, der zum Christentum übertritt: Taufe in Reims an einem Weihnachtstag, laut [Larousse](https://www.larousse.fr/encyclopedie/personnage/Clovis/187404) 498, 499 oder 506, das Jahr ist unsicher.
 
 **Karl der Große (768-814).** Im Jahr 800 zum Kaiser gekrönt. Dehnt das Frankenreich über ganz Westeuropa aus.
 
 **Hugo Capet (987-996).** Begründer der Dynastie der Kapetinger.
 
-**Philipp II. August (1180-1223).** Verdreifacht die Fläche des Königreichs. Lässt den Louvre errichten.
+**Philipp II. August (1180-1223).** Vergrößert die Krondomäne erheblich. Lässt die Festung des Louvre errichten.
 
 **Ludwig der Heilige (1226-1270).** Berühmt für seine Gerechtigkeit. Siebter Kreuzzug. Heiliggesprochen.
 
@@ -31,7 +32,7 @@ Europas Monarchen prägen einen großen Teil der Weltgeschichte. Hier sind die H
 
 **Heinrich IV. (1589-1610).** Erster Bourbone. Edikt von Nantes (1598).
 
-**Ludwig XIV. (1643-1715).** Der Sonnenkönig. Längste Regierungszeit der französischen Geschichte (72 Jahre). Lässt das [Schloss Versailles](https://en.wikipedia.org/wiki/Palace_of_Versailles) erbauen.
+**Ludwig XIV. (1643-1715).** Der Sonnenkönig. Längste Regierungszeit der französischen Geschichte ([72 Jahre](https://en.chateauversailles.fr/discover/history/great-characters/louis-xiv)). Verlegt 1682 den Hof ins Schloss Versailles.
 
 **Ludwig XVI. (1774-1792).** 1793 guillotiniert.
 
@@ -61,7 +62,7 @@ Europas Monarchen prägen einen großen Teil der Weltgeschichte. Hier sind die H
 
 ## Spanien
 
-**Isabella I. von Kastilien und Ferdinand II. von Aragón (1474-1504 / 1479-1516).** Die Katholischen Könige. Einen Spanien. Finanzieren 1492 Kolumbus.
+**Isabella I. von Kastilien und Ferdinand II. von Aragón (1474-1504 / 1479-1516).** Die Katholischen Könige. Ihre Ehe vereint die Kronen von Kastilien und Aragón. Finanzieren 1492 Kolumbus.
 
 **Karl V. (1516-1556).** Kaiser des Heiligen Römischen Reiches und König von Spanien. Riesiges Reich mit Amerika, den Niederlanden und Neapel.
 
@@ -69,7 +70,7 @@ Europas Monarchen prägen einen großen Teil der Weltgeschichte. Hier sind die H
 
 **Juan Carlos I. (1975-2014).** Stellt nach Franco die Demokratie wieder her.
 
-**Felipe VI. (2014-).** Amtierender Monarch.
+**Felipe VI. (2014-).** Amtierender Monarch, [am 19. Juni 2014 zum König proklamiert](https://www.casareal.es/ES/FamiliaReal/Rey/Paginas/rey_biografia.aspx), nach der Abdankung seines Vaters.
 
 ## Heiliges Römisches Reich / Deutschland / Österreich
 
@@ -79,9 +80,9 @@ Europas Monarchen prägen einen großen Teil der Weltgeschichte. Hier sind die H
 
 **Maria Theresia (1740-1780).** Habsburgerin aus Österreich. Mutter von Marie Antoinette.
 
-**Friedrich der Große (1740-1786).** Preußen. Begründer der modernen deutschen Großmacht.
+**Friedrich der Große (1740-1786).** Preußen. Macht sein Königreich zu einer europäischen Großmacht.
 
-**Wilhelm II. (1888-1918).** Letzter deutscher Kaiser.
+**Wilhelm II. (1888-1918).** Letzter deutscher Kaiser. Seine [Abdankung wird am 9. November 1918 verkündet](https://www.dhm.de/lemo/biografie/wilhelm-ii), er geht ins Exil in die Niederlande.
 
 ## Russland
 
@@ -109,3 +110,10 @@ Mehr dazu findest du in unserem [Zeitstrahl der Weltgeschichte](/de/blog/zeitstr
   <img src="/images/blog/histoire/louis-xiv.jpg" alt="Porträt von Ludwig XIV." loading="lazy" />
   <figcaption>Photo: Hyacinthe Rigaud · CC0 · Wikimedia Commons</figcaption>
 </figure>
+
+## Quellen
+
+- [Larousse, „Clovis“ (auf Französisch)](https://www.larousse.fr/encyclopedie/personnage/Clovis/187404): König der Franken von 481 oder 482 bis 511, Taufe in Reims auf 498, 499 oder 506 datiert.
+- [Schloss Versailles, „Louis XIV“ (auf Englisch)](https://en.chateauversailles.fr/discover/history/great-characters/louis-xiv): 72 Jahre auf dem Thron, Verlegung des Hofes nach Versailles 1682, Tod am 1. September 1715.
+- [Casa de Su Majestad el Rey, Biografie von König Juan Carlos (auf Spanisch)](https://www.casareal.es/ES/FamiliaReal/Rey/Paginas/rey_biografia.aspx): Abdankung im Juni 2014, Felipe VI. am 19. Juni 2014 zum König proklamiert.
+- [Deutsches Historisches Museum, LeMO-Biografie Wilhelm II.](https://www.dhm.de/lemo/biografie/wilhelm-ii): Deutscher Kaiser ab dem 15. Juni 1888, Abdankung am 9. November 1918 verkündet, Exil in den Niederlanden.

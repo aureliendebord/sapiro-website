@@ -2,6 +2,7 @@
 title: "50 questions de culture générale (avec réponses)"
 description: "50 questions de culture générale avec réponses expliquées, par thème et par niveau. Pour se tester en profondeur, réviser ou animer une soirée quiz."
 date: 2026-06-24
+lastModified: 2026-11-27
 image: "/images/blog/art/ecole-athenes.jpg"
 imageAlt: "L'École d'Athènes de Raphaël"
 imageCredit: "Photo : Raphael · domaine public · Wikimedia Commons"
@@ -21,7 +22,7 @@ Les questions sont rangées en cinq thèmes (géographie, histoire, art et cultu
 ## Géographie
 
 **1. Quel pays possède le plus de fuseaux horaires au monde ?** *(difficile)*
-**La France** (12). Grâce à ses territoires d'outre-mer répartis sur tous les océans, elle devance la Russie et les États-Unis.
+**La France** ([12 au total](https://www.timeanddate.com/time/zone/france)). Grâce à ses territoires d'outre-mer répartis sur tous les océans, elle devance la Russie et les États-Unis.
 
 **2. Quelle est la capitale du Canada ?** *(facile)*
 **Ottawa.** Beaucoup pensent à Toronto ou Montréal, mais le gouvernement fédéral siège à Ottawa, en Ontario.
@@ -36,7 +37,7 @@ Les questions sont rangées en cinq thèmes (géographie, histoire, art et cultu
 **Le Kilimandjaro.** Ce volcan endormi de Tanzanie est aussi la plus haute montagne isolée du monde.
 
 **6. Quel détroit sépare l'Espagne du Maroc ?** *(moyenne)*
-**Le détroit de Gibraltar.** À peine 14 km au plus étroit, il relie la Méditerranée à l'Atlantique.
+**Le détroit de Gibraltar.** À peine [13 km au plus étroit, selon la NASA](https://science.nasa.gov/earth/earth-observatory/the-strait-of-gibraltar-151478/), il relie la Méditerranée à l'Atlantique.
 
 **7. Dans quel pays se trouve Marrakech ?** *(facile)*
 **Le Maroc.** Surnommée la « ville rouge », c'est l'une des quatre villes impériales du pays.
@@ -45,10 +46,10 @@ Les questions sont rangées en cinq thèmes (géographie, histoire, art et cultu
 **Tokyo.** Anciennement Edo, elle devient capitale en 1868 à la place de Kyoto.
 
 **9. Quel pays est entièrement entouré par l'Afrique du Sud ?** *(difficile)*
-**Le [Lesotho](https://fr.wikipedia.org/wiki/Lesotho).** L'un des trois seuls États au monde enclavés dans un unique autre pays.
+**Le [Lesotho](https://thecommonwealth.org/our-member-countries/lesotho).** L'un des trois seuls États au monde enclavés dans un unique autre pays.
 
 **10. Quel fleuve traverse Paris ?** *(facile)*
-**La Seine.** Environ 777 km avant de se jeter dans la Manche, au Havre.
+**La Seine.** [776 km selon le Larousse](https://www.larousse.fr/encyclopedie/riviere-lac/wd/143800) avant de se jeter dans la Manche, au Havre.
 
 Envie d'aller plus loin en géo ? Testez nos [capitales par continent](/blog/quiz-capitales-monde/).
 
@@ -70,7 +71,7 @@ Envie d'aller plus loin en géo ? Testez nos [capitales par continent](/blog/qui
 **Du sel** (*salarium*). Le terme désignait à l'origine une somme liée au sel, denrée précieuse chez les Romains.
 
 **6. Quelle cité romaine fut ensevelie par l'éruption du Vésuve en 79 apr. J.-C. ?** *(moyenne)*
-**[Pompéi](https://fr.wikipedia.org/wiki/Pomp%C3%A9i).** Redécouverte au XVIIIe siècle, elle a figé un instantané de la vie romaine.
+**Pompéi.** Redécouverte au XVIIIe siècle, elle a figé un instantané de la vie romaine.
 
 **7. Quel empereur français est vaincu à Waterloo en 1815 ?** *(facile)*
 **Napoléon Ier.** La défaite face aux Britanniques et aux Prussiens met fin aux Cent-Jours.
@@ -104,7 +105,7 @@ Pour mettre des visages sur les dates : nos [personnages qui ont marqué l'histo
 **L'Angleterre.** Né à Stratford-upon-Avon, c'est l'auteur d'« Hamlet » et de « Roméo et Juliette ».
 
 **6. Quel architecte a conçu la Sagrada Família à Barcelone ?** *(moyenne)*
-**Antoni Gaudí.** Commencé en 1882, ce chef-d'œuvre du modernisme catalan reste inachevé.
+**Antoni Gaudí.** [Le chantier débute en 1882 et Gaudí le reprend en 1883](https://sagradafamilia.org/en/history-of-the-temple). La basilique a atteint sa hauteur finale de 172,5 m en février 2026, mais ce chef-d'œuvre du modernisme catalan reste en chantier.
 
 **7. Quel artiste espagnol a cofondé le cubisme et peint « Guernica » ?** *(moyenne)*
 **Pablo Picasso.** La toile dénonce le bombardement de la ville basque pendant la guerre civile espagnole.
@@ -125,7 +126,7 @@ Pour reconnaître les grands tableaux : nos [œuvres d'art incontournables](/blo
 **1. Quel est le symbole chimique de l'or ?** *(moyenne)*
 **Au**, du latin *aurum*, qui signifie « or ».
 
-**2. Quelle est la [vitesse de la lumière](https://fr.wikipedia.org/wiki/Vitesse_de_la_lumi%C3%A8re) dans le vide, en chiffre rond ?** *(moyenne)*
+**2. Quelle est la [vitesse de la lumière](https://www.bipm.org/en/committees/cg/cgpm/17-1983/resolution-1) dans le vide, en chiffre rond ?** *(moyenne)*
 **Environ 300 000 km/s** (299 792 458 m/s exactement). Si fondamentale qu'elle sert à définir le mètre depuis 1983.
 
 **3. Combien d'os compte le squelette d'un être humain adulte ?** *(moyenne)*
@@ -157,7 +158,7 @@ Pour relier les sciences au reste de vos savoirs : le [guide de la culture gén�
 ## Nature
 
 **1. Quel est le plus grand félin du monde ?** *(moyenne)*
-**Le tigre.** Le tigre de Sibérie dépasse 300 kg, plus lourd que le lion.
+**Le tigre.** Un mâle de Sibérie [peut atteindre 300 kg](https://nationalzoo.si.edu/animals/tiger), plus que le lion.
 
 **2. Combien de pattes possède une araignée ?** *(facile)*
 **Huit.** Les insectes n'en ont que six : l'araignée n'en est pas un, c'est un arachnide.
@@ -172,7 +173,7 @@ Pour relier les sciences au reste de vos savoirs : le [guide de la culture gén�
 **La chauve-souris.** L'écureuil volant, lui, ne fait que planer.
 
 **6. Quel est l'animal terrestre le plus haut du monde ?** *(facile)*
-**La girafe.** Son cou, qui dépasse deux mètres, ne compte pourtant que sept vertèbres, comme le nôtre.
+**La girafe.** Son cou, long d'environ deux mètres, ne compte pourtant que sept vertèbres, comme le nôtre.
 
 **7. De quel arbre provient le gland ?** *(facile)*
 **Le chêne.** Son fruit nourrit sangliers, écureuils et bien d'autres animaux.
@@ -184,7 +185,7 @@ Pour relier les sciences au reste de vos savoirs : le [guide de la culture gén�
 **Un herbivore.** À l'opposé du carnivore, qui ne mange que de la viande.
 
 **10. Quel est le plus grand reptile vivant du monde ?** *(moyenne)*
-**Le crocodile marin.** Le crocodile d'estuaire dépasse 6 mètres, d'Asie du Sud-Est jusqu'en Océanie.
+**Le crocodile marin.** Aussi appelé crocodile d'estuaire, il mesure le plus souvent de 3 à 5 mètres et [les plus grands mâles dépassent 6 mètres](https://australian.museum/learn/animals/reptiles/estuarine-crocodile/). On le rencontre de l'Asie du Sud-Est au nord de l'Australie.
 
 Plus surprenant encore : nos [animaux étranges et méconnus](/blog/animaux-etranges-meconnus/).
 
@@ -222,3 +223,32 @@ L'application SAPIRO propose des centaines de questions classées par thème et 
   <img src="/images/blog/monde/livres-anciens.jpg" alt="Une pile de vieux livres" loading="lazy" />
   <figcaption>Photo : Evan Bench from paris, france · CC BY 2.0 · Wikimedia Commons</figcaption>
 </figure>
+
+## Sources
+
+**Géographie**
+
+- [Time and Date, Time Zones in France](https://www.timeanddate.com/time/zone/france) : 12 fuseaux horaires pour la France avec ses territoires d'outre-mer, page consultée en novembre 2026.
+- [NASA Earth Observatory, The Strait of Gibraltar](https://science.nasa.gov/earth/earth-observatory/the-strait-of-gibraltar-151478/) : 13 km entre l'Espagne et le Maroc au point le plus étroit, article de 2023.
+- [Secrétariat du Commonwealth, Lesotho](https://thecommonwealth.org/our-member-countries/lesotho) : pays entièrement entouré par l'Afrique du Sud.
+- [Larousse, encyclopédie, la Seine](https://www.larousse.fr/encyclopedie/riviere-lac/wd/143800) : longueur du fleuve, 776 km.
+
+**Art et culture**
+
+- [Basilique de la Sagrada Família, History of the Temple](https://sagradafamilia.org/en/history-of-the-temple) : première pierre en 1882, reprise du projet par Gaudí en 1883.
+- [Vatican News, « Central tower of Barcelona's Sagrada Família completed »](https://www.vaticannews.va/en/church/news/2026-02/basilica-sagrada-familia-cross-completed-tower-of-jesus-christ.html) : tour de Jésus-Christ achevée à 172,5 m en février 2026, travaux intérieurs prévus jusqu'en 2028.
+- [Musée Rodin, Le Penseur](https://www.musee-rodin.fr/musee/collections/oeuvres/le-penseur) : figure créée dès 1880 pour « La Porte de l'Enfer ».
+
+**Sciences**
+
+- [Bureau international des poids et mesures (BIPM), résolution 1 de la 17e CGPM](https://www.bipm.org/en/committees/cg/cgpm/17-1983/resolution-1) : définition du mètre par la vitesse de la lumière, 299 792 458 m/s, adoptée en 1983.
+- [Cleveland Clinic, Bones](https://my.clevelandclinic.org/health/body/25176-bones) : 206 os chez l'adulte, environ 270 à la naissance, page mise à jour en 2025.
+- [Fondation Nobel, Nobel Prize awarded women](https://www.nobelprize.org/prizes/lists/nobel-prize-awarded-women/) : Marie Curie, prix de physique 1903 et de chimie 1911, seule femme récompensée deux fois.
+
+**Nature**
+
+- [Smithsonian's National Zoo, Tiger](https://nationalzoo.si.edu/animals/tiger) : tigre de l'Amour (de Sibérie), mâles jusqu'à 300 kg.
+- [Australian Museum, Estuarine Crocodile](https://australian.museum/learn/animals/reptiles/estuarine-crocodile/) : adultes de 3 à 5 m, plus grand individu mesuré de façon fiable d'au moins 6,15 m.
+- [San Diego Zoo, Giraffe](https://animals.sandiegozoo.org/animals/giraffe) : plus grand animal terrestre, sept vertèbres cervicales, cou d'environ 1,8 m.
+- [San Diego Zoo, Ostrich](https://animals.sandiegozoo.org/animals/ostrich) : plus grand oiseau vivant, pointes à 70 km/h.
+- [National Geographic, Peregrine falcon](https://www.nationalgeographic.com/animals/birds/facts/peregrine-falcon) : piqué à plus de 200 miles par heure, soit environ 320 km/h.

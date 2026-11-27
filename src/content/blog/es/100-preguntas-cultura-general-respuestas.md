@@ -2,6 +2,7 @@
 title: "100 preguntas de cultura general (con respuestas)"
 description: "100 preguntas de cultura general con respuestas explicadas, por tema y nivel. La gran lista para repasar a fondo o animar un quiz gigante."
 date: 2026-06-24
+lastModified: 2026-11-27
 image: "/images/blog/monde/capitale-paris.jpg"
 imageAlt: "Vista aérea de París"
 imageCredit: "Foto: Drew Coffman drewcoffman · CC0 · Wikimedia Commons"
@@ -43,22 +44,22 @@ Las preguntas están ordenadas por tema (geografía, historia, arte y cultura, c
 **La Antártida.** Este desierto frío cubre unos 14 millones de km², por delante del Sahara.
 
 **4. ¿Cuál es el país más poblado del mundo?** *(media)*
-**La India.** Superó a China hacia 2023 con más de 1400 millones de habitantes.
+**La India.** Superó a China [en abril de 2023, según las proyecciones de la ONU](https://www.un.org/en/desa/india-overtake-china-world-most-populous-country-april-2023-united-nations-projects), con más de 1400 millones de habitantes.
 
 **5. ¿Cuál es la capital de Egipto?** *(fácil)*
 **El Cairo.** Es la mayor ciudad del mundo árabe, atravesada por el Nilo.
 
 **6. ¿Cuál es el país más poblado de África?** *(media)*
-**Nigeria.** Con más de 200 millones de habitantes, supera con claridad a Etiopía y Egipto.
+**Nigeria.** Con unos 233 millones de habitantes en 2024 según el Banco Mundial, supera con claridad a Etiopía (132 millones) y Egipto (117 millones).
 
 **7. ¿En qué continente está la cordillera de los Andes?** *(fácil)*
-**América del Sur.** Recorre la fachada oeste del continente a lo largo de casi 7000 km.
+**América del Sur.** Recorre la fachada oeste del continente a lo largo de más de 7000 km.
 
 **8. ¿Cuál es el mayor lago de agua dulce del mundo por superficie?** *(media)*
-**El lago Superior.** Entre Canadá y Estados Unidos, supera los 82 000 km².
+**El lago Superior.** Entre Canadá y Estados Unidos, supera los [82 000 km²](https://www.epa.gov/greatlakes/physical-features-great-lakes).
 
 **9. ¿Qué mar separa Europa de África?** *(fácil)*
-**El Mediterráneo.** Conecta el Atlántico con Asia a través del canal de Suez.
+**El Mediterráneo.** Se comunica con el Atlántico por el estrecho de Gibraltar y con el mar Rojo por el canal de Suez.
 
 **10. ¿Cuál es la capital de Argentina?** *(fácil)*
 **Buenos Aires.** Está a orillas del Río de la Plata.
@@ -67,7 +68,7 @@ Las preguntas están ordenadas por tema (geografía, historia, arte y cultura, c
 **Oceanía.** Es también el menos poblado después de la Antártida.
 
 **12. ¿Qué país tiene más volcanes activos del mundo?** *(difícil)*
-**Indonesia.** Situada en el cinturón de fuego del Pacífico, tiene más de 120.
+**Indonesia.** Situada en el cinturón de fuego del Pacífico, es [el país con más volcanes con erupciones históricas, por delante de Japón y Estados Unidos, según el USGS](https://www.usgs.gov/faqs/where-does-united-states-rank-number-volcanoes). Su agencia geológica cuenta 127 activos.
 
 **13. ¿Qué cordillera separa Francia de España?** *(fácil)*
 **Los Pirineos.** Se extienden del Atlántico al Mediterráneo.
@@ -121,8 +122,8 @@ Las preguntas están ordenadas por tema (geografía, historia, arte y cultura, c
 **28. ¿Qué reina reinó en el Reino Unido de 1837 a 1901, dando nombre a una época?** *(media)*
 **La reina Victoria.** La era victoriana coincide con el apogeo del Imperio británico.
 
-**29. ¿Qué muro antiguo defendía el Imperio romano al norte de la actual Gran Bretaña?** *(difícil)*
-**El muro de Adriano.** Construido hacia el 122 d. C., marcaba la frontera norte de la provincia romana.
+**29. ¿Qué muro antiguo defendía el Imperio romano en el norte de la actual Gran Bretaña?** *(difícil)*
+**El muro de Adriano.** Construido a partir del 122 d. C., marcaba la frontera norte de la provincia romana.
 
 **30. ¿Qué dinastía unificó China y le dio su nombre?** *(difícil)*
 **La dinastía Qin.** Su fundador, Qin Shi Huang, se convirtió en el primer emperador en 221 a. C.
@@ -168,7 +169,7 @@ Para poner rostro a estas épocas: nuestros [personajes que marcaron la historia
 **Giuseppe Verdi.** Estrenada en 1853, es una de las óperas más representadas del mundo.
 
 **43. ¿Quién pintó «La joven de la perla»?** *(media)*
-**Johannes Vermeer.** Este maestro neerlandés del siglo XVII es apodado el «Esfinge de Delft».
+**Johannes Vermeer.** Este maestro neerlandés del siglo XVII es apodado la «Esfinge de Delft».
 
 **44. En la mitología griega, ¿quién es el dios del mar?** *(fácil)*
 **Poseidón.** Es el equivalente del romano Neptuno, armado con un tridente.
@@ -189,7 +190,7 @@ Para poner rostro a estas épocas: nuestros [personajes que marcaron la historia
 **El violín.** Sus instrumentos de Cremona están entre los más valorados del mundo.
 
 **50. ¿Quién esculpió la estatua del «David» en Florencia?** *(fácil)*
-**Miguel Ángel.** Esta escultura de mármol de más de 5 metros se terminó en 1504.
+**Miguel Ángel.** Esta escultura de mármol de [5,17 metros](https://www.galleriaaccademiafirenze.it/en/artworks/david-michelangelo/) se terminó en 1504.
 
 **51. ¿Qué poeta griego de la Antigüedad compuso «La Ilíada» y «La Odisea»?** *(media)*
 **Homero.** Estas dos epopeyas fundacionales se remontan al siglo VIII a. C.
@@ -207,13 +208,13 @@ Para poner rostro a estas épocas: nuestros [personajes que marcaron la historia
 **El surrealismo.** Este movimiento explora el sueño y el inconsciente.
 
 **56. ¿Qué dramaturgo francés del siglo XVII escribió «Tartufo» y «El misántropo»?** *(media)*
-**Molière.** Este maestro de la comedia murió en escena en 1673.
+**Molière.** Este maestro de la comedia murió en 1673 [tras una representación de «El enfermo imaginario»](https://www.comedie-francaise.fr/fr/moliere), en su casa y no en escena, como quiere la leyenda.
 
 **57. ¿Qué escritor estadounidense escribió «El viejo y el mar»?** *(media)*
-**Ernest Hemingway.** Esta breve novela de 1952 le valió el premio Pulitzer.
+**Ernest Hemingway.** Esta breve novela de 1952 le valió el premio Pulitzer en 1953.
 
 **58. ¿Qué compositor italiano escribió «Las cuatro estaciones»?** *(media)*
-**Antonio Vivaldi.** Estos cuatro conciertos para violín datan de alrededor de 1725.
+**Antonio Vivaldi.** Estos cuatro conciertos para violín se publicaron en 1725.
 
 **59. En la mitología egipcia, ¿qué dios con cabeza de chacal preside la momificación?** *(difícil)*
 **Anubis.** Acompaña a los muertos y vela por el pesaje del corazón.
@@ -229,7 +230,7 @@ Para reconocer los grandes cuadros: nuestras [obras de arte imprescindibles](/es
 **El fémur.** Este hueso del muslo mide alrededor de un cuarto de la estatura de una persona.
 
 **62. ¿Qué músculo es el más potente del cuerpo humano en relación con su tamaño?** *(difícil)*
-**El masetero.** Este músculo de la mandíbula ejerce una fuerte presión al masticar.
+**El masetero.** Este músculo de la mandíbula, [que el Guinness World Records recoge como el más potente del cuerpo humano](https://www.guinnessworldrecords.com/world-records/67575-strongest-muscle), ejerce una fuerte presión al masticar.
 
 **63. ¿Qué científico formuló la teoría de la relatividad?** *(fácil)*
 **Albert Einstein.** Relatividad especial en 1905, relatividad general en 1915.
@@ -296,7 +297,7 @@ Para conectar las ciencias con el resto: la [guía de cultura general](/es/blog/
 **Un omnívoro.** El oso y el ser humano son ejemplos.
 
 **83. ¿Cuál es el pez más grande del mundo?** *(media)*
-**El tiburón ballena.** Inofensivo para el ser humano, alcanza 12 metros y se alimenta de plancton.
+**El tiburón ballena.** Inofensivo para el ser humano, [puede superar los 12 metros](https://www.nationalgeographic.com/animals/fish/facts/whale-shark) y se alimenta de plancton.
 
 **84. ¿Qué árbol produce las avellanas?** *(media)*
 **El avellano.** Crece a menudo en los setos.
@@ -341,7 +342,7 @@ Para conectar las ciencias con el resto: la [guía de cultura general](/es/blog/
 **El león.** Es el único felino realmente social, frente a los demás grandes felinos solitarios.
 
 **98. ¿Qué conífera conserva sus agujas todo el año?** *(fácil)*
-**El abeto.** Sus agujas, perennes, permanecen varios años.
+**El abeto**, como la mayoría de las coníferas (pícea, pino). Sus agujas perennes permanecen varios años; el alerce, en cambio, pierde las suyas en otoño.
 
 **99. ¿Qué animal realiza la migración anual más larga, de un polo a otro?** *(difícil)*
 **El charrán ártico.** Migra cada año entre el Ártico y la Antártida.
@@ -385,3 +386,44 @@ La aplicación SAPIRO ofrece cientos de preguntas ordenadas por tema y nivel, gr
   <img src="/images/blog/art/ecole-athenes.jpg" alt="La Escuela de Atenas de Rafael" loading="lazy" />
   <figcaption>Foto: Raphael · dominio público · Wikimedia Commons</figcaption>
 </figure>
+
+## Fuentes
+
+**Geografía**
+
+- [ONU, Departamento de Asuntos Económicos y Sociales, «India to overtake China as world's most populous country in April 2023» (en inglés)](https://www.un.org/en/desa/india-overtake-china-world-most-populous-country-april-2023-united-nations-projects): la India pasa a ser el país más poblado, proyección de abril de 2023.
+- [Banco Mundial, indicador «Población, total» (SP.POP.TOTL), Nigeria](https://api.worldbank.org/v2/country/NGA/indicator/SP.POP.TOTL?date=2024&format=json): población de Nigeria, dato de 2024 (las cifras de Etiopía y Egipto proceden del mismo indicador).
+- [Agencia de Protección Ambiental de Estados Unidos (EPA), Physical Features of the Great Lakes (en inglés)](https://www.epa.gov/greatlakes/physical-features-great-lakes): superficie del lago Superior, 82 100 km².
+- [Servicio Geológico de Estados Unidos (USGS), «Where does the United States rank in the number of volcanoes?» (en inglés)](https://www.usgs.gov/faqs/where-does-united-states-rank-number-volcanoes): Indonesia, primer país por volcanes con erupciones históricas, por delante de Japón y Estados Unidos.
+- [RRI, radio pública de Indonesia, «Indonesia's 127 Active Volcanoes Require Broader Monitoring» (en inglés)](https://rri.co.id/en/national/2734295/indonesias-127-active-volcanoes-require-broader-monitoring): 127 volcanes activos contabilizados en Indonesia.
+- [Guinness World Records, Longest continental mountain range (en inglés)](https://www.guinnessworldrecords.com/world-records/longest-continental-mountain-range): longitud de la cordillera de los Andes, 7600 km.
+- [Ministerio de Europa y de Asuntos Exteriores de Francia, Antarctica (en inglés)](https://www.diplomatie.gouv.fr/en/information-by-country/antarctica/antarctica): superficie de la Antártida, 14 millones de km², página actualizada en 2026.
+
+**Historia**
+
+- [Palacio de Versalles, Louis XIV (en inglés)](https://en.chateauversailles.fr/discover/history/great-characters/louis-xiv): 72 años de reinado, muerte el 1 de septiembre de 1715.
+- [English Heritage, History of Hadrian's Wall (en inglés)](https://www.english-heritage.org.uk/visit/places/hadrians-wall/hadrians-wall-history-and-stories/history/): muro construido por orden de Adriano tras su visita a Britania en el 122.
+- [Instituto Pasteur, History (en inglés)](https://www.pasteur.fr/en/institut-pasteur/history): vacunación de Joseph Meister contra la rabia, julio de 1885.
+
+**Arte y cultura**
+
+- [Galería de la Academia de Florencia, David de Miguel Ángel (en inglés)](https://www.galleriaaccademiafirenze.it/en/artworks/david-michelangelo/): altura de 517 cm, obra realizada entre 1501 y 1504.
+- [Comédie-Française, Molière (en francés)](https://www.comedie-francaise.fr/fr/moliere): muerte de Molière tras la cuarta representación de «El enfermo imaginario», 1673.
+- [Rijksmuseum, The Night Watch (en inglés)](https://www.rijksmuseum.nl/en/collection/SK-C-5): cuadro de Rembrandt fechado en 1642.
+- [Museo Marmottan Monet, ficha de «Impresión, sol naciente» (en francés)](https://www.marmottan.fr/notice/4014/): lienzo pintado por Claude Monet en 1872.
+- [Fundación Nobel, Ernest Hemingway (en inglés)](https://www.nobelprize.org/prizes/literature/1954/hemingway/facts/): «El viejo y el mar», publicado en 1952.
+
+**Ciencias**
+
+- [Guinness World Records, Strongest muscle (en inglés)](https://www.guinnessworldrecords.com/world-records/67575-strongest-muscle): el masetero, músculo más potente del cuerpo humano.
+- [Fundación Nobel, Alexander Fleming (en inglés)](https://www.nobelprize.org/prizes/medicine/1945/fleming/facts/): descubrimiento de la penicilina en 1928.
+- [American Heart Association, All About Heart Rate (en inglés)](https://www.heart.org/en/health-topics/high-blood-pressure/the-facts-about-high-blood-pressure/all-about-heart-rate-pulse): frecuencia cardíaca normal en reposo, de 60 a 100 latidos por minuto.
+- [NASA, Saturn: Facts (en inglés)](https://science.nasa.gov/saturn/facts/): anillos de Saturno formados por hielo y roca cubiertos de polvo.
+
+**Naturaleza**
+
+- [National Geographic, Whale shark (en inglés)](https://www.nationalgeographic.com/animals/fish/facts/whale-shark): el pez más grande del mundo, 12 metros o más, se alimenta de plancton.
+- [National Geographic, Arctic tern (en inglés)](https://www.nationalgeographic.com/animals/birds/facts/arctic-tern): el charrán ártico, la migración más larga del reino animal, del Ártico a la Antártida.
+- [Programa Antártico Australiano, Emperor penguin (en inglés)](https://www.antarctica.gov.au/about-antarctica/animals/penguins/emperor-penguin/): el emperador, la mayor especie de pingüino.
+- [Smithsonian's National Zoo, Western lowland gorilla (en inglés)](https://nationalzoo.si.edu/animals/western-lowland-gorilla): los gorilas, los mayores de los grandes simios.
+- [Woodland Trust, European larch (en inglés)](https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/a-z-of-british-trees/european-larch/): el alerce, única conífera de Europa que pierde sus agujas.

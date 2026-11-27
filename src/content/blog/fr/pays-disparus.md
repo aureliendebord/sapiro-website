@@ -24,18 +24,18 @@ quiz:
   - question: "Les États pontificaux ont duré plus de 1 100 ans. Qu'en reste-t-il aujourd'hui ?"
     options: ["Saint-Marin", "Monaco", "Malte", "Le Vatican"]
     answer: 3
-    explanation: "Nés en 756, les États pontificaux ont été réduits au Vatican en 1870, après l'unification italienne."
+    explanation: "Nés en 756, les États pontificaux ont été annexés par l'Italie en 1870 ; la Cité du Vatican ne naît qu'en 1929."
 ---
 
 Le monde a vu des dizaines de pays disparaître en un siècle. Voici les principaux, classés par époque, avec ce qu'ils sont devenus.
 
 ## Disparus dans les années 1990-2000
 
-**URSS (1922-1991).** [Effondrée le 25 décembre 1991](https://fr.wikipedia.org/wiki/Dislocation_de_l%27URSS). 15 républiques indépendantes : Russie, Ukraine, Biélorussie, Kazakhstan, Ouzbékistan, Turkménistan, Tadjikistan, Kirghizistan, Géorgie, Arménie, Azerbaïdjan, Lituanie, Lettonie, Estonie, Moldavie.
+**URSS (1922-1991).** Le drapeau soviétique est amené du Kremlin le 25 décembre 1991 et la [dissolution formelle](https://www.britannica.com/event/the-collapse-of-the-Soviet-Union) est datée du 31 décembre. 15 républiques indépendantes : Russie, Ukraine, Biélorussie, Kazakhstan, Ouzbékistan, Turkménistan, Tadjikistan, Kirghizistan, Géorgie, Arménie, Azerbaïdjan, Lituanie, Lettonie, Estonie, Moldavie.
 
-**Yougoslavie (1945-1992, puis 2003).** Six pays issus : Slovénie, Croatie, Bosnie-Herzégovine, Macédoine du Nord, Serbie, Monténégro. Plus tard, le Kosovo s'est séparé de la Serbie.
+**Yougoslavie (1918-1992, puis 2003).** Royaume né en 1918, [nommé Yougoslavie en 1929](https://www.britannica.com/place/Yugoslavia-former-federated-nation-1929-2003), fédération socialiste après 1945. Six pays issus : Slovénie, Croatie, Bosnie-Herzégovine, Macédoine du Nord, Serbie, Monténégro. La Serbie et le Monténégro ont gardé le nom jusqu'en 2003, puis se sont séparés en 2006. Plus tard, le Kosovo s'est séparé de la Serbie.
 
-**Tchécoslovaquie (1918-1993).** [Divorce "de velours"](https://fr.wikipedia.org/wiki/Dissolution_de_la_Tch%C3%A9coslovaquie) sans guerre. République tchèque et Slovaquie.
+**Tchécoslovaquie (1918-1992).** [Divorce "de velours"](https://fr.wikipedia.org/wiki/Dissolution_de_la_Tch%C3%A9coslovaquie) sans guerre, effectif le 1er janvier 1993. République tchèque et Slovaquie.
 
 **Allemagne de l'Est (RDA, 1949-1990).** Réunifiée avec la RFA le 3 octobre 1990 après la chute du mur de Berlin.
 
@@ -43,11 +43,11 @@ Le monde a vu des dizaines de pays disparaître en un siècle. Voici les princip
 
 **Empire austro-hongrois (1867-1918).** Fragmenté en Autriche, Hongrie, Tchécoslovaquie (puis République tchèque et Slovaquie), Yougoslavie (puis 6 pays), parties annexées à la Pologne, Roumanie, Italie.
 
-**Empire ottoman (1299-1922).** Devenu Turquie, et tous les pays du Moyen-Orient (Syrie, Liban, Jordanie, Irak, péninsule arabique, etc.) émergent de son démantèlement.
+**Empire ottoman (vers 1300-1922).** [Remplacé par la République turque](https://www.britannica.com/place/Ottoman-Empire) et par plusieurs États successeurs dans le sud-est de l'Europe et au Moyen-Orient (Syrie, Liban, Jordanie, Irak, entre autres).
 
-**Tibet (jusqu'en 1950).** Annexé par la Chine.
+**Tibet (jusqu'en 1950).** Son intégration à la Chine populaire commence en 1950.
 
-**Sikkim (jusqu'en 1975).** Annexé par l'Inde.
+**Sikkim (jusqu'en 1975).** Protectorat indien depuis 1950, devenu le 22e État de l'Inde le 16 mai 1975 après un référendum.
 
 **Allemagne nazie (1933-1945).** Effondrée à la fin de la Seconde Guerre mondiale.
 
@@ -55,21 +55,21 @@ Le monde a vu des dizaines de pays disparaître en un siècle. Voici les princip
 
 **Empire napoléonien (1804-1815).** Effondré après Waterloo.
 
-**Royaume des Deux-Siciles (1816-1860).** Intégré à l'Italie unifiée.
+**Royaume des Deux-Siciles (1816-1861).** Conquis par Garibaldi en 1860, intégré au royaume d'Italie proclamé en 1861.
 
-**Confédération germanique (1815-1866).** Devenue Empire allemand puis Allemagne moderne.
+**Confédération germanique (1815-1866).** [Dissoute en 1866](https://www.britannica.com/topic/German-Confederation) après la victoire de la Prusse sur l'Autriche, remplacée par la Confédération de l'Allemagne du Nord, prélude à l'Empire allemand de 1871.
 
-**États pontificaux (756-1870).** Réduits au Vatican après l'unification italienne.
+**États pontificaux (756-1870).** [Annexés par l'Italie en 1870](https://www.britannica.com/place/Papal-States). L'État de la Cité du Vatican n'est créé qu'en 1929, par les accords du Latran.
 
 ## Pays disparus plus anciens
 
 **Empire romain d'Occident (476).** Devenu un patchwork de royaumes barbares puis l'Europe moderne.
 
-**Empire romain d'Orient (Byzance, jusqu'en 1453).** Devenu l'Empire ottoman.
+**Empire romain d'Orient (Byzance, jusqu'en 1453).** Conquis par les Ottomans.
 
 **Sumer, Akkad, Babylone, Assyrie.** Empires successifs de Mésopotamie devenus l'Irak actuel.
 
-**Égypte antique, Carthage, Royaumes hellénistiques.** Tous absorbés par Rome puis par l'islam.
+**Égypte antique, Carthage, Royaumes hellénistiques.** Conquis pour l'essentiel par Rome.
 
 ## Cas particuliers
 
@@ -79,7 +79,7 @@ Le monde a vu des dizaines de pays disparaître en un siècle. Voici les princip
 
 **Cas Crimée.** Annexée par la Russie en 2014, situation contestée internationalement.
 
-**Cas Taïwan.** Officiellement la "République de Chine", existe de fait depuis 1949. Reconnu par 12 États seulement.
+**Cas Taïwan.** Officiellement la "République de Chine", existe de fait depuis 1949. Reconnu par une douzaine d'États seulement.
 
 ## Pays qui pourraient disparaître
 
@@ -87,7 +87,7 @@ Le monde a vu des dizaines de pays disparaître en un siècle. Voici les princip
 
 **Pays en guerre civile.** Yémen, Syrie, Libye : la question de leur unité reste ouverte.
 
-**Cas du Soudan du Sud.** Indépendant en 2011 après scission du Soudan. Mais en guerre civile.
+**Cas du Soudan du Sud.** Indépendant le 9 juillet 2011 après scission du Soudan. Une guerre civile y a éclaté dès 2013.
 
 ## Pourquoi un pays disparaît
 
@@ -103,7 +103,7 @@ Trois raisons.
 
 Trois techniques.
 
-**Lier la disparition à un événement.** URSS = 1991. Yougoslavie = guerre des Balkans 1992-2001. RDA = chute du mur 1989.
+**Lier la disparition à un événement.** URSS = 1991. Yougoslavie = guerres des années 1990. RDA = chute du mur 1989.
 
 **Connaître les "enfants"** issus de chaque pays disparu. URSS → 15. Yougoslavie → 7 avec le Kosovo.
 
@@ -122,7 +122,7 @@ Vingt questions sur les États rayés de la carte, en quatre paliers de difficul
 
 ### Niveau 1 : échauffement
 
-**1. Quel immense pays s'est dissous le 26 décembre 1991, laissant quinze États indépendants ?**
+**1. Quel immense pays s'est dissous en décembre 1991, laissant quinze États indépendants ?**
 
 L'URSS. La Russie en est l'État continuateur, et les quatorze autres républiques, des pays baltes au Kazakhstan, sont devenues indépendantes.
 
@@ -152,9 +152,9 @@ L'Autriche-Hongrie. Sa dissolution a redessiné toute la carte de l'Europe centr
 
 La Prusse. L'État avait déjà été vidé de sa substance par les nazis, mais son abolition formelle date de l'après-guerre.
 
-**8. Quel grand pays rêvé par Simón Bolívar s'est disloqué en 1831 ?**
+**8. Quel grand pays rêvé par Simón Bolívar s'est disloqué en 1830 ?**
 
-La Grande Colombie. Elle a donné la Colombie, le Venezuela et l'Équateur, puis le Panama.
+La [Grande Colombie](https://www.britannica.com/place/Gran-Colombia) (1819-1830). Elle a donné la Colombie, le Venezuela et l'Équateur, puis le Panama.
 
 **9. Quelle république maritime a duré 1 100 ans avant d'être supprimée par Napoléon en 1797 ?**
 
@@ -182,9 +182,9 @@ Le Sikkim, devenu le 22e État indien après référendum.
 
 Le royaume d'Hawaï. La reine Liliuokalani fut la dernière souveraine.
 
-**15. Quel dominion britannique a voté son rattachement au Canada en 1949 ?**
+**15. Quel dominion britannique a rejoint le Canada en 1949, après un référendum ?**
 
-Terre-Neuve, indépendante de fait dans l'entre-deux-guerres, devenue dixième province canadienne.
+Terre-Neuve. Les électeurs ont [choisi la Confédération le 22 juillet 1948](https://www.thecanadianencyclopedia.ca/en/article/newfoundland-and-labrador-and-confederation), à 52,3 %, et l'île est devenue la dixième province canadienne le 31 mars 1949.
 
 ### Niveau 4 : experts seulement
 
@@ -218,3 +218,16 @@ Le royaume des Deux-Siciles, dont la capitale était Naples.
 | 16-20 | Niveau cartographe d'archives |
 
 Pour aller plus loin : les [drapeaux des pays disparus](/blog/drapeaux-pays-disparus/) prolongent le quiz en images, les [pays qui ont changé de nom](/blog/pays-qui-ont-change-de-nom/) couvrent les faux disparus, et les [plus jeunes pays du monde](/blog/plus-jeunes-pays-monde/) racontent l'autre versant, celui des naissances.
+
+## Sources
+
+- [Encyclopædia Britannica, « Collapse of the Soviet Union »](https://www.britannica.com/event/the-collapse-of-the-Soviet-Union) : dissolution de l'URSS datée du 31 décembre 1991.
+- [Encyclopædia Britannica, « Flag of Union of Soviet Socialist Republics »](https://www.britannica.com/topic/flag-of-Union-of-Soviet-Socialist-Republics) : drapeau soviétique remplacé au Kremlin le 25 décembre 1991.
+- [Encyclopædia Britannica, « Yugoslavia »](https://www.britannica.com/place/Yugoslavia-former-federated-nation-1929-2003) : royaume nommé Yougoslavie en 1929, troisième Yougoslavie de 1992 à 2003, séparation de la Serbie et du Monténégro en 2006.
+- [Encyclopædia Britannica, « Ottoman Empire »](https://www.britannica.com/place/Ottoman-Empire) : fondation vers 1300, fin en 1922, États successeurs.
+- [Encyclopædia Britannica, « German Confederation »](https://www.britannica.com/topic/German-Confederation) : 39 États, création en 1815, dissolution en 1866.
+- [Encyclopædia Britannica, « Papal States »](https://www.britannica.com/place/Papal-States) : souveraineté pontificale de 756 à 1870, accords du Latran de 1929.
+- [Encyclopædia Britannica, « Francis II »](https://www.britannica.com/biography/Francis-II-king-of-the-Two-Sicilies) : dernier roi des Deux-Siciles, déposé en 1860, capitulation de février 1861.
+- [Encyclopædia Britannica, « Sikkim »](https://www.britannica.com/place/Sikkim) : référendum de 1975, 22e État indien le 16 mai 1975.
+- [Encyclopædia Britannica, « Gran Colombia »](https://www.britannica.com/place/Gran-Colombia) : république de 1819 à 1830.
+- [L'Encyclopédie canadienne, « Newfoundland and Labrador and Confederation »](https://www.thecanadianencyclopedia.ca/en/article/newfoundland-and-labrador-and-confederation) : référendums de 1948, entrée dans le Canada le 31 mars 1949.
