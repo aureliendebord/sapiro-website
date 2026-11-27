@@ -2,6 +2,7 @@
 title: "Flags of Countries That No Longer Exist: 10 Vanished Banners"
 description: "USSR, Yugoslavia, East Germany, South Vietnam: 10 flags of countries that no longer exist, the story behind each banner and when the state disappeared."
 date: 2026-07-15
+lastModified: 2026-11-27
 image: "/images/blog/monde/mappemonde.jpg"
 imageAlt: "An 1850 chart of the flags and cockades of the world's main powers"
 imageCredit: "Photo: Various authors. · public domain · Wikimedia Commons"
@@ -17,7 +18,7 @@ Some of history's most recognisable flags belong to countries that no longer exi
 
 ## 1. Soviet Union (1922–1991)
 
-A red field with a gold hammer and sickle and a five-pointed star. It symbolised the union of workers and peasants under communism. It disappeared in December 1991 when the USSR broke apart into fifteen independent republics.
+A red field with a [crossed gold hammer and sickle](https://www.britannica.com/topic/flag-of-Union-of-Soviet-Socialist-Republics) in the upper hoist, beneath a gold-bordered red star. It symbolised the union of workers and peasants under communism. It disappeared in December 1991 when the USSR broke apart into fifteen independent republics.
 
 ## 2. Yugoslavia (1918–1992)
 
@@ -25,23 +26,23 @@ A blue-white-red horizontal tricolour, later with a red star in the centre for t
 
 ## 3. East Germany (1949–1990)
 
-The black-red-gold tricolour of Germany, but charged with the socialist state emblem: a hammer and compass within a ring of rye. It vanished with German reunification in October 1990.
+The black-red-gold tricolour of Germany, charged [from 1959](https://www.britannica.com/topic/flag-of-Germany) with the socialist state emblem: a hammer and compass within a ring of rye. It vanished with German reunification in October 1990.
 
 ## 4. Czechoslovakia (1918–1992)
 
-A white-and-red horizontal design with a blue triangle at the hoist. When the country peacefully split in 1993, the Czech Republic kept the flag and Slovakia adopted a new one.
+Two horizontal stripes, white over red, with a blue triangle at the hoist, [added in 1920](https://www.britannica.com/topic/flag-of-the-Czech-Republic). When the country peacefully split in 1993, the Czech Republic kept the flag and Slovakia adopted a new one.
 
 ## 5. South Vietnam (1955–1975)
 
-A yellow field with three horizontal red stripes. It disappeared when Saigon fell in 1975 and the country was reunified under the North. The banner is still flown by many Vietnamese communities abroad.
+A [yellow field with three horizontal red stripes](https://www.britannica.com/topic/flag-of-Vietnam). It disappeared when Saigon fell in 1975 and the country was reunified under the North. The banner is still flown by many Vietnamese communities abroad.
 
 ## 6. Rhodesia (1965–1979)
 
-A green-white-green flag bearing the country's coat of arms. Rhodesia's white-minority government ended in 1979, and the country became Zimbabwe with a new flag in 1980.
+Vertical green-white-green stripes with the country's coat of arms in the centre: a flag [adopted on November 11, 1968](https://www.britannica.com/topic/flag-of-Zimbabwe), three years to the day after the declaration of independence. Rhodesia's white-minority government ended in 1979, and the country became Zimbabwe with a new flag in 1980.
 
 ## 7. Ottoman Empire (until 1922)
 
-A red field with a white crescent and star, the direct ancestor of the modern Turkish flag. The empire was abolished in 1922 and replaced by the Republic of Turkey.
+A red field with a white crescent and star, the direct ancestor of the modern Turkish flag: the star took its five points [about 1844](https://www.britannica.com/topic/flag-of-Turkey). The empire was abolished in 1922 and replaced by the Republic of Turkey.
 
 ## 8. Austria-Hungary (until 1918)
 
@@ -51,9 +52,9 @@ The dual monarchy used combined imperial and royal arms rather than a single sim
 
 The famous "Lone Star" flag: a blue vertical band with a single white star, beside white and red horizontal bars. Texas joined the United States in 1845, but kept the flag, which is now its state banner.
 
-## 10. Tibet (used until 1951)
+## 10. Tibet (until the 1950s)
 
-The "snow lion" flag, with two lions, a sun and mountains. It was the banner of the Tibetan government until 1951 and is still used today by Tibetans in exile, though it is banned within Tibet.
+The "snow lion" flag: [a pair of snow lions on the slopes of a snow-clad mountain](https://tibet.net/about-tibet/the-tibetan-national-flag/), beneath a radiant sun. Designed under the Thirteenth Dalai Lama, it was the banner of Tibet before its incorporation into China, which began in 1950, and remains that of the Tibetan administration in exile.
 
 ## Vanished flags at a glance
 
@@ -68,7 +69,7 @@ The "snow lion" flag, with two lions, a sun and mountains. It was the banner of 
 | Crescent and star | Ottoman Empire | 1922 |
 | Imperial arms | Austria-Hungary | 1918 |
 | Lone Star | Republic of Texas | 1845 |
-| Snow lion | Tibet | 1951 |
+| Snow lions | Tibet | 1950s |
 
 To go further, read about the [countries that no longer exist](/en/blog/countries-that-disappeared/) and the [meaning of flags](/en/blog/flags-meaning/).
 
@@ -80,7 +81,7 @@ When a state ceases to exist, its flag is usually retired. Sometimes a successor
 
 ### What was the flag of the Soviet Union?
 
-The flag of the Soviet Union was a plain red field with a gold hammer and sickle crossed beneath a five-pointed star, in the upper hoist. It was used from 1922 until the USSR dissolved in 1991.
+The flag of the Soviet Union was a plain red field with a gold hammer and sickle crossed beneath a five-pointed star, in the upper hoist. Laid down by the Soviet constitution, it was in effect, with minor modifications, from January 31, 1924 until the USSR dissolved at the end of 1991.
 
 ### Which disappeared flag is still used today?
 
@@ -89,3 +90,14 @@ Several are still flown. The Lone Star of the Republic of Texas became the US st
 ### Why did the Yugoslav flag disappear?
 
 The Yugoslav flag disappeared because the country itself broke apart during the wars of the 1990s. Each successor state (Slovenia, Croatia, Bosnia, Serbia, Montenegro, North Macedonia and Kosovo) adopted its own flag.
+
+## Sources
+
+- [Encyclopaedia Britannica, "Flag of Union of Soviet Socialist Republics"](https://www.britannica.com/topic/flag-of-Union-of-Soviet-Socialist-Republics): description of the flag, in effect from January 31, 1924 to December 31, 1991.
+- [Encyclopaedia Britannica, "Flag of Germany"](https://www.britannica.com/topic/flag-of-Germany): coat of arms added to the East German flag in 1959.
+- [Encyclopaedia Britannica, "Flag of the Czech Republic"](https://www.britannica.com/topic/flag-of-the-Czech-Republic): blue triangle added in 1920 to the white-and-red bicolour of 1918.
+- [Encyclopaedia Britannica, "Flag of Vietnam"](https://www.britannica.com/topic/flag-of-Vietnam): yellow flag with three red stripes of the Republic of Vietnam.
+- [Encyclopaedia Britannica, "Flag of Zimbabwe"](https://www.britannica.com/topic/flag-of-Zimbabwe): green-white-green Rhodesian flag adopted on November 11, 1968, new flag in 1979.
+- [Encyclopaedia Britannica, "Flag of Turkey"](https://www.britannica.com/topic/flag-of-Turkey): Ottoman flag of 1793, five-pointed star about 1844.
+- [Encyclopaedia Britannica, "Flag of Texas"](https://www.britannica.com/topic/flag-of-Texas): flags of the Republic of Texas from 1836.
+- [Central Tibetan Administration, "The Tibetan National Flag"](https://tibet.net/about-tibet/the-tibetan-national-flag/): design of the flag, created under the Thirteenth Dalai Lama.

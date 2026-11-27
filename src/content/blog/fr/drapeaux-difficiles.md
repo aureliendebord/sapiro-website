@@ -2,6 +2,7 @@
 title: "15 drapeaux difficiles à reconnaître au monde"
 description: "Tchad ou Roumanie, Monaco ou Indonésie : voici les 15 drapeaux les plus difficiles à reconnaître au monde, avec des astuces pour les distinguer enfin."
 date: 2026-03-01
+lastModified: 2026-11-27
 image: "/images/blog/monde/mur-drapeaux.jpg"
 imageAlt: "Une marine du XVIIe siècle : des navires pavoisés dans un port méditerranéen"
 imageCredit: "Photo : Willem van de Velde the Younger · domaine public · Wikimedia Commons"
@@ -13,20 +14,20 @@ author: "SAPIRO"
 readingTime: 8
 ---
 
-Le Tchad a déposé une plainte officielle auprès des Nations Unies en 2004. La raison ? La Roumanie avait, selon lui, un drapeau trop ressemblant au sien. Pas un conflit territorial. Pas une dispute économique. Un drapeau. Parmi les drapeaux les plus difficiles à reconnaître au monde, cette paire est devenue un cas d'école. Avec 195 pays reconnus et autant de drapeaux, la confusion est presque inévitable. Certaines paires sont si proches que même les spécialistes de vexillologie (la science des drapeaux) s'y perdent. D'autres sont si chargés de détails qu'on ne sait plus où donner de la tête. Voici les 15 qui posent le plus de problèmes, avec des astuces pour enfin les différencier.
+En avril 2004, la presse roumaine affirme que le Tchad a demandé aux Nations unies de se pencher sur un problème inattendu : la Roumanie arbore un drapeau presque identique au sien. L'information n'a jamais été confirmée, mais le président roumain Ion Iliescu a tenu à répondre que [son pays ne renoncerait pas à son drapeau](http://news.bbc.co.uk/2/hi/europe/3626821.stm). Pas un conflit territorial. Pas une dispute économique. Un drapeau. Parmi les drapeaux les plus difficiles à reconnaître au monde, cette paire est devenue un cas d'école. Avec 195 pays reconnus et autant de drapeaux, la confusion est presque inévitable. Certaines paires sont si proches que même les spécialistes de vexillologie (la science des drapeaux) s'y perdent. D'autres sont si chargés de détails qu'on ne sait plus où donner de la tête. Voici les 15 qui posent le plus de problèmes, avec des astuces pour enfin les différencier.
 
 ## Pourquoi certains drapeaux se ressemblent-ils ?
 
-Le premier piège, le plus classique : deux drapeaux quasi identiques côte à côte. Sur les 195 drapeaux nationaux reconnus par l'ONU, une étude de la North American Vexillological Association estime qu'une trentaine de paires peuvent être confondues à l'œil nu. Ces ressemblances racontent souvent une histoire plus profonde qu'un simple hasard.
+Le premier piège, le plus classique : deux drapeaux quasi identiques côte à côte. Ces ressemblances racontent souvent une histoire plus profonde qu'un simple hasard.
 
-Tchad et Roumanie, donc. Trois bandes verticales bleue, jaune et rouge, dans les deux cas. La seule différence tient à une nuance de bleu : le Tchad utilise un bleu légèrement plus sombre. À l'œil nu, en conditions réelles, sur un mât qui claque au vent ? Bonne chance. C'est la paire qui a provoqué une crise diplomatique.
+Tchad et Roumanie, donc. Trois bandes verticales bleue, jaune et rouge, dans les deux cas. La seule différence tient à une nuance de bleu : le Tchad utilise un bleu légèrement plus sombre. À l'œil nu, en conditions réelles, sur un mât qui claque au vent ? Bonne chance. L'ironie de l'histoire : en 1959, le Tchad avait d'abord envisagé un tricolore vert, jaune et rouge, puis [remplacé le vert par du bleu](https://www.britannica.com/topic/flag-of-Chad) parce que la Fédération du Mali venait d'adopter ces trois couleurs.
 
 <div class="flag-row">
   <figure><img src="/flags/countries/td.svg" alt="Drapeau : Tchad" loading="lazy" /><figcaption>Tchad</figcaption></figure>
   <figure><img src="/flags/countries/ro.svg" alt="Drapeau : Roumanie" loading="lazy" /><figcaption>Roumanie</figcaption></figure>
 </div>
 
-Monaco et Indonésie posent un problème similaire. Deux bandes horizontales, rouge en haut, blanche en bas. Point. La différence réside dans les proportions : Monaco adopte un ratio de 4:5, l'Indonésie un ratio de 2:3, ce qui rend le drapeau indonésien légèrement plus allongé. En pratique, on ne le remarque jamais.
+Monaco et Indonésie posent un problème similaire. Deux bandes horizontales, rouge en haut, blanche en bas. Point. La différence réside dans les proportions : Monaco adopte un [ratio de 4:5](https://www.britannica.com/topic/flag-of-Monaco), l'Indonésie un ratio de 2:3, ce qui rend le drapeau indonésien légèrement plus allongé. En pratique, on ne le remarque jamais.
 
 <div class="flag-row">
   <figure><img src="/flags/countries/mc.svg" alt="Drapeau : Monaco" loading="lazy" /><figcaption>Monaco</figcaption></figure>
@@ -44,7 +45,7 @@ Irlande et Côte d'Ivoire, c'est plus vicieux. Trois bandes verticales verte, bl
 
 Certains drapeaux ne ressemblent à rien d'autre. Leur problème, c'est l'inverse : ils sont tellement chargés qu'on n'arrive pas à les mémoriser. Si la [signification des symboles](/blog/signification-drapeaux/) vous intrigue, sachez que chaque détail a une raison d'être.
 
-Le Turkménistan détient l'un des designs les plus élaborés de la planète. Fond vert, croissant de lune, cinq étoiles, et surtout une bande verticale rouge le long du mât ornée de cinq motifs de tapis traditionnels, un pour chacune des grandes tribus du pays. En dessous, deux branches d'olivier croisées. On pourrait passer dix minutes à le détailler sans en retenir la moitié.
+Le Turkménistan détient l'un des designs les plus élaborés de la planète. Fond vert, croissant de lune, cinq étoiles, et surtout une bande verticale rouge le long du mât ornée de [cinq motifs de tapis traditionnels](https://www.britannica.com/topic/flag-of-Turkmenistan), un pour chacune des grandes tribus du pays. Au pied de la bande, deux branches d'olivier croisées, ajoutées en 1997. On pourrait passer dix minutes à le détailler sans en retenir la moitié.
 
 <div class="flag-row">
   <figure><img src="/flags/countries/tm.svg" alt="Drapeau : Turkménistan" loading="lazy" /><figcaption>Turkménistan</figcaption></figure>
@@ -56,7 +57,7 @@ Le Bhoutan mise sur un dragon blanc tonnerre, le Druk, sur un fond coupé en dia
   <figure><img src="/flags/countries/bt.svg" alt="Drapeau : Bhoutan" loading="lazy" /><figcaption>Bhoutan</figcaption></figure>
 </div>
 
-Le Sri Lanka frappe par son originalité. Un lion doré brandissant une épée sur fond pourpre, encadré de bandes verticales verte et orange, avec quatre feuilles de pipal dans les coins. Le pourpre comme couleur dominante est rarissime dans les drapeaux nationaux. C'est beau. C'est unique. Et c'est un cauchemar à retenir.
+Le Sri Lanka frappe par son originalité. Sur un champ jaune, [deux bandes verticales verte et orange](https://www.britannica.com/topic/flag-of-Sri-Lanka) côté hampe, puis un rectangle cramoisi où un lion doré brandit une épée, avec une feuille de pipal dans chaque coin. Le cramoisi comme couleur dominante est rare dans les drapeaux nationaux. C'est beau. C'est unique. Et c'est un cauchemar à retenir.
 
 <div class="flag-row">
   <figure><img src="/flags/countries/lk.svg" alt="Drapeau : Sri Lanka" loading="lazy" /><figcaption>Sri Lanka</figcaption></figure>
@@ -66,7 +67,7 @@ Le Sri Lanka frappe par son originalité. Un lion doré brandissant une épée s
 
 Au-delà des designs complexes dans leur ensemble, certains pays ont inséré des emblèmes si minutieux qu'il faudrait une loupe pour en saisir toutes les subtilités.
 
-Le Belize bat probablement tout le monde sur ce terrain. Son emblème central montre deux bûcherons (un métis et un créole) encadrant un écusson où figurent un navire, une scie, une hache et un acajou. Le tout ceint d'une couronne de cinquante feuilles, avec la devise "Sub Umbra Floreo" (Je fleuris à l'ombre). [Douze couleurs différentes](https://fr.wikipedia.org/wiki/Drapeau_du_Belize), le record absolu pour un drapeau national. Qui peut honnêtement prétendre le reproduire de tête ?
+Le Belize bat probablement tout le monde sur ce terrain. Son emblème central montre deux bûcherons (un métis et un créole) encadrant un écusson où figurent un navire, une scie, une hache et un acajou. Le tout ceint d'une [couronne de cinquante feuilles](https://www.britannica.com/topic/flag-of-Belize), avec la devise "Sub Umbra Floreo" (Je fleuris à l'ombre). [Douze couleurs différentes](https://fr.wikipedia.org/wiki/Drapeau_du_Belize) selon le décompte habituel, ce qui en fait l'un des drapeaux nationaux les plus colorés. Qui peut honnêtement prétendre le reproduire de tête ?
 
 <div class="flag-row">
   <figure><img src="/flags/countries/bz.svg" alt="Drapeau : Belize" loading="lazy" /><figcaption>Belize</figcaption></figure>
@@ -78,7 +79,7 @@ Le Mexique place en son centre un aigle royal perché sur un cactus nopal, en tr
   <figure><img src="/flags/countries/mx.svg" alt="Drapeau : Mexique" loading="lazy" /><figcaption>Mexique</figcaption></figure>
 </div>
 
-L'Afghanistan a changé de drapeau un nombre incalculable de fois au fil de son histoire. La version précédant le régime taliban montrait une mosquée détaillée, des gerbes de blé et une inscription arabe. L'emblème central était si chargé qu'une identification rapide relevait du défi.
+L'Afghanistan a changé de drapeau un nombre incalculable de fois au fil de son histoire. La version en usage jusqu'au retour des talibans au pouvoir, en 2021, montrait une mosquée détaillée, des gerbes de blé et une inscription arabe. L'emblème central était si chargé qu'une identification rapide relevait du défi.
 
 <div class="flag-row">
   <figure><img src="/flags/countries/af.svg" alt="Drapeau : Afghanistan (2004-2021)" loading="lazy" /><figcaption>Afghanistan (2004-2021)</figcaption></figure>
@@ -108,7 +109,7 @@ Mali, Sénégal et Guinée : trois bandes verticales verte, jaune et rouge, les 
 
 Mêmes couleurs, disposition proche, mais des détails subtils qui échappent au regard pressé.
 
-Australie et Nouvelle-Zélande. Fond bleu, Union Jack dans le canton supérieur gauche, étoiles de la Croix du Sud. La recette est commune. Mais l'Australie ajoute une grande étoile du Commonwealth à six branches sous l'Union Jack et colore ses étoiles en blanc. La Nouvelle-Zélande n'a que quatre étoiles, rouges bordées de blanc, et pas d'étoile du Commonwealth. Quand on le sait, ça se voit. Quand on ne le sait pas, on mélange systématiquement.
+Australie et Nouvelle-Zélande. Fond bleu, Union Jack dans le canton supérieur gauche, étoiles de la Croix du Sud. La recette est commune. Mais l'Australie ajoute sous l'Union Jack une grande [étoile du Commonwealth à sept branches](https://www.britannica.com/topic/flag-of-Australia) et colore ses six étoiles en blanc. La Nouvelle-Zélande n'a que quatre étoiles, rouges bordées de blanc, et pas d'étoile du Commonwealth. Quand on le sait, ça se voit. Quand on ne le sait pas, on mélange systématiquement.
 
 <div class="flag-row">
   <figure><img src="/flags/countries/au.svg" alt="Drapeau : Australie" loading="lazy" /><figcaption>Australie</figcaption></figure>
@@ -133,7 +134,7 @@ Le Népal est le seul pays au monde avec un [drapeau non rectangulaire](https://
   <figure><img src="/flags/countries/np.svg" alt="Drapeau : Népal" loading="lazy" /><figcaption>Népal</figcaption></figure>
 </div>
 
-Le Mozambique affiche une arme moderne sur son drapeau. C'est le seul pays à le faire. Un fusil AK-47 avec baïonnette croisé une houe sur un livre ouvert, le tout posé sur une étoile jaune. Un choix qui en dit long sur l'histoire tourmentée du pays et qui ne laisse personne indifférent.
+Le Mozambique affiche une arme moderne sur son drapeau, et il est souvent présenté comme le seul pays à le faire. Un [fusil d'assaut croise une houe](https://www.britannica.com/topic/flag-of-Mozambique) au-dessus d'un livre ouvert, le tout posé sur une étoile jaune. Un choix qui en dit long sur l'histoire tourmentée du pays et qui ne laisse personne indifférent.
 
 <div class="flag-row">
   <figure><img src="/flags/countries/mz.svg" alt="Drapeau : Mozambique" loading="lazy" /><figcaption>Mozambique</figcaption></figure>
@@ -160,15 +161,15 @@ Et puis il y a l'apprentissage actif par les quiz. Se tester régulièrement anc
 
 ### Quels sont les deux drapeaux les plus similaires au monde ?
 
-Le Tchad et la Roumanie partagent trois bandes verticales bleue, jaune et rouge pratiquement identiques. Seule une légère nuance de bleu les distingue, ce qui a provoqué une plainte officielle du Tchad auprès de l'ONU en 2004.
+Le Tchad et la Roumanie partagent trois bandes verticales bleue, jaune et rouge pratiquement identiques. Seule une légère nuance de bleu les distingue. En 2004, la presse roumaine a prêté au Tchad l'intention de saisir l'ONU à ce sujet, sans que cela soit confirmé.
 
 ### Combien de drapeaux dans le monde sont tricolores ?
 
-Environ 65 pays arborent un drapeau tricolore, soit un tiers des drapeaux nationaux. Ce format, popularisé par la Révolution française, explique en partie les nombreuses ressemblances entre drapeaux.
+Il n'existe pas de décompte officiel, car tout dépend de la définition retenue : trois bandes égales, ou simplement trois couleurs. Le format à trois bandes, popularisé par la Révolution française, reste l'un des plus répandus, ce qui explique en partie les nombreuses ressemblances entre drapeaux.
 
 ### Quel est le seul pays avec un drapeau non rectangulaire ?
 
-Le Népal est le seul pays dont le drapeau n'est ni rectangulaire ni carré. Composé de deux pennons triangulaires superposés, il évoque les sommets de l'Himalaya.
+Le Népal est le seul pays dont le drapeau n'est ni rectangulaire ni carré. Composé de deux pennons triangulaires superposés, il est souvent associé aux sommets de l'Himalaya.
 
 ### Comment retenir les drapeaux qui se ressemblent ?
 
@@ -181,3 +182,17 @@ Envie de voir où vous en êtes avant d'aller plus loin ? Notre [quiz drapeaux e
 Tchad ou Roumanie ? Mali ou Guinée ? Australie ou Nouvelle-Zélande ? SAPIRO inclut un mode dédié aux drapeaux qui vous confronte à ces paires piégées, du niveau débutant jusqu'au mode expert.
 
 L'appli repère les drapeaux que vous confondez et les repropose à intervalles espacés pour consolider la mémorisation. Vous pouvez aussi défier vos amis sur les mêmes séries. Bref, un bon moyen de passer de "je confonds tout" à "je distingue le bleu du Tchad de celui de la Roumanie".
+
+## Sources
+
+- [BBC News, « 'Identical flag' causes flap in Romania »](http://news.bbc.co.uk/2/hi/europe/3626821.stm) : informations non confirmées sur une démarche du Tchad auprès de l'ONU et réponse du président Iliescu, 14 avril 2004.
+- [Encyclopædia Britannica, « Flag of Chad »](https://www.britannica.com/topic/flag-of-Chad) : projet vert-jaune-rouge de juin 1959, drapeau actuel approuvé le 6 novembre 1959.
+- [Encyclopædia Britannica, « Flag of Monaco »](https://www.britannica.com/topic/flag-of-Monaco) : ratio 4:5, loi du 4 avril 1881, ressemblance fortuite avec l'Indonésie.
+- [Encyclopædia Britannica, « Flag of Indonesia »](https://www.britannica.com/topic/flag-of-Indonesia) : ratio 2:3, adoption le 17 août 1945.
+- [Encyclopædia Britannica, « Flag of Turkmenistan »](https://www.britannica.com/topic/flag-of-Turkmenistan) : cinq motifs de tapis et leurs tribus, version 1992-1997 puis ajout des rameaux d'olivier.
+- [Encyclopædia Britannica, « Flag of Sri Lanka »](https://www.britannica.com/topic/flag-of-Sri-Lanka) : champ jaune, bandes verte et orange, rectangle cramoisi, lion et quatre feuilles.
+- [Encyclopædia Britannica, « Flag of Belize »](https://www.britannica.com/topic/flag-of-Belize) : armoiries, devise et couronne de 50 feuilles.
+- [Encyclopædia Britannica, « Flag of Australia »](https://www.britannica.com/topic/flag-of-Australia) : six étoiles blanches, étoile du Commonwealth à sept branches.
+- [Encyclopædia Britannica, « Flag of Paraguay »](https://www.britannica.com/topic/flag-of-Paraguay) : armoiries à l'avers, sceau du Trésor au revers.
+- [Encyclopædia Britannica, « Flag of Luxembourg »](https://www.britannica.com/topic/flag-of-Luxembourg) : bleu plus clair et proportions différentes de celles des Pays-Bas.
+- [Encyclopædia Britannica, « Flag of Mozambique »](https://www.britannica.com/topic/flag-of-Mozambique) : étoile jaune, livre ouvert, houe et fusil d'assaut croisés.
